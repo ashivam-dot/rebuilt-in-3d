@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -60,7 +61,8 @@ def description(short: Short) -> str:
               "so depth and relief are visible. Narration is synthetic (Kokoro text-to-speech).",
               "Spotted an error? Comment with a source and we will correct it.", ""]
     lines += ["Credits: " + "; ".join(short.credits), ""]
-    lines += ["#" + t.replace(" ", "") for t in short.tags[:3]]
+    words = ["".join(w[:1].upper() + w[1:] for w in h.split()) if " " in h else h for h in short.hashtags]
+    lines.append(" ".join("#" + re.sub(r"[^0-9A-Za-z]", "", w) for w in words if re.sub(r"[^0-9A-Za-z]", "", w)))
     text = "\n".join(lines)
     if len(text) > 4900:
         text = text[:4900]
@@ -68,15 +70,14 @@ def description(short: Short) -> str:
 
 
 def tags(short: Short) -> list[str]:
-    out, total = [], 0
-    for t in short.tags + ["Rebuilt in 3D", MARKER + short.id]:
+    marker = MARKER + short.id
+    out, total = [], len(marker) + 2
+    for t in short.tags + ["Rebuilt in 3D"]:
         if total + len(t) + 2 > 480:
             break
         out.append(t)
         total += len(t) + 2
-    if MARKER + short.id not in out:
-        out[-1] = MARKER + short.id
-    return out
+    return out + [marker]
 
 
 def publish(short: Short, mp4: Path, max_wait: int = 900) -> dict:

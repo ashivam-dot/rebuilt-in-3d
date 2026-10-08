@@ -150,7 +150,8 @@ def build(event_id: str) -> Short:
         id=f"eq-{event_id}", kind="quake", title=title, beats=beats, facts=facts, sources=[page], loss=loss,
         scene=scene, event_time=q.time.isoformat(),
         tags=["earthquake", f"{region} earthquake", f"magnitude {mag}", "USGS", "3D map", "explained", "geology"],
-        summary=f"A magnitude {mag} earthquake struck {q.place} at {when} {q.time.year}, at a depth USGS puts at "
+        summary=f"A magnitude {mag} earthquake struck {q.place} at {when}, {q.time.year}, at a depth USGS puts at "
                 f"about {depth} km.",
         credits=[CHANNEL_CREDIT, terrain.CREDIT],
+        hashtags=["earthquake", region, "science"],
     )

@@ -39,6 +39,7 @@ class Short:
     summary: str = ""
     event_time: str = ""
     credits: list[str] = field(default_factory=list)
+    hashtags: list[str] = field(default_factory=list)
 
     def save(self, path: Path) -> Path:
         path.parent.mkdir(parents=True, exist_ok=True)
