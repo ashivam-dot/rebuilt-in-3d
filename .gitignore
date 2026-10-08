@@ -1,0 +1,15 @@
+.env
+*.env
+secrets/
+private/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+work/
+out/
+*.mp4
+*.wav
+!assets/**/*.wav
+.DS_Store
