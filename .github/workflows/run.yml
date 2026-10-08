@@ -9,6 +9,10 @@ on:
         description: "Make but do not publish"
         type: boolean
         default: false
+      event:
+        description: "Only make this USGS event ID (never publishes)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -27,6 +31,7 @@ jobs:
       RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
       RUN_ID: ${{ github.run_id }}
       DRY: ${{ inputs.dry && 'true' || 'false' }}
+      EVENT: ${{ inputs.event }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -56,7 +61,9 @@ jobs:
         env:
           YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
         run: |
-          if [ "$DRY" = "true" ]; then uv run python -m studio.cli run --dry; else uv run python -m studio.cli run; fi
+          if [ -n "$EVENT" ]; then uv run python -m studio.cli make "$EVENT"
+          elif [ "$DRY" = "true" ]; then uv run python -m studio.cli run --dry
+          else uv run python -m studio.cli run; fi
       - name: Save state
         if: always()
         run: |
@@ -64,6 +71,7 @@ jobs:
           git add -A
           git -c user.name="rebuilt-in-3d bot" -c user.email="335661989+ashivam-dot@users.noreply.github.com" \
             commit -q -m "state: run $RUN_ID" || exit 0
+          git pull -q --rebase origin state
           git push -q origin HEAD:state
       - name: Keep the Short
         if: always()

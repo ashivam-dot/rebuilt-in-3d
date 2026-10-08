@@ -207,6 +207,8 @@ const shocks = S.aftershocks.map((a) => {
 const card = document.getElementById('card'), big = document.getElementById('big'), small = document.getElementById('small');
 const legend = document.getElementById('legend'), caps = document.getElementById('captions');
 document.getElementById('credits').textContent = S.credits;
+const badgeBox = document.getElementById('badge').getBoundingClientRect();
+const creditsBox = document.getElementById('credits').getBoundingClientRect();
 for (const l of S.legend) { const chip = el('span', '', l.roman); chip.style.background = l.color; legend.appendChild(chip); }
 const TONES = { green: '#3ddc84', yellow: '#ffd60a', orange: '#ff9f0a', red: '#ff453a' };
 const chunks = [];
@@ -298,7 +300,8 @@ window.renderAt = (t) => {
 
   const ap = shot('approach');
   if (reach.userData.mat) reach.userData.mat.opacity = ap ? 0.9 * smooth(ap.t0 + 0.4, ap.t0 + 1.2, t) * (1 - smooth(ap.t1, ap.t1 + 0.6, t)) : 0;
-  const placed = [];
+  const placed = [badgeBox, creditsBox];
+  if (Number(card.style.opacity) > 0.2) placed.push(card.getBoundingClientRect());
   for (const m of marks) {
     let on = m.cls === 'hist' ? !!(hs && t >= hs.t0) : (!ap || t >= ap.t0 - 0.3);
     if (m.p.z > cut.constant + 0.01) on = false;

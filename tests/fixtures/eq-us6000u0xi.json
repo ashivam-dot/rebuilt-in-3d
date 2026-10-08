@@ -59,11 +59,11 @@
    "pause_after": 0.3
   },
   {
-   "text": "The zone is active. In 1999, a magnitude 7.4 quake struck about 95 kilometres east of this one.",
+   "text": "The zone is active. In 1999, a magnitude 7.4 quake struck about 100 kilometres south of this one.",
    "shot": "history",
    "card": {
     "big": "M7.4 · 1999",
-    "small": "95 km east"
+    "small": "100 km south"
    },
    "pause_after": 0.3
   },
@@ -152,9 +152,9 @@
    "numbers": [
     "1999",
     "7.4",
-    "95"
+    "100"
    ],
-   "evidence": "A magnitude 7.4 earthquake 95 km e of this event struck UK on November 26, 1999 (UTC), with estimated population exposures of 32,000 at intensity VII and 5,000 at intensity VIII, resulting in a reported 10 fatalities."
+   "evidence": "A magnitude 7.4 earthquake 95 km e of this event struck UK on November 26, 1999 (UTC), with estimated population exposures of 32,000 at intensity VII and 5,000 at intensity VIII, resulting in a reported 10 fatalities. Distance and direction measured between the USGS epicentres (-16.423, 168.214) and this event's: about 100 km south."
   }
  ],
  "sources": [
@@ -212,12 +212,13 @@
   ],
   "history": {
    "mag": "7.4",
-   "km": 95,
-   "direction": "east",
+   "km": 100,
+   "direction": "south",
    "date": "November 26, 1999",
    "year": "1999",
    "lat": -16.423,
-   "lon": 168.214
+   "lon": 168.214,
+   "measured": true
   },
   "aftershocks": [],
   "contours": {

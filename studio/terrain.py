@@ -83,9 +83,9 @@ def texture(h: np.ndarray, meta: dict, width: int = 2048) -> Image.Image:
     az, alt = math.radians(315), math.radians(42)
     shade = np.clip(np.sin(alt) * np.cos(slope) + np.cos(alt) * np.sin(slope) * np.cos(az - aspect), 0, 1)
     # Low-zoom tiles are coarse: classify land on a blurred surface and drop specks, so shores aren't pixel stairs.
-    scale = width / h.shape[1]
-    soft = Image.fromarray(hh).filter(ImageFilter.GaussianBlur(max(1.0, scale * 0.6)))
-    mask = Image.fromarray(((np.asarray(soft) >= 0) * 255).astype(np.uint8)).filter(ImageFilter.MedianFilter(7))
+    mask = Image.fromarray(((hh >= 0) * 255).astype(np.uint8))
+    mask = mask.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.MinFilter(9))
+    mask = mask.filter(ImageFilter.GaussianBlur(2)).point(lambda v: 255 if v > 127 else 0).filter(ImageFilter.MedianFilter(5))
     land = np.asarray(mask) > 127
     col = np.where(land[..., None], _ramp(np.maximum(hh, 0), LAND), _ramp(np.minimum(hh, 0), SEA))
     k = np.where(land, 0.45 + 0.65 * shade, 0.75 + 0.35 * shade)[..., None]

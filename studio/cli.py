@@ -53,7 +53,7 @@ def run(dry: bool = False) -> dict:
         found = plan.watch()
         health["steps"].append(f"watch: {len(found['quakes'])} quake candidates, {len(found['hazards'])} hazard alerts")
         wait = plan.can_publish()
-        if wait:
+        if wait and not dry:
             health["steps"].append(f"hold: {wait}")
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]

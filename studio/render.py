@@ -46,7 +46,7 @@ def _poses(name: str, R: float, D: float, scene: dict) -> tuple[tuple, tuple, tu
         return (lx + 0.15 * R, 1.0 * R, lz + 1.2 * R), (lx + 0.04 * R, 0.9 * R, lz + 1.05 * R), (lx, 0, lz)
     if name == "history":
         hx, hz = scene.get("hist_xz") or [0, 0]
-        mx, mz = hx / 2, hz / 2
+        mx, mz = hx * 0.6, hz * 0.6
         span = max(R * 0.6, math.hypot(hx, hz))
         return (mx + 0.1 * R, 1.2 * span, mz + 1.35 * span), (mx - 0.05 * R, 1.1 * span, mz + 1.2 * span), (mx, 0, mz)
     return (0.35 * R, 1.75 * R, 2.25 * R), (-0.3 * R, 1.65 * R, 2.15 * R), (0, -0.05 * R, 0)
