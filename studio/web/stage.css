@@ -1,0 +1,26 @@
+@font-face { font-family: "Inter"; src: url("./vendor/InterVariable.woff2") format("woff2"); font-weight: 100 900; }
+html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #08111d; font-family: "Inter", "DejaVu Sans", sans-serif; }
+#sky { position: absolute; inset: 0; background: radial-gradient(120% 70% at 50% 38%, #1d3554 0%, #0e1c2f 55%, #070e18 100%); }
+canvas { position: absolute; inset: 0; display: block; }
+#labels { position: absolute; inset: 0; pointer-events: none; }
+.label { position: absolute; transform: translate(-50%, -100%); white-space: nowrap; color: #f4f7fb; font-weight: 650;
+  font-size: 30px; padding: 6px 14px; border-radius: 999px; background: rgba(8, 17, 29, 0.72);
+  border: 2px solid rgba(255, 255, 255, 0.25); letter-spacing: 0.01em; }
+.label.epi { border-color: #ff3b30; color: #fff; }
+.label.hist { border-color: #b9c4d3; color: #d6dde7; font-weight: 550; }
+.label .sub { font-weight: 450; opacity: 0.8; margin-left: 8px; font-size: 26px; }
+#badge { position: absolute; top: 92px; left: 50%; transform: translateX(-50%); color: #e9eef5; font-size: 25px;
+  font-weight: 700; letter-spacing: 0.08em; padding: 10px 22px; border-radius: 10px; background: rgba(8, 17, 29, 0.6);
+  border: 1.5px solid rgba(255, 176, 0, 0.75); white-space: nowrap; }
+#card { position: absolute; top: 210px; left: 70px; right: 70px; text-align: center; color: #fff; opacity: 0; }
+#big { font-size: 128px; font-weight: 820; letter-spacing: -0.02em; line-height: 1.02;
+  text-shadow: 0 6px 30px rgba(0, 0, 0, 0.55); }
+#small { margin-top: 14px; font-size: 40px; font-weight: 560; color: #cfd8e3; text-shadow: 0 3px 14px rgba(0, 0, 0, 0.6); }
+#legend { margin-top: 22px; display: none; justify-content: center; gap: 10px; }
+#legend span { font-size: 26px; font-weight: 750; color: #0b1320; padding: 5px 14px; border-radius: 8px; }
+#captions { position: absolute; top: 1240px; left: 60px; right: 60px; text-align: center; font-size: 66px;
+  font-weight: 800; line-height: 1.18; color: #fff; letter-spacing: -0.005em;
+  text-shadow: 0 0 6px #000, 0 4px 18px rgba(0, 0, 0, 0.85); }
+#captions .now { color: #ffb000; }
+#credits { position: absolute; top: 1452px; left: 60px; right: 60px; text-align: center; font-size: 23px;
+  color: rgba(222, 230, 240, 0.78); font-weight: 500; text-shadow: 0 2px 8px #000; }

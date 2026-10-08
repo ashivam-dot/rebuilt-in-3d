@@ -1,0 +1,25 @@
+name: health
+# Alert on silence: if the hourly run hasn't recorded a pass for 4 hours, open an issue (GitHub emails the owner).
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          ref: state
+          path: state
+      - name: Check the last run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/health_check.py state/health.json

@@ -2,12 +2,14 @@
 *.env
 secrets/
 private/
+.scratch/
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 node_modules/
 work/
+state/
 out/
 *.mp4
 *.wav

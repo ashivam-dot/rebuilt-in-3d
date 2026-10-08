@@ -1,0 +1,86 @@
+name: run
+# One pass an hour: watch official feeds, make the best eligible Short, gate it, publish it, record the result.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "Make but do not publish"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: studio
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    environment: youtube
+    env:
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      RUN_ID: ${{ github.run_id }}
+      DRY: ${{ inputs.dry && 'true' || 'false' }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - name: Check out the state branch
+        run: |
+          git fetch --depth 1 origin state
+          git worktree add state origin/state
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/ms-playwright
+            work/cache
+          key: models-${{ hashFiles('uv.lock') }}
+          restore-keys: models-
+      - name: Install
+        run: |
+          uv sync --frozen
+          uv run playwright install --with-deps chromium-headless-shell
+      - name: Run
+        env:
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+        run: |
+          if [ "$DRY" = "true" ]; then uv run python -m studio.cli run --dry; else uv run python -m studio.cli run; fi
+      - name: Save state
+        if: always()
+        run: |
+          cd state
+          git add -A
+          git -c user.name="rebuilt-in-3d bot" -c user.email="335661989+ashivam-dot@users.noreply.github.com" \
+            commit -q -m "state: run $RUN_ID" || exit 0
+          git push -q origin HEAD:state
+      - name: Keep the Short
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts-${{ github.run_id }}
+          path: |
+            work/*/short.mp4
+            work/*/short.json
+            work/*/stills/*.png
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh issue list --state open --label alert --search "Studio run failed" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "Failed again: $RUN_URL"
+          else gh issue create --label alert --title "Studio run failed" --body "Run: $RUN_URL (details in state/health.json on the state branch)"; fi

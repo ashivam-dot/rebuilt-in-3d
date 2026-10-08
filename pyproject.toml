@@ -1,0 +1,44 @@
+[project]
+name = "rebuilt-in-3d"
+version = "0.1.0"
+description = "Watches the world's major incidents and rebuilds them in 3D from open data for YouTube Shorts."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2.0",
+    "pillow>=11",
+    "pyyaml>=6",
+    "requests>=2.32",
+    "feedparser>=6",
+    "playwright>=1.60",
+    "soundfile>=0.13",
+    "kokoro>=0.9.4",
+    "misaki[en]>=0.9",
+    "torch>=2.14",
+    "transformers>=5.17",
+    "google-auth>=2.40",
+    "google-auth-oauthlib>=1.2",
+    "google-api-python-client>=2.170",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+studio = "studio.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["studio*"]
+
+[tool.setuptools.package-data]
+studio = ["web/*", "web/vendor/*"]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
