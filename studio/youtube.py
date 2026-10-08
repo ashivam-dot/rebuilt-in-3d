@@ -119,5 +119,6 @@ def publish(short: Short, mp4: Path, max_wait: int = 900) -> dict:
     final = api.videos().list(part="status,snippet", id=video_id).execute()["items"][0]
     if final["status"]["privacyStatus"] != "public":
         raise RuntimeError(f"video {video_id} did not go public ({final['status']['privacyStatus']})")
+    # containsSyntheticMedia is write-only in practice: videos.list omits it even though Studio shows "AI use: Yes".
     return {"video_id": video_id, "url": f"https://www.youtube.com/shorts/{video_id}", "title": final["snippet"]["title"],
-            "privacy": "public", "synthetic_flag": final["status"].get("containsSyntheticMedia")}
+            "privacy": "public", "synthetic_declared": True}
