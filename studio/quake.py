@@ -120,7 +120,7 @@ def build(event_id: str) -> Short:
         facts.append(Fact("history", f"M{hist['mag']} {hist['date']}", page, [hist["year"], hist["mag"], str(hist["km"])],
                           evidence))
     beats.append(Beat("Every number here comes from USGS. Follow for the data behind the world's biggest events.",
-                      "outro", {"big": "Rebuilt in 3D", "small": "Data: USGS · not real footage"}, pause_after=0.6))
+                      "outro", {"big": "Orbitwire", "small": "Data: USGS · not real footage"}, pause_after=0.6))
 
     keep = _contour_extent(pk.get("mmi_contours"), 5.0)
     ref_city = next((c for c in pk.get("cities", []) if c["name"] == place["ref"]), None)

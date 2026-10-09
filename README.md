@@ -1,10 +1,10 @@
-# Rebuilt in 3D
+# Orbitwire
 
-An unattended studio that watches official hazard feeds and rebuilds major events as 3D data graphics for YouTube
-Shorts: terrain and sea floor from open elevation data, the quake drawn where seismologists located it, the shaking
-mapped from the USGS ShakeMap, and every number said aloud traced to a primary source.
+An unattended studio that finds the world's most famous trending stories and shows them as 3D data graphics for
+YouTube Shorts: terrain and sea floor from open elevation data, the event drawn where it happened, and every number
+said aloud traced to a named public source. (The repo keeps the channel's first name, Rebuilt in 3D.)
 
-Channel: [Rebuilt in 3D](https://www.youtube.com/channel/UCfqAy1IxE2Cwu9pmZGMambA) ·
+Channel: [Orbitwire](https://www.youtube.com/@orbitwirenews) ·
 Site and privacy policy: <https://ashivam-dot.github.io/rebuilt-in-3d/>
 
 ## How a Short is made

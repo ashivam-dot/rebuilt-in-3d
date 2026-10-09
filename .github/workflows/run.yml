@@ -69,7 +69,7 @@ jobs:
         run: |
           cd state
           git add -A
-          git -c user.name="rebuilt-in-3d bot" -c user.email="335661989+ashivam-dot@users.noreply.github.com" \
+          git -c user.name="orbitwire bot" -c user.email="335661989+ashivam-dot@users.noreply.github.com" \
             commit -q -m "state: run $RUN_ID" || exit 0
           git pull -q --rebase origin state
           git push -q origin HEAD:state

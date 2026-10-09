@@ -1,1 +1,1 @@
-"""Rebuilt in 3D: the world's major incidents, rebuilt from open data."""
+"""Orbitwire: the world's most famous trending stories, shown in 3D from open data."""

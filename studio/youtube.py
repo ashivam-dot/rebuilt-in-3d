@@ -1,4 +1,4 @@
-"""Identity-pinned YouTube publishing for the Rebuilt in 3D channel: upload private, verify, then make public."""
+"""Identity-pinned YouTube publishing for the Orbitwire channel: upload private, verify, then make public."""
 from __future__ import annotations
 
 import json
@@ -17,7 +17,7 @@ from .spec import Short
 CHANNEL_ID = "UCfqAy1IxE2Cwu9pmZGMambA"
 TOKEN_FILE = Path(__file__).resolve().parents[1] / "secrets" / "token.json"
 CATEGORY = "27"  # Education: explainers, not breaking news
-MARKER = "rebuilt-in-3d:"
+MARKER = "rebuilt-in-3d:"  # the channel's first name; published uploads carry it, so it must not change
 
 
 def client(service: str = "youtube", version: str = "v3"):
@@ -72,7 +72,7 @@ def description(short: Short) -> str:
 def tags(short: Short) -> list[str]:
     marker = MARKER + short.id
     out, total = [], len(marker) + 2
-    for t in short.tags + ["Rebuilt in 3D"]:
+    for t in short.tags + ["Orbitwire"]:
         if total + len(t) + 2 > 480:
             break
         out.append(t)
