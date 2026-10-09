@@ -32,6 +32,8 @@ jobs:
       RUN_ID: ${{ github.run_id }}
       DRY: ${{ inputs.dry && 'true' || 'false' }}
       EVENT: ${{ inputs.event }}
+    # Repository variable PAUSED=true holds the hourly schedule (manual runs still work) while a format is reworked.
+    if: github.event_name != 'schedule' || vars.PAUSED != 'true'
     steps:
       - uses: actions/checkout@v5
         with:
