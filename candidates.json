@@ -1,5 +1,5 @@
 {
- "at": "2026-10-09T17:25:49+00:00",
+ "at": "2026-10-09T18:13:40+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,31 +21,6 @@
    "date": "2026-10-08"
   },
   {
-   "qid": "Q138503695",
-   "title": "2026 Iran war",
-   "fame": 270105,
-   "views": 20105,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-08T22:35:46+00:00",
-   "headlines": [
-    "Putin pledges Russia’s support to end US-led war on Iran",
-    "Iran strikes tankers outside Hormuz in signs of expanding campaign"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-08",
-    "google-news:Putin pledges Russia’s support to end US-led war on Iran",
-    "google-news:Iran strikes tankers outside Hormuz in signs of expanding campaign"
-   ],
-   "id": "wk-Q138503695-2026w41",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-08",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q11628",
    "title": "Margaret Hamilton (software engineer)",
    "fame": 162739,
@@ -62,6 +37,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-09-30"
+  },
+  {
+   "qid": "Q141605182",
+   "title": "Flydubai Flight 1073",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-09T16:48:40+00:00",
+   "headlines": [
+    "Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
+   ],
+   "id": "wk-Q141605182",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-09-30",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q228928",
@@ -140,6 +137,16 @@
  ],
  "hazards": [
   {
+   "id": "gdacs-EQ-1570339",
+   "kind": "EQ",
+   "level": "Orange",
+   "title": "Orange earthquake (Magnitude 8M, Depth:33km) in Panama 09/10/2026 17:56 UTC, 480 thousand in 100km.",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570339",
+   "published": "2026-10-09T18:09:42+00:00",
+   "lat": "7.54",
+   "lon": "-80.75"
+  },
+  {
    "id": "gdacs-VO-1000151",
    "kind": "VO",
    "level": "Orange",
@@ -181,31 +188,6 @@
   }
  ],
  "candidates": [
-  {
-   "qid": "Q138503695",
-   "title": "2026 Iran war",
-   "fame": 270105,
-   "views": 20105,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-08T22:35:46+00:00",
-   "headlines": [
-    "Putin pledges Russia’s support to end US-led war on Iran",
-    "Iran strikes tankers outside Hormuz in signs of expanding campaign"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-08",
-    "google-news:Putin pledges Russia’s support to end US-led war on Iran",
-    "google-news:Iran strikes tankers outside Hormuz in signs of expanding campaign"
-   ],
-   "id": "wk-Q138503695-2026w41",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-08",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q228928",
    "title": "Eva Marie Saint",
@@ -297,6 +279,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-02"
+  },
+  {
+   "qid": "Q141605182",
+   "title": "Flydubai Flight 1073",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-09T16:48:40+00:00",
+   "headlines": [
+    "Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
+   ],
+   "id": "wk-Q141605182",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-09-30",
+   "coords": null,
+   "has_coords": true
   }
  ]
 }
