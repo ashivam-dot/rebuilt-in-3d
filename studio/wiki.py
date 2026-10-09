@@ -272,7 +272,8 @@ def article_text(title: str, limit: int = 9000, per_section: int = 2200, focus: 
     """The article as plain text: the lead, then death/legacy/aftermath sections, then the rest in order.
 
     Reference lists and tables of works are dropped and long sections are cut, so the parts a news Short needs
-    survive the length limit. focus: a regex of section titles to put right after the lead instead.
+    survive the length limit; the lead, which carries the outcome, may run twice as long. focus: a regex of section
+    titles to put right after the lead instead.
     """
     d = net.get_json(API, params={"action": "query", "prop": "extracts", "explaintext": 1, "exsectionformat": "wiki",
                                   "titles": title, "redirects": 1, "format": "json", "formatversion": 2})
@@ -282,7 +283,7 @@ def article_text(title: str, limit: int = 9000, per_section: int = 2200, focus: 
         m = re.match(r"^(=+)\s*(.*?)\s*=+$", line)
         if m:
             if body and not SKIP_SECTIONS.match(head):
-                sections.append((head, " ".join(body)[:per_section]))
+                sections.append((head, " ".join(body)[:per_section if head else 2 * per_section]))
             head, body = m.group(2), []
         elif line.strip():
             body.append(line.strip())

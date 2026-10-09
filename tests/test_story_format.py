@@ -1,6 +1,6 @@
 import numpy as np
 
-from studio import align, faces, gate, media, music, writer
+from studio import align, faces, gate, media, music, wiki, writer
 from studio.spec import Beat, Fact, Short
 
 SOURCE = ("Patekar was born in Murud-Janjira. He played a truant, gambling son in Krantiveer (1994), for which he won "
@@ -98,3 +98,11 @@ def test_mix_lasts_as_long_as_the_video(tmp_path):
                   scene={"mood": "tribute"})
     mixed = compose._mix(tmp_path / "narration.wav", short, 2.6, tmp_path)
     assert abs(sf.info(str(mixed)).duration - 2.6) < 0.01
+
+
+def test_article_keeps_the_outcome_at_the_end_of_a_long_lead(monkeypatch):
+    lead = "The protest began in June. " * 100 + "The minister resigned on 25 July."
+    extract = lead + "\n== Background ==\n" + "Earlier history. " * 300
+    monkeypatch.setattr(wiki.net, "get_json", lambda *a, **k: {"query": {"pages": [{"extract": extract}]}})
+    text = wiki.article_text("X")
+    assert "resigned on 25 July" in text and "## Background" in text

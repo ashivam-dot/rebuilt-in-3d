@@ -211,7 +211,7 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     messages = _messages(brief, facts, source, photos, name, headlines)
     ground = source + "\n" + "\n".join(facts) + "\n" + "\n".join(p["description"] for p in photos)
     if series:
-        ground += f"\nPart {series['part']}, Part {series['part'] + 1}, of {series['of']}"
+        ground += f"\nPart {series['part']}, Part {series['part'] + 1}, of {series['of']}. {series.get('next') or ''}"
     log = []
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
