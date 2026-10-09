@@ -338,7 +338,10 @@ def build_incident(cand: dict) -> Short:
     if hurt:
         facts_text.append(f"Injured (Wikipedia and Wikidata agree): {hurt:,}.")
     banned = [v for k, v in ib.items() if re.match(r"(perpetrators?|assailants?|attackers?|suspects?|accused)$", k)]
-    source = wiki.article_text(article, focus=(cand.get("series") or {}).get("sections"))
+    series = cand.get("series") or {}
+    also = series.get("also") or []
+    source = "\n\n".join([wiki.article_text(t) for t in also]
+                         + [wiki.article_text(article, focus=series.get("sections"))])
     if deaths is None:
         # Casualty numbers only when both sources agree: strip unconfirmed tolls from what the writer may use.
         source = re.sub(r"[^.]*\b(killed|dead|deaths|died|fatalit\w*|injured|wounded)\b[^.]*\.", "", source)
@@ -355,7 +358,8 @@ def build_incident(cand: dict) -> Short:
     if deaths is not None:
         facts.append(Fact("deaths", str(deaths), page, [f"{deaths:,}", str(deaths)], "infobox and Wikidata P1120 agree"))
     region = stories.city_of(where) if where else None
-    return _short(sid, "incident", name, draft, log, facts, facts_text, source, photos, [page, item],
+    return _short(sid, "incident", name, draft, log, facts, facts_text, source, photos,
+                  [page, item] + [wiki.url(t) for t in also],
                   when.isoformat(), loss=loss, mood="news", voice=cand.get("region", "world"),
                   tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"]
                   + ([region] if region else []),
