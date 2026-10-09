@@ -60,7 +60,11 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   anyone to join or avoid a protest, and suicide is never mentioned (such sentences are removed from the source).
   Headlines are context only, and only those whose names and numbers the article confirms reach the writer.
 - **Checks:** every name and number in the script must appear in the Wikipedia article or the confirmed Wikidata
-  facts, and a second model pass lists anything unsupported. Deaths and casualty counts keep the two-source rule.
+  facts. Each line must quote the source sentence that supports it; the quote is verified against the sources, and
+  a line that fails gets a second look against its best-matching source sentences before the draft is rewritten
+  (three drafts, then the story is dropped). Deaths and casualty counts keep the two-source rule. The dry run of
+  2026-10-09 (run 37984798160) dropped a Mike Ditka draft for an unsourced anecdote and corrected an Eva Marie
+  Saint line ("two children" became the sourced "four grandchildren"); the hourly desk was unpaused after it.
 
 Sport, celebrity gossip, election results and crime trials are out of scope even when they trend. Quakes also qualify without
 a trend signal when USGS rates them PAGER yellow or worse, or magnitude 7+.
