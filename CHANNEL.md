@@ -7,15 +7,32 @@ keep that old name on purpose. All browser work for it happens in Chrome Profile
 ## What it is
 
 The world's most famous trending stories, told as short documentaries: real photos of the person or the event, a
-story with feeling, and facts checked against public sources. English, 35–50 second vertical Shorts, at most three a
-day and three hours apart.
+story with feeling, and facts checked against public sources. English, 35–60 second vertical Shorts.
 
-A story qualifies only when the world is already looking at it (English Wikipedia's most-read list or Google Trends
-in the US, India or the UK; see `studio/trends.py`) **and** it can be shown honestly:
+A story qualifies only when the world is already looking at it (Google News lead stories for India, the US and the
+world; Google Trends in the US, India or the UK; English Wikipedia's most-read list; see `studio/news.py` and
+`studio/trends.py`) **and** it can be shown honestly:
 
 - an incident at most 30 days old: flight incidents, storms, floods, wildfires, volcanoes, rail and maritime
   accidents, explosions, terror attacks, strikes in a war; earthquakes keep their 3D terrain format;
+- a protest, public movement or war that at least two lead stories are about, that Wikidata does not mark as ended,
+  and that began within two years (movements and wars need a start date, so ideologies stay out);
 - the death of a famous person, at most 10 days ago.
+
+## The editorial desk (`studio/plan.py`)
+
+The owner wants hot news caught on time without stepping in; the desk decides what goes out and when.
+
+- Priority is fame halved every half-life (18 h for protests, 36 h for deaths), so a fresh story beats a bigger
+  stale one. A follow-up headline does not make an old incident fresh.
+- India stories go out 09:00–23:00 IST, world stories 07:00–24:00 US Eastern; at most five a UTC day, two hours
+  apart. Breaking news (fame 400k+ and under 12 hours old, or a quake that is magnitude 7+ or PAGER orange/red) may
+  go out at any hour as a sixth, 75 minutes after the last; wars never take the breaking lane.
+- An ongoing story comes back at most once in 6 days (wars 14), whatever its id, including hand-made series parts.
+- A big ongoing story may be told as a 2–3 part series (Part N title, a teaser for the next part, editor-picked
+  Commons photos). Parts can be scheduled with YouTube's own `publishAt`; the ledger records the release time, and
+  the desk keeps two hours clear around it.
+- The run happens every 30 minutes.
 
 ## How a story Short looks (since 9 October 2026)
 
@@ -31,11 +48,17 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   work people loved (named, with years on screen), a human detail, and what they leave behind. On-screen chips name
   works, roles, honours or years, never places (a place over a photo reads as where it was taken).
 - **Voice:** an expressive AI voice (Chatterbox), each line checked by speech recognition before use; word-by-word
-  captions; a quiet score written in code.
+  captions; a quiet score written in code. Two lanes, chosen by the story's region: India stories clone an Indian
+  English reference (`tts/voices/india.wav`, Veena "kavya", Apache-2.0), all others a clear, warm US voice
+  (`tts/voices/world.wav`, Kokoro "am_puck", Apache-2.0). Both were chosen by measured accent, naturalness (UTMOS
+  4.5) and intelligibility; gated models that need a token are not used.
+- **Protests:** strictly neutral. Claims are attributed ("organisers said", "police said"); the script never urges
+  anyone to join or avoid a protest, and suicide is never mentioned (such sentences are removed from the source).
+  Headlines are context only, and only those whose names and numbers the article confirms reach the writer.
 - **Checks:** every name and number in the script must appear in the Wikipedia article or the confirmed Wikidata
   facts, and a second model pass lists anything unsupported. Deaths and casualty counts keep the two-source rule.
 
-Sport, celebrity gossip, elections and crime trials are out of scope even when they trend. Quakes also qualify without
+Sport, celebrity gossip, election results and crime trials are out of scope even when they trend. Quakes also qualify without
 a trend signal when USGS rates them PAGER yellow or worse, or magnitude 7+.
 
 ## Editorial standards
@@ -67,7 +90,8 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
 
 ## Operations
 
-- The hourly GitHub Actions run (`run.yml`) is the only publisher. Its state lives on the `state` branch. Setting
+- The half-hourly GitHub Actions run (`run.yml`) is the only automatic publisher; hand-made series parts are
+  published from the Mac with `.scratch/publish_story.py` and recorded in the same ledger. Its state lives on the `state` branch. Setting
   the repository variable `PAUSED` to `true` holds the schedule; manual runs still work.
 - An open issue labelled `alert` means the studio needs attention; GitHub emails the repo owner.
 - Never promise views or earnings; growth comes from accuracy, consistency and clarity.
