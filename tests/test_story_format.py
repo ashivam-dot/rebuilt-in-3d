@@ -117,3 +117,28 @@ def test_article_keeps_the_outcome_at_the_end_of_a_long_lead(monkeypatch):
     monkeypatch.setattr(wiki.net, "get_json", lambda *a, **k: {"query": {"pages": [{"extract": extract}]}})
     text = wiki.article_text("X")
     assert "resigned on 25 July" in text and "## Background" in text
+
+
+def test_evidence_check_flags_invented_quotes_and_rechecks_on_matching_sentences():
+    ground = ("Saint won the Academy Award in 1955. She was pregnant at the ceremony and joked she might give birth "
+              "on stage. Her son was born two days later. She married Jeffrey Hayden in 1951.")
+    lines = ["She won the Academy Award in 1955.", "She joked about holding her newborn son during the speech."]
+    verdict = {"lines": [{"line": 1, "quote": "Saint won the Academy Award in 1955.", "verdict": "supported", "why": ""},
+                         {"line": 2, "quote": "She joked about holding her newborn son.", "verdict": "supported",
+                          "why": ""}]}
+    flagged = writer.check_verdict(verdict, lines, ground)
+    assert list(flagged) == [2] and "not in the sources" in flagged[2]
+    assert "joked she might give birth" in writer.evidence(lines[1], ground)[0]
+
+    class Model:
+        def __init__(self, answer):
+            self.answer, self.seen = answer, []
+
+        def chat(self, messages, schema, **kw):
+            self.seen.append(messages[1]["content"])
+            return {"supported": self.answer, "why": "pregnant, not holding a newborn"}
+
+    strict = Model(False)
+    assert len(writer.recheck(strict, lines, flagged, ground)) == 1
+    assert "might give birth" in strict.seen[0]
+    assert writer.recheck(Model(True), lines, flagged, ground) == []

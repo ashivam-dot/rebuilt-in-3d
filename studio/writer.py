@@ -37,8 +37,11 @@ SCHEMA = {
     },
     "required": ["title", "beats"],
 }
-CHECK_SCHEMA = {"type": "object", "properties": {"unsupported": {"type": "array", "items": {"type": "string"}}},
-                "required": ["unsupported"]}
+CHECK_SCHEMA = {"type": "object", "properties": {"lines": {"type": "array", "items": {
+    "type": "object", "properties": {"line": {"type": "integer"}, "quote": {"type": "string"},
+                                     "verdict": {"type": "string", "enum": ["supported", "partly", "unsupported"]},
+                                     "why": {"type": "string"}},
+    "required": ["line", "quote", "verdict", "why"]}}}, "required": ["lines"]}
 
 SYSTEM = ("You are the head writer of Orbitwire, a YouTube Shorts channel that tells the world's biggest stories with "
           "warmth, dignity and complete accuracy. Your narration sounds like a great documentary narrator speaking to "
@@ -153,15 +156,72 @@ def _messages(brief: str, facts: list[str], source: str, photos: list[dict], nam
     return [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]
 
 
-def _check_messages(script: str, facts: list[str], source: str) -> list[dict]:
-    user = ("List every statement in SCRIPT that is not directly supported by CONFIRMED FACTS or SOURCE: any name, "
-            "title, number, date, place, award, relationship, quote, cause or superlative that the sources do not "
-            "state. Emotional or figurative phrasing that asserts no new fact (\"has gone quiet\", \"will be missed\") "
-            "is fine. Return {\"unsupported\": []} when everything is supported.\n\n"
+def _check_messages(lines: list[str], facts: list[str], source: str) -> list[dict]:
+    user = ("Check every numbered LINE of a news script against CONFIRMED FACTS and SOURCE. For each line, copy word "
+            "for word the sentence from SOURCE or CONFIRMED FACTS that supports it (\"quote\"), then give a verdict:\n"
+            "- supported: the quote states every fact in the line: who, what, when, where, numbers, causes and "
+            "relationships. Emotional or figurative phrasing that adds no fact (\"has gone quiet\") is fine; such a "
+            "line may have an empty quote.\n"
+            "- partly: the line adds, changes or exaggerates a detail that no sentence in the sources states.\n"
+            "- unsupported: no sentence in the sources says it.\n"
+            "Leaving details out is fine: judge only what the line says. A detail stated anywhere in SOURCE (a "
+            "reference title counts) or in CONFIRMED FACTS is supported, even if another sentence states it; quote "
+            "that sentence. In \"why\", name the exact detail that no source states or that a source contradicts.\n\n"
             "CONFIRMED FACTS:\n" + "\n".join(f"- {f}" for f in facts) + "\n\nSOURCE:\n" + source +
-            "\n\nSCRIPT:\n" + script)
+            "\n\nLINES:\n" + "\n".join(f"{i}. {line}" for i, line in enumerate(lines, 1)))
     return [{"role": "system", "content": "You are a meticulous fact-checker for a news channel."},
             {"role": "user", "content": user}]
+
+
+def _plain(text: str) -> str:
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", text.lower()).split())
+
+
+def check_verdict(verdict: dict, lines: list[str], ground: str) -> dict[int, str]:
+    """Lines the evidence check flags, by line number: not fully supported, or backed by a quote that is not really in
+    the sources (an invented quote means the checker did not find support)."""
+    plain = _plain(ground)
+    flagged = {}
+    for row in verdict.get("lines", []):
+        n = row.get("line", 0)
+        if not 1 <= n <= len(lines):
+            continue
+        if row.get("verdict") != "supported":
+            flagged[n] = f"line {n} ({lines[n - 1][:60]}): {row.get('verdict')}: {row.get('why', '')}"[:300]
+            continue
+        parts = [_plain(p) for p in re.split(r"\.\.\.|…", row.get("quote") or "")]
+        if any(len(p) >= 12 and p not in plain for p in parts):
+            flagged[n] = f"line {n} ({lines[n - 1][:60]}): its supporting quote is not in the sources"
+    return flagged
+
+
+RECHECK_SCHEMA = {"type": "object", "properties": {"supported": {"type": "boolean"}, "why": {"type": "string"}},
+                  "required": ["supported", "why"]}
+_STOP = set("the and for with from that this was were are has had have its his her their they them into after "
+            "before over who which when where what".split())
+
+
+def evidence(line: str, ground: str, k: int = 6) -> list[str]:
+    """The k source sentences that share the most words with the line."""
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+|\n+", ground) if len(s.strip()) > 20]
+    words = {w for w in _plain(line).split() if len(w) > 2 and w not in _STOP}
+    return sorted(sentences, key=lambda s: -len(words & set(_plain(s).split())))[:k]
+
+
+def recheck(m, lines: list[str], flagged: dict[int, str], ground: str) -> list[str]:
+    """A second look at each flagged line against only the sentences most like it: a long source dilutes the first
+    check, which then flags true lines. A line stays a problem only if this look also finds it unsupported."""
+    problems = []
+    for n, problem in flagged.items():
+        user = ("Do these SOURCE SENTENCES state every fact in the LINE: who, what, when, where, numbers, causes and "
+                "relationships? A fact may come from any of the sentences, and leaving details out is fine. Answer "
+                "false if the line adds, changes or exaggerates anything.\n\nLINE: " + lines[n - 1] +
+                "\n\nSOURCE SENTENCES:\n" + "\n".join(f"- {s}" for s in evidence(lines[n - 1], ground)))
+        verdict = m.chat([{"role": "system", "content": "You are a meticulous fact-checker for a news channel."},
+                          {"role": "user", "content": user}], RECHECK_SCHEMA, temperature=0.0, max_tokens=200)
+        if not verdict.get("supported"):
+            problems.append(f"{problem} | second look: {verdict.get('why', '')}"[:400])
+    return problems
 
 
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str]) -> list[str]:
@@ -221,10 +281,10 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
                 problems += monotone(draft)
             if not problems:
                 teaser = f"part {series['part'] + 1}" if series else None
-                script = "\n".join(b["say"] for b in draft["beats"]
-                                   if not (teaser and b["say"].lower().startswith(teaser)))
-                verdict = m.chat(_check_messages(script, facts, source), CHECK_SCHEMA, temperature=0.0, max_tokens=500)
-                problems = [f"unsupported: {u}" for u in verdict.get("unsupported", []) if u.strip()]
+                lines = [b["say"] for b in draft["beats"] if not (teaser and b["say"].lower().startswith(teaser))]
+                verdict = m.chat(_check_messages(lines, facts, source), CHECK_SCHEMA, temperature=0.0,
+                                 max_tokens=1800)
+                problems = recheck(m, lines, check_verdict(verdict, lines, ground), ground)
             if not problems:
                 return draft, log
             log.append({"attempt": attempt + 1, "problems": problems, "draft": draft})
