@@ -1,4 +1,4 @@
-"""studio watch | make <usgs-id> | publish <story-id> | run | health"""
+"""studio watch | make <usgs-id | wiki:Article title> | publish <story-id> | run | health"""
 from __future__ import annotations
 
 import argparse
@@ -15,10 +15,15 @@ WORK = ROOT / "work"
 log = logging.getLogger("studio")
 
 
-def prepare(event_id: str):
-    from . import quake
+def prepare(target: str | dict):
+    """Build and gate a Short from a USGS event id, a 'wiki:<title>' string, or a watcher candidate."""
+    from . import quake, stories, trends
 
-    short = quake.build(event_id)
+    if isinstance(target, str) and target.startswith("wiki:"):
+        target = trends.candidate(target[5:])
+    if isinstance(target, dict) and target["kind"] == "quake":
+        target = target["event"]
+    short = quake.build(target) if isinstance(target, str) else stories.build(target)
     work = WORK / short.id
     work.mkdir(parents=True, exist_ok=True)
     short.save(work / "short.json")
@@ -28,10 +33,10 @@ def prepare(event_id: str):
     return short
 
 
-def make(event_id: str, short=None) -> tuple[object, dict]:
+def make(target: str | dict, short=None) -> tuple[object, dict]:
     from . import render, voice
 
-    short = short or prepare(event_id)
+    short = short or prepare(target)
     work = WORK / short.id
     timing = voice.synthesize(short, work)
     stats = render.render(short, timing, work)
@@ -59,24 +64,31 @@ def run(dry: bool = False) -> dict:
     health = {"at": ledger.now(), "ok": True, "steps": []}
     try:
         found = plan.watch()
-        health["steps"].append(f"watch: {len(found['quakes'])} quake candidates, {len(found['hazards'])} hazard alerts")
+        health["steps"].append(f"watch: {len(found['candidates'])} candidates ({len(found['quakes'])} quakes, "
+                               f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")
+        if found.get("trend_errors"):
+            health["steps"].append(f"trend radar errors: {found['trend_errors']}")
         wait = plan.can_publish()
         if wait and not dry:
             health["steps"].append(f"hold: {wait}")
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]
-        for cand in found["quakes"][:3]:
+        for cand in found["candidates"][:4]:
             try:
-                short = prepare(cand["event"])
+                short = prepare(cand)
             except ValueError as exc:
-                ledger.skip(cand["id"], str(exc)[:300])
+                if "under 6 hours old" not in str(exc):  # young articles get another chance next hour
+                    ledger.skip(cand["id"], str(exc)[:300])
                 health["steps"].append(f"skip {cand['id']}: {exc}")
+                continue
+            except Exception as exc:  # one malformed article must not stop the other candidates
+                health.setdefault("warnings", []).append(f"{cand['id']}: {type(exc).__name__}: {exc}"[:300])
                 continue
             mix = gate.channel_mix(recent_loss, short.loss)
             if mix:
                 health["steps"].append(f"hold {cand['id']}: {mix}")
                 continue
-            short, stats = make(cand["event"], short)
+            short, stats = make(cand, short)
             if dry:
                 health["steps"].append(f"dry run: made {short.id} ({stats['duration']} s), not published")
                 return health

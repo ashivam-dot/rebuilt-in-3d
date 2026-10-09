@@ -5,12 +5,16 @@ own sentences, crediting both.
 """
 from __future__ import annotations
 
+import json
 import re
 from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 
 import mwparserfromhell
 
 from . import net
+
+CACHE = Path(__file__).resolve().parents[1] / "work" / "cache" / "wiki"
 
 API = "https://en.wikipedia.org/w/api.php"
 WD_API = "https://www.wikidata.org/w/api.php"
@@ -158,17 +162,22 @@ def coords(ent: dict) -> tuple[float, float] | None:
     return tuple(rows[0]["value"]) if rows else None
 
 
-def infobox(title: str) -> tuple[str, dict[str, str]]:
-    """The article's first infobox: (template name, {field: plain text}) with refs, markup and notes removed."""
+def infobox(title: str) -> tuple[str, dict[str, str], dict[str, str]]:
+    """The article's first infobox: (template name, {field: plain text}, {field: raw wikitext}).
+
+    Plain text has refs, markup and notes removed; templates such as {{death date and age}} vanish from it, so
+    callers that need them read the raw value.
+    """
     d = net.get_json(API, params={"action": "parse", "page": title, "prop": "wikitext", "redirects": 1,
                                   "format": "json", "formatversion": 2})
     code = mwparserfromhell.parse(d["parse"]["wikitext"])
     for t in code.filter_templates(recursive=False):
         name = str(t.name).strip()
         if name.lower().startswith("infobox"):
-            fields = {}
+            fields, raw = {}, {}
             for p in t.params:
                 key = str(p.name).strip().lower()
+                raw[key] = str(p.value).strip()
                 val = mwparserfromhell.parse(str(p.value))
                 for ref in val.filter_tags(matches=lambda n: str(n.tag).lower() in ("ref", "sup", "small")):
                     try:
@@ -180,8 +189,61 @@ def infobox(title: str) -> tuple[str, dict[str, str]]:
                 text = re.sub(r"\s+", " ", text).strip(" ,;")
                 if text:
                     fields[key] = text
-            return name, fields
-    return "", {}
+            return name, fields, raw
+    return "", {}, {}
+
+
+def nearby_cities(lat: float, lon: float, km: float, limit: int = 6, min_pop: int = 50000) -> list[dict]:
+    """The most populous cities within km of a point, from Wikidata: [{name, lat, lon, pop}]."""
+    query = f"""SELECT ?city ?cityLabel ?loc (MAX(?p) AS ?pop) WHERE {{
+      SERVICE wikibase:around {{ ?city wdt:P625 ?loc . bd:serviceParam wikibase:center "Point({lon} {lat})"^^geo:wktLiteral .
+        bd:serviceParam wikibase:radius "{km:.0f}" . }}
+      ?city wdt:P31/wdt:P279* wd:Q515 ; wdt:P1082 ?p . FILTER(?p >= {min_pop})
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en" . }}
+    }} GROUP BY ?city ?cityLabel ?loc ORDER BY DESC(?pop) LIMIT {limit * 3}"""
+    rows = net.get_json(SPARQL, params={"query": query, "format": "json"})["results"]["bindings"]
+    out, seen = [], set()
+    for r in rows:
+        m = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", r["loc"]["value"])
+        name = r["cityLabel"]["value"]
+        if not m or name in seen or re.fullmatch(r"Q\d+", name):
+            continue
+        seen.add(name)
+        out.append({"name": name, "lon": float(m.group(1)), "lat": float(m.group(2)), "pop": int(float(r["pop"]["value"]))})
+    return out[:limit]
+
+
+def big_cities(min_pop: int = 1000000) -> list[dict]:
+    """Every city of at least min_pop people with coordinates, largest first; cached because it barely changes."""
+    query = f"""SELECT ?city ?cityLabel ?loc (MAX(?p) AS ?pop) WHERE {{
+      ?city wdt:P31/wdt:P279* wd:Q515 ; wdt:P1082 ?p ; wdt:P625 ?loc . FILTER(?p >= {min_pop})
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en" . }}
+    }} GROUP BY ?city ?cityLabel ?loc ORDER BY DESC(?pop)"""
+    data = json.loads(net.get(SPARQL, params={"query": query, "format": "json"}, cache=CACHE, timeout=90))
+    out, seen = [], set()
+    for r in data["results"]["bindings"]:
+        m = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", r["loc"]["value"])
+        name = r["cityLabel"]["value"]
+        if m and name not in seen and not re.fullmatch(r"Q\d+", name):
+            seen.add(name)
+            out.append({"name": name, "lon": float(m.group(1)), "lat": float(m.group(2)),
+                        "pop": int(float(r["pop"]["value"]))})
+    return out
+
+
+def place(qid: str) -> dict | None:
+    """A Wikidata place as {name, lat, lon}, or None when it has no coordinates."""
+    ent = entities([qid]).get(qid)
+    c = coords(ent) if ent else None
+    if not c:
+        return None
+    served = [r["value"] for r in claims(ent, "P931")[:1] if isinstance(r["value"], str)]
+    return {"qid": qid, "name": label(ent), "lat": c[0], "lon": c[1],
+            "serves": next(iter(labels(served).values()), None) if served else None}
+
+
+def labels(qids: list[str]) -> dict[str, str]:
+    return {q: label(e) for q, e in entities(qids).items() if label(e)} if qids else {}
 
 
 def leading_number(text: str | None) -> int | None:

@@ -19,8 +19,6 @@ HT = "{https://trends.google.com/trending/rss}"
 TOP_N = 400
 INCIDENT_MAX_DAYS = 30
 DEATH_MAX_DAYS = 10
-INCIDENT_KINDS = {"aviation", "attack", "explosion", "rail", "maritime", "strike", "cyclone", "volcano", "flood",
-                  "wildfire", "landslide", "tsunami", "earthquake", "disaster", "accident", "conflict"}
 SUICIDE = "Q10737"
 
 
@@ -76,6 +74,25 @@ def _event_date(ent: dict) -> date | None:
     return None
 
 
+def candidate(title: str) -> dict:
+    """One article as a candidate, without the trend and freshness filters (for making a chosen story by hand)."""
+    page = wiki.page_info([title]).get(title)
+    if not page or not page.get("qid"):
+        raise ValueError(f"no Wikidata item for {title!r}")
+    cats = wiki.classify([page["qid"]])[page["qid"]]
+    base = {"qid": page["qid"], "title": page["title"], "id": f"wk-{page['qid']}", "fame": 0, "via": ["manual"]}
+    if "human" in cats:
+        return base | {"kind": "death", "category": "death"}
+    cat = next((c for c in ORDER if c in cats), None)
+    if not cat:
+        raise ValueError(f"{title!r} is neither an incident nor a person ({sorted(cats)})")
+    return base | {"kind": "incident", "category": cat}
+
+
+ORDER = ("aviation", "attack", "explosion", "rail", "maritime", "strike", "earthquake", "cyclone", "volcano", "flood",
+         "wildfire", "landslide", "tsunami", "conflict", "disaster", "accident")
+
+
 def radar(today: date | None = None) -> dict:
     """Trending candidates, ranked by fame. Written to state/trends.json by the caller."""
     today = today or datetime.now(timezone.utc).date()
@@ -113,9 +130,7 @@ def radar(today: date | None = None) -> dict:
                 continue
             out.append(base | {"id": f"wk-{qid}", "kind": "death", "category": "death", "date": died.isoformat()})
             continue
-        cat = next((c for c in ("aviation", "attack", "explosion", "rail", "maritime", "strike", "earthquake",
-                                "cyclone", "volcano", "flood", "wildfire", "landslide", "tsunami", "conflict",
-                                "disaster", "accident") if c in cats), None)
+        cat = next((c for c in ORDER if c in cats), None)
         if not cat:
             continue
         when = _event_date(ent)
@@ -124,9 +139,10 @@ def radar(today: date | None = None) -> dict:
             when = made.date() if made else None
         if not when or not 0 <= (today - when).days <= INCIDENT_MAX_DAYS:
             continue
+        coords = (page["lat"], page["lon"]) if page.get("lat") is not None else wiki.coords(ent)
         out.append(base | {"id": f"wk-{qid}", "kind": "incident", "category": cat, "date": when.isoformat(),
-                           "has_coords": bool(page.get("lat") or wiki.coords(ent) or wiki.claims(ent, "P276")
-                                              or wiki.claims(ent, "P1427"))})
+                           "coords": coords,
+                           "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
     out.sort(key=lambda c: -c["fame"])
     return {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "candidates": out, "errors": errors,
             "scanned": len(hits)}

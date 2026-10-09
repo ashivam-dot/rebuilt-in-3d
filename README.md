@@ -11,7 +11,8 @@ Site and privacy policy: <https://ashivam-dot.github.io/rebuilt-in-3d/>
 
 | Step | Module | What it does |
 |---|---|---|
-| Watch | `studio/plan.py`, `studio/usgs.py`, `studio/gdacs.py` | Reads the USGS M4.5+ week feed and GDACS alerts; ranks M6+ quakes 3–96 hours old by significance and PAGER alert. |
+| Watch | `studio/plan.py`, `studio/trends.py`, `studio/usgs.py` | Trend radar (Wikipedia most-read, Google Trends US/IN/GB, classified on Wikidata) plus USGS quakes; ranks everything by fame. |
+| Stories | `studio/stories.py`, `studio/wiki.py` | Incidents ("where it happened" site, with the route for flights) and famous deaths (life map) from Wikidata and infobox fields; a count is said only when both sources agree. |
 | Facts | `studio/usgs.py` | Pulls the event, PAGER (exposure, cities, impact comments, history), moment tensor, ShakeMap contours, DYFI reports and aftershocks. |
 | Script | `studio/quake.py` | Writes the narration beats deterministically from those facts. No language model; every number carries its source. |
 | Gate | `studio/gate.py` | Refuses any number not backed by a sourced fact, gore or clickbait wording, emoji, shouting titles, missing sources or a missing disclosure badge; limits loss stories to 2 of any 3 uploads. |
@@ -27,6 +28,7 @@ uv sync --extra dev
 uv run playwright install chromium-headless-shell
 uv run python -m studio.cli watch            # what's eligible right now
 uv run python -m studio.cli make us6000u0xi  # build, gate, voice and render one quake into work/
+uv run python -m studio.cli make "wiki:Flydubai Flight 1073"  # or any incident / famous death article
 uv run python -m studio.cli publish eq-us6000u0xi
 uv run python -m studio.cli run --dry        # one scheduled pass without publishing
 uv run pytest

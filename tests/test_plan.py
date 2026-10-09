@@ -10,6 +10,8 @@ def test_publish_cadence(tmp_path, monkeypatch):
     ledger.record_publish({"id": "eq-a", "published_at": "2026-10-09T10:00:00+00:00", "loss": False})
     assert "h ago" in plan.can_publish(at)
     ledger.record_publish({"id": "eq-b", "published_at": "2026-10-09T03:00:00+00:00", "loss": False})
+    assert plan.can_publish(datetime(2026, 10, 9, 20, tzinfo=timezone.utc)) is None
+    ledger.record_publish({"id": "wk-c", "published_at": "2026-10-09T06:30:00+00:00", "loss": False})
     assert "today" in plan.can_publish(datetime(2026, 10, 9, 20, tzinfo=timezone.utc))
     assert plan.can_publish(datetime(2026, 10, 10, 1, tzinfo=timezone.utc)) is None
 

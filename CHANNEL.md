@@ -38,9 +38,12 @@ a trend signal when USGS rates them PAGER yellow or worse, or magnitude 7+.
 | Lane | Status | Source |
 |---|---|---|
 | Earthquakes | Live | USGS event, PAGER, ShakeMap, moment tensor, DYFI |
-| Trend radar | Built | Wikipedia pageviews, Google Trends RSS, Wikidata classes |
-| Incidents (flights, attacks, disasters, conflict strikes) | In build | Wikidata (CC0) facts, Wikipedia infobox |
-| Famous deaths (life map) | In build | Wikidata birth/death places and dates |
+| Trend radar | Live | Wikipedia pageviews, Google Trends RSS, Wikidata classes |
+| Incidents (flights, attacks, disasters, conflict strikes) | Live | Wikidata (CC0) facts, Wikipedia infobox |
+| Famous deaths (life map) | Live | Wikidata birth/death dates and places, confirmed by the infobox |
+
+Incident Shorts wait until the article is 6 hours old. Summaries that guess at a cause (suspected, alleged, terror,
+hijack, suicide…) are never read out; the Short says the cause is under investigation instead.
 
 ## Operations
 

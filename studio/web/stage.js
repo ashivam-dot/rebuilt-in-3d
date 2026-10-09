@@ -6,6 +6,7 @@ const W = 1080, H = 1920, EX = S.exaggeration, G = S.grid, R = S.radius;
 const raw = new Float32Array(await (await fetch('scene/pos.bin')).arrayBuffer());
 const smooth = (a, b, t) => { const u = Math.min(1, Math.max(0, (t - a) / (b - a))); return u * u * (3 - 2 * u); };
 const shot = (name) => S.shots.find((s) => s.name === name);
+const QUAKE = (S.template || 'quake') === 'quake';
 
 function el(tag, cls, text) {
   const e = document.createElement(tag);
@@ -31,7 +32,7 @@ renderer.localClippingEnabled = true;
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 document.body.insertBefore(renderer.domElement, document.getElementById('labels'));
 const scene = new THREE.Scene();
-scene.fog = new THREE.Fog(0x0e1c2f, R * 4.5, R * 9);
+scene.fog = QUAKE ? new THREE.Fog(0x0e1c2f, R * 4.5, R * 9) : new THREE.Fog(0x0e1c2f, R * 7, R * 14);
 const camera = new THREE.PerspectiveCamera(42, W / H, R * 0.01, R * 30);
 scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a3442, 1.25));
 const sun = new THREE.DirectionalLight(0xfff1dc, 2.1);
@@ -114,16 +115,19 @@ function setCut(z) {
 }
 
 // Epicentre, hypocentre, seismic waves.
-const E = S.epicentre, surf = heightAt(0, 0) * EX, hypoY = -E.depth_km * EX;
+const E = S.epicentre || { depth_km: 0, mag: 0 }, surf = heightAt(0, 0) * EX, hypoY = -E.depth_km * EX;
 const red = new THREE.Color(0xff3b30);
 const flat = (inner, outer, color) => {
   const m = new THREE.Mesh(new THREE.RingGeometry(inner, outer, 96), new THREE.MeshBasicMaterial({ color, transparent: true, side: THREE.DoubleSide, depthWrite: false }));
   m.rotation.x = -Math.PI / 2; return m;
 };
-const epiRing = flat(R * 0.035, R * 0.05, red);
+const epiRing = QUAKE ? flat(R * 0.035, R * 0.05, red) : flat(R * 0.016, R * 0.024, red);
 epiRing.position.set(0, Math.max(surf, 0) + R * 0.004, 0);
+epiRing.visible = QUAKE || !!S.site;
 scene.add(epiRing);
-const pulses = [0, 1, 2].map(() => { const m = flat(0.92, 1, red); m.position.copy(epiRing.position); scene.add(m); return m; });
+const pulses = [0, 1, 2].map(() => {
+  const m = flat(0.92, 1, red); m.position.copy(epiRing.position); m.visible = epiRing.visible; scene.add(m); return m;
+});
 const hypo = new THREE.Mesh(new THREE.SphereGeometry(R * 0.018, 32, 16), new THREE.MeshBasicMaterial({ color: 0xff453a }));
 hypo.position.set(0, hypoY, R * 0.004);
 const glow = new THREE.Mesh(new THREE.CircleGeometry(R * 0.05, 48), new THREE.MeshBasicMaterial({ color: 0xff6b3d, transparent: true, opacity: 0.35, depthWrite: false }));
@@ -174,7 +178,34 @@ for (const [i, c] of S.cities.entries()) {
   dot.position.set(c.x, Math.max(heightAt(c.x, c.z) * EX, 0) + R * 0.004, c.z); scene.add(dot);
   addLabel(c.name, '', c.x, c.z, 'city', 0.035, c.name === S.ref ? 1 : 10 + i);
 }
-addLabel('Epicentre', `M${E.mag.toFixed(1)}`, 0, 0, 'epi', 0.07, 0);
+if (QUAKE) addLabel('Epicentre', `M${E.mag.toFixed(1)}`, 0, 0, 'epi', 0.07, 0);
+else if (S.site) addLabel(S.site.label, '', 0, 0, 'epi', 0.07, 0);
+for (const p of S.places || []) {
+  const dot = new THREE.Mesh(new THREE.SphereGeometry(R * 0.009, 16, 8), new THREE.MeshBasicMaterial({ color: 0xffb000 }));
+  dot.position.set(p.x, Math.max(heightAt(p.x, p.z) * EX, 0) + R * 0.005, p.z); scene.add(dot);
+  addLabel(p.name, p.sub, p.x, p.z, 'place', 0.045, 1);
+}
+
+// A route (flight, train, ship) or a life's journey: an arc revealed during its shot, with a dot at its head.
+const trail = { curve: null, mesh: null, head: null };
+if (S.route) {
+  const [[ax, az], [bx, bz]] = S.route.points, len = Math.hypot(bx - ax, bz - az);
+  const lift = Math.min(R * 0.18, len * 0.22);
+  const pts = [...Array(65).keys()].map((i) => {
+    const u = i / 64, x = ax + (bx - ax) * u, z = az + (bz - az) * u;
+    return new THREE.Vector3(x, Math.max(heightAt(x, z) * EX, 0) + R * 0.006 + lift * Math.sin(Math.PI * u), z);
+  });
+  trail.curve = new THREE.CatmullRomCurve3(pts);
+  trail.mesh = new THREE.Mesh(new THREE.TubeGeometry(trail.curve, 160, R * 0.0028, 8, false),
+    new THREE.MeshBasicMaterial({ color: 0x7fd6ff, transparent: true, opacity: 0.95 }));
+  trail.head = new THREE.Mesh(new THREE.SphereGeometry(R * 0.008, 16, 8), new THREE.MeshBasicMaterial({ color: 0xffffff }));
+  scene.add(trail.mesh, trail.head);
+  if (S.template !== 'life') {
+    for (const [end, sub] of [[S.route.from, 'origin'], [S.route.to, 'destination']]) {
+      addLabel(end.name, end.edge ? `${sub} · off map` : sub, end.x, end.z, 'route', 0.04, 3);
+    }
+  }
+}
 const reach = new THREE.Group();
 if (S.ref_xz) {
   const [rx, rz] = S.ref_xz, n = 28;
@@ -245,6 +276,7 @@ function place(t) {
   const u = smooth(a.t, b.t, t);
   camera.position.set(...a.pos.map((p, i) => p + (b.pos[i] - p) * u));
   camera.lookAt(...a.look.map((p, i) => p + (b.look[i] - p) * u));
+  camera.updateMatrixWorld();
 }
 
 window.renderAt = (t) => {
@@ -262,8 +294,15 @@ window.renderAt = (t) => {
   });
   pulses.forEach((m, i) => {
     const ph = (t * 0.4 + i / 3) % 1;
-    m.scale.setScalar(R * (0.05 + ph * 0.3)); m.material.opacity = 0.7 * (1 - ph);
+    m.scale.setScalar(R * (QUAKE ? 0.05 + ph * 0.3 : 0.04 + ph * 0.16)); m.material.opacity = 0.7 * (1 - ph);
   });
+  if (trail.mesh) {
+    const rs = shot(S.route_shot);
+    const prog = rs ? smooth(rs.t0 + 0.3, rs.t0 + 2.4, t) : 1;
+    trail.mesh.geometry.setDrawRange(0, Math.floor((trail.mesh.geometry.index.count * prog) / 6) * 6);
+    trail.head.visible = prog > 0.001 && prog < 0.999;
+    if (trail.head.visible) trail.head.position.copy(trail.curve.getPointAt(prog));
+  }
   const fs = shot('fault');
   fault.visible = !!(fs && deep && t >= fs.t0 - 0.2);
   if (fault.visible && fault.userData.up) {
@@ -290,7 +329,11 @@ window.renderAt = (t) => {
   const s = S.shots.find((x) => t >= x.t0 && t < x.t1) || S.shots[S.shots.length - 1];
   const fade = Math.min(smooth(s.t0, s.t0 + 0.35, t), 1 - smooth(s.t1 - 0.3, s.t1, t));
   if (s.card) {
-    if (big.textContent !== s.card.big) big.textContent = s.card.big;
+    if (big.textContent !== s.card.big) {
+      big.textContent = s.card.big;
+      const n = s.card.big.length;
+      big.style.fontSize = `${n <= 8 ? 128 : n <= 13 ? 104 : n <= 18 ? 84 : 68}px`;
+    }
     if (small.textContent !== s.card.small) small.textContent = s.card.small;
     big.style.color = TONES[s.card.tone] || '#ffffff';
   }
@@ -309,8 +352,11 @@ window.renderAt = (t) => {
     if (v.z > 1 || Math.abs(v.x) > 0.95 || Math.abs(v.y) > 0.95) on = false;
     if (on) {
       m.el.style.display = 'block';
-      m.el.style.left = `${(v.x * 0.5 + 0.5) * W}px`; m.el.style.top = `${(-v.y * 0.5 + 0.5) * H}px`;
-      const r = m.el.getBoundingClientRect();
+      let left = (v.x * 0.5 + 0.5) * W;
+      m.el.style.left = `${left}px`; m.el.style.top = `${(-v.y * 0.5 + 0.5) * H}px`;
+      let r = m.el.getBoundingClientRect();
+      const nudge = r.left < 16 ? 16 - r.left : r.right > W - 16 ? W - 16 - r.right : 0;
+      if (nudge) { left += nudge; m.el.style.left = `${left}px`; r = m.el.getBoundingClientRect(); }
       if (placed.some((q) => r.left < q.right + 10 && r.right > q.left - 10 && r.top < q.bottom + 6 && r.bottom > q.top - 6)) on = false;
       else placed.push(r);
     }

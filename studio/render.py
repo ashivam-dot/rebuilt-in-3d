@@ -25,8 +25,17 @@ TAIL = 0.8
 BROWSER_ARGS = ["--use-angle=swiftshader", "--use-gl=angle", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"]
 
 
+def _focus_pose(x: float, z: float, span: float, angle: float) -> tuple[tuple, tuple, tuple]:
+    """A slow push towards (x, z), seen from the south rotated by angle (radians) about the vertical."""
+    c, s = math.cos(angle), math.sin(angle)
+    rot = lambda dx, y, dz: (x + dx * c + dz * s, y, z - dx * s + dz * c)
+    return rot(0.08 * span, 1.05 * span, 1.15 * span), rot(0.0, 0.95 * span, 1.0 * span), (x, 0.0, z)
+
+
 def _poses(name: str, R: float, D: float, scene: dict) -> tuple[tuple, tuple, tuple]:
     """(start position, end position, look-at) for a shot, in scene units (km, y up, z south)."""
+    if name in scene.get("focus", {}):
+        return _focus_pose(*scene["focus"][name])
     ref = scene.get("ref_xz") or [0.0, 0.0]
     if name == "overview":
         return (0.3 * R, 1.55 * R, 2.05 * R), (-0.12 * R, 1.35 * R, 1.8 * R), (0, -0.05 * R, 0)
@@ -65,8 +74,96 @@ def _camera(shots: list[dict], R: float, D: float, scene: dict) -> list[dict]:
             for k in keys]
 
 
+def _clip(a: list[float], b: list[float], g: dict) -> tuple[list[float], list[float]] | None:
+    """The part of segment a-b inside the grid box (Liang-Barsky), or None if it misses the box."""
+    t0, t1 = 0.0, 1.0
+    dx, dz = b[0] - a[0], b[1] - a[1]
+    for p, q in ((-dx, a[0] - g["xmin"]), (dx, g["xmax"] - a[0]), (-dz, a[1] - g["zmin"]), (dz, g["zmax"] - a[1])):
+        if p == 0:
+            if q < 0:
+                return None
+            continue
+        r = q / p
+        if p < 0:
+            t0 = max(t0, r)
+        else:
+            t1 = min(t1, r)
+    if t0 > t1:
+        return None
+    return [a[0] + dx * t0, a[1] + dz * t0], [a[0] + dx * t1, a[1] + dz * t1]
+
+
+def _bake_places(short: Short, timing: dict, stage: Path) -> dict:
+    """Site and life-map scenes: terrain around the story's places, a marker, labels, and a route arc."""
+    sc = short.scene
+    origin = (sc["center"]["lat"], sc["center"]["lon"])
+    if stage.exists():
+        shutil.rmtree(stage)
+    shutil.copytree(WEB, stage)
+    out = stage / "scene"
+    out.mkdir()
+    h, meta = terrain.dem(sc["bbox"])
+    tex = terrain.texture(h, meta)
+    tex.save(out / "texture.jpg", quality=92)
+    terrain.contour_overlay(tex.size, meta, None).save(out / "mmi.png")
+    pos, g = terrain.grid(h, meta, origin)
+    pos.tofile(out / "pos.bin")
+    R = max(abs(g["xmin"]), abs(g["xmax"]), abs(g["zmin"]), abs(g["zmax"]))
+    ex = int(max(1, min(25, round(R / 30))))
+    deepest = float(-pos.reshape(-1, 3)[:, 1].min())
+    slab = max(0.06 * R / ex, deepest * 1.15 + 0.02 * R / ex)
+    km = lambda lat, lon: [round(v, 3) for v in terrain.to_km(lat, lon, origin)]
+    inside = lambda x, z: g["xmin"] < x < g["xmax"] and g["zmin"] < z < g["zmax"]
+    places = []
+    for p in sc.get("places", []):
+        x, z = km(p["lat"], p["lon"])
+        if inside(x, z):
+            places.append({"name": p["name"], "sub": p["sub"], "x": x, "z": z, "kind": p["kind"]})
+    cities = [{"name": c["name"], "x": km(c["lat"], c["lon"])[0], "z": km(c["lat"], c["lon"])[1]} for c in sc.get("cities", [])]
+    cities = [c for c in cities if inside(c["x"], c["z"])]
+    route = None
+    if sc.get("route"):
+        a = km(sc["route"]["from"]["lat"], sc["route"]["from"]["lon"])
+        b = km(sc["route"]["to"]["lat"], sc["route"]["to"]["lon"])
+        seg = _clip(a, b, g)
+        if seg:
+            route = {"points": [seg[0], seg[1]],
+                     "from": {"name": sc["route"]["from"]["name"], "x": seg[0][0], "z": seg[0][1], "edge": not inside(*a)},
+                     "to": {"name": sc["route"]["to"]["name"], "x": seg[1][0], "z": seg[1][1], "edge": not inside(*b)}}
+    shots = []
+    for beat, (t0, t1) in zip(short.beats, timing["beats"]):
+        shots.append({"name": beat.shot, "t0": t0, "t1": t1, "card": beat.card})
+    shots[0]["t0"] = 0.0
+    shots[-1]["t1"] = timing["duration"] + TAIL
+    # Close shots stay wide enough that the 1600 px terrain texture stays sharp and the marker stays a marker.
+    focus = {"site": [0.0, 0.0, 0.55 * R, 0.0], "toll": [0.0, 0.0, 0.45 * R, 0.5], "status": [0.0, 0.0, 0.7 * R, -0.35]}
+    # A portrait frame is narrow: to fit a horizontal stretch dx the span must be about 1.9 dx (see "approach").
+    frame = lambda a, b: [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2, max(0.5 * R, math.hypot(1.9 * (b[0] - a[0]), b[1] - a[1])), 0.0]
+    if route:
+        focus["route"] = focus["outro"] = frame(*route["points"])
+    for p in places:
+        focus[p["kind"]] = [p["x"], p["z"], 0.5 * R, 0.25 if p["kind"] == "born" else -0.25]
+    if len(places) == 2:
+        journey = frame([places[0]["x"], places[0]["z"]], [places[1]["x"], places[1]["z"]])
+        focus["career"] = focus["outro"] = journey
+        focus["overview"] = [journey[0], journey[1], journey[2] * 1.1, 0.2]
+    scene = {
+        "template": sc["template"], "grid": g, "radius": round(R, 3), "exaggeration": ex, "slab_km": round(slab, 3),
+        "epicentre": None, "site": sc.get("site"), "places": places, "cities": cities, "route": route,
+        "route_shot": "died" if sc["template"] == "life" else "route",
+        "history": None, "aftershocks": [], "shots": shots, "words": timing["words"], "legend": [],
+        "ref": None, "ref_xz": None, "hist_xz": None, "focus": focus,
+        "credits": f"{sc['credits']} · Vertical scale ×{ex}",
+    }
+    scene["camera"] = _camera(shots, R, 0.0, scene)
+    (out / "scene.json").write_text(json.dumps(scene), encoding="utf-8")
+    return scene
+
+
 def bake(short: Short, timing: dict, stage: Path) -> dict:
     sc = short.scene
+    if sc.get("template", "quake") != "quake":
+        return _bake_places(short, timing, stage)
     epi = sc["epicentre"]
     origin = (epi["lat"], epi["lon"])
     if stage.exists():

@@ -8,6 +8,8 @@ canvas { position: absolute; inset: 0; display: block; }
   border: 2px solid rgba(255, 255, 255, 0.25); letter-spacing: 0.01em; }
 .label.epi { border-color: #ff3b30; color: #fff; }
 .label.hist { border-color: #b9c4d3; color: #d6dde7; font-weight: 550; }
+.label.place { border-color: #ffb000; }
+.label.route { border-color: #7fd6ff; }
 .label .sub { font-weight: 450; opacity: 0.8; margin-left: 8px; font-size: 26px; }
 #badge { position: absolute; top: 92px; left: 50%; transform: translateX(-50%); color: #e9eef5; font-size: 25px;
   font-weight: 700; letter-spacing: 0.08em; padding: 10px 22px; border-radius: 10px; background: rgba(8, 17, 29, 0.6);
