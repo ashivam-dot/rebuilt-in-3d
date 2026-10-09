@@ -77,7 +77,8 @@ def run(dry: bool = False) -> dict:
             try:
                 short = prepare(cand)
             except ValueError as exc:
-                if "under 6 hours old" not in str(exc):  # young articles get another chance next hour
+                # Young or thin articles get another chance next hour, once editors have added facts.
+                if not any(m in str(exc) for m in ("under 6 hours old", "words (want", "does not confirm the death")):
                     ledger.skip(cand["id"], str(exc)[:300])
                 health["steps"].append(f"skip {cand['id']}: {exc}")
                 continue

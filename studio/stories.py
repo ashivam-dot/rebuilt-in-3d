@@ -56,6 +56,11 @@ def place_words(text: str, parts: int = 2) -> str:
     return ", ".join(p.strip() for p in text.split(",")[:parts] if p.strip())
 
 
+def plain_title(title: str) -> str:
+    """'Margaret Hamilton (software engineer)' -> 'Margaret Hamilton': disambiguation is for search, not speech."""
+    return re.sub(r"\s*\([^)]*\)$", "", title).strip()
+
+
 def numbers_in(text: str) -> list[str]:
     return re.findall(r"\d{1,3}(?:,\d{3})+|\d+", text or "")
 
@@ -115,15 +120,16 @@ def _cities(lat: float, lon: float, half: float, skip: set[str]) -> list[dict]:
 
 
 def build_incident(cand: dict) -> Short:
-    title, qid, cat = cand["title"], cand["qid"], cand["category"]
-    _check_age(title)
+    article, qid, cat = cand["title"], cand["qid"], cand["category"]
+    title = plain_title(article)
+    _check_age(article)
     ent = wiki.entities([qid])[qid]
-    _, ib, _ = wiki.infobox(title)
+    _, ib, _ = wiki.infobox(article)
     when = _event_date(ent)
     if not when:
         raise ValueError("gate: Wikidata has no date for this event")
-    page, item = wiki.url(title), f"https://www.wikidata.org/wiki/{qid}"
-    info = wiki.page_info([title]).get(title, {})
+    page, item = wiki.url(article), f"https://www.wikidata.org/wiki/{qid}"
+    info = wiki.page_info([article]).get(article, {})
     site = (info["lat"], info["lon"]) if info.get("lat") is not None else wiki.coords(ent)
     origin = _places(ent, "P1427")[:1] if cat in ROUTED else []
     dest = _places(ent, "P1444")[:1] if cat in ROUTED else []
@@ -253,6 +259,8 @@ def build_death(cand: dict) -> Short:
     title, qid = cand["title"], cand["qid"]
     ent = wiki.entities([qid])[qid]
     _, ib, raw = wiki.infobox(title)
+    if not raw:
+        raise ValueError("gate: the article has no infobox to confirm the death")
     born = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P569")), None)
     died = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P570")), None)
     if not born or not died:
@@ -260,7 +268,7 @@ def build_death(cand: dict) -> Short:
     if str(died.year) not in raw.get("death_date", ""):
         raise ValueError("gate: Wikipedia's infobox does not confirm the death yet")
     page, item = wiki.url(title), f"https://www.wikidata.org/wiki/{qid}"
-    name = wiki.label(ent) or title
+    name = plain_title(wiki.label(ent) or title)
     she, her = _pronouns(ent)
     age = died.year - born.year - ((died.month, died.day) < (born.month, born.day))
     job = (ib.get("occupation") or "").split(",")[0].strip().lower()
