@@ -74,6 +74,17 @@ def test_story_gate_needs_free_credited_photos():
     assert any("only 2" in p for p in gate.check(story([photo] * 2, [photo["page"]])))
 
 
+def test_an_incident_never_speaks_of_casualties_without_an_agreed_toll():
+    photo = {"file": "File:A.jpg", "license": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:A.jpg"}
+    war = story([photo] * 3, [photo["page"]])
+    war.kind = "incident"
+    war.beats[0].card = {"big": "Thousands of casualties", "small": ""}
+    assert any("casualties without an agreed toll" in p for p in gate.check(war))
+    war.facts.append(Fact("deaths", "120", "https://en.wikipedia.org/wiki/X", ["120"]))
+    assert not any("casualties" in p for p in gate.check(war))
+    assert media.NOT_PHOTO.search("File:2026 Iran war collage 2.jpg")
+
+
 def test_music_fits_any_length():
     for mood in ("tribute", "news"):
         for seconds in (20.0, 31.3, 37.8, 44.6, 52.1):

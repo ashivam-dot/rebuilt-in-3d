@@ -16,9 +16,11 @@ from . import net, news, wiki
 
 GEOS = ("US", "IN", "GB")
 INDIA = "Q668"
-# Protests, movements and wars are ongoing: they qualify while lead stories are about them, unless they have ended
-# or began long ago (an ideology or an old movement is not news because a headline mentions it).
-ONGOING = ("protest", "movement", "conflict")
+# Protests and movements are ongoing: they qualify while lead stories are about them, unless they have ended or began
+# long ago (an ideology or an old movement is not news because a headline mentions it). A war is not: a months-old
+# war always has headlines, and its Shorts became generic "human cost" pieces. New strikes and attacks in a war still
+# qualify as incidents through their own articles.
+ONGOING = ("protest", "movement")
 ONGOING_MAX_YEARS = 2
 ONGOING_MIN_HEADLINES = 2
 TRENDS_RSS = "https://trends.google.com/trending/rss?geo={geo}"

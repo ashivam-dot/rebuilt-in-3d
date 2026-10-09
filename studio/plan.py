@@ -7,8 +7,8 @@ Priority is fame (Google News lead stories, Google Trends traffic, Wikipedia vie
 story beats a bigger stale one. Regular stories go out in their audience's waking hours (India stories 09:00-23:00
 IST, world stories 07:00-24:00 US Eastern), at most five a UTC day, two hours apart. A breaking story (huge fame,
 under 12 hours old, or a quake USGS rates orange or red or magnitude 7+) may go out at any hour, 75 minutes after the
-last Short, as a sixth that day; wars never take the breaking lane. An ongoing story (protest, movement, war) comes
-back at most once in COOLDOWN_DAYS, however its id changes. No more than two loss stories in any three consecutive
+last Short, as a sixth that day; wars never take the breaking lane. An ongoing story (protest, movement) comes back
+at most once in COOLDOWN_DAYS, however its id changes. No more than two loss stories in any three consecutive
 uploads.
 """
 from __future__ import annotations
@@ -30,7 +30,7 @@ WINDOWS = {"india": (3.5, 17.5), "world": (11.0, 28.0)}
 MIN_AGE_H, MAX_AGE_H = 3, 96
 QUAKE_MIN_MAG = 6.0
 QUAKE_BIG_MAG = 7.0
-COOLDOWN_DAYS = {"protest": 6, "movement": 6, "conflict": 14}
+COOLDOWN_DAYS = {"protest": 6, "movement": 6}
 # A quake with no trend signal ranks by USGS significance (about 600-2000 for these) on the fame scale.
 SIG_TO_FAME = 100
 

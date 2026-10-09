@@ -15,8 +15,10 @@ world; Google Trends in the US, India or the UK; English Wikipedia's most-read l
 
 - an incident at most 30 days old: flight incidents, storms, floods, wildfires, volcanoes, rail and maritime
   accidents, explosions, terror attacks, strikes in a war; earthquakes keep their 3D terrain format;
-- a protest, public movement or war that at least two lead stories are about, that Wikidata does not mark as ended,
-  and that began within two years (movements and wars need a start date, so ideologies stay out);
+- a protest or public movement that at least two lead stories are about, that Wikidata does not mark as ended, and
+  that began within two years (movements need a start date, so ideologies stay out). A months-old war is not
+  ongoing news: its Shorts came out as generic "human cost" pieces with casualty claims, so only its new strikes
+  and attacks qualify, as incidents;
 - the death of a famous person, at most 10 days ago.
 
 ## The editorial desk (`studio/plan.py`)
@@ -28,7 +30,9 @@ The owner wants hot news caught on time without stepping in; the desk decides wh
 - India stories go out 09:00–23:00 IST, world stories 07:00–24:00 US Eastern; at most five a UTC day, two hours
   apart. Breaking news (fame 400k+ and under 12 hours old, or a quake that is magnitude 7+ or PAGER orange/red) may
   go out at any hour as a sixth, 75 minutes after the last; wars never take the breaking lane.
-- An ongoing story comes back at most once in 6 days (wars 14), whatever its id, including hand-made series parts.
+- An ongoing story comes back at most once in 6 days, whatever its id, including hand-made series parts.
+- Without a death toll that Wikipedia and Wikidata agree on, an incident never mentions casualties (gate), and
+  photo collages are never used (they mix in injured people).
 - A big ongoing story may be told as a 2–3 part series (Part N title, a teaser for the next part, editor-picked
   Commons photos). Parts can be scheduled with YouTube's own `publishAt`; the ledger records the release time, and
   the desk keeps two hours clear around it.

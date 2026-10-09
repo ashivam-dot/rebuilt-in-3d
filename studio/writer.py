@@ -344,7 +344,8 @@ def build_incident(cand: dict) -> Short:
                          + [wiki.article_text(article, focus=series.get("sections"))])
     if deaths is None:
         # Casualty numbers only when both sources agree: strip unconfirmed tolls from what the writer may use.
-        source = re.sub(r"[^.]*\b(killed|dead|deaths|died|fatalit\w*|injured|wounded)\b[^.]*\.", "", source)
+        source = re.sub(r"[^.]*\b(killed|dead|deaths|died|fatalit\w*|casualt\w*|injured|wounded)\b[^.]*\.", "",
+                        source)
     source = re.sub(r"[^.]*\bsuicid\w*[^.]*\.", "", source, flags=re.I)
     # A headline whose names or numbers the article lacks may be about another event, or not yet verified.
     headlines = [h for h in cand.get("headlines") or [] if not ungrounded(h, source)]

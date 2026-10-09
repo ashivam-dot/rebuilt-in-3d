@@ -16,7 +16,8 @@ from . import net, wiki
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 FREE = re.compile(r"^(CC0|Public domain|PD\b|CC BY(-SA)? \d(\.\d)?( [a-z]{2,})?$|CC BY(-SA)?$)", re.I)
 NOT_PHOTO = re.compile(r"(\.svg$|\.gif$|\.tiff?$|\blogo|signature|autograph|\bmap\b|locator|location|\bflag\b|coat of arms|"
-                       r"\bicon\b|\bseal\b|emblem|chart|graph|diagram|insignia|\bplan\b|route|blank|wordmark)", re.I)
+                       r"\bicon\b|\bseal\b|emblem|chart|graph|diagram|insignia|\bplan\b|route|blank|wordmark|"
+                       r"collage|montage)", re.I)
 # Dignity: a Short never shows bodies, wounds or grief at a funeral.
 GRAPHIC = re.compile(r"(corpse|bodies|\bbody\b|victim|blood|wound|injur|\bdead\b|killed|funeral|cremat|coffin|casket|"
                      r"wreckage|debris|crash site|aftermath)", re.I)

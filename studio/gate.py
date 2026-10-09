@@ -18,6 +18,8 @@ BANNED = [
 ACRONYMS = {"USGS", "UTC", "PAGER", "NASA", "NOAA", "GDACS", "EMSC", "ADS-B", "NTSB", "AAIB", "BEA", "MMI", "ICAO",
             "IATA", "UN", "WHO", "EU", "UK", "US", "USA", "3D", "NHC", "JTWC", "IMD", "JMA", "PTWC", "GREEN", "YELLOW",
             "ORANGE", "RED"}
+# Without a death toll that two sources agree on, an incident Short may not speak of casualties at all.
+CASUALTY = re.compile(r"\b(casualt\w*|death toll|killed|fatalit\w*|wounded|injured)\b", re.I)
 NUMBER = re.compile(r"(?<![\w.])(\d{1,3}(?:,\d{3})+|\d+(?::\d{2})?(?:\.\d+)?)(?![\w])")
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\U0001F000-\U0001F2FF]")
 
@@ -45,6 +47,8 @@ def check(short: Short) -> list[str]:
                 problems.append(f"{where}: banned wording {word.strip()!r}")
         if EMOJI.search(text):
             problems.append(f"{where}: emoji")
+        if short.kind == "incident" and not any(f.key == "deaths" for f in short.facts) and CASUALTY.search(text):
+            problems.append(f"{where}: casualties without an agreed toll ({CASUALTY.search(text).group(0)})")
     for word in re.findall(r"\b[A-Z][A-Z\-]{3,}\b", short.title):
         if word not in ACRONYMS:
             problems.append(f"title: shouting in capitals ({word})")
