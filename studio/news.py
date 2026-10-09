@@ -59,11 +59,17 @@ def headlines(feed: str, now: datetime | None = None) -> list[dict]:
     for item in root.iter("item"):
         raw = item.findtext("title") or ""
         title, _, outlet = raw.rpartition(" - ")
-        title = NOISE.sub("", title or raw).strip()
+        if not title:
+            title, outlet = raw, ""
+        title = NOISE.sub("", title).strip()
         try:
             at = parsedate_to_datetime(item.findtext("pubDate") or "")
         except (TypeError, ValueError):
             continue
+        if at is None:
+            continue
+        at = at if at.tzinfo else at.replace(tzinfo=timezone.utc)
+        at = at.astimezone(timezone.utc)
         if (now - at).total_seconds() > MAX_AGE_H * 3600:
             continue
         outlets = max(1, (item.findtext("description") or "").count("<li>"))

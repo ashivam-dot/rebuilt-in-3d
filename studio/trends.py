@@ -16,8 +16,11 @@ from . import net, news, wiki
 
 GEOS = ("US", "IN", "GB")
 INDIA = "Q668"
-# Protests, movements and wars are ongoing: they qualify while lead stories are about them, whatever their start date.
+# Protests, movements and wars are ongoing: they qualify while lead stories are about them, unless they have ended
+# or began long ago (an ideology or an old movement is not news because a headline mentions it).
 ONGOING = ("protest", "movement", "conflict")
+ONGOING_MAX_YEARS = 2
+ONGOING_MIN_HEADLINES = 2
 TRENDS_RSS = "https://trends.google.com/trending/rss?geo={geo}"
 HT = "{https://trends.google.com/trending/rss}"
 TOP_N = 400
@@ -96,6 +99,32 @@ def _event_date(ent: dict) -> date | None:
     return None
 
 
+def _year(value: str) -> int | None:
+    m = re.match(r"\+(\d{4})", value or "")
+    return int(m.group(1)) if m else None
+
+
+def is_current(ent: dict, cat: str, today: date) -> bool:
+    """An ongoing story is current unless Wikidata says it ended, or it began more than ONGOING_MAX_YEARS ago.
+    A movement or war must have a start date at all, so ideologies and long-standing causes stay out."""
+    for c in wiki.claims(ent, "P582") + wiki.claims(ent, "P576"):
+        end, year = wiki.wd_time(c["value"]), _year(c["value"])
+        if (end and end < today) or (year and year < today.year):
+            return False
+    started = [y for pid in ("P580", "P571", "P585") for c in wiki.claims(ent, pid) if (y := _year(c["value"]))]
+    if not started:
+        return cat == "protest"
+    return today.year - max(started) <= ONGOING_MAX_YEARS
+
+
+def story_id(qid: str, cat: str, when: date) -> str:
+    """One id per story; an ongoing story may come back once per ISO week while newsrooms keep leading with it."""
+    if cat not in ONGOING:
+        return f"wk-{qid}"
+    year, week, _ = when.isocalendar()
+    return f"wk-{qid}-{year}w{week:02d}"
+
+
 def candidate(title: str) -> dict:
     """One article as a candidate, without the trend and freshness filters (for making a chosen story by hand)."""
     page = wiki.page_info([title]).get(title)
@@ -110,7 +139,8 @@ def candidate(title: str) -> dict:
     cat = next((c for c in ORDER if c in cats), None)
     if not cat:
         raise ValueError(f"{title!r} is neither an incident nor a person ({sorted(cats)})")
-    return base | {"kind": "incident", "category": cat}
+    today = datetime.now(timezone.utc).date()
+    return base | {"id": story_id(page["qid"], cat, today), "kind": "incident", "category": cat}
 
 
 ORDER = ("aviation", "attack", "explosion", "rail", "maritime", "strike", "earthquake", "cyclone", "volcano", "flood",
@@ -160,8 +190,8 @@ def radar(today: date | None = None) -> dict:
             continue
         when = _event_date(ent)
         if cat in ONGOING:
-            if not h.get("news_at"):
-                continue  # a protest or movement is only news while newsrooms lead with it
+            if len(h.get("headlines", [])) < ONGOING_MIN_HEADLINES or not is_current(ent, cat, today):
+                continue  # only news while several lead stories are about it, and while it is still going on
             when = date.fromisoformat(h["news_at"][:10])
         if not when:
             made = wiki.created(page["title"])
@@ -169,9 +199,7 @@ def radar(today: date | None = None) -> dict:
         if not when or not 0 <= (today - when).days <= INCIDENT_MAX_DAYS:
             continue
         coords = (page["lat"], page["lon"]) if page.get("lat") is not None else wiki.coords(ent)
-        # An ongoing story may come back once a week while newsrooms keep leading with it.
-        sid = f"wk-{qid}-w{when.isocalendar()[1]:02d}" if cat in ONGOING else f"wk-{qid}"
-        out.append(base | {"id": sid, "kind": "incident", "category": cat, "date": when.isoformat(),
+        out.append(base | {"id": story_id(qid, cat, when), "kind": "incident", "category": cat, "date": when.isoformat(),
                            "coords": coords,
                            "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
     out.sort(key=lambda c: -c["fame"])

@@ -6,6 +6,7 @@ import json
 import logging
 import sys
 import traceback
+from datetime import datetime
 from pathlib import Path
 
 from . import gate, ledger, plan
@@ -47,7 +48,8 @@ def make(target: str | dict, short=None) -> tuple[object, dict]:
     return short, stats
 
 
-def publish(story_id: str) -> dict:
+def publish(story_id: str, publish_at: str | None = None) -> dict:
+    """Publish now, or schedule for publish_at (ISO UTC); the ledger records the time it goes public."""
     from . import youtube
     from .spec import Short
 
@@ -56,9 +58,11 @@ def publish(story_id: str) -> dict:
     problems = gate.check(short)
     if problems:
         raise ValueError("gate: " + "; ".join(problems))
-    result = youtube.publish(short, work / "short.mp4")
+    result = youtube.publish(short, work / "short.mp4", publish_at=publish_at)
+    when = datetime.fromisoformat(publish_at.replace("Z", "+00:00")).isoformat(timespec="seconds") if publish_at \
+        else ledger.now()
     ledger.record_publish({"id": short.id, "kind": short.kind, "title": short.title, "loss": short.loss,
-                           "published_at": ledger.now(), "event_time": short.event_time, **result})
+                           "published_at": when, "event_time": short.event_time, **result})
     return result
 
 

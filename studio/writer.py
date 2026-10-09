@@ -343,8 +343,10 @@ def build_incident(cand: dict) -> Short:
         # Casualty numbers only when both sources agree: strip unconfirmed tolls from what the writer may use.
         source = re.sub(r"[^.]*\b(killed|dead|deaths|died|fatalit\w*|injured|wounded)\b[^.]*\.", "", source)
     source = re.sub(r"[^.]*\bsuicid\w*[^.]*\.", "", source, flags=re.I)
+    # A headline whose names or numbers the article lacks may be about another event, or not yet verified.
+    headlines = [h for h in cand.get("headlines") or [] if not ungrounded(h, source)]
     draft, log = write("protest" if cat in ("protest", "movement") else "incident", name, "It", facts_text, source, photos,
-                       banned_names=banned, log_path=work / "writer_log.json", headlines=cand.get("headlines"),
+                       banned_names=banned, log_path=work / "writer_log.json", headlines=headlines,
                        series=cand.get("series"))
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
     facts = [Fact("name", name, page, stories.numbers_in(name), "Wikipedia article title"),

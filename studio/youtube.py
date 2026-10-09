@@ -88,7 +88,9 @@ def tags(short: Short) -> list[str]:
     return out + [marker]
 
 
-def publish(short: Short, mp4: Path, max_wait: int = 900) -> dict:
+def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None = None) -> dict:
+    """Upload and make public now, or with publish_at (ISO UTC, in the future) leave it private for YouTube to
+    release at that time."""
     api = client()
     channel = identity(api)
     existing = find(api, channel, short.id)
@@ -120,6 +122,16 @@ def publish(short: Short, mp4: Path, max_wait: int = 900) -> dict:
         if time.monotonic() > deadline:
             raise RuntimeError("still processing; the next run will finish publishing it")
         time.sleep(15)
+    if publish_at:
+        api.videos().update(part="status", body={"id": video_id, "status": {
+            "privacyStatus": "private", "publishAt": publish_at, "selfDeclaredMadeForKids": False,
+            "containsSyntheticMedia": True, "embeddable": True, "publicStatsViewable": True}}).execute()
+        final = api.videos().list(part="status,snippet", id=video_id).execute()["items"][0]
+        if not final["status"].get("publishAt"):
+            raise RuntimeError(f"video {video_id} was not scheduled")
+        return {"video_id": video_id, "url": f"https://www.youtube.com/shorts/{video_id}",
+                "title": final["snippet"]["title"], "privacy": "scheduled", "publish_at": final["status"]["publishAt"],
+                "synthetic_declared": True}
     if video["status"]["privacyStatus"] != "public":
         api.videos().update(part="status", body={"id": video_id, "status": {
             "privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
