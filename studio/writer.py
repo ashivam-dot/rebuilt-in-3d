@@ -82,7 +82,7 @@ Shape:
 Be strictly neutral: give each side's position as the SOURCE states it, never take a side, never mock or praise any
 person, party, community or religion, and use no loaded words ("brutal", "anti-national", "heroic", "historic").
 Attribute every disputed claim and every injury, arrest or crowd figure to whoever reported it. Never urge anyone to
-join or avoid a protest."""
+join or avoid a protest. Never mention suicide."""
 
 RULES = """RULES (all mandatory):
 - Use ONLY information in CONFIRMED FACTS and SOURCE. Never add a name, title, number, place, date, quote, award or
@@ -195,14 +195,23 @@ def monotone(draft: dict) -> list[str]:
 
 def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, photos: list[dict],
           banned_names: list[str] | None = None, model: str | None = None,
-          log_path: Path | None = None, headlines: list[str] | None = None) -> tuple[dict, list[str]]:
+          log_path: Path | None = None, headlines: list[str] | None = None,
+          series: dict | None = None) -> tuple[dict, list[str]]:
     """The script as {title, beats: [{say, photo, caption}]} plus the log of rejected drafts (also kept at log_path).
     kind is "death", "incident" or "protest"."""
     obj = {"He": "him", "She": "her"}.get(pronoun, "them")
     brief = {"death": DEATH_BRIEF, "protest": PROTEST_BRIEF}.get(kind, INCIDENT_BRIEF)
     brief = brief.format(name=name, pronoun=pronoun.lower(), object=obj)
+    if series:
+        brief += (f"\n\nSERIES: this Short is Part {series['part']} of {series['of']} on {series['topic']}. Tell only "
+                  f"this part: {series['angle']}. Beat 1 hooks with the most striking fact of this part (never a "
+                  f"date, never \"is in the news\"). The title starts with \"Part {series['part']}: \".")
+        brief += (f" The last beat ends by saying that Part {series['part'] + 1} tells {series['next']}."
+                  if series.get("next") else " The last beat says where the story stands now.")
     messages = _messages(brief, facts, source, photos, name, headlines)
     ground = source + "\n" + "\n".join(facts) + "\n" + "\n".join(p["description"] for p in photos)
+    if series:
+        ground += f"\nPart {series['part']}, Part {series['part'] + 1}, of {series['of']}"
     log = []
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
@@ -211,7 +220,9 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
             if attempt < 2:
                 problems += monotone(draft)
             if not problems:
-                script = "\n".join(b["say"] for b in draft["beats"])
+                teaser = f"part {series['part'] + 1}" if series else None
+                script = "\n".join(b["say"] for b in draft["beats"]
+                                   if not (teaser and b["say"].lower().startswith(teaser)))
                 verdict = m.chat(_check_messages(script, facts, source), CHECK_SCHEMA, temperature=0.0, max_tokens=500)
                 problems = [f"unsupported: {u}" for u in verdict.get("unsupported", []) if u.strip()]
             if not problems:
@@ -233,9 +244,12 @@ def _sentence_with(number: str, text: str) -> str:
     return ""
 
 
-def pick_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: list[str] | None = None) -> list[dict]:
-    """Downloaded photos as dicts with a "focus" box: for a person, only photos in which their face is matched."""
-    found = media.download(media.find(title, ent, limit=10, extra_qids=extra_qids), folder)
+def pick_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: list[str] | None = None,
+                files: list[str] | None = None) -> list[dict]:
+    """Downloaded photos as dicts with a "focus" box: for a person, only photos in which their face is matched.
+    files: Commons files an editor chose instead of searching."""
+    found = media.picks(files) if files else media.find(title, ent, limit=10, extra_qids=extra_qids)
+    found = media.download(found, folder)
     rows = media.as_dicts(found)
     images = [cv2.imread(r["path"]) for r in rows]
     detected = [faces.detect(img) if img is not None else [] for img in images]
@@ -309,12 +323,12 @@ def build_incident(cand: dict) -> Short:
              if isinstance(c["value"], str) and c["value"].startswith("Q")]
     sid = cand.get("id") or f"wk-{qid}"
     work = WORK / sid
-    photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra)
+    photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra, files=cand.get("photo_files"))
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
     deaths = stories.agreed(stories._first(ib, "total_fatalities", "fatalities", "deaths"), ent, "P1120", True)
     hurt = stories.agreed(stories._first(ib, "total_injuries", "injuries", "injured"), ent, "P1339", True)
-    facts_text = [f"{name} led the news on {stories.date_words(when)}." if ongoing
+    facts_text = [f"Today's date: {stories.date_words(when)}." if ongoing
                   else f"{name} happened on {stories.date_words(when)}."]
     where = stories._first(ib, "site", "location", "place", "areas affected", "areas")
     if where:
@@ -324,12 +338,14 @@ def build_incident(cand: dict) -> Short:
     if hurt:
         facts_text.append(f"Injured (Wikipedia and Wikidata agree): {hurt:,}.")
     banned = [v for k, v in ib.items() if re.match(r"(perpetrators?|assailants?|attackers?|suspects?|accused)$", k)]
-    source = wiki.article_text(article)
+    source = wiki.article_text(article, focus=(cand.get("series") or {}).get("sections"))
     if deaths is None:
         # Casualty numbers only when both sources agree: strip unconfirmed tolls from what the writer may use.
         source = re.sub(r"[^.]*\b(killed|dead|deaths|died|fatalit\w*|injured|wounded)\b[^.]*\.", "", source)
+    source = re.sub(r"[^.]*\bsuicid\w*[^.]*\.", "", source, flags=re.I)
     draft, log = write("protest" if cat in ("protest", "movement") else "incident", name, "It", facts_text, source, photos,
-                       banned_names=banned, log_path=work / "writer_log.json", headlines=cand.get("headlines"))
+                       banned_names=banned, log_path=work / "writer_log.json", headlines=cand.get("headlines"),
+                       series=cand.get("series"))
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
     facts = [Fact("name", name, page, stories.numbers_in(name), "Wikipedia article title"),
              Fact("date", stories.date_words(when), item, [str(when.day), str(when.year)],

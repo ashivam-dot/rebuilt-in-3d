@@ -122,10 +122,20 @@ def find(title: str, ent: dict, limit: int = 8, extra_qids: list[str] | None = N
     if extra_qids:
         for q, e in wiki.entities(extra_qids).items():
             ordered += [("File:" + c["value"], "related") for c in wiki.claims(e, "P18")[:1]]
+    return _usable(ordered, keys, limit)
+
+
+def picks(files: list[str], limit: int = 8) -> list[Photo]:
+    """Photos an editor chose for a story, in order, under the same licence, size and decency checks as find()."""
+    return _usable([(f if f.startswith("File:") else "File:" + f, "editor") for f in files], set(), limit,
+                   shoot_cap=limit)
+
+
+def _usable(ordered: list[tuple[str, str]], keys: set[str], limit: int, shoot_cap: int = 2) -> list[Photo]:
     seen, files = set(), []
     for f, origin in ordered:
         f = f.replace("_", " ")
-        if f not in seen and not NOT_PHOTO.search(f) and not GRAPHIC.search(f):
+        if f not in seen and not GRAPHIC.search(f) and (origin == "editor" or not NOT_PHOTO.search(f)):
             seen.add(f)
             files.append((f, origin))
     info = _info([f for f, _ in files])
@@ -144,7 +154,7 @@ def find(title: str, ent: dict, limit: int = 8, extra_qids: list[str] | None = N
         if origin in ("article", "category") and not _names(f"{f} {desc}", keys):
             continue
         shoot = _shoot(f)
-        if shoots.get(shoot, 0) >= 2:
+        if shoots.get(shoot, 0) >= shoot_cap:
             continue
         shoots[shoot] = shoots.get(shoot, 0) + 1
         hashes.add(ii.get("sha1"))

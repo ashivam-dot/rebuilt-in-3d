@@ -268,11 +268,11 @@ SKIP_SECTIONS = re.compile(r"^(see also|references|notes|external links|further 
 FIRST_SECTIONS = re.compile(r"death|legacy|tribute|reaction|aftermath|victims|response|investigation|impact", re.I)
 
 
-def article_text(title: str, limit: int = 9000, per_section: int = 2200) -> str:
+def article_text(title: str, limit: int = 9000, per_section: int = 2200, focus: str | None = None) -> str:
     """The article as plain text: the lead, then death/legacy/aftermath sections, then the rest in order.
 
     Reference lists and tables of works are dropped and long sections are cut, so the parts a news Short needs
-    survive the length limit.
+    survive the length limit. focus: a regex of section titles to put right after the lead instead.
     """
     d = net.get_json(API, params={"action": "query", "prop": "extracts", "explaintext": 1, "exsectionformat": "wiki",
                                   "titles": title, "redirects": 1, "format": "json", "formatversion": 2})
@@ -287,7 +287,8 @@ def article_text(title: str, limit: int = 9000, per_section: int = 2200) -> str:
         elif line.strip():
             body.append(line.strip())
     lead = [s for s in sections if s[0] == ""]
-    first = [s for s in sections if s[0] and FIRST_SECTIONS.search(s[0])]
+    wanted = re.compile(focus, re.I) if focus else FIRST_SECTIONS
+    first = [s for s in sections if s[0] and wanted.search(s[0])]
     rest = [s for s in sections if s[0] and s not in first]
     out = "\n\n".join((f"## {h}\n" if h else "") + b for h, b in lead + first + rest)
     return out[:limit]
