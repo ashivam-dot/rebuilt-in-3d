@@ -15,8 +15,8 @@ WORK = ROOT / "work"
 log = logging.getLogger("studio")
 
 
-def make(event_id: str) -> tuple[object, dict]:
-    from . import quake, render, voice
+def prepare(event_id: str):
+    from . import quake
 
     short = quake.build(event_id)
     work = WORK / short.id
@@ -25,6 +25,14 @@ def make(event_id: str) -> tuple[object, dict]:
     problems = gate.check(short)
     if problems:
         raise ValueError("gate: " + "; ".join(problems))
+    return short
+
+
+def make(event_id: str, short=None) -> tuple[object, dict]:
+    from . import render, voice
+
+    short = short or prepare(event_id)
+    work = WORK / short.id
     timing = voice.synthesize(short, work)
     stats = render.render(short, timing, work)
     (work / "render.json").write_text(json.dumps(stats, indent=1), encoding="utf-8")
@@ -59,7 +67,7 @@ def run(dry: bool = False) -> dict:
         recent_loss = [r.get("loss", False) for r in ledger.published()]
         for cand in found["quakes"][:3]:
             try:
-                short, stats = make(cand["event"])
+                short = prepare(cand["event"])
             except ValueError as exc:
                 ledger.skip(cand["id"], str(exc)[:300])
                 health["steps"].append(f"skip {cand['id']}: {exc}")
@@ -68,6 +76,7 @@ def run(dry: bool = False) -> dict:
             if mix:
                 health["steps"].append(f"hold {cand['id']}: {mix}")
                 continue
+            short, stats = make(cand["event"], short)
             if dry:
                 health["steps"].append(f"dry run: made {short.id} ({stats['duration']} s), not published")
                 return health
