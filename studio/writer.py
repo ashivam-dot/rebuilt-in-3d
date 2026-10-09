@@ -9,11 +9,12 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import cv2
 
-from . import faces, llm, media, stories, wiki
+from . import faces, llm, media, stories, trends, wiki
 from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
@@ -67,6 +68,21 @@ Shape:
 6. Why it matters now. The last beat is one short, steady sentence.
 Never name or describe any attacker, perpetrator or suspect. Never guess at causes. No graphic detail of injuries or
 death."""
+
+PROTEST_BRIEF = """STORY: {name}. Write a news Short that explains, fairly and calmly, what this protest or movement is,
+why people took to the streets, and where it stands now.
+
+Shape:
+1. Hook (beat 1, under 15 words): the newest development in the SOURCE, stated plainly.
+2. How it began: the trigger, in order, as a story.
+3. Who is involved and what they demand, attributed ("organisers demand", "the party says").
+4. How the government, police or courts responded, attributed to them.
+5. The turning point or the latest step.
+6. What happens next, or what is still unresolved. The last beat is one short, steady sentence.
+Be strictly neutral: give each side's position as the SOURCE states it, never take a side, never mock or praise any
+person, party, community or religion, and use no loaded words ("brutal", "anti-national", "heroic", "historic").
+Attribute every disputed claim and every injury, arrest or crowd figure to whoever reported it. Never urge anyone to
+join or avoid a protest."""
 
 RULES = """RULES (all mandatory):
 - Use ONLY information in CONFIRMED FACTS and SOURCE. Never add a name, title, number, place, date, quote, award or
@@ -125,10 +141,15 @@ def ungrounded(text: str, source: str) -> list[str]:
     return sorted(set(problems))
 
 
-def _messages(brief: str, facts: list[str], source: str, photos: list[dict], name: str) -> list[dict]:
+def _messages(brief: str, facts: list[str], source: str, photos: list[dict], name: str,
+              headlines: list[str] | None = None) -> list[dict]:
     listing = "\n".join(f"{i}: {p['description'] or p['file']}" for i, p in enumerate(photos))
+    lead = ""
+    if headlines:
+        lead = ("\n\nTODAY'S LEAD HEADLINES (context only: use them to choose the angle and what to put first, but "
+                "state only facts that are in CONFIRMED FACTS or SOURCE):\n" + "\n".join(f"- {h}" for h in headlines))
     user = (brief + "\n\nCONFIRMED FACTS:\n" + "\n".join(f"- {f}" for f in facts) + "\n\nSOURCE (Wikipedia):\n" + source
-            + "\n\nPHOTOS:\n" + listing + "\n\n" + RULES.format(best=0, name=name))
+            + lead + "\n\nPHOTOS:\n" + listing + "\n\n" + RULES.format(best=0, name=name))
     return [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]
 
 
@@ -174,11 +195,13 @@ def monotone(draft: dict) -> list[str]:
 
 def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, photos: list[dict],
           banned_names: list[str] | None = None, model: str | None = None,
-          log_path: Path | None = None) -> tuple[dict, list[str]]:
-    """The script as {title, beats: [{say, photo, caption}]} plus the log of rejected drafts (also kept at log_path)."""
+          log_path: Path | None = None, headlines: list[str] | None = None) -> tuple[dict, list[str]]:
+    """The script as {title, beats: [{say, photo, caption}]} plus the log of rejected drafts (also kept at log_path).
+    kind is "death", "incident" or "protest"."""
     obj = {"He": "him", "She": "her"}.get(pronoun, "them")
-    brief = (DEATH_BRIEF if kind == "death" else INCIDENT_BRIEF).format(name=name, pronoun=pronoun.lower(), object=obj)
-    messages = _messages(brief, facts, source, photos, name)
+    brief = {"death": DEATH_BRIEF, "protest": PROTEST_BRIEF}.get(kind, INCIDENT_BRIEF)
+    brief = brief.format(name=name, pronoun=pronoun.lower(), object=obj)
+    messages = _messages(brief, facts, source, photos, name, headlines)
     ground = source + "\n" + "\n".join(facts) + "\n" + "\n".join(p["description"] for p in photos)
     log = []
     with llm.Model(model or llm.DEFAULT) as m:
@@ -263,7 +286,7 @@ def build_death(cand: dict) -> Short:
              Fact("born", stories.date_words(born), item, [str(born.day), str(born.year)], f"Wikidata P569 = {born}"),
              Fact("age", str(age), item, [str(age)], "computed from P569 and P570")]
     return _short(f"wk-{qid}", "death", name, draft, log, facts, facts_text, source, photos, [page, item],
-                  died.isoformat(), loss=False, mood="tribute",
+                  died.isoformat(), loss=False, mood="tribute", voice=cand.get("region", "world"),
                   tags=[name, job, "tribute", "remembering " + name, "news"],
                   summary=f"Remembering {name} ({born.year}–{died.year}), {job.lower() or 'public figure'}.",
                   hashtags=[name.replace(" ", ""), job or "tribute", "news"])
@@ -275,19 +298,24 @@ def build_incident(cand: dict) -> Short:
     stories._check_age(article)
     ent = wiki.entities([qid])[qid]
     _, ib, _ = wiki.infobox(article)
+    ongoing = cat in trends.ONGOING
     when = stories._event_date(ent)
+    if ongoing:
+        when = date.fromisoformat((cand.get("news_at") or datetime.now(timezone.utc).isoformat())[:10])
     if not when:
         raise ValueError("gate: Wikidata has no date for this event")
     page, item = wiki.url(article), f"https://www.wikidata.org/wiki/{qid}"
     extra = [c["value"] for pid in ("P276", "P1427", "P1444", "P121", "P137") for c in wiki.claims(ent, pid)[:1]
              if isinstance(c["value"], str) and c["value"].startswith("Q")]
-    work = WORK / f"wk-{qid}"
+    sid = cand.get("id") or f"wk-{qid}"
+    work = WORK / sid
     photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra)
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
     deaths = stories.agreed(stories._first(ib, "total_fatalities", "fatalities", "deaths"), ent, "P1120", True)
     hurt = stories.agreed(stories._first(ib, "total_injuries", "injuries", "injured"), ent, "P1339", True)
-    facts_text = [f"{name} happened on {stories.date_words(when)}."]
+    facts_text = [f"{name} led the news on {stories.date_words(when)}." if ongoing
+                  else f"{name} happened on {stories.date_words(when)}."]
     where = stories._first(ib, "site", "location", "place", "areas affected", "areas")
     if where:
         facts_text.append(f"Location: {where}.")
@@ -300,23 +328,25 @@ def build_incident(cand: dict) -> Short:
     if deaths is None:
         # Casualty numbers only when both sources agree: strip unconfirmed tolls from what the writer may use.
         source = re.sub(r"[^.]*\b(killed|dead|deaths|died|fatalit\w*|injured|wounded)\b[^.]*\.", "", source)
-    draft, log = write("incident", name, "It", facts_text, source, photos, banned_names=banned,
-                       log_path=work / "writer_log.json")
+    draft, log = write("protest" if cat in ("protest", "movement") else "incident", name, "It", facts_text, source, photos,
+                       banned_names=banned, log_path=work / "writer_log.json", headlines=cand.get("headlines"))
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
     facts = [Fact("name", name, page, stories.numbers_in(name), "Wikipedia article title"),
-             Fact("date", stories.date_words(when), item, [str(when.day), str(when.year)], f"Wikidata date {when}")]
+             Fact("date", stories.date_words(when), item, [str(when.day), str(when.year)],
+                  f"Google News lead story on {when}" if ongoing else f"Wikidata date {when}")]
     if deaths is not None:
         facts.append(Fact("deaths", str(deaths), page, [f"{deaths:,}", str(deaths)], "infobox and Wikidata P1120 agree"))
     region = stories.city_of(where) if where else None
-    return _short(f"wk-{qid}", "incident", name, draft, log, facts, facts_text, source, photos, [page, item],
-                  when.isoformat(), loss=loss, mood="news",
-                  tags=[name, cat, "news explained", "world news"] + ([region] if region else []),
+    return _short(sid, "incident", name, draft, log, facts, facts_text, source, photos, [page, item],
+                  when.isoformat(), loss=loss, mood="news", voice=cand.get("region", "world"),
+                  tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"]
+                  + ([region] if region else []),
                   summary=f"{name}, {stories.date_words(when)}: what happened, from Wikipedia and Wikidata.",
                   hashtags=[cat, region or "world", "news"])
 
 
 def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sources, event_time, loss, mood, tags,
-           summary, hashtags) -> Short:
+           summary, hashtags, voice="world") -> Short:
     beats = []
     for b in draft["beats"]:
         beats.append(Beat(b["say"].strip(), f"photo:{b['photo']}", {"big": b["caption"].strip(), "small": ""}))
@@ -334,8 +364,8 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
     credits = [CREDIT] + sorted({p["credit"] + " " + p["page"] for p in photos})
     tags = [t for t in tags if t]
     return Short(id=sid, kind=kind, title=title[:70], beats=beats, facts=facts, sources=sources, loss=loss,
-                 scene={"template": "story", "mood": mood, "photos": photos, "writer": {"model": llm.DEFAULT,
-                                                                                        "rejected": log}},
+                 scene={"template": "story", "mood": mood, "voice": voice, "photos": photos,
+                        "writer": {"model": llm.DEFAULT, "rejected": log}},
                  event_time=event_time, tags=tags, summary=summary, credits=credits, hashtags=hashtags)
 
 

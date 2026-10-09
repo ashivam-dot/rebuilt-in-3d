@@ -89,6 +89,9 @@ def speakable(text: str) -> str:
 
 TTS_DIR = Path(__file__).resolve().parents[1] / "tts"
 STYLE = {"tribute": {"exaggeration": 0.7, "cfg_weight": 0.35}, "news": {"exaggeration": 0.55, "cfg_weight": 0.45}}
+# Chatterbox clones these reference clips, both synthetic (no real person's voice): India stories get an
+# Indian-English narrator (Veena "kavya", Apache-2.0), every other story a US narrator (Kokoro "am_puck", Apache-2.0).
+VOICES = {"india": TTS_DIR / "voices" / "india.wav", "world": TTS_DIR / "voices" / "world.wav"}
 MIN_MATCH = 0.8
 
 
@@ -108,14 +111,16 @@ def synthesize_story(short: Short, out_dir: Path) -> dict:
     from . import align
 
     mood = short.scene.get("mood", "tribute")
+    lane = short.scene.get("voice", "world")
+    style = STYLE.get(mood, STYLE["tribute"]) | {"voice": str(VOICES.get(lane, VOICES["world"]))}
     texts = [speakable(b.text) for b in short.beats]
-    takes = _chatterbox(texts, out_dir / "takes", STYLE.get(mood, STYLE["tribute"]), seed=7)
+    takes = _chatterbox(texts, out_dir / "takes", style, seed=7)
     clips, checks = [], []
     for i, (beat, take) in enumerate(zip(short.beats, takes)):
         best = None
         for attempt in range(3):
             if attempt:
-                take = _chatterbox([texts[i]], out_dir / f"retake{i:02d}-{attempt}", STYLE.get(mood, STYLE["tribute"]),
+                take = _chatterbox([texts[i]], out_dir / f"retake{i:02d}-{attempt}", style,
                                    seed=100 + 31 * attempt + i)[0]
             audio, sr = sf.read(take["file"], dtype="float32")
             audio = _trim(audio if audio.ndim == 1 else audio.mean(axis=1), sr)
@@ -143,7 +148,7 @@ def synthesize_story(short: Short, out_dir: Path) -> dict:
     audio = np.concatenate(pieces)
     sf.write(out_dir / "narration.wav", audio, rate)
     timing = {"duration": round(t, 3), "words": [asdict(w) for w in words], "beats": spans,
-              "voice": {"engine": "chatterbox", **STYLE.get(mood, STYLE["tribute"]), "heard": checks},
+              "voice": {"engine": "chatterbox", **STYLE.get(mood, STYLE["tribute"]), "lane": lane, "heard": checks},
               "sample_rate": rate}
     (out_dir / "timing.json").write_text(json.dumps(timing, indent=1), encoding="utf-8")
     return timing

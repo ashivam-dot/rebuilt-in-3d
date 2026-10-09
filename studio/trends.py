@@ -1,9 +1,10 @@
 """Trend radar: which famous, fresh stories the world is looking at right now.
 
-Fame comes from two public signals: English Wikipedia's most-read articles (daily) and Google Trends trending
-searches in the US, India and the UK (hourly). Each hit is resolved to a Wikipedia article and its Wikidata item,
-then classified. Only two shapes of story pass: a recent incident with a place on the map, or the recent death of a
-famous person. Everything else (sport, celebrity gossip, politics, crime trials) is ignored by design.
+Fame comes from three public signals: Google News lead stories in India, the US and the world (minutes old),
+Google Trends trending searches in the US, India and the UK (hourly) and English Wikipedia's most-read articles
+(daily). Each hit is resolved to a Wikipedia article and its Wikidata item, then classified. Three shapes of story
+pass: a recent incident, a protest or public movement that newsrooms are leading with, or the recent death of a
+famous person. Sport, celebrity gossip, party politics and crime trials are ignored by design.
 """
 from __future__ import annotations
 
@@ -11,9 +12,12 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 
-from . import net, wiki
+from . import net, news, wiki
 
 GEOS = ("US", "IN", "GB")
+INDIA = "Q668"
+# Protests, movements and wars are ongoing: they qualify while lead stories are about them, whatever their start date.
+ONGOING = ("protest", "movement", "conflict")
 TRENDS_RSS = "https://trends.google.com/trending/rss?geo={geo}"
 HT = "{https://trends.google.com/trending/rss}"
 TOP_N = 400
@@ -62,7 +66,25 @@ def _signals() -> tuple[dict[str, dict], list[str]]:
             h = hits.setdefault(title, {"views": 0, "traffic": 0, "via": []})
             h["traffic"] += t["traffic"]
             h["via"].append(f"google-trends-{geo}:{t['query']}")
+            h.setdefault("geos", set()).add(geo)
+    try:
+        lead, news_errors = news.signals()
+        errors += news_errors
+    except Exception as exc:
+        lead = {}
+        errors.append(f"google news: {exc}"[:200])
+    for title, n in lead.items():
+        h = hits.setdefault(title, {"views": 0, "traffic": 0, "via": []})
+        h["news"], h["news_at"], h["headlines"] = n["news"], n["news_at"], n["headlines"][:5]
+        h.setdefault("geos", set()).update(n["geos"])
+        h["via"] += [f"google-news:{t}" for t in n["headlines"][:3]]
     return hits, errors
+
+
+def region(ent: dict, geos: set[str]) -> str:
+    """'india' for stories about India (Wikidata country or citizenship, or only Indian signals), else 'world'."""
+    countries = {c["value"] for pid in ("P17", "P27", "P495") for c in wiki.claims(ent, pid)}
+    return "india" if INDIA in countries or (geos and geos <= {"IN"}) else "world"
 
 
 def _event_date(ent: dict) -> date | None:
@@ -80,7 +102,9 @@ def candidate(title: str) -> dict:
     if not page or not page.get("qid"):
         raise ValueError(f"no Wikidata item for {title!r}")
     cats = wiki.classify([page["qid"]])[page["qid"]]
-    base = {"qid": page["qid"], "title": page["title"], "id": f"wk-{page['qid']}", "fame": 0, "via": ["manual"]}
+    ent = wiki.entities([page["qid"]])[page["qid"]]
+    base = {"qid": page["qid"], "title": page["title"], "id": f"wk-{page['qid']}", "fame": 0, "via": ["manual"],
+            "region": region(ent, set())}
     if "human" in cats:
         return base | {"kind": "death", "category": "death"}
     cat = next((c for c in ORDER if c in cats), None)
@@ -90,7 +114,7 @@ def candidate(title: str) -> dict:
 
 
 ORDER = ("aviation", "attack", "explosion", "rail", "maritime", "strike", "earthquake", "cyclone", "volcano", "flood",
-         "wildfire", "landslide", "tsunami", "conflict", "disaster", "accident")
+         "wildfire", "landslide", "tsunami", "conflict", "disaster", "accident", "protest", "movement")
 
 
 def radar(today: date | None = None) -> dict:
@@ -117,9 +141,10 @@ def radar(today: date | None = None) -> dict:
         if not cats or not ent:
             continue
         seen.add(qid)
-        fame = h["views"] + h["traffic"]
+        fame = h["views"] + h["traffic"] + h.get("news", 0)
         base = {"qid": qid, "title": page["title"], "fame": fame, "views": h["views"], "traffic": h["traffic"],
-                "via": h["via"]}
+                "news": h.get("news", 0), "news_at": h.get("news_at"), "headlines": h.get("headlines", []),
+                "region": region(ent, h.get("geos", set())), "via": h["via"]}
         if "human" in cats:
             died = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P570")), None)
             if not died or not 0 <= (today - died).days <= DEATH_MAX_DAYS:
@@ -134,13 +159,19 @@ def radar(today: date | None = None) -> dict:
         if not cat:
             continue
         when = _event_date(ent)
+        if cat in ONGOING:
+            if not h.get("news_at"):
+                continue  # a protest or movement is only news while newsrooms lead with it
+            when = date.fromisoformat(h["news_at"][:10])
         if not when:
             made = wiki.created(page["title"])
             when = made.date() if made else None
         if not when or not 0 <= (today - when).days <= INCIDENT_MAX_DAYS:
             continue
         coords = (page["lat"], page["lon"]) if page.get("lat") is not None else wiki.coords(ent)
-        out.append(base | {"id": f"wk-{qid}", "kind": "incident", "category": cat, "date": when.isoformat(),
+        # An ongoing story may come back once a week while newsrooms keep leading with it.
+        sid = f"wk-{qid}-w{when.isocalendar()[1]:02d}" if cat in ONGOING else f"wk-{qid}"
+        out.append(base | {"id": sid, "kind": "incident", "category": cat, "date": when.isoformat(),
                            "coords": coords,
                            "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
     out.sort(key=lambda c: -c["fame"])

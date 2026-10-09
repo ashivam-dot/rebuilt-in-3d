@@ -14,4 +14,5 @@ out/
 *.mp4
 *.wav
 !assets/**/*.wav
+!tts/voices/*.wav
 .DS_Store

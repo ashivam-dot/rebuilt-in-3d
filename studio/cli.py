@@ -71,13 +71,15 @@ def run(dry: bool = False) -> dict:
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")
         if found.get("trend_errors"):
             health["steps"].append(f"trend radar errors: {found['trend_errors']}")
-        wait = plan.can_publish()
-        if wait and not dry:
-            health["steps"].append(f"hold: {wait}")
+        ready, held = plan.lineup(found["candidates"])
+        health["steps"] += held[:6]
+        if dry and not ready:
+            ready = found["candidates"]
+        if not ready:
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]
         written = 0
-        for cand in found["candidates"][:4]:
+        for cand in ready[:4]:
             if written >= MAX_WRITTEN and cand["kind"] != "quake":
                 health["steps"].append(f"later {cand['id']}: this run already wrote {written} scripts")
                 continue

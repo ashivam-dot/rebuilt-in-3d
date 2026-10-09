@@ -2,7 +2,7 @@ name: run
 # One pass an hour: watch official feeds, make the best eligible Short, gate it, publish it, record the result.
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       dry:

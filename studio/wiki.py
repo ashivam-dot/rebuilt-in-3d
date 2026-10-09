@@ -32,6 +32,8 @@ CLASSES = {
     "Q179057": "explosion", "Q1078765": "rail", "Q852190": "maritime",
     "Q2380335": "strike", "Q645883": "conflict", "Q178561": "conflict", "Q198": "conflict", "Q350604": "conflict",
     "Q3839081": "disaster", "Q171558": "accident",
+    "Q273120": "protest", "Q175331": "protest",
+    "Q2738074": "movement", "Q49773": "movement",
 }
 HUMAN = "Q5"
 SKIP_PREFIX = ("Special:", "Main_Page", "Wikipedia:", "Portal:", "File:", "Help:", "Category:", "Template:", "Talk:")
