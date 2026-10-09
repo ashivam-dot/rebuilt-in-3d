@@ -87,3 +87,14 @@ def test_monotone_scripts_are_sent_back():
     assert len(problems) == 1 and "3 beats" in problems[0]
     varied = {"beats": [{"say": s} for s in ["She was born.", "In 1954, she won.", "She left.", "Then came more."]]}
     assert writer.monotone(varied) == []
+
+
+def test_mix_lasts_as_long_as_the_video(tmp_path):
+    import soundfile as sf
+    from studio import compose
+    t = np.arange(int(2.0 * 24000)) / 24000
+    sf.write(tmp_path / "narration.wav", (0.3 * np.sin(2 * np.pi * 220 * t)).astype(np.float32), 24000)
+    short = Short(id="t1", kind="death", title="T", beats=[], facts=[], sources=[], loss=False,
+                  scene={"mood": "tribute"})
+    mixed = compose._mix(tmp_path / "narration.wav", short, 2.6, tmp_path)
+    assert abs(sf.info(str(mixed)).duration - 2.6) < 0.01

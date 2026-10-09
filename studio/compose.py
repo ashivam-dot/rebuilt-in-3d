@@ -276,7 +276,8 @@ def _mix(narration: Path, short: Short, seconds: float, out: Path) -> Path:
              "volume=1.0,asplit=2[v][key];"
              "[1:a]aresample=48000,volume=0.30[m];"
              "[m][key]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=400[duck];"
-             "[v][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9[out]")
+             "[v][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9,"
+             f"apad,atrim=0:{seconds:.3f}[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration), "-i", str(out / "music.wav"),
                     "-filter_complex", graph, "-map", "[out]", "-ar", "48000", "-ac", "2", str(mixed)], check=True)
     return mixed
