@@ -1,5 +1,5 @@
 {
- "at": "2026-10-09T07:31:27+00:00",
+ "at": "2026-10-09T17:25:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -8,6 +8,10 @@
    "fame": 1665865,
    "views": 1665865,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -17,11 +21,40 @@
    "date": "2026-10-08"
   },
   {
+   "qid": "Q138503695",
+   "title": "2026 Iran war",
+   "fame": 270105,
+   "views": 20105,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-10-08T22:35:46+00:00",
+   "headlines": [
+    "Putin pledges Russia’s support to end US-led war on Iran",
+    "Iran strikes tankers outside Hormuz in signs of expanding campaign"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-08",
+    "google-news:Putin pledges Russia’s support to end US-led war on Iran",
+    "google-news:Iran strikes tankers outside Hormuz in signs of expanding campaign"
+   ],
+   "id": "wk-Q138503695-2026w41",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-08",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q11628",
    "title": "Margaret Hamilton (software engineer)",
    "fame": 162739,
    "views": 162739,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -36,6 +69,10 @@
    "fame": 73457,
    "views": 73457,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -50,6 +87,10 @@
    "fame": 30637,
    "views": 30637,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -64,6 +105,10 @@
    "fame": 25480,
    "views": 25480,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -80,6 +125,10 @@
    "fame": 18692,
    "views": 18692,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -113,28 +162,49 @@
   {
    "id": "gdacs-TC-1001335",
    "kind": "TC",
-   "level": "Orange",
-   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 46770 .",
+   "level": "Red",
+   "title": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.708 million .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "15.6",
-   "lon": "-104.6"
+   "lat": "16",
+   "lon": "-104.7"
+  },
+  {
+   "id": "gdacs-TC-1001334",
+   "kind": "TC",
+   "level": "Orange",
+   "title": "Orange notification for tropical cyclone ISAIAS-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.76 million .",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001334",
+   "published": "2026-10-06T21:01:35+00:00",
+   "lat": "27.7",
+   "lon": "-87.3"
   }
  ],
  "candidates": [
   {
-   "qid": "Q11628",
-   "title": "Margaret Hamilton (software engineer)",
-   "fame": 162739,
-   "views": 162739,
+   "qid": "Q138503695",
+   "title": "2026 Iran war",
+   "fame": 270105,
+   "views": 20105,
    "traffic": 0,
-   "via": [
-    "wikipedia-top-2026-10-08"
+   "news": 250000,
+   "news_at": "2026-10-08T22:35:46+00:00",
+   "headlines": [
+    "Putin pledges Russia’s support to end US-led war on Iran",
+    "Iran strikes tankers outside Hormuz in signs of expanding campaign"
    ],
-   "id": "wk-Q11628",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-09-30"
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-08",
+    "google-news:Putin pledges Russia’s support to end US-led war on Iran",
+    "google-news:Iran strikes tankers outside Hormuz in signs of expanding campaign"
+   ],
+   "id": "wk-Q138503695-2026w41",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-08",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q228928",
@@ -142,6 +212,10 @@
    "fame": 73457,
    "views": 73457,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -156,6 +230,10 @@
    "fame": 30637,
    "views": 30637,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -170,6 +248,10 @@
    "fame": 25480,
    "views": 25480,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
@@ -181,11 +263,33 @@
    "has_coords": true
   },
   {
+   "qid": "Q11628",
+   "title": "Margaret Hamilton (software engineer)",
+   "fame": 162739,
+   "views": 162739,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q11628",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-09-30"
+  },
+  {
    "qid": "Q7425737",
    "title": "Sass Jordan",
    "fame": 18692,
    "views": 18692,
    "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
     "wikipedia-top-2026-10-08"
    ],
