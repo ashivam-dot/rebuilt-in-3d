@@ -1,0 +1,22 @@
+[project]
+name = "orbitwire-tts"
+version = "0.1.0"
+description = "Chatterbox (MIT) narration in its own environment: it pins torch and numpy versions the studio cannot share."
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "chatterbox-tts==0.1.7",
+    "soundfile>=0.12",
+    "setuptools<81",  # resemble-perth (Chatterbox's watermark) still imports pkg_resources
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+torchaudio = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

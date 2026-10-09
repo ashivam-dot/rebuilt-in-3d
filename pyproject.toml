@@ -19,6 +19,7 @@ dependencies = [
     "google-auth-oauthlib>=1.2",
     "google-api-python-client>=2.170",
     "mwparserfromhell>=0.6",
+    "opencv-python-headless>=5.0.0.93",
 ]
 
 [project.optional-dependencies]
@@ -31,7 +32,7 @@ studio = "studio.cli:main"
 include = ["studio*"]
 
 [tool.setuptools.package-data]
-studio = ["web/*", "web/vendor/*"]
+studio = ["web/*", "web/vendor/*", "fonts/*"]
 
 [tool.uv.sources]
 torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]

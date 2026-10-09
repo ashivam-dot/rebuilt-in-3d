@@ -259,5 +259,37 @@ def search(query: str) -> str | None:
     return hits[0]["title"] if hits else None
 
 
+SKIP_SECTIONS = re.compile(r"^(see also|references|notes|external links|further reading|bibliography|filmography|"
+                           r"discography|works|selected works|awards and nominations|citations|sources)$", re.I)
+
+
+FIRST_SECTIONS = re.compile(r"death|legacy|tribute|reaction|aftermath|victims|response|investigation|impact", re.I)
+
+
+def article_text(title: str, limit: int = 9000, per_section: int = 2200) -> str:
+    """The article as plain text: the lead, then death/legacy/aftermath sections, then the rest in order.
+
+    Reference lists and tables of works are dropped and long sections are cut, so the parts a news Short needs
+    survive the length limit.
+    """
+    d = net.get_json(API, params={"action": "query", "prop": "extracts", "explaintext": 1, "exsectionformat": "wiki",
+                                  "titles": title, "redirects": 1, "format": "json", "formatversion": 2})
+    text = d["query"]["pages"][0].get("extract", "")
+    sections, head, body = [], "", []
+    for line in text.splitlines() + ["== END =="]:
+        m = re.match(r"^(=+)\s*(.*?)\s*=+$", line)
+        if m:
+            if body and not SKIP_SECTIONS.match(head):
+                sections.append((head, " ".join(body)[:per_section]))
+            head, body = m.group(2), []
+        elif line.strip():
+            body.append(line.strip())
+    lead = [s for s in sections if s[0] == ""]
+    first = [s for s in sections if s[0] and FIRST_SECTIONS.search(s[0])]
+    rest = [s for s in sections if s[0] and s not in first]
+    out = "\n\n".join((f"## {h}\n" if h else "") + b for h, b in lead + first + rest)
+    return out[:limit]
+
+
 def url(title: str) -> str:
     return "https://en.wikipedia.org/wiki/" + title.replace(" ", "_")

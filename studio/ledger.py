@@ -43,5 +43,18 @@ def skip(story_id: str, reason: str) -> None:
     save("skipped", skipped)
 
 
+def retry(story_id: str, reason: str, limit: int = 6) -> bool:
+    """Count a retryable failure; past `limit` the story is skipped for good. True while it may still be retried."""
+    tries = load("retries", {})
+    row = tries.get(story_id, {"count": 0})
+    row = {"count": row["count"] + 1, "reason": reason, "at": now()}
+    tries[story_id] = row
+    save("retries", tries)
+    if row["count"] >= limit:
+        skip(story_id, f"gave up after {row['count']} tries: {reason}")
+        return False
+    return True
+
+
 def is_done(story_id: str) -> bool:
     return any(r["id"] == story_id for r in published()) or story_id in load("skipped", {})

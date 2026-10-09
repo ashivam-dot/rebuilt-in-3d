@@ -55,11 +55,35 @@ def check(short: Short) -> list[str]:
         problems.append(f"narration: {words} words (want 50-200)")
     if not short.sources or any(not s.startswith("https://") for s in short.sources):
         problems.append("sources: every Short needs https primary sources")
-    if DISCLOSURE not in STAGE.read_text(encoding="utf-8"):
+    if short.scene.get("template") == "story":
+        problems += _story(short)
+    elif DISCLOSURE not in STAGE.read_text(encoding="utf-8"):
         problems.append("stage: the on-screen disclosure badge is missing")
     for f in short.facts:
         if not f.source.startswith("https://"):
             problems.append(f"fact {f.key}: no https source")
+    return problems
+
+
+def _story(short: Short) -> list[str]:
+    """Photo Shorts: enough real photos, every one freely licensed, and each one's author credited."""
+    from . import compose, media
+
+    problems = []
+    photos = short.scene.get("photos", [])
+    if len(photos) < 3:
+        problems.append(f"photos: only {len(photos)} (want 3 or more)")
+    credits = " ".join(short.credits)
+    for p in photos:
+        if not media.FREE.match(p.get("license", "")):
+            problems.append(f"photo {p.get('file')}: licence {p.get('license')!r} is not free")
+        if p.get("page", "") not in credits:
+            problems.append(f"photo {p.get('file')}: not credited")
+    used = {b.shot for b in short.beats if b.shot.startswith("photo:")}
+    if any(int(s.split(":")[1]) >= len(photos) for s in used):
+        problems.append("beats: a beat points at a photo that does not exist")
+    if "AI voice" not in compose.DISCLOSURE:
+        problems.append("end card: the AI-voice disclosure is missing")
     return problems
 
 

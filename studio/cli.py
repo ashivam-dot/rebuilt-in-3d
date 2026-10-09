@@ -12,18 +12,21 @@ from . import gate, ledger, plan
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
+RETRYABLE = ("under 6 hours old", "words (want", "does not confirm the death", "usable photos", "no draft passed",
+             "came out garbled")
+MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 log = logging.getLogger("studio")
 
 
 def prepare(target: str | dict):
     """Build and gate a Short from a USGS event id, a 'wiki:<title>' string, or a watcher candidate."""
-    from . import quake, stories, trends
+    from . import quake, trends, writer
 
     if isinstance(target, str) and target.startswith("wiki:"):
         target = trends.candidate(target[5:])
     if isinstance(target, dict) and target["kind"] == "quake":
         target = target["event"]
-    short = quake.build(target) if isinstance(target, str) else stories.build(target)
+    short = quake.build(target) if isinstance(target, str) else writer.build(target)
     work = WORK / short.id
     work.mkdir(parents=True, exist_ok=True)
     short.save(work / "short.json")
@@ -34,12 +37,12 @@ def prepare(target: str | dict):
 
 
 def make(target: str | dict, short=None) -> tuple[object, dict]:
-    from . import render, voice
+    from . import compose, render, voice
 
     short = short or prepare(target)
     work = WORK / short.id
     timing = voice.synthesize(short, work)
-    stats = render.render(short, timing, work)
+    stats = (compose if short.scene.get("template") == "story" else render).render(short, timing, work)
     (work / "render.json").write_text(json.dumps(stats, indent=1), encoding="utf-8")
     return short, stats
 
@@ -73,23 +76,36 @@ def run(dry: bool = False) -> dict:
             health["steps"].append(f"hold: {wait}")
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]
+        written = 0
         for cand in found["candidates"][:4]:
+            if written >= MAX_WRITTEN and cand["kind"] != "quake":
+                health["steps"].append(f"later {cand['id']}: this run already wrote {written} scripts")
+                continue
             try:
                 short = prepare(cand)
             except ValueError as exc:
-                # Young or thin articles get another chance next hour, once editors have added facts.
-                if not any(m in str(exc) for m in ("under 6 hours old", "words (want", "does not confirm the death")):
+                written += "no draft passed" in str(exc)
+                # Young or thin articles, and stories still short of free photos, get another chance next hour.
+                if any(m in str(exc) for m in RETRYABLE):
+                    ledger.retry(cand["id"], str(exc)[:300])
+                else:
                     ledger.skip(cand["id"], str(exc)[:300])
                 health["steps"].append(f"skip {cand['id']}: {exc}")
                 continue
             except Exception as exc:  # one malformed article must not stop the other candidates
                 health.setdefault("warnings", []).append(f"{cand['id']}: {type(exc).__name__}: {exc}"[:300])
                 continue
+            written += short.scene.get("template") == "story"
             mix = gate.channel_mix(recent_loss, short.loss)
             if mix:
                 health["steps"].append(f"hold {cand['id']}: {mix}")
                 continue
-            short, stats = make(cand, short)
+            try:
+                short, stats = make(cand, short)
+            except ValueError as exc:
+                ledger.retry(cand["id"], str(exc)[:300])
+                health["steps"].append(f"skip {cand['id']}: {exc}")
+                continue
             if dry:
                 health["steps"].append(f"dry run: made {short.id} ({stats['duration']} s), not published")
                 return health

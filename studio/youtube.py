@@ -55,12 +55,20 @@ def find(api, channel: dict, short_id: str) -> dict | None:
 
 def description(short: Short) -> str:
     lines = [short.summary, ""]
-    lines += ["What the data shows:"] + [f"• {b.text}" for b in short.beats[1:-1]] + [""]
-    lines += ["Sources:"] + short.sources + [""]
-    lines += ["This is a 3D reconstruction built from open data, not real footage. The vertical scale is exaggerated "
-              "so depth and relief are visible. Narration is synthetic (Kokoro text-to-speech).",
-              "Spotted an error? Comment with a source and we will correct it.", ""]
-    lines += ["Credits: " + "; ".join(short.credits), ""]
+    if short.scene.get("template") == "story":
+        lines += [" ".join(b.text for b in short.beats[:-1]), ""]
+        lines += ["Sources:"] + short.sources + [""]
+        lines += ["The photos are real, from Wikimedia Commons, with a gentle 3D camera move added. The narration is "
+                  "an AI voice (Chatterbox) reading a script checked line by line against the sources above.",
+                  "Spotted an error? Comment with a source and we will correct it.", ""]
+        lines += ["Credits:"] + [f"• {c}" for c in short.credits] + [""]
+    else:
+        lines += ["What the data shows:"] + [f"• {b.text}" for b in short.beats[1:-1]] + [""]
+        lines += ["Sources:"] + short.sources + [""]
+        lines += ["This is a 3D reconstruction built from open data, not real footage. The vertical scale is "
+                  "exaggerated so depth and relief are visible. Narration is synthetic (Kokoro text-to-speech).",
+                  "Spotted an error? Comment with a source and we will correct it.", ""]
+        lines += ["Credits: " + "; ".join(short.credits), ""]
     words = ["".join(w[:1].upper() + w[1:] for w in h.split()) if " " in h else h for h in short.hashtags]
     lines.append(" ".join("#" + re.sub(r"[^0-9A-Za-z]", "", w) for w in words if re.sub(r"[^0-9A-Za-z]", "", w)))
     text = "\n".join(lines)

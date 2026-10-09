@@ -64,8 +64,8 @@ def watch() -> dict:
         found["trend_errors"] = [f"{type(exc).__name__}: {exc}"[:200]]
     quakes_trending = [c for c in found["trending"] if c.get("category") == "earthquake"]
     found["quakes"] = quake_candidates(quakes_trending)
-    stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
-               and (c["kind"] == "death" or c.get("has_coords"))]
+    # Stories are told with real photos now, so an incident no longer needs coordinates to qualify.
+    stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])]
     found["candidates"] = sorted(found["quakes"] + stories, key=lambda c: -c["fame"])
     try:
         found["hazards"] = gdacs.alerts()
