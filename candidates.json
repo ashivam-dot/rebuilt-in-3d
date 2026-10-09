@@ -1,5 +1,5 @@
 {
- "at": "2026-10-09T18:13:40+00:00",
+ "at": "2026-10-09T20:10:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -39,26 +39,24 @@
    "date": "2026-09-30"
   },
   {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
+   "qid": "Q1355840",
+   "title": "Mike Ditka",
    "fame": 125000,
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-09T16:48:40+00:00",
+   "news_at": "2026-10-09T19:30:02+00:00",
    "headlines": [
-    "Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
+    "Mike Ditka, legendary Chicago Bears coach, dies at 86"
    ],
    "region": "world",
    "via": [
-    "google-news:Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
+    "google-news:Mike Ditka, legendary Chicago Bears coach, dies at 86"
    ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
+   "id": "wk-Q1355840",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-09"
   },
   {
    "qid": "Q228928",
@@ -140,11 +138,11 @@
    "id": "gdacs-EQ-1570339",
    "kind": "EQ",
    "level": "Orange",
-   "title": "Orange earthquake (Magnitude 8M, Depth:33km) in Panama 09/10/2026 17:56 UTC, 480 thousand in 100km.",
+   "title": "Orange earthquake (Magnitude 7.7M, Depth:12.647km) in Panama 09/10/2026 17:56 UTC, 460 thousand (in MMI>=VII).",
    "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570339",
-   "published": "2026-10-09T18:09:42+00:00",
-   "lat": "7.54",
-   "lon": "-80.75"
+   "published": "2026-10-09T18:04:04+00:00",
+   "lat": "7.5868",
+   "lon": "-80.769"
   },
   {
    "id": "gdacs-VO-1000151",
@@ -188,6 +186,26 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q1355840",
+   "title": "Mike Ditka",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-09T19:30:02+00:00",
+   "headlines": [
+    "Mike Ditka, legendary Chicago Bears coach, dies at 86"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Mike Ditka, legendary Chicago Bears coach, dies at 86"
+   ],
+   "id": "wk-Q1355840",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-09"
+  },
   {
    "qid": "Q228928",
    "title": "Eva Marie Saint",
@@ -279,28 +297,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-02"
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-09T16:48:40+00:00",
-   "headlines": [
-    "Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Alleged Flydubai hijacker planned ‘suicide attack’ on Tel Aviv’s airport, early investigation finds"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   }
  ]
 }
