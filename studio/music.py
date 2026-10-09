@@ -60,7 +60,7 @@ def score(seconds: float, mood: str, seed_text: str) -> np.ndarray:
     bpm = 66 if mood == "tribute" else 84
     beat = 60 / bpm
     bar = 4 * beat
-    total = int((seconds + 2) * SR)
+    total = int((seconds + 1 + bar + 4) * SR)
     left = np.zeros(total, np.float32)
     right = np.zeros(total, np.float32)
     prog = PROGRESSIONS.get(mood, PROGRESSIONS["tribute"])

@@ -1,6 +1,6 @@
 import numpy as np
 
-from studio import align, faces, gate, media, writer
+from studio import align, faces, gate, media, music, writer
 from studio.spec import Beat, Fact, Short
 
 SOURCE = ("Patekar was born in Murud-Janjira. He played a truant, gambling son in Krantiveer (1994), for which he won "
@@ -72,3 +72,18 @@ def test_story_gate_needs_free_credited_photos():
     assert any("not free" in p for p in gate.check(story([photo, photo, nc], [photo["page"]])))
     assert any("not credited" in p for p in gate.check(story([photo] * 3, [])))
     assert any("only 2" in p for p in gate.check(story([photo] * 2, [photo["page"]])))
+
+
+def test_music_fits_any_length():
+    for mood in ("tribute", "news"):
+        for seconds in (20.0, 31.3, 37.8, 44.6, 52.1):
+            bed = music.score(seconds, mood, f"{mood}{seconds}")
+            assert bed.shape == (int(seconds * music.SR), 2)
+
+
+def test_monotone_scripts_are_sent_back():
+    flat = {"beats": [{"say": s} for s in ["She was born.", "She acted.", "She won.", "Then she left."]]}
+    problems = writer.monotone(flat)
+    assert len(problems) == 1 and "3 beats" in problems[0]
+    varied = {"beats": [{"say": s} for s in ["She was born.", "In 1954, she won.", "She left.", "Then came more."]]}
+    assert writer.monotone(varied) == []

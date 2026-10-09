@@ -75,6 +75,8 @@ RULES = """RULES (all mandatory):
   of 12 to 20 words. Count the words before you answer.
 - Every beat must carry a specific fact from the SOURCE (a work, a place, a year, an honour, a choice they made);
   feeling comes from how you tell those facts, not from vague praise.
+- Tell it as a story, not a list: vary how beats open, and never start more than 2 beats with the same word
+  ("She", "He", "The"). Open beats with the moment, the work, the year or the turn ("In 1954, ...", "Then came ...").
 - Write numbers as digits (1994, 75). Use a year only when it helps the story.
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
@@ -163,6 +165,13 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     return problems
 
 
+def monotone(draft: dict) -> list[str]:
+    """Openings repeated so often that the script reads as a list."""
+    openers = [re.sub(r"\W", "", b["say"].split()[0]).lower() for b in draft.get("beats", []) if b["say"].split()]
+    return [f"{openers.count(w)} beats start with \"{w.capitalize()}\"; start at most 2 beats with the same word"
+            for w in sorted(set(openers)) if openers.count(w) > 2]
+
+
 def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, photos: list[dict],
           banned_names: list[str] | None = None, model: str | None = None,
           log_path: Path | None = None) -> tuple[dict, list[str]]:
@@ -176,6 +185,8 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
         for attempt in range(3):
             draft = m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6)
             problems = _validate(draft, photos, name, ground, banned_names or [])
+            if attempt < 2:
+                problems += monotone(draft)
             if not problems:
                 script = "\n".join(b["say"] for b in draft["beats"])
                 verdict = m.chat(_check_messages(script, facts, source), CHECK_SCHEMA, temperature=0.0, max_tokens=500)
