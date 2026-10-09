@@ -1,6 +1,94 @@
 {
- "at": "2026-10-09T02:27:17+00:00",
+ "at": "2026-10-09T03:49:55+00:00",
  "quakes": [],
+ "trending": [
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 1665865,
+   "views": 1665865,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q11628",
+   "title": "Margaret Hamilton (software engineer)",
+   "fame": 162739,
+   "views": 162739,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q11628",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-09-30"
+  },
+  {
+   "qid": "Q228928",
+   "title": "Eva Marie Saint",
+   "fame": 73457,
+   "views": 73457,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q228928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-06"
+  },
+  {
+   "qid": "Q5496741",
+   "title": "Freddie Jackson",
+   "fame": 30637,
+   "views": 30637,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q5496741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-05"
+  },
+  {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 25480,
+   "views": 25480,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q141670823",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-06",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q7425737",
+   "title": "Sass Jordan",
+   "fame": 18692,
+   "views": 18692,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q7425737",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-02"
+  }
+ ],
  "hazards": [
   {
    "id": "gdacs-VO-1000151",
@@ -26,11 +114,99 @@
    "id": "gdacs-TC-1001335",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 76436 .",
+   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.546 million .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "15.7",
-   "lon": "-103.9"
+   "lat": "15.6",
+   "lon": "-104.6"
+  }
+ ],
+ "candidates": [
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 1665865,
+   "views": 1665865,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q11628",
+   "title": "Margaret Hamilton (software engineer)",
+   "fame": 162739,
+   "views": 162739,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q11628",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-09-30"
+  },
+  {
+   "qid": "Q228928",
+   "title": "Eva Marie Saint",
+   "fame": 73457,
+   "views": 73457,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q228928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-06"
+  },
+  {
+   "qid": "Q5496741",
+   "title": "Freddie Jackson",
+   "fame": 30637,
+   "views": 30637,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q5496741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-05"
+  },
+  {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 25480,
+   "views": 25480,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q141670823",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-06",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q7425737",
+   "title": "Sass Jordan",
+   "fame": 18692,
+   "views": 18692,
+   "traffic": 0,
+   "via": [
+    "wikipedia-top-2026-10-08"
+   ],
+   "id": "wk-Q7425737",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-02"
   }
  ]
 }
