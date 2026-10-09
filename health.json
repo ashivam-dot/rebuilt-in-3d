@@ -1,9 +1,15 @@
 {
- "at": "2026-10-09T20:10:53+00:00",
+ "at": "2026-10-09T21:54:05+00:00",
  "ok": true,
  "steps": [
-  "watch: 6 candidates (0 quakes, 7 trending), 5 hazard alerts",
-  "skip wk-Q1355840: gate: no draft passed the fact checks: line 7 (Off the field, he spent time welcoming sailors from the USS ): unsupported: There is no mention of him welcoming sailors from the USS Cleveland in the press booth in any of the sources. | second look: The source sentences do not state the specific time (date/year) when the event occurred, only that it happened 'during a National Football League' (the sentence is cut off). Additionally, the",
-  "dry run: made wk-Q228928 (50.56 s), not published"
- ]
+  "watch: 7 candidates (1 quakes, 7 trending), 5 hazard alerts",
+  "published eq-us6000u18k: https://www.youtube.com/shorts/ou-WEYN_fZ4"
+ ],
+ "published": {
+  "video_id": "ou-WEYN_fZ4",
+  "url": "https://www.youtube.com/shorts/ou-WEYN_fZ4",
+  "title": "How the M7.7 Panama quake ruptured, in 3D",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
