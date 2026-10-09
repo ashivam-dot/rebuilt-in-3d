@@ -80,8 +80,8 @@ RULES = """RULES (all mandatory):
   no questions to the viewer, no request to like or follow.
 - photo: the index of the PHOTO that best fits the beat. Beat 1 uses photo {best}. Use every photo at least once if
   you can, and the same photo at most twice.
-- caption: 1 to 4 words shown on screen that match what the beat says (the exact work title it names with its year,
-  a place, a role).
+- caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
+  a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
 - title: 30 to 60 characters in normal title case, factual and moving, includes "{name}", no clickbait.
 Return only the JSON."""
 
@@ -232,6 +232,8 @@ def build_death(cand: dict) -> Short:
     she, _ = stories._pronouns(ent)
     age = died.year - born.year - ((died.month, died.day) < (born.month, born.day))
     job = (ib.get("occupation") or "").split(",")[0].strip()
+    if not job:
+        job = next(iter(wiki.labels([c["value"] for c in wiki.claims(ent, "P106")[:1]]).values()), "")
     work = WORK / f"wk-{qid}"
     photos = pick_photos(title, ent, work / "photos", person=True)
     if len(photos) < MIN_PHOTOS:
@@ -319,6 +321,7 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
     if not 20 <= len(title) <= 70:
         title = f"Remembering {name}" if kind == "death" else f"{name}: what happened"
     credits = [CREDIT] + sorted({p["credit"] + " " + p["page"] for p in photos})
+    tags = [t for t in tags if t]
     return Short(id=sid, kind=kind, title=title[:70], beats=beats, facts=facts, sources=sources, loss=loss,
                  scene={"template": "story", "mood": mood, "photos": photos, "writer": {"model": llm.DEFAULT,
                                                                                         "rejected": log}},
