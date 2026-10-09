@@ -51,9 +51,12 @@ def elevation_at(lat: float, lon: float, z: int = 10) -> float:
     return float(t[min(255, int((y % 1) * 256)), min(255, int((x % 1) * 256))])
 
 
+MAX_ZOOM = 10  # from z11 the tiles fill open sea with 0 m (seen off Vanuatu), which reads as land
+
+
 def dem(bbox: list[float], target_px: int = 1600) -> tuple[np.ndarray, dict]:
     west, south, east, north = bbox
-    z = max(3, min(12, math.ceil(math.log2(target_px * 360 / (256 * (east - west))))))
+    z = max(3, min(MAX_ZOOM, math.ceil(math.log2(target_px * 360 / (256 * (east - west))))))
     x0, x1 = lon2x(west, z), lon2x(east, z)
     y0, y1 = lat2y(north, z), lat2y(south, z)
     tx0, tx1, ty0, ty1 = int(x0), int(x1), int(y0), int(y1)
