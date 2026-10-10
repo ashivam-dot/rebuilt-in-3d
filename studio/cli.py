@@ -9,7 +9,7 @@ import traceback
 from datetime import datetime
 from pathlib import Path
 
-from . import gate, ledger, plan
+from . import gate, ledger, learn, plan
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
@@ -28,6 +28,8 @@ def prepare(target: str | dict):
     if isinstance(target, dict) and target["kind"] == "quake":
         target = target["event"]
     short = quake.build(target) if isinstance(target, str) else writer.build(target)
+    if isinstance(target, dict):
+        short.scene.setdefault("category", target.get("category"))
     work = WORK / short.id
     work.mkdir(parents=True, exist_ok=True)
     short.save(work / "short.json")
@@ -62,7 +64,8 @@ def publish(story_id: str, publish_at: str | None = None) -> dict:
     when = datetime.fromisoformat(publish_at.replace("Z", "+00:00")).isoformat(timespec="seconds") if publish_at \
         else ledger.now()
     ledger.record_publish({"id": short.id, "kind": short.kind, "title": short.title, "loss": short.loss,
-                           "published_at": when, "event_time": short.event_time, **result})
+                           "published_at": when, "event_time": short.event_time,
+                           "category": short.scene.get("category"), **result})
     return result
 
 
@@ -70,6 +73,14 @@ def run(dry: bool = False) -> dict:
     """One scheduled pass: watch, pick the best eligible story, make it, gate it, publish it."""
     health = {"at": ledger.now(), "ok": True, "steps": []}
     try:
+        if not dry:
+            ledger.set_identity()
+            try:
+                learned = learn.refresh()
+                if learned is not None:
+                    health["steps"].append(f"learn: {learned['scored']} scored Shorts, lifts {learned['lifts']}"[:400])
+            except Exception as exc:  # the numbers steer ranking; reading them must never stop a publish
+                health["steps"].append(f"learn: {type(exc).__name__}: {exc}"[:300])
         found = plan.watch()
         health["steps"].append(f"watch: {len(found['candidates'])} candidates ({len(found['quakes'])} quakes, "
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")

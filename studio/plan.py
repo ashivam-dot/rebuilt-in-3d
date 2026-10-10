@@ -66,9 +66,11 @@ def age_hours(cand: dict, at: datetime) -> float:
 
 
 def priority(cand: dict, at: datetime) -> float:
-    """Fame halved every half-life: what the desk would lead with right now."""
+    """Fame halved every half-life, times the channel's own learned lift: what the desk would lead with right now."""
+    from . import learn
+
     half = HALF_LIFE_H.get(cand.get("kind"), HALF_LIFE_H.get(cand.get("category"), DEFAULT_HALF_LIFE_H))
-    return cand.get("fame", 0) * 0.5 ** (age_hours(cand, at) / half)
+    return cand.get("fame", 0) * 0.5 ** (age_hours(cand, at) / half) * learn.factor(cand)
 
 
 def is_breaking(cand: dict, at: datetime) -> bool:

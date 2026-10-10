@@ -27,6 +27,18 @@ def save(name: str, data) -> Path:
     return path
 
 
+def set_identity() -> None:
+    """Give the state checkout a committer, so the workflow's `git pull --rebase` can replay its commit when the
+    state branch moved during the run."""
+    import subprocess
+
+    if not (STATE / ".git").exists():
+        return
+    for key, value in (("user.name", "ashivam-dot"),
+                       ("user.email", "335661989+ashivam-dot@users.noreply.github.com")):
+        subprocess.run(["git", "-C", str(STATE), "config", key, value], check=False, capture_output=True)
+
+
 def published() -> list[dict]:
     return load("published", [])
 
