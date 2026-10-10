@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T04:26:05+00:00",
+ "at": "2026-10-10T04:55:07+00:00",
  "quakes": [
   {
    "id": "eq-us6000u19w",
@@ -8,7 +8,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 8.0,
+   "age_h": 8.5,
    "alert": "yellow",
    "trending": false
   }
@@ -75,28 +75,6 @@
    "date": "2026-10-09",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q11628",
@@ -272,7 +250,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 8.0,
+   "age_h": 8.5,
    "alert": "yellow",
    "trending": false
   },
@@ -367,28 +345,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-09-30"
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   }
  ]
 }
