@@ -28,6 +28,7 @@ WORKFLOWS = [
     ("rebuilt-in-3d", "run.yml", 3),
     ("pangaea-nights", "episode.yml", 30, "2026-10-11T12:00:00+00:00"), ("pangaea-nights", "health.yml", 9),
     ("history-last-hours-control", "atlas-publish.yml", 5),
+    ("channel-doctor", "watch.yml", 2),
     ("mool-katha-control", "lite.yml", 15), ("mool-katha-control", "control-monitor.yml", 6),
     ("mool-katha-control", "control-alerts.yml", 4),
 ]
