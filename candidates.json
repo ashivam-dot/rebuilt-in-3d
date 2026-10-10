@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T02:35:25+00:00",
+ "at": "2026-10-10T02:54:57+00:00",
  "quakes": [
   {
    "id": "eq-us6000u19w",
@@ -8,7 +8,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 6.2,
+   "age_h": 6.5,
    "alert": "yellow",
    "trending": false
   }
@@ -17,18 +17,15 @@
   {
    "qid": "Q1355840",
    "title": "Mike Ditka",
-   "fame": 752603,
+   "fame": 627603,
    "views": 627603,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T01:41:35+00:00",
-   "headlines": [
-    "Mike Ditka, Fiery Coach of the Chicago Bears, Has Died"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-09",
-    "google-news:Mike Ditka, Fiery Coach of the Chicago Bears, Has Died"
+    "wikipedia-top-2026-10-09"
    ],
    "id": "wk-Q1355840",
    "kind": "death",
@@ -52,28 +49,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q11628",
@@ -222,12 +197,12 @@
   {
    "id": "gdacs-TC-1001335",
    "kind": "TC",
-   "level": "Orange",
-   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.729 million .",
+   "level": "Red",
+   "title": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.845 million .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "16.2",
-   "lon": "-104.7"
+   "lat": "16.8",
+   "lon": "-104.6"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -244,18 +219,15 @@
   {
    "qid": "Q1355840",
    "title": "Mike Ditka",
-   "fame": 752603,
+   "fame": 627603,
    "views": 627603,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T01:41:35+00:00",
-   "headlines": [
-    "Mike Ditka, Fiery Coach of the Chicago Bears, Has Died"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-09",
-    "google-news:Mike Ditka, Fiery Coach of the Chicago Bears, Has Died"
+    "wikipedia-top-2026-10-09"
    ],
    "id": "wk-Q1355840",
    "kind": "death",
@@ -269,7 +241,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 6.2,
+   "age_h": 6.5,
    "alert": "yellow",
    "trending": false
   },
@@ -364,28 +336,12 @@
    "kind": "death",
    "category": "death",
    "date": "2026-09-30"
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   }
+ ],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503"
  ]
 }
