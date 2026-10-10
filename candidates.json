@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T10:51:16+00:00",
+ "at": "2026-10-10T11:22:07+00:00",
  "quakes": [
   {
    "id": "eq-us6000u1cf",
@@ -8,7 +8,7 @@
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
    "fame": 67900,
-   "age_h": 6.6,
+   "age_h": 7.1,
    "alert": "yellow",
    "trending": false
   },
@@ -19,7 +19,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 14.4,
+   "age_h": 15.0,
    "alert": "yellow",
    "trending": false
   }
@@ -83,6 +83,28 @@
    "date": "2026-10-09",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141605182",
+   "title": "Flydubai Flight 1073",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-09T20:38:00+00:00",
+   "headlines": [
+    "Flydubai co-pilot planned suicide attack on Israeli airport, UAE prosecutors say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Flydubai co-pilot planned suicide attack on Israeli airport, UAE prosecutors say"
+   ],
+   "id": "wk-Q141605182",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-09-30",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q11628",
@@ -255,7 +277,7 @@
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
    "fame": 67900,
-   "age_h": 6.6,
+   "age_h": 7.1,
    "alert": "yellow",
    "trending": false
   },
@@ -266,7 +288,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 14.4,
+   "age_h": 15.0,
    "alert": "yellow",
    "trending": false
   },
@@ -361,6 +383,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-09-30"
+  },
+  {
+   "qid": "Q141605182",
+   "title": "Flydubai Flight 1073",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-09T20:38:00+00:00",
+   "headlines": [
+    "Flydubai co-pilot planned suicide attack on Israeli airport, UAE prosecutors say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Flydubai co-pilot planned suicide attack on Israeli airport, UAE prosecutors say"
+   ],
+   "id": "wk-Q141605182",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-09-30",
+   "coords": null,
+   "has_coords": true
   }
  ]
 }
