@@ -20,3 +20,10 @@ if problem:
     else:
         subprocess.run(["gh", "issue", "create", "--label", "alert", "--title", "Studio is silent", "--body", problem],
                        check=True)
+
+try:  # the other channels' watch must never hide this studio's own alert
+    import fleet_check
+
+    fleet_check.main()
+except Exception as exc:
+    print(f"fleet check: {type(exc).__name__}: {exc}")
