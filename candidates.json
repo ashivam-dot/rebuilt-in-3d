@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T07:51:17+00:00",
+ "at": "2026-10-10T08:23:24+00:00",
  "quakes": [
   {
    "id": "eq-us6000u1cf",
@@ -8,7 +8,7 @@
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
    "fame": 67800,
-   "age_h": 3.6,
+   "age_h": 4.2,
    "alert": "yellow",
    "trending": false
   },
@@ -19,7 +19,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 11.4,
+   "age_h": 12.0,
    "alert": "yellow",
    "trending": false
   }
@@ -86,28 +86,6 @@
    "date": "2026-10-09",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q11628",
@@ -237,7 +215,7 @@
    "id": "gdacs-TC-1001335",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.845 million .",
+   "title": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.507 million .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
    "lat": "16.8",
@@ -283,7 +261,7 @@
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
    "fame": 67800,
-   "age_h": 3.6,
+   "age_h": 4.2,
    "alert": "yellow",
    "trending": false
   },
@@ -294,7 +272,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 11.4,
+   "age_h": 12.0,
    "alert": "yellow",
    "trending": false
   },
@@ -389,28 +367,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-09-30"
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   }
  ]
 }
