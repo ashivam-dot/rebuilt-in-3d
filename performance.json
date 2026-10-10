@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T13:52:23+00:00",
+ "at": "2026-10-10T16:52:42+00:00",
  "videos": {
   "81QBRLYdS0o": {
    "id": "eq-us6000u0xi",
@@ -20,6 +20,12 @@
     {
      "age_h": 38.06,
      "views": 415,
+     "likes": 8,
+     "comments": 0
+    },
+    {
+     "age_h": 41.06,
+     "views": 434,
      "likes": 8,
      "comments": 0
     }
@@ -49,6 +55,12 @@
      "views": 1606,
      "likes": 36,
      "comments": 0
+    },
+    {
+     "age_h": 31.78,
+     "views": 1614,
+     "likes": 37,
+     "comments": 0
     }
    ],
    "kind": "death",
@@ -76,11 +88,17 @@
      "views": 96,
      "likes": 1,
      "comments": 0
+    },
+    {
+     "age_h": 24.94,
+     "views": 96,
+     "likes": 1,
+     "comments": 0
     }
    ],
    "kind": "incident",
    "category": null,
-   "views_24h": null
+   "views_24h": 96.0
   },
   "6ud-uiG_nI8": {
    "id": "wk-Q140615137-p2",
@@ -101,6 +119,12 @@
     {
      "age_h": 10.12,
      "views": 223,
+     "likes": 7,
+     "comments": 0
+    },
+    {
+     "age_h": 13.13,
+     "views": 266,
      "likes": 7,
      "comments": 0
     }
@@ -127,6 +151,12 @@
     },
     {
      "age_h": 7.37,
+     "views": 64,
+     "likes": 3,
+     "comments": 0
+    },
+    {
+     "age_h": 10.38,
      "views": 64,
      "likes": 3,
      "comments": 0
@@ -157,6 +187,12 @@
      "views": 315,
      "likes": 11,
      "comments": 2
+    },
+    {
+     "age_h": 16.88,
+     "views": 325,
+     "likes": 11,
+     "comments": 2
     }
    ],
    "kind": "incident",
@@ -184,6 +220,12 @@
      "views": 1425,
      "likes": 17,
      "comments": 2
+    },
+    {
+     "age_h": 18.37,
+     "views": 1450,
+     "likes": 17,
+     "comments": 2
     }
    ],
    "kind": "quake",
@@ -199,15 +241,36 @@
      "views": 1,
      "likes": 0,
      "comments": 0
+    },
+    {
+     "age_h": 4.74,
+     "views": 1,
+     "likes": 0,
+     "comments": 0
     }
    ],
    "kind": "death",
    "category": "death",
    "views_24h": null
+  },
+  "bJf-bPYFKVo": {
+   "id": "eq-us6000u1cf",
+   "published_at": "2026-10-10T14:45:10+00:00",
+   "snapshots": [
+    {
+     "age_h": 2.13,
+     "views": 2,
+     "likes": 0,
+     "comments": 0
+    }
+   ],
+   "kind": "quake",
+   "category": null,
+   "views_24h": null
   }
  },
  "learned": {
-  "scored": 2,
+  "scored": 3,
   "min_samples": 4,
   "lifts": {}
  }
