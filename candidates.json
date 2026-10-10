@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T09:25:33+00:00",
+ "at": "2026-10-10T09:52:16+00:00",
  "quakes": [
   {
    "id": "eq-us6000u1cf",
@@ -8,7 +8,7 @@
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
    "fame": 67900,
-   "age_h": 5.2,
+   "age_h": 5.6,
    "alert": "yellow",
    "trending": false
   },
@@ -19,7 +19,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 13.0,
+   "age_h": 13.5,
    "alert": "yellow",
    "trending": false
   }
@@ -28,15 +28,18 @@
   {
    "qid": "Q1355840",
    "title": "Mike Ditka",
-   "fame": 627603,
+   "fame": 752603,
    "views": 627603,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-10-09T16:08:51+00:00",
+   "headlines": [
+    "Mike Ditka, legendary coach of 1985 Chicago Bears and first tight end inducted into Hall of Fame, dies"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-09"
+    "wikipedia-top-2026-10-09",
+    "google-news:Mike Ditka, legendary coach of 1985 Chicago Bears and first tight end inducted into Hall of Fame, dies"
    ],
    "id": "wk-Q1355840",
    "kind": "death",
@@ -60,6 +63,29 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
+  },
+  {
+   "qid": "Q141681530",
+   "title": "2026 Panama earthquake",
+   "fame": 141867,
+   "views": 16867,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-10T02:53:00+00:00",
+   "headlines": [
+    "Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-09",
+    "google-news:Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations"
+   ],
+   "id": "wk-Q141681530",
+   "kind": "incident",
+   "category": "earthquake",
+   "date": "2026-10-09",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q11628",
@@ -136,26 +162,6 @@
    "date": "2026-10-06"
   },
   {
-   "qid": "Q141681530",
-   "title": "2026 Panama earthquake",
-   "fame": 16867,
-   "views": 16867,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-09"
-   ],
-   "id": "wk-Q141681530",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-09",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q5496741",
    "title": "Freddie Jackson",
    "fame": 15704,
@@ -230,15 +236,18 @@
   {
    "qid": "Q1355840",
    "title": "Mike Ditka",
-   "fame": 627603,
+   "fame": 752603,
    "views": 627603,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-10-09T16:08:51+00:00",
+   "headlines": [
+    "Mike Ditka, legendary coach of 1985 Chicago Bears and first tight end inducted into Hall of Fame, dies"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-09"
+    "wikipedia-top-2026-10-09",
+    "google-news:Mike Ditka, legendary coach of 1985 Chicago Bears and first tight end inducted into Hall of Fame, dies"
    ],
    "id": "wk-Q1355840",
    "kind": "death",
@@ -252,7 +261,7 @@
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
    "fame": 67900,
-   "age_h": 5.2,
+   "age_h": 5.6,
    "alert": "yellow",
    "trending": false
   },
@@ -263,7 +272,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 13.0,
+   "age_h": 13.5,
    "alert": "yellow",
    "trending": false
   },
