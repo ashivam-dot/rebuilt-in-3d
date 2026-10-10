@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T08:52:47+00:00",
+ "at": "2026-10-10T09:25:33+00:00",
  "quakes": [
   {
    "id": "eq-us6000u1cf",
@@ -7,8 +7,8 @@
    "event": "us6000u1cf",
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
-   "fame": 67800,
-   "age_h": 4.7,
+   "fame": 67900,
+   "age_h": 5.2,
    "alert": "yellow",
    "trending": false
   },
@@ -19,7 +19,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 12.5,
+   "age_h": 13.0,
    "alert": "yellow",
    "trending": false
   }
@@ -60,51 +60,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
-  },
-  {
-   "qid": "Q141681530",
-   "title": "2026 Panama earthquake",
-   "fame": 141867,
-   "views": 16867,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T02:53:00+00:00",
-   "headlines": [
-    "Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-09",
-    "google-news:Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations"
-   ],
-   "id": "wk-Q141681530",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-09",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q11628",
@@ -179,6 +134,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-06"
+  },
+  {
+   "qid": "Q141681530",
+   "title": "2026 Panama earthquake",
+   "fame": 16867,
+   "views": 16867,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-09"
+   ],
+   "id": "wk-Q141681530",
+   "kind": "incident",
+   "category": "earthquake",
+   "date": "2026-10-09",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q5496741",
@@ -244,10 +219,10 @@
    "id": "gdacs-TC-1001334",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone ISAIAS-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.946 million .",
+   "title": "Orange notification for tropical cyclone ISAIAS-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.567 million .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001334",
    "published": "2026-10-06T21:01:35+00:00",
-   "lat": "30.8",
+   "lat": "32",
    "lon": "-86.5"
   }
  ],
@@ -276,8 +251,8 @@
    "event": "us6000u1cf",
    "title": "7 km N of La Tronosa, Panama",
    "mag": 6.0,
-   "fame": 67800,
-   "age_h": 4.7,
+   "fame": 67900,
+   "age_h": 5.2,
    "alert": "yellow",
    "trending": false
   },
@@ -288,7 +263,7 @@
    "title": "14 km W of Río Grande, Panama",
    "mag": 6.6,
    "fame": 68900,
-   "age_h": 12.5,
+   "age_h": 13.0,
    "alert": "yellow",
    "trending": false
   },
@@ -383,28 +358,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-09-30"
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-10T00:10:22+00:00",
-   "headlines": [
-    "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   }
  ]
 }
