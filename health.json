@@ -1,13 +1,15 @@
 {
- "at": "2026-10-10T23:54:06+00:00",
+ "at": "2026-10-11T00:37:08+00:00",
  "ok": true,
  "steps": [
-  "watch: 7 candidates (1 quakes, 9 trending), 5 hazard alerts",
-  "hold eq-us6000u19w: already 5 Shorts today",
-  "hold wk-Q6831806: already 5 Shorts today",
-  "hold wk-Q228928: already 5 Shorts today",
-  "hold wk-Q141670823: already 5 Shorts today",
-  "hold wk-Q5496741: already 5 Shorts today",
-  "hold wk-Q11628: already 5 Shorts today"
- ]
+  "watch: 6 candidates (1 quakes, 8 trending), 5 hazard alerts",
+  "published eq-us6000u19w: https://www.youtube.com/shorts/9fNuIm-NdYU"
+ ],
+ "published": {
+  "video_id": "9fNuIm-NdYU",
+  "url": "https://www.youtube.com/shorts/9fNuIm-NdYU",
+  "title": "How the M6.6 Panama quake ruptured, in 3D",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
