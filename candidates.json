@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T09:25:02+00:00",
+ "at": "2026-10-11T09:56:01+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,29 @@
    "date": "2026-10-09"
   },
   {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 182340,
+   "views": 57340,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-11T00:08:47+00:00",
+   "headlines": [
+    "What to Know About Isaias, the First Atlantic Hurricane of the Season"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-10",
+    "google-news:What to Know About Isaias, the First Atlantic Hurricane of the Season"
+   ],
+   "id": "wk-Q141670823",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-06",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q2475741",
    "title": "Nana Patekar",
    "fame": 99473,
@@ -37,26 +60,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
-  },
-  {
-   "qid": "Q141670823",
-   "title": "Hurricane Isaias (2026)",
-   "fame": 57340,
-   "views": 57340,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-10"
-   ],
-   "id": "wk-Q141670823",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q141681530",
@@ -153,7 +156,7 @@
    "id": "gdacs-TC-1001335",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 45006 .",
+   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 37569 .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
    "lat": "18.7",
@@ -182,6 +185,29 @@
  ],
  "candidates": [
   {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 182340,
+   "views": 57340,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-11T00:08:47+00:00",
+   "headlines": [
+    "What to Know About Isaias, the First Atlantic Hurricane of the Season"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-10",
+    "google-news:What to Know About Isaias, the First Atlantic Hurricane of the Season"
+   ],
+   "id": "wk-Q141670823",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-06",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q6831806",
    "title": "Michael Kearns (actor)",
    "fame": 23304,
@@ -198,32 +224,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-06"
-  },
-  {
-   "qid": "Q141670823",
-   "title": "Hurricane Isaias (2026)",
-   "fame": 57340,
-   "views": 57340,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-10"
-   ],
-   "id": "wk-Q141670823",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
   }
- ],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503"
  ]
 }
