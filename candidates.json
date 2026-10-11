@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T08:53:12+00:00",
+ "at": "2026-10-11T09:25:02+00:00",
  "quakes": [],
  "trending": [
   {
@@ -152,12 +152,12 @@
   {
    "id": "gdacs-TC-1001335",
    "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.454 million .",
+   "level": "Orange",
+   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 45006 .",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "18.2",
-   "lon": "-104.8"
+   "lat": "18.7",
+   "lon": "-105.2"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -219,5 +219,11 @@
    "coords": null,
    "has_coords": true
   }
+ ],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503"
  ]
 }

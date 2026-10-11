@@ -1,8 +1,9 @@
 {
- "at": "2026-10-11T08:53:12+00:00",
+ "at": "2026-10-11T09:25:02+00:00",
  "ok": true,
  "steps": [
   "watch: 2 candidates (0 quakes, 6 trending), 6 hazard alerts",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503']",
   "hold wk-Q6831806: outside the world window",
   "hold wk-Q141670823: outside the world window"
  ]
