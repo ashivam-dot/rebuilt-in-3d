@@ -1,11 +1,17 @@
 {
- "at": "2026-10-11T02:55:11+00:00",
+ "at": "2026-10-11T03:25:38+00:00",
  "ok": true,
  "steps": [
   "watch: 4 candidates (0 quakes, 7 trending), 5 hazard alerts",
-  "hold wk-Q6831806: last Short went out 1.8 h ago",
-  "hold wk-Q141670823: last Short went out 1.8 h ago",
-  "hold wk-Q228928: last Short went out 1.8 h ago",
-  "hold wk-Q141605182: last Short went out 1.8 h ago"
- ]
+  "skip wk-Q6831806: gate: only 1 usable photos of Michael Kearns on Wikimedia Commons (want 3)",
+  "skip wk-Q141670823: gate: no draft passed the fact checks: line 2 (The storm began as a low-pressure area, quickly becoming the): partly: The source states it became a hurricane on October 8, but it does not state it became a 'major' hurricane 'quickly' or immediately after becoming a hurricane; it peaked as a major hurricane on October 9. | second look: The LINE states the storm became the 'season's first major hurricane' quickly. However, the SOURCE SEN",
+  "published wk-Q228928: https://www.youtube.com/shorts/MBv9NT04uvY"
+ ],
+ "published": {
+  "video_id": "MBv9NT04uvY",
+  "url": "https://www.youtube.com/shorts/MBv9NT04uvY",
+  "title": "The Luminous Legacy of Eva Marie Saint",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
