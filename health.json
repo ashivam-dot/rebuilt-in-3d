@@ -1,9 +1,10 @@
 {
- "at": "2026-10-11T10:51:14+00:00",
+ "at": "2026-10-11T11:22:53+00:00",
  "ok": true,
  "steps": [
   "watch: 2 candidates (0 quakes, 6 trending), 6 hazard alerts",
-  "hold wk-Q6831806: outside the world window",
-  "hold wk-Q141670823: outside the world window"
+  "skip wk-Q6831806: gate: only 1 usable photos of Michael Kearns on Wikimedia Commons (want 3)",
+  "skip wk-Q141670823: gate: no draft passed the fact checks: line 2 (It reached hurricane status on October 8, breaking a record ): partly: The line states the storm 'broke' the record, whereas the source states it 'tied' the record. | second look: The LINE states the storm 'broke' a record, whereas the SOURCE SENTENCES provide conflicting information. One source sentence states it 'tied' the record, while another states it 'broke' the record. Because the L",
+  "nothing eligible to publish"
  ]
 }
