@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T22:23:12+00:00",
+ "at": "2026-10-11T22:51:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -19,6 +19,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-09"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 attacks on Saudi Arabia airports",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-11T21:30:11+00:00",
+   "headlines": [
+    "Saudi Arabia's Riyadh airport hit by second Houthi strike in two days"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Saudi Arabia's Riyadh airport hit by second Houthi strike in two days"
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q2475741",
@@ -170,5 +192,28 @@
    "lon": "-84"
   }
  ],
- "candidates": []
+ "candidates": [
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 attacks on Saudi Arabia airports",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-11T21:30:11+00:00",
+   "headlines": [
+    "Saudi Arabia's Riyadh airport hit by second Houthi strike in two days"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Saudi Arabia's Riyadh airport hit by second Houthi strike in two days"
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  }
+ ]
 }
