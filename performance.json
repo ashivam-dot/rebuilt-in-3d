@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T02:23:52+00:00",
+ "at": "2026-10-11T05:24:29+00:00",
  "videos": {
   "81QBRLYdS0o": {
    "id": "eq-us6000u0xi",
@@ -44,6 +44,12 @@
     {
      "age_h": 50.58,
      "views": 472,
+     "likes": 8,
+     "comments": 0
+    },
+    {
+     "age_h": 53.59,
+     "views": 480,
      "likes": 8,
      "comments": 0
     }
@@ -97,6 +103,12 @@
      "views": 1620,
      "likes": 38,
      "comments": 0
+    },
+    {
+     "age_h": 44.31,
+     "views": 1621,
+     "likes": 38,
+     "comments": 0
     }
    ],
    "kind": "death",
@@ -145,6 +157,12 @@
     },
     {
      "age_h": 34.46,
+     "views": 96,
+     "likes": 1,
+     "comments": 0
+    },
+    {
+     "age_h": 37.47,
      "views": 96,
      "likes": 1,
      "comments": 0
@@ -199,11 +217,17 @@
      "views": 453,
      "likes": 8,
      "comments": 0
+    },
+    {
+     "age_h": 25.66,
+     "views": 530,
+     "likes": 9,
+     "comments": 0
     }
    ],
    "kind": "incident",
    "category": null,
-   "views_24h": null
+   "views_24h": 487.5348837209302
   },
   "uacY9FZTA9Y": {
    "id": "wk-Q139857349-p3",
@@ -248,6 +272,12 @@
     {
      "age_h": 19.9,
      "views": 283,
+     "likes": 4,
+     "comments": 0
+    },
+    {
+     "age_h": 22.91,
+     "views": 337,
      "likes": 4,
      "comments": 0
     }
@@ -301,6 +331,12 @@
      "views": 360,
      "likes": 11,
      "comments": 2
+    },
+    {
+     "age_h": 29.41,
+     "views": 362,
+     "likes": 11,
+     "comments": 2
     }
    ],
    "kind": "incident",
@@ -352,6 +388,12 @@
      "views": 1505,
      "likes": 18,
      "comments": 3
+    },
+    {
+     "age_h": 30.9,
+     "views": 1517,
+     "likes": 18,
+     "comments": 3
     }
    ],
    "kind": "quake",
@@ -391,6 +433,12 @@
      "views": 2,
      "likes": 0,
      "comments": 0
+    },
+    {
+     "age_h": 17.27,
+     "views": 3,
+     "likes": 0,
+     "comments": 0
     }
    ],
    "kind": "death",
@@ -424,6 +472,12 @@
      "views": 10,
      "likes": 0,
      "comments": 0
+    },
+    {
+     "age_h": 14.66,
+     "views": 10,
+     "likes": 0,
+     "comments": 0
     }
    ],
    "kind": "quake",
@@ -439,17 +493,38 @@
      "views": 227,
      "likes": 3,
      "comments": 0
+    },
+    {
+     "age_h": 4.28,
+     "views": 850,
+     "likes": 13,
+     "comments": 0
     }
    ],
    "kind": "quake",
    "category": null,
    "views_24h": null
+  },
+  "MBv9NT04uvY": {
+   "id": "wk-Q228928",
+   "published_at": "2026-10-11T04:41:37+00:00",
+   "snapshots": [
+    {
+     "age_h": 0.71,
+     "views": 0,
+     "likes": 0,
+     "comments": 0
+    }
+   ],
+   "kind": "death",
+   "category": "death",
+   "views_24h": null
   }
  },
  "learned": {
-  "scored": 5,
+  "scored": 6,
   "min_samples": 4,
   "lifts": {},
-  "baseline_views_24h": 480
+  "baseline_views_24h": 482
  }
 }
