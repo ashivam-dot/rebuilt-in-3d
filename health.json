@@ -1,7 +1,10 @@
 {
- "at": "2026-10-12T20:26:23+00:00",
+ "at": "2026-10-12T20:58:28+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 5 trending), 6 hazard alerts"
+  "learn: 11 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.33, 'typical_views_24h': 306}, 'kind:incident': {'n': 4, 'lift': 1.263, 'typical_views_24h': 276}}",
+  "watch: 1 candidates (0 quakes, 6 trending), 6 hazard alerts",
+  "skip wk-Q2118568: gate: no draft passed the fact checks: these names or numbers are not in the sources: 3",
+  "nothing eligible to publish"
  ]
 }
