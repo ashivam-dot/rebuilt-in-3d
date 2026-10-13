@@ -1,18 +1,18 @@
 {
- "at": "2026-10-13T14:01:29+00:00",
+ "at": "2026-10-13T14:28:08+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 395703,
+   "fame": 295703,
    "views": 45703,
    "traffic": 0,
-   "news": 300000,
-   "news_at": "2026-10-13T12:12:54+00:00",
+   "news": 200000,
+   "news_at": "2026-10-13T13:51:23+00:00",
    "headlines": [
-    "Saudi Airport Attacks Pressure Trump to Boost US Role in Yemen",
     "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
+    "French embassy in Riyadh tells citizens to avoid Saudi airports targeted by Houthis",
     "Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
     "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport"
    ],
@@ -20,17 +20,29 @@
    "via": [
     "wikipedia-top-2026-10-12",
     "wikipedia-current-events-2026-10-12",
-    "google-news:Saudi Airport Attacks Pressure Trump to Boost US Role in Yemen",
     "google-news:Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
+    "google-news:French embassy in Riyadh tells citizens to avoid Saudi airports targeted by Houthis",
     "google-news:Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
+    "outlet:France Médias Monde",
     "outlet:HT Media",
     "outlet:Guardian Media Group"
    ],
    "owners": [
+    "France Médias Monde",
     "HT Media",
     "Guardian Media Group"
    ],
    "reports": [
+    {
+     "title": "French embassy in Riyadh tells citizens to avoid Saudi airports targeted by Houthis",
+     "url": "https://www.france24.com/en/middle-east/20261013-french-embassy-in-riyadh-tells-citizens-to-avoid-saudi-airports-targeted-by-houthis",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-13T13:51:23+00:00"
+    },
     {
      "title": "Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
      "url": "https://www.hindustantimes.com/india-news/indians-in-emergency-willing-to-leave-saudi-arabia-can-travel-from-neighbouring-countries-embassy-bahrain-qatar-101791891459792.html",
@@ -246,26 +258,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
-  },
-  {
-   "qid": "Q228928",
-   "title": "Eva Marie Saint",
-   "fame": 8446,
-   "views": 8446,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q228928",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
   }
  ],
  "hazards": [
@@ -375,13 +367,16 @@
    "has_coords": false
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
+ ],
  "outlets": {
-  "headlines": 339,
-  "feeds": 10,
-  "owners": 9,
-  "matched": 21,
+  "headlines": 384,
+  "feeds": 12,
+  "owners": 11,
+  "matched": 18,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 339 headlines from 10 feeds (9 owners), 21 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 384 headlines from 12 feeds (11 owners), 18 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

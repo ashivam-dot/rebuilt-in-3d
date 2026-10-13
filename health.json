@@ -1,10 +1,12 @@
 {
- "at": "2026-10-13T14:01:29+00:00",
+ "at": "2026-10-13T14:28:08+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 10 trending), 4 hazard alerts",
-  "outlets: 339 headlines from 10 feeds (9 owners), 21 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q5300674: last Short went out 2.0 h ago",
-  "hold wk-Q141712917: last Short went out 2.0 h ago"
+  "watch: 2 candidates (0 quakes, 9 trending), 4 hazard alerts",
+  "outlets: 384 headlines from 12 feeds (11 owners), 18 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "skip wk-Q5300674: gate: only 0 usable photos of Doug Loft on Wikimedia Commons (want 3)",
+  "skip wk-Q141712917: gate: only 2 usable photos of Hurricane Rachel on Wikimedia Commons (want 3)",
+  "nothing eligible to publish"
  ]
 }
