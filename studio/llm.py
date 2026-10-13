@@ -22,7 +22,10 @@ RELEASE = "b11517"
 MODELS = {
     "gemma-4-12b": ("google/gemma-4-12B-it-qat-q4_0-gguf", "gemma-4-12b-it-qat-q4_0.gguf"),
     "gemma-4-e4b": ("google/gemma-4-E4B-it-qat-q4_0-gguf", "gemma-4-E4B_q4_0-it.gguf"),
+    # Scout bench 2026-10-13: same gate passes as Gemma 12B, 2.2x faster on a CPU runner, rougher Hindi. 13.1 GB.
+    "qwen3.5-35b-a3b": ("unsloth/Qwen3.5-35B-A3B-GGUF", "Qwen3.5-35B-A3B-UD-IQ3_XXS.gguf"),
 }
+FALLBACKS = ("gemma-4-12b", "qwen3.5-35b-a3b")
 DEFAULT = os.environ.get("STUDIO_LLM", "gemma-4-12b")
 
 
@@ -81,7 +84,23 @@ class Model:
         self.port = _free_port()
 
     def __enter__(self) -> "Model":
-        exe, weights = server_binary(), model_file(self.name)
+        """Start the named model, or the next of FALLBACKS when it can't be downloaded or won't start."""
+        errors = []
+        for name in dict.fromkeys((self.name, *FALLBACKS)):
+            try:
+                self._start(name)
+                self.name = name
+                return self
+            except Exception as exc:
+                errors.append(f"{name}: {str(exc)[-300:]}")
+                self.__exit__()
+                for part in DIR.glob("*.part"):
+                    part.unlink(missing_ok=True)
+                print(f"local model {name} unavailable, trying the next: {errors[-1]}", flush=True)
+        raise RuntimeError("no local model would start: " + " | ".join(errors))
+
+    def _start(self, name: str) -> None:
+        exe, weights = server_binary(), model_file(name)
         threads = str(os.cpu_count() or 4)
         env = dict(os.environ, LD_LIBRARY_PATH=str(exe.parent))
         self.proc = subprocess.Popen(
@@ -94,7 +113,7 @@ class Model:
                 raise RuntimeError("llama-server exited: " + (self.proc.stderr.read() or b"").decode()[-800:])
             try:
                 if requests.get(f"http://127.0.0.1:{self.port}/health", timeout=2).status_code == 200:
-                    return self
+                    return
             except requests.RequestException:
                 pass
             time.sleep(1)
