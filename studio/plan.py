@@ -15,7 +15,7 @@ from __future__ import annotations
 
 from datetime import date, datetime, timedelta, timezone
 
-from . import gdacs, ledger, trends, usgs
+from . import gdacs, ledger, news, outlets, trends, usgs
 from .stories import km_between
 
 MAX_PER_DAY = 5
@@ -91,6 +91,39 @@ def cooling(cand: dict, at: datetime, rows: list[dict]) -> bool:
                for r in rows if at - datetime.fromisoformat(r["published_at"]) < timedelta(days=days))
 
 
+TOLD_DAYS = 7
+
+
+def told_before(cand: dict, rows: list[dict], at: datetime) -> bool:
+    """True when this story went out in the last TOLD_DAYS under another id: first told from outlet reporting (nw-)
+    and now from its Wikipedia article, or the other way round. One story shares a report URL, or its nw- ids name
+    the same place and kind, or an nw- story's headlines name the article."""
+    urls = {r["url"] for r in cand.get("reports") or []}
+    for r in rows:
+        if at - datetime.fromisoformat(r["published_at"]) > timedelta(days=TOLD_DAYS):
+            continue
+        if not (r["id"].startswith("nw-") or cand["id"].startswith("nw-")):
+            continue  # stories told from Wikipedia on both sides are matched by their ids already
+        if urls & set(r.get("report_urls") or []) or outlets.same_story(cand["id"], r["id"]):
+            return True
+        if r["id"].startswith("nw-") and not cand["id"].startswith("nw-"):
+            heads, title = r.get("headlines") or [], cand.get("title")
+        elif cand["id"].startswith("nw-") and not r["id"].startswith("nw-"):
+            heads, title = cand.get("headlines") or [], r.get("article")
+        else:
+            continue
+        if title and any(news.reverse(h, [news.pool_item(title)]) for h in heads):
+            return True
+    return False
+
+
+def outlet_note(stats: dict, emerging: list[dict]) -> str:
+    lane = "on" if trends.NEW_STORIES else "off: STUDIO_NEW_STORIES"
+    return (f"outlets: {stats['headlines']} headlines from {stats['feeds']} feeds ({stats['owners']} owners), "
+            f"{stats['matched']} matched to articles, {stats['corroborated']} candidates with 2+ owners, "
+            f"{len(emerging)} nw- stories ({lane})" + (f": {', '.join(c['id'] for c in emerging[:3])}" if emerging else ""))
+
+
 def in_window(cand: dict, at: datetime) -> bool:
     start, end = WINDOWS.get(cand.get("region", "world"), WINDOWS["world"])
     hour = at.hour + at.minute / 60
@@ -138,6 +171,10 @@ def watch() -> dict:
         found["trending"] = radar["candidates"]
         if radar["errors"]:
             found["trend_errors"] = radar["errors"]
+        if radar.get("outlets"):
+            found["outlets"] = radar["outlets"]
+            found["emerging"] = radar.get("emerging", [])
+            found["outlet_note"] = outlet_note(radar["outlets"], found["emerging"])
     except Exception as exc:  # the quake lane must keep working when Wikipedia or Trends is down
         found["trend_errors"] = [f"{type(exc).__name__}: {exc}"[:200]]
     quakes_trending = [c for c in found["trending"] if c.get("category") == "earthquake"]
@@ -146,7 +183,8 @@ def watch() -> dict:
     at = datetime.now(timezone.utc)
     rows = ledger.published()
     stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
-               and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))]
+               and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
+               and not told_before(c, rows, at)]
     found["candidates"] = sorted(found["quakes"] + stories, key=lambda c: -priority(c, at))
     try:
         found["hazards"] = gdacs.alerts()

@@ -1,4 +1,5 @@
-"""The checks a Short must pass before it can publish: grounded numbers, decorum, title rules and disclosure."""
+"""The checks a Short must pass before it can publish: grounded numbers, decorum, title rules, disclosure, and two
+independent owners behind any fact taken from trusted outlets' reporting (studio/outlets.py)."""
 from __future__ import annotations
 
 import re
@@ -39,12 +40,78 @@ ACRONYMS = {"USGS", "UTC", "PAGER", "NASA", "NOAA", "GDACS", "EMSC", "ADS-B", "N
 CASUALTY = re.compile(r"\b(casualt\w*|death toll|killed|fatalit\w*|wounded|injured)\b", re.I)
 NUMBER = re.compile(r"(?<![\w.])(\d{1,3}(?:,\d{3})+|\d+(?::\d{2})?(?:\.\d+)?)(?![\w])")
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\U0001F000-\U0001F2FF]")
+# Outlet reporting (studio/outlets.py) backs a fact only when this many independent owners state it; a fact only one
+# outlet reports is never said.
+OWNERS_NEEDED = 2
+_N = r"\d{1,3}(?:,\d{3})+|\d+"
+_HEDGE = r"(?P<hedge>(?:at least|more than|over|nearly|about|around|up to|some|almost|roughly)\s+)?"
+TOLLS = [
+    re.compile(rf"(?<![\w.,]){_HEDGE}(?P<n>{_N})\s+(?:[A-Za-z-]+\s+){{0,3}}?(?:killed|dead|died|lost their lives)\b",
+               re.I),
+    re.compile(rf"\b(?:death toll|toll)\s+(?:[A-Za-z-]+\s+){{0,3}}?{_HEDGE}(?P<n>{_N})\b", re.I),
+    re.compile(rf"\b(?:killing|killed)\s+{_HEDGE}(?P<n>{_N})\s+(?:people|persons|passengers|civilians|workers)\b",
+               re.I),
+]
+# A hedge written after the number ("12 or more killed", "12 feared dead") is not exact either.
+_HEDGE_AFTER = re.compile(r"\b(?:or more|or so|plus|feared|presumed|believed|reportedly)\b|\+", re.I)
 
 
 def numbers(text: str) -> list[str]:
     text = re.sub(r"\b3D\b", "", text)
     text = re.sub(r"\bM(?=\d)", "", text)
     return [m.group(1).replace(",", "") for m in NUMBER.finditer(text)]
+
+
+def reported(needle: str, reports: list[dict]) -> list[str]:
+    """The independent owners whose articles write needle (whole words, any case)."""
+    pattern = re.compile(r"(?<![\w])" + re.escape(needle.lower()) + r"(?![\w])")
+    return sorted({r["owner"] for r in reports if r.get("text") and pattern.search(r["text"].lower())})
+
+
+def reported_values(reports: list[dict]) -> dict[str, list[str]]:
+    """Every number the reports state (written without thousands separators) -> the owners stating it."""
+    by: dict[str, set[str]] = {}
+    for r in reports:
+        for v in numbers(r.get("text") or ""):
+            by.setdefault(v, set()).add(r["owner"])
+    return {v: sorted(o) for v, o in by.items()}
+
+
+def corroborated_values(reports: list[dict]) -> set[str]:
+    """Numbers at least OWNERS_NEEDED independent owners state."""
+    return {v for v, o in reported_values(reports).items() if len(o) >= OWNERS_NEEDED}
+
+
+def reported_tolls(reports: list[dict]) -> dict[str, set[int]]:
+    """owner -> the exact death tolls its articles state ("12 people were killed"); hedged counts ("at least 12")
+    are not exact and are left out."""
+    by: dict[str, set[int]] = {}
+    for r in reports:
+        body = r.get("text") or ""
+        for pattern in TOLLS:
+            for m in pattern.finditer(body):
+                n = int(m.group("n").replace(",", ""))
+                if m.group("hedge") or _HEDGE_AFTER.search(body[m.end("n"):m.end() + 12]):
+                    n = -1  # a hedged count: no exact toll may be said beside it
+                by.setdefault(r["owner"], set()).add(n)
+    return by
+
+
+def reported_toll(reports: list[dict], wikidata: set[int] | None = None) -> tuple[int, list[str]] | None:
+    """A death toll the reporting agrees on, with the owners stating it: two independent owners give the same exact
+    number (or one does and Wikidata's only toll is that number), no outlet gives a different or hedged one (a rising
+    toll is not said), and Wikidata, when it has a toll, agrees. None otherwise."""
+    by = reported_tolls(reports)
+    stated = {n for ns in by.values() for n in ns}
+    if len(stated) != 1:
+        return None
+    n = stated.pop()
+    who = sorted(o for o, ns in by.items() if n in ns)
+    if wikidata and n not in wikidata:
+        return None
+    if len(who) >= OWNERS_NEEDED or (who and wikidata == {n}):
+        return n, who
+    return None
 
 
 def check(short: Short) -> list[str]:
@@ -82,6 +149,24 @@ def check(short: Short) -> list[str]:
     for f in short.facts:
         if not f.source.startswith("https://"):
             problems.append(f"fact {f.key}: no https source")
+    problems += _reported(short)
+    return problems
+
+
+def _reported(short: Short) -> list[str]:
+    """A fact taken from outlet reporting needs OWNERS_NEEDED independent owners among the Short's reports, and the
+    outlets it comes from are named in the description."""
+    reports = short.scene.get("reporting") or []
+    known = {r["owner"] for r in reports}
+    urls = {r["url"] for r in reports}
+    problems = []
+    for f in short.facts:
+        if f.owners or f.source in urls:
+            who = set(f.owners) & known
+            if len(who) < OWNERS_NEEDED:
+                problems.append(f"fact {f.key}: {len(who)} independent outlet(s) report it (want {OWNERS_NEEDED})")
+    if reports and not short.scene.get("outlets"):
+        problems.append("sources: the outlets the facts come from are not named")
     return problems
 
 

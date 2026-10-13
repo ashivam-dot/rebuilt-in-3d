@@ -2,10 +2,12 @@
 
 Only files hosted on Commons qualify (non-free "fair use" files live on Wikipedia itself and are never touched), and
 only CC0, public-domain, CC BY and CC BY-SA licences pass. Logos, maps, signatures and anything whose name suggests
-injury or death imagery are skipped.
+injury or death imagery are skipped. When Commons has too few, Openverse (keyless) fills in photos of the story's
+places and things only, under CC0, CC BY or CC BY-SA; outlet photos are never used.
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import re
 from dataclasses import asdict, dataclass
@@ -35,12 +37,13 @@ class Photo:
     license: str
     description: str
     date: str
-    origin: str  # "wikidata", "article" or "category"
+    origin: str  # "wikidata", "article", "category", ... or "openverse"
     path: str = ""
+    host: str = "Wikimedia Commons"  # where the file is credited: Commons, or "Openverse (Flickr)"
 
     @property
     def credit(self) -> str:
-        return f"Photo: {self.author} / {self.license} / Wikimedia Commons"
+        return f"Photo: {self.author} / {self.license} / {self.host}"
 
 
 def _text(value: str | None, limit: int = 200) -> str:
@@ -156,6 +159,74 @@ def context(qids: list[str], limit: int = 6, exclude: set[str] | None = None) ->
     return _usable(ordered, set(), limit, exclude=exclude)
 
 
+OPENVERSE = "https://api.openverse.org/v1/images/"
+# Openverse licence codes a Short may use: CC0, CC BY and CC BY-SA. Non-commercial, no-derivatives and the
+# public-domain mark (which asserts no licence) never pass.
+OPENVERSE_LICENCES = {"cc0": "CC0", "by": "CC BY", "by-sa": "CC BY-SA"}
+OPENVERSE_PER_PLACE = 3
+
+
+def openverse(query: str, limit: int = OPENVERSE_PER_PLACE, exclude: set[str] | None = None) -> list[Photo]:
+    """Freely licensed photos of a place, object or scene from Openverse (keyless): CC0, CC BY or CC BY-SA only,
+    from sources other than Wikimedia (Commons is read directly), whose title names the query, at most two by one
+    creator. Never asked about a person: callers search only the places and things a story links to, and drop any
+    photo that features a face."""
+    d = net.get_json(OPENVERSE, params={"q": query, "license_type": "commercial,modification",
+                                        "excluded_source": "wikimedia", "page_size": 20}, tries=2, timeout=30)
+    keys = _keys(query)
+    photos, creators = [], {}
+    for r in d.get("results") or []:
+        lic, url = OPENVERSE_LICENCES.get((r.get("license") or "").lower()), r.get("url") or ""
+        file, title = f"openverse:{r.get('id')}", _text(r.get("title"))
+        ext = (r.get("filetype") or url.rsplit(".", 1)[-1]).lower()
+        if not lic or r.get("mature") or not url.startswith("https://") or file in (exclude or set()):
+            continue
+        if ext not in ("jpg", "jpeg", "png", "webp") or NOT_PHOTO.search(title) or GRAPHIC.search(title):
+            continue
+        if min(r.get("width") or 0, r.get("height") or 0) < MIN_SIDE or not _names(title, keys):
+            continue
+        author = _text(r.get("creator"), 60) or "unknown author"
+        if creators.get(author, 0) >= 2:
+            continue
+        creators[author] = creators.get(author, 0) + 1
+        source = (r.get("source") or r.get("provider") or "").replace("_", " ")
+        photos.append(Photo(file=file, url=url, page=r.get("foreign_landing_url") or url, width=r["width"],
+                            height=r["height"], author=author, license=f"{lic} {r.get('license_version') or ''}".strip(),
+                            description=title, date="", origin="openverse",
+                            host="Openverse" + (f" ({source.capitalize()})" if source else "")))
+        if len(photos) >= limit:
+            break
+    return photos
+
+
+def place_like(ent: dict) -> bool:
+    """A Wikidata item that is somewhere: it has coordinates and is not a person."""
+    kinds = {c["value"] for c in wiki.claims(ent, "P31")}
+    return wiki.HUMAN not in kinds and bool(wiki.claims(ent, "P625"))
+
+
+def openverse_for(qids: list[str], limit: int = 6, exclude: set[str] | None = None) -> list[Photo]:
+    """Openverse photos of the places a story links to (by their English Wikidata labels), in order; never of a
+    person, a group or a work (an item without coordinates)."""
+    if not qids:
+        return []
+    out, seen = [], set(exclude or ())
+    for e in wiki.entities(qids).values():
+        name = wiki.label(e)
+        if not name or not place_like(e):
+            continue
+        try:
+            found = openverse(name, exclude=seen)
+        except Exception:
+            continue
+        for p in found:
+            seen.add(p.file)
+            out.append(p)
+        if len(out) >= limit:
+            break
+    return out[:limit]
+
+
 def picks(files: list[str], limit: int = 8) -> list[Photo]:
     """Photos an editor chose for a story, in order, under the same licence, size and decency checks as find()."""
     return _usable([(f if f.startswith("File:") else "File:" + f, "editor") for f in files], set(), limit,
@@ -207,7 +278,8 @@ def download(photos: list[Photo], folder: Path) -> list[Photo]:
     kept = []
     for i, p in enumerate(photos):
         ext = ".png" if p.url.lower().endswith(".png") else ".jpg"
-        path = folder / f"photo{i:02d}{ext}"
+        # Named by the photo's URL too: a retry whose photo order changed never reuses another photo's file.
+        path = folder / f"photo{i:02d}-{hashlib.sha1(p.url.encode()).hexdigest()[:10]}{ext}"
         try:
             if not path.exists():
                 path.write_bytes(net.get(p.url, timeout=60))
@@ -220,3 +292,12 @@ def download(photos: list[Photo], folder: Path) -> list[Photo]:
 
 def as_dicts(photos: list[Photo]) -> list[dict]:
     return [asdict(p) | {"credit": p.credit} for p in photos]
+
+
+def from_openverse(photo: dict) -> bool:
+    return (photo.get("host") or "").startswith("Openverse")
+
+
+def hosts(photos: list[dict]) -> str:
+    """Where a Short's photos come from, as its end card and description name them."""
+    return "Wikimedia Commons and Openverse" if any(from_openverse(p) for p in photos) else "Wikimedia Commons"

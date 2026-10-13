@@ -12,6 +12,7 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
+from . import media
 from .spec import Short
 
 CHANNEL_ID = "UCfqAy1IxE2Cwu9pmZGMambA"
@@ -53,13 +54,24 @@ def find(api, channel: dict, short_id: str) -> dict | None:
     return hits[0] if hits else None
 
 
+def source_lines(short: Short) -> list[str]:
+    """The sources block: "Sources: Wikipedia, BBC, The Hindu" naming who the facts come from (when trusted outlets'
+    reporting backs any), then every source URL."""
+    named = short.scene.get("outlets") or []
+    if not named:
+        return ["Sources:"] + short.sources + [""]
+    wiki = ["Wikipedia"] if any("wikipedia.org" in s or "wikidata.org" in s for s in short.sources) else []
+    return ["Sources: " + ", ".join(wiki + named)] + short.sources + [""]
+
+
 def description(short: Short) -> str:
     lines = [short.summary, ""]
     if short.scene.get("template") == "story":
         lines += [" ".join(b.text for b in short.beats[:-1]), ""]
-        lines += ["Sources:"] + short.sources + [""]
-        lines += ["The photos are real, from Wikimedia Commons, with a gentle 3D camera move added. The narration is "
-                  "an AI voice (Chatterbox) reading a script checked line by line against the sources above.",
+        lines += source_lines(short)
+        lines += [f"The photos are real, from {media.hosts(short.scene.get('photos') or [])}, with a gentle 3D camera "
+                  "move added. The narration is an AI voice (Chatterbox) reading a script checked line by line against "
+                  "the sources above.",
                   "Spotted an error? Comment with a source and we will correct it.", ""]
         lines += ["Credits:"] + [f"• {c}" for c in short.credits] + [""]
     else:

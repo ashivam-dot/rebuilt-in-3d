@@ -34,6 +34,41 @@ their whole name in order, an event by its place or name plus one more title wor
 matches nothing). The most-read list is read 1000 deep for those. Titles of works that contain a banned word
 ("Breaking Bad") are names, not wording; banned words match whole words only (so "category" is not "gory").
 
+**Trusted sources beyond Wikipedia (2026-10-13; owner: "don't relay on wikipedia only search for other trusted souces
+as well").** `studio/outlets.py` (the same file as the Hindi desk's `desk/outlets.py`) keeps an allowlist of trusted
+outlets with public RSS feeds; Orbitwire reads the English ones: official (PIB), public broadcasters (BBC World, BBC
+India, DW, NPR), international (Al Jazeera, The Guardian) and Indian national (The Hindu, Hindustan Times, Times of
+India). Each outlet has an `owner`; sister brands count once (the BBC's feeds are one owner). Feeds are read in
+parallel once a run (36 hours back); a feed that fails is listed in the run's errors and the rest still count.
+Articles are read with trafilatura (20 s timeout, at most 12 a run, cached). Outlet photos are never used.
+Plain-http links are read as https.
+- **Discovery:** outlet headlines join Google News: matched to a Wikipedia article the same way, each independent
+  owner adding one lead headline's fame (at most 6). Only national sections count as an India signal; Times of
+  India top stories mixes India and world news and never makes a story an India story.
+- **Corroboration:** the writer gets a REPORTING block of 2-4 articles about the story (named by its headline or
+  summary, inside its time window), each from a different owner, official, public and international ones first; a
+  report found at discovery is used only if it names the story. Every name and number must be in Wikipedia/Wikidata
+  or in the articles of at least two independent owners; one outlet alone never backs a fact (the writer's checks and
+  `studio/gate.py` both refuse it, and the line-by-line fact check sees each report sentence marked with its owner).
+  A casualty number still needs the infobox and Wikidata to agree, or else two owners stating the same exact number
+  (no hedge before or after it, such as "at least" or "or more"; no other number from any outlet; never a number
+  different from the infobox's; and Wikidata agreeing when it has one), or one owner and Wikidata's only toll. The
+  toll reaches the writer as a confirmed fact: every sentence about deaths, bodies or injuries is removed from the
+  articles, as are sentences about suicide and, for an incident, any naming a suspect, attacker or arrest.
+- **Stories Wikipedia has no article for yet** (`nw-<yyyymmdd>-<place>-<kind>`): at least 3 independent owners
+  within 24 hours, one of them official, a public broadcaster or international, whose headlines name the same
+  incident or protest (same scope rules). They are told only from the reporting (at least two owners' articles must
+  name the place), with photos of the place (Commons, then Openverse; the place must be a Wikidata item with
+  coordinates, never a person). Once Wikipedia writes the article, the story is not told again for 7 days, and the published
+  record keeps the report URLs and headlines so the Hindi desk's overlap rules match nw- stories too. **This lane is
+  off** until the run's environment sets `STUDIO_NEW_STORIES=true` (add `STUDIO_NEW_STORIES:
+  ${{ vars.STUDIO_NEW_STORIES }}` to the job's `env` in `.github/workflows/run.yml` and set that repository
+  variable): the radar still finds and logs these stories (the run's "outlets:" step) but does not offer them.
+- **Photos:** when Commons has fewer than 3 usable photos, Openverse (keyless; CC0, CC BY and CC BY-SA only) fills
+  in with photos of the places the story links to (Wikidata items with coordinates; never a person, group or work),
+  never one that features a face.
+- **Description:** "Sources: Wikipedia, BBC, The Hindu" names the outlets behind the facts, then every URL.
+
 ## The editorial desk (`studio/plan.py`)
 
 The owner wants hot news caught on time without stepping in; the desk decides what goes out and when.

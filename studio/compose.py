@@ -18,6 +18,15 @@ W, H, FPS = 1080, 1920, 30
 MARGIN = 1.16  # the photo plate is larger than the frame so the camera can move
 FONTS = Path(__file__).resolve().parent / "fonts"
 DISCLOSURE = "Real photos: Wikimedia Commons · Narration: AI voice"
+
+
+def disclosure(photos: list[dict]) -> str:
+    """The end card's disclosure, naming Openverse too when a photo comes from it."""
+    from . import media
+
+    return DISCLOSURE.replace("Wikimedia Commons", media.hosts(photos).replace(" and ", ", "))
+
+
 ACCENT = {"tribute": (255, 205, 92), "news": (90, 200, 255)}
 CROSSFADE = 8  # frames
 CAPTION_Y = 0.665
@@ -257,12 +266,12 @@ def _chip_layer(text: str, accent: tuple) -> tuple[np.ndarray, np.ndarray]:
     return _rgba(_text_layer([(text, font, (255, 255, 255, 255))], pad=22, box=(10, 10, 14, 175), accent=accent))
 
 
-def _end_layers(accent: tuple) -> list[tuple[tuple[np.ndarray, np.ndarray], int]]:
+def _end_layers(accent: tuple, disclosure: str = DISCLOSURE) -> list[tuple[tuple[np.ndarray, np.ndarray], int]]:
     logo = _rgba(_text_layer([("ORBIT", _font("Anton-Regular.ttf", 150), (255, 255, 255, 255))], stroke=0))
     wire = _rgba(_text_layer([("WIRE", _font("Anton-Regular.ttf", 150), accent + (255,))], stroke=0))
     src = _rgba(_text_layer([("Sources in the description", _font("Montserrat.ttf", 42, "SemiBold"),
                               (255, 255, 255, 235))]))
-    disc = _rgba(_text_layer([(DISCLOSURE, _font("Montserrat.ttf", 28, "Medium"), (255, 255, 255, 190))]))
+    disc = _rgba(_text_layer([(disclosure, _font("Montserrat.ttf", 28, "Medium"), (255, 255, 255, 190))]))
     return [(logo, 0), (wire, 1), (src, 2), (disc, 3)]
 
 
@@ -312,7 +321,7 @@ def render(short: Short, timing: dict, work: Path) -> dict:
         sub = shots[0]["beat"].card.get("big", "") if shots[0]["beat"].card else ""
     hook = _hook_layer(name, sub, accent)
     credits = {i: _credit_layer(p["credit"]) for i, p in enumerate(photos)}
-    end = _end_layers(accent)
+    end = _end_layers(accent, disclosure(photos))
     work.mkdir(parents=True, exist_ok=True)
     mixed = _mix(work / "narration.wav", short, duration, work)
     out = work / "short.mp4"

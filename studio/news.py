@@ -3,6 +3,7 @@
 Wikipedia's most-read list is a day behind and Google Trends shows searches, not stories. The front pages of
 Google News show what newsrooms are leading with right now. Each headline is matched to the Wikipedia article
 about it; an article's heat is how many lead stories and outlets point at it, and how recent the newest one is.
+Trusted outlets' own feeds (studio/outlets.py) count too, once per independent owner.
 """
 from __future__ import annotations
 
@@ -128,9 +129,25 @@ def headlines(feed: str, now: datetime | None = None) -> list[dict]:
     return out
 
 
-def signals(now: datetime | None = None, pool: list[dict] | None = None) -> tuple[dict[str, dict], list[str]]:
-    """Wikipedia title -> {news, news_at, headlines, geos}; plus errors from feeds that failed. A headline whose
-    search finds no pool article is matched against pool (see reverse)."""
+OUTLET_MAX_OWNERS = 6
+# Trusted outlets' items looked up on Wikipedia's search a run (newest first); the rest are matched to the pool only.
+OUTLET_SEARCHES = 160
+
+
+def _from_outlet(item: dict) -> dict:
+    return {"title": item["title"], "outlet": item["outlet"], "outlets": 1, "at": item["at"], "feed": item["feed"],
+            "geo": item["geo"], "owner": item["owner"], "src": item}
+
+
+def signals(now: datetime | None = None, pool: list[dict] | None = None,
+            outlet_items: list[dict] | None = None) -> tuple[dict[str, dict], list[str]]:
+    """Wikipedia title -> {news, news_at, headlines, geos, owners, reports}; plus errors from feeds that failed. A
+    headline whose search finds no pool article is matched against pool (see reverse).
+
+    outlet_items (studio/outlets.py, English feeds) join the Google News lead stories: each independent owner covering
+    an article adds one HEADLINE_FAME, and the items are kept as the story's reports. Each outlet item matched to an
+    article is marked with it ("matched"); the newest OUTLET_SEARCHES are looked up on Wikipedia's search, the rest
+    only in pool."""
     hits: dict[str, dict] = {}
     errors = []
     items = []
@@ -139,15 +156,20 @@ def signals(now: datetime | None = None, pool: list[dict] | None = None) -> tupl
             items += headlines(feed, now)
         except Exception as exc:
             errors.append(f"google news {feed}: {exc}"[:200])
+    searchable = len(items) + OUTLET_SEARCHES
+    items += [_from_outlet(i) for i in outlet_items or []]
 
-    def safe_match(h):
+    def safe_match(numbered):
+        n, h = numbered
+        if n >= searchable:
+            return None
         try:
             return match(h["title"], now)
         except Exception:
             return None
 
     with ThreadPoolExecutor(max_workers=6) as workers:
-        titles = list(workers.map(safe_match, items))
+        titles = list(workers.map(safe_match, enumerate(items)))
     pooled = {p["title"] for p in pool or []}
     for h, title in zip(items, titles):
         if pool and title not in pooled:
@@ -155,12 +177,26 @@ def signals(now: datetime | None = None, pool: list[dict] | None = None) -> tupl
             title = reverse(h["title"], pool) or title
         if not title:
             continue
-        row = hits.setdefault(title, {"news": 0, "news_at": h["at"], "headlines": [], "geos": set()})
-        if h["title"] in row["headlines"]:
+        row = hits.setdefault(title, {"news": 0, "news_at": h["at"], "headlines": [], "geos": set(), "owners": [],
+                                      "reports": []})
+        if "src" in h:
+            h["src"]["matched"] = title
+            row["reports"].append(h["src"])
+            if h["owner"] in row["owners"]:
+                continue  # sister brands and a second headline from one newsroom count once
+            row["owners"].append(h["owner"])
+            if len(row["owners"]) <= OUTLET_MAX_OWNERS:
+                row["news"] += HEADLINE_FAME
+        elif h["title"] in row["headlines"]:
             continue
-        row["news"] += HEADLINE_FAME * min(h["outlets"], 6)
+        else:
+            row["news"] += HEADLINE_FAME * min(h["outlets"], 6)
         row["news_at"] = max(row["news_at"], h["at"])
-        row["headlines"].append(h["title"])
+        if h["title"] not in row["headlines"]:
+            row["headlines"].append(h["title"])
         # A world section is not a country's signal (it must not make a story an India story).
-        row["geos"].add("world" if h["feed"] == "world" else h["feed"].split("-")[0])
+        geo = h.get("geo") if "src" in h else (
+            h.get("geo") or ("world" if h["feed"] == "world" else h["feed"].split("-")[0]))
+        if geo:
+            row["geos"].add(geo)
     return hits, errors

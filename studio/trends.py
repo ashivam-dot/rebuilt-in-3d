@@ -5,14 +5,25 @@ Google Trends trending searches in the US, India and the UK (hourly) and English
 (daily). Each hit is resolved to a Wikipedia article and its Wikidata item, then classified. Three shapes of story
 pass: a recent incident, a protest or public movement that newsrooms are leading with, or the recent death of a
 famous person. Sport, celebrity gossip, party politics and crime trials are ignored by design.
+
+Trusted outlets' English feeds (studio/outlets.py) add their headlines, once per independent owner, and the articles
+that name a story are kept as its reports. Stories at least three owners report that Wikipedia has no article for yet
+(nw- ids) are found and logged, and offered only when STUDIO_NEW_STORIES is true.
 """
 from __future__ import annotations
 
+import os
 import re
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 
-from . import net, news, wiki
+from . import net, news, outlets, wiki
+
+# Stories told only from trusted outlets' reporting, before Wikipedia has an article (nw- ids): off unless the run's
+# environment sets STUDIO_NEW_STORIES=true.
+NEW_STORIES = os.environ.get("STUDIO_NEW_STORIES", "").lower() == "true"
+OUTLET_LANGS = ("en",)
+READ: list[dict] = []  # the trusted outlets' items the last _signals read, each marked with the article it matched
 
 GEOS = ("US", "IN", "GB")
 INDIA = "Q668"
@@ -161,7 +172,14 @@ def _signals() -> tuple[dict[str, dict], list[str]]:
             if india:
                 h.setdefault("geos", set()).add("IN")
     try:
-        lead, news_errors = news.signals(pool=pool)
+        outlet_items, outlet_errors = outlets.recent(langs=OUTLET_LANGS)
+        errors += outlet_errors
+    except Exception as exc:
+        outlet_items = []
+        errors.append(f"outlets: {exc}"[:200])
+    READ.extend(outlet_items)
+    try:
+        lead, news_errors = news.signals(pool=pool, outlet_items=outlet_items)
         errors += news_errors
     except Exception as exc:
         lead = {}
@@ -171,6 +189,9 @@ def _signals() -> tuple[dict[str, dict], list[str]]:
         h["news"], h["news_at"], h["headlines"] = n["news"], n["news_at"], n["headlines"][:5]
         h.setdefault("geos", set()).update(n["geos"])
         h["via"] += [f"google-news:{t}" for t in n["headlines"][:3]]
+        if n.get("owners"):
+            h["owners"], h["reports"] = n["owners"], n["reports"]
+            h["via"] += [f"outlet:{o}" for o in n["owners"]]
     return hits, errors
 
 
@@ -274,7 +295,9 @@ def article_id(title: str) -> str:
 def radar(today: date | None = None) -> dict:
     """Trending candidates, ranked by fame. Written to state/trends.json by the caller."""
     today = today or datetime.now(timezone.utc).date()
+    READ.clear()
     hits, errors = _signals()
+    read = list(READ)
     try:
         info = wiki.page_info(list(hits))
         qids = sorted({i["qid"] for i in info.values() if i.get("qid")})
@@ -287,7 +310,7 @@ def radar(today: date | None = None) -> dict:
     except Exception as exc:
         errors.append(f"wikidata: {exc}"[:200])
         return {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "candidates": [], "errors": errors,
-                "scanned": len(hits)}
+                "scanned": len(hits), "emerging": [], "outlets": outlet_stats(read, [])}
     out, seen = [], set()
     for title, h in hits.items():
         page = info.get(title)
@@ -309,7 +332,8 @@ def radar(today: date | None = None) -> dict:
         news_at = max(filter(None, (h.get("news_at"), h.get("portal_at"), h.get("gdacs_at"))), default=None)
         base = {"qid": qid, "title": page["title"], "fame": fame, "views": h["views"], "traffic": h["traffic"],
                 "news": h.get("news", 0), "news_at": news_at, "headlines": h.get("headlines", []),
-                "region": region(ent, h.get("geos", set())), "via": h["via"]}
+                "region": region(ent, h.get("geos", set())), "via": h["via"],
+                "owners": h.get("owners", []), "reports": [outlets.compact(r) for r in h.get("reports", [])][:8]}
         if "human" in cats:
             died = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P570")), None)
             if not died or not 0 <= (today - died).days <= DEATH_MAX_DAYS:
@@ -339,6 +363,20 @@ def radar(today: date | None = None) -> dict:
         out.append(base | {"id": sid, "kind": "incident", "category": cat, "date": when.isoformat(),
                            "coords": coords,
                            "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
+    try:
+        emerging = outlets.stories(read, datetime.now(timezone.utc), known=list(hits))
+    except Exception as exc:
+        emerging = []
+        errors.append(f"outlet stories: {type(exc).__name__}: {exc}"[:200])
+    if NEW_STORIES:
+        out += emerging
     out.sort(key=lambda c: -c["fame"])
     return {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "candidates": out, "errors": errors,
-            "scanned": len(hits)}
+            "scanned": len(hits), "emerging": emerging, "outlets": outlet_stats(read, out)}
+
+
+def outlet_stats(read: list[dict], cands: list[dict]) -> dict:
+    """What the trusted outlets added this run (recorded in candidates.json and the run's health)."""
+    return {"headlines": len(read), "feeds": len({i["feed"] for i in read}), "owners": len(outlets.owners(read)),
+            "matched": sum(1 for i in read if i.get("matched")),
+            "corroborated": sum(1 for c in cands if len(outlets.owners(c.get("reports") or [])) >= 2)}

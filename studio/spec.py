@@ -15,6 +15,8 @@ class Fact:
     numbers: list[str] = field(default_factory=list)
     # The field or sentence in the source that the value came from.
     evidence: str = ""
+    # For a fact taken from outlet reporting: the independent owners whose articles state it (two or more).
+    owners: list[str] = field(default_factory=list)
 
 
 @dataclass

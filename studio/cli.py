@@ -69,7 +69,10 @@ def publish(story_id: str, publish_at: str | None = None) -> dict:
     ledger.record_publish({"id": short.id, "kind": short.kind, "title": short.title, "loss": short.loss,
                            "published_at": when, "event_time": short.event_time,
                            "category": short.scene.get("category"), "region": short.scene.get("region"),
-                           "article": short.scene.get("article"), **result})
+                           "article": short.scene.get("article"),
+                           "report_urls": [r["url"] for r in short.scene.get("reporting") or []],
+                           "outlets": short.scene.get("outlets") or [], "headlines": short.scene.get("headlines") or [],
+                           **result})
     return result
 
 
@@ -88,6 +91,8 @@ def run(dry: bool = False) -> dict:
         found = plan.watch()
         health["steps"].append(f"watch: {len(found['candidates'])} candidates ({len(found['quakes'])} quakes, "
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")
+        if found.get("outlet_note"):
+            health["steps"].append(found["outlet_note"])
         if found.get("trend_errors"):
             health["steps"].append(f"trend radar errors: {found['trend_errors']}")
         ready, held = plan.lineup(found["candidates"])

@@ -20,6 +20,7 @@ dependencies = [
     "google-api-python-client>=2.170",
     "mwparserfromhell>=0.6",
     "opencv-python-headless>=5.0.0.93",
+    "trafilatura>=2.0",
 ]
 
 [project.optional-dependencies]
