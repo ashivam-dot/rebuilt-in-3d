@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T13:45:27+00:00",
+ "at": "2026-10-13T14:01:29+00:00",
  "quakes": [],
  "trending": [
   {
@@ -56,45 +56,6 @@
    "kind": "incident",
    "category": "conflict",
    "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 158756,
-   "views": 8756,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-13T09:16:00+00:00",
-   "headlines": [
-    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
-     "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-13T04:29:46+00:00"
-    }
-   ],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
    "coords": null,
    "has_coords": false
   },
@@ -164,6 +125,45 @@
    "date": "2026-10-12",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 33756,
+   "views": 8756,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-13T04:29:46+00:00",
+   "headlines": [
+    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12",
+    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+     "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-13T04:29:46+00:00"
+    }
+   ],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q5300674",
@@ -246,6 +246,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
+  },
+  {
+   "qid": "Q228928",
+   "title": "Eva Marie Saint",
+   "fame": 8446,
+   "views": 8446,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q228928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-06"
   }
  ],
  "hazards": [
@@ -318,11 +338,11 @@
   {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
-   "fame": 158756,
+   "fame": 33756,
    "views": 8756,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-13T09:16:00+00:00",
+   "news": 25000,
+   "news_at": "2026-10-13T04:29:46+00:00",
    "headlines": [
     "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
    ],
@@ -355,16 +375,13 @@
    "has_coords": false
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
- ],
  "outlets": {
-  "headlines": 338,
+  "headlines": 339,
   "feeds": 10,
   "owners": 9,
-  "matched": 19,
+  "matched": 21,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 338 headlines from 10 feeds (9 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 339 headlines from 10 feeds (9 owners), 21 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
