@@ -1,10 +1,12 @@
 {
- "at": "2026-10-13T11:40:15+00:00",
- "ok": false,
+ "at": "2026-10-13T12:13:45+00:00",
+ "ok": true,
  "steps": [
-  "watch: 4 candidates (0 quakes, 10 trending), 4 hazard alerts",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]"
- ],
- "error": "RuntimeError: video LW20980nqY8 did not go public (private)",
- "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 142, in run\n    result = publish(short.id)\n             ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 66, in publish\n    result = youtube.publish(short, work / \"short.mp4\", publish_at=publish_at)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/youtube.py\", line 141, in publish\n    raise RuntimeError(f\"video {video_id} did not go public ({final['status']['privacyStatus']})\")\nRuntimeError: video LW20980nqY8 did not go public (private)\n"
+  "watch: 4 candidates (0 quakes, 11 trending), 4 hazard alerts",
+  "skip wk-Q141712628: gate: card 4: casualties without an agreed toll (injured)",
+  "skip wk-Q5300674: gate: only 0 usable photos of Doug Loft on Wikimedia Commons (want 3)",
+  "skip wk-Q141712917: gate: only 2 usable photos of Hurricane Rachel on Wikimedia Commons (want 3)",
+  "skip wk-Q141544931: gate: only 2 usable photos of 2026 Ethiopian offensive on Wikimedia Commons (want 3)",
+  "nothing eligible to publish"
+ ]
 }

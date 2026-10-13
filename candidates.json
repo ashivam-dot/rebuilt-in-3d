@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T11:40:16+00:00",
+ "at": "2026-10-13T12:13:45+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,45 +9,22 @@
    "views": 45703,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-13T08:54:00+00:00",
+   "news_at": "2026-10-13T04:14:00+00:00",
    "headlines": [
     "Saudi Airport Attacks Pressure Trump to Boost US Role in Yemen",
-    "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes"
+    "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
     "wikipedia-current-events-2026-10-12",
     "google-news:Saudi Airport Attacks Pressure Trump to Boost US Role in Yemen",
-    "google-news:Saudi Arabia Faces More Attacks as It Reels From Airport Strikes"
+    "google-news:Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport"
    ],
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
    "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 133756,
-   "views": 8756,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-12T23:12:50+00:00",
-   "headlines": [
-    "Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12",
-    "google-news:Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
-   ],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
    "coords": null,
    "has_coords": false
   },
@@ -207,6 +184,44 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
+  },
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 8756,
+   "views": 8756,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q228928",
+   "title": "Eva Marie Saint",
+   "fame": 8446,
+   "views": 8446,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "id": "wk-Q228928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-06"
   }
  ],
  "hazards": [
@@ -297,18 +312,15 @@
   {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
-   "fame": 133756,
+   "fame": 8756,
    "views": 8756,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-12T23:12:50+00:00",
-   "headlines": [
-    "Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-12",
-    "google-news:Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
+    "wikipedia-top-2026-10-12"
    ],
    "id": "wk-Q141712917",
    "kind": "incident",
@@ -339,8 +351,5 @@
    "coords": null,
    "has_coords": false
   }
- ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ]
 }
