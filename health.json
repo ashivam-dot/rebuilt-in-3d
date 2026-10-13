@@ -1,12 +1,11 @@
 {
- "at": "2026-10-13T12:13:45+00:00",
+ "at": "2026-10-13T12:33:36+00:00",
  "ok": true,
  "steps": [
-  "watch: 4 candidates (0 quakes, 11 trending), 4 hazard alerts",
-  "skip wk-Q141712628: gate: card 4: casualties without an agreed toll (injured)",
-  "skip wk-Q5300674: gate: only 0 usable photos of Doug Loft on Wikimedia Commons (want 3)",
-  "skip wk-Q141712917: gate: only 2 usable photos of Hurricane Rachel on Wikimedia Commons (want 3)",
-  "skip wk-Q141544931: gate: only 2 usable photos of 2026 Ethiopian offensive on Wikimedia Commons (want 3)",
-  "nothing eligible to publish"
+  "watch: 4 candidates (0 quakes, 12 trending), 4 hazard alerts",
+  "hold wk-Q5300674: last Short went out 0.5 h ago",
+  "hold wk-Q141605182: last Short went out 0.5 h ago",
+  "hold wk-Q141712917: last Short went out 0.5 h ago",
+  "hold wk-Q141544931: last Short went out 0.5 h ago"
  ]
 }
