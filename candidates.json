@@ -1,21 +1,23 @@
 {
- "at": "2026-10-13T05:29:31+00:00",
+ "at": "2026-10-13T05:55:59+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi Arabia airports",
-   "fame": 170703,
+   "fame": 295703,
    "views": 45703,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T01:26:02+00:00",
+   "news": 250000,
+   "news_at": "2026-10-13T03:08:35+00:00",
    "headlines": [
+    "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
     "Saudi minister vows 'serious response' to Houthi attacks on airports"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
+    "google-news:Houthi missile attack targets Saudi capital Riyadh for third day in a row",
     "google-news:Saudi minister vows 'serious response' to Houthi attacks on airports"
    ],
    "id": "wk-Q141695384",
@@ -24,6 +26,31 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141681530",
+   "title": "2026 Panama earthquake",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-12T23:34:00+00:00",
+   "headlines": [
+    "Magnitude 6 earthquake strikes off Panama"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Magnitude 6 earthquake strikes off Panama"
+   ],
+   "id": "wk-Q141681530",
+   "kind": "incident",
+   "category": "earthquake",
+   "date": "2026-10-09",
+   "coords": [
+    7.5868,
+    -80.769
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q1355840",
