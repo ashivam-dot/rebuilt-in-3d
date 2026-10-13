@@ -1,11 +1,12 @@
 {
- "at": "2026-10-13T10:34:23+00:00",
+ "at": "2026-10-13T11:02:05+00:00",
  "ok": true,
  "steps": [
-  "learn: 11 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.33, 'typical_views_24h': 306}, 'kind:incident': {'n': 4, 'lift': 1.263, 'typical_views_24h': 276}}",
-  "watch: 3 candidates (0 quakes, 10 trending), 4 hazard alerts",
-  "hold wk-Q141712628: outside the world window",
-  "hold wk-Q5300674: outside the world window",
-  "hold wk-Q141712917: outside the world window"
+  "watch: 4 candidates (0 quakes, 11 trending), 4 hazard alerts",
+  "skip wk-Q141712628: voice: beat 4 came out garbled (76% of words heard)",
+  "skip wk-Q5300674: gate: only 0 usable photos of Doug Loft on Wikimedia Commons (want 3)",
+  "skip wk-Q141712917: gate: only 2 usable photos of Hurricane Rachel on Wikimedia Commons (want 3)",
+  "skip wk-Q141544931: gate: only 2 usable photos of 2026 Ethiopian offensive on Wikimedia Commons (want 3)",
+  "nothing eligible to publish"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T10:34:24+00:00",
+ "at": "2026-10-13T11:02:06+00:00",
  "quakes": [],
  "trending": [
   {
@@ -35,7 +35,7 @@
    "views": 8756,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-13T04:29:00+00:00",
+   "news_at": "2026-10-13T09:16:00+00:00",
    "headlines": [
     "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
    ],
@@ -133,20 +133,43 @@
   {
    "qid": "Q2475741",
    "title": "Nana Patekar",
-   "fame": 31329,
+   "fame": 31529,
    "views": 31329,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-12"
+    "wikipedia-top-2026-10-12",
+    "google-trends-IN:मकरंद अनासपुरे"
    ],
    "id": "wk-Q2475741",
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
+  },
+  {
+   "qid": "Q141544931",
+   "title": "2026 Ethiopian offensive",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-12T18:01:58+00:00",
+   "headlines": [
+    "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
+   ],
+   "id": "wk-Q141544931",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-09-23",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141670823",
@@ -297,7 +320,7 @@
    "views": 8756,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-13T04:29:00+00:00",
+   "news_at": "2026-10-13T09:16:00+00:00",
    "headlines": [
     "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
    ],
@@ -310,6 +333,28 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q141544931",
+   "title": "2026 Ethiopian offensive",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-12T18:01:58+00:00",
+   "headlines": [
+    "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
+   ],
+   "id": "wk-Q141544931",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-09-23",
    "coords": null,
    "has_coords": false
   }
