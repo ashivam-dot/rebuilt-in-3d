@@ -1,8 +1,11 @@
 {
- "at": "2026-10-13T08:29:04+00:00",
+ "at": "2026-10-13T08:58:52+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 0 trending), 4 hazard alerts",
-  "trend radar errors: ['wikidata: HTTP 429']"
+  "watch: 4 candidates (0 quakes, 11 trending), 4 hazard alerts",
+  "hold wk-Q141712628: outside the world window",
+  "hold wk-Q5300674: outside the world window",
+  "hold wk-Q141712917: outside the world window",
+  "hold wk-Q141544931: outside the world window"
  ]
 }
