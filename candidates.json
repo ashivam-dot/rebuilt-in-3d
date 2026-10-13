@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T17:26:31+00:00",
+ "at": "2026-10-13T17:54:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,37 +9,47 @@
    "views": 45703,
    "traffic": 0,
    "news": 425000,
-   "news_at": "2026-10-13T17:08:58+00:00",
+   "news_at": "2026-10-13T17:42:33+00:00",
    "headlines": [
-    "Saudi Arabia strikes Yemen capital as Houthis vow to retaliate",
+    "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
     "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks",
-    "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’",
-    "Saudi Arabia's military struggle against Houthi attacks"
+    "Saudi Arabia strikes strategic oil depots near Yemen capital",
+    "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
     "wikipedia-current-events-2026-10-12",
-    "google-news:Saudi Arabia strikes Yemen capital as Houthis vow to retaliate",
+    "google-news:Houthis threaten Saudi Arabia’s Aramco facilities and airports",
     "google-news:As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "google-news:Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks",
+    "outlet:Guardian Media Group",
     "outlet:The Hindu Group",
     "outlet:Deutsche Welle",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
-    "outlet:HT Media",
-    "outlet:Guardian Media Group"
+    "outlet:HT Media"
    ],
    "owners": [
+    "Guardian Media Group",
     "The Hindu Group",
     "Deutsche Welle",
     "Al Jazeera Media Network",
     "France Médias Monde",
-    "HT Media",
-    "Guardian Media Group"
+    "HT Media"
    ],
    "reports": [
+    {
+     "title": "Saudi Arabia strikes strategic oil depots near Yemen capital",
+     "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-13T17:26:08+00:00"
+    },
     {
      "title": "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’",
      "url": "https://www.thehindu.com/news/national/india-asks-its-nationals-in-saudi-arabia-to-remain-calm-and-vigilant/article71580892.ece",
@@ -61,7 +71,7 @@
      "at": "2026-10-13T16:11:00+00:00"
     },
     {
-     "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
+     "title": "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
      "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -423,12 +433,12 @@
   }
  ],
  "outlets": {
-  "headlines": 387,
+  "headlines": 388,
   "feeds": 12,
   "owners": 11,
-  "matched": 34,
+  "matched": 35,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 387 headlines from 12 feeds (11 owners), 34 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 388 headlines from 12 feeds (11 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
