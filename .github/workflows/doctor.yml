@@ -5,7 +5,7 @@ name: doctor
 
 on:
   workflow_run:
-    workflows: ["run", "health"]
+    workflows: ["run", "health", "tests"]
     types: [completed]
   schedule:
     - cron: "23 4 * * 2,5"
