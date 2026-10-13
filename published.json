@@ -37,6 +37,31 @@
   "synthetic_declared": true
  },
  {
+  "id": "eq-us6000u18k",
+  "kind": "quake",
+  "title": "How the M7.7 Panama quake ruptured, in 3D",
+  "loss": true,
+  "published_at": "2026-10-09T22:30:44+00:00",
+  "event_time": "2026-10-09T17:56:06.036000+00:00",
+  "video_id": "ou-WEYN_fZ4",
+  "url": "https://www.youtube.com/shorts/ou-WEYN_fZ4",
+  "privacy": "public",
+  "synthetic_declared": true
+ },
+ {
+  "id": "wk-Q139857349-advisory",
+  "kind": "incident",
+  "title": "Delhi on 10 October: What the CJP Protest Will Affect",
+  "loss": false,
+  "published_at": "2026-10-10T00:00:00+00:00",
+  "event_time": "2026-10-10",
+  "video_id": "Tu3d-8K65RI",
+  "url": "https://www.youtube.com/shorts/Tu3d-8K65RI",
+  "privacy": "scheduled",
+  "publish_at": "2026-10-10T00:00:00Z",
+  "synthetic_declared": true
+ },
+ {
   "id": "wk-Q140615137-p2",
   "kind": "incident",
   "title": "Part 2: The Sit-in That Ended With a Resignation",
@@ -60,31 +85,6 @@
   "url": "https://www.youtube.com/shorts/uacY9FZTA9Y",
   "privacy": "scheduled",
   "publish_at": "2026-10-10T06:30:00Z",
-  "synthetic_declared": true
- },
- {
-  "id": "wk-Q139857349-advisory",
-  "kind": "incident",
-  "title": "Delhi on 10 October: What the CJP Protest Will Affect",
-  "loss": false,
-  "published_at": "2026-10-10T00:00:00+00:00",
-  "event_time": "2026-10-10",
-  "video_id": "Tu3d-8K65RI",
-  "url": "https://www.youtube.com/shorts/Tu3d-8K65RI",
-  "privacy": "scheduled",
-  "publish_at": "2026-10-10T00:00:00Z",
-  "synthetic_declared": true
- },
- {
-  "id": "eq-us6000u18k",
-  "kind": "quake",
-  "title": "How the M7.7 Panama quake ruptured, in 3D",
-  "loss": true,
-  "published_at": "2026-10-09T22:30:44+00:00",
-  "event_time": "2026-10-09T17:56:06.036000+00:00",
-  "video_id": "ou-WEYN_fZ4",
-  "url": "https://www.youtube.com/shorts/ou-WEYN_fZ4",
-  "privacy": "public",
   "synthetic_declared": true
  },
  {
@@ -151,5 +151,21 @@
   "url": "https://www.youtube.com/shorts/4S22bZ3pQWU",
   "privacy": "public",
   "synthetic_declared": true
+ },
+ {
+  "id": "wk-Q141712628",
+  "kind": "incident",
+  "title": "The Day the Silence Broke: The 2026 Aubagne School Shooting",
+  "loss": true,
+  "published_at": "2026-10-13T12:07:46+00:00",
+  "event_time": "2026-10-12",
+  "category": "attack",
+  "region": "world",
+  "article": "2026 Aubagne school shooting",
+  "video_id": "LW20980nqY8",
+  "url": "https://www.youtube.com/shorts/LW20980nqY8",
+  "privacy": "public",
+  "synthetic_declared": true,
+  "recorded_by_hand": "run 38389855028 uploaded it but read it back once as private and failed before recording"
  }
 ]
