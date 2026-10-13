@@ -1,11 +1,18 @@
 {
- "at": "2026-10-13T19:52:00+00:00",
+ "at": "2026-10-13T20:53:33+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 11 trending), 4 hazard alerts",
-  "outlets: 781 headlines from 30 feeds (21 owners), 58 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wp-2026_Multan_train_derailment: gate: the article is under 6 hours old; facts may still move (ready in 4.5 h)",
-  "hold wk-Q141695384: two of the last uploads were loss stories; this one waits for a non-loss Short",
-  "dry run: made wk-Q141670823 (58.0 s), not published"
- ]
+  "watch: 3 candidates (0 quakes, 11 trending), 5 hazard alerts",
+  "outlets: 780 headlines from 30 feeds (21 owners), 62 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "wait wp-2026_Multan_train_derailment: gate: the article is under 6 hours old; facts may still move (ready in 3.4 h)",
+  "skip wk-Q141695384: gate: no draft passed the fact checks: line 8 (Officials are looking into why defense systems failed to sto): unsupported: No source mentions officials looking into why defense systems failed. | second look: The source sentences do not state that 'Officials are looking into why defense systems failed.' While the sources confirm that attacks occurred and were carried out by the Houthis, there is no mention of an official investigation i",
+  "published wk-Q141670823: https://www.youtube.com/shorts/0A-ThCJIZRk"
+ ],
+ "published": {
+  "video_id": "0A-ThCJIZRk",
+  "url": "https://www.youtube.com/shorts/0A-ThCJIZRk",
+  "title": "The Path of Hurricane Isaias",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
