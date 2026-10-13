@@ -1,10 +1,11 @@
 {
- "at": "2026-10-13T19:40:07+00:00",
+ "at": "2026-10-13T19:52:00+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 11 trending), 4 hazard alerts",
-  "outlets: 391 headlines from 12 feeds (11 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wp-2026_Multan_train_derailment: gate: the article is under 6 hours old; facts may still move (ready in 4.7 h)",
-  "nothing eligible to publish"
+  "watch: 3 candidates (0 quakes, 11 trending), 4 hazard alerts",
+  "outlets: 781 headlines from 30 feeds (21 owners), 58 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "wait wp-2026_Multan_train_derailment: gate: the article is under 6 hours old; facts may still move (ready in 4.5 h)",
+  "hold wk-Q141695384: two of the last uploads were loss stories; this one waits for a non-loss Short",
+  "dry run: made wk-Q141670823 (58.0 s), not published"
  ]
 }
