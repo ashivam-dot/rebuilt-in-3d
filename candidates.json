@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T11:02:06+00:00",
+ "at": "2026-10-13T11:40:16+00:00",
  "quakes": [],
  "trending": [
   {
@@ -35,14 +35,14 @@
    "views": 8756,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-13T09:16:00+00:00",
+   "news_at": "2026-10-12T23:12:50+00:00",
    "headlines": [
-    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "google-news:Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
    ],
    "id": "wk-Q141712917",
    "kind": "incident",
@@ -133,16 +133,15 @@
   {
    "qid": "Q2475741",
    "title": "Nana Patekar",
-   "fame": 31529,
+   "fame": 31329,
    "views": 31329,
-   "traffic": 200,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-12",
-    "google-trends-IN:मकरंद अनासपुरे"
+    "wikipedia-top-2026-10-12"
    ],
    "id": "wk-Q2475741",
    "kind": "death",
@@ -208,24 +207,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
-  },
-  {
-   "qid": "Q228928",
-   "title": "Eva Marie Saint",
-   "fame": 8446,
-   "views": 8446,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12"
-   ],
-   "id": "wk-Q228928",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
   }
  ],
  "hazards": [
@@ -320,14 +301,14 @@
    "views": 8756,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-13T09:16:00+00:00",
+   "news_at": "2026-10-12T23:12:50+00:00",
    "headlines": [
-    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "google-news:Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast"
    ],
    "id": "wk-Q141712917",
    "kind": "incident",
@@ -358,5 +339,8 @@
    "coords": null,
    "has_coords": false
   }
+ ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ]
 }
