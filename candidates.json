@@ -1,56 +1,12 @@
 {
- "at": "2026-10-13T02:26:52+00:00",
+ "at": "2026-10-13T02:58:29+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q1355840",
-   "title": "Mike Ditka",
-   "fame": 185273,
-   "views": 185273,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-11"
-   ],
-   "id": "wk-Q1355840",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-09"
-  },
-  {
-   "qid": "Q141681530",
-   "title": "2026 Panama earthquake",
-   "fame": 140608,
-   "views": 15608,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-12T23:34:00+00:00",
-   "headlines": [
-    "Magnitude 6 earthquake strikes off Panama"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-11",
-    "google-news:Magnitude 6 earthquake strikes off Panama"
-   ],
-   "id": "wk-Q141681530",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-09",
-   "coords": [
-    7.5868,
-    -80.769
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q2118568",
    "title": "RJ Mitte",
-   "fame": 125000,
-   "views": 0,
+   "fame": 1531448,
+   "views": 1406448,
    "traffic": 0,
    "news": 125000,
    "news_at": "2026-10-13T00:09:42+00:00",
@@ -59,6 +15,7 @@
    ],
    "region": "world",
    "via": [
+    "wikipedia-top-2026-10-12",
     "google-news:RJ Mitte, Who Played Walter White’s Son on ‘Breaking Bad,’ Dies at 34"
    ],
    "id": "wk-Q2118568",
@@ -67,17 +24,55 @@
    "date": "2026-10-12"
   },
   {
+   "qid": "Q1355840",
+   "title": "Mike Ditka",
+   "fame": 67069,
+   "views": 67069,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "id": "wk-Q1355840",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-09"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 attacks on Saudi Arabia airports",
+   "fame": 45703,
+   "views": 45703,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q2475741",
    "title": "Nana Patekar",
-   "fame": 48903,
-   "views": 48903,
+   "fame": 31329,
+   "views": 31329,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-11"
+    "wikipedia-top-2026-10-12"
    ],
    "id": "wk-Q2475741",
    "kind": "death",
@@ -87,15 +82,15 @@
   {
    "qid": "Q141670823",
    "title": "Hurricane Isaias (2026)",
-   "fame": 34230,
-   "views": 34230,
+   "fame": 23833,
+   "views": 23833,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-11"
+    "wikipedia-top-2026-10-12"
    ],
    "id": "wk-Q141670823",
    "kind": "incident",
@@ -103,6 +98,24 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q13119635",
+   "title": "Madhu Kambikar",
+   "fame": 16879,
+   "views": 16879,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "id": "wk-Q13119635",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
   }
  ],
  "hazards": [
@@ -147,5 +160,24 @@
    "lon": "-84"
   }
  ],
- "candidates": []
+ "candidates": [
+  {
+   "qid": "Q13119635",
+   "title": "Madhu Kambikar",
+   "fame": 16879,
+   "views": 16879,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "id": "wk-Q13119635",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
+  }
+ ]
 }
