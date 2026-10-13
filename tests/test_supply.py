@@ -180,6 +180,12 @@ def test_a_tribute_short_of_portraits_fills_in_with_its_places_but_never_other_f
     assert got[0]["focus"] and got[1]["focus"] is None
 
 
+def test_incident_context_adds_the_place_it_is_located_in():
+    claims = {"P131": [{"mainsnak": {"datavalue": {"value": {"id": "Q400"}}}}]}
+    assert writer.incident_context({"claims": claims}, ["Q9"]) == ["Q9", "Q400"]
+    assert writer.incident_context({}, []) == []
+
+
 def test_no_portrait_means_no_tribute(photos):
     shelf, order, tmp = photos
     shelf["context"] = [_photo("Kolhapur skyline", "related")] * 3

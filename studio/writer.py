@@ -358,6 +358,13 @@ def person_context(ent: dict) -> list[str]:
                               if isinstance(c["value"], str) and c["value"].startswith("Q")))[:6]
 
 
+def incident_context(ent: dict, extra: list[str]) -> list[str]:
+    """The items an incident's fill photos come from: its related items, then the place it is located in (P131)."""
+    located = [c["value"] for c in wiki.claims(ent, "P131")[:1] if isinstance(c["value"], str)
+               and c["value"].startswith("Q")]
+    return list(dict.fromkeys(extra + located))[:4]
+
+
 def build_death(cand: dict) -> Short:
     title, qid = cand["title"], cand["qid"]
     ent = wiki.entities([qid])[qid]
@@ -428,7 +435,7 @@ def build_incident(cand: dict) -> Short:
     sid = cand.get("id") or f"wk-{qid}"
     work = WORK / sid
     photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra, files=cand.get("photo_files"),
-                         places=not qid, context_qids=extra)
+                         places=not qid, context_qids=incident_context(ent, extra))
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
     deaths = stories.agreed(stories._first(ib, "total_fatalities", "fatalities", "deaths"), ent, "P1120", True)
