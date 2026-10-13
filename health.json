@@ -1,10 +1,9 @@
 {
- "at": "2026-10-13T16:29:47+00:00",
+ "at": "2026-10-13T16:58:50+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 11 trending), 4 hazard alerts",
-  "outlets: 386 headlines from 12 feeds (11 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q6696719: gate: only 0 usable photos of Lucian Piane on Wikimedia Commons (want 3)",
-  "nothing eligible to publish"
+  "learn: 12 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.35, 'typical_views_24h': 306}, 'kind:incident': {'n': 5, 'lift': 1.191, 'typical_views_24h': 227}}",
+  "watch: 0 candidates (0 quakes, 10 trending), 4 hazard alerts",
+  "outlets: 388 headlines from 12 feeds (11 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
  ]
 }
