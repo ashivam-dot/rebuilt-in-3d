@@ -64,7 +64,8 @@ def daily_views(title: str, days: int = 30, end: date | None = None) -> list[int
 
 
 def page_info(titles: list[str]) -> dict[str, dict]:
-    """title -> {title (canonical), qid, lat, lon, created}; resolves redirects."""
+    """title -> {title (canonical), qid, lat, lon, created}; resolves redirects. Wikipedia's page props lag a page
+    move by hours, so a page without an item is looked up by its Wikidata sitelink, which moves with the page."""
     out = {}
     for i in range(0, len(titles), 50):
         chunk = titles[i:i + 50]
@@ -81,6 +82,27 @@ def page_info(titles: list[str]) -> dict[str, dict]:
             out[p["title"]] = info
             if p["title"] in back:
                 out[back[p["title"]]] = info
+    unlinked = {i["title"]: i for i in out.values() if not i["qid"]}
+    for title, qid in linked_items(list(unlinked)).items():
+        if title in unlinked:
+            unlinked[title]["qid"] = qid
+    return out
+
+
+def linked_items(titles: list[str]) -> dict[str, str]:
+    """English Wikipedia title -> the Wikidata item whose enwiki sitelink it is; titles no item links are left out."""
+    out = {}
+    for i in range(0, len(titles), 50):
+        try:
+            d = net.get_json(WD_API, params={"action": "wbgetentities", "sites": "enwiki",
+                                             "titles": "|".join(titles[i:i + 50]), "props": "sitelinks",
+                                             "sitefilter": "enwiki", "format": "json"})
+        except Exception:
+            continue
+        for qid, ent in (d.get("entities") or {}).items():
+            title = ent.get("sitelinks", {}).get("enwiki", {}).get("title")
+            if qid.startswith("Q") and title:
+                out[title] = qid
     return out
 
 
