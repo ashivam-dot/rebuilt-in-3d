@@ -418,6 +418,7 @@ def build_incident(cand: dict) -> Short:
     when, date_src = stories._event_date(ent), "Wikidata date"
     if not when and (when := stories.infobox_date(ib)):
         date_src = "Wikipedia infobox date"
+    span = date_src == "Wikipedia infobox date" and stories.infobox_span(ib)
     if ongoing:
         when = date.fromisoformat((cand.get("news_at") or datetime.now(timezone.utc).isoformat())[:10])
     if not when:
@@ -441,7 +442,7 @@ def build_incident(cand: dict) -> Short:
     deaths = stories.agreed(stories._first(ib, "total_fatalities", "fatalities", "deaths"), ent, "P1120", True)
     hurt = stories.agreed(stories._first(ib, "total_injuries", "injuries", "injured"), ent, "P1339", True)
     facts_text = [f"Today's date: {stories.date_words(when)}." if ongoing
-                  else f"{name} happened on {stories.date_words(when)}."]
+                  else f"{name} {'began' if span else 'happened'} on {stories.date_words(when)}."]
     where = stories._first(ib, "site", "location", "place", "areas affected", "areas")
     if where:
         facts_text.append(f"Location: {where}.")

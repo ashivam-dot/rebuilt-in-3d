@@ -114,6 +114,15 @@ def infobox_date(fields: dict) -> date | None:
         return None
 
 
+def infobox_span(fields: dict) -> bool:
+    """Whether the infobox dates the event over several days ('6–12 October 2026', '9 October 2026 – present', a
+    storm's lifetime), so infobox_date is when it began, not when it happened."""
+    if fields.get("formed") and not fields.get("date"):
+        return True
+    text = re.sub(r"\d{4}-\d{2}-\d{2}", "", (fields.get("date") or "").lower())
+    return bool(re.search(r"[–—]|\s-\s|\b\d{1,2}-\d{1,2}\b|\b(to|until|present|ongoing)\b", text))
+
+
 def _check_age(title: str) -> None:
     made = wiki.created(title)
     if made and (age := datetime.now(timezone.utc) - made) < MIN_ARTICLE_AGE:

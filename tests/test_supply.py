@@ -77,6 +77,19 @@ def test_infobox_dates(fields, day):
     assert stories.infobox_date(fields) == day
 
 
+@pytest.mark.parametrize("fields, span", [
+    ({"date": "6–12 October 2026"}, True),
+    ({"date": "9 October 2026 – present"}, True),
+    ({"date": "October 6 to 12, 2026"}, True),
+    ({"formed": "October 5, 2026"}, True),
+    ({"date": "8 October 2026 (2026-10-08) 14:05 EDT"}, False),
+    ({"date": "October 9, 2026"}, False),
+    ({}, False),
+])
+def test_infobox_span_means_began_on(fields, span):
+    assert stories.infobox_span(fields) is span
+
+
 POOL = [news.pool_item("2026 Aubagne school shooting"), news.pool_item("RJ Mitte", person=True),
         news.pool_item("October 2026 attacks on Saudi Arabia airports"), news.pool_item("Mike Love", person=True)]
 
