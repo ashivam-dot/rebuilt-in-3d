@@ -1,34 +1,55 @@
 {
- "at": "2026-10-13T08:58:52+00:00",
+ "at": "2026-10-13T09:30:35+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141695384",
-   "title": "October 2026 attacks on Saudi Arabia airports",
-   "fame": 720703,
+   "qid": null,
+   "title": "October 2026 attacks on Saudi airports",
+   "fame": 470703,
    "views": 45703,
    "traffic": 0,
-   "news": 625000,
-   "news_at": "2026-10-13T03:08:35+00:00",
+   "news": 375000,
+   "news_at": "2026-10-13T00:00:00+00:00",
    "headlines": [
-    "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
     "Saudi warning system stayed silent before deadly airport attacks",
-    "Houthis threaten U.S. with \"swift and painful\" response if it joins Saudi Arabia's strikes on Iran-backed group",
-    "Why are the Houthis striking Saudi airports?",
+    "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
     "Houthi assault on Saudi airports strikes at MBS’s economic vision"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
     "wikipedia-current-events-2026-10-12",
-    "google-news:Houthi missile attack targets Saudi capital Riyadh for third day in a row",
     "google-news:Saudi warning system stayed silent before deadly airport attacks",
-    "google-news:Houthis threaten U.S. with \"swift and painful\" response if it joins Saudi Arabia's strikes on Iran-backed group"
+    "google-news:Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "google-news:Houthi assault on Saudi airports strikes at MBS’s economic vision"
    ],
-   "id": "wk-Q141695384",
+   "id": "wp-October_2026_attacks_on_Saudi_airports",
    "kind": "incident",
-   "category": "conflict",
+   "category": "attack",
    "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 133756,
+   "views": 8756,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-13T04:29:00+00:00",
+   "headlines": [
+    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12",
+    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+   ],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
    "coords": null,
    "has_coords": false
   },
@@ -190,26 +211,6 @@
    "date": "2026-10-12"
   },
   {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 8756,
-   "views": 8756,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12"
-   ],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q228928",
    "title": "Eva Marie Saint",
    "fame": 8446,
@@ -255,12 +256,12 @@
    "id": "gdacs-TC-1001335",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.574 million .",
+   "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 62 .",
    "country": "Mexico",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "20.4",
-   "lon": "-107"
+   "lat": "20.6",
+   "lon": "-107.2"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -275,6 +276,34 @@
   }
  ],
  "candidates": [
+  {
+   "qid": null,
+   "title": "October 2026 attacks on Saudi airports",
+   "fame": 470703,
+   "views": 45703,
+   "traffic": 0,
+   "news": 375000,
+   "news_at": "2026-10-13T00:00:00+00:00",
+   "headlines": [
+    "Saudi warning system stayed silent before deadly airport attacks",
+    "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "Houthi assault on Saudi airports strikes at MBS’s economic vision"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12",
+    "wikipedia-current-events-2026-10-12",
+    "google-news:Saudi warning system stayed silent before deadly airport attacks",
+    "google-news:Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "google-news:Houthi assault on Saudi airports strikes at MBS’s economic vision"
+   ],
+   "id": "wp-October_2026_attacks_on_Saudi_airports",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q141712628",
    "title": "2026 Aubagne school shooting",
@@ -316,15 +345,18 @@
   {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
-   "fame": 8756,
+   "fame": 133756,
    "views": 8756,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-10-13T04:29:00+00:00",
+   "headlines": [
+    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-12"
+    "wikipedia-top-2026-10-12",
+    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
    ],
    "id": "wk-Q141712917",
    "kind": "incident",
