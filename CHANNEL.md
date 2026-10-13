@@ -37,8 +37,10 @@ matches nothing). The most-read list is read 1000 deep for those. Titles of work
 **Trusted sources beyond Wikipedia (2026-10-13; owner: "don't relay on wikipedia only search for other trusted souces
 as well").** `studio/outlets.py` (the same file as the Hindi desk's `desk/outlets.py`) keeps an allowlist of trusted
 outlets with public RSS feeds; Orbitwire reads the English ones: official (PIB), public broadcasters (BBC World, BBC
-India, DW, NPR), international (Al Jazeera, The Guardian) and Indian national (The Hindu, Hindustan Times, Times of
-India). Each outlet has an `owner`; sister brands count once (the BBC's feeds are one owner). Feeds are read in
+India, DW, NPR, France 24), international (Al Jazeera, The Guardian) and Indian national (The Hindu, Hindustan Times,
+Times of India, NDTV). Each outlet has an `owner`; sister brands count once (the BBC's feeds are one owner). PIB,
+NDTV and France 24 get a browser's request headers (they refuse others with 403); a headless browser (Crawl4AI) was
+benchmarked on 2026-10-13 and read nothing more, with noisier text. Feeds are read in
 parallel once a run (36 hours back); a feed that fails is listed in the run's errors and the rest still count.
 Articles are read with trafilatura (20 s timeout, at most 12 a run, cached). Outlet photos are never used.
 Plain-http links are read as https.

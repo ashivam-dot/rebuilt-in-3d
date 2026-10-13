@@ -19,6 +19,16 @@ def test_an_undated_feed_counts_its_items_as_current_only_when_marked():
     assert outlets.parse(body, bbc, now) == []
 
 
+def test_ndtv_and_france24_get_full_browser_headers():
+    for url in ("https://www.ndtv.com/world-news/a-1", "https://ndtv.in/india/b-2",
+                "https://www.france24.com/en/europe/20261013-c"):
+        headers = outlets._headers(url)
+        assert headers["Accept"].startswith("text/html") and headers["Accept-Language"]
+    owners = {o["key"]: o["owner"] for o in outlets.OUTLETS}
+    assert owners["ndtv"] == owners["ndtv-hi"] != owners["france24"]
+
+
 def test_other_outlets_keep_the_desk_user_agent():
     assert outlets._headers("https://feeds.bbci.co.uk/news/world/rss.xml") is None
     assert outlets._headers("https://notpib.gov.in.example.com/rss") is None
+    assert outlets._headers("https://notndtv.in/rss") is None

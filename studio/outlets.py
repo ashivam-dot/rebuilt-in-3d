@@ -67,12 +67,23 @@ OUTLETS = [
      "lang": "hi", "geo": None, "feed": "https://www.aajtak.in/rssfeeds/?id=home"},
     {"key": "abp", "name": "ABP Live", "name_hi": "एबीपी लाइव", "owner": "ABP Group", "group": "Hindi", "lang": "hi",
      "geo": None, "feed": "https://www.abplive.com/home/feed"},
+    {"key": "france24", "name": "France 24", "name_hi": "फ़्रांस 24", "owner": "France Médias Monde",
+     "group": "public broadcaster", "lang": "en", "geo": "world", "feed": "https://www.france24.com/en/rss"},
+    {"key": "ndtv", "name": "NDTV", "name_hi": "एनडीटीवी", "owner": "NDTV", "group": "Indian national", "lang": "en",
+     "geo": None, "feed": "https://feeds.feedburner.com/ndtvnews-top-stories"},
+    {"key": "ndtv-hi", "name": "NDTV India", "name_hi": "एनडीटीवी इंडिया", "owner": "NDTV", "group": "Hindi",
+     "lang": "hi", "geo": None, "feed": "https://feeds.feedburner.com/ndtvkhabar-latest"},
 ]
 MAX_AGE_H = 36
-# PIB answers 403 to a bot User-Agent, and serves the Hindi feed to any request without &reg=.
+# PIB answers 403 to a bot User-Agent, and serves the Hindi feed to any request without &reg=. NDTV and France 24
+# answer 403 to a request without a browser's Accept headers (checked on a GitHub runner, 2026-10-13).
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
               "Chrome/141.0 Safari/537.36")
-BROWSER_HOSTS = ("pib.gov.in",)
+BROWSER_HEADERS = {"User-Agent": BROWSER_UA,
+                   "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                   "Accept-Language": "en-IN,en;q=0.9,hi;q=0.8", "Sec-Fetch-Dest": "document",
+                   "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Upgrade-Insecure-Requests": "1"}
+BROWSER_HOSTS = ("pib.gov.in", "ndtv.com", "ndtv.in", "france24.com")
 TEXT_TIMEOUT = 20
 MAX_TEXTS = 12
 MIN_TEXT = 300  # an extract shorter than this is a video page or a teaser, not an article
@@ -154,8 +165,8 @@ def parse(body: bytes | str, outlet: dict, now: datetime, hours: float = MAX_AGE
 
 
 def _headers(url: str) -> dict | None:
-    host = re.sub(r"^https?://", "", url).split("/")[0]
-    return {"User-Agent": BROWSER_UA} if host.endswith(BROWSER_HOSTS) else None
+    host = re.sub(r"^https?://", "", url).split("/")[0].lower()
+    return dict(BROWSER_HEADERS) if any(host == h or host.endswith("." + h) for h in BROWSER_HOSTS) else None
 
 
 def _feed(outlet: dict) -> bytes:
