@@ -1,36 +1,33 @@
 {
- "at": "2026-10-13T13:06:01+00:00",
+ "at": "2026-10-13T13:45:27+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 420903,
+   "fame": 395703,
    "views": 45703,
-   "traffic": 200,
-   "news": 325000,
+   "traffic": 0,
+   "news": 300000,
    "news_at": "2026-10-13T12:12:54+00:00",
    "headlines": [
-    "Saudi minister vows 'serious response' to Houthi attacks on airports",
-    "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "Saudi Airport Attacks Pressure Trump to Boost US Role in Yemen",
+    "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
     "Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
     "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-trends-GB:air france",
     "wikipedia-current-events-2026-10-12",
-    "google-news:Saudi minister vows 'serious response' to Houthi attacks on airports",
-    "google-news:Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "google-news:Saudi Airport Attacks Pressure Trump to Boost US Role in Yemen",
+    "google-news:Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
     "google-news:Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
     "outlet:HT Media",
-    "outlet:BBC",
     "outlet:Guardian Media Group"
    ],
    "owners": [
     "HT Media",
-    "BBC",
     "Guardian Media Group"
    ],
    "reports": [
@@ -43,16 +40,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-13T12:12:54+00:00"
-    },
-    {
-     "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-     "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-13T04:30:09+00:00"
     },
     {
      "title": "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport",
@@ -108,30 +95,6 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141544931",
-   "title": "2026 Ethiopian offensive",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-12T18:01:58+00:00",
-   "headlines": [
-    "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141544931",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-09-23",
    "coords": null,
    "has_coords": false
   },
@@ -390,42 +353,18 @@
    "date": "2026-09-27",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141544931",
-   "title": "2026 Ethiopian offensive",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-12T18:01:58+00:00",
-   "headlines": [
-    "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141544931",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-09-23",
-   "coords": null,
-   "has_coords": false
   }
  ],
  "trend_errors": [
   "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
-  "headlines": 348,
-  "feeds": 9,
+  "headlines": 338,
+  "feeds": 10,
   "owners": 9,
-  "matched": 22,
+  "matched": 19,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 348 headlines from 9 feeds (9 owners), 22 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 338 headlines from 10 feeds (9 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

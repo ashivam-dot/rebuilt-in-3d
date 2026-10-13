@@ -1,16 +1,12 @@
 {
- "at": "2026-10-13T13:06:01+00:00",
+ "at": "2026-10-13T13:45:25+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 10 trending), 4 hazard alerts",
-  "outlets: 348 headlines from 9 feeds (9 owners), 22 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "learn: 12 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.35, 'typical_views_24h': 306}, 'kind:incident': {'n': 5, 'lift': 1.191, 'typical_views_24h': 227}}",
+  "watch: 2 candidates (0 quakes, 9 trending), 4 hazard alerts",
+  "outlets: 338 headlines from 10 feeds (9 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
   "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
-  "hold wk-Q5300674: last Short went out 1.1 h ago",
-  "hold wk-Q141712917: last Short went out 1.1 h ago",
-  "hold wk-Q141544931: last Short went out 1.1 h ago",
-  "skip wk-Q5300674: gate: only 0 usable photos of Doug Loft on Wikimedia Commons (want 3)",
-  "skip wk-Q141712917: gate: only 2 usable photos of Hurricane Rachel on Wikimedia Commons (want 3)",
-  "skip wk-Q141544931: gate: no draft passed the fact checks: line 1 (On September 23, 2026, a large-scale offensive began across ): partly: The source states the offensive was in Tigray, Afar, and Amhara, but does not state it began 'across the border of Ethiopia and Eritrea' (the source mentions Eritrean troops entered Tigray, but not as the starting locatio | second look: The LINE states the offensive began 'across the border of Ethiopia and Eritrea.' How",
-  "nothing eligible to publish"
+  "hold wk-Q5300674: last Short went out 1.7 h ago",
+  "hold wk-Q141712917: last Short went out 1.7 h ago"
  ]
 }

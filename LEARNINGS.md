@@ -1,14 +1,15 @@
 # What this channel's own numbers say
 
-Updated 2026-10-13T10:34:23+00:00. Scored Shorts (views at 24 h): 11. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-13T13:45:26+00:00. Scored Shorts (views at 24 h): 12. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 172 views at 24 h.
-- kind:quake: x1.33 ranking lift (4 Shorts, typical 306 views)
-- kind:incident: x1.263 ranking lift (4 Shorts, typical 276 views)
+Baseline: a typical Short has 165 views at 24 h.
+- kind:quake: x1.35 ranking lift (4 Shorts, typical 306 views)
+- kind:incident: x1.191 ranking lift (5 Shorts, typical 227 views)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 100 |  |
+| wk-Q141712628 | 2026-10-13T12:07 | incident | attack | 7 |  |
+| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 109 | 104 |
 | wk-Q228928 | 2026-10-11T04:41 | death | death | 14 | 12 |
 | eq-us6000u19w | 2026-10-11T01:07 | quake |  | 1343 | 1278 |
 | eq-us6000u1cf | 2026-10-10T14:45 | quake |  | 471 | 14 |
