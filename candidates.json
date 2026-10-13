@@ -1,21 +1,21 @@
 {
- "at": "2026-10-13T22:01:36+00:00",
+ "at": "2026-10-13T22:11:57+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 520703,
+   "fame": 545703,
    "views": 45703,
    "traffic": 0,
-   "news": 425000,
-   "news_at": "2026-10-13T18:39:31+00:00",
+   "news": 450000,
+   "news_at": "2026-10-13T20:32:12+00:00",
    "headlines": [
     "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
     "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
-    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
-    "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
+    "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
+    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ"
    ],
    "region": "world",
    "via": [
@@ -139,26 +139,40 @@
   {
    "qid": "Q141670823",
    "title": "Hurricane Isaias (2026)",
-   "fame": 173833,
+   "fame": 198833,
    "views": 23833,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-13T21:25:37+00:00",
+   "news": 175000,
+   "news_at": "2026-10-13T22:10:09+00:00",
    "headlines": [
     "Hurricane Simon hitting western Mexico after tropical systems kill 5",
+    "Hurricane Simon hits Mexico after storms kill 6",
     "Florida officials say six people dead from Hurricane Isaias"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
     "google-news:Hurricane Simon hitting western Mexico after tropical systems kill 5",
+    "google-news:Hurricane Simon hits Mexico after storms kill 6",
     "google-news:Florida officials say six people dead from Hurricane Isaias",
+    "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group"
    ],
    "owners": [
+    "Paramount (CBS)",
     "Guardian Media Group"
    ],
    "reports": [
+    {
+     "title": "Hurricane Simon hits Mexico after storms kill 6",
+     "url": "https://www.cbsnews.com/news/hurricane-simon-still-hitting-western-mexico-tropical-systems/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-13T22:10:09+00:00"
+    },
     {
      "title": "Florida officials say six people dead from Hurricane Isaias",
      "url": "https://www.theguardian.com/us-news/2026/oct/13/hurricane-isaias-death-toll-florida",
@@ -176,6 +190,66 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 156329,
+   "views": 31329,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-13T13:00:05+00:00",
+   "headlines": [
+    "'No One In Bollywood Saw His Body': Tanushree Dutta Asks Why No Prayer Meet Was Held For Nana Patekar"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-12",
+    "google-news:'No One In Bollywood Saw His Body': Tanushree Dutta Asks Why No Prayer Meet Was Held For Nana Patekar"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q1355840",
+   "title": "Mike Ditka",
+   "fame": 92069,
+   "views": 67069,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-13T21:23:28+00:00",
+   "headlines": [
+    "JIM GRAY: Mike Ditka did it his way. Football will never see another like him"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12",
+    "google-news:JIM GRAY: Mike Ditka did it his way. Football will never see another like him",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "JIM GRAY: Mike Ditka did it his way. Football will never see another like him",
+     "url": "https://www.foxnews.com/opinion/jim-gray-mike-ditka-did-it-his-way-football-will-never-see-another-like-him",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-13T21:23:28+00:00"
+    }
+   ],
+   "id": "wk-Q1355840",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-09"
   },
   {
    "qid": "Q141712917",
@@ -243,51 +317,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q1355840",
-   "title": "Mike Ditka",
-   "fame": 67069,
-   "views": 67069,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1355840",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-09"
-  },
-  {
-   "qid": "Q141681530",
-   "title": "2026 Panama earthquake",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-09T18:04:04+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "gdacs-EQ-1570339:Orange"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141681530",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-09",
-   "coords": [
-    7.5868,
-    -80.769
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q141712628",
    "title": "2026 Aubagne school shooting",
    "fame": 50000,
@@ -316,7 +345,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-13T22:01:36.731445+00:00",
+   "news_at": "2026-10-13T22:11:57.652310+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -352,49 +381,6 @@
    "date": "2026-10-11"
   },
   {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 31329,
-   "views": 31329,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
-   "qid": "Q7146900",
-   "title": "Pat Karney",
-   "fame": 25200,
-   "views": 0,
-   "traffic": 200,
-   "news": 25000,
-   "news_at": "2026-10-13T20:39:58+00:00",
-   "headlines": [
-    "Manchester legend Pat Karney dies aged 78 - latest tributes"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:pat karney",
-    "google-news:Manchester legend Pat Karney dies aged 78 - latest tributes"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7146900",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
-  },
-  {
    "qid": "Q13119635",
    "title": "Madhu Kambikar",
    "fame": 16879,
@@ -413,6 +399,46 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
+  },
+  {
+   "qid": "Q228928",
+   "title": "Eva Marie Saint",
+   "fame": 8446,
+   "views": 8446,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-12"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q228928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-06"
+  },
+  {
+   "qid": "Q7146900",
+   "title": "Pat Karney",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pat karney"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7146900",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
   }
  ],
  "hazards": [
@@ -469,7 +495,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-13T22:01:36.731445+00:00",
+   "news_at": "2026-10-13T22:11:57.652310+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -485,42 +511,19 @@
    "has_coords": false
   },
   {
-   "qid": "Q7146900",
-   "title": "Pat Karney",
-   "fame": 25200,
-   "views": 0,
-   "traffic": 200,
-   "news": 25000,
-   "news_at": "2026-10-13T20:39:58+00:00",
-   "headlines": [
-    "Manchester legend Pat Karney dies aged 78 - latest tributes"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:pat karney",
-    "google-news:Manchester legend Pat Karney dies aged 78 - latest tributes"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7146900",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
-  },
-  {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 520703,
+   "fame": 545703,
    "views": 45703,
    "traffic": 0,
-   "news": 425000,
-   "news_at": "2026-10-13T18:39:31+00:00",
+   "news": 450000,
+   "news_at": "2026-10-13T20:32:12+00:00",
    "headlines": [
     "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
     "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
-    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
-    "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
+    "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
+    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ"
    ],
    "region": "world",
    "via": [
@@ -640,18 +643,35 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q7146900",
+   "title": "Pat Karney",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pat karney"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7146900",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
   }
- ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
   "headlines": 789,
   "feeds": 30,
   "owners": 21,
-  "matched": 57,
-  "corroborated": 2
+  "matched": 63,
+  "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 57 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 63 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
