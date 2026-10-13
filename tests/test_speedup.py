@@ -68,6 +68,17 @@ def test_the_gates_wording_rules_are_rewritten_not_skipped():
         "gate: beat 6: the number 24:00 isn't backed by any sourced fact"))
 
 
+def test_a_caption_naming_a_place_is_rewritten():
+    say = ["A cloudburst over Chamoli has cut off villages high in the Himalayan valleys of northern India this week."]
+    draft = _draft(say)
+    draft["beats"][0]["caption"] = "King Khalid International Airport"
+    photos = [{"file": "File:0.jpg", "description": ""}]
+    problems = writer._validate(draft, photos, "Chamoli", "Place: Chamoli.", [], [])
+    assert any("names a place" in p for p in problems)
+    draft["beats"][0]["caption"] = "120 mph"
+    assert not any("names a place" in p for p in writer._validate(draft, photos, "Chamoli", "Place: Chamoli.", [], []))
+
+
 def test_photo_descriptions_are_never_a_source():
     say = ["A cloudburst over Chamoli has cut off villages high in the Himalayan valleys of northern India this week.",
            "The Nanda Devi temple stood above the water as rescue teams reached the villages.",

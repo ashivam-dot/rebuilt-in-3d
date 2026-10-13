@@ -65,8 +65,8 @@ Shape:
 6. Legacy: what {pronoun} leaves behind. The last beat is one short, moving sentence.
 Do not describe the cause or manner of death unless the SOURCE states it plainly; never mention suicide."""
 
-INCIDENT_BRIEF = """STORY: {name}. Write a news Short that helps a viewer understand what happened and why the world is
-watching, with compassion for everyone affected.
+INCIDENT_BRIEF = """STORY: {name}. Write a news Short that helps a viewer understand what happened and why it matters,
+with compassion for everyone affected.
 
 Shape:
 1. Hook (beat 1, under 15 words): what happened and where, stated plainly, with the detail that makes it matter.
@@ -74,7 +74,7 @@ Shape:
 3. The people involved and what they faced, with official figures only if the SOURCE gives them.
 4. The response: rescuers, officials, investigators.
 5. What is still unknown or under investigation, said honestly.
-6. Why it matters now. The last beat is one short, steady sentence.
+6. Where it stands now, from the SOURCE. The last beat is one short, steady sentence.
 Never name or describe any attacker, perpetrator or suspect. Never guess at causes. No graphic detail of injuries or
 death."""
 
@@ -96,6 +96,11 @@ join or avoid a protest. Never mention suicide."""
 RULES = """RULES (all mandatory):
 - Use ONLY information in CONFIRMED FACTS and SOURCE. Never add a name, title, number, place, date, quote, award or
   relationship that is not written there. If you are unsure, leave it out.
+- Keep every fact exactly as strong as the SOURCE: a risk, warning, forecast or evacuation is not something that
+  happened ("60 people were evacuated over the risk of landslides", never "families faced landslides"), and a fact
+  about one place or group is never moved to another. Never claim how people or "the world" felt or reacted
+  ("the world watched", "resilience") unless the SOURCE says it. Never add an order the SOURCE does not state
+  ("Abha was also attacked", never "Abha was hit first"), and never moralise ("this tragedy reminds us").
 - 7 or 8 beats and 110 to 130 words in total (about 45 seconds spoken). Each beat is one or two spoken sentences
   of 12 to 20 words. Count the words before you answer.
 - Every beat must carry a specific fact from the SOURCE (a work, a place, a year, an honour, a choice they made);
@@ -196,7 +201,9 @@ def _check_messages(lines: list[str], facts: list[str], source: str,
             "- supported: the quote states every fact in the line: who, what, when, where, numbers, causes and "
             "relationships. Emotional or figurative phrasing that adds no fact (\"has gone quiet\") is fine; such a "
             "line may have an empty quote.\n"
-            "- partly: the line adds, changes or exaggerates a detail that no sentence in the sources states.\n"
+            "- partly: the line adds, changes or exaggerates a detail that no sentence in the sources states, "
+            "including a risk, warning or forecast told as something that happened, or a fact moved to another "
+            "place or group.\n"
             "- unsupported: no sentence in the sources says it.\n"
             "Leaving details out is fine: judge only what the line says. A detail stated anywhere in SOURCE (a "
             "reference title counts) or in CONFIRMED FACTS is supported, even if another sentence states it; quote "
@@ -269,6 +276,10 @@ def reported_ok(item: str, reports: list[dict] | None) -> bool:
     return len(gate.reported(item, reports)) >= gate.OWNERS_NEEDED
 
 
+PLACE_CAPTION = re.compile(r"\b(Airport|Hospital|Medical Complex|Station|Terminal|Province|County|District|Street|Square|"
+                           r"Bridge|Harbou?r|Mosque|Cathedral|Church|Temple|Stadium)s?\b")
+
+
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
               reports: list[dict] | None = None, casualties: bool = True) -> list[str]:
     problems = []
@@ -290,6 +301,10 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
         if not casualties and (hit := gate.CASUALTY.search(line)):
             problems.append(f"{where} says {hit.group(0)!r}: the sources agree on no toll, so never mention deaths, "
                             "injuries or casualties")
+    for i, b in enumerate(beats):
+        if PLACE_CAPTION.search(b["caption"]):
+            problems.append(f"beat {i + 1}'s caption {b['caption']!r} names a place, which viewers read as where the "
+                            "photo was taken: caption a date, a figure, a role or a work instead")
     text = " ".join(b["say"] + " " + b["caption"] for b in beats) + " " + draft.get("title", "")
     grounded = set(gate.numbers(ground)) | set(_numbers(ground))
     loose = [n for n in gate.numbers(text) if n not in grounded and not reported_ok(n, reports)]

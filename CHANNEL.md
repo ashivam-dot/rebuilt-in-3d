@@ -130,7 +130,11 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   2026-10-14 the draft checks also catch what only the final gate used to: a banned word, any mention of deaths or
   injuries when the sources agree on no toll, and a number no source backs. These are rewritten, and a gate failure
   for them is retried on a later run instead of dropping the story for good (Hurricane Isaias, the Saudi airport
-  attacks, RJ Mitte and Aubagne had been dropped for one word; their skips were lifted). The dry run of
+  attacks, RJ Mitte and Aubagne had been dropped for one word; their skips were lifted). The dry run of that day
+  (run 38457366569, Hurricane Isaias) had every number right but turned "60 evacuated over the risk of landslides"
+  into "families faced landslides", and a Saudi airports draft invented "hit first", ended on a moral and captioned
+  airports. So the writer keeps each fact exactly as strong as its source (a risk or warning is not an event), adds
+  no order and no moral, and a caption naming a place (airport, hospital, station, street, mosque...) is rewritten. The dry run of
   2026-10-09 (run 37984798160) dropped a Mike Ditka draft for an unsourced anecdote and corrected an Eva Marie
   Saint line ("two children" became the sourced "four grandchildren"); the hourly desk was unpaused after it.
 
