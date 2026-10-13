@@ -1,23 +1,68 @@
 {
- "at": "2026-10-13T12:33:36+00:00",
+ "at": "2026-10-13T12:41:56+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 220703,
+   "fame": 295703,
    "views": 45703,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T04:30:09+00:00",
+   "news": 200000,
+   "news_at": "2026-10-13T12:12:54+00:00",
    "headlines": [
-    "Saudi minister vows 'serious response' to Houthi attacks on airports"
+    "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
+    "Saudi minister vows 'serious response' to Houthi attacks on airports",
+    "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
     "wikipedia-current-events-2026-10-12",
-    "google-news:Saudi minister vows 'serious response' to Houthi attacks on airports"
+    "google-news:Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "google-news:Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
+    "google-news:Saudi minister vows 'serious response' to Houthi attacks on airports",
+    "outlet:HT Media",
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "HT Media",
+    "BBC",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Indians in emergency can leave Saudi Arabia via neighbouring countries: Embassy issues advisory amid Houthi strikes",
+     "url": "https://www.hindustantimes.com/india-news/indians-in-emergency-willing-to-leave-saudi-arabia-can-travel-from-neighbouring-countries-embassy-bahrain-qatar-101791891459792.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-13T12:12:54+00:00"
+    },
+    {
+     "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+     "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-13T04:30:09+00:00"
+    },
+    {
+     "title": "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport",
+     "url": "https://www.theguardian.com/world/2026/oct/12/saudi-arabia-suspends-flights-latest-deadly-houthi-attack-airport",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-12T15:42:37+00:00"
+    }
    ],
    "id": "wk-Q141695384",
    "kind": "incident",
@@ -29,18 +74,34 @@
   {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
-   "fame": 133756,
+   "fame": 158756,
    "views": 8756,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T09:16:00+00:00",
+   "news": 150000,
+   "news_at": "2026-10-13T04:29:46+00:00",
    "headlines": [
     "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+     "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-13T04:29:46+00:00"
+    }
    ],
    "id": "wk-Q141712917",
    "kind": "incident",
@@ -48,28 +109,6 @@
    "date": "2026-09-27",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T11:43:44+00:00",
-   "headlines": [
-    "Flydubai Case Takes New Turn As 2 More Pilots Arrested In UAE"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Flydubai Case Takes New Turn As 2 More Pilots Arrested In UAE"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q1355840",
@@ -84,6 +123,8 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q1355840",
    "kind": "death",
    "category": "death",
@@ -102,6 +143,8 @@
    "via": [
     "gdacs-EQ-1570339:Orange"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141681530",
    "kind": "incident",
    "category": "earthquake",
@@ -125,6 +168,8 @@
    "via": [
     "wikipedia-current-events-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141712628",
    "kind": "incident",
    "category": "attack",
@@ -145,6 +190,8 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q5300674",
    "kind": "death",
    "category": "death",
@@ -163,32 +210,12 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q2475741",
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
-  },
-  {
-   "qid": "Q141544931",
-   "title": "2026 Ethiopian offensive",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-12T18:01:58+00:00",
-   "headlines": [
-    "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "id": "wk-Q141544931",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-09-23",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141670823",
@@ -203,6 +230,8 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141670823",
    "kind": "incident",
    "category": "cyclone",
@@ -223,6 +252,8 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q13119635",
    "kind": "death",
    "category": "death",
@@ -241,6 +272,8 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q228928",
    "kind": "death",
    "category": "death",
@@ -307,48 +340,44 @@
    "via": [
     "wikipedia-top-2026-10-12"
    ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q5300674",
    "kind": "death",
    "category": "death",
    "date": "2026-10-11"
   },
   {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T11:43:44+00:00",
-   "headlines": [
-    "Flydubai Case Takes New Turn As 2 More Pilots Arrested In UAE"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Flydubai Case Takes New Turn As 2 More Pilots Arrested In UAE"
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
-   "fame": 133756,
+   "fame": 158756,
    "views": 8756,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T09:16:00+00:00",
+   "news": 150000,
+   "news_at": "2026-10-13T04:29:46+00:00",
    "headlines": [
     "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+     "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-13T04:29:46+00:00"
+    }
    ],
    "id": "wk-Q141712917",
    "kind": "incident",
@@ -356,28 +385,18 @@
    "date": "2026-09-27",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141544931",
-   "title": "2026 Ethiopian offensive",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-12T18:01:58+00:00",
-   "headlines": [
-    "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces enter strategic Tigray town of Adwa, witnesses say"
-   ],
-   "id": "wk-Q141544931",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-09-23",
-   "coords": null,
-   "has_coords": false
   }
- ]
+ ],
+ "trend_errors": [
+  "outlet pib: HTTPError: 403 Client Error: Forbidden for url: https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+ ],
+ "outlets": {
+  "headlines": 327,
+  "feeds": 8,
+  "owners": 8,
+  "matched": 29,
+  "corroborated": 1
+ },
+ "emerging": [],
+ "outlet_note": "outlets: 327 headlines from 8 feeds (8 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (off: STUDIO_NEW_STORIES)"
 }

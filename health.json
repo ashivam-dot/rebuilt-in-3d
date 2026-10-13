@@ -1,11 +1,14 @@
 {
- "at": "2026-10-13T12:33:36+00:00",
+ "at": "2026-10-13T12:41:56+00:00",
  "ok": true,
  "steps": [
-  "watch: 4 candidates (0 quakes, 12 trending), 4 hazard alerts",
-  "hold wk-Q5300674: last Short went out 0.5 h ago",
-  "hold wk-Q141605182: last Short went out 0.5 h ago",
-  "hold wk-Q141712917: last Short went out 0.5 h ago",
-  "hold wk-Q141544931: last Short went out 0.5 h ago"
+  "watch: 2 candidates (0 quakes, 10 trending), 4 hazard alerts",
+  "outlets: 327 headlines from 8 feeds (8 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (off: STUDIO_NEW_STORIES)",
+  "trend radar errors: ['outlet pib: HTTPError: 403 Client Error: Forbidden for url: https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3']",
+  "hold wk-Q5300674: last Short went out 0.6 h ago",
+  "hold wk-Q141712917: last Short went out 0.6 h ago",
+  "skip wk-Q5300674: gate: only 0 usable photos of Doug Loft on Wikimedia Commons (want 3)",
+  "skip wk-Q141712917: gate: only 2 usable photos of Hurricane Rachel on Wikimedia Commons (want 3)",
+  "nothing eligible to publish"
  ]
 }
