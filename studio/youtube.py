@@ -136,8 +136,13 @@ def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None
         api.videos().update(part="status", body={"id": video_id, "status": {
             "privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
             "embeddable": True, "publicStatsViewable": True}}).execute()
-    final = api.videos().list(part="status,snippet", id=video_id).execute()["items"][0]
-    if final["status"]["privacyStatus"] != "public":
+    # videos.list can report the old privacy for a while after the update.
+    for wait in (0, 5, 10, 20, 30):
+        time.sleep(wait)
+        final = api.videos().list(part="status,snippet", id=video_id).execute()["items"][0]
+        if final["status"]["privacyStatus"] == "public":
+            break
+    else:
         raise RuntimeError(f"video {video_id} did not go public ({final['status']['privacyStatus']})")
     # containsSyntheticMedia is write-only in practice: videos.list omits it even though Studio shows "AI use: Yes".
     return {"video_id": video_id, "url": f"https://www.youtube.com/shorts/{video_id}", "title": final["snippet"]["title"],
