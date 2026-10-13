@@ -270,7 +270,7 @@ def reported_ok(item: str, reports: list[dict] | None) -> bool:
 
 
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
-              reports: list[dict] | None = None) -> list[str]:
+              reports: list[dict] | None = None, casualties: bool = True) -> list[str]:
     problems = []
     beats = draft.get("beats", [])
     words = sum(len(b["say"].split()) for b in beats)
@@ -281,8 +281,19 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     for b in beats:
         if not 0 <= b["photo"] < len(photos):
             problems.append(f"photo {b['photo']} does not exist")
+    # The publish gate's wording rules (studio/gate.py), checked here so a slip is rewritten, not the story dropped.
+    lines = [("the title", draft.get("title", ""))] + [(f"beat {i + 1}", f"{b['say']} {b['caption']}")
+                                                        for i, b in enumerate(beats)]
+    for where, line in lines:
+        if word := gate.banned_word(line):
+            problems.append(f"{where} uses the banned word {word!r}: say it plainly without that word")
+        if not casualties and (hit := gate.CASUALTY.search(line)):
+            problems.append(f"{where} says {hit.group(0)!r}: the sources agree on no toll, so never mention deaths, "
+                            "injuries or casualties")
     text = " ".join(b["say"] + " " + b["caption"] for b in beats) + " " + draft.get("title", "")
-    bad = [b for b in ungrounded(text, ground) if not reported_ok(b, reports)]
+    grounded = set(gate.numbers(ground)) | set(_numbers(ground))
+    loose = [n for n in gate.numbers(text) if n not in grounded and not reported_ok(n, reports)]
+    bad = list(dict.fromkeys([b for b in ungrounded(text, ground) if not reported_ok(b, reports)] + loose))
     if bad:
         single = [b for b in bad if reports and (gate.reported_values(reports).get(b) or gate.reported(b, reports))]
         problems.append("these names or numbers are not in the sources: " + ", ".join(bad)
@@ -305,10 +316,11 @@ def monotone(draft: dict) -> list[str]:
 def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, photos: list[dict],
           banned_names: list[str] | None = None, model: str | None = None,
           log_path: Path | None = None, headlines: list[str] | None = None,
-          series: dict | None = None, reports: list[dict] | None = None) -> tuple[dict, list[str]]:
+          series: dict | None = None, reports: list[dict] | None = None,
+          casualties: bool = True) -> tuple[dict, list[str]]:
     """The script as {title, beats: [{say, photo, caption}]} plus the log of rejected drafts (also kept at log_path).
     kind is "death", "incident" or "protest". reports: trusted outlets' articles ({outlet, owner, at, title, excerpt,
-    text}), see the module docstring."""
+    text}), see the module docstring. casualties: False when no toll is agreed, so the script may not speak of any."""
     obj = {"He": "him", "She": "her"}.get(pronoun, "them")
     brief = {"death": DEATH_BRIEF, "protest": PROTEST_BRIEF}.get(kind, INCIDENT_BRIEF)
     brief = brief.format(name=name, pronoun=pronoun.lower(), object=obj)
@@ -319,7 +331,8 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
         brief += (f" The last beat ends by saying that Part {series['part'] + 1} tells {series['next']}."
                   if series.get("next") else " The last beat says where the story stands now.")
     messages = _messages(brief, facts, source, photos, name, headlines, reports)
-    ground = source + "\n" + "\n".join(facts) + "\n" + "\n".join(p["description"] for p in photos)
+    # A photo's Commons description is an uploader's note, not a source: no fact may come from it.
+    ground = source + "\n" + "\n".join(facts)
     if series:
         ground += f"\nPart {series['part']}, Part {series['part'] + 1}, of {series['of']}. {series.get('next') or ''}"
     checked = ground + ("\n" + report_ground(reports) if reports else "")
@@ -327,7 +340,7 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
             draft = m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6)
-            problems = _validate(draft, photos, name, ground, banned_names or [], reports)
+            problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties)
             if attempt < 2:
                 problems += monotone(draft)
             if not problems:
@@ -412,8 +425,11 @@ def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
         if r["origin"] == "place" and img is not None and featured_face(img, seen):
             continue  # a place photo that features someone would pass them off as part of the story
         r["focus"] = [round(v) for v in f["box"]] if f else None
+        r["others"] = sum(g is not f and g["box"][2] * g["box"][3] >= 0.25 * f["box"][2] * f["box"][3]
+                          for g in seen) if f else 0
         kept.append(r)
-    return kept[:8]
+    # Strangers beside the person would be shown as part of today's story: their own portraits go first.
+    return sorted(kept, key=lambda r: r["others"] > 0)[:8]
 
 
 PERSON_CONTEXT = ("P19", "P69", "P108", "P54", "P463", "P166", "P800")  # birthplace, school, employer, team, ...
@@ -619,7 +635,7 @@ def build_incident(cand: dict) -> Short:
     headlines = [h for h in cand.get("headlines") or [] if not ungrounded(h, source)]
     draft, log = write(kind, name, "It", facts_text, source, photos,
                        banned_names=banned, log_path=work / "writer_log.json", headlines=headlines,
-                       series=cand.get("series"), reports=reports)
+                       series=cand.get("series"), reports=reports, casualties=deaths is not None)
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
     facts = [Fact("name", name, page, stories.numbers_in(name), "Wikipedia article title"),
              Fact("date", stories.date_words(when), item, [str(when.day), str(when.year)],
@@ -647,10 +663,10 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
         beats.append(Beat(b["say"].strip(), f"photo:{b['photo']}", {"big": b["caption"].strip(), "small": ""}))
     beats.append(Beat(OUTRO, "outro", {"big": "Orbitwire", "small": "Sources in the description"}, pause_after=0.5))
     ground = source + "\n" + "\n".join(facts_text)
-    in_ground, by_owner = set(_numbers(ground)), gate.reported_values(reports)
+    in_ground, by_owner = set(_numbers(ground)) | set(gate.numbers(ground)), gate.reported_values(reports)
     allowed = {n for f in facts for n in f.numbers}
-    for n in sorted(set(_numbers(" ".join(b.text + " " + (b.card or {}).get("big", "") for b in beats) + " "
-                                 + draft["title"]))):
+    said = " ".join(b.text + " " + (b.card or {}).get("big", "") for b in beats) + " " + draft["title"]
+    for n in sorted(set(_numbers(said)) | {n for n in gate.numbers(said) if n in in_ground or n in by_owner}):
         if n not in allowed:
             who = by_owner.get(n, [])
             if who and n not in in_ground:
@@ -726,7 +742,8 @@ def build_report(cand: dict) -> Short:
     facts_text = [f"Place: {name}.", "Wikipedia has no article on this yet: only the REPORTING may be used."]
     if toll:
         facts_text.append(f"Death toll ({toll_basis(toll[1])} agree): {toll[0]:,}.")
-    draft, log = write(kind, name, "It", facts_text, "", photos, log_path=work / "writer_log.json", reports=reports)
+    draft, log = write(kind, name, "It", facts_text, "", photos, log_path=work / "writer_log.json", reports=reports,
+                       casualties=bool(toll))
     facts = [Fact("name", name, next((r["url"] for r in reports if r["owner"] in named), reports[0]["url"]),
                   stories.numbers_in(name), "named in the reports of " + ", ".join(named), owners=named)]
     if toll:

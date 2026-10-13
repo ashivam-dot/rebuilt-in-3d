@@ -64,10 +64,25 @@ def source_lines(short: Short) -> list[str]:
     return ["Sources: " + ", ".join(wiki + named)] + short.sources + [""]
 
 
+DESCRIPTION_BYTES = 5000
+
+
 def description(short: Short) -> str:
+    """The full description; when it passes YouTube's 5,000 bytes, without the narration (the video says it), so the
+    sources and every photo credit stay. Only a description still too long after that is cut."""
+    text = _description(short, narration=True)
+    if len(text.encode()) > DESCRIPTION_BYTES:
+        text = _description(short, narration=False)
+    while len(text.encode()) > DESCRIPTION_BYTES:
+        text = text[:-50]
+    return text
+
+
+def _description(short: Short, narration: bool) -> str:
     lines = [short.summary, ""]
     if short.scene.get("template") == "story":
-        lines += [" ".join(b.text for b in short.beats[:-1]), ""]
+        if narration:
+            lines += [" ".join(b.text for b in short.beats[:-1]), ""]
         lines += source_lines(short)
         lines += [f"The photos are real, from {media.hosts(short.scene.get('photos') or [])}, with a gentle 3D camera "
                   "move added. The narration is an AI voice (Chatterbox) reading a script checked line by line against "
@@ -83,10 +98,7 @@ def description(short: Short) -> str:
         lines += ["Credits: " + "; ".join(short.credits), ""]
     words = ["".join(w[:1].upper() + w[1:] for w in h.split()) if " " in h else h for h in short.hashtags]
     lines.append(" ".join("#" + re.sub(r"[^0-9A-Za-z]", "", w) for w in words if re.sub(r"[^0-9A-Za-z]", "", w)))
-    text = "\n".join(lines)
-    if len(text) > 4900:
-        text = text[:4900]
-    return text
+    return "\n".join(lines)
 
 
 def tags(short: Short) -> list[str]:

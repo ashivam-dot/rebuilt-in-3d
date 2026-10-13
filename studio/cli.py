@@ -14,7 +14,7 @@ from . import gate, ledger, learn, plan
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
 RETRYABLE = ("words (want", "does not confirm the death", "usable photos", "no draft passed",
-             "came out garbled")
+             "came out garbled", "banned wording", "casualties without an agreed toll", "isn't backed by any sourced")
 MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 log = logging.getLogger("studio")
 

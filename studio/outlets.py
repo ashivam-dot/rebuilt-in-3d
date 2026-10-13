@@ -22,7 +22,7 @@ from email.utils import parsedate_to_datetime
 
 from . import net
 
-GROUPS = ("official", "public broadcaster", "international", "Indian national", "Hindi")
+GROUPS = ("official", "public broadcaster", "international", "national", "Indian national", "Hindi")
 # A story told before Wikipedia has an article needs one of these among its owners.
 STRONG = ("official", "public broadcaster", "international")
 # geo: "IN" for an India section, "world" for a world one; None for a feed that mixes both (its headlines are never
@@ -73,6 +73,47 @@ OUTLETS = [
      "geo": None, "feed": "https://feeds.feedburner.com/ndtvnews-top-stories"},
     {"key": "ndtv-hi", "name": "NDTV India", "name_hi": "एनडीटीवी इंडिया", "owner": "NDTV", "group": "Hindi",
      "lang": "hi", "geo": None, "feed": "https://feeds.feedburner.com/ndtvkhabar-latest"},
+    # World English outlets (2026-10-14; checked from the Mac: feed readable, article text extracted). Sky News, The
+    # New York Times, PBS and The Japan Times give no article text, AP answers 403 and CBC timed out.
+    {"key": "bbc-top", "name": "BBC", "name_hi": "बीबीसी", "owner": "BBC", "group": "public broadcaster",
+     "lang": "en", "geo": "world", "feed": "https://feeds.bbci.co.uk/news/rss.xml"},
+    {"key": "npr-news", "name": "NPR", "name_hi": "एनपीआर", "owner": "NPR", "group": "public broadcaster",
+     "lang": "en", "geo": "world", "feed": "https://feeds.npr.org/1001/rss.xml"},
+    {"key": "abc-au-world", "name": "ABC News (Australia)", "name_hi": "एबीसी न्यूज़", "owner": "ABC (Australia)",
+     "group": "public broadcaster", "lang": "en", "geo": "world",
+     "feed": "https://www.abc.net.au/news/feed/2942460/rss.xml"},
+    {"key": "abc-au-top", "name": "ABC News (Australia)", "name_hi": "एबीसी न्यूज़", "owner": "ABC (Australia)",
+     "group": "public broadcaster", "lang": "en", "geo": "world",
+     "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"},
+    {"key": "un-en", "name": "UN News", "name_hi": "यूएन न्यूज़", "owner": "United Nations", "group": "official",
+     "lang": "en", "geo": "world", "feed": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"},
+    {"key": "independent", "name": "The Independent", "name_hi": "द इंडिपेंडेंट", "owner": "Independent Digital News",
+     "group": "international", "lang": "en", "geo": "world", "feed": "https://www.independent.co.uk/news/world/rss"},
+    {"key": "euronews", "name": "Euronews", "name_hi": "यूरोन्यूज़", "owner": "Euronews", "group": "international",
+     "lang": "en", "geo": "world", "feed": "https://www.euronews.com/rss?level=theme&name=news"},
+    {"key": "scmp", "name": "South China Morning Post", "name_hi": "साउथ चाइना मॉर्निंग पोस्ट", "owner": "SCMP Group",
+     "group": "international", "lang": "en", "geo": "world", "feed": "https://www.scmp.com/rss/91/feed"},
+    {"key": "guardian-us", "name": "The Guardian", "name_hi": "द गार्डियन", "owner": "Guardian Media Group",
+     "group": "international", "lang": "en", "geo": "world", "feed": "https://www.theguardian.com/us-news/rss"},
+    {"key": "cbs-world", "name": "CBS News", "name_hi": "सीबीएस न्यूज़", "owner": "Paramount (CBS)", "group": "national",
+     "lang": "en", "geo": "world", "feed": "https://www.cbsnews.com/latest/rss/world"},
+    {"key": "cbs-us", "name": "CBS News", "name_hi": "सीबीएस न्यूज़", "owner": "Paramount (CBS)", "group": "national",
+     "lang": "en", "geo": "world", "feed": "https://www.cbsnews.com/latest/rss/us"},
+    {"key": "nbc-world", "name": "NBC News", "name_hi": "एनबीसी न्यूज़", "owner": "NBCUniversal", "group": "national",
+     "lang": "en", "geo": "world", "feed": "https://feeds.nbcnews.com/nbcnews/public/world"},
+    {"key": "nbc-news", "name": "NBC News", "name_hi": "एनबीसी न्यूज़", "owner": "NBCUniversal", "group": "national",
+     "lang": "en", "geo": "world", "feed": "https://feeds.nbcnews.com/nbcnews/public/news"},
+    {"key": "abc-us-intl", "name": "ABC News", "name_hi": "एबीसी न्यूज़", "owner": "Disney (ABC News)",
+     "group": "national", "lang": "en", "geo": "world",
+     "feed": "https://abcnews.go.com/abcnews/internationalheadlines"},
+    {"key": "abc-us-top", "name": "ABC News", "name_hi": "एबीसी न्यूज़", "owner": "Disney (ABC News)",
+     "group": "national", "lang": "en", "geo": "world", "feed": "https://abcnews.go.com/abcnews/topstories"},
+    {"key": "fox-world", "name": "Fox News", "name_hi": "फ़ॉक्स न्यूज़", "owner": "Fox Corporation", "group": "national",
+     "lang": "en", "geo": "world", "feed": "https://moxie.foxnews.com/google-publisher/world.xml"},
+    {"key": "fox-latest", "name": "Fox News", "name_hi": "फ़ॉक्स न्यूज़", "owner": "Fox Corporation", "group": "national",
+     "lang": "en", "geo": "world", "feed": "https://moxie.foxnews.com/google-publisher/latest.xml"},
+    {"key": "latimes", "name": "Los Angeles Times", "name_hi": "लॉस एंजेलिस टाइम्स", "owner": "Los Angeles Times",
+     "group": "national", "lang": "en", "geo": "world", "feed": "https://www.latimes.com/world-nation/rss2.0.xml"},
 ]
 MAX_AGE_H = 36
 # PIB answers 403 to a bot User-Agent, and serves the Hindi feed to any request without &reg=. NDTV and France 24
@@ -262,19 +303,55 @@ def _rank(item: dict) -> tuple:
             -datetime.fromisoformat(item["at"]).timestamp())
 
 
+# Outlets print news-agency copy word for word: ABC News and The Independent running one AP story are one source.
+AGENCIES = r"AP|Reuters|AFP|PTI|ANI|IANS|UNI|Bloomberg"
+WIRE = re.compile(rf"\(({AGENCIES})\)|\b(?:with inputs from|inputs from)\s+({AGENCIES}|agencies)\b|"
+                  rf"^\s*By\s+(?:The\s+)?(Associated Press|Reuters|Agence France-Presse|AFP)\b|"
+                  rf"^\s*(?:[A-Z][A-Za-z ,.]{{2,40}}[:,]\s*)?(PTI|ANI|IANS|UNI)\b", re.I | re.M)
+WIRE_NAMES = {"associated press": "AP", "agence france-presse": "AFP", "reuters": "Reuters", "bloomberg": "Bloomberg",
+              "agencies": "agencies"}
+SAME_TEXT = 0.5  # share of one article's sentences found word for word in another: the same copy
+
+
+def wire(body: str) -> str | None:
+    """The news agency an article's text credits (its dateline, byline or an "inputs from" line), or None."""
+    for m in WIRE.finditer(body[:600] + "\n" + body[-400:]):
+        got = next(g for g in m.groups() if g)
+        return WIRE_NAMES.get(got.lower(), got.upper())
+    return None
+
+
+def _same_copy(a: str, b: str) -> bool:
+    sa, sb = {s.lower() for s in _sentences(a) if len(s) > 60}, {s.lower() for s in _sentences(b) if len(s) > 60}
+    return bool(sa and sb) and len(sa & sb) >= SAME_TEXT * min(len(sa), len(sb))
+
+
 def reporting(items: list[dict], limit: int = REPORTS) -> list[dict]:
     """Up to `limit` readable articles about the story, each from a different owner (official, public broadcaster
-    and international outlets first, then the newest), with their text. Fewer than two owners give nothing to
-    corroborate, so then the list is empty."""
+    and international outlets first, then the newest), with their text. An article that credits a news agency
+    counts as that agency's ("AP via ABC News"), and one whose sentences repeat an article already picked counts as
+    that article's owner, so syndicated copy never passes for independent reporting. Fewer than two owners give
+    nothing to corroborate, so then the list is empty."""
     picked, have = [], set()
     for item in sorted(items, key=_rank):
         if item["owner"] in have or len(picked) >= limit:
             continue
         body = text(item["url"])
-        if body:
-            picked.append(compact(item) | {"text": body})
-            have.add(item["owner"])
-    return picked if len(have) >= 2 else []
+        if not body:
+            continue
+        agency = wire(body)
+        owner = f"{agency} (news agency)" if agency else item["owner"]
+        twin = next((p for p in picked if _same_copy(body, p["text"])), None)
+        if twin:
+            owner = twin["owner"]
+        if owner in have:
+            continue
+        row = compact(item) | {"text": body}
+        if owner != item["owner"]:
+            row |= {"owner": owner, "publisher": item["owner"]}
+        picked.append(row)
+        have.update({owner, item["owner"]})
+    return picked if len({p["owner"] for p in picked}) >= 2 else []
 
 
 def _sentences(body: str) -> list[str]:
@@ -422,7 +499,13 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None) ->
 
     clusters: list[dict] = []
     for row in sorted(rows, key=lambda r: r["item"]["at"]):
-        home = next((c for c in clusters if any(same(row, other) for other in c["rows"])), None)
+        # A headline joins the story at least half of whose headlines it matches: with 35 feeds, one loose link
+        # would otherwise chain two incidents into one.
+        best, home = 0, None
+        for c in clusters:
+            hits = sum(same(row, other) for other in c["rows"])
+            if hits * 2 >= len(c["rows"]) and hits > best:
+                best, home = hits, c
         if home is None:
             home = {"kind": row["kind"], "names": set(), "rows": [], "items": [], "counts": Counter()}
             clusters.append(home)

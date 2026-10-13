@@ -35,7 +35,7 @@ matches nothing). The most-read list is read 1000 deep for those. Titles of work
 ("Breaking Bad") are names, not wording; banned words match whole words only (so "category" is not "gory").
 
 **Trusted sources beyond Wikipedia (2026-10-13; owner: "don't relay on wikipedia only search for other trusted souces
-as well").** `studio/outlets.py` (the same file as the Hindi desk's `desk/outlets.py`) keeps an allowlist of trusted
+as well").** `studio/outlets.py` (started as the Hindi desk's `desk/outlets.py`; since 2026-10-14 it adds world outlets and wire dedupe) keeps an allowlist of trusted
 outlets with public RSS feeds; Orbitwire reads the English ones: official (PIB), public broadcasters (BBC World, BBC
 India, DW, NPR, France 24), international (Al Jazeera, The Guardian) and Indian national (The Hindu, Hindustan Times,
 Times of India, NDTV). Each outlet has an `owner`; sister brands count once (the BBC's feeds are one owner). PIB,
@@ -44,6 +44,13 @@ benchmarked on 2026-10-13 and read nothing more, with noisier text. Feeds are re
 parallel once a run (36 hours back); a feed that fails is listed in the run's errors and the rest still count.
 Articles are read with trafilatura (20 s timeout, at most 12 a run, cached). Outlet photos are never used.
 Plain-http links are read as https.
+**World outlets (2026-10-14 speed-up; owner: "do similar kind of speedup for orbitwire").** The list leaned Indian, so
+world incidents rarely reached three owners. Added: BBC top stories, NPR's news feed, ABC (Australia), UN News, The Independent,
+Euronews, SCMP, Guardian US, CBS, NBC, ABC News (US), Fox News and the LA Times (each probed from the Mac on
+2026-10-14: fresh items and readable article text). Not added: Sky, NYT, PBS and Japan Times (no article text), AP
+(403), CBC (timeout), CNN, USA Today and ReliefWeb (no fresh items). **Wire copy counts once:** an article with an
+AP, Reuters, AFP, PTI, ANI or IANS dateline or byline counts as that agency, not its publisher, and two articles
+whose text is at least half the same are one owner; a story with fewer than two owners left gets no REPORTING.
 - **Discovery:** outlet headlines join Google News: matched to a Wikipedia article the same way, each independent
   owner adding one lead headline's fame (at most 6). Only national sections count as an India signal; Times of
   India top stories mixes India and world news and never makes a story an India story.
@@ -59,7 +66,8 @@ Plain-http links are read as https.
   articles, as are sentences about suicide and, for an incident, any naming a suspect, attacker or arrest.
 - **Stories Wikipedia has no article for yet** (`nw-<yyyymmdd>-<place>-<kind>`): at least 3 independent owners
   within 24 hours, one of them official, a public broadcaster or international, whose headlines name the same
-  incident or protest (same scope rules). They are told only from the reporting (at least two owners' articles must
+  incident or protest (same scope rules). A headline joins a story only when it matches most of the story's
+  headlines, so one headline naming two incidents never chains them together. They are told only from the reporting (at least two owners' articles must
   name the place), with photos of the place (Commons, then Openverse; the place must be a Wikidata item with
   coordinates, never a person). Once Wikipedia writes the article, the story is not told again for 7 days, and the published
   record keeps the report URLs and headlines so the Hindi desk's overlap rules match nw- stories too. **The lane is
@@ -69,7 +77,9 @@ Plain-http links are read as https.
 - **Photos:** when Commons has fewer than 3 usable photos, Openverse (keyless; CC0, CC BY and CC BY-SA only) fills
   in with photos of the places the story links to (Wikidata items with coordinates; never a person, group or work),
   never one that features a face.
-- **Description:** "Sources: Wikipedia, BBC, The Hindu" names the outlets behind the facts, then every URL.
+- **Description:** "Sources: Wikipedia, BBC, The Hindu" names the outlets behind the facts, then every URL. YouTube
+  refuses a description over 5,000 bytes, so a long one drops the narration first and keeps every source and
+  photo credit.
 
 ## The editorial desk (`studio/plan.py`)
 
@@ -98,7 +108,8 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   fewer than three photos of its own (a tribute needs at least one matched photo of its subject) is filled with
   photos of the places and things it links to: a person's birthplace, school, employer, team or award, an
   incident's places. A fill photo never features a face. A gentle depth-parallax camera move brings each still to
-  life; nothing in a photo is invented or altered.
+  life; nothing in a photo is invented or altered. A person's solo portraits come before photos where they stand
+  with others. A photo's Commons description is never a source for a fact.
 - **Never** generate a realistic image or video of a real person or a real incident. YouTube removes realistic
   simulations of deceased people and of victims, and it would break the channel's promise of real facts.
 - **Story, not a résumé:** a hook that says plainly what happened; then where they began, the turning point, the
@@ -115,7 +126,11 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
 - **Checks:** every name and number in the script must appear in the Wikipedia article or the confirmed Wikidata
   facts. Each line must quote the source sentence that supports it; the quote is verified against the sources, and
   a line that fails gets a second look against its best-matching source sentences before the draft is rewritten
-  (three drafts, then the story is dropped). Deaths and casualty counts keep the two-source rule. The dry run of
+  (three drafts, then the story is dropped). Deaths and casualty counts keep the two-source rule. Since
+  2026-10-14 the draft checks also catch what only the final gate used to: a banned word, any mention of deaths or
+  injuries when the sources agree on no toll, and a number no source backs. These are rewritten, and a gate failure
+  for them is retried on a later run instead of dropping the story for good (Hurricane Isaias, the Saudi airport
+  attacks, RJ Mitte and Aubagne had been dropped for one word; their skips were lifted). The dry run of
   2026-10-09 (run 37984798160) dropped a Mike Ditka draft for an unsourced anecdote and corrected an Eva Marie
   Saint line ("two children" became the sourced "four grandchildren"); the hourly desk was unpaused after it.
 
