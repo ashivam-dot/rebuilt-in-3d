@@ -13,7 +13,8 @@ _session = requests.Session()
 _session.headers["User-Agent"] = USER_AGENT
 
 
-def get(url: str, *, params: dict | None = None, cache: Path | None = None, timeout: float = 45, tries: int = 4) -> bytes:
+def get(url: str, *, params: dict | None = None, cache: Path | None = None, timeout: float = 45, tries: int = 4,
+        headers: dict | None = None) -> bytes:
     key = None
     if cache is not None:
         key = cache / hashlib.sha1((url + json.dumps(params or {}, sort_keys=True)).encode()).hexdigest()
@@ -21,7 +22,7 @@ def get(url: str, *, params: dict | None = None, cache: Path | None = None, time
             return key.read_bytes()
     for attempt in range(tries):
         try:
-            resp = _session.get(url, params=params, timeout=timeout)
+            resp = _session.get(url, params=params, timeout=timeout, headers=headers)
             if resp.status_code in (429, 500, 502, 503, 504):
                 raise requests.HTTPError(f"HTTP {resp.status_code}", response=resp)
             resp.raise_for_status()

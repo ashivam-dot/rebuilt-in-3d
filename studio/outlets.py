@@ -29,9 +29,11 @@ STRONG = ("official", "public broadcaster", "international")
 # an Indian signal).
 OUTLETS = [
     {"key": "pib", "name": "PIB", "name_hi": "पीआईबी", "owner": "Government of India", "group": "official",
-     "lang": "en", "geo": "IN", "feed": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"},
+     "lang": "en", "geo": "IN",
+     "feed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=3", "undated": True},
     {"key": "pib-hi", "name": "PIB", "name_hi": "पीआईबी", "owner": "Government of India", "group": "official",
-     "lang": "hi", "geo": "IN", "feed": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3"},
+     "lang": "hi", "geo": "IN",
+     "feed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3&reg=3", "undated": True},
     {"key": "un-hi", "name": "UN News", "name_hi": "यूएन न्यूज़", "owner": "United Nations", "group": "official",
      "lang": "hi", "geo": "world", "feed": "https://news.un.org/feed/subscribe/hi/news/all/rss.xml"},
     {"key": "bbc-world", "name": "BBC", "name_hi": "बीबीसी", "owner": "BBC", "group": "public broadcaster",
@@ -67,6 +69,10 @@ OUTLETS = [
      "geo": None, "feed": "https://www.abplive.com/home/feed"},
 ]
 MAX_AGE_H = 36
+# PIB answers 403 to a bot User-Agent, and serves the Hindi feed to any request without &reg=.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/141.0 Safari/537.36")
+BROWSER_HOSTS = ("pib.gov.in",)
 TEXT_TIMEOUT = 20
 MAX_TEXTS = 12
 MIN_TEXT = 300  # an extract shorter than this is a video page or a teaser, not an article
@@ -133,6 +139,8 @@ def parse(body: bytes | str, outlet: dict, now: datetime, hours: float = MAX_AGE
         if not url.startswith("http"):
             url = _field(block, "guid")
         at = _when(_field(block, "pubDate", "dc:date", "published", "updated"))
+        if at is None and outlet.get("undated"):
+            at = now  # the feed lists only the latest releases and dates none of them
         if not title or not url.startswith("http") or at is None:
             continue
         url = "https://" + url[len("http://"):] if url.startswith("http://") else url
@@ -145,11 +153,16 @@ def parse(body: bytes | str, outlet: dict, now: datetime, hours: float = MAX_AGE
     return out
 
 
+def _headers(url: str) -> dict | None:
+    host = re.sub(r"^https?://", "", url).split("/")[0]
+    return {"User-Agent": BROWSER_UA} if host.endswith(BROWSER_HOSTS) else None
+
+
 def _feed(outlet: dict) -> bytes:
     with _lock:
         if outlet["key"] in _raw:
             return _raw[outlet["key"]]
-    body = net.get(outlet["feed"], tries=2, timeout=30)
+    body = net.get(outlet["feed"], tries=2, timeout=30, headers=_headers(outlet["feed"]))
     with _lock:
         _raw[outlet["key"]] = body
     return body
@@ -183,7 +196,8 @@ def recent(hours: float = MAX_AGE_H, now: datetime | None = None,
 def _extract(url: str) -> str | None:
     import trafilatura
 
-    return trafilatura.extract(net.get(url, timeout=TEXT_TIMEOUT, tries=2), include_comments=False,
+    return trafilatura.extract(net.get(url, timeout=TEXT_TIMEOUT, tries=2, headers=_headers(url)),
+                               include_comments=False,
                                include_tables=False, favor_precision=True)
 
 
