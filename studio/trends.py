@@ -295,7 +295,7 @@ def radar(today: date | None = None) -> dict:
             continue
         if not page.get("qid"):
             cat = title_kind(page["title"], today)
-            if not cat or page["title"] in seen:
+            if not cat or page["title"] in seen or not page.get("unlinked"):
                 continue
             qid, cats, ent = None, {cat, "by-title"}, {}
             seen.add(page["title"])

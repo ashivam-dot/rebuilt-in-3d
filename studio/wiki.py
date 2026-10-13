@@ -64,8 +64,9 @@ def daily_views(title: str, days: int = 30, end: date | None = None) -> list[int
 
 
 def page_info(titles: list[str]) -> dict[str, dict]:
-    """title -> {title (canonical), qid, lat, lon, created}; resolves redirects. Wikipedia's page props lag a page
-    move by hours, so a page without an item is looked up by its Wikidata sitelink, which moves with the page."""
+    """title -> {title (canonical), qid, lat, lon, unlinked}; resolves redirects. Wikipedia's page props lag a page
+    move by hours, so a page without an item is looked up by its Wikidata sitelink, which moves with the page.
+    unlinked is True only when Wikidata confirmed no item links the page; a failed lookup leaves it False."""
     out = {}
     for i in range(0, len(titles), 50):
         chunk = titles[i:i + 50]
@@ -83,9 +84,13 @@ def page_info(titles: list[str]) -> dict[str, dict]:
             if p["title"] in back:
                 out[back[p["title"]]] = info
     unlinked = {i["title"]: i for i in out.values() if not i["qid"]}
-    for title, qid in linked_items(list(unlinked)).items():
-        if title in unlinked:
-            unlinked[title]["qid"] = qid
+    try:
+        linked = linked_items(list(unlinked))
+    except Exception:
+        linked = None
+    for title, page in unlinked.items():
+        page["qid"] = (linked or {}).get(title)
+        page["unlinked"] = linked is not None and not page["qid"]
     return out
 
 
@@ -93,13 +98,12 @@ def linked_items(titles: list[str]) -> dict[str, str]:
     """English Wikipedia title -> the Wikidata item whose enwiki sitelink it is; titles no item links are left out."""
     out = {}
     for i in range(0, len(titles), 50):
-        try:
-            d = net.get_json(WD_API, params={"action": "wbgetentities", "sites": "enwiki",
-                                             "titles": "|".join(titles[i:i + 50]), "props": "sitelinks",
-                                             "sitefilter": "enwiki", "format": "json"})
-        except Exception:
-            continue
-        for qid, ent in (d.get("entities") or {}).items():
+        d = net.get_json(WD_API, params={"action": "wbgetentities", "sites": "enwiki",
+                                         "titles": "|".join(titles[i:i + 50]), "props": "sitelinks",
+                                         "sitefilter": "enwiki", "format": "json"})
+        if "entities" not in d:
+            raise ValueError(f"wikidata sitelinks: {str(d.get('error'))[:200]}")
+        for qid, ent in d["entities"].items():
             title = ent.get("sitelinks", {}).get("enwiki", {}).get("title")
             if qid.startswith("Q") and title:
                 out[title] = qid

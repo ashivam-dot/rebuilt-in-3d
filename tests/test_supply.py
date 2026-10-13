@@ -108,8 +108,18 @@ def test_a_moved_article_keeps_its_wikidata_item(monkeypatch):
     monkeypatch.setattr(wiki.net, "get_json", get_json)
     info = wiki.page_info([old, "2026 Aubagne school shooting", "Mike Ditka"])
     assert info[old]["qid"] == info[new]["qid"] == "Q141695384" and info[old]["title"] == new
-    assert info["2026 Aubagne school shooting"]["qid"] is None and info["Mike Ditka"]["qid"] == "Q1355840"
+    assert info["2026 Aubagne school shooting"]["qid"] is None and info["2026 Aubagne school shooting"]["unlinked"]
+    assert info["Mike Ditka"]["qid"] == "Q1355840" and not info[new]["unlinked"]
     assert calls == [wiki.API, wiki.WD_API]
+
+    def wikidata_down(url, params):
+        if url == wiki.API:
+            return get_json(url, params)
+        raise RuntimeError("wikidata: HTTP 429")
+
+    monkeypatch.setattr(wiki.net, "get_json", wikidata_down)
+    info = wiki.page_info([old, "2026 Aubagne school shooting"])
+    assert info[old]["qid"] is None and not info[old]["unlinked"] and not info["2026 Aubagne school shooting"]["unlinked"]
 
 
 POOL = [news.pool_item("2026 Aubagne school shooting"), news.pool_item("RJ Mitte", person=True),
@@ -152,13 +162,17 @@ def test_a_listed_article_wikidata_does_not_know_yet_is_a_candidate(monkeypatch)
     _quiet(monkeypatch)
     monkeypatch.setattr(trends.wiki, "current_events", lambda day: [("2026 Aubagne school shooting", False)])
     monkeypatch.setattr(trends.wiki, "page_info", lambda titles: {t: {"title": t, "qid": None, "lat": None,
-                                                                      "lon": None} for t in titles})
+                                                                      "lon": None, "unlinked": True} for t in titles})
     monkeypatch.setattr(trends.wiki, "classify", lambda qids: pytest.fail("no QIDs to classify"))
     monkeypatch.setattr(trends.wiki, "entities", lambda qids: {})
     monkeypatch.setattr(trends.wiki, "created", lambda t: datetime(2026, 10, 12, 9, tzinfo=timezone.utc))
     out = trends.radar(date(2026, 10, 13))["candidates"]
     assert [(c["id"], c["category"], c["fame"], c["date"]) for c in out] == [
         ("wp-2026_Aubagne_school_shooting", "attack", 2 * trends.PORTAL_FAME, "2026-10-12")]
+    # Unless Wikidata confirmed no item links it, the article could be a told story under a new title.
+    monkeypatch.setattr(trends.wiki, "page_info", lambda titles: {t: {"title": t, "qid": None, "lat": None,
+                                                                      "lon": None, "unlinked": False} for t in titles})
+    assert trends.radar(date(2026, 10, 13))["candidates"] == []
 
 
 def test_a_recent_death_named_by_a_trend_news_item_counts(monkeypatch):
