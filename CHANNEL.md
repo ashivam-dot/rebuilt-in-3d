@@ -60,10 +60,10 @@ Plain-http links are read as https.
   incident or protest (same scope rules). They are told only from the reporting (at least two owners' articles must
   name the place), with photos of the place (Commons, then Openverse; the place must be a Wikidata item with
   coordinates, never a person). Once Wikipedia writes the article, the story is not told again for 7 days, and the published
-  record keeps the report URLs and headlines so the Hindi desk's overlap rules match nw- stories too. **This lane is
-  off** until the run's environment sets `STUDIO_NEW_STORIES=true` (add `STUDIO_NEW_STORIES:
-  ${{ vars.STUDIO_NEW_STORIES }}` to the job's `env` in `.github/workflows/run.yml` and set that repository
-  variable): the radar still finds and logs these stories (the run's "outlets:" step) but does not offer them.
+  record keeps the report URLs and headlines so the Hindi desk's overlap rules match nw- stories too. **The lane is
+  on (2026-10-13)** through the repository variable `STUDIO_NEW_STORIES=true`, passed into the run job's `env` in
+  `.github/workflows/run.yml`. Set the variable to anything else to turn it off: the radar then still finds and logs
+  these stories (the run's "outlets:" step) but does not offer them.
 - **Photos:** when Commons has fewer than 3 usable photos, Openverse (keyless; CC0, CC BY and CC BY-SA only) fills
   in with photos of the places the story links to (Wikidata items with coordinates; never a person, group or work),
   never one that features a face.
