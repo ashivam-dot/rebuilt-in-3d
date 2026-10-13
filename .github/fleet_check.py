@@ -20,6 +20,7 @@ CHANNELS = {
     "Kyun Hua": ("UCS-lEPHkz_dftfUjjeTuxOA", 36, None),
     "Pangaea Nights": ("UCtVG78IUTqvP9rH-LLies0A", 48, "2026-10-13T00:00:00+00:00"),
     "Mool Katha": ("UCdqxVnoHDWXgA2ZVJWkSu8w", 36, None),
+    "Kahaani Chaos": ("UCX-96TVtOBCEkDMloHuYAHw", 20, "2026-10-15T00:00:00+00:00"),
 }
 # (repo, workflow file, hours since its last scheduled run before alerting[, watch from]); GitHub's cron can run an
 # hour or more late.
@@ -31,6 +32,7 @@ WORKFLOWS = [
     ("channel-doctor", "watch.yml", 2),
     ("mool-katha-control", "lite.yml", 15), ("mool-katha-control", "control-monitor.yml", 6),
     ("mool-katha-control", "control-alerts.yml", 4),
+    ("kahaani-chaos", "run.yml", 15, "2026-10-15T00:00:00+00:00"), ("kahaani-chaos", "health.yml", 9),
 ]
 FAIL_STREAK = 3
 
