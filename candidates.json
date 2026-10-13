@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T01:05:50+00:00",
+ "at": "2026-10-13T01:27:50+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,19 +21,45 @@
    "date": "2026-10-09"
   },
   {
+   "qid": "Q141681530",
+   "title": "2026 Panama earthquake",
+   "fame": 140608,
+   "views": 15608,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-12T23:34:00+00:00",
+   "headlines": [
+    "Magnitude 6 earthquake strikes off Panama"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-11",
+    "google-news:Magnitude 6 earthquake strikes off Panama"
+   ],
+   "id": "wk-Q141681530",
+   "kind": "incident",
+   "category": "earthquake",
+   "date": "2026-10-09",
+   "coords": [
+    7.5868,
+    -80.769
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q2118568",
    "title": "RJ Mitte",
    "fame": 125000,
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-12T23:39:39+00:00",
+   "news_at": "2026-10-13T00:09:42+00:00",
    "headlines": [
-    "Breaking Bad actor RJ Mitte dies aged 34"
+    "RJ Mitte, Who Played Walter White’s Son on ‘Breaking Bad,’ Dies at 34"
    ],
    "region": "world",
    "via": [
-    "google-news:Breaking Bad actor RJ Mitte dies aged 34"
+    "google-news:RJ Mitte, Who Played Walter White’s Son on ‘Breaking Bad,’ Dies at 34"
    ],
    "id": "wk-Q2118568",
    "kind": "death",
@@ -98,29 +124,6 @@
    "category": "cyclone",
    "date": "2026-10-06",
    "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q141681530",
-   "title": "2026 Panama earthquake",
-   "fame": 15608,
-   "views": 15608,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-11"
-   ],
-   "id": "wk-Q141681530",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-09",
-   "coords": [
-    7.5868,
-    -80.769
-   ],
    "has_coords": true
   }
  ],
