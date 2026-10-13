@@ -8,13 +8,30 @@ from .spec import Short
 
 STAGE = Path(__file__).resolve().parent / "web" / "stage.html"
 DISCLOSURE = "3D RECONSTRUCTION FROM DATA · NOT REAL FOOTAGE"
-# Gore, sensationalism and clickbait never appear in a title, a card or the narration.
+# Gore, sensationalism and clickbait never appear in a title, a card or the narration. A trailing * matches any
+# ending ("decapitat*" also catches decapitated); everything else matches whole words only (so "gory" never trips on
+# "category", nor "rip" on "trip").
 BANNED = [
-    "blood", "bloody", "gore", "gory", "graphic", "corpse", "corpses", "body bag", "bodies", "dismember", "decapitat",
-    "mutilat", "charred", "burned alive", "horrific", "horrifying", "gruesome", "shocking", "terrifying", "nightmare",
-    "massacre", "slaughter", "carnage", "apocalyp", "armageddon", "doomed", "you won't believe", "insane", "breaking",
-    "must watch", "watch till the end", "omg", "wtf", "rip ", "sexy", "nude", "naked", "porn", "kill count",
+    "blood", "bloody", "gore", "gory", "graphic", "corpse", "corpses", "body bag", "bodies", "dismember*", "decapitat*",
+    "mutilat*", "charred", "burned alive", "horrific", "horrifying", "gruesome", "shocking", "terrifying", "nightmare",
+    "massacre", "slaughter", "carnage", "apocalyp*", "armageddon", "doomed", "you won't believe", "insane", "breaking",
+    "must watch", "watch till the end", "omg", "wtf", "rip", "sexy", "nude", "naked", "porn", "kill count",
 ]
+# Titles of works and names that contain a banned word; written exactly so, they are a name, not wording.
+NAMED = ("Breaking Bad", "Breaking Dawn", "Breaking Benjamin", "A Nightmare on Elm Street",
+         "The Nightmare Before Christmas", "There Will Be Blood", "True Blood", "Blood Diamond", "Insane Clown Posse")
+
+
+def banned_word(text: str) -> str | None:
+    """The first banned word in text (see BANNED), ignoring the names in NAMED."""
+    for name in NAMED:
+        text = text.replace(name, " ")
+    low = text.lower().replace("’", "'")
+    for w in BANNED:
+        tail = "" if w.endswith("*") else r"(?![a-z])"
+        if re.search(r"(?<![a-z])" + re.escape(w.rstrip("*")) + tail, low):
+            return w.rstrip("*")
+    return None
 ACRONYMS = {"USGS", "UTC", "PAGER", "NASA", "NOAA", "GDACS", "EMSC", "ADS-B", "NTSB", "AAIB", "BEA", "MMI", "ICAO",
             "IATA", "UN", "WHO", "EU", "UK", "US", "USA", "3D", "NHC", "JTWC", "IMD", "JMA", "PTWC", "GREEN", "YELLOW",
             "ORANGE", "RED"}
@@ -41,10 +58,9 @@ def check(short: Short) -> list[str]:
         for num in numbers(text.replace("≈", "")):
             if num not in allowed:
                 problems.append(f"{where}: the number {num} isn't backed by any sourced fact")
-        low = f" {text.lower()} "
-        for word in BANNED:
-            if word in low:
-                problems.append(f"{where}: banned wording {word.strip()!r}")
+        word = banned_word(text)
+        if word:
+            problems.append(f"{where}: banned wording {word!r}")
         if EMOJI.search(text):
             problems.append(f"{where}: emoji")
         if short.kind == "incident" and not any(f.key == "deaths" for f in short.facts) and CASUALTY.search(text):

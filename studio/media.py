@@ -15,7 +15,7 @@ from . import net, wiki
 
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 FREE = re.compile(r"^(CC0|Public domain|PD\b|CC BY(-SA)? \d(\.\d)?( [a-z]{2,})?$|CC BY(-SA)?$)", re.I)
-NOT_PHOTO = re.compile(r"(\.svg$|\.gif$|\.tiff?$|\blogo|signature|autograph|\bmap\b|locator|location|\bflag\b|coat of arms|"
+NOT_PHOTO = re.compile(r"(\.svg$|\.gif$|\.tiff?$|\blogo|signature|autograph|\bmap\b|map\.\w+$|locator|location|\bflag\b|coat of arms|"
                        r"\bicon\b|\bseal\b|emblem|chart|graph|diagram|insignia|\bplan\b|route|blank|wordmark|"
                        r"collage|montage)", re.I)
 # Dignity: a Short never shows bodies, wounds or grief at a funeral.
@@ -100,12 +100,16 @@ def _shoot(file: str) -> str:
     return re.sub(r"[\s_(-]*(\(?image )?\d+\)?(?=[\s,.]|$).*$", "", stem)[:40]
 
 
-def find(title: str, ent: dict, limit: int = 8, extra_qids: list[str] | None = None) -> list[Photo]:
+def find(title: str, ent: dict, limit: int = 8, extra_qids: list[str] | None = None,
+         places: bool = False) -> list[Photo]:
     """Up to `limit` usable photos: the Wikidata image first, then the article's own images, then its Commons category.
 
     Article and category files must name the story (the person's surname, the storm's name) in their file name or
     description, so a festival photo that merely sits in a person's category is not passed off as them.
     extra_qids adds the main image of related items (a birthplace, an aircraft type, an airport) after those.
+    places: also take photos from each related item's own article whose file name names that item (a city skyline,
+    the airport's terminal), for an article so new that Commons has nothing of the event itself.
+    The Hindi desk reproduces this ranking to keep its photos apart (hindi-news-desk desk/orbitwire.py).
     """
     keys = _keys(wiki.label(ent) or title) | _keys(title)
     ordered: list[tuple[str, str]] = []
@@ -121,9 +125,35 @@ def find(title: str, ent: dict, limit: int = 8, extra_qids: list[str] | None = N
         except Exception:
             pass
     if extra_qids:
-        for q, e in wiki.entities(extra_qids).items():
+        related = wiki.entities(extra_qids)
+        for q, e in related.items():
             ordered += [("File:" + c["value"], "related") for c in wiki.claims(e, "P18")[:1]]
+        for q, e in related.items() if places else ():
+            ordered += _place_files(e)
     return _usable(ordered, keys, limit)
+
+
+def _place_files(e: dict) -> list[tuple[str, str]]:
+    """Up to three files from an item's own article whose names name the item (a city skyline, a school's front)."""
+    page, own = wiki.sitelink(e, "enwiki"), _keys(wiki.label(e) or "")
+    try:
+        files = _article_files(page) if page and own else []
+    except Exception:
+        files = []
+    return [(f, "place") for f in files if _names(f.replace("_", " "), own) and not NOT_PHOTO.search(f)][:3]
+
+
+def context(qids: list[str], limit: int = 6, exclude: set[str] | None = None) -> list[Photo]:
+    """Photos of the places and things a story links to (a birthplace, a school, an award, the airport): each item's
+    main image, then files from its article that name it. They fill a Short whose own photos are too few, and are
+    never of the story's person (the caller drops any that feature a face)."""
+    if not qids:
+        return []
+    ordered = []
+    for e in wiki.entities(qids).values():
+        ordered += [("File:" + c["value"], "related") for c in wiki.claims(e, "P18")[:1]]
+        ordered += _place_files(e)
+    return _usable(ordered, set(), limit, exclude=exclude)
 
 
 def picks(files: list[str], limit: int = 8) -> list[Photo]:
@@ -132,10 +162,14 @@ def picks(files: list[str], limit: int = 8) -> list[Photo]:
                    shoot_cap=limit)
 
 
-def _usable(ordered: list[tuple[str, str]], keys: set[str], limit: int, shoot_cap: int = 2) -> list[Photo]:
+def _usable(ordered: list[tuple[str, str]], keys: set[str], limit: int, shoot_cap: int = 2,
+            exclude: set[str] | None = None) -> list[Photo]:
     seen, files = set(), []
+    banned = {e.replace("_", " ") for e in exclude or ()}
     for f, origin in ordered:
         f = f.replace("_", " ")
+        if f in banned:
+            continue
         if f not in seen and not GRAPHIC.search(f) and (origin == "editor" or not NOT_PHOTO.search(f)):
             seen.add(f)
             files.append((f, origin))

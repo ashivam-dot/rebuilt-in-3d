@@ -84,6 +84,71 @@ def page_info(titles: list[str]) -> dict[str, dict]:
     return out
 
 
+CURRENT_EVENTS = "Portal:Current events/{d.year} {d:%B} {d.day}"
+HEADING = re.compile(r"^(\*+)\s*\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]\s*$")
+INDIA_WORDS = re.compile(r"\bIndia|Indian\b|Delhi|Mumbai|Kolkata|Chennai|Bengaluru|Hyderabad|Manipur|Kashmir|Bihar|"
+                         r"Uttar Pradesh|Maharashtra|Kerala|Punjab|Assam|Gujarat|Rajasthan|Odisha|Bengal")
+
+
+def current_events(day: date) -> list[tuple[str, bool]]:
+    """The story articles Wikipedia's editors list for a day (Portal:Current events), as (title, about India).
+
+    Each story there is a bullet holding nothing but a link, nested under its topic ("2026 anti-CEC protests" under
+    "Censorship in India"); the summary lines below it, and the links inside them, are not stories."""
+    d = net.get_json(API, params={"action": "parse", "page": CURRENT_EVENTS.format(d=day), "prop": "wikitext",
+                                  "format": "json", "formatversion": 2})
+    if "parse" not in d:
+        return []
+    out, path = [], {}
+    for line in d["parse"]["wikitext"].splitlines():
+        m = HEADING.match(line.strip())
+        if not m:
+            continue
+        depth, title = len(m.group(1)), m.group(2).strip()
+        path = {k: v for k, v in path.items() if k < depth} | {depth: title}
+        out.append((title, any(INDIA_WORDS.search(t) for t in path.values())))
+    return out
+
+
+RECENT_DEATHS = """SELECT ?p ?article ?links WHERE {{
+ ?p p:P570/psv:P570 [wikibase:timeValue ?died; wikibase:timePrecision 11] . FILTER(?died >= "{since}"^^xsd:dateTime)
+ ?p wdt:P31 wd:Q5 . ?article schema:about ?p; schema:isPartOf <https://en.wikipedia.org/> .
+ ?p wikibase:sitelinks ?links .
+}} ORDER BY DESC(?links) LIMIT {limit}"""
+
+
+def recent_deaths(since: date, limit: int = 300) -> list[dict]:
+    """People with an English article whose Wikidata death date is on or after since, best known first:
+    [{title, qid}]."""
+    from urllib.parse import unquote
+
+    query = RECENT_DEATHS.format(since=since.isoformat() + "T00:00:00Z", limit=limit)
+    rows = net.get_json(SPARQL, params={"query": query, "format": "json"})["results"]["bindings"]
+    out, seen = [], set()
+    for r in rows:
+        title = unquote(r["article"]["value"].rsplit("/wiki/", 1)[1]).replace("_", " ")
+        if title not in seen:
+            seen.add(title)
+            out.append({"title": title, "qid": r["p"]["value"].rsplit("/", 1)[1]})
+    return out
+
+
+def new_articles(hours: float = 48, now: datetime | None = None, pages: int = 6) -> list[str]:
+    """Titles of English articles created in the last `hours` (not redirects), newest first."""
+    now = now or datetime.now(timezone.utc)
+    since = (now - timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    out, cont = [], {}
+    for _ in range(pages):
+        d = net.get_json(API, params={"action": "query", "list": "recentchanges", "rctype": "new", "rcnamespace": 0,
+                                      "rcshow": "!redirect", "rclimit": 500, "rcend": since, "rcprop": "title",
+                                      "format": "json", "formatversion": 2, **cont})
+        out += [r["title"] for r in d["query"]["recentchanges"]]
+        if "continue" not in d:
+            break
+        cont = d["continue"]
+    return out
+
+
 def created(title: str) -> datetime | None:
     d = net.get_json(API, params={"action": "query", "prop": "revisions", "titles": title, "rvlimit": 1, "rvdir": "newer",
                                   "rvprop": "timestamp", "format": "json", "formatversion": 2})
@@ -117,6 +182,10 @@ def entities(qids: list[str]) -> dict[str, dict]:
 
 def label(ent: dict) -> str | None:
     return ent.get("labels", {}).get("en", {}).get("value")
+
+
+def sitelink(ent: dict, site: str = "enwiki") -> str | None:
+    return ent.get("sitelinks", {}).get(site, {}).get("title")
 
 
 def claims(ent: dict, pid: str) -> list:

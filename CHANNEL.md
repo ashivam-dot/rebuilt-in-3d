@@ -9,8 +9,10 @@ keep that old name on purpose. All browser work for it happens in Chrome Profile
 The world's most famous trending stories, told as short documentaries: real photos of the person or the event, a
 story with feeling, and facts checked against public sources. English, 35–60 second vertical Shorts.
 
-A story qualifies only when the world is already looking at it (Google News lead stories for India, the US and the
-world; Google Trends in the US, India or the UK; English Wikipedia's most-read list; see `studio/news.py` and
+A story qualifies only when the world is already looking at it (Google News lead stories for India, the US, the UK
+and the world; Google Trends in the US, India or the UK, any listed search; English Wikipedia's most-read list; the
+story articles on today's and yesterday's Wikipedia Current events page, each counting like two lead headlines; a
+GDACS Orange or Red alert from the last 4 days, through its disaster's own article; see `studio/news.py` and
 `studio/trends.py`) **and** it can be shown honestly:
 
 - an incident at most 30 days old: flight incidents, storms, floods, wildfires, volcanoes, rail and maritime
@@ -20,6 +22,17 @@ world; Google Trends in the US, India or the UK; English Wikipedia's most-read l
   ongoing news: its Shorts came out as generic "human cost" pieces with casualty claims, so only its new strikes
   and attacks qualify, as incidents;
 - the death of a famous person, at most 10 days ago.
+
+**Fresh articles (2026-10-13).** A brand-new event article often has no Wikidata item for its first day, exactly while
+the story is hottest. It still qualifies when its English title names this or last year and an incident or protest
+shape ("2026 Erie shooting"; riots, trials, elections and sport never). Its date comes from the infobox, its location
+photos from the places the infobox links to (never a map, never one that features a face), its id is
+`wp-<article title>` (so it never comes back as `wk-<QID>`), and with no Wikidata to agree with, no casualty number
+is ever said. Wikipedia's search ranks long-standing articles first, so headlines and Trends news items are also
+matched by their words to people Wikidata says died in the last 10 days and to fresh event articles (a person by
+their whole name in order, an event by its place or name plus one more title word; a headline two items fit
+matches nothing). The most-read list is read 1000 deep for those. Titles of works that contain a banned word
+("Breaking Bad") are names, not wording; banned words match whole words only (so "category" is not "gory").
 
 ## The editorial desk (`studio/plan.py`)
 
@@ -44,8 +57,11 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
 
 - **Pictures:** at least three real, freely licensed photos from Wikimedia Commons (CC0, public domain, CC BY,
   CC BY-SA; never non-commercial or fair-use files), each credited by author and licence in the description and on
-  screen. For a person, every photo must show them: their face is matched across the set. A gentle depth-parallax
-  camera move brings each still to life; nothing in a photo is invented or altered.
+  screen. For a person, every photo of a person must show them: their face is matched across the set. A story with
+  fewer than three photos of its own (a tribute needs at least one matched photo of its subject) is filled with
+  photos of the places and things it links to: a person's birthplace, school, employer, team or award, an
+  incident's places. A fill photo never features a face. A gentle depth-parallax camera move brings each still to
+  life; nothing in a photo is invented or altered.
 - **Never** generate a realistic image or video of a real person or a real incident. YouTube removes realistic
   simulations of deceased people and of victims, and it would break the channel's promise of real facts.
 - **Story, not a résumé:** a hook that says plainly what happened; then where they began, the turning point, the
@@ -93,7 +109,8 @@ a trend signal when USGS rates them PAGER yellow or worse, or magnitude 7+.
 | Incidents (flights, attacks, disasters, conflict strikes) | Live, photo story | Wikipedia article, Wikidata, Commons |
 | Famous deaths | Live, photo story | Wikipedia article, Wikidata dates confirmed by the infobox, Commons |
 
-Incident Shorts wait until the article is 6 hours old. Summaries that guess at a cause (suspected, alleged, terror,
+Incident Shorts wait until the article is 6 hours old; waiting never counts as a failed try, so a fresh story is not
+given up before it is ready. Summaries that guess at a cause (suspected, alleged, terror,
 hijack, suicide…) are never read out; the Short says the cause is under investigation instead.
 
 ## Operations

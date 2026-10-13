@@ -29,11 +29,24 @@ def get(url: str, *, params: dict | None = None, cache: Path | None = None, time
                 key.parent.mkdir(parents=True, exist_ok=True)
                 key.write_bytes(resp.content)
             return resp.content
-        except requests.RequestException:
+        except requests.RequestException as exc:
             if attempt == tries - 1:
                 raise
-            time.sleep(2 * (attempt + 1) ** 2)
+            time.sleep(pause(exc, attempt))
     raise AssertionError("unreachable")
+
+
+def pause(exc: Exception, attempt: int) -> float:
+    """Seconds before the next try. A rate limit (HTTP 429) waits longer, as long as its Retry-After asks (at most a
+    minute): the Wikidata query service's limit outlasts the short backoff."""
+    resp = getattr(exc, "response", None)
+    if resp is None or resp.status_code != 429:
+        return 2 * (attempt + 1) ** 2
+    try:
+        asked = float(resp.headers.get("Retry-After") or 0)
+    except ValueError:
+        asked = 0
+    return min(60.0, max(asked, 15.0 * (attempt + 1)))
 
 
 def get_json(url: str, **kwargs):

@@ -146,7 +146,7 @@ def watch() -> dict:
     at = datetime.now(timezone.utc)
     rows = ledger.published()
     stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
-               and not cooling(c, at, rows)]
+               and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))]
     found["candidates"] = sorted(found["quakes"] + stories, key=lambda c: -priority(c, at))
     try:
         found["hazards"] = gdacs.alerts()

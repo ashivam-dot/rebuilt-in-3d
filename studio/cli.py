@@ -13,7 +13,7 @@ from . import gate, ledger, learn, plan
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
-RETRYABLE = ("under 6 hours old", "words (want", "does not confirm the death", "usable photos", "no draft passed",
+RETRYABLE = ("words (want", "does not confirm the death", "usable photos", "no draft passed",
              "came out garbled")
 MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 log = logging.getLogger("studio")
@@ -30,6 +30,9 @@ def prepare(target: str | dict):
     short = quake.build(target) if isinstance(target, str) else writer.build(target)
     if isinstance(target, dict):
         short.scene.setdefault("category", target.get("category"))
+        short.scene.setdefault("region", target.get("region"))
+        if target.get("kind") != "quake":
+            short.scene.setdefault("article", target.get("title"))
     work = WORK / short.id
     work.mkdir(parents=True, exist_ok=True)
     short.save(work / "short.json")
@@ -65,7 +68,8 @@ def publish(story_id: str, publish_at: str | None = None) -> dict:
         else ledger.now()
     ledger.record_publish({"id": short.id, "kind": short.kind, "title": short.title, "loss": short.loss,
                            "published_at": when, "event_time": short.event_time,
-                           "category": short.scene.get("category"), **result})
+                           "category": short.scene.get("category"), "region": short.scene.get("region"),
+                           "article": short.scene.get("article"), **result})
     return result
 
 
@@ -93,8 +97,11 @@ def run(dry: bool = False) -> dict:
         if not ready:
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]
-        written = 0
-        for cand in ready[:4]:
+        written = tried = 0
+        for cand in ready:
+            if tried >= 4:
+                break
+            tried += 1
             if written >= MAX_WRITTEN and cand["kind"] != "quake":
                 health["steps"].append(f"later {cand['id']}: this run already wrote {written} scripts")
                 continue
@@ -102,7 +109,13 @@ def run(dry: bool = False) -> dict:
                 short = prepare(cand)
             except ValueError as exc:
                 written += "no draft passed" in str(exc)
-                # Young or thin articles, and stories still short of free photos, get another chance next hour.
+                if ledger.waiting(str(exc)):
+                    # A brand-new article waits for its facts to settle; waiting is not a failed try, and it does
+                    # not take a slot from the stories that are ready now.
+                    tried -= 1
+                    health["steps"].append(f"wait {cand['id']}: {exc}")
+                    continue
+                # Thin articles, and stories still short of free photos, get another chance next run.
                 if any(m in str(exc) for m in RETRYABLE):
                     ledger.retry(cand["id"], str(exc)[:300])
                 else:

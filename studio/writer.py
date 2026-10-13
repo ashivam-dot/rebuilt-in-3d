@@ -19,6 +19,7 @@ from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
 MIN_PHOTOS = 3
+PLACE_FACE = 0.06  # a face this share of a place photo's shorter side features a person
 OUTRO = "Follow Orbitwire for the stories the whole world is talking about."
 CREDIT = "Facts: Wikipedia (CC BY-SA 4.0) and Wikidata (CC0); photos: Wikimedia Commons (licences listed below)"
 # Capitalised words that start sentences in any story and need no source.
@@ -304,23 +305,57 @@ def _sentence_with(number: str, text: str) -> str:
     return ""
 
 
+def featured_face(img, seen: list[dict]) -> bool:
+    """A face this big would pass whoever it is off as part of the story."""
+    return img is None or any(d["box"][2] >= PLACE_FACE * min(img.shape[:2]) for d in seen)
+
+
 def pick_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: list[str] | None = None,
-                files: list[str] | None = None) -> list[dict]:
+                files: list[str] | None = None, places: bool = False,
+                context_qids: list[str] | None = None) -> list[dict]:
     """Downloaded photos as dicts with a "focus" box: for a person, only photos in which their face is matched.
-    files: Commons files an editor chose instead of searching."""
-    found = media.picks(files) if files else media.find(title, ent, limit=10, extra_qids=extra_qids)
+    files: Commons files an editor chose instead of searching; places: see media.find; context_qids: places and
+    things the story links to, whose photos (with no featured face) fill in when the story has fewer than
+    MIN_PHOTOS of its own. A person needs at least one photo of their own face."""
+    kept = _own_photos(title, ent, folder, person, extra_qids, files, places)
+    if len(kept) >= MIN_PHOTOS or files or not context_qids or (person and not kept):
+        return kept
+    have = {r["file"] for r in kept}
+    for r in media.as_dicts(media.download(media.context(context_qids, exclude=have), folder / "context")):
+        img = cv2.imread(r["path"])
+        if featured_face(img, faces.detect(img) if img is not None else []):
+            continue
+        r["focus"] = None
+        kept.append(r)
+    return kept[:8]
+
+
+def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: list[str] | None,
+                files: list[str] | None, places: bool) -> list[dict]:
+    found = media.picks(files) if files else media.find(title, ent, limit=10, extra_qids=extra_qids, places=places)
     found = media.download(found, folder)
     rows = media.as_dicts(found)
     images = [cv2.imread(r["path"]) for r in rows]
     detected = [faces.detect(img) if img is not None else [] for img in images]
     picks = faces.subject(detected) if person else [None] * len(rows)
     kept = []
-    for r, f in zip(rows, picks):
+    for r, f, img, seen in zip(rows, picks, images, detected):
         if person and f is None:
             continue
+        if r["origin"] == "place" and img is not None and featured_face(img, seen):
+            continue  # a place photo that features someone would pass them off as part of the story
         r["focus"] = [round(v) for v in f["box"]] if f else None
         kept.append(r)
     return kept[:8]
+
+
+PERSON_CONTEXT = ("P19", "P69", "P108", "P54", "P463", "P166", "P800")  # birthplace, school, employer, team, ...
+
+
+def person_context(ent: dict) -> list[str]:
+    """The places and things a person's life links to, whose photos may fill a tribute short of portraits."""
+    return list(dict.fromkeys(c["value"] for pid in PERSON_CONTEXT for c in wiki.claims(ent, pid)[:1]
+                              if isinstance(c["value"], str) and c["value"].startswith("Q")))[:6]
 
 
 def build_death(cand: dict) -> Short:
@@ -343,7 +378,7 @@ def build_death(cand: dict) -> Short:
     if not job:
         job = next(iter(wiki.labels([c["value"] for c in wiki.claims(ent, "P106")[:1]]).values()), "")
     work = WORK / f"wk-{qid}"
-    photos = pick_photos(title, ent, work / "photos", person=True)
+    photos = pick_photos(title, ent, work / "photos", person=True, context_qids=person_context(ent))
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
     facts_text = [f"{name} died on {stories.date_words(died)}, aged {age}.",
@@ -367,23 +402,33 @@ def build_death(cand: dict) -> Short:
 
 
 def build_incident(cand: dict) -> Short:
-    article, qid, cat = cand["title"], cand["qid"], cand["category"]
+    article, qid, cat = cand["title"], cand.get("qid"), cand["category"]
     name = stories.plain_title(article)
     stories._check_age(article)
-    ent = wiki.entities([qid])[qid]
-    _, ib, _ = wiki.infobox(article)
+    ent = wiki.entities([qid])[qid] if qid else {}
+    _, ib, raw = wiki.infobox(article)
     ongoing = cat in trends.ONGOING
-    when = stories._event_date(ent)
+    when, date_src = stories._event_date(ent), "Wikidata date"
+    if not when and (when := stories.infobox_date(ib)):
+        date_src = "Wikipedia infobox date"
     if ongoing:
         when = date.fromisoformat((cand.get("news_at") or datetime.now(timezone.utc).isoformat())[:10])
     if not when:
-        raise ValueError("gate: Wikidata has no date for this event")
-    page, item = wiki.url(article), f"https://www.wikidata.org/wiki/{qid}"
+        raise ValueError("gate: neither Wikidata nor the infobox gives a date for this event")
+    page = wiki.url(article)
+    item = f"https://www.wikidata.org/wiki/{qid}" if qid else page
     extra = [c["value"] for pid in ("P276", "P1427", "P1444", "P121", "P137") for c in wiki.claims(ent, pid)[:1]
              if isinstance(c["value"], str) and c["value"].startswith("Q")]
+    if not extra:
+        # An article Wikidata does not describe yet: the places its infobox links to give the location photos.
+        links = re.findall(r"\[\[([^\]|#]+)", " ".join(raw.get(k, "") for k in ("target", "location", "site", "place",
+                                                                                "areas affected", "areas", "country")))
+        found = wiki.page_info(list(dict.fromkeys(links))[:6]) if links else {}
+        extra = list(dict.fromkeys(p["qid"] for p in found.values() if p.get("qid")))[:3]
     sid = cand.get("id") or f"wk-{qid}"
     work = WORK / sid
-    photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra, files=cand.get("photo_files"))
+    photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra, files=cand.get("photo_files"),
+                         places=not qid, context_qids=extra)
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
     deaths = stories.agreed(stories._first(ib, "total_fatalities", "fatalities", "deaths"), ent, "P1120", True)
@@ -415,16 +460,17 @@ def build_incident(cand: dict) -> Short:
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
     facts = [Fact("name", name, page, stories.numbers_in(name), "Wikipedia article title"),
              Fact("date", stories.date_words(when), item, [str(when.day), str(when.year)],
-                  f"Google News lead story on {when}" if ongoing else f"Wikidata date {when}")]
+                  f"Google News lead story on {when}" if ongoing else f"{date_src} {when}")]
     if deaths is not None:
         facts.append(Fact("deaths", str(deaths), page, [f"{deaths:,}", str(deaths)], "infobox and Wikidata P1120 agree"))
     region = stories.city_of(where) if where else None
     return _short(sid, "incident", name, draft, log, facts, facts_text, source, photos,
-                  [page, item] + [wiki.url(t) for t in also],
+                  list(dict.fromkeys([page, item] + [wiki.url(t) for t in also])),
                   when.isoformat(), loss=loss, mood="news", voice=cand.get("region", "world"),
                   tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"]
                   + ([region] if region else []),
-                  summary=f"{name}, {stories.date_words(when)}: what happened, from Wikipedia and Wikidata.",
+                  summary=f"{name}, {stories.date_words(when)}: what happened, from "
+                          f"{'Wikipedia and Wikidata' if qid else 'Wikipedia'}.",
                   hashtags=[cat, region or "world", "news"])
 
 

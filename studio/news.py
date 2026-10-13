@@ -19,6 +19,7 @@ FEEDS = {
     "IN-nation": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en",
     "US": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
     "world": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en",
+    "GB": "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en",
 }
 MAX_AGE_H = 36
 # One lead story counts like this much Google Trends traffic on the fame scale, times the outlets covering it.
@@ -51,6 +52,56 @@ def match(headline: str, now: datetime | None = None) -> str | None:
     return None
 
 
+MONTH_WORDS = set("january february march april may june july august september october november december".split())
+TITLE_STOP = set("the and for from with into over after near of on in at to by".split())
+
+
+def _stem(word: str) -> str:
+    word = re.sub(r"['’]s$", "", word.lower())
+    return word[:-1] if len(word) > 4 and word.endswith("s") and not word.endswith("ss") else word
+
+
+def _seq(text: str) -> list[str]:
+    return [_stem(w) for w in re.findall(r"[A-Za-z][A-Za-z'’\-]*", text)]
+
+
+def _has_run(seq: list[str], run: list[str]) -> bool:
+    return bool(run) and any(seq[i:i + len(run)] == run for i in range(len(seq) - len(run) + 1))
+
+
+def pool_item(title: str, person: bool = False, qid: str | None = None) -> dict:
+    """A story article headlines may be matched to by their words: its distinctive title words (stemmed) and which of
+    them are names ('2026 Aubagne school shooting' -> {aubagne, school}, names {aubagne}); a person's whole name."""
+    plain = re.sub(r"\s*\([^)]*\)", "", title)
+    raw = re.findall(r"[A-Za-z][A-Za-z'’\-]*", plain)
+    if person:
+        words = [w for w in raw if len(w) >= 2]
+    else:
+        words = [w for w in raw if len(w) >= 3 and w.lower() not in GENERIC | MONTH_WORDS | TITLE_STOP]
+    return {"title": title, "person": person, "qid": qid, "keys": sorted({_stem(w) for w in words}),
+            "names": sorted({_stem(w) for w in words if w[0].isupper()}),
+            "run": [_stem(w) for w in words] if person else []}
+
+
+def reverse(headline: str, pool: list[dict]) -> str | None:
+    """The pool article a headline names, or None. Wikipedia's search ranks long-standing articles first, so a
+    headline about a brand-new event rarely finds that event's article; the pool (fresh event articles, people who
+    just died) is matched by words instead. A headline must name a person's whole name in order, or an event's place
+    or other name plus one more of its title words. A headline two different items fit matches nothing."""
+    seq, best = _seq(headline), set()
+    words = set(seq)
+    for item in pool:
+        keys = set(item["keys"])
+        if item["person"]:
+            ok = len(keys) >= 2 or (len(keys) == 1 and len(next(iter(keys))) >= 5)
+            hit = ok and _has_run(seq, item.get("run") or [])
+        else:
+            hit = bool(set(item["names"]) & words) and len(keys & words) >= min(2, len(keys))
+        if hit:
+            best.add(item["title"])
+    return best.pop() if len(best) == 1 else None
+
+
 def headlines(feed: str, now: datetime | None = None) -> list[dict]:
     """[{title, outlet, outlets, at, feed}] for lead stories younger than MAX_AGE_H."""
     now = now or datetime.now(timezone.utc)
@@ -77,8 +128,9 @@ def headlines(feed: str, now: datetime | None = None) -> list[dict]:
     return out
 
 
-def signals(now: datetime | None = None) -> tuple[dict[str, dict], list[str]]:
-    """Wikipedia title -> {news, news_at, headlines, geos}; plus errors from feeds that failed."""
+def signals(now: datetime | None = None, pool: list[dict] | None = None) -> tuple[dict[str, dict], list[str]]:
+    """Wikipedia title -> {news, news_at, headlines, geos}; plus errors from feeds that failed. A headline whose
+    search finds no pool article is matched against pool (see reverse)."""
     hits: dict[str, dict] = {}
     errors = []
     items = []
@@ -94,9 +146,13 @@ def signals(now: datetime | None = None) -> tuple[dict[str, dict], list[str]]:
         except Exception:
             return None
 
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        titles = list(pool.map(safe_match, items))
+    with ThreadPoolExecutor(max_workers=6) as workers:
+        titles = list(workers.map(safe_match, items))
+    pooled = {p["title"] for p in pool or []}
     for h, title in zip(items, titles):
+        if pool and title not in pooled:
+            # A story article the headline names beats whatever older article the search ranked first.
+            title = reverse(h["title"], pool) or title
         if not title:
             continue
         row = hits.setdefault(title, {"news": 0, "news_at": h["at"], "headlines": [], "geos": set()})
@@ -105,5 +161,6 @@ def signals(now: datetime | None = None) -> tuple[dict[str, dict], list[str]]:
         row["news"] += HEADLINE_FAME * min(h["outlets"], 6)
         row["news_at"] = max(row["news_at"], h["at"])
         row["headlines"].append(h["title"])
-        row["geos"].add(h["feed"].split("-")[0])
+        # A world section is not a country's signal (it must not make a story an India story).
+        row["geos"].add("world" if h["feed"] == "world" else h["feed"].split("-")[0])
     return hits, errors

@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 STATE = Path(__file__).resolve().parents[1] / "state"
+# Reasons that only mean "not yet": they never count as a try, and a story once given up for them comes back.
+WAITS = ("under 6 hours old",)
 
 
 def now() -> str:
@@ -59,6 +61,8 @@ def retry(story_id: str, reason: str, limit: int = 6) -> bool:
     """Count a retryable failure; past `limit` the story is skipped for good. True while it may still be retried."""
     tries = load("retries", {})
     row = tries.get(story_id, {"count": 0})
+    if waiting(row.get("reason")):
+        row = {"count": 0}
     row = {"count": row["count"] + 1, "reason": reason, "at": now()}
     tries[story_id] = row
     save("retries", tries)
@@ -68,5 +72,10 @@ def retry(story_id: str, reason: str, limit: int = 6) -> bool:
     return True
 
 
+def waiting(reason: str | None) -> bool:
+    return any(w in (reason or "") for w in WAITS)
+
+
 def is_done(story_id: str) -> bool:
-    return any(r["id"] == story_id for r in published()) or story_id in load("skipped", {})
+    skipped = load("skipped", {}).get(story_id)
+    return any(r["id"] == story_id for r in published()) or bool(skipped and not waiting(skipped.get("reason")))

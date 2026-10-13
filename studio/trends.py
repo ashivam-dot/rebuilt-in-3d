@@ -25,7 +25,19 @@ ONGOING_MAX_YEARS = 2
 ONGOING_MIN_HEADLINES = 2
 TRENDS_RSS = "https://trends.google.com/trending/rss?geo={geo}"
 HT = "{https://trends.google.com/trending/rss}"
+# Google Trends' RSS now lists about ten searches a country with traffic of "100+" to "5000+": any listed search is
+# trending now, so none is ignored for its size (a 1000 floor once left every Trends signal at zero).
+TRENDS_MIN_TRAFFIC = 100
 TOP_N = 400
+# Below the top TOP_N, Wikipedia's most-read list (1000 deep) still counts for people who just died and fresh events.
+TOP_DEEP = 1000
+NEW_ARTICLE_H = 48
+# A GDACS Orange or Red alert (EU JRC / UN OCHA) for a disaster counts like a Current events listing, or more.
+GDACS_FAME = {"Orange": 50000, "Red": 150000}
+GDACS_MAX_DAYS = 4
+# A story Wikipedia's editors list on today's or yesterday's Current events page counts like two lead headlines.
+PORTAL_FAME = 50000
+PORTAL_LEADS = 2
 INCIDENT_MAX_DAYS = 30
 DEATH_MAX_DAYS = 10
 SUICIDE = "Q10737"
@@ -41,18 +53,73 @@ def google_trends(geo: str) -> list[dict]:
     return out
 
 
+def story_pool(today: date, errors: list[str]) -> list[dict]:
+    """Articles headlines and searches may be matched to by their words (news.reverse): people who died in the last
+    DEATH_MAX_DAYS days and event articles created in the last NEW_ARTICLE_H hours."""
+    pool = []
+    try:
+        pool += [news.pool_item(d["title"], person=True, qid=d["qid"])
+                 for d in wiki.recent_deaths(today - timedelta(days=DEATH_MAX_DAYS))]
+    except Exception as exc:
+        errors.append(f"wikidata recent deaths: {exc}"[:200])
+    try:
+        pool += [news.pool_item(t) for t in wiki.new_articles(NEW_ARTICLE_H) if title_kind(t, today)]
+    except Exception as exc:
+        errors.append(f"wikipedia new articles: {exc}"[:200])
+    return pool
+
+
+def _add_events(pool: list[dict], titles, today: date) -> None:
+    """Add the event-shaped titles among titles to the pool."""
+    known = {p["title"] for p in pool}
+    pool += [news.pool_item(t) for t in dict.fromkeys(titles) if t not in known and title_kind(t, today)]
+
+
+def gdacs_hits(today: date) -> list[tuple[str, dict]]:
+    """(English article, alert) for each recent GDACS Orange or Red alert whose disaster has an article."""
+    from . import gdacs
+
+    out = []
+    for a in gdacs.alerts():
+        if not a.get("published") or (today - date.fromisoformat(a["published"][:10])).days > GDACS_MAX_DAYS:
+            continue
+        name, cat = gdacs.subject(a)
+        if not name:
+            continue
+        hits = net.get_json(wiki.API, params={"action": "query", "list": "search", "srlimit": 5, "format": "json",
+                                              "formatversion": 2, "srsearch": f"{today.year} {name} {gdacs.WORD[cat]}"})
+        title = next((h["title"] for h in hits["query"]["search"] if title_kind(h["title"], today) == cat
+                      and name.lower() in h["title"].lower()), None)
+        if title:
+            out.append((title, a))
+    return out
+
+
 def _signals() -> tuple[dict[str, dict], list[str]]:
     """title -> {views, traffic, via}; plus any errors (one failed source must not stop the radar)."""
     hits: dict[str, dict] = {}
     errors = []
+    now = datetime.now(timezone.utc)
+    pool = story_pool(now.date(), errors)
+    deep = {p["title"] for p in pool}
     try:
         day, top = wiki.top_articles()
-        for title, views in top[:TOP_N]:
+        for rank, (title, views) in enumerate(top[:TOP_DEEP]):
+            if rank >= TOP_N and title not in deep and not title_kind(title, now.date()):
+                continue
             hits.setdefault(title, {"views": 0, "traffic": 0, "via": []})
             hits[title]["views"] = views
             hits[title]["via"].append(f"wikipedia-top-{day.isoformat()}")
     except Exception as exc:
         errors.append(f"wikipedia top: {exc}"[:200])
+    listed = {}
+    for back in (1, 0):
+        d = now.date() - timedelta(days=back)
+        try:
+            listed[d] = wiki.current_events(d)
+        except Exception as exc:
+            errors.append(f"wikipedia current events {d}: {exc}"[:200])
+    _add_events(pool, list(hits) + [t for rows in listed.values() for t, _ in rows], now.date())
     for geo in GEOS:
         try:
             trends = google_trends(geo)
@@ -60,10 +127,12 @@ def _signals() -> tuple[dict[str, dict], list[str]]:
             errors.append(f"google trends {geo}: {exc}"[:200])
             continue
         for t in trends:
-            if t["traffic"] < 1000:
+            if t["traffic"] < TRENDS_MIN_TRAFFIC:
                 continue
+            # A search is matched to the story its own news items name before Wikipedia's search is asked.
+            title = next(filter(None, (news.reverse(s, pool) for s in [t["query"]] + t["news"])), None)
             try:
-                title = wiki.search(t["query"])
+                title = title or (None if re.search(r"[^\x00-\u024f]", t["query"]) else wiki.search(t["query"]))
             except Exception:
                 continue
             if not title:
@@ -73,7 +142,26 @@ def _signals() -> tuple[dict[str, dict], list[str]]:
             h["via"].append(f"google-trends-{geo}:{t['query']}")
             h.setdefault("geos", set()).add(geo)
     try:
-        lead, news_errors = news.signals()
+        for title, a in gdacs_hits(now.date()):
+            h = hits.setdefault(title, {"views": 0, "traffic": 0, "via": []})
+            h["gdacs"] = max(h.get("gdacs", 0), GDACS_FAME.get(a["level"], 0))
+            h["gdacs_at"] = max(h.get("gdacs_at", a["published"]), a["published"])
+            h["via"].append(f"{a['id']}:{a['level']}")
+            if a.get("country") == "India":
+                h.setdefault("geos", set()).add("IN")
+    except Exception as exc:
+        errors.append(f"gdacs: {exc}"[:200])
+    for day, rows in listed.items():
+        live_at = min(now, datetime.combine(day + timedelta(days=1), datetime.min.time(), timezone.utc)).isoformat()
+        for title, india in rows:
+            h = hits.setdefault(title, {"views": 0, "traffic": 0, "via": []})
+            h["portal"] = h.get("portal", 0) + PORTAL_FAME
+            h["portal_at"] = max(h.get("portal_at", live_at), live_at)
+            h["via"].append(f"wikipedia-current-events-{day}")
+            if india:
+                h.setdefault("geos", set()).add("IN")
+    try:
+        lead, news_errors = news.signals(pool=pool)
         errors += news_errors
     except Exception as exc:
         lead = {}
@@ -148,6 +236,40 @@ def candidate(title: str) -> dict:
 ORDER = ("aviation", "attack", "explosion", "rail", "maritime", "strike", "earthquake", "cyclone", "volcano", "flood",
          "wildfire", "landslide", "tsunami", "conflict", "disaster", "accident", "protest", "movement")
 
+# A brand-new event article often has no Wikidata item (or no instance-of) for its first day, exactly while the story
+# is hottest. Such an article still qualifies when its English title names the current year and one of these shapes,
+# the way Wikipedia titles events ("2026 Erie shooting", "2026 anti-CEC protests"). Riots, trials and elections stay out.
+TITLE_KINDS = (
+    (r"\bflight \d+\b|\b(air|plane|aircraft|helicopter|jet) ?crash", "aviation"),
+    (r"\b(shootings?|stabbings?|bombings?|massacre|attacks?|airstrikes?|missile strikes?|drone strikes?)\b", "attack"),
+    (r"\b(explosions?|blasts?)\b", "explosion"),
+    (r"\bderailment\b|\btrain (crash|collision|accident)\b", "rail"),
+    (r"\b(ferry|boat|ship) (sinking|capsizing|disaster|accident)\b|\bsinking of\b", "maritime"),
+    (r"\bearthquakes?\b", "earthquake"),
+    (r"\b(cyclone|hurricane|typhoon|tropical storm)\b", "cyclone"),
+    (r"\beruptions?\b", "volcano"),
+    (r"\b(floods?|flooding|cloudbursts?)\b", "flood"),
+    (r"\b(wild|bush|forest) ?fires?\b", "wildfire"),
+    (r"\b(landslides?|mudslides?|avalanches?)\b", "landslide"),
+    (r"\b(stampede|crowd crush|(building|bridge|dam) collapse|fire)\b", "disaster"),
+    (r"\b(bus|road|boat) (crash|accident)\b", "accident"),
+    (r"\b(protests?|demonstrations?)\b", "protest"),
+)
+TITLE_SKIP = (r"\b(riots?|trials?|elections?|by-?elections?|referendums?|seasons?|tournaments?|championships?|cups?|"
+              r"leagues?|films?|series|games|olympics)\b")
+
+
+def title_kind(title: str, today: date) -> str | None:
+    """The category a fresh event article's title names, or None (see TITLE_KINDS)."""
+    if not re.search(rf"\b({today.year}|{today.year - 1})\b", title) or re.search(TITLE_SKIP, title, re.I):
+        return None
+    return next((cat for pattern, cat in TITLE_KINDS if re.search(pattern, title, re.I)), None)
+
+
+def article_id(title: str) -> str:
+    """The id of a story told from an article Wikidata did not know yet; kept so it never comes back as wk-<QID>."""
+    return "wp-" + re.sub(r"[^\w-]+", "_", title).strip("_")
+
 
 def radar(today: date | None = None) -> dict:
     """Trending candidates, ranked by fame. Written to state/trends.json by the caller."""
@@ -157,6 +279,9 @@ def radar(today: date | None = None) -> dict:
         info = wiki.page_info(list(hits))
         qids = sorted({i["qid"] for i in info.values() if i.get("qid")})
         kinds = wiki.classify(qids) if qids else {}
+        for page in info.values():
+            if page.get("qid") and not kinds.get(page["qid"]) and (cat := title_kind(page["title"], today)):
+                kinds[page["qid"]] = {cat, "by-title"}
         relevant = [q for q in qids if kinds.get(q)]
         ents = wiki.entities(relevant) if relevant else {}
     except Exception as exc:
@@ -166,16 +291,24 @@ def radar(today: date | None = None) -> dict:
     out, seen = [], set()
     for title, h in hits.items():
         page = info.get(title)
-        if not page or not page.get("qid") or page["qid"] in seen:
+        if not page:
             continue
-        qid, cats = page["qid"], kinds.get(page["qid"], set())
-        ent = ents.get(qid)
-        if not cats or not ent:
-            continue
-        seen.add(qid)
-        fame = h["views"] + h["traffic"] + h.get("news", 0)
+        if not page.get("qid"):
+            cat = title_kind(page["title"], today)
+            if not cat or page["title"] in seen:
+                continue
+            qid, cats, ent = None, {cat, "by-title"}, {}
+            seen.add(page["title"])
+        else:
+            qid, cats = page["qid"], kinds.get(page["qid"], set())
+            ent = ents.get(qid)
+            if qid in seen or not cats or not ent:
+                continue
+            seen.add(qid)
+        fame = h["views"] + h["traffic"] + h.get("news", 0) + h.get("portal", 0) + h.get("gdacs", 0)
+        news_at = max(filter(None, (h.get("news_at"), h.get("portal_at"), h.get("gdacs_at"))), default=None)
         base = {"qid": qid, "title": page["title"], "fame": fame, "views": h["views"], "traffic": h["traffic"],
-                "news": h.get("news", 0), "news_at": h.get("news_at"), "headlines": h.get("headlines", []),
+                "news": h.get("news", 0), "news_at": news_at, "headlines": h.get("headlines", []),
                 "region": region(ent, h.get("geos", set())), "via": h["via"]}
         if "human" in cats:
             died = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P570")), None)
@@ -192,16 +325,18 @@ def radar(today: date | None = None) -> dict:
             continue
         when = _event_date(ent)
         if cat in ONGOING:
-            if len(h.get("headlines", [])) < ONGOING_MIN_HEADLINES or not is_current(ent, cat, today):
+            leads = len(h.get("headlines", [])) + (PORTAL_LEADS if h.get("portal") else 0)
+            if leads < ONGOING_MIN_HEADLINES or not is_current(ent, cat, today):
                 continue  # only news while several lead stories are about it, and while it is still going on
-            when = date.fromisoformat(h["news_at"][:10])
+            when = date.fromisoformat(news_at[:10])
         if not when:
             made = wiki.created(page["title"])
             when = made.date() if made else None
         if not when or not 0 <= (today - when).days <= INCIDENT_MAX_DAYS:
             continue
         coords = (page["lat"], page["lon"]) if page.get("lat") is not None else wiki.coords(ent)
-        out.append(base | {"id": story_id(qid, cat, when), "kind": "incident", "category": cat, "date": when.isoformat(),
+        sid = story_id(qid, cat, when) if qid else article_id(page["title"])
+        out.append(base | {"id": sid, "kind": "incident", "category": cat, "date": when.isoformat(),
                            "coords": coords,
                            "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
     out.sort(key=lambda c: -c["fame"])
