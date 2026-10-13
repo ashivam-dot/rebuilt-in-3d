@@ -1,30 +1,29 @@
 {
- "at": "2026-10-13T20:53:34+00:00",
+ "at": "2026-10-13T22:01:36+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 646703,
+   "fame": 520703,
    "views": 45703,
-   "traffic": 1000,
-   "news": 550000,
-   "news_at": "2026-10-13T17:55:27+00:00",
+   "traffic": 0,
+   "news": 425000,
+   "news_at": "2026-10-13T18:39:31+00:00",
    "headlines": [
+    "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
-    "Iran's Houthi allies' deadly attacks on Saudi Arabia create \"a difficult dilemma for President Trump\"",
-    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
     "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
+    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
     "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-trends-US:saudi news",
     "wikipedia-current-events-2026-10-12",
+    "google-news:As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "google-news:Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
-    "google-news:Iran's Houthi allies' deadly attacks on Saudi Arabia create \"a difficult dilemma for President Trump\"",
-    "google-news:Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+    "google-news:Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:The Hindu Group",
@@ -140,21 +139,37 @@
   {
    "qid": "Q141670823",
    "title": "Hurricane Isaias (2026)",
-   "fame": 148833,
+   "fame": 173833,
    "views": 23833,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T08:47:00+00:00",
+   "news": 150000,
+   "news_at": "2026-10-13T21:25:37+00:00",
    "headlines": [
-    "Hurricane Simon hitting western Mexico after tropical systems kill 5"
+    "Hurricane Simon hitting western Mexico after tropical systems kill 5",
+    "Florida officials say six people dead from Hurricane Isaias"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon hitting western Mexico after tropical systems kill 5"
+    "google-news:Hurricane Simon hitting western Mexico after tropical systems kill 5",
+    "google-news:Florida officials say six people dead from Hurricane Isaias",
+    "outlet:Guardian Media Group"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Florida officials say six people dead from Hurricane Isaias",
+     "url": "https://www.theguardian.com/us-news/2026/oct/13/hurricane-isaias-death-toll-florida",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-13T21:25:37+00:00"
+    }
+   ],
    "id": "wk-Q141670823",
    "kind": "incident",
    "category": "cyclone",
@@ -301,7 +316,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-13T20:53:34.270075+00:00",
+   "news_at": "2026-10-13T22:01:36.731445+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -357,6 +372,29 @@
    "date": "2026-10-08"
   },
   {
+   "qid": "Q7146900",
+   "title": "Pat Karney",
+   "fame": 25200,
+   "views": 0,
+   "traffic": 200,
+   "news": 25000,
+   "news_at": "2026-10-13T20:39:58+00:00",
+   "headlines": [
+    "Manchester legend Pat Karney dies aged 78 - latest tributes"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pat karney",
+    "google-news:Manchester legend Pat Karney dies aged 78 - latest tributes"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7146900",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
+  },
+  {
    "qid": "Q13119635",
    "title": "Madhu Kambikar",
    "fame": 16879,
@@ -375,26 +413,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
-  },
-  {
-   "qid": "Q228928",
-   "title": "Eva Marie Saint",
-   "fame": 8446,
-   "views": 8446,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q228928",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
   }
  ],
  "hazards": [
@@ -421,17 +439,6 @@
    "lon": "123.132"
   },
   {
-   "id": "gdacs-EQ-1570339",
-   "kind": "EQ",
-   "level": "Orange",
-   "title": "Orange earthquake (Magnitude 7.7M, Depth:12.647km) in Panama 09/10/2026 17:56 UTC, 100 thousand (in MMI>=VII).",
-   "country": "Panama",
-   "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570339",
-   "published": "2026-10-09T18:04:04+00:00",
-   "lat": "7.5868",
-   "lon": "-80.769"
-  },
-  {
    "id": "gdacs-TC-1001335",
    "kind": "TC",
    "level": "Orange",
@@ -439,8 +446,8 @@
    "country": "Mexico",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "20.3",
-   "lon": "-107.3"
+   "lat": "20.2",
+   "lon": "-107.5"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -462,7 +469,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-13T20:53:34.270075+00:00",
+   "news_at": "2026-10-13T22:01:36.731445+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -478,28 +485,50 @@
    "has_coords": false
   },
   {
+   "qid": "Q7146900",
+   "title": "Pat Karney",
+   "fame": 25200,
+   "views": 0,
+   "traffic": 200,
+   "news": 25000,
+   "news_at": "2026-10-13T20:39:58+00:00",
+   "headlines": [
+    "Manchester legend Pat Karney dies aged 78 - latest tributes"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pat karney",
+    "google-news:Manchester legend Pat Karney dies aged 78 - latest tributes"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7146900",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
+  },
+  {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 646703,
+   "fame": 520703,
    "views": 45703,
-   "traffic": 1000,
-   "news": 550000,
-   "news_at": "2026-10-13T17:55:27+00:00",
+   "traffic": 0,
+   "news": 425000,
+   "news_at": "2026-10-13T18:39:31+00:00",
    "headlines": [
+    "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
-    "Iran's Houthi allies' deadly attacks on Saudi Arabia create \"a difficult dilemma for President Trump\"",
-    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
     "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
+    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
     "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "google-trends-US:saudi news",
     "wikipedia-current-events-2026-10-12",
+    "google-news:As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
     "google-news:Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
-    "google-news:Iran's Houthi allies' deadly attacks on Saudi Arabia create \"a difficult dilemma for President Trump\"",
-    "google-news:Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+    "google-news:Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:The Hindu Group",
@@ -611,40 +640,18 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141670823",
-   "title": "Hurricane Isaias (2026)",
-   "fame": 148833,
-   "views": 23833,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T08:47:00+00:00",
-   "headlines": [
-    "Hurricane Simon hitting western Mexico after tropical systems kill 5"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-12",
-    "google-news:Hurricane Simon hitting western Mexico after tropical systems kill 5"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141670823",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
+ ],
  "outlets": {
-  "headlines": 780,
+  "headlines": 789,
   "feeds": 30,
   "owners": 21,
-  "matched": 62,
+  "matched": 57,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 62 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 57 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
