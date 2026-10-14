@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T08:39:05+00:00",
+ "at": "2026-10-14T09:13:30+00:00",
  "quakes": [],
  "trending": [
   {
@@ -46,28 +46,24 @@
   {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
-   "fame": 82722,
+   "fame": 57722,
    "views": 7722,
    "traffic": 0,
-   "news": 75000,
+   "news": 50000,
    "news_at": "2026-10-14T07:14:21+00:00",
    "headlines": [
-    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-    "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
+    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-13",
     "google-news:Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-    "google-news:Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
     "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Independent Digital News"
    ],
    "owners": [
     "Disney (ABC News)",
-    "Independent Digital News",
-    "Guardian Media Group"
+    "Independent Digital News"
    ],
    "reports": [
     {
@@ -89,16 +85,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-13T19:17:56+00:00"
-    },
-    {
-     "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
-     "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-13T04:29:46+00:00"
     }
    ],
    "id": "wk-Q141712917",
@@ -333,17 +319,6 @@
  ],
  "hazards": [
   {
-   "id": "gdacs-TC-1001337",
-   "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone TRUDY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.823 million .",
-   "country": "Mexico",
-   "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337",
-   "published": "2026-10-13T15:15:58+00:00",
-   "lat": "11.2",
-   "lon": "-97"
-  },
-  {
    "id": "gdacs-VO-1000152",
    "kind": "VO",
    "level": "Orange",
@@ -362,8 +337,8 @@
    "country": "Mexico",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "20.1",
-   "lon": "-107.6"
+   "lat": "19.8",
+   "lon": "-107.9"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -484,12 +459,12 @@
   }
  ],
  "outlets": {
-  "headlines": 778,
+  "headlines": 781,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
+  "matched": 43,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 778 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 781 headlines from 30 feeds (21 owners), 43 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
