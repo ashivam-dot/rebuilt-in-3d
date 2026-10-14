@@ -1,11 +1,17 @@
 {
- "at": "2026-10-14T14:38:17+00:00",
+ "at": "2026-10-14T15:09:51+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 11 trending), 4 hazard alerts",
-  "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q7327889: last Short went out 0.6 h ago",
-  "hold wk-Q141712917: last Short went out 0.6 h ago",
-  "hold wk-Q141544931: last Short went out 0.6 h ago"
- ]
+  "watch: 3 candidates (0 quakes, 12 trending), 4 hazard alerts",
+  "outlets: 810 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q7327889: gate: no draft passed the fact checks: these names or numbers are not in the sources: Studying",
+  "published wk-Q141712917: https://www.youtube.com/shorts/6A4lgP4dZ8A"
+ ],
+ "published": {
+  "video_id": "6A4lgP4dZ8A",
+  "url": "https://www.youtube.com/shorts/6A4lgP4dZ8A",
+  "title": "The Path and Impact of Hurricane Rachel",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
