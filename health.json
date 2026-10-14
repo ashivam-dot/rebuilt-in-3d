@@ -1,11 +1,14 @@
 {
- "at": "2026-10-14T02:35:12+00:00",
+ "at": "2026-10-14T03:05:24+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 12 trending), 4 hazard alerts",
-  "outlets: 783 headlines from 30 feeds (21 owners), 48 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q7146900: last Short went out 0.5 h ago",
-  "hold wk-Q6696719: last Short went out 0.5 h ago",
-  "hold wp-Draft_2026_Multan_train_derailment: last Short went out 0.5 h ago"
+  "learn: 12 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.35, 'typical_views_24h': 306}, 'kind:incident': {'n': 5, 'lift': 1.191, 'typical_views_24h': 227}}",
+  "watch: 5 candidates (0 quakes, 11 trending), 4 hazard alerts",
+  "outlets: 778 headlines from 30 feeds (21 owners), 44 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wk-Q7146900: last Short went out 1.1 h ago",
+  "hold wp-Draft_2026_Multan_train_derailment: last Short went out 1.1 h ago",
+  "hold wk-Q6696719: last Short went out 1.1 h ago",
+  "hold wk-Q7327889: last Short went out 1.1 h ago",
+  "hold wk-Q141544931: last Short went out 1.1 h ago"
  ]
 }
