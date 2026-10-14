@@ -46,6 +46,29 @@ OWNERS_NEEDED = 2
 # Real photos a story Short needs (2026-10-14: two for an incident, beats reuse them with other camera moves); a
 # tribute keeps three, at least one of them the person's matched face.
 MIN_PHOTOS, TRIBUTE_PHOTOS = 2, 3
+# Photos of the town it happened in, not of what happened (studio/media.py role "setting"), a Short may carry: a train
+# derailment once went out over a church, a shrine and a clock tower and no train at all (2026-10-14).
+MAX_SETTING = 1
+# What a transport incident's photos must show (file name or Commons description): the vehicle, its line, or the
+# station, airport or port. A railway's headquarters or a sign board shows none of them.
+SHOWS = {
+    "rail": re.compile(r"\b(trains?|railways?|rail|locomotives?|express|stations?|coach(es)?|carriages?|wagons?|"
+                       r"tracks?|metro|platforms?)\b", re.I),
+    "aviation": re.compile(r"\b(aircraft|airplanes?|aeroplanes?|airliners?|planes?|jets?|boeing|airbus|embraer|atr|"
+                           r"helicopters?|airports?|runways?|terminals?|airlines?|airways)\b", re.I),
+    "maritime": re.compile(r"\b(ships?|vessels?|ferr(y|ies)|boats?|ports?|harbou?rs?|docks?|jetty|piers?)\b", re.I),
+}
+NOT_SHOWN = re.compile(r"\b(headquarters|offices?|board|signs?|signboard|tickets?|logo|map)\b", re.I)
+SHOWN_NEEDED = 2
+
+
+def showing(category: str | None, photos: list[dict]) -> int:
+    """How many photos show what a rail, air or sea incident involved (SHOWS); 0 for other categories."""
+    pattern = SHOWS.get(category or "")
+    if not pattern:
+        return 0
+    return sum(bool(pattern.search(text)) and not NOT_SHOWN.search(text)
+               for text in (f"{p.get('file', '')} {p.get('description', '')}" for p in photos))
 _N = r"\d{1,3}(?:,\d{3})+|\d+"
 _HEDGE = r"(?P<hedge>(?:at least|more than|over|nearly|about|around|up to|some|almost|roughly)\s+)?"
 TOLLS = [
@@ -191,6 +214,15 @@ def _story(short: Short) -> list[str]:
     used = {b.shot for b in short.beats if b.shot.startswith("photo:")}
     if any(int(s.split(":")[1]) >= len(photos) for s in used):
         problems.append("beats: a beat points at a photo that does not exist")
+    setting = {i for i, p in enumerate(photos) if p.get("role") == "setting"}
+    if len(setting) > MAX_SETTING:
+        problems.append(f"photos: {len(setting)} only show the town or area (at most {MAX_SETTING})")
+    if short.beats and short.beats[0].shot in {f"photo:{i}" for i in setting}:
+        problems.append("beats: beat 1 opens on a photo of the town, not of what happened")
+    category = short.scene.get("category")
+    if short.kind == "incident" and category in SHOWS and (n := showing(category, photos)) < SHOWN_NEEDED:
+        problems.append(f"photos: only {n} usable photos show the {category} vehicle, line or station "
+                        f"(want {SHOWN_NEEDED})")
     if "AI voice" not in compose.DISCLOSURE:
         problems.append("end card: the AI-voice disclosure is missing")
     return problems

@@ -112,7 +112,8 @@ RULES = """RULES (all mandatory):
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
 - photo: the index of the PHOTO that best fits the beat. Beat 1 uses photo {best}. Use every photo at least once,
-  the same photo at most {most} times, and never the same photo on two beats in a row.
+  the same photo at most {most} times, and never the same photo on two beats in a row. A photo marked SETTING goes
+  on one beat only, the beat that says where it happened, and never on beat 1; every other beat shows what it says.
 - caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
   a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
 - title: 30 to 60 characters in normal title case, factual and moving, includes "{name}", no clickbait.
@@ -175,9 +176,13 @@ def report_ground(reports: list[dict] | None) -> str:
                      re.split(r"(?<=[.!?])\s+", r["excerpt"]) if s.strip())
 
 
+SETTING_NOTE = " [SETTING: shows only the town or area, not what happened]"
+
+
 def _messages(brief: str, facts: list[str], source: str, photos: list[dict], name: str,
               headlines: list[str] | None = None, reports: list[dict] | None = None) -> list[dict]:
-    listing = "\n".join(f"{i}: {p['description'] or p['file']}" for i, p in enumerate(photos))
+    listing = "\n".join(f"{i}: {p['description'] or p['file']}" + (SETTING_NOTE if p.get("role") == "setting" else "")
+                        for i, p in enumerate(photos))
     lead = ""
     if headlines:
         lead = ("\n\nTODAY'S LEAD HEADLINES (context only: use them to choose the angle and what to put first, but "
@@ -294,6 +299,12 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     for b in beats:
         if not 0 <= b["photo"] < len(photos):
             problems.append(f"photo {b['photo']} does not exist")
+    setting = {i for i, p in enumerate(photos) if p.get("role") == "setting"}
+    if beats and beats[0]["photo"] in setting:
+        problems.append(f"beat 1 uses photo {beats[0]['photo']}, which only shows the town: open on photo 0")
+    if sum(b["photo"] in setting for b in beats) > 1:
+        problems.append("a SETTING photo is on more than one beat: use it only on the beat that says where it "
+                        "happened, and show what each other beat says")
     # The publish gate's wording rules (studio/gate.py), checked here so a slip is rewritten, not the story dropped.
     lines = [("the title", draft.get("title", ""))] + [(f"beat {i + 1}", f"{b['say']} {b['caption']}")
                                                         for i, b in enumerate(beats)]
@@ -398,34 +409,66 @@ def pick_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
     files: Commons files an editor chose instead of searching; places: see media.find; context_qids: places and
     things the story links to, whose photos (with no featured face) fill in when the story has fewer than
     WANT_PHOTOS of its own: Commons first, then Openverse. A person needs at least one photo of their own face."""
-    kept = _own_photos(title, ent, folder, person, extra_qids, files, places)
+    kept = arrange(_own_photos(title, ent, folder, person, extra_qids, files, places))
     if len(kept) >= WANT_PHOTOS or files or not context_qids or (person and not kept):
         return kept
-    return (kept + fill_photos(context_qids, folder, {r["file"] for r in kept}, WANT_PHOTOS - len(kept)))[:8]
+    return arrange(kept + fill_photos(context_qids, folder, {r["file"] for r in kept}, WANT_PHOTOS - len(kept)))[:8]
+
+
+def arrange(photos: list[dict], category: str | None = None) -> list[dict]:
+    """Photos of what the story is about first (for a rail, air or sea incident, those showing the vehicle, line or
+    station before the rest), then at most gate.MAX_SETTING of the town or area it happened in."""
+    subject = [p for p in photos if p.get("role") != "setting"]
+    subject.sort(key=lambda p: not gate.showing(category, [p]) if category in gate.SHOWS else False)
+    return subject + [p for p in photos if p.get("role") == "setting"][:gate.MAX_SETTING]
 
 
 def fill_photos(context_qids: list[str], folder: Path, exclude: set[str], need: int = WANT_PHOTOS) -> list[dict]:
     """Photos of the places and things a story links to that feature no face: Commons (each item's main image and
     files from its article naming it), then, while fewer than `need`, Openverse photos naming the item. The Hindi
     desk excludes the same photos from a shared story (hindi-news-desk desk/orbitwire.py photo_pool)."""
-    def faceless(found: list, sub: str) -> list[dict]:
-        out = []
-        for r in media.as_dicts(media.download(found, folder / sub)):
-            img = cv2.imread(r["path"])
-            if featured_face(img, faces.detect(img) if img is not None else []):
-                continue
-            r["focus"] = None
-            out.append(r)
-        return out
-
-    kept = faceless(media.context(context_qids, exclude=exclude), "context")
+    kept = _faceless(media.context(context_qids, exclude=exclude), folder / "context")
     if len(kept) < need:
         try:
             found = media.openverse_for(context_qids, exclude=exclude | {r["file"] for r in kept})
         except Exception:
             found = []
-        kept += faceless(found, "openverse")
+        kept += _faceless(found, folder / "openverse")
     return kept
+
+
+def _faceless(found: list, folder: Path) -> list[dict]:
+    """Downloaded photos as dicts, without any that features a face."""
+    out = []
+    for r in media.as_dicts(media.download(found, folder)):
+        img = cv2.imread(r["path"])
+        if featured_face(img, faces.detect(img) if img is not None else []):
+            continue
+        r["focus"] = None
+        out.append(r)
+    return out
+
+
+VEHICLE_WORD = {"rail": "train", "aviation": "aircraft", "maritime": "ship"}
+
+
+def vehicle_photos(category: str, qids: list[str], folder: Path, exclude: set[str], limit: int = 3) -> list[dict]:
+    """For a rail, air or sea incident whose photos show too little of what was involved: Commons photos found by the
+    names of the train, line, operator, airline or ship it links to ("Pakistan Railways" train), with no featured
+    face. Never of a town or a country."""
+    found = []
+    for e in wiki.entities(qids).values() if qids else ():
+        name = wiki.label(e)
+        if not name or media.too_wide(e) or media.role_of(e) == "setting":
+            continue
+        try:
+            found += media.named(name, VEHICLE_WORD[category], exclude=exclude | {p.file for p in found})
+        except Exception:
+            continue
+        if len(found) >= limit:
+            break
+    return [r for r in _faceless(found[:limit], folder / "named")
+            if gate.showing(category, [r])]
 
 
 def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: list[str] | None,
@@ -440,7 +483,8 @@ def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
     for r, f, img, seen in zip(rows, picks, images, detected):
         if person and f is None:
             continue
-        if r["origin"] == "place" and img is not None and featured_face(img, seen):
+        if (r["origin"] == "place" or (places and r["origin"] == "article")) and img is not None \
+                and featured_face(img, seen):
             continue  # a place photo that features someone would pass them off as part of the story
         r["focus"] = [round(v) for v in f["box"]] if f else None
         r["others"] = sum(g is not f and g["box"][2] * g["box"][3] >= 0.25 * f["box"][2] * f["box"][3]
@@ -450,7 +494,8 @@ def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
     return sorted(kept, key=lambda r: r["others"] > 0)[:8]
 
 
-PERSON_CONTEXT = ("P19", "P69", "P108", "P54", "P463", "P166", "P800")  # birthplace, school, employer, team, ...
+# Team, employer, organisation, award and notable work before school and birthplace: a birthplace is only a setting.
+PERSON_CONTEXT = ("P54", "P108", "P463", "P166", "P800", "P69", "P19")
 
 
 def person_context(ent: dict) -> list[str]:
@@ -464,6 +509,34 @@ def incident_context(ent: dict, extra: list[str]) -> list[str]:
     located = [c["value"] for c in wiki.claims(ent, "P131")[:1] if isinstance(c["value"], str)
                and c["value"].startswith("Q")]
     return list(dict.fromkeys(extra + located))[:4]
+
+
+PLACE_FIELDS = ("location", "site", "place", "areas affected", "areas", "country")
+# Infobox fields that name what was involved: the train, its line and operator, the aircraft, airline or ship, the
+# stations or airports at either end, an attack's target.
+SUBJECT_FIELDS = ("target", "trains", "train", "line", "operator", "aircraft_type", "aircraft", "airline", "vessel",
+                  "ship", "origin", "destination", "stations")
+# Article links whose names say they are such a thing ("Rehman Baba Express", "Sher Shah Junction railway station").
+SUBJECT_LINK = re.compile(r"\b(Express|Mail|Railways?|railway station|Junction|Line|Metro|Bridge|Airlines?|Airways|"
+                          r"Air|Airport|Flight|Boeing|Airbus|[Ff]erry|MV|MS)\b")
+
+
+def _links(wikitext: str) -> list[str]:
+    """Article links in order, without files, categories or other namespaces."""
+    return [t.strip() for t in re.findall(r"\[\[([^\]|#]+)", wikitext) if ":" not in t and t.strip()]
+
+
+BACKGROUND = re.compile(r"^==\s*(Background|History|Previous incidents|Similar incidents|See also|References|"
+                        r"External links)\s*==.*?(?=^==[^=]|\Z)", re.M | re.S)
+
+
+def subject_links(raw: dict, wikitext: str) -> list[str]:
+    """What an incident article links to that was involved in it, infobox subject fields first, then article links
+    whose names say what they are. A lower-case link ("[[passenger train]]") is a general idea, never the thing, and
+    a Background section's links (where the train was launched years ago) are not where it happened."""
+    links = _links(" ".join(raw.get(k, "") for k in SUBJECT_FIELDS))
+    links += [t for t in _links(BACKGROUND.sub("", wikitext)) if SUBJECT_LINK.search(t)]
+    return [t for t in dict.fromkeys(links) if t[:1].isupper()]
 
 
 SUICIDE = re.compile(r"\bsuicid\w*", re.I)
@@ -611,17 +684,32 @@ def build_incident(cand: dict) -> Short:
     extra = [c["value"] for pid in ("P276", "P1427", "P1444", "P121", "P137") for c in wiki.claims(ent, pid)[:1]
              if isinstance(c["value"], str) and c["value"].startswith("Q")]
     if not extra:
-        # An article Wikidata does not describe yet: the places its infobox links to give the location photos.
-        links = re.findall(r"\[\[([^\]|#]+)", " ".join(raw.get(k, "") for k in ("target", "location", "site", "place",
-                                                                                "areas affected", "areas", "country")))
-        found = wiki.page_info(list(dict.fromkeys(links))[:6]) if links else {}
-        extra = list(dict.fromkeys(p["qid"] for p in found.values() if p.get("qid")))[:3]
+        # An article Wikidata does not describe yet: what it links to (the train, the station, the target) gives the
+        # photos of what happened, and the places in its infobox at most one photo of where.
+        try:
+            text = wiki.wikitext(article)
+        except Exception:
+            text = ""
+        links = subject_links(raw, text) + _links(" ".join(raw.get(k, "") for k in PLACE_FIELDS))
+        found = wiki.page_info(list(dict.fromkeys(links))[:8]) if links else {}
+        extra = list(dict.fromkeys(found[t]["qid"] for t in dict.fromkeys(links)
+                                   if (found.get(t) or {}).get("qid")))[:5]
     sid = cand.get("id") or f"wk-{qid}"
     work = WORK / sid
     photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra, files=cand.get("photo_files"),
                          places=not qid, context_qids=incident_context(ent, extra))
+    if cat in gate.SHOWS and not cand.get("photo_files") and gate.showing(cat, photos) < gate.SHOWN_NEEDED:
+        photos += vehicle_photos(cat, extra, work / "photos", {p["file"] for p in photos})
+    photos = arrange(photos, cat)[:8]
+    if cat in gate.SHOWS:
+        # With enough photos of the train, plane or ship, a headquarters or a town photo would only be filler.
+        shown = [p for p in photos if gate.showing(cat, [p])]
+        photos = shown + [p for p in photos if p not in shown][:max(0, WANT_PHOTOS - len(shown))]
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
+    if cat in gate.SHOWS and (n := gate.showing(cat, photos)) < gate.SHOWN_NEEDED:
+        raise ValueError(f"gate: only {n} usable photos of {name} show the {VEHICLE_WORD[cat]}, its line or a "
+                         f"station or port (want {gate.SHOWN_NEEDED})")
     listed = stories._first(ib, "total_fatalities", "fatalities", "deaths")
     deaths = stories.agreed(listed, ent, "P1120", True)
     hurt = stories.agreed(stories._first(ib, "total_injuries", "injuries", "injured"), ent, "P1339", True)
@@ -735,6 +823,22 @@ def story_place(name: str) -> tuple[str | None, dict]:
     return qid, ent
 
 
+def story_subject(name: str) -> str | None:
+    """The Wikidata item an nw- story is named after when it is a thing, not a place or a person (a company such as
+    Aramco, an airline): its photos show what was hit, where a place's show only where."""
+    try:
+        title = wiki.search(name)
+    except Exception:
+        return None
+    if not title or name.lower() not in title.lower():
+        return None
+    qid = (wiki.page_info([title]).get(title) or {}).get("qid")
+    ent = wiki.entities([qid]).get(qid) if qid else None
+    if not ent or media.place_like(ent) or wiki.HUMAN in {c["value"] for c in wiki.claims(ent, "P31")}:
+        return None
+    return qid
+
+
 def build_report(cand: dict) -> Short:
     """A story Wikipedia has no article for yet (an nw- id, studio/outlets.py stories): told only from what at least
     two independent owners' articles say, with photos of the place it happened (Commons, then Openverse), and no
@@ -755,12 +859,14 @@ def build_report(cand: dict) -> Short:
     # The story is named by its most-cited word, which may be a company or a building ("Aramco"): the photos then
     # show the next named place that two owners' articles also name.
     where, (qid, place) = name, story_place(name)
+    thing = None if place else story_subject(name)
     for other in [] if place else cand.get("places") or []:
         if len(gate.reported(other, reports)) >= gate.OWNERS_NEEDED and (found := story_place(other))[1]:
             where, (qid, place) = other, found
             break
-    context = list(dict.fromkeys(([qid] if qid else []) + incident_context(place, [])))[:4] if place else []
-    photos = fill_photos(context, work / "photos", set())[:8] if context else []
+    context = list(dict.fromkeys(([thing] if thing else []) + ([qid] if qid else [])
+                                 + (incident_context(place, []) if place else [])))[:4]
+    photos = arrange(fill_photos(context, work / "photos", set()))[:8] if context else []
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
     kind = "protest" if cat in ("protest", "movement") else "incident"

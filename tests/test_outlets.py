@@ -243,7 +243,7 @@ def test_openverse_is_searched_only_for_places(monkeypatch):
     asked = []
     monkeypatch.setattr(media.wiki, "entities", lambda qids: {"Q1": PERSON | {"labels": {"en": {"value": "A Singer"}}},
                                                               "Q2": PLACE | {"labels": {"en": {"value": "Chamoli"}}}})
-    monkeypatch.setattr(media, "openverse", lambda q, exclude=None: asked.append(q) or [])
+    monkeypatch.setattr(media, "openverse", lambda q, exclude=None, role="subject": asked.append(q) or [])
     OPENVERSE_FOR(["Q1", "Q2"])
     assert asked == ["Chamoli"]
 

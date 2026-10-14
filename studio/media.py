@@ -40,6 +40,7 @@ class Photo:
     origin: str  # "wikidata", "article", "category", ... or "openverse"
     path: str = ""
     host: str = "Wikimedia Commons"  # where the file is credited: Commons, or "Openverse (Flickr)"
+    role: str = "subject"  # "setting": only the town or area it happened in, never the event or what was involved
 
     @property
     def credit(self) -> str:
@@ -103,58 +104,85 @@ def _shoot(file: str) -> str:
     return re.sub(r"[\s_(-]*(\(?image )?\d+\)?(?=[\s,.]|$).*$", "", stem)[:40]
 
 
+def too_wide(ent: dict) -> bool:
+    """A country, province or state (it has a capital): its photos are satellite views and landmarks far from any
+    one event, so a Short never shows them."""
+    return bool(wiki.claims(ent, "P36"))
+
+
+def role_of(ent: dict) -> str:
+    """"setting" for a town, city or village (it has a population): its photos show where something happened, never
+    what happened. A station, an airport, a school, a train, a line or an operator is the story's "subject"."""
+    return "setting" if wiki.claims(ent, "P1082") else "subject"
+
+
 def find(title: str, ent: dict, limit: int = 8, extra_qids: list[str] | None = None,
          places: bool = False) -> list[Photo]:
     """Up to `limit` usable photos: the Wikidata image first, then the article's own images, then its Commons category.
 
     Article and category files must name the story (the person's surname, the storm's name) in their file name or
     description, so a festival photo that merely sits in a person's category is not passed off as them.
-    extra_qids adds the main image of related items (a birthplace, an aircraft type, an airport) after those.
+    extra_qids adds the main image of related items (a birthplace, an aircraft type, an airport) after those, in the
+    order given, each with its role (role_of); countries and provinces are skipped (too_wide).
     places: also take photos from each related item's own article whose file name names that item (a city skyline,
-    the airport's terminal), for an article so new that Commons has nothing of the event itself.
+    the airport's terminal), for an article so new that Commons has nothing of the event itself. Such an article's
+    own images were put there by its editors (the station it happened at), so they need not name the story.
     The Hindi desk reproduces this ranking to keep its photos apart (hindi-news-desk desk/orbitwire.py).
     """
     keys = _keys(wiki.label(ent) or title) | _keys(title)
-    ordered: list[tuple[str, str]] = []
+    ordered: list[tuple[str, str, str]] = []
     for c in wiki.claims(ent, "P18"):
-        ordered.append(("File:" + c["value"], "wikidata"))
+        ordered.append(("File:" + c["value"], "wikidata", "subject"))
     try:
-        ordered += [(f, "article") for f in _article_files(title)]
+        ordered += [(f, "article", "subject") for f in _article_files(title)]
     except Exception:
         pass
     for c in wiki.claims(ent, "P373")[:1]:
         try:
-            ordered += [(f, "category") for f in _category_files(c["value"])]
+            ordered += [(f, "category", "subject") for f in _category_files(c["value"])]
         except Exception:
             pass
     if extra_qids:
-        related = wiki.entities(extra_qids)
+        related = {q: e for q, e in wiki.entities(extra_qids).items() if not too_wide(e)}
         for q, e in related.items():
-            ordered += [("File:" + c["value"], "related") for c in wiki.claims(e, "P18")[:1]]
+            ordered += [("File:" + c["value"], "related", role_of(e)) for c in wiki.claims(e, "P18")[:1]]
         for q, e in related.items() if places else ():
             ordered += _place_files(e)
-    return _usable(ordered, keys, limit)
+    return _usable(ordered, keys, limit, trust_article=places)
 
 
-def _place_files(e: dict) -> list[tuple[str, str]]:
+def _place_files(e: dict) -> list[tuple[str, str, str]]:
     """Up to three files from an item's own article whose names name the item (a city skyline, a school's front)."""
     page, own = wiki.sitelink(e, "enwiki"), _keys(wiki.label(e) or "")
     try:
         files = _article_files(page) if page and own else []
     except Exception:
         files = []
-    return [(f, "place") for f in files if _names(f.replace("_", " "), own) and not NOT_PHOTO.search(f)][:3]
+    role = role_of(e)
+    return [(f, "place", role) for f in files if _names(f.replace("_", " "), own) and not NOT_PHOTO.search(f)][:3]
+
+
+def named(name: str, also: str = "", limit: int = 3, exclude: set[str] | None = None) -> list[Photo]:
+    """Commons photos found by searching for a thing's name (a train, a railway, an airline) whose file name or
+    description names it, for an item with no main image of its own. also: a word that narrows the search ("train")."""
+    d = net.get_json(COMMONS, params={"action": "query", "list": "search", "srnamespace": 6, "srlimit": 20,
+                                      "srsearch": f'"{name}" {also} filetype:bitmap'.replace("  ", " "),
+                                      "format": "json", "formatversion": 2})
+    files = [h["title"] for h in d.get("query", {}).get("search", [])]
+    return _usable([(f, "search", "subject") for f in files], _keys(name), limit, exclude=exclude)
 
 
 def context(qids: list[str], limit: int = 6, exclude: set[str] | None = None) -> list[Photo]:
     """Photos of the places and things a story links to (a birthplace, a school, an award, the airport): each item's
     main image, then files from its article that name it. They fill a Short whose own photos are too few, and are
-    never of the story's person (the caller drops any that feature a face)."""
+    never of the story's person (the caller drops any that feature a face). Countries and provinces are skipped."""
     if not qids:
         return []
     ordered = []
     for e in wiki.entities(qids).values():
-        ordered += [("File:" + c["value"], "related") for c in wiki.claims(e, "P18")[:1]]
+        if too_wide(e):
+            continue
+        ordered += [("File:" + c["value"], "related", role_of(e)) for c in wiki.claims(e, "P18")[:1]]
         ordered += _place_files(e)
     return _usable(ordered, set(), limit, exclude=exclude)
 
@@ -166,7 +194,8 @@ OPENVERSE_LICENCES = {"cc0": "CC0", "by": "CC BY", "by-sa": "CC BY-SA"}
 OPENVERSE_PER_PLACE = 3
 
 
-def openverse(query: str, limit: int = OPENVERSE_PER_PLACE, exclude: set[str] | None = None) -> list[Photo]:
+def openverse(query: str, limit: int = OPENVERSE_PER_PLACE, exclude: set[str] | None = None,
+              role: str = "subject") -> list[Photo]:
     """Freely licensed photos of a place, object or scene from Openverse (keyless): CC0, CC BY or CC BY-SA only,
     from sources other than Wikimedia (Commons is read directly), whose title names the query, at most two by one
     creator. Never asked about a person: callers search only the places and things a story links to, and drop any
@@ -193,7 +222,7 @@ def openverse(query: str, limit: int = OPENVERSE_PER_PLACE, exclude: set[str] | 
         photos.append(Photo(file=file, url=url, page=r.get("foreign_landing_url") or url, width=r["width"],
                             height=r["height"], author=author, license=f"{lic} {r.get('license_version') or ''}".strip(),
                             description=title, date="", origin="openverse",
-                            host="Openverse" + (f" ({source.capitalize()})" if source else "")))
+                            host="Openverse" + (f" ({source.capitalize()})" if source else ""), role=role))
         if len(photos) >= limit:
             break
     return photos
@@ -207,16 +236,16 @@ def place_like(ent: dict) -> bool:
 
 def openverse_for(qids: list[str], limit: int = 6, exclude: set[str] | None = None) -> list[Photo]:
     """Openverse photos of the places a story links to (by their English Wikidata labels), in order; never of a
-    person, a group or a work (an item without coordinates)."""
+    person, a group or a work (an item without coordinates), nor of a country or province."""
     if not qids:
         return []
     out, seen = [], set(exclude or ())
     for e in wiki.entities(qids).values():
         name = wiki.label(e)
-        if not name or not place_like(e):
+        if not name or not place_like(e) or too_wide(e):
             continue
         try:
-            found = openverse(name, exclude=seen)
+            found = openverse(name, exclude=seen, role=role_of(e))
         except Exception:
             continue
         for p in found:
@@ -233,20 +262,21 @@ def picks(files: list[str], limit: int = 8) -> list[Photo]:
                    shoot_cap=limit)
 
 
-def _usable(ordered: list[tuple[str, str]], keys: set[str], limit: int, shoot_cap: int = 2,
-            exclude: set[str] | None = None) -> list[Photo]:
+def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2,
+            exclude: set[str] | None = None, trust_article: bool = False) -> list[Photo]:
+    """ordered: (file, origin) or (file, origin, role) rows, best first."""
     seen, files = set(), []
     banned = {e.replace("_", " ") for e in exclude or ()}
-    for f, origin in ordered:
+    for f, origin, *role in ordered:
         f = f.replace("_", " ")
         if f in banned:
             continue
         if f not in seen and not GRAPHIC.search(f) and (origin == "editor" or not NOT_PHOTO.search(f)):
             seen.add(f)
-            files.append((f, origin))
-    info = _info([f for f, _ in files])
+            files.append((f, origin, role[0] if role else "subject"))
+    info = _info([f for f, _, _ in files])
     photos, hashes, shoots = [], set(), {}
-    for f, origin in files:
+    for f, origin, role in files:
         ii = info.get(f)
         if not ii or ii.get("mime") not in ("image/jpeg", "image/png", "image/webp"):
             continue
@@ -257,7 +287,8 @@ def _usable(ordered: list[tuple[str, str]], keys: set[str], limit: int, shoot_ca
             continue
         if min(ii["width"], ii["height"]) < MIN_SIDE or ii.get("sha1") in hashes:
             continue
-        if origin in ("article", "category") and not _names(f"{f} {desc}", keys):
+        if (origin in ("category", "search") or (origin == "article" and not trust_article)) \
+                and not _names(f"{f} {desc}", keys):
             continue
         shoot = _shoot(f)
         if shoots.get(shoot, 0) >= shoot_cap:
@@ -267,7 +298,7 @@ def _usable(ordered: list[tuple[str, str]], keys: set[str], limit: int, shoot_ca
         author = _text(meta.get("Artist", {}).get("value"), 60) or "unknown author"
         photos.append(Photo(file=f, url=ii.get("thumburl") or ii["url"], page=ii["descriptionurl"], width=ii["width"],
                             height=ii["height"], author=author, license=lic, description=desc,
-                            date=_text(meta.get("DateTimeOriginal", {}).get("value"), 40), origin=origin))
+                            date=_text(meta.get("DateTimeOriginal", {}).get("value"), 40), origin=origin, role=role))
         if len(photos) >= limit:
             break
     return photos

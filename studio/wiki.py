@@ -259,15 +259,19 @@ def coords(ent: dict) -> tuple[float, float] | None:
     return tuple(rows[0]["value"]) if rows else None
 
 
+def wikitext(title: str) -> str:
+    d = net.get_json(API, params={"action": "parse", "page": title, "prop": "wikitext", "redirects": 1,
+                                  "format": "json", "formatversion": 2})
+    return d["parse"]["wikitext"]
+
+
 def infobox(title: str) -> tuple[str, dict[str, str], dict[str, str]]:
     """The article's first infobox: (template name, {field: plain text}, {field: raw wikitext}).
 
     Plain text has refs, markup and notes removed; templates such as {{death date and age}} vanish from it, so
     callers that need them read the raw value.
     """
-    d = net.get_json(API, params={"action": "parse", "page": title, "prop": "wikitext", "redirects": 1,
-                                  "format": "json", "formatversion": 2})
-    code = mwparserfromhell.parse(d["parse"]["wikitext"])
+    code = mwparserfromhell.parse(wikitext(title))
     for t in code.filter_templates(recursive=False):
         name = str(t.name).strip()
         if name.lower().startswith("infobox"):
