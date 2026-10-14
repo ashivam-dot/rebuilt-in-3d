@@ -1,32 +1,7 @@
 {
- "at": "2026-10-14T20:42:17+00:00",
+ "at": "2026-10-14T21:09:37+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141670823",
-   "title": "Hurricane Isaias (2026)",
-   "fame": 139865,
-   "views": 14865,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-13T08:47:00+00:00",
-   "headlines": [
-    "Hurricane Simon hitting western Mexico after tropical systems kill 5"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13",
-    "google-news:Hurricane Simon hitting western Mexico after tropical systems kill 5"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141670823",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q1355840",
    "title": "Mike Ditka",
@@ -66,6 +41,45 @@
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-13",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 32722,
+   "views": 7722,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-14T07:14:21+00:00",
+   "headlines": [
+    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-13",
+    "google-news:Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
+     "url": "https://abcnews.com/International/wireStory/death-toll-rises-6-hurricane-simon-rachel-remnants-137236894",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-14T07:14:21+00:00"
+    }
+   ],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
    "coords": null,
    "has_coords": false
   },
@@ -174,6 +188,28 @@
    "date": "2026-10-13"
   },
   {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 14865,
+   "views": 14865,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-13"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141670823",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-06",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q5300674",
    "title": "Doug Loft",
    "fame": 10932,
@@ -212,28 +248,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-06"
-  },
-  {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 7722,
-   "views": 7722,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
   }
  ],
  "hazards": [
@@ -267,8 +281,8 @@
    "country": "Mexico",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "19.7",
-   "lon": "-108.1"
+   "lat": "19.3",
+   "lon": "-108.3"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -284,12 +298,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 802,
+  "headlines": 800,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 36,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 34 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 36 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
