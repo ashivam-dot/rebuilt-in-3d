@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T06:44:55+00:00",
+ "at": "2026-10-14T07:44:44+00:00",
  "quakes": [],
  "trending": [
   {
@@ -44,13 +44,35 @@
    "has_coords": true
   },
   {
+   "qid": "Q141718063",
+   "title": "Parvinder Singh Jhota",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-13T05:55:32+00:00",
+   "headlines": [
+    "Punjab anti-drug activist Parminder Singh Jhota shot dead in Mansa while live-streaming on Facebook"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Punjab anti-drug activist Parminder Singh Jhota shot dead in Mansa while live-streaming on Facebook"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141718063",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
+  },
+  {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
    "fame": 82722,
    "views": 7722,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-10-14T06:02:21+00:00",
+   "news_at": "2026-10-14T07:14:21+00:00",
    "headlines": [
     "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
     "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast"
@@ -78,7 +100,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-14T06:02:21+00:00"
+     "at": "2026-10-14T07:14:21+00:00"
     },
     {
      "title": "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
@@ -253,46 +275,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-13"
-  },
-  {
-   "qid": "Q5300674",
-   "title": "Doug Loft",
-   "fame": 10932,
-   "views": 10932,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5300674",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
-  },
-  {
-   "qid": "Q7327889",
-   "title": "Richard Morecroft",
-   "fame": 7945,
-   "views": 7945,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7327889",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
   }
  ],
  "hazards": [
@@ -342,6 +324,28 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q141718063",
+   "title": "Parvinder Singh Jhota",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-13T05:55:32+00:00",
+   "headlines": [
+    "Punjab anti-drug activist Parminder Singh Jhota shot dead in Mansa while live-streaming on Facebook"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Punjab anti-drug activist Parminder Singh Jhota shot dead in Mansa while live-streaming on Facebook"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141718063",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
+  },
   {
    "qid": null,
    "title": "2026 Multan train derailment",
@@ -405,26 +409,6 @@
    "date": "2026-10-13"
   },
   {
-   "qid": "Q7327889",
-   "title": "Richard Morecroft",
-   "fame": 7945,
-   "views": 7945,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7327889",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
-  },
-  {
    "qid": "Q141544931",
    "title": "2026 Ethiopian offensive",
    "fame": 19141,
@@ -447,13 +431,16 @@
    "has_coords": false
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
+ ],
  "outlets": {
   "headlines": 777,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 31,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 777 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 777 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
