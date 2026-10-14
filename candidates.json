@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T22:10:18+00:00",
+ "at": "2026-10-14T22:37:29+00:00",
  "quakes": [],
  "trending": [
   {
@@ -45,6 +45,45 @@
    "has_coords": false
   },
   {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 32722,
+   "views": 7722,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-14T07:14:21+00:00",
+   "headlines": [
+    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-13",
+    "google-news:Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
+     "url": "https://abcnews.com/International/wireStory/death-toll-rises-6-hurricane-simon-rachel-remnants-137236894",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-14T07:14:21+00:00"
+    }
+   ],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q6696719",
    "title": "Lucian Piane",
    "fame": 32682,
@@ -86,7 +125,7 @@
   },
   {
    "qid": "Q141695384",
-   "title": "October 2026 attacks on Saudi airports",
+   "title": "October 2026 attacks on Saudi Arabia airports",
    "fame": 19436,
    "views": 19436,
    "traffic": 0,
@@ -211,26 +250,24 @@
    "date": "2026-10-06"
   },
   {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 7722,
-   "views": 7722,
-   "traffic": 0,
+   "qid": "Q198341",
+   "title": "Jorge Castro (boxer)",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "google-trends-US:muerte"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
+   "id": "wk-Q198341",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-14"
   }
  ],
  "hazards": [
@@ -244,17 +281,6 @@
    "published": "2026-10-14T14:31:53+00:00",
    "lat": "10.4",
    "lon": "160.5"
-  },
-  {
-   "id": "gdacs-VO-1000152",
-   "kind": "VO",
-   "level": "Orange",
-   "title": "Volcanic eruption is on going for Kanlaon in Philippines",
-   "country": "Philippines",
-   "link": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000152",
-   "published": "2026-10-12T05:58:55+00:00",
-   "lat": "10.412",
-   "lon": "123.132"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -279,14 +305,35 @@
    "lon": "-84"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q198341",
+   "title": "Jorge Castro (boxer)",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:muerte"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q198341",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-14"
+  }
+ ],
  "outlets": {
-  "headlines": 805,
+  "headlines": 803,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 35,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 34 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
