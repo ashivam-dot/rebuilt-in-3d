@@ -43,13 +43,39 @@ def transcribe(audio: np.ndarray, sr: int) -> list[dict]:
     return words
 
 
+CLOSE = 0.75  # spelling likeness at which a heard word is the script's word ("rahman" for "rehman")
+
+
+def _spelled_alike(a: list[str], heard: list[dict]) -> tuple[list[str], list[dict]]:
+    """Whisper spells names and British words its own way: "Rehman" comes back "Rahman", "kilometres" "kilometers",
+    and "Sher Shah" one word "Shershah". A heard word that joins two script words is split in two, and a script word
+    of 5+ letters takes the heard spelling when CLOSE alike, so a good take of a foreign name is not called garbled."""
+    pairs = {x + y: (x, y) for x, y in zip(a, a[1:]) if x and y}
+    split = []
+    for h in heard:
+        n = _norm(h["text"])
+        if n in pairs:
+            mid = (h["start"] + h["end"]) / 2
+            split += [h | {"text": pairs[n][0], "end": mid}, h | {"text": pairs[n][1], "start": mid}]
+        else:
+            split.append(h)
+    vocab = {_norm(h["text"]) for h in split}
+    out = []
+    for w in a:
+        if len(w) >= 5 and w not in vocab:
+            near = difflib.get_close_matches(w, [v for v in vocab if len(v) >= 4], n=1, cutoff=CLOSE)
+            w = near[0] if near else w
+        out.append(w)
+    return out, split
+
+
 def align(script: str, heard: list[dict], duration: float) -> tuple[list[dict], float]:
     """Script words with times taken from the matching heard words; unmatched words are spread between neighbours.
 
     Returns (words, match ratio of script words found in the transcript).
     """
     said = script.split()
-    a = [_norm(w) for w in said]
+    a, heard = _spelled_alike([_norm(w) for w in said], heard)
     b = [_norm(w["text"]) for w in heard]
     times: list[tuple[float, float] | None] = [None] * len(said)
     matcher = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
