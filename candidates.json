@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T14:12:46+00:00",
+ "at": "2026-10-14T14:38:18+00:00",
  "quakes": [],
  "trending": [
   {
@@ -121,6 +121,43 @@
    "has_coords": false
   },
   {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 46750,
+   "views": 21750,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-14T13:21:38+00:00",
+   "headlines": [
+    "Marathi industry celebs attend Nana Patekar’s prayer meet in Mumbai"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-13",
+    "google-news:Marathi industry celebs attend Nana Patekar’s prayer meet in Mumbai",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "owners": [
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Marathi industry celebs attend Nana Patekar’s prayer meet in Mumbai",
+     "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/nana-patekar-prayer-meet-shivaji-satam-rohini-hattangadi-sanjay-jadhav-and-others-pay-tribute-to-the-late-actor-in-mumbai/articleshow/134943744.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-14T13:21:38+00:00"
+    }
+   ],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
    "qid": "Q6696719",
    "title": "Lucian Piane",
    "fame": 32682,
@@ -139,26 +176,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
-  },
-  {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 21750,
-   "views": 21750,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
   },
   {
    "qid": "Q141695384",
@@ -267,6 +284,17 @@
  ],
  "hazards": [
   {
+   "id": "gdacs-TC-1001338",
+   "kind": "TC",
+   "level": "Orange",
+   "title": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.177 million .",
+   "country": "Guam",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
+   "published": "2026-10-14T14:31:53+00:00",
+   "lat": "9.6",
+   "lon": "161.2"
+  },
+  {
    "id": "gdacs-VO-1000152",
    "kind": "VO",
    "level": "Orange",
@@ -301,26 +329,6 @@
   }
  ],
  "candidates": [
-  {
-   "qid": "Q6696719",
-   "title": "Lucian Piane",
-   "fame": 32682,
-   "views": 32682,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6696719",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-12"
-  },
   {
    "qid": "Q7327889",
    "title": "Richard Morecroft",
@@ -416,12 +424,12 @@
   }
  ],
  "outlets": {
-  "headlines": 806,
+  "headlines": 808,
   "feeds": 30,
   "owners": 21,
   "matched": 38,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
