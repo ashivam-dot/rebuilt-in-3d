@@ -379,11 +379,29 @@ def names(reports: list[dict], lang: str = "en") -> list[str]:
 
 # Stories Wikipedia has no article for yet. Their headline must name an incident or a protest; sport, gossip,
 # elections, trials and politics never qualify, nor do opinion, explainers and live blogs.
+# Flight incidents (2026-10-14): an aircraft and what happened to it, in either order ("Air India flight diverted to
+# Jaipur after hijack alert", "Hijack alert: flight diverted").
+AIRCRAFT = r"planes?|aircraft|airliners?|jets?|helicopters?|choppers?|flights?|airlines?|airways"
+AIR_EVENT = (r"crash\w*|divert\w*|emergency landings?|hijack\w*|bomb (threat|scare)s?|turbulence|engine (fire|failure)s?|"
+             r"mayday|skid\w* off")
+# A war's new strikes: missiles, drones and rockets that hit something, and strikes on infrastructure. Never a
+# warning, a test or a launch into space, and a bare "strike" never when it is a labour strike or a deal.
+WEAPON = r"missiles?|drones?|rockets?|shelling"
+IMPACT = r"hits?|strikes?|struck|slams?|pounds?|batter\w*|barrage|attacks?|kill\w*|damag\w*|destroy\w*|sink\w*"
+STRIKE_WORD = r"strikes?|struck|attacks?|batter\w*|pounds?|shell(s|ed|ing)|bombard\w*"
+NOT_A_STRIKE = r"warns?|warning|could|might|plans?|drills?|exercises?|tests?|test-fire\w*|spacex|isro|nasa|satellites?"
+NOT_AT_WAR = (r"workers?|unions?|employees|staff|doctors|nurses|teachers|drivers|truckers|pilots|miners|farmers|"
+              r"walk-?outs?|wages?|pay|hunger|bandh|general strike|nationwide strike|on strike|deals?|agreements?|"
+              r"pacts?|accords?|balance|shares|stocks?|prices?|profits?|earnings|gold|lightning")
+INFRASTRUCTURE = (r"energy|power|grids?|infrastructure|substations?|depots?|refiner(y|ies)|oil|fuel|pipelines?|"
+                  r"dams?|ports?|facilit(y|ies)|plants?")
 HEADLINE_KINDS = (
-    (r"\b(plane|aircraft|helicopter|jet|airliner|flight)\b.*\b(crash\w*|crash-lands?)\b|\b(plane|helicopter|air) crash",
-     "aviation"),
-    (r"\b(shooting|gunman|gunmen|stabbing|bombing|suicide bomb\w*|terror attack|militant attack|drone strikes?|"
-     r"missile strikes?|air ?strikes?|grenade attack)\b", "attack"),
+    (rf"^(?=.*\b({AIRCRAFT})\b)(?=.*\b({AIR_EVENT})\b)|\b(plane|helicopter|air) crash", "aviation"),
+    (r"\b(shooting|gunman|gunmen|stabbing|bombing|suicide bomb\w*|terror attack|militant attack|grenade attack)\b",
+     "attack"),
+    (r"\b(cyber ?-?attack\w*|ransomware|cyber ?-?(breach|incident)s?)\b", "cyberattack"),
+    (rf"^(?!.*\b({NOT_A_STRIKE})\b)(?:(?=.*\b({WEAPON})\b)(?=.*\b({IMPACT})\b)|(?=.*\b(drone|missile|air ?) ?strikes?\b)|"
+     rf"(?!.*\b({NOT_AT_WAR})\b)(?=.*\b({STRIKE_WORD})\b)(?=.*\b({INFRASTRUCTURE})\b))", "strike"),
     (r"\b(explosion|explosions|blast)\b", "explosion"),
     (r"\b(derail\w*|train (crash|collision|accident))\b", "rail"),
     (r"\b(boat|ferry|ship|vessel)\b.*\b(capsiz\w*|sinks|sank|sinking)\b", "maritime"),
@@ -411,6 +429,8 @@ gaza palestinian lebanon syria afghanistan africa african asia asian japan japan
 german italy spain canada australia mexico brazil indonesia philippines turkey saudi arabia uae world global
 government police army centre center state states national north south east west northern southern eastern western
 pm president un""".split())
+# Words that help match headlines but never name a story ("Air India", "Air Canada").
+NAMELESS = {"air"}
 STOP = set("""the and for from with into over after near of on in at to by a an as is are was were be been has have had
 its it this that these those their they them his her who what when where how why amid says said say will would
 could can may more most than new latest update updates report reports reported day days week year years""".split())
@@ -428,8 +448,47 @@ def _stem(word: str) -> str:
     return word[:-1] if len(word) > 4 and word.endswith("s") and not word.endswith("ss") else word
 
 
+# Words that say what kind of incident it is, not which one: two flights diverted after bomb threats on one day
+# share "flight", "diverted", "bomb" and "threat" and are still two stories.
+KIND_WORD = re.compile(rf"({AIRCRAFT}|{AIR_EVENT}|{WEAPON}|{IMPACT}|{STRIKE_WORD}|bombs?|threats?|alerts?|scares?|"
+                       r"emergency|landing|airstrikes?)", re.I)
+
+
 def _kind_word(word: str) -> bool:
-    return any(re.search(p, word, re.I) for p, _ in HEADLINE_KINDS)
+    return bool(KIND_WORD.fullmatch(word)) or any(re.search(p, word, re.I) for p, _ in HEADLINE_KINDS)
+
+
+# Armed groups, and who a strike headline says struck ("Houthi missile", "Russia's strikes", "Saudi-led coalition",
+# "Russia pounds Kharkiv"): an attack or strike Short never names them.
+ARMED_GROUPS = set("""houthi houthis hamas hezbollah taliban isis isil daesh al-qaeda qaeda al-shabaab shabaab boko
+haram wagner pkk ttp rsf jnim lashkar jaish""".split())
+# "Russian missiles", "Russia's strikes": a possessive or a demonym before the weapon is who fired it; a plain place
+# there is the target ("deadly Kyiv strikes", "Black Sea strikes").
+_BY_WEAPON = re.compile(rf"\b([A-Z][\w\-]*?)(['’]s)?\s+(?:['‘][^'’]{{1,20}}['’]\s+)?"
+                        rf"(?i:{WEAPON}|(?:air ?)?strikes?|airstrikes?|attacks?|barrage|forces|troops|army|military)\b")
+DEMONYM = re.compile(r"(an|ian|i|ese|ish)$")
+_ATTACKER = (
+    re.compile(r"^([A-Z][\w\-]+(?: [A-Z][\w\-]+)?)\s+(?i:strikes|batters|pounds|shells|bombs|attacks|hits|"
+               r"launch(?:es)?|fires|targets)\s"),
+    re.compile(r"\b([A-Z][\w\-]+)\s+(?i:intensif\w+|launch(?:es|ed)?|fire[sd]?)\s+(?i:new\s+|fresh\s+)?"
+               rf"(?i:{WEAPON}|(?:air ?)?strikes?|attacks?|wave)"),
+    re.compile(r"\b([A-Z]\w+)-(?i:led|backed)\b"),
+    re.compile(r"\b([A-Z][\w\-]+)\s+(?:(?i:likely|probably|is|was|were|are)\s+)?(?i:behind)\b"),
+    re.compile(r"\b(?i:strikes?|attacks?|struck)\s+(?i:by)\s+([A-Z][\w\-]+)"),
+)
+
+
+def attackers(titles: list[str]) -> list[str]:
+    """The names these headlines give to whoever struck or attacked, for the writer to leave out."""
+    found = []
+    for title in titles:
+        found += [w for w in re.findall(r"[A-Za-z][\w\-]*", title) if w.lower() in ARMED_GROUPS]
+        for m in _BY_WEAPON.finditer(title):
+            if m.group(2) or DEMONYM.search(m.group(1)):
+                found.append(m.group(1))
+        for pattern in _ATTACKER:
+            found += [w for m in pattern.finditer(title) for w in m.group(1).split()]
+    return sorted({w for w in found if not KIND_WORD.fullmatch(w) and w.lower() not in STOP})
 
 
 def headline_keys(title: str) -> tuple[set[str], set[str], str | None]:
@@ -496,8 +555,11 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
         kind = headline_kind(i["title"])
         if kind:
             keys, names_, lead = headline_keys(i["title"])
-            rows.append({"item": i, "kind": kind, "keys": keys, "names": names_,
-                         "maybe": names_ | ({lead} if lead else set())})
+            maybe = names_ | ({lead} if lead else set())
+            # In headline order, so that the story's name is the same on every run when two names tie.
+            ordered = list(dict.fromkeys(k for w in re.findall(r"[A-Za-z][A-Za-z'’\-]*", i["title"])
+                                         if (k := _stem(w)) in maybe))
+            rows.append({"item": i, "kind": kind, "keys": keys, "names": names_, "maybe": maybe, "ordered": ordered})
 
     def same(a: dict, b: dict) -> bool:
         if a["kind"] != b["kind"]:
@@ -506,8 +568,7 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
         named = a["maybe"] & b["maybe"] & (a["names"] | b["names"])
         return bool(named) and len(shared) >= (2 if named - GENERIC else 3)
 
-    clusters: list[dict] = []
-    for row in sorted(rows, key=lambda r: r["item"]["at"]):
+    def home_for(row: dict, clusters: list[dict]) -> dict | None:
         # A headline joins the story at least half of whose headlines it matches: with 35 feeds, one loose link
         # would otherwise chain two incidents into one.
         best, home = 0, None
@@ -515,13 +576,29 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
             hits = sum(same(row, other) for other in c["rows"])
             if hits * 2 >= len(c["rows"]) and hits > best:
                 best, home = hits, c
+        return home
+
+    def add(home: dict, row: dict) -> None:
+        home["names"] |= row["names"]
+        home["counts"].update(row["ordered"])
+        home["rows"].append(row)
+        home["items"].append(row["item"])
+
+    clusters: list[dict] = []
+    for row in sorted(rows, key=lambda r: r["item"]["at"]):
+        home = home_for(row, clusters)
         if home is None:
             home = {"kind": row["kind"], "names": set(), "rows": [], "items": [], "counts": Counter()}
             clusters.append(home)
-        home["names"] |= row["names"]
-        home["counts"].update(row["maybe"])
-        home["rows"].append(row)
-        home["items"].append(row["item"])
+        add(home, row)
+    # A headline that came before the one linking it to a story stands alone after the first pass ("attack hits
+    # Saudi Aramco facility" before "missile hits Aramco building ... Yemen fuel depot"): it joins now, by the same rule.
+    for c in [c for c in clusters if len(c["rows"]) == 1]:
+        if len(c["rows"]) != 1:
+            continue
+        if home := home_for(c["rows"][0], [o for o in clusters if o is not c]):
+            add(home, c["rows"][0])
+            clusters.remove(c)
     out = []
     for c in clusters:
         fresh = [i for i in c["items"] if (now - datetime.fromisoformat(i["at"])).total_seconds() <= NEW_WINDOW_H * 3600]
@@ -530,13 +607,19 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
             continue
         if any(news.reverse(i["title"], [p]) for p in pool for i in c["items"]):
             continue  # Wikipedia already has the story's article: it is told from there
-        named = [k for k, _ in c["counts"].most_common() if k in c["names"] and k not in GENERIC]
+        heads = list(dict.fromkeys(i["title"] for i in c["items"]))
+        struck = attackers(heads) if c["kind"] in ("attack", "strike") else []
+        banned = {_stem(w) for w in struck} | NAMELESS
+        named = [k for k, _ in c["counts"].most_common() if k in c["names"] and k not in GENERIC and k not in banned]
         if not named:
             continue
-        name_key = named[0]
-        name = next(w for i in c["items"] for w in re.findall(r"[A-Za-z][A-Za-z'’\-]*", i["title"])
-                    if _stem(w) == name_key)
-        name = re.sub(r"['’]s$", "", name)
+
+        def spelt(key: str) -> str:
+            word = next(w for i in c["items"] for w in re.findall(r"[A-Za-z][A-Za-z'’\-]*", i["title"])
+                        if _stem(w) == key)
+            return re.sub(r"['’]s$", "", word)
+
+        name = spelt(named[0])
         first = min(datetime.fromisoformat(i["at"]) for i in c["items"])
         newest = max(i["at"] for i in c["items"])
         lead = sorted(c["items"], key=_rank)[0]
@@ -545,7 +628,7 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
                     "name": name, "kind": "incident", "category": c["kind"], "date": first.date().isoformat(),
                     "news_at": newest, "owners": who, "fame": news.HEADLINE_FAME * min(len(who), 6),
                     "news": news.HEADLINE_FAME * min(len(who), 6), "views": 0, "traffic": 0,
-                    "headlines": list(dict.fromkeys(i["title"] for i in c["items"]))[:5],
+                    "headlines": heads[:5], "places": [spelt(k) for k in named[1:4]], "attackers": struck,
                     "hindi_headlines": [], "hindi_news": 0, "geos": sorted(geos),
                     "region": "india" if geos == {"IN"} else "world", "india_link": "IN" in geos,
                     "label_hi": None, "reports": [compact(i) for i in sorted(c["items"], key=_rank)][:8],

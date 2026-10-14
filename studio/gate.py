@@ -43,6 +43,9 @@ EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\U0001F000-\U0001F2FF]")
 # Outlet reporting (studio/outlets.py) backs a fact only when this many independent owners state it; a fact only one
 # outlet reports is never said.
 OWNERS_NEEDED = 2
+# Real photos a story Short needs (2026-10-14: two for an incident, beats reuse them with other camera moves); a
+# tribute keeps three, at least one of them the person's matched face.
+MIN_PHOTOS, TRIBUTE_PHOTOS = 2, 3
 _N = r"\d{1,3}(?:,\d{3})+|\d+"
 _HEDGE = r"(?P<hedge>(?:at least|more than|over|nearly|about|around|up to|some|almost|roughly)\s+)?"
 TOLLS = [
@@ -176,8 +179,9 @@ def _story(short: Short) -> list[str]:
 
     problems = []
     photos = short.scene.get("photos", [])
-    if len(photos) < 3:
-        problems.append(f"photos: only {len(photos)} (want 3 or more)")
+    need = TRIBUTE_PHOTOS if short.kind == "death" else MIN_PHOTOS
+    if len(photos) < need:
+        problems.append(f"photos: only {len(photos)} (want {need} or more)")
     credits = " ".join(short.credits)
     for p in photos:
         if not media.FREE.match(p.get("license", "")):

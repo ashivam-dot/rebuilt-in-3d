@@ -67,7 +67,22 @@ whose text is at least half the same are one owner; a story with fewer than two 
 - **Stories Wikipedia has no article for yet** (`nw-<yyyymmdd>-<place>-<kind>`): at least 3 independent owners
   within 24 hours, one of them official, a public broadcaster or international, whose headlines name the same
   incident or protest (same scope rules). A headline joins a story only when it matches most of the story's
-  headlines, so one headline naming two incidents never chains them together. They are told only from the reporting (at least two owners' articles must
+  headlines, so one headline naming two incidents never chains them together; a headline left alone because it came
+  before the one linking it to a story joins afterwards by the same rule. **Headline kinds (2026-10-14):** besides
+  crashes, attacks, explosions, disasters and protests, flight incidents (an aircraft diverted, an emergency landing,
+  a hijack alert or threat, a bomb threat or scare, turbulence, an engine fire or failure, a mayday), a war's new
+  strikes (missiles, drones, rockets or shelling that hit something, air strikes, strikes on power, fuel, oil, ports
+  and other infrastructure; never a labour strike, a deal, a warning, a drill, a test or a space launch) and
+  cyberattacks qualify. Live blogs, videos, explainers and the rest of the skip list still never do. Words that only
+  say what kind of incident it is ("flight", "diverted", "bomb threat", "missile") never match two headlines, so two
+  flights diverted after bomb threats on one day stay two stories. The 2026-10-13/14 feeds missed the Houthi strike on
+  an Aramco building (BBC, The Guardian, Euronews), which now forms one story; the Air India hijack alert reached
+  three owners that are all Indian national outlets, so it still needs one official, public or international outlet.
+  **Attackers are never named:** an attack or strike story's name is never an armed group or whoever the headlines
+  say struck ("Houthi missile", "Russia's strikes", "Saudi-led", "Russia pounds Kharkiv"); those names go to the
+  writer as banned words (plural and adjective forms included), and its draft is rewritten if it uses one. A story
+  named by a company or building ("Aramco") takes its photos from the next name in its headlines that is a place and
+  that two owners' articles name. They are told only from the reporting (at least two owners' articles must
   name the place), with photos of the place (Commons, then Openverse; the place must be a Wikidata item with
   coordinates, never a person). Once Wikipedia writes the article, the story is not told again for 7 days, and the published
   record keeps the report URLs and headlines so the Hindi desk's overlap rules match nw- stories too. **The lane is
@@ -87,12 +102,17 @@ The owner wants hot news caught on time without stepping in; the desk decides wh
 
 - Priority is fame halved every half-life (18 h for protests, 36 h for deaths), so a fresh story beats a bigger
   stale one. A follow-up headline does not make an old incident fresh.
-- India stories go out 09:00–23:00 IST, world stories 07:00–24:00 US Eastern; at most eight a UTC day, an hour
-  apart (2026-10-14; it was five, two hours apart, and ready stories sat waiting for the gap). Breaking news (under
+- India stories go out 09:00–23:00 IST. World stories go out whenever Europe or the US is awake: 07:00–24:00 London
+  time or 07:00–24:00 New York time, following daylight saving (06:00–04:00 UTC in summer, 07:00–05:00 UTC in
+  winter), so only about two hours a night are closed. At most twelve a UTC day, 40 minutes apart. **Second speed-up
+  (2026-10-14; owner: Orbitwire "must be among the most active channels"):** in the 36 hours before, 72 holds were
+  "outside the world window" (07:00–24:00 US Eastern closed it 04:00–11:00 UTC, while Europe and Asia were awake) and
+  55 were the one-hour gap; the first speed-up that morning had already raised five a day, two hours apart, to eight,
+  one hour apart. There is no minimum per day: a quota would force weak stories. Breaking news (under
   12 hours old with fame 400k+, or an incident five independent outlets report, two of them official, public or
-  international; or a quake that is magnitude 7+ or PAGER orange/red) may go out at any hour as a ninth, 30 minutes
-  after the last; wars and ongoing protests never take the breaking lane. YouTube gives each project 100 uploads a
-  day of its own quota, so uploads are not the limit.
+  international; or a quake that is magnitude 7+ or PAGER orange/red) may go out at any hour as one more, 30 minutes
+  after the last; wars, their strikes and ongoing protests never take the breaking lane. YouTube gives each project
+  100 uploads a day of its own quota, so uploads are not the limit.
 - **Big incidents are told while they happen (2026-10-14; owner: "these two channels should be fully active and
   publishing the videos as a big incident happen").** A Wikipedia article under 6 hours old is still not used (its
   facts move), but when at least three independent outlets, one of them official, public or international, already
@@ -104,16 +124,20 @@ The owner wants hot news caught on time without stepping in; the desk decides wh
   photo collages are never used (they mix in injured people).
 - A big ongoing story may be told as a 2–3 part series (Part N title, a teaser for the next part, editor-picked
   Commons photos). Parts can be scheduled with YouTube's own `publishAt`; the ledger records the release time, and
-  the desk keeps two hours clear around it.
+  the desk keeps the regular gap clear around it.
 - The run happens every 30 minutes.
 
 ## How a story Short looks (since 9 October 2026)
 
 The owner rejected the first format (a map with a flat voice reading facts) as lifeless; it must never come back.
 
-- **Pictures:** at least three real, freely licensed photos from Wikimedia Commons (CC0, public domain, CC BY,
+- **Pictures:** real, freely licensed photos from Wikimedia Commons (CC0, public domain, CC BY,
   CC BY-SA; never non-commercial or fair-use files), each credited by author and licence in the description and on
-  screen. For a person, every photo of a person must show them: their face is matched across the set. A story with
+  screen: at least two for an incident or an nw- story (since 2026-10-14; Hurricane Rachel was dropped after six
+  runs with two), whose beats then take turns between them with different camera moves, and at least three for a
+  tribute. For a person, every photo of a person must show them: their face is matched across the set. A tribute
+  with no matched photo of its subject is dropped at once, not retried (2026-10-14: Madhu Kambikar, Doug Loft and
+  Lucian Piane had each used five or six runs with none); one short of photos is still retried. A story with
   fewer than three photos of its own (a tribute needs at least one matched photo of its subject) is filled with
   photos of the places and things it links to: a person's birthplace, school, employer, team or award, an
   incident's places. A fill photo never features a face. A gentle depth-parallax camera move brings each still to

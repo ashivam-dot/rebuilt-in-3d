@@ -23,7 +23,8 @@ from . import faces, gate, llm, media, outlets, stories, trends, wiki
 from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
-MIN_PHOTOS = 3
+MIN_PHOTOS, TRIBUTE_PHOTOS = gate.MIN_PHOTOS, gate.TRIBUTE_PHOTOS
+WANT_PHOTOS = 3  # fill photos are looked for until a story has this many
 PLACE_FACE = 0.06  # a face this share of a place photo's shorter side features a person
 OUTRO = "Follow Orbitwire for the stories the whole world is talking about."
 CREDIT = "Facts: Wikipedia (CC BY-SA 4.0) and Wikidata (CC0); photos: Wikimedia Commons (licences listed below)"
@@ -110,8 +111,8 @@ RULES = """RULES (all mandatory):
 - Write numbers as digits (1994, 75). Use a year only when it helps the story.
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
-- photo: the index of the PHOTO that best fits the beat. Beat 1 uses photo {best}. Use every photo at least once if
-  you can, and the same photo at most twice.
+- photo: the index of the PHOTO that best fits the beat. Beat 1 uses photo {best}. Use every photo at least once,
+  the same photo at most {most} times, and never the same photo on two beats in a row.
 - caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
   a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
 - title: 30 to 60 characters in normal title case, factual and moving, includes "{name}", no clickbait.
@@ -183,7 +184,8 @@ def _messages(brief: str, facts: list[str], source: str, photos: list[dict], nam
                 "state only facts that are in CONFIRMED FACTS or SOURCE):\n" + "\n".join(f"- {h}" for h in headlines))
     user = (brief + "\n\nCONFIRMED FACTS:\n" + "\n".join(f"- {f}" for f in facts)
             + ("\n\nSOURCE (Wikipedia):\n" + source if source else "") + reporting_block(reports)
-            + lead + "\n\nPHOTOS:\n" + listing + "\n\n" + RULES.format(best=0, name=name)
+            + lead + "\n\nPHOTOS:\n" + listing + "\n\n"
+            + RULES.format(best=0, name=name, most=max(2, -(-8 // max(len(photos), 1))))
             + ("\nREPORTING counts as a SOURCE under its own rule: " + REPORTING_RULE + "." if reports else ""))
     return [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]
 
@@ -316,8 +318,9 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
                            if single else ""))
     for person in banned_names:
         for token in re.findall(r"[A-Z][a-z]{2,}", person):
-            if re.search(r"\b" + token + r"\b", text):
-                problems.append(f"never name a perpetrator ({token})")
+            # "Houthi" also bans "Houthis", "Russia" also "Russian" and "Russians"
+            if re.search(r"\b" + token + r"(?:s|n|ns|i|is)?\b", text):
+                problems.append(f"never name a perpetrator or attacker ({token})")
     return problems
 
 
@@ -394,14 +397,14 @@ def pick_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
     """Downloaded photos as dicts with a "focus" box: for a person, only photos in which their face is matched.
     files: Commons files an editor chose instead of searching; places: see media.find; context_qids: places and
     things the story links to, whose photos (with no featured face) fill in when the story has fewer than
-    MIN_PHOTOS of its own: Commons first, then Openverse. A person needs at least one photo of their own face."""
+    WANT_PHOTOS of its own: Commons first, then Openverse. A person needs at least one photo of their own face."""
     kept = _own_photos(title, ent, folder, person, extra_qids, files, places)
-    if len(kept) >= MIN_PHOTOS or files or not context_qids or (person and not kept):
+    if len(kept) >= WANT_PHOTOS or files or not context_qids or (person and not kept):
         return kept
-    return (kept + fill_photos(context_qids, folder, {r["file"] for r in kept}, MIN_PHOTOS - len(kept)))[:8]
+    return (kept + fill_photos(context_qids, folder, {r["file"] for r in kept}, WANT_PHOTOS - len(kept)))[:8]
 
 
-def fill_photos(context_qids: list[str], folder: Path, exclude: set[str], need: int = MIN_PHOTOS) -> list[dict]:
+def fill_photos(context_qids: list[str], folder: Path, exclude: set[str], need: int = WANT_PHOTOS) -> list[dict]:
     """Photos of the places and things a story links to that feature no face: Commons (each item's main image and
     files from its article naming it), then, while fewer than `need`, Openverse photos naming the item. The Hindi
     desk excludes the same photos from a shared story (hindi-news-desk desk/orbitwire.py photo_pool)."""
@@ -559,8 +562,12 @@ def build_death(cand: dict) -> Short:
         job = next(iter(wiki.labels([c["value"] for c in wiki.claims(ent, "P106")[:1]]).values()), "")
     work = WORK / f"wk-{qid}"
     photos = pick_photos(title, ent, work / "photos", person=True, context_qids=person_context(ent))
-    if len(photos) < MIN_PHOTOS:
-        raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
+    if not photos:
+        # Commons will not grow a portrait in the next few hours: give the runs to stories that can be made.
+        raise ValueError(f"gate: no photo on Wikimedia Commons shows {name}'s face (a tribute needs one)")
+    if len(photos) < TRIBUTE_PHOTOS:
+        raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons "
+                         f"(want {TRIBUTE_PHOTOS})")
     facts_text = [f"{name} died on {stories.date_words(died)}, aged {age}.",
                   f"Born {stories.date_words(born)}" + (f" in {ib['birth_place']}." if ib.get("birth_place") else "."),
                   f"Died in {ib['death_place']}." if ib.get("death_place") else "",
@@ -745,27 +752,38 @@ def build_report(cand: dict) -> Short:
     named = gate.reported(name, reports)
     if len(named) < gate.OWNERS_NEEDED:
         raise ValueError(f"gate: fewer than {gate.OWNERS_NEEDED} independent outlets' articles name {name}")
-    qid, place = story_place(name)
+    # The story is named by its most-cited word, which may be a company or a building ("Aramco"): the photos then
+    # show the next named place that two owners' articles also name.
+    where, (qid, place) = name, story_place(name)
+    for other in [] if place else cand.get("places") or []:
+        if len(gate.reported(other, reports)) >= gate.OWNERS_NEEDED and (found := story_place(other))[1]:
+            where, (qid, place) = other, found
+            break
     context = list(dict.fromkeys(([qid] if qid else []) + incident_context(place, [])))[:4] if place else []
     photos = fill_photos(context, work / "photos", set())[:8] if context else []
     if len(photos) < MIN_PHOTOS:
-        raise ValueError(f"gate: only {len(photos)} usable photos of {name} (want {MIN_PHOTOS})")
+        raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
     kind = "protest" if cat in ("protest", "movement") else "incident"
     toll = gate.reported_toll(reports)
     words = [name] + sorted(outlets.headline_keys(cand["title"])[0])
     reports = clean_reports(reports, words, perpetrators=kind == "incident")
-    facts_text = [f"Place: {name}.", "Wikipedia's article on this is only hours old: only the REPORTING may be used."
+    facts_text = [f"Place: {where}.", "Wikipedia's article on this is only hours old: only the REPORTING may be used."
                   if cand.get("article") else "Wikipedia has no article on this yet: only the REPORTING may be used."]
     if toll:
         facts_text.append(f"Death toll ({toll_basis(toll[1])} agree): {toll[0]:,}.")
-    draft, log = write(kind, name, "It", facts_text, "", photos, log_path=work / "writer_log.json", reports=reports,
-                       casualties=bool(toll))
+    banned = []
+    if cat in ("attack", "strike"):
+        told = {w.lower() for w in (name, where)}
+        banned = [w for w in outlets.attackers((cand.get("headlines") or []) + [r["title"] for r in reports])
+                  if w.lower() not in told]
+    draft, log = write(kind, name, "It", facts_text, "", photos, banned_names=banned, log_path=work / "writer_log.json",
+                       reports=reports, casualties=bool(toll))
     facts = [Fact("name", name, next((r["url"] for r in reports if r["owner"] in named), reports[0]["url"]),
                   stories.numbers_in(name), "named in the reports of " + ", ".join(named), owners=named)]
     if toll:
         facts.append(toll_fact(toll[0], toll[1], reports, None))
     short = _short(sid, "incident", name, draft, log, facts, facts_text, "", photos, [r["url"] for r in reports],
-                   when.isoformat(), loss=bool(toll) or cat in ("attack", "conflict"), mood="news",
+                   when.isoformat(), loss=bool(toll) or cat in ("attack", "strike", "conflict"), mood="news",
                    voice=cand.get("region", "world"),
                    tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"],
                    summary=f"{name}: what happened, from the reporting of {', '.join(outlets.names(reports))}.",
