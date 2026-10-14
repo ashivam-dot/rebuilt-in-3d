@@ -1,13 +1,16 @@
 {
- "at": "2026-10-14T12:44:42+00:00",
+ "at": "2026-10-14T13:44:22+00:00",
  "ok": true,
  "steps": [
-  "watch: 5 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 791 headlines from 30 feeds (21 owners), 45 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wp-2026_Multan_train_derailment: last Short went out 0.6 h ago",
-  "hold wk-Q6696719: last Short went out 0.6 h ago",
-  "hold wk-Q198341: last Short went out 0.6 h ago",
-  "hold wk-Q7327889: last Short went out 0.6 h ago",
-  "hold wk-Q141544931: last Short went out 0.6 h ago"
- ]
+  "watch: 4 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 805 headlines from 30 feeds (21 owners), 43 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "published wp-2026_Multan_train_derailment: https://www.youtube.com/shorts/SDWq_O46W-8"
+ ],
+ "published": {
+  "video_id": "SDWq_O46W-8",
+  "url": "https://www.youtube.com/shorts/SDWq_O46W-8",
+  "title": "The 2026 Multan Train Derailment",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
