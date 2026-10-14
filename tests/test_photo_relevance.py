@@ -36,6 +36,15 @@ def test_an_incident_searches_the_train_line_operator_and_station_before_the_tow
     assert not {"passenger train", "Derailment", "Nishtar Hospital", "Peshawar Cantonment railway station"} & set(links)
 
 
+def test_a_new_article_without_a_wikidata_item_can_be_remade_by_hand(monkeypatch):
+    from studio import trends
+
+    monkeypatch.setattr(trends.wiki, "page_info", lambda titles: {t: {"title": t, "qid": None} for t in titles})
+    cand = trends.candidate("2026 Multan train derailment")
+    assert (cand["id"], cand["kind"], cand["category"], cand["qid"]) == (
+        "wp-2026_Multan_train_derailment", "incident", "rail", None)
+
+
 def _info(files):
     return {f: {"mime": "image/jpeg", "width": 2000, "height": 1500, "sha1": f, "descriptionurl": "https://c/" + f,
                 "url": "https://u/" + f, "extmetadata": {"LicenseShortName": {"value": "CC BY-SA 4.0"},

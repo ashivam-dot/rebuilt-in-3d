@@ -239,6 +239,11 @@ def story_id(qid: str, cat: str, when: date) -> str:
 def candidate(title: str) -> dict:
     """One article as a candidate, without the trend and freshness filters (for making a chosen story by hand)."""
     page = wiki.page_info([title]).get(title)
+    today = datetime.now(timezone.utc).date()
+    if page and not page.get("qid") and (cat := title_kind(page["title"], today)):
+        # A brand-new event article Wikidata has no item for yet, as the radar tells it (a wp- story).
+        return {"qid": None, "title": page["title"], "id": article_id(page["title"]), "fame": 0, "via": ["manual"],
+                "region": region({}, set()), "kind": "incident", "category": cat}
     if not page or not page.get("qid"):
         raise ValueError(f"no Wikidata item for {title!r}")
     cats = wiki.classify([page["qid"]])[page["qid"]]
@@ -250,7 +255,6 @@ def candidate(title: str) -> dict:
     cat = next((c for c in ORDER if c in cats), None)
     if not cat:
         raise ValueError(f"{title!r} is neither an incident nor a person ({sorted(cats)})")
-    today = datetime.now(timezone.utc).date()
     return base | {"id": story_id(page["qid"], cat, today), "kind": "incident", "category": cat}
 
 
