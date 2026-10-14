@@ -283,7 +283,7 @@ def reported_ok(item: str, reports: list[dict] | None) -> bool:
     return len(gate.reported(item, reports)) >= gate.OWNERS_NEEDED
 
 
-PLACE_CAPTION = re.compile(r"\b(Airport|Hospital|Medical Complex|Station|Terminal|Province|County|District|Street|Square|"
+PLACE_CAPTION = re.compile(r"\b(Airport|Hospital|Medical Complex|Station|Junction|Terminal|Province|County|District|Street|Square|"
                            r"Bridge|Harbou?r|Mosque|Cathedral|Church|Temple|Stadium)s?\b")
 
 

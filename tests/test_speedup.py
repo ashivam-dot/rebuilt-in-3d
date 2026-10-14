@@ -104,6 +104,8 @@ def test_a_caption_naming_a_place_is_rewritten():
     photos = [{"file": "File:0.jpg", "description": ""}]
     problems = writer._validate(draft, photos, "Chamoli", "Place: Chamoli.", [], [])
     assert any("names a place" in p for p in problems)
+    draft["beats"][0]["caption"] = "Sher Shah Junction"
+    assert any("names a place" in p for p in writer._validate(draft, photos, "Chamoli", "Place: Chamoli.", [], []))
     draft["beats"][0]["caption"] = "120 mph"
     assert not any("names a place" in p for p in writer._validate(draft, photos, "Chamoli", "Place: Chamoli.", [], []))
 
