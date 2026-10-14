@@ -266,7 +266,6 @@ ORDER = ("aviation", "attack", "explosion", "rail", "maritime", "strike", "earth
 # the way Wikipedia titles events ("2026 Erie shooting", "2026 anti-CEC protests"). Riots, trials and elections stay out.
 TITLE_KINDS = (
     (r"\bflight \d+\b|\b(air|plane|aircraft|helicopter|jet) ?crash", "aviation"),
-    (r"\bderailment\b", "rail"),
     (r"\b(shootings?|stabbings?|bombings?|massacre|attacks?|airstrikes?|missile strikes?|drone strikes?)\b", "attack"),
     (r"\b(explosions?|blasts?)\b", "explosion"),
     (r"\bderailment\b|\btrain (crash|collision|accident)\b", "rail"),
