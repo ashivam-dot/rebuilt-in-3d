@@ -1,13 +1,18 @@
 {
- "at": "2026-10-14T00:00:08+00:00",
+ "at": "2026-10-14T00:59:39+00:00",
  "ok": true,
  "steps": [
-  "learn: 12 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.35, 'typical_views_24h': 306}, 'kind:incident': {'n': 5, 'lift': 1.191, 'typical_views_24h': 227}}",
   "watch: 3 candidates (0 quakes, 10 trending), 4 hazard alerts",
-  "outlets: 787 headlines from 30 feeds (21 owners), 56 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q7146900: voice: beat 3 came out garbled (77% of words heard)",
+  "outlets: 780 headlines from 30 feeds (21 owners), 52 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q7146900: gate: no draft passed the fact checks: line 1 (Pat Karney has died at 26, leaving a void in the city he ser): its supporting quote is not in the sources | second look: The source sentences do not state that Pat Karney's death left a 'void in the city.' While the sources confirm his role as a councillor and his responsibilities in the city, the phrase 'leaving a void' is an emotional interpretation/exaggeration not present in the provid",
   "skip wp-Draft_2026_Multan_train_derailment: gate: only 0 usable photos of Draft:2026 Multan train derailment on Wikimedia Commons (want 3)",
-  "skip wk-Q141695384: gate: no draft passed the fact checks: line 8 (The situation remains under monitoring as authorities respon): unsupported: No sentence in the sources states that the situation remains under monitoring as authorities respond to the events. | second look: The source sentences do not contain any information regarding the current status of the situation (e.g., 'remains under monitoring') or the specific actions of 'authorities' responding ",
-  "nothing eligible to publish"
- ]
+  "published wk-Q141695384: https://www.youtube.com/shorts/W2Zvww-jNK4"
+ ],
+ "published": {
+  "video_id": "W2Zvww-jNK4",
+  "url": "https://www.youtube.com/shorts/W2Zvww-jNK4",
+  "title": "The October 2026 Attacks on Saudi Airports",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
