@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T18:46:02+00:00",
+ "at": "2026-10-14T19:41:14+00:00",
  "quakes": [],
  "trending": [
   {
@@ -26,57 +26,6 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 57722,
-   "views": 7722,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-14T07:14:21+00:00",
-   "headlines": [
-    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13",
-    "google-news:Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-     "url": "https://abcnews.com/International/wireStory/death-toll-rises-6-hurricane-simon-rachel-remnants-137236894",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-14T07:14:21+00:00"
-    },
-    {
-     "title": "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-     "url": "https://www.independent.co.uk/news/world/americas/pacific-sinaloa-guerrero-jalisco-acapulco-b3066179.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-13T19:17:56+00:00"
-    }
-   ],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q1355840",
@@ -263,6 +212,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-06"
+  },
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 7722,
+   "views": 7722,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-13"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "hazards": [
@@ -334,12 +305,12 @@
   }
  ],
  "outlets": {
-  "headlines": 808,
+  "headlines": 799,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
-  "corroborated": 1
+  "matched": 34,
+  "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 36 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 799 headlines from 30 feeds (21 owners), 34 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
