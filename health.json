@@ -1,18 +1,13 @@
 {
- "at": "2026-10-14T11:12:56+00:00",
+ "at": "2026-10-14T12:19:56+00:00",
  "ok": true,
  "steps": [
-  "watch: 5 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 785 headlines from 30 feeds (21 owners), 41 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wp-2026_Multan_train_derailment: voice: beat 2 came out garbled (73% of words heard)",
-  "skip wk-Q6696719: gate: only 0 usable photos of Lucian Piane on Wikimedia Commons (want 3)",
-  "published wk-Q11738696: https://www.youtube.com/shorts/E6n71qAotLw"
- ],
- "published": {
-  "video_id": "E6n71qAotLw",
-  "url": "https://www.youtube.com/shorts/E6n71qAotLw",
-  "title": "The Life and Legacy of Arsenal’s Ken Friar",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 13 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.35, 'typical_views_24h': 306}, 'kind:incident': {'n': 6, 'lift': 1.118, 'typical_views_24h': 187}}",
+  "watch: 4 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 787 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wp-2026_Multan_train_derailment: last Short went out 0.1 h ago",
+  "hold wk-Q6696719: last Short went out 0.1 h ago",
+  "hold wk-Q7327889: last Short went out 0.1 h ago",
+  "hold wk-Q141544931: last Short went out 0.1 h ago"
+ ]
 }
