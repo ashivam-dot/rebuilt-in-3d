@@ -1,15 +1,13 @@
 {
- "at": "2026-10-14T07:44:44+00:00",
+ "at": "2026-10-14T08:39:04+00:00",
  "ok": true,
  "steps": [
-  "watch: 5 candidates (0 quakes, 10 trending), 4 hazard alerts",
-  "outlets: 777 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "watch: 5 candidates (0 quakes, 12 trending), 4 hazard alerts",
+  "outlets: 778 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wp-2026_Multan_train_derailment: outside the world window",
   "hold wk-Q6696719: outside the world window",
   "hold wk-Q11738696: outside the world window",
-  "hold wk-Q141544931: outside the world window",
-  "skip wk-Q141718063: gate: Wikidata lacks an exact birth or death date",
-  "nothing eligible to publish"
+  "hold wk-Q7327889: outside the world window",
+  "hold wk-Q141544931: outside the world window"
  ]
 }
