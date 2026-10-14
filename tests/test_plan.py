@@ -7,11 +7,12 @@ def test_publish_cadence(tmp_path, monkeypatch):
     monkeypatch.setattr(ledger, "STATE", tmp_path)
     at = datetime(2026, 10, 9, 12, tzinfo=timezone.utc)
     assert plan.can_publish(at) is None
-    ledger.record_publish({"id": "eq-a", "published_at": "2026-10-09T11:00:00+00:00", "loss": False})
+    ledger.record_publish({"id": "eq-a", "published_at": "2026-10-09T11:40:00+00:00", "loss": False})
     assert "h ago" in plan.can_publish(at)
     assert "h ago" in plan.can_publish(at, breaking=True)
-    assert plan.can_publish(datetime(2026, 10, 9, 12, 20, tzinfo=timezone.utc), breaking=True) is None
-    for i, hour in enumerate(("01", "03", "05", "07")):
+    assert plan.can_publish(datetime(2026, 10, 9, 12, 15, tzinfo=timezone.utc), breaking=True) is None
+    assert plan.can_publish(datetime(2026, 10, 9, 12, 45, tzinfo=timezone.utc)) is None
+    for i, hour in enumerate(("01", "02", "03", "04", "05", "06", "07")):
         ledger.record_publish({"id": f"wk-{i}", "published_at": f"2026-10-09T{hour}:00:00+00:00", "loss": False})
     late = datetime(2026, 10, 9, 20, tzinfo=timezone.utc)
     assert "today" in plan.can_publish(late)
@@ -23,8 +24,8 @@ def test_a_scheduled_short_only_blocks_the_hours_around_it(tmp_path, monkeypatch
     monkeypatch.setattr(ledger, "STATE", tmp_path)
     ledger.record_publish({"id": "wk-s", "published_at": "2026-10-10T03:45:00+00:00", "loss": False})
     assert plan.can_publish(datetime(2026, 10, 9, 22, tzinfo=timezone.utc)) is None
-    assert "scheduled" in plan.can_publish(datetime(2026, 10, 10, 2, 30, tzinfo=timezone.utc))
-    assert "h ago" in plan.can_publish(datetime(2026, 10, 10, 5, tzinfo=timezone.utc))
+    assert "scheduled" in plan.can_publish(datetime(2026, 10, 10, 3, 0, tzinfo=timezone.utc))
+    assert "h ago" in plan.can_publish(datetime(2026, 10, 10, 4, 15, tzinfo=timezone.utc))
 
 
 def test_ledger_skip_marks_done(tmp_path, monkeypatch):

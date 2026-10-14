@@ -5,9 +5,11 @@ from dataclasses import replace
 
 import numpy as np
 
-from studio import cli, gate, outlets, writer, youtube
+from datetime import datetime, timedelta, timezone
+
+from studio import cli, gate, outlets, plan, trends, writer, youtube
 from studio.spec import Beat, Short
-from tests.test_outlets import NOW, _draft, item, report
+from tests.test_outlets import NOW, _cluster, _draft, item, report
 
 
 def test_world_outlets_are_english_and_name_their_owners():
@@ -46,6 +48,33 @@ def test_a_loose_link_never_chains_two_incidents():
             item("france24", "Athens: boat sinks off Piraeus", 1)]
     [story] = [s for s in outlets.stories(rows, NOW) if "mytilene" in s["id"]]
     assert story["headlines"] == [r["title"] for r in rows[:3]]  # the two Piraeus-only headlines never chain in
+
+
+def test_a_big_story_with_a_brand_new_article_is_told_from_the_reporting_at_once(monkeypatch):
+    rows = [i | {"matched": "2026 Chamoli cloudburst"} for i in _cluster()]
+    known = ["2026 Chamoli cloudburst"]
+    assert outlets.stories(rows, NOW, known=known) == []  # the article is settled: it is told from Wikipedia
+    [story] = outlets.stories(rows, NOW, known=known, young=known)
+    assert story["id"].startswith("nw-") and story["article"] == "2026 Chamoli cloudburst"
+
+    cand = {"id": "wk-Q99", "kind": "incident", "title": "2026 Chamoli cloudburst", "owners": ["BBC", "A", "B"]}
+    hours = {"2026 Chamoli cloudburst": 2, "Settled": 9, "Quiet": 1}
+    monkeypatch.setattr(trends.wiki, "created", lambda title: datetime.now(timezone.utc) - timedelta(hours=hours[title]))
+    cands = [cand, cand | {"title": "Settled"}, cand | {"title": "Quiet", "owners": ["BBC"]}]
+    assert trends.young_articles(cands) == ["2026 Chamoli cloudburst"]
+    told = [{"id": story["id"], "published_at": NOW.isoformat(), "article": "2026 Chamoli cloudburst"}]
+    assert plan.told_before(cand, told, NOW)
+
+
+def test_five_outlets_on_one_incident_make_it_breaking():
+    at = NOW
+    crash = {"kind": "incident", "category": "accident", "fame": 50_000, "news_at": NOW.isoformat(),
+             "owners": ["BBC", "United Nations", "NBCUniversal", "Fox Corporation", "Los Angeles Times"]}
+    assert plan.is_breaking(crash, at)
+    assert not plan.is_breaking(crash | {"owners": crash["owners"][1:]}, at)  # four outlets
+    assert not plan.is_breaking(crash | {"owners": ["BBC", "NBCUniversal", "Fox Corporation", "Los Angeles Times",
+                                                    "Paramount (CBS)"]}, at)  # one strong outlet
+    assert not plan.is_breaking(crash | {"category": "protest"}, at)
 
 
 def _validate(say, casualties=True, ground="Place: Chamoli. Himalayan valleys of northern India."):

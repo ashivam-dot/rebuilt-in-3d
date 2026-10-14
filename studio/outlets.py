@@ -471,18 +471,27 @@ def same_story(a: str, b: str, days: int = 2) -> bool:
     return abs((da - db).days) <= days
 
 
-def stories(items: list[dict], now: datetime, known: list[str] | None = None) -> list[dict]:
+def strong(who: list[str]) -> list[str]:
+    """The owners among these that are official, public broadcasters or international outlets."""
+    top = {o["owner"] for o in OUTLETS if o["group"] in STRONG}
+    return [o for o in who if o in top]
+
+
+def stories(items: list[dict], now: datetime, known: list[str] | None = None,
+            young: list[str] | None = None) -> list[dict]:
     """Stories at least NEW_OWNERS independent owners report within NEW_WINDOW_H (one of them STRONG) that no
-    Wikipedia article in `known` (or that Wikipedia's search found for any of their items) is about. English
-    headlines only. Two headlines tell one story when they name the same kind and a name, and share two distinctive
+    Wikipedia article in `known` (or that Wikipedia's search found for any of their items) is about. An article in
+    `young` is too new to be told from (stories.MIN_ARTICLE_AGE), so its story is told from the reporting meanwhile
+    and carries the article's title as "article". English headlines only. Two headlines tell one story when they name the same kind and a name, and share two distinctive
     words that are not countries or institutions (one of them the name), or three when the shared name is only a
     country; a headline's first word counts as a name when the other headline writes it as one."""
     from . import news
 
-    pool = [news.pool_item(t) for t in known or []]
+    young = set(young or [])
+    pool = [news.pool_item(t) for t in known or [] if t not in young]
     rows = []
     for i in items:
-        if i["lang"] != "en" or i.get("matched"):
+        if i["lang"] != "en" or (i.get("matched") and i["matched"] not in young):
             continue
         kind = headline_kind(i["title"])
         if kind:
@@ -540,5 +549,6 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None) ->
                     "hindi_headlines": [], "hindi_news": 0, "geos": sorted(geos),
                     "region": "india" if geos == {"IN"} else "world", "india_link": "IN" in geos,
                     "label_hi": None, "reports": [compact(i) for i in sorted(c["items"], key=_rank)][:8],
-                    "via": [f"outlet:{o}" for o in who], "emerging": True})
+                    "via": [f"outlet:{o}" for o in who], "emerging": True,
+                    "article": next((i["matched"] for i in c["items"] if i.get("matched") in young), None)})
     return sorted(out, key=lambda c: -c["fame"])

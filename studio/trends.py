@@ -364,7 +364,7 @@ def radar(today: date | None = None) -> dict:
                            "coords": coords,
                            "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
     try:
-        emerging = outlets.stories(read, datetime.now(timezone.utc), known=list(hits))
+        emerging = outlets.stories(read, datetime.now(timezone.utc), known=list(hits), young=young_articles(out))
     except Exception as exc:
         emerging = []
         errors.append(f"outlet stories: {type(exc).__name__}: {exc}"[:200])
@@ -373,6 +373,24 @@ def radar(today: date | None = None) -> dict:
     out.sort(key=lambda c: -c["fame"])
     return {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "candidates": out, "errors": errors,
             "scanned": len(hits), "emerging": emerging, "outlets": outlet_stats(read, out)}
+
+
+def young_articles(cands: list[dict]) -> list[str]:
+    """Incident articles too new to tell from (stories.MIN_ARTICLE_AGE) that enough independent outlets already
+    report: a big story is told from that reporting at once instead of waiting hours for the article to settle."""
+    from .stories import MIN_ARTICLE_AGE
+
+    out, now = [], datetime.now(timezone.utc)
+    for c in cands:
+        if c["kind"] != "incident" or len(c.get("owners") or []) < outlets.NEW_OWNERS:
+            continue
+        try:
+            made = wiki.created(c["title"])
+        except Exception:  # the story then simply waits for its article, as before
+            continue
+        if made and now - made < MIN_ARTICLE_AGE:
+            out.append(c["title"])
+    return out
 
 
 def outlet_stats(read: list[dict], cands: list[dict]) -> dict:

@@ -754,7 +754,8 @@ def build_report(cand: dict) -> Short:
     toll = gate.reported_toll(reports)
     words = [name] + sorted(outlets.headline_keys(cand["title"])[0])
     reports = clean_reports(reports, words, perpetrators=kind == "incident")
-    facts_text = [f"Place: {name}.", "Wikipedia has no article on this yet: only the REPORTING may be used."]
+    facts_text = [f"Place: {name}.", "Wikipedia's article on this is only hours old: only the REPORTING may be used."
+                  if cand.get("article") else "Wikipedia has no article on this yet: only the REPORTING may be used."]
     if toll:
         facts_text.append(f"Death toll ({toll_basis(toll[1])} agree): {toll[0]:,}.")
     draft, log = write(kind, name, "It", facts_text, "", photos, log_path=work / "writer_log.json", reports=reports,
@@ -769,7 +770,7 @@ def build_report(cand: dict) -> Short:
                    tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"],
                    summary=f"{name}: what happened, from the reporting of {', '.join(outlets.names(reports))}.",
                    hashtags=[cat, name, "news"], reports=reports, credit=REPORT_CREDIT)
-    short.scene["article"] = None
+    short.scene["article"] = cand.get("article")
     short.scene["headlines"] = cand.get("headlines") or []
     return short
 

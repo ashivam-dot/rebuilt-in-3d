@@ -87,9 +87,18 @@ The owner wants hot news caught on time without stepping in; the desk decides wh
 
 - Priority is fame halved every half-life (18 h for protests, 36 h for deaths), so a fresh story beats a bigger
   stale one. A follow-up headline does not make an old incident fresh.
-- India stories go out 09:00–23:00 IST, world stories 07:00–24:00 US Eastern; at most five a UTC day, two hours
-  apart. Breaking news (fame 400k+ and under 12 hours old, or a quake that is magnitude 7+ or PAGER orange/red) may
-  go out at any hour as a sixth, 75 minutes after the last; wars never take the breaking lane.
+- India stories go out 09:00–23:00 IST, world stories 07:00–24:00 US Eastern; at most eight a UTC day, an hour
+  apart (2026-10-14; it was five, two hours apart, and ready stories sat waiting for the gap). Breaking news (under
+  12 hours old with fame 400k+, or an incident five independent outlets report, two of them official, public or
+  international; or a quake that is magnitude 7+ or PAGER orange/red) may go out at any hour as a ninth, 30 minutes
+  after the last; wars and ongoing protests never take the breaking lane. YouTube gives each project 100 uploads a
+  day of its own quota, so uploads are not the limit.
+- **Big incidents are told while they happen (2026-10-14; owner: "these two channels should be fully active and
+  publishing the videos as a big incident happen").** A Wikipedia article under 6 hours old is still not used (its
+  facts move), but when at least three independent outlets, one of them official, public or international, already
+  report the incident, it is told at once from that reporting, exactly as an nw- story (two owners for every fact,
+  no toll unless the reports agree on it). The published record keeps the article's title, so the story is not told
+  again from Wikipedia later.
 - An ongoing story comes back at most once in 6 days, whatever its id, including hand-made series parts.
 - Without a death toll that Wikipedia and Wikidata agree on, an incident never mentions casualties (gate), and
   photo collages are never used (they mix in injured people).
