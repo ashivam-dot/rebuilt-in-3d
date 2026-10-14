@@ -1,29 +1,28 @@
 {
- "at": "2026-10-13T23:31:42+00:00",
+ "at": "2026-10-14T00:00:09+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 745703,
+   "fame": 470703,
    "views": 45703,
    "traffic": 0,
-   "news": 650000,
+   "news": 425000,
    "news_at": "2026-10-13T20:32:12+00:00",
    "headlines": [
     "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
-    "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
     "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
     "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
-    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ"
+    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+    "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "wikipedia-current-events-2026-10-12",
     "google-news:As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
-    "google-news:Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
     "google-news:Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
+    "google-news:Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:The Hindu Group",
@@ -215,6 +214,29 @@
    "date": "2026-10-08"
   },
   {
+   "qid": "Q7146900",
+   "title": "Pat Karney",
+   "fame": 125200,
+   "views": 0,
+   "traffic": 200,
+   "news": 125000,
+   "news_at": "2026-10-13T23:29:04+00:00",
+   "headlines": [
+    "Manchester legend Pat Karney dies aged 78 - latest tributes to 'true Mancunian' and 'force of nature'"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pat karney",
+    "google-news:Manchester legend Pat Karney dies aged 78 - latest tributes to 'true Mancunian' and 'force of nature'"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7146900",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
+  },
+  {
    "qid": "Q1355840",
    "title": "Mike Ditka",
    "fame": 92069,
@@ -317,35 +339,13 @@
    "has_coords": false
   },
   {
-   "qid": "Q141712628",
-   "title": "2026 Aubagne school shooting",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-13T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141712628",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-12",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": null,
    "title": "Draft:2026 Multan train derailment",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-13T23:31:42.793638+00:00",
+   "news_at": "2026-10-14T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -419,26 +419,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-06"
-  },
-  {
-   "qid": "Q7146900",
-   "title": "Pat Karney",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:pat karney"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7146900",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
   }
  ],
  "hazards": [
@@ -489,13 +469,36 @@
  ],
  "candidates": [
   {
+   "qid": "Q7146900",
+   "title": "Pat Karney",
+   "fame": 125200,
+   "views": 0,
+   "traffic": 200,
+   "news": 125000,
+   "news_at": "2026-10-13T23:29:04+00:00",
+   "headlines": [
+    "Manchester legend Pat Karney dies aged 78 - latest tributes to 'true Mancunian' and 'force of nature'"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pat karney",
+    "google-news:Manchester legend Pat Karney dies aged 78 - latest tributes to 'true Mancunian' and 'force of nature'"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7146900",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
+  },
+  {
    "qid": null,
    "title": "Draft:2026 Multan train derailment",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-13T23:31:42.793638+00:00",
+   "news_at": "2026-10-14T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -513,25 +516,24 @@
   {
    "qid": "Q141695384",
    "title": "October 2026 attacks on Saudi airports",
-   "fame": 745703,
+   "fame": 470703,
    "views": 45703,
    "traffic": 0,
-   "news": 650000,
+   "news": 425000,
    "news_at": "2026-10-13T20:32:12+00:00",
    "headlines": [
     "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
-    "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
     "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
     "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
-    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ"
+    "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+    "India asks its nationals in Saudi Arabia to ‘remain calm and vigilant’"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-12",
-    "wikipedia-current-events-2026-10-12",
     "google-news:As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
-    "google-news:Houthis threaten Saudi Aramco facilities, airports amid escalating conflict",
     "google-news:Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
+    "google-news:Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:The Hindu Group",
@@ -643,35 +645,15 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q7146900",
-   "title": "Pat Karney",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:pat karney"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7146900",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
   }
  ],
  "outlets": {
-  "headlines": 791,
+  "headlines": 787,
   "feeds": 30,
   "owners": 21,
-  "matched": 58,
+  "matched": 56,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 791 headlines from 30 feeds (21 owners), 58 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 56 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
