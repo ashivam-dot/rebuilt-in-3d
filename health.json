@@ -1,11 +1,17 @@
 {
- "at": "2026-10-14T16:57:33+00:00",
+ "at": "2026-10-14T17:25:58+00:00",
  "ok": true,
  "steps": [
   "watch: 2 candidates (0 quakes, 11 trending), 4 hazard alerts",
-  "outlets: 806 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "outlets: 810 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
   "skip wk-Q7327889: gate: only 2 usable photos of Richard Morecroft on Wikimedia Commons (want 3)",
-  "skip wk-Q141544931: gate: no draft passed the fact checks: line 1 (On September 23, 2026, a large-scale military offensive bega): partly: The source states the offensive was in Tigray, Afar, and Amhara, not Eritrea. While Eritrean troops entered Tigray, the offensive itself was not described as occurring 'across' Eritrea. | second look: The LINE states the offensive began 'across Ethiopia and Eritrea,' but the SOURCE SENTENCES specify the offensive was la",
-  "nothing eligible to publish"
- ]
+  "published wk-Q141544931: https://www.youtube.com/shorts/10i0Uix9sxY"
+ ],
+ "published": {
+  "video_id": "10i0Uix9sxY",
+  "url": "https://www.youtube.com/shorts/10i0Uix9sxY",
+  "title": "The 2026 Ethiopian Offensive and the Struggle for Tigray",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
