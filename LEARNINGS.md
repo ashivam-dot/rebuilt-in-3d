@@ -1,24 +1,25 @@
 # What this channel's own numbers say
 
-Updated 2026-10-15T16:11:23+00:00. Scored Shorts (views at 24 h): 18. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-15T19:18:46+00:00. Scored Shorts (views at 24 h): 19. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 161 views at 24 h.
-- kind:quake: x1.35 ranking lift (4 Shorts, typical 306 views)
-- kind:incident: x1.152 ranking lift (10 Shorts, typical 196 views)
+Baseline: a typical Short has 173 views at 24 h.
+- kind:quake: x1.326 ranking lift (4 Shorts, typical 306 views)
+- kind:incident: x1.188 ranking lift (11 Shorts, typical 219 views)
 - kind:death: x0.75 ranking lift (4 Shorts, typical 51 views)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q139998119-2026w42 | 2026-10-15T12:15 | incident | protest | 603 |  |
+| nw-20261014-black-strike | 2026-10-15T18:13 | incident | strike | 164 |  |
+| wk-Q139998119-2026w42 | 2026-10-15T12:15 | incident | protest | 649 |  |
 | wk-Q1438992 | 2026-10-15T04:17 | death | death | 778 |  |
-| wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 653 |  |
-| wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 268 | 268 |
+| wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 685 | 673 |
+| wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 271 | 268 |
 | wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 38 | 38 |
-| wk-Q11738696 | 2026-10-14T12:14 | death | death | 102 | 87 |
-| wk-Q141695384 | 2026-10-14T02:05 | incident | conflict | 314 | 294 |
+| wk-Q11738696 | 2026-10-14T12:14 | death | death | 114 | 87 |
+| wk-Q141695384 | 2026-10-14T02:05 | incident | conflict | 316 | 294 |
 | wk-Q141670823 | 2026-10-13T21:57 | incident | cyclone | 668 | 650 |
-| wk-Q141712628 | 2026-10-13T12:07 | incident | attack | 112 | 71 |
-| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 213 | 104 |
+| wk-Q141712628 | 2026-10-13T12:07 | incident | attack | 116 | 71 |
+| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 214 | 104 |
 | wk-Q228928 | 2026-10-11T04:41 | death | death | 17 | 12 |
 | eq-us6000u19w | 2026-10-11T01:07 | quake |  | 1368 | 1278 |
 | eq-us6000u1cf | 2026-10-10T14:45 | quake |  | 475 | 14 |
