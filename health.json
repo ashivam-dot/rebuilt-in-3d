@@ -1,10 +1,16 @@
 {
- "at": "2026-10-15T10:40:11+00:00",
+ "at": "2026-10-15T11:37:30+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 792 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-trump-strike",
-  "skip nw-20261014-trump-strike: gate: only 1 usable photos of Kyiv (want 2)",
-  "nothing eligible to publish"
- ]
+  "watch: 1 candidates (0 quakes, 13 trending), 3 hazard alerts",
+  "outlets: 791 headlines from 30 feeds (21 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "published wk-Q139998119-2026w42: https://www.youtube.com/shorts/h1yEYhle07o"
+ ],
+ "published": {
+  "video_id": "h1yEYhle07o",
+  "url": "https://www.youtube.com/shorts/h1yEYhle07o",
+  "title": "The Flamingo Revolution and Albania's Path to Reform",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
