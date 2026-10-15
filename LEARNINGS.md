@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-10-15T05:07:55+00:00. Scored Shorts (views at 24 h): 15. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-15T08:40:21+00:00. Scored Shorts (views at 24 h): 15. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 178 views at 24 h.
 - kind:quake: x1.309 ranking lift (4 Shorts, typical 306 views)
@@ -8,15 +8,15 @@ Baseline: a typical Short has 178 views at 24 h.
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q1438992 | 2026-10-15T04:17 | death | death | 208 |  |
-| wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 552 |  |
-| wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 262 |  |
-| wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 32 |  |
-| wk-Q11738696 | 2026-10-14T12:14 | death | death | 79 |  |
-| wk-Q141695384 | 2026-10-14T02:05 | incident | conflict | 305 | 294 |
-| wk-Q141670823 | 2026-10-13T21:57 | incident | cyclone | 661 | 650 |
-| wk-Q141712628 | 2026-10-13T12:07 | incident | attack | 103 | 71 |
-| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 211 | 104 |
+| wk-Q1438992 | 2026-10-15T04:17 | death | death | 559 |  |
+| wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 604 |  |
+| wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 265 |  |
+| wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 36 |  |
+| wk-Q11738696 | 2026-10-14T12:14 | death | death | 85 |  |
+| wk-Q141695384 | 2026-10-14T02:05 | incident | conflict | 309 | 294 |
+| wk-Q141670823 | 2026-10-13T21:57 | incident | cyclone | 662 | 650 |
+| wk-Q141712628 | 2026-10-13T12:07 | incident | attack | 109 | 71 |
+| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 212 | 104 |
 | wk-Q228928 | 2026-10-11T04:41 | death | death | 17 | 12 |
 | eq-us6000u19w | 2026-10-11T01:07 | quake |  | 1368 | 1278 |
 | eq-us6000u1cf | 2026-10-10T14:45 | quake |  | 475 | 14 |

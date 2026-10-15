@@ -1,5 +1,5 @@
 {
- "at": "2026-10-15T07:48:32+00:00",
+ "at": "2026-10-15T08:40:21+00:00",
  "quakes": [],
  "trending": [
   {
@@ -103,33 +103,104 @@
    "article": null
   },
   {
-   "id": "nw-20261015-hindu-attack",
+   "id": "nw-20261014-istanbul-flood",
    "qid": null,
-   "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-   "name": "Hindu",
+   "title": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
+   "name": "Istanbul",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "news_at": "2026-10-15T04:37:34+00:00",
+   "category": "flood",
+   "date": "2026-10-14",
+   "news_at": "2026-10-15T07:46:12+00:00",
    "owners": [
-    "NDTV",
-    "Independent Digital News",
-    "Bennett, Coleman & Co."
+    "Disney (ABC News)",
+    "Al Jazeera Media Network",
+    "Euronews"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "US Teen Goes To Hindu Temple For 'Mass Shooting', Jammed Rifle Stops Him",
+    "Heavy rain and flooding in Istanbul forces closure of schools",
+    "Teenager dies as heavy rain floods Istanbul",
+    "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
+     "url": "https://www.euronews.com/2026/10/15/at-least-two-killed-after-heavy-rain-and-widespread-flooding-causes-istanbul-shutdown",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:46:12+00:00"
+    },
+    {
+     "title": "Teenager dies as heavy rain floods Istanbul",
+     "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T03:12:02+00:00"
+    },
+    {
+     "title": "Heavy rain and flooding in Istanbul forces closure of schools",
+     "url": "https://abcnews.com/International/wireStory/heavy-rain-flooding-istanbul-forces-closure-schools-137267243",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-14T19:49:37+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261015-hindu-attack",
+   "qid": null,
+   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+   "name": "Hindu",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "news_at": "2026-10-15T07:54:50+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
     "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
     "‘Mass shooting’ plot at Illinois Hindu temple: India welcomes US action against teen",
-    "'Special Day': How A Coworker Stopped US Teen's Hindu Temple Shooting Plot"
+    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot"
    ],
    "places": [
-    "Teen",
-    "Temple",
-    "Mass"
+    "Illinois",
+    "Chicago"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -142,6 +213,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:54:50+00:00"
+    },
+    {
      "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
      "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
      "outlet": "The Independent",
@@ -152,16 +233,6 @@
      "at": "2026-10-15T04:27:51+00:00"
     },
     {
-     "title": "'Special Day': How A Coworker Stopped US Teen's Hindu Temple Shooting Plot",
-     "url": "https://www.ndtv.com/world-news/how-jammed-rifle-taco-bell-coworker-stopped-us-teens-temple-shooting-plan-12187594#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T04:37:34+00:00"
-    },
-    {
      "title": "‘Mass shooting’ plot at Illinois Hindu temple: India welcomes US action against teen",
      "url": "https://timesofindia.indiatimes.com/india/timely-action-india-lauds-us-response-after-illinois-teen-held-over-hindu-temple-attack-plot/articleshow/134957341.cms",
      "outlet": "Times of India",
@@ -170,22 +241,12 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-15T04:36:46+00:00"
-    },
-    {
-     "title": "US Teen Goes To Hindu Temple For 'Mass Shooting', Jammed Rifle Stops Him",
-     "url": "https://www.ndtv.com/world-news/us-teen-arrested-for-planning-mass-shooting-at-chicago-hindu-temple-12187359#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T04:06:52+00:00"
     }
    ],
    "via": [
-    "outlet:NDTV",
     "outlet:Independent Digital News",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -396,12 +457,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.17 million .",
-   "country": "Guam",
+   "title": "Orange notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.175 million .",
+   "country": "Guam, Northern Mariana Islands",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "10.7",
-   "lon": "159.4"
+   "lat": "10.9",
+   "lon": "158.4"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -430,31 +491,29 @@
   {
    "id": "nw-20261015-hindu-attack",
    "qid": null,
-   "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
    "name": "Hindu",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-15T04:37:34+00:00",
+   "news_at": "2026-10-15T07:54:50+00:00",
    "owners": [
-    "NDTV",
     "Independent Digital News",
-    "Bennett, Coleman & Co."
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "US Teen Goes To Hindu Temple For 'Mass Shooting', Jammed Rifle Stops Him",
     "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
     "‘Mass shooting’ plot at Illinois Hindu temple: India welcomes US action against teen",
-    "'Special Day': How A Coworker Stopped US Teen's Hindu Temple Shooting Plot"
+    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot"
    ],
    "places": [
-    "Teen",
-    "Temple",
-    "Mass"
+    "Illinois",
+    "Chicago"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -467,6 +526,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:54:50+00:00"
+    },
+    {
      "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
      "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
      "outlet": "The Independent",
@@ -477,16 +546,6 @@
      "at": "2026-10-15T04:27:51+00:00"
     },
     {
-     "title": "'Special Day': How A Coworker Stopped US Teen's Hindu Temple Shooting Plot",
-     "url": "https://www.ndtv.com/world-news/how-jammed-rifle-taco-bell-coworker-stopped-us-teens-temple-shooting-plan-12187594#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T04:37:34+00:00"
-    },
-    {
      "title": "‘Mass shooting’ plot at Illinois Hindu temple: India welcomes US action against teen",
      "url": "https://timesofindia.indiatimes.com/india/timely-action-india-lauds-us-response-after-illinois-teen-held-over-hindu-temple-attack-plot/articleshow/134957341.cms",
      "outlet": "Times of India",
@@ -495,22 +554,12 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-15T04:36:46+00:00"
-    },
-    {
-     "title": "US Teen Goes To Hindu Temple For 'Mass Shooting', Jammed Rifle Stops Him",
-     "url": "https://www.ndtv.com/world-news/us-teen-arrested-for-planning-mass-shooting-at-chicago-hindu-temple-12187359#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T04:06:52+00:00"
     }
    ],
    "via": [
-    "outlet:NDTV",
     "outlet:Independent Digital News",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -593,48 +642,85 @@
    "article": null
   },
   {
-   "qid": "Q31705888",
-   "title": "Cheruvayal Raman",
-   "fame": 25000,
+   "id": "nw-20261014-istanbul-flood",
+   "qid": null,
+   "title": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
+   "name": "Istanbul",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-10-14",
+   "news_at": "2026-10-15T07:46:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Al Jazeera Media Network",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-14T16:42:29+00:00",
    "headlines": [
-    "Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute"
+    "Heavy rain and flooding in Istanbul forces closure of schools",
+    "Teenager dies as heavy rain floods Istanbul",
+    "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown"
    ],
-   "region": "india",
-   "via": [
-    "google-news:Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute",
-    "outlet:HT Media"
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
-   "owners": [
-    "HT Media"
-   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute",
-     "url": "https://www.hindustantimes.com/india-news/keralas-living-paddy-gene-bank-cheruvayal-raman-dies-at-74-rahul-priyanka-gandhi-pay-tribute-india-has-lost-a-noble-son-padma-shri-101791987643377.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
+     "title": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
+     "url": "https://www.euronews.com/2026/10/15/at-least-two-killed-after-heavy-rain-and-widespread-flooding-causes-istanbul-shutdown",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-14T16:42:29+00:00"
+     "at": "2026-10-15T07:46:12+00:00"
+    },
+    {
+     "title": "Teenager dies as heavy rain floods Istanbul",
+     "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T03:12:02+00:00"
+    },
+    {
+     "title": "Heavy rain and flooding in Istanbul forces closure of schools",
+     "url": "https://abcnews.com/International/wireStory/heavy-rain-flooding-istanbul-forces-closure-schools-137267243",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-14T19:49:37+00:00"
     }
    ],
-   "id": "wk-Q31705888",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-14"
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
  "outlets": {
-  "headlines": 799,
+  "headlines": 796,
   "feeds": 30,
   "owners": 21,
-  "matched": 22,
-  "corroborated": 2
+  "matched": 27,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -715,33 +801,104 @@
    "article": null
   },
   {
-   "id": "nw-20261015-hindu-attack",
+   "id": "nw-20261014-istanbul-flood",
    "qid": null,
-   "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-   "name": "Hindu",
+   "title": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
+   "name": "Istanbul",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "news_at": "2026-10-15T04:37:34+00:00",
+   "category": "flood",
+   "date": "2026-10-14",
+   "news_at": "2026-10-15T07:46:12+00:00",
    "owners": [
-    "NDTV",
-    "Independent Digital News",
-    "Bennett, Coleman & Co."
+    "Disney (ABC News)",
+    "Al Jazeera Media Network",
+    "Euronews"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "US Teen Goes To Hindu Temple For 'Mass Shooting', Jammed Rifle Stops Him",
+    "Heavy rain and flooding in Istanbul forces closure of schools",
+    "Teenager dies as heavy rain floods Istanbul",
+    "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
+     "url": "https://www.euronews.com/2026/10/15/at-least-two-killed-after-heavy-rain-and-widespread-flooding-causes-istanbul-shutdown",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:46:12+00:00"
+    },
+    {
+     "title": "Teenager dies as heavy rain floods Istanbul",
+     "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T03:12:02+00:00"
+    },
+    {
+     "title": "Heavy rain and flooding in Istanbul forces closure of schools",
+     "url": "https://abcnews.com/International/wireStory/heavy-rain-flooding-istanbul-forces-closure-schools-137267243",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-14T19:49:37+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261015-hindu-attack",
+   "qid": null,
+   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+   "name": "Hindu",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "news_at": "2026-10-15T07:54:50+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
     "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
     "‘Mass shooting’ plot at Illinois Hindu temple: India welcomes US action against teen",
-    "'Special Day': How A Coworker Stopped US Teen's Hindu Temple Shooting Plot"
+    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot"
    ],
    "places": [
-    "Teen",
-    "Temple",
-    "Mass"
+    "Illinois",
+    "Chicago"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -754,6 +911,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:54:50+00:00"
+    },
+    {
      "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
      "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
      "outlet": "The Independent",
@@ -764,16 +931,6 @@
      "at": "2026-10-15T04:27:51+00:00"
     },
     {
-     "title": "'Special Day': How A Coworker Stopped US Teen's Hindu Temple Shooting Plot",
-     "url": "https://www.ndtv.com/world-news/how-jammed-rifle-taco-bell-coworker-stopped-us-teens-temple-shooting-plan-12187594#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T04:37:34+00:00"
-    },
-    {
      "title": "‘Mass shooting’ plot at Illinois Hindu temple: India welcomes US action against teen",
      "url": "https://timesofindia.indiatimes.com/india/timely-action-india-lauds-us-response-after-illinois-teen-held-over-hindu-temple-attack-plot/articleshow/134957341.cms",
      "outlet": "Times of India",
@@ -782,26 +939,16 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-15T04:36:46+00:00"
-    },
-    {
-     "title": "US Teen Goes To Hindu Temple For 'Mass Shooting', Jammed Rifle Stops Him",
-     "url": "https://www.ndtv.com/world-news/us-teen-arrested-for-planning-mass-shooting-at-chicago-hindu-temple-12187359#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T04:06:52+00:00"
     }
    ],
    "via": [
-    "outlet:NDTV",
     "outlet:Independent Digital News",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 799 headlines from 30 feeds (21 owners), 22 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-albania-protest, nw-20261015-hindu-attack"
+ "outlet_note": "outlets: 796 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261014-albania-protest, nw-20261014-istanbul-flood, nw-20261015-hindu-attack"
 }
