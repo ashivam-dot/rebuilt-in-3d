@@ -1,16 +1,10 @@
 {
- "at": "2026-10-15T11:37:30+00:00",
+ "at": "2026-10-15T12:19:46+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 13 trending), 3 hazard alerts",
-  "outlets: 791 headlines from 30 feeds (21 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "published wk-Q139998119-2026w42: https://www.youtube.com/shorts/h1yEYhle07o"
- ],
- "published": {
-  "video_id": "h1yEYhle07o",
-  "url": "https://www.youtube.com/shorts/h1yEYhle07o",
-  "title": "The Flamingo Revolution and Albania's Path to Reform",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 16 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.339, 'typical_views_24h': 306}, 'kind:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 51}, 'kind:incident': {'n': 8, 'lift': 1.225, 'typical_views_24h': 231}}",
+  "watch: 0 candidates (0 quakes, 0 trending), 3 hazard alerts",
+  "outlets: 792 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['wikidata: Extra data: line 512 column 2 (char 12809)']"
+ ]
 }
