@@ -1,8 +1,10 @@
 {
- "at": "2026-10-15T10:13:15+00:00",
+ "at": "2026-10-15T10:40:11+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 10 trending), 3 hazard alerts",
-  "outlets: 791 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+  "watch: 1 candidates (0 quakes, 12 trending), 3 hazard alerts",
+  "outlets: 792 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-trump-strike",
+  "skip nw-20261014-trump-strike: gate: only 1 usable photos of Kyiv (want 2)",
+  "nothing eligible to publish"
  ]
 }
