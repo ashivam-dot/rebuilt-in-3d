@@ -1,5 +1,5 @@
 {
- "at": "2026-10-15T20:34:27+00:00",
+ "at": "2026-10-15T21:07:52+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,21 +10,22 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-10-15",
-   "news_at": "2026-10-15T19:04:12+00:00",
+   "news_at": "2026-10-15T20:29:52+00:00",
    "owners": [
-    "France Médias Monde",
     "BBC",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "France Médias Monde",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "NATO to address drone attacks in the Black Sea after seven missing off Romania",
     "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
     "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast",
-    "Seven missing off Romania after latest Black Sea drone attacks"
+    "Seven missing off Romania after latest Black Sea drone attacks",
+    "At least 7 crew members missing after drone attacks on ships in Black Sea"
    ],
    "places": [
     "Black",
@@ -61,14 +62,14 @@
      "at": "2026-10-15T14:51:30+00:00"
     },
     {
-     "title": "NATO to address drone attacks in the Black Sea after seven missing off Romania",
-     "url": "https://www.france24.com/en/europe/20261015-seven-missing-off-romania-after-latest-black-sea-drone-attacks",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
+     "title": "At least 7 crew members missing after drone attacks on ships in Black Sea",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-15T13:35:22+00:00"
+     "at": "2026-10-15T20:29:52+00:00"
     },
     {
      "title": "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast",
@@ -82,9 +83,10 @@
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
     "outlet:BBC",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -135,44 +137,6 @@
    "date": "2026-10-14",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141671500",
-   "title": "2026 Eritrean incursion into Ethiopia",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-15T18:41:41+00:00",
-   "headlines": [
-    "Ethiopian forces expand control in Tigray as militia claims Eritrean losses"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces expand control in Tigray as militia claims Eritrean losses",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "owners": [
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Ethiopian forces expand control in Tigray as militia claims Eritrean losses",
-     "url": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T18:41:41+00:00"
-    }
-   ],
-   "id": "wk-Q141671500",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q1355840",
@@ -379,8 +343,8 @@
    "country": "México",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "19.2",
-   "lon": "-108.1"
+   "lat": "19.3",
+   "lon": "-108.2"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -394,51 +358,12 @@
    "lon": "-84"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q141671500",
-   "title": "2026 Eritrean incursion into Ethiopia",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-15T18:41:41+00:00",
-   "headlines": [
-    "Ethiopian forces expand control in Tigray as militia claims Eritrean losses"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces expand control in Tigray as militia claims Eritrean losses",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "owners": [
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Ethiopian forces expand control in Tigray as militia claims Eritrean losses",
-     "url": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T18:41:41+00:00"
-    }
-   ],
-   "id": "wk-Q141671500",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 831,
+  "headlines": 818,
   "feeds": 29,
   "owners": 21,
-  "matched": 20,
+  "matched": 19,
   "corroborated": 1
  },
  "emerging": [
@@ -450,21 +375,22 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-10-15",
-   "news_at": "2026-10-15T19:04:12+00:00",
+   "news_at": "2026-10-15T20:29:52+00:00",
    "owners": [
-    "France Médias Monde",
     "BBC",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "France Médias Monde",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "NATO to address drone attacks in the Black Sea after seven missing off Romania",
     "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
     "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast",
-    "Seven missing off Romania after latest Black Sea drone attacks"
+    "Seven missing off Romania after latest Black Sea drone attacks",
+    "At least 7 crew members missing after drone attacks on ships in Black Sea"
    ],
    "places": [
     "Black",
@@ -501,14 +427,14 @@
      "at": "2026-10-15T14:51:30+00:00"
     },
     {
-     "title": "NATO to address drone attacks in the Black Sea after seven missing off Romania",
-     "url": "https://www.france24.com/en/europe/20261015-seven-missing-off-romania-after-latest-black-sea-drone-attacks",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
+     "title": "At least 7 crew members missing after drone attacks on ships in Black Sea",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-15T13:35:22+00:00"
+     "at": "2026-10-15T20:29:52+00:00"
     },
     {
      "title": "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast",
@@ -522,13 +448,14 @@
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
     "outlet:BBC",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 831 headlines from 29 feeds (21 owners), 20 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-romania-strike"
+ "outlet_note": "outlets: 818 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-romania-strike"
 }
