@@ -1,7 +1,30 @@
 {
- "at": "2026-10-15T06:44:40+00:00",
+ "at": "2026-10-15T07:48:32+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 141412,
+   "views": 16412,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-14T11:12:08+00:00",
+   "headlines": [
+    "Nana Patekar did film after getting Rs 1 more than Amitabh Bachchan, says Drishyam actor"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-14",
+    "google-news:Nana Patekar did film after getting Rs 1 more than Amitabh Bachchan, says Drishyam actor"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
   {
    "id": "nw-20261014-albania-protest",
    "qid": null,
@@ -168,59 +191,6 @@
    "article": null
   },
   {
-   "qid": "Q141695384",
-   "title": "October 2026 attacks on Saudi Arabia airports",
-   "fame": 70785,
-   "views": 20785,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-14T15:11:02+00:00",
-   "headlines": [
-    "Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
-    "Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14",
-    "google-news:Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
-    "google-news:Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks",
-    "outlet:HT Media",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "HT Media",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
-     "url": "https://www.hindustantimes.com/india-news/saudi-airport-attacks-disrupt-indian-flights-embassy-focuses-on-diaspora-welfare-mea-101791990662575.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-14T15:11:02+00:00"
-    },
-    {
-     "title": "Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks",
-     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-strikes-houthis-attack-airport-yemen-b3066418.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-14T08:02:06+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q31705888",
    "title": "Cheruvayal Raman",
    "fame": 25000,
@@ -317,26 +287,6 @@
    "date": "2026-09-23",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 16412,
-   "views": 16412,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
   },
   {
    "qid": "Q141670823",
@@ -680,11 +630,11 @@
   }
  ],
  "outlets": {
-  "headlines": 800,
+  "headlines": 799,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 3
+  "matched": 22,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -853,5 +803,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-albania-protest, nw-20261015-hindu-attack"
+ "outlet_note": "outlets: 799 headlines from 30 feeds (21 owners), 22 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-albania-protest, nw-20261015-hindu-attack"
 }
