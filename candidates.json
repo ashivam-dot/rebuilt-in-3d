@@ -1,7 +1,183 @@
 {
- "at": "2026-10-15T12:19:47+00:00",
+ "at": "2026-10-15T12:46:02+00:00",
  "quakes": [],
- "trending": [],
+ "trending": [
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-14T03:11:00+00:00",
+   "headlines": [
+    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q139998119",
+   "title": "Flamingo Revolution",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-15T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q139998119-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-15",
+   "coords": [
+    40.515277777777776,
+    19.416944444444447
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q1355840",
+   "title": "Mike Ditka",
+   "fame": 24197,
+   "views": 24197,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1355840",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-09"
+  },
+  {
+   "qid": "Q6696719",
+   "title": "Lucian Piane",
+   "fame": 23254,
+   "views": 23254,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6696719",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabia airports",
+   "fame": 20785,
+   "views": 20785,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q141544931",
+   "title": "2026 Ethiopian offensive",
+   "fame": 17195,
+   "views": 17195,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141544931",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-09-23",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 16412,
+   "views": 16412,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 14086,
+   "views": 14086,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141670823",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-06",
+   "coords": null,
+   "has_coords": true
+  }
+ ],
  "hazards": [
   {
    "id": "gdacs-TC-1001338",
@@ -39,15 +215,15 @@
  ],
  "candidates": [],
  "trend_errors": [
-  "wikidata: Extra data: line 512 column 2 (char 12809)"
+  "wikidata recent deaths: HTTP 429"
  ],
  "outlets": {
-  "headlines": 792,
+  "headlines": 798,
   "feeds": 30,
   "owners": 21,
   "matched": 28,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 792 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
