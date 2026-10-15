@@ -1,18 +1,11 @@
 {
- "at": "2026-10-15T03:37:05+00:00",
+ "at": "2026-10-15T04:21:15+00:00",
  "ok": true,
  "steps": [
-  "watch: 4 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 806 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-albania-protest",
-  "skip nw-20261014-albania-protest: gate: only 0 usable photos of Albania (want 2)",
-  "skip wk-Q31705888: gate: only 1 usable photos of Cheruvayal Raman on Wikimedia Commons (want 3)",
-  "published wk-Q1438992: https://www.youtube.com/shorts/WjPhpRbrntY"
- ],
- "published": {
-  "video_id": "WjPhpRbrntY",
-  "url": "https://www.youtube.com/shorts/WjPhpRbrntY",
-  "title": "The Work of Richard Gray",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "watch: 3 candidates (0 quakes, 12 trending), 3 hazard alerts",
+  "outlets: 795 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-albania-protest",
+  "hold nw-20261014-albania-protest: last Short went out 0.1 h ago",
+  "hold wk-Q31705888: last Short went out 0.1 h ago",
+  "hold wk-Q3205897: last Short went out 0.1 h ago"
+ ]
 }
