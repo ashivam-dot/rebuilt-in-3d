@@ -1,7 +1,33 @@
 {
- "at": "2026-10-15T12:46:02+00:00",
+ "at": "2026-10-15T13:46:53+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q139857349",
+   "title": "Cockroach Janta Party",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-15T00:00:36+00:00",
+   "headlines": [
+    "Why Congress is reaching out to Cockroach Janta Party and Abhijeet Dipke",
+    "Modi’s Cockroach Problem"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Why Congress is reaching out to Cockroach Janta Party and Abhijeet Dipke",
+    "google-news:Modi’s Cockroach Problem"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q139857349-2026w42",
+   "kind": "incident",
+   "category": "movement",
+   "date": "2026-10-15",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q141712917",
    "title": "Hurricane Rachel (2026)",
@@ -25,6 +51,159 @@
    "date": "2026-09-27",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261014-trump-strike",
+   "qid": null,
+   "title": "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses",
+   "name": "Trump",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-10-14",
+   "news_at": "2026-10-15T10:14:49+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Zelenskyy accuses Putin of disrespecting Trump by breaching ‘energy ceasefire’ with renewed strikes on Ukraine",
+    "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+    "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses"
+   ],
+   "places": [
+    "Putin",
+    "Kyiv"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses",
+     "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T10:14:49+00:00"
+    },
+    {
+     "title": "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+     "url": "https://www.euronews.com/2026/10/14/one-person-killed-and-20-others-injured-in-overnight-russian-attacks-on-kyiv",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T15:29:56+00:00"
+    },
+    {
+     "title": "Zelenskyy accuses Putin of disrespecting Trump by breaching ‘energy ceasefire’ with renewed strikes on Ukraine",
+     "url": "https://www.independent.co.uk/news/world/europe/zelensky-putin-trump-strikes-kyiv-ukraine-b3066669.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T14:53:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261015-hindu-attack",
+   "qid": null,
+   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+   "name": "Hindu",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "news_at": "2026-10-15T09:07:23+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Al Jazeera Media Network",
+    "HT Media"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+    "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US"
+   ],
+   "places": [
+    "Chicago",
+    "Illinois"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:54:50+00:00"
+    },
+    {
+     "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T04:27:51+00:00"
+    },
+    {
+     "title": "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US",
+     "url": "https://www.hindustantimes.com/india-news/racist-hostility-anti-india-hate-india-on-attempted-mass-shooting-targeting-hindu-temple-in-us-illinois-palatine-101792055108770.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-15T09:07:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network",
+    "outlet:HT Media"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q139998119",
@@ -90,28 +269,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-12"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabia airports",
-   "fame": 20785,
-   "views": 20785,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141544931",
@@ -195,7 +352,7 @@
    "kind": "TC",
    "level": "Orange",
    "title": "Orange notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 62 .",
-   "country": "Mexico, México",
+   "country": "México",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
    "lat": "19.2",
@@ -213,17 +370,325 @@
    "lon": "-84"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261015-hindu-attack",
+   "qid": null,
+   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+   "name": "Hindu",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "news_at": "2026-10-15T09:07:23+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Al Jazeera Media Network",
+    "HT Media"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+    "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US"
+   ],
+   "places": [
+    "Chicago",
+    "Illinois"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:54:50+00:00"
+    },
+    {
+     "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T04:27:51+00:00"
+    },
+    {
+     "title": "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US",
+     "url": "https://www.hindustantimes.com/india-news/racist-hostility-anti-india-hate-india-on-attempted-mass-shooting-targeting-hindu-temple-in-us-illinois-palatine-101792055108770.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-15T09:07:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network",
+    "outlet:HT Media"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261014-trump-strike",
+   "qid": null,
+   "title": "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses",
+   "name": "Trump",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-10-14",
+   "news_at": "2026-10-15T10:14:49+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Zelenskyy accuses Putin of disrespecting Trump by breaching ‘energy ceasefire’ with renewed strikes on Ukraine",
+    "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+    "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses"
+   ],
+   "places": [
+    "Putin",
+    "Kyiv"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses",
+     "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T10:14:49+00:00"
+    },
+    {
+     "title": "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+     "url": "https://www.euronews.com/2026/10/14/one-person-killed-and-20-others-injured-in-overnight-russian-attacks-on-kyiv",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T15:29:56+00:00"
+    },
+    {
+     "title": "Zelenskyy accuses Putin of disrespecting Trump by breaching ‘energy ceasefire’ with renewed strikes on Ukraine",
+     "url": "https://www.independent.co.uk/news/world/europe/zelensky-putin-trump-strikes-kyiv-ukraine-b3066669.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T14:53:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "trend_errors": [
-  "wikidata recent deaths: HTTP 429"
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
-  "headlines": 798,
+  "headlines": 808,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 0
+  "matched": 25,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261014-trump-strike",
+   "qid": null,
+   "title": "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses",
+   "name": "Trump",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-10-14",
+   "news_at": "2026-10-15T10:14:49+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Zelenskyy accuses Putin of disrespecting Trump by breaching ‘energy ceasefire’ with renewed strikes on Ukraine",
+    "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+    "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses"
+   ],
+   "places": [
+    "Putin",
+    "Kyiv"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Russia and Ukraine resume strikes as Trump ‘energy ceasefire’ collapses",
+     "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T10:14:49+00:00"
+    },
+    {
+     "title": "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+     "url": "https://www.euronews.com/2026/10/14/one-person-killed-and-20-others-injured-in-overnight-russian-attacks-on-kyiv",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T15:29:56+00:00"
+    },
+    {
+     "title": "Zelenskyy accuses Putin of disrespecting Trump by breaching ‘energy ceasefire’ with renewed strikes on Ukraine",
+     "url": "https://www.independent.co.uk/news/world/europe/zelensky-putin-trump-strikes-kyiv-ukraine-b3066669.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T14:53:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261015-hindu-attack",
+   "qid": null,
+   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+   "name": "Hindu",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "news_at": "2026-10-15T09:07:23+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Al Jazeera Media Network",
+    "HT Media"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+    "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US"
+   ],
+   "places": [
+    "Chicago",
+    "Illinois"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T07:54:50+00:00"
+    },
+    {
+     "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T04:27:51+00:00"
+    },
+    {
+     "title": "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US",
+     "url": "https://www.hindustantimes.com/india-news/racist-hostility-anti-india-hate-india-on-attempted-mass-shooting-targeting-hindu-temple-in-us-illinois-palatine-101792055108770.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-15T09:07:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network",
+    "outlet:HT Media"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-trump-strike, nw-20261015-hindu-attack"
 }

@@ -1,9 +1,12 @@
 {
- "at": "2026-10-15T12:46:02+00:00",
+ "at": "2026-10-15T13:46:52+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 8 trending), 3 hazard alerts",
-  "outlets: 798 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['wikidata recent deaths: HTTP 429']"
+  "watch: 2 candidates (0 quakes, 10 trending), 3 hazard alerts",
+  "outlets: 808 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-trump-strike, nw-20261015-hindu-attack",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "skip nw-20261015-hindu-attack: gate: no draft passed the fact checks: a SETTING photo is on more than one beat: use it only on the beat that says where it happened, and show what each other beat says; these names or numbers are not in the sources: Arrested",
+  "skip nw-20261014-trump-strike: gate: only 1 usable photos of Kyiv (want 2)",
+  "nothing eligible to publish"
  ]
 }
