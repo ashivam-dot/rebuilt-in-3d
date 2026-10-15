@@ -1,9 +1,11 @@
 {
- "at": "2026-10-15T02:39:02+00:00",
+ "at": "2026-10-15T03:07:13+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 11 trending), 3 hazard alerts",
-  "outlets: 804 headlines from 30 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q31705888: outside the india window"
+  "watch: 1 candidates (0 quakes, 7 trending), 3 hazard alerts",
+  "outlets: 804 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-albania-protest",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "skip nw-20261014-albania-protest: gate: only 0 usable photos of Albania (want 2)",
+  "nothing eligible to publish"
  ]
 }

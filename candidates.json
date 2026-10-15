@@ -1,19 +1,164 @@
 {
- "at": "2026-10-15T02:39:02+00:00",
+ "at": "2026-10-15T03:07:14+00:00",
  "quakes": [],
  "trending": [
   {
+   "qid": "Q141695384",
+   "title": "October 2026 attacks on Saudi Arabia airports",
+   "fame": 195785,
+   "views": 20785,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-14T21:12:59+00:00",
+   "headlines": [
+    "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+    "Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
+    "Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14",
+    "google-news:Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+    "google-news:Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
+    "google-news:Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks",
+    "outlet:HT Media",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "HT Media",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
+     "url": "https://www.hindustantimes.com/india-news/saudi-airport-attacks-disrupt-indian-flights-embassy-focuses-on-diaspora-welfare-mea-101791990662575.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-14T15:11:02+00:00"
+    },
+    {
+     "title": "Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks",
+     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-strikes-houthis-attack-airport-yemen-b3066418.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T08:02:06+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261014-albania-protest",
+   "qid": null,
+   "title": "Student protesters attack government buildings in Albania",
+   "name": "Albania",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-14",
+   "news_at": "2026-10-14T23:19:43+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Guardian Media Group",
+    "Deutsche Welle"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+    "Student protesters attack government buildings in Albania",
+    "Student protests in Albania turn violent as demonstrators clash with police",
+    "Albania: Fire at Education Ministry as students protest"
+   ],
+   "places": [
+    "Student",
+    "Tirana",
+    "Flamingo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Student protesters attack government buildings in Albania",
+     "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-14T20:29:05+00:00"
+    },
+    {
+     "title": "Albania: Fire at Education Ministry as students protest",
+     "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-14T14:56:00+00:00"
+    },
+    {
+     "title": "Student protests in Albania turn violent as demonstrators clash with police",
+     "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T23:19:43+00:00"
+    },
+    {
+     "title": "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+     "url": "https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T09:22:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Guardian Media Group",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q1355840",
    "title": "Mike Ditka",
-   "fame": 50260,
-   "views": 50260,
+   "fame": 24197,
+   "views": 24197,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "wikipedia-top-2026-10-14"
    ],
    "owners": [],
    "reports": [],
@@ -25,15 +170,15 @@
   {
    "qid": "Q6696719",
    "title": "Lucian Piane",
-   "fame": 32682,
-   "views": 32682,
+   "fame": 23254,
+   "views": 23254,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "wikipedia-top-2026-10-14"
    ],
    "owners": [],
    "reports": [],
@@ -43,95 +188,17 @@
    "date": "2026-10-12"
   },
   {
-   "qid": "Q31705888",
-   "title": "Cheruvayal Raman",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-14T16:42:29+00:00",
-   "headlines": [
-    "Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute",
-     "url": "https://www.hindustantimes.com/india-news/keralas-living-paddy-gene-bank-cheruvayal-raman-dies-at-74-rahul-priyanka-gandhi-pay-tribute-india-has-lost-a-noble-son-padma-shri-101791987643377.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-14T16:42:29+00:00"
-    }
-   ],
-   "id": "wk-Q31705888",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-14"
-  },
-  {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 21750,
-   "views": 21750,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "October 2026 attacks on Saudi Arabia airports",
-   "fame": 19436,
-   "views": 19436,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141544931",
    "title": "2026 Ethiopian offensive",
-   "fame": 19141,
-   "views": 19141,
+   "fame": 17195,
+   "views": 17195,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "wikipedia-top-2026-10-14"
    ],
    "owners": [],
    "reports": [],
@@ -143,37 +210,37 @@
    "has_coords": false
   },
   {
-   "qid": "Q11738696",
-   "title": "Ken Friar",
-   "fame": 17425,
-   "views": 17425,
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 16412,
+   "views": 16412,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
-   "region": "world",
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "wikipedia-top-2026-10-14"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q11738696",
+   "id": "wk-Q2475741",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-13"
+   "date": "2026-10-08"
   },
   {
    "qid": "Q141670823",
    "title": "Hurricane Isaias (2026)",
-   "fame": 14865,
-   "views": 14865,
+   "fame": 14086,
+   "views": 14086,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "wikipedia-top-2026-10-14"
    ],
    "owners": [],
    "reports": [],
@@ -183,68 +250,6 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q5300674",
-   "title": "Doug Loft",
-   "fame": 10932,
-   "views": 10932,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5300674",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
-  },
-  {
-   "qid": "Q7327889",
-   "title": "Richard Morecroft",
-   "fame": 7945,
-   "views": 7945,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7327889",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
-  },
-  {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 7722,
-   "views": 7722,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
   }
  ],
  "hazards": [
@@ -252,12 +257,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.158 million .",
+   "title": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.17 million .",
    "country": "Guam",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "10.4",
-   "lon": "160.5"
+   "lat": "10.7",
+   "lon": "159.4"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -267,8 +272,8 @@
    "country": "Mexico",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "19.3",
-   "lon": "-108.3"
+   "lat": "19.1",
+   "lon": "-108.6"
   },
   {
    "id": "gdacs-TC-1001334",
@@ -284,49 +289,197 @@
  ],
  "candidates": [
   {
-   "qid": "Q31705888",
-   "title": "Cheruvayal Raman",
-   "fame": 25000,
+   "id": "nw-20261014-albania-protest",
+   "qid": null,
+   "title": "Student protesters attack government buildings in Albania",
+   "name": "Albania",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-14",
+   "news_at": "2026-10-14T23:19:43+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Guardian Media Group",
+    "Deutsche Welle"
+   ],
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-14T16:42:29+00:00",
    "headlines": [
-    "Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute"
+    "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+    "Student protesters attack government buildings in Albania",
+    "Student protests in Albania turn violent as demonstrators clash with police",
+    "Albania: Fire at Education Ministry as students protest"
    ],
-   "region": "india",
-   "via": [
-    "google-news:Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute",
-    "outlet:HT Media"
+   "places": [
+    "Student",
+    "Tirana",
+    "Flamingo"
    ],
-   "owners": [
-    "HT Media"
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Kerala’s ‘living paddy gene bank’ Cheruvayal Raman dies at 74; Rahul, Priyanka Gandhi pay tribute",
-     "url": "https://www.hindustantimes.com/india-news/keralas-living-paddy-gene-bank-cheruvayal-raman-dies-at-74-rahul-priyanka-gandhi-pay-tribute-india-has-lost-a-noble-son-padma-shri-101791987643377.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
+     "title": "Student protesters attack government buildings in Albania",
+     "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-14T16:42:29+00:00"
+     "at": "2026-10-14T20:29:05+00:00"
+    },
+    {
+     "title": "Albania: Fire at Education Ministry as students protest",
+     "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-14T14:56:00+00:00"
+    },
+    {
+     "title": "Student protests in Albania turn violent as demonstrators clash with police",
+     "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T23:19:43+00:00"
+    },
+    {
+     "title": "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+     "url": "https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T09:22:10+00:00"
     }
    ],
-   "id": "wk-Q31705888",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-14"
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Guardian Media Group",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
   }
+ ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
   "headlines": 804,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
-  "corroborated": 0
+  "matched": 30,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 804 headlines from 30 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261014-albania-protest",
+   "qid": null,
+   "title": "Student protesters attack government buildings in Albania",
+   "name": "Albania",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-14",
+   "news_at": "2026-10-14T23:19:43+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Guardian Media Group",
+    "Deutsche Welle"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+    "Student protesters attack government buildings in Albania",
+    "Student protests in Albania turn violent as demonstrators clash with police",
+    "Albania: Fire at Education Ministry as students protest"
+   ],
+   "places": [
+    "Student",
+    "Tirana",
+    "Flamingo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Student protesters attack government buildings in Albania",
+     "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-14T20:29:05+00:00"
+    },
+    {
+     "title": "Albania: Fire at Education Ministry as students protest",
+     "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-14T14:56:00+00:00"
+    },
+    {
+     "title": "Student protests in Albania turn violent as demonstrators clash with police",
+     "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T23:19:43+00:00"
+    },
+    {
+     "title": "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+     "url": "https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-14T09:22:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Guardian Media Group",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 804 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-albania-protest"
 }
