@@ -1,8 +1,9 @@
 {
- "at": "2026-10-15T22:06:42+00:00",
+ "at": "2026-10-15T22:35:04+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 12 trending), 4 hazard alerts",
-  "outlets: 817 headlines from 29 feeds (21 owners), 22 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-romania-strike"
+  "learn: 19 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.326, 'typical_views_24h': 306}, 'kind:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 51}, 'kind:incident': {'n': 11, 'lift': 1.188, 'typical_views_24h': 219}}",
+  "watch: 0 candidates (0 quakes, 12 trending), 3 hazard alerts",
+  "outlets: 817 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-romania-strike"
  ]
 }
