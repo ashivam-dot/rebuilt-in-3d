@@ -1,15 +1,15 @@
 {
- "at": "2026-10-15T17:40:46+00:00",
+ "at": "2026-10-15T18:42:48+00:00",
  "quakes": [],
  "trending": [
   {
-   "id": "nw-20261014-black-strike",
+   "id": "nw-20261015-romania-strike",
    "qid": null,
    "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-   "name": "Black",
+   "name": "Romania",
    "kind": "incident",
    "category": "strike",
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "news_at": "2026-10-15T17:31:30+00:00",
    "owners": [
     "France Médias Monde",
@@ -21,15 +21,13 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Europe Today: Spanish FM on Euronews, Black Sea drone attacks, EU-China reset",
     "NATO to address drone attacks in the Black Sea after seven missing off Romania",
     "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
     "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast"
    ],
    "places": [
-    "Sea",
-    "Romania",
-    "Today"
+    "Black",
+    "Sea"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -70,16 +68,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T17:31:30+00:00"
-    },
-    {
-     "title": "Europe Today: Spanish FM on Euronews, Black Sea drone attacks, EU-China reset",
-     "url": "https://www.euronews.com/2026/10/14/europe-today-spanish-fm-on-euronews-black-sea-drone-attacks-eu-china-reset",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-14T06:02:09+00:00"
     }
    ],
    "via": [
@@ -136,42 +124,6 @@
    "date": "2026-10-14",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q31705888",
-   "title": "Cheruvayal Raman",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-15T16:54:27+00:00",
-   "headlines": [
-    "Cheruvayal Raman laid to rest with State honours"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Cheruvayal Raman laid to rest with State honours",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Cheruvayal Raman laid to rest with State honours",
-     "url": "https://www.thehindu.com/news/national/kerala/cheruvayal-raman-cremated-with-state-honours/article71587904.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T16:54:27+00:00"
-    }
-   ],
-   "id": "wk-Q31705888",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-14"
   },
   {
    "qid": "Q1355840",
@@ -276,86 +228,6 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q1438992",
-   "title": "Richard Gray (game designer)",
-   "fame": 9506,
-   "views": 9506,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1438992",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-12"
-  },
-  {
-   "qid": "Q3205897",
-   "title": "L. Ian MacDonald",
-   "fame": 8491,
-   "views": 8491,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3205897",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
-   "qid": "Q11738696",
-   "title": "Ken Friar",
-   "fame": 8429,
-   "views": 8429,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q11738696",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
-  },
-  {
-   "qid": "Q5300674",
-   "title": "Doug Loft",
-   "fame": 7933,
-   "views": 7933,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5300674",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -393,112 +265,26 @@
    "lon": "-84"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261014-black-strike",
-   "qid": null,
-   "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-   "name": "Black",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-10-14",
-   "news_at": "2026-10-15T17:31:30+00:00",
-   "owners": [
-    "France Médias Monde",
-    "BBC",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Europe Today: Spanish FM on Euronews, Black Sea drone attacks, EU-China reset",
-    "NATO to address drone attacks in the Black Sea after seven missing off Romania",
-    "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-    "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast"
-   ],
-   "places": [
-    "Sea",
-    "Romania",
-    "Today"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-15T14:51:30+00:00"
-    },
-    {
-     "title": "NATO to address drone attacks in the Black Sea after seven missing off Romania",
-     "url": "https://www.france24.com/en/europe/20261015-seven-missing-off-romania-after-latest-black-sea-drone-attacks",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-15T13:35:22+00:00"
-    },
-    {
-     "title": "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast",
-     "url": "https://www.theguardian.com/world/2026/oct/15/sailors-missing-drone-strike-tankers-romania-black-sea-coast",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T17:31:30+00:00"
-    },
-    {
-     "title": "Europe Today: Spanish FM on Euronews, Black Sea drone attacks, EU-China reset",
-     "url": "https://www.euronews.com/2026/10/14/europe-today-spanish-fm-on-euronews-black-sea-drone-attacks-eu-china-reset",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-14T06:02:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:BBC",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  }
+ "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
-  "headlines": 831,
+  "headlines": 833,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 24,
   "corroborated": 1
  },
  "emerging": [
   {
-   "id": "nw-20261014-black-strike",
+   "id": "nw-20261015-romania-strike",
    "qid": null,
    "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-   "name": "Black",
+   "name": "Romania",
    "kind": "incident",
    "category": "strike",
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "news_at": "2026-10-15T17:31:30+00:00",
    "owners": [
     "France Médias Monde",
@@ -510,15 +296,13 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Europe Today: Spanish FM on Euronews, Black Sea drone attacks, EU-China reset",
     "NATO to address drone attacks in the Black Sea after seven missing off Romania",
     "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
     "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast"
    ],
    "places": [
-    "Sea",
-    "Romania",
-    "Today"
+    "Black",
+    "Sea"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -559,16 +343,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T17:31:30+00:00"
-    },
-    {
-     "title": "Europe Today: Spanish FM on Euronews, Black Sea drone attacks, EU-China reset",
-     "url": "https://www.euronews.com/2026/10/14/europe-today-spanish-fm-on-euronews-black-sea-drone-attacks-eu-china-reset",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-14T06:02:09+00:00"
     }
    ],
    "via": [
@@ -580,5 +354,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 831 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-black-strike"
+ "outlet_note": "outlets: 833 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-romania-strike"
 }
