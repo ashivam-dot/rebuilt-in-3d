@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T23:59:07+00:00",
+ "at": "2026-10-15T00:43:31+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,67 +21,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-09"
-  },
-  {
-   "qid": null,
-   "title": "2026 Multan train derailment",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-14T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Multan_train_derailment",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-13",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141712917",
-   "title": "Hurricane Rachel (2026)",
-   "fame": 32722,
-   "views": 7722,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-14T07:14:21+00:00",
-   "headlines": [
-    "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-13",
-    "google-news:Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico",
-     "url": "https://abcnews.com/International/wireStory/death-toll-rises-6-hurricane-simon-rachel-remnants-137236894",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-14T07:14:21+00:00"
-    }
-   ],
-   "id": "wk-Q141712917",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-09-27",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q6696719",
@@ -226,15 +165,16 @@
   {
    "qid": "Q141670823",
    "title": "Hurricane Isaias (2026)",
-   "fame": 14865,
+   "fame": 14965,
    "views": 14865,
-   "traffic": 0,
+   "traffic": 100,
    "news": 0,
    "news_at": null,
    "headlines": [],
-   "region": "world",
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-10-13"
+    "wikipedia-top-2026-10-13",
+    "google-trends-IN:accuweather"
    ],
    "owners": [],
    "reports": [],
@@ -284,6 +224,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-06"
+  },
+  {
+   "qid": "Q141712917",
+   "title": "Hurricane Rachel (2026)",
+   "fame": 7722,
+   "views": 7722,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-13"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141712917",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-09-27",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "hazards": [
@@ -360,12 +322,12 @@
   }
  ],
  "outlets": {
-  "headlines": 805,
+  "headlines": 806,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 40,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 36 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 40 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
