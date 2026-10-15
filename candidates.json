@@ -1,5 +1,5 @@
 {
- "at": "2026-10-15T13:46:53+00:00",
+ "at": "2026-10-15T14:38:55+00:00",
  "quakes": [],
  "trending": [
   {
@@ -129,83 +129,6 @@
    "article": null
   },
   {
-   "id": "nw-20261015-hindu-attack",
-   "qid": null,
-   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-   "name": "Hindu",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "news_at": "2026-10-15T09:07:23+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Al Jazeera Media Network",
-    "HT Media"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-    "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US"
-   ],
-   "places": [
-    "Chicago",
-    "Illinois"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T07:54:50+00:00"
-    },
-    {
-     "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T04:27:51+00:00"
-    },
-    {
-     "title": "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US",
-     "url": "https://www.hindustantimes.com/india-news/racist-hostility-anti-india-hate-india-on-attempted-mass-shooting-targeting-hindu-temple-in-us-illinois-palatine-101792055108770.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T09:07:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network",
-    "outlet:HT Media"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q139998119",
    "title": "Flamingo Revolution",
    "fame": 50000,
@@ -229,6 +152,28 @@
     19.416944444444447
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q141740811",
+   "title": "Kekova shipwreck",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-15T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141740811",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-10-14",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q1355840",
@@ -333,6 +278,86 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q1438992",
+   "title": "Richard Gray (game designer)",
+   "fame": 9506,
+   "views": 9506,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1438992",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
+  },
+  {
+   "qid": "Q3205897",
+   "title": "L. Ian MacDonald",
+   "fame": 8491,
+   "views": 8491,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3205897",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q11738696",
+   "title": "Ken Friar",
+   "fame": 8429,
+   "views": 8429,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q11738696",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
+  },
+  {
+   "qid": "Q5300674",
+   "title": "Doug Loft",
+   "fame": 7933,
+   "views": 7933,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5300674",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -341,11 +366,11 @@
    "kind": "TC",
    "level": "Orange",
    "title": "Orange notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.175 million .",
-   "country": "Guam, Northern Mariana Islands",
+   "country": "Guam",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "10.9",
-   "lon": "158.4"
+   "lat": "11",
+   "lon": "157.4"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -371,83 +396,6 @@
   }
  ],
  "candidates": [
-  {
-   "id": "nw-20261015-hindu-attack",
-   "qid": null,
-   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-   "name": "Hindu",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "news_at": "2026-10-15T09:07:23+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Al Jazeera Media Network",
-    "HT Media"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-    "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US"
-   ],
-   "places": [
-    "Chicago",
-    "Illinois"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T07:54:50+00:00"
-    },
-    {
-     "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T04:27:51+00:00"
-    },
-    {
-     "title": "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US",
-     "url": "https://www.hindustantimes.com/india-news/racist-hostility-anti-india-hate-india-on-attempted-mass-shooting-targeting-hindu-temple-in-us-illinois-palatine-101792055108770.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T09:07:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network",
-    "outlet:HT Media"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261014-trump-strike",
    "qid": null,
@@ -523,17 +471,36 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141740811",
+   "title": "Kekova shipwreck",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-15T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141740811",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-10-14",
+   "coords": null,
+   "has_coords": false
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
- ],
  "outlets": {
-  "headlines": 808,
+  "headlines": 800,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
-  "corroborated": 2
+  "matched": 21,
+  "corroborated": 1
  },
  "emerging": [
   {
@@ -611,84 +578,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261015-hindu-attack",
-   "qid": null,
-   "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-   "name": "Hindu",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "news_at": "2026-10-15T09:07:23+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Al Jazeera Media Network",
-    "HT Media"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-    "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-    "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US"
-   ],
-   "places": [
-    "Chicago",
-    "Illinois"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
-     "url": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T07:54:50+00:00"
-    },
-    {
-     "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T04:27:51+00:00"
-    },
-    {
-     "title": "'Racist hostility', 'anti-India hate': India on 'attempted mass shooting' targeting Hindu temple in US",
-     "url": "https://www.hindustantimes.com/india-news/racist-hostility-anti-india-hate-india-on-attempted-mass-shooting-targeting-hindu-temple-in-us-illinois-palatine-101792055108770.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-15T09:07:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network",
-    "outlet:HT Media"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-trump-strike, nw-20261015-hindu-attack"
+ "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261014-trump-strike"
 }
