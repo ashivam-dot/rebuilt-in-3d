@@ -1,13 +1,13 @@
 {
- "at": "2026-10-15T05:36:37+00:00",
+ "at": "2026-10-15T06:08:20+00:00",
  "ok": true,
  "steps": [
   "watch: 4 candidates (0 quakes, 13 trending), 3 hazard alerts",
-  "outlets: 801 headlines from 30 feeds (21 owners), 18 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-albania-protest, nw-20261015-hindu-attack",
-  "hold nw-20261015-hindu-attack: outside the world window",
-  "hold nw-20261014-albania-protest: outside the world window",
-  "hold wk-Q3205897: outside the world window",
+  "outlets: 801 headlines from 30 feeds (21 owners), 19 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261014-albania-protest, nw-20261015-hindu-attack",
+  "skip nw-20261015-hindu-attack: gate: only 1 usable photos of Hindu (want 2)",
+  "skip nw-20261014-albania-protest: gate: only 0 usable photos of Albania (want 2)",
   "skip wk-Q31705888: gate: only 1 usable photos of Cheruvayal Raman on Wikimedia Commons (want 3)",
+  "skip wk-Q3205897: gate: no photo on Wikimedia Commons shows L. Ian Macdonald's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
