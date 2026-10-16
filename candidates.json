@@ -1,6 +1,40 @@
 {
- "at": "2026-10-16T15:18:03+00:00",
- "quakes": [],
+ "at": "2026-10-16T15:27:46+00:00",
+ "quakes": [
+  {
+   "id": "eq-us6000u2mq",
+   "kind": "quake",
+   "event": "us6000u2mq",
+   "title": "76 km NE of Ozernovskiy, Russia",
+   "mag": 6.9,
+   "fame": 73300,
+   "age_h": 11.9,
+   "alert": "green",
+   "trending": false
+  },
+  {
+   "id": "eq-us6000u214",
+   "kind": "quake",
+   "event": "us6000u214",
+   "title": "central Mid-Atlantic Ridge",
+   "mag": 6.8,
+   "fame": 71100,
+   "age_h": 75.1,
+   "alert": "green",
+   "trending": false
+  },
+  {
+   "id": "eq-us6000u1z5",
+   "kind": "quake",
+   "event": "us6000u1z5",
+   "title": "central Mid-Atlantic Ridge",
+   "mag": 6.7,
+   "fame": 69100,
+   "age_h": 81.8,
+   "alert": "green",
+   "trending": false
+  }
+ ],
  "trending": [
   {
    "qid": "Q141695384",
@@ -492,6 +526,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-11"
+  },
+  {
+   "qid": "Q96681757",
+   "title": "Rachna Shroff",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "google-trends-IN:dr rachna shroff cancer"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q96681757",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -514,8 +568,8 @@
    "country": "México",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "20",
-   "lon": "-108.8"
+   "lat": "20.6",
+   "lon": "-109.5"
   }
  ],
  "candidates": [
@@ -627,6 +681,59 @@
    "article": null
   },
   {
+   "id": "eq-us6000u2mq",
+   "kind": "quake",
+   "event": "us6000u2mq",
+   "title": "76 km NE of Ozernovskiy, Russia",
+   "mag": 6.9,
+   "fame": 73300,
+   "age_h": 11.9,
+   "alert": "green",
+   "trending": false
+  },
+  {
+   "id": "eq-us6000u214",
+   "kind": "quake",
+   "event": "us6000u214",
+   "title": "central Mid-Atlantic Ridge",
+   "mag": 6.8,
+   "fame": 71100,
+   "age_h": 75.1,
+   "alert": "green",
+   "trending": false
+  },
+  {
+   "id": "eq-us6000u1z5",
+   "kind": "quake",
+   "event": "us6000u1z5",
+   "title": "central Mid-Atlantic Ridge",
+   "mag": 6.7,
+   "fame": 69100,
+   "age_h": 81.8,
+   "alert": "green",
+   "trending": false
+  },
+  {
+   "qid": "Q96681757",
+   "title": "Rachna Shroff",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "google-trends-IN:dr rachna shroff cancer"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q96681757",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
+  },
+  {
    "qid": "Q141671500",
    "title": "2026 Eritrean incursion into Ethiopia",
    "fame": 125000,
@@ -652,7 +759,7 @@
   }
  ],
  "outlets": {
-  "headlines": 807,
+  "headlines": 806,
   "feeds": 30,
   "owners": 21,
   "matched": 51,
@@ -767,5 +874,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 51 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
+ "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 51 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
 }
