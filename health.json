@@ -1,8 +1,11 @@
 {
- "at": "2026-10-15T23:28:49+00:00",
+ "at": "2026-10-16T00:00:44+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 815 headlines from 29 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-romania-strike"
+  "watch: 2 candidates (0 quakes, 12 trending), 3 hazard alerts",
+  "outlets: 808 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike",
+  "wait wp-2026_Silver_Rail_Elementary_School_shooting: gate: the article is under 6 hours old; facts may still move (ready in 3.8 h)",
+  "skip nw-20261015-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
+  "nothing eligible to publish"
  ]
 }
