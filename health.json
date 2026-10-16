@@ -1,11 +1,18 @@
 {
- "at": "2026-10-16T22:33:50+00:00",
+ "at": "2026-10-16T23:02:11+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 11 trending), 3 hazard alerts",
-  "outlets: 785 headlines from 29 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+  "watch: 3 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 783 headlines from 29 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wk-Q141717158-2026w42: outside the india window",
-  "skip wk-Q141745391: gate: no draft passed the fact checks: beat 6 says 5 died, but the sources' 5 counts the attacker: never say that total; say who the victims were (\"three children and a teacher were killed\")",
-  "nothing eligible to publish"
- ]
+  "skip wk-Q141745391: gate: no draft passed the fact checks: beat 7 says 5 died, but the sources' 5 counts the attacker: never say that total; say who the victims were (\"three children and a teacher were killed\")",
+  "published wk-Q1101154: https://www.youtube.com/shorts/b0ZNhq9KEvo"
+ ],
+ "published": {
+  "video_id": "b0ZNhq9KEvo",
+  "url": "https://www.youtube.com/shorts/b0ZNhq9KEvo",
+  "title": "The Legacy of Cliff Hagan",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
