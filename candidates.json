@@ -1,5 +1,5 @@
 {
- "at": "2026-10-16T20:35:07+00:00",
+ "at": "2026-10-16T21:06:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,11 +9,11 @@
    "views": 0,
    "traffic": 0,
    "news": 225000,
-   "news_at": "2026-10-16T20:25:25+00:00",
+   "news_at": "2026-10-16T20:55:21+00:00",
    "headlines": [
     "Teen shooter kills 3 children, teacher in Oregon elementary school before being shot by bystander",
-    "'Heroic' bystander who stopped suspect in Oregon elementary school shooting IDed",
-    "Police search for clues to deadly shooting at Oregon elementary school",
+    "'Heroic' bystander who stopped suspect in Oregon elementary school shooting ID'd",
+    "Bystander who killed Oregon shooter identified as father of girls at elementary school",
     "Man who confronted Oregon elementary school gunman identified by brother",
     "Three children and one teacher killed in Oregon elementary school shooting"
    ],
@@ -21,8 +21,8 @@
    "via": [
     "wikipedia-current-events-2026-10-15",
     "google-news:Teen shooter kills 3 children, teacher in Oregon elementary school before being shot by bystander",
-    "google-news:'Heroic' bystander who stopped suspect in Oregon elementary school shooting IDed",
-    "google-news:Police search for clues to deadly shooting at Oregon elementary school",
+    "google-news:'Heroic' bystander who stopped suspect in Oregon elementary school shooting ID'd",
+    "google-news:Bystander who killed Oregon shooter identified as father of girls at elementary school",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
@@ -36,14 +36,24 @@
    ],
    "reports": [
     {
-     "title": "'Heroic' bystander who stopped suspect in Oregon elementary school shooting IDed",
+     "title": "'Heroic' bystander who stopped suspect in Oregon elementary school shooting ID'd",
      "url": "https://abcnews.com/US/oregon-school-shooting-father-2-students-identified-bystander/story?id=137326752",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T20:25:25+00:00"
+     "at": "2026-10-16T20:55:21+00:00"
+    },
+    {
+     "title": "Bystander who killed Oregon shooter identified as father of girls at elementary school",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/bystander-parent-oregon-school-shooting",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T20:37:21+00:00"
     },
     {
      "title": "Police search for clues to deadly shooting at Oregon elementary school",
@@ -178,6 +188,58 @@
    "has_coords": false
   },
   {
+   "qid": "Q19975570",
+   "title": "Hyron Andrews",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-16T17:50:00+00:00",
+   "headlines": [
+    "Lions lock Hyron Andrews dies at team hotel before Champions Cup game against La Rochelle",
+    "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+    "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Lions lock Hyron Andrews dies at team hotel before Champions Cup game against La Rochelle",
+    "google-news:Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+    "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "BBC",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjvxynj2kyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T14:33:04+00:00"
+    },
+    {
+     "title": "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
+     "url": "https://www.france24.com/en/sport/20261016-south-african-rugby-player-found-dead-in-french-hotel-ahead-of-champions-cup-debut",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T13:40:05+00:00"
+    }
+   ],
+   "id": "wk-Q19975570",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
+  },
+  {
    "qid": "Q141671500",
    "title": "2026 Eritrean incursion into Ethiopia",
    "fame": 125000,
@@ -209,7 +271,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-16",
-   "news_at": "2026-10-16T17:54:00+00:00",
+   "news_at": "2026-10-16T17:08:02+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -272,26 +334,6 @@
      "at": "2026-10-16T05:47:37+00:00"
     },
     {
-     "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-     "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T17:54:00+00:00"
-    },
-    {
-     "title": "5-year-old victim identified in Oregon school shooting",
-     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-victims/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T17:50:00+00:00"
-    },
-    {
      "title": "Police identify 16-year-old suspect in deadly Oregon school shooting",
      "url": "https://www.nbcnews.com/now/video/police-identify-16-year-old-suspect-in-deadly-oregon-school-shooting-271699013510",
      "outlet": "NBC News",
@@ -329,7 +371,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-16T20:35:07.500239+00:00",
+   "news_at": "2026-10-16T21:06:51.948702+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -343,56 +385,6 @@
    "date": "2026-10-16",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q19975570",
-   "title": "Hyron Andrews",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-16T14:33:04+00:00",
-   "headlines": [
-    "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
-    "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
-    "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
-    "outlet:BBC",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "BBC",
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjvxynj2kyo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T14:33:04+00:00"
-    },
-    {
-     "title": "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
-     "url": "https://www.france24.com/en/sport/20261016-south-african-rugby-player-found-dead-in-french-hotel-ahead-of-champions-cup-debut",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T13:40:05+00:00"
-    }
-   ],
-   "id": "wk-Q19975570",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
   },
   {
    "qid": "Q141544931",
@@ -550,168 +542,27 @@
    "country": "México",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
    "published": "2026-10-07T15:33:28+00:00",
-   "lat": "20.6",
-   "lon": "-109.5"
+   "lat": "21.5",
+   "lon": "-110.3"
   }
  ],
  "candidates": [
   {
-   "id": "nw-20261016-oregon-attack",
-   "qid": null,
-   "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-   "name": "Oregon",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-16",
-   "news_at": "2026-10-16T17:54:00+00:00",
-   "owners": [
-    "Euronews",
-    "BBC",
-    "Paramount (CBS)",
-    "NBCUniversal",
-    "Independent Digital News"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Candlelight vigil honours victims of Oregon school shooting",
-    "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
-    "Police identify 16-year-old suspect in deadly Oregon school shooting",
-    "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more"
-   ],
-   "places": [
-    "ID’ed"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-     "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T08:27:16+00:00"
-    },
-    {
-     "title": "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/oregon-school-shooting-bend-father-b3068237.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T17:08:02+00:00"
-    },
-    {
-     "title": "Candlelight vigil honours victims of Oregon school shooting",
-     "url": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T05:47:37+00:00"
-    },
-    {
-     "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-     "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T17:54:00+00:00"
-    },
-    {
-     "title": "5-year-old victim identified in Oregon school shooting",
-     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-victims/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T17:50:00+00:00"
-    },
-    {
-     "title": "Police identify 16-year-old suspect in deadly Oregon school shooting",
-     "url": "https://www.nbcnews.com/now/video/police-identify-16-year-old-suspect-in-deadly-oregon-school-shooting-271699013510",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T16:19:35+00:00"
-    },
-    {
-     "title": "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
-     "url": "https://www.cbsnews.com/video/oregon-mom-says-she-started-running-over-to-the-school-when-she-heard-of-deadly-shooting/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T13:02:24+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)",
-    "outlet:NBCUniversal",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q141717158",
-   "title": "2026 anti-CEC protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-16T20:35:07.500239+00:00",
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-10-16"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141717158-2026w42",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q19975570",
    "title": "Hyron Andrews",
-   "fame": 50000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-16T14:33:04+00:00",
+   "news": 175000,
+   "news_at": "2026-10-16T17:50:00+00:00",
    "headlines": [
+    "Lions lock Hyron Andrews dies at team hotel before Champions Cup game against La Rochelle",
     "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
     "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
    ],
    "region": "world",
    "via": [
+    "google-news:Lions lock Hyron Andrews dies at team hotel before Champions Cup game against La Rochelle",
     "google-news:Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
     "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
     "outlet:BBC",
@@ -749,6 +600,28 @@
    "date": "2026-10-16"
   },
   {
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-16T21:06:51.948702+00:00",
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-current-events-2026-10-16"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141717158-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q141671500",
    "title": "2026 Eritrean incursion into Ethiopia",
    "fame": 125000,
@@ -774,10 +647,10 @@
   }
  ],
  "outlets": {
-  "headlines": 796,
+  "headlines": 797,
   "feeds": 29,
   "owners": 21,
-  "matched": 37,
+  "matched": 41,
   "corroborated": 4
  },
  "emerging": [
@@ -789,7 +662,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-16",
-   "news_at": "2026-10-16T17:54:00+00:00",
+   "news_at": "2026-10-16T17:08:02+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -852,26 +725,6 @@
      "at": "2026-10-16T05:47:37+00:00"
     },
     {
-     "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-     "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T17:54:00+00:00"
-    },
-    {
-     "title": "5-year-old victim identified in Oregon school shooting",
-     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-victims/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T17:50:00+00:00"
-    },
-    {
      "title": "Police identify 16-year-old suspect in deadly Oregon school shooting",
      "url": "https://www.nbcnews.com/now/video/police-identify-16-year-old-suspect-in-deadly-oregon-school-shooting-271699013510",
      "outlet": "NBC News",
@@ -903,5 +756,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 796 headlines from 29 feeds (21 owners), 37 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
+ "outlet_note": "outlets: 797 headlines from 29 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
 }
