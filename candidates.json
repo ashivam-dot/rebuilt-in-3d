@@ -1,5 +1,5 @@
 {
- "at": "2026-10-16T02:06:47+00:00",
+ "at": "2026-10-16T02:38:26+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,24 +9,23 @@
    "views": 0,
    "traffic": 0,
    "news": 275000,
-   "news_at": "2026-10-16T01:53:19+00:00",
+   "news_at": "2026-10-16T02:26:26+00:00",
    "headlines": [
-    "Shooting at elementary school in Oregon leaves several hospitalised, shooter dead",
-    "Shooter kills three children and one teacher at Oregon elementary school",
+    "US: 3 children, 1 adult killed in shooting at Oregon elementary school",
+    "Oregon elementary school shooting: what we know so far",
     "Who was the teen gunman who opened fire at Oregon elementary school leaving four dead?",
     "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-    "4 Killed In Shooting At Oregon Elementary School In US, Shooter Dead: Report"
+    "Several killed, including children, in Oregon elementary school shooting, sources say"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-15",
-    "google-news:Shooting at elementary school in Oregon leaves several hospitalised, shooter dead",
-    "google-news:Shooter kills three children and one teacher at Oregon elementary school",
+    "google-news:US: 3 children, 1 adult killed in shooting at Oregon elementary school",
+    "google-news:Oregon elementary school shooting: what we know so far",
     "google-news:Who was the teen gunman who opened fire at Oregon elementary school leaving four dead?",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
-    "outlet:NDTV",
     "outlet:Paramount (CBS)",
     "outlet:NBCUniversal",
     "outlet:ABC (Australia)"
@@ -35,12 +34,21 @@
     "Guardian Media Group",
     "Independent Digital News",
     "Disney (ABC News)",
-    "NDTV",
     "Paramount (CBS)",
     "NBCUniversal",
     "ABC (Australia)"
    ],
    "reports": [
+    {
+     "title": "Oregon elementary school shooting: what we know so far",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T02:26:26+00:00"
+    },
     {
      "title": "Shooter kills three children and one teacher at Oregon elementary school",
      "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
@@ -80,16 +88,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-16T01:34:04+00:00"
-    },
-    {
-     "title": "4 Killed In Shooting At Oregon Elementary School In US, Shooter Dead: Report",
-     "url": "https://www.ndtv.com/world-news/several-injured-in-shooting-at-us-oregon-elementary-school-suspect-dead-12192496#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-16T00:14:13+00:00"
     },
     {
      "title": "Several killed, including children, in Oregon elementary school shooting, sources say",
@@ -140,15 +138,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T01:34:04+00:00",
+   "news_at": "2026-10-16T02:26:26+00:00",
    "owners": [
     "Deutsche Welle",
-    "SCMP Group",
     "NBCUniversal",
     "Al Jazeera Media Network",
     "Paramount (CBS)",
-    "NDTV",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -156,16 +153,12 @@
    "traffic": 0,
    "headlines": [
     "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
-    "4 dead, including children, in Oregon school shooting",
     "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
     "Three children, one teacher killed in Oregon school shooting",
-    "Several killed, including children, in Oregon elementary school shooting, sources say"
+    "Several killed, including children, in Oregon elementary school shooting, sources say",
+    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family"
    ],
-   "places": [
-    "dead",
-    "elementary",
-    "school"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -187,6 +180,16 @@
      "at": "2026-10-15T21:59:00+00:00"
     },
     {
+     "title": "Oregon elementary school shooting: what we know so far",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T02:26:26+00:00"
+    },
+    {
      "title": "Three children, one teacher killed in Oregon school shooting",
      "url": "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -195,16 +198,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T22:51:56+00:00"
-    },
-    {
-     "title": "4 dead, including children, in Oregon school shooting",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371069/oregon-school-shooting-leaves-2-hospital-shooter-dead?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T22:39:37+00:00"
     },
     {
      "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
@@ -259,12 +252,11 @@
    ],
    "via": [
     "outlet:Deutsche Welle",
-    "outlet:SCMP Group",
     "outlet:NBCUniversal",
     "outlet:Al Jazeera Media Network",
     "outlet:Paramount (CBS)",
-    "outlet:NDTV",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": "2026 Silver Rail Elementary School shooting"
@@ -359,57 +351,17 @@
    "article": null
   },
   {
-   "qid": "Q1355840",
-   "title": "Mike Ditka",
-   "fame": 24197,
-   "views": 24197,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1355840",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-09"
-  },
-  {
-   "qid": "Q6696719",
-   "title": "Lucian Piane",
-   "fame": 23254,
-   "views": 23254,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6696719",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-12"
-  },
-  {
    "qid": "Q141544931",
    "title": "2026 Ethiopian offensive",
-   "fame": 17195,
-   "views": 17195,
+   "fame": 14725,
+   "views": 14725,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-14"
+    "wikipedia-top-2026-10-15"
    ],
    "owners": [],
    "reports": [],
@@ -423,15 +375,15 @@
   {
    "qid": "Q2475741",
    "title": "Nana Patekar",
-   "fame": 16412,
-   "views": 16412,
+   "fame": 14046,
+   "views": 14046,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-14"
+    "wikipedia-top-2026-10-15"
    ],
    "owners": [],
    "reports": [],
@@ -441,17 +393,37 @@
    "date": "2026-10-08"
   },
   {
-   "qid": "Q141670823",
-   "title": "Hurricane Isaias (2026)",
-   "fame": 14086,
-   "views": 14086,
+   "qid": "Q1355840",
+   "title": "Mike Ditka",
+   "fame": 13297,
+   "views": 13297,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-14"
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1355840",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-09"
+  },
+  {
+   "qid": "Q141670823",
+   "title": "Hurricane Isaias (2026)",
+   "fame": 9465,
+   "views": 9465,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15"
    ],
    "owners": [],
    "reports": [],
@@ -463,37 +435,17 @@
    "has_coords": true
   },
   {
-   "qid": "Q1438992",
-   "title": "Richard Gray (game designer)",
-   "fame": 9506,
-   "views": 9506,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1438992",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
-  },
-  {
    "qid": "Q3205897",
    "title": "L. Ian MacDonald",
-   "fame": 8491,
-   "views": 8491,
+   "fame": 8231,
+   "views": 8231,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-14"
+    "wikipedia-top-2026-10-15"
    ],
    "owners": [],
    "reports": [],
@@ -503,37 +455,17 @@
    "date": "2026-10-08"
   },
   {
-   "qid": "Q11738696",
-   "title": "Ken Friar",
-   "fame": 8429,
-   "views": 8429,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q11738696",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
-  },
-  {
    "qid": "Q5300674",
    "title": "Doug Loft",
-   "fame": 7933,
-   "views": 7933,
+   "fame": 8207,
+   "views": 8207,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-14"
+    "wikipedia-top-2026-10-15"
    ],
    "owners": [],
    "reports": [],
@@ -547,13 +479,13 @@
   {
    "id": "gdacs-TC-1001338",
    "kind": "TC",
-   "level": "Orange",
-   "title": "Orange notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.175 million .",
+   "level": "Red",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.175 million .",
    "country": "Guam",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "11.5",
-   "lon": "156.5"
+   "lat": "11.3",
+   "lon": "154"
   },
   {
    "id": "gdacs-TC-1001337",
@@ -586,24 +518,23 @@
    "views": 0,
    "traffic": 0,
    "news": 275000,
-   "news_at": "2026-10-16T01:53:19+00:00",
+   "news_at": "2026-10-16T02:26:26+00:00",
    "headlines": [
-    "Shooting at elementary school in Oregon leaves several hospitalised, shooter dead",
-    "Shooter kills three children and one teacher at Oregon elementary school",
+    "US: 3 children, 1 adult killed in shooting at Oregon elementary school",
+    "Oregon elementary school shooting: what we know so far",
     "Who was the teen gunman who opened fire at Oregon elementary school leaving four dead?",
     "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-    "4 Killed In Shooting At Oregon Elementary School In US, Shooter Dead: Report"
+    "Several killed, including children, in Oregon elementary school shooting, sources say"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-15",
-    "google-news:Shooting at elementary school in Oregon leaves several hospitalised, shooter dead",
-    "google-news:Shooter kills three children and one teacher at Oregon elementary school",
+    "google-news:US: 3 children, 1 adult killed in shooting at Oregon elementary school",
+    "google-news:Oregon elementary school shooting: what we know so far",
     "google-news:Who was the teen gunman who opened fire at Oregon elementary school leaving four dead?",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
-    "outlet:NDTV",
     "outlet:Paramount (CBS)",
     "outlet:NBCUniversal",
     "outlet:ABC (Australia)"
@@ -612,12 +543,21 @@
     "Guardian Media Group",
     "Independent Digital News",
     "Disney (ABC News)",
-    "NDTV",
     "Paramount (CBS)",
     "NBCUniversal",
     "ABC (Australia)"
    ],
    "reports": [
+    {
+     "title": "Oregon elementary school shooting: what we know so far",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T02:26:26+00:00"
+    },
     {
      "title": "Shooter kills three children and one teacher at Oregon elementary school",
      "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
@@ -657,16 +597,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-16T01:34:04+00:00"
-    },
-    {
-     "title": "4 Killed In Shooting At Oregon Elementary School In US, Shooter Dead: Report",
-     "url": "https://www.ndtv.com/world-news/several-injured-in-shooting-at-us-oregon-elementary-school-suspect-dead-12192496#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-16T00:14:13+00:00"
     },
     {
      "title": "Several killed, including children, in Oregon elementary school shooting, sources say",
@@ -717,15 +647,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T01:34:04+00:00",
+   "news_at": "2026-10-16T02:26:26+00:00",
    "owners": [
     "Deutsche Welle",
-    "SCMP Group",
     "NBCUniversal",
     "Al Jazeera Media Network",
     "Paramount (CBS)",
-    "NDTV",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -733,16 +662,12 @@
    "traffic": 0,
    "headlines": [
     "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
-    "4 dead, including children, in Oregon school shooting",
     "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
     "Three children, one teacher killed in Oregon school shooting",
-    "Several killed, including children, in Oregon elementary school shooting, sources say"
+    "Several killed, including children, in Oregon elementary school shooting, sources say",
+    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family"
    ],
-   "places": [
-    "dead",
-    "elementary",
-    "school"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -764,6 +689,16 @@
      "at": "2026-10-15T21:59:00+00:00"
     },
     {
+     "title": "Oregon elementary school shooting: what we know so far",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T02:26:26+00:00"
+    },
+    {
      "title": "Three children, one teacher killed in Oregon school shooting",
      "url": "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -772,16 +707,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T22:51:56+00:00"
-    },
-    {
-     "title": "4 dead, including children, in Oregon school shooting",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371069/oregon-school-shooting-leaves-2-hospital-shooter-dead?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T22:39:37+00:00"
     },
     {
      "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
@@ -836,22 +761,21 @@
    ],
    "via": [
     "outlet:Deutsche Welle",
-    "outlet:SCMP Group",
     "outlet:NBCUniversal",
     "outlet:Al Jazeera Media Network",
     "outlet:Paramount (CBS)",
-    "outlet:NDTV",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": "2026 Silver Rail Elementary School shooting"
   }
  ],
  "outlets": {
-  "headlines": 799,
+  "headlines": 801,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 36,
   "corroborated": 3
  },
  "emerging": [
@@ -863,15 +787,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T01:34:04+00:00",
+   "news_at": "2026-10-16T02:26:26+00:00",
    "owners": [
     "Deutsche Welle",
-    "SCMP Group",
     "NBCUniversal",
     "Al Jazeera Media Network",
     "Paramount (CBS)",
-    "NDTV",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -879,16 +802,12 @@
    "traffic": 0,
    "headlines": [
     "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
-    "4 dead, including children, in Oregon school shooting",
     "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
     "Three children, one teacher killed in Oregon school shooting",
-    "Several killed, including children, in Oregon elementary school shooting, sources say"
+    "Several killed, including children, in Oregon elementary school shooting, sources say",
+    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family"
    ],
-   "places": [
-    "dead",
-    "elementary",
-    "school"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -910,6 +829,16 @@
      "at": "2026-10-15T21:59:00+00:00"
     },
     {
+     "title": "Oregon elementary school shooting: what we know so far",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T02:26:26+00:00"
+    },
+    {
      "title": "Three children, one teacher killed in Oregon school shooting",
      "url": "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -918,16 +847,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T22:51:56+00:00"
-    },
-    {
-     "title": "4 dead, including children, in Oregon school shooting",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371069/oregon-school-shooting-leaves-2-hospital-shooter-dead?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T22:39:37+00:00"
     },
     {
      "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
@@ -982,12 +901,11 @@
    ],
    "via": [
     "outlet:Deutsche Welle",
-    "outlet:SCMP Group",
     "outlet:NBCUniversal",
     "outlet:Al Jazeera Media Network",
     "outlet:Paramount (CBS)",
-    "outlet:NDTV",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": "2026 Silver Rail Elementary School shooting"
@@ -1082,5 +1000,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 799 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike"
+ "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike"
 }
