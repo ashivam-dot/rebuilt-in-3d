@@ -39,6 +39,9 @@ WORLD_HOURS = (7.0, 24.0)
 NO_BREAKING = ("conflict", "strike")
 MIN_AGE_H, MAX_AGE_H = 3, 96
 QUAKE_MIN_MAG = 6.0
+# Quakes are the channel's best format (learned lift 1.27, ~800 median views in 24 h by 2026-10-16) and need no
+# photos; at 6.5+ they make news without a PAGER alert (the M6.9 off Kamchatka on 2026-10-16 was green).
+QUAKE_NEWS_MAG = 6.5
 QUAKE_BIG_MAG = 7.0
 COOLDOWN_DAYS = {"protest": 6, "movement": 6}
 # A quake with no trend signal ranks by USGS significance (about 600-2000 for these) on the fame scale.
@@ -173,7 +176,7 @@ def quake_candidates(trending_quakes: list[dict] | None = None) -> list[dict]:
             continue
         match = next((t for t in trending_quakes if t.get("coords") and abs(
             (date.fromisoformat(t["date"]) - q.time.date()).days) <= 1 and km_between(tuple(t["coords"]), (q.lat, q.lon)) < 300), None)
-        big = q.mag >= QUAKE_BIG_MAG or (q.alert or "") in ("yellow", "orange", "red")
+        big = q.mag >= QUAKE_NEWS_MAG or (q.alert or "") in ("yellow", "orange", "red")
         if not match and not big:
             continue
         fame = match["fame"] if match else q.sig * SIG_TO_FAME

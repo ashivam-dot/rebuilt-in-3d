@@ -156,7 +156,7 @@ def synthesize_story(short: Short, out_dir: Path) -> dict:
 
 def synthesize(short: Short, out_dir: Path) -> dict:
     """narration.wav plus timing.json: {duration, words, beats: [[start, end], ...]}."""
-    if short.scene.get("template") == "story":
+    if short.scene.get("template") == "story" or short.scene.get("narration") == "story":
         return synthesize_story(short, out_dir)
     pipe = _kokoro()
     out_dir.mkdir(parents=True, exist_ok=True)

@@ -19,7 +19,7 @@ from pathlib import Path
 
 import cv2
 
-from . import faces, gate, llm, media, outlets, stories, trends, wiki
+from . import faces, gate, llm, media, outlets, stories, terrain, trends, wiki
 from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
@@ -664,7 +664,43 @@ def build_death(cand: dict) -> Short:
                   hashtags=[name.replace(" ", ""), job or "tribute", "news"], reports=reports)
 
 
-def build_incident(cand: dict) -> Short:
+# Camera views of the 3D reconstruction offered to the writer in place of photos (render._bake_places shots).
+VIEWS = [("overview", "3D MAP: wide view of the region, the site marked"),
+         ("site", "3D MAP: close view of the marked site"),
+         ("status", "3D MAP: the site from another side, with the nearest towns"),
+         ("toll", "3D MAP: slow push in on the marked site")]
+VIEW_CREDIT = "Facts: Wikipedia (CC BY-SA 4.0) and Wikidata (CC0); 3D terrain: Mapzen Terrain Tiles on AWS"
+
+
+def site_of(article: str, ent: dict) -> tuple[float, float] | None:
+    info = wiki.page_info([article]).get(article, {})
+    if info.get("lat") is not None:
+        return info["lat"], info["lon"]
+    if ent and (c := wiki.coords(ent)):
+        return c
+    located = stories._places(ent, "P276") if ent else []
+    return (located[0]["lat"], located[0]["lon"]) if located else None
+
+
+def in_3d(short: Short, site: tuple[float, float], label: str, when: date) -> Short:
+    """Turn a script written over VIEWS into a 3D reconstruction Short, narrated like a photo story."""
+    for b in short.beats:
+        if b.shot.startswith("photo:"):
+            b.shot = VIEWS[int(b.shot.split(":")[1])][0]
+    half = 60.0
+    short.scene = {k: v for k, v in short.scene.items() if k != "photos"} | {
+        "template": "site", "narration": "story", "bbox": stories.bbox(site[0], site[1], half),
+        "center": {"lat": site[0], "lon": site[1]}, "site": {"label": label, "sub": stories.date_words(when)},
+        "route": None, "cities": stories._cities(site[0], site[1], half, set()),
+        "credits": "Facts: Wikipedia · Wikidata · Terrain: Mapzen/AWS Terrain Tiles"}
+    short.credits = [c for c in short.credits if not c.startswith(CREDIT.split(";")[0])] + [VIEW_CREDIT, terrain.CREDIT]
+    short.beats[-1].card = {"big": "Orbitwire", "small": "3D reconstruction · not real footage"}
+    short.tags = list(dict.fromkeys(short.tags + ["3D map"]))
+    return short
+
+
+def build_incident(cand: dict, views: bool = False) -> Short:
+    """views: when the story is short of free photos, write it over 3D views of where it happened (in_3d)."""
     article, qid, cat = cand["title"], cand.get("qid"), cand["category"]
     name = stories.plain_title(article)
     stories._check_age(article)
@@ -705,11 +741,17 @@ def build_incident(cand: dict) -> Short:
         # With enough photos of the train, plane or ship, a headquarters or a town photo would only be filler.
         shown = [p for p in photos if gate.showing(cat, [p])]
         photos = shown + [p for p in photos if p not in shown][:max(0, WANT_PHOTOS - len(shown))]
+    short_of = None
     if len(photos) < MIN_PHOTOS:
-        raise ValueError(f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})")
-    if cat in gate.SHOWS and (n := gate.showing(cat, photos)) < gate.SHOWN_NEEDED:
-        raise ValueError(f"gate: only {n} usable photos of {name} show the {VEHICLE_WORD[cat]}, its line or a "
-                         f"station or port (want {gate.SHOWN_NEEDED})")
+        short_of = f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})"
+    elif cat in gate.SHOWS and (n := gate.showing(cat, photos)) < gate.SHOWN_NEEDED:
+        short_of = (f"gate: only {n} usable photos of {name} show the {VEHICLE_WORD[cat]}, its line or a "
+                    f"station or port (want {gate.SHOWN_NEEDED})")
+    site = site_of(article, ent) if short_of and views else None
+    if short_of and not site:
+        raise ValueError(short_of)
+    if site:
+        photos = [{"file": shot, "description": text, "role": "view"} for shot, text in VIEWS]
     listed = stories._first(ib, "total_fatalities", "fatalities", "deaths")
     deaths = stories.agreed(listed, ent, "P1120", True)
     hurt = stories.agreed(stories._first(ib, "total_injuries", "injuries", "injured"), ent, "P1339", True)
@@ -755,14 +797,18 @@ def build_incident(cand: dict) -> Short:
     elif deaths is not None:
         facts.append(Fact("deaths", str(deaths), page, [f"{deaths:,}", str(deaths)], "infobox and Wikidata P1120 agree"))
     region = stories.city_of(where) if where else None
-    return _short(sid, "incident", name, draft, log, facts, facts_text, source, photos,
-                  list(dict.fromkeys([page, item] + [wiki.url(t) for t in also])),
-                  when.isoformat(), loss=loss, mood="news", voice=cand.get("region", "world"),
-                  tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"]
-                  + ([region] if region else []),
-                  summary=f"{name}, {stories.date_words(when)}: what happened, from "
-                          f"{'Wikipedia and Wikidata' if qid else 'Wikipedia'}.",
-                  hashtags=[cat, region or "world", "news"], reports=reports)
+    short = _short(sid, "incident", name, draft, log, facts, facts_text, source, [] if site else photos,
+                   list(dict.fromkeys([page, item] + [wiki.url(t) for t in also])),
+                   when.isoformat(), loss=loss, mood="news", voice=cand.get("region", "world"),
+                   tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"]
+                   + ([region] if region else []),
+                   summary=f"{name}, {stories.date_words(when)}: what happened, from "
+                           f"{'Wikipedia and Wikidata' if qid else 'Wikipedia'}.",
+                   hashtags=[cat, region or "world", "news"], reports=reports)
+    if site:
+        label = name if len(name) <= 22 else region or stories.city_of(where) or name[:22]
+        short = in_3d(short, site, label, when)
+    return short
 
 
 def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sources, event_time, loss, mood, tags,

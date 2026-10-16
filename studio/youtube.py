@@ -80,13 +80,15 @@ def description(short: Short) -> str:
 
 def _description(short: Short, narration: bool) -> str:
     lines = [short.summary, ""]
-    if short.scene.get("template") == "story":
+    if short.scene.get("template") == "story" or short.scene.get("narration") == "story":
         if narration:
             lines += [" ".join(b.text for b in short.beats[:-1]), ""]
         lines += source_lines(short)
-        lines += [f"The photos are real, from {media.hosts(short.scene.get('photos') or [])}, with a gentle 3D camera "
-                  "move added. The narration is an AI voice (Chatterbox) reading a script checked line by line against "
-                  "the sources above.",
+        pictures = (f"The photos are real, from {media.hosts(short.scene.get('photos') or [])}, with a gentle 3D "
+                    "camera move added." if short.scene.get("template") == "story" else
+                    "The pictures are a 3D reconstruction of the location from open terrain data, not real footage.")
+        lines += [pictures + " The narration is an AI voice (Chatterbox) reading a script checked line by line "
+                  "against the sources above.",
                   "Spotted an error? Comment with a source and we will correct it.", ""]
         lines += ["Credits:"] + [f"• {c}" for c in short.credits] + [""]
     else:

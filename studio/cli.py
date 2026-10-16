@@ -27,7 +27,12 @@ def prepare(target: str | dict):
         target = trends.candidate(target[5:])
     if isinstance(target, dict) and target["kind"] == "quake":
         target = target["event"]
-    short = quake.build(target) if isinstance(target, str) else writer.build(target)
+    try:
+        short = quake.build(target) if isinstance(target, str) else writer.build(target)
+    except ValueError as exc:
+        short = in_3d(target, exc)
+        if short is None:
+            raise
     if isinstance(target, dict):
         short.scene.setdefault("category", target.get("category"))
         short.scene.setdefault("region", target.get("region"))
@@ -40,6 +45,21 @@ def prepare(target: str | dict):
     if problems:
         raise ValueError("gate: " + "; ".join(problems))
     return short
+
+
+def in_3d(target, exc: ValueError):
+    """An incident still short of free photos on its second try is written over a 3D reconstruction of where it
+    happened (writer.build_incident views=True, badged "not real footage") instead of being lost: Commons rarely has
+    photos of an event in its first days, and 10 of the 14 stories given up by 2026-10-16 were."""
+    from . import writer
+
+    if not isinstance(target, dict) or "usable photos" not in str(exc) or target.get("kind") == "death":
+        return None
+    if (target.get("id") or "").startswith("nw-"):
+        return None
+    if ledger.load("retries", {}).get(target["id"], {}).get("count", 0) < 1:
+        return None
+    return writer.build_incident(target, views=True)
 
 
 def make(target: str | dict, short=None) -> tuple[object, dict]:
@@ -130,7 +150,7 @@ def run(dry: bool = False) -> dict:
             except Exception as exc:  # one malformed article must not stop the other candidates
                 health.setdefault("warnings", []).append(f"{cand['id']}: {type(exc).__name__}: {exc}"[:300])
                 continue
-            written += short.scene.get("template") == "story"
+            written += short.scene.get("template") == "story" or short.scene.get("narration") == "story"
             mix = gate.channel_mix(recent_loss, short.loss)
             if mix:
                 health["steps"].append(f"hold {cand['id']}: {mix}")
