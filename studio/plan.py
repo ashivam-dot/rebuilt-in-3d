@@ -111,14 +111,20 @@ def cooling(cand: dict, at: datetime, rows: list[dict]) -> bool:
 TOLD_DAYS = 7
 
 
-def told_before(cand: dict, rows: list[dict], at: datetime) -> bool:
+def told_before(cand: dict, rows: list[dict], at: datetime, moved: dict[str, str] | None = None) -> bool:
     """True when this story went out in the last TOLD_DAYS under another id: first told from outlet reporting (nw-)
     and now from its Wikipedia article, or the other way round. One story shares a report URL, or its nw- ids name
-    the same place and kind, or an nw- story's headlines name the article."""
+    the same place and kind, or an nw- story's headlines name the article. A story told by its Wikidata item and
+    back by its title (wp-) after its article moved is the same article: moved maps each told article to where it
+    now lives (renamed; "October 2026 attacks on Saudi airports" became "...Houthi attacks on Saudi Arabian airports"
+    and went out twice, 2026-10-14 and 2026-10-16)."""
     urls = {r["url"] for r in cand.get("reports") or []}
     for r in rows:
         if at - datetime.fromisoformat(r["published_at"]) > timedelta(days=TOLD_DAYS):
             continue
+        if r.get("article") and (cand["id"].startswith("wp-") or r["id"].startswith("wp-")) and \
+                {r["article"], (moved or {}).get(r["article"], r["article"])} & {cand.get("title"), cand.get("article")}:
+            return True
         if not (r["id"].startswith("nw-") or cand["id"].startswith("nw-")):
             continue  # stories told from Wikipedia on both sides are matched by their ids already
         if urls & set(r.get("report_urls") or []) or outlets.same_story(cand["id"], r["id"]):
@@ -134,6 +140,20 @@ def told_before(cand: dict, rows: list[dict], at: datetime) -> bool:
         if title and any(news.reverse(h, [news.pool_item(title)]) for h in heads):
             return True
     return False
+
+
+def renamed(rows: list[dict], at: datetime) -> dict[str, str]:
+    """Where each article told in the last TOLD_DAYS lives now (a moved page leaves a redirect); {} when Wikipedia
+    cannot be read."""
+    from . import wiki
+
+    titles = list(dict.fromkeys(r["article"] for r in rows if r.get("article")
+                                and at - datetime.fromisoformat(r["published_at"]) <= timedelta(days=TOLD_DAYS)))
+    try:
+        info = wiki.page_info(titles) if titles else {}
+    except Exception:
+        return {}
+    return {t: info[t]["title"] for t in titles if t in info}
 
 
 def outlet_note(stats: dict, emerging: list[dict]) -> str:
@@ -205,9 +225,10 @@ def watch() -> dict:
     # Stories are told with real photos now, so an incident no longer needs coordinates to qualify.
     at = datetime.now(timezone.utc)
     rows = ledger.published()
+    moved = renamed(rows, at)
     stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
                and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
-               and not told_before(c, rows, at)]
+               and not told_before(c, rows, at, moved)]
     found["candidates"] = sorted(found["quakes"] + stories, key=lambda c: -priority(c, at))
     try:
         found["hazards"] = gdacs.alerts()

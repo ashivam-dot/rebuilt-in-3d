@@ -44,6 +44,7 @@ RETRACTED = {
     "B7Bn2Yhnlp8": "green M6.9 off Kamchatka: not news",
     "MAKHg-RUtRw": "M6.7 mid-ocean-ridge quake: nobody felt it, not news",
     "Pyn07q8sFcs": "Black Sea tanker strike shown with the colour black's photos (a painting, a black hole)",
+    "P3_BBUFzurk": "repeat of W2Zvww-jNK4 (2026-10-14): the same Oct 6 Saudi airport attacks, its article renamed",
 }
 
 
