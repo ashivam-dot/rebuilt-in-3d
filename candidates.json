@@ -1,93 +1,13 @@
 {
- "at": "2026-10-16T18:08:10+00:00",
- "quakes": [
-  {
-   "id": "eq-us6000u1z5",
-   "kind": "quake",
-   "event": "us6000u1z5",
-   "title": "central Mid-Atlantic Ridge",
-   "mag": 6.7,
-   "fame": 69100,
-   "age_h": 84.4,
-   "alert": "green",
-   "trending": false
-  }
- ],
+ "at": "2026-10-16T18:36:37+00:00",
+ "quakes": [],
  "trending": [
-  {
-   "qid": null,
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 210097,
-   "views": 10097,
-   "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-10-16T14:03:00+00:00",
-   "headlines": [
-    "How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
-    "Saudi Arabia to execute man for being at protests and funerals when he was 15",
-    "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15",
-    "google-news:How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
-    "google-news:Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
-    "google-news:Saudi Arabia to execute man for being at protests and funerals when he was 15",
-    "outlet:Deutsche Welle",
-    "outlet:Guardian Media Group",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Deutsche Welle",
-    "Guardian Media Group",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
-     "url": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T14:03:00+00:00"
-    },
-    {
-     "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15",
-     "url": "https://www.theguardian.com/global-development/2026/oct/16/saudi-arabia-to-execute-man-for-being-at-protests-and-funerals-when-he-was-15",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T05:00:51+00:00"
-    },
-    {
-     "title": "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
-     "url": "https://www.foxnews.com/world/houthis-emerge-global-threat-iran-control-saudi-attacks-says-former-envoy",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T22:25:57+00:00"
-    }
-   ],
-   "id": "wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 175000,
+   "fame": 185000,
    "views": 0,
-   "traffic": 0,
+   "traffic": 10000,
    "news": 125000,
    "news_at": "2026-10-16T17:29:48+00:00",
    "headlines": [
@@ -99,6 +19,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-GB:school",
     "wikipedia-current-events-2026-10-15",
     "google-news:Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
     "google-news:Man who confronted Oregon elementary school gunman identified by brother",
@@ -186,30 +107,6 @@
     44.03444444,
     -121.29527778
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141671500",
-   "title": "2026 Eritrean incursion into Ethiopia",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-15T18:45:21+00:00",
-   "headlines": [
-    "Ethiopian forces expand control in Tigray as militia claims Eritrean losses"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces expand control in Tigray as militia claims Eritrean losses"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141671500",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-06",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -314,16 +211,84 @@
    "article": null
   },
   {
+   "qid": null,
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 85097,
+   "views": 10097,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-10-16T14:03:00+00:00",
+   "headlines": [
+    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
+    "Saudi Arabia to execute man for being at protests and funerals when he was 15",
+    "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15",
+    "google-news:Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
+    "google-news:Saudi Arabia to execute man for being at protests and funerals when he was 15",
+    "google-news:Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Deutsche Welle",
+    "Guardian Media Group",
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
+     "url": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T14:03:00+00:00"
+    },
+    {
+     "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15",
+     "url": "https://www.theguardian.com/global-development/2026/oct/16/saudi-arabia-to-execute-man-for-being-at-protests-and-funerals-when-he-was-15",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T05:00:51+00:00"
+    },
+    {
+     "title": "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
+     "url": "https://www.foxnews.com/world/houthis-emerge-global-threat-iran-control-saudi-attacks-says-former-envoy",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-15T22:25:57+00:00"
+    }
+   ],
+   "id": "wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
-   "fame": 50000,
+   "fame": 50200,
    "views": 0,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
-   "news_at": "2026-10-16T18:08:10.426948+00:00",
+   "news_at": "2026-10-16T18:36:37.365414+00:00",
    "headlines": [],
    "region": "india",
    "via": [
+    "google-trends-IN:ashutosh ranka",
     "wikipedia-current-events-2026-10-16"
    ],
    "owners": [],
@@ -386,56 +351,37 @@
    "date": "2026-10-16"
   },
   {
-   "qid": "Q228928",
-   "title": "Eva Marie Saint",
-   "fame": 25000,
-   "views": 0,
+   "qid": "Q141544931",
+   "title": "2026 Ethiopian offensive",
+   "fame": 39725,
+   "views": 14725,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-16T09:00:00+00:00",
+   "news_at": "2026-10-16T18:28:22+00:00",
    "headlines": [
-    "Remembering Oscar-winning actor Eva Marie Saint"
+    "Seven Ethiopian armed groups announce anti-government alliance"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:Remembering Oscar-winning actor Eva Marie Saint",
-    "outlet:NPR"
+    "wikipedia-top-2026-10-15",
+    "google-news:Seven Ethiopian armed groups announce anti-government alliance",
+    "outlet:The Hindu Group"
    ],
    "owners": [
-    "NPR"
+    "The Hindu Group"
    ],
    "reports": [
     {
-     "title": "Remembering Oscar-winning actor Eva Marie Saint",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6003516/remembering-oscar-winning-actor-eva-marie-saint",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
+     "title": "Seven Ethiopian armed groups announce anti-government alliance",
+     "url": "https://www.thehindu.com/news/national/seven-ethiopian-armed-groups-announce-anti-government-alliance/article71491242.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-16T09:00:00+00:00"
+     "at": "2026-10-16T18:28:22+00:00"
     }
    ],
-   "id": "wk-Q228928",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-06"
-  },
-  {
-   "qid": "Q141544931",
-   "title": "2026 Ethiopian offensive",
-   "fame": 14725,
-   "views": 14725,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
    "id": "wk-Q141544931",
    "kind": "incident",
    "category": "conflict",
@@ -675,14 +621,15 @@
   {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
-   "fame": 50000,
+   "fame": 50200,
    "views": 0,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
-   "news_at": "2026-10-16T18:08:10.426948+00:00",
+   "news_at": "2026-10-16T18:36:37.365414+00:00",
    "headlines": [],
    "region": "india",
    "via": [
+    "google-trends-IN:ashutosh ranka",
     "wikipedia-current-events-2026-10-16"
    ],
    "owners": [],
@@ -745,26 +692,14 @@
    "date": "2026-10-16"
   },
   {
-   "id": "eq-us6000u1z5",
-   "kind": "quake",
-   "event": "us6000u1z5",
-   "title": "central Mid-Atlantic Ridge",
-   "mag": 6.7,
-   "fame": 69100,
-   "age_h": 84.4,
-   "alert": "green",
-   "trending": false
-  },
-  {
    "qid": null,
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 210097,
+   "fame": 85097,
    "views": 10097,
    "traffic": 0,
-   "news": 200000,
+   "news": 75000,
    "news_at": "2026-10-16T14:03:00+00:00",
    "headlines": [
-    "How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
     "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
     "Saudi Arabia to execute man for being at protests and funerals when he was 15",
     "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns"
@@ -772,9 +707,9 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
-    "google-news:How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
     "google-news:Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
     "google-news:Saudi Arabia to execute man for being at protests and funerals when he was 15",
+    "google-news:Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
     "outlet:Deutsche Welle",
     "outlet:Guardian Media Group",
     "outlet:Fox Corporation"
@@ -822,37 +757,20 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141671500",
-   "title": "2026 Eritrean incursion into Ethiopia",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-15T18:45:21+00:00",
-   "headlines": [
-    "Ethiopian forces expand control in Tigray as militia claims Eritrean losses"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ethiopian forces expand control in Tigray as militia claims Eritrean losses"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141671500",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-06",
-   "coords": null,
-   "has_coords": true
   }
  ],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 812,
+  "headlines": 811,
   "feeds": 30,
   "owners": 21,
-  "matched": 40,
+  "matched": 39,
   "corroborated": 4
  },
  "emerging": [
@@ -958,5 +876,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
+ "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
 }

@@ -1,19 +1,18 @@
 {
- "at": "2026-10-16T18:08:10+00:00",
+ "at": "2026-10-16T18:36:31+00:00",
  "ok": true,
  "steps": [
-  "watch: 6 candidates (1 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 812 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
-  "hold wk-Q141717158-2026w42: outside the india window",
-  "skip nw-20261016-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
-  "skip wk-Q19975570: gate: only 2 usable photos of Hyron Andrews on Wikimedia Commons (want 3)",
-  "published eq-us6000u1z5: https://www.youtube.com/shorts/MAKHg-RUtRw"
- ],
- "published": {
-  "video_id": "MAKHg-RUtRw",
-  "url": "https://www.youtube.com/shorts/MAKHg-RUtRw",
-  "title": "How the M6.7 central Mid-Atlantic Ridge quake ruptured, in 3D",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 22 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.206, 'typical_views_24h': 306}, 'kind:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 91}, 'kind:incident': {'n': 13, 'lift': 1.17, 'typical_views_24h': 258}, 'category:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 44}}",
+  "retracted B3TumXzN63I (M6.8 mid-ocean-ridge quake: nobody felt it, not news)",
+  "retracted B7Bn2Yhnlp8 (green M6.9 off Kamchatka: not news)",
+  "retracted MAKHg-RUtRw (M6.7 mid-ocean-ridge quake: nobody felt it, not news)",
+  "retracted Pyn07q8sFcs (Black Sea tanker strike shown with the colour black's photos (a painting, a black hole))",
+  "watch: 4 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 811 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
+  "hold nw-20261016-oregon-attack: last Short went out 0.2 h ago",
+  "hold wk-Q141717158-2026w42: last Short went out 0.2 h ago",
+  "hold wk-Q19975570: last Short went out 0.2 h ago",
+  "hold wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports: last Short went out 0.2 h ago"
+ ]
 }
