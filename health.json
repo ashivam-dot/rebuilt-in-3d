@@ -1,13 +1,20 @@
 {
- "at": "2026-10-16T18:45:08+00:00",
+ "at": "2026-10-16T19:12:46+00:00",
  "ok": true,
  "steps": [
-  "watch: 5 candidates (0 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 810 headlines from 30 feeds (21 owners), 43 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
-  "hold nw-20261016-oregon-attack: last Short went out 0.4 h ago",
-  "hold wk-Q19975570: last Short went out 0.4 h ago",
-  "hold wk-Q141717158-2026w42: last Short went out 0.4 h ago",
-  "hold wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports: last Short went out 0.4 h ago",
-  "hold wk-Q141671500: last Short went out 0.4 h ago"
- ]
+  "retracted B7Bn2Yhnlp8 (green M6.9 off Kamchatka: not news)",
+  "watch: 5 candidates (0 quakes, 12 trending), 2 hazard alerts",
+  "outlets: 808 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
+  "hold wk-Q141717158-2026w42: outside the india window",
+  "skip nw-20261016-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
+  "skip wk-Q19975570: gate: only 2 usable photos of Hyron Andrews on Wikimedia Commons (want 3)",
+  "published wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports: https://www.youtube.com/shorts/P3_BBUFzurk"
+ ],
+ "published": {
+  "video_id": "P3_BBUFzurk",
+  "url": "https://www.youtube.com/shorts/P3_BBUFzurk",
+  "title": "The October 2026 Houthi Attacks on Saudi Arabian Airports",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
