@@ -1,10 +1,9 @@
 {
- "at": "2026-10-16T03:38:05+00:00",
+ "at": "2026-10-16T04:10:22+00:00",
  "ok": true,
  "steps": [
   "watch: 1 candidates (0 quakes, 10 trending), 2 hazard alerts",
-  "outlets: 789 headlines from 30 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike",
-  "wait wk-Q141745391: gate: the article is under 6 hours old; facts may still move (ready in 0.2 h)",
-  "nothing eligible to publish"
+  "outlets: 796 headlines from 30 feeds (21 owners), 20 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike",
+  "hold wk-Q141745391: outside the world window"
  ]
 }
