@@ -287,6 +287,25 @@ PLACE_CAPTION = re.compile(r"\b(Airport|Hospital|Medical Complex|Station|Junctio
                            r"Bridge|Harbou?r|Mosque|Cathedral|Church|Temple|Stadium)s?\b")
 
 
+COUNT_WORDS = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve "
+                                          "thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split())}
+_COUNT = r"(?P<n>\d+|" + "|".join(COUNT_WORDS) + r")"
+TOLL_SAID = re.compile(_COUNT + r"\b[^.;]{0,60}?\b(?:killed|dead|died|lost their lives)\b", re.I)
+# "Five people were killed at the scene, including the shooter": a script that drops the last words tells
+# viewers five victims died (Silver Rail, 2026-10-16 test render).
+WITH_PERPETRATOR = re.compile(TOLL_SAID.pattern + r"[^.;]{0,60}?\bincluding (?:the |a )?(?:shooter|gunman|attacker|"
+                              r"perpetrator|suspect|bomber|assailant)s?\b", re.I)
+
+
+def _count(word: str) -> int | None:
+    return int(word) if word.isdigit() else COUNT_WORDS.get(word.lower())
+
+
+def tolls_with_perpetrator(ground: str) -> set[int]:
+    """Death tolls the sources state as including the attacker."""
+    return {n for m in WITH_PERPETRATOR.finditer(ground) if (n := _count(m.group("n"))) is not None}
+
+
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
               reports: list[dict] | None = None, casualties: bool = True) -> list[str]:
     problems = []
@@ -327,6 +346,11 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
         problems.append("these names or numbers are not in the sources: " + ", ".join(bad)
                         + (f" ({', '.join(single)} only in one outlet's report: one outlet is not enough)"
                            if single else ""))
+    for n in tolls_with_perpetrator(ground):
+        for where, line in lines:
+            if any(_count(m.group("n")) == n for m in TOLL_SAID.finditer(line)):
+                problems.append(f"{where} says {n} died, but the sources' {n} counts the attacker: never say that "
+                                "total; say who the victims were (\"three children and a teacher were killed\")")
     for person in banned_names:
         for token in re.findall(r"[A-Z][a-z]{2,}", person):
             # "Houthi" also bans "Houthis", "Russia" also "Russian" and "Russians"

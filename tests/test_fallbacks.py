@@ -59,3 +59,17 @@ def test_in_3d_maps_the_writers_views_to_3d_shots(monkeypatch):
     assert "photos" not in out.scene and out.scene["voice"] == "world"
     assert "not real footage" in out.beats[-1].card["small"]
     assert writer.CREDIT not in out.credits and writer.VIEW_CREDIT in out.credits
+
+
+def test_a_toll_that_counts_the_attacker_is_never_said_as_the_death_toll():
+    ground = ("The perpetrator shot and killed three children and a teacher. "
+              "Five people were killed at the scene, including the shooter. Two were hospitalized.")
+    assert writer.tolls_with_perpetrator(ground) == {5}
+    draft = {"title": "The Silver Rail Elementary School shooting", "beats": [
+        {"say": "Five people were killed at the scene, including three children and a teacher.", "photo": 0,
+         "caption": "x"},
+        {"say": "Three children and a teacher were killed.", "photo": 0, "caption": "y"}]}
+    problems = writer._validate(draft, [{"file": "a"}], "Silver Rail Elementary School shooting", ground, [])
+    assert any("beat 1 says 5 died" in p for p in problems)
+    assert not any("beat 2 says" in p for p in problems)
+    assert writer.tolls_with_perpetrator("Five people were killed, including two children.") == set()
