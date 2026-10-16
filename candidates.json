@@ -1,5 +1,5 @@
 {
- "at": "2026-10-16T16:11:42+00:00",
+ "at": "2026-10-16T17:08:59+00:00",
  "quakes": [
   {
    "id": "eq-us6000u214",
@@ -8,7 +8,7 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.8,
    "fame": 71100,
-   "age_h": 76.0,
+   "age_h": 76.8,
    "alert": "green",
    "trending": false
   },
@@ -19,7 +19,7 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.7,
    "fame": 69100,
-   "age_h": 82.6,
+   "age_h": 83.5,
    "alert": "green",
    "trending": false
   }
@@ -89,141 +89,9 @@
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
-   "date": "2026-10-10",
+   "date": "2026-10-16",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 200000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-16T15:56:30+00:00",
-   "headlines": [
-    "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
-    "Police search for clues to deadly shooting at Oregon elementary school",
-    "Mom of 5th-grade student recalls terrifying moment son told her about deadly shooting at Oregon elementary school",
-    "Bystander fatally shoots suspected teen gunman in deadly elementary school shooting and more top headlines",
-    "Shooter kills teacher, three children at Oregon elementary school"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-15",
-    "google-news:Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
-    "google-news:Police search for clues to deadly shooting at Oregon elementary school",
-    "google-news:Mom of 5th-grade student recalls terrifying moment son told her about deadly shooting at Oregon elementary school",
-    "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation",
-    "outlet:France Médias Monde",
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Fox Corporation",
-    "France Médias Monde",
-    "Euronews",
-    "Independent Digital News",
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
-     "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T15:56:30+00:00"
-    },
-    {
-     "title": "Police search for clues to deadly shooting at Oregon elementary school",
-     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-school-shooting-latest",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T15:17:10+00:00"
-    },
-    {
-     "title": "Mom of 5th-grade student recalls terrifying moment son told her about deadly shooting at Oregon elementary school",
-     "url": "https://www.nbcnews.com/news/us-news/mom-recalls-terrifying-moment-son-told-shooting-oregon-school-rcna603850",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T13:29:12+00:00"
-    },
-    {
-     "title": "Bystander fatally shoots suspected teen gunman in deadly elementary school shooting and more top headlines",
-     "url": "https://www.foxnews.com/us/bystander-fatally-shoots-suspected-teen-gunman-deadly-elementary-school-shooting-more-top-headlines",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T11:46:25+00:00"
-    },
-    {
-     "title": "Oregon elementary school shooting: what we know so far",
-     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T11:44:30+00:00"
-    },
-    {
-     "title": "Shooter kills three children and one teacher at Oregon elementary school",
-     "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T11:25:44+00:00"
-    },
-    {
-     "title": "16-Year-Old Opens Fire at Elementary School, Killing 4",
-     "url": "https://www.today.com/video/16-year-old-opens-fire-at-elementary-school-killing-4-271679557734",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T11:15:06+00:00"
-    },
-    {
-     "title": "First Thing: Three young children killed in Oregon elementary school shooting",
-     "url": "https://www.theguardian.com/us-news/2026/oct/16/first-thing-three-young-children-killed-in-oregon-elementary-school-shooting",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T11:07:08+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141671500",
@@ -257,25 +125,28 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-16",
-   "news_at": "2026-10-16T13:46:18+00:00",
+   "news_at": "2026-10-16T16:19:35+00:00",
    "owners": [
-    "NBCUniversal",
     "Euronews",
     "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-    "Oregon police say four victims dead, including three children, in school shooting",
     "Candlelight vigil honours victims of Oregon school shooting",
     "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting"
+    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
+    "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+    "Police identify 16-year-old suspect in deadly Oregon school shooting"
    ],
-   "places": [],
+   "places": [
+    "ID’ed"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -297,6 +168,16 @@
      "at": "2026-10-16T08:27:16+00:00"
     },
     {
+     "title": "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/oregon-school-shooting-bend-father-b3068237.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T15:50:18+00:00"
+    },
+    {
      "title": "Candlelight vigil honours victims of Oregon school shooting",
      "url": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting",
      "outlet": "Euronews",
@@ -307,14 +188,14 @@
      "at": "2026-10-16T05:47:37+00:00"
     },
     {
-     "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-     "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
+     "title": "Police identify 16-year-old suspect in deadly Oregon school shooting",
+     "url": "https://www.nbcnews.com/now/video/police-identify-16-year-old-suspect-in-deadly-oregon-school-shooting-271699013510",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T13:46:18+00:00"
+     "at": "2026-10-16T16:19:35+00:00"
     },
     {
      "title": "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
@@ -325,33 +206,14 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-16T13:02:24+00:00"
-    },
-    {
-     "title": "Oregon police say four victims dead, including three children, in school shooting",
-     "url": "https://www.nbcnews.com/video/oregon-police-say-four-victims-dead-including-three-children-in-school-shooting-271665733617",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:42:16+00:00"
-    },
-    {
-     "title": "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-     "url": "https://www.nbcnews.com/video/aunt-of-5th-grader-at-oregon-school-shooting-says-he-sounded-very-scared-in-call-to-family-271665733591",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:39:23+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
     "outlet:Euronews",
     "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
@@ -359,15 +221,14 @@
   {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
-   "fame": 51000,
+   "fame": 50000,
    "views": 0,
-   "traffic": 1000,
+   "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-16T16:11:42.557167+00:00",
+   "news_at": "2026-10-16T17:08:59.050632+00:00",
    "headlines": [],
    "region": "india",
    "via": [
-    "google-trends-IN:india bloc and cjp protests",
     "wikipedia-current-events-2026-10-16"
    ],
    "owners": [],
@@ -378,6 +239,92 @@
    "date": "2026-10-16",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q19975570",
+   "title": "Hyron Andrews",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-16T14:33:04+00:00",
+   "headlines": [
+    "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+    "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+    "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "BBC",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjvxynj2kyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T14:33:04+00:00"
+    },
+    {
+     "title": "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
+     "url": "https://www.france24.com/en/sport/20261016-south-african-rugby-player-found-dead-in-french-hotel-ahead-of-champions-cup-debut",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T13:40:05+00:00"
+    }
+   ],
+   "id": "wk-Q19975570",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
+  },
+  {
+   "qid": "Q228928",
+   "title": "Eva Marie Saint",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-16T09:00:00+00:00",
+   "headlines": [
+    "Remembering Oscar-winning actor Eva Marie Saint"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Remembering Oscar-winning actor Eva Marie Saint",
+    "outlet:NPR"
+   ],
+   "owners": [
+    "NPR"
+   ],
+   "reports": [
+    {
+     "title": "Remembering Oscar-winning actor Eva Marie Saint",
+     "url": "https://www.npr.org/2026/10/16/nx-s1-6003516/remembering-oscar-winning-actor-eva-marie-saint",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T09:00:00+00:00"
+    }
+   ],
+   "id": "wk-Q228928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-06"
   },
   {
    "qid": "Q141544931",
@@ -462,6 +409,46 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q3205897",
+   "title": "L. Ian MacDonald",
+   "fame": 8231,
+   "views": 8231,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3205897",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q5300674",
+   "title": "Doug Loft",
+   "fame": 8207,
+   "views": 8207,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5300674",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -497,25 +484,28 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-16",
-   "news_at": "2026-10-16T13:46:18+00:00",
+   "news_at": "2026-10-16T16:19:35+00:00",
    "owners": [
-    "NBCUniversal",
     "Euronews",
     "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-    "Oregon police say four victims dead, including three children, in school shooting",
     "Candlelight vigil honours victims of Oregon school shooting",
     "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting"
+    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
+    "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+    "Police identify 16-year-old suspect in deadly Oregon school shooting"
    ],
-   "places": [],
+   "places": [
+    "ID’ed"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -537,6 +527,16 @@
      "at": "2026-10-16T08:27:16+00:00"
     },
     {
+     "title": "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/oregon-school-shooting-bend-father-b3068237.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T15:50:18+00:00"
+    },
+    {
      "title": "Candlelight vigil honours victims of Oregon school shooting",
      "url": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting",
      "outlet": "Euronews",
@@ -547,14 +547,14 @@
      "at": "2026-10-16T05:47:37+00:00"
     },
     {
-     "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-     "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
+     "title": "Police identify 16-year-old suspect in deadly Oregon school shooting",
+     "url": "https://www.nbcnews.com/now/video/police-identify-16-year-old-suspect-in-deadly-oregon-school-shooting-271699013510",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T13:46:18+00:00"
+     "at": "2026-10-16T16:19:35+00:00"
     },
     {
      "title": "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
@@ -565,33 +565,14 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-16T13:02:24+00:00"
-    },
-    {
-     "title": "Oregon police say four victims dead, including three children, in school shooting",
-     "url": "https://www.nbcnews.com/video/oregon-police-say-four-victims-dead-including-three-children-in-school-shooting-271665733617",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:42:16+00:00"
-    },
-    {
-     "title": "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-     "url": "https://www.nbcnews.com/video/aunt-of-5th-grader-at-oregon-school-shooting-says-he-sounded-very-scared-in-call-to-family-271665733591",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:39:23+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
     "outlet:Euronews",
     "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
@@ -599,15 +580,14 @@
   {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
-   "fame": 51000,
+   "fame": 50000,
    "views": 0,
-   "traffic": 1000,
+   "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-16T16:11:42.557167+00:00",
+   "news_at": "2026-10-16T17:08:59.050632+00:00",
    "headlines": [],
    "region": "india",
    "via": [
-    "google-trends-IN:india bloc and cjp protests",
     "wikipedia-current-events-2026-10-16"
    ],
    "owners": [],
@@ -620,13 +600,63 @@
    "has_coords": true
   },
   {
+   "qid": "Q19975570",
+   "title": "Hyron Andrews",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-16T14:33:04+00:00",
+   "headlines": [
+    "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+    "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+    "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "BBC",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Former Sale Sharks player Hyron Andrews dies ahead of new club's Champions Cup match",
+     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjvxynj2kyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T14:33:04+00:00"
+    },
+    {
+     "title": "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
+     "url": "https://www.france24.com/en/sport/20261016-south-african-rugby-player-found-dead-in-french-hotel-ahead-of-champions-cup-debut",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T13:40:05+00:00"
+    }
+   ],
+   "id": "wk-Q19975570",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
+  },
+  {
    "id": "eq-us6000u214",
    "kind": "quake",
    "event": "us6000u214",
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.8,
    "fame": 71100,
-   "age_h": 76.0,
+   "age_h": 76.8,
    "alert": "green",
    "trending": false
   },
@@ -637,7 +667,7 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.7,
    "fame": 69100,
-   "age_h": 82.6,
+   "age_h": 83.5,
    "alert": "green",
    "trending": false
   },
@@ -666,14 +696,11 @@
    "has_coords": true
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
- ],
  "outlets": {
-  "headlines": 812,
+  "headlines": 809,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 48,
   "corroborated": 3
  },
  "emerging": [
@@ -685,25 +712,28 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-16",
-   "news_at": "2026-10-16T13:46:18+00:00",
+   "news_at": "2026-10-16T16:19:35+00:00",
    "owners": [
-    "NBCUniversal",
     "Euronews",
     "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-    "Oregon police say four victims dead, including three children, in school shooting",
     "Candlelight vigil honours victims of Oregon school shooting",
     "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting"
+    "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
+    "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+    "Police identify 16-year-old suspect in deadly Oregon school shooting"
    ],
-   "places": [],
+   "places": [
+    "ID’ed"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -725,6 +755,16 @@
      "at": "2026-10-16T08:27:16+00:00"
     },
     {
+     "title": "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/oregon-school-shooting-bend-father-b3068237.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T15:50:18+00:00"
+    },
+    {
      "title": "Candlelight vigil honours victims of Oregon school shooting",
      "url": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting",
      "outlet": "Euronews",
@@ -735,14 +775,14 @@
      "at": "2026-10-16T05:47:37+00:00"
     },
     {
-     "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-     "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
+     "title": "Police identify 16-year-old suspect in deadly Oregon school shooting",
+     "url": "https://www.nbcnews.com/now/video/police-identify-16-year-old-suspect-in-deadly-oregon-school-shooting-271699013510",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T13:46:18+00:00"
+     "at": "2026-10-16T16:19:35+00:00"
     },
     {
      "title": "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
@@ -753,37 +793,18 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-16T13:02:24+00:00"
-    },
-    {
-     "title": "Oregon police say four victims dead, including three children, in school shooting",
-     "url": "https://www.nbcnews.com/video/oregon-police-say-four-victims-dead-including-three-children-in-school-shooting-271665733617",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:42:16+00:00"
-    },
-    {
-     "title": "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-     "url": "https://www.nbcnews.com/video/aunt-of-5th-grader-at-oregon-school-shooting-says-he-sounded-very-scared-in-call-to-family-271665733591",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:39:23+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
     "outlet:Euronews",
     "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
+ "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 48 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
 }
