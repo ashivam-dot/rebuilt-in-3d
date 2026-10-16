@@ -126,7 +126,10 @@ def test_a_story_given_up_for_photos_before_maps_gets_one_more_try(tmp_path, mon
                             "wk-Q2": {"reason": "gate: beat 7: banned wording 'gory'", "at": "2026-10-16T10:00:00+00:00"}})
     ledger.save("retries", {"wk-Q141745391": {"count": 6, "reason": photos, "at": "2026-10-16T10:14:43+00:00"}})
     assert not ledger.is_done("wk-Q141745391") and ledger.is_done("wk-Q2")
-    assert not ledger.retry("wk-Q141745391", "gate: only 0 usable photos of X (want 2)")
+    assert ledger.retry("wk-Q141745391", "gate: no draft passed the fact checks: line 2")  # tries start afresh
+    assert ledger.load("retries", {})["wk-Q141745391"]["count"] == 1
+    for _ in range(5):
+        ledger.retry("wk-Q141745391", "gate: only 0 usable photos of X (want 2)")
     assert ledger.is_done("wk-Q141745391")
 
 

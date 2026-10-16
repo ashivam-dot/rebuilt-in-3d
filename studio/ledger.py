@@ -64,7 +64,7 @@ def retry(story_id: str, reason: str, limit: int = 6) -> bool:
     """Count a retryable failure; past `limit` the story is skipped for good. True while it may still be retried."""
     tries = load("retries", {})
     row = tries.get(story_id, {"count": 0})
-    if waiting(row.get("reason")):
+    if waiting(row.get("reason")) or reopened(row):
         row = {"count": 0}
     row = {"count": row["count"] + 1, "reason": reason, "at": now()}
     tries[story_id] = row
@@ -79,8 +79,13 @@ def waiting(reason: str | None) -> bool:
     return any(w in (reason or "") for w in WAITS)
 
 
+def reopened(row: dict | None) -> bool:
+    """A skip or retry for want of photos from before locator maps: the story starts its tries afresh."""
+    return bool(row) and "usable photos" in row.get("reason", "") and row.get("at", "") < MAPS_SINCE
+
+
 def is_done(story_id: str) -> bool:
     skipped = load("skipped", {}).get(story_id)
-    if skipped and "usable photos" in skipped.get("reason", "") and skipped.get("at", "") < MAPS_SINCE:
+    if reopened(skipped):
         skipped = None
     return any(r["id"] == story_id for r in published()) or bool(skipped and not waiting(skipped.get("reason")))

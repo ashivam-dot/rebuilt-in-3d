@@ -773,7 +773,9 @@ def town_photo(site: tuple[float, float], folder: Path, exclude: set[str]) -> li
         return []
     if not town or not town[0].get("qid"):
         return []
-    return [p | {"role": "setting"} for p in fill_photos([town[0]["qid"]], folder, exclude, need=1)[:1]]
+    # A panorama shows as a thin strip across a blurred frame: a town photo must be at most twice as wide as tall.
+    return [p | {"role": "setting"} for p in fill_photos([town[0]["qid"]], folder, exclude, need=3)
+            if p.get("width") and p.get("height") and p["width"] <= 2 * p["height"]][:1]
 
 
 def with_maps(photos: list[dict], site: tuple[float, float] | None, where: str | None, folder: Path,

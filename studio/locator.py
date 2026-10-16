@@ -23,6 +23,7 @@ UPSCALE = 2.6  # tile pixels are shown at most this much larger: the map's own l
 PAGE = "https://www.openstreetmap.org/copyright"
 LICENSE = "CC BY-SA 2.0"
 CREDIT = "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+BADGE_X, BADGE_Y = 200, 0.57  # inside every camera move (compose.MARGIN, MOTIONS), clear of the hook and chips
 MARKER = (232, 36, 36)
 INK = (12, 16, 22)
 FONTS = Path(__file__).resolve().parent / "fonts"
@@ -97,13 +98,17 @@ def draw(base: Image.Image, win: dict, site: tuple[float, float], label: str, wi
     d.ellipse((sx - 14, sy - 14, sx + 14, sy + 14), fill=MARKER + (255,), outline=(255, 255, 255, 255), width=4)
     if label:
         _pill(d, (sx, sy - 66), label, _font(46), INK + (232,), (255, 255, 255, 255))
+    # Badge and scale bar on the left, just above the captions: the camera crops the plate's edges, chips sit top
+    # left, and YouTube's buttons cover the right.
     km = scale_km(width_km)
     bar = km / width_km * W
-    x1, y = W - 96, round(0.175 * H)
-    d.rectangle((x1 - bar, y, x1, y + 10), fill=(255, 255, 255, 255), outline=INK + (230,), width=3)
-    d.text((x1, y - 12), f"{km:g} km", font=_font(32, "Bold"), fill=(255, 255, 255, 255), anchor="rb",
+    x0, y = BADGE_X, round(BADGE_Y * H)
+    badge = _font(34, "ExtraBold")
+    _pill(d, (x0, y), "MAP", badge, INK + (225,), (255, 255, 255, 255), anchor="lm")
+    bx = x0 + d.textlength("MAP", font=badge) + 44
+    d.rectangle((bx, y + 6, bx + bar, y + 16), fill=(255, 255, 255, 255), outline=INK + (230,), width=3)
+    d.text((bx, y - 2), f"{km:g} km", font=_font(32, "Bold"), fill=(255, 255, 255, 255), anchor="lb",
            stroke_width=5, stroke_fill=INK + (235,))
-    _pill(d, (96, y + 5), "MAP", _font(34, "ExtraBold"), INK + (225,), (255, 255, 255, 255), anchor="lm")
     return Image.alpha_composite(img, over).convert("RGB")
 
 
