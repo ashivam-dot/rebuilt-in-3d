@@ -11,6 +11,9 @@ from pathlib import Path
 STATE = Path(__file__).resolve().parents[1] / "state"
 # Reasons that only mean "not yet": they never count as a try, and a story once given up for them comes back.
 WAITS = ("under 6 hours old",)
+# A story given up for want of photos before locator maps went live (studio/locator.py) gets one more try: a map
+# may now stand in for the photos Commons lacked.
+MAPS_SINCE = "2026-10-16T19:20:00+00:00"
 
 
 def now() -> str:
@@ -78,4 +81,6 @@ def waiting(reason: str | None) -> bool:
 
 def is_done(story_id: str) -> bool:
     skipped = load("skipped", {}).get(story_id)
+    if skipped and "usable photos" in skipped.get("reason", "") and skipped.get("at", "") < MAPS_SINCE:
+        skipped = None
     return any(r["id"] == story_id for r in published()) or bool(skipped and not waiting(skipped.get("reason")))

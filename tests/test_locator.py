@@ -106,6 +106,20 @@ def test_a_country_is_never_a_site(monkeypatch):
     assert writer.precise_site("2026 Eritrean incursion into Ethiopia", event) is None
 
 
+def test_a_story_given_up_for_photos_before_maps_gets_one_more_try(tmp_path, monkeypatch):
+    from studio import ledger
+
+    monkeypatch.setattr(ledger, "STATE", tmp_path)
+    monkeypatch.setattr(ledger, "now", lambda: "2026-10-17T02:07:00+00:00")
+    photos = "gave up after 6 tries: gate: only 0 usable photos of 2026 Silver Rail Elementary School shooting"
+    ledger.save("skipped", {"wk-Q141745391": {"reason": photos, "at": "2026-10-16T10:14:43+00:00"},
+                            "wk-Q2": {"reason": "gate: beat 7: banned wording 'gory'", "at": "2026-10-16T10:00:00+00:00"}})
+    ledger.save("retries", {"wk-Q141745391": {"count": 6, "reason": photos, "at": "2026-10-16T10:14:43+00:00"}})
+    assert not ledger.is_done("wk-Q141745391") and ledger.is_done("wk-Q2")
+    assert not ledger.retry("wk-Q141745391", "gate: only 0 usable photos of X (want 2)")
+    assert ledger.is_done("wk-Q141745391")
+
+
 def test_the_end_card_and_description_credit_the_maps():
     assert "Maps: OpenStreetMap" in compose.disclosure([PHOTO, MAP])
     assert "Maps" not in compose.disclosure([PHOTO])
