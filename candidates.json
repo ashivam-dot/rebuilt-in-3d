@@ -1,29 +1,30 @@
 {
- "at": "2026-10-16T03:08:00+00:00",
+ "at": "2026-10-16T03:38:06+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 325000,
+   "fame": 450000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
-   "news_at": "2026-10-16T03:03:46+00:00",
+   "news": 400000,
+   "news_at": "2026-10-16T03:25:06+00:00",
    "headlines": [
-    "US: 3 children, 1 adult killed in shooting at Oregon elementary school",
-    "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-    "Oregon elementary school shooting: what we know so far",
-    "Who was the teen gunman who opened fire at Oregon elementary school leaving four dead?",
-    "Several killed, including children, in Oregon elementary school shooting, sources say"
+    "Shooting at elementary school in Oregon leaves at least five dead",
+    "What we learned about the fatal Bend elementary school shooting in real time - Oregon Public Broadcasting",
+    "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
+    "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+    "Oregon elementary school shooting: what we know so far"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-15",
-    "google-news:US: 3 children, 1 adult killed in shooting at Oregon elementary school",
-    "google-news:Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-    "google-news:Oregon elementary school shooting: what we know so far",
+    "google-news:Shooting at elementary school in Oregon leaves at least five dead",
+    "google-news:What we learned about the fatal Bend elementary school shooting in real time - Oregon Public Broadcasting",
+    "google-news:Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
     "outlet:Disney (ABC News)",
+    "outlet:Euronews",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
@@ -32,6 +33,7 @@
    ],
    "owners": [
     "Disney (ABC News)",
+    "Euronews",
     "Guardian Media Group",
     "Independent Digital News",
     "Paramount (CBS)",
@@ -40,14 +42,24 @@
    ],
    "reports": [
     {
-     "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
+     "title": "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
      "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T03:03:46+00:00"
+     "at": "2026-10-16T03:25:06+00:00"
+    },
+    {
+     "title": "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+     "url": "https://www.euronews.com/2026/10/16/four-killed-in-oregon-elementary-school-shooting-including-three-children-aged-5-to-11",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T03:23:21+00:00"
     },
     {
      "title": "Oregon elementary school shooting: what we know so far",
@@ -108,16 +120,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-15T23:09:07+00:00"
-    },
-    {
-     "title": "Live: Children among dead in shooting at elementary school in Oregon",
-     "url": "https://www.abc.net.au/news/2026-10-16/children-among-dead-at-school-shooting-in-oregon/107274068",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-15T23:00:57+00:00"
     }
    ],
    "id": "wk-Q141745391",
@@ -131,21 +133,103 @@
    "has_coords": true
   },
   {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 235097,
+   "views": 10097,
+   "traffic": 0,
+   "news": 225000,
+   "news_at": "2026-10-16T00:02:37+00:00",
+   "headlines": [
+    "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+    "Iran war live: Saudi blasts Houthi ‘war crimes’; US warns on Saudi airports",
+    "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
+    "Saudi Arabia postpones major sporting events amid Houthi attacks",
+    "Video report: Why are Yemen’s Houthis attacking Saudi Arabia?"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15",
+    "google-news:Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+    "google-news:Iran war live: Saudi blasts Houthi ‘war crimes’; US warns on Saudi airports",
+    "google-news:Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Fox Corporation",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Al Jazeera Media Network",
+    "Fox Corporation",
+    "France Médias Monde",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Iran war live: Saudi blasts Houthi ‘war crimes’; US warns on Saudi airports",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T00:02:37+00:00"
+    },
+    {
+     "title": "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
+     "url": "https://www.foxnews.com/world/houthis-emerge-global-threat-iran-control-saudi-attacks-says-former-envoy",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-15T22:25:57+00:00"
+    },
+    {
+     "title": "Saudi Arabia postpones major sporting events amid Houthi attacks",
+     "url": "https://www.france24.com/en/saudi-arabia-postpones-major-sporting-events-amid-houthi-attacks",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-15T20:31:42+00:00"
+    },
+    {
+     "title": "Video report: Why are Yemen’s Houthis attacking Saudi Arabia?",
+     "url": "https://www.independent.co.uk/tv/news/yemen-houthi-saudi-arabia-riyadh-airport-video-b3066823.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-15T05:55:26+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261015-oregon-attack",
    "qid": null,
-   "title": "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
+   "title": "Four dead, including three children, in Oregon school shooting",
    "name": "Oregon",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T03:03:46+00:00",
+   "news_at": "2026-10-16T03:23:21+00:00",
    "owners": [
     "Deutsche Welle",
     "NBCUniversal",
     "Al Jazeera Media Network",
     "Paramount (CBS)",
+    "France Médias Monde",
     "Guardian Media Group",
-    "Disney (ABC News)"
+    "Euronews"
    ],
    "fame": 150000,
    "news": 150000,
@@ -170,6 +254,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Four dead, including three children, in Oregon school shooting",
+     "url": "https://www.france24.com/en/americas/20261015-two-hospitalised-after-shooting-at-oregon-elementary-school-gunman-dead",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T00:57:46+00:00"
+    },
+    {
      "title": "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
      "url": "https://www.dw.com/en/oregon-school-shooting-3-children-teacher-killed-16-year-old-gunman-dies-after-community-member-pursues-him-into-school/a-79674849?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
@@ -178,6 +272,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-15T21:59:00+00:00"
+    },
+    {
+     "title": "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+     "url": "https://www.euronews.com/2026/10/16/four-killed-in-oregon-elementary-school-shooting-including-three-children-aged-5-to-11",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T03:23:21+00:00"
     },
     {
      "title": "Oregon elementary school shooting: what we know so far",
@@ -198,16 +302,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T22:51:56+00:00"
-    },
-    {
-     "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-     "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T03:03:46+00:00"
     },
     {
      "title": "Oregon police say four victims dead, including three children, in school shooting",
@@ -238,16 +332,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-15T23:20:52+00:00"
-    },
-    {
-     "title": "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
-     "url": "https://www.nbcnews.com/video/superintendent-calls-oregon-elementary-school-shooting-senseless-tragedy-271659589586",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T22:51:32+00:00"
     }
    ],
    "via": [
@@ -255,8 +339,9 @@
     "outlet:NBCUniversal",
     "outlet:Al Jazeera Media Network",
     "outlet:Paramount (CBS)",
+    "outlet:France Médias Monde",
     "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)"
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": "2026 Silver Rail Elementary School shooting"
@@ -488,17 +573,6 @@
    "lon": "154"
   },
   {
-   "id": "gdacs-TC-1001337",
-   "kind": "TC",
-   "level": "Orange",
-   "title": "Orange notification for tropical cyclone TRUDY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 45247 .",
-   "country": "México",
-   "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337",
-   "published": "2026-10-13T15:15:58+00:00",
-   "lat": "13.7",
-   "lon": "-101.7"
-  },
-  {
    "id": "gdacs-TC-1001335",
    "kind": "TC",
    "level": "Orange",
@@ -514,25 +588,26 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 325000,
+   "fame": 450000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
-   "news_at": "2026-10-16T03:03:46+00:00",
+   "news": 400000,
+   "news_at": "2026-10-16T03:25:06+00:00",
    "headlines": [
-    "US: 3 children, 1 adult killed in shooting at Oregon elementary school",
-    "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-    "Oregon elementary school shooting: what we know so far",
-    "Who was the teen gunman who opened fire at Oregon elementary school leaving four dead?",
-    "Several killed, including children, in Oregon elementary school shooting, sources say"
+    "Shooting at elementary school in Oregon leaves at least five dead",
+    "What we learned about the fatal Bend elementary school shooting in real time - Oregon Public Broadcasting",
+    "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
+    "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+    "Oregon elementary school shooting: what we know so far"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-15",
-    "google-news:US: 3 children, 1 adult killed in shooting at Oregon elementary school",
-    "google-news:Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-    "google-news:Oregon elementary school shooting: what we know so far",
+    "google-news:Shooting at elementary school in Oregon leaves at least five dead",
+    "google-news:What we learned about the fatal Bend elementary school shooting in real time - Oregon Public Broadcasting",
+    "google-news:Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
     "outlet:Disney (ABC News)",
+    "outlet:Euronews",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
@@ -541,6 +616,7 @@
    ],
    "owners": [
     "Disney (ABC News)",
+    "Euronews",
     "Guardian Media Group",
     "Independent Digital News",
     "Paramount (CBS)",
@@ -549,14 +625,24 @@
    ],
    "reports": [
     {
-     "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
+     "title": "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
      "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T03:03:46+00:00"
+     "at": "2026-10-16T03:25:06+00:00"
+    },
+    {
+     "title": "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+     "url": "https://www.euronews.com/2026/10/16/four-killed-in-oregon-elementary-school-shooting-including-three-children-aged-5-to-11",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T03:23:21+00:00"
     },
     {
      "title": "Oregon elementary school shooting: what we know so far",
@@ -617,16 +703,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-15T23:09:07+00:00"
-    },
-    {
-     "title": "Live: Children among dead in shooting at elementary school in Oregon",
-     "url": "https://www.abc.net.au/news/2026-10-16/children-among-dead-at-school-shooting-in-oregon/107274068",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-15T23:00:57+00:00"
     }
    ],
    "id": "wk-Q141745391",
@@ -638,163 +714,33 @@
     -121.2953
    ],
    "has_coords": true
-  },
-  {
-   "id": "nw-20261015-oregon-attack",
-   "qid": null,
-   "title": "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
-   "name": "Oregon",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "news_at": "2026-10-16T03:03:46+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "NBCUniversal",
-    "Al Jazeera Media Network",
-    "Paramount (CBS)",
-    "Guardian Media Group",
-    "Disney (ABC News)"
-   ],
-   "fame": 150000,
-   "news": 150000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
-    "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
-    "Three children, one teacher killed in Oregon school shooting",
-    "Several killed, including children, in Oregon elementary school shooting, sources say",
-    "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
-     "url": "https://www.dw.com/en/oregon-school-shooting-3-children-teacher-killed-16-year-old-gunman-dies-after-community-member-pursues-him-into-school/a-79674849?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-15T21:59:00+00:00"
-    },
-    {
-     "title": "Oregon elementary school shooting: what we know so far",
-     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-16T02:26:26+00:00"
-    },
-    {
-     "title": "Three children, one teacher killed in Oregon school shooting",
-     "url": "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-15T22:51:56+00:00"
-    },
-    {
-     "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-     "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T03:03:46+00:00"
-    },
-    {
-     "title": "Oregon police say four victims dead, including three children, in school shooting",
-     "url": "https://www.nbcnews.com/video/oregon-police-say-four-victims-dead-including-three-children-in-school-shooting-271665733617",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:42:16+00:00"
-    },
-    {
-     "title": "Aunt of fifth grader at Oregon school shooting says he sounded ‘very scared’ in call to family",
-     "url": "https://www.nbcnews.com/video/aunt-of-5th-grader-at-oregon-school-shooting-says-he-sounded-very-scared-in-call-to-family-271665733591",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T00:39:23+00:00"
-    },
-    {
-     "title": "Several killed, including children, in Oregon elementary school shooting, sources say",
-     "url": "https://www.cbsnews.com/video/several-killed-including-children-oregon-elementary-school-shooting-sources-say/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T23:20:52+00:00"
-    },
-    {
-     "title": "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
-     "url": "https://www.nbcnews.com/video/superintendent-calls-oregon-elementary-school-shooting-senseless-tragedy-271659589586",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T22:51:32+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:NBCUniversal",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": "2026 Silver Rail Elementary School shooting"
   }
  ],
  "outlets": {
-  "headlines": 798,
+  "headlines": 789,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 3
+  "matched": 28,
+  "corroborated": 4
  },
  "emerging": [
   {
    "id": "nw-20261015-oregon-attack",
    "qid": null,
-   "title": "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
+   "title": "Four dead, including three children, in Oregon school shooting",
    "name": "Oregon",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T03:03:46+00:00",
+   "news_at": "2026-10-16T03:23:21+00:00",
    "owners": [
     "Deutsche Welle",
     "NBCUniversal",
     "Al Jazeera Media Network",
     "Paramount (CBS)",
+    "France Médias Monde",
     "Guardian Media Group",
-    "Disney (ABC News)"
+    "Euronews"
    ],
    "fame": 150000,
    "news": 150000,
@@ -819,6 +765,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Four dead, including three children, in Oregon school shooting",
+     "url": "https://www.france24.com/en/americas/20261015-two-hospitalised-after-shooting-at-oregon-elementary-school-gunman-dead",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-16T00:57:46+00:00"
+    },
+    {
      "title": "Oregon school shooting: 3 children, teacher killed; 16-year-old gunman dies after community member pursues him into school",
      "url": "https://www.dw.com/en/oregon-school-shooting-3-children-teacher-killed-16-year-old-gunman-dies-after-community-member-pursues-him-into-school/a-79674849?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
@@ -827,6 +783,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-15T21:59:00+00:00"
+    },
+    {
+     "title": "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+     "url": "https://www.euronews.com/2026/10/16/four-killed-in-oregon-elementary-school-shooting-including-three-children-aged-5-to-11",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T03:23:21+00:00"
     },
     {
      "title": "Oregon elementary school shooting: what we know so far",
@@ -847,16 +813,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-15T22:51:56+00:00"
-    },
-    {
-     "title": "Oregon elementary school shooting: 3 children, 1 teacher killed; teen suspect dead",
-     "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T03:03:46+00:00"
     },
     {
      "title": "Oregon police say four victims dead, including three children, in school shooting",
@@ -887,16 +843,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-15T23:20:52+00:00"
-    },
-    {
-     "title": "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
-     "url": "https://www.nbcnews.com/video/superintendent-calls-oregon-elementary-school-shooting-senseless-tragedy-271659589586",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T22:51:32+00:00"
     }
    ],
    "via": [
@@ -904,8 +850,9 @@
     "outlet:NBCUniversal",
     "outlet:Al Jazeera Media Network",
     "outlet:Paramount (CBS)",
+    "outlet:France Médias Monde",
     "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)"
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": "2026 Silver Rail Elementary School shooting"
@@ -1000,5 +947,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike"
+ "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261015-oregon-attack, nw-20261015-romania-strike"
 }
