@@ -1,18 +1,18 @@
 {
- "at": "2026-10-16T11:12:11+00:00",
+ "at": "2026-10-16T11:41:52+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 450000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 400000,
-   "news_at": "2026-10-16T10:07:00+00:00",
+   "news": 275000,
+   "news_at": "2026-10-16T11:25:44+00:00",
    "headlines": [
-    "Shooting at elementary school in Oregon leaves at least five dead",
     "Teen shooter kills 3 children, teacher in Oregon elementary school before being shot by bystander",
+    "Shooter kills three children and one teacher at Oregon elementary school",
     "Shooter kills teacher, three children at Oregon elementary school",
     "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
     "Three children and one teacher killed in Oregon elementary school shooting"
@@ -20,27 +20,47 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-15",
-    "google-news:Shooting at elementary school in Oregon leaves at least five dead",
     "google-news:Teen shooter kills 3 children, teacher in Oregon elementary school before being shot by bystander",
+    "google-news:Shooter kills three children and one teacher at Oregon elementary school",
     "google-news:Shooter kills teacher, three children at Oregon elementary school",
+    "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
     "outlet:Euronews",
-    "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:NBCUniversal"
    ],
    "owners": [
+    "Guardian Media Group",
     "France Médias Monde",
     "Disney (ABC News)",
     "Euronews",
-    "Guardian Media Group",
     "Independent Digital News",
     "Paramount (CBS)",
     "NBCUniversal"
    ],
    "reports": [
+    {
+     "title": "Shooter kills three children and one teacher at Oregon elementary school",
+     "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T11:25:44+00:00"
+    },
+    {
+     "title": "First Thing: Three young children killed in Oregon elementary school shooting",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/first-thing-three-young-children-killed-in-oregon-elementary-school-shooting",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T11:07:08+00:00"
+    },
     {
      "title": "Shooter kills teacher, three children at Oregon elementary school",
      "url": "https://www.france24.com/en/video/20261016-shooter-kills-teacher-three-children-at-oregon-elementary-school",
@@ -100,26 +120,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-15T23:20:52+00:00"
-    },
-    {
-     "title": "Bend resident recalls hearing gunshots near elementary school shooting",
-     "url": "https://www.nbcnews.com/video/bend-resident-recalls-hearing-gunshots-near-elementary-school-shooting-271659589741",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T23:09:07+00:00"
-    },
-    {
-     "title": "Superintendent calls Oregon elementary school shooting ’senseless tragedy’",
-     "url": "https://www.nbcnews.com/video/superintendent-calls-oregon-elementary-school-shooting-senseless-tragedy-271659589586",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T22:51:32+00:00"
     }
    ],
    "id": "wk-Q141745391",
@@ -216,12 +216,12 @@
   {
    "id": "nw-20261015-oregon-attack",
    "qid": null,
-   "title": "Community 'heartbroken and horrified' after Oregon school shooting",
+   "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
    "name": "Oregon",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T09:24:19+00:00",
+   "news_at": "2026-10-16T08:27:16+00:00",
    "owners": [
     "Deutsche Welle",
     "NBCUniversal",
@@ -251,16 +251,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Community 'heartbroken and horrified' after Oregon school shooting",
-     "url": "https://www.bbc.co.uk/news/videos/cjy56wl6l90ro?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T09:24:19+00:00"
-    },
     {
      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
      "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
@@ -519,22 +509,22 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 808,
+  "headlines": 807,
   "feeds": 30,
   "owners": 21,
-  "matched": 37,
+  "matched": 36,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261015-oregon-attack",
    "qid": null,
-   "title": "Community 'heartbroken and horrified' after Oregon school shooting",
+   "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
    "name": "Oregon",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-15",
-   "news_at": "2026-10-16T09:24:19+00:00",
+   "news_at": "2026-10-16T08:27:16+00:00",
    "owners": [
     "Deutsche Welle",
     "NBCUniversal",
@@ -564,16 +554,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Community 'heartbroken and horrified' after Oregon school shooting",
-     "url": "https://www.bbc.co.uk/news/videos/cjy56wl6l90ro?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T09:24:19+00:00"
-    },
     {
      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
      "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
@@ -646,5 +626,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-oregon-attack"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261015-oregon-attack"
 }
