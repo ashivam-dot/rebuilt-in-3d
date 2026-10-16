@@ -1,14 +1,14 @@
 {
- "at": "2026-10-16T15:57:02+00:00",
+ "at": "2026-10-16T16:11:42+00:00",
  "ok": true,
  "steps": [
-  "watch: 6 candidates (2 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
-  "hold nw-20261016-oregon-attack: last Short went out 0.1 h ago",
-  "hold wk-Q141717158-2026w42: last Short went out 0.1 h ago",
-  "hold eq-us6000u214: last Short went out 0.1 h ago",
-  "hold eq-us6000u1z5: last Short went out 0.1 h ago",
-  "hold wk-Q96681757: last Short went out 0.1 h ago",
-  "hold wk-Q141671500: last Short went out 0.1 h ago"
+  "watch: 5 candidates (2 quakes, 9 trending), 2 hazard alerts",
+  "outlets: 812 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "hold nw-20261016-oregon-attack: last Short went out 0.5 h ago",
+  "hold wk-Q141717158-2026w42: last Short went out 0.5 h ago",
+  "hold eq-us6000u214: last Short went out 0.5 h ago",
+  "hold eq-us6000u1z5: last Short went out 0.5 h ago",
+  "hold wk-Q141671500: last Short went out 0.5 h ago"
  ]
 }
