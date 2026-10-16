@@ -1,13 +1,14 @@
 {
- "at": "2026-10-16T21:35:01+00:00",
+ "at": "2026-10-16T22:04:04+00:00",
  "ok": true,
  "steps": [
-  "watch: 4 candidates (0 quakes, 11 trending), 3 hazard alerts",
-  "outlets: 795 headlines from 29 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
+  "learn: 22 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.206, 'typical_views_24h': 306}, 'kind:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 91}, 'kind:incident': {'n': 13, 'lift': 1.17, 'typical_views_24h': 258}, 'category:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 44}}",
+  "retracted P3_BBUFzurk (repeat of W2Zvww-jNK4 (2026-10-14): the same Oct 6 Saudi airport attacks, its article renamed)",
+  "watch: 3 candidates (0 quakes, 10 trending), 3 hazard alerts",
+  "outlets: 787 headlines from 29 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wk-Q141717158-2026w42: outside the india window",
-  "skip wk-Q141745391: gate: no draft passed the fact checks: never name a perpetrator or attacker (John)",
+  "skip wk-Q141745391: gate: no draft passed the fact checks: beat 6 says 5 died, but the sources' 5 counts the attacker: never say that total; say who the victims were (\"three children and a teacher were killed\")",
   "skip wk-Q19975570: gate: only 2 usable photos of Hyron Andrews on Wikimedia Commons (want 3)",
-  "skip wk-Q5300674: gate: no photo on Wikimedia Commons shows Doug Loft's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
