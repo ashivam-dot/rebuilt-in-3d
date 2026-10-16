@@ -47,12 +47,19 @@ def prepare(target: str | dict):
     return short
 
 
+# Off (owner, 2026-10-16): a news story told over a 3D map instead of real photos reads as a lesser video than the
+# channel's photo news. A story without free photos waits for them instead.
+STORIES_IN_3D = False
+
+
 def in_3d(target, exc: ValueError):
     """An incident still short of free photos on its second try is written over a 3D reconstruction of where it
     happened (writer.build_incident views=True, badged "not real footage") instead of being lost: Commons rarely has
     photos of an event in its first days, and 10 of the 14 stories given up by 2026-10-16 were."""
     from . import writer
 
+    if not STORIES_IN_3D:
+        return None
     if not isinstance(target, dict) or "usable photos" not in str(exc) or target.get("kind") == "death":
         return None
     if (target.get("id") or "").startswith("nw-"):

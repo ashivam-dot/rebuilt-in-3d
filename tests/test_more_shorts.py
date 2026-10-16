@@ -108,7 +108,7 @@ def test_the_story_name_does_not_depend_on_set_order():
                                 "demonstration", 3),
             item("fox-world", "Greta Thunberg joins massive French student protests as cars burn", 2),
             item("abc-us-top", "Greta Thunberg backs French high school protests over run-down schools", 1)]
-    assert [s["id"] for s in outlets.stories(rows, NOW)] == ["nw-20261013-greta-protest"]
+    assert [s["id"] for s in outlets.stories(rows, NOW)] == ["nw-20261013-greta-thunberg-protest"]
 
 
 @pytest.mark.parametrize("title, who", [

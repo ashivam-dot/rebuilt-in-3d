@@ -6,16 +6,18 @@ from studio import cli, ledger, plan, stories, usgs, writer
 from studio.spec import Beat, Short
 
 
-def _quake(mag, alert):
+def _quake(mag, alert, place="76 km NE of Ozernovskiy, Russia"):
     at = datetime.now(timezone.utc) - timedelta(hours=11)
-    return usgs.Quake(f"q{mag}", mag, "76 km NE of Ozernovskiy, Russia", at, 51.9, 157.4, 30.0, alert, 733, "")
+    return usgs.Quake(f"q{mag}-{alert}", mag, place, at, 51.9, 157.4, 30.0, alert, 733, "")
 
 
-def test_a_green_m6_5_quake_is_news_without_trending(tmp_path, monkeypatch):
+def test_only_a_quake_people_felt_is_news_without_trending(tmp_path, monkeypatch):
     monkeypatch.setattr(ledger, "STATE", tmp_path)
-    monkeypatch.setattr(usgs, "recent", lambda: [_quake(6.9, "green"), _quake(6.2, "green"), _quake(6.1, "yellow")])
+    monkeypatch.setattr(usgs, "recent", lambda: [
+        _quake(6.9, "green"), _quake(6.8, "green", "central Mid-Atlantic Ridge"), _quake(6.1, "yellow"),
+        _quake(7.2, "green"), _quake(7.4, "green", "central Mid-Atlantic Ridge")])
     found = {c["event"] for c in plan.quake_candidates()}
-    assert found == {"q6.9", "q6.1"}
+    assert found == {"q6.1-yellow", "q7.2-green"}
 
 
 def _incident(kind="incident", sid="wk-Q1"):
@@ -36,14 +38,16 @@ def test_no_3d_fallback_for_tributes_reports_first_tries_or_other_failures(tmp_p
     assert cli.in_3d(cand, ValueError(why)) is None
 
 
-def test_a_photo_short_incident_is_rewritten_over_3d_views_on_its_second_try(tmp_path, monkeypatch):
+def test_a_photo_short_incident_waits_for_photos_and_is_never_told_over_a_3d_map(tmp_path, monkeypatch):
     monkeypatch.setattr(ledger, "STATE", tmp_path)
     cand = _incident()
     ledger.save("retries", {cand["id"]: {"count": 1, "reason": "usable photos", "at": ledger.now()}})
     seen = {}
     monkeypatch.setattr(writer, "build_incident", lambda c, views=False: seen.update(views=views) or "short")
-    assert cli.in_3d(cand, ValueError("gate: only 1 usable photos of X on Wikimedia Commons (want 2)")) == "short"
-    assert seen == {"views": True}
+    why = ValueError("gate: only 1 usable photos of X on Wikimedia Commons (want 2)")
+    assert not cli.STORIES_IN_3D and cli.in_3d(cand, why) is None and seen == {}
+    monkeypatch.setattr(cli, "STORIES_IN_3D", True)
+    assert cli.in_3d(cand, why) == "short" and seen == {"views": True}
 
 
 def test_in_3d_maps_the_writers_views_to_3d_shots(monkeypatch):

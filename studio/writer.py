@@ -906,7 +906,15 @@ def story_subject(name: str) -> str | None:
     ent = wiki.entities([qid]).get(qid) if qid else None
     if not ent or media.place_like(ent) or wiki.HUMAN in {c["value"] for c in wiki.claims(ent, "P31")}:
         return None
+    if not any(wiki.claims(ent, p) for p in MADE_THING):
+        return None
     return qid
+
+
+# A subject is something made that can be hit: a company, a building, a ship, an aircraft. It has an inception, a
+# maker, an operator or a headquarters; an idea has none ("Black" is the colour, whose photos are a painting and a
+# black hole: run of 2026-10-15, "A Growing Shadow Over the Black Sea").
+MADE_THING = ("P571", "P176", "P137", "P159")
 
 
 def build_report(cand: dict) -> Short:

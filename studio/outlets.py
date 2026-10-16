@@ -524,7 +524,11 @@ def same_story(a: str, b: str, days: int = 2) -> bool:
     """Two nw- ids name one story: the same place and kind, first reported within `days` of each other (the first
     report seen can shift between runs as old items leave the feeds)."""
     ma, mb = NW.match(a or ""), NW.match(b or "")
-    if not ma or not mb or ma.group(2, 3) != mb.group(2, 3):
+    if not ma or not mb or ma.group(3) != mb.group(3):
+        return False
+    # A one-word name and the phrase it heads are one place ("black" and "black-sea", named before and after 2026-10-16).
+    pa, pb = sorted((ma.group(2).split("-"), mb.group(2).split("-")), key=len)
+    if pb[:len(pa)] != pa:
         return False
     da, db = (datetime.strptime(m.group(1), "%Y%m%d").date() for m in (ma, mb))
     return abs((da - db).days) <= days
@@ -619,7 +623,30 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
                         if _stem(w) == key)
             return re.sub(r"['’]s$", "", word)
 
-        name = spelt(named[0])
+        def joinable(word: str) -> bool:
+            return (word[0].isupper() and not _kind_word(word) and _stem(word) not in STOP
+                    and word.lower() not in GENERIC and _stem(word) not in banned)
+
+        def phrase(key: str) -> str:
+            """The name the key's word stands in, as most headlines write it: "Black Sea", never "Black" (whose
+            Wikipedia article is the colour). Runs over 3 words are a Title Case headline, not a name."""
+            runs: Counter = Counter()
+            for i in c["items"]:
+                words = list(re.finditer(r"[A-Za-z][A-Za-z'’\-]*", i["title"]))
+                for n, m in enumerate(words):
+                    if _stem(m.group(0)) != key:
+                        continue
+                    lo = hi = n
+                    while lo and joinable(words[lo - 1].group(0)) and i["title"][words[lo - 1].end():words[lo].start()] == " ":
+                        lo -= 1
+                    while (hi + 1 < len(words) and joinable(words[hi + 1].group(0))
+                           and i["title"][words[hi].end():words[hi + 1].start()] == " "):
+                        hi += 1
+                    if hi - lo < 3:
+                        runs[" ".join(re.sub(r"['’]s$", "", w.group(0)) for w in words[lo:hi + 1])] += 1
+            return runs.most_common(1)[0][0] if runs else spelt(key)
+
+        name = phrase(named[0])
         first = min(datetime.fromisoformat(i["at"]) for i in c["items"])
         newest = max(i["at"] for i in c["items"])
         lead = sorted(c["items"], key=_rank)[0]
