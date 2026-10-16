@@ -1,17 +1,6 @@
 {
- "at": "2026-10-16T15:27:46+00:00",
+ "at": "2026-10-16T15:57:02+00:00",
  "quakes": [
-  {
-   "id": "eq-us6000u2mq",
-   "kind": "quake",
-   "event": "us6000u2mq",
-   "title": "76 km NE of Ozernovskiy, Russia",
-   "mag": 6.9,
-   "fame": 73300,
-   "age_h": 11.9,
-   "alert": "green",
-   "trending": false
-  },
   {
    "id": "eq-us6000u214",
    "kind": "quake",
@@ -19,7 +8,7 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.8,
    "fame": 71100,
-   "age_h": 75.1,
+   "age_h": 75.6,
    "alert": "green",
    "trending": false
   },
@@ -30,7 +19,7 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.7,
    "fame": 69100,
-   "age_h": 81.8,
+   "age_h": 82.2,
    "alert": "green",
    "trending": false
   }
@@ -111,24 +100,24 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-16T14:53:50+00:00",
+   "news_at": "2026-10-16T15:56:30+00:00",
    "headlines": [
     "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
+    "Police search for clues to deadly shooting at Oregon elementary school",
     "Mom of 5th-grade student recalls terrifying moment son told her about deadly shooting at Oregon elementary school",
     "Bystander fatally shoots suspected teen gunman in deadly elementary school shooting and more top headlines",
-    "Oregon elementary school shooting: what we know so far",
     "Shooter kills teacher, three children at Oregon elementary school"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-15",
     "google-news:Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
+    "google-news:Police search for clues to deadly shooting at Oregon elementary school",
     "google-news:Mom of 5th-grade student recalls terrifying moment son told her about deadly shooting at Oregon elementary school",
-    "google-news:Bystander fatally shoots suspected teen gunman in deadly elementary school shooting and more top headlines",
     "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
     "outlet:Fox Corporation",
-    "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
     "outlet:Euronews",
     "outlet:Independent Digital News",
@@ -136,9 +125,9 @@
    ],
    "owners": [
     "Disney (ABC News)",
+    "Guardian Media Group",
     "NBCUniversal",
     "Fox Corporation",
-    "Guardian Media Group",
     "France Médias Monde",
     "Euronews",
     "Independent Digital News",
@@ -153,7 +142,17 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-16T14:53:50+00:00"
+     "at": "2026-10-16T15:56:30+00:00"
+    },
+    {
+     "title": "Police search for clues to deadly shooting at Oregon elementary school",
+     "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-school-shooting-latest",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-16T15:17:10+00:00"
     },
     {
      "title": "Mom of 5th-grade student recalls terrifying moment son told her about deadly shooting at Oregon elementary school",
@@ -214,16 +213,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-16T11:07:08+00:00"
-    },
-    {
-     "title": "Shooter kills teacher, three children at Oregon elementary school",
-     "url": "https://www.france24.com/en/video/20261016-shooter-kills-teacher-three-children-at-oregon-elementary-school",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T09:27:58+00:00"
     }
    ],
    "id": "wk-Q141745391",
@@ -366,6 +355,29 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 50500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": "2026-10-16T15:57:02.874530+00:00",
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "google-trends-IN:india bloc and cjp protests",
+    "wikipedia-current-events-2026-10-16"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141717158-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q228928",
@@ -530,9 +542,9 @@
   {
    "qid": "Q96681757",
    "title": "Rachna Shroff",
-   "fame": 200,
+   "fame": 500,
    "views": 0,
-   "traffic": 200,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
@@ -681,15 +693,27 @@
    "article": null
   },
   {
-   "id": "eq-us6000u2mq",
-   "kind": "quake",
-   "event": "us6000u2mq",
-   "title": "76 km NE of Ozernovskiy, Russia",
-   "mag": 6.9,
-   "fame": 73300,
-   "age_h": 11.9,
-   "alert": "green",
-   "trending": false
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 50500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": "2026-10-16T15:57:02.874530+00:00",
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "google-trends-IN:india bloc and cjp protests",
+    "wikipedia-current-events-2026-10-16"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141717158-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": true
   },
   {
    "id": "eq-us6000u214",
@@ -698,7 +722,7 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.8,
    "fame": 71100,
-   "age_h": 75.1,
+   "age_h": 75.6,
    "alert": "green",
    "trending": false
   },
@@ -709,16 +733,16 @@
    "title": "central Mid-Atlantic Ridge",
    "mag": 6.7,
    "fame": 69100,
-   "age_h": 81.8,
+   "age_h": 82.2,
    "alert": "green",
    "trending": false
   },
   {
    "qid": "Q96681757",
    "title": "Rachna Shroff",
-   "fame": 200,
+   "fame": 500,
    "views": 0,
-   "traffic": 200,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
@@ -759,10 +783,10 @@
   }
  ],
  "outlets": {
-  "headlines": 806,
+  "headlines": 808,
   "feeds": 30,
   "owners": 21,
-  "matched": 51,
+  "matched": 38,
   "corroborated": 3
  },
  "emerging": [
@@ -874,5 +898,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 51 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
+ "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack"
 }

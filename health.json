@@ -1,17 +1,14 @@
 {
- "at": "2026-10-16T15:27:45+00:00",
+ "at": "2026-10-16T15:57:02+00:00",
  "ok": true,
  "steps": [
-  "watch: 6 candidates (3 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 806 headlines from 30 feeds (21 owners), 51 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
-  "skip nw-20261016-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
-  "published eq-us6000u2mq: https://www.youtube.com/shorts/B7Bn2Yhnlp8"
- ],
- "published": {
-  "video_id": "B7Bn2Yhnlp8",
-  "url": "https://www.youtube.com/shorts/B7Bn2Yhnlp8",
-  "title": "How the M6.9 Russia quake ruptured, in 3D",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "watch: 6 candidates (2 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
+  "hold nw-20261016-oregon-attack: last Short went out 0.1 h ago",
+  "hold wk-Q141717158-2026w42: last Short went out 0.1 h ago",
+  "hold eq-us6000u214: last Short went out 0.1 h ago",
+  "hold eq-us6000u1z5: last Short went out 0.1 h ago",
+  "hold wk-Q96681757: last Short went out 0.1 h ago",
+  "hold wk-Q141671500: last Short went out 0.1 h ago"
+ ]
 }
