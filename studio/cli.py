@@ -115,6 +115,12 @@ def run(dry: bool = False) -> dict:
                     health["steps"].append(f"learn: {learned['scored']} scored Shorts, lifts {learned['lifts']}"[:400])
             except Exception as exc:  # the numbers steer ranking; reading them must never stop a publish
                 health["steps"].append(f"learn: {type(exc).__name__}: {exc}"[:300])
+            try:
+                from . import youtube
+
+                health["steps"] += youtube.retract(youtube.client())
+            except Exception as exc:
+                health["steps"].append(f"retract: {type(exc).__name__}: {exc}"[:300])
         found = plan.watch()
         health["steps"].append(f"watch: {len(found['candidates'])} candidates ({len(found['quakes'])} quakes, "
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")

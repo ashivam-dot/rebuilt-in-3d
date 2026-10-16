@@ -38,6 +38,30 @@ def identity(api) -> dict:
     return items[0]
 
 
+# Uploads the owner had taken down (made private, never deleted): owner review of 2026-10-16.
+RETRACTED = {
+    "B3TumXzN63I": "M6.8 mid-ocean-ridge quake: nobody felt it, not news",
+    "B7Bn2Yhnlp8": "green M6.9 off Kamchatka: not news",
+    "MAKHg-RUtRw": "M6.7 mid-ocean-ridge quake: nobody felt it, not news",
+    "Pyn07q8sFcs": "Black Sea tanker strike shown with the colour black's photos (a painting, a black hole)",
+}
+
+
+def retract(api) -> list[str]:
+    """Makes each RETRACTED upload on this channel private (clearing a scheduled publish), once: what it did."""
+    done = []
+    items = api.videos().list(part="status,snippet", id=",".join(RETRACTED)).execute().get("items", [])
+    for v in items:
+        if v["snippet"]["channelId"] != CHANNEL_ID or (v["status"]["privacyStatus"] == "private"
+                                                      and not v["status"].get("publishAt")):
+            continue
+        api.videos().update(part="status", body={"id": v["id"], "status": {
+            "privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
+            "embeddable": True, "publicStatsViewable": True}}).execute()
+        done.append(f"retracted {v['id']} ({RETRACTED[v['id']]})")
+    return done
+
+
 def recent(api, channel: dict, limit: int = 50) -> list[dict]:
     uploads = channel["contentDetails"]["relatedPlaylists"]["uploads"]
     rows = api.playlistItems().list(part="contentDetails", playlistId=uploads, maxResults=limit).execute().get("items", [])
