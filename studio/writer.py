@@ -371,6 +371,25 @@ def monotone(draft: dict) -> list[str]:
             for w in sorted(set(openers)) if openers.count(w) > 2]
 
 
+def place_photos(draft: dict, photos: list[dict]) -> dict:
+    """The SETTING photo rule kept by code, not left to the model: a town photo on its first beat after beat 1 only;
+    its other beats get the least-used other photo that neither neighbouring beat shows (with three photos the model
+    reused the town photo, and 'a SETTING photo is on more than one beat' dropped the story, 2026-10-16)."""
+    beats = draft.get("beats") or []
+    setting = {i for i, p in enumerate(photos) if p.get("role") == "setting"}
+    others = [i for i in range(len(photos)) if i not in setting]
+    if not setting or not others:
+        return draft
+    kept = next((k for k, b in enumerate(beats) if k and b.get("photo") in setting), None)
+    for k, b in enumerate(beats):
+        if b.get("photo") not in setting or k == kept:
+            continue
+        near = {beats[j].get("photo") for j in (k - 1, k + 1) if 0 <= j < len(beats)}
+        uses = {i: sum(x.get("photo") == i for x in beats) for i in others}
+        b["photo"] = min(others, key=lambda i: (i in near, uses[i], i))
+    return draft
+
+
 def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, photos: list[dict],
           banned_names: list[str] | None = None, model: str | None = None,
           log_path: Path | None = None, headlines: list[str] | None = None,
@@ -397,7 +416,7 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     log = []
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
-            draft = m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6)
+            draft = place_photos(m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6), photos)
             problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties)
             if attempt < 2:
                 problems += monotone(draft)
