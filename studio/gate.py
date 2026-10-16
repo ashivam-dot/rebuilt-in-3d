@@ -49,6 +49,9 @@ MIN_PHOTOS, TRIBUTE_PHOTOS = 2, 3
 # Photos of the town it happened in, not of what happened (studio/media.py role "setting"), a Short may carry: a train
 # derailment once went out over a church, a shrine and a clock tower and no train at all (2026-10-14).
 MAX_SETTING = 1
+# Locator maps (studio/locator.py: OpenStreetMap, the site marked) a Short short of photos may carry, beside at least
+# one real photo: the region, then the streets around the site.
+MAX_MAPS = 2
 # What a transport incident's photos must show (file name or Commons description): the vehicle, its line, or the
 # station, airport or port. A railway's headquarters or a sign board shows none of them.
 SHOWS = {
@@ -214,6 +217,13 @@ def _story(short: Short) -> list[str]:
     used = {b.shot for b in short.beats if b.shot.startswith("photo:")}
     if any(int(s.split(":")[1]) >= len(photos) for s in used):
         problems.append("beats: a beat points at a photo that does not exist")
+    maps = [p for p in photos if p.get("role") == "map"]
+    if maps and len(maps) == len(photos):
+        problems.append("photos: only maps; a Short needs at least one real photo")
+    if len(maps) > MAX_MAPS:
+        problems.append(f"photos: {len(maps)} maps (at most {MAX_MAPS})")
+    if short.kind == "death" and maps:
+        problems.append("photos: a tribute is told over the person's photos, never a map")
     setting = {i for i, p in enumerate(photos) if p.get("role") == "setting"}
     if len(setting) > MAX_SETTING:
         problems.append(f"photos: {len(setting)} only show the town or area (at most {MAX_SETTING})")

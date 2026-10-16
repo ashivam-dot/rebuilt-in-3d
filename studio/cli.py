@@ -96,6 +96,7 @@ def publish(story_id: str, publish_at: str | None = None) -> dict:
     ledger.record_publish({"id": short.id, "kind": short.kind, "title": short.title, "loss": short.loss,
                            "published_at": when, "event_time": short.event_time,
                            "category": short.scene.get("category"), "region": short.scene.get("region"),
+                           "maps": sum(p.get("role") == "map" for p in short.scene.get("photos") or []),
                            "article": short.scene.get("article"),
                            "report_urls": [r["url"] for r in short.scene.get("reporting") or []],
                            "outlets": short.scene.get("outlets") or [], "headlines": short.scene.get("headlines") or [],

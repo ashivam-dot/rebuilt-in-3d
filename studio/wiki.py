@@ -295,7 +295,7 @@ def infobox(title: str) -> tuple[str, dict[str, str], dict[str, str]]:
 
 
 def nearby_cities(lat: float, lon: float, km: float, limit: int = 6, min_pop: int = 50000) -> list[dict]:
-    """The most populous cities within km of a point, from Wikidata: [{name, lat, lon, pop}]."""
+    """The most populous cities within km of a point, from Wikidata: [{name, lat, lon, pop, qid}]."""
     query = f"""SELECT ?city ?cityLabel ?loc (MAX(?p) AS ?pop) WHERE {{
       SERVICE wikibase:around {{ ?city wdt:P625 ?loc . bd:serviceParam wikibase:center "Point({lon} {lat})"^^geo:wktLiteral .
         bd:serviceParam wikibase:radius "{km:.0f}" . }}
@@ -310,7 +310,8 @@ def nearby_cities(lat: float, lon: float, km: float, limit: int = 6, min_pop: in
         if not m or name in seen or re.fullmatch(r"Q\d+", name):
             continue
         seen.add(name)
-        out.append({"name": name, "lon": float(m.group(1)), "lat": float(m.group(2)), "pop": int(float(r["pop"]["value"]))})
+        out.append({"name": name, "lon": float(m.group(1)), "lat": float(m.group(2)), "pop": int(float(r["pop"]["value"])),
+                    "qid": r["city"]["value"].rsplit("/", 1)[-1]})
     return out[:limit]
 
 

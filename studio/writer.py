@@ -114,6 +114,7 @@ RULES = """RULES (all mandatory):
 - photo: the index of the PHOTO that best fits the beat. Beat 1 uses photo {best}. Use every photo at least once,
   the same photo at most {most} times, and never the same photo on two beats in a row. A photo marked SETTING goes
   on one beat only, the beat that says where it happened, and never on beat 1; every other beat shows what it says.
+  A photo marked MAP goes on beats that say where it happened or set the scene.
 - caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
   a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
 - title: 30 to 60 characters in normal title case, factual and moving, includes "{name}", no clickbait.
@@ -177,12 +178,16 @@ def report_ground(reports: list[dict] | None) -> str:
 
 
 SETTING_NOTE = " [SETTING: shows only the town or area, not what happened]"
+MAP_NOTE = " [MAP: shows where it happened, not what happened]"
+
+
+def _note(photo: dict) -> str:
+    return SETTING_NOTE if photo.get("role") == "setting" else MAP_NOTE if photo.get("role") == "map" else ""
 
 
 def _messages(brief: str, facts: list[str], source: str, photos: list[dict], name: str,
               headlines: list[str] | None = None, reports: list[dict] | None = None) -> list[dict]:
-    listing = "\n".join(f"{i}: {p['description'] or p['file']}" + (SETTING_NOTE if p.get("role") == "setting" else "")
-                        for i, p in enumerate(photos))
+    listing = "\n".join(f"{i}: {p['description'] or p['file']}" + _note(p) for i, p in enumerate(photos))
     lead = ""
     if headlines:
         lead = ("\n\nTODAY'S LEAD HEADLINES (context only: use them to choose the angle and what to put first, but "
@@ -706,6 +711,73 @@ def site_of(article: str, ent: dict) -> tuple[float, float] | None:
     return (located[0]["lat"], located[0]["lon"]) if located else None
 
 
+# On (owner, 2026-10-16): a story Commons has too few photos of yet is told over its real photos plus two locator
+# maps (studio/locator.py) instead of waiting days, never over maps alone. Transport incidents still need photos of
+# the vehicle (gate.SHOWS), and tributes never use maps.
+LOCATOR_MAPS = True
+TOWN_KM = 12  # a town photo stands in for the event's own only when the site is this close to the town
+
+
+def precise_site(article: str, ent: dict) -> tuple[float, float] | None:
+    """Where the story happened, when a point says so: the article's or Wikidata's coordinates, or a located-in place
+    that is not a whole country or province (a centroid is not a site)."""
+    info = wiki.page_info([article]).get(article, {}) if article else {}
+    if info.get("lat") is not None:
+        return info["lat"], info["lon"]
+    if ent and (c := wiki.coords(ent)):
+        return c
+    for c in wiki.claims(ent, "P276") if ent else []:
+        place = wiki.entities([c["value"]]).get(c["value"]) if str(c["value"]).startswith("Q") else None
+        if place and not media.too_wide(place) and (xy := wiki.coords(place)):
+            return xy
+    return None
+
+
+def map_labels(where: str | None, site: tuple[float, float]) -> tuple[str, str]:
+    """(close label, wide label): the site and its town and region from the infobox location ("Silver Rail Elementary
+    School, Bend, Oregon, U.S." -> "Silver Rail Elementary School", "Bend, Oregon"), else the nearest town."""
+    parts = [p.strip() for p in re.sub(r"\[\[|\]\]|\{\{[^}]*\}\}", "", where or "").split(",") if p.strip()]
+    if parts:
+        return parts[0], ", ".join(parts[1:3] if len(parts) >= 3 else parts[:2])
+    try:
+        town = wiki.nearby_cities(site[0], site[1], TOWN_KM, limit=1, min_pop=5000)
+    except Exception:
+        town = []
+    return (town[0]["name"], town[0]["name"]) if town else ("", "")
+
+
+def town_photo(site: tuple[float, float], folder: Path, exclude: set[str]) -> list[dict]:
+    """One faceless photo of the town the site is in (a SETTING photo), for a story Commons has no photo of yet."""
+    try:
+        town = wiki.nearby_cities(site[0], site[1], TOWN_KM, limit=1, min_pop=5000)
+    except Exception:
+        return []
+    if not town or not town[0].get("qid"):
+        return []
+    return [p | {"role": "setting"} for p in fill_photos([town[0]["qid"]], folder, exclude, need=1)[:1]]
+
+
+def with_maps(photos: list[dict], site: tuple[float, float] | None, where: str | None, folder: Path,
+              category: str | None) -> list[dict]:
+    """photos (arranged) and the two locator maps of site, when they are fewer than MIN_PHOTOS; the photos unchanged
+    when maps cannot help (off, no precise site, a transport incident, no real photo at all, tiles unavailable)."""
+    from . import locator
+
+    if not LOCATOR_MAPS or not site or len(photos) >= MIN_PHOTOS or category in gate.SHOWS:
+        return photos
+    if not photos:
+        photos = town_photo(site, folder / "town", set())
+    if not photos:
+        return photos
+    near, wide = map_labels(where, site)
+    try:
+        maps = locator.plates(site, near, folder / "maps", where=wide)
+    except Exception:
+        return photos
+    real = [p for p in photos if p.get("role") != "setting"]
+    return real + maps + [p for p in photos if p.get("role") == "setting"][:gate.MAX_SETTING]
+
+
 def in_3d(short: Short, site: tuple[float, float], label: str, when: date) -> Short:
     """Turn a script written over VIEWS into a 3D reconstruction Short, narrated like a photo story."""
     for b in short.beats:
@@ -765,6 +837,9 @@ def build_incident(cand: dict, views: bool = False) -> Short:
         # With enough photos of the train, plane or ship, a headquarters or a town photo would only be filler.
         shown = [p for p in photos if gate.showing(cat, [p])]
         photos = shown + [p for p in photos if p not in shown][:max(0, WANT_PHOTOS - len(shown))]
+    if len(photos) < MIN_PHOTOS and not views:
+        photos = with_maps(photos, precise_site(article, ent), stories._first(ib, *PLACE_FIELDS[:5]),
+                           work / "photos", cat)
     short_of = None
     if len(photos) < MIN_PHOTOS:
         short_of = f"gate: only {len(photos)} usable photos of {name} on Wikimedia Commons (want {MIN_PHOTOS})"
@@ -945,6 +1020,11 @@ def build_report(cand: dict) -> Short:
     context = list(dict.fromkeys(([thing] if thing else []) + ([qid] if qid else [])
                                  + (incident_context(place, []) if place else [])))[:4]
     photos = arrange(fill_photos(context, work / "photos", set()))[:8] if context else []
+    if len(photos) < MIN_PHOTOS and place and not media.too_wide(place):
+        country = list(wiki.labels([c["value"] for c in wiki.claims(place, "P17")[:1]
+                                    if str(c["value"]).startswith("Q")]).values())
+        photos = with_maps(photos, wiki.coords(place), ", ".join(dict.fromkeys([where] + country[:1])),
+                           work / "photos", cat)
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
     kind = "protest" if cat in ("protest", "movement") else "incident"

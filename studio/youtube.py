@@ -112,6 +112,9 @@ def _description(short: Short, narration: bool) -> str:
         pictures = (f"The photos are real, from {media.hosts(short.scene.get('photos') or [])}, with a gentle 3D "
                     "camera move added." if short.scene.get("template") == "story" else
                     "The pictures are a 3D reconstruction of the location from open terrain data, not real footage.")
+        if any(p.get("role") == "map" for p in short.scene.get("photos") or []):
+            pictures += (" The maps are OpenStreetMap (© OpenStreetMap contributors), with the site marked by "
+                         "Orbitwire: they show where it happened, not what happened.")
         lines += [pictures + " The narration is an AI voice (Chatterbox) reading a script checked line by line "
                   "against the sources above.",
                   "Spotted an error? Comment with a source and we will correct it.", ""]

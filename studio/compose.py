@@ -22,9 +22,12 @@ DISCLOSURE = "Real photos: Wikimedia Commons · Narration: AI voice"
 
 def disclosure(photos: list[dict]) -> str:
     """The end card's disclosure, naming Openverse too when a photo comes from it."""
-    from . import media
+    from . import locator, media
 
-    return DISCLOSURE.replace("Wikimedia Commons", media.hosts(photos).replace(" and ", ", "))
+    text = DISCLOSURE.replace("Wikimedia Commons", media.hosts(photos).replace(" and ", ", "))
+    if any(locator.is_map(p) for p in photos):
+        text = text.replace(" · Narration", " · Maps: OpenStreetMap · Narration")
+    return text
 
 
 ACCENT = {"tribute": (255, 205, 92), "news": (90, 200, 255)}
@@ -56,7 +59,9 @@ class Plate:
 
     def __init__(self, photo: dict, cache: Path):
         img = Image.open(photo["path"]).convert("RGB")
-        dep = depth.estimate(img, cache)
+        # A map is flat: depth parallax would bend its roads and labels.
+        dep = np.full((img.height, img.width), 0.5, np.float32) if photo.get("role") == "map" \
+            else depth.estimate(img, cache)
         pw, ph = round(W * MARGIN), round(H * MARGIN)
         iw, ih = img.size
         focus = photo.get("focus")
@@ -271,7 +276,10 @@ def _end_layers(accent: tuple, disclosure: str = DISCLOSURE) -> list[tuple[tuple
     wire = _rgba(_text_layer([("WIRE", _font("Anton-Regular.ttf", 150), accent + (255,))], stroke=0))
     src = _rgba(_text_layer([("Sources in the description", _font("Montserrat.ttf", 42, "SemiBold"),
                               (255, 255, 255, 235))]))
-    disc = _rgba(_text_layer([(disclosure, _font("Montserrat.ttf", 28, "Medium"), (255, 255, 255, 190))]))
+    small = _font("Montserrat.ttf", 28, "Medium")
+    while small.getlength(disclosure) > W - 100 and small.size > 18:
+        small = _font("Montserrat.ttf", small.size - 2, "Medium")
+    disc = _rgba(_text_layer([(disclosure, small, (255, 255, 255, 190))]))
     return [(logo, 0), (wire, 1), (src, 2), (disc, 3)]
 
 
