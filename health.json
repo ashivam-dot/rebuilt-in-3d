@@ -1,12 +1,13 @@
 {
- "at": "2026-10-16T21:06:51+00:00",
+ "at": "2026-10-16T21:35:01+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 797 headlines from 29 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
+  "watch: 4 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 795 headlines from 29 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-oregon-attack",
   "hold wk-Q141717158-2026w42: outside the india window",
+  "skip wk-Q141745391: gate: no draft passed the fact checks: never name a perpetrator or attacker (John)",
   "skip wk-Q19975570: gate: only 2 usable photos of Hyron Andrews on Wikimedia Commons (want 3)",
-  "skip wk-Q141671500: gate: only 0 usable photos of 2026 Eritrean incursion into Ethiopia on Wikimedia Commons (want 2)",
+  "skip wk-Q5300674: gate: no photo on Wikimedia Commons shows Doug Loft's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
