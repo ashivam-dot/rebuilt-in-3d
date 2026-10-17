@@ -1,28 +1,29 @@
 {
- "at": "2026-10-17T03:34:44+00:00",
+ "at": "2026-10-17T04:06:09+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 260097,
+   "fame": 285097,
    "views": 10097,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-17T02:00:00+00:00",
+   "news": 275000,
+   "news_at": "2026-10-17T03:07:35+00:00",
    "headlines": [
     "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
+    "India advises nationals in Saudi Arabia to remain vigilant amid escalating regional tensions",
     "Iran Denies Saudi Accusation Of Involvement In Houthi Attacks",
     "Yemen’s government says Houthis fired two missiles at Aden airport",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
-    "Saudi Arabia to execute man for being at protests and funerals when he was 15"
+    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
+    "google-news:India advises nationals in Saudi Arabia to remain vigilant amid escalating regional tensions",
     "google-news:Iran Denies Saudi Accusation Of Involvement In Houthi Attacks",
-    "google-news:Yemen’s government says Houthis fired two missiles at Aden airport",
+    "outlet:The Hindu Group",
     "outlet:NDTV",
     "outlet:Al Jazeera Media Network",
     "outlet:Deutsche Welle",
@@ -30,6 +31,7 @@
     "outlet:Fox Corporation"
    ],
    "owners": [
+    "The Hindu Group",
     "NDTV",
     "Al Jazeera Media Network",
     "Deutsche Welle",
@@ -37,6 +39,16 @@
     "Fox Corporation"
    ],
    "reports": [
+    {
+     "title": "India advises nationals in Saudi Arabia to remain vigilant amid escalating regional tensions",
+     "url": "https://www.thehindu.com/news/national/india-advises-nationals-in-saudi-arabia-to-remain-vigilant-amid-escalating-regional-tensions/article71563038.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T03:07:35+00:00"
+    },
     {
      "title": "Iran Denies Saudi Accusation Of Involvement In Houthi Attacks",
      "url": "https://www.ndtv.com/world-news/iran-denies-saudi-accusation-of-involvement-in-houthi-attacks-12197172#publisher=newsstand",
@@ -96,79 +108,77 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261016-delhi-protest",
+   "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-   "name": "Delhi",
+   "title": "Wildfires rage in Southern California, burn homes",
+   "name": "California",
    "kind": "incident",
-   "category": "protest",
+   "category": "wildfire",
    "date": "2026-10-16",
-   "news_at": "2026-10-17T02:24:46+00:00",
+   "news_at": "2026-10-17T03:30:36+00:00",
    "owners": [
-    "SCMP Group",
-    "ABC (Australia)",
-    "The Hindu Group"
+    "Paramount (CBS)",
+    "Al Jazeera Media Network",
+    "ABC (Australia)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
-    "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-    "7,000 CRPF personnel pulled from Chattisgarh, Bengal deployed in Delhi ahead of CJP’s October 10 protest"
+    "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+    "Southern California wildfire engulfs homes, prompts evacuation orders",
+    "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
-    "Chattisgarh",
-    "Bengal",
-    "CJP"
+    "Santa",
+    "Ana"
    ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
-    "IN",
     "world"
    ],
    "region": "world",
-   "india_link": true,
+   "india_link": false,
    "label_hi": null,
    "reports": [
     {
-     "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-     "url": "https://www.abc.net.au/news/2026-10-17/police-detain-cockroach-party-leader-delhi-protest/107278878",
+     "title": "Wildfires rage in Southern California, burn homes",
+     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-17T00:28:23+00:00"
+     "at": "2026-10-17T02:23:37+00:00"
     },
     {
-     "title": "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3371196/indian-police-detain-cockroach-movement-leader-ahead-new-delhi-protest?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
+     "url": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-16T12:06:11+00:00"
+     "at": "2026-10-17T03:30:36+00:00"
     },
     {
-     "title": "7,000 CRPF personnel pulled from Chattisgarh, Bengal deployed in Delhi ahead of CJP’s October 10 protest",
-     "url": "https://www.thehindu.com/news/national/7000-crpf-personnel-pulled-from-chattisgarh-bengal-deployed-in-delhi-ahead-of-cjps-october-10-protest/article71560242.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
+     "title": "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+     "url": "https://www.cbsnews.com/video/southern-california-wildfires-force-evacuations-amid-powerful-santa-ana-winds/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-17T02:24:46+00:00"
+     "at": "2026-10-16T23:51:25+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:ABC (Australia)",
-    "outlet:The Hindu Group"
+    "outlet:Paramount (CBS)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
@@ -194,44 +204,6 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 39546,
-   "views": 14046,
-   "traffic": 500,
-   "news": 25000,
-   "news_at": "2026-10-17T02:21:00+00:00",
-   "headlines": [
-    "Condolences pour in from Andhra for Nana Patekar"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-15",
-    "google-trends-IN:ತನುಶ್ರೀ ದತ್ತಾ",
-    "google-news:Condolences pour in from Andhra for Nana Patekar",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Condolences pour in from Andhra for Nana Patekar",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/condolences-pour-in-for-nana-patekar/article71559943.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T02:21:00+00:00"
-    }
-   ],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
   },
   {
    "qid": "Q19975570",
@@ -290,6 +262,26 @@
    "date": "2026-09-23",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 14046,
+   "views": 14046,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
   },
   {
    "qid": "Q1355840",
@@ -411,79 +403,77 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261016-delhi-protest",
+   "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-   "name": "Delhi",
+   "title": "Wildfires rage in Southern California, burn homes",
+   "name": "California",
    "kind": "incident",
-   "category": "protest",
+   "category": "wildfire",
    "date": "2026-10-16",
-   "news_at": "2026-10-17T02:24:46+00:00",
+   "news_at": "2026-10-17T03:30:36+00:00",
    "owners": [
-    "SCMP Group",
-    "ABC (Australia)",
-    "The Hindu Group"
+    "Paramount (CBS)",
+    "Al Jazeera Media Network",
+    "ABC (Australia)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
-    "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-    "7,000 CRPF personnel pulled from Chattisgarh, Bengal deployed in Delhi ahead of CJP’s October 10 protest"
+    "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+    "Southern California wildfire engulfs homes, prompts evacuation orders",
+    "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
-    "Chattisgarh",
-    "Bengal",
-    "CJP"
+    "Santa",
+    "Ana"
    ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
-    "IN",
     "world"
    ],
    "region": "world",
-   "india_link": true,
+   "india_link": false,
    "label_hi": null,
    "reports": [
     {
-     "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-     "url": "https://www.abc.net.au/news/2026-10-17/police-detain-cockroach-party-leader-delhi-protest/107278878",
+     "title": "Wildfires rage in Southern California, burn homes",
+     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-17T00:28:23+00:00"
+     "at": "2026-10-17T02:23:37+00:00"
     },
     {
-     "title": "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3371196/indian-police-detain-cockroach-movement-leader-ahead-new-delhi-protest?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
+     "url": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-16T12:06:11+00:00"
+     "at": "2026-10-17T03:30:36+00:00"
     },
     {
-     "title": "7,000 CRPF personnel pulled from Chattisgarh, Bengal deployed in Delhi ahead of CJP’s October 10 protest",
-     "url": "https://www.thehindu.com/news/national/7000-crpf-personnel-pulled-from-chattisgarh-bengal-deployed-in-delhi-ahead-of-cjps-october-10-protest/article71560242.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
+     "title": "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+     "url": "https://www.cbsnews.com/video/southern-california-wildfires-force-evacuations-amid-powerful-santa-ana-winds/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-17T02:24:46+00:00"
+     "at": "2026-10-16T23:51:25+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:ABC (Australia)",
-    "outlet:The Hindu Group"
+    "outlet:Paramount (CBS)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
@@ -512,7 +502,7 @@
   }
  ],
  "outlets": {
-  "headlines": 767,
+  "headlines": 764,
   "feeds": 29,
   "owners": 21,
   "matched": 20,
@@ -520,83 +510,81 @@
  },
  "emerging": [
   {
-   "id": "nw-20261016-delhi-protest",
+   "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-   "name": "Delhi",
+   "title": "Wildfires rage in Southern California, burn homes",
+   "name": "California",
    "kind": "incident",
-   "category": "protest",
+   "category": "wildfire",
    "date": "2026-10-16",
-   "news_at": "2026-10-17T02:24:46+00:00",
+   "news_at": "2026-10-17T03:30:36+00:00",
    "owners": [
-    "SCMP Group",
-    "ABC (Australia)",
-    "The Hindu Group"
+    "Paramount (CBS)",
+    "Al Jazeera Media Network",
+    "ABC (Australia)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
-    "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-    "7,000 CRPF personnel pulled from Chattisgarh, Bengal deployed in Delhi ahead of CJP’s October 10 protest"
+    "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+    "Southern California wildfire engulfs homes, prompts evacuation orders",
+    "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
-    "Chattisgarh",
-    "Bengal",
-    "CJP"
+    "Santa",
+    "Ana"
    ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
-    "IN",
     "world"
    ],
    "region": "world",
-   "india_link": true,
+   "india_link": false,
    "label_hi": null,
    "reports": [
     {
-     "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
-     "url": "https://www.abc.net.au/news/2026-10-17/police-detain-cockroach-party-leader-delhi-protest/107278878",
+     "title": "Wildfires rage in Southern California, burn homes",
+     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-17T00:28:23+00:00"
+     "at": "2026-10-17T02:23:37+00:00"
     },
     {
-     "title": "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3371196/indian-police-detain-cockroach-movement-leader-ahead-new-delhi-protest?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
+     "url": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-16T12:06:11+00:00"
+     "at": "2026-10-17T03:30:36+00:00"
     },
     {
-     "title": "7,000 CRPF personnel pulled from Chattisgarh, Bengal deployed in Delhi ahead of CJP’s October 10 protest",
-     "url": "https://www.thehindu.com/news/national/7000-crpf-personnel-pulled-from-chattisgarh-bengal-deployed-in-delhi-ahead-of-cjps-october-10-protest/article71560242.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
+     "title": "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+     "url": "https://www.cbsnews.com/video/southern-california-wildfires-force-evacuations-amid-powerful-santa-ana-winds/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-17T02:24:46+00:00"
+     "at": "2026-10-16T23:51:25+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:ABC (Australia)",
-    "outlet:The Hindu Group"
+    "outlet:Paramount (CBS)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 767 headlines from 29 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-delhi-protest"
+ "outlet_note": "outlets: 764 headlines from 29 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }

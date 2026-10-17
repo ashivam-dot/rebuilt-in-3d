@@ -1,11 +1,17 @@
 {
- "at": "2026-10-17T03:34:44+00:00",
+ "at": "2026-10-17T04:06:08+00:00",
  "ok": true,
  "steps": [
   "watch: 2 candidates (0 quakes, 10 trending), 3 hazard alerts",
-  "outlets: 767 headlines from 29 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-delhi-protest",
-  "skip nw-20261016-delhi-protest: gate: no draft passed the fact checks: these names or numbers are not in the sources: Janata (Janata only in one outlet's report: one outlet is not enough)",
-  "skip wk-Q141717158-2026w42: voice: beat 4 came out garbled (79% of words heard)",
-  "nothing eligible to publish"
- ]
+  "outlets: 764 headlines from 29 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
+  "hold nw-20261016-california-wildfire: outside the world window",
+  "published wk-Q141717158-2026w42: https://www.youtube.com/shorts/FBY143T-fyo"
+ ],
+ "published": {
+  "video_id": "FBY143T-fyo",
+  "url": "https://www.youtube.com/shorts/FBY143T-fyo",
+  "title": "The 2026 Anti-CEC Protests and the Electoral Roll Controversy",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
