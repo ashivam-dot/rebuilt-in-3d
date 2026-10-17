@@ -1,40 +1,50 @@
 {
- "at": "2026-10-17T14:03:07+00:00",
+ "at": "2026-10-17T14:30:24+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 360097,
+   "fame": 385097,
    "views": 10097,
    "traffic": 0,
-   "news": 350000,
-   "news_at": "2026-10-17T11:57:15+00:00",
+   "news": 375000,
+   "news_at": "2026-10-17T14:00:24+00:00",
    "headlines": [
     "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
-    "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
-    "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport"
+    "Iran giving Yemen's Houthis target intelligence for drone, missile strikes on Saudi Arabia - report",
+    "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+    "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
-    "google-news:UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
+    "google-news:Iran giving Yemen's Houthis target intelligence for drone, missile strikes on Saudi Arabia - report",
+    "outlet:Al Jazeera Media Network",
     "outlet:Guardian Media Group",
-    "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde"
    ],
    "owners": [
+    "Al Jazeera Media Network",
     "Guardian Media Group",
-    "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "France Médias Monde"
    ],
    "reports": [
+    {
+     "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+     "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T14:00:24+00:00"
+    },
     {
      "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
      "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains",
@@ -44,16 +54,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-17T11:57:15+00:00"
-    },
-    {
-     "title": "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-helping-houthis-how-tehran-is-hitting-saudi-arabia-without-fighting-directly/articleshow/135010416.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T08:27:47+00:00"
     },
     {
      "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
@@ -92,33 +92,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-17T09:58:17+00:00",
-   "headlines": [
-    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "id": "nw-20261017-california-wildfire",
@@ -194,80 +167,6 @@
    "article": null
   },
   {
-   "id": "nw-20261017-delhi-protest",
-   "qid": null,
-   "title": "Women protest in New Delhi against police brutality",
-   "name": "Delhi",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-17",
-   "news_at": "2026-10-17T13:47:06+00:00",
-   "owners": [
-    "HT Media",
-    "Al Jazeera Media Network",
-    "The Hindu Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
-    "Women protest in New Delhi against police brutality",
-    "Hyderabad journalists protest against police action on demonstrators in Delhi"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Women protest in New Delhi against police brutality",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-17T12:07:15+00:00"
-    },
-    {
-     "title": "Hyderabad journalists protest against police action on demonstrators in Delhi",
-     "url": "https://www.thehindu.com/news/national/telangana/hyderabad-journalists-protest-against-police-action-on-demonstrators-in-delhi/article71575688.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T13:47:06+00:00"
-    },
-    {
-     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
-     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T09:55:46+00:00"
-    }
-   ],
-   "via": [
-    "outlet:HT Media",
-    "outlet:Al Jazeera Media Network",
-    "outlet:The Hindu Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
@@ -290,43 +189,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 39046,
-   "views": 14046,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-17T08:55:39+00:00",
-   "headlines": [
-    "Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-15",
-    "google-news:Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
-     "url": "https://www.hindustantimes.com/india-news/nana-patekar-or-smit-machchhar-row-erupts-in-mumbai-over-naming-vidyavihar-bridge-101792221147218.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T08:55:39+00:00"
-    }
-   ],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
    "qid": "Q141544931",
    "title": "2026 Ethiopian offensive",
    "fame": 14725,
@@ -347,6 +209,26 @@
    "date": "2026-09-23",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 14046,
+   "views": 14046,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
   },
   {
    "qid": "Q1355840",
@@ -389,46 +271,6 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q3205897",
-   "title": "L. Ian MacDonald",
-   "fame": 8231,
-   "views": 8231,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3205897",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
-   "qid": "Q5300674",
-   "title": "Doug Loft",
-   "fame": 8207,
-   "views": 8207,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5300674",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -456,80 +298,6 @@
   }
  ],
  "candidates": [
-  {
-   "id": "nw-20261017-delhi-protest",
-   "qid": null,
-   "title": "Women protest in New Delhi against police brutality",
-   "name": "Delhi",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-17",
-   "news_at": "2026-10-17T13:47:06+00:00",
-   "owners": [
-    "HT Media",
-    "Al Jazeera Media Network",
-    "The Hindu Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
-    "Women protest in New Delhi against police brutality",
-    "Hyderabad journalists protest against police action on demonstrators in Delhi"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Women protest in New Delhi against police brutality",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-17T12:07:15+00:00"
-    },
-    {
-     "title": "Hyderabad journalists protest against police action on demonstrators in Delhi",
-     "url": "https://www.thehindu.com/news/national/telangana/hyderabad-journalists-protest-against-police-action-on-demonstrators-in-delhi/article71575688.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T13:47:06+00:00"
-    },
-    {
-     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
-     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T09:55:46+00:00"
-    }
-   ],
-   "via": [
-    "outlet:HT Media",
-    "outlet:Al Jazeera Media Network",
-    "outlet:The Hindu Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261017-california-wildfire",
    "qid": null,
@@ -604,12 +372,15 @@
    "article": null
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 429"
+ ],
  "outlets": {
-  "headlines": 725,
+  "headlines": 723,
   "feeds": 30,
   "owners": 21,
-  "matched": 16,
-  "corroborated": 3
+  "matched": 14,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -684,81 +455,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261017-delhi-protest",
-   "qid": null,
-   "title": "Women protest in New Delhi against police brutality",
-   "name": "Delhi",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-17",
-   "news_at": "2026-10-17T13:47:06+00:00",
-   "owners": [
-    "HT Media",
-    "Al Jazeera Media Network",
-    "The Hindu Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
-    "Women protest in New Delhi against police brutality",
-    "Hyderabad journalists protest against police action on demonstrators in Delhi"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Women protest in New Delhi against police brutality",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-17T12:07:15+00:00"
-    },
-    {
-     "title": "Hyderabad journalists protest against police action on demonstrators in Delhi",
-     "url": "https://www.thehindu.com/news/national/telangana/hyderabad-journalists-protest-against-police-action-on-demonstrators-in-delhi/article71575688.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T13:47:06+00:00"
-    },
-    {
-     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
-     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T09:55:46+00:00"
-    }
-   ],
-   "via": [
-    "outlet:HT Media",
-    "outlet:Al Jazeera Media Network",
-    "outlet:The Hindu Group"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 725 headlines from 30 feeds (21 owners), 16 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-california-wildfire, nw-20261017-delhi-protest"
+ "outlet_note": "outlets: 723 headlines from 30 feeds (21 owners), 14 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire"
 }

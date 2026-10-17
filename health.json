@@ -1,10 +1,10 @@
 {
- "at": "2026-10-17T14:03:06+00:00",
+ "at": "2026-10-17T14:30:24+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 11 trending), 2 hazard alerts",
-  "outlets: 725 headlines from 30 feeds (21 owners), 16 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-california-wildfire, nw-20261017-delhi-protest",
-  "skip nw-20261017-delhi-protest: gate: no draft passed the fact checks: these names or numbers are not in the sources: Calls",
+  "watch: 1 candidates (0 quakes, 7 trending), 2 hazard alerts",
+  "outlets: 723 headlines from 30 feeds (21 owners), 14 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire",
+  "trend radar errors: ['wikidata recent deaths: HTTP 429']",
   "skip nw-20261017-california-wildfire: gate: only 0 usable photos of California (want 2)",
   "nothing eligible to publish"
  ]
