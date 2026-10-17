@@ -1,28 +1,28 @@
 {
- "at": "2026-10-17T04:47:53+00:00",
+ "at": "2026-10-17T05:04:17+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 385097,
+   "fame": 260097,
    "views": 10097,
    "traffic": 0,
-   "news": 375000,
+   "news": 250000,
    "news_at": "2026-10-17T02:00:00+00:00",
    "headlines": [
     "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
-    "The Truth About the Houthis – and Why Saudi Arabia Is Struggling to Defend Itself Against Them",
     "Iran Denies Saudi Accusation Of Involvement In Houthi Attacks",
     "Yemen’s government says Houthis fired two missiles at Aden airport",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions"
+    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
+    "Saudi Arabia to execute man for being at protests and funerals when he was 15"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
-    "google-news:The Truth About the Houthis – and Why Saudi Arabia Is Struggling to Defend Itself Against Them",
     "google-news:Iran Denies Saudi Accusation Of Involvement In Houthi Attacks",
+    "google-news:Yemen’s government says Houthis fired two missiles at Aden airport",
     "outlet:NDTV",
     "outlet:Al Jazeera Media Network",
     "outlet:Deutsche Welle",
@@ -94,6 +94,55 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q96681757",
+   "title": "Rachna Shroff",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-16T10:18:00+00:00",
+   "headlines": [
+    "Indian-American cancer researcher Rachna Shroff dies following a long battle with 'aggressive cancer'"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Indian-American cancer researcher Rachna Shroff dies following a long battle with 'aggressive cancer'"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q96681757",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-16T23:02:00+00:00",
+   "headlines": [
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261016-california-wildfire",
@@ -194,43 +243,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 39046,
-   "views": 14046,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-17T04:03:30+00:00",
-   "headlines": [
-    "Belagavi artist honours Nana Patekar with rangoli"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-15",
-    "google-news:Belagavi artist honours Nana Patekar with rangoli",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Belagavi artist honours Nana Patekar with rangoli",
-     "url": "https://www.thehindu.com/news/national/karnataka/belagavi-artist-honours-nana-patekar-with-rangoli/article71564385.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T04:03:30+00:00"
-    }
-   ],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
    "qid": "Q19975570",
    "title": "Hyron Andrews",
    "fame": 25000,
@@ -287,6 +299,26 @@
    "date": "2026-09-23",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 14046,
+   "views": 14046,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
   },
   {
    "qid": "Q1355840",
@@ -482,13 +514,35 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q96681757",
+   "title": "Rachna Shroff",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-16T10:18:00+00:00",
+   "headlines": [
+    "Indian-American cancer researcher Rachna Shroff dies following a long battle with 'aggressive cancer'"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Indian-American cancer researcher Rachna Shroff dies following a long battle with 'aggressive cancer'"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q96681757",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   }
  ],
  "outlets": {
-  "headlines": 755,
+  "headlines": 757,
   "feeds": 29,
   "owners": 21,
-  "matched": 26,
+  "matched": 24,
   "corroborated": 2
  },
  "emerging": [
@@ -569,5 +623,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 755 headlines from 29 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
+ "outlet_note": "outlets: 757 headlines from 29 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }
