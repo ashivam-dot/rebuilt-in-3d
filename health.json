@@ -1,10 +1,17 @@
 {
- "at": "2026-10-17T00:01:19+00:00",
+ "at": "2026-10-17T00:45:36+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 11 trending), 3 hazard alerts",
-  "outlets: 765 headlines from 29 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q141717158-2026w42: last Short went out 0.1 h ago",
-  "hold wk-Q141745391: last Short went out 0.1 h ago"
- ]
+  "watch: 2 candidates (0 quakes, 10 trending), 3 hazard alerts",
+  "outlets: 771 headlines from 29 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wk-Q141717158-2026w42: outside the india window",
+  "published wk-Q141745391: https://www.youtube.com/shorts/AEXZht0LEfo"
+ ],
+ "published": {
+  "video_id": "AEXZht0LEfo",
+  "url": "https://www.youtube.com/shorts/AEXZht0LEfo",
+  "title": "The 2026 Silver Rail Elementary School shooting",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
