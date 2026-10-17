@@ -1,10 +1,10 @@
 {
- "at": "2026-10-17T08:03:10+00:00",
+ "at": "2026-10-17T08:33:05+00:00",
  "ok": true,
  "steps": [
-  "learn: 22 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.206, 'typical_views_24h': 306}, 'kind:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 91}, 'kind:incident': {'n': 13, 'lift': 1.17, 'typical_views_24h': 258}, 'category:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 44}}",
-  "watch: 1 candidates (0 quakes, 11 trending), 3 hazard alerts",
-  "outlets: 739 headlines from 29 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
+  "watch: 1 candidates (0 quakes, 8 trending), 3 hazard alerts",
+  "outlets: 742 headlines from 29 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\", 'google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
   "skip nw-20261016-california-wildfire: gate: only 0 usable photos of California (want 2)",
   "nothing eligible to publish"
  ]

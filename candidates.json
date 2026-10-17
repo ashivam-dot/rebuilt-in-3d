@@ -1,28 +1,29 @@
 {
- "at": "2026-10-17T08:03:11+00:00",
+ "at": "2026-10-17T08:33:05+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 385097,
+   "fame": 160097,
    "views": 10097,
    "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-10-17T06:38:21+00:00",
+   "news": 150000,
+   "news_at": "2026-10-17T08:27:47+00:00",
    "headlines": [
-    "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
-    "The Truth About the Houthis – and Why Saudi Arabia Is Struggling to Defend Itself Against Them",
+    "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
     "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions"
+    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
+    "Saudi Arabia to execute man for being at protests and funerals when he was 15"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
-    "google-news:Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
-    "google-news:The Truth About the Houthis – and Why Saudi Arabia Is Struggling to Defend Itself Against Them",
+    "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+    "google-news:Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
+    "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
@@ -30,6 +31,7 @@
     "outlet:Fox Corporation"
    ],
    "owners": [
+    "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "France Médias Monde",
     "Deutsche Welle",
@@ -37,6 +39,26 @@
     "Fox Corporation"
    ],
    "reports": [
+    {
+     "title": "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-helping-houthis-how-tehran-is-hitting-saudi-arabia-without-fighting-directly/articleshow/135010416.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T08:27:47+00:00"
+    },
+    {
+     "title": "Air India flights to Saudi cities suspended till October 24 amid Houthi threat",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/air-india-flights-to-saudi-cities-suspended-till-october-24-amid-houthi-threat/articleshow/135010339.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T08:19:02+00:00"
+    },
     {
      "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
      "url": "https://abcnews.com/International/wireStory/houthi-strikes-saudi-arabia-show-yemeni-rebels-growing-137341692",
@@ -94,47 +116,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-17T06:49:48+00:00",
-   "headlines": [
-    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-17T06:49:48+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "id": "nw-20261016-california-wildfire",
@@ -249,40 +230,45 @@
    "has_coords": true
   },
   {
-   "qid": "Q19975570",
-   "title": "Hyron Andrews",
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-16T13:40:05+00:00",
+   "news_at": "2026-10-17T06:49:48+00:00",
    "headlines": [
-    "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
    ],
    "region": "world",
    "via": [
-    "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
-    "outlet:France Médias Monde"
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+    "outlet:BBC"
    ],
    "owners": [
-    "France Médias Monde"
+    "BBC"
    ],
    "reports": [
     {
-     "title": "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
-     "url": "https://www.france24.com/en/sport/20261016-south-african-rugby-player-found-dead-in-french-hotel-ahead-of-champions-cup-debut",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
+     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-16T13:40:05+00:00"
+     "at": "2026-10-17T06:49:48+00:00"
     }
    ],
-   "id": "wk-Q19975570",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141544931",
@@ -367,46 +353,6 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q3205897",
-   "title": "L. Ian MacDonald",
-   "fame": 8231,
-   "views": 8231,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3205897",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
-   "qid": "Q5300674",
-   "title": "Doug Loft",
-   "fame": 8207,
-   "views": 8207,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5300674",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -536,11 +482,19 @@
    "article": null
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)",
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 739,
+  "headlines": 742,
   "feeds": 29,
   "owners": 21,
-  "matched": 21,
+  "matched": 19,
   "corroborated": 2
  },
  "emerging": [
@@ -635,5 +589,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 739 headlines from 29 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
+ "outlet_note": "outlets: 742 headlines from 29 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }
