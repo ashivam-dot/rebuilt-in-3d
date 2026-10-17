@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T09:31:39+00:00",
+ "at": "2026-10-17T10:01:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -116,33 +116,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-17T06:49:48+00:00",
-   "headlines": [
-    "Oregon teacher fought school attacker before armed dad killed suspect"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad killed suspect"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "id": "nw-20261016-california-wildfire",
@@ -263,16 +236,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-17T09:13:09+00:00"
-    },
-    {
-     "title": "Anti-CEC protests in Chennai: AISF, AIYF cadres arrested on Anna Salai; over 40 protesters detained in Besant Nagar",
-     "url": "https://www.thehindu.com/news/cities/chennai/anti-cec-protest-over-100-aisf-aiyf-cadres-arrested-during-procession-in-chennai/article71567356.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T08:54:41+00:00"
     }
    ],
    "id": "wk-Q141717158-2026w42",
@@ -281,84 +244,6 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "id": "nw-20261016-delhi-protest",
-   "qid": null,
-   "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-   "name": "Delhi",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-16",
-   "news_at": "2026-10-17T08:52:53+00:00",
-   "owners": [
-    "NPR",
-    "The Hindu Group",
-    "HT Media"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-    "Delhi protest crackdown triggers wave of demonstrations across Kochi",
-    "Heavy security deployment continues across central Delhi a day after ‘Lehra Do Tiranga’ protest"
-   ],
-   "places": [
-    "Kochi",
-    "Lehra",
-    "Tiranga’"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-     "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T13:26:43+00:00"
-    },
-    {
-     "title": "Delhi protest crackdown triggers wave of demonstrations across Kochi",
-     "url": "https://www.thehindu.com/news/national/kerala/delhi-protest-crackdown-triggers-wave-of-demonstrations-across-kochi/article71568491.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T08:52:53+00:00"
-    },
-    {
-     "title": "Heavy security deployment continues across central Delhi a day after ‘Lehra Do Tiranga’ protest",
-     "url": "https://www.hindustantimes.com/india-news/heavy-security-deployment-continues-across-central-delhi-a-day-after-lehra-do-tiranga-protest-101792213370044.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T05:02:49+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NPR",
-    "outlet:The Hindu Group",
-    "outlet:HT Media"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q2475741",
@@ -410,6 +295,47 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-17T09:58:17+00:00",
+   "headlines": [
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T09:58:17+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141544931",
@@ -540,92 +466,13 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261016-delhi-protest",
-   "qid": null,
-   "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-   "name": "Delhi",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-16",
-   "news_at": "2026-10-17T08:52:53+00:00",
-   "owners": [
-    "NPR",
-    "The Hindu Group",
-    "HT Media"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-    "Delhi protest crackdown triggers wave of demonstrations across Kochi",
-    "Heavy security deployment continues across central Delhi a day after ‘Lehra Do Tiranga’ protest"
-   ],
-   "places": [
-    "Kochi",
-    "Lehra",
-    "Tiranga’"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-     "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T13:26:43+00:00"
-    },
-    {
-     "title": "Delhi protest crackdown triggers wave of demonstrations across Kochi",
-     "url": "https://www.thehindu.com/news/national/kerala/delhi-protest-crackdown-triggers-wave-of-demonstrations-across-kochi/article71568491.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T08:52:53+00:00"
-    },
-    {
-     "title": "Heavy security deployment continues across central Delhi a day after ‘Lehra Do Tiranga’ protest",
-     "url": "https://www.hindustantimes.com/india-news/heavy-security-deployment-continues-across-central-delhi-a-day-after-lehra-do-tiranga-protest-101792213370044.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T05:02:49+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NPR",
-    "outlet:The Hindu Group",
-    "outlet:HT Media"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 735,
+  "headlines": 736,
   "feeds": 29,
   "owners": 21,
   "matched": 22,
-  "corroborated": 4
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -716,85 +563,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261016-delhi-protest",
-   "qid": null,
-   "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-   "name": "Delhi",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-16",
-   "news_at": "2026-10-17T08:52:53+00:00",
-   "owners": [
-    "NPR",
-    "The Hindu Group",
-    "HT Media"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-    "Delhi protest crackdown triggers wave of demonstrations across Kochi",
-    "Heavy security deployment continues across central Delhi a day after ‘Lehra Do Tiranga’ protest"
-   ],
-   "places": [
-    "Kochi",
-    "Lehra",
-    "Tiranga’"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-     "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T13:26:43+00:00"
-    },
-    {
-     "title": "Delhi protest crackdown triggers wave of demonstrations across Kochi",
-     "url": "https://www.thehindu.com/news/national/kerala/delhi-protest-crackdown-triggers-wave-of-demonstrations-across-kochi/article71568491.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T08:52:53+00:00"
-    },
-    {
-     "title": "Heavy security deployment continues across central Delhi a day after ‘Lehra Do Tiranga’ protest",
-     "url": "https://www.hindustantimes.com/india-news/heavy-security-deployment-continues-across-central-delhi-a-day-after-lehra-do-tiranga-protest-101792213370044.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T05:02:49+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NPR",
-    "outlet:The Hindu Group",
-    "outlet:HT Media"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 735 headlines from 29 feeds (21 owners), 22 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261016-california-wildfire, nw-20261016-delhi-protest"
+ "outlet_note": "outlets: 736 headlines from 29 feeds (21 owners), 22 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }
