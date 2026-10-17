@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T02:05:55+00:00",
+ "at": "2026-10-17T02:33:11+00:00",
  "quakes": [],
  "trending": [
   {
@@ -262,15 +262,20 @@
   }
  ],
  "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
+  "wikidata recent deaths: HTTP 429",
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 766,
+  "headlines": 771,
   "feeds": 29,
   "owners": 21,
-  "matched": 27,
+  "matched": 23,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 766 headlines from 29 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 771 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
