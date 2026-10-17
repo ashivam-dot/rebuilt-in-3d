@@ -1,11 +1,10 @@
 {
- "at": "2026-10-17T09:02:06+00:00",
+ "at": "2026-10-17T09:31:38+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 737 headlines from 29 feeds (21 owners), 21 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261016-california-wildfire, nw-20261016-delhi-protest",
-  "skip nw-20261016-delhi-protest: gate: no draft passed the fact checks: line 3 (The Cockroach movement leader asked for the resignation of t): partly: The source states the movement responded to a call and the leader was detained, but it does not explicitly state that the leader specifically asked for the resignation; the resignation demand is attributed to the proteste | second look: The line fails the multi-owner verification rule. While the 'Cockroach' movement and",
-  "skip nw-20261016-california-wildfire: gate: only 0 usable photos of California (want 2)",
+  "watch: 1 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 735 headlines from 29 feeds (21 owners), 22 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261016-california-wildfire, nw-20261016-delhi-protest",
+  "skip nw-20261016-delhi-protest: gate: no draft passed the fact checks: these names or numbers are not in the sources: Instructions",
   "nothing eligible to publish"
  ]
 }

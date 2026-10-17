@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T09:02:07+00:00",
+ "at": "2026-10-17T09:31:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -120,36 +120,20 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 275000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
+   "news": 125000,
    "news_at": "2026-10-17T06:49:48+00:00",
    "headlines": [
-    "Oregon teacher fought school attacker before armed dad killed suspect",
-    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+    "Oregon teacher fought school attacker before armed dad killed suspect"
    ],
    "region": "world",
    "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad killed suspect",
-    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-    "outlet:BBC"
+    "google-news:Oregon teacher fought school attacker before armed dad killed suspect"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-17T06:49:48+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141745391",
    "kind": "incident",
    "category": "attack",
@@ -163,7 +147,7 @@
   {
    "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "US: Homes burned in California as wildfires rage",
+   "title": "US: California wildfires destroy homes, leave thousands without power",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
@@ -182,13 +166,12 @@
    "headlines": [
     "Southern California wildfires force evacuations amid powerful Santa Ana winds",
     "Southern California wildfire engulfs homes, prompts evacuation orders",
-    "US: Homes burned in California as wildfires rage",
+    "US: California wildfires destroy homes, leave thousands without power",
     "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
     "Santa",
-    "Ana",
-    "homes"
+    "Ana"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -201,8 +184,8 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "US: Homes burned in California as wildfires rage",
-     "url": "https://www.dw.com/en/us-homes-burned-in-california-as-wildfires-rage/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "title": "US: California wildfires destroy homes, leave thousands without power",
+     "url": "https://www.dw.com/en/us-california-wildfires-destroy-homes-leave-thousands-without-power/a-79685480?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
@@ -249,6 +232,55 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-17T09:13:09+00:00",
+   "headlines": [
+    "Anti-CEC protest: BKU joins stir, warns against targeting Dhruv Rathee"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-current-events-2026-10-16",
+    "google-news:Anti-CEC protest: BKU joins stir, warns against targeting Dhruv Rathee",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Anti-CEC protest: BKU joins stir, warns against targeting Dhruv Rathee",
+     "url": "https://www.thehindu.com/news/national/anti-cec-protest-bku-joins-stir-warns-against-targeting-dhruv-rathee/article71569263.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T09:13:09+00:00"
+    },
+    {
+     "title": "Anti-CEC protests in Chennai: AISF, AIYF cadres arrested on Anna Salai; over 40 protesters detained in Besant Nagar",
+     "url": "https://www.thehindu.com/news/cities/chennai/anti-cec-protest-over-100-aisf-aiyf-cadres-arrested-during-procession-in-chennai/article71567356.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T08:54:41+00:00"
+    }
+   ],
+   "id": "wk-Q141717158-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
   },
   {
    "id": "nw-20261016-delhi-protest",
@@ -378,64 +410,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-08"
-  },
-  {
-   "qid": "Q141717158",
-   "title": "2026 anti-CEC protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-17T00:00:00+00:00",
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-10-16"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141717158-2026w42",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q19975570",
-   "title": "Hyron Andrews",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-16T13:40:05+00:00",
-   "headlines": [
-    "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "South African rugby player Hyron ​Andrews dies in France ahead of Champions Cup debut",
-     "url": "https://www.france24.com/en/sport/20261016-south-african-rugby-player-found-dead-in-french-hotel-ahead-of-champions-cup-debut",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T13:40:05+00:00"
-    }
-   ],
-   "id": "wk-Q19975570",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
   },
   {
    "qid": "Q141544931",
@@ -644,110 +618,20 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261016-california-wildfire",
-   "qid": null,
-   "title": "US: Homes burned in California as wildfires rage",
-   "name": "California",
-   "kind": "incident",
-   "category": "wildfire",
-   "date": "2026-10-16",
-   "news_at": "2026-10-17T06:08:00+00:00",
-   "owners": [
-    "Paramount (CBS)",
-    "Al Jazeera Media Network",
-    "Deutsche Welle",
-    "ABC (Australia)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Southern California wildfires force evacuations amid powerful Santa Ana winds",
-    "Southern California wildfire engulfs homes, prompts evacuation orders",
-    "US: Homes burned in California as wildfires rage",
-    "Wildfires rage in Southern California, burn homes"
-   ],
-   "places": [
-    "Santa",
-    "Ana",
-    "homes"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "US: Homes burned in California as wildfires rage",
-     "url": "https://www.dw.com/en/us-homes-burned-in-california-as-wildfires-rage/a-79685480?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-17T06:08:00+00:00"
-    },
-    {
-     "title": "Wildfires rage in Southern California, burn homes",
-     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-17T02:23:37+00:00"
-    },
-    {
-     "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
-     "url": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-17T03:30:36+00:00"
-    },
-    {
-     "title": "Southern California wildfires force evacuations amid powerful Santa Ana winds",
-     "url": "https://www.cbsnews.com/video/southern-california-wildfires-force-evacuations-amid-powerful-santa-ana-winds/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-16T23:51:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Paramount (CBS)",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
  "outlets": {
-  "headlines": 737,
+  "headlines": 735,
   "feeds": 29,
   "owners": 21,
-  "matched": 21,
+  "matched": 22,
   "corroborated": 4
  },
  "emerging": [
   {
    "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "US: Homes burned in California as wildfires rage",
+   "title": "US: California wildfires destroy homes, leave thousands without power",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
@@ -766,13 +650,12 @@
    "headlines": [
     "Southern California wildfires force evacuations amid powerful Santa Ana winds",
     "Southern California wildfire engulfs homes, prompts evacuation orders",
-    "US: Homes burned in California as wildfires rage",
+    "US: California wildfires destroy homes, leave thousands without power",
     "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
     "Santa",
-    "Ana",
-    "homes"
+    "Ana"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -785,8 +668,8 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "US: Homes burned in California as wildfires rage",
-     "url": "https://www.dw.com/en/us-homes-burned-in-california-as-wildfires-rage/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "title": "US: California wildfires destroy homes, leave thousands without power",
+     "url": "https://www.dw.com/en/us-california-wildfires-destroy-homes-leave-thousands-without-power/a-79685480?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
@@ -913,5 +796,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 737 headlines from 29 feeds (21 owners), 21 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261016-california-wildfire, nw-20261016-delhi-protest"
+ "outlet_note": "outlets: 735 headlines from 29 feeds (21 owners), 22 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261016-california-wildfire, nw-20261016-delhi-protest"
 }
