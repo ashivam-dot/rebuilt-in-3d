@@ -1,10 +1,10 @@
 {
- "at": "2026-10-17T08:33:05+00:00",
+ "at": "2026-10-17T09:02:06+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 8 trending), 3 hazard alerts",
-  "outlets: 742 headlines from 29 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\", 'google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
+  "watch: 2 candidates (0 quakes, 12 trending), 2 hazard alerts",
+  "outlets: 737 headlines from 29 feeds (21 owners), 21 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261016-california-wildfire, nw-20261016-delhi-protest",
+  "skip nw-20261016-delhi-protest: gate: no draft passed the fact checks: line 3 (The Cockroach movement leader asked for the resignation of t): partly: The source states the movement responded to a call and the leader was detained, but it does not explicitly state that the leader specifically asked for the resignation; the resignation demand is attributed to the proteste | second look: The line fails the multi-owner verification rule. While the 'Cockroach' movement and",
   "skip nw-20261016-california-wildfire: gate: only 0 usable photos of California (want 2)",
   "nothing eligible to publish"
  ]
