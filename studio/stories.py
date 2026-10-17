@@ -269,7 +269,7 @@ def build_incident(cand: dict) -> Short:
         "credits": "Facts: Wikidata · Wikipedia · Terrain: Mapzen/AWS Terrain Tiles",
     }
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
-    yt_title = f"Where {title} happened, in 3D"
+    yt_title = f"Where {title.title()} happened, in 3D"
     if len(yt_title) > 70:
         yt_title = f"{title} in 3D"[:70]
     region = city_of(where) if where else None
