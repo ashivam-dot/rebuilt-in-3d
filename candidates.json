@@ -1,40 +1,72 @@
 {
- "at": "2026-10-17T11:59:55+00:00",
+ "at": "2026-10-17T12:37:13+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 360097,
+   "fame": 260097,
    "views": 10097,
    "traffic": 0,
-   "news": 350000,
-   "news_at": "2026-10-17T08:27:47+00:00",
+   "news": 250000,
+   "news_at": "2026-10-17T12:28:26+00:00",
    "headlines": [
-    "Saudi Arabia flight suspension: Full list of Indian, Dubai, UAE, Qatar, US, Japan and European flights cancelled",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+    "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+    "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
     "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
-    "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport"
+    "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
-    "google-news:Saudi Arabia flight suspension: Full list of Indian, Dubai, UAE, Qatar, US, Japan and European flights cancelled",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
-    "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
+    "google-news:Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+    "google-news:UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
+    "outlet:The Hindu Group",
+    "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde",
-    "outlet:Guardian Media Group"
+    "outlet:France Médias Monde"
    ],
    "owners": [
+    "The Hindu Group",
+    "Guardian Media Group",
     "Bennett, Coleman & Co.",
     "Disney (ABC News)",
-    "France Médias Monde",
-    "Guardian Media Group"
+    "France Médias Monde"
    ],
    "reports": [
+    {
+     "title": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+     "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T12:28:26+00:00"
+    },
+    {
+     "title": "Several flights between Keralam and Saudi Arabia cancelled amid West Asia tensions",
+     "url": "https://www.thehindu.com/news/national/kerala/several-flights-between-keralam-and-saudi-arabia-cancelled-amid-west-asia-tensions/article71571922.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T12:16:10+00:00"
+    },
+    {
+     "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
+     "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T11:57:15+00:00"
+    },
     {
      "title": "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-helping-houthis-how-tehran-is-hitting-saudi-arabia-without-fighting-directly/articleshow/135010416.cms",
@@ -94,26 +126,137 @@
    "has_coords": false
   },
   {
-   "qid": "Q141717158",
-   "title": "2026 anti-CEC protests",
-   "fame": 50000,
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 150000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-17T00:00:00+00:00",
-   "headlines": [],
+   "news": 150000,
+   "news_at": "2026-10-17T12:17:00+00:00",
+   "headlines": [
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+    "Hero bystander, teacher praised for saving lives in school shooting"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+    "google-news:Hero bystander, teacher praised for saving lives in school shooting",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Hero bystander, teacher praised for saving lives in school shooting",
+     "url": "https://www.cbsnews.com/news/oregon-school-shooter-bystander-identified-silver-rail-elementary/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T12:17:00+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-17T12:16:44+00:00",
+   "headlines": [
+    "Over 2,500 detained as anti-CEC protesters seek to march to Jantar Mantar"
+   ],
    "region": "india",
    "via": [
-    "wikipedia-current-events-2026-10-16"
+    "wikipedia-current-events-2026-10-16",
+    "google-news:Over 2,500 detained as anti-CEC protesters seek to march to Jantar Mantar",
+    "outlet:The Hindu Group"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Over 2,500 detained as anti-CEC protesters seek to march to Jantar Mantar",
+     "url": "https://www.thehindu.com/news/cities/Delhi/over-2500-detained-as-anti-cec-protesters-seek-to-march-to-jantar-mantar/article71570567.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T12:16:44+00:00"
+    }
+   ],
    "id": "wk-Q141717158-2026w42",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 64046,
+   "views": 14046,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-17T08:55:39+00:00",
+   "headlines": [
+    "Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
+    "Nana Patekar or Smit Machchhar? Mumbai's new bridge gets caught in naming row"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-15",
+    "google-news:Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
+    "google-news:Nana Patekar or Smit Machchhar? Mumbai's new bridge gets caught in naming row",
+    "outlet:HT Media",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "owners": [
+    "HT Media",
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
+     "url": "https://www.hindustantimes.com/india-news/nana-patekar-or-smit-machchhar-row-erupts-in-mumbai-over-naming-vidyavihar-bridge-101792221147218.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T08:55:39+00:00"
+    },
+    {
+     "title": "Nana Patekar or Smit Machchhar? Mumbai's new bridge gets caught in naming row",
+     "url": "https://timesofindia.indiatimes.com/city/mumbai/nana-patekar-or-smit-machchhar-mumbais-new-east-west-vidyavihar-bridge-gets-caught-in-naming-row/articleshow/135009849.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T07:57:51+00:00"
+    }
+   ],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
   },
   {
    "qid": "Q141544931",
@@ -136,26 +279,6 @@
    "date": "2026-09-23",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 14046,
-   "views": 14046,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
   },
   {
    "qid": "Q1355840",
@@ -198,6 +321,46 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q3205897",
+   "title": "L. Ian MacDonald",
+   "fame": 8231,
+   "views": 8231,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3205897",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
+  },
+  {
+   "qid": "Q5300674",
+   "title": "Doug Loft",
+   "fame": 8207,
+   "views": 8207,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5300674",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -225,16 +388,13 @@
   }
  ],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
- ],
  "outlets": {
-  "headlines": 728,
+  "headlines": 729,
   "feeds": 30,
   "owners": 21,
   "matched": 26,
-  "corroborated": 1
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 728 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 729 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
