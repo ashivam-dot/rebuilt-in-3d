@@ -1,10 +1,17 @@
 {
- "at": "2026-10-17T17:29:21+00:00",
+ "at": "2026-10-17T17:57:30+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 10 trending), 2 hazard alerts",
-  "outlets: 720 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire",
+  "watch: 2 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 715 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire",
   "skip wk-Q141615137-2026w42: gate: only 1 usable photos of 2026 French student protests on Wikimedia Commons (want 2)",
-  "nothing eligible to publish"
- ]
+  "published wk-Q141605182: https://www.youtube.com/shorts/OT6g4NIr7Q8"
+ ],
+ "published": {
+  "video_id": "OT6g4NIr7Q8",
+  "url": "https://www.youtube.com/shorts/OT6g4NIr7Q8",
+  "title": "The Courage of Captain Machchhar on Flydubai Flight 1073",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
