@@ -1,10 +1,10 @@
 {
- "at": "2026-10-17T01:36:15+00:00",
+ "at": "2026-10-17T02:05:55+00:00",
  "ok": true,
  "steps": [
-  "learn: 22 scored Shorts, lifts {'kind:quake': {'n': 4, 'lift': 1.206, 'typical_views_24h': 306}, 'kind:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 91}, 'kind:incident': {'n': 13, 'lift': 1.17, 'typical_views_24h': 258}, 'category:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 44}}",
-  "watch: 1 candidates (0 quakes, 9 trending), 3 hazard alerts",
-  "outlets: 768 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q141717158-2026w42: last Short went out 0.4 h ago"
+  "watch: 1 candidates (0 quakes, 6 trending), 3 hazard alerts",
+  "outlets: 766 headlines from 29 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "hold wk-Q141717158-2026w42: outside the india window"
  ]
 }
