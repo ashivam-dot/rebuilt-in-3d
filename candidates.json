@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T10:01:35+00:00",
+ "at": "2026-10-17T10:31:58+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,36 +9,46 @@
    "views": 10097,
    "traffic": 0,
    "news": 275000,
-   "news_at": "2026-10-17T08:27:47+00:00",
+   "news_at": "2026-10-17T10:17:19+00:00",
    "headlines": [
     "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
+    "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
     "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions"
+    "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
+    "google-news:Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
     "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
-    "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+    "outlet:The Hindu Group",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
-    "outlet:Guardian Media Group",
-    "outlet:Fox Corporation"
+    "outlet:Guardian Media Group"
    ],
    "owners": [
+    "The Hindu Group",
     "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "France Médias Monde",
     "Deutsche Welle",
-    "Guardian Media Group",
-    "Fox Corporation"
+    "Guardian Media Group"
    ],
    "reports": [
+    {
+     "title": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+     "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T10:17:19+00:00"
+    },
     {
      "title": "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-helping-houthis-how-tehran-is-hitting-saudi-arabia-without-fighting-directly/articleshow/135010416.cms",
@@ -98,16 +108,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-16T05:00:51+00:00"
-    },
-    {
-     "title": "Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns",
-     "url": "https://www.foxnews.com/world/houthis-emerge-global-threat-iran-control-saudi-attacks-says-former-envoy",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-15T22:25:57+00:00"
     }
    ],
    "id": "wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports",
@@ -116,6 +116,47 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-17T09:58:17+00:00",
+   "headlines": [
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T09:58:17+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261016-california-wildfire",
@@ -297,47 +338,6 @@
    "date": "2026-10-08"
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-17T09:58:17+00:00",
-   "headlines": [
-    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-17T09:58:17+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q141544931",
    "title": "2026 Ethiopian offensive",
    "fame": 14725,
@@ -471,7 +471,7 @@
   "headlines": 736,
   "feeds": 29,
   "owners": 21,
-  "matched": 22,
+  "matched": 24,
   "corroborated": 3
  },
  "emerging": [
@@ -565,5 +565,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 736 headlines from 29 feeds (21 owners), 22 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
+ "outlet_note": "outlets: 736 headlines from 29 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }
