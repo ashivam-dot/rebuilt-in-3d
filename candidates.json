@@ -1,28 +1,28 @@
 {
- "at": "2026-10-17T13:37:25+00:00",
+ "at": "2026-10-17T14:03:07+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 235097,
+   "fame": 360097,
    "views": 10097,
    "traffic": 0,
-   "news": 225000,
+   "news": 350000,
    "news_at": "2026-10-17T11:57:15+00:00",
    "headlines": [
+    "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
     "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
-    "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
     "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
+    "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
     "google-news:UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
-    "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
@@ -96,36 +96,20 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-17T12:17:00+00:00",
+   "news": 125000,
+   "news_at": "2026-10-17T09:58:17+00:00",
    "headlines": [
-    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-    "Hero bystander, teacher praised for saving lives in school shooting"
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
    ],
    "region": "world",
    "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-    "google-news:Hero bystander, teacher praised for saving lives in school shooting",
-    "outlet:Paramount (CBS)"
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
    ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Hero bystander, teacher praised for saving lives in school shooting",
-     "url": "https://www.cbsnews.com/news/oregon-school-shooter-bystander-identified-silver-rail-elementary/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-17T12:17:00+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141745391",
    "kind": "incident",
    "category": "attack",
@@ -135,6 +119,153 @@
     -121.29527778
    ],
    "has_coords": true
+  },
+  {
+   "id": "nw-20261017-california-wildfire",
+   "qid": null,
+   "title": "US: California wildfires destroy homes, leave thousands without power",
+   "name": "California",
+   "kind": "incident",
+   "category": "wildfire",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T13:49:21+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Deutsche Welle",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Wildfires rage in Southern California, burn homes",
+    "US: California wildfires destroy homes, leave thousands without power",
+    "California wildfire forces thousands to evacuate as blaze destroys coastal homes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "US: California wildfires destroy homes, leave thousands without power",
+     "url": "https://www.dw.com/en/us-california-wildfires-destroy-homes-leave-thousands-without-power/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:08:00+00:00"
+    },
+    {
+     "title": "Wildfires rage in Southern California, burn homes",
+     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T02:23:37+00:00"
+    },
+    {
+     "title": "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
+     "url": "https://www.independent.co.uk/news/world/americas/california-fires-san-juan-capistrano-b3068552.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T13:49:21+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Deutsche Welle",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261017-delhi-protest",
+   "qid": null,
+   "title": "Women protest in New Delhi against police brutality",
+   "name": "Delhi",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T13:47:06+00:00",
+   "owners": [
+    "HT Media",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+    "Women protest in New Delhi against police brutality",
+    "Hyderabad journalists protest against police action on demonstrators in Delhi"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Women protest in New Delhi against police brutality",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T12:07:15+00:00"
+    },
+    {
+     "title": "Hyderabad journalists protest against police action on demonstrators in Delhi",
+     "url": "https://www.thehindu.com/news/national/telangana/hyderabad-journalists-protest-against-police-action-on-demonstrators-in-delhi/article71575688.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T13:47:06+00:00"
+    },
+    {
+     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T09:55:46+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141717158",
@@ -324,14 +455,310 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261017-delhi-protest",
+   "qid": null,
+   "title": "Women protest in New Delhi against police brutality",
+   "name": "Delhi",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T13:47:06+00:00",
+   "owners": [
+    "HT Media",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+    "Women protest in New Delhi against police brutality",
+    "Hyderabad journalists protest against police action on demonstrators in Delhi"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Women protest in New Delhi against police brutality",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T12:07:15+00:00"
+    },
+    {
+     "title": "Hyderabad journalists protest against police action on demonstrators in Delhi",
+     "url": "https://www.thehindu.com/news/national/telangana/hyderabad-journalists-protest-against-police-action-on-demonstrators-in-delhi/article71575688.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T13:47:06+00:00"
+    },
+    {
+     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T09:55:46+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261017-california-wildfire",
+   "qid": null,
+   "title": "US: California wildfires destroy homes, leave thousands without power",
+   "name": "California",
+   "kind": "incident",
+   "category": "wildfire",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T13:49:21+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Deutsche Welle",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Wildfires rage in Southern California, burn homes",
+    "US: California wildfires destroy homes, leave thousands without power",
+    "California wildfire forces thousands to evacuate as blaze destroys coastal homes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "US: California wildfires destroy homes, leave thousands without power",
+     "url": "https://www.dw.com/en/us-california-wildfires-destroy-homes-leave-thousands-without-power/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:08:00+00:00"
+    },
+    {
+     "title": "Wildfires rage in Southern California, burn homes",
+     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T02:23:37+00:00"
+    },
+    {
+     "title": "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
+     "url": "https://www.independent.co.uk/news/world/americas/california-fires-san-juan-capistrano-b3068552.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T13:49:21+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Deutsche Welle",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 724,
+  "headlines": 725,
   "feeds": 30,
   "owners": 21,
-  "matched": 18,
-  "corroborated": 1
+  "matched": 16,
+  "corroborated": 3
  },
- "emerging": [],
- "outlet_note": "outlets: 724 headlines from 30 feeds (21 owners), 18 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261017-california-wildfire",
+   "qid": null,
+   "title": "US: California wildfires destroy homes, leave thousands without power",
+   "name": "California",
+   "kind": "incident",
+   "category": "wildfire",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T13:49:21+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Deutsche Welle",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Wildfires rage in Southern California, burn homes",
+    "US: California wildfires destroy homes, leave thousands without power",
+    "California wildfire forces thousands to evacuate as blaze destroys coastal homes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "US: California wildfires destroy homes, leave thousands without power",
+     "url": "https://www.dw.com/en/us-california-wildfires-destroy-homes-leave-thousands-without-power/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:08:00+00:00"
+    },
+    {
+     "title": "Wildfires rage in Southern California, burn homes",
+     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T02:23:37+00:00"
+    },
+    {
+     "title": "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
+     "url": "https://www.independent.co.uk/news/world/americas/california-fires-san-juan-capistrano-b3068552.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T13:49:21+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Deutsche Welle",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261017-delhi-protest",
+   "qid": null,
+   "title": "Women protest in New Delhi against police brutality",
+   "name": "Delhi",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T13:47:06+00:00",
+   "owners": [
+    "HT Media",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+    "Women protest in New Delhi against police brutality",
+    "Hyderabad journalists protest against police action on demonstrators in Delhi"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Women protest in New Delhi against police brutality",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T12:07:15+00:00"
+    },
+    {
+     "title": "Hyderabad journalists protest against police action on demonstrators in Delhi",
+     "url": "https://www.thehindu.com/news/national/telangana/hyderabad-journalists-protest-against-police-action-on-demonstrators-in-delhi/article71575688.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T13:47:06+00:00"
+    },
+    {
+     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T09:55:46+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 725 headlines from 30 feeds (21 owners), 16 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-california-wildfire, nw-20261017-delhi-protest"
 }
