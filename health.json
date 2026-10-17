@@ -1,9 +1,10 @@
 {
- "at": "2026-10-17T20:30:28+00:00",
+ "at": "2026-10-17T21:01:41+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 8 trending), 3 hazard alerts",
-  "outlets: 716 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]"
+  "watch: 1 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 712 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
+  "skip wk-Q438492: gate: no draft passed the fact checks: these names or numbers are not in the sources: 50",
+  "nothing eligible to publish"
  ]
 }
