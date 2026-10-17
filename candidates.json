@@ -1,39 +1,37 @@
 {
- "at": "2026-10-17T11:30:36+00:00",
+ "at": "2026-10-17T11:59:55+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 260097,
+   "fame": 360097,
    "views": 10097,
    "traffic": 0,
-   "news": 250000,
+   "news": 350000,
    "news_at": "2026-10-17T08:27:47+00:00",
    "headlines": [
+    "Saudi Arabia flight suspension: Full list of Indian, Dubai, UAE, Qatar, US, Japan and European flights cancelled",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
     "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions"
+    "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
+    "google-news:Saudi Arabia flight suspension: Full list of Indian, Dubai, UAE, Qatar, US, Japan and European flights cancelled",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
     "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
-    "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle",
     "outlet:Guardian Media Group"
    ],
    "owners": [
     "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "France Médias Monde",
-    "Deutsche Welle",
     "Guardian Media Group"
    ],
    "reports": [
@@ -78,16 +76,6 @@
      "at": "2026-10-17T06:00:32+00:00"
     },
     {
-     "title": "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions",
-     "url": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-16T14:03:00+00:00"
-    },
-    {
      "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15",
      "url": "https://www.theguardian.com/global-development/2026/oct/16/saudi-arabia-to-execute-man-for-being-at-protests-and-funerals-when-he-was-15",
      "outlet": "The Guardian",
@@ -104,33 +92,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-17T09:58:17+00:00",
-   "headlines": [
-    "Oregon teacher fought school attacker before armed dad killed suspect"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad killed suspect"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141717158",
@@ -268,12 +229,12 @@
   "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
-  "headlines": 731,
+  "headlines": 728,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
+  "matched": 26,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 731 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 728 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
