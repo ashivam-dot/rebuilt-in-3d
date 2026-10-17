@@ -1,12 +1,11 @@
 {
- "at": "2026-10-17T16:00:58+00:00",
+ "at": "2026-10-17T16:32:10+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 9 trending), 2 hazard alerts",
-  "outlets: 716 headlines from 30 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-california-wildfire, nw-20261017-delhi-protest",
-  "trend radar errors: ['wikidata recent deaths: HTTP 429']",
+  "watch: 3 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 717 headlines from 30 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-california-wildfire, nw-20261017-delhi-protest",
   "skip wk-Q141615137-2026w42: gate: only 1 usable photos of 2026 French student protests on Wikimedia Commons (want 2)",
-  "skip nw-20261017-delhi-protest: gate: no draft passed the fact checks: these names or numbers are not in the sources: Authorities, Demands, Gyanesh, Kumar, Participants (Authorities, Gyanesh, Kumar only in one outlet's report: one outlet is not enough)",
+  "skip nw-20261017-delhi-protest: gate: no draft passed the fact checks: line 6 (In another city, the Cockroach Janta Party and AISA staged a): partly: The source does not state the protest was in 'another city'; it only confirms the location as Freedom Park (Delhi). | second look: The line states that the protest was staged by the Cockroach Janta Party and AISA. However, according to the source sentences, the Cockroach Janta Party is only mentioned by one owner (HT Me",
   "skip nw-20261017-california-wildfire: gate: only 0 usable photos of California (want 2)",
   "nothing eligible to publish"
  ]
