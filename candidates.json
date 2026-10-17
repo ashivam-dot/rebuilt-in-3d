@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T06:01:25+00:00",
+ "at": "2026-10-17T06:39:27+00:00",
  "quakes": [],
  "trending": [
   {
@@ -96,31 +96,61 @@
    "has_coords": false
   },
   {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-16T23:02:00+00:00",
+   "headlines": [
+    "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
+  },
+  {
    "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "Wildfires rage in Southern California, burn homes",
+   "title": "US: Homes burned in California as wildfires rage",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
    "date": "2026-10-16",
-   "news_at": "2026-10-17T03:30:36+00:00",
+   "news_at": "2026-10-17T06:08:00+00:00",
    "owners": [
     "Paramount (CBS)",
     "Al Jazeera Media Network",
+    "Deutsche Welle",
     "ABC (Australia)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Southern California wildfires force evacuations amid powerful Santa Ana winds",
     "Southern California wildfire engulfs homes, prompts evacuation orders",
+    "US: Homes burned in California as wildfires rage",
     "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
     "Santa",
-    "Ana"
+    "Ana",
+    "homes"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -132,6 +162,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "US: Homes burned in California as wildfires rage",
+     "url": "https://www.dw.com/en/us-homes-burned-in-california-as-wildfires-rage/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:08:00+00:00"
+    },
     {
      "title": "Wildfires rage in Southern California, burn homes",
      "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
@@ -166,6 +206,7 @@
    "via": [
     "outlet:Paramount (CBS)",
     "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
     "outlet:ABC (Australia)"
    ],
    "emerging": true,
@@ -393,29 +434,32 @@
   {
    "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "Wildfires rage in Southern California, burn homes",
+   "title": "US: Homes burned in California as wildfires rage",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
    "date": "2026-10-16",
-   "news_at": "2026-10-17T03:30:36+00:00",
+   "news_at": "2026-10-17T06:08:00+00:00",
    "owners": [
     "Paramount (CBS)",
     "Al Jazeera Media Network",
+    "Deutsche Welle",
     "ABC (Australia)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Southern California wildfires force evacuations amid powerful Santa Ana winds",
     "Southern California wildfire engulfs homes, prompts evacuation orders",
+    "US: Homes burned in California as wildfires rage",
     "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
     "Santa",
-    "Ana"
+    "Ana",
+    "homes"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -427,6 +471,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "US: Homes burned in California as wildfires rage",
+     "url": "https://www.dw.com/en/us-homes-burned-in-california-as-wildfires-rage/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:08:00+00:00"
+    },
     {
      "title": "Wildfires rage in Southern California, burn homes",
      "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
@@ -461,6 +515,7 @@
    "via": [
     "outlet:Paramount (CBS)",
     "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
     "outlet:ABC (Australia)"
    ],
    "emerging": true,
@@ -468,39 +523,42 @@
   }
  ],
  "outlets": {
-  "headlines": 756,
+  "headlines": 753,
   "feeds": 29,
   "owners": 21,
-  "matched": 24,
+  "matched": 23,
   "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261016-california-wildfire",
    "qid": null,
-   "title": "Wildfires rage in Southern California, burn homes",
+   "title": "US: Homes burned in California as wildfires rage",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
    "date": "2026-10-16",
-   "news_at": "2026-10-17T03:30:36+00:00",
+   "news_at": "2026-10-17T06:08:00+00:00",
    "owners": [
     "Paramount (CBS)",
     "Al Jazeera Media Network",
+    "Deutsche Welle",
     "ABC (Australia)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Southern California wildfires force evacuations amid powerful Santa Ana winds",
     "Southern California wildfire engulfs homes, prompts evacuation orders",
+    "US: Homes burned in California as wildfires rage",
     "Wildfires rage in Southern California, burn homes"
    ],
    "places": [
     "Santa",
-    "Ana"
+    "Ana",
+    "homes"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -512,6 +570,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "US: Homes burned in California as wildfires rage",
+     "url": "https://www.dw.com/en/us-homes-burned-in-california-as-wildfires-rage/a-79685480?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:08:00+00:00"
+    },
     {
      "title": "Wildfires rage in Southern California, burn homes",
      "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
@@ -546,11 +614,12 @@
    "via": [
     "outlet:Paramount (CBS)",
     "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
     "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 756 headlines from 29 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
+ "outlet_note": "outlets: 753 headlines from 29 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }
