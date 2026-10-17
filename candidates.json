@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T17:57:31+00:00",
+ "at": "2026-10-17T18:42:02+00:00",
  "quakes": [],
  "trending": [
   {
@@ -12,7 +12,7 @@
    "news_at": "2026-10-17T17:49:00+00:00",
    "headlines": [
     "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
-    "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+    "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
     "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
     "Egypt's Ssisi says he'll defend Saudi Arabia, if asked",
     "Saudi Arabia Intercepts Four Drones Over Riyadh Amid Houthi Attacks"
@@ -21,7 +21,7 @@
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
-    "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+    "google-news:Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
     "google-news:Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
     "outlet:Deutsche Welle",
     "outlet:NDTV",
@@ -112,7 +112,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-17T17:57:31.110037+00:00",
+   "news_at": "2026-10-17T18:42:02.229457+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -135,7 +135,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-10-17T17:57:31.110037+00:00",
+   "news_at": "2026-10-17T18:42:02.229457+00:00",
    "headlines": [
     "Revealed: French police used UK-funded 4x4 vehicles to charge student protesters",
     "Burning buildings and tear gas mark 29th day of French student protests"
@@ -182,29 +182,34 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261017-california-wildfire",
+   "id": "nw-20261016-california-wildfire",
    "qid": null,
    "title": "US: California wildfires destroy homes, leave thousands without power",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
-   "date": "2026-10-17",
-   "news_at": "2026-10-17T13:49:21+00:00",
+   "date": "2026-10-16",
+   "news_at": "2026-10-17T18:10:26+00:00",
    "owners": [
-    "ABC (Australia)",
-    "Deutsche Welle",
-    "Independent Digital News"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "Guardian Media Group",
+    "Deutsche Welle"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Wildfires rage in Southern California, burn homes",
-    "US: California wildfires destroy homes, leave thousands without power",
-    "California wildfire forces thousands to evacuate as blaze destroys coastal homes"
+    "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+    "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
+    "Six homes burned and two firefighters injured in fast-moving California wildfire",
+    "US: California wildfires destroy homes, leave thousands without power"
    ],
-   "places": [],
+   "places": [
+    "Santa",
+    "Ana"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -226,14 +231,14 @@
      "at": "2026-10-17T06:08:00+00:00"
     },
     {
-     "title": "Wildfires rage in Southern California, burn homes",
-     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
+     "title": "Six homes burned and two firefighters injured in fast-moving California wildfire",
+     "url": "https://www.theguardian.com/us-news/2026/oct/17/southern-california-wildfires",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-17T02:23:37+00:00"
+     "at": "2026-10-17T18:10:26+00:00"
     },
     {
      "title": "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
@@ -244,12 +249,23 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-17T13:49:21+00:00"
+    },
+    {
+     "title": "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+     "url": "https://www.cbsnews.com/video/southern-california-wildfires-force-evacuations-amid-powerful-santa-ana-winds/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-16T23:51:25+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Deutsche Welle",
-    "outlet:Independent Digital News"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -292,42 +308,40 @@
    "date": "2026-10-08"
   },
   {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
+   "qid": "Q141718063",
+   "title": "Parvinder Singh Jhota",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-17T17:50:32+00:00",
+   "news_at": "2026-10-17T18:21:54+00:00",
    "headlines": [
-    "'He kept hitting': Indian pilot Machchhar reveals what happened on the flydubai flight"
+    "Killing of Parvinder Singh Jhota: Punjab’s drug menace and the questions it raises | Explainer"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:'He kept hitting': Indian pilot Machchhar reveals what happened on the flydubai flight",
-    "outlet:Bennett, Coleman & Co."
+    "google-news:Killing of Parvinder Singh Jhota: Punjab’s drug menace and the questions it raises | Explainer",
+    "outlet:The Hindu Group"
    ],
    "owners": [
-    "Bennett, Coleman & Co."
+    "The Hindu Group"
    ],
    "reports": [
     {
-     "title": "'He kept hitting': Indian pilot Machchhar reveals what happened on the flydubai flight",
-     "url": "https://timesofindia.indiatimes.com/india/he-kept-on-hitting-indian-flydubai-pilot-smit-machchhar-reveals-what-happened-mid-flight-as-he-was-stabbed/articleshow/135018356.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
+     "title": "Killing of Parvinder Singh Jhota: Punjab’s drug menace and the questions it raises | Explainer",
+     "url": "https://www.thehindu.com/news/national/punjab/killing-of-parvinder-singh-jhota-punjabs-drug-menace-and-the-questions-it-raises-explainer/article71582618.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-17T17:50:32+00:00"
+     "at": "2026-10-17T18:21:54+00:00"
     }
    ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
+   "id": "wk-Q141718063",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-12"
   },
   {
    "qid": "Q141544931",
@@ -466,7 +480,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-10-17T17:57:31.110037+00:00",
+   "news_at": "2026-10-17T18:42:02.229457+00:00",
    "headlines": [
     "Revealed: French police used UK-funded 4x4 vehicles to charge student protesters",
     "Burning buildings and tear gas mark 29th day of French student protests"
@@ -511,78 +525,45 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q141605182",
-   "title": "Flydubai Flight 1073",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-17T17:50:32+00:00",
-   "headlines": [
-    "'He kept hitting': Indian pilot Machchhar reveals what happened on the flydubai flight"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:'He kept hitting': Indian pilot Machchhar reveals what happened on the flydubai flight",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "'He kept hitting': Indian pilot Machchhar reveals what happened on the flydubai flight",
-     "url": "https://timesofindia.indiatimes.com/india/he-kept-on-hitting-indian-flydubai-pilot-smit-machchhar-reveals-what-happened-mid-flight-as-he-was-stabbed/articleshow/135018356.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-17T17:50:32+00:00"
-    }
-   ],
-   "id": "wk-Q141605182",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-09-30",
-   "coords": null,
-   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 715,
+  "headlines": 712,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 26,
   "corroborated": 3
  },
  "emerging": [
   {
-   "id": "nw-20261017-california-wildfire",
+   "id": "nw-20261016-california-wildfire",
    "qid": null,
    "title": "US: California wildfires destroy homes, leave thousands without power",
    "name": "California",
    "kind": "incident",
    "category": "wildfire",
-   "date": "2026-10-17",
-   "news_at": "2026-10-17T13:49:21+00:00",
+   "date": "2026-10-16",
+   "news_at": "2026-10-17T18:10:26+00:00",
    "owners": [
-    "ABC (Australia)",
-    "Deutsche Welle",
-    "Independent Digital News"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "Guardian Media Group",
+    "Deutsche Welle"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Wildfires rage in Southern California, burn homes",
-    "US: California wildfires destroy homes, leave thousands without power",
-    "California wildfire forces thousands to evacuate as blaze destroys coastal homes"
+    "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+    "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
+    "Six homes burned and two firefighters injured in fast-moving California wildfire",
+    "US: California wildfires destroy homes, leave thousands without power"
    ],
-   "places": [],
+   "places": [
+    "Santa",
+    "Ana"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -604,14 +585,14 @@
      "at": "2026-10-17T06:08:00+00:00"
     },
     {
-     "title": "Wildfires rage in Southern California, burn homes",
-     "url": "https://www.abc.net.au/news/2026-10-17/multiple-southern-california-homes-are-ablaze-in-wildfire/107279038",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
+     "title": "Six homes burned and two firefighters injured in fast-moving California wildfire",
+     "url": "https://www.theguardian.com/us-news/2026/oct/17/southern-california-wildfires",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-17T02:23:37+00:00"
+     "at": "2026-10-17T18:10:26+00:00"
     },
     {
      "title": "California wildfire forces thousands to evacuate as blaze destroys coastal homes",
@@ -622,16 +603,27 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-17T13:49:21+00:00"
+    },
+    {
+     "title": "Southern California wildfires force evacuations amid powerful Santa Ana winds",
+     "url": "https://www.cbsnews.com/video/southern-california-wildfires-force-evacuations-amid-powerful-santa-ana-winds/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-16T23:51:25+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Deutsche Welle",
-    "outlet:Independent Digital News"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 715 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire"
+ "outlet_note": "outlets: 712 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }

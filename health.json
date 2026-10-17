@@ -1,17 +1,10 @@
 {
- "at": "2026-10-17T17:57:30+00:00",
+ "at": "2026-10-17T18:42:01+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 11 trending), 2 hazard alerts",
-  "outlets: 715 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire",
-  "skip wk-Q141615137-2026w42: gate: only 1 usable photos of 2026 French student protests on Wikimedia Commons (want 2)",
-  "published wk-Q141605182: https://www.youtube.com/shorts/OT6g4NIr7Q8"
- ],
- "published": {
-  "video_id": "OT6g4NIr7Q8",
-  "url": "https://www.youtube.com/shorts/OT6g4NIr7Q8",
-  "title": "The Courage of Captain Machchhar on Flydubai Flight 1073",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 25 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 5, 'lift': 0.792, 'typical_views_24h': 91}, 'kind:incident': {'n': 13, 'lift': 1.35, 'typical_views_24h': 258}, 'category:death': {'n': 4, 'lift': 0.75, 'typical_views_24h': 44}}",
+  "watch: 1 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 712 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
+  "hold wk-Q141615137-2026w42: last Short went out 0.2 h ago"
+ ]
 }
