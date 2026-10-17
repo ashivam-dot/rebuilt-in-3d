@@ -1,14 +1,14 @@
 {
- "at": "2026-10-17T15:32:09+00:00",
+ "at": "2026-10-17T16:00:58+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 385097,
+   "fame": 285097,
    "views": 10097,
    "traffic": 0,
-   "news": 375000,
+   "news": 275000,
    "news_at": "2026-10-17T14:00:24+00:00",
    "headlines": [
     "Iran helping Houthis: How Tehran is hitting Saudi Arabia without fighting directly",
@@ -94,6 +94,68 @@
    "has_coords": false
   },
   {
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-17T16:00:58.821425+00:00",
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-current-events-2026-10-16",
+    "wikipedia-current-events-2026-10-17"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141717158-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-17T16:00:58.821425+00:00",
+   "headlines": [
+    "Burning buildings and tear gas mark 29th day of French student protests"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-17",
+    "google-news:Burning buildings and tear gas mark 29th day of French student protests",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Burning buildings and tear gas mark 29th day of French student protests",
+     "url": "https://www.abc.net.au/news/2026-10-18/france-protests-education-cost-of-living/107279688",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T14:15:14+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "id": "nw-20261017-california-wildfire",
    "qid": null,
    "title": "US: California wildfires destroy homes, leave thousands without power",
@@ -167,63 +229,80 @@
    "article": null
   },
   {
-   "qid": "Q141717158",
-   "title": "2026 anti-CEC protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-17T00:00:00+00:00",
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-10-16"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141717158-2026w42",
+   "id": "nw-20261017-delhi-protest",
+   "qid": null,
+   "title": "Women protest in New Delhi against police brutality",
+   "name": "Delhi",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q2475741",
-   "title": "Nana Patekar",
-   "fame": 39046,
-   "views": 14046,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-17T08:55:39+00:00",
-   "headlines": [
-    "Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-15",
-    "google-news:Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
-    "outlet:HT Media"
-   ],
+   "news_at": "2026-10-17T15:38:23+00:00",
    "owners": [
-    "HT Media"
+    "HT Media",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
    ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+    "Women protest in New Delhi against police brutality",
+    "Delhi Police register at least 10 FIRs against alleged right-wing activists over assaults on protesters"
+   ],
+   "places": [
+    "FIRs"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Nana Patekar or Smit Machchhar? Row erupts in Mumbai over naming Vidyavihar bridge",
-     "url": "https://www.hindustantimes.com/india-news/nana-patekar-or-smit-machchhar-row-erupts-in-mumbai-over-naming-vidyavihar-bridge-101792221147218.html",
+     "title": "Women protest in New Delhi against police brutality",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T12:07:15+00:00"
+    },
+    {
+     "title": "Delhi Police register at least 10 FIRs against alleged right-wing activists over assaults on protesters",
+     "url": "https://www.thehindu.com/news/cities/Delhi/anti-cec-protest-delhi-police-registers-at-least-10-firs-over-assaults-on-protesters-after-sustained-public-pressure/article71595546.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T15:38:23+00:00"
+    },
+    {
+     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
      "outlet": "Hindustan Times",
      "outlet_hi": "हिंदुस्तान टाइम्स",
      "owner": "HT Media",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-17T08:55:39+00:00"
+     "at": "2026-10-17T09:55:46+00:00"
     }
    ],
-   "id": "wk-Q2475741",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
+   "via": [
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141544931",
@@ -246,6 +325,26 @@
    "date": "2026-09-23",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q2475741",
+   "title": "Nana Patekar",
+   "fame": 14046,
+   "views": 14046,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2475741",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-08"
   },
   {
    "qid": "Q1355840",
@@ -288,46 +387,6 @@
    "date": "2026-10-06",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q3205897",
-   "title": "L. Ian MacDonald",
-   "fame": 8231,
-   "views": 8231,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3205897",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-08"
-  },
-  {
-   "qid": "Q5300674",
-   "title": "Doug Loft",
-   "fame": 8207,
-   "views": 8207,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5300674",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
   }
  ],
  "hazards": [
@@ -355,6 +414,121 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-17T16:00:58.821425+00:00",
+   "headlines": [
+    "Burning buildings and tear gas mark 29th day of French student protests"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-17",
+    "google-news:Burning buildings and tear gas mark 29th day of French student protests",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Burning buildings and tear gas mark 29th day of French student protests",
+     "url": "https://www.abc.net.au/news/2026-10-18/france-protests-education-cost-of-living/107279688",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T14:15:14+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "id": "nw-20261017-delhi-protest",
+   "qid": null,
+   "title": "Women protest in New Delhi against police brutality",
+   "name": "Delhi",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T15:38:23+00:00",
+   "owners": [
+    "HT Media",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+    "Women protest in New Delhi against police brutality",
+    "Delhi Police register at least 10 FIRs against alleged right-wing activists over assaults on protesters"
+   ],
+   "places": [
+    "FIRs"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Women protest in New Delhi against police brutality",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T12:07:15+00:00"
+    },
+    {
+     "title": "Delhi Police register at least 10 FIRs against alleged right-wing activists over assaults on protesters",
+     "url": "https://www.thehindu.com/news/cities/Delhi/anti-cec-protest-delhi-police-registers-at-least-10-firs-over-assaults-on-protesters-after-sustained-public-pressure/article71595546.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T15:38:23+00:00"
+    },
+    {
+     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T09:55:46+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261017-california-wildfire",
    "qid": null,
@@ -429,12 +603,15 @@
    "article": null
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 429"
+ ],
  "outlets": {
-  "headlines": 714,
+  "headlines": 716,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 2
+  "matched": 25,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -509,7 +686,83 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261017-delhi-protest",
+   "qid": null,
+   "title": "Women protest in New Delhi against police brutality",
+   "name": "Delhi",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-17T15:38:23+00:00",
+   "owners": [
+    "HT Media",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+    "Women protest in New Delhi against police brutality",
+    "Delhi Police register at least 10 FIRs against alleged right-wing activists over assaults on protesters"
+   ],
+   "places": [
+    "FIRs"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Women protest in New Delhi against police brutality",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-17T12:07:15+00:00"
+    },
+    {
+     "title": "Delhi Police register at least 10 FIRs against alleged right-wing activists over assaults on protesters",
+     "url": "https://www.thehindu.com/news/cities/Delhi/anti-cec-protest-delhi-police-registers-at-least-10-firs-over-assaults-on-protesters-after-sustained-public-pressure/article71595546.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T15:38:23+00:00"
+    },
+    {
+     "title": "Women's groups protest outside Delhi Police headquarters against alleged sexual violence during anti-SIR stir",
+     "url": "https://www.hindustantimes.com/india-news/womens-groups-protest-outside-delhi-police-headquarters-against-alleged-sexual-violence-during-anti-sir-stir-101792223584345.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-17T09:55:46+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 714 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-california-wildfire"
+ "outlet_note": "outlets: 716 headlines from 30 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-california-wildfire, nw-20261017-delhi-protest"
 }
