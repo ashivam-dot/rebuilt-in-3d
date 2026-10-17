@@ -1,28 +1,29 @@
 {
- "at": "2026-10-17T06:39:27+00:00",
+ "at": "2026-10-17T07:17:36+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 385097,
+   "fame": 410097,
    "views": 10097,
    "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-10-17T06:00:32+00:00",
+   "news": 400000,
+   "news_at": "2026-10-17T06:38:21+00:00",
    "headlines": [
     "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
     "The Truth About the Houthis – and Why Saudi Arabia Is Struggling to Defend Itself Against Them",
+    "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
     "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
-    "Yemen’s government says Houthis fired two missiles at Aden airport",
-    "Houthi attacks on strategic Saudi assets threaten Riyadh's regional leadership and economic ambitions"
+    "Yemen’s government says Houthis fired two missiles at Aden airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
     "google-news:The Truth About the Houthis – and Why Saudi Arabia Is Struggling to Defend Itself Against Them",
-    "google-news:Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
+    "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
     "outlet:Deutsche Welle",
@@ -30,6 +31,7 @@
     "outlet:Fox Corporation"
    ],
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Al Jazeera Media Network",
     "Deutsche Welle",
@@ -37,6 +39,16 @@
     "Fox Corporation"
    ],
    "reports": [
+    {
+     "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+     "url": "https://abcnews.com/International/wireStory/houthi-strikes-saudi-arabia-show-yemeni-rebels-growing-137341692",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T06:38:21+00:00"
+    },
     {
      "title": "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport",
      "url": "https://www.france24.com/en/middle-east/20261017-yemen-s-houthis-claim-responsibility-for-fresh-missile-strike-on-aden-airport",
@@ -98,20 +110,36 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 125000,
+   "fame": 150000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-16T23:02:00+00:00",
+   "news": 150000,
+   "news_at": "2026-10-17T06:49:48+00:00",
    "headlines": [
+    "Oregon teacher fought school attacker before armed dad killed suspect",
     "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
    ],
    "region": "world",
    "via": [
-    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+    "google-news:Oregon teacher fought school attacker before armed dad killed suspect",
+    "google-news:Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+    "outlet:BBC"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+     "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T06:49:48+00:00"
+    }
+   ],
    "id": "wk-Q141745391",
    "kind": "incident",
    "category": "attack",
@@ -526,7 +554,7 @@
   "headlines": 753,
   "feeds": 29,
   "owners": 21,
-  "matched": 23,
+  "matched": 25,
   "corroborated": 2
  },
  "emerging": [
@@ -621,5 +649,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 753 headlines from 29 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
+ "outlet_note": "outlets: 753 headlines from 29 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire"
 }
