@@ -1,9 +1,11 @@
 {
- "at": "2026-10-18T17:57:13+00:00",
+ "at": "2026-10-18T18:32:39+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 670 headlines from 28 feeds (20 owners), 45 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-paris-protest",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]"
+  "learn: 29 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.839, 'typical_views_24h': 90}, 'kind:incident': {'n': 16, 'lift': 1.35, 'typical_views_24h': 186}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
+  "watch: 1 candidates (0 quakes, 15 trending), 2 hazard alerts",
+  "outlets: 694 headlines from 29 feeds (21 owners), 45 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-albania-protest, nw-20261018-paris-protest",
+  "skip wk-Q141762710-2026w42: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
+  "nothing eligible to publish"
  ]
 }
