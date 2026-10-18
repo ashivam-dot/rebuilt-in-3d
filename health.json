@@ -1,9 +1,13 @@
 {
- "at": "2026-10-17T23:55:44+00:00",
+ "at": "2026-10-18T00:45:59+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 12 trending), 3 hazard alerts",
-  "outlets: 709 headlines from 29 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261016-california-wildfire",
-  "hold wk-Q141760142: outside the india window"
+  "watch: 4 candidates (0 quakes, 15 trending), 3 hazard alerts",
+  "outlets: 702 headlines from 29 feeds (21 owners), 37 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261016-california-wildfire, nw-20261017-oregon-attack, nw-20261017-albania-protest",
+  "hold wk-Q141760142: outside the india window",
+  "hold wk-Q31705888: outside the india window",
+  "skip nw-20261017-albania-protest: gate: only 0 usable photos of Albania (want 2)",
+  "skip nw-20261017-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
+  "nothing eligible to publish"
  ]
 }
