@@ -1,13 +1,14 @@
 {
- "at": "2026-10-18T00:45:59+00:00",
+ "at": "2026-10-18T01:36:28+00:00",
  "ok": true,
  "steps": [
+  "learn: 28 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.807, 'typical_views_24h': 90}, 'kind:incident': {'n': 15, 'lift': 1.35, 'typical_views_24h': 217}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
   "watch: 4 candidates (0 quakes, 15 trending), 3 hazard alerts",
-  "outlets: 702 headlines from 29 feeds (21 owners), 37 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261016-california-wildfire, nw-20261017-oregon-attack, nw-20261017-albania-protest",
+  "outlets: 699 headlines from 29 feeds (21 owners), 39 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261016-california-wildfire, nw-20261017-oregon-attack, nw-20261017-albania-protest",
   "hold wk-Q141760142: outside the india window",
-  "hold wk-Q31705888: outside the india window",
   "skip nw-20261017-albania-protest: gate: only 0 usable photos of Albania (want 2)",
   "skip nw-20261017-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
+  "skip wk-Q438492: gate: no draft passed the fact checks: these names or numbers are not in the sources: 50",
   "nothing eligible to publish"
  ]
 }
