@@ -1,12 +1,12 @@
 {
- "at": "2026-10-18T04:06:17+00:00",
+ "at": "2026-10-18T04:34:01+00:00",
  "ok": true,
  "steps": [
   "watch: 3 candidates (0 quakes, 16 trending), 3 hazard alerts",
-  "outlets: 689 headlines from 29 feeds (21 owners), 47 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261016-california-wildfire, nw-20261017-albania-protest",
+  "outlets: 688 headlines from 29 feeds (21 owners), 46 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261016-california-wildfire, nw-20261017-albania-protest",
   "hold wk-Q141535181-2026w42: outside the world window",
-  "wait wp-2026_French_protests: gate: the article is under 6 hours old; facts may still move (ready in 5.4 h)",
-  "wait wk-Q141760142: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
+  "wait wp-2026_French_protests: gate: the article is under 6 hours old; facts may still move (ready in 4.9 h)",
+  "wait wk-Q141760142: gate: the article is under 6 hours old; facts may still move (ready in 0.1 h)",
   "nothing eligible to publish"
  ]
 }
