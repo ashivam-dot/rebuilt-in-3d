@@ -1,14 +1,14 @@
 {
- "at": "2026-10-18T22:31:12+00:00",
+ "at": "2026-10-18T22:59:42+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 485097,
+   "fame": 385097,
    "views": 10097,
    "traffic": 0,
-   "news": 475000,
+   "news": 375000,
    "news_at": "2026-10-18T19:08:09+00:00",
    "headlines": [
     "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
@@ -210,7 +210,7 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-18T22:31:40.990824+00:00",
+   "news_at": "2026-10-18T23:00:07.844095+00:00",
    "headlines": [
     "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
     "PRESIDENT OF INDIA’S GREETINGS ON DURGA PUJA",
@@ -246,7 +246,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-10-18T22:31:40.990824+00:00"
+     "at": "2026-10-18T23:00:07.844095+00:00"
     },
     {
      "title": "Majority of victims in Kolkata Durga Puja stampede are women, children",
@@ -349,6 +349,119 @@
    "date": "2026-10-14",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261017-trudy-cyclone",
+   "qid": null,
+   "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+   "name": "Trudy",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-17",
+   "news_at": "2026-10-18T18:10:22+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Los Angeles Times",
+    "Paramount (CBS)",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+    "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
+    "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
+    "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
+    "Hurricane Trudy threatens Mexican coast with flooding, mudslides"
+   ],
+   "places": [
+    "Pacific",
+    "Champi",
+    "Guam"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+     "url": "https://www.scmp.com/news/world/americas/article/3371318/hurricane-trudy-threatens-mexican-coast-flooding-mudslides?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T13:36:22+00:00"
+    },
+    {
+     "title": "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
+     "url": "https://www.independent.co.uk/news/world/americas/hurricane-trudy-mexico-pacific-coast-b3068721.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T09:48:44+00:00"
+    },
+    {
+     "title": "Hurricane Trudy lashes Mexico’s Pacific coast with heavy rain and strong winds",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-brings-heavy-rain-strong-winds-mexicos-137357719",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T18:10:22+00:00"
+    },
+    {
+     "title": "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
+     "url": "https://www.cbsnews.com/news/hurricane-trudy-mexico-pacific-coast-life-threatening-flooding-mudslides/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T12:12:45+00:00"
+    },
+    {
+     "title": "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
+     "url": "https://www.latimes.com/world-nation/story/2026-10-18/mexico-hurricane-pacific-coast",
+     "outlet": "Los Angeles Times",
+     "outlet_hi": "लॉस एंजेलिस टाइम्स",
+     "owner": "Los Angeles Times",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T10:00:00+00:00"
+    },
+    {
+     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T17:38:17+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Los Angeles Times",
+    "outlet:Paramount (CBS)",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141615137",
@@ -565,14 +678,242 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261017-trudy-cyclone",
+   "qid": null,
+   "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+   "name": "Trudy",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-17",
+   "news_at": "2026-10-18T18:10:22+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Los Angeles Times",
+    "Paramount (CBS)",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+    "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
+    "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
+    "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
+    "Hurricane Trudy threatens Mexican coast with flooding, mudslides"
+   ],
+   "places": [
+    "Pacific",
+    "Champi",
+    "Guam"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+     "url": "https://www.scmp.com/news/world/americas/article/3371318/hurricane-trudy-threatens-mexican-coast-flooding-mudslides?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T13:36:22+00:00"
+    },
+    {
+     "title": "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
+     "url": "https://www.independent.co.uk/news/world/americas/hurricane-trudy-mexico-pacific-coast-b3068721.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T09:48:44+00:00"
+    },
+    {
+     "title": "Hurricane Trudy lashes Mexico’s Pacific coast with heavy rain and strong winds",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-brings-heavy-rain-strong-winds-mexicos-137357719",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T18:10:22+00:00"
+    },
+    {
+     "title": "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
+     "url": "https://www.cbsnews.com/news/hurricane-trudy-mexico-pacific-coast-life-threatening-flooding-mudslides/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T12:12:45+00:00"
+    },
+    {
+     "title": "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
+     "url": "https://www.latimes.com/world-nation/story/2026-10-18/mexico-hurricane-pacific-coast",
+     "outlet": "Los Angeles Times",
+     "outlet_hi": "लॉस एंजेलिस टाइम्स",
+     "owner": "Los Angeles Times",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T10:00:00+00:00"
+    },
+    {
+     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T17:38:17+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Los Angeles Times",
+    "outlet:Paramount (CBS)",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 700,
+  "headlines": 699,
   "feeds": 29,
   "owners": 21,
   "matched": 46,
-  "corroborated": 3
+  "corroborated": 4
  },
- "emerging": [],
- "outlet_note": "outlets: 700 headlines from 29 feeds (21 owners), 46 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261017-trudy-cyclone",
+   "qid": null,
+   "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+   "name": "Trudy",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-17",
+   "news_at": "2026-10-18T18:10:22+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Los Angeles Times",
+    "Paramount (CBS)",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+    "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
+    "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
+    "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
+    "Hurricane Trudy threatens Mexican coast with flooding, mudslides"
+   ],
+   "places": [
+    "Pacific",
+    "Champi",
+    "Guam"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+     "url": "https://www.scmp.com/news/world/americas/article/3371318/hurricane-trudy-threatens-mexican-coast-flooding-mudslides?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T13:36:22+00:00"
+    },
+    {
+     "title": "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
+     "url": "https://www.independent.co.uk/news/world/americas/hurricane-trudy-mexico-pacific-coast-b3068721.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T09:48:44+00:00"
+    },
+    {
+     "title": "Hurricane Trudy lashes Mexico’s Pacific coast with heavy rain and strong winds",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-brings-heavy-rain-strong-winds-mexicos-137357719",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T18:10:22+00:00"
+    },
+    {
+     "title": "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
+     "url": "https://www.cbsnews.com/news/hurricane-trudy-mexico-pacific-coast-life-threatening-flooding-mudslides/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T12:12:45+00:00"
+    },
+    {
+     "title": "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
+     "url": "https://www.latimes.com/world-nation/story/2026-10-18/mexico-hurricane-pacific-coast",
+     "outlet": "Los Angeles Times",
+     "outlet_hi": "लॉस एंजेलिस टाइम्स",
+     "owner": "Los Angeles Times",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T10:00:00+00:00"
+    },
+    {
+     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T17:38:17+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Los Angeles Times",
+    "outlet:Paramount (CBS)",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 699 headlines from 29 feeds (21 owners), 46 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-trudy-cyclone"
 }

@@ -1,8 +1,10 @@
 {
- "at": "2026-10-18T22:31:11+00:00",
+ "at": "2026-10-18T22:59:41+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 700 headlines from 29 feeds (21 owners), 46 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+  "watch: 1 candidates (0 quakes, 14 trending), 2 hazard alerts",
+  "outlets: 699 headlines from 29 feeds (21 owners), 46 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-trudy-cyclone",
+  "skip nw-20261017-trudy-cyclone: gate: no draft passed the fact checks: these names or numbers are not in the sources: Faces",
+  "nothing eligible to publish"
  ]
 }
