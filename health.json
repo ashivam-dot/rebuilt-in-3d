@@ -1,10 +1,9 @@
 {
- "at": "2026-10-18T17:43:19+00:00",
+ "at": "2026-10-18T17:57:13+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 664 headlines from 28 feeds (20 owners), 47 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-alberta-disaster, nw-20261018-paris-protest",
-  "skip nw-20261018-alberta-disaster: gate: only 0 usable photos of Alberta (want 2)",
-  "nothing eligible to publish"
+  "watch: 0 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 670 headlines from 28 feeds (20 owners), 45 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-paris-protest",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]"
  ]
 }
