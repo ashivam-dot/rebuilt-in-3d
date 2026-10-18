@@ -1,18 +1,18 @@
 # What this channel's own numbers say
 
-Updated 2026-10-18T01:36:29+00:00. Scored Shorts (views at 24 h): 28. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-18T05:06:04+00:00. Scored Shorts (views at 24 h): 29. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 130 views at 24 h.
-- kind:incident: x1.35 ranking lift (15 Shorts, typical 217 views)
-- kind:death: x0.807 ranking lift (6 Shorts, typical 90 views)
+Baseline: a typical Short has 122 views at 24 h.
+- kind:incident: x1.35 ranking lift (16 Shorts, typical 186 views)
+- kind:death: x0.839 ranking lift (6 Shorts, typical 90 views)
 - kind:quake: x0.75 ranking lift (7 Shorts, typical 59 views)
 - category:death: x0.75 ranking lift (5 Shorts, typical 51 views)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q141605182 | 2026-10-17T18:37 | incident | aviation | 6 |  |
-| wk-Q141717158-2026w42 | 2026-10-17T04:44 | incident | protest | 19 |  |
-| wk-Q141745391 | 2026-10-17T01:12 | incident | attack | 498 | 496 |
+| wk-Q141605182 | 2026-10-17T18:37 | incident | aviation | 7 |  |
+| wk-Q141717158-2026w42 | 2026-10-17T04:44 | incident | protest | 19 | 19 |
+| wk-Q141745391 | 2026-10-17T01:12 | incident | attack | 507 | 496 |
 | wk-Q1101154 | 2026-10-16T23:55 | death | death | 93 | 90 |
 | wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports | 2026-10-16T19:59 | incident | attack | 9 | 9 |
 | eq-us6000u1z5 | 2026-10-16T18:26 | quake |  | 0 | 0 |
@@ -20,8 +20,8 @@ Baseline: a typical Short has 130 views at 24 h.
 | eq-us6000u2mq | 2026-10-16T15:53 | quake |  | 33 | 33 |
 | nw-20261014-black-strike | 2026-10-15T18:13 | incident | strike | 371 | 371 |
 | wk-Q139998119-2026w42 | 2026-10-15T12:15 | incident | protest | 1072 | 1042 |
-| wk-Q1438992 | 2026-10-15T04:17 | death | death | 957 | 884 |
-| wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 862 | 673 |
+| wk-Q1438992 | 2026-10-15T04:17 | death | death | 956 | 884 |
+| wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 863 | 673 |
 | wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 285 | 268 |
 | wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 87 | 38 |
 | wk-Q11738696 | 2026-10-14T12:14 | death | death | 171 | 87 |
