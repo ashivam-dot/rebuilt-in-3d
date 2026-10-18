@@ -1,12 +1,13 @@
 {
- "at": "2026-10-18T08:02:04+00:00",
+ "at": "2026-10-18T08:33:19+00:00",
  "ok": true,
  "steps": [
+  "learn: 29 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.839, 'typical_views_24h': 90}, 'kind:incident': {'n': 16, 'lift': 1.35, 'typical_views_24h': 186}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
   "watch: 4 candidates (0 quakes, 16 trending), 3 hazard alerts",
-  "outlets: 674 headlines from 29 feeds (21 owners), 45 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261017-albania-protest, nw-20261018-hindu-disaster",
-  "wait wp-2026_French_protests: gate: the article is under 6 hours old; facts may still move (ready in 1.5 h)",
+  "outlets: 670 headlines from 29 feeds (21 owners), 45 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261017-anger-protest, nw-20261017-albania-protest",
+  "wait wp-2026_French_protests: gate: the article is under 6 hours old; facts may still move (ready in 0.9 h)",
   "skip wk-Q141760142: gate: only 1 usable photos of 2026 Kolkata Durga Puja crowd crush on Wikimedia Commons (want 2)",
-  "skip nw-20261018-hindu-disaster: gate: fewer than 2 independent outlets' articles name Hindu",
+  "skip nw-20261017-anger-protest: gate: only 0 usable photos of Anger (want 2)",
   "skip wk-Q141535181-2026w42: gate: only 0 usable photos of 2026 French fuel protests on Wikimedia Commons (want 2)",
   "nothing eligible to publish"
  ]
