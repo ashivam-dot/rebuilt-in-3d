@@ -1,30 +1,29 @@
 {
- "at": "2026-10-18T13:11:32+00:00",
+ "at": "2026-10-18T13:36:44+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 535097,
+   "fame": 385097,
    "views": 10097,
    "traffic": 0,
-   "news": 525000,
+   "news": 375000,
    "news_at": "2026-10-18T12:43:52+00:00",
    "headlines": [
     "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "Houthi attacks on Saudi Arabia reportedly based on intelligence provided by Iran",
     "Egypt pledges support for Saudi Arabia as Houthi attacks escalate",
-    "India urges nationals in Saudi Arabia to follow safety directives amid security concerns"
+    "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+    "Egypt's Ssisi says he'll defend Saudi Arabia, if asked"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-15",
     "google-news:Egypt's Sissi says he'll defend Saudi Arabia, if asked",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "google-news:Houthi attacks on Saudi Arabia reportedly based on intelligence provided by Iran",
+    "google-news:Egypt pledges support for Saudi Arabia as Houthi attacks escalate",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:The Hindu Group",
     "outlet:Al Jazeera Media Network",
     "outlet:Deutsche Welle",
     "outlet:Guardian Media Group",
@@ -32,7 +31,6 @@
    ],
    "owners": [
     "Bennett, Coleman & Co.",
-    "The Hindu Group",
     "Al Jazeera Media Network",
     "Deutsche Welle",
     "Guardian Media Group",
@@ -48,16 +46,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-18T12:43:52+00:00"
-    },
-    {
-     "title": "India urges nationals in Saudi Arabia to follow safety directives amid security concerns",
-     "url": "https://www.thehindu.com/news/international/india-urges-nationals-in-saudi-arabia-to-follow-safety-directives-amid-security-concerns/article71599498.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-18T11:36:58+00:00"
     },
     {
      "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
@@ -237,31 +225,6 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-18T10:25:48+00:00",
-   "headlines": [
-    "French police arrested more than 1,800 people as protests, violence erupt across country"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-17",
-    "google-news:French police arrested more than 1,800 people as protests, violence erupt across country"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141615137-2026w42",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-18",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q141740811",
@@ -549,6 +512,28 @@
    "article": null
   },
   {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-18T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-17"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-18",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q141535181",
    "title": "2026 French fuel protests",
    "fame": 50000,
@@ -832,10 +817,10 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 661,
+  "headlines": 664,
   "feeds": 29,
   "owners": 21,
-  "matched": 53,
+  "matched": 54,
   "corroborated": 5
  },
  "emerging": [
@@ -999,5 +984,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 661 headlines from 29 feeds (21 owners), 53 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-albania-protest, nw-20261018-paris-protest"
+ "outlet_note": "outlets: 664 headlines from 29 feeds (21 owners), 54 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-albania-protest, nw-20261018-paris-protest"
 }
