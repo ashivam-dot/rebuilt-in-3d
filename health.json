@@ -1,13 +1,10 @@
 {
- "at": "2026-10-18T09:02:15+00:00",
+ "at": "2026-10-18T09:31:29+00:00",
  "ok": true,
  "steps": [
-  "watch: 4 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 664 headlines from 29 feeds (21 owners), 47 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261017-anger-protest, nw-20261017-albania-protest",
-  "wait wp-2026_French_protests: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
-  "skip wk-Q141760142: gate: only 1 usable photos of 2026 Kolkata Durga Puja crowd crush on Wikimedia Commons (want 2)",
-  "skip nw-20261017-anger-protest: gate: only 0 usable photos of Anger (want 2)",
-  "skip wk-Q141535181-2026w42: gate: only 0 usable photos of 2026 French fuel protests on Wikimedia Commons (want 2)",
+  "watch: 1 candidates (0 quakes, 15 trending), 2 hazard alerts",
+  "outlets: 663 headlines from 29 feeds (21 owners), 45 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-oregon-attack, nw-20261017-albania-protest",
+  "skip wp-2026_French_protests: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
   "nothing eligible to publish"
  ]
 }
