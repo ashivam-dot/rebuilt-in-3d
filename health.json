@@ -1,11 +1,13 @@
 {
- "at": "2026-10-18T19:04:23+00:00",
+ "at": "2026-10-18T19:27:43+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 14 trending), 2 hazard alerts",
-  "outlets: 695 headlines from 29 feeds (21 owners), 41 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-albania-protest, nw-20261018-paris-protest",
+  "watch: 3 candidates (0 quakes, 15 trending), 2 hazard alerts",
+  "outlets: 699 headlines from 29 feeds (21 owners), 43 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-trudy-cyclone, nw-20261017-albania-protest, nw-20261018-paris-protest",
   "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
   "skip wk-Q141762710-2026w42: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
+  "skip nw-20261017-trudy-cyclone: gate: no draft passed the fact checks: these names or numbers are not in the sources: Faces",
+  "wait wp-October_2026_Istanbul_floods: gate: the article is under 6 hours old; facts may still move (ready in 1.5 h)",
   "nothing eligible to publish"
  ]
 }
