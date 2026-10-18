@@ -1,10 +1,17 @@
 {
- "at": "2026-10-18T10:30:50+00:00",
+ "at": "2026-10-18T11:01:50+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 667 headlines from 29 feeds (21 owners), 40 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-oregon-attack, nw-20261017-albania-protest",
-  "skip wp-2026_French_protests: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
-  "nothing eligible to publish"
- ]
+  "watch: 3 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 670 headlines from 29 feeds (21 owners), 37 matched to articles, 7 candidates with 2+ owners, 4 nw- stories (on): nw-20261017-paris-protest, nw-20261017-oregon-attack, nw-20261017-albania-protest",
+  "skip wk-Q141762710-2026w42: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
+  "published nw-20261017-paris-protest: https://www.youtube.com/shorts/XH8L7r7QUnk"
+ ],
+ "published": {
+  "video_id": "XH8L7r7QUnk",
+  "url": "https://www.youtube.com/shorts/XH8L7r7QUnk",
+  "title": "Protests and Unrest in the Streets of Paris",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }

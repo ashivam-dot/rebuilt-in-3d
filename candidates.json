@@ -1,5 +1,5 @@
 {
- "at": "2026-10-18T10:30:51+00:00",
+ "at": "2026-10-18T11:01:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,12 +9,12 @@
    "views": 10097,
    "traffic": 0,
    "news": 500000,
-   "news_at": "2026-10-18T09:15:09+00:00",
+   "news_at": "2026-10-18T10:23:38+00:00",
    "headlines": [
     "'Don't stand on roof, balconies': India urges nationals in Saudi amid Houthi strikes",
     "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
     "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
-    "India urges nationals in Saudi Arabia to follow safety directives amid security concerns",
+    "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
     "Egypt's Ssisi says he'll defend Saudi Arabia, if asked"
    ],
    "region": "world",
@@ -23,14 +23,14 @@
     "google-news:'Don't stand on roof, balconies': India urges nationals in Saudi amid Houthi strikes",
     "google-news:Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
     "google-news:Egypt's Sissi says he'll defend Saudi Arabia, if asked",
-    "outlet:The Hindu Group",
+    "outlet:Al Jazeera Media Network",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Deutsche Welle",
     "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)"
    ],
    "owners": [
-    "The Hindu Group",
+    "Al Jazeera Media Network",
     "Bennett, Coleman & Co.",
     "Deutsche Welle",
     "Guardian Media Group",
@@ -38,14 +38,14 @@
    ],
    "reports": [
     {
-     "title": "India urges nationals in Saudi Arabia to follow safety directives amid security concerns",
-     "url": "https://www.thehindu.com/news/international/india-urges-nationals-in-saudi-arabia-to-follow-safety-directives-amid-security-concerns/article71599498.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
+     "title": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
+     "url": "https://www.aljazeera.com/news/2026/10/18/egypt-to-provide-all-necessary-and-possible-support-to-saudi?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-18T09:15:09+00:00"
+     "at": "2026-10-18T10:23:38+00:00"
     },
     {
      "title": "'Don't stand on roof, balconies': India urges nationals in Saudi amid Houthi strikes",
@@ -96,25 +96,25 @@
    "has_coords": false
   },
   {
-   "qid": null,
+   "qid": "Q141762710",
    "title": "2026 French protests",
-   "fame": 250000,
+   "fame": 375000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-18T02:45:00+00:00",
+   "news": 375000,
+   "news_at": "2026-10-18T07:34:07+00:00",
    "headlines": [
     "Historic French town hall burnt, shops looted, tear gas fired as 5,50,00 protest in France",
+    "French police arrest 855 people in Paris as protests, violence erupt across country",
     "Watch: Moment historic French town hall spire collapses in flames during protests",
     "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
-    "Looters seize on massive French protests to raid and vandalise shops",
-    "Israeli settlers attack European diplomats, beat up French mayor in West Bank"
+    "Looters seize on massive French protests to raid and vandalise shops"
    ],
    "region": "world",
    "via": [
     "google-news:Historic French town hall burnt, shops looted, tear gas fired as 5,50,00 protest in France",
+    "google-news:French police arrest 855 people in Paris as protests, violence erupt across country",
     "google-news:Watch: Moment historic French town hall spire collapses in flames during protests",
-    "google-news:Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
     "outlet:BBC",
     "outlet:Fox Corporation",
     "outlet:France Médias Monde",
@@ -200,7 +200,7 @@
      "at": "2026-10-17T14:58:54+00:00"
     }
    ],
-   "id": "wp-2026_French_protests",
+   "id": "wk-Q141762710-2026w42",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-18",
@@ -208,14 +208,40 @@
    "has_coords": false
   },
   {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 125000,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-10-18T08:32:55+00:00",
+   "news": 125000,
+   "news_at": "2026-10-18T10:25:48+00:00",
    "headlines": [
+    "French police arrested more than 1,800 people as protests, violence erupt across country"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-17",
+    "google-news:French police arrested more than 1,800 people as protests, violence erupt across country"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w42",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-18",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 100000,
+   "news_at": "2026-10-18T10:48:25+00:00",
+   "headlines": [
+    "Devotees celebrate Durga Puja with ‘Prabhat Pheri’ procession in Visakhapatnam",
     "3 killed as speeding car rams tent near Durga Puja pandal in UP",
     "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
     "India news: Kolkata stampede dampens Durga Puja festivities"
@@ -223,19 +249,31 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-17",
+    "google-news:Devotees celebrate Durga Puja with ‘Prabhat Pheri’ procession in Visakhapatnam",
     "google-news:3 killed as speeding car rams tent near Durga Puja pandal in UP",
     "google-news:Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
-    "google-news:India news: Kolkata stampede dampens Durga Puja festivities",
+    "outlet:The Hindu Group",
     "outlet:HT Media",
     "outlet:NDTV",
     "outlet:Deutsche Welle"
    ],
    "owners": [
+    "The Hindu Group",
     "HT Media",
     "NDTV",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "Devotees celebrate Durga Puja with ‘Prabhat Pheri’ procession in Visakhapatnam",
+     "url": "https://www.thehindu.com/news/national/andhra-pradesh/devotees-celebrate-durga-puja-with-prabhat-pheri-procession-in-visakhapatnam/article71593786.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T10:48:25+00:00"
+    },
     {
      "title": "3 killed as speeding car rams tent near Durga Puja pandal in UP",
      "url": "https://www.hindustantimes.com/india-news/3-killed-as-speeding-car-rams-tent-near-durga-puja-pandal-in-up-101792312182270.html",
@@ -305,16 +343,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-18T04:45:00+00:00"
-    },
-    {
-     "title": "Some families lost more than one member in Durga Puja pandal stampede, 2 victims from Bihar: Suvendu Adhikari",
-     "url": "https://www.hindustantimes.com/india-news/kolkata-durga-puja-pandal-chor-bagan-stampede-deaths-suvendu-adhikari-arrests-news-101792297318096.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-18T04:26:23+00:00"
     }
    ],
    "id": "wk-Q141760142",
@@ -347,6 +375,104 @@
    "date": "2026-10-14",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261017-paris-protest",
+   "qid": null,
+   "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-18T10:53:54+00:00",
+   "owners": [
+    "NPR",
+    "Bennett, Coleman & Co.",
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Paris police report 855 arrests after violent clashes and looting during protests",
+    "France protests leave Paris streets buried in garbage amidst violence, looting",
+    "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+    "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+     "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T10:53:54+00:00"
+    },
+    {
+     "title": "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+     "url": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T08:06:22+00:00"
+    },
+    {
+     "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T15:57:40+00:00"
+    },
+    {
+     "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+     "url": "https://abcnews.com/International/wireStory/paris-police-report-855-arrests-after-violent-clashes-137358853",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T10:28:27+00:00"
+    },
+    {
+     "title": "France protests leave Paris streets buried in garbage amidst violence, looting",
+     "url": "https://timesofindia.indiatimes.com/world/europe/france-protests-leave-paris-streets-buried-in-rubbish-amidst-violence-looting-across-nation/articleshow/135025364.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T07:10:13+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NPR",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261017-oregon-attack",
@@ -532,26 +658,81 @@
    "article": null
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-18T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-17"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141615137-2026w42",
+   "id": "nw-20261018-anger-protest",
+   "qid": null,
+   "title": "Photos: Protests across France spiral into looting, blazes and clashes",
+   "name": "Anger",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-18",
-   "coords": null,
-   "has_coords": true
+   "news_at": "2026-10-18T08:21:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes, fires and looting break out as protesters rally across France",
+    "Season Of Anger: Protests Break Out Across France, Italy, Portugal, US",
+    "Photos: Protests across France spiral into looting, blazes and clashes"
+   ],
+   "places": [
+    "break",
+    "out",
+    "across"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Photos: Protests across France spiral into looting, blazes and clashes",
+     "url": "https://www.aljazeera.com/gallery/2026/10/18/photos-protests-across-france-spiral-into-looting-blazes-and-clashes?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T08:21:59+00:00"
+    },
+    {
+     "title": "Clashes, fires and looting break out as protesters rally across France",
+     "url": "https://abcnews.com/International/wireStory/protesters-france-rally-rising-living-costs-joining-students-137342706",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T02:50:56+00:00"
+    },
+    {
+     "title": "Season Of Anger: Protests Break Out Across France, Italy, Portugal, US",
+     "url": "https://www.ndtv.com/world-news/a-season-of-anger-protests-in-many-nations-around-the-same-time-12201681#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T07:03:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141535181",
@@ -801,25 +982,25 @@
  ],
  "candidates": [
   {
-   "qid": null,
+   "qid": "Q141762710",
    "title": "2026 French protests",
-   "fame": 250000,
+   "fame": 375000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-18T02:45:00+00:00",
+   "news": 375000,
+   "news_at": "2026-10-18T07:34:07+00:00",
    "headlines": [
     "Historic French town hall burnt, shops looted, tear gas fired as 5,50,00 protest in France",
+    "French police arrest 855 people in Paris as protests, violence erupt across country",
     "Watch: Moment historic French town hall spire collapses in flames during protests",
     "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
-    "Looters seize on massive French protests to raid and vandalise shops",
-    "Israeli settlers attack European diplomats, beat up French mayor in West Bank"
+    "Looters seize on massive French protests to raid and vandalise shops"
    ],
    "region": "world",
    "via": [
     "google-news:Historic French town hall burnt, shops looted, tear gas fired as 5,50,00 protest in France",
+    "google-news:French police arrest 855 people in Paris as protests, violence erupt across country",
     "google-news:Watch: Moment historic French town hall spire collapses in flames during protests",
-    "google-news:Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
     "outlet:BBC",
     "outlet:Fox Corporation",
     "outlet:France Médias Monde",
@@ -905,22 +1086,295 @@
      "at": "2026-10-17T14:58:54+00:00"
     }
    ],
-   "id": "wp-2026_French_protests",
+   "id": "wk-Q141762710-2026w42",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-18",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261017-paris-protest",
+   "qid": null,
+   "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-18T10:53:54+00:00",
+   "owners": [
+    "NPR",
+    "Bennett, Coleman & Co.",
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Paris police report 855 arrests after violent clashes and looting during protests",
+    "France protests leave Paris streets buried in garbage amidst violence, looting",
+    "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+    "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+     "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T10:53:54+00:00"
+    },
+    {
+     "title": "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+     "url": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T08:06:22+00:00"
+    },
+    {
+     "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T15:57:40+00:00"
+    },
+    {
+     "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+     "url": "https://abcnews.com/International/wireStory/paris-police-report-855-arrests-after-violent-clashes-137358853",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T10:28:27+00:00"
+    },
+    {
+     "title": "France protests leave Paris streets buried in garbage amidst violence, looting",
+     "url": "https://timesofindia.indiatimes.com/world/europe/france-protests-leave-paris-streets-buried-in-rubbish-amidst-violence-looting-across-nation/articleshow/135025364.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T07:10:13+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NPR",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261018-anger-protest",
+   "qid": null,
+   "title": "Photos: Protests across France spiral into looting, blazes and clashes",
+   "name": "Anger",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-18",
+   "news_at": "2026-10-18T08:21:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes, fires and looting break out as protesters rally across France",
+    "Season Of Anger: Protests Break Out Across France, Italy, Portugal, US",
+    "Photos: Protests across France spiral into looting, blazes and clashes"
+   ],
+   "places": [
+    "break",
+    "out",
+    "across"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Photos: Protests across France spiral into looting, blazes and clashes",
+     "url": "https://www.aljazeera.com/gallery/2026/10/18/photos-protests-across-france-spiral-into-looting-blazes-and-clashes?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T08:21:59+00:00"
+    },
+    {
+     "title": "Clashes, fires and looting break out as protesters rally across France",
+     "url": "https://abcnews.com/International/wireStory/protesters-france-rally-rising-living-costs-joining-students-137342706",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T02:50:56+00:00"
+    },
+    {
+     "title": "Season Of Anger: Protests Break Out Across France, Italy, Portugal, US",
+     "url": "https://www.ndtv.com/world-news/a-season-of-anger-protests-in-many-nations-around-the-same-time-12201681#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T07:03:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
  "outlets": {
-  "headlines": 667,
+  "headlines": 670,
   "feeds": 29,
   "owners": 21,
-  "matched": 40,
-  "corroborated": 5
+  "matched": 37,
+  "corroborated": 7
  },
  "emerging": [
+  {
+   "id": "nw-20261017-paris-protest",
+   "qid": null,
+   "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-17",
+   "news_at": "2026-10-18T10:53:54+00:00",
+   "owners": [
+    "NPR",
+    "Bennett, Coleman & Co.",
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Paris police report 855 arrests after violent clashes and looting during protests",
+    "France protests leave Paris streets buried in garbage amidst violence, looting",
+    "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+    "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+     "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T10:53:54+00:00"
+    },
+    {
+     "title": "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+     "url": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T08:06:22+00:00"
+    },
+    {
+     "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-17T15:57:40+00:00"
+    },
+    {
+     "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+     "url": "https://abcnews.com/International/wireStory/paris-police-report-855-arrests-after-violent-clashes-137358853",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T10:28:27+00:00"
+    },
+    {
+     "title": "France protests leave Paris streets buried in garbage amidst violence, looting",
+     "url": "https://timesofindia.indiatimes.com/world/europe/france-protests-leave-paris-streets-buried-in-rubbish-amidst-violence-looting-across-nation/articleshow/135025364.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T07:10:13+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NPR",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261017-oregon-attack",
    "qid": null,
@@ -1103,7 +1557,84 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261018-anger-protest",
+   "qid": null,
+   "title": "Photos: Protests across France spiral into looting, blazes and clashes",
+   "name": "Anger",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-18",
+   "news_at": "2026-10-18T08:21:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes, fires and looting break out as protesters rally across France",
+    "Season Of Anger: Protests Break Out Across France, Italy, Portugal, US",
+    "Photos: Protests across France spiral into looting, blazes and clashes"
+   ],
+   "places": [
+    "break",
+    "out",
+    "across"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Photos: Protests across France spiral into looting, blazes and clashes",
+     "url": "https://www.aljazeera.com/gallery/2026/10/18/photos-protests-across-france-spiral-into-looting-blazes-and-clashes?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T08:21:59+00:00"
+    },
+    {
+     "title": "Clashes, fires and looting break out as protesters rally across France",
+     "url": "https://abcnews.com/International/wireStory/protesters-france-rally-rising-living-costs-joining-students-137342706",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T02:50:56+00:00"
+    },
+    {
+     "title": "Season Of Anger: Protests Break Out Across France, Italy, Portugal, US",
+     "url": "https://www.ndtv.com/world-news/a-season-of-anger-protests-in-many-nations-around-the-same-time-12201681#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-18T07:03:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 40 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-oregon-attack, nw-20261017-albania-protest"
+ "outlet_note": "outlets: 670 headlines from 29 feeds (21 owners), 37 matched to articles, 7 candidates with 2+ owners, 4 nw- stories (on): nw-20261017-paris-protest, nw-20261017-oregon-attack, nw-20261017-albania-protest"
 }
