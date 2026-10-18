@@ -1,10 +1,11 @@
 {
- "at": "2026-10-18T03:07:02+00:00",
+ "at": "2026-10-18T03:32:04+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 13 trending), 3 hazard alerts",
-  "outlets: 693 headlines from 29 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261016-california-wildfire, nw-20261017-albania-protest",
-  "hold wk-Q141760142: outside the india window",
+  "watch: 3 candidates (0 quakes, 14 trending), 3 hazard alerts",
+  "outlets: 697 headlines from 29 feeds (21 owners), 44 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-oregon-attack, nw-20261016-california-wildfire, nw-20261017-albania-protest",
+  "wait wp-2026_French_protests: gate: the article is under 6 hours old; facts may still move (ready in 5.9 h)",
+  "wait wk-Q141760142: gate: the article is under 6 hours old; facts may still move (ready in 1.1 h)",
   "skip nw-20261017-albania-protest: gate: only 0 usable photos of Albania (want 2)",
   "nothing eligible to publish"
  ]
