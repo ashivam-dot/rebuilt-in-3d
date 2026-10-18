@@ -1,11 +1,17 @@
 {
- "at": "2026-10-18T20:31:16+00:00",
+ "at": "2026-10-18T21:00:47+00:00",
  "ok": true,
  "steps": [
-  "watch: 2 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 708 headlines from 29 feeds (21 owners), 41 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-trudy-cyclone, nw-20261017-albania-protest, nw-20261018-paris-protest",
-  "skip wk-Q141762710-2026w42: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
-  "skip nw-20261017-trudy-cyclone: gate: no draft passed the fact checks: these names or numbers are not in the sources: Forecasts",
-  "nothing eligible to publish"
- ]
+  "watch: 3 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 706 headlines from 29 feeds (21 owners), 44 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261017-trudy-cyclone",
+  "hold wp-October_2026_Istanbul_floods: outside the india window",
+  "published wk-Q141592947-2026w42: https://www.youtube.com/shorts/DwUtz4R4hzY"
+ ],
+ "published": {
+  "video_id": "DwUtz4R4hzY",
+  "url": "https://www.youtube.com/shorts/DwUtz4R4hzY",
+  "title": "The 2026 Spanish Housing Protests and the Fight for Shelter",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
