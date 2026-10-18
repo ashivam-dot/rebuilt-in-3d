@@ -1,8 +1,10 @@
 {
- "at": "2026-10-18T15:30:27+00:00",
+ "at": "2026-10-18T16:01:30+00:00",
  "ok": true,
  "steps": [
-  "watch: 0 candidates (0 quakes, 15 trending), 2 hazard alerts",
-  "outlets: 671 headlines from 29 feeds (21 owners), 50 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-albania-protest, nw-20261018-paris-protest"
+  "watch: 1 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 679 headlines from 29 feeds (21 owners), 46 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261017-albania-protest, nw-20261018-alberta-disaster, nw-20261018-paris-protest",
+  "skip nw-20261018-alberta-disaster: gate: only 0 usable photos of Alberta (want 2)",
+  "nothing eligible to publish"
  ]
 }
