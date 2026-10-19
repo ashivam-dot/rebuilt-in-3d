@@ -1,27 +1,27 @@
 {
- "at": "2026-10-19T17:41:09+00:00",
+ "at": "2026-10-19T18:12:39+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141762710",
    "title": "2026 French protests",
-   "fame": 650000,
+   "fame": 775000,
    "views": 0,
    "traffic": 0,
-   "news": 650000,
-   "news_at": "2026-10-19T17:27:09+00:00",
+   "news": 775000,
+   "news_at": "2026-10-19T18:06:57+00:00",
    "headlines": [
+    "French Prime Minister calls for partial curfews after weekend riots",
+    "Vinted Faces Influx of Suspected Looted Goods After French Riots",
     "French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
-    "Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
-    "In pictures: French landmarks damaged and destroyed by violent protesters",
-    "French bond sell-off spreads across Europe – latest updates",
-    "French authorities announce partial curfew in Paris as PM blames ‘ultra-left’ for exploiting protests – Europe live"
+    "French riots: Overnight curfews announced in parts of Paris and Nice",
+    "French bond sell-off spreads across Europe – latest updates"
    ],
    "region": "world",
    "via": [
+    "google-news:French Prime Minister calls for partial curfews after weekend riots",
+    "google-news:Vinted Faces Influx of Suspected Looted Goods After French Riots",
     "google-news:French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
-    "google-news:Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
-    "google-news:In pictures: French landmarks damaged and destroyed by violent protesters",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:BBC",
@@ -54,7 +54,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-19T17:27:09+00:00"
+     "at": "2026-10-19T17:51:05+00:00"
     },
     {
      "title": "France protests latest: Curfews to be introduced in French cities as Italy approves emergency anti-riot order",
@@ -143,13 +143,13 @@
    "news": 175000,
    "news_at": "2026-10-19T15:24:54+00:00",
    "headlines": [
-    "Alia Bhatt Channels Her Inner Rani At Ayan Mukerji's Family Durga Puja Pandal",
+    "Alia Bhatt serves the perfect Durga puja look in fuchsia saree, turquoise puff-sleeve blouse and gold jewellery | Fashion Trends",
     "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
     "Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede"
    ],
    "region": "india",
    "via": [
-    "google-news:Alia Bhatt Channels Her Inner Rani At Ayan Mukerji's Family Durga Puja Pandal",
+    "google-news:Alia Bhatt serves the perfect Durga puja look in fuchsia saree, turquoise puff-sleeve blouse and gold jewellery | Fashion Trends",
     "google-news:RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
     "google-news:Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede",
     "outlet:The Hindu Group",
@@ -469,6 +469,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
+  },
+  {
+   "qid": "Q1889124",
+   "title": "Richard Riehle",
+   "fame": 5000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:richard riehle"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1889124",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-15"
   }
  ],
  "hazards": [
@@ -515,13 +535,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
+  },
+  {
+   "qid": "Q1889124",
+   "title": "Richard Riehle",
+   "fame": 5000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:richard riehle"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1889124",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-15"
   }
  ],
  "outlets": {
   "headlines": 772,
   "feeds": 29,
   "owners": 21,
-  "matched": 44,
+  "matched": 48,
   "corroborated": 3
  },
  "emerging": [
@@ -603,5 +643,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 772 headlines from 29 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation"
+ "outlet_note": "outlets: 772 headlines from 29 feeds (21 owners), 48 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation"
 }
