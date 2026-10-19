@@ -1,11 +1,12 @@
 {
- "at": "2026-10-19T03:39:53+00:00",
+ "at": "2026-10-19T04:15:12+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 5 trending), 2 hazard alerts",
-  "outlets: 695 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-trudy-cyclone, nw-20261018-tel-aviv-aviation",
+  "learn: 30 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.875, 'typical_views_24h': 90}, 'kind:incident': {'n': 17, 'lift': 1.323, 'typical_views_24h': 161}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
+  "watch: 2 candidates (0 quakes, 5 trending), 2 hazard alerts",
+  "outlets: 689 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-trudy-cyclone, nw-20261018-tel-aviv-aviation",
   "trend radar errors: ['wikipedia top: no Wikipedia pageview data for the last three days']",
-  "skip nw-20261018-tel-aviv-aviation: gate: only 1 usable photos of Tel Aviv (want 2)",
-  "nothing eligible to publish"
+  "hold wk-Q141762710-2026w43: outside the world window",
+  "hold nw-20261018-tel-aviv-aviation: outside the world window"
  ]
 }

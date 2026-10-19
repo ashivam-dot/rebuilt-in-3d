@@ -1,39 +1,51 @@
 {
- "at": "2026-10-19T03:39:54+00:00",
+ "at": "2026-10-19T04:15:14+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141762710",
    "title": "2026 French protests",
-   "fame": 325000,
+   "fame": 350000,
    "views": 0,
    "traffic": 0,
-   "news": 325000,
-   "news_at": "2026-10-18T22:22:51+00:00",
+   "news": 350000,
+   "news_at": "2026-10-19T03:09:02+00:00",
    "headlines": [
     "Macron and wife Brigitte likened to Marie Antionette after pair dance at Celine Dion amid French riots - as arrest toll hits 1,800",
     "Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
+    "A Year After Louvre Heist, $100 Million French Crown Jewels Remain Missing",
     "'Very upsetting': Residents in shock after historic French town hall set alight",
-    "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’",
-    "Guardian reporter filmed masked militants seconds before West Bank attack on French mayor"
+    "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’"
    ],
    "region": "world",
    "via": [
     "google-news:Macron and wife Brigitte likened to Marie Antionette after pair dance at Celine Dion amid French riots - as arrest toll hits 1,800",
     "google-news:Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
-    "google-news:'Very upsetting': Residents in shock after historic French town hall set alight",
+    "google-news:A Year After Louvre Heist, $100 Million French Crown Jewels Remain Missing",
+    "outlet:NDTV",
     "outlet:BBC",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:France Médias Monde"
    ],
    "owners": [
+    "NDTV",
     "BBC",
     "Fox Corporation",
     "Guardian Media Group",
     "France Médias Monde"
    ],
    "reports": [
+    {
+     "title": "A Year After Louvre Heist, $100 Million French Crown Jewels Remain Missing",
+     "url": "https://www.ndtv.com/world-news/a-year-after-louvre-heist-100-million-french-crown-jewels-remain-missing-12204395#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-19T03:09:02+00:00"
+    },
     {
      "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
      "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss",
@@ -103,22 +115,12 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-18T16:10:27+00:00"
-    },
-    {
-     "title": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
-     "url": "https://www.foxnews.com/world/limoges-town-hall-largely-lost-after-far-left-rioters-set-historic-building-fire-amid-french-unrest",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-17T22:56:37+00:00"
     }
    ],
-   "id": "wk-Q141762710-2026w42",
+   "id": "wk-Q141762710-2026w43",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "coords": null,
    "has_coords": false
   },
@@ -129,7 +131,7 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-19T03:40:43.473546+00:00",
+   "news_at": "2026-10-19T04:15:48.173144+00:00",
    "headlines": [
     "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
     "PRESIDENT OF INDIA’S GREETINGS ON DURGA PUJA",
@@ -164,7 +166,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-10-19T03:40:43.473546+00:00"
+     "at": "2026-10-19T04:15:48.173144+00:00"
     },
     {
      "title": "Visakhapatnam’s Bengali community celebrates Durga Puja with rituals, bhog and cultural programmes",
@@ -269,13 +271,13 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261017-trudy-cyclone",
+   "id": "nw-20261018-trudy-cyclone",
    "qid": null,
    "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
    "name": "Trudy",
    "kind": "incident",
    "category": "cyclone",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "news_at": "2026-10-18T18:10:22+00:00",
    "owners": [
     "Independent Digital News",
@@ -288,7 +290,6 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
     "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
     "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
     "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
@@ -296,8 +297,7 @@
    ],
    "places": [
     "Pacific",
-    "Champi",
-    "Guam"
+    "Mexican"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -348,16 +348,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-18T10:00:00+00:00"
-    },
-    {
-     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
-     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-17T17:38:17+00:00"
     }
    ],
    "via": [
@@ -465,12 +455,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.179 million .",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.233 million .",
    "country": "Guam, Northern Mariana Islands, Japan",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "13.8",
-   "lon": "140.2"
+   "lat": "14",
+   "lon": "139.2"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -485,6 +475,128 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q141762710",
+   "title": "2026 French protests",
+   "fame": 350000,
+   "views": 0,
+   "traffic": 0,
+   "news": 350000,
+   "news_at": "2026-10-19T03:09:02+00:00",
+   "headlines": [
+    "Macron and wife Brigitte likened to Marie Antionette after pair dance at Celine Dion amid French riots - as arrest toll hits 1,800",
+    "Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
+    "A Year After Louvre Heist, $100 Million French Crown Jewels Remain Missing",
+    "'Very upsetting': Residents in shock after historic French town hall set alight",
+    "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Macron and wife Brigitte likened to Marie Antionette after pair dance at Celine Dion amid French riots - as arrest toll hits 1,800",
+    "google-news:Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
+    "google-news:A Year After Louvre Heist, $100 Million French Crown Jewels Remain Missing",
+    "outlet:NDTV",
+    "outlet:BBC",
+    "outlet:Fox Corporation",
+    "outlet:Guardian Media Group",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "NDTV",
+    "BBC",
+    "Fox Corporation",
+    "Guardian Media Group",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "A Year After Louvre Heist, $100 Million French Crown Jewels Remain Missing",
+     "url": "https://www.ndtv.com/world-news/a-year-after-louvre-heist-100-million-french-crown-jewels-remain-missing-12204395#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-19T03:09:02+00:00"
+    },
+    {
+     "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
+     "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T22:22:51+00:00"
+    },
+    {
+     "title": "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’",
+     "url": "https://www.foxnews.com/world/french-newspaper-rips-macron-riots-erupt-across-france-indelible-stain",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T20:54:03+00:00"
+    },
+    {
+     "title": "Guardian reporter filmed masked militants seconds before West Bank attack on French mayor",
+     "url": "https://www.theguardian.com/world/2026/oct/18/guardian-reporter-filmed-masked-militants-seconds-before-west-bank-attack-on-french-mayor",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-18T18:39:23+00:00"
+    },
+    {
+     "title": "REPLAY: French President Emmanuel Macron addresses the nation after unrest",
+     "url": "https://www.france24.com/en/video/20261018-replay-french-president-emmanuel-macron-addresses-the-nation-after-unrest",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T18:33:34+00:00"
+    },
+    {
+     "title": "French Riots: A Gift for Le Pen?",
+     "url": "https://www.france24.com/en/tv-shows/spotlight/20261018-french-riots-a-gift-for-le-pen",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T18:25:51+00:00"
+    },
+    {
+     "title": "Israeli settlers attack European diplomats, beat French mayor",
+     "url": "https://www.france24.com/en/video/20261018-israeli-settlers-attack-european-diplomats-beat-french-mayor",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-18T16:51:32+00:00"
+    },
+    {
+     "title": "Where's Macron? French leader blasted for attending concert as riots escalated",
+     "url": "https://www.foxnews.com/world/wheres-macron-french-leader-blasted-attending-concert-riots-escalated",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-18T16:10:27+00:00"
+    }
+   ],
+   "id": "wk-Q141762710-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-19",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "id": "nw-20261018-tel-aviv-aviation",
    "qid": null,
@@ -580,21 +692,21 @@
   "wikipedia top: no Wikipedia pageview data for the last three days"
  ],
  "outlets": {
-  "headlines": 695,
+  "headlines": 689,
   "feeds": 30,
   "owners": 21,
-  "matched": 40,
+  "matched": 39,
   "corroborated": 4
  },
  "emerging": [
   {
-   "id": "nw-20261017-trudy-cyclone",
+   "id": "nw-20261018-trudy-cyclone",
    "qid": null,
    "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
    "name": "Trudy",
    "kind": "incident",
    "category": "cyclone",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "news_at": "2026-10-18T18:10:22+00:00",
    "owners": [
     "Independent Digital News",
@@ -607,7 +719,6 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
     "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
     "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
     "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
@@ -615,8 +726,7 @@
    ],
    "places": [
     "Pacific",
-    "Champi",
-    "Guam"
+    "Mexican"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -667,16 +777,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-18T10:00:00+00:00"
-    },
-    {
-     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
-     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-17T17:38:17+00:00"
     }
    ],
    "via": [
@@ -779,5 +879,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 695 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-trudy-cyclone, nw-20261018-tel-aviv-aviation"
+ "outlet_note": "outlets: 689 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-trudy-cyclone, nw-20261018-tel-aviv-aviation"
 }
