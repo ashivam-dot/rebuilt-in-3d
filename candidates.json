@@ -1,5 +1,5 @@
 {
- "at": "2026-10-19T01:40:57+00:00",
+ "at": "2026-10-19T02:13:22+00:00",
  "quakes": [],
  "trending": [
   {
@@ -131,7 +131,7 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-19T01:41:43.769493+00:00",
+   "news_at": "2026-10-19T02:13:54.822309+00:00",
    "headlines": [
     "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
     "PRESIDENT OF INDIA’S GREETINGS ON DURGA PUJA",
@@ -166,7 +166,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-10-19T01:41:43.769493+00:00"
+     "at": "2026-10-19T02:13:54.822309+00:00"
     },
     {
      "title": "Durga Puja reflects tradition of revering women's strength: President Murmu",
@@ -189,7 +189,7 @@
      "at": "2026-10-18T12:35:05+00:00"
     },
     {
-     "title": "'There was no way out': Families mourn loss of loved ones in Durga Puja stampede that killed 19",
+     "title": "'There was no way out': Families mourn loss of loved ones in Kolkata Durga Puja stampede that killed 19",
      "url": "https://www.hindustantimes.com/india-news/families-recount-loss-of-loved-ones-in-kolkata-durga-puja-stampede-that-killed-19-injured-25-101792323967602.html",
      "outlet": "Hindustan Times",
      "outlet_hi": "हिंदुस्तान टाइम्स",
@@ -209,7 +209,7 @@
      "at": "2026-10-18T11:13:11+00:00"
     },
     {
-     "title": "3 killed as speeding car rams tent near Durga Puja pandal in UP",
+     "title": "3 killed, 4 injured as speeding car rams into tent near Durga Puja pandal in Uttar Pradesh",
      "url": "https://www.hindustantimes.com/india-news/3-killed-as-speeding-car-rams-tent-near-durga-puja-pandal-in-up-101792312182270.html",
      "outlet": "Hindustan Times",
      "outlet_hi": "हिंदुस्तान टाइम्स",
@@ -247,32 +247,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 250000,
-   "views": 0,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-18T15:10:00+00:00",
-   "headlines": [
-    "Portugal sees protests over cost of living and housing crisis as demonstrations sweep Europe",
-    "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Portugal sees protests over cost of living and housing crisis as demonstrations sweep Europe",
-    "google-news:‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141592947-2026w42",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-18",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141740811",
    "title": "Kekova shipwreck",
    "fame": 125000,
@@ -297,36 +271,36 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261018-mexico-pacific-cyclone",
+   "id": "nw-20261017-trudy-cyclone",
    "qid": null,
    "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
-   "name": "Mexico Pacific",
+   "name": "Trudy",
    "kind": "incident",
    "category": "cyclone",
-   "date": "2026-10-18",
+   "date": "2026-10-17",
    "news_at": "2026-10-18T18:10:22+00:00",
    "owners": [
     "Independent Digital News",
     "Los Angeles Times",
     "Paramount (CBS)",
-    "Disney (ABC News)",
-    "SCMP Group"
+    "SCMP Group",
+    "Disney (ABC News)"
    ],
    "fame": 125000,
    "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
     "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
     "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
     "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
-    "Hurricane Trudy lashes Mexico’s Pacific coast with heavy rain and strong winds",
     "Hurricane Trudy threatens Mexican coast with flooding, mudslides"
    ],
    "places": [
-    "Trudy",
-    "coast",
-    "Mexican"
+    "Pacific",
+    "Champi",
+    "Guam"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -387,14 +361,24 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-18T10:00:00+00:00"
+    },
+    {
+     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T17:38:17+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Los Angeles Times",
     "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -501,127 +485,49 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261018-tel-aviv-vienna-aviation",
-   "qid": null,
-   "title": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
-   "name": "Tel Aviv-Vienna",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-10-18",
-   "news_at": "2026-10-18T23:58:05+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Disney (ABC News)",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Tel Aviv-Vienna flight makes emergency landing after bomb threat",
-    "Flight from Tel Aviv to Vienna makes emergency landing in Bulgaria after bomb threat",
-    "Flight from Israel makes emergency landing in Bulgaria after bomb threat"
-   ],
-   "places": [
-    "Bulgaria",
-    "Aviv-Vienna",
-    "Aviv"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
-     "url": "https://www.aljazeera.com/news/2026/10/18/flight-from-israel-makes-emergency-landing-in-bulgaria-after-bomb-threat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-18T23:58:05+00:00"
-    },
-    {
-     "title": "Flight from Tel Aviv to Vienna makes emergency landing in Bulgaria after bomb threat",
-     "url": "https://abcnews.com/International/wireStory/flight-tel-aviv-vienna-makes-emergency-landing-bulgaria-137365438",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-18T23:11:21+00:00"
-    },
-    {
-     "title": "Tel Aviv-Vienna flight makes emergency landing after bomb threat",
-     "url": "https://timesofindia.indiatimes.com/world/europe/tel-aviv-vienna-flight-makes-emergency-landing-after-bomb-threat/articleshow/135036845.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-18T22:40:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "trend_errors": [
   "wikipedia top: no Wikipedia pageview data for the last three days"
  ],
  "outlets": {
-  "headlines": 673,
+  "headlines": 686,
   "feeds": 29,
   "owners": 21,
-  "matched": 38,
+  "matched": 36,
   "corroborated": 4
  },
  "emerging": [
   {
-   "id": "nw-20261018-mexico-pacific-cyclone",
+   "id": "nw-20261017-trudy-cyclone",
    "qid": null,
    "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
-   "name": "Mexico Pacific",
+   "name": "Trudy",
    "kind": "incident",
    "category": "cyclone",
-   "date": "2026-10-18",
+   "date": "2026-10-17",
    "news_at": "2026-10-18T18:10:22+00:00",
    "owners": [
     "Independent Digital News",
     "Los Angeles Times",
     "Paramount (CBS)",
-    "Disney (ABC News)",
-    "SCMP Group"
+    "SCMP Group",
+    "Disney (ABC News)"
    ],
    "fame": 125000,
    "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
     "Hurricane Trudy batters Mexico’s Pacific coast with heavy rain and strong winds",
     "Mexico's beleaguered Pacific coast braces for another storm in record hurricane year",
     "Hurricane threatens to bring flooding, mudslides to Mexico's Pacific Coast",
-    "Hurricane Trudy lashes Mexico’s Pacific coast with heavy rain and strong winds",
     "Hurricane Trudy threatens Mexican coast with flooding, mudslides"
    ],
    "places": [
-    "Trudy",
-    "coast",
-    "Mexican"
+    "Pacific",
+    "Champi",
+    "Guam"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -682,14 +588,24 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-18T10:00:00+00:00"
+    },
+    {
+     "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+     "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-17T17:38:17+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Los Angeles Times",
     "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -772,5 +688,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 673 headlines from 29 feeds (21 owners), 38 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-mexico-pacific-cyclone, nw-20261018-tel-aviv-vienna-aviation"
+ "outlet_note": "outlets: 686 headlines from 29 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261017-trudy-cyclone, nw-20261018-tel-aviv-vienna-aviation"
 }
