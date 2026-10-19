@@ -35,6 +35,8 @@ WORKFLOWS = [
     ("kahaani-chaos", "run.yml", 15, "2026-10-15T00:00:00+00:00"), ("kahaani-chaos", "health.yml", 9),
 ]
 FAIL_STREAK = 3
+# Paused by the owner on 2026-10-20 (channel -> repo): silence and stopped workflows are expected, not problems.
+PAUSED = {"Pangaea Nights": "pangaea-nights", "Mool Katha": "mool-katha-control", "Kahaani Chaos": "kahaani-chaos"}
 
 
 def _get(url: str, token: str | None = None) -> bytes:
@@ -59,6 +61,9 @@ def latest_upload(channel_id: str) -> str | None:
 def channel_problems(now: datetime) -> tuple[list[str], list[str]]:
     problems, notes = [], []
     for name, (cid, quiet_h, since) in CHANNELS.items():
+        if name in PAUSED:
+            notes.append(f"{name}: paused")
+            continue
         try:
             last = latest_upload(cid)
         except Exception as exc:
@@ -81,6 +86,9 @@ def channel_problems(now: datetime) -> tuple[list[str], list[str]]:
 def workflow_problems(now: datetime, token: str | None) -> tuple[list[str], list[str]]:
     problems, notes, unreadable = [], [], 0
     for repo, wf, max_h, *since in WORKFLOWS:
+        if repo in PAUSED.values():
+            notes.append(f"{repo}/{wf}: paused")
+            continue
         base = f"https://api.github.com/repos/{OWNER}/{repo}/actions/workflows/{wf}"
         try:
             state = json.loads(_get(base, token))["state"]
