@@ -1,12 +1,14 @@
 {
- "at": "2026-10-19T21:04:50+00:00",
+ "at": "2026-10-19T21:35:56+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 14 trending), 2 hazard alerts",
-  "outlets: 782 headlines from 29 feeds (21 owners), 45 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack",
+  "learn: 31 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.858, 'typical_views_24h': 90}, 'kind:incident': {'n': 18, 'lift': 1.332, 'typical_views_24h': 167}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
+  "watch: 4 candidates (0 quakes, 15 trending), 2 hazard alerts",
+  "outlets: 784 headlines from 29 feeds (21 owners), 46 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack",
+  "skip wk-Q141615137-2026w43: gate: only 1 usable photos of 2026 French student protests on Wikimedia Commons (want 2)",
   "skip nw-20261019-ohio-attack: gate: only 0 usable photos of Ohio (want 2)",
   "skip nw-20261018-tiger-shroff-attack: gate: only 1 usable photos of Tiger Shroff (want 2)",
-  "wait wp-2026_Shabwah_missile_attack: gate: the article is under 6 hours old; facts may still move (ready in 2.9 h)",
+  "wait wp-2026_Shabwah_missile_attack: gate: the article is under 6 hours old; facts may still move (ready in 2.4 h)",
   "nothing eligible to publish"
  ]
 }

@@ -1,25 +1,24 @@
 {
- "at": "2026-10-19T21:04:51+00:00",
+ "at": "2026-10-19T21:35:58+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141762710",
    "title": "2026 French protests",
-   "fame": 800500,
+   "fame": 675000,
    "views": 0,
-   "traffic": 500,
-   "news": 800000,
+   "traffic": 0,
+   "news": 675000,
    "news_at": "2026-10-19T19:41:46+00:00",
    "headlines": [
     "The French Teen Maimed During School Unrest by Tear Gas Grenade",
     "Vinted blocks French looters listing stolen goods for sale",
     "French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
-    "French riots: Overnight curfews announced in parts of Paris and Nice",
-    "Vinted flooded with ‘stolen’ goods in wake of French looting"
+    "In pictures: French landmarks damaged and destroyed by violent protesters",
+    "French bond sell-off spreads across Europe – latest updates"
    ],
    "region": "world",
    "via": [
-    "google-trends-IN:prime",
     "google-news:The French Teen Maimed During School Unrest by Tear Gas Grenade",
     "google-news:Vinted blocks French looters listing stolen goods for sale",
     "google-news:French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
@@ -130,6 +129,121 @@
    "date": "2026-10-19",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 236705,
+   "views": 86705,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-19T20:34:54+00:00",
+   "headlines": [
+    "Magyar links French riots to migration, defends hard line",
+    "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-18",
+    "google-news:Magyar links French riots to migration, defends hard line",
+    "google-news:French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live",
+     "url": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T20:34:54+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-19",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-19T17:03:43+00:00",
+   "headlines": [
+    "Lathis at the Pandal: Heavy-Handed Policing Unsettles C.R. Park Durga Puja",
+    "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
+    "Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Lathis at the Pandal: Heavy-Handed Policing Unsettles C.R. Park Durga Puja",
+    "google-news:RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
+    "google-news:Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede",
+    "outlet:The Hindu Group",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "The Hindu Group",
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
+     "url": "https://www.thehindu.com/news/national/west-bengal/rss-leader-wb-minister-oppose-attacks-on-book-stalls-set-up-by-left-parties-at-durga-puja-pandals/article71602923.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-19T15:24:54+00:00"
+    },
+    {
+     "title": "Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede",
+     "url": "https://www.hindustantimes.com/india-news/raincoats-no-selfies-new-guidelines-for-puja-pandals-after-kolkata-stampede-101792403063288.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-19T09:44:22+00:00"
+    },
+    {
+     "title": "Kolkata stampede: Former cops flag lack of crowd management, space constraints",
+     "url": "https://www.hindustantimes.com/india-news/kolkata-stampede-former-cops-flag-lack-of-crowd-mgmt-space-constraint-101792349590416.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-19T02:13:10+00:00"
+    },
+    {
+     "title": "Kolkata stampede toll at 19; 7 held as Bengal govt orders SIT amid blame game over crowd control lapses",
+     "url": "https://www.hindustantimes.com/india-news/kolkata-stampede-toll-at-19-7-held-as-bengal-govt-orders-sit-amid-blame-game-over-crowd-control-lapses-at-durga-puja-pandal-101792373925363.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-19T02:11:19+00:00"
+    }
+   ],
+   "id": "wk-Q141760142",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
   },
   {
    "id": "nw-20261018-tiger-shroff-attack",
@@ -276,7 +390,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-19",
-   "news_at": "2026-10-19T21:00:23+00:00",
+   "news_at": "2026-10-19T21:02:21+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "Independent Digital News",
@@ -313,7 +427,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-19T21:00:23+00:00"
+     "at": "2026-10-19T21:02:21+00:00"
     },
     {
      "title": "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
@@ -361,7 +475,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-19T21:04:51.250843+00:00",
+   "news_at": "2026-10-19T21:35:58.077835+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -375,78 +489,6 @@
    "date": "2026-10-19",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-19T15:24:54+00:00",
-   "headlines": [
-    "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
-    "Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
-    "google-news:Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede",
-    "outlet:The Hindu Group",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "The Hindu Group",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
-     "url": "https://www.thehindu.com/news/national/west-bengal/rss-leader-wb-minister-oppose-attacks-on-book-stalls-set-up-by-left-parties-at-durga-puja-pandals/article71602923.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-19T15:24:54+00:00"
-    },
-    {
-     "title": "Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede",
-     "url": "https://www.hindustantimes.com/india-news/raincoats-no-selfies-new-guidelines-for-puja-pandals-after-kolkata-stampede-101792403063288.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-19T09:44:22+00:00"
-    },
-    {
-     "title": "Kolkata stampede: Former cops flag lack of crowd management, space constraints",
-     "url": "https://www.hindustantimes.com/india-news/kolkata-stampede-former-cops-flag-lack-of-crowd-mgmt-space-constraint-101792349590416.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-19T02:13:10+00:00"
-    },
-    {
-     "title": "Kolkata stampede toll at 19; 7 held as Bengal govt orders SIT amid blame game over crowd control lapses",
-     "url": "https://www.hindustantimes.com/india-news/kolkata-stampede-toll-at-19-7-held-as-bengal-govt-orders-sit-amid-blame-game-over-crowd-control-lapses-at-durga-puja-pandal-101792373925363.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-19T02:11:19+00:00"
-    }
-   ],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q438492",
@@ -660,6 +702,47 @@
  ],
  "candidates": [
   {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 236705,
+   "views": 86705,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-19T20:34:54+00:00",
+   "headlines": [
+    "Magyar links French riots to migration, defends hard line",
+    "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-18",
+    "google-news:Magyar links French riots to migration, defends hard line",
+    "google-news:French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live",
+     "url": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T20:34:54+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-19",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "id": "nw-20261019-ohio-attack",
    "qid": null,
    "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
@@ -667,7 +750,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-19",
-   "news_at": "2026-10-19T21:00:23+00:00",
+   "news_at": "2026-10-19T21:02:21+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "Independent Digital News",
@@ -704,7 +787,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-19T21:00:23+00:00"
+     "at": "2026-10-19T21:02:21+00:00"
     },
     {
      "title": "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
@@ -889,7 +972,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-19T21:04:51.250843+00:00",
+   "news_at": "2026-10-19T21:35:58.077835+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -906,10 +989,10 @@
   }
  ],
  "outlets": {
-  "headlines": 782,
+  "headlines": 784,
   "feeds": 29,
   "owners": 21,
-  "matched": 45,
+  "matched": 46,
   "corroborated": 4
  },
  "emerging": [
@@ -1058,7 +1141,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-19",
-   "news_at": "2026-10-19T21:00:23+00:00",
+   "news_at": "2026-10-19T21:02:21+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "Independent Digital News",
@@ -1095,7 +1178,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-19T21:00:23+00:00"
+     "at": "2026-10-19T21:02:21+00:00"
     },
     {
      "title": "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
@@ -1137,5 +1220,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 782 headlines from 29 feeds (21 owners), 45 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack"
+ "outlet_note": "outlets: 784 headlines from 29 feeds (21 owners), 46 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack"
 }
