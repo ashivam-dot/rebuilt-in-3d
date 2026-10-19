@@ -1,5 +1,5 @@
 {
- "at": "2026-10-19T16:11:51+00:00",
+ "at": "2026-10-19T17:09:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,11 +9,11 @@
    "views": 0,
    "traffic": 0,
    "news": 650000,
-   "news_at": "2026-10-19T15:52:18+00:00",
+   "news_at": "2026-10-19T16:50:39+00:00",
    "headlines": [
     "French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
     "Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
-    "French PM calls for partial curfews as he condemns 'thieves' and 'thugs' behind riots",
+    "In pictures: French landmarks damaged and destroyed by violent protesters",
     "French bond sell-off spreads across Europe – latest updates",
     "French PM blames ‘ultra-left’ for exploiting protests as he seeks partial curfews – Europe live"
    ],
@@ -21,13 +21,13 @@
    "via": [
     "google-news:French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
     "google-news:Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
-    "google-news:French PM calls for partial curfews as he condemns 'thieves' and 'thugs' behind riots",
+    "google-news:In pictures: French landmarks damaged and destroyed by violent protesters",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
+    "outlet:BBC",
     "outlet:Disney (ABC News)",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:BBC",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Fox Corporation"
@@ -35,10 +35,10 @@
    "owners": [
     "Guardian Media Group",
     "Independent Digital News",
+    "BBC",
     "Disney (ABC News)",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "BBC",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation"
@@ -52,7 +52,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-19T15:52:18+00:00"
+     "at": "2026-10-19T16:50:39+00:00"
     },
     {
      "title": "France protests latest: Curfews to be introduced in French cities as Italy approves emergency anti-riot order",
@@ -63,6 +63,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-19T15:39:25+00:00"
+    },
+    {
+     "title": "In pictures: French landmarks damaged and destroyed by violent protesters",
+     "url": "https://www.bbc.co.uk/news/articles/cmq8n7l0le11o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-19T15:21:03+00:00"
     },
     {
      "title": "French prime minister calls for limited curfews to curb rioting and looting",
@@ -113,16 +123,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-19T13:41:23+00:00"
-    },
-    {
-     "title": "French mayor calls for Notre Dame-style rebuild after historic town hall set on fire by rioters",
-     "url": "https://www.independent.co.uk/news/world/europe/france-riots-limoges-mayor-town-hall-fire-b3069013.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-19T13:40:03+00:00"
     }
    ],
    "id": "wk-Q141762710-2026w43",
@@ -491,26 +491,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
-  },
-  {
-   "qid": "Q5115327",
-   "title": "Chuck Amato",
-   "fame": 1000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:chuck amato"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5115327",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-19"
   }
  ],
  "hazards": [
@@ -557,33 +537,13 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
-  },
-  {
-   "qid": "Q5115327",
-   "title": "Chuck Amato",
-   "fame": 1000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:chuck amato"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5115327",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-19"
   }
  ],
  "outlets": {
-  "headlines": 742,
+  "headlines": 744,
   "feeds": 28,
   "owners": 20,
-  "matched": 43,
+  "matched": 42,
   "corroborated": 3
  },
  "emerging": [
@@ -665,5 +625,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 742 headlines from 28 feeds (20 owners), 43 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation"
+ "outlet_note": "outlets: 744 headlines from 28 feeds (20 owners), 42 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation"
 }
