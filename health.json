@@ -1,14 +1,16 @@
 {
- "at": "2026-10-19T11:11:17+00:00",
+ "at": "2026-10-19T11:42:46+00:00",
  "ok": true,
  "steps": [
-  "learn: 30 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.875, 'typical_views_24h': 90}, 'kind:incident': {'n': 17, 'lift': 1.323, 'typical_views_24h': 161}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
-  "watch: 7 candidates (0 quakes, 15 trending), 2 hazard alerts",
-  "outlets: 726 headlines from 29 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-mexico-pacific-cyclone, nw-20261018-tel-aviv-aviation",
-  "skip wk-Q141762710-2026w43: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
-  "skip nw-20261018-tel-aviv-aviation: gate: only 1 usable photos of Tel Aviv (want 2)",
-  "skip wk-Q19729623: gate: Wikidata lacks an exact birth or death date",
-  "skip wk-Q3837943: gate: no draft passed the fact checks: line 4 (In 2006, she founded the band Lágrima Flor to honor her gran): partly: The line states she founded the band in 2006, but the source states she met the co-founders and founded the band 'While in college' (she was accepted in 2006, but the source does not specify the founding year as 2006). | second look: The source sentences do not state that the band was founded in 2006. The source sentenc",
-  "nothing eligible to publish"
- ]
+  "watch: 4 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 731 headlines from 29 feeds (21 owners), 42 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation",
+  "published wk-Q3837943: https://www.youtube.com/shorts/qwT1K_9MFwQ"
+ ],
+ "published": {
+  "video_id": "qwT1K_9MFwQ",
+  "url": "https://www.youtube.com/shorts/qwT1K_9MFwQ",
+  "title": "The Last Note of Lua Blanco",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
