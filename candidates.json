@@ -1,5 +1,5 @@
 {
- "at": "2026-10-19T19:39:18+00:00",
+ "at": "2026-10-19T20:10:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,23 +9,22 @@
    "views": 0,
    "traffic": 0,
    "news": 925000,
-   "news_at": "2026-10-19T19:25:56+00:00",
+   "news_at": "2026-10-19T19:59:00+00:00",
    "headlines": [
-    "In pictures: French landmarks damaged and destroyed by violent protesters",
-    "The French 14-Year-Old Whose Face Was Maimed By a Tear Gas Grenade",
+    "The French 14-Year-Old Whose Face Was Maimed by a Tear Gas Grenade",
     "Vinted blocks French looters listing stolen goods for sale",
     "French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
-    "Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’"
+    "Synagogue ransacked, Jewish businesses hit during French riots: ‘Can’t be a coincidence’",
+    "French riots: Overnight curfews announced in parts of Paris and Nice"
    ],
    "region": "world",
    "via": [
-    "google-news:In pictures: French landmarks damaged and destroyed by violent protesters",
-    "google-news:The French 14-Year-Old Whose Face Was Maimed By a Tear Gas Grenade",
+    "google-news:The French 14-Year-Old Whose Face Was Maimed by a Tear Gas Grenade",
     "google-news:Vinted blocks French looters listing stolen goods for sale",
+    "google-news:French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
     "outlet:Guardian Media Group",
-    "outlet:BBC",
-    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
+    "outlet:BBC",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
@@ -34,9 +33,8 @@
    ],
    "owners": [
     "Guardian Media Group",
-    "BBC",
-    "Disney (ABC News)",
     "France Médias Monde",
+    "BBC",
     "Bennett, Coleman & Co.",
     "Independent Digital News",
     "Paramount (CBS)",
@@ -52,7 +50,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-19T19:25:56+00:00"
+     "at": "2026-10-19T19:59:00+00:00"
+    },
+    {
+     "title": "French far right seeks to capitalise on protests with calls for law and order",
+     "url": "https://www.france24.com/en/french-far-right-seeks-to-capitalise-on-protests-with-calls-for-law-and-order",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-19T19:41:46+00:00"
     },
     {
      "title": "In pictures: French landmarks damaged and destroyed by violent protesters",
@@ -63,16 +71,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-19T15:21:03+00:00"
-    },
-    {
-     "title": "French prime minister calls for limited curfews to curb rioting and looting",
-     "url": "https://abcnews.com/International/wireStory/macron-rejects-interior-ministers-resignation-rioting-looting-expose-137372032",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-19T15:07:31+00:00"
     },
     {
      "title": "French PM says 'ultra-left' seeking 'deep unrest' ahead of election",
@@ -133,24 +131,130 @@
    "has_coords": false
   },
   {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 300000,
+   "id": "nw-20261019-ohio-attack",
+   "qid": null,
+   "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
+   "name": "Ohio",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-19",
+   "news_at": "2026-10-19T20:05:41+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Independent Digital News",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 300000,
-   "news_at": "2026-10-19T17:03:43+00:00",
    "headlines": [
-    "Lathis at the Pandal: Heavy-Handed Policing Unsettles C.R. Park Durga Puja",
-    "9 IPS Officers With Crowd Control Experience Deployed After Kolkata Stampede",
+    "US Federal authorities responding to shooting at mosque in Columbus, Ohio",
+    "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
+    "1 person killed in shooting near Columbus, Ohio, mosque",
+    "One dead and one hurt after shooting near Ohio mosque prompts massive police response"
+   ],
+   "places": [
+    "Columbus",
+    "Federal"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
+     "url": "https://www.independent.co.uk/news/world/americas/columbus-shooting-ohio-mosque-b3069517.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T20:05:41+00:00"
+    },
+    {
+     "title": "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
+     "url": "https://www.independent.co.uk/news/world/americas/columbus-shooting-ohio-mosque-b3069518.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T19:52:46+00:00"
+    },
+    {
+     "title": "US Federal authorities responding to shooting at mosque in Columbus, Ohio",
+     "url": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T19:50:20+00:00"
+    },
+    {
+     "title": "1 person killed in shooting near Columbus, Ohio, mosque",
+     "url": "https://www.cbsnews.com/news/shooting-mosque-columbus-ohio/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-19T20:04:11+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": null,
+   "title": "2026 Shabwah missile attack",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-19T20:10:51.980517+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Shabwah_missile_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-19",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-19T15:24:54+00:00",
+   "headlines": [
     "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
     "Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede"
    ],
    "region": "india",
    "via": [
-    "google-news:Lathis at the Pandal: Heavy-Handed Policing Unsettles C.R. Park Durga Puja",
-    "google-news:9 IPS Officers With Crowd Control Experience Deployed After Kolkata Stampede",
     "google-news:RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
+    "google-news:Raincoats, no selfies: New guidelines for puja pandals after Kolkata stampede",
     "outlet:The Hindu Group",
     "outlet:HT Media"
    ],
@@ -206,28 +310,6 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": null,
-   "title": "2026 Shabwah missile attack",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-19T19:39:18.113327+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Shabwah_missile_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-19",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q438492",
@@ -441,13 +523,100 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261019-ohio-attack",
+   "qid": null,
+   "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
+   "name": "Ohio",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-19",
+   "news_at": "2026-10-19T20:05:41+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Independent Digital News",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "US Federal authorities responding to shooting at mosque in Columbus, Ohio",
+    "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
+    "1 person killed in shooting near Columbus, Ohio, mosque",
+    "One dead and one hurt after shooting near Ohio mosque prompts massive police response"
+   ],
+   "places": [
+    "Columbus",
+    "Federal"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
+     "url": "https://www.independent.co.uk/news/world/americas/columbus-shooting-ohio-mosque-b3069517.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T20:05:41+00:00"
+    },
+    {
+     "title": "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
+     "url": "https://www.independent.co.uk/news/world/americas/columbus-shooting-ohio-mosque-b3069518.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T19:52:46+00:00"
+    },
+    {
+     "title": "US Federal authorities responding to shooting at mosque in Columbus, Ohio",
+     "url": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T19:50:20+00:00"
+    },
+    {
+     "title": "1 person killed in shooting near Columbus, Ohio, mosque",
+     "url": "https://www.cbsnews.com/news/shooting-mosque-columbus-ohio/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-19T20:04:11+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": null,
    "title": "2026 Shabwah missile attack",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-19T19:39:18.113327+00:00",
+   "news_at": "2026-10-19T20:10:51.980517+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -464,12 +633,100 @@
   }
  ],
  "outlets": {
-  "headlines": 773,
+  "headlines": 778,
   "feeds": 29,
   "owners": 21,
-  "matched": 42,
-  "corroborated": 2
+  "matched": 35,
+  "corroborated": 3
  },
- "emerging": [],
- "outlet_note": "outlets: 773 headlines from 29 feeds (21 owners), 42 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261019-ohio-attack",
+   "qid": null,
+   "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
+   "name": "Ohio",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-19",
+   "news_at": "2026-10-19T20:05:41+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Independent Digital News",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "US Federal authorities responding to shooting at mosque in Columbus, Ohio",
+    "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
+    "1 person killed in shooting near Columbus, Ohio, mosque",
+    "One dead and one hurt after shooting near Ohio mosque prompts massive police response"
+   ],
+   "places": [
+    "Columbus",
+    "Federal"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "One dead and one hurt after shooting near Ohio mosque prompts massive police response",
+     "url": "https://www.independent.co.uk/news/world/americas/columbus-shooting-ohio-mosque-b3069517.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T20:05:41+00:00"
+    },
+    {
+     "title": "1 dead and one hurt after shooting near Ohio mosque prompts massive police response",
+     "url": "https://www.independent.co.uk/news/world/americas/columbus-shooting-ohio-mosque-b3069518.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T19:52:46+00:00"
+    },
+    {
+     "title": "US Federal authorities responding to shooting at mosque in Columbus, Ohio",
+     "url": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T19:50:20+00:00"
+    },
+    {
+     "title": "1 person killed in shooting near Columbus, Ohio, mosque",
+     "url": "https://www.cbsnews.com/news/shooting-mosque-columbus-ohio/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-19T20:04:11+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 778 headlines from 29 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261019-ohio-attack"
 }
