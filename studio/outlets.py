@@ -397,8 +397,8 @@ INFRASTRUCTURE = (r"energy|power|grids?|infrastructure|substations?|depots?|refi
                   r"dams?|ports?|facilit(y|ies)|plants?")
 HEADLINE_KINDS = (
     (rf"^(?=.*\b({AIRCRAFT})\b)(?=.*\b({AIR_EVENT})\b)|\b(plane|helicopter|air) crash", "aviation"),
-    (r"\b(shooting|gunman|gunmen|stabbing|bombing|suicide bomb\w*|terror attack|militant attack|grenade attack)\b",
-     "attack"),
+    (r"\b(shooting|gunman|gunmen|stabbing|bombing|suicide bomb\w*|terror attack|militant attack|grenade attack|"
+     r"firing|fired at|opened fire|shot at|shots fired|gunshots?|shooters?|stabbed)\b", "attack"),
     (r"\b(cyber ?-?attack\w*|ransomware|cyber ?-?(breach|incident)s?)\b", "cyberattack"),
     (rf"^(?!.*\b({NOT_A_STRIKE})\b)(?:(?=.*\b({WEAPON})\b)(?=.*\b({IMPACT})\b)|(?=.*\b(drone|missile|air ?) ?strikes?\b)|"
      rf"(?!.*\b({NOT_AT_WAR})\b)(?=.*\b({STRIKE_WORD})\b)(?=.*\b({INFRASTRUCTURE})\b))", "strike"),
@@ -418,10 +418,17 @@ HEADLINE_KINDS = (
 HEADLINE_SKIP = re.compile(
     r"\b(cricket|ipl|t20|odi|football|fifa|hockey|tennis|olympic\w*|match|tournament|league|cup|squad|championships?|"
     r"elections?|electoral|polls?|bypolls?|voting|votes?|campaign\w*|court|verdict|trial|bail|hearing|acquit\w*|"
-    r"convict\w*|sentenc\w*|actor|actress|film|movie|box office|wedding|bigg boss|celebrity|trailer|review|"
-    r"opinion|editorial|analysis|explainer|explained|live|watch|video|podcast|quiz|horoscope|anniversary|years? "
+    r"convict\w*|sentenc\w*|box office|wedding|bigg boss|trailer|review|"
+    r"opinion|editorial|analysis|explainer|explained|podcast|quiz|horoscope|anniversary|years? "
     r"after|recalls?|remember\w*|stock|sensex|nifty|ipo|minister|bjp|congress|mla|party|hc|sc|plea|petition|pil|"
     r"all about)\b|^(how|why|what|who|when|where|is|are|can|should|will|inside)\b", re.I)
+# Film and live-blog words drop a headline unless it reports violence: "Bollywood actor Tiger Shroff survives
+# shooting attempt" and "Tiger Shroff Firing Case LIVE Updates" are news; an actor "shooting" a film is not.
+SOFT_SKIP = re.compile(r"\b(actor|actress|film|movie|celebrity|live|watch|video)\b", re.I)
+VIOLENCE = re.compile(r"\b(firing|fired at|opened fire|shot at|shots fired|gunshots?|bullets?|shooters?|gunm[ae]n|"
+                      r"shooting (attempt|incident|case)|stabb\w*|attack(ed)? on)\b", re.I)
+# "Attack on Tiger Shroff": an attack on a named person (case-sensitive: two capitalised words after it).
+ATTACK_ON = re.compile(r"\b[Aa]ttack(ed)? on [A-Z][a-z]+ [A-Z][a-z]+")
 # Countries, regions and institutions name too much to tell one story by: they never identify an nw- story alone.
 GENERIC = set("""india indian pakistan pakistani china chinese bangladesh nepal sri lanka us usa america american uk
 britain british england english europe european eu israel israeli iran iranian iraq russia russian ukraine ukrainian
@@ -438,9 +445,10 @@ could can may more most than new latest update updates report reports reported d
 
 def headline_kind(title: str) -> str | None:
     """The incident or protest a headline names, or None (see HEADLINE_KINDS)."""
-    if HEADLINE_SKIP.search(title):
+    if HEADLINE_SKIP.search(title) or (SOFT_SKIP.search(title) and not VIOLENCE.search(title)):
         return None
-    return next((kind for pattern, kind in HEADLINE_KINDS if re.search(pattern, title, re.I)), None)
+    return next((kind for pattern, kind in HEADLINE_KINDS if re.search(pattern, title, re.I)),
+                "attack" if ATTACK_ON.search(title) else None)
 
 
 def _stem(word: str) -> str:
@@ -475,7 +483,12 @@ _ATTACKER = (
     re.compile(r"\b([A-Z]\w+)-(?i:led|backed)\b"),
     re.compile(r"\b([A-Z][\w\-]+)\s+(?:(?i:likely|probably|is|was|were|are)\s+)?(?i:behind)\b"),
     re.compile(r"\b(?i:strikes?|attacks?|struck)\s+(?i:by)\s+([A-Z][\w\-]+)"),
+    re.compile(r"\b([A-Z][\w\-]+(?: [A-Z][\w\-]+)?)\s+(?i:gang)\b"),
 )
+
+
+# Who a headline says is "behind" an attack can be just a word for a person ("Man behind ... firing"): never banned.
+PEOPLE = {"man", "men", "woman", "women", "boy", "girl", "youth", "people", "police", "cops", "officials"}
 
 
 def attackers(titles: list[str]) -> list[str]:
@@ -488,7 +501,7 @@ def attackers(titles: list[str]) -> list[str]:
                 found.append(m.group(1))
         for pattern in _ATTACKER:
             found += [w for m in pattern.finditer(title) for w in m.group(1).split()]
-    return sorted({w for w in found if not KIND_WORD.fullmatch(w) and w.lower() not in STOP})
+    return sorted({w for w in found if not KIND_WORD.fullmatch(w) and w.lower() not in STOP | PEOPLE})
 
 
 def headline_keys(title: str) -> tuple[set[str], set[str], str | None]:
@@ -644,7 +657,8 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
                         hi += 1
                     if hi - lo < 3:
                         runs[" ".join(re.sub(r"['’]s$", "", w.group(0)) for w in words[lo:hi + 1])] += 1
-            return runs.most_common(1)[0][0] if runs else spelt(key)
+            # A tie goes to the shorter name ("Kolkata" over "Kolkata Durga Puja").
+            return max(runs, key=lambda r: (runs[r], -len(r.split()))) if runs else spelt(key)
 
         name = phrase(named[0])
         first = min(datetime.fromisoformat(i["at"]) for i in c["items"])

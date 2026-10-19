@@ -1007,6 +1007,22 @@ def story_subject(name: str) -> str | None:
     return qid
 
 
+def story_person(name: str) -> tuple[str | None, dict]:
+    """(Wikipedia title, Wikidata item) of the person an nw- story names ("Attack on Tiger Shroff"): Wikipedia's first
+    search hit, when its plain title is the name and the item is a human."""
+    try:
+        title = wiki.search(name)
+    except Exception:
+        return None, {}
+    if not title or stories.plain_title(title).lower() != name.lower():
+        return None, {}
+    qid = (wiki.page_info([title]).get(title) or {}).get("qid")
+    ent = wiki.entities([qid]).get(qid) if qid else None
+    if not ent or wiki.HUMAN not in {c["value"] for c in wiki.claims(ent, "P31")}:
+        return None, {}
+    return title, ent
+
+
 # A subject is something made that can be hit: a company, a building, a ship, an aircraft. It has an inception, a
 # maker, an operator or a headquarters; an idea has none ("Black" is the colour, whose photos are a painting and a
 # black hole: run of 2026-10-15, "A Growing Shadow Over the Black Sea").
@@ -1034,13 +1050,18 @@ def build_report(cand: dict) -> Short:
     # show the next named place that two owners' articles also name.
     where, (qid, place) = name, story_place(name)
     thing = None if place else story_subject(name)
-    for other in [] if place else cand.get("places") or []:
+    # An attack on a famous person is told about the person, over their own face-matched portraits.
+    title, person = story_person(name) if not place and not thing else (None, {})
+    for other in [] if place or person else cand.get("places") or []:
         if len(gate.reported(other, reports)) >= gate.OWNERS_NEEDED and (found := story_place(other))[1]:
             where, (qid, place) = other, found
             break
     context = list(dict.fromkeys(([thing] if thing else []) + ([qid] if qid else [])
                                  + (incident_context(place, []) if place else [])))[:4]
-    photos = arrange(fill_photos(context, work / "photos", set()))[:8] if context else []
+    if person:
+        photos = pick_photos(title, person, work / "photos", person=True)[:8]
+    else:
+        photos = arrange(fill_photos(context, work / "photos", set()))[:8] if context else []
     if len(photos) < MIN_PHOTOS and place and not media.too_wide(place):
         country = list(wiki.labels([c["value"] for c in wiki.claims(place, "P17")[:1]
                                     if str(c["value"]).startswith("Q")]).values())
@@ -1052,7 +1073,8 @@ def build_report(cand: dict) -> Short:
     toll = gate.reported_toll(reports)
     words = [name] + sorted(outlets.headline_keys(cand["title"])[0])
     reports = clean_reports(reports, words, perpetrators=kind == "incident")
-    facts_text = [f"Place: {where}.", "Wikipedia's article on this is only hours old: only the REPORTING may be used."
+    facts_text = [f"Person: {name}." if person else f"Place: {where}.",
+                  "Wikipedia's article on this is only hours old: only the REPORTING may be used."
                   if cand.get("article") else "Wikipedia has no article on this yet: only the REPORTING may be used."]
     if toll:
         facts_text.append(f"Death toll ({toll_basis(toll[1])} agree): {toll[0]:,}.")
@@ -1061,7 +1083,8 @@ def build_report(cand: dict) -> Short:
         told = {w.lower() for w in (name, where)}
         banned = [w for w in outlets.attackers((cand.get("headlines") or []) + [r["title"] for r in reports])
                   if w.lower() not in told]
-    draft, log = write(kind, name, "It", facts_text, "", photos, banned_names=banned, log_path=work / "writer_log.json",
+    she = stories._pronouns(person)[0] if person else "It"
+    draft, log = write(kind, name, she, facts_text, "", photos, banned_names=banned, log_path=work / "writer_log.json",
                        reports=reports, casualties=bool(toll))
     facts = [Fact("name", name, next((r["url"] for r in reports if r["owner"] in named), reports[0]["url"]),
                   stories.numbers_in(name), "named in the reports of " + ", ".join(named), owners=named)]

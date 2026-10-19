@@ -186,6 +186,43 @@ def test_an_nw_story_is_found_and_waits_behind_the_setting(monkeypatch):
     assert len(trends.radar()["candidates"]) == 1
 
 
+TIGER = [("bbc-world", "Bollywood actor Tiger Shroff survives shooting attempt in Mumbai", 5),
+         ("toi", "Tiger Shroff shooting: Videos piece together moments before, during and after attack", 4),
+         ("ndtv", "Tiger Shroff Firing Case LIVE Updates: Accused Tracked Actor For 10 Days", 3),
+         ("ht", "Attack on Tiger Shroff: 3 shooters held from Kota station en route to Nepal", 2),
+         ("ndtv", "Tiger Shroff escapes unhurt after shots fired, Lawrence Bishnoi gang claims attack", 1)]
+
+
+def test_an_attack_on_a_famous_actor_is_one_story_named_by_their_full_name():
+    got = outlets.stories([item(k, t, h) for k, t, h in TIGER], NOW)
+    assert [(c["name"], c["category"]) for c in got] == [("Tiger Shroff", "attack")]
+    assert "Lawrence" in got[0]["attackers"] and "Bishnoi" in got[0]["attackers"]
+    assert outlets.headline_kind("Tiger Shroff resumes shooting for his new film in London") is None
+    assert outlets.headline_kind("Watch: Bollywood stars at the Diwali party") is None
+
+
+class Told(Exception):
+    pass
+
+
+def test_an_nw_story_about_a_person_is_told_over_their_own_portraits(monkeypatch, tmp_path):
+    monkeypatch.setattr(trends, "NEW_STORIES", True)
+    monkeypatch.setattr(writer, "WORK", tmp_path)
+    cand = outlets.stories([item(k, t, h) for k, t, h in TIGER], NOW)[0]
+    monkeypatch.setattr(writer, "_reporting", lambda c, name, **kw: [report(k, TEXT_A) for k in ("bbc-world", "toi", "ht")])
+    monkeypatch.setattr(writer.gate, "reported", lambda name, reports: ["BBC", "HT Media", "Bennett, Coleman & Co."])
+    monkeypatch.setattr(writer, "story_place", lambda name: (None, {}))
+    monkeypatch.setattr(writer, "story_subject", lambda name: None)
+    monkeypatch.setattr(writer, "story_person", lambda name: ("Tiger Shroff", PERSON))
+    asked = {}
+    monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
+                        asked.update(title=title, person=person) or [{"file": f"File:T{i}.jpg"} for i in range(3)])
+    monkeypatch.setattr(writer, "write", lambda kind, name, she, facts, *a, **kw: (_ for _ in ()).throw(Told(facts)))
+    with pytest.raises(Told) as told:
+        writer.build(cand)
+    assert asked == {"title": "Tiger Shroff", "person": True} and told.value.args[0][0] == "Person: Tiger Shroff."
+
+
 def test_an_nw_story_is_told_only_from_two_owners_reporting(monkeypatch, tmp_path):
     monkeypatch.setattr(trends, "NEW_STORIES", True)
     cand = outlets.stories(_cluster(), NOW)[0]
