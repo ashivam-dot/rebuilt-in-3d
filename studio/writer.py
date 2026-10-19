@@ -519,6 +519,13 @@ def vehicle_photos(category: str, qids: list[str], folder: Path, exclude: set[st
             if gate.showing(category, [r])]
 
 
+def caption_side(description: str | None, title: str) -> str | None:
+    """"left" or "right" when a photo's caption places the person ("Tiger Shroff (left) and ..."), else None."""
+    name = re.escape(stories.plain_title(title))
+    m = re.search(rf"{name}\s*\((?:on the |at )?(left|right)\)", description or "", re.I)
+    return m.group(1).lower() if m else None
+
+
 def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: list[str] | None,
                 files: list[str] | None, places: bool) -> list[dict]:
     found = media.picks(files) if files else media.find(title, ent, limit=10, extra_qids=extra_qids, places=places)
@@ -526,7 +533,8 @@ def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
     rows = media.as_dicts(found)
     images = [cv2.imread(r["path"]) for r in rows]
     detected = [faces.detect(img) if img is not None else [] for img in images]
-    picks = faces.subject(detected) if person else [None] * len(rows)
+    picks = faces.subject(detected, [caption_side(r.get("description"), title) for r in rows]) if person \
+        else [None] * len(rows)
     kept = []
     for r, f, img, seen in zip(rows, picks, images, detected):
         if person and f is None:

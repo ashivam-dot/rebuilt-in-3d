@@ -67,10 +67,21 @@ def detect(bgr: np.ndarray) -> list[dict]:
     return out
 
 
-def subject(per_photo: list[list[dict]]) -> list[dict | None]:
+def _placed(faces: list[dict], hint: str | None) -> dict | None:
+    """The face a caption places ("Tiger Shroff (left) and Ali Ahmed Khan"), among the faces at least half the
+    largest one's size; None without a hint."""
+    if hint not in ("left", "right") or not faces:
+        return None
+    big = max(f["box"][2] * f["box"][3] for f in faces)
+    near = [f for f in faces if f["box"][2] * f["box"][3] >= 0.5 * big]
+    return (min if hint == "left" else max)(near, key=lambda f: f["box"][0] + f["box"][2] / 2)
+
+
+def subject(per_photo: list[list[dict]], hints: list[str | None] | None = None) -> list[dict | None]:
     """For each photo, the face that best matches the faces in the other photos (None when nobody matches).
 
-    With a single photo, or when no face recurs, the largest face is taken.
+    With no other face to compare against, only a solo face, or the face the photo's caption places (`hints`: "left"
+    or "right"), is taken: the largest face of a group photo may be someone else.
     """
     picks: list[dict | None] = []
     for i, faces in enumerate(per_photo):
@@ -83,9 +94,9 @@ def subject(per_photo: list[list[dict]]) -> list[dict | None]:
             if score > best_score:
                 best, best_score = f, score
         others = sum(1 for j, o in enumerate(per_photo) if j != i and o)
-        if best is not None and others and best_score < 1:
+        if not others:
+            best = faces[0] if len(faces) == 1 else _placed(faces, hints[i] if hints else None)
+        elif best is not None and best_score < 1:
             best = None  # the person's face isn't confirmed anywhere else in the set
-        if best is None and faces and not others:
-            best = max(faces, key=lambda f: f["box"][2] * f["box"][3])
         picks.append(best)
     return picks

@@ -47,6 +47,17 @@ def test_subject_face_is_the_one_that_recurs():
     assert picks[2] is None
 
 
+def test_a_lone_group_photo_is_framed_only_on_the_face_its_caption_places():
+    me, other = np.eye(3)[0], np.eye(3)[1]
+    pair = [[{"box": (600, 0, 300, 300), "feature": other}, {"box": (100, 0, 260, 260), "feature": me}]]
+    assert faces.subject(pair) == [None]  # the largest face of a group photo may be someone else
+    assert faces.subject(pair, ["left"])[0]["feature"] is me
+    assert faces.subject([[pair[0][1]]])[0]["feature"] is me  # a solo portrait needs no confirmation
+    from studio import writer
+    side = writer.caption_side("Tiger Shroff (left) and Ali Ahmed Khan during a football event", "Tiger Shroff")
+    assert side == "left" and writer.caption_side("Ali Ahmed Khan (left) and Tiger Shroff", "Tiger Shroff") is None
+
+
 def test_alignment_keeps_script_words():
     heard = [{"text": "India", "start": 0.0, "end": 0.4}, {"text": "has", "start": 0.4, "end": 0.6},
              {"text": "lost", "start": 0.6, "end": 0.9}]
