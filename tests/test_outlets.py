@@ -194,6 +194,9 @@ TIGER = [("bbc-world", "Bollywood actor Tiger Shroff survives shooting attempt i
 
 
 def test_an_attack_on_a_famous_actor_is_one_story_named_by_their_full_name():
+    matched = [item(k, t, h) | {"matched": "Tiger Shroff" if n % 2 else "Lawrence Bishnoi"}
+               for n, (k, t, h) in enumerate(TIGER)]
+    assert len(outlets.stories(matched, NOW, known=["2026 Chamoli cloudburst"])) == 1  # a biography tells no incident
     got = outlets.stories([item(k, t, h) for k, t, h in TIGER], NOW)
     assert [(c["name"], c["category"]) for c in got] == [("Tiger Shroff", "attack")]
     assert "Lawrence" in got[0]["attackers"] and "Bishnoi" in got[0]["attackers"]

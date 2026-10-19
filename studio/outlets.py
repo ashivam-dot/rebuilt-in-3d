@@ -564,10 +564,13 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
     from . import news
 
     young = set(young or [])
-    pool = [news.pool_item(t) for t in known or [] if t not in young]
+    told_from = set(known or []) - young
+    pool = [news.pool_item(t) for t in told_from]
     rows = []
     for i in items:
-        if i["lang"] != "en" or (i.get("matched") and i["matched"] not in young):
+        # Only an article the desk can tell the story from takes a headline: one matched to a person's biography
+        # ("Tiger Shroff") or a gang's page still belongs to the incident.
+        if i["lang"] != "en" or i.get("matched") in told_from:
             continue
         kind = headline_kind(i["title"])
         if kind:
