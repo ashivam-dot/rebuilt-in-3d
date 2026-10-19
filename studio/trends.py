@@ -368,7 +368,10 @@ def radar(today: date | None = None) -> dict:
                            "coords": coords,
                            "has_coords": bool(coords or wiki.claims(ent, "P276") or wiki.claims(ent, "P1427"))})
     try:
-        emerging = outlets.stories(read, datetime.now(timezone.utc), known=list(hits), young=young_articles(out))
+        # Only an article the desk could tell the story from takes it over: a strike's headlines also name the armed
+        # group, the country and the years-old war ("Houthis", "Yemen", "Houthi–Saudi conflict"), which never can.
+        emerging = outlets.stories(read, datetime.now(timezone.utc), known=[c["title"] for c in out],
+                                   young=young_articles(out))
     except Exception as exc:
         emerging = []
         errors.append(f"outlet stories: {type(exc).__name__}: {exc}"[:200])

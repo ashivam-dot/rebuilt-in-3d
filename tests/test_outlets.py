@@ -193,6 +193,22 @@ TIGER = [("bbc-world", "Bollywood actor Tiger Shroff survives shooting attempt i
          ("ndtv", "Tiger Shroff escapes unhurt after shots fired, Lawrence Bishnoi gang claims attack", 1)]
 
 
+def test_the_radar_keeps_an_attack_whose_headlines_match_only_the_victims_biography(monkeypatch):
+    now = datetime.now(timezone.utc)
+
+    def signals():
+        trends.READ.extend(item(k, t, h, now=now) | {"matched": "Tiger Shroff"} for k, t, h in TIGER)
+        return {"Tiger Shroff": {"views": 90000, "traffic": 0, "via": ["most-read"]}}, []
+
+    monkeypatch.setattr(trends, "_signals", signals)
+    monkeypatch.setattr(trends, "NEW_STORIES", True)
+    monkeypatch.setattr(trends.wiki, "page_info", lambda titles: {t: {"title": t, "qid": "Q16202406"} for t in titles})
+    monkeypatch.setattr(trends.wiki, "classify", lambda qids: {"Q16202406": {"human"}})
+    monkeypatch.setattr(trends.wiki, "entities", lambda qids: {"Q16202406": {"claims": {}}})
+    got = trends.radar()
+    assert [c["id"][12:] for c in got["emerging"]] == ["tiger-shroff-attack"]  # a living actor's page tells no attack
+
+
 def test_an_attack_on_a_famous_actor_is_one_story_named_by_their_full_name():
     matched = [item(k, t, h) | {"matched": "Tiger Shroff" if n % 2 else "Lawrence Bishnoi"}
                for n, (k, t, h) in enumerate(TIGER)]
