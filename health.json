@@ -1,11 +1,18 @@
 {
- "at": "2026-10-19T12:45:03+00:00",
+ "at": "2026-10-19T13:53:00+00:00",
  "ok": true,
  "steps": [
   "watch: 3 candidates (0 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 739 headlines from 29 feeds (21 owners), 45 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation",
-  "hold wk-Q327073: last Short went out 0.3 h ago",
-  "hold wk-Q87560598: last Short went out 0.3 h ago",
-  "hold wk-Q1702112: last Short went out 0.3 h ago"
- ]
+  "outlets: 725 headlines from 28 feeds (20 owners), 45 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-tel-aviv-aviation",
+  "skip wk-Q327073: gate: only 2 usable photos of Denis Boytsov on Wikimedia Commons (want 3)",
+  "skip wk-Q87560598: gate: Wikidata lacks an exact birth or death date",
+  "published wk-Q1702112: https://www.youtube.com/shorts/EtrzpnJmwZs"
+ ],
+ "published": {
+  "video_id": "EtrzpnJmwZs",
+  "url": "https://www.youtube.com/shorts/EtrzpnJmwZs",
+  "title": "The Voice of a Generation: Martina Arroyo",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
