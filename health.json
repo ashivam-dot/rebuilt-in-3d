@@ -1,13 +1,11 @@
 {
- "at": "2026-10-19T07:52:51+00:00",
+ "at": "2026-10-19T08:44:59+00:00",
  "ok": true,
  "steps": [
-  "learn: 30 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.875, 'typical_views_24h': 90}, 'kind:incident': {'n': 17, 'lift': 1.323, 'typical_views_24h': 161}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}}",
-  "watch: 2 candidates (0 quakes, 7 trending), 2 hazard alerts",
-  "outlets: 696 headlines from 29 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-trudy-cyclone, nw-20261018-tel-aviv-aviation",
-  "trend radar errors: ['wikipedia top: no Wikipedia pageview data for the last three days']",
+  "watch: 2 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 707 headlines from 29 feeds (21 owners), 42 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261018-trudy-cyclone",
   "skip wk-Q141762710-2026w43: gate: only 0 usable photos of 2026 French protests on Wikimedia Commons (want 2)",
-  "skip nw-20261018-tel-aviv-aviation: gate: only 1 usable photos of Tel Aviv (want 2)",
+  "skip wk-Q96681757: gate: Wikidata lacks an exact birth or death date",
   "nothing eligible to publish"
  ]
 }
