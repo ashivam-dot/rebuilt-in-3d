@@ -1,11 +1,11 @@
 {
- "at": "2026-10-20T18:07:35+00:00",
+ "at": "2026-10-20T18:42:20+00:00",
  "ok": true,
  "steps": [
-  "learn: 37 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 10, 'lift': 1.194, 'typical_views_24h': 194}, 'kind:incident': {'n': 20, 'lift': 1.184, 'typical_views_24h': 185}, 'category:death': {'n': 9, 'lift': 1.01, 'typical_views_24h': 153}, 'category:protest': {'n': 4, 'lift': 1.125, 'typical_views_24h': 191}}",
-  "watch: 1 candidates (0 quakes, 10 trending), 2 hazard alerts",
-  "outlets: 835 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wp-2026_Abyei_market_attack: gate: the article is under 6 hours old; facts may still move (ready in 5.4 h)",
+  "watch: 2 candidates (0 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 840 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
+  "wait wp-2026_Abyei_market_attack: gate: the article is under 6 hours old; facts may still move (ready in 4.8 h)",
+  "skip nw-20261020-abyei-strike: gate: only 0 usable photos of Abyei (want 2)",
   "nothing eligible to publish"
  ]
 }
