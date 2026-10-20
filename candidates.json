@@ -1,7 +1,62 @@
 {
- "at": "2026-10-20T20:39:12+00:00",
+ "at": "2026-10-20T21:10:58+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 176742,
+   "views": 101742,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-10-20T21:05:50+00:00",
+   "headlines": [
+    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "Suspect arrested after historic town hall set alight - French media",
+    "French PM vows 'massive' police deployment for new demonstrations"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19",
+    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "google-news:Suspect arrested after historic town hall set alight - French media",
+    "google-news:French PM vows 'massive' police deployment for new demonstrations",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "BBC",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Suspect arrested after historic town hall set alight - French media",
+     "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T21:05:50+00:00"
+    },
+    {
+     "title": "French PM vows 'massive' police deployment for new demonstrations",
+     "url": "https://www.france24.com/en/french-pm-vows-massive-police-deployment-for-new-demonstrations",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T20:05:44+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-20",
+   "coords": null,
+   "has_coords": true
+  },
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
@@ -278,12 +333,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.339 million .",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.023 million .",
    "country": "Guam, Northern Mariana Islands, Japan",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "17",
-   "lon": "133"
+   "lat": "17.4",
+   "lon": "131.5"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -375,11 +430,11 @@
   }
  ],
  "outlets": {
-  "headlines": 836,
+  "headlines": 840,
   "feeds": 29,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 1
+  "matched": 29,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -458,5 +513,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 836 headlines from 29 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 840 headlines from 29 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }
