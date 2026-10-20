@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T18:42:20+00:00",
+ "at": "2026-10-20T19:38:56+00:00",
  "quakes": [],
  "trending": [
   {
@@ -68,6 +68,50 @@
    "date": "2026-10-20",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 163911,
+   "views": 13911,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-20T18:01:44+00:00",
+   "headlines": [
+    "More survivors emerge in account of deadly Bend elementary school shooting",
+    "Gun used in Bend school shooting was birthday gift from shooter's mom"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19",
+    "google-news:More survivors emerge in account of deadly Bend elementary school shooting",
+    "google-news:Gun used in Bend school shooting was birthday gift from shooter's mom",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Gun used in Bend school shooting was birthday gift from shooter's mom",
+     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-gun-birthday-gift-mom/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T18:01:44+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q1889124",
@@ -185,48 +229,6 @@
    "date": "2026-10-19",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 38911,
-   "views": 13911,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-20T18:01:44+00:00",
-   "headlines": [
-    "Gun used in Bend school shooting was birthday gift from shooter's mom"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19",
-    "google-news:Gun used in Bend school shooting was birthday gift from shooter's mom",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Gun used in Bend school shooting was birthday gift from shooter's mom",
-     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-gun-birthday-gift-mom/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-20T18:01:44+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q19729623",
@@ -523,10 +525,10 @@
   }
  ],
  "outlets": {
-  "headlines": 840,
-  "feeds": 30,
+  "headlines": 838,
+  "feeds": 29,
   "owners": 21,
-  "matched": 29,
+  "matched": 27,
   "corroborated": 2
  },
  "emerging": [
@@ -606,5 +608,5 @@
    "article": "2026 Abyei market attack"
   }
  ],
- "outlet_note": "outlets: 840 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 838 headlines from 29 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }
