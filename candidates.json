@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T21:39:05+00:00",
+ "at": "2026-10-20T22:11:03+00:00",
  "quakes": [],
  "trending": [
   {
@@ -263,6 +263,66 @@
     -121.29527778
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q3837943",
+   "title": "Lua Blanco",
+   "fame": 12669,
+   "views": 12669,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3837943",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-18"
+  },
+  {
+   "qid": "Q438492",
+   "title": "Michael Forest",
+   "fame": 9607,
+   "views": 9607,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q438492",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-14"
+  },
+  {
+   "qid": "Q7045350",
+   "title": "Noah Adams",
+   "fame": 7854,
+   "views": 7854,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7045350",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -366,14 +426,11 @@
    "article": null
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
- ],
  "outlets": {
-  "headlines": 833,
+  "headlines": 832,
   "feeds": 29,
   "owners": 21,
-  "matched": 31,
+  "matched": 33,
   "corroborated": 2
  },
  "emerging": [
@@ -453,5 +510,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 833 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 832 headlines from 29 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }
