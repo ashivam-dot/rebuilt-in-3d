@@ -102,6 +102,8 @@ RULES = """RULES (all mandatory):
   about one place or group is never moved to another. Never claim how people or "the world" felt or reacted
   ("the world watched", "resilience") unless the SOURCE says it. Never add an order the SOURCE does not state
   ("Abha was also attacked", never "Abha was hit first"), and never moralise ("this tragedy reminds us").
+- Never say "we", "us" or "our": the narrator speaks to the whole world, not for any country. Retell an official's
+  words with their name ("Carney said the nation is in mourning"), never as the narrator's own.
 - 7 or 8 beats and 110 to 130 words in total (about 45 seconds spoken). Each beat is one or two spoken sentences
   of 12 to 20 words. Count the words before you answer.
 - Every beat must carry a specific fact from the SOURCE (a work, a place, a year, an honour, a choice they made);
@@ -310,6 +312,10 @@ def reported_ok(item: str, reports: list[dict] | None) -> bool:
 
 PLACE_CAPTION = re.compile(r"\b(Airport|Hospital|Medical Complex|Station|Junction|Terminal|Province|County|District|Street|Square|"
                            r"Bridge|Harbou?r|Mosque|Cathedral|Church|Temple|Stadium)s?\b")
+# The narrator speaks to the whole world: "our armed forces" in Carney's statement, retold unquoted, made Orbitwire
+# sound Canadian (CFB Wainwright, 2026-10-20). Lower-case "us" only, so "the US" passes.
+FIRST_PERSON = re.compile(r"\b(?:[Ww]e|us|[Oo]urs?|[Oo]urselves)\b")
+QUOTED = re.compile(r"[\"“][^\"”]*[\"”]")
 
 
 COUNT_WORDS = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve "
@@ -355,6 +361,9 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     for where, line in lines:
         if word := gate.banned_word(line):
             problems.append(f"{where} uses the banned word {word!r}: say it plainly without that word")
+        if hit := FIRST_PERSON.search(QUOTED.sub("", line)):
+            problems.append(f"{where} says {hit.group(0)!r}: the narrator never speaks for a country or group; "
+                            "attribute the words to whoever said them (\"Carney said the nation is in mourning\")")
         if not casualties and (hit := gate.CASUALTY.search(line)):
             problems.append(f"{where} says {hit.group(0)!r}: the sources agree on no toll, so never mention deaths, "
                             "injuries or casualties")

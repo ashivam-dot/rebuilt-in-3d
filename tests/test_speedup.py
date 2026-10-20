@@ -110,6 +110,13 @@ def test_a_caption_naming_a_place_is_rewritten():
     assert not any("names a place" in p for p in writer._validate(draft, photos, "Chamoli", "Place: Chamoli.", [], []))
 
 
+def test_the_narrator_never_speaks_for_a_country():
+    say = ["The nation stands in mourning for the brave members of our armed forces."]
+    assert any("says 'our'" in p for p in _validate(say))
+    say = ["Carney said \"the nation is in mourning\" as the US sent condolences to the families."]
+    assert not any("narrator never speaks" in p for p in _validate(say))
+
+
 def test_photo_descriptions_are_never_a_source():
     say = ["A cloudburst over Chamoli has cut off villages high in the Himalayan valleys of northern India this week.",
            "The Nanda Devi temple stood above the water as rescue teams reached the villages.",
