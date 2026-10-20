@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T13:47:01+00:00",
+ "at": "2026-10-20T14:41:24+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-20T11:51:58+00:00",
+   "news_at": "2026-10-20T13:39:49+00:00",
    "headlines": [
     "Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family"
    ],
@@ -23,30 +23,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-13"
-  },
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-19T19:14:51+00:00",
-   "headlines": [
-    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q1889124",
@@ -246,12 +222,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.273 million .",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.339 million .",
    "country": "Guam, Northern Mariana Islands, Japan",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "16.5",
-   "lon": "134.4"
+   "lat": "17",
+   "lon": "133"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -265,64 +241,14 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q141764900",
-   "title": "CFB Wainwright fire",
-   "fame": 25580,
-   "views": 25580,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141764900",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": [
-    52.77577536273194,
-    -110.92431039218033
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-19T19:14:51+00:00",
-   "headlines": [
-    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 821,
+  "headlines": 822,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 25,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 821 headlines from 30 feeds (21 owners), 27 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 25 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
