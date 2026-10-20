@@ -1,30 +1,59 @@
 {
- "at": "2026-10-20T15:15:17+00:00",
+ "at": "2026-10-20T16:12:37+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 125000,
-   "views": 0,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 151742,
+   "views": 101742,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-19T19:14:51+00:00",
+   "news": 50000,
+   "news_at": "2026-10-20T16:06:39+00:00",
    "headlines": [
-    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+    "Suspect arrested after historic town hall set alight - French media",
+    "French PM vows 'massive' police deployment for new demonstrations Saturday"
    ],
    "region": "world",
    "via": [
-    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+    "wikipedia-top-2026-10-19",
+    "google-news:Suspect arrested after historic town hall set alight - French media",
+    "google-news:French PM vows 'massive' police deployment for new demonstrations Saturday",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
+   "owners": [
+    "BBC",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Suspect arrested after historic town hall set alight - French media",
+     "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T16:06:39+00:00"
+    },
+    {
+     "title": "French PM vows 'massive' police deployment for new demonstrations Saturday",
+     "url": "https://www.france24.com/en/video/20261020-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T14:54:15+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
    "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
+   "category": "protest",
+   "date": "2026-10-20",
    "coords": null,
-   "has_coords": false
+   "has_coords": true
   },
   {
    "qid": "Q1889124",
@@ -243,39 +272,14 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-19T19:14:51+00:00",
-   "headlines": [
-    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 822,
+  "headlines": 839,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
-  "corroborated": 0
+  "matched": 28,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 839 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
