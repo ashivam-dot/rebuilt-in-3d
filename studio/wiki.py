@@ -31,7 +31,7 @@ CLASSES = {
     "Q2223653": "attack", "Q21480300": "attack", "Q2252077": "attack", "Q891854": "attack", "Q3882219": "attack",
     "Q179057": "explosion", "Q1078765": "rail", "Q852190": "maritime",
     "Q2380335": "strike", "Q645883": "conflict", "Q178561": "conflict", "Q198": "conflict", "Q350604": "conflict",
-    "Q3839081": "disaster", "Q171558": "accident",
+    "Q3839081": "disaster", "Q168983": "disaster", "Q1907476": "disaster", "Q171558": "accident",
     "Q273120": "protest", "Q175331": "protest",
     "Q2738074": "movement", "Q49773": "movement",
 }
