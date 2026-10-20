@@ -1,43 +1,32 @@
 {
- "at": "2026-10-20T12:06:16+00:00",
+ "at": "2026-10-20T12:45:21+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 276842,
+   "fame": 151742,
    "views": 101742,
-   "traffic": 100,
-   "news": 175000,
-   "news_at": "2026-10-20T11:48:35+00:00",
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-20T12:45:43+00:00",
    "headlines": [
-    "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
-    "Suspect arrested after historic town hall set alight - French media"
+    "Suspect arrested after historic town hall set alight - French media",
+    "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-19",
-    "google-trends-US:why are they protesting in france",
-    "google-news:French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
     "google-news:Suspect arrested after historic town hall set alight - French media",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "google-news:French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "Guardian Media Group",
-    "BBC"
+    "BBC",
+    "Guardian Media Group"
    ],
    "reports": [
-    {
-     "title": "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
-     "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-20T11:48:35+00:00"
-    },
     {
      "title": "Suspect arrested after historic town hall set alight - French media",
      "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
@@ -46,7 +35,17 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-20T11:47:39+00:00"
+     "at": "2026-10-20T12:45:43+00:00"
+    },
+    {
+     "title": "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
+     "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-20T12:33:20+00:00"
     }
    ],
    "id": "wk-Q141615137-2026w43",
@@ -55,6 +54,66 @@
    "date": "2026-10-20",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141718063",
+   "title": "Parvinder Singh Jhota",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-20T11:51:58+00:00",
+   "headlines": [
+    "Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family",
+     "url": "https://www.thehindu.com/news/national/punjab/amit-shah-punjab-visit-parvinder-singh-jhota-murder-case/article71603773.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-20T11:51:58+00:00"
+    }
+   ],
+   "id": "wk-Q141718063",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-13"
+  },
+  {
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-19T19:14:51+00:00",
+   "headlines": [
+    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141776873",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q1889124",
@@ -134,42 +193,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-18"
-  },
-  {
-   "qid": "Q141718063",
-   "title": "Parvinder Singh Jhota",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-20T11:51:58+00:00",
-   "headlines": [
-    "Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Under Punjab’s ‘AAPda regime’, those raising voices against drug menace not safe, says Amit Shah; meets Parvinder Singh Jhota’s family",
-     "url": "https://www.thehindu.com/news/national/punjab/amit-shah-punjab-visit-parvinder-singh-jhota-murder-case/article71603773.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-20T11:51:58+00:00"
-    }
-   ],
-   "id": "wk-Q141718063",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-13"
   },
   {
    "qid": "Q5115327",
@@ -301,14 +324,39 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-19T19:14:51+00:00",
+   "headlines": [
+    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141776873",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": false
+  }
+ ],
  "outlets": {
   "headlines": 820,
   "feeds": 29,
   "owners": 21,
-  "matched": 21,
+  "matched": 28,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 820 headlines from 29 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 820 headlines from 29 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
