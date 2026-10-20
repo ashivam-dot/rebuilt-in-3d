@@ -1,9 +1,10 @@
 {
- "at": "2026-10-20T04:42:35+00:00",
+ "at": "2026-10-20T05:14:12+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 9 trending), 2 hazard alerts",
-  "outlets: 792 headlines from 29 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261019-tiger-shroff-attack",
+  "watch: 1 candidates (0 quakes, 7 trending), 2 hazard alerts",
+  "outlets: 795 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261019-tiger-shroff-attack",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
   "hold nw-20261019-tiger-shroff-attack: outside the world window"
  ]
 }
