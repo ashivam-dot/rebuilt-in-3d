@@ -1,72 +1,7 @@
 {
- "at": "2026-10-20T10:39:28+00:00",
+ "at": "2026-10-20T11:11:59+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 251742,
-   "views": 101742,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-20T10:23:03+00:00",
-   "headlines": [
-    "Suspect arrested after historic town hall set alight during disorder - French media",
-    "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19",
-    "google-news:Suspect arrested after historic town hall set alight during disorder - French media",
-    "google-news:French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
-     "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-20T10:23:03+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-20",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-19T19:14:51+00:00",
-   "headlines": [
-    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
@@ -86,6 +21,81 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-15"
+  },
+  {
+   "id": "nw-20261019-paris-protest",
+   "qid": null,
+   "title": "Night of violence lingers over Paris as one Chinese cafe owner counts the costs of protest",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-19",
+   "news_at": "2026-10-20T09:00:30+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "SCMP Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "The European cities facing protests from Paris to Milan as continent gripped by cost of living crisis",
+    "France protests cool after overnight curfews in Paris, major cities, PM says",
+    "Night of violence lingers over Paris as one Chinese cafe owner counts the costs of protest"
+   ],
+   "places": [
+    "Milan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Night of violence lingers over Paris as one Chinese cafe owner counts the costs of protest",
+     "url": "https://www.scmp.com/economy/article/3371455/night-violence-lingers-over-paris-one-chinese-cafe-owner-counts-costs-protest",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-20T09:00:30+00:00"
+    },
+    {
+     "title": "The European cities facing protests from Paris to Milan as continent gripped by cost of living crisis",
+     "url": "https://www.independent.co.uk/news/world/europe/europe-map-protests-france-portugal-spain-italy-albania-b3068981.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T13:55:10+00:00"
+    },
+    {
+     "title": "France protests cool after overnight curfews in Paris, major cities, PM says",
+     "url": "https://abcnews.com/International/france-protests-cool-after-overnight-curfews-paris-major/story?id=137403836",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T08:25:52+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": null,
@@ -136,13 +146,13 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-20T08:22:59+00:00",
+   "news_at": "2026-10-20T10:41:08+00:00",
    "headlines": [
-    "Amit Shah arrives in Punjab; to meet Parvinder Singh Jhota’s kin"
+    "Amit Shah meets slain anti-drug activist Parvinder Singh Jhota’s family in Punjab’s Mansa"
    ],
    "region": "india",
    "via": [
-    "google-news:Amit Shah arrives in Punjab; to meet Parvinder Singh Jhota’s kin",
+    "google-news:Amit Shah meets slain anti-drug activist Parvinder Singh Jhota’s family in Punjab’s Mansa",
     "outlet:The Hindu Group"
    ],
    "owners": [
@@ -150,24 +160,14 @@
    ],
    "reports": [
     {
-     "title": "Amit Shah arrives in Punjab; to meet Parvinder Singh Jhota’s kin",
+     "title": "Amit Shah meets slain anti-drug activist Parvinder Singh Jhota’s family in Punjab’s Mansa",
      "url": "https://www.thehindu.com/news/national/punjab/amit-shah-punjab-visit-parvinder-singh-jhota-murder-case/article71603773.ece",
      "outlet": "The Hindu",
      "outlet_hi": "द हिंदू",
      "owner": "The Hindu Group",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-20T08:22:59+00:00"
-    },
-    {
-     "title": "Parvinder Singh Jhota murder probe to be handed over to CBI: Bhagwant Mann",
-     "url": "https://www.thehindu.com/news/national/punjab/parvinder-singh-jhota-murder-probe-cbi-bhagwant-mann/article71603327.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-20T05:09:13+00:00"
+     "at": "2026-10-20T10:41:08+00:00"
     }
    ],
    "id": "wk-Q141718063",
@@ -305,39 +305,90 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-19T19:14:51+00:00",
-   "headlines": [
-    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 813,
+  "headlines": 820,
   "feeds": 29,
   "owners": 21,
-  "matched": 19,
-  "corroborated": 0
+  "matched": 16,
+  "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 813 headlines from 29 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261019-paris-protest",
+   "qid": null,
+   "title": "Night of violence lingers over Paris as one Chinese cafe owner counts the costs of protest",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-19",
+   "news_at": "2026-10-20T09:00:30+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "SCMP Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "The European cities facing protests from Paris to Milan as continent gripped by cost of living crisis",
+    "France protests cool after overnight curfews in Paris, major cities, PM says",
+    "Night of violence lingers over Paris as one Chinese cafe owner counts the costs of protest"
+   ],
+   "places": [
+    "Milan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Night of violence lingers over Paris as one Chinese cafe owner counts the costs of protest",
+     "url": "https://www.scmp.com/economy/article/3371455/night-violence-lingers-over-paris-one-chinese-cafe-owner-counts-costs-protest",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-20T09:00:30+00:00"
+    },
+    {
+     "title": "The European cities facing protests from Paris to Milan as continent gripped by cost of living crisis",
+     "url": "https://www.independent.co.uk/news/world/europe/europe-map-protests-france-portugal-spain-italy-albania-b3068981.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-19T13:55:10+00:00"
+    },
+    {
+     "title": "France protests cool after overnight curfews in Paris, major cities, PM says",
+     "url": "https://abcnews.com/International/france-protests-cool-after-overnight-curfews-paris-major/story?id=137403836",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T08:25:52+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 820 headlines from 29 feeds (21 owners), 16 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261019-paris-protest"
 }
