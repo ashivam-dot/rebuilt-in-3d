@@ -1,18 +1,9 @@
 {
- "at": "2026-10-19T23:35:05+00:00",
+ "at": "2026-10-20T00:18:12+00:00",
  "ok": true,
  "steps": [
-  "watch: 3 candidates (0 quakes, 14 trending), 2 hazard alerts",
-  "outlets: 788 headlines from 29 feeds (21 owners), 45 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack",
-  "skip wk-Q141615137-2026w43: gate: only 1 usable photos of 2026 French student protests on Wikimedia Commons (want 2)",
-  "wait wp-2026_Shabwah_missile_attack: gate: the article is under 6 hours old; facts may still move (ready in 0.4 h)",
-  "published wk-Q1889124: https://www.youtube.com/shorts/GTUwT6GQhV4"
- ],
- "published": {
-  "video_id": "GTUwT6GQhV4",
-  "url": "https://www.youtube.com/shorts/GTUwT6GQhV4",
-  "title": "The Long Career of Richard Riehle",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "watch: 1 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 788 headlines from 29 feeds (21 owners), 45 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack",
+  "hold wp-2026_Shabwah_missile_attack: last Short went out 0.1 h ago"
+ ]
 }
