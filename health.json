@@ -1,10 +1,10 @@
 {
- "at": "2026-10-20T03:10:58+00:00",
+ "at": "2026-10-20T04:12:14+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 9 trending), 2 hazard alerts",
-  "outlets: 790 headlines from 29 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261019-tiger-shroff-attack",
-  "skip nw-20261019-tiger-shroff-attack: gate: only 1 usable photos of Tiger Shroff (want 2)",
-  "nothing eligible to publish"
+  "learn: 33 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 6, 'lift': 0.815, 'typical_views_24h': 90}, 'kind:incident': {'n': 20, 'lift': 1.35, 'typical_views_24h': 185}, 'category:death': {'n': 5, 'lift': 0.75, 'typical_views_24h': 51}, 'category:protest': {'n': 4, 'lift': 1.223, 'typical_views_24h': 191}}",
+  "watch: 1 candidates (0 quakes, 8 trending), 2 hazard alerts",
+  "outlets: 787 headlines from 29 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261019-tiger-shroff-attack",
+  "hold nw-20261019-tiger-shroff-attack: outside the world window"
  ]
 }
