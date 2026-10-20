@@ -1,7 +1,62 @@
 {
- "at": "2026-10-20T07:46:58+00:00",
+ "at": "2026-10-20T08:40:13+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 276742,
+   "views": 101742,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-20T08:29:13+00:00",
+   "headlines": [
+    "Police ‘lost control’ during French protests, says Interior Minister",
+    "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
+    "French cities calm overnight after curfews imposed to quell violence, PM says"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19",
+    "google-news:Police ‘lost control’ during French protests, says Interior Minister",
+    "google-news:French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
+    "google-news:French cities calm overnight after curfews imposed to quell violence, PM says",
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
+     "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-20T08:29:13+00:00"
+    },
+    {
+     "title": "French cities calm overnight after curfews imposed to quell violence, PM says",
+     "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T06:35:57+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-20",
+   "coords": null,
+   "has_coords": true
+  },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
@@ -54,6 +109,30 @@
    "date": "2026-10-15"
   },
   {
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-19T19:14:51+00:00",
+   "headlines": [
+    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141776873",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": null,
    "title": "2026 Shabwah missile attack",
    "fame": 50000,
@@ -102,19 +181,29 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-20T05:09:13+00:00",
+   "news_at": "2026-10-20T08:22:59+00:00",
    "headlines": [
-    "Parvinder Singh Jhota murder probe to be handed over to CBI: Bhagwant Mann"
+    "Amit Shah arrives in Punjab; to meet Parvinder Singh Jhota’s kin"
    ],
    "region": "india",
    "via": [
-    "google-news:Parvinder Singh Jhota murder probe to be handed over to CBI: Bhagwant Mann",
+    "google-news:Amit Shah arrives in Punjab; to meet Parvinder Singh Jhota’s kin",
     "outlet:The Hindu Group"
    ],
    "owners": [
     "The Hindu Group"
    ],
    "reports": [
+    {
+     "title": "Amit Shah arrives in Punjab; to meet Parvinder Singh Jhota’s kin",
+     "url": "https://www.thehindu.com/news/national/punjab/amit-shah-punjab-visit-parvinder-singh-jhota-murder-case/article71603773.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-20T08:22:59+00:00"
+    },
     {
      "title": "Parvinder Singh Jhota murder probe to be handed over to CBI: Bhagwant Mann",
      "url": "https://www.thehindu.com/news/national/punjab/parvinder-singh-jhota-murder-probe-cbi-bhagwant-mann/article71603327.ece",
@@ -242,12 +331,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.29 million .",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.273 million .",
    "country": "Guam, Northern Mariana Islands, Japan",
    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "15.9",
-   "lon": "135.6"
+   "lat": "16.5",
+   "lon": "134.4"
   },
   {
    "id": "gdacs-TC-1001335",
@@ -261,14 +350,39 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-19T19:14:51+00:00",
+   "headlines": [
+    "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141776873",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": false
+  }
+ ],
  "outlets": {
-  "headlines": 801,
+  "headlines": 803,
   "feeds": 29,
   "owners": 21,
-  "matched": 19,
-  "corroborated": 1
+  "matched": 21,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 801 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 803 headlines from 29 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
