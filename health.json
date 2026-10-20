@@ -1,11 +1,10 @@
 {
- "at": "2026-10-20T01:41:31+00:00",
+ "at": "2026-10-20T02:12:16+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 8 trending), 2 hazard alerts",
-  "outlets: 789 headlines from 29 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261018-tiger-shroff-attack, nw-20261019-ohio-attack",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
-  "skip wp-2026_Shabwah_missile_attack: gate: neither Wikidata nor the infobox gives a date for this event",
+  "watch: 1 candidates (0 quakes, 12 trending), 2 hazard alerts",
+  "outlets: 791 headlines from 29 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261019-tiger-shroff-attack, nw-20261019-ohio-attack",
+  "skip nw-20261019-tiger-shroff-attack: gate: only 1 usable photos of Tiger Shroff (want 2)",
   "nothing eligible to publish"
  ]
 }
