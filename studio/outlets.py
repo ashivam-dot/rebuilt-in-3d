@@ -398,7 +398,10 @@ INFRASTRUCTURE = (r"energy|power|grids?|infrastructure|substations?|depots?|refi
 HEADLINE_KINDS = (
     (rf"^(?=.*\b({AIRCRAFT})\b)(?=.*\b({AIR_EVENT})\b)|\b(plane|helicopter|air) crash", "aviation"),
     (r"\b(shooting|gunman|gunmen|stabbing|bombing|suicide bomb\w*|terror attack|militant attack|grenade attack|"
-     r"firing|fired at|opened fire|shot at|shots fired|gunshots?|shooters?|stabbed)\b", "attack"),
+     r"firing|fired at|opened fire|shot at|shots fired|gunshots?|shooters?|stabbed|"
+     r"(car|vehicle|truck)[- ]ramming|ramming attack|rammed|run over|mowed down|"
+     r"struck by (a |an )?(car|vehicle|truck|ute)|alleged attack|attacked (in|at|near|outside|while|during))\b",
+     "attack"),
     (r"\b(cyber ?-?attack\w*|ransomware|cyber ?-?(breach|incident)s?)\b", "cyberattack"),
     (rf"^(?!.*\b({NOT_A_STRIKE})\b)(?:(?=.*\b({WEAPON})\b)(?=.*\b({IMPACT})\b)|(?=.*\b(drone|missile|air ?) ?strikes?\b)|"
      rf"(?!.*\b({NOT_AT_WAR})\b)(?=.*\b({STRIKE_WORD})\b)(?=.*\b({INFRASTRUCTURE})\b))", "strike"),
@@ -411,8 +414,11 @@ HEADLINE_KINDS = (
     (r"\b(floods?|flooding|flash floods?|cloudbursts?)\b", "flood"),
     (r"\b(wildfires?|bushfires?|forest fires?)\b", "wildfire"),
     (r"\b(landslides?|mudslides?|avalanches?)\b", "landslide"),
-    (r"\b(stampede|crowd crush|building collapse|bridge collapse|fire breaks out|massive fire|blaze)\b", "disaster"),
-    (r"\b(bus|truck|car|jeep|van|vehicle)\b.*\b(accident|crash|collision|plunges?|falls? into|gorge)\b", "accident"),
+    (r"\b(stampede|crowd crush|building collapse|bridge collapse|fire breaks out|massive fire|blaze|"
+     r"(deadly|fatal|huge|major) fire|fire (kills|killed)|set alight|set ablaze|burn(ed|t) down)\b|"
+     r"\b(dead|killed|die|died)\b.*\bafter (a |the )?fire\b", "disaster"),
+    (r"\b(bus|truck|car|jeep|van|vehicle)\b.*\b(accident|crash(es|ed)?|collisions?|collid\w*|plunges?|falls? into|"
+     r"gorge)\b", "accident"),
     (r"\b(protests?|protesters|demonstrations?|demonstrators)\b", "protest"),
 )
 HEADLINE_SKIP = re.compile(
