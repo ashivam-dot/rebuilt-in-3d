@@ -1,96 +1,25 @@
 {
- "at": "2026-10-20T20:10:26+00:00",
+ "at": "2026-10-20T20:39:12+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": null,
-   "title": "2026 Abyei market attack",
-   "fame": 225000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-20T18:09:00+00:00",
-   "headlines": [
-    "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-    "Sudan drone strike kills around 150 in Abyei market",
-    "Drone strike on a market in disputed African region of Abyei kills at least 153"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-19",
-    "google-news:Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-    "google-news:Sudan drone strike kills around 150 in Abyei market",
-    "google-news:Drone strike on a market in disputed African region of Abyei kills at least 153",
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Deutsche Welle",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Sudan drone strike kills around 150 in Abyei market",
-     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-20T18:09:00+00:00"
-    },
-    {
-     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
-     "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-20T15:58:15+00:00"
-    }
-   ],
-   "id": "wp-2026_Abyei_market_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-20",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 163911,
+   "fame": 138911,
    "views": 13911,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-20T18:01:44+00:00",
+   "news": 125000,
+   "news_at": "2026-10-20T16:42:00+00:00",
    "headlines": [
-    "More survivors emerge in account of deadly Bend elementary school shooting",
-    "Gun used in Bend school shooting was birthday gift from shooter's mom"
+    "More survivors emerge in account of deadly Bend elementary school shooting"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-19",
-    "google-news:More survivors emerge in account of deadly Bend elementary school shooting",
-    "google-news:Gun used in Bend school shooting was birthday gift from shooter's mom",
-    "outlet:Paramount (CBS)"
+    "google-news:More survivors emerge in account of deadly Bend elementary school shooting"
    ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Gun used in Bend school shooting was birthday gift from shooter's mom",
-     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-gun-birthday-gift-mom/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-20T18:01:44+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141745391",
    "kind": "incident",
    "category": "attack",
@@ -120,6 +49,81 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-15"
+  },
+  {
+   "id": "nw-20261020-abyei-strike",
+   "qid": null,
+   "title": "Sudan drone strike kills around 150 in Abyei market",
+   "name": "Abyei",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-10-20",
+   "news_at": "2026-10-20T18:09:00+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "France Médias Monde",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Drone strike on a market in disputed African region of Abyei kills at least 153",
+    "More than 150 killed in Sudan drone strike on disputed Abyei border region",
+    "Sudan drone strike kills around 150 in Abyei market"
+   ],
+   "places": [],
+   "attackers": [
+    "Sudan"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Sudan drone strike kills around 150 in Abyei market",
+     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T18:09:00+00:00"
+    },
+    {
+     "title": "More than 150 killed in Sudan drone strike on disputed Abyei border region",
+     "url": "https://www.france24.com/en/africa/20261020-more-than-150-killed-sudan-drone-strike-disputed-abyei-border-region",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T16:24:47+00:00"
+    },
+    {
+     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+     "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T15:58:15+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": null,
@@ -295,31 +299,40 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261020-abyei-strike",
    "qid": null,
-   "title": "2026 Abyei market attack",
-   "fame": 225000,
+   "title": "Sudan drone strike kills around 150 in Abyei market",
+   "name": "Abyei",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-10-20",
+   "news_at": "2026-10-20T18:09:00+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "France Médias Monde",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-20T18:09:00+00:00",
    "headlines": [
-    "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-    "Sudan drone strike kills around 150 in Abyei market",
-    "Drone strike on a market in disputed African region of Abyei kills at least 153"
+    "Drone strike on a market in disputed African region of Abyei kills at least 153",
+    "More than 150 killed in Sudan drone strike on disputed Abyei border region",
+    "Sudan drone strike kills around 150 in Abyei market"
+   ],
+   "places": [],
+   "attackers": [
+    "Sudan"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-19",
-    "google-news:Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-    "google-news:Sudan drone strike kills around 150 in Abyei market",
-    "google-news:Drone strike on a market in disputed African region of Abyei kills at least 153",
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Deutsche Welle",
-    "Disney (ABC News)"
-   ],
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
      "title": "Sudan drone strike kills around 150 in Abyei market",
@@ -332,6 +345,16 @@
      "at": "2026-10-20T18:09:00+00:00"
     },
     {
+     "title": "More than 150 killed in Sudan drone strike on disputed Abyei border region",
+     "url": "https://www.france24.com/en/africa/20261020-more-than-150-killed-sudan-drone-strike-disputed-abyei-border-region",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T16:24:47+00:00"
+    },
+    {
      "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
      "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
      "outlet": "ABC News",
@@ -342,21 +365,98 @@
      "at": "2026-10-20T15:58:15+00:00"
     }
    ],
-   "id": "wp-2026_Abyei_market_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-20",
-   "coords": null,
-   "has_coords": false
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
  "outlets": {
   "headlines": 836,
   "feeds": 29,
   "owners": 21,
-  "matched": 32,
+  "matched": 28,
   "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 836 headlines from 29 feeds (21 owners), 32 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261020-abyei-strike",
+   "qid": null,
+   "title": "Sudan drone strike kills around 150 in Abyei market",
+   "name": "Abyei",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-10-20",
+   "news_at": "2026-10-20T18:09:00+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "France Médias Monde",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Drone strike on a market in disputed African region of Abyei kills at least 153",
+    "More than 150 killed in Sudan drone strike on disputed Abyei border region",
+    "Sudan drone strike kills around 150 in Abyei market"
+   ],
+   "places": [],
+   "attackers": [
+    "Sudan"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Sudan drone strike kills around 150 in Abyei market",
+     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T18:09:00+00:00"
+    },
+    {
+     "title": "More than 150 killed in Sudan drone strike on disputed Abyei border region",
+     "url": "https://www.france24.com/en/africa/20261020-more-than-150-killed-sudan-drone-strike-disputed-abyei-border-region",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T16:24:47+00:00"
+    },
+    {
+     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+     "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T15:58:15+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 836 headlines from 29 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }
