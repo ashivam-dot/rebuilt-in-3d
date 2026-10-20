@@ -13,6 +13,10 @@ def test_invented_names_and_numbers_are_caught():
     assert writer.ungrounded("He starred in Tiranga in 1993.", SOURCE) == ["1993", "Tiranga"]
     # Title-case captions made of ordinary words are not names.
     assert writer.ungrounded("A Final Legacy", SOURCE) == []
+    # Inflected ordinary words opening a sentence are not names either.
+    said = "Forecasts warned of rain. Faces filled Goa. Reports followed. Approaches closed. Portraying him, he won."
+    assert writer.ungrounded(said, SOURCE) == []
+    assert writer.ungrounded("Portraying Tiranga, he won.", SOURCE) == ["Tiranga"]
 
 
 def test_photo_relevance_keys():

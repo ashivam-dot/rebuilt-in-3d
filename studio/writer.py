@@ -136,6 +136,26 @@ def english() -> set[str]:
     return _lexicon
 
 
+def ordinary(key: str) -> bool:
+    """An ordinary English word or a plain inflection of one: the lexicon has "face" and "forecast" but not "faces",
+    "forecasts" or "portraying"."""
+    words = english()
+    if key in words:
+        return True
+    stems = []
+    if key.endswith("ies"):
+        stems.append(key[:-3] + "y")
+    if key.endswith("es"):
+        stems.append(key[:-2])
+    if key.endswith("s"):
+        stems.append(key[:-1])
+    for suffix in ("ing", "ed"):
+        if key.endswith(suffix):
+            base = key[:-len(suffix)]
+            stems += [base, base + "e"] + ([base[:-1]] if len(base) > 2 and base[-1] == base[-2] else [])
+    return any(len(s) > 2 and s in words for s in stems)
+
+
 def _numbers(text: str) -> list[str]:
     return [n.replace(",", "") for n in re.findall(r"\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?", text)]
 
@@ -152,7 +172,7 @@ def ungrounded(text: str, source: str) -> list[str]:
     for m in re.finditer(r"\b[A-Z][\w'’\-]*", text):
         word = m.group(0).strip("'’-")
         key = re.sub(r"['’]s$", "", word).lower()
-        if len(key) < 2 or key in english() or re.search(r"\b" + re.escape(key) + r"\b", low):
+        if len(key) < 2 or ordinary(key) or re.search(r"\b" + re.escape(key) + r"\b", low):
             continue
         problems.append(word)
     return sorted(set(problems))
