@@ -1,7 +1,104 @@
 {
- "at": "2026-10-20T17:17:06+00:00",
+ "at": "2026-10-20T18:07:37+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": null,
+   "title": "2026 Abyei market attack",
+   "fame": 225000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-20T17:30:15+00:00",
+   "headlines": [
+    "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "Drone strike on a market in disputed African region of Abyei kills at least 153"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-19",
+    "google-news:Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "google-news:Drone strike on a market in disputed African region of Abyei kills at least 153",
+    "outlet:BBC",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "BBC",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+     "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T17:30:15+00:00"
+    },
+    {
+     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+     "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T15:58:15+00:00"
+    }
+   ],
+   "id": "wp-2026_Abyei_market_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-20",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 163911,
+   "views": 13911,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-20T18:01:44+00:00",
+   "headlines": [
+    "Gun used in Oregon elementary school shooting was birthday gift from shooter's mom, sources say",
+    "Gun used in Bend school shooting was birthday gift from shooter's mom"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19",
+    "google-news:Gun used in Oregon elementary school shooting was birthday gift from shooter's mom, sources say",
+    "google-news:Gun used in Bend school shooting was birthday gift from shooter's mom",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Gun used in Bend school shooting was birthday gift from shooter's mom",
+     "url": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-gun-birthday-gift-mom/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T18:01:44+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
@@ -110,31 +207,6 @@
    "date": "2026-10-19"
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 13911,
-   "views": 13911,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q3837943",
    "title": "Lua Blanco",
    "fame": 12669,
@@ -219,14 +291,68 @@
    "lon": "-110.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": null,
+   "title": "2026 Abyei market attack",
+   "fame": 225000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-20T17:30:15+00:00",
+   "headlines": [
+    "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "Drone strike on a market in disputed African region of Abyei kills at least 153"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-19",
+    "google-news:Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "google-news:Drone strike on a market in disputed African region of Abyei kills at least 153",
+    "outlet:BBC",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "BBC",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+     "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-20T17:30:15+00:00"
+    },
+    {
+     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+     "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-20T15:58:15+00:00"
+    }
+   ],
+   "id": "wp-2026_Abyei_market_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-20",
+   "coords": null,
+   "has_coords": false
+  }
+ ],
  "outlets": {
-  "headlines": 836,
+  "headlines": 835,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 0
+  "matched": 30,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 835 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
