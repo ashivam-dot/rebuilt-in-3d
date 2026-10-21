@@ -137,6 +137,40 @@ def find(api, channel: dict, short_id: str) -> dict | None:
     return hits[0] if hits else None
 
 
+# How far back an upload the ledger lost can be found again: a state save that failed (a rebase conflict, a failed
+# push, a lost runner) is retried by the next hourly run, and a story is rebuilt within a day or two.
+UNRECORDED_AGE = timedelta(hours=48)
+
+
+class Unrecorded(RuntimeError):
+    """This story is already on the channel as an upload the ledger does not know: never upload it a second time."""
+
+
+def unrecorded(api, channel: dict, short: Short, at: datetime | None = None) -> dict | None:
+    """An upload of this story the ledger lost: one of the recent uploads under UNRECORDED_AGE old (private,
+    scheduled, or public when the state save after publishing was the one lost) that no ledger row or old MARKER tag
+    claims and whose description lists the story's Wikipedia or first source URL (already public, so nothing new is
+    said about which video is which story)."""
+    at = at or datetime.now(timezone.utc)
+    urls = [u for u in dict.fromkeys(short.sources[:1] + [u for u in short.sources if "wikipedia.org/" in u]) if u]
+    if not urls:
+        return None
+    known = {r.get("video_id") for r in ledger.published()} | {u.get("video_id") for u in ledger.uploads().values()}
+    for v in recent(api, channel):
+        snippet = v["snippet"]
+        uploaded = snippet.get("publishedAt")
+        if v["id"] in known or v["id"] in RETRACTED or not uploaded:
+            continue
+        if any(t.startswith(MARKER) for t in snippet.get("tags") or []):
+            continue
+        if at - datetime.fromisoformat(uploaded.replace("Z", "+00:00")) > UNRECORDED_AGE:
+            continue
+        lines = set((snippet.get("description") or "").splitlines())
+        if any(u in lines for u in urls):
+            return v
+    return None
+
+
 def source_lines(short: Short) -> list[str]:
     """The sources block: "Sources: Wikipedia, BBC, The Hindu" naming who the facts come from (when trusted outlets'
     reporting backs any), then every source URL."""
@@ -209,6 +243,10 @@ def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None
     existing = find(api, channel, short.id)
     if existing:
         video_id = existing["id"]
+    elif twin := unrecorded(api, channel, short):
+        raise Unrecorded(f"{twin['id']} (uploaded {twin['snippet'].get('publishedAt')}, "
+                         f"{(twin.get('status') or {}).get('privacyStatus')}) lists this story's source but no ledger row: the "
+                         "state save after its upload was lost; publish or delete it in Studio, never upload again")
     else:
         body = {
             "snippet": {"title": short.title, "description": description(short), "tags": tags(short),

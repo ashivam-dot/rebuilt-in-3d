@@ -72,6 +72,26 @@ def record_upload(story_id: str, video_id: str) -> None:
     save("uploads", pending)
 
 
+# An upload still unpublished after this long is not a run cut short but a story that failed or was skipped on its
+# rebuild: its private video waits on the channel for a person.
+STALE_UPLOAD_HOURS = 24
+
+
+def stale_uploads(at: datetime | None = None) -> list[str]:
+    """Health notes for uploads.json entries older than STALE_UPLOAD_HOURS (each left as a private video)."""
+    at = at or datetime.now(timezone.utc)
+    notes = []
+    for story_id, row in sorted(uploads().items()):
+        try:
+            hours = (at - datetime.fromisoformat(row["at"])).total_seconds() / 3600
+        except (KeyError, TypeError, ValueError):
+            continue
+        if hours >= STALE_UPLOAD_HOURS:
+            notes.append(f"stale upload {story_id}: video {row.get('video_id')} uploaded {hours:.0f} h ago and never "
+                         "published; publish or delete it in Studio, then drop it from state/uploads.json")
+    return notes
+
+
 def skip(story_id: str, reason: str) -> None:
     skipped = load("skipped", {})
     skipped[story_id] = {"reason": reason, "at": now()}

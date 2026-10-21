@@ -1,4 +1,5 @@
 from dataclasses import replace
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pytest
@@ -111,6 +112,7 @@ def test_publish_records_the_upload_before_waiting_for_youtube(tmp_path, monkeyp
     monkeypatch.setattr(youtube, "client", lambda: type("Api", (), {"videos": lambda self: videos})())
     monkeypatch.setattr(youtube, "identity", lambda api: {})
     monkeypatch.setattr(youtube, "find", lambda api, channel, short_id: None)
+    monkeypatch.setattr(youtube, "unrecorded", lambda api, channel, short: None)
     monkeypatch.setattr(youtube, "MediaFileUpload", lambda *a, **k: None)
     monkeypatch.setattr(youtube.time, "sleep", lambda s: None)
     short = replace(Short.load(FIXTURE), id="wk-up")
@@ -150,3 +152,82 @@ def test_publish_waits_for_youtube_to_report_the_video_public(tmp_path, monkeypa
     videos = _Videos(["private"] * 7)
     with pytest.raises(RuntimeError, match=r"did not go public \(private\)"):
         youtube.publish(Short.load(FIXTURE), tmp_path / "short.mp4")
+
+
+AT = datetime(2026, 10, 22, 12, tzinfo=timezone.utc)
+SOURCE = "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi"
+
+
+def _upload(vid, at="2026-10-22T02:00:00Z", description=f"A quake.\n\nSources:\n{SOURCE}\n", privacy="private",
+            tags=()):
+    v = _video(vid, tags)
+    v["snippet"] |= {"publishedAt": at, "description": description}
+    v["status"]["privacyStatus"] = privacy
+    return v
+
+
+def test_an_upload_whose_state_save_was_lost_is_found_by_its_source_url():
+    """Uploaded, then the run's state save failed: uploads.json never reached the state branch, and new uploads carry
+    no marker tag. The story's source URL in the description still says the video is this story's."""
+    from studio import ledger
+
+    short = Short.load(FIXTURE)
+    assert SOURCE in short.sources
+    api, _ = _api([_upload("LOST")])
+    assert youtube.find(api, CHANNEL, short.id) is None
+    assert youtube.unrecorded(api, CHANNEL, short, at=AT)["id"] == "LOST"
+    # The same lost save after it went public too.
+    assert youtube.unrecorded(_api([_upload("LOST", privacy="public")])[0], CHANNEL, short, at=AT)["id"] == "LOST"
+    # Not when the ledger knows the video (it is another story's), or it is old, or a marker tag claims it, or its
+    # description only shares a prefix of the URL.
+    for videos in ([_upload("LOST", at="2026-10-19T00:00:00Z")], [_upload("TAG", tags=[youtube.MARKER + "wk-Q1"])],
+                   [_upload("NEAR", description=f"Sources:\n{SOURCE}x\n")]):
+        assert youtube.unrecorded(_api(videos)[0], CHANNEL, short, at=AT) is None
+    ledger.record_upload("eq-other", "LOST")
+    assert youtube.unrecorded(api, CHANNEL, short, at=AT) is None
+
+
+def test_publish_never_uploads_a_story_already_on_the_channel_unrecorded(tmp_path, monkeypatch):
+    class Videos(_Videos):
+        def insert(self, **k):
+            raise AssertionError("uploaded a second copy")
+
+    api, _ = _api([_upload("LOST", at=datetime.now(timezone.utc).isoformat())])
+    monkeypatch.setattr(youtube, "client", lambda: api)
+    monkeypatch.setattr(youtube, "identity", lambda a: CHANNEL)
+    with pytest.raises(youtube.Unrecorded, match="LOST"):
+        youtube.publish(Short.load(FIXTURE), tmp_path / "short.mp4")
+
+
+def test_a_run_holds_an_unrecorded_upload_and_reports_it(monkeypatch):
+    from studio import cli, ledger, plan
+
+    cand = {"id": "eq-us6000u0xi", "kind": "quake", "fame": 9}
+    short = Short.load(FIXTURE)
+    monkeypatch.setattr(ledger, "set_identity", lambda: None)
+    monkeypatch.setattr(cli.learn, "refresh", lambda: None)
+    monkeypatch.setattr(youtube, "client", lambda *a: (_ for _ in ()).throw(RuntimeError("offline")))
+    monkeypatch.setattr(plan, "watch", lambda: {"candidates": [cand], "quakes": [cand], "trending": [], "hazards": []})
+    monkeypatch.setattr(plan, "lineup", lambda c: (c, []))
+    monkeypatch.setattr(cli, "prepare", lambda c: short)
+    monkeypatch.setattr(cli, "make", lambda c, s: (s, {"duration": 40}))
+    monkeypatch.setattr(cli.gate, "channel_mix", lambda *a: None)
+
+    def publish(story_id):
+        raise youtube.Unrecorded("LOST (uploaded 2026-10-22T02:00:00Z, private) lists this story's source")
+
+    monkeypatch.setattr(cli, "publish", publish)
+    health = cli.run()
+    assert health["ok"] and "published" not in health
+    assert any(s.startswith(f"hold {cand['id']}: LOST") for s in health["steps"])
+    assert any("unrecorded upload" in w for w in health["warnings"])
+    assert ledger.is_done(cand["id"])  # never rebuilt and offered again
+
+
+def test_an_upload_never_published_is_reported_after_a_day():
+    from studio import ledger
+
+    ledger.save("uploads", {"wk-Q1": {"video_id": "OLD1", "at": "2026-10-20T10:00:00+00:00"},
+                            "wk-Q2": {"video_id": "NEW2", "at": "2026-10-22T09:00:00+00:00"}})
+    notes = ledger.stale_uploads(AT)
+    assert len(notes) == 1 and notes[0].startswith("stale upload wk-Q1: video OLD1 uploaded 50 h ago")

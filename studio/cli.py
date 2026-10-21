@@ -124,6 +124,7 @@ def run(dry: bool = False) -> dict:
                 health["steps"] += youtube.retract(youtube.client())
             except Exception as exc:
                 health["steps"].append(f"retract: {type(exc).__name__}: {exc}"[:300])
+            health["steps"] += ledger.stale_uploads()
         found = plan.watch()
         health["steps"].append(f"watch: {len(found['candidates'])} candidates ({len(found['quakes'])} quakes, "
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")
@@ -182,7 +183,16 @@ def run(dry: bool = False) -> dict:
             if dry:
                 health["steps"].append(f"dry run: made {short.id} ({stats['duration']} s), not published")
                 return health
-            result = publish(short.id)
+            from . import youtube
+
+            try:
+                result = publish(short.id)
+            except youtube.Unrecorded as exc:
+                # A story already on the channel under a lost ledger row: never a second copy of it.
+                ledger.skip(cand["id"], f"already uploaded: {exc}"[:300])
+                health["steps"].append(f"hold {cand['id']}: {exc}"[:400])
+                health.setdefault("warnings", []).append(f"{cand['id']}: unrecorded upload {exc}"[:300])
+                continue
             health["steps"].append(f"published {short.id}: {result['url']}")
             health["published"] = result
             return health
