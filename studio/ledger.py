@@ -72,6 +72,13 @@ def record_upload(story_id: str, video_id: str) -> None:
     save("uploads", pending)
 
 
+def longform_videos() -> set[str]:
+    """The long-form episodes' video ids (state/longform.json, written only by studio/longform/publish.py): never a
+    Short's upload, so no Short job adopts, retags or re-uploads over one."""
+    rows = (load("longform", {}).get("episodes") or {}).values()
+    return {r["video_id"] for r in rows if r.get("video_id")}
+
+
 def markers() -> dict:
     """Story ids read off an old upload's public MARKER tag that no published row names, by story id: video id. Kept
     before channel.untag takes the tag off, so youtube.find still knows the upload."""

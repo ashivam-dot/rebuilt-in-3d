@@ -174,6 +174,7 @@ def unrecorded(api, channel: dict, short: Short, at: datetime | None = None) -> 
     if not urls:
         return None
     known = {r.get("video_id") for r in ledger.published()} | {u.get("video_id") for u in ledger.uploads().values()}
+    known |= ledger.longform_videos()
     for v in recent(api, channel):
         snippet = v["snippet"]
         uploaded = snippet.get("publishedAt")

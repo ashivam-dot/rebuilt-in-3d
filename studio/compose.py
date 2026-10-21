@@ -323,14 +323,18 @@ def _mix(narration: Path, short: Short, seconds: float, out: Path) -> Path:
 
     bed = music.score(seconds + 0.5, short.scene.get("mood", "tribute"), short.id)
     sf.write(out / "music.wav", bed, music.SR)
-    mixed = out / "mix.wav"
+    return duck(narration, out / "music.wav", seconds, out / "mix.wav")
+
+
+def duck(narration: Path, bed: Path, seconds: float, mixed: Path) -> Path:
+    """Narration over a music bed that ducks under the voice, at -14 LUFS, exactly `seconds` long (48 kHz stereo)."""
     graph = ("[0:a]aresample=48000,highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
              "volume=1.0,asplit=2[v][key];"
              "[1:a]aresample=48000,volume=0.30[m];"
              "[m][key]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=400[duck];"
              "[v][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9,"
              f"apad,atrim=0:{seconds:.3f}[out]")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration), "-i", str(out / "music.wav"),
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration), "-i", str(bed),
                     "-filter_complex", graph, "-map", "[out]", "-ar", "48000", "-ac", "2", str(mixed)], check=True)
     return mixed
 

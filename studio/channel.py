@@ -378,7 +378,7 @@ def remember(videos: list[dict]) -> int:
     published rows do not name is kept in state/markers.json (youtube.find reads it). How many it added."""
     rows = ledger.published()
     owned = {r.get("video_id") for r in rows} | {u.get("video_id") for u in ledger.uploads().values()}
-    owned |= set(ledger.markers().values())
+    owned |= set(ledger.markers().values()) | ledger.longform_videos()
     by_story = {r["id"]: r for r in rows}
     added = changed = 0
     for v in videos:
