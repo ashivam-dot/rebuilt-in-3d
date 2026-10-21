@@ -1,41 +1,27 @@
 {
- "at": "2026-10-21T00:00:47+00:00",
+ "at": "2026-10-21T00:44:47+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 151742,
+   "fame": 251742,
    "views": 101742,
    "traffic": 0,
-   "news": 50000,
+   "news": 150000,
    "news_at": "2026-10-20T21:05:50+00:00",
    "headlines": [
-    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
-    "Suspect arrested after historic town hall set alight - French media"
+    "Suspect arrested after Limoges town hall set alight during disorder - French media",
+    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-19",
-    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
-    "google-news:Suspect arrested after historic town hall set alight - French media",
-    "outlet:BBC"
+    "google-news:Suspect arrested after Limoges town hall set alight during disorder - French media",
+    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Suspect arrested after historic town hall set alight - French media",
-     "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-20T21:05:50+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141615137-2026w43",
    "kind": "incident",
    "category": "protest",
@@ -46,15 +32,16 @@
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
-   "fame": 97764,
+   "fame": 98264,
    "views": 97764,
-   "traffic": 0,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-19",
+    "google-trends-US:the fugitive"
    ],
    "owners": [],
    "reports": [],
@@ -159,6 +146,26 @@
    "date": "2026-10-18"
   },
   {
+   "qid": "Q3424313",
+   "title": "Deva (composer)",
+   "fame": 31420,
+   "views": 31420,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3424313",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-17"
+  },
+  {
    "qid": "Q141764900",
    "title": "CFB Wainwright fire",
    "fame": 25580,
@@ -186,16 +193,16 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 15911,
+   "fame": 14111,
    "views": 13911,
-   "traffic": 2000,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
-   "region": "world",
+   "region": "india",
    "via": [
     "wikipedia-top-2026-10-19",
-    "google-trends-US:school"
+    "google-trends-IN:school"
    ],
    "owners": [],
    "reports": [],
@@ -303,12 +310,33 @@
    "lon": "131.5"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q3424313",
+   "title": "Deva (composer)",
+   "fame": 31420,
+   "views": 31420,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3424313",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-17"
+  }
+ ],
  "outlets": {
   "headlines": 823,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
+  "matched": 24,
   "corroborated": 1
  },
  "emerging": [
@@ -388,5 +416,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }

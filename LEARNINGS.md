@@ -1,24 +1,24 @@
 # What this channel's own numbers say
 
-Updated 2026-10-20T21:10:57+00:00. Scored Shorts (views at 24 h): 37. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-21T00:44:46+00:00. Scored Shorts (views at 24 h): 38. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 151 views at 24 h.
-- kind:death: x1.194 ranking lift (10 Shorts, typical 194 views)
-- kind:incident: x1.184 ranking lift (20 Shorts, typical 185 views)
-- category:protest: x1.125 ranking lift (4 Shorts, typical 191 views)
-- category:death: x1.01 ranking lift (9 Shorts, typical 153 views)
+Baseline: a typical Short has 156 views at 24 h.
+- kind:death: x1.251 ranking lift (11 Shorts, typical 212 views)
+- kind:incident: x1.152 ranking lift (20 Shorts, typical 185 views)
+- category:protest: x1.107 ranking lift (4 Shorts, typical 191 views)
+- category:death: x1.077 ranking lift (10 Shorts, typical 173 views)
 - kind:quake: x0.75 ranking lift (7 Shorts, typical 59 views)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 97 |  |
-| wk-Q1889124 | 2026-10-20T00:12 | death | death | 512 |  |
-| wk-Q5115327 | 2026-10-19T16:51 | death | death | 391 | 371 |
-| wk-Q1702112 | 2026-10-19T14:33 | death | death | 420 | 385 |
-| wk-Q3837943 | 2026-10-19T12:32 | death | death | 819 | 732 |
-| wk-Q438492 | 2026-10-19T10:18 | death | death | 1280 | 1272 |
-| nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1096 | 1078 |
-| wk-Q141592947-2026w42 | 2026-10-18T21:39 | incident | protest | 252 | 207 |
+| wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 107 |  |
+| wk-Q1889124 | 2026-10-20T00:12 | death | death | 521 | 520 |
+| wk-Q5115327 | 2026-10-19T16:51 | death | death | 396 | 371 |
+| wk-Q1702112 | 2026-10-19T14:33 | death | death | 429 | 385 |
+| wk-Q3837943 | 2026-10-19T12:32 | death | death | 825 | 732 |
+| wk-Q438492 | 2026-10-19T10:18 | death | death | 1283 | 1272 |
+| nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1101 | 1078 |
+| wk-Q141592947-2026w42 | 2026-10-18T21:39 | incident | protest | 255 | 207 |
 | nw-20261017-paris-protest | 2026-10-18T11:34 | incident | protest | 325 | 313 |
 | wk-Q141605182 | 2026-10-17T18:37 | incident | aviation | 19 | 14 |
 | wk-Q141717158-2026w42 | 2026-10-17T04:44 | incident | protest | 50 | 19 |
@@ -30,7 +30,7 @@ Baseline: a typical Short has 151 views at 24 h.
 | eq-us6000u2mq | 2026-10-16T15:53 | quake |  | 33 | 33 |
 | nw-20261014-black-strike | 2026-10-15T18:13 | incident | strike | 371 | 371 |
 | wk-Q139998119-2026w42 | 2026-10-15T12:15 | incident | protest | 1079 | 1042 |
-| wk-Q1438992 | 2026-10-15T04:17 | death | death | 969 | 884 |
+| wk-Q1438992 | 2026-10-15T04:17 | death | death | 970 | 884 |
 | wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 877 | 673 |
 | wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 287 | 268 |
 | wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 90 | 38 |
