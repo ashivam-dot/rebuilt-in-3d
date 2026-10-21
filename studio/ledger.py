@@ -55,6 +55,21 @@ def record_publish(entry: dict) -> None:
     rows = published()
     rows = [r for r in rows if r["id"] != entry["id"]] + [entry]
     save("published", rows)
+    pending = uploads()
+    if pending.pop(entry["id"], None) is not None:
+        save("uploads", pending)
+
+
+def uploads() -> dict:
+    """Stories uploaded and not yet recorded as published, by story id: {"video_id", "at"}. The ledger, not a public
+    tag, says which video is which story (studio/youtube.py find)."""
+    return load("uploads", {})
+
+
+def record_upload(story_id: str, video_id: str) -> None:
+    pending = uploads()
+    pending[story_id] = {"video_id": video_id, "at": now()}
+    save("uploads", pending)
 
 
 def skip(story_id: str, reason: str) -> None:

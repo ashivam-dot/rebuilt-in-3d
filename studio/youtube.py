@@ -12,13 +12,16 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-from . import media
+from . import ledger, media
 from .spec import Short
 
 CHANNEL_ID = "UCfqAy1IxE2Cwu9pmZGMambA"
 TOKEN_FILE = Path(__file__).resolve().parents[1] / "secrets" / "token.json"
 CATEGORY = "27"  # Education: explainers, not breaking news
-MARKER = "rebuilt-in-3d:"  # the channel's first name; published uploads carry it, so it must not change
+# Uploads before 2026-10-22 carry MARKER + story id as a public tag ("rebuilt-in-3d:wk-Q123", the channel's first
+# name), which viewers can read in the page source. New uploads carry topic tags only; find() still reads the old
+# marker so a story uploaded before then is never uploaded again, so it must not change.
+MARKER = "rebuilt-in-3d:"
 
 
 def client(service: str = "youtube", version: str = "v3"):
@@ -73,7 +76,18 @@ def recent(api, channel: dict, limit: int = 50) -> list[dict]:
 
 
 def find(api, channel: dict, short_id: str) -> dict | None:
-    hits = [v for v in recent(api, channel) if MARKER + short_id in (v["snippet"].get("tags") or [])]
+    """The upload already made for a story, if any: the one the ledger records (published, or uploaded and not yet
+    public, state/uploads.json) while it is still on this channel, else one of the recent uploads carrying the old
+    MARKER tag."""
+    known = [r.get("video_id") for r in ledger.published() if r["id"] == short_id]
+    known.append((ledger.uploads().get(short_id) or {}).get("video_id"))
+    ids = list(dict.fromkeys(v for v in known if v))
+    hits = []
+    if ids:
+        items = api.videos().list(part="snippet,status", id=",".join(ids)).execute().get("items", [])
+        hits = [v for v in items if v["snippet"]["channelId"] == CHANNEL_ID]
+    if not hits:
+        hits = [v for v in recent(api, channel) if MARKER + short_id in (v["snippet"].get("tags") or [])]
     if len(hits) > 1:
         raise RuntimeError(f"{short_id} is on the channel twice: resolve by hand before publishing again")
     return hits[0] if hits else None
@@ -132,14 +146,15 @@ def _description(short: Short, narration: bool) -> str:
 
 
 def tags(short: Short) -> list[str]:
-    marker = MARKER + short.id
-    out, total = [], len(marker) + 2
+    """The story's topic tags and the channel's name, within YouTube's 500 characters; no machine identifier (the
+    ledger knows which video is which story)."""
+    out, total = [], 0
     for t in short.tags + ["Orbitwire"]:
         if total + len(t) + 2 > 480:
             break
         out.append(t)
         total += len(t) + 2
-    return out + [marker]
+    return out
 
 
 def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None = None) -> dict:
@@ -162,6 +177,8 @@ def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None
         while response is None:
             _, response = request.next_chunk(num_retries=3)
         video_id = response["id"]
+        # Recorded at once: a run cut short while YouTube processes it finishes this upload next time (find).
+        ledger.record_upload(short.id, video_id)
     deadline = time.monotonic() + max_wait
     while True:
         video = api.videos().list(part="snippet,status,processingDetails", id=video_id).execute()["items"][0]

@@ -1,8 +1,17 @@
 # Channel rules (binding for every Short)
 
 The channel is **Orbitwire** (`@orbitwirenews`, `UCfqAy1IxE2Cwu9pmZGMambA`), a brand channel owned by
-aksha.shivam18@gmail.com. It was called Rebuilt in 3D until 9 October 2026; the repo, site URL and upload tag marker
-keep that old name on purpose. All browser work for it happens in Chrome Profile 5 only; never a work account.
+aksha.shivam18@gmail.com. It was called Rebuilt in 3D until 9 October 2026; the repo and site URL keep that old name
+on purpose. All browser work for it happens in Chrome Profile 5 only; never a work account.
+
+**Which video is which story is the ledger's business, not a public tag (2026-10-22).** Uploads until then carried
+`rebuilt-in-3d:<story id>` (e.g. `rebuilt-in-3d:wk-Q123`) among their public tags, a machine identifier anyone can
+read in the page source. New uploads carry topic tags and "Orbitwire" only. The upload's video id is written to
+`state/uploads.json` the moment YouTube accepts the file (so a run cut short while it processes finishes that upload
+next time instead of uploading again) and moves to `published.json` once it is public. `youtube.find` checks the
+ledger first, then still reads the old marker on recent uploads, so no story uploaded before the change is ever
+uploaded twice; the old tags are left on those videos (rewriting 40 snippets costs quota and could undo Studio
+edits, and a stale tag does no harm).
 
 ## What it is
 
