@@ -5,7 +5,7 @@ from studio import ledger, media, outlets
 
 @pytest.fixture(autouse=True)
 def offline_outlets(monkeypatch):
-    """No test reads a live outlet feed, article or Openverse; tests that need them give fixtures."""
+    """No test reads a live outlet feed, article, Openverse or NASA search; tests that need them give fixtures."""
     def offline(*args, **kwargs):
         raise ConnectionError("offline in tests")
 
@@ -13,6 +13,7 @@ def offline_outlets(monkeypatch):
     monkeypatch.setattr(outlets, "_feed", offline)
     monkeypatch.setattr(outlets, "_extract", offline)
     monkeypatch.setattr(media, "openverse_for", lambda *args, **kwargs: [])
+    monkeypatch.setattr(media, "nasa_for", lambda *args, **kwargs: [])
     yield
     outlets.reset()
 

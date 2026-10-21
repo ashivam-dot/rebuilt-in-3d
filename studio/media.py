@@ -3,7 +3,9 @@
 Only files hosted on Commons qualify (non-free "fair use" files live on Wikipedia itself and are never touched), and
 only CC0, public-domain, CC BY and CC BY-SA licences pass. Logos, maps, signatures and anything whose name suggests
 injury or death imagery are skipped. When Commons has too few, Openverse (keyless) fills in photos of the story's
-places and things only, under CC0, CC BY or CC BY-SA; outlet photos are never used.
+places and things only, under CC0, CC BY or CC BY-SA; outlet photos are never used. A storm, eruption, flood, fire or
+other natural disaster may also take NASA Image and Video Library photos of the event itself (public domain, NASA's
+own only: nasa()).
 """
 from __future__ import annotations
 
@@ -11,6 +13,7 @@ import hashlib
 import html
 import re
 from dataclasses import asdict, dataclass
+from datetime import date
 from pathlib import Path
 
 from . import net, wiki
@@ -228,6 +231,124 @@ def openverse(query: str, limit: int = OPENVERSE_PER_PLACE, exclude: set[str] | 
     return photos
 
 
+NASA = "https://images-api.nasa.gov/search"
+NASA_LICENCE = "Public domain (NASA)"
+NASA_HOST = "NASA Image and Video Library"
+# Story categories (trends.ORDER) whose events NASA's cameras see: storms and smoke from orbit, eruptions, floods.
+# Never people, attacks or transport incidents.
+NASA_CATEGORIES = {"cyclone", "volcano", "flood", "wildfire", "landslide", "tsunami", "earthquake", "disaster"}
+NASA_PER_STORY = 3
+# NASA's own works are public domain; its library also holds partners' and agencies' images under their terms. A
+# credit passes only when every party in it is NASA, one of its centres, or (after "NASA/") a NASA photographer;
+# US federal partners' works (NOAA, USGS) are public domain too.
+NASA_PARTY = re.compile(r"^(?:NASA\b.*|JPL(?:-Caltech)?|Caltech|GSFC|LaRC|JSC|KSC|MSFC|ARC|GRC|AFRC|SSC|NOAA|USGS)$")
+_PERSON = re.compile(r"^[A-Z][a-z'’.-]+(?: [A-Z][a-z'’.-]*){1,3}$")
+_ORG_WORD = re.compile(r"\b(?:Systems?|Agency|Space|University|Institute|Inc|Corp\w*|Ltd|LLC|Company|Images?|Photos?|"
+                       r"Press|News|Team|Mission|Labs?|Laborator\w+|Observatory|Society|Foundation|Japan|Europe\w*|"
+                       r"Getty|Reuters|Associated|Maxar|Airbus|Planet)\b")
+# A third party's rights named anywhere in the record.
+THIRD_PARTY = re.compile(r"(courtesy|©|\(c\)\s*\d|copyright|all rights reserved|used with permission|getty|reuters|"
+                         r"associated press|\bAP Photo|\bAFP\b|\bESA\b|JAXA|Roscosmos|Maxar|DigitalGlobe|Planet Labs|"
+                         r"Airbus)", re.I)
+# Not a photograph of what happened: radar and thermal data, annotated or false-colour views, artwork.
+NASA_NOT_PHOTO = re.compile(r"(radar|interferogra|insar|\bsar\b|infrared|thermal|annotated|false.colou?r|"
+                            r"illustration|artist|concept|animation|render|simulat|\bmodel\b|visuali[sz]ation|"
+                            r"graphic|poster|\bplot\b)", re.I)
+
+
+def nasa_credit_ok(credit: str) -> bool:
+    """Every party a NASA credit names is NASA's own ("NASA/JPL-Caltech", "NASA/Bill Ingalls"), never a partner's
+    ("NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team")."""
+    parts = [p.strip(" .") for p in re.split(r"\s*(?:/|,|;|&|\band\b)\s*", credit or "") if p.strip(" .")]
+    lead = bool(parts) and parts[0].startswith("NASA")
+    return all(NASA_PARTY.match(p) or (lead and _PERSON.match(p) and not _ORG_WORD.search(p)) for p in parts)
+
+
+def nasa_rights_ok(data: dict) -> bool:
+    """A NASA library record whose credits are all NASA's and that names no other rights holder."""
+    desc = " ".join(str(data.get(k) or "") for k in ("description", "description_508", "title"))
+    if THIRD_PARTY.search(desc) or THIRD_PARTY.search(str(data.get("secondary_creator") or "")):
+        return False
+    credits = [data.get("secondary_creator"), data.get("photographer")]
+    credits += [m.group(1) for m in re.finditer(r"\b(?:image |photo )?credits?\s*:\s*([^\n;]+?)(?:\.\s|$)", desc,
+                                                re.I)]
+    return all(nasa_credit_ok(c) for c in credits if c)
+
+
+def _nasa_rendition(links: list[dict]) -> dict | None:
+    """The "~large" JPEG (1920 px), else the widest rendition with its size; None without one."""
+    sized = [link for link in links or [] if link.get("width") and link.get("height")
+             and (link.get("href") or "").startswith("https://") and link["href"].lower().endswith((".jpg", ".jpeg"))]
+    large = [link for link in sized if "~large." in link["href"]]
+    return (large or sorted(sized, key=lambda link: -link["width"]) or [None])[0]
+
+
+def nasa(query: str, since: date, words: tuple[str, ...] = (), limit: int = NASA_PER_STORY,
+         exclude: set[str] | None = None) -> list[Photo]:
+    """Photos of a natural disaster from NASA's Image and Video Library (keyless): taken on or after `since` (a
+    photo of the place from another year would pass an old storm off as this one), whose title names the query and,
+    given `words`, a word starting with one of them ("hurricane", "smoke"), with NASA's own credit only
+    (nasa_rights_ok), at most two under one title. Never asked about a person; callers drop any photo that features
+    a face."""
+    d = net.get_json(NASA, params={"q": query, "media_type": "image", "year_start": since.year, "page_size": 40},
+                     tries=2, timeout=30)
+    keys = _keys(query)
+    photos, today, titles = [], date.today().isoformat(), {}
+    for item in (d.get("collection") or {}).get("items") or []:
+        data = (item.get("data") or [{}])[0]
+        nid, title = str(data.get("nasa_id") or ""), _text(data.get("title"))
+        desc, taken = _text(data.get("description"), 400), str(data.get("date_created") or "")[:10]
+        file = f"nasa:{nid}"
+        if not nid or data.get("media_type") != "image" or file in (exclude or set()):
+            continue
+        if not since.isoformat() <= taken <= today or not nasa_rights_ok(data):
+            continue
+        if NOT_PHOTO.search(title) or NASA_NOT_PHOTO.search(title) or GRAPHIC.search(f"{title} {desc}"):
+            continue
+        if not _names(title, keys) or (words and not re.search(r"\b(?:" + "|".join(words) + ")", title.lower())):
+            continue
+        if titles.get(title.lower(), 0) >= 2:  # one crew's run of near-identical frames: keep the Short varied
+            continue
+        link = _nasa_rendition(item.get("links"))
+        if not link or min(link["width"], link["height"]) < MIN_SIDE:
+            continue
+        credit = _text(data.get("secondary_creator"), 60) or "NASA"
+        titles[title.lower()] = titles.get(title.lower(), 0) + 1
+        photos.append(Photo(file=file, url=link["href"], page=f"https://images.nasa.gov/details/{nid}",
+                            width=link["width"], height=link["height"], author=credit, license=NASA_LICENCE,
+                            description=title, date=taken, origin="nasa", host=NASA_HOST))
+        if len(photos) >= limit:
+            break
+    return photos
+
+
+# What a NASA photo's title must say for a category, so a quiet view of the region is not passed off as the event.
+NASA_WORDS = {"cyclone": ("hurricane", "typhoon", "cyclone", "storm"),
+              "volcano": ("volcan", "erupt", "ash", "lava", "plume"), "flood": ("flood", "cloudburst"),
+              "wildfire": ("fire", "wildfire", "bushfire", "smoke", "burn"), "landslide": ("landslide",),
+              "tsunami": ("tsunami",), "earthquake": ("earthquake", "quake"), "disaster": ()}
+
+
+def nasa_for(category: str | None, names: list[str], since: date, limit: int = NASA_PER_STORY,
+             exclude: set[str] | None = None) -> list[Photo]:
+    """NASA photos of a natural-disaster story by its name, then its places' names, each title also naming the kind
+    of event (NASA_WORDS); nothing for any other kind of story (NASA_CATEGORIES)."""
+    if category not in NASA_CATEGORIES:
+        return []
+    out, seen = [], set(exclude or ())
+    for name in dict.fromkeys(n for n in names if n):
+        try:
+            found = nasa(name, since, NASA_WORDS.get(category, ()), limit - len(out), seen)
+        except Exception:
+            continue
+        for p in found:
+            seen.add(p.file)
+            out.append(p)
+        if len(out) >= limit:
+            break
+    return out
+
+
 def place_like(ent: dict) -> bool:
     """A Wikidata item that is somewhere: it has coordinates and is not a person."""
     kinds = {c["value"] for c in wiki.claims(ent, "P31")}
@@ -329,6 +450,12 @@ def from_openverse(photo: dict) -> bool:
     return (photo.get("host") or "").startswith("Openverse")
 
 
+def from_nasa(photo: dict) -> bool:
+    return photo.get("host") == NASA_HOST
+
+
 def hosts(photos: list[dict]) -> str:
     """Where a Short's photos come from, as its end card and description name them."""
-    return "Wikimedia Commons and Openverse" if any(from_openverse(p) for p in photos) else "Wikimedia Commons"
+    named = ["Wikimedia Commons"] + (["Openverse"] if any(from_openverse(p) for p in photos) else []) \
+        + (["NASA"] if any(from_nasa(p) for p in photos) else [])
+    return ", ".join(named[:-1]) + " and " + named[-1] if len(named) > 1 else named[0]

@@ -101,6 +101,14 @@ whose text is at least half the same are one owner; a story with fewer than two 
 - **Photos:** when Commons has fewer than 3 usable photos, Openverse (keyless; CC0, CC BY and CC BY-SA only) fills
   in with photos of the places the story links to (Wikidata items with coordinates; never a person, group or work),
   never one that features a face.
+- **NASA photos (2026-10-22):** a natural-disaster story (cyclone, volcano, flood, wildfire, landslide, tsunami,
+  earthquake, disaster) still short of photos searches the NASA Image and Video Library (keyless) for its name and
+  places, with an event word in the title ("hurricane", "lava"…), taken from two days before the event on.
+  Licence "Public domain (NASA)", credit "NASA": a record whose credit names anyone but NASA and its centres (JPL,
+  GSFC…, NOAA, USGS) or says "courtesy", ©, a partner agency or a picture desk is refused, as are radar, infrared,
+  annotated, illustration and model images, and one that features a face. At most two frames under one title. The
+  photo floors (2, a tribute 3) are unchanged. Smithsonian is not used: its open-access images are museum objects,
+  never what happened.
 - **Description:** "Sources: Wikipedia, BBC, The Hindu" names the outlets behind the facts, then every URL. YouTube
   refuses a description over 5,000 bytes, so a long one drops the narration first and keeps every source and
   photo credit.
@@ -216,7 +224,8 @@ a trend signal when USGS rates them PAGER yellow or worse, or magnitude 7+.
 - Attacks: never name or show the attacker, never describe weapons or methods. Deaths: never speculate on a cause;
   no people convicted of crimes, no suicides.
 - 3D quake frames carry the badge "3D RECONSTRUCTION FROM DATA · NOT REAL FOOTAGE"; photo stories end on a card
-  saying "Real photos: Wikimedia Commons · Narration: AI voice". Every upload sets YouTube's
+  saying "Real photos: Wikimedia Commons · Narration: AI voice" (naming Openverse or NASA too when
+  they supplied any). Every upload sets YouTube's
   altered-or-synthetic-content flag.
 - At most two loss stories in any three consecutive uploads where the trend list allows it.
 - Corrections: a wrong fact is fixed in the description and pinned comment the same day; a wrong number on screen

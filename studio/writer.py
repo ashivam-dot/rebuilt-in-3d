@@ -680,6 +680,19 @@ def fill_photos(context_qids: list[str], folder: Path, exclude: set[str], need: 
     return kept
 
 
+def nasa_photos(category: str | None, names: list[str], when: date, folder: Path, exclude: set[str],
+                need: int) -> list[dict]:
+    """NASA's own public-domain photos of a natural disaster taken from 2 days before its date on (media.nasa_for),
+    with no featured face, for a storm, eruption, flood or fire whose free photos are fewer than WANT_PHOTOS."""
+    if need <= 0 or category not in media.NASA_CATEGORIES:
+        return []
+    try:
+        found = media.nasa_for(category, names, when - timedelta(days=2), limit=need, exclude=exclude)
+    except Exception:
+        found = []
+    return _faceless(found, folder / "nasa")
+
+
 def _faceless(found: list, folder: Path) -> list[dict]:
     """Downloaded photos as dicts, without any that features a face."""
     out = []
@@ -1056,6 +1069,9 @@ def build_incident(cand: dict, views: bool = False) -> Short:
                          places=not qid, context_qids=incident_context(ent, extra))
     if cat in gate.SHOWS and not cand.get("photo_files") and gate.showing(cat, photos) < gate.SHOWN_NEEDED:
         photos += vehicle_photos(cat, extra, work / "photos", {p["file"] for p in photos})
+    if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
+        photos += nasa_photos(cat, [name], when, work / "photos", {p["file"] for p in photos},
+                              WANT_PHOTOS - len(photos))
     photos = arrange(photos, cat)[:8]
     if cat in gate.SHOWS:
         # With enough photos of the train, plane or ship, a headquarters or a town photo would only be filler.
@@ -1157,8 +1173,8 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
     title = draft["title"].strip().strip('"')
     if not 20 <= len(title) <= 70:
         title = f"Remembering {name}" if kind == "death" else f"{name}: what happened"
-    if any(media.from_openverse(p) for p in photos):
-        credit = credit.replace("photos: Wikimedia Commons", "photos: Wikimedia Commons and Openverse")
+    if any(media.from_openverse(p) or media.from_nasa(p) for p in photos):
+        credit = credit.replace("photos: Wikimedia Commons", "photos: " + media.hosts(photos))
     if reports:
         credit += "; reporting: " + ", ".join(outlets.names(reports))
     credits = [credit] + sorted({p["credit"] + " " + p["page"] for p in photos})
@@ -1265,6 +1281,9 @@ def build_report(cand: dict) -> Short:
         photos = pick_photos(title, person, work / "photos", person=True)[:8]
     else:
         photos = arrange(fill_photos(context, work / "photos", set()))[:8] if context else []
+        if len(photos) < WANT_PHOTOS:
+            photos = arrange(photos + nasa_photos(cat, [name, where], when, work / "photos",
+                                                  {p["file"] for p in photos}, WANT_PHOTOS - len(photos)))[:8]
     if len(photos) < MIN_PHOTOS and place and not media.too_wide(place):
         country = list(wiki.labels([c["value"] for c in wiki.claims(place, "P17")[:1]
                                     if str(c["value"]).startswith("Q")]).values())
