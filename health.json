@@ -1,9 +1,13 @@
 {
- "at": "2026-10-21T02:15:04+00:00",
+ "at": "2026-10-21T03:10:27+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 11 trending), 1 hazard alerts",
-  "outlets: 820 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
-  "hold wk-Q3424313: outside the india window"
+  "watch: 4 candidates (0 quakes, 10 trending), 1 hazard alerts",
+  "outlets: 818 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
+  "hold wk-Q3424313: outside the india window",
+  "skip wk-Q130336535: gate: Wikidata lacks an exact birth or death date",
+  "skip wk-Q51641814: gate: no photo on Wikimedia Commons shows Ann Hornaday's face (a tribute needs one)",
+  "skip wk-Q2623922: gate: no photo on Wikimedia Commons shows Hiroshi Tsuchida's face (a tribute needs one)",
+  "nothing eligible to publish"
  ]
 }

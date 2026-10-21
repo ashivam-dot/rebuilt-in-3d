@@ -1,12 +1,12 @@
 {
- "at": "2026-10-21T02:15:04+00:00",
+ "at": "2026-10-21T03:10:28+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 151742,
-   "views": 101742,
+   "fame": 112611,
+   "views": 62611,
    "traffic": 0,
    "news": 50000,
    "news_at": "2026-10-21T00:45:06+00:00",
@@ -16,7 +16,7 @@
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19",
+    "wikipedia-top-2026-10-20",
     "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
     "google-news:Live: French PM Lecornu to meet with unions ahead of new protests",
     "outlet:France Médias Monde"
@@ -46,15 +46,15 @@
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
-   "fame": 97764,
-   "views": 97764,
+   "fame": 101727,
+   "views": 101727,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-20"
    ],
    "owners": [],
    "reports": [],
@@ -71,22 +71,26 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-10-20",
-   "news_at": "2026-10-20T18:09:00+00:00",
+   "news_at": "2026-10-21T02:18:10+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Drone strike on a market in disputed African region of Abyei kills at least 153",
     "More than 150 killed in Sudan drone strike on disputed Abyei border region",
-    "Sudan drone strike kills around 150 in Abyei market"
+    "Sudan drone strike kills around 150 in Abyei market",
+    "Drone strike on Abyei market near Sudan-South Sudan border kills 150"
    ],
-   "places": [],
+   "places": [
+    "Sudan-South"
+   ],
    "attackers": [
     "Sudan"
    ],
@@ -120,6 +124,16 @@
      "at": "2026-10-20T16:24:47+00:00"
     },
     {
+     "title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-21T02:18:10+00:00"
+    },
+    {
      "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
      "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
      "outlet": "ABC News",
@@ -133,43 +147,24 @@
    "via": [
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "qid": "Q19729623",
-   "title": "Napoleon Bonaparte (police officer)",
-   "fame": 34903,
-   "views": 34903,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q19729623",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-18"
-  },
-  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
-   "fame": 31420,
-   "views": 31420,
+   "fame": 31815,
+   "views": 31815,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-20"
    ],
    "owners": [],
    "reports": [],
@@ -179,62 +174,57 @@
    "date": "2026-10-17"
   },
   {
-   "qid": "Q141764900",
-   "title": "CFB Wainwright fire",
-   "fame": 25580,
-   "views": 25580,
+   "qid": "Q19729623",
+   "title": "Napoleon Bonaparte (police officer)",
+   "fame": 19166,
+   "views": 19166,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-20"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141764900",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": [
-    52.77577536273194,
-    -110.92431039218033
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q5115327",
-   "title": "Chuck Amato",
-   "fame": 13982,
-   "views": 13982,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5115327",
+   "id": "wk-Q19729623",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-19"
+   "date": "2026-10-18"
+  },
+  {
+   "qid": "Q2623922",
+   "title": "Hiroshi Tsuchida",
+   "fame": 19146,
+   "views": 19146,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2623922",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   },
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 13911,
-   "views": 13911,
+   "fame": 10410,
+   "views": 10410,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-20"
    ],
    "owners": [],
    "reports": [],
@@ -249,64 +239,64 @@
    "has_coords": true
   },
   {
-   "qid": "Q3837943",
-   "title": "Lua Blanco",
-   "fame": 12669,
-   "views": 12669,
+   "qid": "Q5115327",
+   "title": "Chuck Amato",
+   "fame": 10003,
+   "views": 10003,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-20"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q3837943",
+   "id": "wk-Q5115327",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-19"
+  },
+  {
+   "qid": "Q130336535",
+   "title": "Carlos Miguel Suárez",
+   "fame": 8594,
+   "views": 8594,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q130336535",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-19"
+  },
+  {
+   "qid": "Q51641814",
+   "title": "Ann Hornaday",
+   "fame": 7905,
+   "views": 7905,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q51641814",
    "kind": "death",
    "category": "death",
    "date": "2026-10-18"
-  },
-  {
-   "qid": "Q438492",
-   "title": "Michael Forest",
-   "fame": 9607,
-   "views": 9607,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q438492",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-14"
-  },
-  {
-   "qid": "Q7045350",
-   "title": "Noah Adams",
-   "fame": 7854,
-   "views": 7854,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-19"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7045350",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -326,15 +316,15 @@
   {
    "qid": "Q3424313",
    "title": "Deva (composer)",
-   "fame": 31420,
-   "views": 31420,
+   "fame": 31815,
+   "views": 31815,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-19"
+    "wikipedia-top-2026-10-20"
    ],
    "owners": [],
    "reports": [],
@@ -342,13 +332,73 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
+  },
+  {
+   "qid": "Q130336535",
+   "title": "Carlos Miguel Suárez",
+   "fame": 8594,
+   "views": 8594,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q130336535",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-19"
+  },
+  {
+   "qid": "Q51641814",
+   "title": "Ann Hornaday",
+   "fame": 7905,
+   "views": 7905,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q51641814",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-18"
+  },
+  {
+   "qid": "Q2623922",
+   "title": "Hiroshi Tsuchida",
+   "fame": 19146,
+   "views": 19146,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2623922",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-11"
   }
  ],
  "outlets": {
-  "headlines": 820,
+  "headlines": 818,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 21,
   "corroborated": 1
  },
  "emerging": [
@@ -360,22 +410,26 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-10-20",
-   "news_at": "2026-10-20T18:09:00+00:00",
+   "news_at": "2026-10-21T02:18:10+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Drone strike on a market in disputed African region of Abyei kills at least 153",
     "More than 150 killed in Sudan drone strike on disputed Abyei border region",
-    "Sudan drone strike kills around 150 in Abyei market"
+    "Sudan drone strike kills around 150 in Abyei market",
+    "Drone strike on Abyei market near Sudan-South Sudan border kills 150"
    ],
-   "places": [],
+   "places": [
+    "Sudan-South"
+   ],
    "attackers": [
     "Sudan"
    ],
@@ -409,6 +463,16 @@
      "at": "2026-10-20T16:24:47+00:00"
     },
     {
+     "title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-21T02:18:10+00:00"
+    },
+    {
      "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
      "url": "https://abcnews.com/International/wireStory/drone-strike-market-disputed-african-region-abyei-kills-137414992",
      "outlet": "ABC News",
@@ -422,11 +486,12 @@
    "via": [
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }
