@@ -11,7 +11,12 @@ read in the page source. New uploads carry topic tags and "Orbitwire" only. The 
 next time instead of uploading again) and moves to `published.json` once it is public. `youtube.find` checks the
 ledger first, then still reads the old marker on recent uploads, so no story uploaded before the change is ever
 uploaded twice; the old tags are left on those videos (rewriting 40 snippets costs quota and could undo Studio
-edits, and a stale tag does no harm).
+edits, and a stale tag does no harm). When neither finds it, an upload under 48 hours old that no ledger row or old
+tag claims and whose description lists the story's Wikipedia or first source URL on its own line is the same story
+under a lost state save (a failed rebase or push, a lost runner): the run never uploads it again, skips the story
+and reports `hold <id>` with the video id in the steps and warnings, for a person to publish or delete in Studio.
+An upload left in `uploads.json` for 24 hours or more (its story failed or was skipped on the rebuild, so a private
+video waits on the channel) is reported as `stale upload <id>` on every run until a person clears it.
 
 ## What it is
 
@@ -105,8 +110,12 @@ whose text is at least half the same are one owner; a story with fewer than two 
   earthquake, disaster) still short of photos searches the NASA Image and Video Library (keyless) for its name and
   places, with an event word in the title ("hurricane", "lava"…), taken from two days before the event on.
   Licence "Public domain (NASA)", credit "NASA": a record whose credit names anyone but NASA and its centres (JPL,
-  GSFC…, NOAA, USGS) or says "courtesy", ©, a partner agency or a picture desk is refused, as are radar, infrared,
-  annotated, illustration and model images, and one that features a face. At most two frames under one title. The
+  GSFC…, NOAA, USGS) or says "courtesy", ©, a partner agency or a picture desk is refused, and so is one whose
+  description names a partner's data however it is written (Copernicus/Sentinel, European Space Agency,
+  Himawari/Japan Meteorological Agency, EUMETSAT/Meteosat, KOMPSAT/KARI…) or data "processed/provided/operated by"
+  anyone but NASA, NOAA, USGS or another US federal body (Earth Observatory credits itself for imagery made from such
+  data). Radar, infrared, false-colour, annotated, illustration and model images are refused whether the title or
+  the description says so, as is one that features a face. At most two frames under one title. The
   photo floors (2, a tribute 3) are unchanged. Smithsonian is not used: its open-access images are museum objects,
   never what happened.
 - **Description:** "Sources: Wikipedia, BBC, The Hindu" names the outlets behind the facts, then every URL. YouTube
@@ -188,7 +197,9 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   Since 2026-10-22 a title may be framed on a cause or an outcome the sources state: "How Hurricane Milton Grew to
   Category 5 in a Day", "Why the Tigray War Displaced Millions", "<X> Exists Because of <Y>", with the same
   name-first, template and recent-opener rules. Such a title makes a claim, so the evidence check reads it with the
-  beats; a question mark or a vague tease ("What Happened Next", "The Real Reason", "Here's Why") is sent back on
+  beats, labelled "TITLE:" (a verdict the checker leaves out for it counts as a flag, and the rewrite note says "the
+  title"); on the last draft, when every beat is supported and only the title is not, the beats are kept under the
+  plain title ("<Name>: what happened", "Remembering <Name>") instead of losing the story. A question mark or a vague tease ("What Happened Next", "The Real Reason", "Here's Why") is sent back on
   the first two drafts, and "Why" is never used for a cause the sources call unknown or under investigation.
   Quake titles lead with magnitude and the nearest named place, then the impact (people in strong shaking or worse,
   else the
@@ -284,3 +295,6 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
 | 2026-10-22 | Blend YouTube Analytics retention into the desk's lifts (needs the `yt-analytics.readonly` scope, else a no-op with one health note) | Views alone rank: 40 Shorts at 0-1,626 views (`state/performance.json`, 2026-10-21 18:07 UTC) say who clicked, not what held them; retention ranged 41-43% (tribute "has died" openers) to 64-101% (event openers) |
 | 2026-10-22 | The last beat closes on what happens next or why it matters; the spoken "Follow Orbitwire..." outro is dropped, the end card holds silently for 2 s | The same 10-word line (about 4 s) ended every story Short: identical narration across uploads is a templated signal, and a call to action is the last thing heard instead of the story |
 | 2026-10-22 | Curiosity titles ("How/Why <thing> <outcome>", "<X> Exists Because of <Y>") where the sources state it, fact-checked; teases refused | Titles read as wire headlines ("<Place> <Event>: <What Happened>"); the How/Why framing names a specific outcome while keeping the searchable name first |
+| 2026-10-22 | NASA records naming a partner's data in the description (Copernicus Sentinel, ESA, Himawari/JMA, EUMETSAT, KOMPSAT/KARI, "processed by" a non-US-federal party) are refused; the not-a-photo check reads the description too | Review of the NASA tier: an Earth Observatory record credited "NASA Earth Observatory/Lauren Dauphin" over "Copernicus Sentinel-2 data processed by the European Space Agency", and a Himawari-9 record "operated by the Japan Meteorological Agency", both passed as public domain; typhoon and storm stories are the tier's main use |
+| 2026-10-22 | An upload under 48 h old with this story's source URL that the ledger lost is held, never re-uploaded; `uploads.json` entries 24 h old are reported | Without the public tag, a failed "Save state" step (rebase conflict, push, lost runner) left nothing to find the upload by; a second copy of a story is the repetitive-content signal this batch removes |
+| 2026-10-22 | A curiosity title flagged on the last draft falls back to the plain title; the checked title is labelled and a missing verdict counts against it | A title-only flag on draft 3 failed a story whose every beat was supported ("no draft passed the fact checks"); 26 of 44 skips were already for want of photos, so supply is the constraint |
