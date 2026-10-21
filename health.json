@@ -1,9 +1,10 @@
 {
- "at": "2026-10-21T05:40:09+00:00",
+ "at": "2026-10-21T06:13:36+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 11 trending), 1 hazard alerts",
-  "outlets: 812 headlines from 30 feeds (21 owners), 18 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
+  "watch: 1 candidates (0 quakes, 7 trending), 1 hazard alerts",
+  "outlets: 816 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
   "skip wk-Q3424313: gate: only 2 usable photos of Deva on Wikimedia Commons (want 3)",
   "nothing eligible to publish"
  ]
