@@ -1,10 +1,17 @@
 {
- "at": "2026-10-21T08:18:28+00:00",
+ "at": "2026-10-21T09:15:18+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 12 trending), 1 hazard alerts",
-  "outlets: 806 headlines from 30 feeds (21 owners), 15 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
-  "skip wk-Q141758443-2026w43: gate: no draft passed the fact checks: line 1 (The 17 October riots saw nationwide unrest across France, Be): partly: The source mentions Italy and Belgium, but does not mention Albania in the context of the 17 October riots; Albania's protests are described as the 'Flamingo revolution' regarding a resort. | second look: The LINE includes 'Albania' as a location for the riots, but the SOURCE SENTENCES only list Albania as a location in",
-  "nothing eligible to publish"
- ]
+  "watch: 2 candidates (0 quakes, 11 trending), 1 hazard alerts",
+  "outlets: 807 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-sudan-south-strike",
+  "skip nw-20261020-sudan-south-strike: gate: fewer than 2 independent outlets' articles name Sudan-South",
+  "published wk-Q141758443-2026w43: https://www.youtube.com/shorts/A5rMcUkzmF0"
+ ],
+ "published": {
+  "video_id": "A5rMcUkzmF0",
+  "url": "https://www.youtube.com/shorts/A5rMcUkzmF0",
+  "title": "The 17 October Riots and the Struggle for Living Costs",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
