@@ -15,6 +15,7 @@ import hashlib
 import json
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -35,17 +36,18 @@ DAY_UNITS = 1500
 QUOTA_DAY = ZoneInfo("America/Los_Angeles")
 MAX_FAILURES = 2  # a video or playlist refused twice is left alone (and listed) instead of spending every run on it
 UNTAG_PER_RUN = 5
+READBACK_WAIT = 5  # seconds before a second read of a video whose tag read back unchanged
 UPLOAD_PAGES = 6  # the uploads playlist, 50 a page: the whole channel (about 45 uploads on 2026-10-22)
 
 # About (brandingSettings.channel.description, under YouTube's 1,000 characters), keywords and language. Every claim is
 # what CHANNEL.md binds the desk to: real photos, 3D only for quakes, two independent sources, AI voice, corrections.
 ABOUT = """Orbitwire tells the stories the world is following as short documentaries in English.
 
-Pictures: real, freely licensed photos (Wikimedia Commons, Openverse, NASA), each credited, with a gentle camera move; nothing in a photo is altered. Earthquakes are rebuilt in 3D on real terrain from USGS data, marked "not real footage". We never generate a realistic image of a real person or event.
+Pictures: real, freely licensed photos (Wikimedia Commons, Openverse, NASA), each credited; nothing is added to or removed from a photo, only colour, framing and motion change. Earthquakes are rebuilt in 3D on real terrain from USGS data, marked "not real footage". We never generate a realistic image of a real person or event.
 
 Sources: every name and number must appear in Wikipedia/Wikidata or in reports from at least two independent outlets (USGS for quakes), listed in each description. A death toll is said only when the sources agree.
 
-Voice: an AI voice reads a script checked line by line against those sources; every upload is labelled as altered or synthetic content.
+Voice: an AI voice reads a script checked line by line against the sources; every upload is labelled altered or synthetic content.
 
 Editorial rules: no gore, no victims shown, attackers never named, no guessing at causes.
 
@@ -184,6 +186,11 @@ def keywords_text(words: list[str]) -> str:
     return " ".join(f'"{w}"' if " " in w else w for w in words)
 
 
+def _norm(text: str | None) -> str:
+    """Text as compared on read-back: YouTube may send line endings as \\r\\n or change runs of whitespace."""
+    return " ".join((text or "").split())
+
+
 def about(desk: Desk) -> str | None:
     """Write the About text, keywords and default language once (read-modify-write of the whole brandingSettings:
     YouTube clears what an update leaves out, and the channel title is required)."""
@@ -202,7 +209,7 @@ def about(desk: Desk) -> str | None:
         desk.call(desk.api.channels().update(part="brandingSettings", body=body), WRITE)
         back = desk.call(desk.api.channels().list(part="brandingSettings", id=youtube.CHANNEL_ID), READ)
         got = ((back.get("items") or [{}])[0].get("brandingSettings") or {}).get("channel") or {}
-        if (got.get("description") or "").strip() != ABOUT.strip():
+        if _norm(got.get("description")) != _norm(ABOUT):
             desk.fail("about", RuntimeError("the About did not read back"))
             return "About written but did not read back"
         note = "About, keywords and language written"
@@ -290,7 +297,15 @@ def playlists(desk: Desk) -> dict:
             continue
         made += not had
         # YouTube's own list first: a lost state save never adds a video twice.
-        present = _items(desk, pid)
+        try:
+            present = _items(desk, pid)
+        except HttpError as exc:
+            desk.fail(f"playlist:{key}", exc)
+            if exc.resp.status == 404:  # deleted in Studio: forget it, so it is found by title or made again
+                for part in ("playlists", "filed", "sections"):
+                    (desk.state.get(part) or {}).pop(key, None)
+                desk.save()
+            continue
         for vid in todo:
             if vid not in present:
                 if not desk.can(WRITE):
@@ -312,9 +327,13 @@ def sections(desk: Desk) -> int:
     done = desk.state.setdefault("sections", {})
     want = [k for k, pid in (desk.state.get("playlists") or {}).items()
             if k not in done and (desk.state.get("filed") or {}).get(k) and not desk.failed(f"section:{k}")]
-    if not want:
+    if not want or desk.failed("sections"):
         return 0
-    have = desk.call(desk.api.channelSections().list(part="contentDetails", mine=True), READ).get("items", [])
+    try:
+        have = desk.call(desk.api.channelSections().list(part="contentDetails", mine=True), READ).get("items", [])
+    except HttpError as exc:
+        desk.fail("sections", exc)
+        return 0
     shown = {p for s in have for p in (s.get("contentDetails") or {}).get("playlists") or []}
     made = 0
     for key in want:
@@ -389,14 +408,23 @@ def remember(videos: list[dict]) -> int:
     return added + changed
 
 
+def _still_tagged(desk: Desk, ids: list[str]) -> set[str]:
+    back = desk.call(desk.api.videos().list(part="snippet", id=",".join(ids)), READ).get("items", [])
+    return {b["id"] for b in back if any(t.startswith(youtube.MARKER) for t in b["snippet"].get("tags") or [])}
+
+
 def untag(desk: Desk, channel: dict, limit: int = UNTAG_PER_RUN) -> dict:
     """Take the MARKER tag off up to `limit` uploads (read-modify-write of the snippet: title, description, category,
-    languages and topic tags as YouTube returned them), after remember(); then read them back."""
+    languages and topic tags as YouTube returned them), after remember(); then read them back.
+
+    Two phases: a run in which remember() kept anything takes no tag off. The tag is the only record of that
+    story's video until the run's state push lands, and a tag taken off is gone for good, so it waits for a later
+    run, which finds the mapping already in the state it loaded (remember() then keeps nothing)."""
     videos = uploads(desk, channel)
     remembered = remember(videos)
     marked = [v for v in videos if any(t.startswith(youtube.MARKER) for t in v["snippet"].get("tags") or [])
               and v["id"] not in youtube.RETRACTED]
-    todo = [v for v in marked if not desk.failed(f"untag:{v['id']}")]
+    todo = [] if remembered else [v for v in marked if not desk.failed(f"untag:{v['id']}")]
     done = []
     for v in todo[:limit]:
         snippet = v["snippet"]
@@ -414,12 +442,15 @@ def untag(desk: Desk, channel: dict, limit: int = UNTAG_PER_RUN) -> dict:
         try:
             desk.call(desk.api.videos().update(part="snippet", body=body), WRITE)
         except HttpError as exc:
-            desk.fail(f"untag:{v['id']}", exc)
+            if 400 <= exc.resp.status < 500:  # a 5xx is YouTube's trouble, not this video's: tried again next run
+                desk.fail(f"untag:{v['id']}", exc)
             continue
         done.append(v["id"])
     if done:
-        back = desk.call(desk.api.videos().list(part="snippet", id=",".join(done)), READ).get("items", [])
-        still = {b["id"] for b in back if any(t.startswith(youtube.MARKER) for t in b["snippet"].get("tags") or [])}
+        still = _still_tagged(desk, done)
+        if still and desk.can(READ):  # videos.list can lag an update: one more look before it counts as a refusal
+            time.sleep(READBACK_WAIT)
+            still = _still_tagged(desk, sorted(still))
         for vid in still:
             desk.fail(f"untag:{vid}", RuntimeError("the marker tag was still there on read-back"))
         done = [v for v in done if v not in still]
@@ -461,6 +492,11 @@ def run(api_factory=None, at: datetime | None = None, jobs: set[str] | None = No
             except HttpError as exc:  # refused twice, the About is left for a person (Studio)
                 desk.fail("about", exc)
                 parts.append(f"About refused (HTTP {exc.resp.status} {','.join(sorted(reasons(exc)))})")
+            except RuntimeError as exc:
+                if isinstance(exc, Stop):
+                    raise
+                desk.fail("about", exc)
+                parts.append(f"About left: {exc}")
             got = playlists(desk)
             if got["made"] or got["added"]:
                 parts.append(f"playlists {got['made']} made, {got['added']} videos added")
@@ -477,7 +513,8 @@ def run(api_factory=None, at: datetime | None = None, jobs: set[str] | None = No
                 desk.state["untag_finished"] = desk.at.isoformat(timespec="seconds")
             parts.append(f"untag {got['done']} done, {got['left']} left"
                          + (f", gave up on {','.join(got['given_up'])}" if got["given_up"] else "")
-                         + (f", {got['remembered']} story ids kept first" if got["remembered"] else ""))
+                         + (f", {got['remembered']} story ids kept first (tags come off next run)"
+                            if got["remembered"] else ""))
     except Stop as exc:
         stop = str(exc)
     finally:

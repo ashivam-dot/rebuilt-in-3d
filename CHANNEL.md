@@ -179,7 +179,8 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   fewer than three photos of its own (a tribute needs at least one matched photo of its subject) is filled with
   photos of the places and things it links to: a person's birthplace, school, employer, team or award, an
   incident's places. A fill photo never features a face. A gentle depth-parallax camera move brings each still to
-  life; nothing in a photo is invented or altered. A person's solo portraits come before photos where they stand
+  life; nothing is added to or removed from a photo (its grade, framing and that camera move are the only
+  changes). A person's solo portraits come before photos where they stand
   with others. A photo's Commons description is never a source for a fact.
 - **Never** generate a realistic image or video of a real person or a real incident. YouTube removes realistic
   simulations of deceased people and of victims, and it would break the channel's promise of real facts.
@@ -299,7 +300,9 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
   "Storms and Natural Disasters" (photo stories, so never called "in 3D"), "Lives Remembered" and each hand-made
   series (`channel.SERIES`), found again by title so a lost state save never makes a second; files every public
   ledger video into them (YouTube's own list read first), and adds a Home shelf per playlist. `untag` takes the old
-  `rebuilt-in-3d:` tag off 5 uploads a run (above). Both spend at most 500 units a run and 1,500 a Pacific day
+  `rebuilt-in-3d:` tag off 5 uploads a run (above), never in the run that first records a story's video from
+  its tag: that waits for the state push, since a tag taken off is gone for good. Playlists are only ever added
+  to: a video made private or deleted in Studio after it was filed stays in its playlist until removed there. Both spend at most 500 units a run and 1,500 a Pacific day
   (`state/channel.json`; uploads need the rest of the 10,000), stop for the day on HTTP 403 `quotaExceeded`, stop
   the run and say "force-ssl" when the sign-in may not write (403 `insufficientPermissions`, or a token listing no
   write scope), and leave a video or playlist alone after two refusals (listed in the health line, for Studio).

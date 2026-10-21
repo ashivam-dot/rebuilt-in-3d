@@ -254,9 +254,13 @@ def test_untag_keeps_story_ids_first_strips_only_the_marker_and_reads_back():
                       video("B3TumXzN63I", [youtube.MARKER + "eq-x"]),  # retracted: left alone
                       video("N", ["Orbitwire"])])
     line = run(yt, jobs={"untag"})
-    assert "untag 2 done, 0 left" in line
+    # First run: the story ids are kept and no tag comes off (that waits for this run's state to be saved).
+    assert "untag 0 done, 2 left, 2 story ids kept first" in line
+    assert not any(op == "videos.update" for op, _ in yt.writes)
     assert ledger.markers() == {"wk-Q9": "B"}
     assert {r["id"]: r["video_id"] for r in ledger.published()} == {"wk-Q1": "A", "wk-Q2": "C"}
+    line = run(yt, jobs={"untag"})
+    assert "untag 2 done, 0 left" in line and "kept first" not in line
     a = yt.videos_["A"]["snippet"]
     assert a["tags"] == ["quake", "Orbitwire"] and a["title"] == "T A" and a["description"] == "d"
     sent = next(b for op, b in yt.writes if op == "videos.update" and b["id"] == "A")["snippet"]
@@ -273,6 +277,7 @@ def test_untag_keeps_story_ids_first_strips_only_the_marker_and_reads_back():
 def test_a_video_youtube_keeps_refusing_is_given_up_after_two_tries():
     yt = FakeYouTube([video("BAD", [youtube.MARKER + "wk-Q1"]), video("OK", [youtube.MARKER + "wk-Q2"])])
     yt.refuse["videos.update:BAD"] = refusal(400, "invalidTags")
+    assert "untag 0 done, 2 left, 2 story ids kept first" in run(yt, jobs={"untag"})
     assert "untag 1 done, 1 left" in run(yt, jobs={"untag"})
     assert "gave up on BAD" in run(yt, jobs={"untag"})
     tries = sum(op == "videos.update" for op, _ in yt.writes)
@@ -280,6 +285,81 @@ def test_a_video_youtube_keeps_refusing_is_given_up_after_two_tries():
     assert ledger.load("channel", {})["failed"]["untag:BAD"]["count"] == 2
     assert "untag finished" in run(yt, jobs={"untag"}) and "left on BAD (fix in Studio)" in run(yt, jobs={"untag"})
     assert sum(op == "videos.update" for op, _ in yt.writes) == tries  # never tried a third time
+
+
+def test_a_story_id_kept_this_run_keeps_its_tag_until_a_later_run(monkeypatch):
+    """A lost state push after remember() must never leave a story with no ledger row, no marker and no tag."""
+    yt = FakeYouTube([video("V9", [youtube.MARKER + "wk-Q9"])])
+    assert "untag 0 done, 1 left, 1 story ids kept first" in run(yt, jobs={"untag"})
+    assert ledger.markers() == {"wk-Q9": "V9"}
+    assert not any(op == "videos.update" for op, _ in yt.writes)
+    # The push is lost: markers.json is gone, but the tag is still on YouTube, so find() and remember() still see it.
+    ledger.save("markers", {})
+    assert youtube.find(yt, UPLOADS, "wk-Q9")["id"] == "V9"
+    assert "untag 0 done, 1 left, 1 story ids kept first" in run(yt, jobs={"untag"})
+    # Saved this time: the next run starts with the mapping and takes the tag off.
+    assert "untag 1 done, 0 left" in run(yt, jobs={"untag"})
+    assert yt.videos_["V9"]["snippet"]["tags"] == [] and ledger.markers() == {"wk-Q9": "V9"}
+    assert youtube.find(yt, UPLOADS, "wk-Q9")["id"] == "V9"
+
+
+def test_a_stale_read_back_is_read_again_and_a_5xx_is_no_strike(monkeypatch):
+    monkeypatch.setattr(channel, "READBACK_WAIT", 0)
+    yt = FakeYouTube([video("A", [youtube.MARKER + "wk-Q1"]), video("B", [youtube.MARKER + "wk-Q2"])])
+    run(yt, jobs={"untag"})  # keeps the story ids
+    real = FakeYouTube._Res.list
+    lists = []
+
+    def stale_once(self, **k):  # the first videos.list after the update still shows the old tags
+        if self.name == "videos" and "status" not in k.get("part", "") and not lists:
+            lists.append(1)
+            old = {"items": [video(v, [youtube.MARKER + "x"]) for v in k["id"].split(",")]}
+            return Call(lambda: old)
+        return real(self, **k)
+
+    monkeypatch.setattr(FakeYouTube._Res, "list", stale_once)
+    yt.refuse["videos.update:B"] = refusal(503, "backendError")
+    line = run(yt, jobs={"untag"})
+    assert "untag 1 done, 1 left" in line and "gave up" not in line
+    state = ledger.load("channel", {})
+    assert "untag:A" not in state.get("failed", {}) and "untag:B" not in state.get("failed", {})
+
+
+def test_a_playlist_deleted_in_studio_is_made_again_not_retried_forever():
+    publish("eq-1", "Q1", kind="quake", at="01")
+    yt = FakeYouTube()
+    run(yt)
+    pid = ledger.load("channel", {})["playlists"]["quakes"]
+    assert yt.items[pid] == ["Q1"]
+    publish("eq-2", "Q2", kind="quake", at="02")
+    yt.lists[:] = [("GONE", "deleted in Studio")]  # its title is gone; a new playlist gets a new id
+    yt.refuse[f"playlistItems.list:{pid}"] = refusal(404, "playlistNotFound")
+    run(yt)
+    state = ledger.load("channel", {})
+    assert "quakes" not in state["playlists"] and "quakes" not in state["filed"]
+    line = run(yt)
+    new = ledger.load("channel", {})["playlists"]["quakes"]
+    assert new != pid and yt.items[new] == ["Q1", "Q2"] and "1 made" in line
+
+
+def test_an_about_read_back_with_other_line_endings_still_counts(monkeypatch):
+    yt = FakeYouTube()
+    real = FakeYouTube._Res.update
+
+    def crlf(self, part, body):
+        call = real(self, part, body)
+
+        def go():
+            out = call.execute()
+            if self.name == "channels":
+                ch = yt.branding["channel"]
+                ch["description"] = ch["description"].replace("\n", "\r\n") + " "
+            return out
+        return Call(go)
+
+    monkeypatch.setattr(FakeYouTube._Res, "update", crlf)
+    assert "About, keywords and language written" in run(yt)
+    assert sum(op == "channels.update" for op, _ in yt.writes) == 1
 
 
 def test_a_failing_job_never_stops_the_run(monkeypatch):
