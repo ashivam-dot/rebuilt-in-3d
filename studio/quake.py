@@ -52,6 +52,34 @@ def _bbox(lat: float, lon: float, keep: list[tuple[float, float]]) -> list[float
     return [lon - dlon, lat - dlat, lon + dlon, lat + dlat]
 
 
+def quake_title(mag: str, region: str, ref: str, near: bool, impact: str, recent: list[str]) -> str:
+    """A searchable title from USGS fields: magnitude, the nearest named place, and what people felt. Seven of the
+    first 40 titles were "How the M6.x <region> quake ruptured, in 3D"; the wording rotates so no title opens with
+    the same three words as a recent one."""
+    from .writer import _opening
+
+    place = f"{ref}, {region}" if region else ref
+    at = f"near {ref}" if near else (f"in {region}" if region else f"on the {ref}")
+    options = [f"M{mag} earthquake {at}{', ' + region if near and region else ''}: {impact}",
+               f"Quake {at}: M{mag}, {impact}",
+               f"{region or ref} hit by M{mag} quake {at if near else ''}".rstrip() + f": {impact}",
+               f"M{mag} quake strikes {place}: {impact}",
+               f"M{mag} {region or ref} quake: {impact}"]
+    options = [" ".join(o.split()) for o in options]
+    fit = [o for o in options if 20 <= len(o) <= 70] or [f"M{mag} {region or ref} earthquake"[:70]]
+    heads = {_opening(t) for t in recent}
+    return next((o for o in fit if _opening(o) not in heads), fit[0])
+
+
+def impact_words(alert: str | None, people: int, label: str, depth: int) -> str:
+    """What the quake meant for people, from USGS only: the shaking estimate, else the PAGER alert, else its depth."""
+    if people >= 100:
+        return f"≈{usgs.fmt_int(people)} people in {label} shaking"
+    if alert in ("yellow", "orange", "red"):
+        return f"USGS PAGER {alert} alert"
+    return f"{depth} km below the surface"
+
+
 def build(event_id: str) -> Short:
     pk = usgs.pack(event_id)
     q: usgs.Quake = pk["quake"]
@@ -145,7 +173,10 @@ def build(event_id: str) -> Short:
         "ref": place["ref"],
     }
     loss = alert in ("orange", "red")
-    title = f"How the M{mag} {region} quake ruptured, in 3D"
+    from .writer import recent_titles
+
+    title = quake_title(mag, region, place["ref"], bool(place["distance_km"]),
+                        impact_words(alert, people, label, depth), recent_titles())
     return Short(
         id=f"eq-{event_id}", kind="quake", title=title, beats=beats, facts=facts, sources=[page], loss=loss,
         scene=scene, event_time=q.time.isoformat(),

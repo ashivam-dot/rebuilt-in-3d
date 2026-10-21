@@ -158,6 +158,9 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
 - **Titles (2026-10-21):** searchable core first (the name or place and what happened, its key words in the first 4
   words); never "The Legacy of", "A Tribute to", "The Life and Legacy" or "The Path of" (they made every tribute and
   storm title read alike), and never the same first 3 words as any of the last 20 published titles.
+  Quake titles lead with magnitude and the nearest named place, then the impact (people in strong shaking, else the
+  PAGER alert, else the depth), rotating between phrasings so no two open alike; "How the M… quake ruptured, in 3D"
+  is retired (7 titles in a row opened that way).
 - **Voice:** an expressive AI voice (Chatterbox), each line checked by speech recognition before use; word-by-word
   captions; a quiet score written in code. Two lanes, chosen by the story's region: India stories clone an Indian
   English reference (`tts/voices/india.wav`, Veena "kavya", Apache-2.0), all others a clear, warm US voice
