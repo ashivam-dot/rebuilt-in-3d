@@ -1,34 +1,7 @@
 {
- "at": "2026-10-21T22:11:33+00:00",
+ "at": "2026-10-21T23:06:40+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 312611,
-   "views": 62611,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-21T10:38:36+00:00",
-   "headlines": [
-    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-    "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-20",
-    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-    "google-news:France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
@@ -69,6 +42,48 @@
    "category": "protest",
    "date": "2026-10-21",
    "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 35410,
+   "views": 10410,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-21T22:18:37+00:00",
+   "headlines": [
+    "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20",
+    "google-news:Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
+     "url": "https://www.independent.co.uk/news/world/americas/norovirus-outbreak-kansas-elementary-school-b3071032.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-21T22:18:37+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
    "has_coords": true
   },
   {
@@ -206,31 +221,6 @@
    "date": "2026-10-11"
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 10410,
-   "views": 10410,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-20"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q5115327",
    "title": "Chuck Amato",
    "fame": 10003,
@@ -306,12 +296,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 821,
+  "headlines": 824,
   "feeds": 30,
   "owners": 21,
-  "matched": 37,
+  "matched": 41,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 821 headlines from 30 feeds (21 owners), 37 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 824 headlines from 30 feeds (21 owners), 41 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
