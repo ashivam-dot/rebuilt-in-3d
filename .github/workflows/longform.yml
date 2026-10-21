@@ -1,0 +1,310 @@
+name: longform
+# The weekly long-form explainer (studio/longform): plan on Thursday, write and make each chapter in its own job,
+# finish into one 8-14 min 16:9 episode, then upload it private and schedule it for Saturday 14:00 UTC.
+# Its own concurrency group, so the hourly Shorts run (group "studio") is never held up; every job stays under the
+# 6-hour job limit and hands its work to the next through artifacts. Dry by default: a manual run is dry unless
+# dry=false, a scheduled run is dry unless the repository variable LONGFORM_PUBLISH is "true". A dry run keeps the
+# MP4, thumbnail and description as the "longform-episode" artifact and uploads nothing.
+on:
+  schedule:
+    - cron: "0 3 * * 4"   # Thursday 03:00 UTC: build this week's episode
+    - cron: "0 15 * * 6"  # Saturday 15:00 UTC: link the now-public episode from its Shorts
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "Make the episode but do not upload it"
+        type: boolean
+        default: true
+      topic:
+        description: "Explain this topic instead (a candidate's name, e.g. Trudy, or an evergreen region, e.g. Japan)"
+        type: string
+        default: ""
+      link:
+        description: "Only run the link pass (Shorts -> the public episode)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: longform
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 3 * * 4' && vars.PAUSED != 'true') ||
+      (github.event_name == 'workflow_dispatch' && !inputs.link)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    outputs:
+      keys: ${{ steps.plan.outputs.keys }}
+      episode: ${{ steps.plan.outputs.episode }}
+      dry: ${{ steps.dry.outputs.dry }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - name: Check out the state branch
+        run: |
+          git fetch --depth 1 origin state
+          git worktree add state origin/state
+      - id: dry
+        name: Dry or not
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT_DRY: ${{ inputs.dry }}
+          PUBLISH: ${{ vars.LONGFORM_PUBLISH }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            if [ "$INPUT_DRY" = "false" ]; then dry=false; else dry=true; fi
+          elif [ "$PUBLISH" = "true" ]; then dry=false; else dry=true; fi
+          echo "dry=$dry" >> "$GITHUB_OUTPUT"
+          echo "dry run: $dry"
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --frozen
+      - id: plan
+        name: Plan
+        env:
+          TOPIC: ${{ inputs.topic }}
+        run: uv run python -m studio.longform plan --topic "$TOPIC"
+      - uses: actions/upload-artifact@v6
+        with:
+          name: longform-plan
+          path: |
+            work/longform/episode.json
+            work/longform/plan.json
+          retention-days: 14
+
+  write:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    strategy:
+      fail-fast: true
+      max-parallel: 4
+      matrix:
+        key: ${{ fromJSON(needs.plan.outputs.keys) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - uses: actions/download-artifact@v7
+        with:
+          name: longform-plan
+          path: work/longform
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --frozen
+      - name: Write the chapter
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          KEY: ${{ matrix.key }}
+        run: uv run python -m studio.longform write "$KEY"
+      - uses: actions/upload-artifact@v6
+        with:
+          name: longform-write-${{ matrix.key }}
+          path: |
+            work/longform/episode.json
+            work/longform/chapters/${{ matrix.key }}/chapter.json
+          retention-days: 14
+
+  make:
+    needs: [plan, write]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    strategy:
+      fail-fast: true
+      max-parallel: 4
+      matrix:
+        key: ${{ fromJSON(needs.plan.outputs.keys) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - name: Free disk space for the models
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
+      - uses: actions/download-artifact@v7
+        with:
+          name: longform-write-${{ matrix.key }}
+          path: work/longform
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null
+      # Read-only: the hourly run owns this cache; the same paths and key so its voice weights are found.
+      - uses: actions/cache/restore@v5
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/ms-playwright
+            work/cache
+            !work/cache/llm
+          key: models-${{ hashFiles('uv.lock', 'tts/uv.lock') }}
+          restore-keys: models-
+      - name: Install
+        run: |
+          uv sync --frozen
+          uv sync --frozen --project tts
+      - name: Voice and render the chapter
+        env:
+          KEY: ${{ matrix.key }}
+        run: uv run python -m studio.longform make "$KEY"
+      - uses: actions/upload-artifact@v6
+        with:
+          name: longform-make-${{ matrix.key }}
+          path: |
+            work/longform/episode.json
+            work/longform/chapters/${{ matrix.key }}/chapter.json
+            work/longform/chapters/${{ matrix.key }}/timing.json
+            work/longform/chapters/${{ matrix.key }}/narration.wav
+            work/longform/chapters/${{ matrix.key }}/chapter.mp4
+            work/longform/chapters/${{ matrix.key }}/hero.png
+          retention-days: 7
+
+  finish:
+    needs: [plan, make]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: longform-make-*
+          merge-multiple: true
+          path: work/longform
+      - uses: actions/download-artifact@v7
+        with:
+          name: longform-plan
+          path: work/longform
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg tesseract-ocr > /dev/null
+      - name: Install
+        run: uv sync --frozen
+      - name: Finish and check the episode
+        run: uv run python -m studio.longform finish
+      - name: Keep the episode
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: longform-episode
+          path: |
+            work/longform/episode.mp4
+            work/longform/thumbnail.jpg
+            work/longform/description.txt
+            work/longform/captions.srt
+            work/longform/meta.json
+            work/longform/plan.json
+            work/longform/episode.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+  publish:
+    needs: [plan, finish]
+    if: needs.plan.outputs.dry == 'false'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    environment: youtube
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - name: Check out the state branch
+        run: |
+          git fetch --depth 1 origin state
+          git worktree add state origin/state
+      - uses: actions/download-artifact@v7
+        with:
+          name: longform-episode
+          path: work/longform
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --frozen
+      - name: Upload private and schedule
+        env:
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+        run: uv run python -m studio.longform publish
+      # Only longform.json: the hourly run owns every other state file. Rebase and retry when it moved meanwhile.
+      - name: Save state
+        if: always()
+        env:
+          MESSAGE: "longform: publish ${{ github.run_id }}"
+        run: |
+          cd state
+          git add longform.json 2>/dev/null || exit 0
+          git -c user.name="orbitwire bot" -c user.email="335661989+ashivam-dot@users.noreply.github.com" \
+            commit -q -m "$MESSAGE" -- longform.json || exit 0
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin state && git push -q origin HEAD:state && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
+
+  link:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 15 * * 6') ||
+      (github.event_name == 'workflow_dispatch' && inputs.link)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    environment: youtube
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - name: Check out the state branch
+        run: |
+          git fetch --depth 1 origin state
+          git worktree add state origin/state
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --frozen
+      - name: Link the episode from its Shorts
+        env:
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+        run: uv run python -m studio.longform link
+      - name: Save state
+        if: always()
+        env:
+          MESSAGE: "longform: link ${{ github.run_id }}"
+        run: |
+          cd state
+          git add longform.json 2>/dev/null || exit 0
+          git -c user.name="orbitwire bot" -c user.email="335661989+ashivam-dot@users.noreply.github.com" \
+            commit -q -m "$MESSAGE" -- longform.json || exit 0
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin state && git push -q origin HEAD:state && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
+
+  alert:
+    needs: [plan, write, make, finish, publish, link]
+    if: failure()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Alert on failure
+        run: |
+          n=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --label alert --search "Long-form run failed" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment -R "$GITHUB_REPOSITORY" "$n" --body "Failed again: $RUN_URL"
+          else gh issue create -R "$GITHUB_REPOSITORY" --label alert --title "Long-form run failed" --body "Run: $RUN_URL (episode ledger: state/longform.json on the state branch)"; fi
