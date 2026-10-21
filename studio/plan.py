@@ -94,9 +94,20 @@ def priority(cand: dict, at: datetime) -> float:
 
 
 def ad_factor(cand: dict, at: datetime) -> float:
-    """AD_SUITABILITY for an attack, shooting or stabbing that is not breaking; 1.0 for everything else."""
-    unsuited = cand.get("category") in AD_UNSUITED or AD_UNSUITED_WORDS.search(cand.get("title") or "")
+    """AD_SUITABILITY for an attack, shooting or stabbing that is not breaking; 1.0 for everything else. The words
+    count in an incident's title only: a tribute to someone who died of a heart attack is not violence."""
+    unsuited = cand.get("category") in AD_UNSUITED or (
+        cand.get("kind") == "incident" and AD_UNSUITED_WORDS.search(cand.get("title") or ""))
     return AD_SUITABILITY if unsuited and cand.get("kind") != "quake" and not is_breaking(cand, at) else 1.0
+
+
+def ad_note(cands: list[dict], at: datetime | None = None) -> str | None:
+    """The health line naming the candidates ad_factor ranked down, kept apart from lineup's hold notes so it never
+    pushes one of them out of the health log."""
+    at = at or datetime.now(timezone.utc)
+    if scaled := [c["id"] for c in cands if ad_factor(c, at) < 1]:
+        return f"ad-suitability x{AD_SUITABILITY} (attack, not breaking): {', '.join(scaled[:8])}"
+    return None
 
 
 def is_breaking(cand: dict, at: datetime) -> bool:
@@ -190,8 +201,6 @@ def lineup(cands: list[dict], at: datetime | None = None) -> tuple[list[dict], l
     at = at or datetime.now(timezone.utc)
     regular, urgent = can_publish(at), can_publish(at, breaking=True)
     ready, notes = [], []
-    if scaled := [c["id"] for c in cands if ad_factor(c, at) < 1]:
-        notes.append(f"ad-suitability x{AD_SUITABILITY} (attack, not breaking): {', '.join(scaled[:8])}")
     for c in sorted(cands, key=lambda c: -priority(c, at)):
         breaking = is_breaking(c, at)
         wait = urgent if breaking else regular or (None if in_window(c, at) else f"outside the {c.get('region', 'world')} window")

@@ -151,5 +151,17 @@ def test_lineup_logs_the_ad_suitability_tie_break(monkeypatch):
     attack = flood | {"id": "wk-a", "category": "attack"}
     ready, notes = plan.lineup([attack, flood], at)
     assert [c["id"] for c in ready] == ["wk-f", "wk-a"]
-    assert notes[0] == "ad-suitability x0.85 (attack, not breaking): wk-a"
-    assert not any("ad-suitability" in n for n in plan.lineup([flood], at)[1])
+    # A step of its own: it never pushes a hold note out of the six lineup notes the health log keeps.
+    assert not any("ad-suitability" in n for n in notes)
+    assert plan.ad_note([attack, flood], at) == "ad-suitability x0.85 (attack, not breaking): wk-a"
+    assert plan.ad_note([flood], at) is None
+
+
+def test_attack_words_rank_down_incidents_only():
+    at = datetime(2026, 10, 9, 14, tzinfo=timezone.utc)
+    base = {"fame": 100_000, "news_at": "2026-10-09T12:00:00+00:00", "region": "nowhere"}
+    tribute = base | {"id": "wk-d", "kind": "death", "category": "death", "title": "Singer dies of heart attack"}
+    anime = base | {"id": "wk-t", "kind": "death", "category": "death", "title": "Attack on Titan creator"}
+    shooting = base | {"id": "wk-s", "kind": "incident", "category": "crime", "title": "2026 Aubagne school shooting"}
+    assert plan.ad_factor(tribute, at) == plan.ad_factor(anime, at) == 1.0
+    assert plan.ad_factor(shooting, at) == plan.AD_SUITABILITY

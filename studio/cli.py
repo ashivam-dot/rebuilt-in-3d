@@ -131,6 +131,8 @@ def run(dry: bool = False) -> dict:
             health["steps"].append(f"trend radar errors: {found['trend_errors']}")
         ready, held = plan.lineup(found["candidates"])
         health["steps"] += held[:6]
+        if note := plan.ad_note(found["candidates"]):
+            health["steps"].append(note)
         if dry and not ready:
             ready = found["candidates"]
         if not ready:
