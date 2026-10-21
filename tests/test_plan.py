@@ -115,3 +115,41 @@ def test_feed_dates_without_a_zone_do_not_break_the_feed(monkeypatch):
 def test_protest_brief_is_used_for_ongoing_stories():
     msgs = writer._messages(writer.PROTEST_BRIEF.format(name="X"), [], "src", [], "X", ["Headline one"])
     assert "strictly neutral" in msgs[1]["content"] and "context only" in msgs[1]["content"]
+
+
+def test_ad_suitability_breaks_ties_against_attacks_that_are_not_breaking(monkeypatch):
+    at = datetime(2026, 10, 9, 14, tzinfo=timezone.utc)
+    flood = {"id": "wk-f", "kind": "incident", "category": "flood", "fame": 100_000, "news_at": "2026-10-09T12:00:00+00:00"}
+    attack = flood | {"id": "wk-a", "category": "attack"}
+    shooting = flood | {"id": "wk-s", "category": "crash", "title": "2026 Erie shooting"}
+    assert plan.ad_factor(flood, at) == 1.0
+    assert plan.priority(attack, at) == plan.priority(flood, at) * plan.AD_SUITABILITY
+    assert plan.ad_factor(shooting, at) == plan.AD_SUITABILITY
+    assert plan.ad_factor(flood | {"title": "2026 Stabbington floods"}, at) == 1.0
+    # A tie goes to the story advertisers will run against; a clearly bigger attack still leads.
+    order = [c["id"] for c in sorted([attack, flood], key=lambda c: -plan.priority(c, at))]
+    assert order == ["wk-f", "wk-a"]
+    assert plan.priority(attack | {"fame": 130_000}, at) > plan.priority(flood, at)
+
+
+def test_a_breaking_attack_keeps_its_full_rank(monkeypatch):
+    at = datetime(2026, 10, 9, 14, tzinfo=timezone.utc)
+    attack = {"id": "wk-a", "kind": "incident", "category": "attack", "fame": 100_000,
+              "news_at": "2026-10-09T12:00:00+00:00"}
+    owners = ["bbc", "reuters", "ap", "npr", "abc-au"]
+    monkeypatch.setattr(plan.outlets, "strong", lambda who: who)
+    assert plan.is_breaking(attack | {"owners": owners}, at)
+    assert plan.ad_factor(attack | {"owners": owners}, at) == 1.0
+    assert plan.ad_factor(attack | {"owners": owners[:4]}, at) == plan.AD_SUITABILITY
+
+
+def test_lineup_logs_the_ad_suitability_tie_break(monkeypatch):
+    monkeypatch.setattr(plan, "can_publish", lambda at, breaking=False: None)
+    at = datetime(2026, 10, 9, 14, tzinfo=timezone.utc)
+    flood = {"id": "wk-f", "kind": "incident", "category": "flood", "fame": 100_000, "region": "world",
+             "news_at": "2026-10-09T12:00:00+00:00"}
+    attack = flood | {"id": "wk-a", "category": "attack"}
+    ready, notes = plan.lineup([attack, flood], at)
+    assert [c["id"] for c in ready] == ["wk-f", "wk-a"]
+    assert notes[0] == "ad-suitability x0.85 (attack, not breaking): wk-a"
+    assert not any("ad-suitability" in n for n in plan.lineup([flood], at)[1])

@@ -113,6 +113,10 @@ The owner wants hot news caught on time without stepping in; the desk decides wh
   international; or a quake that is magnitude 7+ or PAGER orange/red) may go out at any hour as one more, 30 minutes
   after the last; wars, their strikes and ongoing protests never take the breaking lane. YouTube gives each project
   100 uploads a day of its own quota, so uploads are not the limit.
+- **Ad suitability as a tie-break (2026-10-21):** an attack, shooting or stabbing that is not breaking ranks at 0.85
+  of its fame (`plan.AD_SUITABILITY`), so between two similar stories the desk leads with the one advertisers run
+  against; a breaking one keeps its full rank, and a clearly bigger attack still leads. The health log lists the
+  stories it scaled ("ad-suitability x0.85 ..."). It changes order only, never what is told or how.
 - **Big incidents are told while they happen (2026-10-14; owner: "these two channels should be fully active and
   publishing the videos as a big incident happen").** A Wikipedia article under 6 hours old is still not used (its
   facts move), but when at least three independent outlets, one of them official, public or international, already

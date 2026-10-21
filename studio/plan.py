@@ -12,9 +12,11 @@ may go out at any hour, 30 minutes after the last Short, as one more that day; w
 breaking lane. An ongoing story (protest, movement) comes back
 at most once in COOLDOWN_DAYS, however its id changes. No more than two loss stories in any three consecutive
 uploads.
+An attack, shooting or stabbing that is not breaking ranks at 0.85 of its fame (ad suitability as a tie-break).
 """
 from __future__ import annotations
 
+import re
 from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
@@ -46,6 +48,11 @@ QUAKE_BIG_MAG = 7.0
 COOLDOWN_DAYS = {"protest": 6, "movement": 6}
 # A quake with no trend signal ranks by USGS significance (about 600-2000 for these) on the fame scale.
 SIG_TO_FAME = 100
+# Ad suitability as a tie-break (2026-10-21): advertisers avoid violence, so an attack, shooting or stabbing ranks
+# at AD_SUITABILITY of its fame unless it is breaking (five independent outlets on it), when it is the story to tell.
+AD_SUITABILITY = 0.85
+AD_UNSUITED = ("attack",)
+AD_UNSUITED_WORDS = re.compile(r"\b(shootings?|stabbings?|attacks?)\b", re.I)
 
 
 def can_publish(at: datetime | None = None, breaking: bool = False) -> str | None:
@@ -83,7 +90,13 @@ def priority(cand: dict, at: datetime) -> float:
     from . import learn
 
     half = HALF_LIFE_H.get(cand.get("kind"), HALF_LIFE_H.get(cand.get("category"), DEFAULT_HALF_LIFE_H))
-    return cand.get("fame", 0) * 0.5 ** (age_hours(cand, at) / half) * learn.factor(cand)
+    return cand.get("fame", 0) * 0.5 ** (age_hours(cand, at) / half) * learn.factor(cand) * ad_factor(cand, at)
+
+
+def ad_factor(cand: dict, at: datetime) -> float:
+    """AD_SUITABILITY for an attack, shooting or stabbing that is not breaking; 1.0 for everything else."""
+    unsuited = cand.get("category") in AD_UNSUITED or AD_UNSUITED_WORDS.search(cand.get("title") or "")
+    return AD_SUITABILITY if unsuited and cand.get("kind") != "quake" and not is_breaking(cand, at) else 1.0
 
 
 def is_breaking(cand: dict, at: datetime) -> bool:
@@ -177,6 +190,8 @@ def lineup(cands: list[dict], at: datetime | None = None) -> tuple[list[dict], l
     at = at or datetime.now(timezone.utc)
     regular, urgent = can_publish(at), can_publish(at, breaking=True)
     ready, notes = [], []
+    if scaled := [c["id"] for c in cands if ad_factor(c, at) < 1]:
+        notes.append(f"ad-suitability x{AD_SUITABILITY} (attack, not breaking): {', '.join(scaled[:8])}")
     for c in sorted(cands, key=lambda c: -priority(c, at)):
         breaking = is_breaking(c, at)
         wait = urgent if breaking else regular or (None if in_window(c, at) else f"outside the {c.get('region', 'world')} window")
