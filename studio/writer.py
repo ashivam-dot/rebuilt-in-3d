@@ -361,12 +361,18 @@ _MONTHS = ("january february march april may june july august september october 
            "jan feb mar apr jun jul aug sep sept oct nov dec").split()
 _DAYS = "monday tuesday wednesday thursday friday saturday sunday".split()
 # "On 12 October, ...", "In 2026, ...", "Early on Monday ...", "Last week ...", "Today ...": a dateline makes the
-# viewer wait for the news.
+# viewer wait for the news. Not a dateline: a bare year or count that starts a noun ("The 2026 Kenyan protests drew",
+# "4000 homes"), a compound ("Late-night host", "This year's"), or the story's own name ("June Carter Cash's voice").
 DATELINE = re.compile(r"^\W*(?:(?:on|in|at|by|since|during|early|late|last|this|earlier|later)\s+)*(?:the\s+)?"
                       r"(?:(?:early|late|mid)[- ]?)?(?:(?:night|morning|evening|afternoon)\s+of\s+)?"
                       r"(?:\d{1,2}(?:st|nd|rd|th)?\s+(?:of\s+)?(?:" + "|".join(_MONTHS) + r")\b|(?:"
-                      + "|".join(_MONTHS + _DAYS) + r")\b|\d{4}\b|today\b|tonight\b|yesterday\b|"
-                      r"(?:morning|afternoon|evening|night|week|weekend|month|year)\b)", re.I)
+                      + "|".join(_MONTHS + _DAYS) + r")\b|today\b|tonight\b|yesterday\b|"
+                      r"(?<!-)(?:morning|afternoon|evening|night|week|weekend|month|year)\b(?![-'’]))", re.I)
+# A year is a dateline after a preposition ("In 2026 ...", "Since mid-2025 ...") or as a clause of its own ("2026, a
+# year ..."), not when it starts a name or a count ("2026 Multan train derailment", "2000 homes").
+YEAR_DATELINE = re.compile(r"^\W*(?:(?:(?:on|in|at|by|since|during|until|through|from|early|late|mid)[- ]+)+"
+                           r"(?:the\s+)?(?:(?:early|late|mid)[- ]?)?(?:1[89]|20)\d{2}s?\b"
+                           r"|(?:the\s+)?(?:1[89]|20)\d{2}s?\s*[,.;:—–])", re.I)
 DIED = re.compile(r"\b(?:has died|had died|died|has passed away|passed away|is dead|has been killed)\b", re.I)
 # Openers that made every tribute and storm title read the same (published.json to 2026-10-21).
 TEMPLATE_TITLES = ("the legacy of", "a tribute to", "the life and legacy", "the path of")
@@ -393,11 +399,21 @@ def _names(words: list[str], keys: list[str]) -> bool:
     return any(w == k or (len(k) > 5 and len(w) > 4 and w[:5] == k[:5]) for w in words for k in keys)
 
 
+def opens_on(text: str, name: str) -> bool:
+    """The text starts with the story's name (its first two words, past a leading "the"): "June Carter Cash's voice",
+    "The 2026 Kenyan protests drew"."""
+    def head(t: str) -> list[str]:
+        w = _words(t)
+        return w[1:] if w[:1] == ["the"] else w
+    lead = head(name)[:2]
+    return bool(lead) and head(text)[:len(lead)] == lead
+
+
 def hook_problems(say: str, name: str) -> list[str]:
     """Beat 1 must open on the story: the name or the event within its first HOOK_WORDS words, never a dateline,
     and never "<name> has died" as the whole opener."""
     problems = []
-    if DATELINE.match(say):
+    if (DATELINE.match(say) or YEAR_DATELINE.match(say)) and not opens_on(say, name):
         problems.append(f"beat 1 opens on a date or time ({' '.join(say.split()[:3])!r}): open on {name} and the most "
                         "striking fact; where and when can wait for beat 2")
     words, keys = _words(say), key_words(name)
@@ -420,16 +436,25 @@ def _opening(title: str, n: int = 3) -> tuple[str, ...]:
     return tuple(_words(_PART.sub("", title))[:n])
 
 
+def names_story(title: str, keys: list[str]) -> bool:
+    """A title about the same story: every key word of its name leads it ("Part 1: Cockroach Janta Party Takes
+    Delhi" for "Cockroach Janta Party")."""
+    lead = _words(_PART.sub("", title))[:HOOK_WORDS + len(keys)]
+    return bool(keys) and all(_names(lead, [k]) for k in keys)
+
+
 def title_problems(title: str, name: str, recent: list[str]) -> list[str]:
     """No template opener, no opening shared with a recent title, and the story's name or key words up front."""
     problems = []
     plain = _PART.sub("", title).strip().lower()
     if opener := next((t for t in TEMPLATE_TITLES if plain.startswith(t)), None):
         problems.append(f"the title opens with the template {opener.title()!r}: put {name} and what happened first")
-    head = _opening(title)
-    if len(head) == 3 and (same := next((t for t in recent if _opening(t) == head), None)):
+    head, keys = _opening(title), key_words(name)
+    # A series part or a returning ongoing story must lead with its name, as its earlier titles did: only other
+    # stories' titles count ("Part 2: Cockroach Janta Party ..." after Part 1).
+    others = [t for t in recent if not names_story(t, keys)]
+    if len(head) == 3 and (same := next((t for t in others if _opening(t) == head), None)):
         problems.append(f"the title starts like the recent title {same!r}: open with different words")
-    keys = key_words(name)
     if keys and not _names(_words(_PART.sub("", title))[:HOOK_WORDS], keys):
         problems.append(f"the title must lead with {name} or its key words in the first {HOOK_WORDS} words, then "
                         "what happened")

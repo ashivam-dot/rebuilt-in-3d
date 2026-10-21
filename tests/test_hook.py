@@ -1,5 +1,7 @@
 """Beat 1 opens on the story, the first frame shows a claim from it (the 2026-10-20 hook plan), and titles are not
 templates."""
+import json
+
 import pytest
 
 from studio import cli, compose, gate, ledger, writer
@@ -27,6 +29,74 @@ def test_a_dateline_opener_is_rewritten(say):
 ])
 def test_an_opener_on_the_story_passes(say, name):
     assert writer.hook_problems(say, name) == []
+
+
+@pytest.mark.parametrize("say, name", [
+    ("June Carter Cash's voice carried the Carter Family into country music's first hall.", "June Carter Cash"),
+    ("Jan Kowalski's photographs of Gdansk in 1980 went round the world.", "Jan Kowalski"),
+    ("May Pang, who worked beside John Lennon, wrote three books about those years.", "May Pang"),
+    ("August Wilson's ten plays told a century of Black life in Pittsburgh.", "August Wilson"),
+    ("Sunday Oliseh captained Nigeria to Olympic gold in 1996.", "Sunday Oliseh"),
+])
+def test_a_name_that_starts_with_a_month_or_weekday_is_not_a_dateline(say, name):
+    assert writer.hook_problems(say, name) == []
+
+
+@pytest.mark.parametrize("say, name", [
+    ("The 2026 Kenyan protests drew tens of thousands into Nairobi's streets.", "2026 Kenyan protests"),
+    ("2026 Multan train derailment: ten coaches left the track near Multan.", "2026 Multan train derailment"),
+    ("4000 homes were destroyed as Hurricane Rachel crossed Baja California.", "Hurricane Rachel"),
+    ("2000 homes were destroyed as Hurricane Rachel crossed Baja California.", "Hurricane Rachel"),
+    ("Late-night host Jimmy Kimmel's show was pulled off the air.", "Jimmy Kimmel"),
+    ("This year's Booker Prize went to Kiran Desai for her third novel.", "Kiran Desai"),
+])
+def test_a_year_or_count_that_starts_the_event_or_a_compound_is_not_a_dateline(say, name):
+    assert not any("opens on a date or time" in p for p in writer.hook_problems(say, name))
+
+
+@pytest.mark.parametrize("say, name", [
+    ("In 2026, the Kenyan protests drew tens of thousands.", "2026 Kenyan protests"),
+    ("2026, a year of protest, began in Nairobi.", "2026 Kenyan protests"),
+    ("Since mid-2025, Kenyan protesters have marched every Tuesday.", "2026 Kenyan protests"),
+    ("In June, June Carter Cash recorded her last album.", "June Carter Cash"),
+    ("On Sunday, Sunday Oliseh was named coach.", "Sunday Oliseh"),
+    ("Last night, Jimmy Kimmel's show was pulled off the air.", "Jimmy Kimmel"),
+    ("Late night on Friday, Jimmy Kimmel's show was pulled.", "Jimmy Kimmel"),
+    ("Mid-October storms flooded Kerala.", "2026 Kerala floods"),
+])
+def test_a_real_dateline_before_a_month_or_year_name_is_still_rewritten(say, name):
+    assert any("opens on a date or time" in p for p in writer.hook_problems(say, name))
+
+
+def test_a_hook_that_fails_every_draft_ends_in_the_retryable_error(monkeypatch):
+    """Three dateline drafts end in the "no draft passed" error the run retries later, never a crash."""
+    say = ("On 8 October 2026, Nana Patekar died at his home in Goa. " + "He was an actor of the Hindi screen. " * 14)
+    draft = {"title": "Nana Patekar, Krantiveer Star, Dies at 75", "hook": "Nana Patekar died at his home",
+             "beats": [{"say": say, "photo": 0, "caption": "1994"}]}
+    calls = []
+
+    class Fake:
+        def __init__(self, *a, **k):
+            pass
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return None
+
+        def chat(self, messages, schema=None, **kw):
+            calls.append(messages)
+            return json.loads(json.dumps(draft))
+
+    monkeypatch.setattr(writer.llm, "Model", Fake)
+    with pytest.raises(ValueError) as err:
+        writer.write("death", "Nana Patekar", "He", ["Person: Nana Patekar.", "Died: 8 October 2026."],
+                     "Nana Patekar died on 8 October 2026 at his home in Goa. He was an actor of the Hindi screen.",
+                     [{"file": "File:0.jpg", "description": ""}])
+    assert len(calls) == 3
+    assert "no draft passed" in str(err.value) and "opens on a date or time" in str(err.value)
+    assert any(m in str(err.value) for m in cli.RETRYABLE)
 
 
 def test_the_name_must_start_within_the_first_four_words():
@@ -136,14 +206,22 @@ def test_template_openers_are_banned(title):
     assert any("template" in p for p in writer.title_problems(title, "Mike Ditka", []))
 
 
-def test_a_title_opening_like_a_recent_one_is_rewritten():
-    recent = ["Hurricane Rachel Turns North Toward Mexico", "Part 1: Cockroach Janta Party Takes Delhi"]
-    assert any("starts like the recent title" in p for p in
-               writer.title_problems("Hurricane Rachel Turns Toward Baja California", "Hurricane Rachel", recent))
-    assert any("starts like the recent title" in p for p in
-               writer.title_problems("Part 2: Cockroach Janta Party Meets the CEC", "Cockroach Janta Party", recent))
-    assert writer.title_problems("Hurricane Rachel Makes Landfall in Baja California", "Hurricane Rachel",
+def test_a_title_opening_like_another_storys_recent_title_is_rewritten():
+    recent = ["Protesters Fill the Streets of Lima", "Part 1: Cockroach Janta Party Takes Delhi"]
+    assert any("starts like the recent title" in p for p in writer.title_problems(
+        "Protesters Fill the Streets of Paris Over Pensions", "2026 Paris pension protests", recent))
+    assert writer.title_problems("Paris Pension Protests Fill the Streets", "2026 Paris pension protests",
                                  recent) == []
+
+
+def test_a_series_part_or_returning_story_may_open_like_its_own_earlier_titles():
+    # The title must lead with the name, so the story's own earlier titles never count against it.
+    recent = ["Hurricane Rachel Turns North Toward Mexico", "Part 1: Cockroach Janta Party Takes Delhi"]
+    assert writer.title_problems("Part 2: Cockroach Janta Party Meets the CEC", "Cockroach Janta Party", recent) == []
+    assert writer.title_problems("Hurricane Rachel Turns Toward Baja California", "Hurricane Rachel", recent) == []
+    # Another story that only shares a word is still another story.
+    assert any("starts like the recent title" in p for p in writer.title_problems(
+        "Hurricane Rachel Turns West", "Hurricane Melissa", ["Hurricane Rachel Turns North Toward Mexico"]))
 
 
 def test_the_name_or_place_leads_the_title():
