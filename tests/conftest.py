@@ -1,6 +1,6 @@
 import pytest
 
-from studio import media, outlets
+from studio import ledger, media, outlets
 
 
 @pytest.fixture(autouse=True)
@@ -15,3 +15,9 @@ def offline_outlets(monkeypatch):
     monkeypatch.setattr(media, "openverse_for", lambda *args, **kwargs: [])
     yield
     outlets.reset()
+
+
+@pytest.fixture(autouse=True)
+def private_state(monkeypatch, tmp_path_factory):
+    """No test writes the repo's state/ (the radar caches its last good Wikidata list there)."""
+    monkeypatch.setattr(ledger, "STATE", tmp_path_factory.mktemp("state"))

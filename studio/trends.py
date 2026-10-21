@@ -17,7 +17,7 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 
-from . import net, news, outlets, wiki
+from . import ledger, net, news, outlets, wiki
 
 # Stories told only from trusted outlets' reporting, before Wikipedia has an article (nw- ids): off unless the run's
 # environment sets STUDIO_NEW_STORIES=true.
@@ -51,6 +51,10 @@ PORTAL_FAME = 50000
 PORTAL_LEADS = 2
 INCIDENT_MAX_DAYS = 30
 DEATH_MAX_DAYS = 10
+# The Wikidata query service timed out on 7 of the last 80 runs (state branch health.json, 2026-10-21), each time
+# blinding the death lane. The last good list of recent deaths is kept in state and stands in for this long.
+DEATHS_CACHE = "recent_deaths"
+DEATHS_CACHE_H = 3
 SUICIDE = "Q10737"
 
 
@@ -64,15 +68,31 @@ def google_trends(geo: str) -> list[dict]:
     return out
 
 
+def recent_deaths(since: date, errors: list[str], now: datetime | None = None) -> list[dict]:
+    """People Wikidata says died on or after since (wiki.recent_deaths, which retries with backoff). When the query
+    service fails, the last good list stands in for up to DEATHS_CACHE_H hours, and the error says so."""
+    now = now or datetime.now(timezone.utc)
+    try:
+        rows = wiki.recent_deaths(since)
+    except Exception as exc:
+        cached = ledger.load(DEATHS_CACHE, {})
+        age = (now - datetime.fromisoformat(cached["at"])).total_seconds() / 3600 if cached.get("at") else None
+        if age is not None and 0 <= age <= DEATHS_CACHE_H and cached.get("rows"):
+            errors.append(f"wikidata recent deaths: {exc}"[:160] + f" (used the list from {age:.1f} h ago, "
+                          f"{len(cached['rows'])} people)")
+            return cached["rows"]
+        errors.append(f"wikidata recent deaths: {exc}"[:200])
+        return []
+    if rows:
+        ledger.save(DEATHS_CACHE, {"at": now.isoformat(timespec="seconds"), "since": since.isoformat(), "rows": rows})
+    return rows
+
+
 def story_pool(today: date, errors: list[str]) -> list[dict]:
     """Articles headlines and searches may be matched to by their words (news.reverse): people who died in the last
     DEATH_MAX_DAYS days and event articles created in the last NEW_ARTICLE_H hours."""
-    pool = []
-    try:
-        pool += [news.pool_item(d["title"], person=True, qid=d["qid"])
-                 for d in wiki.recent_deaths(today - timedelta(days=DEATH_MAX_DAYS))]
-    except Exception as exc:
-        errors.append(f"wikidata recent deaths: {exc}"[:200])
+    pool = [news.pool_item(d["title"], person=True, qid=d["qid"])
+            for d in recent_deaths(today - timedelta(days=DEATH_MAX_DAYS), errors)]
     try:
         pool += [news.pool_item(t) for t in wiki.new_articles(NEW_ARTICLE_H) if title_kind(t, today)]
     except Exception as exc:

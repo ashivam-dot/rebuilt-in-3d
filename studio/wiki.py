@@ -136,6 +136,11 @@ def current_events(day: date) -> list[tuple[str, bool]]:
     return out
 
 
+# The query service stops a query at 60 s; the default 45 s read timeout gave up on answers still coming
+# ("Read timed out. (read timeout=45)" in 7 of 80 runs to 2026-10-21). Connect fast, read to just past its limit,
+# and try three times with backoff (net.pause).
+SPARQL_TIMEOUT = (10, 65)
+SPARQL_TRIES = 3
 RECENT_DEATHS = """SELECT ?p ?article ?links WHERE {{
  ?p p:P570/psv:P570 [wikibase:timeValue ?died; wikibase:timePrecision 11] . FILTER(?died >= "{since}"^^xsd:dateTime)
  ?p wdt:P31 wd:Q5 . ?article schema:about ?p; schema:isPartOf <https://en.wikipedia.org/> .
@@ -149,7 +154,8 @@ def recent_deaths(since: date, limit: int = 300) -> list[dict]:
     from urllib.parse import unquote
 
     query = RECENT_DEATHS.format(since=since.isoformat() + "T00:00:00Z", limit=limit)
-    rows = net.get_json(SPARQL, params={"query": query, "format": "json"})["results"]["bindings"]
+    rows = net.get_json(SPARQL, params={"query": query, "format": "json"}, timeout=SPARQL_TIMEOUT,
+                        tries=SPARQL_TRIES)["results"]["bindings"]
     out, seen = [], set()
     for r in rows:
         title = unquote(r["article"]["value"].rsplit("/wiki/", 1)[1]).replace("_", " ")

@@ -13,7 +13,7 @@ _session = requests.Session()
 _session.headers["User-Agent"] = USER_AGENT
 
 
-def get(url: str, *, params: dict | None = None, cache: Path | None = None, timeout: float = 45, tries: int = 4,
+def get(url: str, *, params: dict | None = None, cache: Path | None = None, timeout: float | tuple = 45, tries: int = 4,
         headers: dict | None = None) -> bytes:
     key = None
     if cache is not None:

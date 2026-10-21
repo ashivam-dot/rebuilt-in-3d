@@ -208,4 +208,8 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
   published from the Mac with `.scratch/publish_story.py` and recorded in the same ledger. Its state lives on the `state` branch. Setting
   the repository variable `PAUSED` to `true` holds the schedule; manual runs still work.
 - An open issue labelled `alert` means the studio needs attention; GitHub emails the repo owner.
+- **Wikidata outages (2026-10-21):** the recent-deaths query timed out ("Read timed out. (read timeout=45)") on 7 of
+  80 runs, each time blinding the death lane. It now reads up to 65 s (the query service stops a query at 60 s),
+  tries three times with backoff, and the last good list (`state/recent_deaths.json`) stands in for up to 3 hours;
+  the run's trend radar errors say when it did.
 - Never promise views or earnings; growth comes from accuracy, consistency and clarity.
