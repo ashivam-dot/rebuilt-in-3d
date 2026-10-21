@@ -160,7 +160,8 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   words; a dateline opener ("On 8 October...", "In 2026...", "Last week...") or a bare "<name> has died" is rewritten
   (a name or event that itself starts with a month, weekday or year is not a dateline: "June Carter Cash's voice",
   "The 2026 Kenyan protests drew"; nor is a count, "4000 homes", or a compound, "Late-night host", "This year's"),
-  and a story whose three drafts all fail is retried on a later run. The first frame shows a 3-6 word claim in beat
+  on the first two drafts; the third is judged on the fact checks alone, so a hook or title miss (below) never
+  costs a story (2026-10-22: the channel is short of stories, not of hooks). The first frame shows a 3-6 word claim in beat
   1's own words (`hook`, checked like the script by the draft checks and `gate.py`) with the name under it when the
   claim lacks it, instead of the name over the years.
 - **Titles (2026-10-21):** searchable core first (the name or place and what happened, its key words in the first 4

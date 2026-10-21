@@ -496,7 +496,8 @@ def hook_text_problems(draft: dict) -> list[str]:
 
 
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
-              reports: list[dict] | None = None, casualties: bool = True, recent: list[str] | None = None) -> list[str]:
+              reports: list[dict] | None = None, casualties: bool = True, recent: list[str] | None = None,
+              style: bool = True) -> list[str]:
     problems = []
     beats = draft.get("beats", [])
     words = sum(len(b["say"].split()) for b in beats)
@@ -504,9 +505,10 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
         problems.append(f"the script has {words} words; it must have 100 to 130")
     if not beats or name.split()[-1].lower() not in beats[0]["say"].lower():
         problems.append(f"beat 1 must name {name}")
-    else:
+    elif style:
         problems += hook_problems(beats[0]["say"], name)
-    problems += title_problems(draft.get("title", ""), name, recent_titles() if recent is None else recent)
+    if style:  # hook and title style, unlike the fact checks, never cost a story: the last attempt goes without
+        problems += title_problems(draft.get("title", ""), name, recent_titles() if recent is None else recent)
     for b in beats:
         if not 0 <= b["photo"] < len(photos):
             problems.append(f"photo {b['photo']} does not exist")
@@ -609,7 +611,8 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
             draft = place_photos(m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6), photos)
-            problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent)
+            problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent,
+                                 style=attempt < 2)
             if attempt < 2:
                 problems += monotone(draft) + hook_text_problems(draft)
             if not problems:

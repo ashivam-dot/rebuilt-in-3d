@@ -68,8 +68,9 @@ def test_a_real_dateline_before_a_month_or_year_name_is_still_rewritten(say, nam
     assert any("opens on a date or time" in p for p in writer.hook_problems(say, name))
 
 
-def test_a_hook_that_fails_every_draft_ends_in_the_retryable_error(monkeypatch):
-    """Three dateline drafts end in the "no draft passed" error the run retries later, never a crash."""
+def test_a_dateline_hook_is_rewritten_twice_then_never_costs_the_story(monkeypatch):
+    """The first two dateline drafts are sent back for a rewrite; the third is judged on the facts alone, and a
+    fact failure ends in the "no draft passed" error the run retries later, never a crash."""
     say = ("On 8 October 2026, Nana Patekar died at his home in Goa. " + "He was an actor of the Hindi screen. " * 14)
     draft = {"title": "Nana Patekar, Krantiveer Star, Dies at 75", "hook": "Nana Patekar died at his home",
              "beats": [{"say": say, "photo": 0, "caption": "1994"}]}
@@ -95,7 +96,8 @@ def test_a_hook_that_fails_every_draft_ends_in_the_retryable_error(monkeypatch):
                      "Nana Patekar died on 8 October 2026 at his home in Goa. He was an actor of the Hindi screen.",
                      [{"file": "File:0.jpg", "description": ""}])
     assert len(calls) == 3
-    assert "no draft passed" in str(err.value) and "opens on a date or time" in str(err.value)
+    assert all("opens on a date or time" in m[-1]["content"] for m in calls[1:])
+    assert "no draft passed" in str(err.value) and "opens on a date or time" not in str(err.value)
     assert any(m in str(err.value) for m in cli.RETRYABLE)
 
 
