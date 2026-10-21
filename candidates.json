@@ -1,7 +1,36 @@
 {
- "at": "2026-10-21T12:43:28+00:00",
+ "at": "2026-10-21T13:45:50+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 337611,
+   "views": 62611,
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-10-21T10:38:36+00:00",
+   "headlines": [
+    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20",
+    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "google-news:France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
@@ -218,6 +247,66 @@
     -121.29527778
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q5115327",
+   "title": "Chuck Amato",
+   "fame": 10003,
+   "views": 10003,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5115327",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-19"
+  },
+  {
+   "qid": "Q130336535",
+   "title": "Carlos Miguel Suárez",
+   "fame": 8594,
+   "views": 8594,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q130336535",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-19"
+  },
+  {
+   "qid": "Q51641814",
+   "title": "Ann Hornaday",
+   "fame": 7905,
+   "views": 7905,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q51641814",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-18"
   }
  ],
  "hazards": [
@@ -234,14 +323,11 @@
   }
  ],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
- ],
  "outlets": {
-  "headlines": 801,
+  "headlines": 811,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 23,
   "corroborated": 1
  },
  "emerging": [
@@ -336,5 +422,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-sudan-south-strike"
+ "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-sudan-south-strike"
 }
