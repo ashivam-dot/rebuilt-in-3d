@@ -58,15 +58,20 @@ def quake_title(mag: str, region: str, ref: str, near: bool, impact: str, recent
     the same three words as a recent one."""
     from .writer import _opening
 
-    place = f"{ref}, {region}" if region else ref
     at = f"near {ref}" if near else (f"in {region}" if region else f"on the {ref}")
-    options = [f"M{mag} earthquake {at}{', ' + region if near and region else ''}: {impact}",
-               f"Quake {at}: M{mag}, {impact}",
-               f"{region or ref} hit by M{mag} quake {at if near else ''}".rstrip() + f": {impact}",
-               f"M{mag} quake strikes {place}: {impact}",
-               f"M{mag} {region or ref} quake: {impact}"]
+    if region:
+        options = [f"M{mag} earthquake {at}{', ' + region if near else ''}: {impact}",
+                   f"Quake {at}: M{mag}, {impact}",
+                   f"{region} hit by M{mag} quake {at if near else ''}".rstrip() + f": {impact}",
+                   f"M{mag} quake strikes {'near ' if near else ''}{ref}, {region}: {impact}",
+                   f"M{mag} {region} quake: {impact}"]
+    else:
+        # Only a distance from a place (USGS "12 km SW of X") or a feature ("central Mid-Atlantic Ridge"): every
+        # wording keeps "near"/"on the", so no title says the quake struck the town itself.
+        options = [f"M{mag} earthquake {at}: {impact}", f"Quake {at}: M{mag}, {impact}",
+                   f"M{mag} quake strikes {at}: {impact}"]
     options = [" ".join(o.split()) for o in options]
-    fit = [o for o in options if 20 <= len(o) <= 70] or [f"M{mag} {region or ref} earthquake"[:70]]
+    fit = [o for o in options if 20 <= len(o) <= 70] or [f"M{mag} earthquake {at}"[:70]]
     heads = {_opening(t) for t in recent}
     return next((o for o in fit if _opening(o) not in heads), fit[0])
 
@@ -74,7 +79,7 @@ def quake_title(mag: str, region: str, ref: str, near: bool, impact: str, recent
 def impact_words(alert: str | None, people: int, label: str, depth: int) -> str:
     """What the quake meant for people, from USGS only: the shaking estimate, else the PAGER alert, else its depth."""
     if people >= 100:
-        return f"≈{usgs.fmt_int(people)} people in {label} shaking"
+        return f"≈{usgs.fmt_int(people)} in {label} shaking or worse"
     if alert in ("yellow", "orange", "red"):
         return f"USGS PAGER {alert} alert"
     return f"{depth} km below the surface"
@@ -175,7 +180,7 @@ def build(event_id: str) -> Short:
     loss = alert in ("orange", "red")
     from .writer import recent_titles
 
-    title = quake_title(mag, region, place["ref"], bool(place["distance_km"]),
+    title = quake_title(mag, place["region"], place["ref"], bool(place["distance_km"]),
                         impact_words(alert, people, label, depth), recent_titles())
     return Short(
         id=f"eq-{event_id}", kind="quake", title=title, beats=beats, facts=facts, sources=[page], loss=loss,
