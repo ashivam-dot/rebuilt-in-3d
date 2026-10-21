@@ -66,7 +66,7 @@ def words_for(ep) -> tuple[list[str], str]:
     """(the 2-5 headline words, the badge): both stated by the plan's facts."""
     if ep.kind == "quake-region":
         n = next((f.numbers[0] for c in ep.chapters for f in c.facts if f.key == "history-count" and f.numbers), "")
-        return ep.topic.upper().split()[:3] + ["KEEPS", "SHAKING"], (f"{n} M6+ QUAKES SINCE 1900" if n else "")
+        return ep.topic.upper().split()[:3] + ["KEEPS", "SHAKING"], (f"{n} M6+ QUAKES NEARBY SINCE 1900" if n else "")
     peak = next(f for c in ep.chapters for f in c.facts if f.key == "peak")
     mph = next(n for n in peak.numbers if n.isdigit() and int(n) > 60 and f"{n} mph" in peak.value)
     return [ep.topic.upper(), mph, "MPH"], "NOAA BEST TRACK"

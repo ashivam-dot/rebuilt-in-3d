@@ -102,11 +102,23 @@ def clean(lines) -> list[str]:
 
 
 def fact_check(checker, lines: list[str], ch: Chapter, src: str) -> dict[int, str]:
-    """{line number: problem} for the lines the evidence check and its second look both flag."""
+    """{line number: problem} for the lines the evidence check and its second look both flag. A line the checker
+    gave no verdict counts against it (check_verdict alone lets a left-out line through): it goes to the second look
+    like any flagged line, so no sentence reaches the narration unchecked."""
     facts = [f.value for f in ch.facts]
-    verdict = checker.chat(writer._check_messages(lines, facts, ch.source), writer.CHECK_SCHEMA, temperature=0.0,
-                           max_tokens=min(6000, 160 * len(lines) + 400))
+    try:
+        verdict = checker.chat(writer._check_messages(lines, facts, ch.source), writer.CHECK_SCHEMA, temperature=0.0,
+                               max_tokens=min(6000, 160 * len(lines) + 400))
+    except ValueError:  # an answer cut off mid-JSON: no verdicts, so every line gets the second look below
+        verdict = {}
+    verdict = verdict if isinstance(verdict, dict) else {}
+    rows = verdict.get("lines") if isinstance(verdict.get("lines"), list) else []
+    verdict = {"lines": [r for r in rows if isinstance(r, dict)]}
     flagged = writer.check_verdict(verdict, lines, src)
+    seen = {r.get("line") for r in verdict["lines"]}
+    for n in range(1, len(lines) + 1):
+        if n not in seen and n not in flagged:
+            flagged[n] = f"line {n} ({lines[n - 1][:60]}): no verdict"
     if not flagged:
         return {}
     kept = writer.recheck(checker, lines, flagged, src)
@@ -114,7 +126,11 @@ def fact_check(checker, lines: list[str], ch: Chapter, src: str) -> dict[int, st
 
 
 def draft(drafter, msgs: list[dict]) -> tuple[list[str], str]:
-    answer = drafter(msgs)
+    try:
+        answer = drafter(msgs)
+    except ValueError as exc:  # an answer cut off mid-JSON counts as an empty draft, not the end of the job
+        print(f"draft unreadable: {exc}"[:200], flush=True)
+        answer = {}
     return clean(answer.get("lines") if isinstance(answer, dict) else []), getattr(drafter, "model", "")
 
 

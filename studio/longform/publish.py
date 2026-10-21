@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .. import ledger, youtube
-from . import describe
+from . import describe, topics
 
 PLAYLIST = "Orbitwire Explains"
 PLAYLIST_ABOUT = ("Orbitwire's long-form explainers: one natural hazard a week, told from open USGS and NOAA data: what "
@@ -43,6 +43,29 @@ def load() -> dict:
 
 def save(state: dict) -> None:
     ledger.save("longform", state)
+
+
+def push_state(message: str) -> str:
+    """Commit and push state/longform.json at once (Actions only): the hourly Shorts run must know the episode's video
+    id as soon as it exists, not up to an hour later when this job's last step saves state, or a Short whose source
+    the episode also cites could adopt the episode as its own upload. Best effort: the job's own save step follows."""
+    import os
+    import subprocess
+
+    if os.environ.get("GITHUB_ACTIONS") != "true" or not (ledger.STATE / ".git").exists():
+        return "skipped: not a state checkout in Actions"
+
+    def git(*args: str) -> bool:
+        return subprocess.run(["git", "-C", str(ledger.STATE), *args], capture_output=True, timeout=120).returncode == 0
+
+    ledger.set_identity()
+    git("add", "longform.json")
+    git("commit", "-q", "-m", message, "--", "longform.json")
+    for i in range(5):
+        if git("pull", "-q", "--rebase", "origin", "state") and git("push", "-q", "origin", "HEAD:state"):
+            return "pushed"
+        time.sleep(10 * (i + 1))
+    return "not pushed: the job's save step will retry"
 
 
 def known_ids() -> set[str]:
@@ -86,7 +109,8 @@ def processed(api, video_id: str, max_wait: float, sleep=time.sleep) -> dict:
         if status.get("uploadStatus") == "processed" or state == "succeeded":
             return video
         if time.monotonic() > deadline:
-            raise RuntimeError(f"{video_id} still processing; the next publish run finishes it (it is recorded)")
+            raise RuntimeError(f"{video_id} still processing (it is recorded): re-run this run's failed jobs to "
+                               "finish it; a new run will not, as the week is taken")
         sleep(30)
 
 
@@ -155,6 +179,10 @@ def publish(work: Path, api=None, at: datetime | None = None, max_wait: float = 
     row = state["episodes"].get(meta["id"])
     if row and row.get("state") == "scheduled":
         return {"episode": meta["id"], "video_id": row["video_id"], "did": "nothing: already scheduled"}
+    if (not row or not row.get("video_id")) and not meta.get("override") and \
+            (taken := topics.slot_taken(state, meta["publish_at"], meta["id"])):
+        raise RuntimeError(f"episode {taken} already holds the week of {meta['publish_at']}: refusing to schedule a "
+                           f"second episode ({meta['id']}) into it; plan with --topic to make one anyway")
     api = api or youtube.client()
     channel = youtube.identity(api)
     did = []
@@ -171,6 +199,7 @@ def publish(work: Path, api=None, at: datetime | None = None, max_wait: float = 
             "video_id": video_id, "state": "uploaded", "title": meta["title"], "topic_key": meta.get("topic_key"),
             "publish_at": meta["publish_at"], "sha256": meta.get("sha256"), "at": ledger.now()}
         save(state)
+        did.append("state " + push_state(f"longform: uploaded {meta['id']} as {video_id}"))
     video_id = row["video_id"]
     processed(api, video_id, max_wait, sleep)
     if "thumbnail" not in row:

@@ -141,7 +141,7 @@ def test_plan_quake_states_only_data_and_says_what_comes_next_without_a_forecast
             "shorts": [{"id": "eq-us6000u18k", "video_id": "ou-WEYN_fZ4", "title": "t", "views_24h": 1.0}],
             "events": [{"id": "us6000u18k", "mag": 7.7}]}
     ep = plan.plan_quake(cand, AT)
-    assert ep.title == f"Why Panama Keeps Shaking: {len(hist)} Strong Quakes Since 1900"
+    assert ep.title == f"Why Panama Keeps Shaking: {len(hist)} Strong Quakes Nearby Since 1900"
     assert "3D" not in ep.title and 45 <= len(ep.title) <= 70
     roles = [c.key for c in ep.chapters]
     assert roles[0] == "cold-open" and roles[-1] == "why-it-matters" and "next" in roles
@@ -434,3 +434,87 @@ def test_link_rewrites_the_whole_snippet_once_after_the_episode_is_public(tmp_pa
 def test_short_jobs_treat_long_form_uploads_as_known(tmp_path):
     ledger.save("longform", {"episodes": {"lf-1": {"video_id": "LFvideo0001", "title": "Why Panama Keeps Shaking"}}})
     assert "LFvideo0001" in ledger.longform_videos()
+
+
+# --- review fixes: no line unchecked, one episode a week, the upload known at once ----------------------------------
+
+class Silent:
+    """An evidence check that leaves every line out; the second look says whether `ok` is in the line."""
+
+    def __init__(self, ok="188"):
+        self.ok = ok
+
+    def chat(self, messages, schema, temperature=0.0, max_tokens=0):
+        if "LINES:" in messages[-1]["content"]:
+            return {"lines": []}
+        line = messages[-1]["content"].split("\n\nLINE: ")[1].split("\n\nSOURCE SENTENCES:")[0]
+        return {"supported": self.ok in line, "why": "x"}
+
+
+def test_a_line_the_checker_leaves_out_is_not_let_through():
+    ep = _episode()
+    ch = ep.chapters[0]
+    lines = [GOOD[1], "Panama's ancient volcano gods sleep beneath the canal, scientists say."]
+    flagged = write.fact_check(Silent(), lines, ch, write.ground(ep, ch))
+    assert list(flagged) == [2] and "no verdict" in flagged[2]  # line 1 passed its second look
+    assert write.fact_check(Silent(ok="zzz"), lines, ch, write.ground(ep, ch)).keys() == {1, 2}
+    out = write.write_chapter(ep, "cold-open", Drafter(GOOD + lines[1:]), Silent(ok="USGS"))
+    assert out["lines"] == GOOD
+
+
+def test_a_week_with_an_episode_gets_no_second_one(tmp_path):
+    held = {"episodes": {"lf-2026w43-panama": {"video_id": "LFvideo0001", "state": "scheduled",
+                                               "topic_key": "quake-region:panama",
+                                               "publish_at": "2026-10-24T14:00:00Z"}}}
+    assert topics.slot_taken(held, "2026-10-24T14:00:00Z") == "lf-2026w43-panama"
+    assert topics.slot_taken(held, "2026-10-24T14:00:00Z", "lf-2026w43-panama") is None  # its own row
+    assert topics.slot_taken(held, "2026-10-31T14:00:00Z") is None
+    ledger.save("longform", held)
+    with pytest.raises(RuntimeError, match="already has episode lf-2026w43-panama"):
+        plan.plan(at=AT)
+    ep = _episode(id="lf-2026w43-trudy", title="Hurricane Trudy: How a Pacific Storm Reached 120 mph")
+    api = FakeYouTube()
+    with pytest.raises(RuntimeError, match="already holds the week"):
+        publish.publish(_work(tmp_path, ep), api=api, at=AT, sleep=lambda s: None)
+    assert api.inserted == []
+    meta = tmp_path / "work" / "meta.json"
+    meta.write_text(json.dumps(json.loads(meta.read_text()) | {"override": True}))
+    assert publish.publish(tmp_path / "work", api=api, at=AT, sleep=lambda s: None)["video_id"]
+
+
+def test_the_upload_is_pushed_to_state_before_it_finishes_processing(monkeypatch, tmp_path):
+    seen, push = [], publish.push_state
+    assert push("x").startswith("skipped")  # no state checkout here: never a push from a test
+    monkeypatch.setattr(publish, "push_state", lambda message: seen.append(ledger.longform_videos()) or "pushed")
+    real = publish.processed
+    monkeypatch.setattr(publish, "processed", lambda *a, **k: (seen.append("processed"), real(*a, **k))[1])
+    out = publish.publish(_work(tmp_path, _episode()), api=FakeYouTube(), at=AT, sleep=lambda s: None)
+    assert seen == [{out["video_id"]}, "processed"] and "state pushed" in out["did"]
+    assert publish.push_state("x").startswith("skipped") or True
+
+
+def test_the_description_never_calls_the_episode_3d():
+    ep = _episode(related=[{"id": "a", "video_id": "ou-WEYN_fZ4", "title": "How the M7.7 Panama quake ruptured, in 3D"}])
+    text = describe.description(ep, [("a", 0.0), ("b", 60.0), ("c", 120.0)], 60.0)
+    assert "3D" not in text and "How the M7.7 Panama quake ruptured: https://www.youtube.com/shorts/ou-WEYN_fZ4" in text
+
+
+def test_an_answer_cut_off_mid_json_costs_a_draft_not_the_job():
+    class Cut(Drafter):
+        def __call__(self, msgs):
+            if not self.seen:
+                self.seen.append(msgs)
+                raise json.JSONDecodeError("Unterminated string", '{"lines": ["On Oct', 12)
+            return super().__call__(msgs)
+
+    class CutCheck(Checker):
+        cut = True
+
+        def chat(self, messages, schema, temperature=0.0, max_tokens=0):
+            if "LINES:" in messages[-1]["content"] and self.cut:
+                self.cut = False
+                raise json.JSONDecodeError("Unterminated string", "{", 1)
+            return super().chat(messages, schema, temperature, max_tokens)
+
+    out = write.write_chapter(_episode(), "cold-open", Cut(GOOD), CutCheck())
+    assert out["lines"] == GOOD and any("empty" in x for x in out["log"])

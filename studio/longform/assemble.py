@@ -141,12 +141,15 @@ def finish(work: Path) -> dict:
     lines = [json.loads((d / "chapter.json").read_text())["lines"] for d in dirs]
     (work / "captions.srt").write_text(captions([(float(s), ln, t["beats"]) for s, ln, t in
                                                  zip(starts, lines, timings)]), encoding="utf-8")
-    thumbnail = thumb.build(dirs[0] / "hero.png" if (dirs[0] / "hero.png").exists() else dirs[1] / "hero.png", ep,
-                            work / "thumbnail.jpg")
+    hero = next((d / "hero.png" for d in dirs if (d / "hero.png").exists()), None)
+    if hero is None:
+        raise FileNotFoundError("no chapter's make job left a hero.png for the thumbnail")
+    thumbnail = thumb.build(hero, ep, work / "thumbnail.jpg")
     if not thumbnail["ok"]:
         problems.append("the thumbnail's words did not pass the legibility test")
     digest = hashlib.sha256((work / "episode.mp4").read_bytes()).hexdigest()
-    meta = {"id": ep.id, "title": ep.title, "topic_key": ep.why.get("topic_key"), "publish_at": ep.publish_at,
+    meta = {"id": ep.id, "title": ep.title, "topic_key": ep.why.get("topic_key"),
+            "override": str(ep.why.get("how") or "").startswith("owner override"), "publish_at": ep.publish_at,
             "tags": ep.tags, "seconds": round(info["seconds"], 2), "chapters": [[t, round(s, 2)] for t, s in chapters],
             "probe": info, "defects": found, "problems": problems, "thumbnail": thumbnail, "sha256": digest,
             "related": ep.related, "words": sum(len(x.split()) for ln in lines for x in ln)}

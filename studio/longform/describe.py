@@ -4,13 +4,17 @@ credits and the disclosure: those are required and raise rather than be cut. Sou
 follow while they fit. "<" and ">" are not allowed in a description and are dropped."""
 from __future__ import annotations
 
+import re
+
 from .spec import Episode
+
+IN_3D = re.compile(r",?\s*\bin 3D\b", re.I)  # the Shorts' own title suffix: this series is never called 3D
 
 LIMIT = 5000
 MIN_CHAPTERS = 3
 MIN_CHAPTER_SECONDS = 10
-DISCLOSURE = ("How it is made: every number in this video comes from the public data listed below (USGS, NOAA and, where "
-              "named, Wikipedia) and each sentence of the script was checked against it. The maps and charts are drawn "
+DISCLOSURE = ("How it is made: every number in this video comes from the public data credited below (USGS, NOAA and, "
+              "where named, Wikipedia) and each sentence of the script was checked against it. The maps and charts are drawn "
               "from that data; nothing is real footage. The narration is an AI voice. Deaths and injuries are not "
               "reported in this series.")
 
@@ -53,7 +57,7 @@ def description(ep: Episode, chapters: list[tuple[str, float]], last_chapter_sec
     optional = []
     if ep.sources:
         optional.append(("Sources:", list(ep.sources)))
-    shorts = [f"{s['title']}: https://www.youtube.com/shorts/{s['video_id']}" for s in ep.related if s.get("video_id")]
+    shorts = [f"{IN_3D.sub('', s['title']).strip()}: https://www.youtube.com/shorts/{s['video_id']}" for s in ep.related if s.get("video_id")]
     if shorts:
         optional.append(("The Shorts this episode grew from:", shorts))
     for head, rows in optional:

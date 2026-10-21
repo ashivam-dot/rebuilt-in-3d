@@ -74,7 +74,7 @@ def general_text(detail: dict) -> str:
     for prod in (detail.get("properties", {}).get("products", {}).get("general-text") or []):
         for name, c in (prod.get("contents") or {}).items():
             body = c.get("bytes")
-            if body is None and c.get("url") and name.endswith((".html", "")):
+            if body is None and c.get("url") and (name == "" or name.lower().endswith((".html", ".htm", ".txt"))):
                 try:
                     body = net.get(c["url"], cache=CACHE).decode("utf-8", "replace")
                 except Exception:  # noqa: BLE001 - the write-up is an extra; facts still come from the event

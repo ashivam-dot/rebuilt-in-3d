@@ -51,6 +51,22 @@ def recent_topics(longform: dict, at: datetime, days: int = REPEAT_DAYS) -> set[
     return out
 
 
+def slot_taken(longform: dict, publish_at: str, episode: str | None = None) -> str | None:
+    """The episode (other than `episode`) already in the ledger for the same publish time or ISO week, if any: one
+    episode a week. Without this, a re-run or a second run in a week picks the runner-up (the first topic is now
+    "explained recently") and schedules it into the same Saturday slot."""
+    want = _when(publish_at)
+    if want is None:
+        return None
+    for key, row in (longform.get("episodes") or {}).items():
+        if key == episode:
+            continue
+        when = _when(row.get("publish_at"))
+        if when and (when == want or when.isocalendar()[:2] == want.isocalendar()[:2]):
+            return key
+    return None
+
+
 def candidates(published: list[dict], performance: dict, retracted: set[str], at: datetime,
                window_days: int = WINDOW_DAYS) -> list[dict]:
     """The quake regions and storms covered in the window, each with its Shorts and their summed 24-hour views."""

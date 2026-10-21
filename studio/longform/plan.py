@@ -115,7 +115,7 @@ def when(iso: str) -> str:
 def title_for(cand: dict, n: int | None = None, peak_mph: int | None = None, basin: str | None = None,
               cat: int | None = None) -> str:
     if cand["kind"] == "quake-region":
-        return f"Why {cand['topic']} Keeps Shaking: {n} Strong Quakes Since 1900"
+        return f"Why {cand['topic']} Keeps Shaking: {n} Strong Quakes Nearby Since 1900"
     kind = "Hurricane" if (cat or 0) >= 1 else "Tropical Storm"
     sea = "Atlantic" if basin == "al" else "Pacific"
     return f"{kind} {cand['topic']}: How a {sea} Storm Reached {peak_mph} mph"
@@ -252,7 +252,9 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
                                                                   f"({MMI_WORDS[level]}) or stronger.", page))
                     break
         if main_pack.get("pager_alert"):
-            F["people"].append(fact("pager", f"USGS gave the quake an {main_pack['pager_alert']} PAGER alert, on a "
+            alert = main_pack["pager_alert"]
+            article = "an" if str(alert)[:1].lower() in "aeiou" else "a"
+            F["people"].append(fact("pager", f"USGS gave the quake {article} {alert} PAGER alert, on a "
                                              "scale of likely impact that runs green, yellow, orange, red.", page))
         for c in [c for c in main_pack.get("cities") or [] if c.get("mmi")][:4]:
             level = int(round(c["mmi"]))
@@ -512,8 +514,14 @@ def _chapters(kind: str, topic: str, F: dict, text: dict, visuals: dict) -> list
 def plan(at: datetime | None = None, override: str | None = None, rich=None) -> Episode:
     """Choose this week's topic and plan its episode."""
     at = at or datetime.now(timezone.utc)
+    state = ledger.load("longform", {})
+    when = slot(at).isoformat(timespec="seconds").replace("+00:00", "Z")
+    if not override and (taken := topics.slot_taken(state, when)):
+        raise RuntimeError(f"the {when} slot already has episode {taken} "
+                           f"({(state['episodes'][taken] or {}).get('state')}): one episode a week. To resume it, "
+                           "re-run the failed jobs of its own run; to make another anyway, pass --topic")
     cands = topics.candidates(ledger.published(), ledger.load("performance", {}), set(youtube.RETRACTED), at)
-    chosen, why = topics.pick(cands, rich or richness, ledger.load("longform", {}), at, override)
+    chosen, why = topics.pick(cands, rich or richness, state, at, override)
     ep = plan_quake(chosen, at) if chosen["kind"] == "quake-region" else plan_cyclone(chosen, at)
     ep.why = why | {"topic_key": chosen["key"]}
     return ep
