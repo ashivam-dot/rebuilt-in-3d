@@ -1,47 +1,62 @@
 {
- "at": "2026-10-21T00:44:47+00:00",
+ "at": "2026-10-21T01:42:41+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 251742,
+   "fame": 276742,
    "views": 101742,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-20T21:05:50+00:00",
+   "news": 175000,
+   "news_at": "2026-10-21T00:45:06+00:00",
    "headlines": [
     "Suspect arrested after Limoges town hall set alight during disorder - French media",
-    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’"
+    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "Live: French PM Lecornu to meet with unions ahead of new protests"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-19",
     "google-news:Suspect arrested after Limoges town hall set alight during disorder - French media",
-    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’"
+    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "google-news:Live: French PM Lecornu to meet with unions ahead of new protests",
+    "outlet:France Médias Monde"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Live: French PM Lecornu to meet with unions ahead of new protests",
+     "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-21T00:45:06+00:00"
+    }
+   ],
    "id": "wk-Q141615137-2026w43",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "coords": null,
    "has_coords": true
   },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
-   "fame": 98264,
+   "fame": 97764,
    "views": 97764,
-   "traffic": 500,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-19",
-    "google-trends-US:the fugitive"
+    "wikipedia-top-2026-10-19"
    ],
    "owners": [],
    "reports": [],
@@ -191,32 +206,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 14111,
-   "views": 13911,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-19",
-    "google-trends-IN:school"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q5115327",
    "title": "Chuck Amato",
    "fame": 13982,
@@ -235,6 +224,31 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-19"
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 13911,
+   "views": 13911,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-19"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q3837943",
@@ -333,10 +347,10 @@
   }
  ],
  "outlets": {
-  "headlines": 823,
+  "headlines": 816,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
+  "matched": 26,
   "corroborated": 1
  },
  "emerging": [
@@ -416,5 +430,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }
