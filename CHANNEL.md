@@ -120,7 +120,10 @@ whose text is at least half the same are one owner; a story with fewer than two 
   never what happened.
 - **Description:** "Sources: Wikipedia, BBC, The Hindu" names the outlets behind the facts, then every URL. YouTube
   refuses a description over 5,000 bytes, so a long one drops the narration first and keeps every source and
-  photo credit.
+  photo credit. **Since 2026-10-22** it also carries one "How it is made:" line (`youtube.EDITORIAL`, the quake lane
+  `EDITORIAL_QUAKE`): the story must already be followed, every name and number must be in Wikipedia/Wikidata or two
+  independent outlets' reports (USGS data for a quake) and is checked before upload, a toll only when sources agree.
+  The checks are mechanical, so it never claims a person reviewed the Short.
 
 ## The editorial desk (`studio/plan.py`)
 
@@ -297,4 +300,5 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
 | 2026-10-22 | Curiosity titles ("How/Why <thing> <outcome>", "<X> Exists Because of <Y>") where the sources state it, fact-checked; teases refused | Titles read as wire headlines ("<Place> <Event>: <What Happened>"); the How/Why framing names a specific outcome while keeping the searchable name first |
 | 2026-10-22 | NASA records naming a partner's data in the description (Copernicus Sentinel, ESA, Himawari/JMA, EUMETSAT, KOMPSAT/KARI, "processed by" a non-US-federal party) are refused; the not-a-photo check reads the description too | Review of the NASA tier: an Earth Observatory record credited "NASA Earth Observatory/Lauren Dauphin" over "Copernicus Sentinel-2 data processed by the European Space Agency", and a Himawari-9 record "operated by the Japan Meteorological Agency", both passed as public domain; typhoon and storm stories are the tier's main use |
 | 2026-10-22 | An upload under 48 h old with this story's source URL that the ledger lost is held, never re-uploaded; `uploads.json` entries 24 h old are reported | Without the public tag, a failed "Save state" step (rebase conflict, push, lost runner) left nothing to find the upload by; a second copy of a story is the repetitive-content signal this batch removes |
+| 2026-10-22 | One "How it is made:" line in every new description (sources, line-by-line checks, toll rule; no claim of a human review) | YPP reviewers sample the newest uploads and read their metadata (answer/1311392); the descriptions said where facts came from but not what is checked, and "readings of news feeds" are non-monetizable |
 | 2026-10-22 | A curiosity title flagged on the last draft falls back to the plain title; the checked title is labelled and a missing verdict counts against it | A title-only flag on draft 3 failed a story whose every beat was supported ("no draft passed the fact checks"); 26 of 44 skips were already for want of photos, so supply is the constraint |

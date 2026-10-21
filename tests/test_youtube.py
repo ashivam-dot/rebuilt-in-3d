@@ -22,6 +22,16 @@ def test_description_carries_sources_and_disclosure():
     assert "not real footage" in text and len(text) <= 4900
 
 
+def test_every_description_says_how_the_short_is_made_once():
+    quake = Short.load(FIXTURE)
+    story = replace(quake, scene={**quake.scene, "template": "story", "photos": []})
+    for short, line in ((quake, youtube.EDITORIAL_QUAKE), (story, youtube.EDITORIAL)):
+        text = youtube.description(short)
+        assert text.count("How it is made:") == 1 and line in text.splitlines()
+    # It claims mechanical checks, never a person reviewing each Short.
+    assert not any(w in youtube.EDITORIAL + youtube.EDITORIAL_QUAKE for w in ("human", "editor", "reviewed by"))
+
+
 def test_tags_carry_topics_but_no_machine_marker():
     short = Short.load(FIXTURE)
     tags = youtube.tags(replace(short, tags=[f"tag number {i}" for i in range(60)]))

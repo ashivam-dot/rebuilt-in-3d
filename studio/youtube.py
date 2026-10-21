@@ -182,6 +182,13 @@ def source_lines(short: Short) -> list[str]:
 
 
 DESCRIPTION_BYTES = 5000
+# What the desk does before a Short goes out, said once in every description: reviewers of a channel read how it is
+# made, and the checks are mechanical (gate.py, the writer's evidence check), so no person is claimed to review it.
+EDITORIAL = ("How it is made: a story is told only when the world is already following it; every name and number "
+             "must appear in Wikipedia/Wikidata or in two independent outlets' reports, each line is checked against "
+             "them before upload, and a death toll is said only when the sources agree on it.")
+EDITORIAL_QUAKE = ("How it is made: every number comes from the USGS event data listed above and is checked against "
+                   "it before upload; the scene is rebuilt from open terrain data, nothing is invented.")
 
 
 def description(short: Short) -> str:
@@ -208,7 +215,7 @@ def _description(short: Short, narration: bool) -> str:
             pictures += (" The maps are OpenStreetMap (© OpenStreetMap contributors), with the site marked by "
                          "Orbitwire: they show where it happened, not what happened.")
         lines += [pictures + " The narration is an AI voice (Chatterbox) reading a script checked line by line "
-                  "against the sources above.",
+                  "against the sources above.", EDITORIAL,
                   "Spotted an error? Comment with a source and we will correct it.", ""]
         lines += ["Credits:"] + [f"• {c}" for c in short.credits] + [""]
     else:
@@ -216,7 +223,7 @@ def _description(short: Short, narration: bool) -> str:
         lines += ["Sources:"] + short.sources + [""]
         lines += ["This is a 3D reconstruction built from open data, not real footage. The vertical scale is "
                   "exaggerated so depth and relief are visible. Narration is synthetic (Kokoro text-to-speech).",
-                  "Spotted an error? Comment with a source and we will correct it.", ""]
+                  EDITORIAL_QUAKE, "Spotted an error? Comment with a source and we will correct it.", ""]
         lines += ["Credits: " + "; ".join(short.credits), ""]
     words = ["".join(w[:1].upper() + w[1:] for w in h.split()) if " " in h else h for h in short.hashtags]
     lines.append(" ".join("#" + re.sub(r"[^0-9A-Za-z]", "", w) for w in words if re.sub(r"[^0-9A-Za-z]", "", w)))
