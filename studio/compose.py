@@ -254,13 +254,48 @@ def _credit_layer(text: str) -> tuple[np.ndarray, np.ndarray]:
     return _rgba(_text_layer([(text, font, (255, 255, 255, 190))], stroke=2))
 
 
-def _hook_layer(name: str, sub: str, accent: tuple) -> tuple[np.ndarray, np.ndarray]:
+HOOK_MIN_SIZE = 92  # below this the hook claim breaks onto a second line instead of shrinking
+
+
+def hook_lines(text: str, fits) -> list[str]:
+    """The hook in one line, or two balanced lines when one would need a font under HOOK_MIN_SIZE. fits(line, size)
+    says whether a line fits the frame at that size."""
+    words = text.upper().split()
+    if len(words) < 2 or fits(" ".join(words), HOOK_MIN_SIZE):
+        return [" ".join(words)]
+    cut = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
+    return [" ".join(words[:cut]), " ".join(words[cut:])]
+
+
+def hook_text(short: Short) -> tuple[str, str]:
+    """(big, small) for the first frame: the 3-6 word claim from beat 1, with the name under it when the claim does
+    not already say it; a Short without a claim keeps the name over its years or first caption."""
+    name = next((f.value for f in short.facts if f.key == "name"), short.title)
+    claim = (short.scene.get("hook") or "").strip()
+    if claim:
+        said = claim.lower()
+        return claim, "" if any(w.lower() in said for w in name.split() if len(w) > 2) else name
+    if short.kind == "death":
+        years = {f.key: f.value[-4:] for f in short.facts if f.key in ("born", "died")}
+        return name, f"{years['born']} – {years['died']}" if len(years) == 2 else ""
+    first = short.beats[0].card if short.beats else None
+    return name, (first or {}).get("big", "")
+
+
+def _hook_layer(text: str, sub: str, accent: tuple) -> tuple[np.ndarray, np.ndarray]:
+    def fits(line, size):
+        return _font("Anton-Regular.ttf", size).getlength(line) <= W - 120
+
+    rows = hook_lines(text, fits)
     big = _font("Anton-Regular.ttf", 118)
-    while big.getlength(name.upper()) > W - 120:
+    while not all(fits(r, big.size) for r in rows):
         big = _font("Anton-Regular.ttf", big.size - 6)
-    lines = [(name.upper(), big, (255, 255, 255, 255))]
+    lines = [(r, big, (255, 255, 255, 255)) for r in rows]
     if sub:
-        lines.append((sub, _font("Montserrat.ttf", 44, "Bold"), accent + (255,)))
+        small = _font("Montserrat.ttf", 44, "Bold")
+        while small.getlength(sub) > W - 120 and small.size > 28:
+            small = _font("Montserrat.ttf", small.size - 2, "Bold")
+        lines.append((sub, small, accent + (255,)))
     return _rgba(_text_layer(lines, stroke=6, gap=14))
 
 
@@ -321,13 +356,7 @@ def render(short: Short, timing: dict, work: Path) -> dict:
                       "motion": MOTIONS[i % len(MOTIONS)], "beat": beat, "outro": beat.shot == "outro"})
     chips = [_chip_layer(b["beat"].card["big"], accent) if b["beat"].card and b["beat"].card.get("big") and i > 0
              and not b["outro"] else None for i, b in enumerate(shots)]
-    name = next((f.value for f in short.facts if f.key == "name"), short.title)
-    if short.kind == "death":
-        years = {f.key: f.value[-4:] for f in short.facts if f.key in ("born", "died")}
-        sub = f"{years['born']} – {years['died']}" if len(years) == 2 else ""
-    else:
-        sub = shots[0]["beat"].card.get("big", "") if shots[0]["beat"].card else ""
-    hook = _hook_layer(name, sub, accent)
+    hook = _hook_layer(*hook_text(short), accent)
     credits = {i: _credit_layer(p["credit"]) for i, p in enumerate(photos)}
     end = _end_layers(accent, disclosure(photos))
     work.mkdir(parents=True, exist_ok=True)

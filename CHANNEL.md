@@ -148,6 +148,16 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
 - **Story, not a résumé:** a hook that says plainly what happened; then where they began, the turning point, the
   work people loved (named, with years on screen), a human detail, and what they leave behind. On-screen chips name
   works, roles, honours or years, never places (a place over a photo reads as where it was taken).
+- **Hook first (2026-10-21; the Phase 1 hook the owner approved on 2026-10-20, ported from Kyun Hua's `HOOK_WORDS`):**
+  tributes that opened "X has died" held 41-43% of viewers for 16-19 s, against 64-101% for Shorts that opened on the
+  event. Beat 1 now opens on the single most striking verified fact, with the name or the event in its first 4
+  words; a dateline opener ("On 8 October...", "In 2026...", "Last week...") or a bare "<name> has died" is rewritten,
+  and a story whose three drafts all fail is retried on a later run. The first frame shows a 3-6 word claim in beat
+  1's own words (`hook`, checked like the script by the draft checks and `gate.py`) with the name under it when the
+  claim lacks it, instead of the name over the years.
+- **Titles (2026-10-21):** searchable core first (the name or place and what happened, its key words in the first 4
+  words); never "The Legacy of", "A Tribute to", "The Life and Legacy" or "The Path of" (they made every tribute and
+  storm title read alike), and never the same first 3 words as any of the last 20 published titles.
 - **Voice:** an expressive AI voice (Chatterbox), each line checked by speech recognition before use; word-by-word
   captions; a quiet score written in code. Two lanes, chosen by the story's region: India stories clone an Indian
   English reference (`tts/voices/india.wav`, Veena "kavya", Apache-2.0), all others a clear, warm US voice

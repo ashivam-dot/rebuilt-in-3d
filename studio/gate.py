@@ -150,6 +150,8 @@ def check(short: Short) -> list[str]:
     for i, b in enumerate(short.beats):
         if b.card:
             texts.append((f"card {i + 1}", f"{b.card.get('big', '')} {b.card.get('small', '')}"))
+    if short.scene.get("hook"):
+        texts.append(("hook", short.scene["hook"]))
     for where, text in texts:
         for num in numbers(text.replace("≈", "")):
             if num not in allowed:

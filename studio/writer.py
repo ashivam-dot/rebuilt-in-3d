@@ -19,7 +19,7 @@ from pathlib import Path
 
 import cv2
 
-from . import faces, gate, llm, media, outlets, stories, terrain, trends, wiki
+from . import faces, gate, ledger, llm, media, outlets, stories, terrain, trends, wiki
 from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
@@ -37,12 +37,13 @@ SCHEMA = {
     "type": "object",
     "properties": {
         "title": {"type": "string"},
+        "hook": {"type": "string"},
         "beats": {"type": "array", "minItems": 6, "maxItems": 9, "items": {
             "type": "object",
             "properties": {"say": {"type": "string"}, "photo": {"type": "integer"}, "caption": {"type": "string"}},
             "required": ["say", "photo", "caption"]}},
     },
-    "required": ["title", "beats"],
+    "required": ["title", "hook", "beats"],
 }
 CHECK_SCHEMA = {"type": "object", "properties": {"lines": {"type": "array", "items": {
     "type": "object", "properties": {"line": {"type": "integer"}, "quote": {"type": "string"},
@@ -58,7 +59,9 @@ DEATH_BRIEF = """STORY: {name} has died. Write a tribute Short that makes a view
 and makes a fan feel {pronoun} was honoured.
 
 Shape:
-1. Hook (beat 1, under 15 words): say plainly that {name} has died, with the one detail that makes it matter.
+1. Hook (beat 1, under 15 words): open on {name} and the single most striking verified fact about {object} from the
+   SOURCE (the record, the number, the work everyone knows), then that {pronoun} has died. Never open with
+   "{name} has died" or a date.
 2. Where {pronoun} began, or the struggle before success.
 3. The turning point or breakthrough, naming the specific work from the SOURCE.
 4. The work people loved most, and what made {object} different from everyone else.
@@ -70,7 +73,8 @@ INCIDENT_BRIEF = """STORY: {name}. Write a news Short that helps a viewer unders
 with compassion for everyone affected.
 
 Shape:
-1. Hook (beat 1, under 15 words): what happened and where, stated plainly, with the detail that makes it matter.
+1. Hook (beat 1, under 15 words): the single most striking verified fact, what happened and to whom or how many,
+   naming the place or the event in its first 4 words. Where and when can wait for beat 2.
 2. The moment it began, in order, as a story.
 3. The people involved and what they faced, with official figures only if the SOURCE gives them.
 4. The response: rescuers, officials, investigators.
@@ -83,7 +87,8 @@ PROTEST_BRIEF = """STORY: {name}. Write a news Short that explains, fairly and c
 why people took to the streets, and where it stands now.
 
 Shape:
-1. Hook (beat 1, under 15 words): the newest development in the SOURCE, stated plainly.
+1. Hook (beat 1, under 15 words): the newest and most striking development in the SOURCE, stated plainly, naming
+   the movement or its place in the first 4 words.
 2. How it began: the trigger, in order, as a story.
 3. Who is involved and what they demand, attributed ("organisers demand", "the party says").
 4. How the government, police or courts responded, attributed to them.
@@ -110,6 +115,9 @@ RULES = """RULES (all mandatory):
   feeling comes from how you tell those facts, not from vague praise.
 - Tell it as a story, not a list: vary how beats open, and never start more than 2 beats with the same word
   ("She", "He", "The"). Open beats with the moment, the work, the year or the turn ("In 1954, ...", "Then came ...").
+- Hook: half the viewers decide in the first second. Beat 1 opens on the name or the event within its first 4
+  words and states the single most striking verified fact ("<Name>'s <best-known work> <what it did>...", not
+  "On <date>, ..." or "<Name> has died."). Never open beat 1 with a date, a day, a year or "On ...".
 - Write numbers as digits (1994, 75). Use a year only when it helps the story.
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
@@ -119,7 +127,12 @@ RULES = """RULES (all mandatory):
   A photo marked MAP goes on beats that say where it happened or set the scene.
 - caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
   a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
-- title: 30 to 60 characters in normal title case, factual and moving, includes "{name}", no clickbait.
+- hook: 3 to 6 words shown big over the first photo: the claim beat 1 opens on, in beat 1's own words (a number,
+  the event, the work). Never a date, a question or hype.
+- title: 30 to 60 characters in normal title case, factual, no clickbait. Searchable core first: the name or place
+  and what happened ("<Full Name>, <Known For>, Dies at <Age>"; "<Place> <Event>: <What Happened>"), with
+  "{name}" or its key words in the first 4 words. Never open with "The Legacy of", "A Tribute to", "The Life and
+  Legacy" or "The Path of", and never reuse the opening words of a recent title.
 Return only the JSON."""
 
 
@@ -208,7 +221,8 @@ def _note(photo: dict) -> str:
 
 
 def _messages(brief: str, facts: list[str], source: str, photos: list[dict], name: str,
-              headlines: list[str] | None = None, reports: list[dict] | None = None) -> list[dict]:
+              headlines: list[str] | None = None, reports: list[dict] | None = None,
+              recent: list[str] | None = None) -> list[dict]:
     listing = "\n".join(f"{i}: {p['description'] or p['file']}" + _note(p) for i, p in enumerate(photos))
     lead = ""
     if headlines:
@@ -218,7 +232,9 @@ def _messages(brief: str, facts: list[str], source: str, photos: list[dict], nam
             + ("\n\nSOURCE (Wikipedia):\n" + source if source else "") + reporting_block(reports)
             + lead + "\n\nPHOTOS:\n" + listing + "\n\n"
             + RULES.format(best=0, name=name, most=max(2, -(-8 // max(len(photos), 1))))
-            + ("\nREPORTING counts as a SOURCE under its own rule: " + REPORTING_RULE + "." if reports else ""))
+            + ("\nREPORTING counts as a SOURCE under its own rule: " + REPORTING_RULE + "." if reports else "")
+            + ("\n\nRECENT TITLES (the title never starts with the same 3 words as any of these):\n"
+               + "\n".join(f"- {t}" for t in recent) if recent else ""))
     return [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]
 
 
@@ -337,8 +353,125 @@ def tolls_with_perpetrator(ground: str) -> set[int]:
     return {n for m in WITH_PERPETRATOR.finditer(ground) if (n := _count(m.group("n"))) is not None}
 
 
+# Beat 1 and the title open on the story (2026-10-20 hook plan, ported from the Hindi desk's HOOK_WORDS): tributes
+# opening "X has died" held 41-43% of viewers for 16-19 s, against 64-101% for Shorts opening on the event itself.
+HOOK_WORDS = 4  # the name or the event starts within beat 1's first 4 words
+HOOK_CLAIM = (3, 6)  # words in the on-screen hook claim
+_MONTHS = ("january february march april may june july august september october november december "
+           "jan feb mar apr jun jul aug sep sept oct nov dec").split()
+_DAYS = "monday tuesday wednesday thursday friday saturday sunday".split()
+# "On 12 October, ...", "In 2026, ...", "Early on Monday ...", "Last week ...", "Today ...": a dateline makes the
+# viewer wait for the news.
+DATELINE = re.compile(r"^\W*(?:(?:on|in|at|by|since|during|early|late|last|this|earlier|later)\s+)*(?:the\s+)?"
+                      r"(?:(?:early|late|mid)[- ]?)?(?:(?:night|morning|evening|afternoon)\s+of\s+)?"
+                      r"(?:\d{1,2}(?:st|nd|rd|th)?\s+(?:of\s+)?(?:" + "|".join(_MONTHS) + r")\b|(?:"
+                      + "|".join(_MONTHS + _DAYS) + r")\b|\d{4}\b|today\b|tonight\b|yesterday\b|"
+                      r"(?:morning|afternoon|evening|night|week|weekend|month|year)\b)", re.I)
+DIED = re.compile(r"\b(?:has died|had died|died|has passed away|passed away|is dead|has been killed)\b", re.I)
+# Openers that made every tribute and storm title read the same (published.json to 2026-10-21).
+TEMPLATE_TITLES = ("the legacy of", "a tribute to", "the life and legacy", "the path of")
+RECENT_TITLES = 20
+_TITLE_STOP = set("a an the of and in on at to for by with from as is was its his her their part".split())
+_PART = re.compile(r"^\s*Part \d+\s*:\s*", re.I)
+
+
+def _words(text: str) -> list[str]:
+    """Lower-case words without punctuation or a possessive 's."""
+    cut = (w.strip(".,;:!?\"“”()—–-'") for w in re.sub(r"['’]s\b", "", text.lower()).replace("’", "'").split())
+    return [w for w in cut if w]
+
+
+def key_words(name: str) -> list[str]:
+    """The words of a story's name a hook or title must open on: not years, numbers or small words."""
+    return [w for w in _words(name) if not w.isdigit() and w not in _TITLE_STOP and w not in COMMON
+            and w not in _MONTHS and len(w) > 1]
+
+
+def _names(words: list[str], keys: list[str]) -> bool:
+    """A word list names the story when one of its words is a key word or shares its first 5 letters
+    ("derailed" for "derailment")."""
+    return any(w == k or (len(k) > 5 and len(w) > 4 and w[:5] == k[:5]) for w in words for k in keys)
+
+
+def hook_problems(say: str, name: str) -> list[str]:
+    """Beat 1 must open on the story: the name or the event within its first HOOK_WORDS words, never a dateline,
+    and never "<name> has died" as the whole opener."""
+    problems = []
+    if DATELINE.match(say):
+        problems.append(f"beat 1 opens on a date or time ({' '.join(say.split()[:3])!r}): open on {name} and the most "
+                        "striking fact; where and when can wait for beat 2")
+    words, keys = _words(say), key_words(name)
+    if keys and not _names(words[:HOOK_WORDS - 1 + max(1, len(name.split()))], keys):
+        problems.append(f"beat 1 must open on {name}: the name or the event within its first {HOOK_WORDS} words")
+    died = DIED.search(say)
+    before = say[:died.start()] if died else ""
+    if died and name.split()[-1].lower() in before.lower() and len(before.split()) < len(name.split()) + 5:
+        problems.append(f"beat 1 opens with \"{name} has died\": open on the most striking fact about {name} and "
+                        "say that they died after it")
+    return problems
+
+
+def recent_titles(n: int = RECENT_TITLES) -> list[str]:
+    """The last n published titles."""
+    return [r["title"] for r in ledger.published()[-n:] if r.get("title")]
+
+
+def _opening(title: str, n: int = 3) -> tuple[str, ...]:
+    return tuple(_words(_PART.sub("", title))[:n])
+
+
+def title_problems(title: str, name: str, recent: list[str]) -> list[str]:
+    """No template opener, no opening shared with a recent title, and the story's name or key words up front."""
+    problems = []
+    plain = _PART.sub("", title).strip().lower()
+    if opener := next((t for t in TEMPLATE_TITLES if plain.startswith(t)), None):
+        problems.append(f"the title opens with the template {opener.title()!r}: put {name} and what happened first")
+    head = _opening(title)
+    if len(head) == 3 and (same := next((t for t in recent if _opening(t) == head), None)):
+        problems.append(f"the title starts like the recent title {same!r}: open with different words")
+    keys = key_words(name)
+    if keys and not _names(_words(_PART.sub("", title))[:HOOK_WORDS], keys):
+        problems.append(f"the title must lead with {name} or its key words in the first {HOOK_WORDS} words, then "
+                        "what happened")
+    return problems
+
+
+def _own_hook(draft: dict) -> str | None:
+    """The writer's hook, cleaned, when it is 3-6 of beat 1's own words with no hype, question or first person."""
+    beats = draft.get("beats") or []
+    if not beats:
+        return None
+    hook = " ".join((draft.get("hook") or "").split()).strip(" .,;:")
+    own = set(_words(beats[0].get("say", "") + " " + beats[0].get("caption", "")))
+    lo, hi = HOOK_CLAIM
+    if lo <= len(hook.split()) <= hi and not re.search(r"[?!]", hook) and all(w in own for w in _words(hook)) \
+            and not gate.banned_word(hook) and not FIRST_PERSON.search(hook):
+        return hook
+    return None
+
+
+def hook_claim(draft: dict) -> str:
+    """The 3-6 word claim shown over the first photo: the writer's hook (_own_hook), else beat 1's opening clause
+    when it is 3-6 words long. Empty otherwise (the first frame then keeps the name card): a clause cut mid-way
+    reads as a broken sentence."""
+    if hook := _own_hook(draft):
+        return hook
+    beats = draft.get("beats") or []
+    first = re.split(r"[.;:!?—–]|,\s", beats[0].get("say", ""), maxsplit=1)[0].split() if beats else []
+    return " ".join(first) if HOOK_CLAIM[0] <= len(first) <= HOOK_CLAIM[1] else ""
+
+
+def hook_text_problems(draft: dict) -> list[str]:
+    """A hook the first frame cannot show, asked to be rewritten on the early drafts only: a last draft that passes
+    everything else falls back to hook_claim instead of losing the story."""
+    if _own_hook(draft):
+        return []
+    return [f"the hook {draft.get('hook', '')!r} must be {HOOK_CLAIM[0]} to {HOOK_CLAIM[1]} of beat 1's own words, "
+            "with no question, exclamation or hype"]
+
+
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
-              reports: list[dict] | None = None, casualties: bool = True) -> list[str]:
+              reports: list[dict] | None = None, casualties: bool = True, recent: list[str] | None = None) -> list[str]:
     problems = []
     beats = draft.get("beats", [])
     words = sum(len(b["say"].split()) for b in beats)
@@ -346,6 +479,9 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
         problems.append(f"the script has {words} words; it must have 100 to 130")
     if not beats or name.split()[-1].lower() not in beats[0]["say"].lower():
         problems.append(f"beat 1 must name {name}")
+    else:
+        problems += hook_problems(beats[0]["say"], name)
+    problems += title_problems(draft.get("title", ""), name, recent_titles() if recent is None else recent)
     for b in beats:
         if not 0 <= b["photo"] < len(photos):
             problems.append(f"photo {b['photo']} does not exist")
@@ -356,8 +492,8 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
         problems.append("a SETTING photo is on more than one beat: use it only on the beat that says where it "
                         "happened, and show what each other beat says")
     # The publish gate's wording rules (studio/gate.py), checked here so a slip is rewritten, not the story dropped.
-    lines = [("the title", draft.get("title", ""))] + [(f"beat {i + 1}", f"{b['say']} {b['caption']}")
-                                                        for i, b in enumerate(beats)]
+    lines = [("the title", draft.get("title", "")), ("the hook", draft.get("hook", ""))] + [
+        (f"beat {i + 1}", f"{b['say']} {b['caption']}") for i, b in enumerate(beats)]
     for where, line in lines:
         if word := gate.banned_word(line):
             problems.append(f"{where} uses the banned word {word!r}: say it plainly without that word")
@@ -371,7 +507,8 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
         if PLACE_CAPTION.search(b["caption"]):
             problems.append(f"beat {i + 1}'s caption {b['caption']!r} names a place, which viewers read as where the "
                             "photo was taken: caption a date, a figure, a role or a work instead")
-    text = " ".join(b["say"] + " " + b["caption"] for b in beats) + " " + draft.get("title", "")
+    text = " ".join(b["say"] + " " + b["caption"] for b in beats) + " " + draft.get("title", "") + " " + \
+        draft.get("hook", "")
     grounded = set(gate.numbers(ground)) | set(_numbers(ground))
     loose = [n for n in gate.numbers(text) if n not in grounded and not reported_ok(n, reports)]
     bad = list(dict.fromkeys([b for b in ungrounded(text, ground) if not reported_ok(b, reports)] + loose))
@@ -436,7 +573,8 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
                   f"date, never \"is in the news\"). The title starts with \"Part {series['part']}: \".")
         brief += (f" The last beat ends by saying that Part {series['part'] + 1} tells {series['next']}."
                   if series.get("next") else " The last beat says where the story stands now.")
-    messages = _messages(brief, facts, source, photos, name, headlines, reports)
+    recent = recent_titles()
+    messages = _messages(brief, facts, source, photos, name, headlines, reports, recent)
     # A photo's Commons description is an uploader's note, not a source: no fact may come from it.
     ground = source + "\n" + "\n".join(facts)
     if series:
@@ -446,9 +584,9 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
             draft = place_photos(m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6), photos)
-            problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties)
+            problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent)
             if attempt < 2:
-                problems += monotone(draft)
+                problems += monotone(draft) + hook_text_problems(draft)
             if not problems:
                 teaser = f"part {series['part'] + 1}" if series else None
                 lines = [b["say"] for b in draft["beats"] if not (teaser and b["say"].lower().startswith(teaser))]
@@ -997,7 +1135,7 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
         credit += "; reporting: " + ", ".join(outlets.names(reports))
     credits = [credit] + sorted({p["credit"] + " " + p["page"] for p in photos})
     tags = [t for t in tags if t]
-    scene = {"template": "story", "mood": mood, "voice": voice, "photos": photos,
+    scene = {"template": "story", "mood": mood, "voice": voice, "photos": photos, "hook": hook_claim(draft),
              "writer": {"model": llm.DEFAULT, "rejected": log}}
     if reports:
         scene["reporting"] = [outlets.compact(r) for r in reports]
