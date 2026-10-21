@@ -70,6 +70,37 @@ def test_a_courtesy_or_partner_credit_is_never_public_domain():
     assert not media.nasa_rights_ok(ok | {"photographer": "Joel Kowsky"})  # a name alone is not NASA's credit
 
 
+
+@pytest.mark.parametrize("record", [
+    # Earth Observatory's own credit over a partner's satellite data, named only in the description.
+    {"secondary_creator": "NASA Earth Observatory/Lauren Dauphin", "title": "Typhoon Ragasa Nears Luzon",
+     "description": "The image was made using modified Copernicus Sentinel-2 data (2024) processed by the European "
+                    "Space Agency."},
+    {"title": "Typhoon Ragasa", "description": "Image acquired by the Advanced Himawari Imager on Himawari-9, "
+                                               "operated by the Japan Meteorological Agency."},
+    {"title": "Storm Boris Over Europe", "description": "Meteosat data from EUMETSAT show the storm's spiral."},
+    {"title": "Typhoon Hinnamnoor", "description": "A view from KOMPSAT-3A, operated by KARI."},
+    {"title": "Cyclone Montha", "description": "Data processed by the Indian Space Research Organisation show it."},
+])
+def test_a_partners_data_named_in_the_description_is_not_public_domain(record):
+    assert not media.nasa_rights_ok(record)
+
+
+def test_us_federal_data_named_in_the_description_stays_public_domain():
+    assert media.nasa_rights_ok({"title": "Hurricane Milton", "description": "VIIRS data on NOAA-20, operated by "
+                                 "NOAA, and Landsat 9 data provided by the U.S. Geological Survey."})
+    assert media.nasa_rights_ok({"title": "Hurricane Milton", "description": "Track provided by the National "
+                                 "Hurricane Center. An astronaut on the station took the photo."})
+
+
+def test_a_description_saying_false_colour_or_annotated_is_not_a_photo_of_the_event(milton):
+    data, _ = milton
+    first = data["collection"]["items"][0]["data"][0]
+    assert not media.NASA_NOT_PHOTO.search(first["title"])
+    first["description"] = "This false-color view, annotated by NASA, shows the burn scar. " + first["description"]
+    got = media.nasa("Hurricane Milton", date(2024, 10, 5), ("hurricane",), limit=6)
+    assert got and first["nasa_id"] not in {p.file[5:] for p in got}
+
 def test_nasa_is_asked_only_about_natural_disasters(monkeypatch):
     monkeypatch.setattr(media, "nasa_for", NASA_FOR)  # the real one, over a fake search
     seen = []

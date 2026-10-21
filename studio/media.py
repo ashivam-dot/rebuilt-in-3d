@@ -246,10 +246,22 @@ _PERSON = re.compile(r"^[A-Z][a-z'’.-]+(?: [A-Z][a-z'’.-]*){1,3}$")
 _ORG_WORD = re.compile(r"\b(?:Systems?|Agency|Space|University|Institute|Inc|Corp\w*|Ltd|LLC|Company|Images?|Photos?|"
                        r"Press|News|Team|Mission|Labs?|Laborator\w+|Observatory|Society|Foundation|Japan|Europe\w*|"
                        r"Getty|Reuters|Associated|Maxar|Airbus|Planet)\b")
-# A third party's rights named anywhere in the record.
+# A third party's rights named anywhere in the record: wire and commercial credits, and the space and weather
+# agencies whose satellite data NASA's Earth Observatory often processes but which keep their own terms (Copernicus
+# Sentinel, Himawari/JMA, EUMETSAT/Meteosat, KOMPSAT/KARI), however they are written.
 THIRD_PARTY = re.compile(r"(courtesy|©|\(c\)\s*\d|copyright|all rights reserved|used with permission|getty|reuters|"
-                         r"associated press|\bAP Photo|\bAFP\b|\bESA\b|JAXA|Roscosmos|Maxar|DigitalGlobe|Planet Labs|"
-                         r"Airbus)", re.I)
+                         r"associated press|\bAP Photo|\bAFP\b|\bESA\b|European Space Agency|Copernicus|"
+                         r"\bSentinel-?\d|JAXA|Japan Aerospace|Himawari|Japan Meteorological|\bJMA\b|EUMETSAT|"
+                         r"Meteosat|KOMPSAT|\bKARI\b|Korea Aerospace|\bKMA\b|Korea Meteorological|GEO-?KOMPSAT|"
+                         r"\bCNES\b|Pl[eé]iades|\bDLR\b|TerraSAR|\bISRO\b|Canadian Space Agency|RADARSAT|Fengyun|"
+                         r"Gaofen|Roscosmos|Maxar|DigitalGlobe|Planet Labs|Airbus)", re.I)
+# Data a named party "processed", "provided", "operated" or "supplied" is that party's unless it is NASA, NOAA, USGS
+# or another US federal body: "data (2024) processed by the European Space Agency", "operated by the Japan ...".
+_BY_PARTY = re.compile(r"\b(?:processed|provided|operated|supplied|distributed|licen[cs]ed)\s+by\s+(?:the\s+)?"
+                       r"([A-Z][\w.’'-]*(?:\s+[A-Z][\w.’'-]*)*)")
+_FEDERAL = re.compile(r"^(?:NASA|NOAA|USGS|U\.?S\.?|United States|National Aeronautics|National Oceanic|"
+                      r"National (?:Hurricane|Weather|Interagency)|Naval|Department of|Federal|Jet Propulsion|JPL|"
+                      r"Goddard|Landsat)\b")
 # Not a photograph of what happened: radar and thermal data, annotated or false-colour views, artwork.
 NASA_NOT_PHOTO = re.compile(r"(radar|interferogra|insar|\bsar\b|infrared|thermal|annotated|false.colou?r|"
                             r"illustration|artist|concept|animation|render|simulat|\bmodel\b|visuali[sz]ation|"
@@ -268,6 +280,8 @@ def nasa_rights_ok(data: dict) -> bool:
     """A NASA library record whose credits are all NASA's and that names no other rights holder."""
     desc = " ".join(str(data.get(k) or "") for k in ("description", "description_508", "title"))
     if THIRD_PARTY.search(desc) or THIRD_PARTY.search(str(data.get("secondary_creator") or "")):
+        return False
+    if any(not _FEDERAL.match(m.group(1)) for m in _BY_PARTY.finditer(desc)):
         return False
     credits = [data.get("secondary_creator"), data.get("photographer")]
     credits += [m.group(1) for m in re.finditer(r"\b(?:image |photo )?credits?\s*:\s*([^\n;]+?)(?:\.\s|$)", desc,
@@ -303,7 +317,8 @@ def nasa(query: str, since: date, words: tuple[str, ...] = (), limit: int = NASA
             continue
         if not since.isoformat() <= taken <= today or not nasa_rights_ok(data):
             continue
-        if NOT_PHOTO.search(title) or NASA_NOT_PHOTO.search(title) or GRAPHIC.search(f"{title} {desc}"):
+        # The description too: "Park Fire Burn Scar" may be a false-colour or annotated view only it says so.
+        if NOT_PHOTO.search(title) or NASA_NOT_PHOTO.search(f"{title} {desc}") or GRAPHIC.search(f"{title} {desc}"):
             continue
         if not _names(title, keys) or (words and not re.search(r"\b(?:" + "|".join(words) + ")", title.lower())):
             continue
