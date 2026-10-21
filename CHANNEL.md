@@ -113,10 +113,12 @@ The owner wants hot news caught on time without stepping in; the desk decides wh
   international; or a quake that is magnitude 7+ or PAGER orange/red) may go out at any hour as one more, 30 minutes
   after the last; wars, their strikes and ongoing protests never take the breaking lane. YouTube gives each project
   100 uploads a day of its own quota, so uploads are not the limit.
-- **Ad suitability as a tie-break (2026-10-21):** an attack, shooting or stabbing that is not breaking ranks at 0.85
+- **Ad suitability as a tie-break (2026-10-21):** an attack, or an incident whose title says shooting, stabbing or
+  attack (never a tribute: "heart attack" is not violence), that is not breaking ranks at 0.85
   of its fame (`plan.AD_SUITABILITY`), so between two similar stories the desk leads with the one advertisers run
   against; a breaking one keeps its full rank, and a clearly bigger attack still leads. The health log lists the
-  stories it scaled ("ad-suitability x0.85 ..."). It changes order only, never what is told or how.
+  stories it scaled ("ad-suitability x0.85 ...") as a step of its own, after the hold notes. It changes order only,
+  never what is told or how.
 - **Big incidents are told while they happen (2026-10-14; owner: "these two channels should be fully active and
   publishing the videos as a big incident happen").** A Wikipedia article under 6 hours old is still not used (its
   facts move), but when at least three independent outlets, one of them official, public or international, already
@@ -155,14 +157,18 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
 - **Hook first (2026-10-21; the Phase 1 hook the owner approved on 2026-10-20, ported from Kyun Hua's `HOOK_WORDS`):**
   tributes that opened "X has died" held 41-43% of viewers for 16-19 s, against 64-101% for Shorts that opened on the
   event. Beat 1 now opens on the single most striking verified fact, with the name or the event in its first 4
-  words; a dateline opener ("On 8 October...", "In 2026...", "Last week...") or a bare "<name> has died" is rewritten,
+  words; a dateline opener ("On 8 October...", "In 2026...", "Last week...") or a bare "<name> has died" is rewritten
+  (a name or event that itself starts with a month, weekday or year is not a dateline: "June Carter Cash's voice",
+  "The 2026 Kenyan protests drew"; nor is a count, "4000 homes", or a compound, "Late-night host", "This year's"),
   and a story whose three drafts all fail is retried on a later run. The first frame shows a 3-6 word claim in beat
   1's own words (`hook`, checked like the script by the draft checks and `gate.py`) with the name under it when the
   claim lacks it, instead of the name over the years.
 - **Titles (2026-10-21):** searchable core first (the name or place and what happened, its key words in the first 4
   words); never "The Legacy of", "A Tribute to", "The Life and Legacy" or "The Path of" (they made every tribute and
-  storm title read alike), and never the same first 3 words as any of the last 20 published titles.
-  Quake titles lead with magnitude and the nearest named place, then the impact (people in strong shaking, else the
+  storm title read alike), and never the same first 3 words as any of the last 20 published titles about other
+  stories (a series part or a returning ongoing story leads with its name, as its earlier titles did).
+  Quake titles lead with magnitude and the nearest named place, then the impact (people in strong shaking or worse,
+  else the
   PAGER alert, else the depth), rotating between phrasings so no two open alike; "How the M… quake ruptured, in 3D"
   is retired (7 titles in a row opened that way).
 - **Voice:** an expressive AI voice (Chatterbox), each line checked by speech recognition before use; word-by-word
