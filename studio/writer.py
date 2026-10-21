@@ -141,8 +141,12 @@ RULES = """RULES (all mandatory):
   the event, the work). Never a date, a question or hype.
 - title: 30 to 60 characters in normal title case, factual, no clickbait. Searchable core first: the name or place
   and what happened ("<Full Name>, <Known For>, Dies at <Age>"; "<Place> <Event>: <What Happened>"), with
-  "{name}" or its key words in the first 4 words. Never open with "The Legacy of", "A Tribute to", "The Life and
-  Legacy" or "The Path of", and never reuse the opening words of a recent title.
+  "{name}" or its key words in the first 4 words. Where the SOURCE states how it came about or what it led to,
+  frame the title on that ("How <Name> <specific outcome>": "How Hurricane Milton Grew to Category 5 in a Day";
+  "Why <Name> <specific outcome>"; "<Name> Exists Because of <specific cause>"), with the outcome or cause said in
+  the script too. Never a question mark or a vague tease ("What Happened Next", "The Real Reason"), and never "Why"
+  for a cause the SOURCE calls unknown or under investigation. Never open with "The Legacy of", "A Tribute to",
+  "The Life and Legacy" or "The Path of", and never reuse the opening words of a recent title.
 Return only the JSON."""
 
 
@@ -387,6 +391,11 @@ DIED = re.compile(r"\b(?:has died|had died|died|has passed away|passed away|is d
 # Openers that made every tribute and storm title read the same (published.json to 2026-10-21).
 TEMPLATE_TITLES = ("the legacy of", "a tribute to", "the life and legacy", "the path of")
 RECENT_TITLES = 20
+# A curiosity title ("How Hurricane Milton Grew to Category 5 in a Day") claims a cause or an outcome, so the evidence
+# check reads it with the beats; a tease that names no outcome is clickbait, sent back like a template opener.
+CURIOUS = re.compile(r"^(?:part \d+\s*:\s*)?(?:how|why)\b|\bexists? because of\b", re.I)
+TEASE = re.compile(r"\?|\b(?:what happened next|what happens next|the real reason|the truth about|here'?s why|"
+                   r"this is why|no one expected|nobody expected|what really happened)\b", re.I)
 _TITLE_STOP = set("a an the of and in on at to for by with from as is was its his her their part".split())
 _PART = re.compile(r"^\s*Part \d+\s*:\s*", re.I)
 
@@ -459,6 +468,9 @@ def title_problems(title: str, name: str, recent: list[str]) -> list[str]:
     plain = _PART.sub("", title).strip().lower()
     if opener := next((t for t in TEMPLATE_TITLES if plain.startswith(t)), None):
         problems.append(f"the title opens with the template {opener.title()!r}: put {name} and what happened first")
+    if tease := TEASE.search(title):
+        problems.append(f"the title teases with {tease.group(0)!r}: state the specific outcome or cause from the "
+                        "SOURCE instead (\"How <Name> <what it did>\")")
     head, keys = _opening(title), key_words(name)
     # A series part or a returning ongoing story must lead with its name, as its earlier titles did: only other
     # stories' titles count ("Part 2: Cockroach Janta Party ..." after Part 1).
@@ -645,6 +657,8 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
             if not problems:
                 teaser = f"part {series['part'] + 1}" if series else None
                 lines = [b["say"] for b in draft["beats"] if not (teaser and b["say"].lower().startswith(teaser))]
+                if CURIOUS.search(draft.get("title", "")):
+                    lines.append(draft["title"].strip())
                 verdict = m.chat(_check_messages(lines, facts, source, reports), CHECK_SCHEMA, temperature=0.0,
                                  max_tokens=1800)
                 problems = recheck(m, lines, check_verdict(verdict, lines, checked), checked)

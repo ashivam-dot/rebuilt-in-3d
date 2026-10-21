@@ -185,6 +185,11 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   words); never "The Legacy of", "A Tribute to", "The Life and Legacy" or "The Path of" (they made every tribute and
   storm title read alike), and never the same first 3 words as any of the last 20 published titles about other
   stories (a series part or a returning ongoing story leads with its name, as its earlier titles did).
+  Since 2026-10-22 a title may be framed on a cause or an outcome the sources state: "How Hurricane Milton Grew to
+  Category 5 in a Day", "Why the Tigray War Displaced Millions", "<X> Exists Because of <Y>", with the same
+  name-first, template and recent-opener rules. Such a title makes a claim, so the evidence check reads it with the
+  beats; a question mark or a vague tease ("What Happened Next", "The Real Reason", "Here's Why") is sent back on
+  the first two drafts, and "Why" is never used for a cause the sources call unknown or under investigation.
   Quake titles lead with magnitude and the nearest named place, then the impact (people in strong shaking or worse,
   else the
   PAGER alert, else the depth), rotating between phrasings so no two open alike; "How the M… quake ruptured, in 3D"
@@ -269,3 +274,13 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
   `yt-analytics.readonly` scope; without it the run's health says so once ("analytics: ...") and lifts are views
   alone. Everything lands in `state/performance.json` and `state/LEARNINGS.md`.
 - Never promise views or earnings; growth comes from accuracy, consistency and clarity.
+
+## Decisions log
+
+| Date | Decision | Evidence |
+|---|---|---|
+| 2026-10-22 | Stop writing the public tag `rebuilt-in-3d:<story id>`; the ledger (`state/published.json`, `state/uploads.json`) identifies uploads, the old tag is still read | All 40 uploads in `state/published.json` carry it in their public tags (page source); YouTube's inauthentic-content review looks at templated, machine-made signals |
+| 2026-10-22 | NASA Image and Video Library photos for natural-disaster stories (public domain, NASA's own credit only, of the event); Smithsonian not used | 26 of the 44 stories in `state/skipped.json` were dropped for "only N usable photos"; recorded search (`tests/fixtures/nasa-hurricane-milton.json`): 6 ISS photos of Milton pass, the ASTER (METI/Japan), ASI radar and 2017 "courtesy" records do not |
+| 2026-10-22 | Blend YouTube Analytics retention into the desk's lifts (needs the `yt-analytics.readonly` scope, else a no-op with one health note) | Views alone rank: 40 Shorts at 0-1,626 views (`state/performance.json`, 2026-10-21 18:07 UTC) say who clicked, not what held them; retention ranged 41-43% (tribute "has died" openers) to 64-101% (event openers) |
+| 2026-10-22 | The last beat closes on what happens next or why it matters; the spoken "Follow Orbitwire..." outro is dropped, the end card holds silently for 2 s | The same 10-word line (about 4 s) ended every story Short: identical narration across uploads is a templated signal, and a call to action is the last thing heard instead of the story |
+| 2026-10-22 | Curiosity titles ("How/Why <thing> <outcome>", "<X> Exists Because of <Y>") where the sources state it, fact-checked; teases refused | Titles read as wire headlines ("<Place> <Event>: <What Happened>"); the How/Why framing names a specific outcome while keeping the searchable name first |
