@@ -189,6 +189,13 @@ The owner rejected the first format (a map with a flat voice reading facts) as l
   else the
   PAGER alert, else the depth), rotating between phrasings so no two open alike; "How the M… quake ruptured, in 3D"
   is retired (7 titles in a row opened that way).
+- **The close (2026-10-22):** the last beat says what happens next or why it matters, with a fact from the sources
+  (the inquiry, the vote, the rebuilding, the work that lives on), checked like every other beat. A call to
+  follow, like or subscribe, the channel's name or a filler close ("only time will tell", "remains to be seen") is
+  sent back on the first two drafts and never costs a story. A series part still ends on what Part N+1 tells. The
+  spoken "Follow Orbitwire for the stories the whole world is talking about." is gone: it was the same 4 s on
+  every Short. The end card (logo, "Sources in the description", the real-photos/AI-voice disclosure) holds
+  silently for 2 s. The quake lane's own outro and the retired 3D story lane (`studio/stories.py`) are unchanged.
 - **Voice:** an expressive AI voice (Chatterbox), each line checked by speech recognition before use; word-by-word
   captions; a quiet score written in code. Two lanes, chosen by the story's region: India stories clone an Indian
   English reference (`tts/voices/india.wav`, Veena "kavya", Apache-2.0), all others a clear, warm US voice

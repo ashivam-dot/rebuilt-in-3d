@@ -26,7 +26,11 @@ WORK = Path(__file__).resolve().parents[1] / "work"
 MIN_PHOTOS, TRIBUTE_PHOTOS = gate.MIN_PHOTOS, gate.TRIBUTE_PHOTOS
 WANT_PHOTOS = 3  # fill photos are looked for until a story has this many
 PLACE_FACE = 0.06  # a face this share of a place photo's shorter side features a person
-OUTRO = "Follow Orbitwire for the stories the whole world is talking about."
+# The end card is silent: the story's own last beat closes it, with what happens next or why it matters. Until
+# 2026-10-22 every Short ended on the same spoken "Follow Orbitwire for the stories the whole world is talking
+# about.", 4 seconds of narration identical on every upload.
+OUTRO = ""
+END_CARD = 2.0  # seconds the silent end card (logo, sources, disclosure) holds
 CREDIT = "Facts: Wikipedia (CC BY-SA 4.0) and Wikidata (CC0); photos: Wikimedia Commons (licences listed below)"
 # Capitalised words that start sentences in any story and need no source.
 COMMON = set("""a an and as at after before but by even every for from he her his how in it its now on one only
@@ -66,7 +70,8 @@ Shape:
 3. The turning point or breakthrough, naming the specific work from the SOURCE.
 4. The work people loved most, and what made {object} different from everyone else.
 5. A human detail from the SOURCE that shows who {pronoun} was off screen or off stage.
-6. Legacy: what {pronoun} leaves behind. The last beat is one short, moving sentence.
+6. Legacy: what {pronoun} leaves behind and why it matters, from the SOURCE (a work still performed, a record still
+   standing, a cause others carry on). The last beat is one short, moving sentence.
 Do not describe the cause or manner of death unless the SOURCE states it plainly; never mention suicide."""
 
 INCIDENT_BRIEF = """STORY: {name}. Write a news Short that helps a viewer understand what happened and why it matters,
@@ -79,7 +84,8 @@ Shape:
 3. The people involved and what they faced, with official figures only if the SOURCE gives them.
 4. The response: rescuers, officials, investigators.
 5. What is still unknown or under investigation, said honestly.
-6. Where it stands now, from the SOURCE. The last beat is one short, steady sentence.
+6. What happens next or why it matters, from the SOURCE: the inquiry, the recovery, the rule or plan it changes,
+   or where it stands now. The last beat is one short, steady sentence.
 Never name or describe any attacker, perpetrator or suspect. Never guess at causes. No graphic detail of injuries or
 death."""
 
@@ -93,7 +99,8 @@ Shape:
 3. Who is involved and what they demand, attributed ("organisers demand", "the party says").
 4. How the government, police or courts responded, attributed to them.
 5. The turning point or the latest step.
-6. What happens next, or what is still unresolved. The last beat is one short, steady sentence.
+6. What happens next, or what is still unresolved, from the SOURCE (the vote, the hearing, the talks, the
+   deadline). The last beat is one short, steady sentence.
 Be strictly neutral: give each side's position as the SOURCE states it, never take a side, never mock or praise any
 person, party, community or religion, and use no loaded words ("brutal", "anti-national", "heroic", "historic").
 Attribute every disputed claim and every injury, arrest or crowd figure to whoever reported it. Never urge anyone to
@@ -118,6 +125,9 @@ RULES = """RULES (all mandatory):
 - Hook: half the viewers decide in the first second. Beat 1 opens on the name or the event within its first 4
   words and states the single most striking verified fact ("<Name>'s <best-known work> <what it did>...", not
   "On <date>, ..." or "<Name> has died."). Never open beat 1 with a date, a day, a year or "On ...".
+- The last beat closes the story: what happens next or why it matters, with a specific fact from the SOURCE (the
+  inquiry, the vote, the rebuilding, the record that still stands). Never a call to follow, like or subscribe, never
+  the channel's name, never filler ("only time will tell", "remains to be seen", "the world will be watching").
 - Write numbers as digits (1994, 75). Use a year only when it helps the story.
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
@@ -557,6 +567,23 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     return problems
 
 
+# A last beat that closes on nothing the story says: a call to action or a filler line.
+GENERIC_CLOSE = re.compile(
+    r"\b(?:follow (?:us|along|orbitwire|for)|subscribe|like and share|stay tuned|orbitwire|only time will tell|"
+    r"remains? to be seen|"
+    r"the world (?:is|will be) watching|the whole world is talking|watch this space)\b", re.I)
+
+
+def closing_problems(draft: dict) -> list[str]:
+    """A last beat that ends on a call to action or filler instead of what happens next or why it matters, asked to
+    be rewritten on the early drafts only (like the hook): the fact check already holds every word to the sources."""
+    beats = draft.get("beats") or []
+    if not beats or not (hit := GENERIC_CLOSE.search(beats[-1].get("say", ""))):
+        return []
+    return [f"the last beat says {hit.group(0)!r}: close on what happens next or why it matters, with a fact from "
+            "the SOURCE (the inquiry, the vote, the rebuilding), never a call to follow or a filler line"]
+
+
 def monotone(draft: dict) -> list[str]:
     """Openings repeated so often that the script reads as a list."""
     openers = [re.sub(r"\W", "", b["say"].split()[0]).lower() for b in draft.get("beats", []) if b["say"].split()]
@@ -614,7 +641,7 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
             problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent,
                                  style=attempt < 2)
             if attempt < 2:
-                problems += monotone(draft) + hook_text_problems(draft)
+                problems += monotone(draft) + hook_text_problems(draft) + closing_problems(draft)
             if not problems:
                 teaser = f"part {series['part'] + 1}" if series else None
                 lines = [b["say"] for b in draft["beats"] if not (teaser and b["say"].lower().startswith(teaser))]
@@ -1156,7 +1183,8 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
     beats = []
     for b in draft["beats"]:
         beats.append(Beat(b["say"].strip(), f"photo:{b['photo']}", {"big": b["caption"].strip(), "small": ""}))
-    beats.append(Beat(OUTRO, "outro", {"big": "Orbitwire", "small": "Sources in the description"}, pause_after=0.5))
+    beats.append(Beat(OUTRO, "outro", {"big": "Orbitwire", "small": "Sources in the description"},
+                      pause_after=END_CARD))
     ground = source + "\n" + "\n".join(facts_text)
     in_ground, by_owner = set(_numbers(ground)) | set(gate.numbers(ground)), gate.reported_values(reports)
     allowed = {n for f in facts for n in f.numbers}

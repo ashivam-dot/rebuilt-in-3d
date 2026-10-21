@@ -72,7 +72,7 @@ def test_alignment_keeps_script_words():
 
 def story(photos, credits):
     return Short(id="wk-Q1", kind="death", title="The Final Bow of Nana Patekar",
-                 beats=[Beat("Nana Patekar has died at 75, and Indian cinema has lost a voice like no other. " * 3,
+                 beats=[Beat("Nana Patekar has died at 75, and Indian cinema has lost a voice like no other. " * 4,
                              "photo:0"), Beat(writer.OUTRO, "outro")],
                  facts=[Fact("age", "75", "https://www.wikidata.org/wiki/Q1", ["75"])],
                  sources=["https://en.wikipedia.org/wiki/Nana_Patekar"], loss=False,

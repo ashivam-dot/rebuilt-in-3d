@@ -107,17 +107,21 @@ def _chatterbox(lines: list[str], out: Path, style: dict, seed: int) -> list[dic
 
 
 def synthesize_story(short: Short, out_dir: Path) -> dict:
-    """Chatterbox narration, one take per beat, each checked by Whisper; same outputs as synthesize()."""
+    """Chatterbox narration, one take per beat, each checked by Whisper; same outputs as synthesize(). A beat with no
+    text (the silent end card) is not spoken: it lasts its pause_after."""
     from . import align
 
     mood = short.scene.get("mood", "tribute")
     lane = short.scene.get("voice", "world")
     style = STYLE.get(mood, STYLE["tribute"]) | {"voice": str(VOICES.get(lane, VOICES["world"]))}
     texts = [speakable(b.text) for b in short.beats]
-    takes = _chatterbox(texts, out_dir / "takes", style, seed=7)
-    clips, checks = [], []
-    for i, (beat, take) in enumerate(zip(short.beats, takes)):
-        best = None
+    spoken = iter(_chatterbox([t for t in texts if t.strip()], out_dir / "takes", style, seed=7))
+    clips, checks, sr = [], [], SAMPLE_RATE
+    for i, beat in enumerate(short.beats):
+        if not texts[i].strip():
+            clips.append(None)
+            continue
+        take, best = next(spoken), None
         for attempt in range(3):
             if attempt:
                 take = _chatterbox([texts[i]], out_dir / f"retake{i:02d}-{attempt}", style,
@@ -137,7 +141,8 @@ def synthesize_story(short: Short, out_dir: Path) -> dict:
     rate = sr
     pieces = [np.zeros(int(LEAD_IN * rate), dtype=np.float32)]
     t, words, spans = LEAD_IN, [], []
-    for index, (beat, (audio, beat_words, _)) in enumerate(zip(short.beats, clips)):
+    for index, (beat, clip) in enumerate(zip(short.beats, clips)):
+        audio, beat_words, _ = clip or (np.zeros(0, dtype=np.float32), [], 1.0)
         start = t
         words.extend(Word(w["text"], round(t + w["start"], 3), round(t + w["end"], 3), index) for w in beat_words)
         pieces.append(audio)
