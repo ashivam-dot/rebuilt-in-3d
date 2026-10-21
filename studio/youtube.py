@@ -5,11 +5,14 @@ import json
 import os
 import re
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from google.auth.exceptions import RefreshError
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 
 from . import ledger, media
@@ -73,6 +76,47 @@ def recent(api, channel: dict, limit: int = 50) -> list[dict]:
     if not ids:
         return []
     return api.videos().list(part="snippet,status,statistics", id=",".join(ids)).execute().get("items", [])
+
+
+# YouTube Analytics v2, read only: what share of each Short viewers watched. Its numbers settle over two or three
+# days, so a video counts once it is ANALYTICS_AGE old. The sign-in needs the yt-analytics.readonly scope; without
+# it the reader returns nothing and says so once, and lifts stay views alone.
+ANALYTICS_METRICS = "views,engagedViews,averageViewPercentage"
+ANALYTICS_AGE = timedelta(days=3)
+ANALYTICS_BATCH = 200
+
+
+def analytics(api, published: dict[str, str], at: datetime | None = None) -> tuple[dict, str | None]:
+    """{video_id: {"views", "engaged_views", "avg_view_pct"}} for each video in `published` ({video_id: ISO publish
+    time}) at least ANALYTICS_AGE old, and a health note when YouTube Analytics refused (403, missing scope)."""
+    at = at or datetime.now(timezone.utc)
+    when = {v: datetime.fromisoformat(t) for v, t in published.items()}
+    old = {v: t for v, t in when.items() if at - t >= ANALYTICS_AGE}
+    if not old:
+        return {}, None
+    ids, out = sorted(old), {}
+    try:
+        for i in range(0, len(ids), ANALYTICS_BATCH):
+            batch = ids[i:i + ANALYTICS_BATCH]
+            res = api.reports().query(
+                ids="channel==MINE", startDate=min(old[v] for v in batch).date().isoformat(),
+                endDate=at.date().isoformat(), metrics=ANALYTICS_METRICS, dimensions="video",
+                filters="video==" + ",".join(batch), sort="-views", maxResults=ANALYTICS_BATCH).execute()
+            names = [h["name"] for h in res.get("columnHeaders", [])]
+            for row in res.get("rows") or []:
+                r = dict(zip(names, row))
+                if r.get("video") in old:
+                    out[r["video"]] = {"views": int(r.get("views") or 0),
+                                       "engaged_views": int(r.get("engagedViews") or 0),
+                                       "avg_view_pct": float(r.get("averageViewPercentage") or 0.0)}
+    except HttpError as exc:
+        if exc.resp.status not in (401, 403):
+            raise
+        return {}, (f"analytics: YouTube Analytics refused ({exc.resp.status}); the sign-in needs the "
+                    "yt-analytics.readonly scope. Lifts are views alone.")
+    except RefreshError as exc:
+        return {}, f"analytics: sign-in refused for YouTube Analytics ({exc}). Lifts are views alone."[:300]
+    return out, None
 
 
 def find(api, channel: dict, short_id: str) -> dict | None:

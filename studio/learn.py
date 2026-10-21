@@ -5,6 +5,12 @@ SCORE_AT_H hours, and compares story kinds and categories with the channel's bas
 candidate's priority by the learned lift of its kind and category. A lift needs MIN_SAMPLES scored Shorts, is
 shrunk toward 1 by n / (n + PRIOR) and stays within LIFT_RANGE, so a couple of lucky uploads cannot steer the desk.
 Everything lands in state/performance.json, with a readable state/LEARNINGS.md.
+
+Views say who clicked; how much of the Short they watched says whether the story held them. A video record that
+carries RETENTION_FIELD (YouTube Analytics' averageViewPercentage, 0-100+, read by youtube.analytics once a Short is
+three days old) adds a second score: a group's mean retention against the channel's, shrunk the same way by its own
+count, blended in at RETENTION_WEIGHT before the same LIFT_RANGE bounds. Without the yt-analytics.readonly scope the
+reader returns nothing, the run's health says so, and lifts are views alone.
 """
 from __future__ import annotations
 
@@ -19,6 +25,8 @@ MIN_SAMPLES = 4
 PRIOR = 4.0
 LIFT_RANGE = (0.75, 1.35)
 FEATURES = ("kind", "category")
+RETENTION_FIELD = "avg_view_pct"
+RETENTION_WEIGHT = 0.5
 KEEP_SNAPSHOTS = 16
 
 _cache: dict = {}
@@ -58,6 +66,9 @@ def learn(videos: list[dict]) -> dict:
     logs = [math.log1p(v["views_24h"]) for v in scored]
     base = sum(logs) / len(logs)
     out["baseline_views_24h"] = round(math.expm1(base))
+    held_base, retention = _retention(scored)
+    if held_base is not None:
+        out["baseline_view_pct"] = round(math.expm1(held_base), 1)
     for feature in FEATURES:
         groups: dict[str, list[float]] = {}
         for v, score in zip(scored, logs):
@@ -67,11 +78,36 @@ def learn(videos: list[dict]) -> dict:
             n = len(scores)
             if n < MIN_SAMPLES:
                 continue
-            diff = sum(scores) / n - base
-            lift = min(max(math.exp(diff * n / (n + PRIOR)), LIFT_RANGE[0]), LIFT_RANGE[1])
-            out["lifts"][f"{feature}:{value}"] = {"n": n, "lift": round(lift, 3),
-                                                   "typical_views_24h": round(math.expm1(sum(scores) / n))}
+            diff = (sum(scores) / n - base) * n / (n + PRIOR)
+            entry = {"n": n, "typical_views_24h": round(math.expm1(sum(scores) / n))}
+            if (held := retention.get(f"{feature}:{value}")) is not None:
+                diff = (1 - RETENTION_WEIGHT) * diff + RETENTION_WEIGHT * held["diff"]
+                entry |= {"n_retention": held["n"], "typical_view_pct": held["typical"]}
+            lift = min(max(math.exp(diff), LIFT_RANGE[0]), LIFT_RANGE[1])
+            out["lifts"][f"{feature}:{value}"] = {"n": n, "lift": round(lift, 3)} | entry
     return out
+
+
+def _retention(scored: list[dict]) -> tuple[float | None, dict]:
+    """The channel's mean log retention and, per feature value with MIN_SAMPLES records carrying it, the shrunk
+    log-ratio of its mean to the channel's."""
+    held = [v for v in scored if isinstance(v.get(RETENTION_FIELD), (int, float)) and v[RETENTION_FIELD] >= 0]
+    if len(held) < MIN_SAMPLES:
+        return None, {}
+    logs = [math.log1p(v[RETENTION_FIELD]) for v in held]
+    base = sum(logs) / len(logs)
+    out = {}
+    for feature in FEATURES:
+        groups: dict[str, list[float]] = {}
+        for v, score in zip(held, logs):
+            if v.get(feature):
+                groups.setdefault(str(v[feature]), []).append(score)
+        for value, scores in groups.items():
+            n = len(scores)
+            if n >= MIN_SAMPLES:
+                out[f"{feature}:{value}"] = {"n": n, "diff": (sum(scores) / n - base) * n / (n + PRIOR),
+                                             "typical": round(math.expm1(sum(scores) / n), 1)}
+    return base, out
 
 
 def factor(cand: dict) -> float:
@@ -93,8 +129,14 @@ def report(perf: dict) -> str:
              f"{LIFT_RANGE[0]}-{LIFT_RANGE[1]}.", ""]
     if learned.get("baseline_views_24h") is not None:
         lines.append(f"Baseline: a typical Short has {learned['baseline_views_24h']} views at 24 h.")
+    if learned.get("baseline_view_pct") is not None:
+        lines.append(f"Retention: a typical Short is watched {learned['baseline_view_pct']}% through; a group's "
+                     f"retention is blended into its lift at {RETENTION_WEIGHT}.")
     for key, v in sorted(learned.get("lifts", {}).items(), key=lambda kv: -kv[1]["lift"]):
-        lines.append(f"- {key}: x{v['lift']} ranking lift ({v['n']} Shorts, typical {v['typical_views_24h']} views)")
+        held = (f"; {v['n_retention']} with retention, typically {v['typical_view_pct']}% watched"
+                if v.get("n_retention") else "")
+        lines.append(f"- {key}: x{v['lift']} ranking lift ({v['n']} Shorts, typical {v['typical_views_24h']} views"
+                     f"{held})")
     if not learned.get("lifts"):
         lines.append("- No lift yet: not enough scored Shorts per group. The desk ranks on fame and freshness alone.")
     lines += ["", "| Short | published | " + " | ".join(FEATURES) + " | views now | views at 24 h |",
@@ -107,17 +149,23 @@ def report(perf: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
-def refresh(at: datetime | None = None, force: bool = False, api=None) -> dict | None:
-    """Read the channel's numbers and relearn, at most once per REFRESH. Returns what was learned, or None if the
-    last read is still fresh."""
+def refresh(at: datetime | None = None, force: bool = False, api=None, analytics=None) -> dict | None:
+    """Read the channel's numbers and relearn, at most once per REFRESH. Returns what was learned (with "note" when
+    YouTube Analytics could not be read), or None if the last read is still fresh. `analytics` is a YouTube Analytics
+    v2 client; signed in here it is built from the same sign-in, and a caller passing only `api` reads views alone."""
     from . import youtube
 
     at = at or datetime.now(timezone.utc)
     perf = ledger.load("performance", {"at": None, "videos": {}})
+    note = None
     if not force and perf.get("at") and at - datetime.fromisoformat(perf["at"]) < REFRESH:
         return None
     if api is None:
         api = youtube.client()
+        try:
+            analytics = youtube.client("youtubeAnalytics", "v2")
+        except Exception as exc:  # noqa: BLE001 - retention is an extra; views still count
+            note = f"analytics: {type(exc).__name__}: {exc}"[:300]
     stats = {v["id"]: v.get("statistics", {}) for v in youtube.recent(api, youtube.identity(api))}
     for row in ledger.published():
         vid = row.get("video_id")
@@ -130,8 +178,15 @@ def refresh(at: datetime | None = None, force: bool = False, api=None) -> dict |
             "age_h": round(_age_h(row, at), 2), "views": int(s.get("viewCount", 0)),
             "likes": int(s.get("likeCount", 0)), "comments": int(s.get("commentCount", 0))}])
         rec["views_24h"] = views_at(rec["snapshots"], SCORE_AT_H)
+    if analytics is not None:
+        try:
+            held, note = youtube.analytics(analytics, {v: r["published_at"] for v, r in perf["videos"].items()}, at)
+        except Exception as exc:  # noqa: BLE001 - retention is an extra; views still count
+            held, note = {}, f"analytics: {type(exc).__name__}: {exc}"[:300]
+        for vid, got in held.items():
+            perf["videos"][vid].update({RETENTION_FIELD: got["avg_view_pct"], "engaged_views": got["engaged_views"]})
     perf["at"] = at.isoformat(timespec="seconds")
     perf["learned"] = learn(list(perf["videos"].values()))
     ledger.save("performance", perf)
     (ledger.STATE / "LEARNINGS.md").write_text(report(perf), encoding="utf-8")
-    return perf["learned"]
+    return perf["learned"] | ({"note": note} if note else {})

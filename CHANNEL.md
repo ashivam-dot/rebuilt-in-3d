@@ -254,4 +254,11 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
   80 runs, each time blinding the death lane. It now reads up to 65 s (the query service stops a query at 60 s),
   tries three times with backoff, and the last good list (`state/recent_deaths.json`) stands in for up to 3 hours;
   the run's trend radar errors say when it did.
+- **What the numbers teach the desk (`studio/learn.py`):** every 3 hours the run reads each Short's public views and
+  scores it by its views at 24 h; a story kind or category needs 4 scored Shorts before it lifts or lowers a
+  candidate's rank (shrunk toward 1, kept within x0.75-x1.35). Since 2026-10-22 it also reads YouTube Analytics
+  (views, engaged views, average percentage viewed) for Shorts at least 3 days old, and blends a group's retention
+  into its lift at half weight, as the Hindi desk does. That needs the sign-in to carry the
+  `yt-analytics.readonly` scope; without it the run's health says so once ("analytics: ...") and lifts are views
+  alone. Everything lands in `state/performance.json` and `state/LEARNINGS.md`.
 - Never promise views or earnings; growth comes from accuracy, consistency and clarity.

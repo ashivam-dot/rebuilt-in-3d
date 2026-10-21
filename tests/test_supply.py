@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 import pytest
 
-from studio import cli, gate, ledger, media, news, plan, stories, trends, writer
+from studio import cli, gate, ledger, media, news, plan, stories, trends, writer, youtube
 from studio.spec import Short
 
 FIXTURE = Path(__file__).parent / "fixtures" / "eq-us6000u0xi.json"
@@ -63,6 +63,18 @@ def test_a_run_waits_for_young_articles_without_counting_a_try_or_taking_a_slot(
     health = cli.run()
     assert tried[-1] == "wk-Q5" and sum(s.startswith("wait wp-young") for s in health["steps"]) == 4
     assert set(ledger.load("retries", {})) == {"wk-Q5"} and ledger.load("skipped", {}) == {}
+
+
+def test_a_run_says_once_when_retention_could_not_be_read(tmp_path, monkeypatch):
+    monkeypatch.setattr(ledger, "STATE", tmp_path / "state")
+    monkeypatch.setattr(ledger, "set_identity", lambda: None)
+    note = "analytics: YouTube Analytics refused (403); the sign-in needs the yt-analytics.readonly scope."
+    monkeypatch.setattr(cli.learn, "refresh", lambda: {"scored": 3, "lifts": {}, "note": note})
+    monkeypatch.setattr(youtube, "client", lambda *a: (_ for _ in ()).throw(RuntimeError("no sign-in")))
+    monkeypatch.setattr(plan, "watch", lambda: {"candidates": [], "quakes": [], "trending": [], "hazards": []})
+    monkeypatch.setattr(plan, "lineup", lambda c: (c, []))
+    health = cli.run()
+    assert health["ok"] and health["steps"].count(note) == 1 and health["steps"][0].startswith("learn: 3 scored")
 
 
 @pytest.mark.parametrize("fields, day", [
