@@ -10,8 +10,11 @@ read in the page source. New uploads carry topic tags and "Orbitwire" only. The 
 `state/uploads.json` the moment YouTube accepts the file (so a run cut short while it processes finishes that upload
 next time instead of uploading again) and moves to `published.json` once it is public. `youtube.find` checks the
 ledger first, then still reads the old marker on recent uploads, so no story uploaded before the change is ever
-uploaded twice; the old tags are left on those videos (rewriting 40 snippets costs quota and could undo Studio
-edits, and a stale tag does no harm). When neither finds it, an upload under 48 hours old that no ledger row or old
+uploaded twice. The old tags were first left on those videos; since 2026-10-22 `channel.untag` can take them off
+(off by default, see "Channel jobs" under Operations): it keeps each story's video id in the ledger first (a
+published row missing one takes the id its tag names, else the one upload with its exact title that no row owns; a
+tagged upload no published row names goes to `state/markers.json`, which `find` reads too), then rewrites only the
+tags of a few uploads per run from the snippet YouTube returns, so Studio edits stay. When neither finds it, an upload under 48 hours old that no ledger row or old
 tag claims and whose description lists the story's Wikipedia or first source URL on its own line is the same story
 under a lost state save (a failed rebase or push, a lost runner): the run never uploads it again, skips the story
 and reports `hold <id>` with the video id in the steps and warnings, for a person to publish or delete in Studio.
@@ -287,6 +290,20 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
   into its lift at half weight, as the Hindi desk does. That needs the sign-in to carry the
   `yt-analytics.readonly` scope; without it the run's health says so once ("analytics: ...") and lifts are views
   alone. Everything lands in `state/performance.json` and `state/LEARNINGS.md`.
+- **Channel jobs (`studio/channel.py`, 2026-10-22; gap audit P1 #6-#9).** One-shot YouTube writes ride the
+  scheduled run, each off until named in the repo-root file `CHANNEL_JOBS` (one per line, `#` comments; or the
+  variable `STUDIO_CHANNEL_JOBS` on the Mac). run.yml passes no variable for them and a security hook keeps workflow
+  files unedited, so the committed file is the switch. `setup` writes the About text (sources, real photos and 3D
+  quakes, AI voice, editorial rules, corrections), keywords and default language `en` once, by read-modify-write of
+  the whole `brandingSettings` (YouTube clears what an update leaves out); makes the playlists "Earthquakes in 3D",
+  "Storms and Natural Disasters" (photo stories, so never called "in 3D"), "Lives Remembered" and each hand-made
+  series (`channel.SERIES`), found again by title so a lost state save never makes a second; files every public
+  ledger video into them (YouTube's own list read first), and adds a Home shelf per playlist. `untag` takes the old
+  `rebuilt-in-3d:` tag off 5 uploads a run (above). Both spend at most 500 units a run and 1,500 a Pacific day
+  (`state/channel.json`; uploads need the rest of the 10,000), stop for the day on HTTP 403 `quotaExceeded`, stop
+  the run and say "force-ssl" when the sign-in may not write (403 `insufficientPermissions`, or a token listing no
+  write scope), and leave a video or playlist alone after two refusals (listed in the health line, for Studio).
+  They write one `channel jobs (...)` health line and can never stop a publish.
 - Never promise views or earnings; growth comes from accuracy, consistency and clarity.
 
 ## Decisions log
@@ -300,5 +317,6 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
 | 2026-10-22 | Curiosity titles ("How/Why <thing> <outcome>", "<X> Exists Because of <Y>") where the sources state it, fact-checked; teases refused | Titles read as wire headlines ("<Place> <Event>: <What Happened>"); the How/Why framing names a specific outcome while keeping the searchable name first |
 | 2026-10-22 | NASA records naming a partner's data in the description (Copernicus Sentinel, ESA, Himawari/JMA, EUMETSAT, KOMPSAT/KARI, "processed by" a non-US-federal party) are refused; the not-a-photo check reads the description too | Review of the NASA tier: an Earth Observatory record credited "NASA Earth Observatory/Lauren Dauphin" over "Copernicus Sentinel-2 data processed by the European Space Agency", and a Himawari-9 record "operated by the Japan Meteorological Agency", both passed as public domain; typhoon and storm stories are the tier's main use |
 | 2026-10-22 | An upload under 48 h old with this story's source URL that the ledger lost is held, never re-uploaded; `uploads.json` entries 24 h old are reported | Without the public tag, a failed "Save state" step (rebase conflict, push, lost runner) left nothing to find the upload by; a second copy of a story is the repetitive-content signal this batch removes |
+| 2026-10-22 | Channel jobs `setup` (About, keywords, playlists by series, Home shelves) and `untag` (old marker tag off, ledger first), off until `CHANNEL_JOBS` names them; 500 units a run, 1,500 a day; two refusals and a video is left alone | Gap audit P1 #6-#9: Orbitwire shows only a Shorts tab, no playlists, an About that still says "in 3D" for photo stories, and 28 of 35 uploads carry `rebuilt-in-3d:wk-Q…`; Kyun Hua's untag retries a refused video every run |
 | 2026-10-22 | One "How it is made:" line in every new description (sources, line-by-line checks, toll rule; no claim of a human review) | YPP reviewers sample the newest uploads and read their metadata (answer/1311392); the descriptions said where facts came from but not what is checked, and "readings of news feeds" are non-monetizable |
 | 2026-10-22 | A curiosity title flagged on the last draft falls back to the plain title; the checked title is labelled and a missing verdict counts against it | A title-only flag on draft 3 failed a story whose every beat was supported ("no draft passed the fact checks"); 26 of 44 skips were already for want of photos, so supply is the constraint |

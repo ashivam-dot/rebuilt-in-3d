@@ -125,6 +125,13 @@ def run(dry: bool = False) -> dict:
             except Exception as exc:
                 health["steps"].append(f"retract: {type(exc).__name__}: {exc}"[:300])
             health["steps"] += ledger.stale_uploads()
+            try:  # About, playlists, old tags: off unless CHANNEL_JOBS names them (studio/channel.py)
+                from . import channel
+
+                if note := channel.run():
+                    health["steps"].append(note[:400])
+            except Exception as exc:  # channel tidying must never stop a publish
+                health["steps"].append(f"channel jobs: {type(exc).__name__}: {exc}"[:300])
         found = plan.watch()
         health["steps"].append(f"watch: {len(found['candidates'])} candidates ({len(found['quakes'])} quakes, "
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")
