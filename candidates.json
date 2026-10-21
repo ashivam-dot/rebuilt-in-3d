@@ -1,7 +1,48 @@
 {
- "at": "2026-10-21T06:13:37+00:00",
+ "at": "2026-10-21T07:25:28+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 237611,
+   "views": 62611,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-21T06:43:00+00:00",
+   "headlines": [
+    "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working",
+    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20",
+    "google-news:France protests latest: Suspect arrested over city hall fire as French PM says curfews are working",
+    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working",
+     "url": "https://www.independent.co.uk/news/world/europe/france-paris-protests-live-curfew-riots-italy-milan-b3070406.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-21T05:14:39+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
   {
    "id": "nw-20261020-abyei-strike",
    "qid": null,
@@ -106,47 +147,6 @@
    "article": null
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 112611,
-   "views": 62611,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-21T05:14:39+00:00",
-   "headlines": [
-    "Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
-    "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-20",
-    "google-news:Woke French student mocked owners who lost stores in riots — then her jet-set life was revealed: ‘Your little shops, that’s cute’",
-    "google-news:France protests latest: Suspect arrested over city hall fire as French PM says curfews are working",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working",
-     "url": "https://www.independent.co.uk/news/world/europe/france-paris-protests-live-curfew-riots-italy-milan-b3070406.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-21T05:14:39+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q1889124",
    "title": "Richard Riehle",
    "fame": 101727,
@@ -165,6 +165,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-15"
+  },
+  {
+   "qid": "Q141758443",
+   "title": "17 October riots",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-21T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141758443-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q3424313",
@@ -267,6 +289,28 @@
  ],
  "candidates": [
   {
+   "qid": "Q141758443",
+   "title": "17 October riots",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-21T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141758443-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
    "fame": 31815,
@@ -291,10 +335,10 @@
   "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)"
  ],
  "outlets": {
-  "headlines": 816,
+  "headlines": 813,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 23,
   "corroborated": 1
  },
  "emerging": [
@@ -402,5 +446,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
+ "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike"
 }

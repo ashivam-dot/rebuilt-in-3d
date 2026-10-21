@@ -1,10 +1,12 @@
 {
- "at": "2026-10-21T06:13:36+00:00",
+ "at": "2026-10-21T07:25:27+00:00",
  "ok": true,
  "steps": [
-  "watch: 1 candidates (0 quakes, 7 trending), 1 hazard alerts",
-  "outlets: 816 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
+  "learn: 38 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59}, 'kind:death': {'n': 11, 'lift': 1.251, 'typical_views_24h': 212}, 'kind:incident': {'n': 20, 'lift': 1.152, 'typical_views_24h': 185}, 'category:death': {'n': 10, 'lift': 1.077, 'typical_views_24h': 173}, 'category:protest': {'n': 4, 'lift': 1.107, 'typical_views_24h': 191}}",
+  "watch: 2 candidates (0 quakes, 8 trending), 1 hazard alerts",
+  "outlets: 813 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261020-abyei-strike",
   "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=45)\"]",
+  "skip wk-Q141758443-2026w43: gate: no draft passed the fact checks: line 1 (The 17 October riots saw nationwide unrest across France, Be): partly: The source mentions protests in Italy and Belgium, but does not state that there were 'riots' in Albania; it only describes protests in Albania regarding a resort and the Flamingo revolution. | second look: The LINE includes 'Albania' as a location for the riots, but the SOURCE SENTENCES only list Albania as a location ",
   "skip wk-Q3424313: gate: only 2 usable photos of Deva on Wikimedia Commons (want 3)",
   "nothing eligible to publish"
  ]
