@@ -72,6 +72,18 @@ def record_upload(story_id: str, video_id: str) -> None:
     save("uploads", pending)
 
 
+def markers() -> dict:
+    """Story ids read off an old upload's public MARKER tag that no published row names, by story id: video id. Kept
+    before channel.untag takes the tag off, so youtube.find still knows the upload."""
+    return load("markers", {})
+
+
+def remember_marker(story_id: str, video_id: str) -> None:
+    kept = markers()
+    kept.setdefault(story_id, video_id)
+    save("markers", kept)
+
+
 # An upload still unpublished after this long is not a run cut short but a story that failed or was skipped on its
 # rebuild: its private video waits on the channel for a person.
 STALE_UPLOAD_HOURS = 24

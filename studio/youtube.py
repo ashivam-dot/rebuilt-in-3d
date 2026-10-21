@@ -23,7 +23,8 @@ TOKEN_FILE = Path(__file__).resolve().parents[1] / "secrets" / "token.json"
 CATEGORY = "27"  # Education: explainers, not breaking news
 # Uploads before 2026-10-22 carry MARKER + story id as a public tag ("rebuilt-in-3d:wk-Q123", the channel's first
 # name), which viewers can read in the page source. New uploads carry topic tags only; find() still reads the old
-# marker so a story uploaded before then is never uploaded again, so it must not change.
+# marker so a story uploaded before then is never uploaded again, so it must not change. channel.untag takes it off
+# the old uploads (when switched on), keeping each story's video id in the ledger first.
 MARKER = "rebuilt-in-3d:"
 
 
@@ -35,6 +36,22 @@ def client(service: str = "youtube", version: str = "v3"):
     if not creds.valid:
         creds.refresh(Request())
     return build(service, version, credentials=creds, cache_discovery=False)
+
+
+# channels.update, videos.update and the playlist writes need one of these; an upload-only token is refused (403).
+WRITE_SCOPES = {"https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/youtube.force-ssl"}
+
+
+def scopes() -> set[str] | None:
+    """The scopes the sign-in token lists, or None when it lists none (then only the API can tell)."""
+    raw = os.environ.get("YOUTUBE_OAUTH_JSON") or (TOKEN_FILE.read_text() if TOKEN_FILE.exists() else "")
+    try:
+        listed = json.loads(raw).get("scopes") if raw else None
+    except (ValueError, AttributeError):
+        return None
+    if isinstance(listed, str):
+        listed = listed.split()
+    return set(listed) if listed else None
 
 
 def identity(api) -> dict:
@@ -121,10 +138,11 @@ def analytics(api, published: dict[str, str], at: datetime | None = None) -> tup
 
 def find(api, channel: dict, short_id: str) -> dict | None:
     """The upload already made for a story, if any: the one the ledger records (published, or uploaded and not yet
-    public, state/uploads.json) while it is still on this channel, else one of the recent uploads carrying the old
-    MARKER tag."""
+    public, state/uploads.json; or read off its old MARKER tag before channel.untag took it, state/markers.json) while
+    it is still on this channel, else one of the recent uploads still carrying the old MARKER tag."""
     known = [r.get("video_id") for r in ledger.published() if r["id"] == short_id]
     known.append((ledger.uploads().get(short_id) or {}).get("video_id"))
+    known.append(ledger.markers().get(short_id))
     ids = list(dict.fromkeys(v for v in known if v))
     hits = []
     if ids:
