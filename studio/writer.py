@@ -622,6 +622,27 @@ def place_photos(draft: dict, photos: list[dict]) -> dict:
     return draft
 
 
+TITLE_LINE = "TITLE: "
+
+
+def title_flag(verdict: dict, lines: list[str], flagged: dict[int, str]) -> dict[int, str]:
+    """The curiosity title is the last line checked: a verdict the checker left out counts against it (a beat left out
+    is let through by check_verdict), and its problem says it is the title, so the rewrite fixes the right thing."""
+    n = len(lines)
+    if not any(row.get("line") == n for row in verdict.get("lines", [])):
+        flagged = flagged | {n: f"line {n} ({lines[n - 1][:60]}): no verdict"}
+    if n in flagged:
+        rest = flagged[n].split("): ", 1)[-1]
+        flagged = flagged | {n: f"the title ({lines[n - 1][len(TITLE_LINE):][:60]}): {rest}"[:300]}
+    return flagged
+
+
+def plain_title(kind: str, name: str, series: dict | None = None) -> str:
+    """The title that claims nothing beyond the name: _short's fallback, with a series part's "Part N: "."""
+    title = f"Remembering {name}" if kind == "death" else f"{name}: what happened"
+    return f"Part {series['part']}: {title}" if series else title
+
+
 def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, photos: list[dict],
           banned_names: list[str] | None = None, model: str | None = None,
           log_path: Path | None = None, headlines: list[str] | None = None,
@@ -657,11 +678,20 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
             if not problems:
                 teaser = f"part {series['part'] + 1}" if series else None
                 lines = [b["say"] for b in draft["beats"] if not (teaser and b["say"].lower().startswith(teaser))]
-                if CURIOUS.search(draft.get("title", "")):
-                    lines.append(draft["title"].strip())
+                titled = bool(CURIOUS.search(draft.get("title", "")))
+                if titled:
+                    lines.append(TITLE_LINE + draft["title"].strip())
                 verdict = m.chat(_check_messages(lines, facts, source, reports), CHECK_SCHEMA, temperature=0.0,
                                  max_tokens=1800)
-                problems = recheck(m, lines, check_verdict(verdict, lines, checked), checked)
+                flagged = check_verdict(verdict, lines, checked)
+                if titled:
+                    flagged = title_flag(verdict, lines, flagged)
+                problems = recheck(m, lines, flagged, checked)
+                if titled and problems and attempt == 2 and all(p.startswith("the title") for p in problems):
+                    # Every beat is supported and only the title's claim is not: the plain title costs nothing.
+                    log.append({"attempt": attempt + 1, "problems": problems, "draft": dict(draft)})
+                    draft["title"] = plain_title(kind, name, series)
+                    problems = []
             if not problems:
                 return draft, log
             log.append({"attempt": attempt + 1, "problems": problems, "draft": draft})
@@ -1214,7 +1244,7 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
             allowed.add(n)
     title = draft["title"].strip().strip('"')
     if not 20 <= len(title) <= 70:
-        title = f"Remembering {name}" if kind == "death" else f"{name}: what happened"
+        title = plain_title(kind, name)
     if any(media.from_openverse(p) or media.from_nasa(p) for p in photos):
         credit = credit.replace("photos: Wikimedia Commons", "photos: " + media.hosts(photos))
     if reports:
