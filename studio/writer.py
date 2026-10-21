@@ -393,7 +393,10 @@ TEMPLATE_TITLES = ("the legacy of", "a tribute to", "the life and legacy", "the 
 RECENT_TITLES = 20
 # A curiosity title ("How Hurricane Milton Grew to Category 5 in a Day") claims a cause or an outcome, so the evidence
 # check reads it with the beats; a tease that names no outcome is clickbait, sent back like a template opener.
-CURIOUS = re.compile(r"^(?:part \d+\s*:\s*)?(?:how|why)\b|\bexists? because of\b", re.I)
+# Name-first titles claim one too ("Hurricane Milton: Why Tampa Bay Was Spared", "... Because of Warm Water"; the
+# pre-push review, 2026-10-22), so How/Why after a colon or dash and cause words anywhere count.
+CURIOUS = re.compile(r"(?:^|[:–—-]\s*)(?:part \d+\s*:\s*)?(?:how|why)\b|\bbecause\b|\b(?:led to|leads to|caused|"
+                     r"causes|thanks to|due to|the reason)\b", re.I)
 TEASE = re.compile(r"\?|\b(?:what happened next|what happens next|the real reason|the truth about|here'?s why|"
                    r"this is why|no one expected|nobody expected|what really happened)\b", re.I)
 _TITLE_STOP = set("a an the of and in on at to for by with from as is was its his her their part".split())

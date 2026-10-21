@@ -171,3 +171,17 @@ def test_a_flagged_beat_still_costs_the_story_on_the_last_attempt(monkeypatch):
     with pytest.raises(ValueError, match="no draft passed the fact checks"):
         writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
                      [{"file": "File:0.jpg", "description": ""}])
+
+
+@pytest.mark.parametrize("title", [
+    "Hurricane Milton: Why Tampa Bay Was Spared", "Tigray War: How Famine Followed the Siege",
+    "Hurricane Milton Grew to Category 5 Because of Warm Water", "Kakinada Flooded Due to Cyclone Montha",
+])
+def test_a_name_first_causal_title_is_still_sent_to_the_evidence_check(title):
+    """The pre-push review (2026-10-22): these claimed a cause and skipped the check."""
+    assert writer.CURIOUS.search(title)
+
+
+@pytest.mark.parametrize("title", ["Nana Patekar, Krantiveer Star, Dies at 75", "CFB Wainwright Fire Kills Two Soldiers"])
+def test_a_plain_title_is_not_a_causal_claim(title):
+    assert not writer.CURIOUS.search(title)
