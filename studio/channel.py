@@ -200,6 +200,11 @@ def about(desk: Desk) -> str | None:
     if any(current.get(k) != v for k, v in want.items()):
         body = {"id": youtube.CHANNEL_ID, "brandingSettings": {**branding, "channel": {**current, **want}}}
         desk.call(desk.api.channels().update(part="brandingSettings", body=body), WRITE)
+        back = desk.call(desk.api.channels().list(part="brandingSettings", id=youtube.CHANNEL_ID), READ)
+        got = ((back.get("items") or [{}])[0].get("brandingSettings") or {}).get("channel") or {}
+        if (got.get("description") or "").strip() != ABOUT.strip():
+            desk.fail("about", RuntimeError("the About did not read back"))
+            return "About written but did not read back"
         note = "About, keywords and language written"
     else:
         note = "About already current"

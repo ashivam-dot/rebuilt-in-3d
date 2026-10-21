@@ -164,6 +164,20 @@ def test_about_is_a_read_modify_write_of_the_whole_branding_once():
     assert len([op for op, _ in yt.writes if op == "channels.update"]) == 1  # done once
 
 
+def test_an_about_that_does_not_read_back_is_tried_twice_then_left(monkeypatch):
+    yt = FakeYouTube()
+    real = FakeYouTube._Res.update
+
+    def ignored(self, part, body):  # YouTube accepts the write but keeps the old text
+        return Call(lambda: yt.writes.append((self.name + ".update", body)) or {})
+
+    monkeypatch.setattr(FakeYouTube._Res, "update", ignored)
+    assert "did not read back" in run(yt) and "did not read back" in run(yt)
+    run(yt)
+    assert sum(op == "channels.update" for op, _ in yt.writes) == 2
+    monkeypatch.setattr(FakeYouTube._Res, "update", real)
+
+
 def test_playlists_are_made_once_and_filed_from_the_ledger():
     publish("eq-1", "Q1", kind="quake", at="01")
     publish("wk-storm", "S1", category="cyclone", title="Hurricane Rachel's Landfall", at="02")
