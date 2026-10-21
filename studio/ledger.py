@@ -28,7 +28,10 @@ def load(name: str, default):
 def save(name: str, data) -> Path:
     STATE.mkdir(parents=True, exist_ok=True)
     path = STATE / f"{name}.json"
-    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    # Written beside the file and moved over it: a run cut short never leaves half a file for the next run to read.
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    tmp.replace(path)
     return path
 
 

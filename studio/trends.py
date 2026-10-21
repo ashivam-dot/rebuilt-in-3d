@@ -68,6 +68,22 @@ def google_trends(geo: str) -> list[dict]:
     return out
 
 
+def cached_deaths(now: datetime, errors: list[str]) -> tuple[list[dict], float | None]:
+    """The last good recent-deaths list and its age in hours; ([], None) when the cache is missing, cut short by an
+    interrupted run, or malformed (the radar then reports the query's own error, as before the cache)."""
+    try:
+        cached = ledger.load(DEATHS_CACHE, {})
+        at = datetime.fromisoformat(cached["at"])
+        rows = cached["rows"]
+        if not rows or not isinstance(rows, list) or not all(isinstance(r, dict) for r in rows):
+            return [], None
+        return rows, (now - (at if at.tzinfo else at.replace(tzinfo=timezone.utc))).total_seconds() / 3600
+    except Exception as exc:
+        if not isinstance(exc, KeyError):
+            errors.append(f"recent deaths cache unreadable: {type(exc).__name__}"[:200])
+        return [], None
+
+
 def recent_deaths(since: date, errors: list[str], now: datetime | None = None) -> list[dict]:
     """People Wikidata says died on or after since (wiki.recent_deaths, which retries with backoff). When the query
     service fails, the last good list stands in for up to DEATHS_CACHE_H hours, and the error says so."""
@@ -75,12 +91,11 @@ def recent_deaths(since: date, errors: list[str], now: datetime | None = None) -
     try:
         rows = wiki.recent_deaths(since)
     except Exception as exc:
-        cached = ledger.load(DEATHS_CACHE, {})
-        age = (now - datetime.fromisoformat(cached["at"])).total_seconds() / 3600 if cached.get("at") else None
-        if age is not None and 0 <= age <= DEATHS_CACHE_H and cached.get("rows"):
+        cached, age = cached_deaths(now, errors)
+        if age is not None and 0 <= age <= DEATHS_CACHE_H:
             errors.append(f"wikidata recent deaths: {exc}"[:160] + f" (used the list from {age:.1f} h ago, "
-                          f"{len(cached['rows'])} people)")
-            return cached["rows"]
+                          f"{len(cached)} people)")
+            return cached
         errors.append(f"wikidata recent deaths: {exc}"[:200])
         return []
     if rows:

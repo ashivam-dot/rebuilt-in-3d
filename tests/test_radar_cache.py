@@ -1,6 +1,7 @@
 import json
 from datetime import date, datetime, timedelta, timezone
 
+import pytest
 import requests
 
 from studio import ledger, net, trends, wiki
@@ -71,3 +72,44 @@ def test_the_deaths_query_retries_with_backoff_and_reads_past_the_services_60_s_
     assert wiki.recent_deaths(SINCE) == [{"title": "Nana Patekar", "qid": "Q1"}]
     assert calls == [wiki.SPARQL_TIMEOUT] * wiki.SPARQL_TRIES and wiki.SPARQL_TIMEOUT[1] > 60
     assert waits == [2, 8]
+
+
+def _write_cache(text):
+    ledger.STATE.mkdir(parents=True, exist_ok=True)
+    (ledger.STATE / f"{trends.DEATHS_CACHE}.json").write_text(text, encoding="utf-8")
+
+
+@pytest.mark.parametrize("text", [
+    '{"at": "2026-10-21T12:00:00+00:00", "rows": [{"title": "Nana', "", "[]", '"rows"', '{"at": 5, "rows": []}',
+    '{"at": "not a time", "rows": [{"title": "Nana Patekar", "qid": "Q1"}]}', '{"at": "2026-10-21T12:00:00"}',
+    '{"at": "2026-10-21T12:00:00+00:00", "rows": "Nana Patekar"}',
+])
+def test_a_cut_short_or_malformed_cache_with_the_service_down_is_an_error_not_a_crash(monkeypatch, text):
+    _write_cache(text)
+    monkeypatch.setattr(trends.wiki, "recent_deaths", _down)
+    errors = []
+    assert trends.recent_deaths(SINCE, errors, now=AT) == []
+    assert any(e.startswith("wikidata recent deaths:") for e in errors)
+
+
+def test_a_cache_time_without_a_zone_is_read_as_utc(monkeypatch):
+    _write_cache(json.dumps({"at": "2026-10-21T12:00:00", "rows": PEOPLE}))
+    monkeypatch.setattr(trends.wiki, "recent_deaths", _down)
+    errors = []
+    assert trends.recent_deaths(SINCE, errors, now=AT + timedelta(hours=1)) == PEOPLE
+    assert "used the list from 1.0 h ago" in errors[0]
+
+
+def test_the_story_pool_survives_a_corrupt_cache_and_an_outage(monkeypatch):
+    _write_cache("{")
+    monkeypatch.setattr(trends.wiki, "recent_deaths", _down)
+    monkeypatch.setattr(trends.wiki, "new_articles", lambda hours: [])
+    errors = []
+    assert trends.story_pool(AT.date(), errors) == []
+    assert any(e.startswith("wikidata recent deaths:") for e in errors)
+
+
+def test_state_is_written_whole():
+    ledger.save("x", {"a": 1})
+    assert ledger.load("x", {}) == {"a": 1}
+    assert not list(ledger.STATE.glob("*.tmp"))
