@@ -1,31 +1,28 @@
 {
- "at": "2026-10-21T16:14:54+00:00",
+ "at": "2026-10-21T17:11:56+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 312611,
-   "views": 62611,
+   "qid": "Q141679225",
+   "title": "2026 Poland school attacks",
+   "fame": 125000,
+   "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-21T10:38:36+00:00",
+   "news": 125000,
+   "news_at": "2026-10-21T12:23:57+00:00",
    "headlines": [
-    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-    "France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
+    "Boy, 16, found guilty of attempted murder after stabbing girl at school"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-20",
-    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-    "google-news:France protests latest: Suspect arrested over city hall fire as French PM says curfews are working"
+    "google-news:Boy, 16, found guilty of attempted murder after stabbing girl at school"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141615137-2026w43",
+   "id": "wk-Q141679225",
    "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-21",
+   "category": "disaster",
+   "date": "2026-10-07",
    "coords": null,
    "has_coords": true
   },
@@ -134,15 +131,16 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 10410,
+   "fame": 10910,
    "views": 10410,
-   "traffic": 0,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-20"
+    "wikipedia-top-2026-10-20",
+    "google-trends-US:norovirus cases overland park school"
    ],
    "owners": [],
    "reports": [],
@@ -215,26 +213,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-18"
-  },
-  {
-   "qid": "Q19975570",
-   "title": "Hyron Andrews",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:hyron andrews aorta tear"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q19975570",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -252,12 +230,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 822,
+  "headlines": 828,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
+  "matched": 28,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 828 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
