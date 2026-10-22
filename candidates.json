@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22T12:09:26+00:00",
+ "at": "2026-10-22T12:47:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -70,6 +70,56 @@
    "has_coords": true
   },
   {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-22T12:22:26+00:00",
+   "headlines": [
+    "John Anderson, country music Hall of Famer, dies at 71",
+    "John Anderson, country music hall of famer, dead at 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, country music Hall of Famer, dies at 71",
+    "google-news:John Anderson, country music hall of famer, dead at 71",
+    "outlet:Paramount (CBS)",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Paramount (CBS)",
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "John Anderson, country music Hall of Famer, dies at 71",
+     "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:22:26+00:00"
+    },
+    {
+     "title": "John Anderson, country music hall of famer, dead at 71",
+     "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T11:39:24+00:00"
+    }
+   ],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
    "fame": 33035,
@@ -110,42 +160,6 @@
     -121.29527778
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-22T11:39:24+00:00",
-   "headlines": [
-    "John Anderson, country music hall of famer, dead at 71"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:John Anderson, country music hall of famer, dead at 71",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "John Anderson, country music hall of famer, dead at 71",
-     "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T11:39:24+00:00"
-    }
-   ],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   },
   {
    "qid": "Q1889124",
@@ -245,23 +259,37 @@
   {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
-   "fame": 25000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-22T11:39:24+00:00",
+   "news": 50000,
+   "news_at": "2026-10-22T12:22:26+00:00",
    "headlines": [
+    "John Anderson, country music Hall of Famer, dies at 71",
     "John Anderson, country music hall of famer, dead at 71"
    ],
    "region": "world",
    "via": [
+    "google-news:John Anderson, country music Hall of Famer, dies at 71",
     "google-news:John Anderson, country music hall of famer, dead at 71",
+    "outlet:Paramount (CBS)",
     "outlet:Fox Corporation"
    ],
    "owners": [
+    "Paramount (CBS)",
     "Fox Corporation"
    ],
    "reports": [
+    {
+     "title": "John Anderson, country music Hall of Famer, dies at 71",
+     "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:22:26+00:00"
+    },
     {
      "title": "John Anderson, country music hall of famer, dead at 71",
      "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
@@ -280,12 +308,12 @@
   }
  ],
  "outlets": {
-  "headlines": 806,
+  "headlines": 802,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
-  "corroborated": 0
+  "matched": 23,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 21 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
