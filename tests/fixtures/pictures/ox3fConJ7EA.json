@@ -1,0 +1,230 @@
+{
+  "id": "nw-20261021-kyiv-strike",
+  "kind": "incident",
+  "title": "Kyiv Missile Attack Amid Peace Talk Signals",
+  "beats": [
+    {
+      "text": "Kyiv missiles hit residents, forcing people into shelters as the city faced a sudden overnight attack.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Residents in shelters",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "The strike happened on Wednesday night after Moscow signaled it was ready in principle to resume peace talks.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Wednesday night attack",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Ukrainian authorities reported that ballistic missiles struck the capital throughout the night.",
+      "shot": "photo:2",
+      "card": {
+        "big": "Ballistic missiles strike",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "The attack occurred while the world watched a diplomatic push to end the ongoing war.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Diplomatic push",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "US President Donald Trump said negotiations were closer than ever to ending the war following recent meetings.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Negotiations closer than ever",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Envoys met with Vladimir Putin to discuss security guarantees and proposals for an energy ceasefire.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Security and energy",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Moscow warned that while it is willing to talk, there is little substance in current proposals.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Talks in progress",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "A new round of trilateral talks is being planned to address these critical security issues.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Trilateral talks",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "",
+      "shot": "outro",
+      "card": {
+        "big": "Orbitwire",
+        "small": "Sources in the description"
+      },
+      "pause_after": 2.0
+    }
+  ],
+  "facts": [
+    {
+      "key": "name",
+      "value": "Kyiv",
+      "source": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+      "numbers": [],
+      "evidence": "named in the reports of BBC, France Médias Monde, Independent Digital News",
+      "owners": [
+        "BBC",
+        "France Médias Monde",
+        "Independent Digital News"
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+    "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+    "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-updates-putin-witkoff-trump-b3070846.html"
+  ],
+  "loss": true,
+  "scene": {
+    "template": "story",
+    "mood": "news",
+    "voice": "world",
+    "photos": [
+      {
+        "file": "OpenStreetMap (wide): Kyiv",
+        "url": "",
+        "page": "https://www.openstreetmap.org/copyright",
+        "width": 1260,
+        "height": 2240,
+        "author": "OpenStreetMap contributors",
+        "license": "CC BY-SA 2.0",
+        "description": "MAP: the region around Kyiv, Ukraine, where it happened marked",
+        "date": "",
+        "origin": "map",
+        "host": "OpenStreetMap",
+        "role": "map",
+        "focus": null,
+        "credit": "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+      },
+      {
+        "file": "OpenStreetMap (near): Kyiv",
+        "url": "",
+        "page": "https://www.openstreetmap.org/copyright",
+        "width": 1260,
+        "height": 2240,
+        "author": "OpenStreetMap contributors",
+        "license": "CC BY-SA 2.0",
+        "description": "MAP: the streets around Kyiv, Ukraine, the exact site marked",
+        "date": "",
+        "origin": "map",
+        "host": "OpenStreetMap",
+        "role": "map",
+        "focus": null,
+        "credit": "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+      },
+      {
+        "file": "File:Kyiv (234807751).jpeg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Kyiv_%28234807751%29.jpeg/1920px-Kyiv_%28234807751%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Kyiv_(234807751).jpeg",
+        "width": 2048,
+        "height": 1361,
+        "author": "Francisco Anzola",
+        "license": "CC BY 3.0",
+        "description": "500px provided description: Kyiv [#church ,#cathedral ,#eastern orthodox ,#Ukraine ,#Kyiv ,#Kiev ,#St. Sophia]",
+        "date": "15 September 2017, 09:36:26 (UTC)",
+        "origin": "related",
+        "host": "Wikimedia Commons",
+        "role": "setting",
+        "credit": "Photo: Francisco Anzola / CC BY 3.0 / Wikimedia Commons",
+        "focus": null
+      }
+    ],
+    "hook": "Kyiv missiles hit residents",
+    "writer": {
+      "model": "gemma-4-12b"
+    },
+    "reporting": [
+      {
+        "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+        "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+        "outlet": "France 24",
+        "outlet_hi": "फ़्रांस 24",
+        "owner": "France Médias Monde",
+        "group": "public broadcaster",
+        "lang": "en",
+        "at": "2026-10-22T01:51:03+00:00"
+      },
+      {
+        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+        "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC",
+        "outlet_hi": "बीबीसी",
+        "owner": "BBC",
+        "group": "public broadcaster",
+        "lang": "en",
+        "at": "2026-10-21T21:27:41+00:00"
+      },
+      {
+        "title": "Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-updates-putin-witkoff-trump-b3070846.html",
+        "outlet": "The Independent",
+        "outlet_hi": "द इंडिपेंडेंट",
+        "owner": "Independent Digital News",
+        "group": "international",
+        "lang": "en",
+        "at": "2026-10-22T02:50:52+00:00"
+      }
+    ],
+    "outlets": [
+      "France 24",
+      "BBC",
+      "The Independent"
+    ],
+    "article": null,
+    "headlines": [
+      "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+      "Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks"
+    ],
+    "category": "strike",
+    "region": "world"
+  },
+  "tags": [
+    "Kyiv",
+    "strike",
+    "news explained",
+    "world news"
+  ],
+  "summary": "Kyiv: what happened, from the reporting of France 24, BBC, The Independent.",
+  "event_time": "2026-10-21",
+  "credits": [
+    "Facts: reporting by trusted news outlets; photos: Wikimedia Commons (licences listed below); reporting: France 24, BBC, The Independent",
+    "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire https://www.openstreetmap.org/copyright",
+    "Photo: Francisco Anzola / CC BY 3.0 / Wikimedia Commons https://commons.wikimedia.org/wiki/File:Kyiv_(234807751).jpeg"
+  ],
+  "hashtags": [
+    "strike",
+    "Kyiv",
+    "news"
+  ]
+}

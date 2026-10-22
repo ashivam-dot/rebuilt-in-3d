@@ -116,23 +116,27 @@ def short_label(text: str) -> str:
     return text if len(text) <= 32 else text[:31].rstrip() + "…"
 
 
-def plates(site: tuple[float, float], label: str, folder: Path, where: str = "") -> list[dict]:
-    """The wide and the close locator map of site as story photos (role "map"), saved in folder. The wide map names
-    the town and region (where, "Bend, Oregon"), the close one the site itself (label)."""
+def plates(site: tuple[float, float], label: str, folder: Path, where: str = "",
+           spans: tuple = SPANS) -> list[dict]:
+    """The wide and the close locator map of site as story photos (role "map", anchor kind "map"), saved in folder.
+    The wide map names the town and region (where, "Bend, Oregon"), the close one the site itself (label). spans: which
+    of SPANS to draw (a Short shows one map at most, studio/anchor.py). "shows" lists the places a beat names to stand
+    on the map."""
     folder.mkdir(parents=True, exist_ok=True)
     around = f" around {where}" if where else ""
     out = []
-    for name, km in SPANS:
+    shows = list(dict.fromkeys(t for t in (label, (where or "").split(",")[0].strip()) if t))
+    for name, km in spans:
         win = frame(site[0], site[1], km)
         img = draw(ground(win), win, site, short_label(where if name == "wide" and where else label), km)
         path = folder / f"map-{name}.jpg"
         img.save(path, quality=92)
         text = (f"MAP: the region{around}, where it happened marked" if name == "wide"
-                else f"MAP: the streets{around}, the exact site marked")
+                else f"MAP: the streets{around}, where it happened marked")
         out.append({"file": f"OpenStreetMap ({name}): {short_label(label)}", "url": "", "page": PAGE, "width": W, "height": H,
                     "author": "OpenStreetMap contributors", "license": LICENSE, "description": text, "date": "",
                     "origin": "map", "path": str(path), "host": "OpenStreetMap", "role": "map", "focus": None,
-                    "credit": CREDIT})
+                    "credit": CREDIT, "kind": "map", "shows": shows})
     return out
 
 

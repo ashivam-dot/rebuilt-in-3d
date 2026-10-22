@@ -1,0 +1,269 @@
+{
+  "id": "nw-20261017-paris-protest",
+  "kind": "incident",
+  "title": "Protests and Unrest in the Streets of Paris",
+  "beats": [
+    {
+      "text": "Paris awoke to streets filled with shattered glass and burnt out cars.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Damage in Paris",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "People gathered to protest rising fuel prices and the high cost of living.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Cost of Living Protests",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Demonstrations also targeted deteriorating public services and conditions in schools.",
+      "shot": "photo:2",
+      "card": {
+        "big": "Public Service Issues",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "About 550,000 people took to the streets for these protests.",
+      "shot": "photo:0",
+      "card": {
+        "big": "550,000 Demonstrators",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Police reported 1,800 arrests as some groups engaged in arson and looting.",
+      "shot": "photo:1",
+      "card": {
+        "big": "1,800 Arrests",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Riot police turned tear gas and water cannons on the crowds.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Police Response",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "The President of the National Assembly will propose a parliamentary inquiry.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Parliamentary Inquiry",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Mayors of three cities asked for a meeting with the prime minister.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Meeting Request",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Follow Orbitwire for the stories the whole world is talking about.",
+      "shot": "outro",
+      "card": {
+        "big": "Orbitwire",
+        "small": "Sources in the description"
+      },
+      "pause_after": 0.5
+    }
+  ],
+  "facts": [
+    {
+      "key": "name",
+      "value": "Paris",
+      "source": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+      "numbers": [],
+      "evidence": "named in the reports of BBC, Bennett, Coleman & Co., France Médias Monde, NPR",
+      "owners": [
+        "BBC",
+        "Bennett, Coleman & Co.",
+        "France Médias Monde",
+        "NPR"
+      ]
+    },
+    {
+      "key": "source-1800",
+      "value": "1800",
+      "source": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+      "numbers": [
+        "1800"
+      ],
+      "evidence": "reported by BBC, France Médias Monde",
+      "owners": [
+        "BBC",
+        "France Médias Monde"
+      ]
+    },
+    {
+      "key": "source-550000",
+      "value": "550000",
+      "source": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+      "numbers": [
+        "550000"
+      ],
+      "evidence": "reported by BBC, NPR",
+      "owners": [
+        "BBC",
+        "NPR"
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+    "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
+    "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+    "https://timesofindia.indiatimes.com/world/europe/france-protests-leave-paris-streets-buried-in-rubbish-amidst-violence-looting-across-nation/articleshow/135025364.cms"
+  ],
+  "loss": false,
+  "scene": {
+    "template": "story",
+    "mood": "news",
+    "voice": "world",
+    "photos": [
+      {
+        "file": "OpenStreetMap (wide): Paris",
+        "url": "",
+        "page": "https://www.openstreetmap.org/copyright",
+        "width": 1260,
+        "height": 2240,
+        "author": "OpenStreetMap contributors",
+        "license": "CC BY-SA 2.0",
+        "description": "MAP: the region around Paris, France, where it happened marked",
+        "date": "",
+        "origin": "map",
+        "host": "OpenStreetMap",
+        "role": "map",
+        "focus": null,
+        "credit": "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+      },
+      {
+        "file": "OpenStreetMap (near): Paris",
+        "url": "",
+        "page": "https://www.openstreetmap.org/copyright",
+        "width": 1260,
+        "height": 2240,
+        "author": "OpenStreetMap contributors",
+        "license": "CC BY-SA 2.0",
+        "description": "MAP: the streets around Paris, France, the exact site marked",
+        "date": "",
+        "origin": "map",
+        "host": "OpenStreetMap",
+        "role": "map",
+        "focus": null,
+        "credit": "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+      },
+      {
+        "file": "File:La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1920px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg",
+        "width": 4592,
+        "height": 2870,
+        "author": "Yann Caradec from Paris, France",
+        "license": "CC BY-SA 2.0",
+        "description": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris.",
+        "date": "2014-08-23 14:49",
+        "origin": "related",
+        "host": "Wikimedia Commons",
+        "role": "setting",
+        "credit": "Photo: Yann Caradec from Paris, France / CC BY-SA 2.0 / Wikimedia Commons",
+        "focus": null
+      }
+    ],
+    "writer": {
+      "model": "gemma-4-12b"
+    },
+    "reporting": [
+      {
+        "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+        "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC",
+        "outlet_hi": "बीबीसी",
+        "owner": "BBC",
+        "group": "public broadcaster",
+        "lang": "en",
+        "at": "2026-10-18T10:53:54+00:00"
+      },
+      {
+        "title": "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+        "url": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
+        "outlet": "France 24",
+        "outlet_hi": "फ़्रांस 24",
+        "owner": "France Médias Monde",
+        "group": "public broadcaster",
+        "lang": "en",
+        "at": "2026-10-18T08:06:22+00:00"
+      },
+      {
+        "title": "Paris police report 855 arrests after violent clashes and looting during protests",
+        "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+        "outlet": "NPR",
+        "outlet_hi": "एनपीआर",
+        "owner": "NPR",
+        "group": "public broadcaster",
+        "lang": "en",
+        "at": "2026-10-17T15:57:40+00:00"
+      },
+      {
+        "title": "France protests leave Paris streets buried in garbage amidst violence, looting",
+        "url": "https://timesofindia.indiatimes.com/world/europe/france-protests-leave-paris-streets-buried-in-rubbish-amidst-violence-looting-across-nation/articleshow/135025364.cms",
+        "outlet": "Times of India",
+        "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+        "owner": "Bennett, Coleman & Co.",
+        "group": "Indian national",
+        "lang": "en",
+        "at": "2026-10-18T07:10:13+00:00"
+      }
+    ],
+    "outlets": [
+      "BBC",
+      "France 24",
+      "NPR",
+      "Times of India"
+    ],
+    "article": null,
+    "headlines": [
+      "Paris police report 855 arrests after violent clashes and looting during protests",
+      "France protests leave Paris streets buried in garbage amidst violence, looting",
+      "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
+      "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting"
+    ],
+    "category": "protest",
+    "region": "world"
+  },
+  "tags": [
+    "Paris",
+    "protest",
+    "news explained",
+    "world news"
+  ],
+  "summary": "Paris: what happened, from the reporting of BBC, France 24, NPR, Times of India.",
+  "event_time": "2026-10-17",
+  "credits": [
+    "Facts: reporting by trusted news outlets; photos: Wikimedia Commons (licences listed below); reporting: BBC, France 24, NPR, Times of India",
+    "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire https://www.openstreetmap.org/copyright",
+    "Photo: Yann Caradec from Paris, France / CC BY-SA 2.0 / Wikimedia Commons https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg"
+  ],
+  "hashtags": [
+    "protest",
+    "Paris",
+    "news"
+  ]
+}

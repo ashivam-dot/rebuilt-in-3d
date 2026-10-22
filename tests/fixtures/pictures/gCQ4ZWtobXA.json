@@ -1,0 +1,230 @@
+{
+  "id": "nw-20261021-macron-protest",
+  "kind": "incident",
+  "title": "Macron Bans Illegitimate Protests Following Riots",
+  "beats": [
+    {
+      "text": "Macron bans protests in parts of Paris as France braces for more unrest.",
+      "shot": "photo:0",
+      "card": {
+        "big": "France bans protests",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "More than half a million people gathered across France on Saturday.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Half a million gather",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Students demanded better conditions in schools and groups denounced high living costs.",
+      "shot": "photo:2",
+      "card": {
+        "big": "Demands for change",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Masked protesters clashed with police, looted shops, and set vehicles on fire.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Riots and looting",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "President Macron blamed seditious acts by ultra-left groups for trying to bring down the Republic.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Macron's response",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Authorities barred demonstrations in Paris, Lyon, Lille, and Grenoble.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Demonstrations barred",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Demonstrations organised by recognised groups like trade unions will be offered alternative routes.",
+      "shot": "photo:1",
+      "card": {
+        "big": "Alternative routes",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "Macron announced plans to convene a defence council meeting on Friday to review the security situation.",
+      "shot": "photo:0",
+      "card": {
+        "big": "Defence council meeting",
+        "small": ""
+      },
+      "pause_after": 0.3
+    },
+    {
+      "text": "",
+      "shot": "outro",
+      "card": {
+        "big": "Orbitwire",
+        "small": "Sources in the description"
+      },
+      "pause_after": 2.0
+    }
+  ],
+  "facts": [
+    {
+      "key": "name",
+      "value": "Macron",
+      "source": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+      "numbers": [],
+      "evidence": "named in the reports of Al Jazeera Media Network, Bennett, Coleman & Co., Deutsche Welle",
+      "owners": [
+        "Al Jazeera Media Network",
+        "Bennett, Coleman & Co.",
+        "Deutsche Welle"
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+    "https://www.aljazeera.com/news/2026/10/22/macron-blames-seditious-ultra-left-for-unrest-as-france-bans-protests?traffic_source=rss",
+    "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms"
+  ],
+  "loss": false,
+  "scene": {
+    "template": "story",
+    "mood": "news",
+    "voice": "world",
+    "photos": [
+      {
+        "file": "OpenStreetMap (wide): Paris",
+        "url": "",
+        "page": "https://www.openstreetmap.org/copyright",
+        "width": 1260,
+        "height": 2240,
+        "author": "OpenStreetMap contributors",
+        "license": "CC BY-SA 2.0",
+        "description": "MAP: the region around Paris, France, where it happened marked",
+        "date": "",
+        "origin": "map",
+        "host": "OpenStreetMap",
+        "role": "map",
+        "focus": null,
+        "credit": "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+      },
+      {
+        "file": "OpenStreetMap (near): Paris",
+        "url": "",
+        "page": "https://www.openstreetmap.org/copyright",
+        "width": 1260,
+        "height": 2240,
+        "author": "OpenStreetMap contributors",
+        "license": "CC BY-SA 2.0",
+        "description": "MAP: the streets around Paris, France, the exact site marked",
+        "date": "",
+        "origin": "map",
+        "host": "OpenStreetMap",
+        "role": "map",
+        "focus": null,
+        "credit": "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire"
+      },
+      {
+        "file": "File:La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1920px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg",
+        "width": 4592,
+        "height": 2870,
+        "author": "Yann Caradec from Paris, France",
+        "license": "CC BY-SA 2.0",
+        "description": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris.",
+        "date": "2014-08-23 14:49",
+        "origin": "related",
+        "host": "Wikimedia Commons",
+        "role": "setting",
+        "credit": "Photo: Yann Caradec from Paris, France / CC BY-SA 2.0 / Wikimedia Commons",
+        "focus": null
+      }
+    ],
+    "hook": "France bans protests",
+    "writer": {
+      "model": "gemma-4-12b"
+    },
+    "reporting": [
+      {
+        "title": "France bans protests in parts of Paris as Macron slams Trump",
+        "url": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+        "outlet": "DW",
+        "outlet_hi": "डीडब्ल्यू",
+        "owner": "Deutsche Welle",
+        "group": "public broadcaster",
+        "lang": "en",
+        "at": "2026-10-21T22:32:00+00:00"
+      },
+      {
+        "title": "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+        "url": "https://www.aljazeera.com/news/2026/10/22/macron-blames-seditious-ultra-left-for-unrest-as-france-bans-protests?traffic_source=rss",
+        "outlet": "Al Jazeera",
+        "outlet_hi": "अल जज़ीरा",
+        "owner": "Al Jazeera Media Network",
+        "group": "international",
+        "lang": "en",
+        "at": "2026-10-22T13:12:22+00:00"
+      },
+      {
+        "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
+        "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
+        "outlet": "Times of India",
+        "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+        "owner": "Bennett, Coleman & Co.",
+        "group": "Indian national",
+        "lang": "en",
+        "at": "2026-10-22T11:26:32+00:00"
+      }
+    ],
+    "outlets": [
+      "DW",
+      "Al Jazeera",
+      "Times of India"
+    ],
+    "article": null,
+    "headlines": [
+      "France bans protests in parts of Paris as Macron slams Trump",
+      "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+      "France unrest: Macron vows ban on 'illegitimate' protests in coming days"
+    ],
+    "category": "protest",
+    "region": "world"
+  },
+  "tags": [
+    "Macron",
+    "protest",
+    "news explained",
+    "world news"
+  ],
+  "summary": "Macron: what happened, from the reporting of DW, Al Jazeera, Times of India.",
+  "event_time": "2026-10-21",
+  "credits": [
+    "Facts: reporting by trusted news outlets; photos: Wikimedia Commons (licences listed below); reporting: DW, Al Jazeera, Times of India",
+    "Map: © OpenStreetMap contributors / CC BY-SA 2.0 / Orbitwire https://www.openstreetmap.org/copyright",
+    "Photo: Yann Caradec from Paris, France / CC BY-SA 2.0 / Wikimedia Commons https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg"
+  ],
+  "hashtags": [
+    "protest",
+    "Macron",
+    "news"
+  ]
+}

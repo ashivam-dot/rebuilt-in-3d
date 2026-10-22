@@ -175,12 +175,18 @@ def test_a_strike_with_two_photos_of_the_next_named_place_and_no_attacker_is_ref
             {"say": s, "photo": i % 2, "caption": "Tuesday"} for i, s in enumerate(say)]}, []
 
     monkeypatch.setattr(writer, "write", write)
+    # Owner, 2026-10-22: two photos of Yemen do not show a strike in Riyadh. Since then the story is refused before
+    # a word is written (writer.faceless), and retried: Commons may have the event's photos hours later.
+    with pytest.raises(ValueError, match="faceless: no free photo shows Aramco") as refused:
+        writer.build(cand)
+    assert not seen and any(m in str(refused.value) for m in __import__("studio.cli").cli.RETRYABLE)
+    event = [dict(p, kind="event", file=f"File:strike{i}.jpg", page=f"https://flickr/s{i}") for i, p in
+             enumerate(_two_photos() + _two_photos()[:1])]
+    monkeypatch.setattr(writer, "event_photos", lambda *a, **kw: event)
     short = writer.build(cand)
-    assert seen["facts"][0] == "Place: Yemen." and len(seen["photos"]) == 2
+    assert seen["facts"][0] == "Place: Yemen." and len(seen["photos"]) == 5
     assert {"Houthi", "Saudi"} <= set(seen["banned_names"]) and "Aramco" not in seen["banned_names"]
-    # Owner, 2026-10-22: two photos of Yemen do not show a strike in Riyadh.
-    assert short.loss and gate._story(short) == ["photos: only 2 show who or what the story is about (want 3 or more)"]
-    assert gate._reported(short) == []
+    assert short.loss and gate._reported(short) == []
     assert next(f for f in short.facts if f.key == "name").owners == ["BBC", "Euronews", "Guardian Media Group"]
 
 
@@ -199,7 +205,7 @@ def test_an_incident_and_a_tribute_both_want_three_photos():
 
 def test_with_two_photos_the_writer_may_use_each_up_to_four_times():
     msg = writer._messages("brief", [], "", _two_photos(), "Yemen")[1]["content"]
-    assert "the same photo at most 4 times, and never the same photo on two beats in a row" in msg
+    assert "at most 4 times, never on two beats in a row when another fits" in msg
     three = writer._messages("brief", [], "", _two_photos() + _two_photos()[:1], "Yemen")[1]["content"]
     assert "at most 3 times" in three
 

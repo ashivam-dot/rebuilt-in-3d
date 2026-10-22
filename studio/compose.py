@@ -339,6 +339,31 @@ def duck(narration: Path, bed: Path, seconds: float, mixed: Path) -> Path:
     return mixed
 
 
+# A cut waits at most this long into a beat for the word that names its picture.
+CUT_LATEST = 2.0
+
+
+def cut_on_names(shots: list[dict], words: list[dict]) -> list[dict]:
+    """Cut to a beat's picture on the word that names it (Beat.anchor, studio/anchor.py), not at the beat's first
+    word: "... clashed with police" shows the police as "police" is said. Only when the word comes in the first
+    anchor.CUT_WITHIN of the beat (and within CUT_LATEST seconds); the previous picture holds until then."""
+    from . import anchor
+
+    for k in range(1, len(shots)):
+        shot, prev = shots[k], shots[k - 1]
+        name = (shot["beat"].anchor or "").strip() if not shot["outro"] else ""
+        if not name or prev["photo"] == shot["photo"] or prev["outro"]:
+            continue
+        said = [w for w in words if w.get("beat") == k and anchor.says(w.get("text", ""), name.split()[0])]
+        if not said:
+            continue
+        at = said[0]["start"] - 0.08
+        span = shot["end"] - shot["start"]
+        if shot["start"] < at <= min(shot["start"] + anchor.CUT_WITHIN * span, shot["start"] + CUT_LATEST):
+            prev["end"] = shot["start"] = round(at, 3)
+    return shots
+
+
 def render(short: Short, timing: dict, work: Path) -> dict:
     """short.mp4 (1080x1920, 30 fps, H.264 + AAC) and a few stills."""
     mood = short.scene.get("mood", "tribute")
@@ -358,6 +383,7 @@ def render(short: Short, timing: dict, work: Path) -> dict:
             idx = shots[-1]["photo"] if shots else 0
         shots.append({"photo": idx, "start": s if i else 0.0, "end": e if i < len(spans) - 1 else duration,
                       "motion": MOTIONS[i % len(MOTIONS)], "beat": beat, "outro": beat.shot == "outro"})
+    cut_on_names(shots, timing.get("words") or [])
     chips = [_chip_layer(b["beat"].card["big"], accent) if b["beat"].card and b["beat"].card.get("big") and i > 0
              and not b["outro"] else None for i, b in enumerate(shots)]
     hook = _hook_layer(*hook_text(short), accent)

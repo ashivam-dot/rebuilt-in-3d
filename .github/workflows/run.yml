@@ -13,13 +13,18 @@ on:
         description: "Only make this USGS event ID or wiki:<Article title> (never publishes)"
         type: string
         default: ""
+      skip:
+        description: "Dry runs only: story ids to pass over, comma-separated (to dry-run a different story)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
   issues: write
 
+# A dry or single-event run never publishes nor saves state, so it does not wait behind (or hold up) the hourly run.
 concurrency:
-  group: studio
+  group: ${{ (inputs.dry || inputs.event != '') && format('studio-dry-{0}', github.run_id) || 'studio' }}
   cancel-in-progress: false
 
 jobs:
@@ -32,6 +37,7 @@ jobs:
       RUN_ID: ${{ github.run_id }}
       DRY: ${{ inputs.dry && 'true' || 'false' }}
       EVENT: ${{ inputs.event }}
+      STUDIO_DRY_SKIP: ${{ inputs.dry && inputs.skip || '' }}
       STUDIO_NEW_STORIES: ${{ vars.STUDIO_NEW_STORIES }}
     # Repository variable PAUSED=true holds the hourly schedule (manual runs still work) while a format is reworked.
     if: github.event_name != 'schedule' || vars.PAUSED != 'true'
@@ -67,13 +73,15 @@ jobs:
           uv run playwright install --with-deps chromium-headless-shell
       - name: Run
         env:
-          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+          # A dry or single-event run gets no YouTube credentials at all: it cannot upload even by mistake.
+          YOUTUBE_OAUTH_JSON: ${{ !(inputs.dry || inputs.event != '') && secrets.YOUTUBE_OAUTH_JSON || '' }}
         run: |
           if [ -n "$EVENT" ]; then uv run python -m studio.cli make "$EVENT"
           elif [ "$DRY" = "true" ]; then uv run python -m studio.cli run --dry
           else uv run python -m studio.cli run; fi
       - name: Save state
-        if: always()
+        # A dry or single-event run leaves the state branch as it was.
+        if: always() && env.DRY != 'true' && env.EVENT == ''
         run: |
           cd state
           git add -A
@@ -99,7 +107,7 @@ jobs:
           if-no-files-found: ignore
           retention-days: 14
       - name: Alert on failure
-        if: failure()
+        if: failure() && env.DRY != 'true' && env.EVENT == ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 import traceback
 from datetime import datetime
@@ -13,7 +14,7 @@ from . import gate, ledger, learn, plan
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
-RETRYABLE = ("words (want", "does not confirm the death", "usable photos", "no draft passed",
+RETRYABLE = ("faceless:", "words (want", "does not confirm the death", "usable photos", "no draft passed",
              "came out garbled", "banned wording", "casualties without an agreed toll", "isn't backed by any sourced")
 MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 log = logging.getLogger("studio")
@@ -145,6 +146,9 @@ def run(dry: bool = False) -> dict:
             health["steps"].append(note)
         if dry and not ready:
             ready = found["candidates"]
+        if dry and (passed := {s.strip() for s in os.environ.get("STUDIO_DRY_SKIP", "").split(",") if s.strip()}):
+            # A dry run saves no state, so the next one would make the same story: it may be told to pass over it.
+            ready = [c for c in ready if c["id"] not in passed]
         if not ready:
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]

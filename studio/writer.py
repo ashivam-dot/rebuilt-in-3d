@@ -19,7 +19,7 @@ from pathlib import Path
 
 import cv2
 
-from . import faces, gate, ledger, llm, media, outlets, stories, terrain, trends, wiki
+from . import anchor, faces, gate, ledger, llm, media, outlets, stories, terrain, trends, wiki
 from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
@@ -131,10 +131,13 @@ RULES = """RULES (all mandatory):
 - Write numbers as digits (1994, 75). Use a year only when it helps the story.
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
-- photo: the index of the PHOTO that best fits the beat. Beat 1 uses photo {best}. Use every photo at least once,
-  the same photo at most {most} times, and never the same photo on two beats in a row. A photo marked SETTING goes
-  on one beat only, the beat that says where it happened, and never on beat 1; every other beat shows what it says.
-  A photo marked MAP goes on beats that say where it happened or set the scene.
+- photo: the index of the PHOTO the beat shows, and the beat names what that photo shows. A PERSON photo goes on
+  a beat that names that person; a THING or PLACE photo on a beat that names it; an EVENT photo on a beat about the
+  event itself that names nobody else. The names a beat can say to show a photo: {shows}. A beat that names
+  someone who has no photo here has nothing to show: name such people rarely, and never in beat 1. Beat 1 uses
+  photo {best}. A photo marked MAP goes on one beat at most, never beat 1: a beat whose point is where it happened,
+  naming that place and nobody else. A photo marked SETTING goes only on a beat that names that town. The same photo
+  at most {most} times, never on two beats in a row when another fits.
 - caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
   a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
 - hook: 3 to 6 words shown big over the first photo: the claim beat 1 opens on, in beat 1's own words (a number,
@@ -234,10 +237,31 @@ def _note(photo: dict) -> str:
     return SETTING_NOTE if photo.get("role") == "setting" else MAP_NOTE if photo.get("role") == "map" else ""
 
 
+SHOWS_NOTE = {"event": " [EVENT: shows the story itself]", "person": " [PERSON: shows {0}]",
+              "thing": " [THING: shows {0}]", "place": " [PLACE: shows {0}]", "setting": SETTING_NOTE,
+              "map": " [MAP of {0}: shows where it happened, not what happened]", "view": ""}
+
+
+def shows_note(story: anchor.Story, i: int) -> str:
+    """What photo i shows, as the writer's PHOTOS list marks it ("[PERSON: shows Emmanuel Macron]")."""
+    kind, terms = story.kinds[i], story.terms[i]
+    return SHOWS_NOTE[kind].format(terms[0] if terms else "it")
+
+
+def best_photo(story: anchor.Story) -> int:
+    """The photo beat 1 opens on: the story's own picture (the event, or the person it is about), never a map."""
+    own = sorted(story.defaults)
+    return own[0] if own else next((i for i, k in enumerate(story.kinds) if k != "map"), 0)
+
+
 def _messages(brief: str, facts: list[str], source: str, photos: list[dict], name: str,
               headlines: list[str] | None = None, reports: list[dict] | None = None,
-              recent: list[str] | None = None) -> list[dict]:
-    listing = "\n".join(f"{i}: {p['description'] or p['file']}" + _note(p) for i, p in enumerate(photos))
+              recent: list[str] | None = None, story: anchor.Story | None = None) -> list[dict]:
+    story = story or anchor.Story(photos, name)
+    listing = "\n".join(f"{i}: {p.get('description') or p['file']}" + shows_note(story, i)
+                         for i, p in enumerate(photos))
+    if story.unshown:
+        listing += "\nNo photo of: " + ", ".join(story.unshown)
     lead = ""
     if headlines:
         lead = ("\n\nTODAY'S LEAD HEADLINES (context only: use them to choose the angle and what to put first, but "
@@ -245,7 +269,8 @@ def _messages(brief: str, facts: list[str], source: str, photos: list[dict], nam
     user = (brief + "\n\nCONFIRMED FACTS:\n" + "\n".join(f"- {f}" for f in facts)
             + ("\n\nSOURCE (Wikipedia):\n" + source if source else "") + reporting_block(reports)
             + lead + "\n\nPHOTOS:\n" + listing + "\n\n"
-            + RULES.format(best=0, name=name, most=max(2, -(-8 // max(len(photos), 1))))
+            + RULES.format(best=best_photo(story), name=name, most=max(2, -(-8 // max(len(photos), 1))),
+                           shows=", ".join(story.showable()) or "none (tell it over the EVENT photos)")
             + ("\nREPORTING counts as a SOURCE under its own rule: " + REPORTING_RULE + "." if reports else "")
             + ("\n\nRECENT TITLES (the title never starts with the same 3 words as any of these):\n"
                + "\n".join(f"- {t}" for t in recent) if recent else ""))
@@ -522,7 +547,7 @@ def hook_text_problems(draft: dict) -> list[str]:
 
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
               reports: list[dict] | None = None, casualties: bool = True, recent: list[str] | None = None,
-              style: bool = True) -> list[str]:
+              style: bool = True, story: anchor.Story | None = None) -> list[str]:
     problems = []
     beats = draft.get("beats", [])
     words = sum(len(b["say"].split()) for b in beats)
@@ -543,6 +568,8 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     if sum(b["photo"] in setting for b in beats) > 1:
         problems.append("a SETTING photo is on more than one beat: use it only on the beat that says where it "
                         "happened, and show what each other beat says")
+    if beats and all(0 <= b["photo"] < len(photos) for b in beats):
+        problems += shown_problems(draft, story or anchor.Story(photos, name))
     # The publish gate's wording rules (studio/gate.py), checked here so a slip is rewritten, not the story dropped.
     lines = [("the title", draft.get("title", "")), ("the hook", draft.get("hook", ""))] + [
         (f"beat {i + 1}", f"{b['say']} {b['caption']}") for i, b in enumerate(beats)]
@@ -606,6 +633,35 @@ def monotone(draft: dict) -> list[str]:
             for w in sorted(set(openers)) if openers.count(w) > 2]
 
 
+def shown_problems(draft: dict, story: anchor.Story) -> list[str]:
+    """The publish gate's picture rules (gate.pictures) on a draft, asked to be rewritten: the beats that show
+    something they do not name, and a map on a beat not about where."""
+    beats = draft.get("beats") or []
+    texts = [b["say"] for b in beats]
+    got = story.judge(texts, [b["photo"] for b in beats])
+    problems = []
+    if got["shown"] < anchor.SHOWN_SHARE:
+        names = ", ".join(story.showable()) or "the event itself"
+        problems.append(f"beat {', '.join(str(k + 1) for k in got['unanchored'])} name(s) nothing its photo shows "
+                        f"(only {got['shown']:.0%} of the script shows what it says; want {anchor.SHOWN_SHARE:.0%}): "
+                        f"in each, name who or what a photo shows ({names}), or tell the event itself over an EVENT "
+                        "photo without naming someone who has no photo")
+    if got["bad_maps"] or got["maps"] > anchor.MAP_SHARE or got["map_photos"] > anchor.MAX_MAPS:
+        problems.append("a MAP may stand only under one beat whose point is where it happened, naming that place "
+                        "and nobody else, and never beat 1")
+    return problems
+
+
+def anchor_photos(draft: dict, story: anchor.Story) -> dict:
+    """Each beat's photo decided by code (anchor.Story.assign), not left to the model: the photo the beat names,
+    else a photo of the event, else the map for a beat about where. The naming word is kept for compose's cut."""
+    beats = draft.get("beats") or []
+    picked = story.assign([b.get("say", "") for b in beats], [b.get("photo") for b in beats])
+    for b, (i, word) in zip(beats, picked):
+        b["photo"], b["anchor"] = i, word
+    return draft
+
+
 def place_photos(draft: dict, photos: list[dict]) -> dict:
     """The SETTING photo rule kept by code, not left to the model: a town photo on its first beat after beat 1 only;
     its other beats get the least-used other photo that neither neighbouring beat shows (with three photos the model
@@ -650,10 +706,11 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
           banned_names: list[str] | None = None, model: str | None = None,
           log_path: Path | None = None, headlines: list[str] | None = None,
           series: dict | None = None, reports: list[dict] | None = None,
-          casualties: bool = True) -> tuple[dict, list[str]]:
+          casualties: bool = True, people: list[str] | None = None) -> tuple[dict, list[str]]:
     """The script as {title, beats: [{say, photo, caption}]} plus the log of rejected drafts (also kept at log_path).
     kind is "death", "incident" or "protest". reports: trusted outlets' articles ({outlet, owner, at, title, excerpt,
-    text}), see the module docstring. casualties: False when no toll is agreed, so the script may not speak of any."""
+    text}), see the module docstring. casualties: False when no toll is agreed, so the script may not speak of any.
+    people: the people the reporting names (with a photo here or without), for the picture rules (studio/anchor.py)."""
     obj = {"He": "him", "She": "her"}.get(pronoun, "them")
     brief = {"death": DEATH_BRIEF, "protest": PROTEST_BRIEF}.get(kind, INCIDENT_BRIEF)
     brief = brief.format(name=name, pronoun=pronoun.lower(), object=obj)
@@ -664,7 +721,8 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
         brief += (f" The last beat ends by saying that Part {series['part'] + 1} tells {series['next']}."
                   if series.get("next") else " The last beat says where the story stands now.")
     recent = recent_titles()
-    messages = _messages(brief, facts, source, photos, name, headlines, reports, recent)
+    story = anchor.Story(photos, name, people, short_kind=kind)
+    messages = _messages(brief, facts, source, photos, name, headlines, reports, recent, story)
     # A photo's Commons description is an uploader's note, not a source: no fact may come from it.
     ground = source + "\n" + "\n".join(facts)
     if series:
@@ -673,9 +731,9 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     log = []
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
-            draft = place_photos(m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6), photos)
+            draft = anchor_photos(m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6), story)
             problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent,
-                                 style=attempt < 2)
+                                 style=attempt < 2, story=story)
             if attempt < 2:
                 problems += monotone(draft) + hook_text_problems(draft) + closing_problems(draft)
             if not problems:
@@ -797,8 +855,89 @@ def vehicle_photos(category: str, qids: list[str], folder: Path, exclude: set[st
             continue
         if len(found) >= limit:
             break
-    return [r for r in _faceless(found[:limit], folder / "named")
-            if gate.showing(category, [r])]
+    return stamp([r for r in _faceless(found[:limit], folder / "named") if gate.showing(category, [r])], "thing",
+                 [VEHICLE_WORD[category]])
+
+
+def stamp(photos: list[dict], kind: str, shows: list[str] | tuple = ()) -> list[dict]:
+    """Mark what photos show (studio/anchor.py), leaving a stamp made where they were found."""
+    for p in photos:
+        if not p.get("kind"):
+            p["kind"], p["shows"] = kind, [s for s in shows if s]
+    return photos
+
+
+def event_photos(names: list[str], when: date, category: str | None, folder: Path, exclude: set[str],
+                 limit: int = 4) -> list[dict]:
+    """Free photos of the event itself (media.event: its own Commons category, then recent uploads naming it, none
+    taken before the day before), with no featured face: a stranger in close-up would be passed off as part of the
+    story. [] when Commons has none or cannot be read."""
+    try:
+        found = media.event(names, when, category, limit=limit, exclude=exclude)
+    except Exception:
+        found = []
+    return stamp(_faceless(found, folder / "event"), "event")
+
+
+# Things reporting names whose own photo shows what a beat says ("Riot police fired tear gas"): searched on Commons
+# with the country, and kept only when the file names both. Never weapons or rioters: no free photo shows the ones
+# in the story.
+THINGS = ("police", "parliament", "school", "court", "hospital", "embassy")
+
+
+def thing_photos(reports: list[dict], country: str, folder: Path, exclude: set[str], limit: int = 2) -> list[dict]:
+    """Photos of the things at least two owners' reports name (THINGS), in the story's country."""
+    out: list[dict] = []
+    if not country:
+        return out
+    for word in THINGS:
+        if len(out) >= limit:
+            break
+        if len(gate.reported(word, reports)) < gate.OWNERS_NEEDED:
+            continue
+        try:
+            found = media.named(country, word, limit=3, exclude=exclude | {p["file"] for p in out})
+        except Exception:
+            continue
+        found = [f for f in found if anchor.says(f"{f.file} {f.description}", word)][:1]
+        out += stamp(_faceless(found, folder / "things"), "thing", [word])
+    return out
+
+
+def named_people(name: str, reports: list[dict], limit: int = 3) -> list[str]:
+    """The people at least two owners' reports name ("Emmanuel Macron"), as Wikipedia titles them; the story's own
+    subject first when it is a person. Each is checked to be a human on Wikidata (story_person)."""
+    counts: dict[str, set[str]] = {}
+    for r in reports:
+        for m in re.finditer(r"\b([A-Z][a-z\u00C0-\u017F'\-]+(?: [A-Z][a-z\u00C0-\u017F'\-]+){1,2})\b", r.get("text") or ""):
+            counts.setdefault(m.group(1), set()).add(r["owner"])
+    cands = [n for n, o in sorted(counts.items(), key=lambda kv: -len(kv[1])) if len(o) >= gate.OWNERS_NEEDED
+             and not any(ordinary(w.lower()) for w in n.split()[:1])][:6]
+    out = []
+    for cand in cands:
+        try:
+            title, _ = story_person(cand, reports)
+        except Exception:
+            continue
+        if title and title not in out:
+            out.append(stories.plain_title(title))
+        if len(out) >= limit:
+            break
+    return out
+
+
+def people_photos(people: list[str], folder: Path, exclude: set[str], each: int = 2) -> list[dict]:
+    """Face-matched photos of each person the reporting names (studio/faces.py), at most `each` per person."""
+    out: list[dict] = []
+    for who in people:
+        try:
+            title, ent = story_person(who)
+            got = pick_photos(title, ent, folder / re.sub(r"\W+", "-", who), person=True) if title else []
+        except Exception:
+            continue
+        got = [p for p in got if p["file"] not in exclude | {q["file"] for q in out}][:each]
+        out += stamp(got, "person", [who])
+    return out
 
 
 def caption_side(description: str | None, title: str) -> str | None:
@@ -828,12 +967,15 @@ def _own_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
         r["others"] = sum(g is not f and g["box"][2] * g["box"][3] >= 0.25 * f["box"][2] * f["box"][3]
                           for g in seen) if f else 0
         kept.append(r)
+    if person:
+        stamp(kept, "person", [stories.plain_title(title)])
     # Strangers beside the person would be shown as part of today's story: their own portraits go first.
     return sorted(kept, key=lambda r: r["others"] > 0)[:8]
 
 
-# Team, employer, organisation, award and notable work before school and birthplace: a birthplace is only a setting.
-PERSON_CONTEXT = ("P54", "P108", "P463", "P166", "P800", "P69", "P19")
+# Team, employer, organisation, award and notable work. Never school (P69) or birthplace (P19): Notre Dame's campus
+# stood under Richard Riehle's film roles and a Crayola store under Chuck Amato's wrestling (2026-10-22 audit).
+PERSON_CONTEXT = ("P54", "P108", "P463", "P166", "P800")
 
 
 def person_context(ent: dict) -> list[str]:
@@ -1070,23 +1212,32 @@ def town_photo(site: tuple[float, float], folder: Path, exclude: set[str]) -> li
 
 def with_maps(photos: list[dict], site: tuple[float, float] | None, where: str | None, folder: Path,
               category: str | None) -> list[dict]:
-    """photos (arranged) and the two locator maps of site, when they are fewer than MIN_PHOTOS; the photos unchanged
-    when maps cannot help (off, no precise site, a transport incident, no real photo at all, tiles unavailable)."""
+    """photos and one locator map of site (the region, the site marked), for the one beat about where it happened.
+    A map never makes up for missing photos (owner, 2026-10-22: "do you think people are here to watch the map"): it
+    is added only beside gate.REAL_PHOTOS real photos, never to a transport incident (the vehicle shows where) or a
+    story that has a map already, and the photos come back unchanged when tiles are unavailable."""
     from . import locator
 
-    if not LOCATOR_MAPS or not site or len(photos) >= MIN_PHOTOS or category in gate.SHOWS:
-        return photos
-    if not photos:
-        photos = town_photo(site, folder / "town", set())
-    if not photos:
+    kinds = [anchor.kind_of(p) for p in photos]
+    real = sum(k not in ("map", "setting") for k in kinds)
+    if not LOCATOR_MAPS or not site or category in gate.SHOWS or real < gate.REAL_PHOTOS or "map" in kinds:
         return photos
     near, wide = map_labels(where, site)
     try:
-        maps = locator.plates(site, near, folder / "maps", where=wide)
+        maps = locator.plates(site, near, folder / "maps", where=wide, spans=locator.SPANS[:1])
     except Exception:
         return photos
-    real = [p for p in photos if p.get("role") != "setting"]
-    return real + maps + [p for p in photos if p.get("role") == "setting"][:gate.MAX_SETTING]
+    return photos + maps[:anchor.MAX_MAPS]
+
+
+def faceless(photos: list[dict], subject: str, sid: str = "", kind: str = "incident") -> str | None:
+    """Why a story cannot be told over these photos, before a word is written: none of them shows the event itself
+    or who or what it is named after (a map, the town or a photo of somewhere nearby never stands in). The reason
+    is retried: Commons often has the event's photos a few hours later."""
+    if anchor.Story(photos, subject, sid=sid, short_kind=kind).subject_shown(kind):
+        return None
+    return (f"gate: faceless: no free photo shows {subject} or the event itself (only "
+            f"{len(photos)} photos of places or things near it)")
 
 
 def in_3d(short: Short, site: tuple[float, float], label: str, when: date) -> Short:
@@ -1144,6 +1295,8 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     if cat in gate.SHOWS and not cand.get("photo_files") and gate.showing(cat, photos) < gate.SHOWN_NEEDED:
         photos += vehicle_photos(cat, extra, work / "photos", {p["file"] for p in photos})
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
+        photos += event_photos([name], when, cat, work / "photos", {p["file"] for p in photos})
+    if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
         photos += nasa_photos(cat, [name], when, work / "photos", {p["file"] for p in photos},
                               WANT_PHOTOS - len(photos))
     photos = arrange(photos, cat)[:8]
@@ -1151,7 +1304,7 @@ def build_incident(cand: dict, views: bool = False) -> Short:
         # With enough photos of the train, plane or ship, a headquarters or a town photo would only be filler.
         shown = [p for p in photos if gate.showing(cat, [p])]
         photos = shown + [p for p in photos if p not in shown][:max(0, WANT_PHOTOS - len(shown))]
-    if len(photos) < MIN_PHOTOS and not views:
+    if not views and LOCATOR_MAPS:
         photos = with_maps(photos, precise_site(article, ent), stories._first(ib, *PLACE_FIELDS[:5]),
                            work / "photos", cat)
     short_of = None
@@ -1160,6 +1313,8 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     elif cat in gate.SHOWS and (n := gate.showing(cat, photos)) < gate.SHOWN_NEEDED:
         short_of = (f"gate: only {n} usable photos of {name} show the {VEHICLE_WORD[cat]}, its line or a "
                     f"station or port (want {gate.SHOWN_NEEDED})")
+    elif cand.get("photo_files") is None and (why := faceless(photos, name, sid)):
+        short_of = why
     site = site_of(article, ent) if short_of and views else None
     if short_of and not site:
         raise ValueError(short_of)
@@ -1225,11 +1380,12 @@ def build_incident(cand: dict, views: bool = False) -> Short:
 
 
 def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sources, event_time, loss, mood, tags,
-           summary, hashtags, voice="world", reports=None, credit=CREDIT) -> Short:
+           summary, hashtags, voice="world", reports=None, credit=CREDIT, subject=None, people=None) -> Short:
     reports = reports or []
     beats = []
     for b in draft["beats"]:
-        beats.append(Beat(b["say"].strip(), f"photo:{b['photo']}", {"big": b["caption"].strip(), "small": ""}))
+        beats.append(Beat(b["say"].strip(), f"photo:{b['photo']}", {"big": b["caption"].strip(), "small": ""},
+                          anchor=b.get("anchor") or ""))
     beats.append(Beat(OUTRO, "outro", {"big": "Orbitwire", "small": "Sources in the description"},
                       pause_after=END_CARD))
     ground = source + "\n" + "\n".join(facts_text)
@@ -1255,7 +1411,9 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
     credits = [credit] + sorted({p["credit"] + " " + p["page"] for p in photos})
     tags = [t for t in tags if t]
     scene = {"template": "story", "mood": mood, "voice": voice, "photos": photos, "hook": hook_claim(draft),
-             "writer": {"model": llm.DEFAULT, "rejected": log}}
+             "writer": {"model": llm.DEFAULT, "rejected": log},
+             "subject": subject or {"name": name, "kind": "person" if kind == "death" else "event"},
+             "people": [{"name": n} for n in people or []]}
     if reports:
         scene["reporting"] = [outlets.compact(r) for r in reports]
         scene["outlets"] = outlets.names(reports)
@@ -1301,14 +1459,18 @@ def story_subject(name: str) -> str | None:
     return qid
 
 
-def story_person(name: str) -> tuple[str | None, dict]:
+def story_person(name: str, reports: list[dict] | None = None) -> tuple[str | None, dict]:
     """(Wikipedia title, Wikidata item) of the person an nw- story names ("Attack on Tiger Shroff"): Wikipedia's first
-    search hit, when its plain title is the name and the item is a human."""
+    search hit, when its plain title is the name and the item is a human. A surname alone ("Macron") is the person
+    when the reports write the full name ("Emmanuel Macron")."""
     try:
         title = wiki.search(name)
     except Exception:
         return None, {}
-    if not title or stories.plain_title(title).lower() != name.lower():
+    plain = stories.plain_title(title or "")
+    surname = bool(reports) and " " not in name.strip() and plain.lower().endswith(" " + name.lower()) \
+        and bool(gate.reported(plain, reports))
+    if not title or (plain.lower() != name.lower() and not surname):
         return None, {}
     qid = (wiki.page_info([title]).get(title) or {}).get("qid")
     ent = wiki.entities([qid]).get(qid) if qid else None
@@ -1345,27 +1507,40 @@ def build_report(cand: dict) -> Short:
     where, (qid, place) = name, story_place(name)
     thing = None if place else story_subject(name)
     # An attack on a famous person is told about the person, over their own face-matched portraits.
-    title, person = story_person(name) if not place and not thing else (None, {})
+    title, person = story_person(name, reports) if not place and not thing else (None, {})
     for other in [] if place or person else cand.get("places") or []:
         if len(gate.reported(other, reports)) >= gate.OWNERS_NEEDED and (found := story_place(other))[1]:
             where, (qid, place) = other, found
             break
     context = list(dict.fromkeys(([thing] if thing else []) + ([qid] if qid else [])
                                  + (incident_context(place, []) if place else [])))[:4]
+    # What a beat may show (owner, 2026-10-22: "No real photos of incidents, no Macron photo, no school photo"): the
+    # event's own free photos, the people the reporting names (their own faces), the things it names, then places.
+    country = list(wiki.labels([c["value"] for c in wiki.claims(place, "P17")[:1]
+                                if str(c["value"]).startswith("Q")]).values()) if place else []
+    photos = event_photos([name, where] if where != name else [name], when, cat, work / "photos", set())
+    people = named_people(name, reports)
     if person:
-        photos = pick_photos(title, person, work / "photos", person=True)[:8]
+        own = stories.plain_title(title)
+        people = [own] + [p for p in people if p != own]
+        photos += stamp(pick_photos(title, person, work / "photos", person=True)[:3], "person", [own])
+        photos += people_photos(people[1:], work / "photos", {p["file"] for p in photos})
     else:
-        photos = arrange(fill_photos(context, work / "photos", set()))[:8] if context else []
-        if len(photos) < WANT_PHOTOS:
-            photos = arrange(photos + nasa_photos(cat, [name, where], when, work / "photos",
-                                                  {p["file"] for p in photos}, WANT_PHOTOS - len(photos)))[:8]
-    if len(photos) < MIN_PHOTOS and place and not media.too_wide(place):
-        country = list(wiki.labels([c["value"] for c in wiki.claims(place, "P17")[:1]
-                                    if str(c["value"]).startswith("Q")]).values())
+        photos += people_photos(people, work / "photos", {p["file"] for p in photos})
+    photos += thing_photos(reports, (country or [""])[0], work / "photos", {p["file"] for p in photos})
+    if context and len(photos) < WANT_PHOTOS + 2:
+        photos += fill_photos(context, work / "photos", {p["file"] for p in photos})
+    if len(photos) < WANT_PHOTOS:
+        photos += nasa_photos(cat, [name, where], when, work / "photos", {p["file"] for p in photos},
+                              WANT_PHOTOS - len(photos))
+    photos = arrange(photos)[:8]
+    if place and not media.too_wide(place):
         photos = with_maps(photos, wiki.coords(place), ", ".join(dict.fromkeys([where] + country[:1])),
                            work / "photos", cat)
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
+    if why := faceless(photos, name, sid):
+        raise ValueError(why)
     kind = "protest" if cat in ("protest", "movement") else "incident"
     toll = gate.reported_toll(reports)
     words = [name] + sorted(outlets.headline_keys(cand["title"])[0])
@@ -1382,7 +1557,7 @@ def build_report(cand: dict) -> Short:
                   if w.lower() not in told]
     she = stories._pronouns(person)[0] if person else "It"
     draft, log = write(kind, name, she, facts_text, "", photos, banned_names=banned, log_path=work / "writer_log.json",
-                       reports=reports, casualties=bool(toll))
+                       reports=reports, casualties=bool(toll), people=people)
     facts = [Fact("name", name, next((r["url"] for r in reports if r["owner"] in named), reports[0]["url"]),
                   stories.numbers_in(name), "named in the reports of " + ", ".join(named), owners=named)]
     if toll:
@@ -1392,7 +1567,9 @@ def build_report(cand: dict) -> Short:
                    voice=cand.get("region", "world"),
                    tags=[name, cat, "news explained", "india news" if cand.get("region") == "india" else "world news"],
                    summary=f"{name}: what happened, from the reporting of {', '.join(outlets.names(reports))}.",
-                   hashtags=[cat, name, "news"], reports=reports, credit=REPORT_CREDIT)
+                   hashtags=[cat, name, "news"], reports=reports, credit=REPORT_CREDIT,
+                   subject={"name": stories.plain_title(title) if person else name,
+                            "kind": "person" if person else "thing" if thing else "event"}, people=people)
     short.scene["article"] = cand.get("article")
     short.scene["headlines"] = cand.get("headlines") or []
     return short

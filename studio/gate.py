@@ -49,9 +49,10 @@ MIN_PHOTOS, TRIBUTE_PHOTOS = 2, 3
 # Photos of the town it happened in, not of what happened (studio/media.py role "setting"), a Short may carry: a train
 # derailment once went out over a church, a shrine and a clock tower and no train at all (2026-10-14).
 MAX_SETTING = 1
-# Locator maps (studio/locator.py: OpenStreetMap, the site marked) a Short short of photos may carry, beside at least
-# one real photo: the region, then the streets around the site.
-MAX_MAPS = 2
+# Locator maps (studio/locator.py: OpenStreetMap, the site marked) a Short may carry: one, under a beat about where it
+# happened, for at most a fifth of the picture time (anchor.MAP_SHARE). Until 2026-10-22 it was two, and Shorts went
+# out over 88% maps ("do you think people are here to watch the map").
+MAX_MAPS = 1
 # Photos of who or what the story is about (not a map, not the town) a Short needs.
 REAL_PHOTOS = 3
 # What a transport incident's photos must show (file name or Commons description): the vehicle, its line, or the
@@ -205,7 +206,7 @@ def _reported(short: Short) -> list[str]:
 
 def _story(short: Short) -> list[str]:
     """Photo Shorts: enough real photos, every one freely licensed, and each one's author credited."""
-    from . import compose, media
+    from . import anchor, compose, media
 
     problems = []
     photos = short.scene.get("photos", [])
@@ -221,7 +222,9 @@ def _story(short: Short) -> list[str]:
     used = {b.shot for b in short.beats if b.shot.startswith("photo:")}
     if any(int(s.split(":")[1]) >= len(photos) for s in used):
         problems.append("beats: a beat points at a photo that does not exist")
-    maps = [p for p in photos if p.get("role") == "map"]
+    story = anchor.story_of(short)
+    # A map by what it shows too (anchor.legacy_kind): a world map of sea zones or a satellite hotspot map is a map.
+    maps = [p for p, k in zip(photos, story.kinds) if k == "map"]
     if maps and len(maps) == len(photos):
         problems.append("photos: only maps; a Short needs at least one real photo")
     if len(maps) > MAX_MAPS:
@@ -239,15 +242,59 @@ def _story(short: Short) -> list[str]:
     on_backdrop = sum(b.shot in backdrop for b in short.beats)
     if short.beats and on_backdrop * 3 > len(short.beats):
         problems.append(f"beats: {on_backdrop} of {len(short.beats)} beats stand on a map or the town (at most a third)")
-    real = len(photos) - len(maps) - len(setting)
+    real = sum(k not in ("map", "setting") for k in story.kinds)
     if short.kind != "death" and real < REAL_PHOTOS:
         problems.append(f"photos: only {real} show who or what the story is about (want {REAL_PHOTOS} or more)")
+    problems += pictures(short, story)
     category = short.scene.get("category")
     if short.kind == "incident" and category in SHOWS and (n := showing(category, photos)) < SHOWN_NEEDED:
         problems.append(f"photos: only {n} usable photos show the {category} vehicle, line or station "
                         f"(want {SHOWN_NEEDED})")
     if "AI voice" not in compose.DISCLOSURE:
         problems.append("end card: the AI-voice disclosure is missing")
+    return problems
+
+
+def pictures(short: Short, story) -> list[str]:
+    """Each beat shows who, what or where it says (studio/anchor.py). Owner, 2026-10-22, on Shorts told over maps, a
+    school and the town: "do you think people are here to watch the map".
+    - The story's subject has a real picture: the person a tribute is about, else the event itself, else the person
+      or thing named as the story. Otherwise the Short is refused as faceless.
+    - At most one map, never on beat 1, only under a beat about where it happened, for at most a fifth of the
+      picture time.
+    - Pictures that show what their beat says fill at least anchor.SHOWN_SHARE of it. A filler picture never counts
+      toward that, however many there are.
+    - No photograph of a photo, poster, painting or screen, and no cover or logo, whatever its licence tag."""
+    from . import anchor, media
+
+    problems = []
+    photos = short.scene.get("photos") or []
+    beats = [b for b in short.beats if b.shot.startswith("photo:")]
+    if not photos or not beats:
+        return problems
+    for p in photos:
+        if media.DERIVATIVE.search(f"{p.get('file', '')} {p.get('description', '')}"):
+            problems.append(f"photo {p.get('file')}: a photograph of a photo, poster, painting or screen is not "
+                            "licence-safe")
+    if not story.subject_shown(short.kind):
+        problems.append(f"faceless: no real picture shows {story.subject or 'the story'} (a map, the town or a filler "
+                        "photo never stands in)")
+    texts = [b.text for b in beats]
+    shots = [int(b.shot.split(":")[1]) for b in beats]
+    got = story.judge(texts, shots)
+    if story.kinds and 0 <= shots[0] < len(story.kinds) and story.kinds[shots[0]] == "map":
+        problems.append("beats: beat 1 opens on a map, not on who or what the story is about")
+    if got["map_photos"] > anchor.MAX_MAPS:
+        problems.append(f"beats: {got['map_photos']} different maps are shown (at most {anchor.MAX_MAPS})")
+    if got["maps"] > anchor.MAP_SHARE + 1e-9:
+        problems.append(f"beats: maps fill {got['maps']:.0%} of the picture time (at most {anchor.MAP_SHARE:.0%})")
+    if got["bad_maps"]:
+        problems.append("beats: a map stands under beat " + ", ".join(str(k + 1) for k in got["bad_maps"])
+                        + ", which is not about where it happened or names someone or something")
+    if got["shown"] < anchor.SHOWN_SHARE - 1e-9:
+        problems.append(f"beats: pictures show what is said for only {got['shown']:.0%} of the time (want "
+                        f"{anchor.SHOWN_SHARE:.0%}); beat " + ", ".join(str(k + 1) for k in got["unanchored"])
+                        + " shows something it does not name")
     return problems
 
 

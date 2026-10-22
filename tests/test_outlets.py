@@ -232,7 +232,7 @@ def test_an_nw_story_about_a_person_is_told_over_their_own_portraits(monkeypatch
     monkeypatch.setattr(writer.gate, "reported", lambda name, reports: ["BBC", "HT Media", "Bennett, Coleman & Co."])
     monkeypatch.setattr(writer, "story_place", lambda name: (None, {}))
     monkeypatch.setattr(writer, "story_subject", lambda name: None)
-    monkeypatch.setattr(writer, "story_person", lambda name: ("Tiger Shroff", PERSON))
+    monkeypatch.setattr(writer, "story_person", lambda name, reports=None: ("Tiger Shroff", PERSON))
     asked = {}
     monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
                         asked.update(title=title, person=person) or [{"file": f"File:T{i}.jpg"} for i in range(3)])
@@ -260,6 +260,12 @@ def test_an_nw_story_is_told_only_from_two_owners_reporting(monkeypatch, tmp_pat
         return _draft(), []
 
     monkeypatch.setattr(writer, "write", write)
+    # Photos of Chamoli are not photos of the cloudburst (owner, 2026-10-22): refused before writing until Commons
+    # has photos of the event itself.
+    with pytest.raises(ValueError, match="faceless"):
+        writer.build(cand)
+    monkeypatch.setattr(writer, "fill_photos", lambda qids, folder, exclude, need=3: [])
+    monkeypatch.setattr(writer, "event_photos", lambda *a, **kw: [dict(p, kind="event") for p in photos])
     short = writer.build(cand)
     assert short.id == cand["id"] and seen["source"] == "" and len(seen["reports"]) == 3
     assert short.scene["outlets"] == ["BBC", "Times of India", "The Hindu"] and short.scene["article"] is None
