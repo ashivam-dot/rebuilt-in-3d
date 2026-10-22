@@ -1,36 +1,84 @@
 {
- "at": "2026-10-22T09:41:28+00:00",
+ "at": "2026-10-22T10:17:54+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 200000,
-   "views": 0,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 192783,
+   "views": 42783,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-10-22T09:14:48+00:00",
+   "news": 150000,
+   "news_at": "2026-10-22T09:50:56+00:00",
    "headlines": [
-    "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-    "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-    "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
-    "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport"
+    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+    "French authorities ban some student protests after weekend looting and clashes"
    ],
    "region": "world",
    "via": [
-    "google-news:One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-    "google-news:Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-    "google-news:Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
-    "outlet:BBC",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co."
+    "wikipedia-top-2026-10-21",
+    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+    "google-news:French authorities ban some student protests after weekend looting and clashes",
+    "outlet:Independent Digital News"
    ],
    "owners": [
-    "BBC",
-    "NDTV",
-    "Bennett, Coleman & Co."
+    "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "French authorities ban some student protests after weekend looting and clashes",
+     "url": "https://www.independent.co.uk/news/world/europe/french-paris-emmanuel-macron-lyon-grenoble-b3071345.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T09:50:56+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-22",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-22T10:00:03+00:00",
+   "headlines": [
+    "Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "Indian national killed in Saudi airport attack, 2 others injured",
+    "Two killed in attack on airport in eastern Saudi Arabia, authorities say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "google-news:Indian national killed in Saudi airport attack, 2 others injured",
+    "google-news:Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+    "outlet:The Hindu Group",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "The Hindu Group",
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Indian national killed in Saudi airport attack, 2 others injured",
+     "url": "https://www.thehindu.com/news/national/indian-national-killed-in-saudi-dammam-airport-attack-others-injured/article71610871.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T10:00:03+00:00"
+    },
     {
      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
@@ -40,26 +88,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-22T09:14:48+00:00"
-    },
-    {
-     "title": "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
-     "url": "https://www.ndtv.com/world-news/indian-among-2-killed-in-attack-on-saudi-airport-2-others-injured-12219121#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T08:12:47+00:00"
-    },
-    {
-     "title": "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
-     "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-2-injured-in-dammam-airport-attack-in-saudi-arabia/articleshow/135112073.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T07:55:41+00:00"
     }
    ],
    "id": "wk-Q141695384",
@@ -68,28 +96,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-22T01:22:06+00:00",
-   "headlines": [
-    "John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   },
   {
    "qid": "Q141745391",
@@ -132,6 +138,42 @@
     -121.29527778
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-22T09:45:22+00:00",
+   "headlines": [
+    "John Anderson, five-time US country chart-topper, dies aged 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, five-time US country chart-topper, dies aged 71",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "John Anderson, five-time US country chart-topper, dies aged 71",
+     "url": "https://www.theguardian.com/music/2026/oct/22/john-anderson-five-time-us-country-chart-topper-dies-aged-71",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T09:45:22+00:00"
+    }
+   ],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "qid": "Q141718063",
@@ -267,20 +309,34 @@
   {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
-   "fame": 125000,
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-22T01:22:06+00:00",
+   "news": 25000,
+   "news_at": "2026-10-22T09:45:22+00:00",
    "headlines": [
-    "John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
+    "John Anderson, five-time US country chart-topper, dies aged 71"
    ],
    "region": "world",
    "via": [
-    "google-news:John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
+    "google-news:John Anderson, five-time US country chart-topper, dies aged 71",
+    "outlet:Guardian Media Group"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "John Anderson, five-time US country chart-topper, dies aged 71",
+     "url": "https://www.theguardian.com/music/2026/oct/22/john-anderson-five-time-us-country-chart-topper-dies-aged-71",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T09:45:22+00:00"
+    }
+   ],
    "id": "wk-Q1699148",
    "kind": "death",
    "category": "death",
@@ -288,12 +344,12 @@
   }
  ],
  "outlets": {
-  "headlines": 789,
+  "headlines": 797,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 24,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
