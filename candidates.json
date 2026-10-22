@@ -1,7 +1,47 @@
 {
- "at": "2026-10-21T23:34:06+00:00",
+ "at": "2026-10-22T00:02:33+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-21T22:21:44+00:00",
+   "headlines": [
+    "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
+    "2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
+    "google-news:2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility",
+    "outlet:NDTV"
+   ],
+   "owners": [
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility",
+     "url": "https://www.ndtv.com/world-news/2-killed-indian-injured-by-houthi-drone-debris-at-saudi-oil-facility-12217578#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-21T21:42:33+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q1889124",
    "title": "Richard Riehle",
@@ -21,28 +61,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-15"
-  },
-  {
-   "qid": "Q141758443",
-   "title": "17 October riots",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-21T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-20"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141758443-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q141745391",
@@ -107,44 +125,6 @@
    "date": "2026-10-17"
   },
   {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-21T21:42:33+00:00",
-   "headlines": [
-    "2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility",
-    "outlet:NDTV"
-   ],
-   "owners": [
-    "NDTV"
-   ],
-   "reports": [
-    {
-     "title": "2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility",
-     "url": "https://www.ndtv.com/world-news/2-killed-indian-injured-by-houthi-drone-debris-at-saudi-oil-facility-12217578#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-21T21:42:33+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141718063",
    "title": "Parvinder Singh Jhota",
    "fame": 25000,
@@ -199,26 +179,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-18"
-  },
-  {
-   "qid": "Q2623922",
-   "title": "Hiroshi Tsuchida",
-   "fame": 19146,
-   "views": 19146,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-20"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2623922",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-11"
   },
   {
    "qid": "Q5115327",
@@ -296,12 +256,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 822,
+  "headlines": 819,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 40,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 41 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 40 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
