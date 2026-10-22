@@ -156,7 +156,7 @@ def _two_photos():
              "page": f"https://flickr/{i}", "host": "Openverse (Flickr)", "license": "CC BY 2.0"} for i in range(2)]
 
 
-def test_a_strike_is_told_with_two_photos_of_the_next_named_place_and_no_attacker(monkeypatch, tmp_path):
+def test_a_strike_with_two_photos_of_the_next_named_place_and_no_attacker_is_refused(monkeypatch, tmp_path):
     monkeypatch.setattr(writer.trends, "NEW_STORIES", True)
     cand = outlets.stories([item(key, title, hours) for key, title, hours in ARAMCO], NOW)[0]
     monkeypatch.setattr(outlets, "_extract", lambda url: TEXTS[url.split("/")[2].split(".")[0]] + " " * 300)
@@ -178,14 +178,19 @@ def test_a_strike_is_told_with_two_photos_of_the_next_named_place_and_no_attacke
     short = writer.build(cand)
     assert seen["facts"][0] == "Place: Yemen." and len(seen["photos"]) == 2
     assert {"Houthi", "Saudi"} <= set(seen["banned_names"]) and "Aramco" not in seen["banned_names"]
-    assert short.loss and gate._story(short) == [] and gate._reported(short) == []
+    # Owner, 2026-10-22: two photos of Yemen do not show a strike in Riyadh.
+    assert short.loss and gate._story(short) == ["photos: only 2 show who or what the story is about (want 3 or more)"]
+    assert gate._reported(short) == []
     assert next(f for f in short.facts if f.key == "name").owners == ["BBC", "Euronews", "Guardian Media Group"]
 
 
-def test_two_photos_are_enough_for_an_incident_but_not_for_a_tribute():
+def test_an_incident_and_a_tribute_both_want_three_photos():
     photos = _two_photos()
     incident = Short(id="nw-x", kind="incident", title="t", beats=[], facts=[], sources=[], loss=False, scene={"photos": photos},
                      credits=[p["page"] for p in photos])
+    assert gate._story(incident) == ["photos: only 2 show who or what the story is about (want 3 or more)"]
+    three = photos + [dict(photos[0], file="File:2.jpg", page="https://flickr/2")]
+    incident.scene, incident.credits = {"photos": three}, [p["page"] for p in three]
     assert gate._story(incident) == []
     tribute = Short(id="wk-x", kind="death", title="t", beats=[], facts=[], sources=[], loss=False, scene={"photos": photos},
                     credits=[p["page"] for p in photos])

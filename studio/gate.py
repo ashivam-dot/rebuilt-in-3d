@@ -52,6 +52,8 @@ MAX_SETTING = 1
 # Locator maps (studio/locator.py: OpenStreetMap, the site marked) a Short short of photos may carry, beside at least
 # one real photo: the region, then the streets around the site.
 MAX_MAPS = 2
+# Photos of who or what the story is about (not a map, not the town) a Short needs.
+REAL_PHOTOS = 3
 # What a transport incident's photos must show (file name or Commons description): the vehicle, its line, or the
 # station, airport or port. A railway's headquarters or a sign board shows none of them.
 SHOWS = {
@@ -231,6 +233,15 @@ def _story(short: Short) -> list[str]:
         problems.append(f"photos: {len(setting)} only show the town or area (at most {MAX_SETTING})")
     if short.beats and short.beats[0].shot in {f"photo:{i}" for i in setting}:
         problems.append("beats: beat 1 opens on a photo of the town, not of what happened")
+    # The Macron protest ban (gCQ4ZWtobXA, 2026-10-22) passed with two Paris maps and an Eiffel Tower photo under all
+    # nine beats: a map or the town may stand under at most a third of the beats, beside REAL_PHOTOS real photos.
+    backdrop = {f"photo:{i}" for i, p in enumerate(photos) if p.get("role") in ("map", "setting")}
+    on_backdrop = sum(b.shot in backdrop for b in short.beats)
+    if short.beats and on_backdrop * 3 > len(short.beats):
+        problems.append(f"beats: {on_backdrop} of {len(short.beats)} beats stand on a map or the town (at most a third)")
+    real = len(photos) - len(maps) - len(setting)
+    if short.kind != "death" and real < REAL_PHOTOS:
+        problems.append(f"photos: only {real} show who or what the story is about (want {REAL_PHOTOS} or more)")
     category = short.scene.get("category")
     if short.kind == "incident" and category in SHOWS and (n := showing(category, photos)) < SHOWN_NEEDED:
         problems.append(f"photos: only {n} usable photos show the {category} vehicle, line or station "

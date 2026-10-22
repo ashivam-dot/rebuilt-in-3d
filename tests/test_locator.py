@@ -53,7 +53,10 @@ def test_plates_are_free_credited_maps(tmp_path, monkeypatch):
 
 def test_a_short_is_never_maps_alone():
     assert any("only maps" in p for p in gate.check(_short([MAP, MAP])))
-    assert not any("map" in p for p in gate.check(_short([PHOTO, MAP, MAP])))
+    # Owner, 2026-10-22: a town photo beside two maps is a map Short, not a story.
+    assert any("only 0 show who or what" in p for p in gate.check(_short([PHOTO, MAP, MAP])))
+    real = [dict(PHOTO, role=None, file=f"File:{i}.jpg") for i in range(3)]
+    assert not any("map" in p or "only" in p for p in gate.check(_short(real + [MAP, MAP])))
     assert any("3 maps" in p for p in gate.check(_short([PHOTO, MAP, MAP, MAP])))
     assert any("never a map" in p for p in gate.check(_short([PHOTO, PHOTO, MAP], kind="death")))
 
