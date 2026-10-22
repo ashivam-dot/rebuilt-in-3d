@@ -1,40 +1,79 @@
 {
- "at": "2026-10-22T14:51:38+00:00",
+ "at": "2026-10-22T15:17:23+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 150000,
-   "views": 0,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 217783,
+   "views": 42783,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-22T13:46:33+00:00",
+   "news": 175000,
+   "news_at": "2026-10-22T14:21:42+00:00",
    "headlines": [
-    "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say"
+    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+    "French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
+    "French authorities ban some student protests after weekend looting and clashes"
    ],
    "region": "world",
    "via": [
-    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "google-news:Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-    "outlet:BBC"
+    "wikipedia-top-2026-10-21",
+    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+    "google-news:French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
+    "google-news:French authorities ban some student protests after weekend looting and clashes",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News"
    ],
    "owners": [
-    "BBC"
+    "France Médias Monde",
+    "Independent Digital News"
    ],
    "reports": [
     {
-     "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
+     "url": "https://www.france24.com/en/video/20261022-french-pm-sebastien-lecornu-meets-with-leaders-of-political-parties-amid-unrest",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-22T13:46:33+00:00"
+     "at": "2026-10-22T14:21:42+00:00"
+    },
+    {
+     "title": "French authorities ban some student protests after weekend looting and clashes",
+     "url": "https://www.independent.co.uk/news/world/europe/french-paris-emmanuel-macron-lyon-grenoble-b3071345.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T09:50:56+00:00"
     }
    ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-22",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-22T09:00:14+00:00",
+   "headlines": [
+    "Attack on Saudi Arabia’s King Fahd airport kills two people"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people"
+   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
@@ -129,59 +168,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 92783,
-   "views": 42783,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-22T14:21:42+00:00",
-   "headlines": [
-    "French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
-    "French authorities ban some student protests after weekend looting and clashes"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-21",
-    "google-news:French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
-    "google-news:French authorities ban some student protests after weekend looting and clashes",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "France Médias Monde",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
-     "url": "https://www.france24.com/en/video/20261022-french-pm-sebastien-lecornu-meets-with-leaders-of-political-parties-amid-unrest",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T14:21:42+00:00"
-    },
-    {
-     "title": "French authorities ban some student protests after weekend looting and clashes",
-     "url": "https://www.independent.co.uk/news/world/europe/french-paris-emmanuel-macron-lyon-grenoble-b3071345.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T09:50:56+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-22",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q1699148",
@@ -380,6 +366,83 @@
    "has_coords": true
   },
   {
+   "qid": "Q141807978",
+   "title": "2026 Tibet earthquake",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-22T14:52:10+00:00",
+   "headlines": [
+    "Earthquake of magnitude 7.0 hits Tibet"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Earthquake of magnitude 7.0 hits Tibet",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "owners": [
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Earthquake of magnitude 7.0 hits Tibet",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/earthquake-of-magnitude-7-0-strikes-tibet/articleshow/135121550.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T14:52:10+00:00"
+    }
+   ],
+   "id": "wk-Q141807978",
+   "kind": "incident",
+   "category": "earthquake",
+   "date": "2026-10-22",
+   "coords": [
+    32.336,
+    93.714
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-22T14:17:18+00:00",
+   "headlines": [
+    "Former Rangers star Ron Duguay dead at 69 after cancer battle, girlfriend Sarah Palin announces"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Rangers star Ron Duguay dead at 69 after cancer battle, girlfriend Sarah Palin announces",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Former Rangers star Ron Duguay dead at 69 after cancer battle, girlfriend Sarah Palin announces",
+     "url": "https://www.foxnews.com/outkick-sports/former-rangers-star-ron-duguay-dead-69-after-cancer-battle-girlfriend-sarah-palin-announces",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:17:18+00:00"
+    }
+   ],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
    "qid": "Q1889124",
    "title": "Richard Riehle",
    "fame": 23446,
@@ -461,6 +524,17 @@
   }
  ],
  "hazards": [
+  {
+   "id": "gdacs-EQ-1573141",
+   "kind": "EQ",
+   "level": "Red",
+   "title": "Orange earthquake (Magnitude 7M, Depth:10km) in China 22/10/2026 14:33 UTC, 130 thousand in 100km.",
+   "country": "China",
+   "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
+   "published": "2026-10-22T14:54:15+00:00",
+   "lat": "32.3357",
+   "lon": "93.7138"
+  },
   {
    "id": "gdacs-TC-1001338",
    "kind": "TC",
@@ -625,13 +699,49 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-22T14:17:18+00:00",
+   "headlines": [
+    "Former Rangers star Ron Duguay dead at 69 after cancer battle, girlfriend Sarah Palin announces"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Rangers star Ron Duguay dead at 69 after cancer battle, girlfriend Sarah Palin announces",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Former Rangers star Ron Duguay dead at 69 after cancer battle, girlfriend Sarah Palin announces",
+     "url": "https://www.foxnews.com/outkick-sports/former-rangers-star-ron-duguay-dead-69-after-cancer-battle-girlfriend-sarah-palin-announces",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:17:18+00:00"
+    }
+   ],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
   }
  ],
  "outlets": {
-  "headlines": 798,
+  "headlines": 803,
   "feeds": 30,
   "owners": 21,
-  "matched": 18,
+  "matched": 21,
   "corroborated": 5
  },
  "emerging": [
@@ -800,5 +910,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 18 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261021-oregon-attack, nw-20261021-macron-protest"
+ "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 21 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261021-oregon-attack, nw-20261021-macron-protest"
 }
