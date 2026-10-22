@@ -115,7 +115,9 @@ def when(iso: str) -> str:
 def title_for(cand: dict, n: int | None = None, peak_mph: int | None = None, basin: str | None = None,
               cat: int | None = None) -> str:
     if cand["kind"] == "quake-region":
-        return f"Why {cand['topic']} Keeps Shaking: {n} Strong Quakes Nearby Since 1900"
+        title = f"Why {cand['topic']} Keeps Shaking: {n} Strong Quakes Nearby Since 1900"
+        # A long place name and a 4-digit count pass 70 characters: "Strong" goes first (the count is M6+ either way).
+        return title if len(title) <= 70 else title.replace(" Strong Quakes", " Quakes")
     kind = "Hurricane" if (cat or 0) >= 1 else "Tropical Storm"
     sea = "Atlantic" if basin == "al" else "Pacific"
     return f"{kind} {cand['topic']}: How a {sea} Storm Reached {peak_mph} mph"

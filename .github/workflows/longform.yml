@@ -25,8 +25,7 @@ on:
         default: false
 
 permissions:
-  contents: write
-  issues: write
+  contents: read  # jobs that push state or open the alert issue ask for more themselves
 
 concurrency:
   group: longform
@@ -215,6 +214,8 @@ jobs:
           retention-days: 14
 
   publish:
+    permissions:
+      contents: write
     needs: [plan, finish]
     if: needs.plan.outputs.dry == 'false'
     runs-on: ubuntu-24.04
@@ -258,6 +259,8 @@ jobs:
           exit 1
 
   link:
+    permissions:
+      contents: write
     if: >-
       (github.event_name == 'schedule' && github.event.schedule == '0 15 * * 6' && vars.PAUSED != 'true') ||
       (github.event_name == 'workflow_dispatch' && inputs.link)
@@ -297,6 +300,8 @@ jobs:
           exit 1
 
   alert:
+    permissions:
+      issues: write
     needs: [plan, write, make, finish, publish, link]
     if: failure()
     runs-on: ubuntu-24.04

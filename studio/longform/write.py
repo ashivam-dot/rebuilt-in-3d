@@ -121,7 +121,10 @@ def fact_check(checker, lines: list[str], ch: Chapter, src: str) -> dict[int, st
             flagged[n] = f"line {n} ({lines[n - 1][:60]}): no verdict"
     if not flagged:
         return {}
-    kept = writer.recheck(checker, lines, flagged, src)
+    try:
+        kept = writer.recheck(checker, lines, flagged, src)
+    except (ValueError, AttributeError):  # a second look cut off or malformed: every flagged line stays flagged
+        return flagged
     return {n: p for n, p in flagged.items() if any(r.startswith(p) for r in kept)}
 
 

@@ -75,8 +75,11 @@ def record_upload(story_id: str, video_id: str) -> None:
 def longform_videos() -> set[str]:
     """The long-form episodes' video ids (state/longform.json, written only by studio/longform/publish.py): never a
     Short's upload, so no Short job adopts, retags or re-uploads over one."""
-    rows = (load("longform", {}).get("episodes") or {}).values()
-    return {r["video_id"] for r in rows if r.get("video_id")}
+    try:  # read on every hourly Shorts run: a damaged file must never stop one
+        rows = (load("longform", {}).get("episodes") or {}).values()
+        return {r["video_id"] for r in rows if isinstance(r, dict) and r.get("video_id")}
+    except (ValueError, AttributeError, TypeError):
+        return set()
 
 
 def markers() -> dict:

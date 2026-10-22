@@ -518,3 +518,28 @@ def test_an_answer_cut_off_mid_json_costs_a_draft_not_the_job():
 
     out = write.write_chapter(_episode(), "cold-open", Cut(GOOD), CutCheck())
     assert out["lines"] == GOOD and any("empty" in x for x in out["log"])
+
+
+def test_a_second_look_cut_off_keeps_every_flagged_line(monkeypatch):
+    """The merge re-check (2026-10-22): a truncated recheck answer fails the lines, not the write job."""
+    ep = _episode()
+    ch = ep.chapters[0]
+    lines = [GOOD[1], "Panama's ancient volcano gods sleep beneath the canal, scientists say."]
+
+    def cut_off(*a, **k):
+        raise ValueError("Unterminated string")
+    monkeypatch.setattr(write.writer, "recheck", cut_off)
+    assert write.fact_check(Silent(), lines, ch, write.ground(ep, ch)).keys() == {1, 2}
+
+
+def test_a_long_place_name_still_fits_the_title():
+    long = plan.title_for({"kind": "quake-region", "topic": "Papua New Guinea"}, n="1,203")
+    assert long == "Why Papua New Guinea Keeps Shaking: 1,203 Quakes Nearby Since 1900" and len(long) <= 70
+    assert "Strong Quakes Nearby" in plan.title_for({"kind": "quake-region", "topic": "Panama"}, n=188)
+
+
+def test_a_damaged_longform_file_never_stops_the_shorts_run():
+    (ledger.STATE / "longform.json").parent.mkdir(parents=True, exist_ok=True)
+    for bad in ("not json", "[]", '{"episodes": {"x": null, "y": {"video_id": "V1"}}}'):
+        (ledger.STATE / "longform.json").write_text(bad)
+        assert ledger.longform_videos() in (set(), {"V1"})
