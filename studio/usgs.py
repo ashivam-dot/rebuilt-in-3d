@@ -77,6 +77,13 @@ def fmt_int(n: int) -> str:
     return f"{n:,}"
 
 
+def spoken_place(place: str) -> str:
+    """A USGS place as a narrator says it: "6 km WNW of Siquirres" as "6 km west-north-west of Siquirres" (the
+    2026-10-22 long-form dry run: Chatterbox and Whisper never agreed on "WNW", and the chapter failed its voice
+    check)."""
+    return re.sub(r"\b(\d+ km) ([NSEW]{1,3}) of\b", lambda m: f"{m[1]} {COMPASS.get(m[2], m[2])} of", place or "")
+
+
 def parse_place(place: str) -> dict:
     m = re.match(r"(?:(\d+) km ([NSEW]{1,3}) of )?(.+?)(?:, (.+))?$", place)
     if not m:

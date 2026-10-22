@@ -186,7 +186,7 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
         page = pk["page"]
         sources.append(page)
         day = f"{usgs.date_words(q.time)}, {q.time.year}"
-        place = q.place
+        place = usgs.spoken_place(q.place)
         F["what-happened"].append(fact(f"event-{q.id}", f"On {day}, a magnitude {q.mag:.1f} earthquake struck {place}, "
                                                        f"{q.depth:.0f} km below the surface (USGS).", page))
         if pk.get("faulting"):
@@ -198,7 +198,8 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
     if main_pack is None:  # an evergreen region: the largest catalogued quake stands in as the episode's anchor
         big = max(hist, key=lambda e: (e["mag"], e["year"]))
         F["what-happened"].append(fact("largest", f"The largest quake catalogued within {HISTORY_KM} km since 1900 was "
-                                                  f"a magnitude {big['mag']:.1f} on {when(big['time'])}, {big['place']} "
+                                                  f"a magnitude {big['mag']:.1f} on {when(big['time'])}, "
+                                                  f"{usgs.spoken_place(big['place'])} "
                                                   "(USGS).", query))
         marks["shorts"].append({"lat": big["lat"], "lon": big["lon"], "mag": big["mag"],
                                 "label": f"M{big['mag']:.1f} · {big['year']}"})
@@ -216,7 +217,7 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
     ]
     for e in sorted(hist, key=lambda e: (-e["mag"], e["year"]))[:4]:
         F["before"].append(fact(f"history-{e['id']}", f"In {e['year']}, a magnitude {e['mag']:.1f} quake struck "
-                                                      f"{e['place'] or 'the region'}.", query))
+                                                      f"{usgs.spoken_place(e['place']) or 'the region'}.", query))
     every = f"{months:.0f} months" if months >= 1.5 else "few weeks"
     recurrence = fact("recurrence", f"Averaged over the {years:.0f} years since 1900, that is one magnitude 6 or "
                                     f"larger quake about every {every} within {HISTORY_KM} km.", query)
@@ -227,7 +228,8 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
         d = usgs.detail(q.id)
         page = main_pack["page"]
         day = f"{usgs.date_words(q.time)}, {q.time.year}"
-        F["cold-open"].append(fact("main", f"On {day}, a magnitude {q.mag:.1f} earthquake struck {q.place} (USGS).", page))
+        F["cold-open"].append(fact("main", f"On {day}, a magnitude {q.mag:.1f} earthquake struck "
+                                           f"{usgs.spoken_place(q.place)} (USGS).", page))
         summary_text = no_casualties(data.general_text(d))
         text["how-it-works"] = summary_text
         text["people"] = "\n".join(ln for ln in summary_text.splitlines()[:6])
@@ -303,7 +305,7 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
             sources.append(url)
     for e in sorted(big7, key=lambda e: e["year"]):
         F["before"].append(fact(f"history-{e['id']}", f"In {e['year']}, a magnitude {e['mag']:.1f} quake struck "
-                                                      f"{e['place'] or 'the region'}.", query))
+                                                      f"{usgs.spoken_place(e['place']) or 'the region'}.", query))
     F["why-it-matters"] += [F["before"][0], recurrence] + F["people"][:2]
     F["how-it-works"].append(fact("depth-pattern", "On the map, each dot is a catalogued quake of magnitude 6 or more, "
                                                    "coloured by depth: shallow in yellow, deeper in red.", query))

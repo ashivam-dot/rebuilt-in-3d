@@ -53,3 +53,10 @@ def test_compass():
 
 def test_historical_without_comment():
     assert usgs.historical("", []) is None
+
+
+def test_a_place_is_spoken_with_its_compass_point_in_words():
+    """2026-10-22 long-form dry run: "6 km WNW of Siquirres" failed the voice check three takes running."""
+    assert usgs.spoken_place("6 km WNW of Siquirres, Costa Rica") == "6 km west-north-west of Siquirres, Costa Rica"
+    assert usgs.spoken_place("off the coast of Central America") == "off the coast of Central America"
+    assert usgs.spoken_place("") == ""
