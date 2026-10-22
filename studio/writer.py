@@ -1230,6 +1230,14 @@ def with_maps(photos: list[dict], site: tuple[float, float] | None, where: str |
     return photos + maps[:anchor.MAX_MAPS]
 
 
+def place_names(where: str | None) -> list[str]:
+    """The town and the country an infobox location names ("[[Milan]], [[Italy]]" -> Milan, Italy), for finding the
+    event's photos by where it happened ("Demonstrations and protests in Milan in 2026")."""
+    parts = [p.strip() for p in re.sub(r"\[\[(?:[^\]|]*\|)?|\]\]|\{\{[^}]*\}\}|<[^>]+>", "", where or "").split(",")
+             if p.strip()]
+    return list(dict.fromkeys(parts[:1] + parts[-1:]))[:2]
+
+
 def faceless(photos: list[dict], subject: str, sid: str = "", kind: str = "incident") -> str | None:
     """Why a story cannot be told over these photos, before a word is written: none of them shows the event itself
     or who or what it is named after (a map, the town or a photo of somewhere nearby never stands in). The reason
@@ -1295,7 +1303,8 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     if cat in gate.SHOWS and not cand.get("photo_files") and gate.showing(cat, photos) < gate.SHOWN_NEEDED:
         photos += vehicle_photos(cat, extra, work / "photos", {p["file"] for p in photos})
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
-        photos += event_photos([name], when, cat, work / "photos", {p["file"] for p in photos})
+        photos += event_photos([name] + place_names(stories._first(ib, *PLACE_FIELDS[:5])), when, cat,
+                               work / "photos", {p["file"] for p in photos})
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
         photos += nasa_photos(cat, [name], when, work / "photos", {p["file"] for p in photos},
                               WANT_PHOTOS - len(photos))

@@ -235,3 +235,11 @@ def test_retired_shorts_are_retracted():
 
     ids = {v for v in youtube.RETRACTED} if not isinstance(youtube.RETRACTED, dict) else set(youtube.RETRACTED)
     assert set(REFUSED[:-1]) <= ids
+
+
+def test_an_unrest_is_found_by_where_it_happened(monkeypatch):
+    assert writer.place_names("[[Milan]], [[Lombardy]], [[Italy]]") == ["Milan", "Italy"]
+    assert writer.place_names(None) == []
+    monkeypatch.setattr(net, "get_json", _search(["Demonstrations and protests in Italy in 2026", "2026 in Italy"]))
+    assert media.event_categories("Italy", date(2026, 10, 16), "conflict") == [
+        "Demonstrations and protests in Italy in 2026"]

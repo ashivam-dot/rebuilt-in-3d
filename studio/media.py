@@ -242,7 +242,7 @@ EVENT_WORDS = {
 }
 EVENT_WORDS["movement"] = EVENT_WORDS["protest"]
 EVENT_WORDS["strike"] = EVENT_WORDS["attack"]
-EVENT_WORDS["conflict"] = EVENT_WORDS["attack"]
+EVENT_WORDS["conflict"] = EVENT_WORDS["attack"] + "|" + EVENT_WORDS["protest"]  # "2026 Italian unrest" is a conflict
 EVENT_WORDS["tsunami"] = r"tsunamis?"
 EVENT_WORDS["disaster"] = "|".join(EVENT_WORDS[k] for k in ("cyclone", "flood", "earthquake", "landslide", "wildfire"))
 EVENT_STAMP = {"kind": "event", "shows": []}
@@ -260,7 +260,8 @@ EVENT_QUERY = {"protest": ("protest", "manifestation", "demonstration"), "cyclon
                "landslide": ("landslide",), "attack": ("attack",), "rail": ("train",), "aviation": ("crash",),
                "maritime": ("ship",), "tsunami": ("tsunami",)}
 EVENT_QUERY["movement"] = EVENT_QUERY["protest"]
-EVENT_QUERY["strike"] = EVENT_QUERY["conflict"] = EVENT_QUERY["attack"]
+EVENT_QUERY["strike"] = EVENT_QUERY["attack"]
+EVENT_QUERY["conflict"] = ("protest", "attack", "demonstration")
 # Month names in the languages Commons event categories are named in ("Manifestations du 17 octobre 2026").
 MONTHS = (_MONTHS_EN := ("january", "february", "march", "april", "may", "june", "july", "august", "september",
                          "october", "november", "december"),
