@@ -1,30 +1,82 @@
 {
- "at": "2026-10-22T07:51:40+00:00",
+ "at": "2026-10-22T08:48:16+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 125000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-22T00:31:08+00:00",
+   "news": 175000,
+   "news_at": "2026-10-22T07:55:41+00:00",
    "headlines": [
-    "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport"
+    "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+    "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
+    "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured"
    ],
    "region": "india",
    "via": [
-    "google-news:One killed, eight injured in attack on Saudi Arabia’s King Fahd airport"
+    "google-news:One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+    "google-news:Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
+    "google-news:Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
+     "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-2-injured-in-dammam-airport-attack-in-saudi-arabia/articleshow/135112073.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T07:55:41+00:00"
+    },
+    {
+     "title": "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
+     "url": "https://www.ndtv.com/world-news/indian-among-2-killed-in-attack-on-saudi-airport-2-others-injured-12219121#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T07:53:59+00:00"
+    }
+   ],
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-22T01:22:06+00:00",
+   "headlines": [
+    "John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "qid": "Q141745391",
@@ -75,7 +127,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-22T02:20:33+00:00",
+   "news_at": "2026-10-22T08:01:18+00:00",
    "headlines": [
     "Parvinder Singh Jhota: Who was the anti-drug activist, why was he killed"
    ],
@@ -96,7 +148,7 @@
      "owner": "The Hindu Group",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-22T02:20:33+00:00"
+     "at": "2026-10-22T08:01:18+00:00"
     }
    ],
    "id": "wk-Q141718063",
@@ -190,22 +242,45 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.18 million .",
-   "country": "Philippines, Guam, Northern Mariana Islands, Japan",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.231 million .",
+   "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "20.3",
-   "lon": "126"
+   "lat": "20.9",
+   "lon": "125.4"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-22T01:22:06+00:00",
+   "headlines": [
+    "John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  }
+ ],
  "outlets": {
-  "headlines": 790,
+  "headlines": 787,
   "feeds": 30,
   "owners": 21,
-  "matched": 15,
-  "corroborated": 0
+  "matched": 24,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 15 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

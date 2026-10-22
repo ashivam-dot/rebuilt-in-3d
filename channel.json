@@ -1,6 +1,6 @@
 {
  "day": "2026-10-22",
- "units": 457,
+ "units": 712,
  "failed": {
   "about": {
    "count": 1,
@@ -26,6 +26,11 @@
    "count": 1,
    "reason": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLZIq8ldlSYys&maxResults=50&alt=json returned \"The playlist identified ",
    "at": "2026-10-22T00:47:07+00:00"
+  },
+  "untag:DwUtz4R4hzY": {
+   "count": 1,
+   "reason": "RuntimeError: the marker tag was still there on read-back",
+   "at": "2026-10-22T08:48:08+00:00"
   }
  },
  "filed": {
@@ -78,8 +83,11 @@
   "mXR5B18rbtE": "2026-10-22T00:47:07+00:00",
   "EtrzpnJmwZs": "2026-10-22T07:51:31+00:00",
   "qwT1K_9MFwQ": "2026-10-22T07:51:31+00:00",
-  "KheKmEYUvpc": "2026-10-22T07:51:31+00:00",
-  "a2qA0Fu19vc": "2026-10-22T07:51:31+00:00"
+  "KheKmEYUvpc": "2026-10-22T08:48:08+00:00",
+  "a2qA0Fu19vc": "2026-10-22T07:51:31+00:00",
+  "XH8L7r7QUnk": "2026-10-22T08:48:08+00:00",
+  "OT6g4NIr7Q8": "2026-10-22T08:48:08+00:00",
+  "FBY143T-fyo": "2026-10-22T08:48:08+00:00"
  },
  "about": {
   "hash": "02c127dc9d43fa77",
