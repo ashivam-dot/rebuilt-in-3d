@@ -1,42 +1,45 @@
 {
- "at": "2026-10-22T08:48:16+00:00",
+ "at": "2026-10-22T09:41:28+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 175000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-22T07:55:41+00:00",
+   "news": 200000,
+   "news_at": "2026-10-22T09:14:48+00:00",
    "headlines": [
     "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-    "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
-    "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured"
+    "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+    "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
+    "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
     "google-news:One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-    "google-news:Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
+    "google-news:Two killed in attack on airport in eastern Saudi Arabia, authorities say",
     "google-news:Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:NDTV"
+    "outlet:BBC",
+    "outlet:NDTV",
+    "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
-    "Bennett, Coleman & Co.",
-    "NDTV"
+    "BBC",
+    "NDTV",
+    "Bennett, Coleman & Co."
    ],
    "reports": [
     {
-     "title": "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
-     "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-2-injured-in-dammam-airport-attack-in-saudi-arabia/articleshow/135112073.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
+     "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-22T07:55:41+00:00"
+     "at": "2026-10-22T09:14:48+00:00"
     },
     {
      "title": "Indian Among 2 Killed In Attack On Saudi Airport, 2 Others Injured",
@@ -46,7 +49,17 @@
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-22T07:53:59+00:00"
+     "at": "2026-10-22T08:12:47+00:00"
+    },
+    {
+     "title": "Indian national among 2 killed in attack on Saudi Arabia's Dammam airport",
+     "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-2-injured-in-dammam-airport-attack-in-saudi-arabia/articleshow/135112073.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T07:55:41+00:00"
     }
    ],
    "id": "wk-Q141695384",
@@ -275,12 +288,12 @@
   }
  ],
  "outlets": {
-  "headlines": 787,
+  "headlines": 789,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
+  "matched": 25,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
