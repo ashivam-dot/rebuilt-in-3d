@@ -1,11 +1,17 @@
 {
- "at": "2026-10-22T02:13:42+00:00",
+ "at": "2026-10-22T03:10:32+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): stopped: unit cap reached; 1372 units today",
-  "watch: 1 candidates (0 quakes, 11 trending), 1 hazard alerts",
-  "outlets: 817 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-kyiv-strike",
-  "skip nw-20261021-kyiv-strike: gate: no draft passed the fact checks: these names or numbers are not in the sources: Arab (Arab only in one outlet's report: one outlet is not enough)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): stopped: unit cap reached; 1474 units today",
+  "watch: 2 candidates (0 quakes, 8 trending), 1 hazard alerts",
+  "outlets: 816 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-kyiv-strike",
+  "published nw-20261021-kyiv-strike: https://www.youtube.com/shorts/ox3fConJ7EA"
+ ],
+ "published": {
+  "video_id": "ox3fConJ7EA",
+  "url": "https://www.youtube.com/shorts/ox3fConJ7EA",
+  "title": "Kyiv Missile Attack Amid Peace Talk Signals",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
