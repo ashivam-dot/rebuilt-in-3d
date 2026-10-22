@@ -1,9 +1,18 @@
 {
- "at": "2026-10-22T17:12:01+00:00",
+ "at": "2026-10-22T17:40:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag 0 done, 10 left; 1498 units today",
-  "watch: 0 candidates (0 quakes, 11 trending), 2 hazard alerts",
-  "outlets: 811 headlines from 30 feeds (21 owners), 28 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
- ]
+  "retracted gCQ4ZWtobXA (Macron protest ban told over two Paris maps (11 of 13 sampled moments) and one Eiffel Tower photo: no Macron, no protest, no students)",
+  "channel jobs (setup+untag): stopped: unit cap reached; 1500 units today",
+  "watch: 1 candidates (1 quakes, 11 trending), 2 hazard alerts",
+  "outlets: 813 headlines from 30 feeds (21 owners), 28 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest",
+  "published eq-us6000u43g: https://www.youtube.com/shorts/dMv6M3-6O4s"
+ ],
+ "published": {
+  "video_id": "dMv6M3-6O4s",
+  "url": "https://www.youtube.com/shorts/dMv6M3-6O4s",
+  "title": "Quake near Nagqu: M7.0, ≈6,300 in very strong shaking or worse",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }

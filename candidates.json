@@ -1,17 +1,28 @@
 {
- "at": "2026-10-22T17:12:03+00:00",
- "quakes": [],
+ "at": "2026-10-22T17:40:51+00:00",
+ "quakes": [
+  {
+   "id": "eq-us6000u43g",
+   "kind": "quake",
+   "event": "us6000u43g",
+   "title": "191 km ENE of Nagqu, China",
+   "mag": 7.0,
+   "fame": 225000,
+   "age_h": 3.2,
+   "alert": "orange",
+   "trending": true
+  }
+ ],
  "trending": [
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 350000,
+   "fame": 225000,
    "views": 0,
    "traffic": 0,
-   "news": 300000,
-   "news_at": "2026-10-22T17:12:03.540814+00:00",
+   "news": 175000,
+   "news_at": "2026-10-22T17:40:51.355275+00:00",
    "headlines": [
-    "Earthquake Of Magnitude 7 Strikes Tibet Weeks After Deadly Flash Floods",
     "Earthquake of magnitude 7 strikes China's Tibet",
     "A magnitude 7 earthquake shakes China's Tibet",
     "Earthquake of magnitude 7.0 hits Tibet"
@@ -19,9 +30,9 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
-    "google-news:Earthquake Of Magnitude 7 Strikes Tibet Weeks After Deadly Flash Floods",
     "google-news:Earthquake of magnitude 7 strikes China's Tibet",
     "google-news:A magnitude 7 earthquake shakes China's Tibet",
+    "google-news:Earthquake of magnitude 7.0 hits Tibet",
     "outlet:Disney (ABC News)",
     "outlet:Bennett, Coleman & Co."
    ],
@@ -62,15 +73,38 @@
    "has_coords": true
   },
   {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-22T14:01:53+00:00",
+   "headlines": [
+    "Attack on Saudi Arabia’s King Fahd airport kills two people"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 242783,
+   "fame": 117783,
    "views": 42783,
    "traffic": 0,
-   "news": 200000,
+   "news": 75000,
    "news_at": "2026-10-22T16:01:00+00:00",
    "headlines": [
-    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
     "Are the French police the most violent in the EU?",
     "French students demonstrate again, despite school holidays",
     "French authorities ban some student protests after weekend looting and clashes"
@@ -78,9 +112,9 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-21",
-    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
     "google-news:Are the French police the most violent in the EU?",
     "google-news:French students demonstrate again, despite school holidays",
+    "google-news:French authorities ban some student protests after weekend looting and clashes",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News"
@@ -128,96 +162,6 @@
    "date": "2026-10-22",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-22T14:14:53+00:00",
-   "headlines": [
-    "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
-    "John Anderson, country music Hall of Famer, dies at 71"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
-    "google-news:John Anderson, country music Hall of Famer, dies at 71",
-    "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "NBCUniversal",
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
-     "url": "https://www.nbcnews.com/pop-culture/music/john-anderson-country-singer-seminole-wind-dies-71-rcna604985",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T14:14:53+00:00"
-    },
-    {
-     "title": "John Anderson, country music Hall of Famer, dies at 71",
-     "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T12:22:26+00:00"
-    }
-   ],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-22T15:43:28+00:00",
-   "headlines": [
-    "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "Indian killed as Houthis attack Saudi Arabia’s Dammam airport"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "google-news:Indian killed as Houthis attack Saudi Arabia’s Dammam airport",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Indian killed as Houthis attack Saudi Arabia’s Dammam airport",
-     "url": "https://www.thehindu.com/news/national/indian-national-killed-in-saudi-dammam-airport-attack-others-injured/article71610871.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T15:43:28+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261022-macron-protest",
@@ -341,6 +285,56 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-22"
+  },
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-22T14:14:53+00:00",
+   "headlines": [
+    "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+    "John Anderson, country music Hall of Famer, dies at 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+    "google-news:John Anderson, country music Hall of Famer, dies at 71",
+    "outlet:NBCUniversal",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "NBCUniversal",
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+     "url": "https://www.nbcnews.com/pop-culture/music/john-anderson-country-singer-seminole-wind-dies-71-rcna604985",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:14:53+00:00"
+    },
+    {
+     "title": "John Anderson, country music Hall of Famer, dies at 71",
+     "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:22:26+00:00"
+    }
+   ],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "qid": "Q141745391",
@@ -489,9 +483,21 @@
    "lon": "124.9"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "eq-us6000u43g",
+   "kind": "quake",
+   "event": "us6000u43g",
+   "title": "191 km ENE of Nagqu, China",
+   "mag": 7.0,
+   "fame": 225000,
+   "age_h": 3.2,
+   "alert": "orange",
+   "trending": true
+  }
+ ],
  "outlets": {
-  "headlines": 811,
+  "headlines": 813,
   "feeds": 30,
   "owners": 21,
   "matched": 28,
@@ -572,5 +578,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 28 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
+ "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 28 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
 }
