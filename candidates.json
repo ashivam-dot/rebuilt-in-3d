@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22T11:41:45+00:00",
+ "at": "2026-10-22T12:09:26+00:00",
  "quakes": [],
  "trending": [
   {
@@ -112,40 +112,40 @@
    "has_coords": true
   },
   {
-   "qid": "Q141718063",
-   "title": "Parvinder Singh Jhota",
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-22T08:01:18+00:00",
+   "news_at": "2026-10-22T11:39:24+00:00",
    "headlines": [
-    "Parvinder Singh Jhota: Who was the anti-drug activist, why was he killed"
+    "John Anderson, country music hall of famer, dead at 71"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
-    "google-news:Parvinder Singh Jhota: Who was the anti-drug activist, why was he killed",
-    "outlet:The Hindu Group"
+    "google-news:John Anderson, country music hall of famer, dead at 71",
+    "outlet:Fox Corporation"
    ],
    "owners": [
-    "The Hindu Group"
+    "Fox Corporation"
    ],
    "reports": [
     {
-     "title": "Parvinder Singh Jhota: Who was the anti-drug activist, why was he killed",
-     "url": "https://www.thehindu.com/news/national/punjab/parvinder-singh-jhota-anti-drug-activist-killed-punjab/article71606765.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
+     "title": "John Anderson, country music hall of famer, dead at 71",
+     "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-22T08:01:18+00:00"
+     "at": "2026-10-22T11:39:24+00:00"
     }
    ],
-   "id": "wk-Q141718063",
+   "id": "wk-Q1699148",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-13"
+   "date": "2026-10-21"
   },
   {
    "qid": "Q1889124",
@@ -241,14 +241,51 @@
    "lon": "125.4"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-22T11:39:24+00:00",
+   "headlines": [
+    "John Anderson, country music hall of famer, dead at 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, country music hall of famer, dead at 71",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "John Anderson, country music hall of famer, dead at 71",
+     "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T11:39:24+00:00"
+    }
+   ],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  }
+ ],
  "outlets": {
-  "headlines": 807,
+  "headlines": 806,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
+  "matched": 21,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 20 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 21 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
