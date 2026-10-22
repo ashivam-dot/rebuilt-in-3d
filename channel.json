@@ -1,0 +1,40 @@
+{
+ "day": "2026-10-21",
+ "units": 462,
+ "failed": {
+  "about": {
+   "count": 1,
+   "reason": "RuntimeError: the About did not read back",
+   "at": "2026-10-22T00:47:07+00:00"
+  },
+  "playlist:quakes": {
+   "count": 1,
+   "reason": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLEKk9bbxyBkI&maxResults=50&alt=json returned \"The playlist identified ",
+   "at": "2026-10-22T00:47:07+00:00"
+  },
+  "playlist:storms": {
+   "count": 1,
+   "reason": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLKh3tMoJok0I&maxResults=50&alt=json returned \"The playlist identified ",
+   "at": "2026-10-22T00:47:07+00:00"
+  },
+  "playlist:lives": {
+   "count": 1,
+   "reason": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLF5LULMquk8g&maxResults=50&alt=json returned \"The playlist identified ",
+   "at": "2026-10-22T00:47:07+00:00"
+  },
+  "playlist:cjp": {
+   "count": 1,
+   "reason": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLZIq8ldlSYys&maxResults=50&alt=json returned \"The playlist identified ",
+   "at": "2026-10-22T00:47:07+00:00"
+  }
+ },
+ "filed": {},
+ "playlists": {},
+ "sections": {},
+ "untagged": {
+  "A5rMcUkzmF0": "2026-10-22T00:47:07+00:00",
+  "dzq6GUxZyMc": "2026-10-22T00:47:07+00:00",
+  "GTUwT6GQhV4": "2026-10-22T00:47:07+00:00",
+  "mXR5B18rbtE": "2026-10-22T00:47:07+00:00"
+ }
+}

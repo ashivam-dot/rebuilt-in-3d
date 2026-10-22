@@ -1,7 +1,51 @@
 {
- "at": "2026-10-22T00:02:33+00:00",
+ "at": "2026-10-22T00:47:17+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 160410,
+   "views": 10410,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-21T22:18:37+00:00",
+   "headlines": [
+    "Teacher who survived Oregon school shooting recounts being shot, pretending to be dead to survive",
+    "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-20",
+    "google-news:Teacher who survived Oregon school shooting recounts being shot, pretending to be dead to survive",
+    "google-news:Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
+     "url": "https://www.independent.co.uk/news/world/americas/norovirus-outbreak-kansas-elementary-school-b3071032.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-21T22:18:37+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
@@ -9,15 +53,15 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-21T22:21:44+00:00",
+   "news_at": "2026-10-21T22:57:11+00:00",
    "headlines": [
     "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
-    "2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility"
+    "1 Killed, 8 Injured In Attack On Dammam Airport: Saudi Civil Aviation"
    ],
    "region": "world",
    "via": [
     "google-news:Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
-    "google-news:2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility",
+    "google-news:1 Killed, 8 Injured In Attack On Dammam Airport: Saudi Civil Aviation",
     "outlet:NDTV"
    ],
    "owners": [
@@ -25,14 +69,14 @@
    ],
    "reports": [
     {
-     "title": "2 Killed, Indian Injured By Houthi Drone Debris At Saudi Oil Facility",
-     "url": "https://www.ndtv.com/world-news/2-killed-indian-injured-by-houthi-drone-debris-at-saudi-oil-facility-12217578#publisher=newsstand",
+     "title": "1 Killed, 8 Injured In Attack On Dammam Airport: Saudi Civil Aviation",
+     "url": "https://www.ndtv.com/world-news/1-killed-8-injured-in-attack-on-dammam-airport-saudi-civil-aviation-12217663#publisher=newsstand",
      "outlet": "NDTV",
      "outlet_hi": "एनडीटीवी",
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-21T21:42:33+00:00"
+     "at": "2026-10-21T22:57:11+00:00"
     }
    ],
    "id": "wk-Q141695384",
@@ -61,48 +105,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-15"
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 35410,
-   "views": 10410,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-21T22:18:37+00:00",
-   "headlines": [
-    "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-20",
-    "google-news:Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
-     "url": "https://www.independent.co.uk/news/world/americas/norovirus-outbreak-kansas-elementary-school-b3071032.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-21T22:18:37+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q3424313",
@@ -256,12 +258,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 819,
+  "headlines": 817,
   "feeds": 30,
   "owners": 21,
-  "matched": 40,
+  "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 40 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 817 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
