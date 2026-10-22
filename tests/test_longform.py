@@ -25,14 +25,14 @@ PUBLISHED = [
     _row("eq-us6000u18k", "How the M7.7 Panama quake ruptured", "ou-WEYN_fZ4"),
     _row("eq-us6000u19w", "An M6.6 Panama quake followed the M7.7", "9fNuIm-NdYU"),
     _row("eq-us6000u1cf", "Why the M6.0 Panama quake followed", "bJf-bPYFKVo"),
-    _row("nw-trudy", "Hurricane Trudy: how it grew", "a2qA0Fu19vc", kind="story", category="cyclone"),
+    _row("nw-trudy", "Hurricane Trudy: how it grew", "trudyVID001", kind="story", category="cyclone"),
     _row("eq-ridge", "M6.8 Mid-Atlantic Ridge quake shook nobody", "ridgeVID001"),
     _row("nw-attack", "Hurricane Strike: drone attack on port", "attackVID01", kind="story", category="cyclone"),
     _row("eq-old", "M7.0 Japan quake", "oldVIDEO001", days=45),
     _row("eq-gone", "M6.9 Kamchatka quake", "B7Bn2Yhnlp8"),
 ]
 PERFORMANCE = {"videos": {"ou-WEYN_fZ4": {"views_24h": 1489.3}, "9fNuIm-NdYU": {"views_24h": 1277.7},
-                          "bJf-bPYFKVo": {"views_24h": 13.8}, "a2qA0Fu19vc": {"views_24h": 1077.8},
+                          "bJf-bPYFKVo": {"views_24h": 13.8}, "trudyVID001": {"views_24h": 1077.8},
                           "ridgeVID001": {"views_24h": 9999}, "attackVID01": {"views_24h": 9999},
                           "oldVIDEO001": {"views_24h": 9999}, "B7Bn2Yhnlp8": {"views_24h": 9999}}}
 

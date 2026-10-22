@@ -71,6 +71,24 @@ RETRACTED = {
     # Owner, 2026-10-22: "do you think people are here to watch the map".
     "gCQ4ZWtobXA": "Macron protest ban told over two Paris maps (11 of 13 sampled moments) and one Eiffel Tower photo: "
                    "no Macron, no protest, no students",
+    # Picture audit of the 12 newest public Shorts, 2026-10-22 (audit/orbitwire/PICTURE-AUDIT.md): what is shown is
+    # not what is said.
+    "ox3fConJ7EA": "Kyiv missile attack told over two maps (15 of 17 sampled moments) and a church photo: no missile, "
+                   "no shelter, no Trump or Putin",
+    "dzq6GUxZyMc": "CFB Wainwright fire told over two maps and a satellite hotspot map (every sampled moment): "
+                   "no fire, no base, no soldier",
+    "GTUwT6GQhV4": "Richard Riehle tribute told over his school's campus (about 70% of the time) and a Main Street "
+                   "photo: his own photo only at the start and end",
+    "mXR5B18rbtE": "Chuck Amato tribute over a photo of a photo displayed in a restaurant (not licence-safe), his "
+                   "school's bell tower and a Crayola store",
+    "a2qA0Fu19vc": "Hurricane Trudy told over Openverse sunsets and a world map of sea zones: the storm never shown, "
+                   "though NOAA's public-domain images were on Commons",
+    "DwUtz4R4hzY": "Spanish housing protests told over Metro Sol signs and a train platform (13 of 18 moments): "
+                   "a sign under the eviction of an 87-year-old",
+    "XH8L7r7QUnk": "Paris protests told over two maps (11 of 13 moments) and the Eiffel Tower: no protest, no "
+                   "person, though the protest's own Commons photos existed",
+    "OT6g4NIr7Q8": "Captain Machchhar, named in the title, never shown; airport aerials under the crash-axe "
+                   "attack in the cockpit",
 }
 
 
