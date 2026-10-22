@@ -54,6 +54,9 @@ MAX_SETTING = 1
 MAX_MAPS = 2
 # Photos of who or what the story is about (not a map, not the town) a Short needs.
 REAL_PHOTOS = 3
+# Owner, 2026-10-22, of the Nagqu quake (55 s of empty terrain, no town, no people): quake Shorts are held
+# until they show the place and the people, not only the ground.
+QUAKES_HELD = True
 # What a transport incident's photos must show (file name or Commons description): the vehicle, its line, or the
 # station, airport or port. A railway's headquarters or a sign board shows none of them.
 SHOWS = {
@@ -147,6 +150,8 @@ def reported_toll(reports: list[dict], wikidata: set[int] | None = None) -> tupl
 
 def check(short: Short) -> list[str]:
     problems = []
+    if short.kind == "quake" and QUAKES_HELD:
+        problems.append("quake: held; a Short of terrain alone shows no town and no people")
     allowed = {n.replace(",", "") for f in short.facts for n in f.numbers}
     texts = [("title", short.title)] + [(f"beat {i + 1}", b.text) for i, b in enumerate(short.beats)]
     for i, b in enumerate(short.beats):

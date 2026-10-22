@@ -22,3 +22,11 @@ def offline_outlets(monkeypatch):
 def private_state(monkeypatch, tmp_path_factory):
     """No test writes the repo's state/ (the radar caches its last good Wikidata list there)."""
     monkeypatch.setattr(ledger, "STATE", tmp_path_factory.mktemp("state"))
+
+
+@pytest.fixture(autouse=True)
+def quakes_unheld(monkeypatch):
+    """The quake hold (gate.QUAKES_HELD) is policy, not a check: tests judge the quake gate as if it were lifted."""
+    from studio import gate
+
+    monkeypatch.setattr(gate, "QUAKES_HELD", False)

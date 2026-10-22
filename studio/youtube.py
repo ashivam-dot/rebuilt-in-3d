@@ -69,6 +69,7 @@ RETRACTED = {
     "Pyn07q8sFcs": "Black Sea tanker strike shown with the colour black's photos (a painting, a black hole)",
     "P3_BBUFzurk": "repeat of W2Zvww-jNK4 (2026-10-14): the same Oct 6 Saudi airport attacks, its article renamed",
     # Owner, 2026-10-22: "do you think people are here to watch the map".
+    "dMv6M3-6O4s": "Nagqu M7.0 told over 55 s of empty 3D terrain and rings: no town, no people, no damage",
     "gCQ4ZWtobXA": "Macron protest ban told over two Paris maps (11 of 13 sampled moments) and one Eiffel Tower photo: "
                    "no Macron, no protest, no students",
 }

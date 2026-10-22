@@ -53,3 +53,8 @@ def test_channel_mix_limits_loss_runs():
     assert gate.channel_mix([True, True], False) is None
     assert gate.channel_mix([False, True], True) is None
     assert gate.channel_mix([], True) is None
+
+
+def test_a_held_quake_never_passes(short, monkeypatch):
+    monkeypatch.setattr(gate, "QUAKES_HELD", True)
+    assert short.kind == "quake" and gate.check(short)[0].startswith("quake: held")
