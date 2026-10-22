@@ -1,20 +1,22 @@
 {
- "at": "2026-10-22T06:11:04+00:00",
+ "at": "2026-10-22T06:49:08+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 125000,
+   "fame": 126200,
    "views": 0,
-   "traffic": 0,
+   "traffic": 1200,
    "news": 125000,
    "news_at": "2026-10-22T00:31:08+00:00",
    "headlines": [
     "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
+    "google-trends-US:attack on dammam airport",
+    "google-trends-GB:attack on dammam airport",
     "google-news:One killed, eight injured in attack on Saudi Arabia’s King Fahd airport"
    ],
    "owners": [],
@@ -198,35 +200,14 @@
    "lon": "126"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q2138120",
-   "title": "Georgi Nemsadze",
-   "fame": 8749,
-   "views": 8749,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-21"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2138120",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 806,
+  "headlines": 797,
   "feeds": 30,
   "owners": 21,
-  "matched": 16,
+  "matched": 14,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 16 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 14 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
