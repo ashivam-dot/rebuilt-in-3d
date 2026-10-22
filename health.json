@@ -1,11 +1,12 @@
 {
- "at": "2026-10-22T23:08:35+00:00",
+ "at": "2026-10-22T23:34:09+00:00",
  "ok": true,
  "steps": [
   "channel jobs (setup+untag): stopped: unit cap reached; 1500 units today",
   "watch: 1 candidates (0 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 819 headlines from 30 feeds (21 owners), 51 matched to articles, 7 candidates with 2+ owners, 2 nw- stories (on): nw-20261022-macron-protest, nw-20261022-oregon-attack",
-  "hold nw-20261022-oregon-attack: last Short went out 0.4 h ago",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261022-oregon-attack"
+  "outlets: 817 headlines from 30 feeds (21 owners), 47 matched to articles, 7 candidates with 2+ owners, 2 nw- stories (on): nw-20261022-macron-protest, nw-20261022-oregon-attack",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261022-oregon-attack",
+  "skip nw-20261022-oregon-attack: gate: only 0 usable photos of Oregon (want 2)",
+  "nothing eligible to publish"
  ]
 }
