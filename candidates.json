@@ -1,7 +1,33 @@
 {
- "at": "2026-10-22T10:17:54+00:00",
+ "at": "2026-10-22T11:41:45+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-10-22T09:00:14+00:00",
+   "headlines": [
+    "Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "One Person Killed and 8 Injured in Airport Attack in Saudi Arabia"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "google-news:One Person Killed and 8 Injured in Airport Attack in Saudi Arabia"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
@@ -44,60 +70,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-22T10:00:03+00:00",
-   "headlines": [
-    "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "Indian national killed in Saudi airport attack, 2 others injured",
-    "Two killed in attack on airport in eastern Saudi Arabia, authorities say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "google-news:Indian national killed in Saudi airport attack, 2 others injured",
-    "google-news:Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-    "outlet:The Hindu Group",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "The Hindu Group",
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Indian national killed in Saudi airport attack, 2 others injured",
-     "url": "https://www.thehindu.com/news/national/indian-national-killed-in-saudi-dammam-airport-attack-others-injured/article71610871.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T10:00:03+00:00"
-    },
-    {
-     "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T09:14:48+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
    "fame": 33035,
@@ -138,42 +110,6 @@
     -121.29527778
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-22T09:45:22+00:00",
-   "headlines": [
-    "John Anderson, five-time US country chart-topper, dies aged 71"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:John Anderson, five-time US country chart-topper, dies aged 71",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "John Anderson, five-time US country chart-topper, dies aged 71",
-     "url": "https://www.theguardian.com/music/2026/oct/22/john-anderson-five-time-us-country-chart-topper-dies-aged-71",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T09:45:22+00:00"
-    }
-   ],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   },
   {
    "qid": "Q141718063",
@@ -305,51 +241,14 @@
    "lon": "125.4"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-22T09:45:22+00:00",
-   "headlines": [
-    "John Anderson, five-time US country chart-topper, dies aged 71"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:John Anderson, five-time US country chart-topper, dies aged 71",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "John Anderson, five-time US country chart-topper, dies aged 71",
-     "url": "https://www.theguardian.com/music/2026/oct/22/john-anderson-five-time-us-country-chart-topper-dies-aged-71",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T09:45:22+00:00"
-    }
-   ],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 797,
+  "headlines": 807,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 1
+  "matched": 20,
+  "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 20 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
