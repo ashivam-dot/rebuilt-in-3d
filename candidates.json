@@ -1,33 +1,7 @@
 {
- "at": "2026-10-22T12:47:36+00:00",
+ "at": "2026-10-22T13:51:40+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 250000,
-   "views": 0,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-22T09:00:14+00:00",
-   "headlines": [
-    "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "One Person Killed and 8 Injured in Airport Attack in Saudi Arabia"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "google-news:One Person Killed and 8 Injured in Airport Attack in Saudi Arabia"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
@@ -68,6 +42,122 @@
    "date": "2026-10-22",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-22T13:46:33+00:00",
+   "headlines": [
+    "Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "google-news:Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T13:46:33+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261021-macron-protest",
+   "qid": null,
+   "title": "France bans protests in parts of Paris as Macron slams Trump",
+   "name": "Macron",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "news_at": "2026-10-22T13:12:22+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "France bans protests in parts of Paris as Macron slams Trump",
+    "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+    "France unrest: Macron vows ban on 'illegitimate' protests in coming days"
+   ],
+   "places": [
+    "Paris",
+    "Trump"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France bans protests in parts of Paris as Macron slams Trump",
+     "url": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-21T22:32:00+00:00"
+    },
+    {
+     "title": "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+     "url": "https://www.aljazeera.com/news/2026/10/22/macron-blames-seditious-ultra-left-for-unrest-as-france-bans-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T13:12:22+00:00"
+    },
+    {
+     "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
+     "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T11:26:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q1699148",
@@ -240,6 +330,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q19975570",
+   "title": "Hyron Andrews",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:rugby player"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q19975570",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -256,6 +366,82 @@
   }
  ],
  "candidates": [
+  {
+   "id": "nw-20261021-macron-protest",
+   "qid": null,
+   "title": "France bans protests in parts of Paris as Macron slams Trump",
+   "name": "Macron",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "news_at": "2026-10-22T13:12:22+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "France bans protests in parts of Paris as Macron slams Trump",
+    "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+    "France unrest: Macron vows ban on 'illegitimate' protests in coming days"
+   ],
+   "places": [
+    "Paris",
+    "Trump"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France bans protests in parts of Paris as Macron slams Trump",
+     "url": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-21T22:32:00+00:00"
+    },
+    {
+     "title": "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+     "url": "https://www.aljazeera.com/news/2026/10/22/macron-blames-seditious-ultra-left-for-unrest-as-france-bans-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T13:12:22+00:00"
+    },
+    {
+     "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
+     "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T11:26:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
@@ -308,12 +494,89 @@
   }
  ],
  "outlets": {
-  "headlines": 802,
+  "headlines": 797,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 1
+  "matched": 20,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261021-macron-protest",
+   "qid": null,
+   "title": "France bans protests in parts of Paris as Macron slams Trump",
+   "name": "Macron",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-21",
+   "news_at": "2026-10-22T13:12:22+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "France bans protests in parts of Paris as Macron slams Trump",
+    "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+    "France unrest: Macron vows ban on 'illegitimate' protests in coming days"
+   ],
+   "places": [
+    "Paris",
+    "Trump"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France bans protests in parts of Paris as Macron slams Trump",
+     "url": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-21T22:32:00+00:00"
+    },
+    {
+     "title": "Macron blames ‘seditious’ far left for unrest as France bans some protests",
+     "url": "https://www.aljazeera.com/news/2026/10/22/macron-blames-seditious-ultra-left-for-unrest-as-france-bans-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T13:12:22+00:00"
+    },
+    {
+     "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
+     "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T11:26:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-macron-protest"
 }

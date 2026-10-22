@@ -1,11 +1,17 @@
 {
- "at": "2026-10-22T12:47:34+00:00",
+ "at": "2026-10-22T13:51:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag 0 done, 10 left; 1483 units today",
-  "watch: 1 candidates (0 quakes, 8 trending), 1 hazard alerts",
-  "outlets: 802 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q1699148: gate: only 2 usable photos of John Anderson on Wikimedia Commons (want 3)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag 0 done, 10 left; 1486 units today",
+  "watch: 2 candidates (0 quakes, 10 trending), 1 hazard alerts",
+  "outlets: 797 headlines from 30 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-macron-protest",
+  "published nw-20261021-macron-protest: https://www.youtube.com/shorts/gCQ4ZWtobXA"
+ ],
+ "published": {
+  "video_id": "gCQ4ZWtobXA",
+  "url": "https://www.youtube.com/shorts/gCQ4ZWtobXA",
+  "title": "Macron Bans Illegitimate Protests Following Riots",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
