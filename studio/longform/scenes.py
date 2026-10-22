@@ -128,6 +128,7 @@ def draw_marks(frame: np.ndarray, atlas: Atlas, M: np.ndarray, shot: dict, data:
     marks = data.get("marks", {})
     s = M[0, 0] / (W / PLATE[0])  # zoom
     reveal = shot.get("reveal")
+    tags = []  # (rank, lat, lon, layer, dx, dy), quakes first: placed together at the end so none overlap
     for name in shot.get("marks", []):
         rows = marks.get(name) or []
         if name == "history" and rows:
@@ -164,12 +165,12 @@ def draw_marks(frame: np.ndarray, atlas: Atlas, M: np.ndarray, shot: dict, data:
                 cv2.circle(frame, (x, y), 13, (255, 70, 60), -1, cv2.LINE_AA)
                 cv2.circle(frame, (x, y), 13, (255, 255, 255), 2, cv2.LINE_AA)
                 if r.get("label") and len(rows) <= 3:
-                    blit(frame, labels.get(r["label"]), x + 24, y - 20)
+                    tags.append((0, r["lat"], r["lon"], labels.get(r["label"]), 24, -20))
         elif name == "cities":
             for r in rows:
                 x, y = _apply(M, *atlas.px(r["lat"], r["lon"]))
                 cv2.circle(frame, (x, y), 7, (255, 255, 255), -1, cv2.LINE_AA)
-                blit(frame, labels.get(r["label"]), x + 12, y - 18)
+                tags.append((1, r["lat"], r["lon"], labels.get(r["label"]), 12, -18))
         elif name == "past":
             for storm in rows:
                 pts = [_apply(M, *atlas.px(p["lat"], p["lon"])) for p in storm["points"]]
@@ -182,6 +183,31 @@ def draw_marks(frame: np.ndarray, atlas: Atlas, M: np.ndarray, shot: dict, data:
                 cv2.line(frame, a, b, kt_color(kt), 6, cv2.LINE_AA)
             (x, y), kt = pts[-1]
             cv2.circle(frame, (x, y), 12, kt_color(kt), -1, cv2.LINE_AA)
+    # Placed at the shot's widest view, where marks sit closest, so a label never jumps as the camera zooms.
+    tags.sort(key=lambda g: g[0])
+    z = min(shot.get("zoom", [1.0, 1.1])) * W / PLATE[0]
+    spots = place_labels([(atlas.px(la, lo)[0] * z, atlas.px(la, lo)[1] * z, layer[1].shape[1], layer[1].shape[0],
+                           dx, dy) for _, la, lo, layer, dx, dy in tags])
+    for (_, la, lo, layer, _, _), spot in zip(tags, spots):
+        if spot:
+            x, y = _apply(M, *atlas.px(la, lo))
+            blit(frame, layer, x + spot[0], y + spot[1])
+
+
+def place_labels(tags: list[tuple]) -> list[tuple[int, int] | None]:
+    """(x, y, w, h, dx, dy) per label, in order of priority -> its offset from its mark, or None when every spot
+    (right or left of the mark, level, above or below) overlaps a label already placed."""
+    boxes, out = [], []
+    for x, y, w, h, dx, dy in tags:
+        spot = None
+        for ox, oy in ((dx, dy), (dx, dy - h), (dx, dy + h), (-dx - w, dy), (-dx - w, dy - h), (-dx - w, dy + h)):
+            b = (x + ox, y + oy, x + ox + w, y + oy + h)
+            if not any(b[0] < c[2] and c[0] < b[2] and b[1] < c[3] and c[1] < b[3] for c in boxes):
+                spot = (ox, oy)
+                boxes.append(b)
+                break
+        out.append(spot)
+    return out
 
 
 # --- charts and cards ---------------------------------------------------------------------------------------------
@@ -327,15 +353,19 @@ def tag_layer() -> tuple[np.ndarray, np.ndarray]:
 def shots_for(ch: Chapter, spans: list[list[float]], seconds: float) -> list[dict]:
     """The chapter's visuals over its sentences: shot k covers a contiguous, near-equal run of sentences."""
     vis = ch.visuals or [{"type": "map", "marks": [], "focus": None, "zoom": [1.0, 1.1]}]
+    # The sources card holds after the last sentence (END_HOLD), never under the narration.
+    card = vis[-1] if len(vis) > 1 and vis[-1]["type"] == "sources" and spans else None
+    vis = vis[:-1] if card else vis
+    talk = max(spans[-1][1], seconds - END_HOLD) if card else seconds
     n = len(spans)
     k = max(1, min(len(vis), n))
     bounds = [round(i * n / k) for i in range(k + 1)]
     out = []
     for i in range(k):
         start = 0.0 if i == 0 else spans[bounds[i]][0]
-        end = seconds if i == k - 1 else spans[bounds[i + 1]][0]
+        end = talk if i == k - 1 else spans[bounds[i + 1]][0]
         out.append(vis[i] | {"start": start, "end": end})
-    return out
+    return out + ([card | {"start": talk, "end": seconds}] if card else [])
 
 
 def drift(img: np.ndarray, u: float, amount: float = 0.035) -> np.ndarray:

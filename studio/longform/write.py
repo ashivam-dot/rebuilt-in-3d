@@ -1,5 +1,6 @@
 """Write one chapter's narration and hold every sentence to the chapter's facts and source, with the Shorts' own gates:
 - writer.ungrounded: a name or number no fact or source sentence has is sent back;
+- says_nothing: a line with no number whose words are mostly not in the facts or source (padding) is sent back;
 - gate.banned_word, writer.FIRST_PERSON, writer.TEASE (no question, no "here's why"), writer.GENERIC_CLOSE;
 - casualties: a line that speaks of deaths or injuries stands only on a fact two different owners state (gate.OWNERS_NEEDED);
   the planner gives none, so in practice the episode never states a toll;
@@ -25,6 +26,14 @@ LINE_WORDS = (6, 32)
 # is a vague count, not a number, so plurals pass; words up to ten are fine.
 SPELLED_NUMBER = re.compile(r"\b(?:hundred|thousand|eleven|twelve|(?:thir|four|fif|six|seven|eigh|nine)teen|"
                             r"(?:twen|thir|for|fif|six|seven|eigh|nine)ty)\b", re.I)
+# A line with no number whose words are mostly not in the facts or source says nothing: it is padding a weak drafter
+# writes to reach the word count ("The records provide a clear picture of the geological forces at work.", dry run
+# 39705000818, 17 such lines). Words are compared on their first five letters, so "region" meets "regional".
+GROUNDED_SHARE = 0.34
+_PLAIN = set("this that these those there their them they with from have been being which while where when what into "
+             "onto over under about after before also only same such than then very more most much many each every "
+             "other some will would could should show shows showed provide provides help helps data".split())
+SOURCES_LINE = re.compile(r"\bdescription\b", re.I)
 LINES_SCHEMA = {"type": "object", "properties": {"lines": {"type": "array", "items": {"type": "string"}}},
                 "required": ["lines"]}
 SYSTEM = ("You are the head writer of Orbitwire Explains, a calm, precise science documentary series on YouTube. You "
@@ -66,6 +75,14 @@ def casualty_ok(line: str, ch: Chapter) -> bool:
     return any(len(set(f.owners)) >= gate.OWNERS_NEEDED and writer.CASUALTY_WORDS.search(f.value) for f in ch.facts)
 
 
+def says_nothing(line: str, src: str) -> bool:
+    if re.search(r"\d", line) or SOURCES_LINE.search(line):
+        return False
+    words = [w for w in re.findall(r"[a-z]+", line.lower()) if len(w) >= 4 and w not in _PLAIN]
+    have = {w[:5] for w in re.findall(r"[a-z]+", src.lower()) if len(w) >= 4}
+    return bool(words) and sum(w[:5] in have for w in words) / len(words) < GROUNDED_SHARE
+
+
 def line_problems(line: str, ch: Chapter, src: str, last: bool) -> list[str]:
     out = []
     n = len(line.split())
@@ -73,6 +90,8 @@ def line_problems(line: str, ch: Chapter, src: str, last: bool) -> list[str]:
         out.append(f"{line[:50]!r}: {n} words (want {LINE_WORDS[0]}-{LINE_WORDS[1]})")
     if missing := writer.ungrounded(line, src):
         out.append(f"{line[:50]!r}: not in the facts or source: {', '.join(missing)}")
+    if says_nothing(line, src):
+        out.append(f"{line[:50]!r}: says nothing the facts or source say: state one of them or leave the line out")
     if hit := SPELLED_NUMBER.search(line):
         out.append(f"{line[:50]!r}: number in words ({hit.group(0)!r}): write it in digits as the facts do")
     if (word := gate.banned_word(line)) is not None:

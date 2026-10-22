@@ -494,10 +494,11 @@ BRIEFS = {
     "why-it-matters": "Close: why this matters for the people who live there, in two or three calm sentences, and a "
                       "final line that the sources are in the description.",
 }
-# About 155 spoken words a minute: 1,270-1,850 words is about 8.5-12.5 minutes with the pauses (assemble.py gates
-# 8:00-14:30 on the real length).
+# About 155 spoken words a minute: 1,220-1,790 words is about 8.2-12 minutes with the pauses (assemble.py gates
+# 8:00-14:30 on the real length). The close is the brief's two or three sentences: a 100-word floor there had the
+# writer pad it with figures from earlier chapters (dry run 39705000818).
 WORDS = {"cold-open": [90, 140], "what-happened": [220, 320], "how-it-works": [260, 360], "before": [240, 340],
-         "people": [180, 270], "next": [180, 270], "why-it-matters": [100, 150]}
+         "people": [180, 270], "next": [180, 270], "why-it-matters": [50, 90]}
 
 
 def _chapters(kind: str, topic: str, F: dict, text: dict, visuals: dict) -> list[Chapter]:

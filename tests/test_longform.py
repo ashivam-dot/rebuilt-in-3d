@@ -237,6 +237,20 @@ def test_writer_refuses_questions_first_person_and_a_filler_close():
     assert write.line_problems("Only time will tell what Panama faces next, says USGS.", ch, src, True)
 
 
+def test_a_line_that_says_nothing_the_facts_say_goes_back_to_the_writer():
+    src = ("Panama\nOn October 9, 2026, a magnitude 7.7 earthquake struck 12 km WSW of Pitaloza Arriba, Panama.\n"
+           "The Cocos plate subducts beneath the Panama microplate; a fault is a fracture in the rock.")
+    for padding in ("The records provide a clear picture of the geological forces at work.",
+                    "This frequency shows that the region remains active.",
+                    "Every recorded event contributes to the ongoing geological history of the area."):
+        assert write.says_nothing(padding, src), padding
+    for line in ("The Cocos plate subducts beneath the Panama microplate.",
+                 "A fault is a fracture in the rock.",
+                 "On October 9, 2026, a magnitude 7.7 earthquake struck Panama.",
+                 "The sources for this information are in the description."):
+        assert not write.says_nothing(line, src), line
+
+
 def test_a_number_in_words_goes_back_to_the_writer():
     """Dry run 39697989796: "One thousand nine hundred and forty" was heard as 1,940 and the chapter failed."""
     ch = _episode().chapters[0]
@@ -263,6 +277,28 @@ def test_shots_cover_the_chapter_without_gaps():
     shots = scenes.shots_for(ch, spans, 26.0)
     assert shots[0]["start"] == 0 and shots[-1]["end"] == 26.0
     assert all(a["end"] == b["start"] for a, b in zip(shots, shots[1:]))
+
+
+def test_the_sources_card_holds_after_the_last_sentence_not_under_it():
+    ch = _episode().chapters[0]
+    ch.visuals = [{"type": "map"}, {"type": "sources"}]
+    spans = [[0.35, 4.0], [4.0, 9.0], [9.0, 20.0]]
+    shots = scenes.shots_for(ch, spans, 20.8 + scenes.END_HOLD)
+    assert [s["type"] for s in shots] == ["map", "sources"]
+    assert shots[1]["start"] >= spans[-1][1] and shots[1]["end"] - shots[1]["start"] == pytest.approx(scenes.END_HOLD)
+
+
+def test_labels_of_marks_close_together_never_overlap():
+    # Three quakes a few pixels apart, each label 380x40 to the right: stacked, not drawn over each other.
+    tags = [(500, 300, 380, 40, 24, -20), (530, 310, 380, 40, 24, -20), (540, 318, 380, 40, 24, -20)]
+    spots = scenes.place_labels(tags)
+    assert all(spots)
+    boxes = [(x + ox, y + oy, x + ox + w, y + oy + h) for (x, y, w, h, _, _), (ox, oy) in zip(tags, spots)]
+    assert not any(a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
+                   for i, a in enumerate(boxes) for b in boxes[i + 1:])
+    # A label with no free spot is left out rather than drawn over another.
+    crowd = [(500, 300, 380, 40, 24, -20)] * 7
+    assert scenes.place_labels(crowd)[-1] is None
 
 
 def test_timestamps_start_at_zero_and_youtube_rules_are_enforced():
