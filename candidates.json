@@ -1,17 +1,17 @@
 {
- "at": "2026-10-22T21:55:58+00:00",
+ "at": "2026-10-22T22:52:39+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 451000,
+   "fame": 450000,
    "views": 0,
-   "traffic": 1000,
+   "traffic": 0,
    "news": 400000,
-   "news_at": "2026-10-22T21:55:58.311061+00:00",
+   "news_at": "2026-10-22T22:52:39.350970+00:00",
    "headlines": [
-    "Casualties reported after 7.0 quake strikes China’s Tibet: State media",
+    "7.0 magnitude earthquake hit the Tibet region October 22, killing many",
     "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
     "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
@@ -19,9 +19,8 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-IN:tibet earthquake today",
     "wikipedia-current-events-2026-10-22",
-    "google-news:Casualties reported after 7.0 quake strikes China’s Tibet: State media",
+    "google-news:7.0 magnitude earthquake hit the Tibet region October 22, killing many",
     "google-news:Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "google-news:Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
     "outlet:ABC (Australia)",
@@ -136,25 +135,126 @@
    "has_coords": true
   },
   {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
    "fame": 400000,
    "views": 0,
    "traffic": 0,
-   "news": 400000,
-   "news_at": "2026-10-22T21:10:36+00:00",
+   "news": 350000,
+   "news_at": "2026-10-22T20:44:32+00:00",
    "headlines": [
-    "Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
-    "Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
-    "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
-    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
-    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93"
+    "Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "Saudi Arabia spends billions on its military. Why can't it stop deadly attacks by Iran's Houthi allies?",
+    "Indian dies in Saudi airport strike; MEA slams infrastructure attacks",
+    "Houthis say they tried to rescue 14 Indians from boat in Red Sea, allege attack by Saudi Arabia",
+    "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say"
    ],
    "region": "world",
    "via": [
-    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
-    "google-news:Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
+    "wikipedia-current-events-2026-10-21",
+    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "google-news:Saudi Arabia spends billions on its military. Why can't it stop deadly attacks by Iran's Houthi allies?",
+    "google-news:Indian dies in Saudi airport strike; MEA slams infrastructure attacks",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:HT Media",
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "HT Media",
+    "BBC",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Indian dies in Saudi airport strike; MEA slams infrastructure attacks",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/indian-dies-in-saudi-airport-strike-mea-slams-infrastructure-attacks/articleshow/135127058.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T20:44:32+00:00"
+    },
+    {
+     "title": "Houthis say they tried to rescue 14 Indians from boat in Red Sea, allege attack by Saudi Arabia",
+     "url": "https://www.hindustantimes.com/india-news/yemens-houthis-say-they-are-rescuing-14-indians-from-boat-attacked-by-saudi-in-red-sea-101792675725055.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T14:20:39+00:00"
+    },
+    {
+     "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T13:46:33+00:00"
+    },
+    {
+     "title": "HT Evening News Brief October 22: India condemns Houthi attacks in Saudi, Diljit Dosanjh concert denied police nod in Delhi and more",
+     "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-october-22-india-condemns-houthi-attacks-in-saudi-diljit-dosanjh-concert-denied-police-nod-in-delhi-and-more-101792673269946.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T13:27:43+00:00"
+    },
+    {
+     "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+     "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T13:05:30+00:00"
+    },
+    {
+     "title": "‘Unacceptable’: India slams Houthi strikes in Saudi Arabia, moves to help stranded pilgrims",
+     "url": "https://www.hindustantimes.com/india-news/india-condemns-strikes-on-civil-infrastructure-in-saudi-arabia-after-death-of-indian-national-101792669157963.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T11:39:17+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 275000,
+   "views": 0,
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-10-22T21:10:36+00:00",
+   "headlines": [
+    "Actor Tom Skerritt, who played dads, cops and commanding officers, has died",
+    "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
+    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
+    "US actor Tom Skerritt, who starred in Top Gun and Alien, dies aged 93"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Actor Tom Skerritt, who played dads, cops and commanding officers, has died",
     "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "google-news:Tom Skerritt, star of Alien and Top Gun, dies at 93",
     "outlet:BBC",
     "outlet:SCMP Group",
     "outlet:Paramount (CBS)",
@@ -162,8 +262,7 @@
     "outlet:Guardian Media Group",
     "outlet:NPR",
     "outlet:France Médias Monde",
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation"
+    "outlet:NBCUniversal"
    ],
    "owners": [
     "BBC",
@@ -173,8 +272,7 @@
     "Guardian Media Group",
     "NPR",
     "France Médias Monde",
-    "NBCUniversal",
-    "Fox Corporation"
+    "NBCUniversal"
    ],
    "reports": [
     {
@@ -262,95 +360,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 375000,
-   "views": 0,
-   "traffic": 0,
-   "news": 325000,
-   "news_at": "2026-10-22T14:20:39+00:00",
-   "headlines": [
-    "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "Saudi Arabia spends billions on its military. Why can't it stop deadly attacks by Iran's Houthi allies?",
-    "Houthis say they tried to rescue 14 Indians from boat in Red Sea, allege attack by Saudi Arabia",
-    "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-    "Some US diplomats told to leave Saudi Arabia amid Houthi attacks"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-21",
-    "google-news:Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "google-news:Saudi Arabia spends billions on its military. Why can't it stop deadly attacks by Iran's Houthi allies?",
-    "google-news:Houthis say they tried to rescue 14 Indians from boat in Red Sea, allege attack by Saudi Arabia",
-    "outlet:HT Media",
-    "outlet:BBC",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "HT Media",
-    "BBC",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Houthis say they tried to rescue 14 Indians from boat in Red Sea, allege attack by Saudi Arabia",
-     "url": "https://www.hindustantimes.com/india-news/yemens-houthis-say-they-are-rescuing-14-indians-from-boat-attacked-by-saudi-in-red-sea-101792675725055.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T14:20:39+00:00"
-    },
-    {
-     "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T13:46:33+00:00"
-    },
-    {
-     "title": "HT Evening News Brief October 22: India condemns Houthi attacks in Saudi, Diljit Dosanjh concert denied police nod in Delhi and more",
-     "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-october-22-india-condemns-houthi-attacks-in-saudi-diljit-dosanjh-concert-denied-police-nod-in-delhi-and-more-101792673269946.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T13:27:43+00:00"
-    },
-    {
-     "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
-     "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T13:05:30+00:00"
-    },
-    {
-     "title": "‘Unacceptable’: India slams Houthi strikes in Saudi Arabia, moves to help stranded pilgrims",
-     "url": "https://www.hindustantimes.com/india-news/india-condemns-strikes-on-civil-infrastructure-in-saudi-arabia-after-death-of-indian-national-101792669157963.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T11:39:17+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141615137",
@@ -481,62 +490,6 @@
    "article": null
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 58035,
-   "views": 8035,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-22T20:12:24+00:00",
-   "headlines": [
-    "Teacher wounded in Oregon school shooting played dead after she was shot",
-    "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-21",
-    "google-news:Teacher wounded in Oregon school shooting played dead after she was shot",
-    "google-news:Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
-    "outlet:Guardian Media Group",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Teacher wounded in Oregon school shooting played dead after she was shot",
-     "url": "https://www.theguardian.com/us-news/2026/oct/22/teacher-wounded-oregon-school-shooting-played-dead",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T20:12:24+00:00"
-    },
-    {
-     "title": "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
-     "url": "https://www.independent.co.uk/news/world/americas/norovirus-outbreak-kansas-elementary-school-b3071032.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-21T22:18:37+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q141776873",
    "title": "2026 Italian unrest",
    "fame": 50000,
@@ -607,6 +560,48 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 33035,
+   "views": 8035,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-22T20:12:24+00:00",
+   "headlines": [
+    "Teacher wounded in Oregon school shooting played dead after she was shot"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-21",
+    "google-news:Teacher wounded in Oregon school shooting played dead after she was shot",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Teacher wounded in Oregon school shooting played dead after she was shot",
+     "url": "https://www.theguardian.com/us-news/2026/oct/22/teacher-wounded-oregon-school-shooting-played-dead",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T20:12:24+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q1889124",
@@ -713,142 +708,13 @@
    "lon": "124.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 400000,
-   "views": 0,
-   "traffic": 0,
-   "news": 400000,
-   "news_at": "2026-10-22T21:10:36+00:00",
-   "headlines": [
-    "Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
-    "Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
-    "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
-    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
-    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
-    "google-news:Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
-    "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
-    "outlet:BBC",
-    "outlet:SCMP Group",
-    "outlet:Paramount (CBS)",
-    "outlet:ABC (Australia)",
-    "outlet:Guardian Media Group",
-    "outlet:NPR",
-    "outlet:France Médias Monde",
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "BBC",
-    "SCMP Group",
-    "Paramount (CBS)",
-    "ABC (Australia)",
-    "Guardian Media Group",
-    "NPR",
-    "France Médias Monde",
-    "NBCUniversal",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
-     "url": "https://www.bbc.co.uk/news/articles/cqrkyly2p54xo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T21:10:36+00:00"
-    },
-    {
-     "title": "Tom Skerritt, star of Alien and Top Gun, dies at 93",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371834/tom-skerritt-star-alien-and-top-gun-dies-93",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T21:02:38+00:00"
-    },
-    {
-     "title": "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-     "url": "https://www.cbsnews.com/news/tom-skerritt-dies-age-93-alien-top-gun-picket-fences/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T20:56:00+00:00"
-    },
-    {
-     "title": "US actor Tom Skerritt, who starred in Top Gun and Alien, dies aged 93",
-     "url": "https://www.abc.net.au/news/2026-10-23/us-actor-tom-skerritt-top-gun-alien-dies-93/107299410",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T20:51:05+00:00"
-    },
-    {
-     "title": "Tom Skerritt, Alien and Top Gun actor, dies aged 93",
-     "url": "https://www.theguardian.com/film/2026/oct/22/tom-skerritt-actor-dead",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T20:19:49+00:00"
-    },
-    {
-     "title": "Actor Tom Skerritt, who played dads, cops and commanding officers, has died",
-     "url": "https://www.npr.org/2026/10/22/981035400/tom-skerritt-dead",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T20:12:52+00:00"
-    },
-    {
-     "title": "Emmy-winning US actor Tom Skerritt, known for ‘Top Gun’ and ‘Picket Fences’, dies at 93",
-     "url": "https://www.france24.com/en/culture/20261022-emmy-winning-us-actor-tom-skerritt-top-gun-and-picket-fences-dies-93",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T20:11:54+00:00"
-    },
-    {
-     "title": "Tom Skerritt, star of ‘Alien’ and ‘Top Gun,’ dies at 93",
-     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/tom-skerritt-star-alien-top-gun-dies-93-rcna605077",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T19:42:15+00:00"
-    }
-   ],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 823,
+  "headlines": 817,
   "feeds": 30,
   "owners": 21,
   "matched": 49,
-  "corroborated": 7
+  "corroborated": 6
  },
  "emerging": [
   {
@@ -927,5 +793,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 49 matched to articles, 7 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
+ "outlet_note": "outlets: 817 headlines from 30 feeds (21 owners), 49 matched to articles, 6 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
 }
