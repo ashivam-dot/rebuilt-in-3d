@@ -303,6 +303,14 @@ def test_a_story_id_kept_this_run_keeps_its_tag_until_a_later_run(monkeypatch):
     assert youtube.find(yt, UPLOADS, "wk-Q9")["id"] == "V9"
 
 
+def test_two_uploads_of_one_unpublished_story_do_not_hold_the_untag_forever():
+    """The b3 re-check (2026-10-22): the second upload's story id is already kept, so it is no new mapping."""
+    yt = FakeYouTube([video("V1", [youtube.MARKER + "wk-Q9"]), video("V2", [youtube.MARKER + "wk-Q9"])])
+    assert "untag 0 done, 2 left, 1 story ids kept first" in run(yt, jobs={"untag"})
+    assert ledger.markers() == {"wk-Q9": "V1"}
+    assert "untag 2 done, 0 left" in run(yt, jobs={"untag"})
+
+
 def test_a_stale_read_back_is_read_again_and_a_5xx_is_no_strike(monkeypatch):
     monkeypatch.setattr(channel, "READBACK_WAIT", 0)
     yt = FakeYouTube([video("A", [youtube.MARKER + "wk-Q1"]), video("B", [youtube.MARKER + "wk-Q2"])])

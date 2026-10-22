@@ -391,7 +391,7 @@ def remember(videos: list[dict]) -> int:
             row = by_story.get(story)
             if row is not None and not row.get("video_id"):
                 row["video_id"], changed = v["id"], changed + 1
-            elif row is None and story not in ledger.uploads() and v["id"] not in owned:
+            elif row is None and story not in ledger.uploads() and story not in ledger.markers() and v["id"] not in owned:
                 ledger.remember_marker(story, v["id"])
                 owned.add(v["id"])
                 added += 1
