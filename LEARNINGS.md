@@ -1,25 +1,26 @@
 # What this channel's own numbers say
 
-Updated 2026-10-22T11:41:36+00:00. Scored Shorts (views at 24 h): 40. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-22T14:51:36+00:00. Scored Shorts (views at 24 h): 40. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 158 views at 24 h.
-Retention: a typical Short is watched 54.7% through; a group's retention is blended into its lift at 0.5.
-- kind:death: x1.095 ranking lift (11 Shorts, typical 212 views; 7 with retention, typically 51.9% watched)
-- kind:incident: x1.067 ranking lift (22 Shorts, typical 187 views; 20 with retention, typically 54.0% watched)
-- category:protest: x1.039 ranking lift (5 Shorts, typical 213 views; 4 with retention, typically 45.7% watched)
-- category:death: x1.027 ranking lift (10 Shorts, typical 173 views; 6 with retention, typically 53.7% watched)
-- kind:quake: x0.755 ranking lift (7 Shorts, typical 59 views; 6 with retention, typically 60.8% watched)
+Retention: a typical Short is watched 54.3% through; a group's retention is blended into its lift at 0.5.
+- kind:death: x1.09 ranking lift (11 Shorts, typical 212 views; 9 with retention, typically 51.0% watched)
+- kind:incident: x1.07 ranking lift (22 Shorts, typical 187 views; 20 with retention, typically 54.0% watched)
+- category:protest: x1.04 ranking lift (5 Shorts, typical 213 views; 4 with retention, typically 45.7% watched)
+- category:death: x1.02 ranking lift (10 Shorts, typical 173 views; 8 with retention, typically 52.2% watched)
+- kind:quake: x0.757 ranking lift (7 Shorts, typical 59 views; 6 with retention, typically 60.8% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1044 |  |
-| wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 333 | 325 |
-| wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 157 | 128 |
+| nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 3 |  |
+| nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1114 |  |
+| wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 349 | 325 |
+| wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 159 | 128 |
 | wk-Q1889124 | 2026-10-20T00:12 | death | death | 613 | 520 |
 | wk-Q5115327 | 2026-10-19T16:51 | death | death | 446 | 371 |
-| wk-Q1702112 | 2026-10-19T14:33 | death | death | 548 | 385 |
-| wk-Q3837943 | 2026-10-19T12:32 | death | death | 878 | 732 |
-| wk-Q438492 | 2026-10-19T10:18 | death | death | 1359 | 1272 |
+| wk-Q1702112 | 2026-10-19T14:33 | death | death | 551 | 385 |
+| wk-Q3837943 | 2026-10-19T12:32 | death | death | 883 | 732 |
+| wk-Q438492 | 2026-10-19T10:18 | death | death | 1360 | 1272 |
 | nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1104 | 1078 |
 | wk-Q141592947-2026w42 | 2026-10-18T21:39 | incident | protest | 264 | 207 |
 | nw-20261017-paris-protest | 2026-10-18T11:34 | incident | protest | 325 | 313 |
@@ -37,8 +38,7 @@ Retention: a typical Short is watched 54.7% through; a group's retention is blen
 | wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 886 | 673 |
 | wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 287 | 268 |
 | wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 92 | 38 |
-| wk-Q11738696 | 2026-10-14T12:14 | death | death | 181 | 87 |
+| wk-Q11738696 | 2026-10-14T12:14 | death | death | 182 | 87 |
 | wk-Q141695384 | 2026-10-14T02:05 | incident | conflict | 352 | 294 |
 | wk-Q141670823 | 2026-10-13T21:57 | incident | cyclone | 688 | 650 |
 | wk-Q141712628 | 2026-10-13T12:07 | incident | attack | 164 | 71 |
-| wk-Q141679225 | 2026-10-12T11:51 | incident | disaster | 261 | 104 |

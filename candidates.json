@@ -1,48 +1,7 @@
 {
- "at": "2026-10-22T13:51:40+00:00",
+ "at": "2026-10-22T14:51:38+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 192783,
-   "views": 42783,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-22T09:50:56+00:00",
-   "headlines": [
-    "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-    "French authorities ban some student protests after weekend looting and clashes"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-21",
-    "google-news:Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-    "google-news:French authorities ban some student protests after weekend looting and clashes",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "French authorities ban some student protests after weekend looting and clashes",
-     "url": "https://www.independent.co.uk/news/world/europe/french-paris-emmanuel-macron-lyon-grenoble-b3071345.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T09:50:56+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-22",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q141695384",
    "title": "October 2026 Houthi attacks on Saudi Arabian airports",
@@ -82,6 +41,211 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261021-oregon-attack",
+   "qid": null,
+   "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-21",
+   "news_at": "2026-10-22T14:21:23+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Fox Corporation",
+    "BBC",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Teacher who survived Bend shooting tried to close door, ‘but the shooter was already there’",
+    "Injured Bend, Oregon, teacher tried to shut classroom door during school shooting before playing dead",
+    "Teacher in Oregon shooting said she pretended to be dead to survive",
+    "Teacher injured in Oregon shooting shares emotional survival story"
+   ],
+   "places": [
+    "Bend"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+     "url": "https://www.bbc.co.uk/news/articles/cqvgrmzdzgr7o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T14:09:54+00:00"
+    },
+    {
+     "title": "Teacher injured in Oregon shooting shares emotional survival story",
+     "url": "https://www.cbsnews.com/video/teacher-injured-in-oregon-shooting-shares-emotional-survival-story/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:21:23+00:00"
+    },
+    {
+     "title": "Injured Bend, Oregon, teacher tried to shut classroom door during school shooting before playing dead",
+     "url": "https://www.foxnews.com/us/injured-bend-oregon-teacher-tried-shut-classroom-door-during-school-shooting-before-playing-dead",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:27:27+00:00"
+    },
+    {
+     "title": "Teacher who survived Bend shooting tried to close door, ‘but the shooter was already there’",
+     "url": "https://www.nbcnews.com/news/us-news/teacher-survived-bend-shooting-tried-close-door-shooter-was-already-rcna604904",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-21T23:49:34+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Fox Corporation",
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 92783,
+   "views": 42783,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-22T14:21:42+00:00",
+   "headlines": [
+    "French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
+    "French authorities ban some student protests after weekend looting and clashes"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-21",
+    "google-news:French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
+    "google-news:French authorities ban some student protests after weekend looting and clashes",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "France Médias Monde",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "French PM Sebastien Lecornu meets with leaders of political parties amid unrest",
+     "url": "https://www.france24.com/en/video/20261022-french-pm-sebastien-lecornu-meets-with-leaders-of-political-parties-amid-unrest",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T14:21:42+00:00"
+    },
+    {
+     "title": "French authorities ban some student protests after weekend looting and clashes",
+     "url": "https://www.independent.co.uk/news/world/europe/french-paris-emmanuel-macron-lyon-grenoble-b3071345.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T09:50:56+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-22",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-10-22T14:14:53+00:00",
+   "headlines": [
+    "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+    "John Anderson, country music Hall of Famer, dies at 71",
+    "John Anderson, country music hall of famer, dead at 71"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+    "google-news:John Anderson, country music Hall of Famer, dies at 71",
+    "google-news:John Anderson, country music hall of famer, dead at 71",
+    "outlet:NBCUniversal",
+    "outlet:Paramount (CBS)",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "NBCUniversal",
+    "Paramount (CBS)",
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+     "url": "https://www.nbcnews.com/pop-culture/music/john-anderson-country-singer-seminole-wind-dies-71-rcna604985",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:14:53+00:00"
+    },
+    {
+     "title": "John Anderson, country music Hall of Famer, dies at 71",
+     "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:22:26+00:00"
+    },
+    {
+     "title": "John Anderson, country music hall of famer, dead at 71",
+     "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T11:39:24+00:00"
+    }
+   ],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "id": "nw-20261021-macron-protest",
@@ -160,76 +324,40 @@
    "article": null
   },
   {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-22T12:22:26+00:00",
-   "headlines": [
-    "John Anderson, country music Hall of Famer, dies at 71",
-    "John Anderson, country music hall of famer, dead at 71"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:John Anderson, country music Hall of Famer, dies at 71",
-    "google-news:John Anderson, country music hall of famer, dead at 71",
-    "outlet:Paramount (CBS)",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Paramount (CBS)",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "John Anderson, country music Hall of Famer, dies at 71",
-     "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T12:22:26+00:00"
-    },
-    {
-     "title": "John Anderson, country music hall of famer, dead at 71",
-     "url": "https://www.foxnews.com/entertainment/john-anderson-country-music-hall-famer-dead-71",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T11:39:24+00:00"
-    }
-   ],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 33035,
+   "fame": 58035,
    "views": 8035,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-21T22:18:37+00:00",
+   "news": 50000,
+   "news_at": "2026-10-22T14:26:12+00:00",
    "headlines": [
+    "Teacher who survived Oregon school shooting recounts playing dead",
     "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-21",
+    "google-news:Teacher who survived Oregon school shooting recounts playing dead",
     "google-news:Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
+    "outlet:Paramount (CBS)",
     "outlet:Independent Digital News"
    ],
    "owners": [
+    "Paramount (CBS)",
     "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "Teacher who survived Oregon school shooting recounts playing dead",
+     "url": "https://www.cbsnews.com/news/oregon-school-shooting-survivor-teacher-beck-drury/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:26:12+00:00"
+    },
     {
      "title": "Nearly 100 kids, staff at Kansas elementary school come down with norovirus in outbreak",
      "url": "https://www.independent.co.uk/news/world/americas/norovirus-outbreak-kansas-elementary-school-b3071032.html",
@@ -330,26 +458,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q19975570",
-   "title": "Hyron Andrews",
-   "fame": 2000,
-   "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:rugby player"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q19975570",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -357,115 +465,53 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.231 million .",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.543 million .",
    "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "20.9",
-   "lon": "125.4"
+   "lat": "21.2",
+   "lon": "124.9"
   }
  ],
  "candidates": [
   {
-   "id": "nw-20261021-macron-protest",
-   "qid": null,
-   "title": "France bans protests in parts of Paris as Macron slams Trump",
-   "name": "Macron",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-21",
-   "news_at": "2026-10-22T13:12:22+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France bans protests in parts of Paris as Macron slams Trump",
-    "Macron blames ‘seditious’ far left for unrest as France bans some protests",
-    "France unrest: Macron vows ban on 'illegitimate' protests in coming days"
-   ],
-   "places": [
-    "Paris",
-    "Trump"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France bans protests in parts of Paris as Macron slams Trump",
-     "url": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-21T22:32:00+00:00"
-    },
-    {
-     "title": "Macron blames ‘seditious’ far left for unrest as France bans some protests",
-     "url": "https://www.aljazeera.com/news/2026/10/22/macron-blames-seditious-ultra-left-for-unrest-as-france-bans-protests?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T13:12:22+00:00"
-    },
-    {
-     "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
-     "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T11:26:32+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
-   "fame": 50000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-22T12:22:26+00:00",
+   "news": 75000,
+   "news_at": "2026-10-22T14:14:53+00:00",
    "headlines": [
+    "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
     "John Anderson, country music Hall of Famer, dies at 71",
     "John Anderson, country music hall of famer, dead at 71"
    ],
    "region": "world",
    "via": [
+    "google-news:John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
     "google-news:John Anderson, country music Hall of Famer, dies at 71",
     "google-news:John Anderson, country music hall of famer, dead at 71",
+    "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
     "outlet:Fox Corporation"
    ],
    "owners": [
+    "NBCUniversal",
     "Paramount (CBS)",
     "Fox Corporation"
    ],
    "reports": [
+    {
+     "title": "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
+     "url": "https://www.nbcnews.com/pop-culture/music/john-anderson-country-singer-seminole-wind-dies-71-rcna604985",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:14:53+00:00"
+    },
     {
      "title": "John Anderson, country music Hall of Famer, dies at 71",
      "url": "https://www.cbsnews.com/news/john-anderson-dies-age-71-country-music-hall-of-famer/",
@@ -491,16 +537,192 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "id": "nw-20261021-oregon-attack",
+   "qid": null,
+   "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-21",
+   "news_at": "2026-10-22T14:21:23+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Fox Corporation",
+    "BBC",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Teacher who survived Bend shooting tried to close door, ‘but the shooter was already there’",
+    "Injured Bend, Oregon, teacher tried to shut classroom door during school shooting before playing dead",
+    "Teacher in Oregon shooting said she pretended to be dead to survive",
+    "Teacher injured in Oregon shooting shares emotional survival story"
+   ],
+   "places": [
+    "Bend"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+     "url": "https://www.bbc.co.uk/news/articles/cqvgrmzdzgr7o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T14:09:54+00:00"
+    },
+    {
+     "title": "Teacher injured in Oregon shooting shares emotional survival story",
+     "url": "https://www.cbsnews.com/video/teacher-injured-in-oregon-shooting-shares-emotional-survival-story/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:21:23+00:00"
+    },
+    {
+     "title": "Injured Bend, Oregon, teacher tried to shut classroom door during school shooting before playing dead",
+     "url": "https://www.foxnews.com/us/injured-bend-oregon-teacher-tried-shut-classroom-door-during-school-shooting-before-playing-dead",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:27:27+00:00"
+    },
+    {
+     "title": "Teacher who survived Bend shooting tried to close door, ‘but the shooter was already there’",
+     "url": "https://www.nbcnews.com/news/us-news/teacher-survived-bend-shooting-tried-close-door-shooter-was-already-rcna604904",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-21T23:49:34+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Fox Corporation",
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
  "outlets": {
-  "headlines": 797,
+  "headlines": 798,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
-  "corroborated": 2
+  "matched": 18,
+  "corroborated": 5
  },
  "emerging": [
+  {
+   "id": "nw-20261021-oregon-attack",
+   "qid": null,
+   "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-21",
+   "news_at": "2026-10-22T14:21:23+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Fox Corporation",
+    "BBC",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Teacher who survived Bend shooting tried to close door, ‘but the shooter was already there’",
+    "Injured Bend, Oregon, teacher tried to shut classroom door during school shooting before playing dead",
+    "Teacher in Oregon shooting said she pretended to be dead to survive",
+    "Teacher injured in Oregon shooting shares emotional survival story"
+   ],
+   "places": [
+    "Bend"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+     "url": "https://www.bbc.co.uk/news/articles/cqvgrmzdzgr7o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T14:09:54+00:00"
+    },
+    {
+     "title": "Teacher injured in Oregon shooting shares emotional survival story",
+     "url": "https://www.cbsnews.com/video/teacher-injured-in-oregon-shooting-shares-emotional-survival-story/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T14:21:23+00:00"
+    },
+    {
+     "title": "Injured Bend, Oregon, teacher tried to shut classroom door during school shooting before playing dead",
+     "url": "https://www.foxnews.com/us/injured-bend-oregon-teacher-tried-shut-classroom-door-during-school-shooting-before-playing-dead",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T12:27:27+00:00"
+    },
+    {
+     "title": "Teacher who survived Bend shooting tried to close door, ‘but the shooter was already there’",
+     "url": "https://www.nbcnews.com/news/us-news/teacher-survived-bend-shooting-tried-close-door-shooter-was-already-rcna604904",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-21T23:49:34+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Fox Corporation",
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261021-macron-protest",
    "qid": null,
@@ -578,5 +800,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-macron-protest"
+ "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 18 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261021-oregon-attack, nw-20261021-macron-protest"
 }

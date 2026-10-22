@@ -1,17 +1,13 @@
 {
- "at": "2026-10-22T13:51:39+00:00",
+ "at": "2026-10-22T14:51:36+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag 0 done, 10 left; 1486 units today",
+  "learn: 40 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.757, 'typical_views_24h': 59, 'n_retention': 6, 'typical_view_pct': 60.8}, 'kind:death': {'n': 11, 'lift': 1.09, 'typical_views_24h': 212, 'n_retention': 9, 'typical_view_pct': 51.0}, 'kind:incident': {'n': 22, 'lift': 1.07, 'typical_views_24h': 187, 'n_retention': 20, 'typical_view_pct': 54.0}, 'category:death': {'n': 10, 'lift': 1.",
+  "channel jobs (setup+untag): untag 0 done, 10 left; 1489 units today",
   "watch: 2 candidates (0 quakes, 10 trending), 1 hazard alerts",
-  "outlets: 797 headlines from 30 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-macron-protest",
-  "published nw-20261021-macron-protest: https://www.youtube.com/shorts/gCQ4ZWtobXA"
- ],
- "published": {
-  "video_id": "gCQ4ZWtobXA",
-  "url": "https://www.youtube.com/shorts/gCQ4ZWtobXA",
-  "title": "Macron Bans Illegitimate Protests Following Riots",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "outlets: 798 headlines from 30 feeds (21 owners), 18 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261021-oregon-attack, nw-20261021-macron-protest",
+  "hold wk-Q1699148: last Short went out 0.6 h ago",
+  "hold nw-20261021-oregon-attack: last Short went out 0.6 h ago",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261021-oregon-attack"
+ ]
 }
