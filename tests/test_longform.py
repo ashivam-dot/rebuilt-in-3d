@@ -237,6 +237,17 @@ def test_writer_refuses_questions_first_person_and_a_filler_close():
     assert write.line_problems("Only time will tell what Panama faces next, says USGS.", ch, src, True)
 
 
+def test_a_number_in_words_goes_back_to_the_writer():
+    """Dry run 39697989796: "One thousand nine hundred and forty" was heard as 1,940 and the chapter failed."""
+    ch = _episode().chapters[0]
+    src = write.ground(_episode(), ch)
+    assert any("in digits" in p for p in write.line_problems(
+        "One thousand nine hundred and forty people sent a report to the USGS.", ch, src, False))
+    assert any("in digits" in p for p in write.line_problems("Forty-two quakes struck Panama in 1900.", ch, src, False))
+    for fine in ("Thousands of people felt the quake in Panama, USGS says.", "Two quakes struck Panama in 1900."):
+        assert not any("in digits" in p for p in write.line_problems(fine, ch, src, False)), fine
+
+
 # --- chapters, timestamps, length -----------------------------------------------------------------------------------
 
 def test_chapter_lengths_are_whole_frames_and_the_last_holds_the_sources_card():

@@ -20,6 +20,11 @@ from .spec import Chapter, Episode
 
 DRAFTS = 3
 LINE_WORDS = (6, 32)
+# A number written out ("One thousand nine hundred and forty") is neither fact-checked nor heard back: Whisper writes
+# 1,940, so the voice check calls the take garbled (dry run 39697989796, cold-open beat 6, 54% heard). "Thousands of"
+# is a vague count, not a number, so plurals pass; words up to ten are fine.
+SPELLED_NUMBER = re.compile(r"\b(?:hundred|thousand|eleven|twelve|(?:thir|four|fif|six|seven|eigh|nine)teen|"
+                            r"(?:twen|thir|for|fif|six|seven|eigh|nine)ty)\b", re.I)
 LINES_SCHEMA = {"type": "object", "properties": {"lines": {"type": "array", "items": {"type": "string"}}},
                 "required": ["lines"]}
 SYSTEM = ("You are the head writer of Orbitwire Explains, a calm, precise science documentary series on YouTube. You "
@@ -68,6 +73,8 @@ def line_problems(line: str, ch: Chapter, src: str, last: bool) -> list[str]:
         out.append(f"{line[:50]!r}: {n} words (want {LINE_WORDS[0]}-{LINE_WORDS[1]})")
     if missing := writer.ungrounded(line, src):
         out.append(f"{line[:50]!r}: not in the facts or source: {', '.join(missing)}")
+    if hit := SPELLED_NUMBER.search(line):
+        out.append(f"{line[:50]!r}: number in words ({hit.group(0)!r}): write it in digits as the facts do")
     if (word := gate.banned_word(line)) is not None:
         out.append(f"{line[:50]!r}: banned word {word!r}")
     if not casualty_ok(line, ch):
