@@ -885,15 +885,16 @@ def event_photos(names: list[str], when: date, category: str | None, folder: Pat
 THINGS = ("police", "parliament", "school", "court", "hospital", "embassy")
 
 
-def thing_photos(reports: list[dict], country: str, folder: Path, exclude: set[str], limit: int = 2) -> list[dict]:
-    """Photos of the things at least two owners' reports name (THINGS), in the story's country."""
+def thing_photos(reports: list[dict], country: str, folder: Path, exclude: set[str], limit: int = 2,
+                 need: int = gate.OWNERS_NEEDED) -> list[dict]:
+    """Photos of the things at least `need` owners' reports name (THINGS), in the story's country."""
     out: list[dict] = []
     if not country:
         return out
     for word in THINGS:
         if len(out) >= limit:
             break
-        if len(gate.reported(word, reports)) < gate.OWNERS_NEEDED:
+        if len(gate.reported(word, reports)) < need:
             continue
         try:
             found = media.named(country, word, limit=3, exclude=exclude | {p["file"] for p in out})
@@ -904,22 +905,31 @@ def thing_photos(reports: list[dict], country: str, folder: Path, exclude: set[s
     return out
 
 
-def named_people(name: str, reports: list[dict], limit: int = 3) -> list[str]:
-    """The people at least two owners' reports name ("Emmanuel Macron"), as Wikipedia titles them; the story's own
-    subject first when it is a person. Each is checked to be a human on Wikidata (story_person)."""
-    counts: dict[str, set[str]] = {}
+def named_people(name: str, reports: list[dict], limit: int = 3, need: int = gate.OWNERS_NEEDED) -> list[str]:
+    """The people the reports name ("Emmanuel Macron"), at least `need` owners each (an incident passes its Wikipedia
+    article as one report, need=1), as Wikipedia titles them, most named first. Each is checked to be a human on
+    Wikidata (story_person). Names are runs of capitalised words, tried two and three at a time ("Prime Minister
+    Giorgia Meloni" -> "Giorgia Meloni")."""
+    owners: dict[str, set[str]] = {}
+    times: dict[str, int] = {}
     for r in reports:
-        for m in re.finditer(r"\b([A-Z][a-z\u00C0-\u017F'\-]+(?: [A-Z][a-z\u00C0-\u017F'\-]+){1,2})\b", r.get("text") or ""):
-            counts.setdefault(m.group(1), set()).add(r["owner"])
-    cands = [n for n, o in sorted(counts.items(), key=lambda kv: -len(kv[1])) if len(o) >= gate.OWNERS_NEEDED
-             and not any(ordinary(w.lower()) for w in n.split()[:1])][:6]
-    out = []
+        for run in re.finditer(r"\b[A-Z][a-z\u00C0-\u017F'\-]+(?: [A-Z][a-z\u00C0-\u017F'\-]+)+", r.get("text") or ""):
+            words = run.group(0).split()
+            for n in (2, 3):
+                for i in range(len(words) - n + 1):
+                    cand = " ".join(words[i:i + n])
+                    if ordinary(words[i].lower()):
+                        continue
+                    owners.setdefault(cand, set()).add(r["owner"])
+                    times[cand] = times.get(cand, 0) + 1
+    cands = sorted((c for c, o in owners.items() if len(o) >= need), key=lambda c: (-len(owners[c]), -times[c]))[:8]
+    out: list[str] = []
     for cand in cands:
         try:
             title, _ = story_person(cand, reports)
         except Exception:
             continue
-        if title and title not in out:
+        if title and stories.plain_title(title) not in out and stories.plain_title(title).lower() != name.lower():
             out.append(stories.plain_title(title))
         if len(out) >= limit:
             break
@@ -1305,6 +1315,18 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
         photos += event_photos([name] + place_names(stories._first(ib, *PLACE_FIELDS[:5])), when, cat,
                                work / "photos", {p["file"] for p in photos})
+    # The people and things the article names, so a beat that names one shows it (owner, 2026-10-22: "no Macron
+    # photo, no school photo").
+    try:
+        article_text = [{"owner": "Wikipedia", "text": "" if cand.get("photo_files") else wiki.article_text(article)}]
+    except Exception:
+        article_text = [{"owner": "Wikipedia", "text": ""}]
+    people = named_people(name, article_text, need=1) if article_text[0]["text"] else []
+    if people:
+        photos += people_photos(people, work / "photos", {p["file"] for p in photos})
+    if article_text[0]["text"] and cat not in gate.SHOWS:
+        photos += thing_photos(article_text, (place_names(stories._first(ib, *PLACE_FIELDS[:5])) or [""])[-1],
+                               work / "photos", {p["file"] for p in photos}, need=1)
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
         photos += nasa_photos(cat, [name], when, work / "photos", {p["file"] for p in photos},
                               WANT_PHOTOS - len(photos))
@@ -1364,7 +1386,7 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     headlines = [h for h in cand.get("headlines") or [] if not ungrounded(h, source)]
     draft, log = write(kind, name, "It", facts_text, source, photos,
                        banned_names=banned, log_path=work / "writer_log.json", headlines=headlines,
-                       series=cand.get("series"), reports=reports, casualties=deaths is not None)
+                       series=cand.get("series"), reports=reports, casualties=deaths is not None, people=people)
     loss = bool(deaths) or cat in ("attack", "strike", "conflict")
     facts = [Fact("name", name, page, stories.numbers_in(name), "Wikipedia article title"),
              Fact("date", stories.date_words(when), item, [str(when.day), str(when.year)],
@@ -1381,7 +1403,7 @@ def build_incident(cand: dict, views: bool = False) -> Short:
                    + ([region] if region else []),
                    summary=f"{name}, {stories.date_words(when)}: what happened, from "
                            f"{'Wikipedia and Wikidata' if qid else 'Wikipedia'}.",
-                   hashtags=[cat, region or "world", "news"], reports=reports)
+                   hashtags=[cat, region or "world", "news"], reports=reports, people=people)
     if site:
         label = name if len(name) <= 22 else region or stories.city_of(where) or name[:22]
         short = in_3d(short, site, label, when)

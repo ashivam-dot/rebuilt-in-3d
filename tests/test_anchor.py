@@ -243,3 +243,12 @@ def test_an_unrest_is_found_by_where_it_happened(monkeypatch):
     monkeypatch.setattr(net, "get_json", _search(["Demonstrations and protests in Italy in 2026", "2026 in Italy"]))
     assert media.event_categories("Italy", date(2026, 10, 16), "conflict") == [
         "Demonstrations and protests in Italy in 2026"]
+
+
+def test_a_title_before_a_name_is_dropped_and_an_articles_people_are_found(monkeypatch):
+    asked = []
+    monkeypatch.setattr(writer, "story_person", lambda name, reports=None: asked.append(name) or
+                        (("Giorgia Meloni", {}) if name == "Giorgia Meloni" else (None, {})))
+    text = [{"owner": "Wikipedia", "text": "Prime Minister Giorgia Meloni condemned the violence."}]
+    assert REAL["named_people"]("2026 Italian unrest", text, need=1) == ["Giorgia Meloni"]
+    assert "Giorgia Meloni" in asked and not any(a.startswith("Prime") for a in asked)
