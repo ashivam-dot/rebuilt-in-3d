@@ -1,43 +1,101 @@
 {
- "at": "2026-10-22T20:33:46+00:00",
+ "at": "2026-10-22T21:55:58+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 401000,
+   "fame": 451000,
    "views": 0,
    "traffic": 1000,
-   "news": 350000,
-   "news_at": "2026-10-22T20:33:46.238700+00:00",
+   "news": 400000,
+   "news_at": "2026-10-22T21:55:58.311061+00:00",
    "headlines": [
     "Casualties reported after 7.0 quake strikes China’s Tibet: State media",
-    "Earthquake of magnitude 7 strikes China's Tibet",
-    "Casualties reported after 7.0 quake strikes China’s Tibet",
-    "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-    "A magnitude 7 earthquake shakes China's Tibet"
+    "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
+    "Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
+    "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
+    "16 killed, 32 injured in magnitude 7 earthquake in Tibet; rescue ops under way"
    ],
    "region": "world",
    "via": [
     "google-trends-IN:tibet earthquake today",
     "wikipedia-current-events-2026-10-22",
     "google-news:Casualties reported after 7.0 quake strikes China’s Tibet: State media",
-    "google-news:Earthquake of magnitude 7 strikes China's Tibet",
-    "google-news:Casualties reported after 7.0 quake strikes China’s Tibet",
+    "google-news:Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
+    "google-news:Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Disney (ABC News)"
    ],
    "owners": [
+    "ABC (Australia)",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co.",
+    "France Médias Monde",
+    "Paramount (CBS)",
     "SCMP Group",
     "Euronews",
-    "Disney (ABC News)",
-    "Bennett, Coleman & Co."
+    "Disney (ABC News)"
    ],
    "reports": [
     {
-     "title": "Casualties reported after 7.0 quake strikes China’s Tibet",
+     "title": "Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
+     "url": "https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T21:31:09+00:00"
+    },
+    {
+     "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
+     "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T21:23:01+00:00"
+    },
+    {
+     "title": "16 killed, 32 injured in magnitude 7 earthquake in Tibet; rescue ops under way",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/16-killed-32-injured-in-magnitude-7-earthquake-in-tibet-region/articleshow/135127549.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-22T21:15:33+00:00"
+    },
+    {
+     "title": "Strong earthquake strikes China’s remote Tibet region",
+     "url": "https://www.france24.com/en/asia-pacific/20261022-many-dead-massive-earthquake-strikes-china-s-remote-tibet-region-magnitude-seven",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T21:09:38+00:00"
+    },
+    {
+     "title": "At least 16 dead when powerful 7.0 magnitude earthquake strikes Tibet",
+     "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T21:01:00+00:00"
+    },
+    {
+     "title": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
      "url": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
@@ -65,16 +123,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-22T16:26:26+00:00"
-    },
-    {
-     "title": "Earthquake of magnitude 7.0 hits Tibet",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/earthquake-of-magnitude-7-0-strikes-tibet/articleshow/135121550.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T14:52:10+00:00"
     }
    ],
    "id": "wk-Q141807978",
@@ -88,12 +136,140 @@
    "has_coords": true
   },
   {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
    "fame": 400000,
    "views": 0,
    "traffic": 0,
-   "news": 350000,
+   "news": 400000,
+   "news_at": "2026-10-22T21:10:36+00:00",
+   "headlines": [
+    "Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
+    "Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
+    "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
+    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
+    "google-news:Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
+    "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "outlet:BBC",
+    "outlet:SCMP Group",
+    "outlet:Paramount (CBS)",
+    "outlet:ABC (Australia)",
+    "outlet:Guardian Media Group",
+    "outlet:NPR",
+    "outlet:France Médias Monde",
+    "outlet:NBCUniversal",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "BBC",
+    "SCMP Group",
+    "Paramount (CBS)",
+    "ABC (Australia)",
+    "Guardian Media Group",
+    "NPR",
+    "France Médias Monde",
+    "NBCUniversal",
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+     "url": "https://www.bbc.co.uk/news/articles/cqrkyly2p54xo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T21:10:36+00:00"
+    },
+    {
+     "title": "Tom Skerritt, star of Alien and Top Gun, dies at 93",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371834/tom-skerritt-star-alien-and-top-gun-dies-93",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T21:02:38+00:00"
+    },
+    {
+     "title": "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
+     "url": "https://www.cbsnews.com/news/tom-skerritt-dies-age-93-alien-top-gun-picket-fences/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T20:56:00+00:00"
+    },
+    {
+     "title": "US actor Tom Skerritt, who starred in Top Gun and Alien, dies aged 93",
+     "url": "https://www.abc.net.au/news/2026-10-23/us-actor-tom-skerritt-top-gun-alien-dies-93/107299410",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T20:51:05+00:00"
+    },
+    {
+     "title": "Tom Skerritt, Alien and Top Gun actor, dies aged 93",
+     "url": "https://www.theguardian.com/film/2026/oct/22/tom-skerritt-actor-dead",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T20:19:49+00:00"
+    },
+    {
+     "title": "Actor Tom Skerritt, who played dads, cops and commanding officers, has died",
+     "url": "https://www.npr.org/2026/10/22/981035400/tom-skerritt-dead",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T20:12:52+00:00"
+    },
+    {
+     "title": "Emmy-winning US actor Tom Skerritt, known for ‘Top Gun’ and ‘Picket Fences’, dies at 93",
+     "url": "https://www.france24.com/en/culture/20261022-emmy-winning-us-actor-tom-skerritt-top-gun-and-picket-fences-dies-93",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T20:11:54+00:00"
+    },
+    {
+     "title": "Tom Skerritt, star of ‘Alien’ and ‘Top Gun,’ dies at 93",
+     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/tom-skerritt-star-alien-top-gun-dies-93-rcna605077",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T19:42:15+00:00"
+    }
+   ],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 375000,
+   "views": 0,
+   "traffic": 0,
+   "news": 325000,
    "news_at": "2026-10-22T14:20:39+00:00",
    "headlines": [
     "Attack on Saudi Arabia’s King Fahd airport kills two people",
@@ -110,14 +286,12 @@
     "google-news:Houthis say they tried to rescue 14 Indians from boat in Red Sea, allege attack by Saudi Arabia",
     "outlet:HT Media",
     "outlet:BBC",
-    "outlet:Guardian Media Group",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Guardian Media Group"
    ],
    "owners": [
     "HT Media",
     "BBC",
-    "Guardian Media Group",
-    "Bennett, Coleman & Co."
+    "Guardian Media Group"
    ],
    "reports": [
     {
@@ -169,16 +343,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-22T11:39:17+00:00"
-    },
-    {
-     "title": "Houthis claim Saudi Arabia targeted boat carrying 14 Indians; launch rescue ops",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/houthis-claim-saudi-arabia-targeted-boat-carrying-14-indians-launch-rescue-ops/articleshow/135115900.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T10:24:44+00:00"
     }
    ],
    "id": "wk-Q141695384",
@@ -187,220 +351,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 400000,
-   "views": 0,
-   "traffic": 0,
-   "news": 400000,
-   "news_at": "2026-10-22T20:33:31+00:00",
-   "headlines": [
-    "Tom Skerritt, Star of ‘Picket Fences’ and ‘Alien,’ Dies at 93",
-    "US actor Tom Skerritt, who starred in Picket Fences, Mash and Alien, dies aged 93",
-    "Veteran actor Tom Skerritt dies at 93",
-    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-    "Tom Skerritt, Alien and Top Gun actor, dies at 93"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Tom Skerritt, Star of ‘Picket Fences’ and ‘Alien,’ Dies at 93",
-    "google-news:US actor Tom Skerritt, who starred in Picket Fences, Mash and Alien, dies aged 93",
-    "google-news:Veteran actor Tom Skerritt dies at 93",
-    "outlet:BBC",
-    "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
-    "outlet:NPR",
-    "outlet:France Médias Monde",
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "BBC",
-    "Disney (ABC News)",
-    "Paramount (CBS)",
-    "Guardian Media Group",
-    "NPR",
-    "France Médias Monde",
-    "NBCUniversal",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "US actor Tom Skerritt, who starred in Picket Fences, Mash and Alien, dies aged 93",
-     "url": "https://www.bbc.co.uk/news/articles/cqrkyly2p54xo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T20:33:31+00:00"
-    },
-    {
-     "title": "Veteran actor Tom Skerritt dies at 93",
-     "url": "https://abcnews.com/GMA/Culture/veteran-actor-tom-skerritt-dies-93/story?id=137488364",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T20:33:14+00:00"
-    },
-    {
-     "title": "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-     "url": "https://www.cbsnews.com/news/tom-skerritt-dies-age-93-alien-top-gun-picket-fences/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T20:29:21+00:00"
-    },
-    {
-     "title": "Tom Skerritt, Alien and Top Gun actor, dies at 93",
-     "url": "https://www.theguardian.com/film/2026/oct/22/tom-skerritt-actor-dead",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T20:19:49+00:00"
-    },
-    {
-     "title": "Actor Tom Skerritt, who played dads, cops and commanding officers, has died",
-     "url": "https://www.npr.org/2026/10/22/981035400/tom-skerritt-dead",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T20:12:52+00:00"
-    },
-    {
-     "title": "Emmy-winning US actor Tom Skerritt, known for ‘Top Gun’ and ‘Picket Fences’, dies at 93",
-     "url": "https://www.france24.com/en/culture/20261022-emmy-winning-us-actor-tom-skerritt-top-gun-and-picket-fences-dies-93",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T20:11:54+00:00"
-    },
-    {
-     "title": "Tom Skerritt, star of ‘Alien’ and ‘Top Gun,’ dies at 93",
-     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/tom-skerritt-star-alien-top-gun-dies-93-rcna605077",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T19:42:15+00:00"
-    },
-    {
-     "title": "'Top Gun' star Tom Skerritt dead at 93",
-     "url": "https://www.foxnews.com/entertainment/top-gun-star-tom-skerritt-dead-93",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T19:39:46+00:00"
-    }
-   ],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "id": "nw-20261022-macron-protest",
-   "qid": null,
-   "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
-   "name": "Macron",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-22",
-   "news_at": "2026-10-22T16:28:00+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Guardian Media Group",
-    "Deutsche Welle",
-    "NBCUniversal"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
-    "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-    "France's Macron says 'illegitimate' protests will be banned in coming days",
-    "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations"
-   ],
-   "places": [
-    "Emmanuel"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
-     "url": "https://www.dw.com/en/france-s-macron-says-illegitimate-protests-will-be-banned-in-coming-days/a-79735137?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T16:28:00+00:00"
-    },
-    {
-     "title": "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-     "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T15:54:13+00:00"
-    },
-    {
-     "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
-     "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T11:31:36+00:00"
-    },
-    {
-     "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
-     "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T11:26:32+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle",
-    "outlet:NBCUniversal"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q141615137",
@@ -456,30 +406,30 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261022-tibet-earthquake",
+   "id": "nw-20261022-macron-protest",
    "qid": null,
-   "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-   "name": "Tibet",
+   "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
+   "name": "Macron",
    "kind": "incident",
-   "category": "earthquake",
+   "category": "protest",
    "date": "2026-10-22",
-   "news_at": "2026-10-22T19:57:44+00:00",
+   "news_at": "2026-10-22T16:28:00+00:00",
    "owners": [
-    "Bennett, Coleman & Co.",
-    "Disney (ABC News)",
-    "Euronews"
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Deutsche Welle"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Earthquake of magnitude 7.0 hits Tibet",
-    "A magnitude 7 earthquake shakes China's Tibet",
-    "China: Panic as 7.0-magnitude earthquake rocks Tibet"
+    "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
+    "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
+    "France's Macron says 'illegitimate' protests will be banned in coming days"
    ],
    "places": [
-    "Panic"
+    "Emmanuel"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -492,43 +442,43 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-     "url": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
+     "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
+     "url": "https://www.dw.com/en/france-s-macron-says-illegitimate-protests-will-be-banned-in-coming-days/a-79735137?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T16:28:00+00:00"
+    },
+    {
+     "title": "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
+     "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-22T19:57:44+00:00"
+     "at": "2026-10-22T15:54:13+00:00"
     },
     {
-     "title": "A magnitude 7 earthquake shakes China's Tibet",
-     "url": "https://abcnews.com/International/wireStory/magnitude-7-earthquake-shakes-chinas-tibet-137480700",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
+     "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-22T16:26:26+00:00"
-    },
-    {
-     "title": "Earthquake of magnitude 7.0 hits Tibet",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/earthquake-of-magnitude-7-0-strikes-tibet/articleshow/135121550.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T14:52:10+00:00"
+     "at": "2026-10-22T11:31:36+00:00"
     }
    ],
    "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
-   "article": "2026 Tibet earthquake"
+   "article": null
   },
   {
    "qid": "Q141745391",
@@ -755,12 +705,12 @@
    "id": "gdacs-TC-1001338",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.543 million .",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.192 million .",
    "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
-   "lat": "21.2",
-   "lon": "124.9"
+   "lat": "21.9",
+   "lon": "124.3"
   }
  ],
  "candidates": [
@@ -771,22 +721,23 @@
    "views": 0,
    "traffic": 0,
    "news": 400000,
-   "news_at": "2026-10-22T20:33:31+00:00",
+   "news_at": "2026-10-22T21:10:36+00:00",
    "headlines": [
-    "Tom Skerritt, Star of ‘Picket Fences’ and ‘Alien,’ Dies at 93",
-    "US actor Tom Skerritt, who starred in Picket Fences, Mash and Alien, dies aged 93",
-    "Veteran actor Tom Skerritt dies at 93",
-    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-    "Tom Skerritt, Alien and Top Gun actor, dies at 93"
+    "Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
+    "Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
+    "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
+    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93"
    ],
    "region": "world",
    "via": [
-    "google-news:Tom Skerritt, Star of ‘Picket Fences’ and ‘Alien,’ Dies at 93",
-    "google-news:US actor Tom Skerritt, who starred in Picket Fences, Mash and Alien, dies aged 93",
-    "google-news:Veteran actor Tom Skerritt dies at 93",
+    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Top Gun\" and TV's \"Picket Fences,\" dies at age 93",
+    "google-news:Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
+    "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
     "outlet:BBC",
-    "outlet:Disney (ABC News)",
+    "outlet:SCMP Group",
     "outlet:Paramount (CBS)",
+    "outlet:ABC (Australia)",
     "outlet:Guardian Media Group",
     "outlet:NPR",
     "outlet:France Médias Monde",
@@ -795,8 +746,9 @@
    ],
    "owners": [
     "BBC",
-    "Disney (ABC News)",
+    "SCMP Group",
     "Paramount (CBS)",
+    "ABC (Australia)",
     "Guardian Media Group",
     "NPR",
     "France Médias Monde",
@@ -805,24 +757,24 @@
    ],
    "reports": [
     {
-     "title": "US actor Tom Skerritt, who starred in Picket Fences, Mash and Alien, dies aged 93",
+     "title": "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
      "url": "https://www.bbc.co.uk/news/articles/cqrkyly2p54xo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-22T20:33:31+00:00"
+     "at": "2026-10-22T21:10:36+00:00"
     },
     {
-     "title": "Veteran actor Tom Skerritt dies at 93",
-     "url": "https://abcnews.com/GMA/Culture/veteran-actor-tom-skerritt-dies-93/story?id=137488364",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
+     "title": "Tom Skerritt, star of Alien and Top Gun, dies at 93",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371834/tom-skerritt-star-alien-and-top-gun-dies-93",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-22T20:33:14+00:00"
+     "at": "2026-10-22T21:02:38+00:00"
     },
     {
      "title": "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
@@ -832,10 +784,20 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-22T20:29:21+00:00"
+     "at": "2026-10-22T20:56:00+00:00"
     },
     {
-     "title": "Tom Skerritt, Alien and Top Gun actor, dies at 93",
+     "title": "US actor Tom Skerritt, who starred in Top Gun and Alien, dies aged 93",
+     "url": "https://www.abc.net.au/news/2026-10-23/us-actor-tom-skerritt-top-gun-alien-dies-93/107299410",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-22T20:51:05+00:00"
+    },
+    {
+     "title": "Tom Skerritt, Alien and Top Gun actor, dies aged 93",
      "url": "https://www.theguardian.com/film/2026/oct/22/tom-skerritt-actor-dead",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
@@ -873,16 +835,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-22T19:42:15+00:00"
-    },
-    {
-     "title": "'Top Gun' star Tom Skerritt dead at 93",
-     "url": "https://www.foxnews.com/entertainment/top-gun-star-tom-skerritt-dead-93",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T19:39:46+00:00"
     }
    ],
    "id": "wk-Q320093",
@@ -892,11 +844,11 @@
   }
  ],
  "outlets": {
-  "headlines": 818,
+  "headlines": 823,
   "feeds": 30,
   "owners": 21,
-  "matched": 43,
-  "corroborated": 8
+  "matched": 49,
+  "corroborated": 7
  },
  "emerging": [
   {
@@ -909,20 +861,18 @@
    "date": "2026-10-22",
    "news_at": "2026-10-22T16:28:00+00:00",
    "owners": [
-    "Bennett, Coleman & Co.",
+    "NBCUniversal",
     "Guardian Media Group",
-    "Deutsche Welle",
-    "NBCUniversal"
+    "Deutsche Welle"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
+    "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
     "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-    "France's Macron says 'illegitimate' protests will be banned in coming days",
-    "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations"
+    "France's Macron says 'illegitimate' protests will be banned in coming days"
    ],
    "places": [
     "Emmanuel"
@@ -966,102 +916,16 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-22T11:31:36+00:00"
-    },
-    {
-     "title": "France unrest: Macron vows ban on 'illegitimate' protests in coming days",
-     "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-macron-vows-ban-on-illegitimate-protests-in-coming-days-blames-seditious-ultra-left/articleshow/135117417.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T11:26:32+00:00"
     }
    ],
    "via": [
-    "outlet:Bennett, Coleman & Co.",
+    "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle",
-    "outlet:NBCUniversal"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261022-tibet-earthquake",
-   "qid": null,
-   "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-   "name": "Tibet",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-22",
-   "news_at": "2026-10-22T19:57:44+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Disney (ABC News)",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Earthquake of magnitude 7.0 hits Tibet",
-    "A magnitude 7 earthquake shakes China's Tibet",
-    "China: Panic as 7.0-magnitude earthquake rocks Tibet"
-   ],
-   "places": [
-    "Panic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-     "url": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T19:57:44+00:00"
-    },
-    {
-     "title": "A magnitude 7 earthquake shakes China's Tibet",
-     "url": "https://abcnews.com/International/wireStory/magnitude-7-earthquake-shakes-chinas-tibet-137480700",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T16:26:26+00:00"
-    },
-    {
-     "title": "Earthquake of magnitude 7.0 hits Tibet",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/earthquake-of-magnitude-7-0-strikes-tibet/articleshow/135121550.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-22T14:52:10+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": "2026 Tibet earthquake"
   }
  ],
- "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 43 matched to articles, 8 candidates with 2+ owners, 2 nw- stories (on): nw-20261022-macron-protest, nw-20261022-tibet-earthquake"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 49 matched to articles, 7 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
 }
