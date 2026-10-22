@@ -1,10 +1,11 @@
 {
- "at": "2026-10-22T05:13:15+00:00",
+ "at": "2026-10-22T06:11:03+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): stopped: unit cap reached; 1480 units today",
-  "watch: 1 candidates (0 quakes, 8 trending), 1 hazard alerts",
-  "outlets: 805 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-kyiv-strike",
-  "hold wk-Q2138120: outside the world window"
+  "channel jobs (setup+untag): stopped: unit cap reached; 1482 units today",
+  "watch: 1 candidates (0 quakes, 7 trending), 1 hazard alerts",
+  "outlets: 806 headlines from 30 feeds (21 owners), 16 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q2138120: gate: no photo on Wikimedia Commons shows Georgi Nemsadze's face (a tribute needs one)",
+  "nothing eligible to publish"
  ]
 }

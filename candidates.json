@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22T05:13:16+00:00",
+ "at": "2026-10-22T06:11:04+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,84 +25,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "id": "nw-20261021-kyiv-strike",
-   "qid": null,
-   "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-   "name": "Kyiv",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-10-21",
-   "news_at": "2026-10-22T02:50:52+00:00",
-   "owners": [
-    "BBC",
-    "France Médias Monde",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-    "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-    "Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks"
-   ],
-   "places": [
-    "Moscow",
-    "Putin"
-   ],
-   "attackers": [
-    "Russian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-     "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T01:51:03+00:00"
-    },
-    {
-     "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-     "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-21T21:27:41+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-updates-putin-witkoff-trump-b3070846.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T02:50:52+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q141745391",
@@ -175,16 +97,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-22T02:20:33+00:00"
-    },
-    {
-     "title": "Parvinder Singh Jhota murder case: CBI takes over probe; opposition demands Punjab CM’s resignation",
-     "url": "https://www.thehindu.com/news/national/punjab/parvinder-singh-jhota-murder-case-cbi-takes-over-probe-punjab-mansa/article71606264.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-21T18:57:11+00:00"
     }
    ],
    "id": "wk-Q141718063",
@@ -280,7 +192,7 @@
    "level": "Red",
    "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.18 million .",
    "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-   "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
+   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
    "published": "2026-10-14T14:31:53+00:00",
    "lat": "20.3",
    "lon": "126"
@@ -309,91 +221,12 @@
   }
  ],
  "outlets": {
-  "headlines": 805,
+  "headlines": 806,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
-  "corroborated": 1
+  "matched": 16,
+  "corroborated": 0
  },
- "emerging": [
-  {
-   "id": "nw-20261021-kyiv-strike",
-   "qid": null,
-   "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-   "name": "Kyiv",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-10-21",
-   "news_at": "2026-10-22T02:50:52+00:00",
-   "owners": [
-    "BBC",
-    "France Médias Monde",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-    "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-    "Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks"
-   ],
-   "places": [
-    "Moscow",
-    "Putin"
-   ],
-   "attackers": [
-    "Russian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-     "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T01:51:03+00:00"
-    },
-    {
-     "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-     "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-21T21:27:41+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-updates-putin-witkoff-trump-b3070846.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T02:50:52+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261021-kyiv-strike"
+ "emerging": [],
+ "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 16 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
