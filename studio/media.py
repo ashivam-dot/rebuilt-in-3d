@@ -298,11 +298,27 @@ def _back(category: str | None) -> int:
     return 7 if category in ONGOING else 1
 
 
-def event_categories(name: str, when: date, category: str | None = None, limit: int = 3) -> list[str]:
+def _parents(category: str) -> list[str]:
+    """The categories a Commons category sits in; [] on any failure."""
+    try:
+        d = net.get_json(COMMONS, params={"action": "query", "titles": "Category:" + category, "prop": "categories",
+                                          "cllimit": 50, "format": "json", "formatversion": 2}, tries=2, timeout=20)
+    except Exception:
+        return []
+    pages = d.get("query", {}).get("pages") or [{}]
+    return [c.get("title", "").removeprefix("Category:") for c in pages[0].get("categories") or []]
+
+
+def event_categories(name: str, when: date, category: str | None = None, limit: int = 3,
+                     places: list[set[str]] | None = None) -> list[str]:
     """Commons categories of the event itself: found by its name, the kind of event and its year, each naming the
     year and the kind of event (EVENT_WORDS) and either the name's distinctive words or one of its days ("Manifestations
-    du 17 octobre 2026"). [] on any failure: a lookup never stops a run."""
+    du 17 octobre 2026"). A category found only by its day must name, itself or in a category it sits in, the story's
+    name or one of its places (places: key sets, default the name's): "Manifestation du 17 octobre 2026 à Montréal",
+    a solidarity march abroad, once stood under the French student protests (2026-10-23). [] on any failure: a lookup
+    never stops a run."""
     keys, words = _keys(name), _event_words(category)
+    places = [k for k in (places or []) if k] or [{_plain(k) for k in keys}]
     out: list[str] = []
     for query in (f"{name} {when.year}",) + tuple(f"{w} {when.year} {name}" for w in EVENT_QUERY.get(category or "",
                                                                                                     ())[:2]):
@@ -314,8 +330,12 @@ def event_categories(name: str, when: date, category: str | None = None, limit: 
             continue
         for hit in d.get("query", {}).get("search", []):
             title = hit.get("title", "").removeprefix("Category:")
-            if str(when.year) in title and words.search(_plain(title)) and title not in out \
-                    and (_names(_plain(title), {_plain(k) for k in keys}) or _on_the_day(title, when, _back(category))):
+            if str(when.year) not in title or not words.search(_plain(title)) or title in out:
+                continue
+            if _names(_plain(title), {_plain(k) for k in keys}):
+                out.append(title)
+            elif _on_the_day(title, when, _back(category)) and any(
+                    _names(_plain(t), k) for t in [title] + _parents(title) for k in places):
                 out.append(title)
     return out[:limit]
 
@@ -367,7 +387,7 @@ def event(names: list[str], when: date, category: str | None = None, limit: int 
     keys = [{_plain(k) for k in _keys(n)} for n in names if n]
     try:
         for name in dict.fromkeys(n for n in names if n):
-            for cat in event_categories(name, when, category):
+            for cat in event_categories(name, when, category, places=keys):
                 try:
                     rows += [(f, "event", "subject", EVENT_STAMP) for f in _event_files(cat, keys)]
                 except Exception:

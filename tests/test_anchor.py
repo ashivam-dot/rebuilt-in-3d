@@ -136,8 +136,12 @@ def test_the_cut_lands_on_the_word_that_names_the_picture():
     assert shots[2]["start"] == 6.0  # named too late in its beat: the cut stays on the beat
 
 
-def _search(cats=(), files=()):
+def _search(cats=(), files=(), parents=None):
     def get_json(url, params=None, **kw):
+        if params.get("prop") == "categories":
+            title = params["titles"].removeprefix("Category:")
+            return {"query": {"pages": [{"categories": [{"title": "Category:" + c}
+                                                        for c in (parents or {}).get(title, [])]}]}}
         if params.get("list") == "search" and params["srnamespace"] == 14:
             return {"query": {"search": [{"title": f"Category:{c}"} for c in cats]}}
         if params.get("list") == "search":
@@ -149,9 +153,23 @@ def _search(cats=(), files=()):
 def test_an_events_own_commons_category_names_its_year_its_kind_and_its_place_or_day(monkeypatch):
     monkeypatch.setattr(net, "get_json", _search(["Manifestations du 17 octobre 2026", "Paris Fashion Week 2026",
                                                   "Demonstrations and protests in Paris in 2019",
-                                                  "Emmanuel Macron in March 2026", "Manifestations, Lille, 17 Oct 2026"]))
+                                                  "Emmanuel Macron in March 2026", "Manifestations, Lille, 17 Oct 2026",
+                                                  "Manifestation du 17 octobre 2026 à Montréal"],
+                                                 parents={"Manifestations du 17 octobre 2026": ["2026 in Paris"],
+                                                          "Manifestations, Lille, 17 Oct 2026": ["Protests in Paris"]}))
     got = media.event_categories("Paris", date(2026, 10, 21), "protest")
     assert got == ["Manifestations du 17 octobre 2026", "Manifestations, Lille, 17 Oct 2026"]
+
+
+def test_a_category_found_by_its_day_alone_must_sit_in_the_storys_place(monkeypatch):
+    # 2026-10-23 dry run 39838837128: a Montreal solidarity march (its category has no parent naming France) stood
+    # under the French student protests.
+    cats = ["Manifestation du 17 octobre 2026 à Montréal", "Manifestations du 17 octobre 2026 à Marseille"]
+    monkeypatch.setattr(net, "get_json", _search(cats, parents={
+        "Manifestations du 17 octobre 2026 à Marseille": ["Demonstrations and protests in France in 2026"]}))
+    got = media.event_categories("2026 French student protests", date(2026, 10, 22), "protest",
+                                 places=[{"france"}])
+    assert got == ["Manifestations du 17 octobre 2026 à Marseille"]
 
 
 def test_recent_uploads_must_name_the_place_and_the_event(monkeypatch):
