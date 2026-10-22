@@ -144,7 +144,7 @@ def test_jobs_are_off_unless_switched_on(tmp_path):
     (tmp_path / "CHANNEL_JOBS").write_text("# switches\nsetup\n# untag\nbogus\n")
     assert channel.enabled({}, tmp_path / "CHANNEL_JOBS") == {"setup"}
     assert channel.enabled({"STUDIO_CHANNEL_JOBS": "setup, untag"}, tmp_path / "none") == {"setup", "untag"}
-    assert not (channel.ROOT / "CHANNEL_JOBS").exists()  # shipped off
+    assert channel.enabled({}) <= set(channel.JOBS)  # the shipped switch file names only real jobs (on since 2026-10-22)
     assert channel.run(lambda: pytest.fail("no job should touch YouTube"), jobs=set()) is None
 
 
