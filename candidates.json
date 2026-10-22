@@ -1,44 +1,32 @@
 {
- "at": "2026-10-22T19:02:24+00:00",
+ "at": "2026-10-22T19:10:37+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 225000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-22T19:02:24.074307+00:00",
+   "news": 275000,
+   "news_at": "2026-10-22T19:10:37.362831+00:00",
    "headlines": [
+    "Earthquake of magnitude 7 strikes Tibet",
     "Earthquake of magnitude 7 strikes China's Tibet",
-    "A magnitude 7 earthquake shakes China's Tibet",
     "Earthquake of magnitude 7.0 hits Tibet"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
+    "google-news:Earthquake of magnitude 7 strikes Tibet",
     "google-news:Earthquake of magnitude 7 strikes China's Tibet",
-    "google-news:A magnitude 7 earthquake shakes China's Tibet",
     "google-news:Earthquake of magnitude 7.0 hits Tibet",
-    "outlet:Disney (ABC News)",
     "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
-    "Disney (ABC News)",
     "Bennett, Coleman & Co."
    ],
    "reports": [
-    {
-     "title": "A magnitude 7 earthquake shakes China's Tibet",
-     "url": "https://abcnews.com/International/wireStory/magnitude-7-earthquake-shakes-chinas-tibet-137480700",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T16:26:26+00:00"
-    },
     {
      "title": "Earthquake of magnitude 7.0 hits Tibet",
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/earthquake-of-magnitude-7-0-strikes-tibet/articleshow/135121550.cms",
@@ -458,36 +446,13 @@
    "lon": "124.9"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-22T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-21"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
   "headlines": 810,
   "feeds": 30,
   "owners": 21,
   "matched": 30,
-  "corroborated": 5
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -579,5 +544,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 30 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
+ "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
 }
