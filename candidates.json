@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T00:29:49+00:00",
+ "at": "2026-10-23T00:48:13+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,24 +9,24 @@
    "views": 0,
    "traffic": 0,
    "news": 400000,
-   "news_at": "2026-10-23T00:25:30+00:00",
+   "news_at": "2026-10-23T00:33:16+00:00",
    "headlines": [
-    "At least sixteen dead, 32 injured after 7.0 quake strikes China’s Tibet: State media",
+    "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "Magnitude 7 earthquake in Tibet leaves 16 dead, reports say",
+    "Tibet rocked by 7.0-magnitude earthquake",
     "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "At least 16 dead when powerful 7.0 magnitude earthquake strikes Tibet",
-    "Magnitude-7 earthquake hits China's Tibet region, killing 16 people"
+    "At least 16 dead when powerful 7.0 magnitude earthquake strikes Tibet"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
-    "google-news:At least sixteen dead, 32 injured after 7.0 quake strikes China’s Tibet: State media",
+    "google-news:Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "google-news:Magnitude 7 earthquake in Tibet leaves 16 dead, reports say",
-    "google-news:Powerful earthquake hits Tibet killing 16 people, reports say",
+    "google-news:Tibet rocked by 7.0-magnitude earthquake",
+    "outlet:Al Jazeera Media Network",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
     "outlet:ABC (Australia)",
-    "outlet:Al Jazeera Media Network",
     "outlet:Bennett, Coleman & Co.",
     "outlet:France Médias Monde",
     "outlet:SCMP Group",
@@ -34,10 +34,10 @@
     "outlet:Disney (ABC News)"
    ],
    "owners": [
+    "Al Jazeera Media Network",
     "BBC",
     "Paramount (CBS)",
     "ABC (Australia)",
-    "Al Jazeera Media Network",
     "Bennett, Coleman & Co.",
     "France Médias Monde",
     "SCMP Group",
@@ -45,6 +45,16 @@
     "Disney (ABC News)"
    ],
    "reports": [
+    {
+     "title": "Tibet rocked by 7.0-magnitude earthquake",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T00:33:16+00:00"
+    },
     {
      "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
      "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
@@ -114,16 +124,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-22T20:26:03+00:00"
-    },
-    {
-     "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-     "url": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T19:57:44+00:00"
     }
    ],
    "id": "wk-Q141807978",
@@ -594,10 +594,10 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 815,
+  "headlines": 809,
   "feeds": 30,
   "owners": 21,
-  "matched": 48,
+  "matched": 50,
   "corroborated": 5
  },
  "emerging": [
@@ -677,5 +677,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 48 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
+ "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 50 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
 }
