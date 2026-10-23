@@ -1,15 +1,12 @@
 {
- "at": "2026-10-23T17:17:49+00:00",
+ "at": "2026-10-23T18:06:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 571 units today",
-  "watch: 3 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack",
-  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261023-paris-attack, wp-2026_Karak_church_shooting, nw-20261023-paris-attack",
-  "skip nw-20261023-paris-attack: gate: faceless: no free photo shows Paris or the event itself (only 2 photos of places or things near it)",
-  "wait wp-2026_Karak_church_shooting: gate: the article is under 6 hours old; facts may still move (ready in 3.1 h)",
-  "skip nw-20261023-paris-attack: gate: faceless: no free photo shows Paris or the event itself (only 2 photos of places or things near it)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 572 units today",
+  "watch: 1 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 809 headlines from 30 feeds (21 owners), 42 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Karak_church_shooting",
+  "wait wp-2026_Karak_church_shooting: gate: the article is under 6 hours old; facts may still move (ready in 2.3 h)",
   "nothing eligible to publish"
  ]
 }

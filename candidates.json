@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T17:17:50+00:00",
+ "at": "2026-10-23T18:06:40+00:00",
  "quakes": [],
  "trending": [
   {
@@ -32,16 +32,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-22T23:53:37+00:00"
-    },
-    {
-     "title": "Tom Skerritt dies at 93",
-     "url": "https://www.cbsnews.com/video/tom-skerritt-dies-93/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T23:52:45+00:00"
     }
    ],
    "id": "wk-Q320093",
@@ -72,11 +62,11 @@
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 177000,
+   "fame": 202000,
    "views": 0,
    "traffic": 2000,
-   "news": 125000,
-   "news_at": "2026-10-23T08:48:37+00:00",
+   "news": 150000,
+   "news_at": "2026-10-23T14:05:04+00:00",
    "headlines": [
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
     "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
@@ -164,6 +154,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-22T19:57:44+00:00"
+    },
+    {
+     "title": "A magnitude 7 earthquake shakes China's Tibet",
+     "url": "https://abcnews.com/International/wireStory/magnitude-7-earthquake-shakes-chinas-tibet-137480700",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T16:26:26+00:00"
     }
    ],
    "id": "wk-Q141807978",
@@ -175,6 +175,47 @@
     93.78
    ],
    "has_coords": true
+  },
+  {
+   "qid": null,
+   "title": "2026 Karak church shooting",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-23T18:06:40.641682+00:00",
+   "headlines": [
+    "At least seven killed after gunmen open fire at church in Jordan",
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "google-news:At least seven killed after gunmen open fire at church in Jordan",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:03:00+00:00"
+    }
+   ],
+   "id": "wp-2026_Karak_church_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261023-champi-cyclone",
@@ -314,22 +355,24 @@
   {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
-   "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+   "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
    "name": "Jordan",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T17:17:41+00:00",
+   "news_at": "2026-10-23T18:03:00+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
+    "Disney (ABC News)",
     "Al Jazeera Media Network",
     "France Médias Monde",
-    "Deutsche Welle",
     "Paramount (CBS)",
     "NDTV",
     "BBC",
-    "SCMP Group"
+    "SCMP Group",
+    "Fox Corporation",
+    "Deutsche Welle"
    ],
    "fame": 150000,
    "news": 150000,
@@ -338,14 +381,14 @@
    "headlines": [
     "Gunmen open fire inside church in Jordan, 6 killed",
     "Gunmen open fire at church in Jordan, killing at least seven",
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "At least seven killed after gunmen open fire at church in Jordan",
-    "Several killed, dozens wounded in Jordan church shooting",
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+    "Several killed, dozens wounded in Jordan church shooting"
    ],
    "places": [
-    "Karak",
-    "injured",
-    "open"
+    "Injured",
+    "open",
+    "fire"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -357,6 +400,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:03:00+00:00"
+    },
     {
      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
@@ -376,16 +429,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T15:59:36+00:00"
-    },
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T15:26:00+00:00"
     },
     {
      "title": "Several killed, dozens wounded in Jordan church shooting",
@@ -428,26 +471,28 @@
      "at": "2026-10-23T13:32:40+00:00"
     },
     {
-     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
+     "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
+     "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T15:36:20+00:00"
+     "at": "2026-10-23T18:01:47+00:00"
     }
    ],
    "via": [
     "outlet:Bennett, Coleman & Co.",
     "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle",
     "outlet:Paramount (CBS)",
     "outlet:NDTV",
     "outlet:BBC",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:Fox Corporation",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": "2026 Karak church shooting"
@@ -547,6 +592,92 @@
     "outlet:ABC (Australia)",
     "outlet:NBCUniversal",
     "outlet:NPR"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T14:40:00+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb may be terrorist act, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T14:40:00+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -659,118 +790,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-22"
-  },
-  {
-   "qid": null,
-   "title": "2026 Karak church shooting",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T17:17:50.391272+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T15:26:00+00:00"
-    }
-   ],
-   "id": "wp-2026_Karak_church_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T14:40:00+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "France Médias Monde",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France: 1 killed, 4 wounded after shooting near Paris",
-    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-    "Deadly shooting in Paris suburb may be terrorist act, officials say"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:24:56+00:00"
-    },
-    {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T14:40:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q141808612",
@@ -966,108 +985,21 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T16:08:04+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "France Médias Monde",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One dead, four injured in Paris shooting as police probe terror link",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "One person killed in suspected ‘Islamophobic’ shooting near Paris"
-   ],
-   "places": [
-    "Islamophobic",
-    "Islamophobic’"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "One dead, four injured in Paris shooting as police probe terror link",
-     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T12:07:47+00:00"
-    },
-    {
-     "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
-     "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T16:08:04+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": null,
    "title": "2026 Karak church shooting",
-   "fame": 75000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T17:17:50.391272+00:00",
+   "news": 150000,
+   "news_at": "2026-10-23T18:06:40.641682+00:00",
    "headlines": [
+    "At least seven killed after gunmen open fire at church in Jordan",
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-23",
+    "google-news:At least seven killed after gunmen open fire at church in Jordan",
     "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
     "outlet:Deutsche Welle"
    ],
@@ -1083,7 +1015,7 @@
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T15:26:00+00:00"
+     "at": "2026-10-23T18:03:00+00:00"
     }
    ],
    "id": "wp-2026_Karak_church_shooting",
@@ -1092,93 +1024,13 @@
    "date": "2026-10-23",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T14:40:00+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "France Médias Monde",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France: 1 killed, 4 wounded after shooting near Paris",
-    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-    "Deadly shooting in Paris suburb may be terrorist act, officials say"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:24:56+00:00"
-    },
-    {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T14:40:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
  "outlets": {
-  "headlines": 808,
+  "headlines": 809,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 42,
   "corroborated": 6
  },
  "emerging": [
@@ -1320,22 +1172,24 @@
   {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
-   "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+   "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
    "name": "Jordan",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T17:17:41+00:00",
+   "news_at": "2026-10-23T18:03:00+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
+    "Disney (ABC News)",
     "Al Jazeera Media Network",
     "France Médias Monde",
-    "Deutsche Welle",
     "Paramount (CBS)",
     "NDTV",
     "BBC",
-    "SCMP Group"
+    "SCMP Group",
+    "Fox Corporation",
+    "Deutsche Welle"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1344,14 +1198,14 @@
    "headlines": [
     "Gunmen open fire inside church in Jordan, 6 killed",
     "Gunmen open fire at church in Jordan, killing at least seven",
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "At least seven killed after gunmen open fire at church in Jordan",
-    "Several killed, dozens wounded in Jordan church shooting",
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+    "Several killed, dozens wounded in Jordan church shooting"
    ],
    "places": [
-    "Karak",
-    "injured",
-    "open"
+    "Injured",
+    "open",
+    "fire"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1363,6 +1217,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:03:00+00:00"
+    },
     {
      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
@@ -1382,16 +1246,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T15:59:36+00:00"
-    },
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T15:26:00+00:00"
     },
     {
      "title": "Several killed, dozens wounded in Jordan church shooting",
@@ -1434,26 +1288,28 @@
      "at": "2026-10-23T13:32:40+00:00"
     },
     {
-     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
+     "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
+     "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T15:36:20+00:00"
+     "at": "2026-10-23T18:01:47+00:00"
     }
    ],
    "via": [
     "outlet:Bennett, Coleman & Co.",
     "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle",
     "outlet:Paramount (CBS)",
     "outlet:NDTV",
     "outlet:BBC",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:Fox Corporation",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": "2026 Karak church shooting"
@@ -1560,6 +1416,92 @@
   {
    "id": "nw-20261023-paris-attack",
    "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T14:40:00+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb may be terrorist act, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T14:40:00+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
    "title": "France: Gunman kills one and wounds four in town outside Paris",
    "name": "Paris",
    "kind": "incident",
@@ -1645,80 +1587,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T14:40:00+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "France Médias Monde",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France: 1 killed, 4 wounded after shooting near Paris",
-    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-    "Deadly shooting in Paris suburb may be terrorist act, officials say"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:24:56+00:00"
-    },
-    {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T14:40:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack"
+ "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 42 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack"
 }
