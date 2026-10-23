@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-10-23T06:22:32+00:00. Scored Shorts (views at 24 h): 41. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-23T11:24:08+00:00. Scored Shorts (views at 24 h): 41. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 166 views at 24 h.
 Retention: a typical Short is watched 54.7% through; a group's retention is blended into its lift at 0.5.
@@ -12,17 +12,17 @@ Retention: a typical Short is watched 54.7% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q320093 | 2026-10-22T22:48 | death | death | 1266 |  |
+| wk-Q320093 | 2026-10-22T22:48 | death | death | 1470 |  |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 28 |  |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 |  |
-| nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1175 | 1173 |
+| nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1171 | 1173 |
 | wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 391 | 325 |
 | wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 162 | 128 |
-| wk-Q1889124 | 2026-10-20T00:12 | death | death | 617 | 520 |
+| wk-Q1889124 | 2026-10-20T00:12 | death | death | 618 | 520 |
 | wk-Q5115327 | 2026-10-19T16:51 | death | death | 447 | 371 |
-| wk-Q1702112 | 2026-10-19T14:33 | death | death | 561 | 385 |
+| wk-Q1702112 | 2026-10-19T14:33 | death | death | 563 | 385 |
 | wk-Q3837943 | 2026-10-19T12:32 | death | death | 887 | 732 |
-| wk-Q438492 | 2026-10-19T10:18 | death | death | 1369 | 1272 |
+| wk-Q438492 | 2026-10-19T10:18 | death | death | 1371 | 1272 |
 | nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1104 | 1078 |
 | wk-Q141592947-2026w42 | 2026-10-18T21:39 | incident | protest | 265 | 207 |
 | nw-20261017-paris-protest | 2026-10-18T11:34 | incident | protest | 325 | 313 |
