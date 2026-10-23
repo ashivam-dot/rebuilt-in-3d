@@ -1,28 +1,28 @@
 {
- "at": "2026-10-23T07:56:12+00:00",
+ "at": "2026-10-23T08:48:33+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 621141,
+   "fame": 746141,
    "views": 371141,
    "traffic": 0,
-   "news": 250000,
+   "news": 375000,
    "news_at": "2026-10-23T01:04:52+00:00",
    "headlines": [
-    "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "Tom Skerritt, Emmy-winning star of 'Picket Fences', 'Alien' and 'Top Gun', psses away at 93",
+    "US actor Tom Skerritt, star of Top Gun, Steel Magnolias and Alien, dies aged 93",
     "Hollywood remembers actor Tom Skerritt",
     "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
-    "Actor Tom Skerritt, who played dads, cops and commanding officers, has died"
+    "Tom Skerritt, star of Alien and Top Gun, dies at 93"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-22",
-    "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "google-news:Tom Skerritt, Emmy-winning star of 'Picket Fences', 'Alien' and 'Top Gun', psses away at 93",
+    "google-news:US actor Tom Skerritt, star of Top Gun, Steel Magnolias and Alien, dies aged 93",
     "google-news:Hollywood remembers actor Tom Skerritt",
-    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
     "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -110,23 +110,23 @@
    "views": 0,
    "traffic": 0,
    "news": 525000,
-   "news_at": "2026-10-23T06:42:32+00:00",
+   "news_at": "2026-10-23T07:53:58+00:00",
    "headlines": [
     "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
-    "Powerful earthquake in Tibet kills at least 16 people",
+    "Powerful earthquake in Tibet's Nagqu area leaves 16 dead",
     "Powerful earthquake hits Tibet, killing 16 people, reports say",
-    "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "At least 16 people killed by powerful earthquake in Tibet"
+    "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+    "Powerful earthquake hits Tibet killing 16 people, reports say"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
     "google-news:Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
-    "google-news:Powerful earthquake in Tibet kills at least 16 people",
+    "google-news:Powerful earthquake in Tibet's Nagqu area leaves 16 dead",
     "google-news:Powerful earthquake hits Tibet, killing 16 people, reports say",
+    "outlet:Guardian Media Group",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
     "outlet:Euronews",
     "outlet:SCMP Group",
     "outlet:Bennett, Coleman & Co.",
@@ -136,9 +136,9 @@
     "outlet:Disney (ABC News)"
    ],
    "owners": [
+    "Guardian Media Group",
     "BBC",
     "Paramount (CBS)",
-    "Guardian Media Group",
     "Euronews",
     "SCMP Group",
     "Bennett, Coleman & Co.",
@@ -148,6 +148,16 @@
     "Disney (ABC News)"
    ],
    "reports": [
+    {
+     "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+     "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T07:53:58+00:00"
+    },
     {
      "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
      "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
@@ -167,16 +177,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T05:01:22+00:00"
-    },
-    {
-     "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-     "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T04:04:35+00:00"
     },
     {
      "title": "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes",
@@ -277,6 +277,32 @@
    "date": "2026-10-21"
   },
   {
+   "qid": "Q141695384",
+   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-10-22T13:46:33+00:00",
+   "headlines": [
+    "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+    "October 21, 2026"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+    "google-news:October 21, 2026"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
    "title": "Taiwan braces as El Nino-supercharged Typhoon Champi approaches island",
@@ -284,7 +310,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T07:30:03+00:00",
+   "news_at": "2026-10-23T08:00:39+00:00",
    "owners": [
     "France Médias Monde",
     "SCMP Group",
@@ -339,6 +365,16 @@
      "at": "2026-10-23T03:00:54+00:00"
     },
     {
+     "title": "Typhoon Champi grounds hundreds of flights in Taiwan, threatens eastern mainland China",
+     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T08:00:39+00:00"
+    },
+    {
      "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
      "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
      "outlet": "Euronews",
@@ -390,50 +426,44 @@
    "article": null
   },
   {
-   "qid": "Q452431",
-   "title": "Ron Duguay",
-   "fame": 92485,
-   "views": 92485,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q452431",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
-  },
-  {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 81502,
+   "fame": 106502,
    "views": 31502,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-23T06:51:14+00:00",
+   "news": 75000,
+   "news_at": "2026-10-23T07:53:57+00:00",
    "headlines": [
+    "French authorities seek to ban protests: Macron to meet students on Friday",
     "What to know about the weapons and tactics blamed for injuring French protesters",
     "French authorities ban some student protests after weekend looting and clashes"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-22",
+    "google-news:French authorities seek to ban protests: Macron to meet students on Friday",
     "google-news:What to know about the weapons and tactics blamed for injuring French protesters",
     "google-news:French authorities ban some student protests after weekend looting and clashes",
+    "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News"
    ],
    "owners": [
+    "France Médias Monde",
     "Disney (ABC News)",
     "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "French authorities seek to ban protests: Macron to meet students on Friday",
+     "url": "https://www.france24.com/en/video/20261023-french-authorities-seek-to-ban-protests-macron-to-meet-students-on-friday",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T07:53:57+00:00"
+    },
     {
      "title": "What to know about the weapons and tactics blamed for injuring French protesters",
      "url": "https://abcnews.com/International/wireStory/weapons-tactics-blamed-injuring-french-protesters-137499821",
@@ -459,6 +489,48 @@
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-23",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 92485,
+   "views": 92485,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets gang ambush",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-23T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141808612",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-18",
    "coords": null,
    "has_coords": true
   },
@@ -677,7 +749,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T07:30:03+00:00",
+   "news_at": "2026-10-23T08:00:39+00:00",
    "owners": [
     "France Médias Monde",
     "SCMP Group",
@@ -730,6 +802,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T03:00:54+00:00"
+    },
+    {
+     "title": "Typhoon Champi grounds hundreds of flights in Taiwan, threatens eastern mainland China",
+     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T08:00:39+00:00"
     },
     {
      "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
@@ -783,31 +865,33 @@
    "article": null
   },
   {
-   "qid": "Q6261870",
-   "title": "John Vaughan (footballer, born 1964)",
-   "fame": 7892,
-   "views": 7892,
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets gang ambush",
+   "fame": 50000,
+   "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": null,
+   "news_at": "2026-10-23T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-current-events-2026-10-22"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q6261870",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
+   "id": "wk-Q141808612",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-18",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 784,
+  "headlines": 785,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
+  "matched": 40,
   "corroborated": 4
  },
  "emerging": [
@@ -819,7 +903,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T07:30:03+00:00",
+   "news_at": "2026-10-23T08:00:39+00:00",
    "owners": [
     "France Médias Monde",
     "SCMP Group",
@@ -874,6 +958,16 @@
      "at": "2026-10-23T03:00:54+00:00"
     },
     {
+     "title": "Typhoon Champi grounds hundreds of flights in Taiwan, threatens eastern mainland China",
+     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T08:00:39+00:00"
+    },
+    {
      "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
      "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
      "outlet": "Euronews",
@@ -925,5 +1019,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261023-taiwan-cyclone"
+ "outlet_note": "outlets: 785 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261023-taiwan-cyclone"
 }
