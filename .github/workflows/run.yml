@@ -49,10 +49,12 @@ jobs:
         with:
           enable-cache: true
       - name: System packages
-        # An apt mirror has hung this step until the job's timeout: three tries of at most three minutes each.
+        # An apt mirror has hung this step until the job's timeout: three tries of at most three minutes each. timeout wraps
+        # sudo, not apt: under sudo's pty a timeout-wrapped apt runs in a background process group and stops on the
+        # terminal (every run failed this way on 2026-10-23).
         run: |
           for i in 1 2 3; do
-            sudo timeout 180 apt-get update -qq && sudo timeout 180 apt-get install -y -qq ffmpeg espeak-ng > /dev/null && exit 0
+            timeout 180 sudo apt-get update -qq && timeout 180 sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null && exit 0
             sudo dpkg --configure -a || true
             sleep $((i * 10))
           done
