@@ -1,14 +1,13 @@
 {
- "at": "2026-10-23T12:59:59+00:00",
+ "at": "2026-10-23T14:17:50+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 567 units today",
-  "watch: 3 candidates (0 quakes, 17 trending), 2 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 34 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-bank-attack, nw-20261023-paris-attack",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261023-bank-attack, nw-20261023-jordan-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 568 units today",
+  "watch: 3 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 801 headlines from 30 feeds (21 owners), 34 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack",
   "skip nw-20261023-champi-cyclone: gate: only 0 usable photos of Taiwan (want 2)",
-  "skip nw-20261023-bank-attack: gate: only 0 usable photos of Bank (want 2)",
   "skip nw-20261023-jordan-attack: gate: only 0 usable photos of Jordan (want 2)",
+  "skip nw-20261023-bank-attack: gate: only 0 usable photos of Bank (want 2)",
   "nothing eligible to publish"
  ]
 }
