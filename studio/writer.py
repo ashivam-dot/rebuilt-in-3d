@@ -720,7 +720,14 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     log = []
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
-            draft = anchor_photos(m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6), story)
+            try:
+                raw = m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6)
+            except json.JSONDecodeError as exc:
+                # The local model ran a string past its token budget (dry runs 39922617481 and 39929261269 lost the
+                # story on it): a failed attempt, not a failed story. The same request is asked again.
+                log.append({"attempt": attempt + 1, "problems": [f"the draft was cut off ({exc.msg})"], "draft": {}})
+                continue
+            draft = anchor_photos(raw, story)
             problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent,
                                  style=attempt < 2, story=story)
             if attempt < 2:

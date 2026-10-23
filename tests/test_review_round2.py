@@ -144,3 +144,26 @@ def test_a_dry_run_passes_over_a_bare_wikidata_id(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "prepare", lambda c: calls.append(c["id"]) or (_ for _ in ()).throw(ValueError("x")))
     cli.run(dry=True)
     assert calls == ["wk-Q9"]
+
+
+def test_a_cut_off_draft_costs_an_attempt_not_the_story(monkeypatch):
+    # Dry runs 39922617481 and 39929261269: the local model ran a string past its budget and the story was lost.
+    import json
+
+    class Fake:
+        def __init__(self, *a, **kw):
+            pass
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return None
+
+        def chat(self, messages, schema=None, **kw):
+            raise json.JSONDecodeError("Unterminated string starting at", '{"title": "x', 10)
+
+    monkeypatch.setattr(writer.llm, "Model", Fake)
+    with pytest.raises(ValueError, match="no draft passed the fact checks: the draft was cut off"):
+        writer.write("death", "Nana Patekar", "He", ["Person: Nana Patekar."], "Nana Patekar was an actor.",
+                     [{"file": "File:0.jpg", "description": ""}])
