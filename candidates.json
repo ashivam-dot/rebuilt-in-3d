@@ -1,28 +1,29 @@
 {
- "at": "2026-10-23T06:22:34+00:00",
+ "at": "2026-10-23T06:36:26+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 746141,
+   "fame": 621341,
    "views": 371141,
-   "traffic": 0,
-   "news": 375000,
+   "traffic": 200,
+   "news": 250000,
    "news_at": "2026-10-23T01:04:52+00:00",
    "headlines": [
     "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
-    "Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
     "Hollywood remembers actor Tom Skerritt",
     "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-    "Tom Skerritt, star of Alien and Top Gun, dies at 93"
+    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
+    "Actor Tom Skerritt, who played dads, cops and commanding officers, has died"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-22",
+    "google-trends-US:julia roberts",
     "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
-    "google-news:Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
     "google-news:Hollywood remembers actor Tom Skerritt",
+    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
     "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -555,35 +556,14 @@
    "lon": "123.8"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q101407760",
-   "title": "Romano Hummel",
-   "fame": 12857,
-   "views": 12857,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q101407760",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  }
- ],
+ "candidates": [],
  "outlets": {
   "headlines": 793,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 34,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 793 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 793 headlines from 30 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
