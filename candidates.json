@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T22:36:23+00:00",
+ "at": "2026-10-23T23:35:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -139,6 +139,121 @@
    "has_coords": true
   },
   {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "France: Gunman kills one and wounds four in town outside Paris",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:53:45+00:00",
+   "owners": [
+    "NBCUniversal",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Fox Corporation",
+    "Guardian Media Group",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+    "France: Gunman kills one and wounds four in town outside Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+    "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris"
+   ],
+   "places": [
+    "Islamophobic",
+    "Macron",
+    "Emmanuel"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Gunman kills one and wounds four in town outside Paris",
+     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:21:35+00:00"
+    },
+    {
+     "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
+     "url": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T21:44:50+00:00"
+    },
+    {
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T15:30:43+00:00"
+    },
+    {
+     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T20:32:02+00:00"
+    },
+    {
+     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T11:37:09+00:00"
+    },
+    {
+     "title": "‘A racist terror attack’: Emmanuel Macron condemns deadly shooting near Paris",
+     "url": "https://timesofindia.indiatimes.com/world/europe/a-racist-terror-attack-french-president-macron-condemns-deadly-shooting-near-paris/articleshow/135158116.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-23T22:53:45+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Fox Corporation",
+    "outlet:Guardian Media Group",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
    "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
@@ -148,6 +263,7 @@
    "date": "2026-10-23",
    "news_at": "2026-10-23T21:27:32+00:00",
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "BBC",
@@ -160,11 +276,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Watch: CCTV footage shows gunmen near church in Jordan",
-    "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Jordan church, king vows retaliation"
    ],
    "places": [
     "CCTV",
@@ -249,9 +365,20 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:BBC",
@@ -263,219 +390,30 @@
    "article": null
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 132589,
-   "views": 7589,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-23T21:33:59+00:00",
-   "headlines": [
-    "‘I Have to Go In’: Dad Describes Killing Gunman in Oregon School Shooting"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22",
-    "google-news:‘I Have to Go In’: Dad Describes Killing Gunman in Oregon School Shooting"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T21:44:50+00:00",
-   "owners": [
-    "NBCUniversal",
-    "France Médias Monde",
-    "Independent Digital News",
-    "Fox Corporation",
-    "Guardian Media Group"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-    "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
-     "url": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T21:44:50+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    },
-    {
-     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T20:32:02+00:00"
-    },
-    {
-     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T11:37:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q452431",
-   "title": "Ron Duguay",
-   "fame": 92485,
-   "views": 92485,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q452431",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T22:36:23.941053+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
    "id": "nw-20261023-champi-cyclone",
    "qid": null,
-   "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+   "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
    "name": "Champi",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T08:00:39+00:00",
+   "news_at": "2026-10-23T23:10:54+00:00",
    "owners": [
     "SCMP Group",
     "Disney (ABC News)",
-    "Euronews"
+    "Euronews",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Typhoon Champi disrupts more than 70 flights between Hong Kong and Taiwan",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan"
+    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+    "Typhoon Champi hits Taiwan, killing one and injuring 350"
    ],
    "places": [
     "Taiwan",
@@ -492,6 +430,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+     "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:54+00:00"
+    },
     {
      "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
      "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
@@ -536,10 +484,159 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Disney (ABC News)",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:05:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T22:05:59+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 92485,
+   "views": 92485,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-23T23:35:35.640219+00:00",
+   "headlines": [
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:33:00+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261023-bank-attack",
@@ -628,31 +725,29 @@
    "article": null
   },
   {
-   "id": "nw-20261023-paris-attack",
+   "id": "nw-20261023-oregon-attack",
    "qid": null,
-   "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-   "name": "Paris",
+   "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+   "name": "Oregon",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T22:05:59+00:00",
+   "news_at": "2026-10-23T22:47:07+00:00",
    "owners": [
-    "SCMP Group",
-    "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "BBC"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+    "Hero dad who stopped Oregon school shooter shares his story",
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+    "Father who killed Oregon school shooter describes anguish over children he couldn't save"
    ],
-   "places": [
-    "Macron"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -664,40 +759,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T19:42:08+00:00"
+     "at": "2026-10-23T22:47:07+00:00"
     },
     {
-     "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-     "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-23T18:13:09+00:00"
+     "at": "2026-10-23T21:25:48+00:00"
     },
     {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T22:05:59+00:00"
+     "at": "2026-10-23T20:31:00+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -725,40 +820,46 @@
    "has_coords": true
   },
   {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 25000,
-   "views": 0,
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 32589,
+   "views": 7589,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-23T18:31:41+00:00",
+   "news_at": "2026-10-23T23:10:42+00:00",
    "headlines": [
-    "Celebrated Irish musician Dónal Lunny dies aged 79"
+    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
    ],
    "region": "world",
    "via": [
-    "google-news:Celebrated Irish musician Dónal Lunny dies aged 79",
-    "outlet:BBC"
+    "wikipedia-top-2026-10-22",
+    "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "BBC"
+    "Guardian Media Group"
    ],
    "reports": [
     {
-     "title": "Celebrated Irish musician Dónal Lunny dies aged 79",
-     "url": "https://www.bbc.co.uk/news/articles/cqpvgdjrzx13o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
+     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-23T18:31:41+00:00"
+     "at": "2026-10-23T23:10:42+00:00"
     }
    ],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q3424313",
@@ -907,40 +1008,77 @@
  ],
  "candidates": [
   {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T18:31:41+00:00",
-   "headlines": [
-    "Celebrated Irish musician Dónal Lunny dies aged 79"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Celebrated Irish musician Dónal Lunny dies aged 79",
-    "outlet:BBC"
-   ],
+   "id": "nw-20261023-oregon-attack",
+   "qid": null,
+   "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:47:07+00:00",
    "owners": [
+    "Paramount (CBS)",
+    "Independent Digital News",
     "BBC"
    ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Hero dad who stopped Oregon school shooter shares his story",
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+    "Father who killed Oregon school shooter describes anguish over children he couldn't save"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Celebrated Irish musician Dónal Lunny dies aged 79",
-     "url": "https://www.bbc.co.uk/news/articles/cqpvgdjrzx13o?at_medium=RSS&at_campaign=rss",
+     "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T18:31:41+00:00"
+     "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T21:25:48+00:00"
+    },
+    {
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T20:31:00+00:00"
     }
    ],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q3424313",
@@ -964,13 +1102,128 @@
   }
  ],
  "outlets": {
-  "headlines": 787,
+  "headlines": 781,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
-  "corroborated": 6
+  "matched": 39,
+  "corroborated": 7
  },
  "emerging": [
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "France: Gunman kills one and wounds four in town outside Paris",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:53:45+00:00",
+   "owners": [
+    "NBCUniversal",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Fox Corporation",
+    "Guardian Media Group",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+    "France: Gunman kills one and wounds four in town outside Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+    "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris"
+   ],
+   "places": [
+    "Islamophobic",
+    "Macron",
+    "Emmanuel"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Gunman kills one and wounds four in town outside Paris",
+     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:21:35+00:00"
+    },
+    {
+     "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
+     "url": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T21:44:50+00:00"
+    },
+    {
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T15:30:43+00:00"
+    },
+    {
+     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T20:32:02+00:00"
+    },
+    {
+     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T11:37:09+00:00"
+    },
+    {
+     "title": "‘A racist terror attack’: Emmanuel Macron condemns deadly shooting near Paris",
+     "url": "https://timesofindia.indiatimes.com/world/europe/a-racist-terror-attack-french-president-macron-condemns-deadly-shooting-near-paris/articleshow/135158116.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-23T22:53:45+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Fox Corporation",
+    "outlet:Guardian Media Group",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
@@ -981,6 +1234,7 @@
    "date": "2026-10-23",
    "news_at": "2026-10-23T21:27:32+00:00",
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "BBC",
@@ -993,11 +1247,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Watch: CCTV footage shows gunmen near church in Jordan",
-    "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Jordan church, king vows retaliation"
    ],
    "places": [
     "CCTV",
@@ -1082,9 +1336,20 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:BBC",
@@ -1096,129 +1361,30 @@
    "article": null
   },
   {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T21:44:50+00:00",
-   "owners": [
-    "NBCUniversal",
-    "France Médias Monde",
-    "Independent Digital News",
-    "Fox Corporation",
-    "Guardian Media Group"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-    "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
-     "url": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T21:44:50+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    },
-    {
-     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T20:32:02+00:00"
-    },
-    {
-     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T11:37:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261023-champi-cyclone",
    "qid": null,
-   "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+   "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
    "name": "Champi",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T08:00:39+00:00",
+   "news_at": "2026-10-23T23:10:54+00:00",
    "owners": [
     "SCMP Group",
     "Disney (ABC News)",
-    "Euronews"
+    "Euronews",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Typhoon Champi disrupts more than 70 flights between Hong Kong and Taiwan",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan"
+    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+    "Typhoon Champi hits Taiwan, killing one and injuring 350"
    ],
    "places": [
     "Taiwan",
@@ -1235,6 +1401,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+     "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:54+00:00"
+    },
     {
      "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
      "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
@@ -1279,7 +1455,94 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Disney (ABC News)",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:05:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T22:05:59+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -1371,31 +1634,29 @@
    "article": null
   },
   {
-   "id": "nw-20261023-paris-attack",
+   "id": "nw-20261023-oregon-attack",
    "qid": null,
-   "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-   "name": "Paris",
+   "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+   "name": "Oregon",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T22:05:59+00:00",
+   "news_at": "2026-10-23T22:47:07+00:00",
    "owners": [
-    "SCMP Group",
-    "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Independent Digital News",
+    "BBC"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+    "Hero dad who stopped Oregon school shooter shares his story",
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+    "Father who killed Oregon school shooter describes anguish over children he couldn't save"
    ],
-   "places": [
-    "Macron"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -1407,44 +1668,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T19:42:08+00:00"
+     "at": "2026-10-23T22:47:07+00:00"
     },
     {
-     "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-     "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-23T18:13:09+00:00"
+     "at": "2026-10-23T21:25:48+00:00"
     },
     {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T22:05:59+00:00"
+     "at": "2026-10-23T20:31:00+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 36 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-champi-cyclone"
+ "outlet_note": "outlets: 781 headlines from 30 feeds (21 owners), 39 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-champi-cyclone"
 }
