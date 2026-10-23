@@ -1,12 +1,14 @@
 {
- "at": "2026-10-23T18:06:39+00:00",
+ "at": "2026-10-23T19:05:06+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 572 units today",
-  "watch: 1 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 809 headlines from 30 feeds (21 owners), 42 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack",
+  "learn: 43 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 6, 'typical_view_pct': 60.7}, 'kind:death': {'n': 11, 'lift': 1.118, 'typical_views_24h': 212, 'n_retention': 11, 'typical_view_pct': 52.8}, 'kind:incident': {'n': 24, 'lift': 1.077, 'typical_views_24h': 181, 'n_retention': 21, 'typical_view_pct': 54.1}, 'category:death': {'n': 10, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 573 units today",
+  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 814 headlines from 30 feeds (21 owners), 43 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Karak_church_shooting",
-  "wait wp-2026_Karak_church_shooting: gate: the article is under 6 hours old; facts may still move (ready in 2.3 h)",
+  "wait wp-2026_Karak_church_shooting: gate: the article is under 6 hours old; facts may still move (ready in 1.4 h)",
+  "skip wk-Q983618: gate: no draft passed the fact checks: the script has 71 words; it must have 52 to 68; the script has 6 beats; it must have 4, one for each photo; photo(s) 0, 3 are on more than one beat: show each photo on one beat only, and write one beat for each photo",
   "nothing eligible to publish"
  ]
 }

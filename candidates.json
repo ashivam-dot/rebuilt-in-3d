@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T18:06:40+00:00",
+ "at": "2026-10-23T19:05:08+00:00",
  "quakes": [],
  "trending": [
   {
@@ -60,13 +60,56 @@
    "date": "2026-10-21"
   },
   {
+   "qid": null,
+   "title": "2026 Karak church shooting",
+   "fame": 325000,
+   "views": 0,
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-10-23T19:05:08.705180+00:00",
+   "headlines": [
+    "Seven killed as gunmen open fire at church in Jordan, authorities say",
+    "At least seven killed after gunmen open fire at church in Jordan",
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "google-news:Seven killed as gunmen open fire at church in Jordan, authorities say",
+    "google-news:At least seven killed after gunmen open fire at church in Jordan",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:33:00+00:00"
+    }
+   ],
+   "id": "wp-2026_Karak_church_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 202000,
+   "fame": 200000,
    "views": 0,
-   "traffic": 2000,
+   "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-23T14:05:04+00:00",
+   "news_at": "2026-10-23T08:48:37+00:00",
    "headlines": [
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
     "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
@@ -76,7 +119,6 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-IN:earthquake",
     "wikipedia-current-events-2026-10-22",
     "google-news:Rescuers search for survivors after deadly earthquake in China’s Tibet region",
     "google-news:Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
@@ -154,16 +196,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-22T19:57:44+00:00"
-    },
-    {
-     "title": "A magnitude 7 earthquake shakes China's Tibet",
-     "url": "https://abcnews.com/International/wireStory/magnitude-7-earthquake-shakes-chinas-tibet-137480700",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T16:26:26+00:00"
     }
    ],
    "id": "wk-Q141807978",
@@ -175,47 +207,6 @@
     93.78
    ],
    "has_coords": true
-  },
-  {
-   "qid": null,
-   "title": "2026 Karak church shooting",
-   "fame": 200000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-23T18:06:40.641682+00:00",
-   "headlines": [
-    "At least seven killed after gunmen open fire at church in Jordan",
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:At least seven killed after gunmen open fire at church in Jordan",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:03:00+00:00"
-    }
-   ],
-   "id": "wp-2026_Karak_church_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261023-champi-cyclone",
@@ -360,12 +351,11 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T18:03:00+00:00",
+   "news_at": "2026-10-23T18:33:00+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
     "Disney (ABC News)",
-    "Al Jazeera Media Network",
     "France Médias Monde",
     "Paramount (CBS)",
     "NDTV",
@@ -382,8 +372,8 @@
     "Gunmen open fire inside church in Jordan, 6 killed",
     "Gunmen open fire at church in Jordan, killing at least seven",
     "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-    "At least seven killed after gunmen open fire at church in Jordan",
-    "Several killed, dozens wounded in Jordan church shooting"
+    "Several killed, dozens wounded in Jordan church shooting",
+    "Gunmen kill at least 7 in attack on Jordan church, authorities say"
    ],
    "places": [
     "Injured",
@@ -408,7 +398,7 @@
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T18:03:00+00:00"
+     "at": "2026-10-23T18:33:00+00:00"
     },
     {
      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
@@ -418,7 +408,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T16:33:11+00:00"
+     "at": "2026-10-23T18:10:56+00:00"
     },
     {
      "title": "Watch: CCTV footage appears to show gunmen near church in Jordan",
@@ -461,16 +451,6 @@
      "at": "2026-10-23T17:17:41+00:00"
     },
     {
-     "title": "At least seven killed after gunmen open fire at church in Jordan",
-     "url": "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T13:32:40+00:00"
-    },
-    {
      "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
      "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
      "outlet": "Fox News",
@@ -479,13 +459,22 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T18:01:47+00:00"
+    },
+    {
+     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
+     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T15:36:20+00:00"
     }
    ],
    "via": [
     "outlet:Bennett, Coleman & Co.",
     "outlet:ABC (Australia)",
     "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:NDTV",
@@ -521,7 +510,7 @@
     "Two Israeli soldiers killed in attack on West Bank military checkpoint",
     "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
     "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-    "Israel orders full West Bank lockdown after deadly shooting attack"
+    "Israel orders full West Bank 'lockdown' after deadly shooting attack"
    ],
    "places": [
     "IDF"
@@ -557,7 +546,7 @@
      "at": "2026-10-23T08:18:27+00:00"
     },
     {
-     "title": "Israel orders full West Bank lockdown after deadly shooting attack",
+     "title": "Israel orders full West Bank 'lockdown' after deadly shooting attack",
      "url": "https://www.nbcnews.com/now/video/israel-orders-full-west-bank-lockdown-after-deadly-shooting-attack-272097861757",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -692,7 +681,7 @@
    "date": "2026-10-23",
    "news_at": "2026-10-23T16:08:04+00:00",
    "owners": [
-    "ABC (Australia)",
+    "NBCUniversal",
     "France Médias Monde",
     "Independent Digital News",
     "Al Jazeera Media Network"
@@ -702,7 +691,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "One dead, four injured in Paris shooting as police probe terror link",
+    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
     "France: Gunman kills one and wounds four in town outside Paris",
     "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
     "One person killed in suspected ‘Islamophobic’ shooting near Paris"
@@ -732,16 +721,6 @@
      "at": "2026-10-23T14:21:35+00:00"
     },
     {
-     "title": "One dead, four injured in Paris shooting as police probe terror link",
-     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T12:07:47+00:00"
-    },
-    {
      "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
      "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -760,10 +739,20 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T15:30:43+00:00"
+    },
+    {
+     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T11:37:09+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
+    "outlet:NBCUniversal",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Al Jazeera Media Network"
@@ -812,6 +801,42 @@
    "date": "2026-10-18",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-23T18:31:41+00:00",
+   "headlines": [
+    "Celebrated Irish musician Dónal Lunny dies aged 79"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Celebrated Irish musician Dónal Lunny dies aged 79",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Celebrated Irish musician Dónal Lunny dies aged 79",
+     "url": "https://www.bbc.co.uk/news/articles/cqpvgdjrzx13o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:31:41+00:00"
+    }
+   ],
+   "id": "wk-Q983618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
   },
   {
    "qid": "Q3424313",
@@ -987,18 +1012,20 @@
   {
    "qid": null,
    "title": "2026 Karak church shooting",
-   "fame": 200000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-23T18:06:40.641682+00:00",
+   "news": 275000,
+   "news_at": "2026-10-23T19:05:08.705180+00:00",
    "headlines": [
+    "Seven killed as gunmen open fire at church in Jordan, authorities say",
     "At least seven killed after gunmen open fire at church in Jordan",
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-23",
+    "google-news:Seven killed as gunmen open fire at church in Jordan, authorities say",
     "google-news:At least seven killed after gunmen open fire at church in Jordan",
     "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
     "outlet:Deutsche Welle"
@@ -1015,7 +1042,7 @@
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T18:03:00+00:00"
+     "at": "2026-10-23T18:33:00+00:00"
     }
    ],
    "id": "wp-2026_Karak_church_shooting",
@@ -1024,13 +1051,49 @@
    "date": "2026-10-23",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-23T18:31:41+00:00",
+   "headlines": [
+    "Celebrated Irish musician Dónal Lunny dies aged 79"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Celebrated Irish musician Dónal Lunny dies aged 79",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Celebrated Irish musician Dónal Lunny dies aged 79",
+     "url": "https://www.bbc.co.uk/news/articles/cqpvgdjrzx13o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:31:41+00:00"
+    }
+   ],
+   "id": "wk-Q983618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
   }
  ],
  "outlets": {
-  "headlines": 809,
+  "headlines": 814,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
+  "matched": 43,
   "corroborated": 6
  },
  "emerging": [
@@ -1177,12 +1240,11 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T18:03:00+00:00",
+   "news_at": "2026-10-23T18:33:00+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
     "Disney (ABC News)",
-    "Al Jazeera Media Network",
     "France Médias Monde",
     "Paramount (CBS)",
     "NDTV",
@@ -1199,8 +1261,8 @@
     "Gunmen open fire inside church in Jordan, 6 killed",
     "Gunmen open fire at church in Jordan, killing at least seven",
     "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-    "At least seven killed after gunmen open fire at church in Jordan",
-    "Several killed, dozens wounded in Jordan church shooting"
+    "Several killed, dozens wounded in Jordan church shooting",
+    "Gunmen kill at least 7 in attack on Jordan church, authorities say"
    ],
    "places": [
     "Injured",
@@ -1225,7 +1287,7 @@
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T18:03:00+00:00"
+     "at": "2026-10-23T18:33:00+00:00"
     },
     {
      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
@@ -1235,7 +1297,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T16:33:11+00:00"
+     "at": "2026-10-23T18:10:56+00:00"
     },
     {
      "title": "Watch: CCTV footage appears to show gunmen near church in Jordan",
@@ -1278,16 +1340,6 @@
      "at": "2026-10-23T17:17:41+00:00"
     },
     {
-     "title": "At least seven killed after gunmen open fire at church in Jordan",
-     "url": "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T13:32:40+00:00"
-    },
-    {
      "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
      "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
      "outlet": "Fox News",
@@ -1296,13 +1348,22 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T18:01:47+00:00"
+    },
+    {
+     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
+     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T15:36:20+00:00"
     }
    ],
    "via": [
     "outlet:Bennett, Coleman & Co.",
     "outlet:ABC (Australia)",
     "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:NDTV",
@@ -1338,7 +1399,7 @@
     "Two Israeli soldiers killed in attack on West Bank military checkpoint",
     "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
     "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-    "Israel orders full West Bank lockdown after deadly shooting attack"
+    "Israel orders full West Bank 'lockdown' after deadly shooting attack"
    ],
    "places": [
     "IDF"
@@ -1374,7 +1435,7 @@
      "at": "2026-10-23T08:18:27+00:00"
     },
     {
-     "title": "Israel orders full West Bank lockdown after deadly shooting attack",
+     "title": "Israel orders full West Bank 'lockdown' after deadly shooting attack",
      "url": "https://www.nbcnews.com/now/video/israel-orders-full-west-bank-lockdown-after-deadly-shooting-attack-272097861757",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -1509,7 +1570,7 @@
    "date": "2026-10-23",
    "news_at": "2026-10-23T16:08:04+00:00",
    "owners": [
-    "ABC (Australia)",
+    "NBCUniversal",
     "France Médias Monde",
     "Independent Digital News",
     "Al Jazeera Media Network"
@@ -1519,7 +1580,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "One dead, four injured in Paris shooting as police probe terror link",
+    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
     "France: Gunman kills one and wounds four in town outside Paris",
     "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
     "One person killed in suspected ‘Islamophobic’ shooting near Paris"
@@ -1549,16 +1610,6 @@
      "at": "2026-10-23T14:21:35+00:00"
     },
     {
-     "title": "One dead, four injured in Paris shooting as police probe terror link",
-     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T12:07:47+00:00"
-    },
-    {
      "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
      "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -1577,10 +1628,20 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T15:30:43+00:00"
+    },
+    {
+     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T11:37:09+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
+    "outlet:NBCUniversal",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Al Jazeera Media Network"
@@ -1589,5 +1650,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 42 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack"
+ "outlet_note": "outlets: 814 headlines from 30 feeds (21 owners), 43 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack"
 }
