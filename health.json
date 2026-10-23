@@ -1,14 +1,12 @@
 {
- "at": "2026-10-23T20:40:48+00:00",
+ "at": "2026-10-23T21:40:09+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 575 units today",
-  "watch: 3 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 799 headlines from 30 feeds (21 owners), 31 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-paris-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 576 units today",
+  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 790 headlines from 30 feeds (21 owners), 32 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-champi-cyclone",
   "hold wk-Q3424313: outside the india window",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q141820731",
-  "skip wk-Q141820731: gate: only 1 usable photos of 2026 Karak church shooting on Wikimedia Commons (want 2)",
-  "skip wk-Q983618: gate: no draft passed the fact checks: the script has 6 beats; it must have 4, one for each photo; photo(s) 0, 3 are on more than one beat: show each photo on one beat only, and write one beat for each photo; these names or numbers are not in the sources: Bristol, Cara, Dillon",
+  "skip wk-Q983618: gate: no draft passed the fact checks: the script has 92 words; it must have 52 to 68; the script has 6 beats; it must have 4, one for each photo; photo(s) 0, 3 are on more than one beat: show each photo on one beat only, and write one beat for each photo; these names or numbers are not in the sources: Bristol, Cara, Craiceann, Dillon",
   "nothing eligible to publish"
  ]
 }
