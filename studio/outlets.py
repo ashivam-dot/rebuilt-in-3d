@@ -451,6 +451,9 @@ gaza palestinian lebanon syria afghanistan africa african asia asian japan japan
 german italy spain canada australia mexico brazil indonesia philippines turkey saudi arabia uae world global
 government police army centre center state states national north south east west northern southern eastern western
 pm president un""".split())
+# A compass word heads a place's name ("West Bank", "North Waziristan") though alone it names none: 2026-10-23's
+# "two IDF soldiers killed in West Bank shooting" was told as "Bank".
+COMPASS = {"north", "south", "east", "west", "northern", "southern", "eastern", "western"}
 # Words that help match headlines but never name a story ("Air India", "Air Canada").
 NAMELESS = {"air"}
 STOP = set("""the and for from with into over after near of on in at to by a an as is are was were be been has have had
@@ -554,9 +557,10 @@ def same_story(a: str, b: str, days: int = 2) -> bool:
     ma, mb = NW.match(a or ""), NW.match(b or "")
     if not ma or not mb or ma.group(3) != mb.group(3):
         return False
-    # A one-word name and the phrase it heads are one place ("black" and "black-sea", named before and after 2026-10-16).
+    # A one-word name and the phrase it heads are one place ("black" and "black-sea", named before and after 2026-10-16),
+    # as are a name and the phrase it ends ("bank" and "west-bank", before and after 2026-10-23: COMPASS).
     pa, pb = sorted((ma.group(2).split("-"), mb.group(2).split("-")), key=len)
-    if pb[:len(pa)] != pa:
+    if pb[:len(pa)] != pa and pb[-len(pa):] != pa:
         return False
     da, db = (datetime.strptime(m.group(1), "%Y%m%d").date() for m in (ma, mb))
     return abs((da - db).days) <= days
@@ -656,7 +660,7 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
 
         def joinable(word: str) -> bool:
             return (word[0].isupper() and not _kind_word(word) and _stem(word) not in STOP
-                    and word.lower() not in GENERIC and _stem(word) not in banned)
+                    and (word.lower() not in GENERIC or word.lower() in COMPASS) and _stem(word) not in banned)
 
         def phrase(key: str) -> str:
             """The name the key's word stands in, as most headlines write it: "Black Sea", never "Black" (whose

@@ -899,6 +899,23 @@ def nasa_photos(category: str | None, names: list[str], when: date, folder: Path
     return _faceless(found, folder / "nasa")
 
 
+def satellite_photos(category: str | None, names: list[str], when: date, folder: Path, exclude: set[str],
+                     need: int = media.SATELLITE_PER_STORY) -> list[dict]:
+    """Satellite images of a storm, flood or fire from its own Commons category (media.satellite: US federal
+    satellites only, each labelled on screen with its day). They show the event itself. No one is in a picture taken
+    from orbit, so no face is looked for: the detector read the eye of Typhoon Champi's 19 October pass as one."""
+    if need <= 0 or category not in media.SATELLITE_CATEGORIES:
+        return []
+    try:
+        found = media.satellite(names, when, category, limit=need, exclude=exclude)
+    except Exception:
+        found = []
+    rows = media.as_dicts(media.download(found, folder / "satellite"))
+    for r in rows:
+        r["focus"] = None
+    return stamp(rows, "event")
+
+
 def _faceless(found: list, folder: Path) -> list[dict]:
     """Downloaded photos as dicts, without any that features a face."""
     out = []
@@ -1384,6 +1401,8 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
         photos += event_photos([name], when, cat, work / "photos", {p["file"] for p in photos},
                                places=place_names(stories._first(ib, *PLACE_FIELDS[:5])))
+    if not cand.get("photo_files"):
+        photos += satellite_photos(cat, [name], when, work / "photos", {p["file"] for p in photos})
     # The people and things the article names, so a beat that names one shows it (owner, 2026-10-22: "no Macron
     # photo, no school photo").
     try:
@@ -1626,6 +1645,9 @@ def build_report(cand: dict) -> Short:
     # named by its place ("Chamoli" cloudburst) is searched with its kind of event and its days.
     photos = [] if place and where == name and cat in media.ONGOING else \
         event_photos([name], when, cat, work / "photos", set(), places=[where])
+    # A storm is pictured from orbit before anyone photographs it (owner, 2026-10-23): Typhoon Champi, nearing Taiwan,
+    # had 0 usable photos while its Commons category held a week of NOAA and NASA satellite passes.
+    photos += satellite_photos(cat, [name], when, work / "photos", {p["file"] for p in photos})
     people = named_people(name, reports)
     if person:
         own = stories.plain_title(title)

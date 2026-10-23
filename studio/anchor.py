@@ -25,8 +25,9 @@ MAP_SHARE = 0.20
 SHOWN_SHARE = 0.70
 # compose cuts to a beat's picture on the word that names it, when that word comes this early in the beat.
 CUT_WITHIN = 0.45
-# Origins of a story's own photos (the event's Wikidata image, article, category; an editor's choice; NASA's).
-OWN = {"wikidata", "article", "category", "editor", "search", "nasa", "event", "recent"}
+# Origins of a story's own photos (the event's Wikidata image, article, category; an editor's choice; NASA's; its
+# satellite images).
+OWN = {"wikidata", "article", "category", "editor", "search", "nasa", "event", "recent", "satellite"}
 # Particles never matched alone ("del" in Puerta del Sol).
 STOP = {"de", "del", "la", "le", "les", "van", "von", "der", "da", "di", "du", "the", "of", "and", "el", "al", "bin",
         "ibn", "y", "e", "do", "dos", "das", "st", "mr", "mrs", "dr", "photo", "file", "jpg", "jpeg", "png"}

@@ -3,7 +3,8 @@ import pytest
 from studio import ledger, media, outlets, writer
 
 # The real lookups conftest turns off, for the tests of them.
-REAL = {"named_people": writer.named_people, "thing_photos": writer.thing_photos, "event": media.event}
+REAL = {"named_people": writer.named_people, "thing_photos": writer.thing_photos, "event": media.event,
+        "satellite": media.satellite}
 
 
 @pytest.fixture(autouse=True)
@@ -19,6 +20,7 @@ def offline_outlets(monkeypatch):
     monkeypatch.setattr(media, "nasa_for", lambda *args, **kwargs: [])
     # Nor a live Commons event category, nor a search for the people and things the reports name.
     monkeypatch.setattr(media, "event", lambda *args, **kwargs: [])
+    monkeypatch.setattr(media, "satellite", lambda *args, **kwargs: [])
     monkeypatch.setattr(writer, "named_people", lambda *args, **kwargs: [])
     monkeypatch.setattr(writer, "thing_photos", lambda *args, **kwargs: [])
     yield

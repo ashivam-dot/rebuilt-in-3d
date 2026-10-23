@@ -59,9 +59,9 @@ class Plate:
 
     def __init__(self, photo: dict, cache: Path):
         img = Image.open(photo["path"]).convert("RGB")
-        # A map is flat: depth parallax would bend its roads and labels.
+        # A map is flat: depth parallax would bend its roads and labels. So is a satellite image, seen from orbit.
         dep = np.full((img.height, img.width), 0.5, np.float32) if photo.get("role") == "map" \
-            else depth.estimate(img, cache)
+            or photo.get("origin") == "satellite" else depth.estimate(img, cache)
         pw, ph = round(W * MARGIN), round(H * MARGIN)
         iw, ih = img.size
         focus = photo.get("focus")

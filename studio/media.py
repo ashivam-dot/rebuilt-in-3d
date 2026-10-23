@@ -5,7 +5,8 @@ only CC0, public-domain, CC BY and CC BY-SA licences pass. Logos, maps, signatur
 injury or death imagery are skipped. When Commons has too few, Openverse (keyless) fills in photos of the story's
 places and things only, under CC0, CC BY or CC BY-SA; outlet photos are never used. A storm, eruption, flood, fire or
 other natural disaster may also take NASA Image and Video Library photos of the event itself (public domain, NASA's
-own only: nasa()).
+own only: nasa()), and a storm, flood or fire the satellite images of it in its own Commons category (US federal
+satellites only, each labelled on screen with its day: satellite()).
 """
 from __future__ import annotations
 
@@ -81,9 +82,13 @@ class Photo:
     # categories left out: where an event photo was taken, for anchor.py to set it under the beat that says so.
     categories: list = field(default_factory=list)
     uploaded: str = ""  # when the file was uploaded to Commons: of two copies of one picture, the first is kept
+    # What the picture is, said on screen before its credit ("Satellite image, 20 Oct 2026"); "" for a photo.
+    label: str = ""
 
     @property
     def credit(self) -> str:
+        if self.label:
+            return f"{self.label} · {self.author} / {self.license} / {self.host}"
         return f"Photo: {self.author} / {self.license} / {self.host}"
 
 
@@ -259,7 +264,10 @@ EVENT_WORDS = {
     "earthquake": r"earthquakes?|quakes?",
     "volcano": r"eruptions?|volcan\w*|lava|ash plume",
     "landslide": r"landslides?|mudslides?",
-    "attack": r"attacks?|strikes?|bombings?|shelling|explosions?|missiles?|drones?",
+    # Shootings and ambushes too (2026-10-23): "2026 Karak church shooting" and "2026 Croix-des-Bouquets gang
+    # ambush" are attacks, and a category named so was never matched.
+    "attack": r"attacks?|strikes?|bombings?|shelling|explosions?|missiles?|drones?|shootings?|gunfire|ambush(es)?|"
+              r"massacres?|stabbings?",
     "rail": r"derailments?|train|railway|collision",
     "aviation": r"crash|flight|aircraft|hijack\w*|emergency landing",
     "maritime": r"sinking|capsiz\w*|shipwreck|ferry|collision",
@@ -710,6 +718,84 @@ def nasa_for(category: str | None, names: list[str], since: date, limit: int = N
     return out
 
 
+# Satellite images of a named storm, flood or fire from its own Commons category (owner, 2026-10-23: a satellite
+# image of the storm itself, labelled so with its date, is a picture of the event). Typhoon Champi's two categories held
+# 27 files that day and none passed as an event photo: satellite images carry no camera data (read as screenshots),
+# all but one were taken before the one-day window, and their names read as one photo shoot (two at most). Kept only
+# when public domain and credited to a US federal satellite, instrument or agency (FEDERAL_IMAGERY: NOAA-20 VIIRS,
+# Aqua or Terra MODIS, GOES, NASA Worldview), never a partner's (THIRD_PARTY: Himawari/JMA, GEO-KOMPSAT/KMA,
+# EUMETSAT), never infrared, enhanced or annotated (NASA_NOT_PHOTO, NOT_SATELLITE), a forecast map or a track.
+SATELLITE_CATEGORIES = {"cyclone", "flood", "wildfire"}
+SATELLITE_DAYS = 7  # a storm is pictured over its life: images from up to a week before the story's date
+SATELLITE_PER_STORY = 4  # gate.MIN_BEATS: a storm nobody has photographed yet can still be told, one pass a beat
+SATELLITE_GAP_H = 6  # two passes closer than this show one storm the same way (NOAA-20 and Aqua 2 h apart)
+FEDERAL_IMAGERY = re.compile(r"\b(NOAA|NASA|NESDIS|GOES(-\d+)?|Suomi|S-NPP|JPSS|VIIRS|MODIS|Aqua|Terra|Landsat|EOSDIS|"
+                             r"Worldview|Earth Observatory|Joint Typhoon Warning Center|JTWC|National Hurricane Center|"
+                             r"Naval Research Laboratory)\b")
+NOT_SATELLITE = re.compile(r"\b(IR|infra-?red|superimpos\w*|composit\w*|overlay\w*|forecast\w*|tracks?|"
+                           r"annotat\w*|loop)\b", re.I)
+SHORT_MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def satellite_ok(file: str, desc: str, licence: str, artist: str, credit: str) -> bool:
+    """A public-domain satellite image of the event from a US federal satellite or agency, as it was taken."""
+    who, text = f"{artist} {credit}", f"{file} {desc} {artist} {credit}"
+    return (licence.lower().startswith(("public domain", "pd")) and bool(FEDERAL_IMAGERY.search(who))
+            and not THIRD_PARTY.search(text) and not NASA_NOT_PHOTO.search(text) and not NOT_SATELLITE.search(text))
+
+
+def satellite_label(day: date) -> str:
+    return f"Satellite image, {day.day} {SHORT_MONTHS[day.month - 1]} {day.year}"
+
+
+def pass_time(p: Photo) -> datetime | None:
+    """When a satellite image was taken: the UTC time its file name gives on its own day ("Champi 2026-10-20
+    0636Z.jpg"), else its date field's time, else the start of its day; None without a day."""
+    day = _day(p.date)
+    if not day:
+        return None
+    named = re.search(r"\b(\d{4})-(\d{2})-(\d{2})[ _]+(\d{2})(\d{2}) ?Z\b", p.file, re.I)
+    if named and (int(named[1]), int(named[2]), int(named[3])) == (day.year, day.month, day.day):
+        hour, minute = int(named[4]), int(named[5])
+    elif clock := re.search(r"\b(\d{2}):(\d{2})", p.date):
+        hour, minute = int(clock[1]), int(clock[2])
+    else:
+        hour = minute = 0
+    try:
+        return datetime(day.year, day.month, day.day, hour, minute)
+    except ValueError:
+        return datetime(day.year, day.month, day.day)
+
+
+def satellite(names: list[str], when: date, category: str | None, limit: int = SATELLITE_PER_STORY,
+              exclude: set[str] | None = None) -> list[Photo]:
+    """Satellite images of a storm, flood or fire (SATELLITE_CATEGORIES) from the event's own Commons categories
+    (event_categories, found by its own name), taken from SATELLITE_DAYS before its date to today: newest first, each
+    at least SATELLITE_GAP_H from the others (pass_time), labelled with its day (satellite_label). [] for any other
+    kind of story or on failure."""
+    own = [n for n in dict.fromkeys(names or []) if n and event_keys(n)][:1]
+    if category not in SATELLITE_CATEGORIES or not own:
+        return []
+    rows: list[tuple] = []
+    for cat in event_categories(own[0], when, category):
+        try:
+            rows += [(f, "satellite", "subject", EVENT_STAMP) for f in _event_files(cat, [])]
+        except Exception:
+            continue
+    if not rows:
+        return []
+    found = _usable(rows, set(), len(rows), shoot_cap=len(rows), exclude=exclude,
+                    since=when - timedelta(days=SATELLITE_DAYS), until=date.today(), satellite=True)
+    out, times = [], []
+    for p in sorted(found, key=lambda p: pass_time(p) or datetime.min, reverse=True):
+        t = pass_time(p)
+        if not t or any(abs((t - o).total_seconds()) < SATELLITE_GAP_H * 3600 for o in times):
+            continue  # the same pass in two files (a PNG and a JPEG a minute apart) is one picture
+        times.append(t)
+        out.append(p)
+    return out[:limit]
+
+
 def place_like(ent: dict) -> bool:
     """A Wikidata item that is somewhere: it has coordinates and is not a person."""
     kinds = {c["value"] for c in wiki.claims(ent, "P31")}
@@ -746,11 +832,14 @@ def picks(files: list[str], limit: int = 8) -> list[Photo]:
 
 def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2,
             exclude: set[str] | None = None, trust_article: bool = False, small: set[str] = frozenset(),
-            since: date | None = None, until: date | None = None, vet: bool = False) -> list[Photo]:
+            since: date | None = None, until: date | None = None, vet: bool = False,
+            satellite: bool = False) -> list[Photo]:
     """ordered: (file, origin), (file, origin, role) or (file, origin, role, stamp) rows, best first; stamp is
     {"kind", "shows"} (anchor kinds). small: origins whose files may be as small as PORTRAIT_SIDE. since, until: a
     file taken (DateTimeOriginal) before since or after until is dropped: a photo of the place from another day is
-    not the event. vet: each file must show where it came from (provenance), or it is dropped and logged."""
+    not the event. vet: each file must show where it came from (provenance), or it is dropped and logged.
+    satellite: each file must be a federal satellite image (satellite_ok), labelled with its day; its credit is its
+    provenance, and "made from" a satellite's data is how such an image is made (DERIVED is not asked)."""
     seen, files = set(), []
     banned = {e.replace("_", " ") for e in exclude or ()}
     for f, origin, *rest in ordered:
@@ -772,7 +861,11 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
         desc = _text(meta.get("ImageDescription", {}).get("value"))
         if not FREE.match(lic) or meta.get("NonFree", {}).get("value") or GRAPHIC.search(desc):
             continue
-        if DERIVATIVE.search(f"{f} {desc}") or MAP_TEXT.search(f"{f} {desc}") or DERIVED.search(f"{f} {desc}"):
+        if DERIVATIVE.search(f"{f} {desc}") or MAP_TEXT.search(f"{f} {desc}") or \
+                (not satellite and DERIVED.search(f"{f} {desc}")):
+            continue
+        artist = _text(meta.get("Artist", {}).get("value"), 120)
+        if satellite and not satellite_ok(f, desc, lic, artist, _text(meta.get("Credit", {}).get("value"), 200)):
             continue
         if min(ii["width"], ii["height"]) < (PORTRAIT_SIDE if origin in small else MIN_SIDE) or ii.get("sha1") in hashes:
             continue
@@ -791,12 +884,14 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
             continue
         shoots[shoot] = shoots.get(shoot, 0) + 1
         hashes.add(ii.get("sha1"))
-        author = _text(meta.get("Artist", {}).get("value"), 60) or "unknown author"
+        author = artist[:60] or "unknown author"
+        label = satellite_label(day) if satellite and day else ""
         photos.append(Photo(file=f, url=ii.get("thumburl") or ii["url"], page=ii["descriptionurl"], width=ii["width"],
-                            height=ii["height"], author=author, license=lic, description=desc,
+                            height=ii["height"], author=author, license=lic,
+                            description=f"{label}: {desc}" if label else desc,
                             date=taken, origin=origin, role=role, kind=stamp.get("kind", ""),
                             shows=list(stamp.get("shows") or []), categories=content_categories(meta),
-                            uploaded=ii.get("timestamp") or ""))
+                            uploaded=ii.get("timestamp") or "", label=label))
         if len(photos) >= limit:
             break
     return photos
