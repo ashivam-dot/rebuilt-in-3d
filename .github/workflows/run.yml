@@ -49,14 +49,15 @@ jobs:
         with:
           enable-cache: true
       - name: System packages
-        # An apt mirror has hung this step until the job's timeout: three tries of at most three minutes each. timeout wraps
-        # sudo, not apt: under sudo's pty a timeout-wrapped apt runs in a background process group and stops on the
-        # terminal (every run failed this way on 2026-10-23).
+        # Ubuntu's apt mirror hangs for minutes on some runs (2026-10-23: three runs lost, each try > 180 s). The image's
+        # own package lists usually suffice, so install from them first and refresh them only when that fails; every
+        # apt call is bounded so a hang costs a retry, not the run.
         run: |
           for i in 1 2 3; do
-            timeout 180 sudo apt-get update -qq && timeout 180 sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null && exit 0
+            timeout 240 sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null && exit 0
+            timeout 240 sudo apt-get update -q && timeout 240 sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null && exit 0
             sudo dpkg --configure -a || true
-            sleep $((i * 10))
+            sleep $((i * 15))
           done
           exit 1
       # The story writer's weights (7 GB) are fetched per run: with them the cache would pass GitHub's 10 GB limit.
