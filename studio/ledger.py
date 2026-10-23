@@ -177,8 +177,14 @@ def reopened(row: dict | None) -> bool:
         (pictures_reason(reason) and row.get("rules") != PICTURES_RULES)
 
 
+# Reporting that could not be read is retried like a story short of photos (cli.RETRYABLE, 2026-10-23): a story
+# given up for it at once, before that, comes back. One given up after its tries ("gave up after") stays given up.
+UNREAD = "could be read"
+
+
 def is_done(story_id: str) -> bool:
     skipped = load("skipped", {}).get(story_id)
-    if reopened(skipped):
+    if reopened(skipped) or (UNREAD in (skipped or {}).get("reason", "")
+                             and not skipped["reason"].startswith("gave up after")):
         skipped = None
     return any(r["id"] == story_id for r in published()) or bool(skipped and not waiting(skipped.get("reason")))

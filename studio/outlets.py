@@ -7,8 +7,8 @@ as ONE source, so "two independent outlets" means two different owners. Outlet p
 used; only their words are read, as corroboration, and every outlet used is named in the description.
 
 `recent()` reads every feed in parallel (a failed feed is reported, never fatal). `text()` extracts an article's text
-with trafilatura, cached per run, at most MAX_TEXTS fetches a run. `stories()` finds stories Wikipedia has no article
-for yet (`nw-` ids, see CHANNEL.md).
+with trafilatura, cached per run, at most STORY_TEXTS fetches a story and MAX_TEXTS a run. `stories()` finds stories
+Wikipedia has no article for yet (`nw-` ids, see CHANNEL.md).
 """
 from __future__ import annotations
 
@@ -126,7 +126,12 @@ BROWSER_HEADERS = {"User-Agent": BROWSER_UA,
                    "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Upgrade-Insecure-Requests": "1"}
 BROWSER_HOSTS = ("pib.gov.in", "ndtv.com", "ndtv.in", "france24.com")
 TEXT_TIMEOUT = 20
-MAX_TEXTS = 12
+# Article fetches: at most STORY_TEXTS for one story's reporting and MAX_TEXTS in a run. The run's 12 once were all
+# spent by the first three nw- stories it tried, which then failed for want of photos (2026-10-23, run 39979592470):
+# the Paris-suburb shooting, four owners' readable articles, was given up for good as "fewer than 2 independent
+# outlets' articles about Paris could be read" without one fetch.
+STORY_TEXTS = 6
+MAX_TEXTS = 30
 MIN_TEXT = 300  # an extract shorter than this is a video page or a teaser, not an article
 REPORTS = 4  # articles in the writer's Reporting block, each from a different owner
 EXCERPT = 1400
@@ -332,10 +337,14 @@ def reporting(items: list[dict], limit: int = REPORTS) -> list[dict]:
     counts as that agency's ("AP via ABC News"), and one whose sentences repeat an article already picked counts as
     that article's owner, so syndicated copy never passes for independent reporting. Fewer than two owners give
     nothing to corroborate, so then the list is empty."""
-    picked, have = [], set()
+    picked, have, reads = [], set(), 0
     for item in sorted(items, key=_rank):
         if item["owner"] in have or len(picked) >= limit:
             continue
+        if item["url"] not in _texts:  # an article already read this run costs no fetch
+            if reads >= STORY_TEXTS:
+                continue
+            reads += 1
         body = text(item["url"])
         if not body:
             continue

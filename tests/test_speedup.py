@@ -58,10 +58,13 @@ def test_a_big_story_with_a_brand_new_article_is_told_from_the_reporting_at_once
     assert story["id"].startswith("nw-") and story["article"] == "2026 Chamoli cloudburst"
 
     cand = {"id": "wk-Q99", "kind": "incident", "title": "2026 Chamoli cloudburst", "owners": ["BBC", "A", "B"]}
-    hours = {"2026 Chamoli cloudburst": 2, "Settled": 9, "Quiet": 1}
+    # Corroboration is outlets.stories' to count (2026-10-23): an article one owner's headline names is young too;
+    # one under trends.YOUNG_MIN_AGE is not yet.
+    hours = {"2026 Chamoli cloudburst": 2, "Settled": 9, "Quiet": 1.5, "Brand new": 0.5}
     monkeypatch.setattr(trends.wiki, "created", lambda title: datetime.now(timezone.utc) - timedelta(hours=hours[title]))
-    cands = [cand, cand | {"title": "Settled"}, cand | {"title": "Quiet", "owners": ["BBC"]}]
-    assert trends.young_articles(cands) == ["2026 Chamoli cloudburst"]
+    cands = [cand, cand | {"title": "Settled"}, cand | {"title": "Quiet", "owners": ["BBC"]},
+             cand | {"title": "Brand new"}]
+    assert trends.young_articles(cands) == ["2026 Chamoli cloudburst", "Quiet"]
     told = [{"id": story["id"], "published_at": NOW.isoformat(), "article": "2026 Chamoli cloudburst"}]
     assert plan.told_before(cand, told, NOW)
 

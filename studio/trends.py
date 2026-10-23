@@ -50,6 +50,9 @@ GDACS_MAX_DAYS = 4
 PORTAL_FAME = 50000
 PORTAL_LEADS = 2
 INCIDENT_MAX_DAYS = 30
+# A brand-new incident article is told from corroborating reporting (young_articles) once it is this old: the first
+# hour's reports are the ones most often corrected.
+YOUNG_MIN_AGE = timedelta(hours=1)
 DEATH_MAX_DAYS = 10
 # The Wikidata query service timed out on 7 of the last 80 runs (state branch health.json, 2026-10-21), each time
 # blinding the death lane. The last good list of recent deaths is kept in state and stands in for this long.
@@ -418,19 +421,25 @@ def radar(today: date | None = None) -> dict:
 
 
 def young_articles(cands: list[dict]) -> list[str]:
-    """Incident articles too new to tell from (stories.MIN_ARTICLE_AGE) that enough independent outlets already
-    report: a big story is told from that reporting at once instead of waiting hours for the article to settle."""
+    """Incident articles too new to tell from (stories.MIN_ARTICLE_AGE) but at least YOUNG_MIN_AGE old: their
+    headlines go to outlets.stories, which tells the story from the reporting at once when at least NEW_OWNERS
+    independent owners report it, instead of waiting hours for the article to settle. Without that corroboration the
+    article simply waits out MIN_ARTICLE_AGE, as before."""
     from .stories import MIN_ARTICLE_AGE
 
     out, now = [], datetime.now(timezone.utc)
     for c in cands:
-        if c["kind"] != "incident" or len(c.get("owners") or []) < outlets.NEW_OWNERS:
+        # Corroboration is counted by outlets.stories over every headline about the event, not by the headlines
+        # matched to the article (2026-10-23, run 39985026749: "2026 Karak church shooting" had one, DW's "Karak
+        # church shooting", while six owners' "gunmen open fire at church in Jordan" made a separate nw- story;
+        # the article waited 6 h).
+        if c["kind"] != "incident":
             continue
         try:
             made = wiki.created(c["title"])
         except Exception:  # the story then simply waits for its article, as before
             continue
-        if made and now - made < MIN_ARTICLE_AGE:
+        if made and YOUNG_MIN_AGE <= now - made < MIN_ARTICLE_AGE:
             out.append(c["title"])
     return out
 
