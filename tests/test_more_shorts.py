@@ -203,11 +203,11 @@ def test_an_incident_and_a_tribute_both_want_three_photos():
     assert gate._story(tribute) == ["photos: only 2 (want 3 or more)"]
 
 
-def test_with_two_photos_the_writer_may_use_each_up_to_four_times():
+def test_the_writer_shows_each_photo_on_one_beat():
+    """Owner, 2026-10-23: a picture shown again spoils the Short, so there are as many beats as photos (at most 8)."""
     msg = writer._messages("brief", [], "", _two_photos(), "Yemen")[1]["content"]
-    assert "at most 4 times, never on two beats in a row when another fits" in msg
-    three = writer._messages("brief", [], "", _two_photos() + _two_photos()[:1], "Yemen")[1]["content"]
-    assert "at most 3 times" in three
+    assert "Exactly 2 beats, one for each PHOTO, and 26 to 34 words" in msg and "never show a photo twice" in msg
+    assert "Exactly 8 beats" in writer._messages("brief", [], "", _two_photos() * 5, "Yemen")[1]["content"]
 
 
 def test_fill_photos_are_still_sought_for_a_third(monkeypatch, tmp_path):

@@ -116,8 +116,8 @@ RULES = """RULES (all mandatory):
   ("Abha was also attacked", never "Abha was hit first"), and never moralise ("this tragedy reminds us").
 - Never say "we", "us" or "our": the narrator speaks to the whole world, not for any country. Retell an official's
   words with their name ("Carney said the nation is in mourning"), never as the narrator's own.
-- 7 or 8 beats and 110 to 130 words in total (about 45 seconds spoken). Each beat is one or two spoken sentences
-  of 12 to 20 words. Count the words before you answer.
+- Exactly {beats} beats, one for each PHOTO, and {lo} to {hi} words in total. Each beat is one or two spoken
+  sentences of 12 to 20 words. Count the words before you answer.
 - Every beat must carry a specific fact from the SOURCE (a work, a place, a year, an honour, a choice they made);
   feeling comes from how you tell those facts, not from vague praise.
 - Tell it as a story, not a list: vary how beats open, and never start more than 2 beats with the same word
@@ -136,8 +136,8 @@ RULES = """RULES (all mandatory):
   event itself that names nobody else. The names a beat can say to show a photo: {shows}. A beat that names
   someone who has no photo here has nothing to show: name such people rarely, and never in beat 1. Beat 1 uses
   photo {best}. A photo marked MAP goes on one beat at most, never beat 1: a beat whose point is where it happened,
-  naming that place and nobody else. A photo marked SETTING goes only on a beat that names that town. The same photo
-  at most {most} times, never on two beats in a row when another fits.
+  naming that place and nobody else. A photo marked SETTING goes only on a beat that names that town. Every photo goes on
+  exactly one beat: never show a photo twice.
 - caption: 1 to 4 words shown on screen that match what the beat says: the exact work title it names with its year,
   a role, an honour, or a year. Never a place name: viewers read a place over a photo as where the photo was taken.
 - hook: 3 to 6 words shown big over the first photo: the claim beat 1 opens on, in beat 1's own words (a number,
@@ -269,7 +269,8 @@ def _messages(brief: str, facts: list[str], source: str, photos: list[dict], nam
     user = (brief + "\n\nCONFIRMED FACTS:\n" + "\n".join(f"- {f}" for f in facts)
             + ("\n\nSOURCE (Wikipedia):\n" + source if source else "") + reporting_block(reports)
             + lead + "\n\nPHOTOS:\n" + listing + "\n\n"
-            + RULES.format(best=best_photo(story), name=name, most=max(2, -(-8 // max(len(photos), 1))),
+            + RULES.format(best=best_photo(story), name=name, beats=beat_count(photos), lo=13 * beat_count(photos),
+                           hi=17 * beat_count(photos),
                            shows=", ".join(story.showable()) or "none (tell it over the EVENT photos)")
             + ("\nREPORTING counts as a SOURCE under its own rule: " + REPORTING_RULE + "." if reports else "")
             + ("\n\nRECENT TITLES (the title never starts with the same 3 words as any of these):\n"
@@ -545,14 +546,30 @@ def hook_text_problems(draft: dict) -> list[str]:
             "with no question, exclamation or hype"]
 
 
+
+# Owner, 2026-10-23: "if a single map or place is shown multiple times it spoils the whole interest of watching."
+# Every photo is on one beat, so a Short has as many beats as photos (at most MAX_BEATS): fewer photos, a shorter Short.
+MAX_BEATS = 8
+
+
+def beat_count(photos: list[dict]) -> int:
+    return min(len(photos), MAX_BEATS)
+
+
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
               reports: list[dict] | None = None, casualties: bool = True, recent: list[str] | None = None,
               style: bool = True, story: anchor.Story | None = None) -> list[str]:
     problems = []
     beats = draft.get("beats", [])
-    words = sum(len(b["say"].split()) for b in beats)
-    if not 85 <= words <= 145:
-        problems.append(f"the script has {words} words; it must have 100 to 130")
+    words, n = sum(len(b["say"].split()) for b in beats), beat_count(photos)
+    if not 11 * n <= words <= 19 * n:
+        problems.append(f"the script has {words} words; it must have {13 * n} to {17 * n}")
+    if len(beats) != n:
+        problems.append(f"the script has {len(beats)} beats; it must have {n}, one for each photo")
+    shown = [b["photo"] for b in beats]
+    if twice := sorted({i for i in shown if shown.count(i) > 1}):
+        problems.append(f"photo(s) {', '.join(map(str, twice))} are on more than one beat: show each photo on one beat "
+                        "only, and write one beat for each photo")
     if not beats or name.split()[-1].lower() not in beats[0]["say"].lower():
         problems.append(f"beat 1 must name {name}")
     elif style:

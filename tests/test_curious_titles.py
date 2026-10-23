@@ -49,15 +49,15 @@ def test_the_brief_offers_curiosity_framing_only_on_the_sources_facts():
 def test_a_curiosity_titles_claim_is_fact_checked_with_the_beats(monkeypatch):
     """A How/Why title states a cause or an outcome, so the evidence check reads it as one more line."""
     say = ["Hurricane Milton grew to Category 5 in a single day over the Gulf of Mexico in October 2024.",
-           "It formed in the Gulf of Mexico and strengthened over very warm water. " * 4,
-           "Forecasters warned Florida to prepare as the storm turned east toward Tampa Bay. " * 3,
+           "It formed in the Gulf of Mexico and strengthened over very warm water.",
+           "Forecasters warned Florida to prepare as the storm turned east toward Tampa Bay.",
            "The National Hurricane Center said the storm would weaken before it reached Florida."]
     source = (" ".join(say) + " Milton reached Category 5 on October 7, 2024.").replace("  ", " ")
     checked = []
 
     def draft(title):
         return {"title": title, "hook": "Hurricane Milton grew to Category 5",
-                "beats": [{"say": s.strip(), "photo": 0, "caption": "Category 5"} for s in say]}
+                "beats": [{"say": s.strip(), "photo": i, "caption": "Category 5"} for i, s in enumerate(say)]}
 
     class Fake:
         title = ""
@@ -82,15 +82,18 @@ def test_a_curiosity_titles_claim_is_fact_checked_with_the_beats(monkeypatch):
     for title in ("How Hurricane Milton Grew to Category 5 in a Day", "Hurricane Milton Reaches Category 5"):
         Fake.title = title
         writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], source,
-                     [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
+                     MILTON_PHOTOS)
     curious, plain = (c.split("LINES:", 1)[1] for c in checked)
     assert curious.rstrip().endswith("5. TITLE: How Hurricane Milton Grew to Category 5 in a Day")
     assert "Hurricane Milton Reaches Category 5" not in plain and "\n5. " not in plain
 
 
+# One photo for each beat: the writer shows every photo once (2026-10-23).
+MILTON_PHOTOS = [{"file": f"File:{i}.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}
+                 for i in range(4)]
 SAY = ["Hurricane Milton grew to Category 5 in a single day over the Gulf of Mexico in October 2024.",
-       "It formed in the Gulf of Mexico and strengthened over very warm water. " * 4,
-       "Forecasters warned Florida to prepare as the storm turned east toward Tampa Bay. " * 3,
+       "It formed in the Gulf of Mexico and strengthened over very warm water.",
+       "Forecasters warned Florida to prepare as the storm turned east toward Tampa Bay.",
        "The National Hurricane Center said the storm would weaken before it reached Florida."]
 SOURCE = (" ".join(SAY) + " Milton reached Category 5 on October 7, 2024.").replace("  ", " ")
 
@@ -122,7 +125,7 @@ def checker(monkeypatch, title_verdict, asked=None):
                 return {"supported": False, "why": "not stated"}
             return {"title": "How Hurricane Milton Grew to Category 5 in a Day",
                     "hook": "Hurricane Milton grew to Category 5",
-                    "beats": [{"say": x.strip(), "photo": 0, "caption": "Category 5"} for x in SAY]}
+                    "beats": [{"say": x.strip(), "photo": i, "caption": "Category 5"} for i, x in enumerate(SAY)]}
 
     monkeypatch.setattr(writer.llm, "Model", Fake)
     return asked
@@ -133,7 +136,7 @@ def test_a_title_flagged_on_the_last_attempt_falls_back_to_the_plain_title(monke
     fallback title instead of failing "no draft passed the fact checks"."""
     asked = checker(monkeypatch, "partly")
     draft, log = writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                              [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
+                              MILTON_PHOTOS)
     assert draft["title"] == "Hurricane Milton: what happened" == writer.plain_title("incident", "Hurricane Milton")
     assert [b["say"] for b in draft["beats"]] == [x.strip() for x in SAY]
     assert len(log) == 3 and all(p.startswith("the title (How Hurricane Milton") for p in log[-1]["problems"])
@@ -147,7 +150,7 @@ def test_a_title_flagged_on_the_last_attempt_falls_back_to_the_plain_title(monke
 def test_a_title_the_checker_leaves_out_counts_as_unsupported(monkeypatch):
     checker(monkeypatch, None)
     draft, log = writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                              [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
+                              MILTON_PHOTOS)
     assert draft["title"] == "Hurricane Milton: what happened"
     assert log and "no verdict" in log[0]["problems"][0] and log[0]["problems"][0].startswith("the title (")
 
@@ -155,7 +158,7 @@ def test_a_title_the_checker_leaves_out_counts_as_unsupported(monkeypatch):
 def test_a_supported_curiosity_title_is_kept(monkeypatch):
     checker(monkeypatch, "supported")
     draft, log = writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                              [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
+                              MILTON_PHOTOS)
     assert draft["title"] == "How Hurricane Milton Grew to Category 5 in a Day" and log == []
 
 
@@ -170,7 +173,7 @@ def test_a_flagged_beat_still_costs_the_story_on_the_last_attempt(monkeypatch):
     monkeypatch.setattr(writer, "check_verdict", with_beat)
     with pytest.raises(ValueError, match="no draft passed the fact checks"):
         writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                     [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
+                     MILTON_PHOTOS)
 
 
 @pytest.mark.parametrize("title", [

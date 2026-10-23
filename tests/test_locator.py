@@ -20,8 +20,9 @@ def _tile(*args, **kwargs):
 
 def _short(photos, kind="incident"):
     return Short(id="wk-Q141745391", kind=kind, title="The Silver Rail Elementary School Shooting",
-                 beats=[Beat("At Silver Rail Elementary School in Bend, a shooting unfolded. " * 4, "photo:0"),
-                        Beat(writer.OUTRO, "outro")],
+                 # One beat for each photo: a Short shows every picture once (2026-10-23).
+                 beats=[Beat("At Silver Rail Elementary School in Bend, a shooting unfolded. " * 2, f"photo:{i}")
+                        for i in range(len(photos))] + [Beat(writer.OUTRO, "outro")],
                  facts=[Fact("name", "Silver Rail Elementary School shooting", "https://en.wikipedia.org/wiki/X", [])],
                  sources=["https://en.wikipedia.org/wiki/X"], loss=False,
                  scene={"template": "story", "photos": photos},
@@ -58,7 +59,8 @@ def test_a_short_is_never_maps_alone():
     real = [dict(PHOTO, role=None, file=f"File:{i}.jpg", description="Police at Silver Rail Elementary School in Bend after the shooting")
             for i in range(3)]
     # Owner, 2026-10-22 ("do you think people are here to watch the map"): one map at most, beside real photos.
-    assert not any("map" in p or "only" in p for p in gate.check(_short(real + [MAP])))
+    # (Each picture is on its own beat, so the map beat's place and time rules are tested in test_anchor.)
+    assert not any("maps (at most" in p or "only" in p for p in gate.check(_short(real + [MAP])))
     assert any("2 maps (at most 1)" in p for p in gate.check(_short(real + [MAP, MAP])))
     assert any("3 maps" in p for p in gate.check(_short([PHOTO, MAP, MAP, MAP])))
     assert any("never a map" in p for p in gate.check(_short([PHOTO, PHOTO, MAP], kind="death")))

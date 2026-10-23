@@ -72,8 +72,8 @@ def test_alignment_keeps_script_words():
 
 def story(photos, credits):
     return Short(id="wk-Q1", kind="death", title="The Final Bow of Nana Patekar",
-                 beats=[Beat("Nana Patekar has died at 75, and Indian cinema has lost a voice like no other. " * 4,
-                             "photo:0"), Beat(writer.OUTRO, "outro")],
+                 beats=[Beat("Nana Patekar has died at 75, and Indian cinema has lost a voice like no other.", f"photo:{i}")
+                        for i in range(len(photos))] + [Beat(writer.OUTRO, "outro")],
                  facts=[Fact("age", "75", "https://www.wikidata.org/wiki/Q1", ["75"])],
                  sources=["https://en.wikipedia.org/wiki/Nana_Patekar"], loss=False,
                  scene={"template": "story", "photos": photos}, credits=credits)
@@ -81,7 +81,7 @@ def story(photos, credits):
 
 def test_story_gate_needs_free_credited_photos():
     photo = {"file": "File:A.jpg", "license": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:A.jpg"}
-    good = story([photo] * 3, [photo["page"]])
+    good = story([photo] * 4, [photo["page"]])
     assert gate.check(good) == []
     nc = dict(photo, license="CC BY-NC 2.0")
     assert any("not free" in p for p in gate.check(story([photo, photo, nc], [photo["page"]])))

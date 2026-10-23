@@ -55,6 +55,8 @@ MAX_SETTING = 1
 MAX_MAPS = 1
 # Photos of who or what the story is about (not a map, not the town) a Short needs.
 REAL_PHOTOS = 3
+# Pictures a Short needs, each on its own beat (2026-10-23): fewer is under 20 seconds.
+MIN_BEATS = 4
 # What a transport incident's photos must show (file name or Commons description): the vehicle, its line, or the
 # station, airport or port. A railway's headquarters or a sign board shows none of them.
 SHOWS = {
@@ -240,6 +242,12 @@ def _story(short: Short) -> list[str]:
     # nine beats: a map or the town may stand under at most a third of the beats, beside REAL_PHOTOS real photos.
     backdrop = {f"photo:{i}" for i, p in enumerate(photos) if p.get("role") in ("map", "setting")}
     on_backdrop = sum(b.shot in backdrop for b in short.beats)
+    shots = [b.shot for b in short.beats if b.shot.startswith("photo:")]
+    if twice := sorted({s for s in shots if shots.count(s) > 1}):
+        # Owner, 2026-10-23: the same picture shown again spoils the Short (studio/writer.py MAX_BEATS).
+        problems.append(f"beats: {', '.join(twice)} shown on more than one beat (each picture once)")
+    if short.beats and len(shots) < MIN_BEATS:
+        problems.append(f"beats: only {len(shots)} pictures (want {MIN_BEATS} or more, each shown once)")
     if short.beats and on_backdrop * 3 > len(short.beats):
         problems.append(f"beats: {on_backdrop} of {len(short.beats)} beats stand on a map or the town (at most a third)")
     real = sum(k not in ("map", "setting") for k in story.kinds)
