@@ -1,14 +1,13 @@
 {
- "at": "2026-10-23T11:24:07+00:00",
+ "at": "2026-10-23T11:57:45+00:00",
  "ok": true,
  "steps": [
-  "learn: 41 scored Shorts, lifts {'kind:quake': {'n': 7, 'lift': 0.75, 'typical_views_24h': 59, 'n_retention': 6, 'typical_view_pct': 60.8}, 'kind:death': {'n': 11, 'lift': 1.079, 'typical_views_24h': 212, 'n_retention': 11, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 23, 'lift': 1.082, 'typical_views_24h': 202, 'n_retention': 20, 'typical_view_pct': 54.0}, 'category:death': {'n': 10, 'lift': ",
-  "channel jobs (setup+untag): untag 0 done, 0 left; 564 units today",
-  "watch: 2 candidates (0 quakes, 17 trending), 2 hazard alerts",
-  "outlets: 789 headlines from 30 feeds (21 owners), 31 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261023-champi-cyclone, nw-20261022-macron-protest, nw-20261023-paris-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 565 units today",
+  "watch: 2 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 788 headlines from 30 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-paris-attack, nw-20261022-macron-protest",
   "ad-suitability x0.85 (attack, not breaking): nw-20261023-paris-attack",
   "skip nw-20261023-champi-cyclone: gate: only 0 usable photos of Taiwan (want 2)",
-  "skip nw-20261023-paris-attack: gate: no draft passed the fact checks: line 1 (Paris shooting occurs in a suburb after shots were fired.): partly: The source does not state the shooting occurred in a 'suburb'; it only confirms the place is Paris. | second look: The source sentences do not state that the shooting occurred in a 'suburb'. While the sources mention the location of a playground and the context of protests in France, no specific geographical detail regardi",
+  "skip nw-20261023-paris-attack: gate: no draft passed the fact checks: line 3 (One of the locations where shots were fired was a playground): partly: The line is only supported by [owner: Deutsche Welle]. Per the instructions, a detail from a single owner is only supported if stated by two different owners; otherwise, it is partly. | second look: The fact that one of the locations was a playground is only stated by one owner (Deutsche Welle). According to the instruc",
   "nothing eligible to publish"
  ]
 }

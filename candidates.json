@@ -1,7 +1,58 @@
 {
- "at": "2026-10-23T11:24:10+00:00",
+ "at": "2026-10-23T11:57:46+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 646141,
+   "views": 371141,
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-10-23T04:22:00+00:00",
+   "headlines": [
+    "Julia Roberts honors “Steel Magnolias” dad Tom Skerritt upon his death at 93",
+    "Tom Skerritt, Alien and Top Gun actor, dies aged 93",
+    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22",
+    "google-news:Julia Roberts honors “Steel Magnolias” dad Tom Skerritt upon his death at 93",
+    "google-news:Tom Skerritt, Alien and Top Gun actor, dies aged 93",
+    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
+     "url": "https://www.cbsnews.com/news/tom-skerritt-dies-age-93-alien-top-gun-picket-fences/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T23:53:37+00:00"
+    },
+    {
+     "title": "Tom Skerritt dies at 93",
+     "url": "https://www.cbsnews.com/video/tom-skerritt-dies-93/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-22T23:52:45+00:00"
+    }
+   ],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
@@ -11,7 +62,7 @@
    "news": 525000,
    "news_at": "2026-10-23T08:48:37+00:00",
    "headlines": [
-    "Earthquake of magnitude 7 kills at least 16 in Tibet",
+    "7.0 magnitude earthquake hit the Tibet region October 22, killing many",
     "Powerful earthquake in Tibet's Nagqu area leaves 16 dead",
     "Powerful earthquake hits Tibet, killing 16 people, reports say",
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
@@ -20,7 +71,7 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
-    "google-news:Earthquake of magnitude 7 kills at least 16 in Tibet",
+    "google-news:7.0 magnitude earthquake hit the Tibet region October 22, killing many",
     "google-news:Powerful earthquake in Tibet's Nagqu area leaves 16 dead",
     "google-news:Powerful earthquake hits Tibet, killing 16 people, reports say",
     "outlet:Disney (ABC News)",
@@ -131,55 +182,6 @@
     93.78
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 521141,
-   "views": 371141,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-23T04:22:00+00:00",
-   "headlines": [
-    "Julia Roberts honors “Steel Magnolias” dad Tom Skerritt upon his death at 93",
-    "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22",
-    "google-news:Julia Roberts honors “Steel Magnolias” dad Tom Skerritt upon his death at 93",
-    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-     "url": "https://www.cbsnews.com/news/tom-skerritt-dies-age-93-alien-top-gun-picket-fences/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T23:53:37+00:00"
-    },
-    {
-     "title": "Tom Skerritt dies at 93",
-     "url": "https://www.cbsnews.com/video/tom-skerritt-dies-93/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T23:52:45+00:00"
-    }
-   ],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   },
   {
    "qid": "Q1699148",
@@ -361,6 +363,92 @@
    "has_coords": false
   },
   {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "At least one dead and four injured in Paris suburb shooting",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T11:44:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "France Médias Monde",
+    "Deutsche Welle",
+    "BBC"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "One killed, four injured in drive-by shooting in Paris suburb",
+    "French police are investigating a possible terror-related shooting near Paris that left one dead",
+    "At least one dead and four injured in Paris suburb shooting"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least one dead and four injured in Paris suburb shooting",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:44:12+00:00"
+    },
+    {
+     "title": "French police are investigating a possible terror-related shooting near Paris that left one dead",
+     "url": "https://www.dw.com/en/french-police-are-investigating-a-possible-terror-related-shooting-near-paris-that-left-one-dead/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "One killed, four injured in drive-by shooting in Paris suburb",
+     "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:08:26+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q452431",
    "title": "Ron Duguay",
    "fame": 92485,
@@ -452,79 +540,6 @@
     "outlet:Fox Corporation",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: 1 killed, 4 wounded after shooting near Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T11:22:00+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-    "At least one dead and four injured in Paris suburb shooting",
-    "France: 1 killed, 4 wounded after shooting near Paris"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
-    },
-    {
-     "title": "At least one dead and four injured in Paris suburb shooting",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:09:36+00:00"
-    },
-    {
-     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T10:43:27+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -686,26 +701,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-18"
-  },
-  {
-   "qid": "Q6261870",
-   "title": "John Vaughan (footballer, born 1964)",
-   "fame": 7892,
-   "views": 7892,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6261870",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
   },
   {
    "qid": "Q141745391",
@@ -896,25 +891,27 @@
   {
    "id": "nw-20261023-paris-attack",
    "qid": null,
-   "title": "France: 1 killed, 4 wounded after shooting near Paris",
+   "title": "At least one dead and four injured in Paris suburb shooting",
    "name": "Paris",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T11:22:00+00:00",
+   "news_at": "2026-10-23T11:44:12+00:00",
    "owners": [
     "Disney (ABC News)",
-    "BBC",
-    "Deutsche Welle"
+    "France Médias Monde",
+    "Deutsche Welle",
+    "BBC"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-    "At least one dead and four injured in Paris suburb shooting",
-    "France: 1 killed, 4 wounded after shooting near Paris"
+    "One killed, four injured in drive-by shooting in Paris suburb",
+    "French police are investigating a possible terror-related shooting near Paris that left one dead",
+    "At least one dead and four injured in Paris suburb shooting"
    ],
    "places": [],
    "attackers": [],
@@ -928,8 +925,18 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "title": "At least one dead and four injured in Paris suburb shooting",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:44:12+00:00"
+    },
+    {
+     "title": "French police are investigating a possible terror-related shooting near Paris that left one dead",
+     "url": "https://www.dw.com/en/french-police-are-investigating-a-possible-terror-related-shooting-near-paris-that-left-one-dead/a-79742256?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
@@ -938,14 +945,14 @@
      "at": "2026-10-23T11:22:00+00:00"
     },
     {
-     "title": "At least one dead and four injured in Paris suburb shooting",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "One killed, four injured in drive-by shooting in Paris suburb",
+     "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T11:09:36+00:00"
+     "at": "2026-10-23T11:08:26+00:00"
     },
     {
      "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
@@ -960,18 +967,19 @@
    ],
    "via": [
     "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
  "outlets": {
-  "headlines": 789,
+  "headlines": 788,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
+  "matched": 29,
   "corroborated": 4
  },
  "emerging": [
@@ -1111,6 +1119,92 @@
    "article": null
   },
   {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "At least one dead and four injured in Paris suburb shooting",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T11:44:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "France Médias Monde",
+    "Deutsche Welle",
+    "BBC"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "One killed, four injured in drive-by shooting in Paris suburb",
+    "French police are investigating a possible terror-related shooting near Paris that left one dead",
+    "At least one dead and four injured in Paris suburb shooting"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least one dead and four injured in Paris suburb shooting",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:44:12+00:00"
+    },
+    {
+     "title": "French police are investigating a possible terror-related shooting near Paris that left one dead",
+     "url": "https://www.dw.com/en/french-police-are-investigating-a-possible-terror-related-shooting-near-paris-that-left-one-dead/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "One killed, four injured in drive-by shooting in Paris suburb",
+     "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:08:26+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261022-macron-protest",
    "qid": null,
    "title": "French authorities seek to ban protests: Macron to meet students on Friday",
@@ -1185,80 +1279,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: 1 killed, 4 wounded after shooting near Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T11:22:00+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-    "At least one dead and four injured in Paris suburb shooting",
-    "France: 1 killed, 4 wounded after shooting near Paris"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
-    },
-    {
-     "title": "At least one dead and four injured in Paris suburb shooting",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T11:09:36+00:00"
-    },
-    {
-     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T10:43:27+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 31 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261023-champi-cyclone, nw-20261022-macron-protest, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-paris-attack, nw-20261022-macron-protest"
 }
