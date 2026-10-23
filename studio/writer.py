@@ -562,7 +562,7 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     problems = []
     beats = draft.get("beats", [])
     words, n = sum(len(b["say"].split()) for b in beats), beat_count(photos)
-    if not 11 * n <= words <= 19 * n:
+    if not 13 * n <= words <= 17 * n:
         problems.append(f"the script has {words} words; it must have {13 * n} to {17 * n}")
     if len(beats) != n:
         problems.append(f"the script has {len(beats)} beats; it must have {n}, one for each photo")
