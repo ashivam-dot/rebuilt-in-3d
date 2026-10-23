@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T04:52:49+00:00",
+ "at": "2026-10-23T05:10:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -110,44 +110,52 @@
    "views": 0,
    "traffic": 0,
    "news": 400000,
-   "news_at": "2026-10-23T04:04:35+00:00",
+   "news_at": "2026-10-23T05:01:22+00:00",
    "headlines": [
     "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16",
+    "At least 16 people killed by powerful earthquake in Tibet",
     "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
-    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes",
-    "At least 16 dead when powerful 7.0 magnitude earthquake strikes Tibet"
+    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
     "google-news:Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "google-news:Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16",
-    "google-news:Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+    "google-news:At least 16 people killed by powerful earthquake in Tibet",
+    "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:Euronews",
-    "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:NDTV",
     "outlet:Al Jazeera Media Network",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)"
    ],
    "owners": [
+    "Paramount (CBS)",
     "Guardian Media Group",
     "Euronews",
-    "Paramount (CBS)",
     "SCMP Group",
     "Bennett, Coleman & Co.",
-    "NDTV",
     "Al Jazeera Media Network",
     "Deutsche Welle",
     "France Médias Monde",
     "Disney (ABC News)"
    ],
    "reports": [
+    {
+     "title": "At least 16 people killed by powerful earthquake in Tibet",
+     "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T05:01:22+00:00"
+    },
     {
      "title": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
      "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
@@ -167,16 +175,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T04:02:07+00:00"
-    },
-    {
-     "title": "At least 16 dead when powerful 7.0 magnitude earthquake strikes Tibet",
-     "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T03:56:11+00:00"
     },
     {
      "title": "China’s Xi Jinping orders urgent relief after Tibet earthquake leaves 16 dead",
@@ -199,16 +197,6 @@
      "at": "2026-10-23T02:05:24+00:00"
     },
     {
-     "title": "18 Killed, Over 300 Houses Collapse After Magnitude-7 Earthquake In Tibet",
-     "url": "https://www.ndtv.com/world-news/earthquake-of-magnitude-7-strikes-tibet-weeks-after-deadly-flash-floods-12221696#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-23T01:44:13+00:00"
-    },
-    {
      "title": "Tibet rocked by 7.0-magnitude earthquake",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -227,6 +215,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-22T23:24:00+00:00"
+    },
+    {
+     "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
+     "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T21:23:01+00:00"
     }
    ],
    "id": "wk-Q141807978",
@@ -283,7 +281,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-23T01:24:16+00:00",
+   "news_at": "2026-10-22T09:58:30+00:00",
    "headlines": [
     "Indian killed as Houthis attack Saudi Arabia’s Dammam airport"
    ],
@@ -677,10 +675,10 @@
   }
  ],
  "outlets": {
-  "headlines": 808,
+  "headlines": 801,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
+  "matched": 34,
   "corroborated": 4
  },
  "emerging": [
@@ -760,5 +758,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
+ "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
 }
