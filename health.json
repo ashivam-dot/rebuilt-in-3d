@@ -1,13 +1,12 @@
 {
- "at": "2026-10-23T11:57:45+00:00",
+ "at": "2026-10-23T12:31:10+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 565 units today",
-  "watch: 2 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-paris-attack, nw-20261022-macron-protest",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261023-paris-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 566 units today",
+  "watch: 2 candidates (0 quakes, 15 trending), 2 hazard alerts",
+  "outlets: 790 headlines from 30 feeds (21 owners), 31 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-paris-attack",
   "skip nw-20261023-champi-cyclone: gate: only 0 usable photos of Taiwan (want 2)",
-  "skip nw-20261023-paris-attack: gate: no draft passed the fact checks: line 3 (One of the locations where shots were fired was a playground): partly: The line is only supported by [owner: Deutsche Welle]. Per the instructions, a detail from a single owner is only supported if stated by two different owners; otherwise, it is partly. | second look: The fact that one of the locations was a playground is only stated by one owner (Deutsche Welle). According to the instruc",
+  "skip nw-20261023-paris-attack: gate: beats: 8 of 9 beats stand on a map or the town (at most a third); photos: only 0 show who or what the story is about (want 3 or more)",
   "nothing eligible to publish"
  ]
 }
