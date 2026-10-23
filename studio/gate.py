@@ -280,6 +280,10 @@ def pictures(short: Short, story) -> list[str]:
         problems.append(f"faceless: no real picture shows {story.subject or 'the story'} (a map, the town or a filler "
                         "photo never stands in)")
     texts = [b.text for b in beats]
+    story.prepare(texts)
+    if who := story.title_faceless(short.title):
+        # Review round 1: "The Courage of Captain Machchhar on Flydubai Flight 1073" never showed the captain.
+        problems.append(f"faceless: the title names {', '.join(who)}, who has no free photo here")
     shots = [int(b.shot.split(":")[1]) for b in beats]
     got = story.judge(texts, shots)
     if story.kinds and 0 <= shots[0] < len(story.kinds) and story.kinds[shots[0]] == "map":
@@ -293,8 +297,9 @@ def pictures(short: Short, story) -> list[str]:
                         + ", which is not about where it happened or names someone or something")
     if got["shown"] < anchor.SHOWN_SHARE - 1e-9:
         problems.append(f"beats: pictures show what is said for only {got['shown']:.0%} of the time (want "
-                        f"{anchor.SHOWN_SHARE:.0%}); beat " + ", ".join(str(k + 1) for k in got["unanchored"])
-                        + " shows something it does not name")
+                        f"{anchor.SHOWN_SHARE:.0%})" + ("; beat " + ", ".join(str(k + 1) for k in got["unanchored"])
+                                                        + " shows something it does not name" if got["unanchored"]
+                                                        else ""))
     return problems
 
 

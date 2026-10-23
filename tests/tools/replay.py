@@ -20,10 +20,23 @@ from studio.spec import Short
 FIX = Path(__file__).resolve().parents[1] / "fixtures" / "pictures"
 
 
-def judge(short: Short) -> dict:
+def judge(short: Short, repick: bool = True) -> dict:
+    """The verdict on the plan the new pipeline would publish: each beat's photo re-picked by Story.assign (the
+    picker writer.anchor_photos uses) from the same photos and script, unless repick=False (the published choices)."""
+    from dataclasses import replace
+
     story = anchor.story_of(short)
     beats = [b for b in short.beats if b.shot.startswith("photo:")]
-    got = story.judge([b.text for b in beats], [int(b.shot[6:]) for b in beats])
+    texts = [b.text for b in beats]
+    story.prepare(texts)
+    if repick:
+        picked = iter(story.assign(texts, [int(b.shot[6:]) for b in beats]))
+        short = replace(short, beats=[replace(b, shot=f"photo:{i}", anchor=w) if b.shot.startswith("photo:") else b
+                                      for b in short.beats for i, w in [next(picked) if b.shot.startswith("photo:")
+                                                                         else (None, "")]])
+        beats = [b for b in short.beats if b.shot.startswith("photo:")]
+        story = anchor.story_of(short)
+    got = story.judge(texts, [int(b.shot[6:]) for b in beats])
     problems = gate.pictures(short, story)
     return {"id": short.id, "kind": short.kind, "title": short.title, "pass": not problems,
             "shown": round(got["shown"], 2), "maps": round(got["maps"], 2), "map_photos": got["map_photos"],

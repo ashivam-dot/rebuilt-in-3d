@@ -14,7 +14,7 @@ import html
 import re
 import unicodedata
 from dataclasses import asdict, dataclass, field
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from . import net, wiki
@@ -38,10 +38,15 @@ MAP_TEXT = re.compile(r"\b(maps?|locator|location of|exclusive economic zones?|E
                       r"fire detections?|choropleth|topographic)\b", re.I)
 # Not licence-safe however it is tagged: a photograph of someone else's photo, poster, painting or screen, a cover
 # or a logo. Chuck Amato's portrait was a CC0 "photo taken of a photo displayed at" a restaurant (2026-10-22).
+# Phrases, not bare nouns: "Students holding posters", "the Polizia logo on a car" and "painting a mural" are
+# ordinary protest photos (review round 1, 2026-10-23).
 DERIVATIVE = re.compile(r"(\bphoto(graph)?s? (taken )?of (a|an|the|his|her) (photo|photograph|picture|print|"
                         r"poster|painting|portrait|screen|tv|television)|\b(displayed|on display|hanging) (at|in)\b|"
-                        r"\bposters?\b|screen ?shots?|screen ?capture|screengrab|\bpaintings?\b|"
-                        r"\b(book|album|dvd|magazine|film|record) cover|\bstill from\b|\blogos?\b)", re.I)
+                        r"\b(film|movie|concert|campaign|election|propaganda|theatrical|promotional|tour) posters?\b|"
+                        r"\bposters? (for|of|advertising|announcing)\b|\b(a|an|the) (oil )?painting (of|by)\b|"
+                        r"\bpainting (of|by) \w|\boil on (canvas|panel|board)\b|screen ?shots?|screen ?capture|"
+                        r"screengrab|\b(book|album|dvd|magazine|film|record) cover|\bstill from\b|\blogo of\b|"
+                        r"\b(company|party|official|corporate) logo\b)", re.I)
 
 
 @dataclass
@@ -63,6 +68,9 @@ class Photo:
     # stamps it), and the names a beat says to show it ("Emmanuel Macron", "Macron"; "Puerta del Sol").
     kind: str = ""
     shows: list = field(default_factory=list)
+    # The file's content categories on Commons ("2026 Italian unrest (Milan)", "Protests in Turin"), maintenance
+    # categories left out: where an event photo was taken, for anchor.py to set it under the beat that says so.
+    categories: list = field(default_factory=list)
 
     @property
     def credit(self) -> str:
@@ -75,12 +83,14 @@ def _text(value: str | None, limit: int = 200) -> str:
     return text[:limit]
 
 
-def _info(files: list[str]) -> dict[str, dict]:
+def _info(files: list[str], deep: bool = False) -> dict[str, dict]:
+    """Commons image info by file; deep adds the uploader, the upload time and the camera data (provenance)."""
     out = {}
+    prop = "url|size|mime|extmetadata|sha1" + ("|user|timestamp|commonmetadata" if deep else "")
     for i in range(0, len(files), 40):
         d = net.get_json(COMMONS, params={
             "action": "query", "titles": "|".join(files[i:i + 40]), "prop": "imageinfo", "iiurlwidth": 1600,
-            "iiprop": "url|size|mime|extmetadata|sha1", "format": "json", "formatversion": 2, "redirects": 1})
+            "iiprop": prop, "format": "json", "formatversion": 2, "redirects": 1})
         for p in d["query"].get("pages", []):
             if p.get("missing") or not p.get("imageinfo"):
                 continue
@@ -219,16 +229,20 @@ def _day(text: str) -> date | None:
         except ValueError:
             return None
     if m := re.search(r"\b(\d{1,2})(?:st|nd|rd|th)? (" + "|".join(_MONTHS) + r"),? (\d{4})\b", (text or "").lower()):
-        return date(int(m.group(3)), _MONTHS.index(m.group(2)) + 1, int(m.group(1)))
+        try:  # Commons dates are free text: "31 November 2025" is no day at all
+            return date(int(m.group(3)), _MONTHS.index(m.group(2)) + 1, int(m.group(1)))
+        except ValueError:
+            return None
     return None
 
 
 # Words a Commons category or file name uses for each kind of event: a category of the event names it so
-# ("Category:Hurricane Trudy (2026)", "Category:17 October 2026 protests in Paris"), where "Paris Fashion Week 2026"
+# ("Category:Hurricane Trudy (2026)", "Category:2026 Italian unrest (Milan)"), where "Paris Fashion Week 2026"
 # does not.
 EVENT_WORDS = {
-    "protest": r"protests?|demonstrations?|manifestations?|rall(y|ies)|marches|marche|protest march|riots?|unrest|strikes?|gr[eè]ve|"
-               r"yellow vests|gilets jaunes|sit-?in|encampment|acampada",
+    "protest": r"protests?|demonstrations?|manifestations?|manif|rall(y|ies)|marches|marche|protest march|riots?|unrest|"
+               r"strikes?|gr[eè]ve|yellow vests|gilets jaunes|sit-?in|encampment|acampada|movement|mouvement|"
+               r"blockades?|blocages?|occupations?|walkouts?|revolution|uprising",
     "cyclone": r"hurricane|typhoon|cyclone|storm|tropical depression",
     "wildfire": r"fires?|wildfires?|bushfires?|smoke|burn",
     "flood": r"floods?|flooding|cloudburst|inundation",
@@ -246,6 +260,7 @@ EVENT_WORDS["conflict"] = EVENT_WORDS["attack"] + "|" + EVENT_WORDS["protest"]  
 EVENT_WORDS["tsunami"] = r"tsunamis?"
 EVENT_WORDS["disaster"] = "|".join(EVENT_WORDS[k] for k in ("cyclone", "flood", "earthquake", "landslide", "wildfire"))
 EVENT_STAMP = {"kind": "event", "shows": []}
+ALL_EVENT_WORDS = re.compile(r"\b(" + "|".join(dict.fromkeys(EVENT_WORDS.values())) + r")\b", re.I)
 
 
 def _event_words(category: str | None) -> re.Pattern:
@@ -253,8 +268,7 @@ def _event_words(category: str | None) -> re.Pattern:
     return re.compile(r"\b(" + words + r")\b", re.I)
 
 
-# The words a search for an event's files uses ("Paris manifestation" finds "Manifestation du 17 octobre 2026 à
-# Paris 112.jpg"), in the languages Commons uploaders caption in most.
+# The words a search for an event's files uses, in the languages Commons uploaders caption in most.
 EVENT_QUERY = {"protest": ("protest", "manifestation", "demonstration"), "cyclone": ("storm", "hurricane"),
                "wildfire": ("fire",), "flood": ("flood",), "earthquake": ("earthquake",), "volcano": ("eruption",),
                "landslide": ("landslide",), "attack": ("attack",), "rail": ("train",), "aviation": ("crash",),
@@ -262,66 +276,87 @@ EVENT_QUERY = {"protest": ("protest", "manifestation", "demonstration"), "cyclon
 EVENT_QUERY["movement"] = EVENT_QUERY["protest"]
 EVENT_QUERY["strike"] = EVENT_QUERY["attack"]
 EVENT_QUERY["conflict"] = ("protest", "attack", "demonstration")
-# Month names in the languages Commons event categories are named in ("Manifestations du 17 octobre 2026").
-MONTHS = (_MONTHS_EN := ("january", "february", "march", "april", "may", "june", "july", "august", "september",
-                         "october", "november", "december"),
-          ("janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre",
-           "decembre"),
-          ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
-           "noviembre", "diciembre"),
-          ("januar", "februar", "marz", "april", "mai", "juni", "juli", "august", "september", "oktober", "november",
-           "dezember"))
 # A protest or a conflict goes on for days: its photos may be from the week before the story; anything else is
 # photographed from the day before it on.
 ONGOING = {"protest", "movement", "conflict"}
+# Days after the story's date an event photo may still be of it. A protest or movement story is dated the day the
+# news led on it, so nothing after that day; a conflict is dated its first day and runs on for a week; a disaster or
+# an attack is photographed in its first days. Never after today. Review round 1 (2026-10-23): with no upper bound, a
+# Madrid education march of 14 October came back as "the event" of a housing protest dated the 10th.
+AFTER = {"protest": 1, "movement": 1, "conflict": 7}
+# Country adjectives an event's name uses, and what its Commons category may say instead ("2026 French student
+# protests" is "Category:2026 high school student movement and blockades in France").
+DEMONYMS = {
+    "french": ("france", "francais", "franc"), "italian": ("italy", "itali"), "spanish": ("spain", "espan"),
+    "german": ("germany", "deutsch"), "british": ("britain", "united kingdom"), "english": ("england",),
+    "american": ("united states",), "indian": ("india",), "chinese": ("china",), "russian": ("russia",),
+    "ukrainian": ("ukrain",), "turkish": ("turkey", "turkiye"), "greek": ("greece",), "polish": ("poland",),
+    "dutch": ("netherlands",), "belgian": ("belgium",), "portuguese": ("portugal",), "swiss": ("switzerland",),
+    "austrian": ("austria",), "swedish": ("sweden",), "norwegian": ("norway",), "danish": ("denmark",),
+    "finnish": ("finland",), "irish": ("ireland",), "mexican": ("mexico",), "brazilian": ("brazil",),
+    "argentine": ("argentina",), "argentinian": ("argentina",), "chilean": ("chile",), "colombian": ("colombia",),
+    "peruvian": ("peru",), "venezuelan": ("venezuela",), "canadian": ("canada",), "australian": ("australia",),
+    "japanese": ("japan",), "korean": ("korea",), "pakistani": ("pakistan",), "bangladeshi": ("bangladesh",),
+    "nepali": ("nepal",), "nepalese": ("nepal",), "iranian": ("iran",), "iraqi": ("iraq",), "israeli": ("israel",),
+    "palestinian": ("palestin",), "egyptian": ("egypt",), "kenyan": ("kenya",), "nigerian": ("nigeria",),
+    "moroccan": ("morocco",), "serbian": ("serbia",), "albanian": ("albania",), "georgian": ("georgia",),
+    "hungarian": ("hungary",), "romanian": ("romania",), "bulgarian": ("bulgaria",), "czech": ("czech",),
+    "slovak": ("slovakia",), "croatian": ("croatia",), "indonesian": ("indonesia",), "filipino": ("philippines",),
+    "thai": ("thailand",), "vietnamese": ("vietnam",), "malaysian": ("malaysia",), "lebanese": ("lebanon",),
+    "syrian": ("syria",), "sri": ("lanka",), "tunisian": ("tunisia",), "algerian": ("algeria",),
+}
 
 
 def _plain(text: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFKD", text or "") if not unicodedata.combining(c)).lower()
 
 
-def _on_the_day(title: str, when: date, back: int) -> bool:
-    """The title names a day of the event's last `back` days ("17 octobre 2026", "2026-10-17")."""
-    low = _plain(title)
-    for k in range(back + 1):
-        d = when - timedelta(days=k)
-        if f"{d:%Y-%m-%d}" in low:
-            return True
-        for names in MONTHS:
-            month = names[d.month - 1][:3] + r"\w*"  # "17 Oct 2026" too
-            if re.search(rf"\b{d.day}(er|st|nd|rd|th)? {month}\b", low) or re.search(rf"\b{month} {d.day}\b", low):
-                return True
-    return False
+def event_keys(name: str) -> list[tuple[str, ...]]:
+    """The words that name this event and no other, each with the forms a Commons title may use instead: the name
+    less its year, its kind of event and its generic words ("2026 Italian unrest" -> [("italian", "italy", "itali")];
+    "Flamingo Revolution" -> [("flamingo",)]). [] when the name is only generic words."""
+    words = re.findall(r"[^\W\d_]{3,}", _plain(re.sub(r"\([^)]*\)", "", name or "")))
+    keys = [w for w in dict.fromkeys(words) if w not in GENERIC and not ALL_EVENT_WORDS.fullmatch(w)
+            and w not in ("high", "school")]
+    return [(w,) + DEMONYMS.get(w, ()) for w in keys]
+
+
+def names_event(text: str, keys: list[tuple[str, ...]]) -> bool:
+    """The text names every one of the event's own words (in any of its forms)."""
+    low = _plain(text)
+    return bool(keys) and all(any(k in low for k in alts) for alts in keys)
 
 
 def _back(category: str | None) -> int:
     return 7 if category in ONGOING else 1
 
 
-def _parents(category: str) -> list[str]:
-    """The categories a Commons category sits in; [] on any failure."""
-    try:
-        d = net.get_json(COMMONS, params={"action": "query", "titles": "Category:" + category, "prop": "categories",
-                                          "cllimit": 50, "format": "json", "formatversion": 2}, tries=2, timeout=20)
-    except Exception:
-        return []
-    pages = d.get("query", {}).get("pages") or [{}]
-    return [c.get("title", "").removeprefix("Category:") for c in pages[0].get("categories") or []]
+def window(when: date, category: str | None, today: date | None = None) -> tuple[date, date]:
+    """The days an event photo may be taken on: from _back days before the story's date to AFTER days after it,
+    and never after today."""
+    today = today or date.today()
+    return when - timedelta(days=_back(category)), min(today, when + timedelta(days=AFTER.get(category or "", 3)))
+
+
+# "Demonstrations and protests in Madrid in 2026", "October 2026 in Milan", "2026 in Italy": a place's year or month,
+# holding every protest there, not one event's own category.
+YEAR_WIDE = re.compile(r"\bin\b.*\bin (\w+ )?\d{4}\s*$|^(\w+ )?\d{4} in\b|^\d{4} (in|of)\b", re.I)
 
 
 def event_categories(name: str, when: date, category: str | None = None, limit: int = 3,
                      places: list[set[str]] | None = None) -> list[str]:
-    """Commons categories of the event itself: found by its name, the kind of event and its year, each naming the
-    year and the kind of event (EVENT_WORDS) and either the name's distinctive words or one of its days ("Manifestations
-    du 17 octobre 2026"). A category found only by its day must name, itself or in a category it sits in, the story's
-    name or one of its places (places: key sets, default the name's): "Manifestation du 17 octobre 2026 à Montréal",
-    a solidarity march abroad, once stood under the French student protests (2026-10-23). [] on any failure: a lookup
-    never stops a run."""
-    keys, words = _keys(name), _event_words(category)
-    places = [k for k in (places or []) if k] or [{_plain(k) for k in keys}]
+    """Commons categories of the event itself, found and matched by its own name (event_keys) and the kind of event
+    (EVENT_WORDS), naming its year or no other year. Never a place's year ("Demonstrations and protests in Madrid in
+    2026", YEAR_WIDE) and never a category found by a place or a day alone: the same week, the same city may hold
+    another protest (a Montreal solidarity march stood under the French student protests on 2026-10-23, and a Madrid
+    education march under the Spanish housing protests). places: unused, kept for callers. [] on any failure: a
+    lookup never stops a run."""
+    keys, words = event_keys(name), _event_words(category)
+    if not keys:
+        return []
+    alt = " ".join(a[1] if len(a) > 1 else a[0] for a in keys)
     out: list[str] = []
-    for query in (f"{name} {when.year}",) + tuple(f"{w} {when.year} {name}" for w in EVENT_QUERY.get(category or "",
-                                                                                                    ())[:2]):
+    for query in dict.fromkeys((name, f"{name} {when.year}", f"{alt} {when.year}")):
         try:
             d = net.get_json(COMMONS, params={"action": "query", "list": "search", "srnamespace": 14, "srlimit": 20,
                                               "srsearch": query, "format": "json", "formatversion": 2},
@@ -330,75 +365,140 @@ def event_categories(name: str, when: date, category: str | None = None, limit: 
             continue
         for hit in d.get("query", {}).get("search", []):
             title = hit.get("title", "").removeprefix("Category:")
-            if str(when.year) not in title or not words.search(_plain(title)) or title in out:
+            years = set(re.findall(r"\b(19\d\d|20\d\d)\b", title))
+            if title in out or (years and str(when.year) not in years) or not words.search(_plain(title)):
                 continue
-            if _names(_plain(title), {_plain(k) for k in keys}):
-                out.append(title)
-            elif _on_the_day(title, when, _back(category)) and any(
-                    _names(_plain(t), k) for t in [title] + _parents(title) for k in places):
-                out.append(title)
+            if YEAR_WIDE.search(title) or not names_event(title, keys):
+                continue
+            out.append(title)
     return out[:limit]
 
 
 def recent_files(name: str, when: date, category: str | None = None, limit: int = 40) -> list[str]:
-    """Commons files about the event uploaded lately: searches for its name with the kind of event, newest first,
-    whose file name names it and the kind of event. Their dates are checked by _usable (since). [] on any failure."""
-    keys, words = {_plain(k) for k in _keys(name)}, _event_words(category)
+    """Commons files about the event uploaded lately: searches for its own words with the kind of event, newest
+    first, whose file name names it (event_keys) and the kind of event. Never searched by a place alone. Their days
+    are checked by _usable (since, until). [] on any failure."""
+    keys, words = event_keys(name), _event_words(category)
+    if not keys:
+        return []
+    said = " ".join(a[0] for a in keys)
     out: list[str] = []
     for w in EVENT_QUERY.get(category or "", ("",))[:3]:
         try:
             d = net.get_json(COMMONS, params={"action": "query", "list": "search", "srnamespace": 6, "srlimit": limit,
-                                              "srsearch": f"{name} {w} filetype:bitmap".replace("  ", " "),
+                                              "srsearch": f"{said} {w} filetype:bitmap".replace("  ", " "),
                                               "srsort": "create_timestamp_desc", "format": "json",
                                               "formatversion": 2}, tries=2, timeout=20)
         except Exception:
             continue
         out += [h["title"] for h in d.get("query", {}).get("search", []) if h.get("title") not in out
-                and _names(_plain(h.get("title", "")), keys) and words.search(_plain(h.get("title", "")))]
+                and names_event(h.get("title", ""), keys) and words.search(_plain(h.get("title", "")))]
     return out
 
 
 def _event_files(category: str, keys: list[set[str]], limit: int = 60) -> list[str]:
-    """The files of an event's Commons category and of its subcategories (by city: "Manifestations du 17 octobre
-    2026 à Paris"), the subcategories naming the story's own places first, three at most."""
+    """The files of an event's own Commons category and of its subcategories (by city: "2026 Italian unrest
+    (Milan)"), the subcategories naming the story's places first, four at most."""
     d = net.get_json(COMMONS, params={"action": "query", "list": "categorymembers", "cmtitle": "Category:" + category,
                                       "cmtype": "file|subcat", "cmlimit": 100, "format": "json", "formatversion": 2},
                      tries=2, timeout=20)
     members = d.get("query", {}).get("categorymembers", [])
     files = [m["title"] for m in members if m.get("ns") == 6][:limit]
     subs = [m["title"].removeprefix("Category:") for m in members if m.get("ns") == 14]
-    subs = [c for c in subs if any(k and _names(_plain(c), k) for k in keys)][:3]
+    subs = sorted(subs, key=lambda c: not any(k and _names(_plain(c), k) for k in keys))[:4]
     for sub in subs:
         if len(files) >= limit:
             break
-        files += _category_files(sub, limit - len(files))
+        try:
+            files += _category_files(sub, limit - len(files))
+        except Exception:
+            continue
     return files
 
 
 def event(names: list[str], when: date, category: str | None = None, limit: int = 6,
-          exclude: set[str] | None = None) -> list[Photo]:
-    """Free photos of the event itself (anchor kind "event"): the files of its own Commons categories, then recent
-    uploads naming it, none taken before its first day (the day before it, or a week before for a protest or a
-    conflict: a photo from another year is not this event), under the same licence, size, decency, derivative and
-    map checks as every photo. Wikimedia Commons hosts the free imports of official sources (kremlin.ru and
+          exclude: set[str] | None = None, places: list[str] | None = None) -> list[Photo]:
+    """Free photos of the event itself (anchor kind "event"): the files of its own Commons categories (and their
+    subcategories, places first), then recent uploads naming it, all found by the event's own name, never by a town
+    or a country alone (names: the story's name; a place passed here is ignored unless it is the name). Each is
+    taken within window() of the story's date, passes the same licence, size, decency, derivative and map checks as
+    every photo, and shows where it came from (provenance: a camera, a VRTS permission, a licence review or an
+    established uploader). Wikimedia Commons hosts the free imports of official sources (kremlin.ru and
     president.gov.ua under CC BY 4.0, US federal works in the public domain, PIB under GODL-India), each with its
     licence read per file. [] on any failure."""
     rows: list[tuple] = []
-    keys = [{_plain(k) for k in _keys(n)} for n in names if n]
+    own = [n for n in dict.fromkeys(names or []) if n and event_keys(n)][:1]
+    keys = [{_plain(k) for k in _keys(n)} for n in (places or []) + own if n]
+    since, until = window(when, category)
     try:
-        for name in dict.fromkeys(n for n in names if n):
-            for cat in event_categories(name, when, category, places=keys):
+        for name in own:
+            for cat in event_categories(name, when, category):
                 try:
                     rows += [(f, "event", "subject", EVENT_STAMP) for f in _event_files(cat, keys)]
                 except Exception:
                     continue
-        for name in dict.fromkeys(n for n in names if n):
             rows += [(f, "recent", "subject", EVENT_STAMP) for f in recent_files(name, when, category)]
         if not rows:
             return []
-        return _usable(rows, set(), limit, exclude=exclude, since=when - timedelta(days=_back(category)))
+        return _usable(rows, set(), limit, exclude=exclude, since=since, until=until, vet=True)
     except Exception:
         return []
+
+
+# Provenance of a recent event upload (review round 1, 2026-10-23): two CC0 "own work" PNGs of the Italian student
+# marches, uploaded 3 s apart by a 2-day-old account, with no camera data and a laptop screen's 1440 px width, were
+# cropped screenshots of someone else's photos. A photo of the event must show where it came from.
+PROVENANCE_CATS = re.compile(r"VRTS permission|PermissionTicket|OTRS|Flickr images reviewed|FlickreviewR|"
+                             r"License review|LicenseReview|reviewed by|Kremlin\.ru|President of Ukraine|"
+                             r"president\.gov\.ua|DVIDS|Press Information Bureau|PIB", re.I)
+SCREEN_WIDTHS = {"1024", "1280", "1360", "1366", "1440", "1536", "1600", "1680", "1920", "2048", "2560", "2880",
+                 "3024", "3840", "1170", "1179", "1284", "1290", "1080", "750", "828"}
+ESTABLISHED = (30, 50)  # an uploader at least 30 days old with at least 50 edits
+
+
+def _common(ii: dict) -> dict:
+    return {m.get("name"): str(m.get("value")) for m in ii.get("commonmetadata") or [] if isinstance(m, dict)}
+
+
+def provenance(ii: dict, users: dict[str, dict]) -> str | None:
+    """Why a recent upload's origin is in doubt, or None: it has a camera's make or model, a VRTS permission, a licence
+    review, or an established uploader (ESTABLISHED). A PNG or WebP, or a file as wide as a screen, with no camera data
+    is a screenshot whoever uploaded it."""
+    meta, common = ii.get("extmetadata", {}), _common(ii)
+    camera = bool(common.get("Make") or common.get("Model"))
+    if not camera and (ii.get("mime") in ("image/png", "image/webp") or common.get("PixelXDimension") in SCREEN_WIDTHS):
+        return "a screenshot (no camera data)"
+    if camera or PROVENANCE_CATS.search(_text(meta.get("Categories", {}).get("value"), 2000)):
+        return None
+    user = users.get(ii.get("user") or "")
+    if not user:
+        return "no camera data, permission or review, and the uploader is unknown"
+    try:
+        reg = datetime.fromisoformat(user["registration"].replace("Z", "+00:00"))
+        up = datetime.fromisoformat((ii.get("timestamp") or "").replace("Z", "+00:00"))
+        days = (up - reg).days
+    except (KeyError, TypeError, ValueError, AttributeError):
+        return "no camera data, permission or review, and the uploader's age is unknown"
+    if days < ESTABLISHED[0] or int(user.get("editcount") or 0) < ESTABLISHED[1]:
+        return f"no camera data, permission or review, from a new uploader ({days} days, {user.get('editcount')} edits)"
+    return None
+
+
+def _uploaders(names: list[str]) -> dict[str, dict]:
+    """Commons accounts by name: {"registration", "editcount"}; {} on any failure."""
+    out: dict[str, dict] = {}
+    names = [n for n in dict.fromkeys(names) if n]
+    for i in range(0, len(names), 50):
+        try:
+            d = net.get_json(COMMONS, params={"action": "query", "list": "users", "ususers": "|".join(names[i:i + 50]),
+                                              "usprop": "registration|editcount", "format": "json",
+                                              "formatversion": 2}, tries=2, timeout=20)
+        except Exception:
+            continue
+        for u in d.get("query", {}).get("users", []):
+            if u.get("name") and not u.get("missing"):
+                out[u["name"]] = u
+    return out
 
 
 def context(qids: list[str], limit: int = 6, exclude: set[str] | None = None) -> list[Photo]:
@@ -628,10 +728,11 @@ def picks(files: list[str], limit: int = 8) -> list[Photo]:
 
 def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2,
             exclude: set[str] | None = None, trust_article: bool = False, small: set[str] = frozenset(),
-            since: date | None = None) -> list[Photo]:
+            since: date | None = None, until: date | None = None, vet: bool = False) -> list[Photo]:
     """ordered: (file, origin), (file, origin, role) or (file, origin, role, stamp) rows, best first; stamp is
-    {"kind", "shows"} (anchor kinds). small: origins whose files may be as small as PORTRAIT_SIDE. since: a file
-    taken (DateTimeOriginal) before this day is dropped: a photo of the place from another year is not the event."""
+    {"kind", "shows"} (anchor kinds). small: origins whose files may be as small as PORTRAIT_SIDE. since, until: a
+    file taken (DateTimeOriginal) before since or after until is dropped: a photo of the place from another day is
+    not the event. vet: each file must show where it came from (provenance), or it is dropped and logged."""
     seen, files = set(), []
     banned = {e.replace("_", " ") for e in exclude or ()}
     for f, origin, *rest in ordered:
@@ -641,7 +742,8 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
         if f not in seen and not GRAPHIC.search(f) and (origin == "editor" or not NOT_PHOTO.search(f)):
             seen.add(f)
             files.append((f, origin, rest[0] if rest else "subject", rest[1] if len(rest) > 1 else {}))
-    info = _info([f for f, _, _, _ in files])
+    info = _info([f for f, _, _, _ in files], deep=True) if vet else _info([f for f, _, _, _ in files])
+    users = _uploaders([ii.get("user") for ii in info.values()]) if vet else {}
     photos, hashes, shoots = [], set(), {}
     for f, origin, role, stamp in files:
         ii = info.get(f)
@@ -658,8 +760,11 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
             continue
         taken = _text(meta.get("DateTimeOriginal", {}).get("value"), 40)
         day = _day(taken)
-        if since and (not day or day < since):
+        if (since or until) and (not day or (since and day < since) or (until and day > until)):
             continue  # a photo without the day it was taken may be of another day's protest
+        if vet and (why := provenance(ii, users)):
+            print(f"event photo dropped: {f}: {why}", flush=True)
+            continue
         if (origin in ("category", "search") or (origin == "article" and not trust_article)) \
                 and not _names(f"{f} {desc}", keys):
             continue
@@ -672,10 +777,23 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
         photos.append(Photo(file=f, url=ii.get("thumburl") or ii["url"], page=ii["descriptionurl"], width=ii["width"],
                             height=ii["height"], author=author, license=lic, description=desc,
                             date=taken, origin=origin, role=role, kind=stamp.get("kind", ""),
-                            shows=list(stamp.get("shows") or [])))
+                            shows=list(stamp.get("shows") or []), categories=content_categories(meta)))
         if len(photos) >= limit:
             break
     return photos
+
+
+MAINTENANCE = re.compile(r"(^|\b)(CC[- ]|GFDL|License|Licen[cs]e|Self-published|Uploaded|Files? (by|from|with|uploaded)|"
+                         r"Pages? |Media (missing|needing|with)|Images? (with|from|by|uploaded)|Photographs? by|"
+                         r"Taken with|Supported by|Wikimedia|Wiki Loves|Flickr|VRTS|OTRS|PD[- ]|Public domain|"
+                         r"Items with|Hidden|User:|Quality images|Valued images|Featured pictures|Uncategorized|"
+                         r"Personality rights|Copyright|GODL|Created with|Pictures by|Unidentified)", re.I)
+
+
+def content_categories(meta: dict) -> list[str]:
+    """A Commons file's content categories, from its extmetadata, maintenance categories left out."""
+    cats = [c.strip() for c in _text(meta.get("Categories", {}).get("value"), 4000).split("|")]
+    return [c for c in cats if c and not MAINTENANCE.search(c)][:20]
 
 
 def download(photos: list[Photo], folder: Path) -> list[Photo]:

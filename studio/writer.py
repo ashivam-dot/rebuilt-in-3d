@@ -659,25 +659,8 @@ def anchor_photos(draft: dict, story: anchor.Story) -> dict:
     picked = story.assign([b.get("say", "") for b in beats], [b.get("photo") for b in beats])
     for b, (i, word) in zip(beats, picked):
         b["photo"], b["anchor"] = i, word
-    return draft
-
-
-def place_photos(draft: dict, photos: list[dict]) -> dict:
-    """The SETTING photo rule kept by code, not left to the model: a town photo on its first beat after beat 1 only;
-    its other beats get the least-used other photo that neither neighbouring beat shows (with three photos the model
-    reused the town photo, and 'a SETTING photo is on more than one beat' dropped the story, 2026-10-16)."""
-    beats = draft.get("beats") or []
-    setting = {i for i, p in enumerate(photos) if p.get("role") == "setting"}
-    others = [i for i in range(len(photos)) if i not in setting]
-    if not setting or not others:
-        return draft
-    kept = next((k for k, b in enumerate(beats) if k and b.get("photo") in setting), None)
-    for k, b in enumerate(beats):
-        if b.get("photo") not in setting or k == kept:
-            continue
-        near = {beats[j].get("photo") for j in (k - 1, k + 1) if 0 <= j < len(beats)}
-        uses = {i: sum(x.get("photo") == i for x in beats) for i in others}
-        b["photo"] = min(others, key=lambda i: (i in near, uses[i], i))
+        if b.get("caption") and not story.caption_fits(b["caption"], i):
+            b["caption"] = ""  # no card rather than one that claims what the photo does not show
     return draft
 
 
@@ -868,12 +851,13 @@ def stamp(photos: list[dict], kind: str, shows: list[str] | tuple = ()) -> list[
 
 
 def event_photos(names: list[str], when: date, category: str | None, folder: Path, exclude: set[str],
-                 limit: int = 4) -> list[dict]:
-    """Free photos of the event itself (media.event: its own Commons category, then recent uploads naming it, none
-    taken before the day before), with no featured face: a stranger in close-up would be passed off as part of the
-    story. [] when Commons has none or cannot be read."""
+                 limit: int = 4, places: list[str] | None = None) -> list[dict]:
+    """Free photos of the event itself (media.event: its own Commons category, then recent uploads naming it, taken
+    within media.window of its date, each showing where it came from), found by the event's own name (names[0]) and
+    never by a town or a country (places only order its subcategories), with no featured face: a stranger in
+    close-up would be passed off as part of the story. [] when Commons has none or cannot be read."""
     try:
-        found = media.event(names, when, category, limit=limit, exclude=exclude)
+        found = media.event(names[:1], when, category, limit=limit, exclude=exclude, places=places)
     except Exception:
         found = []
     return stamp(_faceless(found, folder / "event"), "event")
@@ -1207,19 +1191,6 @@ def map_labels(where: str | None, site: tuple[float, float]) -> tuple[str, str]:
     return (town[0]["name"], town[0]["name"]) if town else ("", "")
 
 
-def town_photo(site: tuple[float, float], folder: Path, exclude: set[str]) -> list[dict]:
-    """One faceless photo of the town the site is in (a SETTING photo), for a story Commons has no photo of yet."""
-    try:
-        town = wiki.nearby_cities(site[0], site[1], TOWN_KM, limit=1, min_pop=5000)
-    except Exception:
-        return []
-    if not town or not town[0].get("qid"):
-        return []
-    # A panorama shows as a thin strip across a blurred frame: a town photo must be at most twice as wide as tall.
-    return [p | {"role": "setting"} for p in fill_photos([town[0]["qid"]], folder, exclude, need=3)
-            if p.get("width") and p.get("height") and p["width"] <= 2 * p["height"]][:1]
-
-
 def with_maps(photos: list[dict], site: tuple[float, float] | None, where: str | None, folder: Path,
               category: str | None) -> list[dict]:
     """photos and one locator map of site (the region, the site marked), for the one beat about where it happened.
@@ -1310,11 +1281,14 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     work = WORK / sid
     photos = pick_photos(article, ent, work / "photos", person=False, extra_qids=extra, files=cand.get("photo_files"),
                          places=not qid, context_qids=incident_context(ent, extra))
+    # Stamped where found (review round 1): the story's own photo is the event only when taken in its days; the
+    # aircraft photographed months before is the aircraft.
+    anchor.stamp_own(photos, sid, "protest" if cat in ("protest", "movement") else "incident", when, cat)
     if cat in gate.SHOWS and not cand.get("photo_files") and gate.showing(cat, photos) < gate.SHOWN_NEEDED:
         photos += vehicle_photos(cat, extra, work / "photos", {p["file"] for p in photos})
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
-        photos += event_photos([name] + place_names(stories._first(ib, *PLACE_FIELDS[:5])), when, cat,
-                               work / "photos", {p["file"] for p in photos})
+        photos += event_photos([name], when, cat, work / "photos", {p["file"] for p in photos},
+                               places=place_names(stories._first(ib, *PLACE_FIELDS[:5])))
     # The people and things the article names, so a beat that names one shows it (owner, 2026-10-22: "no Macron
     # photo, no school photo").
     try:
@@ -1403,7 +1377,7 @@ def build_incident(cand: dict, views: bool = False) -> Short:
                    + ([region] if region else []),
                    summary=f"{name}, {stories.date_words(when)}: what happened, from "
                            f"{'Wikipedia and Wikidata' if qid else 'Wikipedia'}.",
-                   hashtags=[cat, region or "world", "news"], reports=reports, people=people)
+                   hashtags=[cat, region or "world", "news"], reports=reports, people=people, category=cat)
     if site:
         label = name if len(name) <= 22 else region or stories.city_of(where) or name[:22]
         short = in_3d(short, site, label, when)
@@ -1411,7 +1385,8 @@ def build_incident(cand: dict, views: bool = False) -> Short:
 
 
 def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sources, event_time, loss, mood, tags,
-           summary, hashtags, voice="world", reports=None, credit=CREDIT, subject=None, people=None) -> Short:
+           summary, hashtags, voice="world", reports=None, credit=CREDIT, subject=None, people=None,
+           category=None) -> Short:
     reports = reports or []
     beats = []
     for b in draft["beats"]:
@@ -1445,6 +1420,8 @@ def _short(sid, kind, name, draft, log, facts, facts_text, source, photos, sourc
              "writer": {"model": llm.DEFAULT, "rejected": log},
              "subject": subject or {"name": name, "kind": "person" if kind == "death" else "event"},
              "people": [{"name": n} for n in people or []]}
+    if category:
+        scene["category"] = category  # the days an event photo may be from (anchor.own_window)
     if reports:
         scene["reporting"] = [outlets.compact(r) for r in reports]
         scene["outlets"] = outlets.names(reports)
@@ -1549,7 +1526,11 @@ def build_report(cand: dict) -> Short:
     # event's own free photos, the people the reporting names (their own faces), the things it names, then places.
     country = list(wiki.labels([c["value"] for c in wiki.claims(place, "P17")[:1]
                                 if str(c["value"]).startswith("Q")]).values()) if place else []
-    photos = event_photos([name, where] if where != name else [name], when, cat, work / "photos", set())
+    # Searched by the story's own name only, never by a town (review round 1): a protest named by its city
+    # ("Paris", "Madrid") has no event photos of its own here, whatever else was marched there that week. A disaster
+    # named by its place ("Chamoli" cloudburst) is searched with its kind of event and its days.
+    photos = [] if place and where == name and cat in media.ONGOING else \
+        event_photos([name], when, cat, work / "photos", set(), places=[where])
     people = named_people(name, reports)
     if person:
         own = stories.plain_title(title)
@@ -1600,7 +1581,8 @@ def build_report(cand: dict) -> Short:
                    summary=f"{name}: what happened, from the reporting of {', '.join(outlets.names(reports))}.",
                    hashtags=[cat, name, "news"], reports=reports, credit=REPORT_CREDIT,
                    subject={"name": stories.plain_title(title) if person else name,
-                            "kind": "person" if person else "thing" if thing else "event"}, people=people)
+                            "kind": "person" if person else "thing" if thing else "event"}, people=people,
+                   category=cat)
     short.scene["article"] = cand.get("article")
     short.scene["headlines"] = cand.get("headlines") or []
     return short

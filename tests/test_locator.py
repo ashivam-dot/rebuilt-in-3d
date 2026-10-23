@@ -90,16 +90,6 @@ def test_unreachable_tiles_leave_the_story_waiting(tmp_path, monkeypatch):
     assert writer.with_maps(three, SITE, "Bend, Oregon", tmp_path, "attack") == three
 
 
-def test_code_keeps_the_town_photo_to_one_beat():
-    photos = [dict(MAP), dict(MAP), dict(PHOTO)]
-    draft = {"beats": [{"photo": p} for p in (2, 0, 2, 1, 2, 0, 1, 2)]}
-    got = [b["photo"] for b in writer.place_photos(draft, photos)["beats"]]
-    assert got.count(2) == 1 and got[0] != 2 and got[2] == 2
-    assert got[:2] == [1, 0]  # beat 1 takes the photo beat 2 does not show
-    plain = {"beats": [{"photo": p} for p in (0, 1, 0, 1)]}
-    assert [b["photo"] for b in writer.place_photos(plain, [dict(MAP), dict(MAP)])["beats"]] == [0, 1, 0, 1]
-
-
 def test_map_labels_name_the_site_then_its_town():
     assert writer.map_labels("Silver Rail Elementary School, Bend, Oregon, U.S.", SITE) == \
         ("Silver Rail Elementary School", "Bend, Oregon")

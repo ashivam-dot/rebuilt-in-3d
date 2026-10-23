@@ -15,7 +15,8 @@ from . import gate, ledger, learn, plan
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
 RETRYABLE = ("faceless:", "words (want", "does not confirm the death", "usable photos", "no draft passed",
-             "came out garbled", "banned wording", "casualties without an agreed toll", "isn't backed by any sourced")
+             "came out garbled", "banned wording", "casualties without an agreed toll", "isn't backed by any sourced",
+             "show who or what the story is about", "pictures show what is said for only")
 MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 log = logging.getLogger("studio")
 
@@ -173,6 +174,8 @@ def run(dry: bool = False) -> dict:
                 # Thin articles, and stories still short of free photos, get another chance next run.
                 if any(m in str(exc) for m in RETRYABLE):
                     ledger.retry(cand["id"], str(exc)[:300])
+                    # Faceless is decided before any script is written: it does not take a candidate's slot.
+                    tried -= "faceless:" in str(exc) and "no draft passed" not in str(exc)
                 else:
                     ledger.skip(cand["id"], str(exc)[:300])
                 health["steps"].append(f"skip {cand['id']}: {exc}")
