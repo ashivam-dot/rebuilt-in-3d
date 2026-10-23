@@ -69,6 +69,15 @@ RETRACTED = {
     "Pyn07q8sFcs": "Black Sea tanker strike shown with the colour black's photos (a painting, a black hole)",
     "P3_BBUFzurk": "repeat of W2Zvww-jNK4 (2026-10-14): the same Oct 6 Saudi airport attacks, its article renamed",
     # Owner, 2026-10-22: "do you think people are here to watch the map".
+    # Picture audit, 2026-10-23 (audit/orbitwire/PICTURE-AUDIT.md): maps or filler instead of the story.
+    "ox3fConJ7EA": "Kyiv missile attack told over Kyiv maps (15 of 17 frames) and one church photo: no attack, no shelters",
+    "dzq6GUxZyMc": "CFB Wainwright fire told over street maps and a NASA hotspot map: no fire, no soldiers",
+    "GTUwT6GQhV4": "Richard Riehle tribute: his school's campus and his town under his film career",
+    "mXR5B18rbtE": "Chuck Amato tribute: main portrait is a photo of a displayed print (licence-unsafe), the rest school filler",
+    "a2qA0Fu19vc": "Hurricane Trudy told over a world sea map and Openverse sunsets: the storm is never shown",
+    "DwUtz4R4hzY": "Spanish housing protests told mostly over Metro Sol signs and a platform",
+    "XH8L7r7QUnk": "Paris protests told over maps (11 of 13) and the Eiffel Tower: no protest, no police",
+    "OT6g4NIr7Q8": "Flydubai 1073: airport aerials and stock planes; Captain Machchhar named in the title, never shown",
     "dMv6M3-6O4s": "Nagqu M7.0 told over 55 s of empty 3D terrain and rings: no town, no people, no damage",
     "gCQ4ZWtobXA": "Macron protest ban told over two Paris maps (11 of 13 sampled moments) and one Eiffel Tower photo: "
                    "no Macron, no protest, no students",
