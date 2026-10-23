@@ -70,6 +70,7 @@ def test_a_filler_close_is_rewritten_twice_then_never_costs_the_story(monkeypatc
     # Drafts 1 and 2 are sent back for the close; draft 3 goes straight to the fact check (a fake that flags nothing).
     assert all("the last beat says 'Only time will tell'" in m[-1]["content"] for m in calls[1:3])
     assert len(calls) == 4 and "Check every numbered LINE" in calls[3][-1]["content"]
+    assert len(calls[2]) == len(calls[1])  # only the latest draft goes back (a 12k context, review round 2)
     assert [entry["attempt"] for entry in log] == [1, 2] and got["beats"][-1]["say"].startswith("Only time")
 
 

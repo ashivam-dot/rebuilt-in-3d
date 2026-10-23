@@ -717,7 +717,7 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     if series:
         ground += f"\nPart {series['part']}, Part {series['part'] + 1}, of {series['of']}. {series.get('next') or ''}"
     checked = ground + ("\n" + report_ground(reports) if reports else "")
-    log = []
+    log, base = [], messages
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
             try:
@@ -755,7 +755,9 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
             if log_path:
                 log_path.parent.mkdir(parents=True, exist_ok=True)
                 log_path.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
-            messages = messages + [{"role": "assistant", "content": json.dumps(draft)},
+            # Only the latest draft and its problems go back: the whole history ran the third draft past the local
+            # model's 12k context (cut off at about 300 characters in 4 dry runs of 2026-10-23).
+            messages = base + [{"role": "assistant", "content": json.dumps(draft)},
                                    {"role": "user", "content": "Rewrite the whole JSON. Fix these problems and change "
                                     "nothing else that is supported:\n- " + "\n- ".join(problems)}]
     raise ValueError("gate: no draft passed the fact checks: " + "; ".join(log[-1]["problems"])[:400])
