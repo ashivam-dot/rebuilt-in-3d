@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T16:30:25+00:00",
+ "at": "2026-10-23T17:17:50+00:00",
  "quakes": [],
  "trending": [
   {
@@ -72,24 +72,25 @@
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 300000,
+   "fame": 177000,
    "views": 0,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-23T09:34:40+00:00",
+   "traffic": 2000,
+   "news": 125000,
+   "news_at": "2026-10-23T08:48:37+00:00",
    "headlines": [
-    "Powerful earthquake in Tibet kills at least 16 people",
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
     "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
     "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "At least 16 people killed by powerful earthquake in Tibet"
+    "At least 16 people killed by powerful earthquake in Tibet",
+    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes"
    ],
    "region": "world",
    "via": [
+    "google-trends-IN:earthquake",
     "wikipedia-current-events-2026-10-22",
-    "google-news:Powerful earthquake in Tibet kills at least 16 people",
     "google-news:Rescuers search for survivors after deadly earthquake in China’s Tibet region",
     "google-news:Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+    "google-news:Powerful earthquake hits Tibet killing 16 people, reports say",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:BBC",
@@ -183,15 +184,14 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T12:17:20+00:00",
+   "news_at": "2026-10-23T08:47:36+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
     "Disney (ABC News)",
     "Euronews",
     "BBC",
-    "ABC (Australia)",
-    "Al Jazeera Media Network"
+    "ABC (Australia)"
    ],
    "fame": 150000,
    "news": 150000,
@@ -250,16 +250,6 @@
      "at": "2026-10-23T06:40:00+00:00"
     },
     {
-     "title": "Typhoon Champi unleashes huge waves along Taiwan’s coast",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/typhoon-champi-unleashes-huge-waves-along-taiwans-coast?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T12:17:20+00:00"
-    },
-    {
      "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
      "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
      "outlet": "South China Morning Post",
@@ -298,6 +288,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T04:15:11+00:00"
+    },
+    {
+     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T06:41:35+00:00"
     }
    ],
    "via": [
@@ -306,8 +306,7 @@
     "outlet:Disney (ABC News)",
     "outlet:Euronews",
     "outlet:BBC",
-    "outlet:ABC (Australia)",
-    "outlet:Al Jazeera Media Network"
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
@@ -320,14 +319,17 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T16:11:00+00:00",
+   "news_at": "2026-10-23T17:17:41+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
     "Al Jazeera Media Network",
     "France Médias Monde",
+    "Deutsche Welle",
     "Paramount (CBS)",
-    "BBC"
+    "NDTV",
+    "BBC",
+    "SCMP Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -335,12 +337,16 @@
    "traffic": 0,
    "headlines": [
     "Gunmen open fire inside church in Jordan, 6 killed",
-    "Gunmen open fire at church in Jordan, killing at least six",
+    "Gunmen open fire at church in Jordan, killing at least seven",
     "At least seven killed after gunmen open fire at church in Jordan",
     "Several killed, dozens wounded in Jordan church shooting",
-    "Gunmen kill at least 7 in attack on Jordan church, authorities say"
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
-   "places": [],
+   "places": [
+    "Karak",
+    "injured",
+    "open"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -359,7 +365,27 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T16:11:00+00:00"
+     "at": "2026-10-23T16:33:11+00:00"
+    },
+    {
+     "title": "Watch: CCTV footage appears to show gunmen near church in Jordan",
+     "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T15:59:36+00:00"
+    },
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T15:26:00+00:00"
     },
     {
      "title": "Several killed, dozens wounded in Jordan church shooting",
@@ -372,7 +398,7 @@
      "at": "2026-10-23T14:16:29+00:00"
     },
     {
-     "title": "Gunmen open fire at church in Jordan, killing at least six",
+     "title": "Gunmen open fire at church in Jordan, killing at least seven",
      "url": "https://www.abc.net.au/news/2026-10-23/shooter-opens-fire-at-church-in-jordan/107303774",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -380,6 +406,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T12:14:53+00:00"
+    },
+    {
+     "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3371984/gunmen-kill-7-jordan-church-king-vows-retaliation",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T17:17:41+00:00"
     },
     {
      "title": "At least seven killed after gunmen open fire at church in Jordan",
@@ -400,16 +436,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside church in Jordan, 6 killed",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/gunmen-open-fire-inside-church-in-jordan-several-killed/articleshow/135145102.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-23T12:02:22+00:00"
     }
    ],
    "via": [
@@ -417,70 +443,14 @@
     "outlet:ABC (Australia)",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
     "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:NDTV",
+    "outlet:BBC",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q452431",
-   "title": "Ron Duguay",
-   "fame": 92485,
-   "views": 92485,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q452431",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "qid": null,
-   "title": "2026 Karak church shooting",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T16:30:25.808000+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T15:26:00+00:00"
-    }
-   ],
-   "id": "wp-2026_Karak_church_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": null,
-   "has_coords": false
+   "article": "2026 Karak church shooting"
   },
   {
    "id": "nw-20261023-bank-attack",
@@ -490,20 +460,23 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T09:40:32+00:00",
+   "news_at": "2026-10-23T12:05:31+00:00",
    "owners": [
     "Fox Corporation",
     "ABC (Australia)",
+    "NBCUniversal",
     "NPR"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
     "Two Israeli soldiers killed in attack on West Bank military checkpoint",
-    "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack"
+    "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
+    "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+    "Israel orders full West Bank lockdown after deadly shooting attack"
    ],
    "places": [
     "IDF"
@@ -539,6 +512,26 @@
      "at": "2026-10-23T08:18:27+00:00"
     },
     {
+     "title": "Israel orders full West Bank lockdown after deadly shooting attack",
+     "url": "https://www.nbcnews.com/now/video/israel-orders-full-west-bank-lockdown-after-deadly-shooting-attack-272097861757",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T12:05:31+00:00"
+    },
+    {
+     "title": "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
+     "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T08:47:16+00:00"
+    },
+    {
      "title": "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
      "url": "https://www.foxnews.com/world/two-suspected-gunmen-dead-two-idf-soldiers-killed-west-bank-shooting",
      "outlet": "Fox News",
@@ -552,10 +545,159 @@
    "via": [
     "outlet:Fox Corporation",
     "outlet:ABC (Australia)",
+    "outlet:NBCUniversal",
     "outlet:NPR"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "France: Gunman kills one and wounds four in town outside Paris",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T16:08:04+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "One dead, four injured in Paris shooting as police probe terror link",
+    "France: Gunman kills one and wounds four in town outside Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "One person killed in suspected ‘Islamophobic’ shooting near Paris"
+   ],
+   "places": [
+    "Islamophobic",
+    "Islamophobic’"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Gunman kills one and wounds four in town outside Paris",
+     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:21:35+00:00"
+    },
+    {
+     "title": "One dead, four injured in Paris shooting as police probe terror link",
+     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T12:07:47+00:00"
+    },
+    {
+     "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
+     "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T16:08:04+00:00"
+    },
+    {
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T15:30:43+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 92485,
+   "views": 92485,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": null,
+   "title": "2026 Karak church shooting",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-23T17:17:50.391272+00:00",
+   "headlines": [
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T15:26:00+00:00"
+    }
+   ],
+   "id": "wp-2026_Karak_church_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261023-paris-attack",
@@ -626,81 +768,6 @@
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T15:30:43+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "France Médias Monde",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One dead, four injured in Paris shooting as police probe terror link",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "One dead, four injured in Paris shooting as police probe terror link",
-     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T12:07:47+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -899,13 +966,102 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "France: Gunman kills one and wounds four in town outside Paris",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T16:08:04+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "One dead, four injured in Paris shooting as police probe terror link",
+    "France: Gunman kills one and wounds four in town outside Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "One person killed in suspected ‘Islamophobic’ shooting near Paris"
+   ],
+   "places": [
+    "Islamophobic",
+    "Islamophobic’"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Gunman kills one and wounds four in town outside Paris",
+     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:21:35+00:00"
+    },
+    {
+     "title": "One dead, four injured in Paris shooting as police probe terror link",
+     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T12:07:47+00:00"
+    },
+    {
+     "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
+     "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T16:08:04+00:00"
+    },
+    {
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T15:30:43+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": null,
    "title": "2026 Karak church shooting",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-23T16:30:25.808000+00:00",
+   "news_at": "2026-10-23T17:17:50.391272+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -938,53 +1094,91 @@
    "has_coords": false
   },
   {
-   "qid": "Q3424313",
-   "title": "Deva (composer)",
-   "fame": 20344,
-   "views": 20344,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-22"
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T14:40:00+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3424313",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-17"
-  },
-  {
-   "qid": "Q141808612",
-   "title": "2026 Croix-des-Bouquets gang ambush",
-   "fame": 50000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-23T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-22"
+   "headlines": [
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb may be terrorist act, officials say"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141808612",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-18",
-   "coords": null,
-   "has_coords": true
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T14:40:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 814,
+  "headlines": 808,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 38,
   "corroborated": 6
  },
  "emerging": [
@@ -996,15 +1190,14 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T12:17:20+00:00",
+   "news_at": "2026-10-23T08:47:36+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
     "Disney (ABC News)",
     "Euronews",
     "BBC",
-    "ABC (Australia)",
-    "Al Jazeera Media Network"
+    "ABC (Australia)"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1063,16 +1256,6 @@
      "at": "2026-10-23T06:40:00+00:00"
     },
     {
-     "title": "Typhoon Champi unleashes huge waves along Taiwan’s coast",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/typhoon-champi-unleashes-huge-waves-along-taiwans-coast?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T12:17:20+00:00"
-    },
-    {
      "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
      "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
      "outlet": "South China Morning Post",
@@ -1111,6 +1294,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T04:15:11+00:00"
+    },
+    {
+     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T06:41:35+00:00"
     }
    ],
    "via": [
@@ -1119,8 +1312,7 @@
     "outlet:Disney (ABC News)",
     "outlet:Euronews",
     "outlet:BBC",
-    "outlet:ABC (Australia)",
-    "outlet:Al Jazeera Media Network"
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
@@ -1133,14 +1325,17 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T16:11:00+00:00",
+   "news_at": "2026-10-23T17:17:41+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
     "Al Jazeera Media Network",
     "France Médias Monde",
+    "Deutsche Welle",
     "Paramount (CBS)",
-    "BBC"
+    "NDTV",
+    "BBC",
+    "SCMP Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1148,12 +1343,16 @@
    "traffic": 0,
    "headlines": [
     "Gunmen open fire inside church in Jordan, 6 killed",
-    "Gunmen open fire at church in Jordan, killing at least six",
+    "Gunmen open fire at church in Jordan, killing at least seven",
     "At least seven killed after gunmen open fire at church in Jordan",
     "Several killed, dozens wounded in Jordan church shooting",
-    "Gunmen kill at least 7 in attack on Jordan church, authorities say"
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
-   "places": [],
+   "places": [
+    "Karak",
+    "injured",
+    "open"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -1172,7 +1371,27 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T16:11:00+00:00"
+     "at": "2026-10-23T16:33:11+00:00"
+    },
+    {
+     "title": "Watch: CCTV footage appears to show gunmen near church in Jordan",
+     "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T15:59:36+00:00"
+    },
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T15:26:00+00:00"
     },
     {
      "title": "Several killed, dozens wounded in Jordan church shooting",
@@ -1185,7 +1404,7 @@
      "at": "2026-10-23T14:16:29+00:00"
     },
     {
-     "title": "Gunmen open fire at church in Jordan, killing at least six",
+     "title": "Gunmen open fire at church in Jordan, killing at least seven",
      "url": "https://www.abc.net.au/news/2026-10-23/shooter-opens-fire-at-church-in-jordan/107303774",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -1193,6 +1412,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T12:14:53+00:00"
+    },
+    {
+     "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3371984/gunmen-kill-7-jordan-church-king-vows-retaliation",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T17:17:41+00:00"
     },
     {
      "title": "At least seven killed after gunmen open fire at church in Jordan",
@@ -1213,16 +1442,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside church in Jordan, 6 killed",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/gunmen-open-fire-inside-church-in-jordan-several-killed/articleshow/135145102.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-23T12:02:22+00:00"
     }
    ],
    "via": [
@@ -1230,11 +1449,14 @@
     "outlet:ABC (Australia)",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
     "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:NDTV",
+    "outlet:BBC",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
-   "article": null
+   "article": "2026 Karak church shooting"
   },
   {
    "id": "nw-20261023-bank-attack",
@@ -1244,20 +1466,23 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T09:40:32+00:00",
+   "news_at": "2026-10-23T12:05:31+00:00",
    "owners": [
     "Fox Corporation",
     "ABC (Australia)",
+    "NBCUniversal",
     "NPR"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
     "Two Israeli soldiers killed in attack on West Bank military checkpoint",
-    "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack"
+    "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
+    "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+    "Israel orders full West Bank lockdown after deadly shooting attack"
    ],
    "places": [
     "IDF"
@@ -1293,6 +1518,26 @@
      "at": "2026-10-23T08:18:27+00:00"
     },
     {
+     "title": "Israel orders full West Bank lockdown after deadly shooting attack",
+     "url": "https://www.nbcnews.com/now/video/israel-orders-full-west-bank-lockdown-after-deadly-shooting-attack-272097861757",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T12:05:31+00:00"
+    },
+    {
+     "title": "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
+     "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T08:47:16+00:00"
+    },
+    {
      "title": "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
      "url": "https://www.foxnews.com/world/two-suspected-gunmen-dead-two-idf-soldiers-killed-west-bank-shooting",
      "outlet": "Fox News",
@@ -1306,7 +1551,97 @@
    "via": [
     "outlet:Fox Corporation",
     "outlet:ABC (Australia)",
+    "outlet:NBCUniversal",
     "outlet:NPR"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "France: Gunman kills one and wounds four in town outside Paris",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T16:08:04+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "One dead, four injured in Paris shooting as police probe terror link",
+    "France: Gunman kills one and wounds four in town outside Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "One person killed in suspected ‘Islamophobic’ shooting near Paris"
+   ],
+   "places": [
+    "Islamophobic",
+    "Islamophobic’"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Gunman kills one and wounds four in town outside Paris",
+     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:21:35+00:00"
+    },
+    {
+     "title": "One dead, four injured in Paris shooting as police probe terror link",
+     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T12:07:47+00:00"
+    },
+    {
+     "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
+     "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T16:08:04+00:00"
+    },
+    {
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T15:30:43+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -1383,82 +1718,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T15:30:43+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "France Médias Monde",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One dead, four injured in Paris shooting as police probe terror link",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "One dead, four injured in Paris shooting as police probe terror link",
-     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T12:07:47+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 814 headlines from 30 feeds (21 owners), 33 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack"
+ "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 38 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-champi-cyclone, nw-20261023-jordan-attack, nw-20261023-bank-attack"
 }
