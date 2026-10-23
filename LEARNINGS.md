@@ -1,42 +1,42 @@
 # What this channel's own numbers say
 
-Updated 2026-10-23T02:36:43+00:00. Scored Shorts (views at 24 h): 40. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-23T06:22:32+00:00. Scored Shorts (views at 24 h): 41. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 158 views at 24 h.
+Baseline: a typical Short has 166 views at 24 h.
 Retention: a typical Short is watched 54.7% through; a group's retention is blended into its lift at 0.5.
-- kind:death: x1.099 ranking lift (11 Shorts, typical 212 views; 11 with retention, typically 52.7% watched)
-- kind:incident: x1.067 ranking lift (22 Shorts, typical 187 views; 20 with retention, typically 54.0% watched)
-- category:protest: x1.039 ranking lift (5 Shorts, typical 213 views; 4 with retention, typically 45.6% watched)
-- category:death: x1.028 ranking lift (10 Shorts, typical 173 views; 10 with retention, typically 53.9% watched)
-- kind:quake: x0.756 ranking lift (7 Shorts, typical 59 views; 6 with retention, typically 60.8% watched)
+- kind:incident: x1.082 ranking lift (23 Shorts, typical 202 views; 20 with retention, typically 54.0% watched)
+- kind:death: x1.079 ranking lift (11 Shorts, typical 212 views; 11 with retention, typically 52.7% watched)
+- category:protest: x1.025 ranking lift (5 Shorts, typical 213 views; 4 with retention, typically 45.6% watched)
+- category:death: x1.01 ranking lift (10 Shorts, typical 173 views; 10 with retention, typically 53.9% watched)
+- kind:quake: x0.75 ranking lift (7 Shorts, typical 59 views; 6 with retention, typically 60.8% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q320093 | 2026-10-22T22:48 | death | death | 623 |  |
+| wk-Q320093 | 2026-10-22T22:48 | death | death | 1266 |  |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 28 |  |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 |  |
-| nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1172 |  |
-| wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 388 | 325 |
+| nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1175 | 1173 |
+| wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 391 | 325 |
 | wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 162 | 128 |
-| wk-Q1889124 | 2026-10-20T00:12 | death | death | 616 | 520 |
+| wk-Q1889124 | 2026-10-20T00:12 | death | death | 617 | 520 |
 | wk-Q5115327 | 2026-10-19T16:51 | death | death | 447 | 371 |
 | wk-Q1702112 | 2026-10-19T14:33 | death | death | 561 | 385 |
 | wk-Q3837943 | 2026-10-19T12:32 | death | death | 887 | 732 |
-| wk-Q438492 | 2026-10-19T10:18 | death | death | 1368 | 1272 |
-| nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1102 | 1078 |
+| wk-Q438492 | 2026-10-19T10:18 | death | death | 1369 | 1272 |
+| nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1104 | 1078 |
 | wk-Q141592947-2026w42 | 2026-10-18T21:39 | incident | protest | 265 | 207 |
 | nw-20261017-paris-protest | 2026-10-18T11:34 | incident | protest | 325 | 313 |
 | wk-Q141605182 | 2026-10-17T18:37 | incident | aviation | 19 | 14 |
 | wk-Q141717158-2026w42 | 2026-10-17T04:44 | incident | protest | 51 | 19 |
-| wk-Q141745391 | 2026-10-17T01:12 | incident | attack | 579 | 496 |
-| wk-Q1101154 | 2026-10-16T23:55 | death | death | 138 | 90 |
+| wk-Q141745391 | 2026-10-17T01:12 | incident | attack | 582 | 496 |
+| wk-Q1101154 | 2026-10-16T23:55 | death | death | 139 | 90 |
 | wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports | 2026-10-16T19:59 | incident | attack | 9 | 9 |
 | eq-us6000u1z5 | 2026-10-16T18:26 | quake |  | 0 | 0 |
 | eq-us6000u214 | 2026-10-16T17:26 | quake |  | 8 | 8 |
 | eq-us6000u2mq | 2026-10-16T15:53 | quake |  | 33 | 33 |
 | nw-20261014-black-strike | 2026-10-15T18:13 | incident | strike | 371 | 371 |
 | wk-Q139998119-2026w42 | 2026-10-15T12:15 | incident | protest | 1079 | 1042 |
-| wk-Q1438992 | 2026-10-15T04:17 | death | death | 979 | 884 |
+| wk-Q1438992 | 2026-10-15T04:17 | death | death | 980 | 884 |
 | wk-Q141544931 | 2026-10-14T18:11 | incident | conflict | 886 | 673 |
 | wk-Q141712917 | 2026-10-14T16:03 | incident | cyclone | 287 | 268 |
 | wp-2026_Multan_train_derailment | 2026-10-14T14:07 | incident | rail | 93 | 38 |

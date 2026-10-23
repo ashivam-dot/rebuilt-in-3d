@@ -1,28 +1,28 @@
 {
- "at": "2026-10-23T05:10:49+00:00",
+ "at": "2026-10-23T06:22:34+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 621141,
+   "fame": 746141,
    "views": 371141,
    "traffic": 0,
-   "news": 250000,
+   "news": 375000,
    "news_at": "2026-10-23T01:04:52+00:00",
    "headlines": [
     "US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
     "Hollywood remembers actor Tom Skerritt",
     "Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
-    "Tom Skerritt, star of Alien and Top Gun, dies at 93",
-    "Actor Tom Skerritt, who played dads, cops and commanding officers, has died"
+    "Tom Skerritt, star of Alien and Top Gun, dies at 93"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-22",
     "google-news:US actor Tom Skerritt, who starred in Top Gun, Steel Magnolias and Alien, dies aged 93",
+    "google-news:Actor Tom Skerritt, known for roles in Top Gun and Alien, has died",
     "google-news:Hollywood remembers actor Tom Skerritt",
-    "google-news:Tom Skerritt, known for roles in \"Alien,\" \"Picket Fences,\" dies at 93",
     "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -110,20 +110,21 @@
    "views": 0,
    "traffic": 0,
    "news": 400000,
-   "news_at": "2026-10-23T05:01:22+00:00",
+   "news_at": "2026-10-23T05:16:37+00:00",
    "headlines": [
     "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16",
+    "Powerful earthquake hits Tibet killing 16 people, reports say",
     "At least 16 people killed by powerful earthquake in Tibet",
-    "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
-    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes"
+    "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-22",
     "google-news:Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
     "google-news:Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16",
-    "google-news:At least 16 people killed by powerful earthquake in Tibet",
+    "google-news:Powerful earthquake hits Tibet killing 16 people, reports say",
+    "outlet:BBC",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:Euronews",
@@ -135,6 +136,7 @@
     "outlet:Disney (ABC News)"
    ],
    "owners": [
+    "BBC",
     "Paramount (CBS)",
     "Guardian Media Group",
     "Euronews",
@@ -146,6 +148,16 @@
     "Disney (ABC News)"
    ],
    "reports": [
+    {
+     "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+     "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T05:16:37+00:00"
+    },
     {
      "title": "At least 16 people killed by powerful earthquake in Tibet",
      "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
@@ -215,16 +227,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-22T23:24:00+00:00"
-    },
-    {
-     "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
-     "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T21:23:01+00:00"
     }
    ],
    "id": "wk-Q141807978",
@@ -273,30 +275,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-22T09:58:30+00:00",
-   "headlines": [
-    "Indian killed as Houthis attack Saudi Arabia’s Dammam airport"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Indian killed as Houthis attack Saudi Arabia’s Dammam airport"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q452431",
@@ -370,81 +348,6 @@
    "date": "2026-10-22",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "id": "nw-20261022-macron-protest",
-   "qid": null,
-   "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
-   "name": "Macron",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-22",
-   "news_at": "2026-10-22T16:28:00+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
-    "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-    "France's Macron says 'illegitimate' protests will be banned in coming days"
-   ],
-   "places": [
-    "Emmanuel"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
-     "url": "https://www.dw.com/en/france-s-macron-says-illegitimate-protests-will-be-banned-in-coming-days/a-79735137?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T16:28:00+00:00"
-    },
-    {
-     "title": "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-     "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T15:54:13+00:00"
-    },
-    {
-     "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
-     "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T11:31:36+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q141718063",
@@ -675,88 +578,12 @@
   }
  ],
  "outlets": {
-  "headlines": 801,
+  "headlines": 793,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 4
+  "matched": 35,
+  "corroborated": 3
  },
- "emerging": [
-  {
-   "id": "nw-20261022-macron-protest",
-   "qid": null,
-   "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
-   "name": "Macron",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-22",
-   "news_at": "2026-10-22T16:28:00+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
-    "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-    "France's Macron says 'illegitimate' protests will be banned in coming days"
-   ],
-   "places": [
-    "Emmanuel"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
-     "url": "https://www.dw.com/en/france-s-macron-says-illegitimate-protests-will-be-banned-in-coming-days/a-79735137?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-22T16:28:00+00:00"
-    },
-    {
-     "title": "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
-     "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T15:54:13+00:00"
-    },
-    {
-     "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
-     "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-22T11:31:36+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261022-macron-protest"
+ "emerging": [],
+ "outlet_note": "outlets: 793 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
