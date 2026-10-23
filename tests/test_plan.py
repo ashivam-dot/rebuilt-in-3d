@@ -37,6 +37,29 @@ def test_ledger_skip_marks_done(tmp_path, monkeypatch):
     assert ledger.is_done("eq-x")
 
 
+def test_a_story_short_of_pictures_is_retried_on_a_clock_and_old_rules_skips_reopen(tmp_path, monkeypatch):
+    # Review round 1: Commons has an event's photos 6-24+ h later, but 6 runs 30 min apart gave up after 3 h.
+    from datetime import timedelta
+    monkeypatch.setattr(ledger, "STATE", tmp_path)
+    t0 = datetime(2026, 10, 23, 0, tzinfo=timezone.utc)
+    monkeypatch.setattr(ledger, "now", lambda: t0.isoformat())
+    assert ledger.retry("wk-a", "gate: faceless: no free photo shows the event")
+    assert not ledger.due("wk-a", t0 + timedelta(hours=2)) and ledger.due("wk-a", t0 + timedelta(hours=3))
+    for _ in range(3):
+        assert ledger.retry("wk-a", "gate: beats: pictures show what is said for only 50% of the time")
+    assert not ledger.due("wk-a", t0 + timedelta(hours=47)) and ledger.due("wk-a", t0 + timedelta(hours=48))
+    assert not ledger.retry("wk-a", "gate: faceless: no free photo shows the event")  # 5th try: given up
+    assert ledger.is_done("wk-a")
+    assert ledger.due("wk-b") and ledger.retry("wk-b", "no draft passed")
+    # Given up under the old picture rules (no "rules" stamp): reopened once, as are its retries.
+    ledger.save("skipped", {"wk-Q141776873": {"reason": "gave up after 6 tries: only 0 usable photos",
+                                              "at": "2026-10-22T19:05:00+00:00"},
+                            "wk-c": {"reason": "gate: banned wording", "at": "2026-10-22T19:05:00+00:00"}})
+    assert not ledger.is_done("wk-Q141776873") and ledger.is_done("wk-c")
+    assert ledger.reopened({"reason": "gate: faceless: x", "at": "2026-10-22T00:00:00+00:00", "count": 5})
+    assert not ledger.reopened({"reason": "gate: faceless: x", "at": "2026-10-22", "rules": ledger.PICTURES_RULES})
+
+
 def test_fresh_story_beats_bigger_stale_one():
     at = datetime(2026, 10, 9, 14, tzinfo=timezone.utc)
     fresh = {"id": "a", "kind": "incident", "category": "protest", "fame": 200_000, "news_at": "2026-10-09T12:00:00+00:00"}

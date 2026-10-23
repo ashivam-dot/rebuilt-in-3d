@@ -25,6 +25,8 @@ class Beat:
     shot: str
     card: dict | None = None
     pause_after: float = 0.3
+    # The word that names what the beat's photo shows ("Macron"): compose cuts to the photo on it (studio/anchor.py).
+    anchor: str = ""
 
 
 @dataclass

@@ -20,8 +20,9 @@ def _tile(*args, **kwargs):
 
 def _short(photos, kind="incident"):
     return Short(id="wk-Q141745391", kind=kind, title="The Silver Rail Elementary School Shooting",
-                 beats=[Beat("At Silver Rail Elementary School in Bend, a shooting unfolded. " * 4, "photo:0"),
-                        Beat(writer.OUTRO, "outro")],
+                 # One beat for each photo: a Short shows every picture once (2026-10-23).
+                 beats=[Beat("At Silver Rail Elementary School in Bend, a shooting unfolded. " * 2, f"photo:{i}")
+                        for i in range(len(photos))] + [Beat(writer.OUTRO, "outro")],
                  facts=[Fact("name", "Silver Rail Elementary School shooting", "https://en.wikipedia.org/wiki/X", [])],
                  sources=["https://en.wikipedia.org/wiki/X"], loss=False,
                  scene={"template": "story", "photos": photos},
@@ -55,30 +56,32 @@ def test_a_short_is_never_maps_alone():
     assert any("only maps" in p for p in gate.check(_short([MAP, MAP])))
     # Owner, 2026-10-22: a town photo beside two maps is a map Short, not a story.
     assert any("only 0 show who or what" in p for p in gate.check(_short([PHOTO, MAP, MAP])))
-    real = [dict(PHOTO, role=None, file=f"File:{i}.jpg") for i in range(3)]
-    assert not any("map" in p or "only" in p for p in gate.check(_short(real + [MAP, MAP])))
+    real = [dict(PHOTO, role=None, file=f"File:{i}.jpg", description="Police at Silver Rail Elementary School in Bend after the shooting")
+            for i in range(3)]
+    # Owner, 2026-10-22 ("do you think people are here to watch the map"): one map at most, beside real photos.
+    # (Each picture is on its own beat, so the map beat's place and time rules are tested in test_anchor.)
+    assert not any("maps (at most" in p or "only" in p for p in gate.check(_short(real + [MAP])))
+    assert any("2 maps (at most 1)" in p for p in gate.check(_short(real + [MAP, MAP])))
     assert any("3 maps" in p for p in gate.check(_short([PHOTO, MAP, MAP, MAP])))
     assert any("never a map" in p for p in gate.check(_short([PHOTO, PHOTO, MAP], kind="death")))
 
 
-def test_maps_join_real_photos_only_when_they_help(tmp_path, monkeypatch):
-    monkeypatch.setattr(locator, "plates", lambda site, label, folder, where="": [dict(MAP), dict(MAP)])
-    monkeypatch.setattr(writer, "town_photo", lambda site, folder, exclude: [])
+def test_one_map_joins_enough_real_photos_and_never_stands_in_for_them(tmp_path, monkeypatch):
+    # Until 2026-10-22 two maps (and a town photo) made up for a story with one photo or none; the owner: "do you
+    # think people are here to watch the map". Now one map joins gate.REAL_PHOTOS real photos, or none does.
+    monkeypatch.setattr(locator, "plates", lambda site, label, folder, where="", spans=locator.SPANS:
+                        [dict(MAP, kind="map", shows=[label]) for _ in spans])
     one = [dict(PHOTO, role="subject")]
-    got = writer.with_maps(one, SITE, "Silver Rail Elementary School, Bend, Oregon, U.S.", tmp_path, "attack")
-    assert [p["role"] for p in got] == ["subject", "map", "map"]
-    assert writer.with_maps([], SITE, None, tmp_path, "attack") == []  # no real photo: the story waits
-    assert writer.with_maps(one, None, None, tmp_path, "attack") == one  # no precise site
-    assert writer.with_maps(one, SITE, None, tmp_path, "rail") == one  # a derailment needs photos of the train
+    three = [dict(PHOTO, role="subject", file=f"File:{i}.jpg") for i in range(3)]
+    got = writer.with_maps(three, SITE, "Silver Rail Elementary School, Bend, Oregon, U.S.", tmp_path, "attack")
+    assert [p["role"] for p in got] == ["subject"] * 3 + ["map"] and got[-1]["shows"] == ["Silver Rail Elementary School"]
+    assert writer.with_maps(got, SITE, None, tmp_path, "attack") == got  # never a second map
+    assert writer.with_maps(one, SITE, None, tmp_path, "attack") == one  # too few real photos: no map
+    assert writer.with_maps([], SITE, None, tmp_path, "attack") == []
+    assert writer.with_maps(three, None, None, tmp_path, "attack") == three  # no precise site
+    assert writer.with_maps(three, SITE, None, tmp_path, "rail") == three  # a derailment shows the train
     monkeypatch.setattr(writer, "LOCATOR_MAPS", False)
-    assert writer.with_maps(one, SITE, None, tmp_path, "attack") == one
-
-
-def test_a_town_photo_opens_the_way_for_maps_but_never_opens_the_short(tmp_path, monkeypatch):
-    monkeypatch.setattr(locator, "plates", lambda site, label, folder, where="": [dict(MAP), dict(MAP)])
-    monkeypatch.setattr(writer, "town_photo", lambda site, folder, exclude: [dict(PHOTO)])
-    got = writer.with_maps([], SITE, None, tmp_path, "attack")
-    assert [p["role"] for p in got] == ["map", "map", "setting"]
+    assert writer.with_maps(three, SITE, None, tmp_path, "attack") == three
 
 
 def test_unreachable_tiles_leave_the_story_waiting(tmp_path, monkeypatch):
@@ -86,18 +89,8 @@ def test_unreachable_tiles_leave_the_story_waiting(tmp_path, monkeypatch):
         raise ConnectionError("tile server down")
 
     monkeypatch.setattr(net, "get", down)
-    one = [dict(PHOTO, role="subject")]
-    assert writer.with_maps(one, SITE, "Bend, Oregon", tmp_path, "attack") == one
-
-
-def test_code_keeps_the_town_photo_to_one_beat():
-    photos = [dict(MAP), dict(MAP), dict(PHOTO)]
-    draft = {"beats": [{"photo": p} for p in (2, 0, 2, 1, 2, 0, 1, 2)]}
-    got = [b["photo"] for b in writer.place_photos(draft, photos)["beats"]]
-    assert got.count(2) == 1 and got[0] != 2 and got[2] == 2
-    assert got[:2] == [1, 0]  # beat 1 takes the photo beat 2 does not show
-    plain = {"beats": [{"photo": p} for p in (0, 1, 0, 1)]}
-    assert [b["photo"] for b in writer.place_photos(plain, [dict(MAP), dict(MAP)])["beats"]] == [0, 1, 0, 1]
+    three = [dict(PHOTO, role="subject", file=f"File:{i}.jpg") for i in range(3)]
+    assert writer.with_maps(three, SITE, "Bend, Oregon", tmp_path, "attack") == three
 
 
 def test_map_labels_name_the_site_then_its_town():

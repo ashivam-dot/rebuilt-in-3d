@@ -251,6 +251,7 @@ def watch() -> dict:
     rows = ledger.published()
     moved = renamed(rows, at)
     stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
+               and ledger.due(c["id"])
                and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
                and not told_before(c, rows, at, moved)]
     found["candidates"] = sorted(found["quakes"] + stories, key=lambda c: -priority(c, at))

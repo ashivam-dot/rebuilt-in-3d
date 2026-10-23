@@ -134,6 +134,10 @@ def test_the_writer_puts_the_town_on_one_beat_and_never_first():
     assert any("SETTING photo is on more than one beat" in p for p in problems)
     for b, n in zip(draft["beats"], (0, 1, 2, 0)):
         b["photo"] = n
-    assert not [p for p in writer._validate(draft, photos, "Rehman Baba Express", ground, [], []) if "photo" in p]
+    assert any("photo(s) 0 are on more than one beat" in p for p in writer._validate(draft, photos, "Rehman Baba Express",
+                                                                                     ground, [], []))
+    draft["beats"] = draft["beats"][:3]  # one beat for each photo (2026-10-23)
+    assert not [p for p in writer._validate(draft, photos, "Rehman Baba Express", ground, [], [])
+                if "SETTING" in p or "beat 1 uses" in p or "more than one beat" in p or "beats; it must" in p]
     listing = writer._messages("brief", [], "", photos, "Rehman Baba Express")[1]["content"]
     assert "2: File:Clock Tower Multan.jpg" + writer.SETTING_NOTE in listing

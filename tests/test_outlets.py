@@ -232,14 +232,22 @@ def test_an_nw_story_about_a_person_is_told_over_their_own_portraits(monkeypatch
     monkeypatch.setattr(writer.gate, "reported", lambda name, reports: ["BBC", "HT Media", "Bennett, Coleman & Co."])
     monkeypatch.setattr(writer, "story_place", lambda name: (None, {}))
     monkeypatch.setattr(writer, "story_subject", lambda name: None)
-    monkeypatch.setattr(writer, "story_person", lambda name: ("Tiger Shroff", PERSON))
+    monkeypatch.setattr(writer, "story_person", lambda name, reports=None: ("Tiger Shroff", PERSON))
     asked = {}
     monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
                         asked.update(title=title, person=person) or [{"file": f"File:T{i}.jpg"} for i in range(3)])
     monkeypatch.setattr(writer, "write", lambda kind, name, she, facts, *a, **kw: (_ for _ in ()).throw(Told(facts)))
+    # Review round 2: a portrait alone no longer carries a non-death story (the Macron ban re-made over his
+    # portrait): it is refused before writing until a photo of the event itself turns up.
+    with pytest.raises(ValueError, match="faceless: no free photo shows Tiger Shroff or the event itself"):
+        writer.build(cand)
+    assert asked == {"title": "Tiger Shroff", "person": True}
+    monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
+                        [{"file": f"File:T{i}.jpg", "kind": "event", "description": "Tiger Shroff at the event"}
+                         for i in range(3)])
     with pytest.raises(Told) as told:
         writer.build(cand)
-    assert asked == {"title": "Tiger Shroff", "person": True} and told.value.args[0][0] == "Person: Tiger Shroff."
+    assert told.value.args[0][0] == "Person: Tiger Shroff."
 
 
 def test_an_nw_story_is_told_only_from_two_owners_reporting(monkeypatch, tmp_path):
@@ -260,6 +268,12 @@ def test_an_nw_story_is_told_only_from_two_owners_reporting(monkeypatch, tmp_pat
         return _draft(), []
 
     monkeypatch.setattr(writer, "write", write)
+    # Photos of Chamoli are not photos of the cloudburst (owner, 2026-10-22): refused before writing until Commons
+    # has photos of the event itself.
+    with pytest.raises(ValueError, match="faceless"):
+        writer.build(cand)
+    monkeypatch.setattr(writer, "fill_photos", lambda qids, folder, exclude, need=3: [])
+    monkeypatch.setattr(writer, "event_photos", lambda *a, **kw: [dict(p, kind="event") for p in photos])
     short = writer.build(cand)
     assert short.id == cand["id"] and seen["source"] == "" and len(seen["reports"]) == 3
     assert short.scene["outlets"] == ["BBC", "Times of India", "The Hindu"] and short.scene["article"] is None

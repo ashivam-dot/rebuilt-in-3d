@@ -14,6 +14,15 @@ WAITS = ("under 6 hours old",)
 # A story given up for want of photos before locator maps went live (studio/locator.py) gets one more try: a map
 # may now stand in for the photos Commons lacked.
 MAPS_SINCE = "2026-10-16T19:20:00+00:00"
+# Reasons a story is short of pictures (studio/anchor.py, gate.pictures). Commons has an event's own photos 6 to 24+
+# hours after it, so these are retried on a clock, not on every run, and a skip or retry made under the old picture
+# rules (a row without PICTURES_RULES) starts afresh: the event-photo search is new.
+PICTURE_REASONS = ("faceless:", "usable photos", "show who or what the story is about",
+                   "pictures show what is said for only",
+                   # the writer's own wording of the same refusal (writer.shown_problems, review round 2)
+                   "name(s) nothing its photo shows", "shows what it says; want", "who has no photo here")
+PICTURE_BACKOFF_H = (3, 12, 24, 48)
+PICTURES_RULES = "anchored-2026-10"
 
 
 def now() -> str:
@@ -116,23 +125,42 @@ def stale_uploads(at: datetime | None = None) -> list[str]:
 
 def skip(story_id: str, reason: str) -> None:
     skipped = load("skipped", {})
-    skipped[story_id] = {"reason": reason, "at": now()}
+    skipped[story_id] = {"reason": reason, "at": now(), "rules": PICTURES_RULES}
     save("skipped", skipped)
 
 
+def pictures_reason(reason: str | None) -> bool:
+    return any(m in (reason or "") for m in PICTURE_REASONS)
+
+
 def retry(story_id: str, reason: str, limit: int = 6) -> bool:
-    """Count a retryable failure; past `limit` the story is skipped for good. True while it may still be retried."""
+    """Count a retryable failure; past `limit` the story is skipped for good. True while it may still be retried.
+    A story short of pictures gets one try per PICTURE_BACKOFF_H step (see due) and then one last try."""
     tries = load("retries", {})
     row = tries.get(story_id, {"count": 0})
     if waiting(row.get("reason")) or reopened(row):
         row = {"count": 0}
-    row = {"count": row["count"] + 1, "reason": reason, "at": now()}
+    row = {"count": row["count"] + 1, "reason": reason, "at": now(), "rules": PICTURES_RULES}
     tries[story_id] = row
     save("retries", tries)
+    if pictures_reason(reason):
+        limit = len(PICTURE_BACKOFF_H) + 1
     if row["count"] >= limit:
         skip(story_id, f"gave up after {row['count']} tries: {reason}")
         return False
     return True
+
+
+def due(story_id: str, at: datetime | None = None) -> bool:
+    """False while a story short of pictures waits out its back-off (3 h, then 12, 24 and 48 h after its last try)."""
+    row = load("retries", {}).get(story_id)
+    if not row or not pictures_reason(row.get("reason")) or reopened(row):
+        return True
+    try:
+        hours = ((at or datetime.now(timezone.utc)) - datetime.fromisoformat(row["at"])).total_seconds() / 3600
+    except (KeyError, TypeError, ValueError):
+        return True
+    return hours >= PICTURE_BACKOFF_H[min(max(row.get("count", 1), 1), len(PICTURE_BACKOFF_H)) - 1]
 
 
 def waiting(reason: str | None) -> bool:
@@ -140,8 +168,13 @@ def waiting(reason: str | None) -> bool:
 
 
 def reopened(row: dict | None) -> bool:
-    """A skip or retry for want of photos from before locator maps: the story starts its tries afresh."""
-    return bool(row) and "usable photos" in row.get("reason", "") and row.get("at", "") < MAPS_SINCE
+    """A skip or retry for want of photos from before locator maps, or for want of pictures under the old picture
+    rules (before the event-photo search): the story starts its tries afresh."""
+    if not row:
+        return False
+    reason = row.get("reason", "")
+    return ("usable photos" in reason and row.get("at", "") < MAPS_SINCE) or \
+        (pictures_reason(reason) and row.get("rules") != PICTURES_RULES)
 
 
 def is_done(story_id: str) -> bool:
