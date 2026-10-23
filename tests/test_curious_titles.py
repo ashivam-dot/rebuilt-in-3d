@@ -82,7 +82,7 @@ def test_a_curiosity_titles_claim_is_fact_checked_with_the_beats(monkeypatch):
     for title in ("How Hurricane Milton Grew to Category 5 in a Day", "Hurricane Milton Reaches Category 5"):
         Fake.title = title
         writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], source,
-                     [{"file": "File:0.jpg", "description": ""}])
+                     [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
     curious, plain = (c.split("LINES:", 1)[1] for c in checked)
     assert curious.rstrip().endswith("5. TITLE: How Hurricane Milton Grew to Category 5 in a Day")
     assert "Hurricane Milton Reaches Category 5" not in plain and "\n5. " not in plain
@@ -133,7 +133,7 @@ def test_a_title_flagged_on_the_last_attempt_falls_back_to_the_plain_title(monke
     fallback title instead of failing "no draft passed the fact checks"."""
     asked = checker(monkeypatch, "partly")
     draft, log = writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                              [{"file": "File:0.jpg", "description": ""}])
+                              [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
     assert draft["title"] == "Hurricane Milton: what happened" == writer.plain_title("incident", "Hurricane Milton")
     assert [b["say"] for b in draft["beats"]] == [x.strip() for x in SAY]
     assert len(log) == 3 and all(p.startswith("the title (How Hurricane Milton") for p in log[-1]["problems"])
@@ -147,7 +147,7 @@ def test_a_title_flagged_on_the_last_attempt_falls_back_to_the_plain_title(monke
 def test_a_title_the_checker_leaves_out_counts_as_unsupported(monkeypatch):
     checker(monkeypatch, None)
     draft, log = writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                              [{"file": "File:0.jpg", "description": ""}])
+                              [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
     assert draft["title"] == "Hurricane Milton: what happened"
     assert log and "no verdict" in log[0]["problems"][0] and log[0]["problems"][0].startswith("the title (")
 
@@ -155,7 +155,7 @@ def test_a_title_the_checker_leaves_out_counts_as_unsupported(monkeypatch):
 def test_a_supported_curiosity_title_is_kept(monkeypatch):
     checker(monkeypatch, "supported")
     draft, log = writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                              [{"file": "File:0.jpg", "description": ""}])
+                              [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
     assert draft["title"] == "How Hurricane Milton Grew to Category 5 in a Day" and log == []
 
 
@@ -170,7 +170,7 @@ def test_a_flagged_beat_still_costs_the_story_on_the_last_attempt(monkeypatch):
     monkeypatch.setattr(writer, "check_verdict", with_beat)
     with pytest.raises(ValueError, match="no draft passed the fact checks"):
         writer.write("incident", "Hurricane Milton", "It", ["Event: Hurricane Milton."], SOURCE,
-                     [{"file": "File:0.jpg", "description": ""}])
+                     [{"file": "File:0.jpg", "description": "Hurricane Milton, a Category 5 storm over the Gulf of Mexico"}])
 
 
 @pytest.mark.parametrize("title", [

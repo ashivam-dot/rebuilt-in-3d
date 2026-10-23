@@ -20,7 +20,8 @@ def _photo(file, kind, shows=(), **kw):
             "description": kw.pop("description", ""), "kind": kind, "shows": list(shows), "origin": "event", **kw}
 
 
-# Retired after the picture audit (studio/youtube.py RETRACTED), and the Macron Short the owner saw.
+# Proposed for retraction by the picture audit (studio/youtube.py AUDIT_RETRACT, awaiting the owner), and the
+# Macron Short the owner retracted.
 REFUSED = ["ox3fConJ7EA", "dzq6GUxZyMc", "GTUwT6GQhV4", "mXR5B18rbtE", "a2qA0Fu19vc", "DwUtz4R4hzY", "XH8L7r7QUnk",
            "OT6g4NIr7Q8", "gCQ4ZWtobXA"]
 # The audit's keepers: their pictures show what they say. A5rMcUkzmF0 (the 17 October riots), kept by the audit,
@@ -461,11 +462,31 @@ def test_dry_runs_can_pass_over_a_story_and_never_hold_credentials():
     assert "!(inputs.dry || inputs.event != '') && secrets.YOUTUBE_OAUTH_JSON || ''" in flow
 
 
-def test_retired_shorts_are_retracted():
+def test_the_audits_retractions_wait_for_the_owner(monkeypatch):
+    """Review round 2: the picture audit's 8 proposals stay public until the owner approves (STUDIO_RETRACT_AUDIT)."""
     from studio import youtube
 
-    ids = {v for v in youtube.RETRACTED} if not isinstance(youtube.RETRACTED, dict) else set(youtube.RETRACTED)
-    assert set(REFUSED[:-1]) <= ids
+    monkeypatch.delenv("STUDIO_RETRACT_AUDIT", raising=False)
+    assert set(REFUSED[:-1]) == set(youtube.AUDIT_RETRACT) and not set(REFUSED[:-1]) & set(youtube.RETRACTED)
+    assert set(youtube.retracting()) == set(youtube.RETRACTED) and "gCQ4ZWtobXA" in youtube.RETRACTED
+
+    class Api:
+        def videos(self):
+            return self
+
+        def list(self, part, id):
+            asked.append(id.split(","))
+            return self
+
+        def execute(self):
+            return {"items": []}
+
+    asked = []
+    youtube.retract(Api())
+    assert not set(asked[0]) & set(youtube.AUDIT_RETRACT)
+    monkeypatch.setenv("STUDIO_RETRACT_AUDIT", "1")
+    youtube.retract(Api())
+    assert set(youtube.AUDIT_RETRACT) <= set(asked[1])
 
 
 def test_place_names_are_read_from_an_infobox():

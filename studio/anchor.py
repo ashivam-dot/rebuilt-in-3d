@@ -82,10 +82,54 @@ def says(text: str, term: str) -> re.Match | None:
     return re.search(r"(?<![\w])" + re.escape(t) + r"(?:'s|s|es)?(?![\w])", norm(text))
 
 
-def person_terms(name: str) -> list[str]:
-    """A person is named by their full name or their surname ("Emmanuel Macron", "Macron")."""
+PARTICLES = {"le", "la", "de", "del", "da", "di", "van", "von", "bin", "al", "du", "des", "der", "den", "dos", "das",
+             "ter", "ten", "el", "ibn"}
+
+
+def surname(name: str) -> str:
+    """A full name's surname, with its particle ("Marine Le Pen" -> "Le Pen", "Emmanuel Macron" -> "Macron"); "" for
+    a one-word name."""
     parts = [p for p in re.split(r"\s+", (name or "").strip()) if p]
-    return list(dict.fromkeys([name.strip()] + ([parts[-1]] if len(parts) > 1 else []))) if parts else []
+    if len(parts) < 2:
+        return ""
+    if len(parts) >= 3 and norm(parts[-2]) in PARTICLES:
+        return " ".join(parts[-2:])
+    return parts[-1]
+
+
+def person_terms(name: str) -> list[str]:
+    """A person is named by their full name or their surname ("Emmanuel Macron", "Macron"). The surname alone names
+    them only when no one else in the story shares it (name_hit)."""
+    parts = [p for p in re.split(r"\s+", (name or "").strip()) if p]
+    sur = surname(name)
+    return list(dict.fromkeys([name.strip()] + ([sur] if sur else []))) if parts else []
+
+
+def name_hit(text: str, full: str, rivals: set[str] | frozenset = frozenset(), strict: bool = True) -> re.Match | None:
+    """Where text names the person `full`: their full name; or their surname alone, when the word before it is not
+    another given name ("Rahul Gandhi" never names Indira Gandhi) and (strict) no rival, another person of the story
+    by full name, shares it. Review round 2 (2026-10-23): Indira Gandhi's portrait stood under every Rahul Gandhi
+    beat, the surname alone matching."""
+    if m := says(text, full):
+        return m
+    sur = surname(full)
+    if not sur or len(norm(sur)) < 4:
+        return None
+    nf, ns = norm(full), norm(sur)
+    if strict and any(r != nf and norm(surname(r)) == ns and len(r.split()) > 1 for r in rivals):
+        return None
+    given = {norm(p) for p in full.split()[:-len(sur.split())]}
+    low = norm(text)
+    same = len(low) == len(text or "")
+    for m in re.finditer(r"(?<![\w])" + re.escape(ns) + r"(?:'s|s)?(?![\w])", low):
+        prev = re.search(r"([^\W\d_][\w'’.\-]*)\s+$", low[:m.start()])
+        if prev:
+            pw = prev.group(1).rstrip(".")
+            orig = text[prev.start(1):prev.end(1)] if same else pw
+            if orig[:1].isupper() and pw not in given and pw not in STOP and pw not in PARTICLES and not is_plain(pw):
+                continue  # another given name: another person of the same surname
+        return m
+    return None
 
 
 def _ordinary(word: str) -> bool:
@@ -153,11 +197,14 @@ def legacy_kind(photo: dict, sid: str = "", short_kind: str = "", when=None, cat
     if photo.get("focus") or (short_kind == "death" and own):
         return "person"
     if own and not sid.startswith("nw-"):
+        if when is None:
+            return "event"  # a Short with no date (old fixtures) cannot tell; its plan was judged so before
         day = _photo_day(photo)
-        if when and day:
-            since, until = own_window(when, category, photo.get("origin") or "", short_kind == "protest")
-            if not since <= day <= until:
-                return "thing"
+        # Review round 2: a photo dated only "2014" (or undated) fell through to the event. Only a full day inside
+        # the window shows the event; anything else shows a thing (the aircraft, the building).
+        since, until = own_window(when, category, photo.get("origin") or "", short_kind == "protest")
+        if not day or not since <= day <= until:
+            return "thing"
         return "event"
     return "place"
 
@@ -177,7 +224,7 @@ def stamp_own(photos: list[dict], sid: str, short_kind: str, when, category: str
 
 def legacy_terms(photo: dict, kind: str, subject: str = "") -> list[str]:
     if kind == "person":
-        return person_terms(subject)
+        return [subject.strip()] if subject and subject.strip() else []
     if kind == "map":
         m = re.search(r"\baround ([^,]+)", photo.get("description") or "")
         return [m.group(1).strip()] if m else []
@@ -190,10 +237,7 @@ def legacy_terms(photo: dict, kind: str, subject: str = "") -> list[str]:
 def terms_of(photo: dict, kind: str, subject: str = "") -> list[str]:
     shows = [s for s in photo.get("shows") or [] if s]
     if shows:
-        out = []
-        for s in shows:
-            out += person_terms(s) if kind == "person" else [s]
-        return list(dict.fromkeys(out))
+        return list(dict.fromkeys(s.strip() for s in shows))
     return legacy_terms(photo, kind, subject)
 
 
@@ -293,6 +337,69 @@ def beat_dates(text: str) -> tuple[list[tuple], list[tuple]]:
     return days, months
 
 
+# What a beat and a picture's own words (file name, description, categories) must share for an event photo to show
+# the beat, and for a caption card to stand over a photo (review round 2, 2026-10-23: "teacher shortages and
+# overcrowded classrooms" and the card "Government accusations" stood over a smoking church with no one in it, and
+# counted as shown only because nothing contradicted it). Words of one family are read as one.
+FUNCTION = {"about", "above", "across", "after", "again", "against", "also", "among", "around", "because", "been",
+            "before", "began", "being", "between", "both", "called", "came", "could", "during", "each", "even",
+            "every", "first", "from", "further", "have", "having", "here", "including", "into", "just", "last",
+            "later", "like", "made", "make", "many", "more", "most", "much", "must", "near", "next", "only", "other",
+            "over", "part", "people", "said", "same", "says", "should", "since", "some", "still", "such", "than",
+            "that", "their", "them", "then", "there", "these", "they", "this", "those", "through", "told", "took",
+            "under", "until", "upon", "very", "were", "what", "when", "where", "which", "while", "will", "with",
+            "within", "without", "would", "year", "years", "week", "weeks", "today", "yesterday", "tomorrow",
+            "night", "morning", "evening", "day", "days", "month", "months", "time", "times", "photo", "photograph",
+            "file", "image", "jpeg", "view", "according", "several", "thousands", "hundreds", "dozens", "million",
+            "millions", "half", "whole", "entire", "across", "another", "among", "began", "become", "became",
+            "remain", "remains", "continue", "continued", "continues", "following", "number", "numbers", "least",
+            "nearly", "almost", "around", "high", "large", "small", "major", "many", "new", "long", "full", "big"}
+FAMILIES = {
+    "crowd": ("protest", "demonstrat", "march", "rally", "ralli", "gather", "crowd", "strike", "striking", "blockad",
+              "block", "manifest", "unrest", "riot", "clash", "mobilis", "mobiliz", "walkout", "sit-in", "placard",
+              "banner", "chant", "occupation", "occupi", "revolution", "uprising", "movement",
+              "mouvement", "manif", "sciopero", "huelga", "greve"),
+    "police": ("police", "polizia", "policier", "gendarm", "officer", "cop", "tear gas", "teargas", "water cannon",
+               "cannon", "baton", "carabinier", "guardia"),
+    "fire": ("fire", "smoke", "burn", "blaze", "flame", "torch", "arson", "ablaze", "incendi"),
+    "student": ("student", "pupil", "lycee", "lyceen", "school", "universit", "college", "teen"),
+    "shop": ("shop", "store", "loot", "smash", "window", "vandal", "storefront", "shopfront"),
+    "storm": ("storm", "hurrican", "cyclon", "typhoon", "landfall", "gale"),
+    "flood": ("flood", "inundat", "submerg", "deluge"),
+    "quake": ("earthquak", "quake", "tremor", "seism"),
+    "eruption": ("erupt", "volcan", "lava", "ash"),
+    "vehicle": ("vehicle", "car", "cars", "truck", "lorr"),
+    "rail": ("train", "rail", "coach", "carriage", "locomotiv", "station", "track", "derail", "express", "platform",
+             "wagon", "metro"),
+    "air": ("aircraft", "plane", "airplane", "aeroplane", "airliner", "flight", "jet", "airport", "runway",
+            "airline", "airway", "boeing", "airbus", "helicopter"),
+    "sea": ("ship", "vessel", "ferr", "boat", "harbo", "port", "dock", "sank", "sink", "capsiz", "shipwreck"),
+}
+
+
+def _stem(w: str) -> str:
+    for end in ("ations", "ation", "ings", "ing", "ers", "ed", "es", "s", "er"):
+        if w.endswith(end) and len(w) - len(end) >= 4:
+            return w[:-len(end)]
+    return w
+
+
+def content(text: str) -> set[str]:
+    """The content words of a text, stemmed, a word of a family (FAMILIES) read as the family, without function
+    words, months, weekdays, countries or particles."""
+    low = norm(text).replace("_", " ")
+    out = {fam for fam, stems in FAMILIES.items() for st in stems if " " in st and st in low}
+    countries = _countries()
+    for w in re.findall(r"[^\W\d_]+", low):
+        if len(w) < 4 or w in FUNCTION or w in STOP or w in MONTHS or w in WEEKDAYS or w in countries:
+            continue
+        st = _stem(w)
+        fam = next((f for f, stems in FAMILIES.items() for p in stems if " " not in p and
+                    (w.startswith(p) if len(p) >= 4 else w in (p, p + "s"))), None)
+        out.add(fam or EXONYMS.get(st, st))
+    return out
+
+
 class Story:
     """A Short's photos as anchors: who or what each shows, and which stand under any beat about the event.
 
@@ -317,16 +424,20 @@ class Story:
         self.texts = [" ".join([p.get("file") or "", p.get("description") or ""] + list(p.get("categories") or []))
                       for p in photos]
         events = [i for i, k in enumerate(self.kinds) if k in ("event", "view")]
-        own = [i for i, k in enumerate(self.kinds) if k == "person"
-               and any(says(t, s) or says(s, t) for t in self.terms[i] for s in person_terms(self.subject)[-1:])]
-        # The pictures a beat about the story itself stands on: the event's own photos; for a story about a person
-        # without event photos (a tribute, an attack on an actor), that person's portraits.
-        if not own and (short_kind == "death" or not self.subject):
-            own = [i for i, k in enumerate(self.kinds) if k == "person"]  # a tribute's photos are all face-matched
+        self.short_kind, self.category = short_kind, category or ""
+        # The pictures a beat about the story itself stands on: the event's own photos; for a tribute, the person's
+        # face-matched portraits. Review round 2 (2026-10-23): a portrait is never the default of a news story (the
+        # Macron protest ban passed with his face under "half a million people gathered"); it stands only under a
+        # beat that names its person.
+        own = [i for i, k in enumerate(self.kinds) if k == "person"] \
+            if short_kind == "death" or not (short_kind or self.subject) else []
         self.defaults = set(events) or set(own)
-        self._shown = {norm(t) for i, k in enumerate(self.kinds) if k == "person" for t in self.terms[i]}
         self.people = list(people or [])
-        self._base_unshown = [p for p in self.people if not any(norm(t) in self._shown for t in person_terms(p))]
+        self.fulls = [list(self.terms[i]) if k == "person" else [] for i, k in enumerate(self.kinds)]
+        self._base_rivals = {norm(n) for n in [t for f in self.fulls for t in f] + self.people
+                             if len(n.split()) > 1}
+        self.rivals = set(self._base_rivals)
+        self._base_unshown = [p for p in self.people if not self.is_shown(p)]
         self.unshown = list(self._base_unshown)
         self.days = [_photo_day(p) if k == "event" else None for p, k in zip(photos, self.kinds)]
         self.where = [self._where(i) if k == "event" else set() for i, k in enumerate(self.kinds)]
@@ -337,6 +448,9 @@ class Story:
         self._base_broad = _countries() | subject_words | people_words
         self.broad = set(self._base_broad)
         self.anchorable = [list(t) for t in self.terms]
+        self.words = [content(" ".join([self.texts[i]] + list(self.terms[i]))) for i in range(len(photos))]
+        self.own_places = [{place_word(w) for w in re.findall(r"[^\W\d_]+", norm(self.texts[i]).replace("_", " "))}
+                           for i in range(len(photos))]
         self.located = [set() for _ in photos]
         self._prepared = None
 
@@ -344,6 +458,18 @@ class Story:
         text = re.sub(r"^File:|\.\w+$", " ", self.photos[i].get("file") or "").replace("_", " ")
         text = " ".join([text, self.photos[i].get("description") or ""] + list(self.photos[i].get("categories") or []))
         return {place_word(w) for w in distinct(text) if norm(w) not in MONTHS and norm(w) not in WEEKDAYS}
+
+    def is_shown(self, name: str) -> bool:
+        """A person a photo shows: by their full name, or by a surname no other person of the story shares."""
+        return any(norm(name) == norm(f) or name_hit(name, f, self.rivals) for fs in self.fulls for f in fs)
+
+    def hits(self, text: str, i: int) -> list[re.Match]:
+        """Where text names photo i: a person by name_hit, a place by its anchorable names, a thing by its own."""
+        k = self.kinds[i]
+        if k == "person":
+            return [m for t in self.terms[i] if (m := name_hit(text, t, self.rivals))]
+        terms = self.anchorable[i] if k in ("place", "setting") else self.terms[i]
+        return [m for t in terms if (m := says(text, t))]
 
     # -- the script as a whole ----------------------------------------------------------------------------------
     def prepare(self, texts: list[str]) -> None:
@@ -355,7 +481,9 @@ class Story:
             return
         self._prepared = key
         titled = [n for t in texts for n in titled_names(t)]
-        extra = [n for n in titled if not any(norm(t) in self._shown for t in person_terms(n))
+        self.rivals = self._base_rivals | {norm(n) for n in titled if len(n.split()) > 1}
+        self._base_unshown = [p for p in self.people if not self.is_shown(p)]
+        extra = [n for n in titled if not self.is_shown(n)
                  and not (self.subject and (says(self.subject, n) or says(n, self.subject)))]
         self.unshown = list(dict.fromkeys(self._base_unshown + extra))
         beat_places = [places_in(t) for t in texts]
@@ -400,8 +528,7 @@ class Story:
         for i, k in enumerate(self.kinds):
             if k == "map":
                 continue
-            terms = self.anchorable[i] if k in ("place", "setting") else self.terms[i]
-            at = [m.start() for t in terms if (m := says(text, t))]
+            at = [m.start() for m in self.hits(text, i)]
             if at:
                 hits.append((min(at), i))
         return [i for _, i in sorted(hits)]
@@ -409,19 +536,18 @@ class Story:
     def faceless_names(self, text: str) -> list[str]:
         """People the text names who have no free photo of their own."""
         self._ready(text)
-        return [p for p in self.unshown if any(says(text, t) for t in person_terms(p))]
+        return [p for p in self.unshown if name_hit(text, p, self.rivals, strict=False)]
 
     def title_faceless(self, title: str) -> list[str]:
         """People the title names who have no free photo (titled or not): the Short would promise a face it never
         shows ("The Courage of Captain Machchhar")."""
         return list(dict.fromkeys(self.faceless_names(title) + [
-            n for n in titled_names(title) if not any(norm(t) in self._shown for t in person_terms(n))
+            n for n in titled_names(title) if not self.is_shown(n)
             and not (self.subject and (says(self.subject, n) or says(n, self.subject)))]))
 
     def word(self, text: str, i: int) -> str:
         """The word in text that names photo i (where compose cuts to it), "" for a photo shown by default."""
-        terms = self.anchorable[i] if self.kinds[i] in ("place", "setting") else self.terms[i]
-        found = [m for t in terms if (m := says(text, t))]
+        found = self.hits(text, i)
         if not found:
             return ""
         m = min(found, key=lambda m: m.start())
@@ -486,13 +612,40 @@ class Story:
         if i in named:
             if kind in ("place", "setting"):
                 return not any(self.kinds[j] in ("person", "thing") for j in named if j != i)
+            if kind == "thing":
+                return self.thing_placed(text, i)
             return True
         if i not in self.defaults:
             return False
         # A thing the event photo itself shows ("Police in riot gear face protesters") is no one else's.
         others = [j for j in named if self.kinds[j] in ("person", "thing") and j not in self.defaults
                   and not (self.kinds[j] == "thing" and any(says(self.texts[i], t) for t in self.terms[j]))]
-        return not others and self.event_fits(text, i)
+        return not others and self.event_fits(text, i) and self.about(text, i)
+
+    def about(self, text: str, i: int) -> bool:
+        """The beat says something photo i's own words say (content): an event photo of a march under a beat about
+        the march, not under "the government accused the far-left" (review round 2). A tribute's portrait stands
+        under any beat about the person."""
+        if self.kinds[i] == "person" or self.kinds[i] == "view":
+            return True
+        return bool(content(text) & self.words[i])
+
+    def thing_placed(self, text: str, i: int) -> bool:
+        """A stock photo of a thing under a beat naming a place shows that place too: a school in Cantal never stands
+        for a high school in French Guiana (review round 2). The beat's own places (a country only when it names no
+        town or region) must be in the photo's words."""
+        said = {p for p in places_in(text) if p not in CONTINENTS}
+        if not said:
+            return True
+        from . import media
+
+        countries = _countries()
+        country_of = {k: v[0] for k, v in media.DEMONYMS.items()}
+        local = {p for p in said if p not in countries}
+        if local:
+            return bool(local & self.own_places[i])
+        nations = {country_of.get(p, p) for p in said}
+        return bool((nations | said) & self.own_places[i])
 
     def map_fits(self, text: str, i: int) -> bool:
         """A map under a beat that names its place and names no person or thing (with a picture or without)."""
@@ -555,9 +708,13 @@ class Story:
                     maps_used.add(pick)
                     map_words += weights[k]
             if pick is None:
-                real = [i for i, kd in enumerate(self.kinds) if kd != "map"]
+                # Nothing shows this beat (the checks send it back): stand it on the least-used real photo, so it
+                # never spends the use of a photo another beat names.
+                real = [i for i, kd in enumerate(self.kinds) if kd != "map"] or [0]
                 pick = mine if mine is not None and 0 <= mine < len(self.photos) and self.kinds[mine] != "map" \
-                    else (prev if prev is not None and self.kinds[prev] != "map" else (real or [0])[0])
+                    and uses.get(mine, 0) == 0 and not any(self.fits(t, mine) for t in texts[k + 1:]) \
+                    else min(real, key=lambda i: (uses.get(i, 0) + sum(self.fits(t, i) for t in texts[k + 1:]),
+                                                  i == prev, i))
             uses[pick] = uses.get(pick, 0) + 1
             out.append((pick, self.word(text, pick)))
         return out
@@ -576,6 +733,11 @@ class Story:
             named = word[:1].isupper() and not is_plain(word) and w not in self.broad
             if (pictured or named) and w not in own and w.rstrip("s") not in own:
                 return False
+        # Review round 2: "High school blockades" over a stock village school, "6,800 arrests" over a parked police
+        # car, "Government accusations" over a smoking church. Over anything but the person's own portrait, every
+        # content word of a card is in the photo's own words.
+        if self.kinds[i] != "person" and content(caption or "") - self.words[i]:
+            return False
         return True
 
     def judge(self, texts: list[str], shots: list[int], weights: list[float] | None = None) -> dict:
@@ -611,14 +773,20 @@ class Story:
                                   for t in self.terms[i][:1]))
 
     def subject_shown(self, kind: str) -> bool:
-        """The story's own subject has a real picture: the person a tribute (or person story) is about, else the
-        event itself, or a person or thing named as the story."""
+        """The story's own subject has a real picture: the person a tribute is about; for any other story, a photo of
+        the event itself (review round 2: the Macron protest ban re-made over his portrait, a stock police car and a
+        stock school passed with no picture of the protests). A rail, air or sea incident may instead show the
+        vehicle it is named after (gate.SHOWS, which also counts those photos)."""
         if kind == "death":
             return any(k == "person" for k in self.kinds)
         if any(k in ("event", "view") for k in self.kinds):
             return True
-        return any(k in ("person", "thing") and any(says(self.subject, t) or says(t, self.subject)
-                                                    for t in self.terms[i]) for i, k in enumerate(self.kinds))
+        from . import gate
+
+        if self.category not in gate.SHOWS:
+            return False
+        return any(k in ("thing", "place") and gate.showing(self.category, [self.photos[i]])
+                   for i, k in enumerate(self.kinds))
 
 
 def text_at(text: str, m: re.Match) -> str:

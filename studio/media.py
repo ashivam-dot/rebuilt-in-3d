@@ -48,6 +48,15 @@ DERIVATIVE = re.compile(r"(\bphoto(graph)?s? (taken )?of (a|an|the|his|her) (pho
                         r"screengrab|\b(book|album|dvd|magazine|film|record) cover|\bstill from\b|\blogo of\b|"
                         r"\b(company|party|official|corporate) logo\b)", re.I)
 
+# Made from another file (review round 2, 2026-10-23): "Deva Music Director Negative.jpg", "Created from the old image
+# after the death of the person photographed", was another user's CC BY-SA photo re-uploaded in black and white as
+# "own work" under CC0. Its licence and author are not the original's; the original, if free, is found on its own.
+DERIVED = re.compile(r"\b(created|derived|made|edited|cropped|extracted|adapted|modified|retouched|desaturated|"
+                     r"converted) from\b|\bfrom (the|an|a) (old|original|earlier|other|existing) (image|photo|"
+                     r"photograph|picture|file|version)\b|\b(black[- ]and[- ]white|b&w|greyscale|grayscale|negative|"
+                     r"edited|cropped|retouched|colou?rised|colou?rized) (version|copy|edit) of\b|\bnegative\b",
+                     re.I)
+
 
 @dataclass
 class Photo:
@@ -71,6 +80,7 @@ class Photo:
     # The file's content categories on Commons ("2026 Italian unrest (Milan)", "Protests in Turin"), maintenance
     # categories left out: where an event photo was taken, for anchor.py to set it under the beat that says so.
     categories: list = field(default_factory=list)
+    uploaded: str = ""  # when the file was uploaded to Commons: of two copies of one picture, the first is kept
 
     @property
     def credit(self) -> str:
@@ -86,7 +96,7 @@ def _text(value: str | None, limit: int = 200) -> str:
 def _info(files: list[str], deep: bool = False) -> dict[str, dict]:
     """Commons image info by file; deep adds the uploader, the upload time and the camera data (provenance)."""
     out = {}
-    prop = "url|size|mime|extmetadata|sha1" + ("|user|timestamp|commonmetadata" if deep else "")
+    prop = "url|size|mime|extmetadata|sha1|timestamp" + ("|user|commonmetadata" if deep else "")
     for i in range(0, len(files), 40):
         d = net.get_json(COMMONS, params={
             "action": "query", "titles": "|".join(files[i:i + 40]), "prop": "imageinfo", "iiurlwidth": 1600,
@@ -450,7 +460,15 @@ def event(names: list[str], when: date, category: str | None = None, limit: int 
 # cropped screenshots of someone else's photos. A photo of the event must show where it came from.
 PROVENANCE_CATS = re.compile(r"VRTS permission|PermissionTicket|OTRS|Flickr images reviewed|FlickreviewR|"
                              r"License review|LicenseReview|reviewed by|Kremlin\.ru|President of Ukraine|"
-                             r"president\.gov\.ua|DVIDS|Press Information Bureau|PIB", re.I)
+                             r"president\.gov\.ua|DVIDS|Press Information Bureau|\bPIB\b", re.I)
+# A review still to be done is no review (review round 2: "License review needed" and "Flickr review needed" passed).
+PENDING = re.compile(r"needed|needing|pending|unreviewed|not (yet )?reviewed|failed|problems?|unknown|missing|"
+                     r"possibl[ey]|deletion|copyvio|dubious|unfree", re.I)
+
+
+def reviewed(categories: str) -> bool:
+    """A file's categories show a permission, a passed licence review or an official import."""
+    return any(PROVENANCE_CATS.search(c) and not PENDING.search(c) for c in (categories or "").split("|"))
 SCREEN_WIDTHS = {"1024", "1280", "1360", "1366", "1440", "1536", "1600", "1680", "1920", "2048", "2560", "2880",
                  "3024", "3840", "1170", "1179", "1284", "1290", "1080", "750", "828"}
 ESTABLISHED = (30, 50)  # an uploader at least 30 days old with at least 50 edits
@@ -468,7 +486,7 @@ def provenance(ii: dict, users: dict[str, dict]) -> str | None:
     camera = bool(common.get("Make") or common.get("Model"))
     if not camera and (ii.get("mime") in ("image/png", "image/webp") or common.get("PixelXDimension") in SCREEN_WIDTHS):
         return "a screenshot (no camera data)"
-    if camera or PROVENANCE_CATS.search(_text(meta.get("Categories", {}).get("value"), 2000)):
+    if camera or reviewed(_text(meta.get("Categories", {}).get("value"), 2000)):
         return None
     user = users.get(ii.get("user") or "")
     if not user:
@@ -754,7 +772,7 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
         desc = _text(meta.get("ImageDescription", {}).get("value"))
         if not FREE.match(lic) or meta.get("NonFree", {}).get("value") or GRAPHIC.search(desc):
             continue
-        if DERIVATIVE.search(f"{f} {desc}") or MAP_TEXT.search(f"{f} {desc}"):
+        if DERIVATIVE.search(f"{f} {desc}") or MAP_TEXT.search(f"{f} {desc}") or DERIVED.search(f"{f} {desc}"):
             continue
         if min(ii["width"], ii["height"]) < (PORTRAIT_SIDE if origin in small else MIN_SIDE) or ii.get("sha1") in hashes:
             continue
@@ -777,7 +795,8 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
         photos.append(Photo(file=f, url=ii.get("thumburl") or ii["url"], page=ii["descriptionurl"], width=ii["width"],
                             height=ii["height"], author=author, license=lic, description=desc,
                             date=taken, origin=origin, role=role, kind=stamp.get("kind", ""),
-                            shows=list(stamp.get("shows") or []), categories=content_categories(meta)))
+                            shows=list(stamp.get("shows") or []), categories=content_categories(meta),
+                            uploaded=ii.get("timestamp") or ""))
         if len(photos) >= limit:
             break
     return photos

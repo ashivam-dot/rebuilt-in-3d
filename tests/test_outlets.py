@@ -237,9 +237,17 @@ def test_an_nw_story_about_a_person_is_told_over_their_own_portraits(monkeypatch
     monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
                         asked.update(title=title, person=person) or [{"file": f"File:T{i}.jpg"} for i in range(3)])
     monkeypatch.setattr(writer, "write", lambda kind, name, she, facts, *a, **kw: (_ for _ in ()).throw(Told(facts)))
+    # Review round 2: a portrait alone no longer carries a non-death story (the Macron ban re-made over his
+    # portrait): it is refused before writing until a photo of the event itself turns up.
+    with pytest.raises(ValueError, match="faceless: no free photo shows Tiger Shroff or the event itself"):
+        writer.build(cand)
+    assert asked == {"title": "Tiger Shroff", "person": True}
+    monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
+                        [{"file": f"File:T{i}.jpg", "kind": "event", "description": "Tiger Shroff at the event"}
+                         for i in range(3)])
     with pytest.raises(Told) as told:
         writer.build(cand)
-    assert asked == {"title": "Tiger Shroff", "person": True} and told.value.args[0][0] == "Person: Tiger Shroff."
+    assert told.value.args[0][0] == "Person: Tiger Shroff."
 
 
 def test_an_nw_story_is_told_only_from_two_owners_reporting(monkeypatch, tmp_path):

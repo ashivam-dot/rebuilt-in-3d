@@ -18,7 +18,9 @@ MAPS_SINCE = "2026-10-16T19:20:00+00:00"
 # hours after it, so these are retried on a clock, not on every run, and a skip or retry made under the old picture
 # rules (a row without PICTURES_RULES) starts afresh: the event-photo search is new.
 PICTURE_REASONS = ("faceless:", "usable photos", "show who or what the story is about",
-                   "pictures show what is said for only")
+                   "pictures show what is said for only",
+                   # the writer's own wording of the same refusal (writer.shown_problems, review round 2)
+                   "name(s) nothing its photo shows", "shows what it says; want", "who has no photo here")
 PICTURE_BACKOFF_H = (3, 12, 24, 48)
 PICTURES_RULES = "anchored-2026-10"
 

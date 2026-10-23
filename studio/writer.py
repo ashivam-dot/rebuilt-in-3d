@@ -570,6 +570,11 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
                         "happened, and show what each other beat says")
     if beats and all(0 <= b["photo"] < len(photos) for b in beats):
         problems += shown_problems(draft, story or anchor.Story(photos, name))
+    judged = story or anchor.Story(photos, name)
+    judged.prepare([b["say"] for b in beats])
+    if who := judged.title_faceless(draft.get("title", "")):
+        # The gate refuses a title naming someone with no photo here (review round 2): rewrite it, keep the story.
+        problems.append(f"the title names {', '.join(who)}, who has no photo here: title the event, not them")
     # The publish gate's wording rules (studio/gate.py), checked here so a slip is rewritten, not the story dropped.
     lines = [("the title", draft.get("title", "")), ("the hook", draft.get("hook", ""))] + [
         (f"beat {i + 1}", f"{b['say']} {b['caption']}") for i, b in enumerate(beats)]
@@ -644,8 +649,9 @@ def shown_problems(draft: dict, story: anchor.Story) -> list[str]:
         names = ", ".join(story.showable()) or "the event itself"
         problems.append(f"beat {', '.join(str(k + 1) for k in got['unanchored'])} name(s) nothing its photo shows "
                         f"(only {got['shown']:.0%} of the script shows what it says; want {anchor.SHOWN_SHARE:.0%}): "
-                        f"in each, name who or what a photo shows ({names}), or tell the event itself over an EVENT "
-                        "photo without naming someone who has no photo")
+                        f"in each, name who or what a photo shows ({names}), or say what an EVENT photo itself shows "
+                        "(the words of its description: the march, the smoke, the police line) without naming "
+                        "someone who has no photo")
     if got["bad_maps"] or got["maps"] > anchor.MAP_SHARE or got["map_photos"] > anchor.MAX_MAPS:
         problems.append("a MAP may stand only under one beat whose point is where it happened, naming that place "
                         "and nobody else, and never beat 1")
@@ -767,10 +773,69 @@ def pick_photos(title: str, ent: dict, folder: Path, person: bool, extra_qids: l
     files: Commons files an editor chose instead of searching; places: see media.find; context_qids: places and
     things the story links to, whose photos (with no featured face) fill in when the story has fewer than
     WANT_PHOTOS of its own: Commons first, then Openverse. A person needs at least one photo of their own face."""
-    kept = arrange(_own_photos(title, ent, folder, person, extra_qids, files, places))
+    kept = arrange(dedupe(_own_photos(title, ent, folder, person, extra_qids, files, places)))
     if len(kept) >= WANT_PHOTOS or files or not context_qids or (person and not kept):
         return kept
-    return arrange(kept + fill_photos(context_qids, folder, {r["file"] for r in kept}, WANT_PHOTOS - len(kept)))[:8]
+    return arrange(dedupe(kept + fill_photos(context_qids, folder, {r["file"] for r in kept},
+                                             WANT_PHOTOS - len(kept))))[:8]
+
+
+SAME_PICTURE = 10  # of 63 bits: a crop, a black-and-white copy or a re-encode of one picture
+
+
+def picture_hash(path: str):
+    """A 63-bit perceptual hash of a photo's greyscale thumbnail (DCT, as pHash), None if it cannot be read."""
+    import numpy as np
+
+    try:
+        img = cv2.imread(path) if path else None
+        if img is None or getattr(img, "size", 0) == 0:
+            return None
+        grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) if img.ndim == 3 else img
+        if float(grey.std()) < 1.0:
+            return None  # a blank frame tells no picture from another
+        small = cv2.resize(grey, (32, 32), interpolation=cv2.INTER_AREA).astype(np.float32)
+        d = cv2.dct(small)[:8, :8].flatten()[1:]
+    except Exception:  # an unreadable or odd file is counted as its own picture
+        return None
+    return d > np.median(d)
+
+
+def _taken_at(p: dict) -> str:
+    """The time a photo was taken, to the second, when its date field gives one."""
+    m = re.search(r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}", p.get("date") or "")
+    return m.group(0).replace("T", " ") if m else ""
+
+
+def same_picture(a: dict, b: dict, ha, hb) -> bool:
+    """Two files of one picture: the hashes agree (or one is the other's negative), or two authors give the same
+    second it was taken."""
+    if ha is not None and hb is not None:
+        d = int((ha != hb).sum())
+        if d <= SAME_PICTURE or d >= ha.size - SAME_PICTURE:
+            return True
+    t = _taken_at(a)
+    return bool(t) and t == _taken_at(b) and (a.get("author") or "") != (b.get("author") or "")
+
+
+def dedupe(photos: list[dict]) -> list[dict]:
+    """One file per picture (review round 2, 2026-10-23): a tribute's "three photos" were two, one a black-and-white
+    copy of another photographer's CC BY-SA photo re-released as CC0 under the copier's name. Of two copies the
+    earlier upload is kept, with its own author and licence, in the place of the first; a photo counts once."""
+    hashes = [picture_hash(p.get("path") or "") for p in photos]
+    kept: list[int] = []
+    for i, p in enumerate(photos):
+        dup = next((k for k, j in enumerate(kept) if same_picture(photos[j], p, hashes[j], hashes[i])), None)
+        if dup is None:
+            kept.append(i)
+            continue
+        j = kept[dup]
+        first, other = photos[j].get("uploaded") or "", p.get("uploaded") or ""
+        if other and (not first or other < first):
+            kept[dup] = i
+        print(f"same picture: kept {photos[kept[dup]].get('file')}, dropped "
+              f"{photos[i if kept[dup] == j else j].get('file')}", flush=True)
+    return [photos[i] for i in kept]
 
 
 def arrange(photos: list[dict], category: str | None = None) -> list[dict]:
@@ -1219,13 +1284,17 @@ def place_names(where: str | None) -> list[str]:
     return list(dict.fromkeys(parts[:1] + parts[-1:]))[:2]
 
 
-def faceless(photos: list[dict], subject: str, sid: str = "", kind: str = "incident") -> str | None:
+FACELESS = "gate: faceless: no free photo shows"
+
+
+def faceless(photos: list[dict], subject: str, sid: str = "", kind: str = "incident",
+             category: str | None = None) -> str | None:
     """Why a story cannot be told over these photos, before a word is written: none of them shows the event itself
     or who or what it is named after (a map, the town or a photo of somewhere nearby never stands in). The reason
     is retried: Commons often has the event's photos a few hours later."""
-    if anchor.Story(photos, subject, sid=sid, short_kind=kind).subject_shown(kind):
+    if anchor.Story(photos, subject, sid=sid, short_kind=kind, category=category or "").subject_shown(kind):
         return None
-    return (f"gate: faceless: no free photo shows {subject} or the event itself (only "
+    return (f"{FACELESS} {subject} or the event itself (only "
             f"{len(photos)} photos of places or things near it)")
 
 
@@ -1304,7 +1373,7 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     if not cand.get("photo_files") and len(photos) < WANT_PHOTOS:
         photos += nasa_photos(cat, [name], when, work / "photos", {p["file"] for p in photos},
                               WANT_PHOTOS - len(photos))
-    photos = arrange(photos, cat)[:8]
+    photos = arrange(dedupe(photos), cat)[:8]
     if cat in gate.SHOWS:
         # With enough photos of the train, plane or ship, a headquarters or a town photo would only be filler.
         shown = [p for p in photos if gate.showing(cat, [p])]
@@ -1318,7 +1387,7 @@ def build_incident(cand: dict, views: bool = False) -> Short:
     elif cat in gate.SHOWS and (n := gate.showing(cat, photos)) < gate.SHOWN_NEEDED:
         short_of = (f"gate: only {n} usable photos of {name} show the {VEHICLE_WORD[cat]}, its line or a "
                     f"station or port (want {gate.SHOWN_NEEDED})")
-    elif cand.get("photo_files") is None and (why := faceless(photos, name, sid)):
+    elif cand.get("photo_files") is None and (why := faceless(photos, name, sid, category=cat)):
         short_of = why
     site = site_of(article, ent) if short_of and views else None
     if short_of and not site:
@@ -1545,13 +1614,13 @@ def build_report(cand: dict) -> Short:
     if len(photos) < WANT_PHOTOS:
         photos += nasa_photos(cat, [name, where], when, work / "photos", {p["file"] for p in photos},
                               WANT_PHOTOS - len(photos))
-    photos = arrange(photos)[:8]
+    photos = arrange(dedupe(photos))[:8]
     if place and not media.too_wide(place):
         photos = with_maps(photos, wiki.coords(place), ", ".join(dict.fromkeys([where] + country[:1])),
                            work / "photos", cat)
     if len(photos) < MIN_PHOTOS:
         raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
-    if why := faceless(photos, name, sid):
+    if why := faceless(photos, name, sid, category=cat):
         raise ValueError(why)
     kind = "protest" if cat in ("protest", "movement") else "incident"
     toll = gate.reported_toll(reports)

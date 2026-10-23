@@ -71,8 +71,12 @@ RETRACTED = {
     # Owner, 2026-10-22: "do you think people are here to watch the map".
     "gCQ4ZWtobXA": "Macron protest ban told over two Paris maps (11 of 13 sampled moments) and one Eiffel Tower photo: "
                    "no Macron, no protest, no students",
-    # Picture audit of the 12 newest public Shorts, 2026-10-22 (audit/orbitwire/PICTURE-AUDIT.md): what is shown is
-    # not what is said.
+}
+
+# Proposed by the picture audit of the 12 newest public Shorts, 2026-10-22 (audit/orbitwire/PICTURE-AUDIT.md): what
+# is shown is not what is said. NOT retracted until the owner approves (review round 2: privatizing 8 live Shorts
+# is the owner's call, not the pipeline's): set STUDIO_RETRACT_AUDIT=1 once approved, then move them to RETRACTED.
+AUDIT_RETRACT = {
     "ox3fConJ7EA": "Kyiv missile attack told over two maps (15 of 17 sampled moments) and a church photo: no missile, "
                    "no shelter, no Trump or Putin",
     "dzq6GUxZyMc": "CFB Wainwright fire told over two maps and a satellite hotspot map (every sampled moment): "
@@ -92,10 +96,15 @@ RETRACTED = {
 }
 
 
+def retracting() -> dict[str, str]:
+    """The uploads retract() makes private: the owner's RETRACTED, plus the audit's proposals once approved."""
+    return RETRACTED | (AUDIT_RETRACT if os.environ.get("STUDIO_RETRACT_AUDIT") == "1" else {})
+
+
 def retract(api) -> list[str]:
     """Makes each RETRACTED upload on this channel private (clearing a scheduled publish), once: what it did."""
-    done = []
-    items = api.videos().list(part="status,snippet", id=",".join(RETRACTED)).execute().get("items", [])
+    done, ids = [], retracting()
+    items = api.videos().list(part="status,snippet", id=",".join(ids)).execute().get("items", [])
     for v in items:
         if v["snippet"]["channelId"] != CHANNEL_ID or (v["status"]["privacyStatus"] == "private"
                                                       and not v["status"].get("publishAt")):
@@ -103,7 +112,7 @@ def retract(api) -> list[str]:
         api.videos().update(part="status", body={"id": v["id"], "status": {
             "privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
             "embeddable": True, "publicStatsViewable": True}}).execute()
-        done.append(f"retracted {v['id']} ({RETRACTED[v['id']]})")
+        done.append(f"retracted {v['id']} ({ids[v['id']]})")
     return done
 
 

@@ -21,6 +21,20 @@ MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 log = logging.getLogger("studio")
 
 
+class Refused(ValueError):
+    """The gate refused a Short already built; written: a story Short, whose script the model wrote."""
+
+    def __init__(self, message: str, written: bool = False):
+        super().__init__(message)
+        self.written = written
+
+
+def writer_faceless() -> str:
+    from . import writer
+
+    return writer.FACELESS
+
+
 def prepare(target: str | dict):
     """Build and gate a Short from a USGS event id, a 'wiki:<title>' string, or a watcher candidate."""
     from . import quake, trends, writer
@@ -45,7 +59,7 @@ def prepare(target: str | dict):
     short.save(work / "short.json")
     problems = gate.check(short)
     if problems:
-        raise ValueError("gate: " + "; ".join(problems))
+        raise Refused("gate: " + "; ".join(problems), written=short.scene.get("template") == "story")
     return short
 
 
@@ -149,7 +163,10 @@ def run(dry: bool = False) -> dict:
             ready = found["candidates"]
         if dry and (passed := {s.strip() for s in os.environ.get("STUDIO_DRY_SKIP", "").split(",") if s.strip()}):
             # A dry run saves no state, so the next one would make the same story: it may be told to pass over it.
-            ready = [c for c in ready if c["id"] not in passed]
+            # A bare Wikidata id ("Q3424313") passes over its story too (review round 2: it was ignored).
+            ready = [c for c in ready if not any(c["id"] == p or c["id"].startswith(p + "-")
+                                                 or c["id"] in ("wk-" + p,) or c["id"].startswith("wk-" + p + "-")
+                                                 for p in passed)]
         if not ready:
             return health
         recent_loss = [r.get("loss", False) for r in ledger.published()]
@@ -164,7 +181,9 @@ def run(dry: bool = False) -> dict:
             try:
                 short = prepare(cand)
             except ValueError as exc:
-                written += "no draft passed" in str(exc)
+                # A script was written when the writer gave up on its drafts, or when the gate refused the written
+                # Short (review round 2: gate-stage faceless refusals gave their slot back, 12 scripts in one run).
+                written += "no draft passed" in str(exc) or getattr(exc, "written", False)
                 if ledger.waiting(str(exc)):
                     # A brand-new article waits for its facts to settle; waiting is not a failed try, and it does
                     # not take a slot from the stories that are ready now.
@@ -174,8 +193,8 @@ def run(dry: bool = False) -> dict:
                 # Thin articles, and stories still short of free photos, get another chance next run.
                 if any(m in str(exc) for m in RETRYABLE):
                     ledger.retry(cand["id"], str(exc)[:300])
-                    # Faceless is decided before any script is written: it does not take a candidate's slot.
-                    tried -= "faceless:" in str(exc) and "no draft passed" not in str(exc)
+                    # Faceless before any script is written (writer.faceless) does not take a candidate's slot.
+                    tried -= str(exc).startswith(writer_faceless()) and not getattr(exc, "written", False)
                 else:
                     ledger.skip(cand["id"], str(exc)[:300])
                 health["steps"].append(f"skip {cand['id']}: {exc}")

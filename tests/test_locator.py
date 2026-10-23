@@ -55,7 +55,8 @@ def test_a_short_is_never_maps_alone():
     assert any("only maps" in p for p in gate.check(_short([MAP, MAP])))
     # Owner, 2026-10-22: a town photo beside two maps is a map Short, not a story.
     assert any("only 0 show who or what" in p for p in gate.check(_short([PHOTO, MAP, MAP])))
-    real = [dict(PHOTO, role=None, file=f"File:{i}.jpg") for i in range(3)]
+    real = [dict(PHOTO, role=None, file=f"File:{i}.jpg", description="Police at Silver Rail Elementary School in Bend after the shooting")
+            for i in range(3)]
     # Owner, 2026-10-22 ("do you think people are here to watch the map"): one map at most, beside real photos.
     assert not any("map" in p or "only" in p for p in gate.check(_short(real + [MAP])))
     assert any("2 maps (at most 1)" in p for p in gate.check(_short(real + [MAP, MAP])))
