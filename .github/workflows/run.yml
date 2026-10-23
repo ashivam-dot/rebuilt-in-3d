@@ -49,7 +49,14 @@ jobs:
         with:
           enable-cache: true
       - name: System packages
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null
+        # An apt mirror has hung this step until the job's timeout: three tries of at most three minutes each.
+        run: |
+          for i in 1 2 3; do
+            sudo timeout 180 apt-get update -qq && sudo timeout 180 apt-get install -y -qq ffmpeg espeak-ng > /dev/null && exit 0
+            sudo dpkg --configure -a || true
+            sleep $((i * 10))
+          done
+          exit 1
       # The story writer's weights (7 GB) are fetched per run: with them the cache would pass GitHub's 10 GB limit.
       - uses: actions/cache@v5
         with:
