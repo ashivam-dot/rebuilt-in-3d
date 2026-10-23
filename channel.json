@@ -1,6 +1,6 @@
 {
- "day": "2026-10-22",
- "units": 1500,
+ "day": "2026-10-23",
+ "units": 306,
  "failed": {
   "about": {
    "count": 1,
@@ -56,6 +56,11 @@
    "count": 1,
    "reason": "RuntimeError: the marker tag was still there on read-back",
    "at": "2026-10-22T11:41:37+00:00"
+  },
+  "untag:IlQcJvBfNlQ": {
+   "count": 1,
+   "reason": "RuntimeError: the marker tag was still there on read-back",
+   "at": "2026-10-23T07:56:03+00:00"
   }
  },
  "filed": {
@@ -81,7 +86,8 @@
    "qwT1K_9MFwQ",
    "EtrzpnJmwZs",
    "mXR5B18rbtE",
-   "GTUwT6GQhV4"
+   "GTUwT6GQhV4",
+   "-5flM6V5zQs"
   ],
   "cjp": [
    "_ocBrZqoCZ8",
@@ -121,7 +127,11 @@
   "W2Zvww-jNK4": "2026-10-22T11:41:37+00:00",
   "0A-ThCJIZRk": "2026-10-22T11:41:37+00:00",
   "LW20980nqY8": "2026-10-22T11:41:37+00:00",
-  "MBv9NT04uvY": "2026-10-22T11:41:37+00:00"
+  "MBv9NT04uvY": "2026-10-22T11:41:37+00:00",
+  "9fNuIm-NdYU": "2026-10-23T07:56:03+00:00",
+  "bJf-bPYFKVo": "2026-10-23T07:56:03+00:00",
+  "uacY9FZTA9Y": "2026-10-23T07:56:03+00:00",
+  "6ud-uiG_nI8": "2026-10-23T07:56:03+00:00"
  },
  "about": {
   "hash": "02c127dc9d43fa77",
