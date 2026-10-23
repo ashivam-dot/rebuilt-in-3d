@@ -275,9 +275,10 @@
   "at": "2026-10-22T02:31:49+00:00"
  },
  "wk-Q1699148": {
-  "count": 6,
-  "reason": "gate: only 2 usable photos of John Anderson on Wikimedia Commons (want 3)",
-  "at": "2026-10-22T15:19:24+00:00"
+  "count": 1,
+  "reason": "gate: only 1 usable photos of John Anderson on Wikimedia Commons (want 3)",
+  "at": "2026-10-23T16:08:28+00:00",
+  "rules": "anchored-2026-10"
  },
  "nw-20261021-oregon-attack": {
   "count": 2,
@@ -300,9 +301,10 @@
   "at": "2026-10-23T08:50:54+00:00"
  },
  "nw-20261023-champi-cyclone": {
-  "count": 5,
+  "count": 1,
   "reason": "gate: only 0 usable photos of Taiwan (want 2)",
-  "at": "2026-10-23T14:20:33+00:00"
+  "at": "2026-10-23T16:08:24+00:00",
+  "rules": "anchored-2026-10"
  },
  "nw-20261023-paris-attack": {
   "count": 2,
@@ -310,13 +312,15 @@
   "at": "2026-10-23T12:23:49+00:00"
  },
  "nw-20261023-bank-attack": {
-  "count": 2,
-  "reason": "gate: only 0 usable photos of Bank (want 2)",
-  "at": "2026-10-23T14:20:37+00:00"
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Bank or the event itself (only 2 photos of places or things near it)",
+  "at": "2026-10-23T16:08:34+00:00",
+  "rules": "anchored-2026-10"
  },
  "nw-20261023-jordan-attack": {
-  "count": 2,
+  "count": 1,
   "reason": "gate: only 0 usable photos of Jordan (want 2)",
-  "at": "2026-10-23T14:20:35+00:00"
+  "at": "2026-10-23T16:08:28+00:00",
+  "rules": "anchored-2026-10"
  }
 }
