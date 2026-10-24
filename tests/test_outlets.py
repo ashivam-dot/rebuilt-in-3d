@@ -373,3 +373,11 @@ def test_the_description_names_the_outlets_behind_the_facts():
                   sources=["https://en.wikipedia.org/wiki/X", "https://www.bbc.com/news/1"],
                   scene={"template": "story", "outlets": ["BBC", "The Hindu"]})
     assert youtube.source_lines(short)[0] == "Sources: Wikipedia, BBC, The Hindu"
+
+
+def test_a_war_turn_is_a_story_not_only_its_strikes():
+    from studio import outlets
+    assert outlets.headline_kind("Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city") == "conflict"
+    assert outlets.headline_kind("White House says Melania Trump brokered truce for Ukraine city") == "conflict"
+    assert outlets.headline_kind("Ukraine and Russia eye new peace talks") == "conflict"
+    assert outlets.headline_kind("Doctors call off strike after pay deal") is None

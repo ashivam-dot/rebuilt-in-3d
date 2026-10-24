@@ -48,6 +48,9 @@ def prepare(target: str | dict):
     elif isinstance(target, str) and target.startswith("candidate:"):
         seen = ledger.load("candidates", {})
         found = [c for c in seen.get("candidates", []) + seen.get("trending", []) if c.get("id") == target[10:]]
+        if not found:  # a story only this branch's radar sees: look again now
+            radar = trends.radar()
+            found = [c for c in radar.get("candidates", []) + radar.get("emerging", []) if c.get("id") == target[10:]]
         if not found:
             raise ValueError(f"{target[10:]} is not in the watcher's last candidates")
         target = found[0]

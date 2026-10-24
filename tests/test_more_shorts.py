@@ -63,7 +63,7 @@ def test_twelve_a_day_forty_minutes_apart_and_wars_never_break():
     # Not incidents: a live blog, a video, a labour strike, a deal, a warning, a drill, a launch, an explainer.
     ("Trump attacked Democrats over the shutdown at a North Carolina rally", None),
     ("Chancellor comes under fire over capital gains plans", None),
-    ("Firefighters praised as ceasefire talks resume in Doha", None),
+    ("Firefighters praised as ceasefire talks resume in Doha", "conflict"),  # a war's turn (owner, 2026-10-24)
     ("🔴Ukraine live: Russia's 'targeted' strikes on energy leave 600,000 without power, Zelensky says", None),
     ("Watch: Block of flats destroyed in Russian strikes on Ukraine", None),
     ("Refinery workers strike over pay, oil output hit", None),

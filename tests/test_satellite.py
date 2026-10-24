@@ -74,6 +74,11 @@ def test_a_waiting_candidate_can_be_made_for_review(monkeypatch):
     with pytest.raises(ValueError, match="stop"):
         cli.prepare("candidate:nw-x-cyclone")
     assert built == ["nw-x-cyclone"]
+    from studio import trends
+    monkeypatch.setattr(trends, "radar", lambda: {"candidates": [], "emerging": [{"id": "nw-y-conflict", "kind": "incident"}]})
+    with pytest.raises(ValueError, match="stop"):
+        cli.prepare("candidate:nw-y-conflict")
+    assert built[-1] == "nw-y-conflict"
     with pytest.raises(ValueError, match="not in the watcher"):
         cli.prepare("candidate:nw-missing")
 

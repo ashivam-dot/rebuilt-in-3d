@@ -429,6 +429,10 @@ HEADLINE_KINDS = (
     (r"\b(bus|truck|car|jeep|van|vehicle)\b.*\b(accident|crash(es|ed)?|collisions?|collid\w*|plunges?|falls? into|"
      r"gorge)\b", "accident"),
     (r"\b(protests?|protesters|demonstrations?|demonstrators)\b", "protest"),
+    # A war's turns, not only its strikes (owner, 2026-10-24: "what about the russia and ukraine war"): BBC, AP, Al
+    # Jazeera and Reuters led with "Melania Trump brokers ceasefire in Oleshky" and no kind above names it.
+    (r"\b(cease-?fires?|truce|peace (talks?|deal|plan|summit|agreement)|prisoners? (swap|exchange)|"
+     r"humanitarian corridor)\b", "conflict"),
 )
 HEADLINE_SKIP = re.compile(
     r"\b(cricket|ipl|t20|odi|football|fifa|hockey|tennis|olympic\w*|match|tournament|league|cup|squad|championships?|"
