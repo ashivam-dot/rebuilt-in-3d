@@ -20,6 +20,7 @@ RETRYABLE = ("faceless:", "words (want", "does not confirm the death", "usable p
              # a feed's article that could not be read this run (a timeout, the run's fetches spent) may be next run
              "could be read")
 MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
+PRODUCTION_VERSION = "news-shorts-2026-10-24"
 log = logging.getLogger("studio")
 
 
@@ -56,6 +57,7 @@ def prepare(target: str | dict):
         short.scene.setdefault("region", target.get("region"))
         if target.get("kind") != "quake":
             short.scene.setdefault("article", target.get("title"))
+    short.scene.update(production_version=PRODUCTION_VERSION, producer_sha=os.environ.get("GITHUB_SHA"))
     work = WORK / short.id
     work.mkdir(parents=True, exist_ok=True)
     short.save(work / "short.json")
@@ -113,6 +115,8 @@ def publish(story_id: str, publish_at: str | None = None) -> dict:
         else ledger.now()
     ledger.record_publish({"id": short.id, "kind": short.kind, "title": short.title, "loss": short.loss,
                            "published_at": when, "event_time": short.event_time,
+                           "production_version": short.scene.get("production_version"),
+                           "producer_sha": short.scene.get("producer_sha"),
                            "category": short.scene.get("category"), "region": short.scene.get("region"),
                            "maps": sum(p.get("role") == "map" for p in short.scene.get("photos") or []),
                            "article": short.scene.get("article"),

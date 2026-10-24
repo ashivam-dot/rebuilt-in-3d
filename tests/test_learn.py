@@ -57,6 +57,7 @@ def test_refresh_snapshots_scores_and_throttles(monkeypatch, state):
     rows = [{"id": f"s{i}", "video_id": f"v{i}", "kind": "story", "category": "death", "region": "world",
              "published_at": (AT - timedelta(hours=30)).isoformat()} for i in range(5)]
     rows.append({"id": "later", "video_id": "vf", "published_at": (AT + timedelta(hours=2)).isoformat()})
+    rows[0].update(production_version="pilot-v1", producer_sha="a" * 40)
     ledger.save("published", rows)
     monkeypatch.setattr(youtube, "identity", lambda api: {})
     monkeypatch.setattr(youtube, "recent", lambda api, ch: [
@@ -67,6 +68,9 @@ def test_refresh_snapshots_scores_and_throttles(monkeypatch, state):
     perf = ledger.load("performance", {})
     assert set(perf["videos"]) == {f"v{i}" for i in range(5)}
     assert perf["videos"]["v0"]["snapshots"][0]["likes"] == 3
+    assert perf["videos"]["v0"]["production_version"] == "pilot-v1"
+    assert perf["videos"]["v0"]["producer_sha"] == "a" * 40
+    assert perf["videos"]["v1"].get("production_version") is None  # old uploads are never relabelled
     assert (state / "LEARNINGS.md").read_text().startswith("# What this channel's own numbers say")
     assert learn.refresh(at=AT + timedelta(hours=1), api=object()) is None
     assert learn.refresh(at=AT + learn.REFRESH, api=object()) is not None
