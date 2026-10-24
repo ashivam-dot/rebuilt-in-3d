@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T15:04:49+00:00",
+ "at": "2026-10-24T15:32:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,47 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T15:32:51.767956+00:00",
+   "headlines": [
+    "French police arrest 135 people, as tens of thousands protest across country",
+    "French cooking schools fuel fine-dining dreams of India’s young chefs"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24",
+    "google-news:French police arrest 135 people, as tens of thousands protest across country",
+    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:15:05+00:00"
+    }
+   ],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261023-jordan-attack",
@@ -152,7 +193,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T15:04:49.075020+00:00",
+   "news_at": "2026-10-24T15:32:51.767956+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -333,45 +374,6 @@
    "date": "2026-10-21"
   },
   {
-   "qid": "Q141535181",
-   "title": "2026 French fuel protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T15:04:49.075020+00:00",
-   "headlines": [
-    "French cooking schools fuel fine-dining dreams of India’s young chefs"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24",
-    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T02:15:05+00:00"
-    }
-   ],
-   "id": "wk-Q141535181-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "id": "nw-20261023-paris-attack",
    "qid": null,
    "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
@@ -379,7 +381,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T11:13:12+00:00",
+   "news_at": "2026-10-24T15:12:55+00:00",
    "owners": [
     "SCMP Group",
     "BBC",
@@ -435,7 +437,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T11:13:12+00:00"
+     "at": "2026-10-24T15:12:55+00:00"
     }
    ],
    "via": [
@@ -826,7 +828,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T15:04:49.075020+00:00",
+   "news_at": "2026-10-24T15:32:51.767956+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -840,6 +842,28 @@
    "date": "2026-10-24",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-24T15:32:51.767956+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141776873",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q6830740",
@@ -984,13 +1008,86 @@
  ],
  "candidates": [
   {
-   "qid": "Q139998119",
-   "title": "Flamingo Revolution",
+   "id": "nw-20261023-oregon-attack",
+   "qid": null,
+   "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T09:22:33+00:00",
+   "owners": [
+    "BBC",
+    "Paramount (CBS)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+    "Hero dad who stopped Oregon school shooter shares his story",
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T09:22:33+00:00"
+    },
+    {
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T23:48:25+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T15:04:49.075020+00:00",
+   "news_at": "2026-10-24T15:32:51.767956+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -998,19 +1095,19 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q139998119-2026w43",
+   "id": "wk-Q141776873",
    "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
+   "category": "conflict",
+   "date": "2026-10-16",
    "coords": null,
-   "has_coords": true
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 761,
+  "headlines": 758,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 23,
   "corroborated": 7
  },
  "emerging": [
@@ -1245,7 +1342,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T11:13:12+00:00",
+   "news_at": "2026-10-24T15:12:55+00:00",
    "owners": [
     "SCMP Group",
     "BBC",
@@ -1301,7 +1398,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T11:13:12+00:00"
+     "at": "2026-10-24T15:12:55+00:00"
     }
    ],
    "via": [
@@ -1607,5 +1704,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 761 headlines from 30 feeds (21 owners), 29 matched to articles, 7 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 758 headlines from 30 feeds (21 owners), 23 matched to articles, 7 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
 }
