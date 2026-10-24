@@ -20,6 +20,26 @@ def _photo(file, kind, shows=(), **kw):
             "description": kw.pop("description", ""), "kind": kind, "shows": list(shows), "origin": "event", **kw}
 
 
+def test_writer_uses_distinct_relevant_portraits_even_when_the_model_repeats_photo_zero():
+    photos = [_photo(f"File:Tom Skerritt {i}.jpg", "person", ["Tom Skerritt"]) for i in range(4)]
+    story = anchor.Story(photos, "Tom Skerritt", short_kind="death")
+    draft = {"beats": [{"say": f"Tom Skerritt appeared in this film, chapter {i} of his career.",
+                        "photo": 0, "caption": ""} for i in range(4)]}
+    result = writer.anchor_photos(draft, story)
+    assert len({b["photo"] for b in result["beats"]}) == 4
+    assert writer.shown_problems(result, story) == []
+
+
+def test_distinct_assignment_does_not_make_an_unpictured_person_relevant():
+    photos = [_photo(f"File:Tom Skerritt {i}.jpg", "person", ["Tom Skerritt"]) for i in range(4)]
+    story = anchor.Story(photos, "Tom Skerritt", ["Jane Doe"], short_kind="death")
+    draft = {"beats": [{"say": "Jane Doe described her work in the film.", "photo": 0, "caption": ""}
+                        for _ in range(4)]}
+    result = writer.anchor_photos(draft, story)
+    assert len({b["photo"] for b in result["beats"]}) == 4
+    assert writer.shown_problems(result, story)
+
+
 # Proposed for retraction by the picture audit (studio/youtube.py AUDIT_RETRACT, awaiting the owner), and the
 # Macron Short the owner retracted.
 REFUSED = ["ox3fConJ7EA", "dzq6GUxZyMc", "GTUwT6GQhV4", "mXR5B18rbtE", "a2qA0Fu19vc", "DwUtz4R4hzY", "XH8L7r7QUnk",

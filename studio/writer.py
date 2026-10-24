@@ -679,7 +679,42 @@ def anchor_photos(draft: dict, story: anchor.Story) -> dict:
     """Each beat's photo decided by code (anchor.Story.assign), not left to the model: the photo the beat names,
     else a photo of the event, else the map for a beat about where. The naming word is kept for compose's cut."""
     beats = draft.get("beats") or []
-    picked = story.assign([b.get("say", "") for b in beats], [b.get("photo") for b in beats])
+    texts = [b.get("say", "") for b in beats]
+    picked = story.assign(texts, [b.get("photo") for b in beats])
+    if beats and len(story.photos) >= len(beats):
+        # The general picker permits repeats; this writer requires each picture once. Match the entire
+        # script before validating it, so an early flexible beat cannot consume a later beat's only picture.
+        weights = [max(len(t.split()), 1) for t in texts]
+        maps = [i for i, kind in enumerate(story.kinds) if kind == "map"][:anchor.MAX_MAPS]
+        options = []
+        for k, text in enumerate(texts):
+            fits = [i for i, kind in enumerate(story.kinds) if story.fits(text, i, k == 0)
+                    and (kind != "map" or i in maps and weights[k] / sum(weights) <= anchor.MAP_SHARE)]
+            preferred = [picked[k][0], *story.named(text)]
+            options.append(sorted(fits, key=lambda i: (story.kinds[i] == "map",
+                                                       preferred.index(i) if i in preferred else len(preferred), i)))
+        owner: dict[int, int] = {}
+
+        def match(k: int, seen: set[int]) -> bool:
+            for i in options[k]:
+                if i in seen:
+                    continue
+                seen.add(i)
+                if i not in owner or match(owner[i], seen):
+                    owner[i] = k
+                    return True
+            return False
+
+        # Keep the opening and longer spoken beats anchored first when not every beat can be shown.
+        for k in sorted(range(len(beats)), key=lambda k: (k != 0, -weights[k], len(options[k]), k)):
+            match(k, set())
+        assigned = {k: i for i, k in owner.items()}
+        for k in range(len(beats)):
+            if k not in assigned:
+                unused = [i for i in range(len(story.photos)) if i not in assigned.values()]
+                assigned[k] = min(unused, key=lambda i: (story.kinds[i] == "map", i != picked[k][0], i))
+        # An unmatched beat is still unanchored: the unchanged relevance and map gates hold it or request repair.
+        picked = [(assigned[k], story.word(text, assigned[k])) for k, text in enumerate(texts)]
     for b, (i, word) in zip(beats, picked):
         b["photo"], b["anchor"] = i, word
         if b.get("caption") and not story.caption_fits(b["caption"], i):
