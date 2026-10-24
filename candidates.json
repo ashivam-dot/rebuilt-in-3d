@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T17:21:29+00:00",
+ "at": "2026-10-24T17:30:59+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,7 +29,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T17:21:29.595303+00:00",
+   "news_at": "2026-10-24T17:30:59.870678+00:00",
    "headlines": [
     "World News Live Updates: Jordan’s king orders firm response to Karak church attack",
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
@@ -68,79 +68,22 @@
    "has_coords": true
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 171729,
-   "views": 21729,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-24T17:11:05+00:00",
-   "headlines": [
-    "French protests: Clashes seen in some cities but protests mainly peaceful so far - live updates",
-    "Thousands march in Paris and other French cities as protests take place across Europe – Europe live"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:French protests: Clashes seen in some cities but protests mainly peaceful so far - live updates",
-    "google-news:Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
-     "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T17:04:34+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-24T16:52:27+00:00",
+   "news": 125000,
+   "news_at": "2026-10-24T16:23:45+00:00",
    "headlines": [
-    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
-    "Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi"
+    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility"
    ],
    "region": "india",
    "via": [
-    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
-    "google-news:Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi",
-    "outlet:NDTV"
+    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility"
    ],
-   "owners": [
-    "NDTV"
-   ],
-   "reports": [
-    {
-     "title": "Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi",
-     "url": "https://www.ndtv.com/world-news/yemen-houthis-say-targeted-3-saudi-airports-in-riyadh-dammam-najran-oil-facilities-in-last-24-hours-12231046#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T16:52:27+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
@@ -170,6 +113,33 @@
    "category": "disaster",
    "date": "2026-10-17",
    "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-23T21:33:59+00:00",
+   "headlines": [
+    "‘I Have to Go In’: Kaylub Giamanco Describes Killing Gunman in Oregon School Shooting"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:‘I Have to Go In’: Kaylub Giamanco Describes Killing Gunman in Oregon School Shooting"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
    "has_coords": true
   },
   {
@@ -398,7 +368,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T17:21:29.595303+00:00",
+   "news_at": "2026-10-24T17:30:59.870678+00:00",
    "headlines": [
     "French cooking schools fuel fine-dining dreams of India’s young chefs"
    ],
@@ -577,82 +547,6 @@
    "article": null
   },
   {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T17:06:15+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Disney (ABC News)",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "Small clashes erupt at Paris protests, as police remain on high alert"
-   ],
-   "places": [
-    "Marseille",
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
-     "url": "https://www.dw.com/en/situation-turns-tense-in-paris-and-marseille-as-government-estimates-410-000-to-have-taken-part-in-protests-across-france/live-79748223?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T06:34:00+00:00"
-    },
-    {
-     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T17:06:15+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)",
-    "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q983618",
    "title": "Dónal Lunny",
    "fame": 57553,
@@ -738,7 +632,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T17:21:29.595303+00:00",
+   "news_at": "2026-10-24T17:30:59.870678+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -760,7 +654,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T17:21:29.595303+00:00",
+   "news_at": "2026-10-24T17:30:59.870678+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -890,26 +784,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-23"
-  },
-  {
-   "qid": "Q7045350",
-   "title": "Noah Adams",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:noah adams"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7045350",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -941,8 +815,8 @@
   "headlines": 750,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
-  "corroborated": 5
+  "matched": 23,
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -1289,83 +1163,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T17:06:15+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Disney (ABC News)",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "Small clashes erupt at Paris protests, as police remain on high alert"
-   ],
-   "places": [
-    "Marseille",
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
-     "url": "https://www.dw.com/en/situation-turns-tense-in-paris-and-marseille-as-government-estimates-410-000-to-have-taken-part-in-protests-across-france/live-79748223?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T06:34:00+00:00"
-    },
-    {
-     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T17:06:15+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)",
-    "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 750 headlines from 30 feeds (21 owners), 19 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
+ "outlet_note": "outlets: 750 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
 }
