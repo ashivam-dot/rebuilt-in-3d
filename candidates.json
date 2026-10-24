@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T16:49:40+00:00",
+ "at": "2026-10-24T17:21:29+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,7 +29,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T16:49:40.244957+00:00",
+   "news_at": "2026-10-24T17:21:29.595303+00:00",
    "headlines": [
     "World News Live Updates: Jordan’s king orders firm response to Karak church attack",
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
@@ -74,7 +74,7 @@
    "views": 21729,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T16:33:27+00:00",
+   "news_at": "2026-10-24T17:11:05+00:00",
    "headlines": [
     "French protests: Clashes seen in some cities but protests mainly peaceful so far - live updates",
     "Thousands march in Paris and other French cities as protests take place across Europe – Europe live"
@@ -98,7 +98,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T16:31:37+00:00"
+     "at": "2026-10-24T17:04:34+00:00"
     }
    ],
    "id": "wk-Q141615137-2026w43",
@@ -107,6 +107,46 @@
    "date": "2026-10-24",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T16:52:27+00:00",
+   "headlines": [
+    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
+    "Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
+    "google-news:Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi",
+    "outlet:NDTV"
+   ],
+   "owners": [
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi",
+     "url": "https://www.ndtv.com/world-news/yemen-houthis-say-targeted-3-saudi-airports-in-riyadh-dammam-najran-oil-facilities-in-last-24-hours-12231046#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T16:52:27+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141760142",
@@ -358,7 +398,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T16:49:40.244957+00:00",
+   "news_at": "2026-10-24T17:21:29.595303+00:00",
    "headlines": [
     "French cooking schools fuel fine-dining dreams of India’s young chefs"
    ],
@@ -539,28 +579,29 @@
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "France protests: Louvre shuts down over fears of violence in Paris",
+   "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
    "name": "Paris",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:30:59+00:00",
+   "news_at": "2026-10-24T17:06:15+00:00",
    "owners": [
-    "SCMP Group",
-    "Independent Digital News",
-    "Disney (ABC News)"
+    "Deutsche Welle",
+    "Disney (ABC News)",
+    "SCMP Group"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Chinese students in Paris hunker down as city braces for more mass protests",
-    "France protests: Louvre shuts down over fears of violence in Paris",
-    "Paris shuts museums and police deploy in big numbers for new protests across France"
+    "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "Small clashes erupt at Paris protests, as police remain on high alert"
    ],
    "places": [
-    "Louvre"
+    "Marseille",
+    "Macron"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -573,40 +614,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "France protests: Louvre shuts down over fears of violence in Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
+     "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
+     "url": "https://www.dw.com/en/situation-turns-tense-in-paris-and-marseille-as-government-estimates-410-000-to-have-taken-part-in-protests-across-france/live-79748223?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T08:44:22+00:00"
+     "at": "2026-10-24T06:34:00+00:00"
     },
     {
-     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
+     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
      "owner": "SCMP Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T08:00:13+00:00"
+     "at": "2026-10-24T13:17:24+00:00"
     },
     {
-     "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
      "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:30:59+00:00"
+     "at": "2026-10-24T17:06:15+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
    "article": null
@@ -697,7 +738,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T16:49:40.244957+00:00",
+   "news_at": "2026-10-24T17:21:29.595303+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -719,7 +760,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T16:49:40.244957+00:00",
+   "news_at": "2026-10-24T17:21:29.595303+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -775,6 +816,42 @@
    "date": "2026-10-17"
   },
   {
+   "qid": "Q5218847",
+   "title": "Daniel Stewart (Australian footballer)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T03:29:23+00:00",
+   "headlines": [
+    "Former Port Adelaide AFL player Daniel Stewart dies at 37"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Port Adelaide AFL player Daniel Stewart dies at 37",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Former Port Adelaide AFL player Daniel Stewart dies at 37",
+     "url": "https://www.abc.net.au/news/2026-10-24/former-port-adelaide-afl-player-daniel-stewart-dies-at-37/107304782",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T03:29:23+00:00"
+    }
+   ],
+   "id": "wk-Q5218847",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
+  },
+  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
    "fame": 11001,
@@ -813,6 +890,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-23"
+  },
+  {
+   "qid": "Q7045350",
+   "title": "Noah Adams",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:noah adams"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7045350",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
   }
  ],
  "hazards": [
@@ -839,35 +936,12 @@
    "lon": "123.8"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-24T16:49:40.244957+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 753,
+  "headlines": 750,
   "feeds": 30,
   "owners": 21,
-  "matched": 18,
+  "matched": 19,
   "corroborated": 5
  },
  "emerging": [
@@ -1219,28 +1293,29 @@
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "France protests: Louvre shuts down over fears of violence in Paris",
+   "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
    "name": "Paris",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:30:59+00:00",
+   "news_at": "2026-10-24T17:06:15+00:00",
    "owners": [
-    "SCMP Group",
-    "Independent Digital News",
-    "Disney (ABC News)"
+    "Deutsche Welle",
+    "Disney (ABC News)",
+    "SCMP Group"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Chinese students in Paris hunker down as city braces for more mass protests",
-    "France protests: Louvre shuts down over fears of violence in Paris",
-    "Paris shuts museums and police deploy in big numbers for new protests across France"
+    "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "Small clashes erupt at Paris protests, as police remain on high alert"
    ],
    "places": [
-    "Louvre"
+    "Marseille",
+    "Macron"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1253,44 +1328,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "France protests: Louvre shuts down over fears of violence in Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
+     "title": "Situation turns tense in Paris and Marseille as government estimates 410,000 to have taken part in protests across France.",
+     "url": "https://www.dw.com/en/situation-turns-tense-in-paris-and-marseille-as-government-estimates-410-000-to-have-taken-part-in-protests-across-france/live-79748223?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T08:44:22+00:00"
+     "at": "2026-10-24T06:34:00+00:00"
     },
     {
-     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
+     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
      "owner": "SCMP Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T08:00:13+00:00"
+     "at": "2026-10-24T13:17:24+00:00"
     },
     {
-     "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
      "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:30:59+00:00"
+     "at": "2026-10-24T17:06:15+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 753 headlines from 30 feeds (21 owners), 18 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
+ "outlet_note": "outlets: 750 headlines from 30 feeds (21 owners), 19 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
 }
