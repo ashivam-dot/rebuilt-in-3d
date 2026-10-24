@@ -1,43 +1,23 @@
 {
- "at": "2026-10-24T01:47:59+00:00",
+ "at": "2026-10-24T02:34:18+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 371141,
-   "views": 371141,
+   "fame": 406636,
+   "views": 406636,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
    "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 336579,
-   "views": 336579,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1699148",
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
@@ -87,8 +67,8 @@
   {
    "qid": "Q141745391",
    "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 157589,
-   "views": 7589,
+   "fame": 150000,
+   "views": 0,
    "traffic": 0,
    "news": 150000,
    "news_at": "2026-10-23T23:14:00+00:00",
@@ -97,7 +77,6 @@
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22",
     "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
     "outlet:Guardian Media Group"
    ],
@@ -354,7 +333,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T23:49:51+00:00",
+   "news_at": "2026-10-24T02:19:26+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
@@ -363,7 +342,9 @@
     "SCMP Group",
     "Fox Corporation",
     "Al Jazeera Media Network",
-    "Bennett, Coleman & Co."
+    "Bennett, Coleman & Co.",
+    "Guardian Media Group",
+    "NDTV"
    ],
    "fame": 150000,
    "news": 150000,
@@ -378,7 +359,8 @@
    ],
    "places": [
     "CCTV",
-    "Christian"
+    "Christian",
+    "Captures"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -421,6 +403,16 @@
      "at": "2026-10-23T14:16:29+00:00"
     },
     {
+     "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
+     "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T01:57:47+00:00"
+    },
+    {
      "title": "Masked gunmen kill seven in attack on church funeral in Jordan",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_masked-gunmen-kill-seven-in-attack-on-church-jordan-231026?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -459,16 +451,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
@@ -479,7 +461,9 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Guardian Media Group",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -487,27 +471,29 @@
   {
    "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
-   "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+   "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
    "name": "Taiwan",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T00:54:31+00:00",
+   "news_at": "2026-10-24T02:22:32+00:00",
    "owners": [
     "Euronews",
     "SCMP Group",
     "Al Jazeera Media Network",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
     "Typhoon Champi hits Taiwan, killing one and injuring 350",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by"
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
    ],
    "places": [
     "Champi",
@@ -524,6 +510,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:22:32+00:00"
+    },
     {
      "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
      "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
@@ -569,7 +565,8 @@
     "outlet:Euronews",
     "outlet:SCMP Group",
     "outlet:Al Jazeera Media Network",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -661,110 +658,24 @@
    "article": null
   },
   {
-   "qid": "Q452431",
-   "title": "Ron Duguay",
-   "fame": 92485,
-   "views": 92485,
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 98885,
+   "views": 98885,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q452431",
+   "id": "wk-Q1699148",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "id": "nw-20261023-bank-attack",
-   "qid": null,
-   "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-   "name": "Bank",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T12:05:31+00:00",
-   "owners": [
-    "Fox Corporation",
-    "NBCUniversal",
-    "NPR"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
-    "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
-    "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-    "Israel orders full West Bank 'lockdown' after deadly shooting attack"
-   ],
-   "places": [
-    "IDF"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T09:40:32+00:00"
-    },
-    {
-     "title": "Israel orders full West Bank 'lockdown' after deadly shooting attack",
-     "url": "https://www.nbcnews.com/now/video/israel-orders-full-west-bank-lockdown-after-deadly-shooting-attack-272097861757",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T12:05:31+00:00"
-    },
-    {
-     "title": "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
-     "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T08:47:16+00:00"
-    },
-    {
-     "title": "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
-     "url": "https://www.foxnews.com/world/two-suspected-gunmen-dead-two-idf-soldiers-killed-west-bank-shooting",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T08:05:06+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Fox Corporation",
-    "outlet:NBCUniversal",
-    "outlet:NPR"
-   ],
-   "emerging": true,
-   "article": null
+   "date": "2026-10-21"
   },
   {
    "id": "nw-20261023-oregon-attack",
@@ -840,55 +751,97 @@
    "article": null
   },
   {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 25000,
-   "views": 0,
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 55287,
+   "views": 55287,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T21:56:03+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja",
-    "outlet:The Hindu Group"
+    "wikipedia-top-2026-10-23"
    ],
-   "owners": [
-    "The Hindu Group"
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q6830740",
+   "title": "Michael Gray (actor)",
+   "fame": 41840,
+   "views": 41840,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
    ],
-   "reports": [
-    {
-     "title": "Kolkata stampede: Death in the time of Durga Puja",
-     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-23T21:56:03+00:00"
-    }
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6830740",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
+  },
+  {
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 32553,
+   "views": 32553,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
    ],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q983618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
+  },
+  {
+   "qid": "Q380265",
+   "title": "Ryū Murakami",
+   "fame": 27254,
+   "views": 27254,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q380265",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-17"
   },
   {
    "qid": "Q3424313",
    "title": "Deva (composer)",
-   "fame": 20344,
-   "views": 20344,
+   "fame": 11001,
+   "views": 11001,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
@@ -898,104 +851,24 @@
    "date": "2026-10-17"
   },
   {
-   "qid": "Q1889124",
-   "title": "Richard Riehle",
-   "fame": 10326,
-   "views": 10326,
+   "qid": "Q3012285",
+   "title": "Dale Brown (basketball)",
+   "fame": 8650,
+   "views": 8650,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1889124",
+   "id": "wk-Q3012285",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-15"
-  },
-  {
-   "qid": "Q19729623",
-   "title": "Napoleon Bonaparte (police officer)",
-   "fame": 9763,
-   "views": 9763,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q19729623",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-18"
-  },
-  {
-   "qid": "Q28151642",
-   "title": "Kwame Dzokoto",
-   "fame": 9061,
-   "views": 9061,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q28151642",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "qid": "Q51641814",
-   "title": "Ann Hornaday",
-   "fame": 8519,
-   "views": 8519,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q51641814",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-18"
-  },
-  {
-   "qid": "Q6261870",
-   "title": "John Vaughan (footballer, born 1964)",
-   "fame": 7892,
-   "views": 7892,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6261870",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
+   "date": "2026-10-23"
   }
  ],
  "hazards": [
@@ -1024,107 +897,97 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261023-taiwan-cyclone",
-   "qid": null,
-   "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
-   "name": "Taiwan",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T00:54:31+00:00",
-   "owners": [
-    "Euronews",
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Disney (ABC News)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 32553,
+   "views": 32553,
    "traffic": 0,
-   "headlines": [
-    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-    "Typhoon Champi hits Taiwan, killing one and injuring 350",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by"
-   ],
-   "places": [
-    "Champi",
-    "Deadly",
-    "Shanghai"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
-     "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T23:10:54+00:00"
-    },
-    {
-     "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T08:00:39+00:00"
-    },
-    {
-     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T07:30:03+00:00"
-    },
-    {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
-    }
-   ],
    "via": [
-    "outlet:Euronews",
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Disney (ABC News)"
+    "wikipedia-top-2026-10-23"
    ],
-   "emerging": true,
-   "article": null
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q983618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
+  },
+  {
+   "qid": "Q3012285",
+   "title": "Dale Brown (basketball)",
+   "fame": 8650,
+   "views": 8650,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3012285",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
+  },
+  {
+   "qid": "Q380265",
+   "title": "Ryū Murakami",
+   "fame": 27254,
+   "views": 27254,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q380265",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-17"
+  },
+  {
+   "qid": "Q6830740",
+   "title": "Michael Gray (actor)",
+   "fame": 41840,
+   "views": 41840,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6830740",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
   },
   {
    "qid": "Q3424313",
    "title": "Deva (composer)",
-   "fame": 20344,
-   "views": 20344,
+   "fame": 11001,
+   "views": 11001,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
@@ -1132,52 +995,14 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
-  },
-  {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-23T21:56:03+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Kolkata stampede: Death in the time of Durga Puja",
-     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-23T21:56:03+00:00"
-    }
-   ],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 784,
+  "headlines": 782,
   "feeds": 30,
   "owners": 21,
-  "matched": 46,
-  "corroborated": 7
+  "matched": 39,
+  "corroborated": 6
  },
  "emerging": [
   {
@@ -1303,7 +1128,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T23:49:51+00:00",
+   "news_at": "2026-10-24T02:19:26+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
@@ -1312,7 +1137,9 @@
     "SCMP Group",
     "Fox Corporation",
     "Al Jazeera Media Network",
-    "Bennett, Coleman & Co."
+    "Bennett, Coleman & Co.",
+    "Guardian Media Group",
+    "NDTV"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1327,7 +1154,8 @@
    ],
    "places": [
     "CCTV",
-    "Christian"
+    "Christian",
+    "Captures"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1370,6 +1198,16 @@
      "at": "2026-10-23T14:16:29+00:00"
     },
     {
+     "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
+     "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T01:57:47+00:00"
+    },
+    {
      "title": "Masked gunmen kill seven in attack on church funeral in Jordan",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_masked-gunmen-kill-seven-in-attack-on-church-jordan-231026?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -1408,16 +1246,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
@@ -1428,7 +1256,9 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Guardian Media Group",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -1436,27 +1266,29 @@
   {
    "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
-   "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+   "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
    "name": "Taiwan",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T00:54:31+00:00",
+   "news_at": "2026-10-24T02:22:32+00:00",
    "owners": [
     "Euronews",
     "SCMP Group",
     "Al Jazeera Media Network",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
     "Typhoon Champi hits Taiwan, killing one and injuring 350",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by"
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
    ],
    "places": [
     "Champi",
@@ -1473,6 +1305,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:22:32+00:00"
+    },
     {
      "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
      "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
@@ -1518,7 +1360,8 @@
     "outlet:Euronews",
     "outlet:SCMP Group",
     "outlet:Al Jazeera Media Network",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -1610,92 +1453,6 @@
    "article": null
   },
   {
-   "id": "nw-20261023-bank-attack",
-   "qid": null,
-   "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-   "name": "Bank",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T12:05:31+00:00",
-   "owners": [
-    "Fox Corporation",
-    "NBCUniversal",
-    "NPR"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
-    "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
-    "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-    "Israel orders full West Bank 'lockdown' after deadly shooting attack"
-   ],
-   "places": [
-    "IDF"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T09:40:32+00:00"
-    },
-    {
-     "title": "Israel orders full West Bank 'lockdown' after deadly shooting attack",
-     "url": "https://www.nbcnews.com/now/video/israel-orders-full-west-bank-lockdown-after-deadly-shooting-attack-272097861757",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T12:05:31+00:00"
-    },
-    {
-     "title": "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
-     "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T08:47:16+00:00"
-    },
-    {
-     "title": "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
-     "url": "https://www.foxnews.com/world/two-suspected-gunmen-dead-two-idf-soldiers-killed-west-bank-shooting",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T08:05:06+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Fox Corporation",
-    "outlet:NBCUniversal",
-    "outlet:NPR"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261023-oregon-attack",
    "qid": null,
    "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
@@ -1769,5 +1526,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 46 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
+ "outlet_note": "outlets: 782 headlines from 30 feeds (21 owners), 39 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
 }
