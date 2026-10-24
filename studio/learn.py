@@ -27,7 +27,8 @@ LIFT_RANGE = (0.75, 1.35)
 FEATURES = ("kind", "category")
 RETENTION_FIELD = "avg_view_pct"
 RETENTION_WEIGHT = 0.5
-KEEP_SNAPSHOTS = 16
+KEEP_SNAPSHOTS = 32
+OBSERVE_THROUGH_H = 54.0  # preserve real 48–54 h observations for the controlled opening pilot
 
 _cache: dict = {}
 
@@ -52,9 +53,9 @@ def views_at(snapshots: list[dict], hours: float) -> float | None:
 
 
 def _thin(snapshots: list[dict]) -> list[dict]:
-    """Every snapshot of the first two days (they set the score), then the newest few."""
-    early = [s for s in snapshots if s["age_h"] <= 2 * SCORE_AT_H]
-    late = [s for s in snapshots if s["age_h"] > 2 * SCORE_AT_H]
+    """Keep the measured first-day and 48–54 h pilot windows, then the newest few."""
+    early = [s for s in snapshots if s["age_h"] <= OBSERVE_THROUGH_H]
+    late = [s for s in snapshots if s["age_h"] > OBSERVE_THROUGH_H]
     return (early + late[-4:])[-KEEP_SNAPSHOTS:]
 
 

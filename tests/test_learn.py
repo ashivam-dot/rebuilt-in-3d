@@ -22,6 +22,16 @@ def test_views_at_interpolates_and_waits_for_age():
     assert learn.views_at([{"age_h": 96, "views": 400}], 24) == pytest.approx(200)
 
 
+def test_real_first_day_and_48h_observations_survive_later_refreshes():
+    rolling = []
+    for age in range(0, 301, 3):
+        rolling = learn._thin(rolling + [{"age_h": age, "views": age * 10}])
+    by_age = {s["age_h"]: s["views"] for s in rolling}
+    assert {24, 27, 30, 48, 51, 54} <= by_age.keys()
+    assert by_age[51] == 510 and by_age[300] == 3000
+    assert len(rolling) <= learn.KEEP_SNAPSHOTS
+
+
 def _video(i, views, category="death", kind="incident"):
     return {"id": f"s{i}", "published_at": AT.isoformat(), "category": category, "kind": kind,
             "views_24h": views, "snapshots": []}
