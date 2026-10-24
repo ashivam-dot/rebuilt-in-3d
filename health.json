@@ -1,13 +1,15 @@
 {
- "at": "2026-10-24T07:23:48+00:00",
+ "at": "2026-10-24T08:06:19+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
-  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 774 headlines from 30 feeds (21 owners), 27 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Trappes_and_La_Verrière_shootings",
-  "wait wp-2026_Trappes_and_La_Verrière_shootings: gate: the article is under 6 hours old; facts may still move (ready in 5.3 h)",
-  "skip wk-Q141760142: gate: faceless: no free photo shows 2026 Kolkata Durga Puja crowd crush or the event itself (only 8 photos of places or things near it)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
+  "watch: 4 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 777 headlines from 30 feeds (21 owners), 24 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-taiwan-cyclone",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261023-jordan-attack, wp-2026_Trappes_and_La_Verrière_shootings",
+  "skip nw-20261023-jordan-attack: gate: faceless: no free photo shows Jordan or the event itself (only 3 photos of places or things near it)",
+  "skip nw-20261024-paris-protest: gate: faceless: no free photo shows Paris or the event itself (only 6 photos of places or things near it)",
+  "wait wp-2026_Trappes_and_La_Verrière_shootings: gate: the article is under 6 hours old; facts may still move (ready in 4.6 h)",
+  "skip wk-Q1699148: gate: only 1 usable photos of John Anderson on Wikimedia Commons (want 3)",
   "nothing eligible to publish"
  ]
 }
