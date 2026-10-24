@@ -1,22 +1,19 @@
 {
- "at": "2026-10-24T00:50:23+00:00",
+ "at": "2026-10-24T01:47:59+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 496141,
+   "fame": 371141,
    "views": 371141,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-23T11:36:00+00:00",
-   "headlines": [
-    "Tom Skerritt, rugged supporting actor who made his mark in Alien, Top Gun and on TV in Picket Fences"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22",
-    "google-news:Tom Skerritt, rugged supporting actor who made his mark in Alien, Top Gun and on TV in Picket Fences"
+    "wikipedia-top-2026-10-22"
    ],
    "owners": [],
    "reports": [],
@@ -44,6 +41,48 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T00:00:00+00:00",
+   "headlines": [
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:33:00+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141745391",
@@ -84,6 +123,111 @@
    "coords": [
     44.03444444,
     -121.29527778
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141807978",
+   "title": "2026 Tibet earthquake",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T01:22:11+00:00",
+   "headlines": [
+    "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+    "Number of injured rises to 76 after deadly earthquake in Tibet",
+    "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+    "At least 16 people killed by powerful earthquake in Tibet",
+    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+    "google-news:Number of injured rises to 76 after deadly earthquake in Tibet",
+    "google-news:Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+    "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "ABC (Australia)",
+    "Disney (ABC News)",
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Number of injured rises to 76 after deadly earthquake in Tibet",
+     "url": "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T01:22:11+00:00"
+    },
+    {
+     "title": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+     "url": "https://abcnews.com/International/wireStory/rescuers-search-survivors-after-deadly-earthquake-chinas-tibet-137501379",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T08:48:37+00:00"
+    },
+    {
+     "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+     "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T07:53:58+00:00"
+    },
+    {
+     "title": "At least 16 people killed by powerful earthquake in Tibet",
+     "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T05:01:22+00:00"
+    },
+    {
+     "title": "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes",
+     "url": "https://www.euronews.com/2026/10/23/magnitude-7-earthquake-strikes-tibet-killing-at-least-16-people-and-destroying-hundreds-of",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T04:02:07+00:00"
+    },
+    {
+     "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
+     "url": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-22T19:57:44+00:00"
+    }
+   ],
+   "id": "wk-Q141807978",
+   "kind": "incident",
+   "category": "earthquake",
+   "date": "2026-10-22",
+   "coords": [
+    32.38,
+    93.78
    ],
    "has_coords": true
   },
@@ -341,151 +485,34 @@
    "article": null
   },
   {
-   "qid": "Q141807978",
-   "title": "2026 Tibet earthquake",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-23T21:51:00+00:00",
-   "headlines": [
-    "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
-    "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-    "At least 16 people killed by powerful earthquake in Tibet",
-    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Rescuers search for survivors after deadly earthquake in China’s Tibet region",
-    "google-news:Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-    "google-news:At least 16 people killed by powerful earthquake in Tibet",
-    "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Euronews"
-   ],
-   "owners": [
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "Euronews"
-   ],
-   "reports": [
-    {
-     "title": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
-     "url": "https://abcnews.com/International/wireStory/rescuers-search-survivors-after-deadly-earthquake-chinas-tibet-137501379",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T08:48:37+00:00"
-    },
-    {
-     "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-     "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T07:53:58+00:00"
-    },
-    {
-     "title": "At least 16 people killed by powerful earthquake in Tibet",
-     "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T05:01:22+00:00"
-    },
-    {
-     "title": "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes",
-     "url": "https://www.euronews.com/2026/10/23/magnitude-7-earthquake-strikes-tibet-killing-at-least-16-people-and-destroying-hundreds-of",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T04:02:07+00:00"
-    },
-    {
-     "title": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-     "url": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-22T19:57:44+00:00"
-    }
-   ],
-   "id": "wk-Q141807978",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-22",
-   "coords": [
-    32.38,
-    93.78
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141808612",
-   "title": "2026 Croix-des-Bouquets gang ambush",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-23T00:54:00+00:00",
-   "headlines": [
-    "El Salvador Sends Troops to Haiti to Rescue Military Personnel After Gang Ambush"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:El Salvador Sends Troops to Haiti to Rescue Military Personnel After Gang Ambush"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141808612",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-18",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261023-champi-cyclone",
+   "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
    "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
-   "name": "Champi",
+   "name": "Taiwan",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T23:10:54+00:00",
+   "news_at": "2026-10-24T00:54:31+00:00",
    "owners": [
-    "SCMP Group",
-    "Disney (ABC News)",
     "Euronews",
-    "Al Jazeera Media Network"
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Typhoon Champi disrupts more than 70 flights between Hong Kong and Taiwan",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-    "Typhoon Champi hits Taiwan, killing one and injuring 350"
+    "Typhoon Champi hits Taiwan, killing one and injuring 350",
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by"
    ],
    "places": [
-    "Taiwan",
-    "Hong",
-    "Kong"
+    "Champi",
+    "Deadly",
+    "Shanghai"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -528,16 +555,6 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Typhoon Champi disrupts more than 70 flights between Hong Kong and Taiwan",
-     "url": "https://www.scmp.com/news/hong-kong/transport/article/3371885/super-typhoon-champi-disrupts-more-70-flights-between-hong-kong-and-taiwan",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T06:39:58+00:00"
-    },
-    {
      "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
      "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
      "outlet": "ABC News",
@@ -545,14 +562,14 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T06:41:35+00:00"
+     "at": "2026-10-24T00:54:31+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)",
     "outlet:Euronews",
-    "outlet:Al Jazeera Media Network"
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -662,48 +679,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-22"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T00:00:00+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "id": "nw-20261023-bank-attack",
@@ -1049,6 +1024,96 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261023-taiwan-cyclone",
+   "qid": null,
+   "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+   "name": "Taiwan",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T00:54:31+00:00",
+   "owners": [
+    "Euronews",
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+    "Typhoon Champi hits Taiwan, killing one and injuring 350",
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by"
+   ],
+   "places": [
+    "Champi",
+    "Deadly",
+    "Shanghai"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+     "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:54+00:00"
+    },
+    {
+     "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T08:00:39+00:00"
+    },
+    {
+     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T07:30:03+00:00"
+    },
+    {
+     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T00:54:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
    "fame": 20344,
@@ -1108,7 +1173,7 @@
   }
  ],
  "outlets": {
-  "headlines": 785,
+  "headlines": 784,
   "feeds": 30,
   "owners": 21,
   "matched": 46,
@@ -1369,35 +1434,34 @@
    "article": null
   },
   {
-   "id": "nw-20261023-champi-cyclone",
+   "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
    "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
-   "name": "Champi",
+   "name": "Taiwan",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-23T23:10:54+00:00",
+   "news_at": "2026-10-24T00:54:31+00:00",
    "owners": [
-    "SCMP Group",
-    "Disney (ABC News)",
     "Euronews",
-    "Al Jazeera Media Network"
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Typhoon Champi disrupts more than 70 flights between Hong Kong and Taiwan",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-    "Typhoon Champi hits Taiwan, killing one and injuring 350"
+    "Typhoon Champi hits Taiwan, killing one and injuring 350",
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by"
    ],
    "places": [
-    "Taiwan",
-    "Hong",
-    "Kong"
+    "Champi",
+    "Deadly",
+    "Shanghai"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1440,16 +1504,6 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Typhoon Champi disrupts more than 70 flights between Hong Kong and Taiwan",
-     "url": "https://www.scmp.com/news/hong-kong/transport/article/3371885/super-typhoon-champi-disrupts-more-70-flights-between-hong-kong-and-taiwan",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T06:39:58+00:00"
-    },
-    {
      "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
      "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
      "outlet": "ABC News",
@@ -1457,14 +1511,14 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T06:41:35+00:00"
+     "at": "2026-10-24T00:54:31+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)",
     "outlet:Euronews",
-    "outlet:Al Jazeera Media Network"
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -1715,5 +1769,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 785 headlines from 30 feeds (21 owners), 46 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-champi-cyclone"
+ "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 46 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
 }
