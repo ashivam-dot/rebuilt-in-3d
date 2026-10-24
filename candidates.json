@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T21:32:56+00:00",
+ "at": "2026-10-24T22:19:28+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,45 +23,44 @@
    "date": "2026-10-21"
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 171729,
-   "views": 21729,
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 150000,
+   "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T21:20:49+00:00",
+   "news_at": "2026-10-24T21:08:51+00:00",
    "headlines": [
-    "French protests: Almost 1,000 arrested, Laurent Nuñez says, as clashes erupt - live updates",
-    "'The marches went well' – French government on demonstrations a week after looting and violence"
+    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:French protests: Almost 1,000 arrested, Laurent Nuñez says, as clashes erupt - live updates",
-    "google-news:'The marches went well' – French government on demonstrations a week after looting and violence",
-    "outlet:France Médias Monde"
+    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "outlet:Al Jazeera Media Network"
    ],
    "owners": [
-    "France Médias Monde"
+    "Al Jazeera Media Network"
    ],
    "reports": [
     {
-     "title": "'The marches went well' – French government on demonstrations a week after looting and violence",
-     "url": "https://www.france24.com/en/france/20261024-the-marches-went-well-%E2%80%93-french-government-on-demonstrations-a-week-after-looting-and-violence",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
+     "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+     "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T21:01:56+00:00"
+     "at": "2026-10-24T21:08:51+00:00"
     }
    ],
-   "id": "wk-Q141615137-2026w43",
+   "id": "wk-Q141695384",
    "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
+   "category": "conflict",
+   "date": "2026-10-10",
    "coords": null,
-   "has_coords": true
+   "has_coords": false
   },
   {
    "qid": "Q141820731",
@@ -70,7 +69,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T21:32:56.637152+00:00",
+   "news_at": "2026-10-24T22:19:28.982482+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -105,30 +104,6 @@
     35.79955
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-24T19:24:39+00:00",
-   "headlines": [
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141760142",
@@ -245,6 +220,94 @@
    "article": null
   },
   {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T15:44:04+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+    "Hundreds of soldiers sent to Milan as protesters march across Europe"
+   ],
+   "places": [
+    "Italian"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T15:05:58+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protesters march across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T15:44:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
    "fame": 98885,
@@ -271,7 +334,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T21:32:56.637152+00:00",
+   "news_at": "2026-10-24T22:19:28.982482+00:00",
    "headlines": [
     "French cooking schools fuel fine-dining dreams of India’s young chefs"
    ],
@@ -486,17 +549,17 @@
    "article": null
   },
   {
-   "id": "nw-20261024-taiwan-cyclone",
+   "id": "nw-20261024-champi-cyclone",
    "qid": null,
    "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
+   "name": "Champi",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-24",
    "news_at": "2026-10-24T05:26:00+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Guardian Media Group",
+    "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "fame": 75000,
@@ -504,12 +567,12 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
-    "Champi"
+    "Taiwan"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -542,95 +605,20 @@
      "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
+    "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T15:05:58+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Euronews",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests",
-    "Hundreds of Italian soldiers deployed as thousands protest in Milan"
-   ],
-   "places": [
-    "Italian"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
-     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T15:05:58+00:00"
-    },
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Euronews",
-    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -721,7 +709,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T21:32:56.637152+00:00",
+   "news_at": "2026-10-24T22:19:28.982482+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -743,7 +731,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T21:32:56.637152+00:00",
+   "news_at": "2026-10-24T22:19:28.982482+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -901,43 +889,6 @@
  ],
  "candidates": [
   {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 57553,
-   "views": 32553,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T08:44:44+00:00",
-   "headlines": [
-    "Dónal Lunny, ‘colossus of Irish music’, dies aged 79"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-     "url": "https://www.theguardian.com/music/2026/oct/24/donal-lunny-colossus-irish-music-dies-aged-79",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:44:44+00:00"
-    }
-   ],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
    "qid": "Q141760142",
    "title": "2026 Kolkata Durga Puja crowd crush",
    "fame": 125000,
@@ -963,10 +914,10 @@
   }
  ],
  "outlets": {
-  "headlines": 736,
+  "headlines": 740,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 34,
   "corroborated": 5
  },
  "emerging": [
@@ -1056,6 +1007,94 @@
     "outlet:Independent Digital News",
     "outlet:NDTV",
     "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T15:44:04+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+    "Hundreds of soldiers sent to Milan as protesters march across Europe"
+   ],
+   "places": [
+    "Italian"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T15:05:58+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protesters march across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T15:44:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -1243,17 +1282,17 @@
    "article": null
   },
   {
-   "id": "nw-20261024-taiwan-cyclone",
+   "id": "nw-20261024-champi-cyclone",
    "qid": null,
    "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
+   "name": "Champi",
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-24",
    "news_at": "2026-10-24T05:26:00+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Guardian Media Group",
+    "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "fame": 75000,
@@ -1261,12 +1300,12 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
-    "Champi"
+    "Taiwan"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1299,99 +1338,24 @@
      "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
+    "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T15:05:58+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Euronews",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests",
-    "Hundreds of Italian soldiers deployed as thousands protest in Milan"
-   ],
-   "places": [
-    "Italian"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
-     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T15:05:58+00:00"
-    },
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Euronews",
-    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 736 headlines from 30 feeds (21 owners), 27 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
+ "outlet_note": "outlets: 740 headlines from 30 feeds (21 owners), 34 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261023-jordan-attack"
 }

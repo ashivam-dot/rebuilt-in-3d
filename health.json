@@ -1,18 +1,11 @@
 {
- "at": "2026-10-24T21:32:55+00:00",
+ "at": "2026-10-24T22:19:26+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 28 units today",
-  "watch: 2 candidates (0 quakes, 22 trending), 2 hazard alerts",
-  "outlets: 736 headlines from 30 feeds (21 owners), 27 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack",
-  "hold wk-Q141760142: outside the india window",
-  "published wk-Q983618: https://www.youtube.com/shorts/X6alqTVbHEY"
- ],
- "published": {
-  "video_id": "X6alqTVbHEY",
-  "url": "https://www.youtube.com/shorts/X6alqTVbHEY",
-  "title": "Dónal Lunny, Irish Folk Pioneer, Dies at 79",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 44 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 6, 'typical_view_pct': 60.7}, 'kind:death': {'n': 12, 'lift': 1.166, 'typical_views_24h': 251, 'n_retention': 11, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 24, 'lift': 1.057, 'typical_views_24h': 181, 'n_retention': 22, 'typical_view_pct': 55.2}, 'category:death': {'n': 11, 'lift': ",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 80 units today",
+  "watch: 1 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 740 headlines from 30 feeds (21 owners), 34 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261023-jordan-attack",
+  "hold wk-Q141760142: last Short went out 0.2 h ago"
+ ]
 }
