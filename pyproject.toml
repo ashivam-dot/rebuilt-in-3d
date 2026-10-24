@@ -13,6 +13,8 @@ dependencies = [
     "soundfile>=0.13",
     "kokoro>=0.9.4",
     "misaki[en]>=0.9",
+    # 3.0.14 breaks spaCy tokenizer loading in the existing Kokoro path.
+    "preshed==3.0.13",
     "torch>=2.14",
     "transformers>=5.17",
     "google-auth>=2.40",
