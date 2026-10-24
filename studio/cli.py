@@ -38,11 +38,19 @@ def writer_faceless() -> str:
 
 
 def prepare(target: str | dict):
-    """Build and gate a Short from a USGS event id, a 'wiki:<title>' string, or a watcher candidate."""
+    """Build and gate a Short from a USGS event id, a 'wiki:<title>' string, a 'candidate:<id>' from the watcher's
+    last list (state/candidates.json, so an nw- story can be reviewed while it waits out a back-off), or a watcher
+    candidate."""
     from . import quake, trends, writer
 
     if isinstance(target, str) and target.startswith("wiki:"):
         target = trends.candidate(target[5:])
+    elif isinstance(target, str) and target.startswith("candidate:"):
+        seen = ledger.load("candidates", {})
+        found = [c for c in seen.get("candidates", []) + seen.get("trending", []) if c.get("id") == target[10:]]
+        if not found:
+            raise ValueError(f"{target[10:]} is not in the watcher's last candidates")
+        target = found[0]
     if isinstance(target, dict) and target["kind"] == "quake":
         target = target["event"]
     try:

@@ -63,3 +63,16 @@ def test_a_storm_named_by_its_place_is_found_by_the_name_its_headlines_give():
     assert media.storm_names(heads) == ["Typhoon Champi"]
     assert media.storm_names(["Typhoon Champi nears Taiwan"]) == []
     assert media.storm_names(["Taiwan shuts schools", "Quake hits Taiwan"]) == []
+
+
+def test_a_waiting_candidate_can_be_made_for_review(monkeypatch):
+    import pytest
+    from studio import cli, ledger, writer
+    ledger.save("candidates", {"candidates": [], "trending": [{"id": "nw-x-cyclone", "kind": "news"}]})
+    built = []
+    monkeypatch.setattr(writer, "build", lambda c: built.append(c["id"]) or (_ for _ in ()).throw(ValueError("stop")))
+    with pytest.raises(ValueError, match="stop"):
+        cli.prepare("candidate:nw-x-cyclone")
+    assert built == ["nw-x-cyclone"]
+    with pytest.raises(ValueError, match="not in the watcher"):
+        cli.prepare("candidate:nw-missing")
