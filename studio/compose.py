@@ -33,6 +33,9 @@ def disclosure(photos: list[dict]) -> str:
 ACCENT = {"tribute": (255, 205, 92), "news": (90, 200, 255)}
 CROSSFADE = 8  # frames
 CAPTION_Y = 0.665
+# Portrait crops can put the eyes in the top tenth of the frame. Keep secondary context
+# below the portrait and above karaoke captions; the opening hook retains its own position.
+CONTEXT_Y = 0.55
 MOTIONS = [
     {"z": (1.00, 1.09), "dz": (0.00, 0.07), "pan": (0, 0, 0, -20), "par": (0, 0)},  # push in
     {"z": (1.05, 1.07), "dz": (0.02, 0.03), "pan": (-45, 45, 0, 0), "par": (34, 0)},  # drift right
@@ -429,7 +432,7 @@ def render(short: Short, timing: dict, work: Path) -> dict:
             _blit(frame, hook, (W - hook[1].shape[1]) // 2, round(H * 0.085))
         elif chips[k] is not None:
             a = min(1.0, (t - shot["start"]) / 0.25)
-            _blit(frame, chips[k], 48, round(H * 0.095), a)
+            _blit(frame, chips[k], 48, round(H * CONTEXT_Y), a)
         if shot["outro"]:
             a = min(1.0, (t - shot["start"]) / 0.4)
             (logo, _), (wire, _), (src, _), (disc, _) = end
