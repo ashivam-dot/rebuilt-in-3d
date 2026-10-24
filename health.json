@@ -1,13 +1,18 @@
 {
- "at": "2026-10-24T21:15:04+00:00",
+ "at": "2026-10-24T21:32:55+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 27 units today",
-  "watch: 3 candidates (0 quakes, 22 trending), 2 hazard alerts",
-  "outlets: 740 headlines from 30 feeds (21 owners), 24 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261023-jordan-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 28 units today",
+  "watch: 2 candidates (0 quakes, 22 trending), 2 hazard alerts",
+  "outlets: 736 headlines from 30 feeds (21 owners), 27 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack",
   "hold wk-Q141760142: outside the india window",
-  "skip nw-20261024-champi-cyclone: gate: narration: 32 words (want 50-200); beats: only 2 pictures (want 4 or more, each shown once); photos: only 2 show who or what the story is about (want 3 or more)",
-  "skip wk-Q983618: gate: no draft passed the fact checks: these names or numbers are not in the sources: 0",
-  "nothing eligible to publish"
- ]
+  "published wk-Q983618: https://www.youtube.com/shorts/X6alqTVbHEY"
+ ],
+ "published": {
+  "video_id": "X6alqTVbHEY",
+  "url": "https://www.youtube.com/shorts/X6alqTVbHEY",
+  "title": "Dónal Lunny, Irish Folk Pioneer, Dies at 79",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
