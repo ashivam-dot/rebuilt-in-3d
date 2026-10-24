@@ -1,15 +1,13 @@
 {
- "at": "2026-10-24T02:34:17+00:00",
+ "at": "2026-10-24T03:10:09+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 582 units today",
-  "watch: 5 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 782 headlines from 30 feeds (21 owners), 39 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 583 units today",
+  "watch: 2 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 778 headlines from 30 feeds (21 owners), 37 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone",
   "hold wk-Q3424313: outside the india window",
-  "skip wk-Q983618: gate: no draft passed the fact checks: the script has 6 beats; it must have 4, one for each photo; photo(s) 0, 3 are on more than one beat: show each photo on one beat only, and write one beat for each photo",
-  "skip wk-Q3012285: gate: only 1 usable photos of Dale Brown on Wikimedia Commons (want 3)",
-  "skip wk-Q380265: gate: no photo on Wikimedia Commons shows Ryū Murakami's face (a tribute needs one)",
-  "skip wk-Q6830740: gate: only 1 usable photos of Michael Gray on Wikimedia Commons (want 3)",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261023-oregon-attack",
+  "skip nw-20261023-oregon-attack: gate: faceless: no free photo shows Oregon or the event itself (only 4 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T02:34:18+00:00",
+ "at": "2026-10-24T03:10:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -491,7 +491,7 @@
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-    "Typhoon Champi hits Taiwan, killing one and injuring 350",
+    "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
    ],
@@ -521,7 +521,7 @@
      "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+     "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
      "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -897,84 +897,77 @@
  ],
  "candidates": [
   {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 32553,
-   "views": 32553,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
+   "id": "nw-20261023-oregon-attack",
+   "qid": null,
+   "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T23:48:25+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Paramount (CBS)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q3012285",
-   "title": "Dale Brown (basketball)",
-   "fame": 8650,
-   "views": 8650,
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
+   "headlines": [
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+    "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+    "Hero dad who stopped Oregon school shooter shares his story"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3012285",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q380265",
-   "title": "Ryū Murakami",
-   "fame": 27254,
-   "views": 27254,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q380265",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-17"
-  },
-  {
-   "qid": "Q6830740",
-   "title": "Michael Gray (actor)",
-   "fame": 41840,
-   "views": 41840,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
    "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T21:25:48+00:00"
+    },
+    {
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T23:48:25+00:00"
+    }
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6830740",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q3424313",
@@ -998,10 +991,10 @@
   }
  ],
  "outlets": {
-  "headlines": 782,
+  "headlines": 778,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
+  "matched": 37,
   "corroborated": 6
  },
  "emerging": [
@@ -1286,7 +1279,7 @@
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-    "Typhoon Champi hits Taiwan, killing one and injuring 350",
+    "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
    ],
@@ -1316,7 +1309,7 @@
      "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+     "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
      "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -1526,5 +1519,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 782 headlines from 30 feeds (21 owners), 39 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
+ "outlet_note": "outlets: 778 headlines from 30 feeds (21 owners), 37 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
 }
