@@ -1,13 +1,12 @@
 {
- "at": "2026-10-24T06:06:02+00:00",
+ "at": "2026-10-24T06:41:36+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 589 units today",
-  "watch: 3 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 773 headlines from 30 feeds (21 owners), 32 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack",
-  "skip nw-20261023-taiwan-cyclone: gate: only 1 usable photos of Taiwan (want 2)",
-  "skip wk-Q3012285: gate: only 1 usable photos of Dale Brown on Wikimedia Commons (want 3)",
-  "skip wk-Q6830740: gate: only 1 usable photos of Michael Gray on Wikimedia Commons (want 3)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 590 units today",
+  "watch: 1 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 774 headlines from 30 feeds (21 owners), 27 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Trappes_and_La_Verrière_shootings",
+  "wait wp-2026_Trappes_and_La_Verrière_shootings: gate: the article is under 6 hours old; facts may still move (ready in 6.0 h)",
   "nothing eligible to publish"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T06:06:03+00:00",
+ "at": "2026-10-24T06:41:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -765,6 +765,28 @@
    "date": "2026-10-22"
   },
   {
+   "qid": null,
+   "title": "2026 Trappes and La Verrière shootings",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-24T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Trappes_and_La_Verrière_shootings",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q6830740",
    "title": "Michael Gray (actor)",
    "fame": 41840,
@@ -937,26 +959,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-23"
-  },
-  {
-   "qid": "Q5115327",
-   "title": "Chuck Amato",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:chuck amato"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5115327",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-19"
   }
  ],
  "hazards": [
@@ -985,163 +987,33 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
-   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T05:26:00+00:00",
-   "owners": [
-    "Euronews",
-    "Al Jazeera Media Network",
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "Deutsche Welle"
-   ],
-   "fame": 125000,
-   "news": 125000,
+   "title": "2026 Trappes and La Verrière shootings",
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "headlines": [
-    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens"
-   ],
-   "places": [
-    "Champi",
-    "Deadly"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T05:26:00+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T02:22:32+00:00"
-    },
-    {
-     "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
-     "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T23:10:54+00:00"
-    },
-    {
-     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T07:30:03+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
-    },
-    {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q3012285",
-   "title": "Dale Brown (basketball)",
-   "fame": 8650,
-   "views": 8650,
-   "traffic": 0,
    "news": 0,
-   "news_at": null,
+   "news_at": "2026-10-24T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-23"
+    "wikipedia-current-events-2026-10-23"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q3012285",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q6830740",
-   "title": "Michael Gray (actor)",
-   "fame": 41840,
-   "views": 41840,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6830740",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
+   "id": "wp-2026_Trappes_and_La_Verrière_shootings",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 773,
+  "headlines": 774,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 27,
   "corroborated": 6
  },
  "emerging": [
@@ -1674,5 +1546,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 773 headlines from 30 feeds (21 owners), 32 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 774 headlines from 30 feeds (21 owners), 27 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
 }
