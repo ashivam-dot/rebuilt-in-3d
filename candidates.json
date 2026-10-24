@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T03:10:10+00:00",
+ "at": "2026-10-24T03:51:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -61,47 +61,6 @@
    "coords": [
     31.289434,
     35.79955
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-23T23:14:00+00:00",
-   "headlines": [
-    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T23:10:42+00:00"
-    }
-   ],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
    ],
    "has_coords": true
   },
@@ -333,7 +292,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T02:19:26+00:00",
+   "news_at": "2026-10-24T02:24:45+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
@@ -467,6 +426,33 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-23T23:14:00+00:00",
+   "headlines": [
+    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261023-taiwan-cyclone",
@@ -658,26 +644,6 @@
    "article": null
   },
   {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 98885,
-   "views": 98885,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
    "id": "nw-20261023-oregon-attack",
    "qid": null,
    "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
@@ -689,15 +655,17 @@
    "owners": [
     "Independent Digital News",
     "BBC",
+    "Guardian Media Group",
     "Paramount (CBS)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
     "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
     "Hero dad who stopped Oregon school shooter shares his story"
    ],
    "places": [],
@@ -720,6 +688,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:42+00:00"
     },
     {
      "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
@@ -745,10 +723,31 @@
    "via": [
     "outlet:Independent Digital News",
     "outlet:BBC",
+    "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 98885,
+   "views": 98885,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "qid": "Q452431",
@@ -831,6 +830,80 @@
    "date": "2026-10-17"
   },
   {
+   "qid": "Q5218847",
+   "title": "Daniel Stewart (Australian footballer)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T03:29:23+00:00",
+   "headlines": [
+    "Former Port Adelaide AFL player Daniel Stewart dies at 37"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Port Adelaide AFL player Daniel Stewart dies at 37",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Former Port Adelaide AFL player Daniel Stewart dies at 37",
+     "url": "https://www.abc.net.au/news/2026-10-24/former-port-adelaide-afl-player-daniel-stewart-dies-at-37/107304782",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T03:29:23+00:00"
+    }
+   ],
+   "id": "wk-Q5218847",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T03:10:43+00:00",
+   "headlines": [
+    "Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Kolkata stampede: Death in the time of Durga Puja",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Kolkata stampede: Death in the time of Durga Puja",
+     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T03:10:43+00:00"
+    }
+   ],
+   "id": "wk-Q141760142",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
    "fame": 11001,
@@ -897,77 +970,40 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261023-oregon-attack",
-   "qid": null,
-   "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
-   "name": "Oregon",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T23:48:25+00:00",
-   "owners": [
-    "Independent Digital News",
-    "BBC",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
+   "qid": "Q5218847",
+   "title": "Daniel Stewart (Australian footballer)",
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T03:29:23+00:00",
    "headlines": [
-    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
-    "Father who killed Oregon school shooter describes anguish over children he couldn't save",
-    "Hero dad who stopped Oregon school shooter shares his story"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Former Port Adelaide AFL player Daniel Stewart dies at 37"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
+   "via": [
+    "google-news:Former Port Adelaide AFL player Daniel Stewart dies at 37",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
    "reports": [
     {
-     "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
-     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Former Port Adelaide AFL player Daniel Stewart dies at 37",
+     "url": "https://www.abc.net.au/news/2026-10-24/former-port-adelaide-afl-player-daniel-stewart-dies-at-37/107304782",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T22:47:07+00:00"
-    },
-    {
-     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
-     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T21:25:48+00:00"
-    },
-    {
-     "title": "Hero dad who stopped Oregon school shooter shares his story",
-     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T23:48:25+00:00"
+     "at": "2026-10-24T03:29:23+00:00"
     }
    ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
+   "id": "wk-Q5218847",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
   },
   {
    "qid": "Q3424313",
@@ -988,10 +1024,48 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T03:10:43+00:00",
+   "headlines": [
+    "Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Kolkata stampede: Death in the time of Durga Puja",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Kolkata stampede: Death in the time of Durga Puja",
+     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T03:10:43+00:00"
+    }
+   ],
+   "id": "wk-Q141760142",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 778,
+  "headlines": 776,
   "feeds": 30,
   "owners": 21,
   "matched": 37,
@@ -1121,7 +1195,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T02:19:26+00:00",
+   "news_at": "2026-10-24T02:24:45+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
@@ -1457,15 +1531,17 @@
    "owners": [
     "Independent Digital News",
     "BBC",
+    "Guardian Media Group",
     "Paramount (CBS)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
     "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
     "Hero dad who stopped Oregon school shooter shares his story"
    ],
    "places": [],
@@ -1488,6 +1564,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:42+00:00"
     },
     {
      "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
@@ -1513,11 +1599,12 @@
    "via": [
     "outlet:Independent Digital News",
     "outlet:BBC",
+    "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 778 headlines from 30 feeds (21 owners), 37 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
+ "outlet_note": "outlets: 776 headlines from 30 feeds (21 owners), 37 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
 }
