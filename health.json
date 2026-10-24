@@ -1,13 +1,13 @@
 {
- "at": "2026-10-24T11:05:52+00:00",
+ "at": "2026-10-24T11:33:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 8 units today",
-  "watch: 2 candidates (0 quakes, 23 trending), 2 hazard alerts",
-  "outlets: 766 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
+  "watch: 2 candidates (0 quakes, 24 trending), 2 hazard alerts",
+  "outlets: 764 headlines from 30 feeds (21 owners), 26 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake",
   "ad-suitability x0.85 (attack, not breaking): wk-Q141820360",
-  "wait wk-Q141820360: gate: the article is under 6 hours old; facts may still move (ready in 1.6 h)",
-  "skip wk-Q5213357: gate: the article has no infobox to confirm the death",
+  "skip nw-20261024-paris-protest: gate: faceless: no free photo shows Paris or the event itself (only 6 photos of places or things near it)",
+  "wait wk-Q141820360: gate: the article is under 6 hours old; facts may still move (ready in 1.1 h)",
   "nothing eligible to publish"
  ]
 }

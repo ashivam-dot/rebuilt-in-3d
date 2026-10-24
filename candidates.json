@@ -1,19 +1,19 @@
 {
- "at": "2026-10-24T11:05:53+00:00",
+ "at": "2026-10-24T11:33:03+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 406636,
-   "views": 406636,
+   "fame": 371141,
+   "views": 371141,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-23"
+    "wikipedia-top-2026-10-22"
    ],
    "owners": [],
    "reports": [],
@@ -23,42 +23,24 @@
    "date": "2026-10-21"
   },
   {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 150000,
-   "views": 0,
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 336579,
+   "views": 336579,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-24T09:18:04+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja",
-    "outlet:The Hindu Group"
+    "wikipedia-top-2026-10-22"
    ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Kolkata stampede: Death in the time of Durga Puja",
-     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T09:18:04+00:00"
-    }
-   ],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "qid": "Q141807978",
@@ -67,33 +49,43 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T01:22:11+00:00",
+   "news_at": "2026-10-24T10:59:59+00:00",
    "headlines": [
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+    "Days after deadly quake, fresh 5.4 tremor jolts Tibet",
     "Number of injured rises to 76 after deadly earthquake in Tibet",
     "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-    "At least 16 people killed by powerful earthquake in Tibet",
-    "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes"
+    "At least 16 people killed by powerful earthquake in Tibet"
    ],
    "region": "world",
    "via": [
     "google-news:Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+    "google-news:Days after deadly quake, fresh 5.4 tremor jolts Tibet",
     "google-news:Number of injured rises to 76 after deadly earthquake in Tibet",
-    "google-news:Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+    "outlet:Bennett, Coleman & Co.",
     "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)",
     "outlet:Euronews"
    ],
    "owners": [
+    "Bennett, Coleman & Co.",
     "ABC (Australia)",
-    "Disney (ABC News)",
     "Guardian Media Group",
     "Paramount (CBS)",
     "Euronews"
    ],
    "reports": [
+    {
+     "title": "Days after deadly quake, fresh 5.4 tremor jolts Tibet",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/days-after-deadly-quake-fresh-5-4-tremor-jolts-tibet/articleshow/135168197.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T10:59:59+00:00"
+    },
     {
      "title": "Number of injured rises to 76 after deadly earthquake in Tibet",
      "url": "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
@@ -103,16 +95,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-24T01:22:11+00:00"
-    },
-    {
-     "title": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
-     "url": "https://abcnews.com/International/wireStory/rescuers-search-survivors-after-deadly-earthquake-chinas-tibet-137501379",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T08:48:37+00:00"
     },
     {
      "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
@@ -275,7 +257,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T11:05:53.575819+00:00",
+   "news_at": "2026-10-24T11:33:03.172483+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -312,30 +294,27 @@
    "has_coords": true
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
    "fame": 125000,
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-23T23:14:00+00:00",
+   "news_at": "2026-10-24T00:10:00+00:00",
    "headlines": [
-    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
+    "Kolkata stampede: Death in the time of Durga Puja"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
+    "google-news:Kolkata stampede: Death in the time of Durga Puja"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141745391",
+   "id": "wk-Q141760142",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -529,24 +508,24 @@
    "article": null
   },
   {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 98885,
-   "views": 98885,
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 92485,
+   "views": 92485,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-23"
+    "wikipedia-top-2026-10-22"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1699148",
+   "id": "wk-Q452431",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-21"
+   "date": "2026-10-22"
   },
   {
    "id": "nw-20261023-paris-attack",
@@ -631,7 +610,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T08:00:34+00:00",
+   "news_at": "2026-10-24T11:13:12+00:00",
    "owners": [
     "SCMP Group",
     "BBC",
@@ -687,7 +666,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T08:00:34+00:00"
+     "at": "2026-10-24T11:13:12+00:00"
     }
    ],
    "via": [
@@ -779,11 +758,11 @@
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:30:59+00:00",
+   "news_at": "2026-10-24T11:29:58+00:00",
    "owners": [
     "France Médias Monde",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Paramount (CBS)"
    ],
    "fame": 75000,
    "news": 75000,
@@ -791,8 +770,8 @@
    "traffic": 0,
    "headlines": [
     "French police deploy in large numbers, major Paris museums close ahead of new protests",
-    "Paris museums close, shops build barricades ahead of more protests",
-    "Paris shuts museums and police deploy in big numbers for new protests across France"
+    "Paris shuts museums and police deploy in big numbers for new protests across France",
+    "Paris museums close, shops build barricades ahead of more protests"
    ],
    "places": [],
    "attackers": [],
@@ -816,6 +795,16 @@
      "at": "2026-10-24T05:27:48+00:00"
     },
     {
+     "title": "Paris museums close, shops build barricades ahead of more protests",
+     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T11:29:58+00:00"
+    },
+    {
      "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
      "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
      "outlet": "ABC News",
@@ -824,22 +813,12 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-24T09:30:59+00:00"
-    },
-    {
-     "title": "Paris museums close, shops build barricades ahead of more protests",
-     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T07:33:31+00:00"
     }
    ],
    "via": [
     "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -852,7 +831,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:38:18+00:00",
+   "news_at": "2026-10-24T10:42:26+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "ABC (Australia)",
@@ -910,7 +889,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:38:18+00:00"
+     "at": "2026-10-24T10:42:26+00:00"
     }
    ],
    "via": [
@@ -920,63 +899,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 57553,
-   "views": 32553,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T08:44:44+00:00",
-   "headlines": [
-    "Dónal Lunny, ‘colossus of Irish music’, dies aged 79"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-     "url": "https://www.theguardian.com/music/2026/oct/24/donal-lunny-colossus-irish-music-dies-aged-79",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:44:44+00:00"
-    }
-   ],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q452431",
-   "title": "Ron Duguay",
-   "fame": 55287,
-   "views": 55287,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q452431",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
   },
   {
    "qid": "Q141820360",
@@ -1001,44 +923,40 @@
    "has_coords": true
   },
   {
-   "qid": "Q6830740",
-   "title": "Michael Gray (actor)",
-   "fame": 41840,
-   "views": 41840,
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 25000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-10-24T08:44:44+00:00",
+   "headlines": [
+    "Dónal Lunny, ‘colossus of Irish music’, dies aged 79"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-23"
+    "google-news:Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
+    "outlet:Guardian Media Group"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6830740",
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
+     "url": "https://www.theguardian.com/music/2026/oct/24/donal-lunny-colossus-irish-music-dies-aged-79",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T08:44:44+00:00"
+    }
+   ],
+   "id": "wk-Q983618",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-16"
-  },
-  {
-   "qid": "Q380265",
-   "title": "Ryū Murakami",
-   "fame": 27254,
-   "views": 27254,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q380265",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-17"
+   "date": "2026-10-23"
   },
   {
    "qid": "Q5218847",
@@ -1079,15 +997,15 @@
   {
    "qid": "Q3424313",
    "title": "Deva (composer)",
-   "fame": 11001,
-   "views": 11001,
+   "fame": 20344,
+   "views": 20344,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-23"
+    "wikipedia-top-2026-10-22"
    ],
    "owners": [],
    "reports": [],
@@ -1097,44 +1015,129 @@
    "date": "2026-10-17"
   },
   {
-   "qid": "Q3012285",
-   "title": "Dale Brown (basketball)",
-   "fame": 8650,
-   "views": 8650,
+   "qid": "Q1889124",
+   "title": "Richard Riehle",
+   "fame": 10326,
+   "views": 10326,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-23"
+    "wikipedia-top-2026-10-22"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q3012285",
+   "id": "wk-Q1889124",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-23"
+   "date": "2026-10-15"
   },
   {
-   "qid": "Q5213357",
-   "title": "Dan Davis (broadcaster)",
-   "fame": 5000,
-   "views": 0,
-   "traffic": 5000,
+   "qid": "Q19729623",
+   "title": "Napoleon Bonaparte (police officer)",
+   "fame": 9763,
+   "views": 9763,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-US:espn radio broadcaster dan davis passes"
+    "wikipedia-top-2026-10-22"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q5213357",
+   "id": "wk-Q19729623",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-21"
+   "date": "2026-10-18"
+  },
+  {
+   "qid": "Q28151642",
+   "title": "Kwame Dzokoto",
+   "fame": 9061,
+   "views": 9061,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q28151642",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q51641814",
+   "title": "Ann Hornaday",
+   "fame": 8519,
+   "views": 8519,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q51641814",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-18"
+  },
+  {
+   "qid": "Q6261870",
+   "title": "John Vaughan (footballer, born 1964)",
+   "fame": 7892,
+   "views": 7892,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6261870",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 7589,
+   "views": 7589,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   }
  ],
  "hazards": [
@@ -1163,6 +1166,79 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261024-paris-protest",
+   "qid": null,
+   "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T11:29:58+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "French police deploy in large numbers, major Paris museums close ahead of new protests",
+    "Paris shuts museums and police deploy in big numbers for new protests across France",
+    "Paris museums close, shops build barricades ahead of more protests"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
+     "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T05:27:48+00:00"
+    },
+    {
+     "title": "Paris museums close, shops build barricades ahead of more protests",
+     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T11:29:58+00:00"
+    },
+    {
+     "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
+     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T09:30:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q141820360",
    "title": "2026 Trappes and La Verrière shootings",
    "fame": 50000,
@@ -1183,33 +1259,13 @@
    "date": "2026-10-23",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q5213357",
-   "title": "Dan Davis (broadcaster)",
-   "fame": 5000,
-   "views": 0,
-   "traffic": 5000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:espn radio broadcaster dan davis passes"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213357",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   }
  ],
  "outlets": {
-  "headlines": 766,
+  "headlines": 764,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 26,
   "corroborated": 9
  },
  "emerging": [
@@ -1599,7 +1655,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T08:00:34+00:00",
+   "news_at": "2026-10-24T11:13:12+00:00",
    "owners": [
     "SCMP Group",
     "BBC",
@@ -1655,7 +1711,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T08:00:34+00:00"
+     "at": "2026-10-24T11:13:12+00:00"
     }
    ],
    "via": [
@@ -1747,11 +1803,11 @@
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:30:59+00:00",
+   "news_at": "2026-10-24T11:29:58+00:00",
    "owners": [
     "France Médias Monde",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Paramount (CBS)"
    ],
    "fame": 75000,
    "news": 75000,
@@ -1759,8 +1815,8 @@
    "traffic": 0,
    "headlines": [
     "French police deploy in large numbers, major Paris museums close ahead of new protests",
-    "Paris museums close, shops build barricades ahead of more protests",
-    "Paris shuts museums and police deploy in big numbers for new protests across France"
+    "Paris shuts museums and police deploy in big numbers for new protests across France",
+    "Paris museums close, shops build barricades ahead of more protests"
    ],
    "places": [],
    "attackers": [],
@@ -1784,6 +1840,16 @@
      "at": "2026-10-24T05:27:48+00:00"
     },
     {
+     "title": "Paris museums close, shops build barricades ahead of more protests",
+     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T11:29:58+00:00"
+    },
+    {
      "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
      "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
      "outlet": "ABC News",
@@ -1792,22 +1858,12 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-24T09:30:59+00:00"
-    },
-    {
-     "title": "Paris museums close, shops build barricades ahead of more protests",
-     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T07:33:31+00:00"
     }
    ],
    "via": [
     "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -1820,7 +1876,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:38:18+00:00",
+   "news_at": "2026-10-24T10:42:26+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "ABC (Australia)",
@@ -1878,7 +1934,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:38:18+00:00"
+     "at": "2026-10-24T10:42:26+00:00"
     }
    ],
    "via": [
@@ -1890,5 +1946,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 766 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake"
+ "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 26 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake"
 }
