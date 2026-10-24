@@ -76,3 +76,13 @@ def test_a_waiting_candidate_can_be_made_for_review(monkeypatch):
     assert built == ["nw-x-cyclone"]
     with pytest.raises(ValueError, match="not in the watcher"):
         cli.prepare("candidate:nw-missing")
+
+
+def test_the_writer_sees_a_pass_as_what_it_shows_not_its_commons_note(monkeypatch, tmp_path):
+    from studio import writer
+    p = media.Photo("File:Champi 2026-10-20 0636Z.jpg", "u", "pg", 1600, 1200, "NASA", "Public domain",
+                    "Super Typhoon Champi over the Philippine Sea, southwest of Guam", "2026-10-20 06:36", "satellite")
+    monkeypatch.setattr(media, "satellite", lambda *a, **k: [p])
+    monkeypatch.setattr(media, "download", lambda found, folder: found)
+    rows = writer.satellite_photos("cyclone", ["Typhoon Champi", "Taiwan"], date(2026, 10, 23), tmp_path, set())
+    assert [r["description"] for r in rows] == ["Typhoon Champi from orbit (Satellite image, 20 Oct 2026)"]
