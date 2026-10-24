@@ -210,17 +210,17 @@ def test_the_writer_shows_each_photo_on_one_beat():
     assert "Exactly 8 beats" in writer._messages("brief", [], "", _two_photos() * 5, "Yemen")[1]["content"]
 
 
-def test_fill_photos_are_still_sought_for_a_third(monkeypatch, tmp_path):
+def test_fill_photos_are_sought_until_four_distinct_picture_beats(monkeypatch, tmp_path):
     asked = {}
     monkeypatch.setattr(writer, "_own_photos", lambda *a: [{"file": "File:a.jpg"}, {"file": "File:b.jpg"}])
 
     def fill(qids, folder, exclude, need):
         asked["need"] = need
-        return [{"file": "File:c.jpg"}]
+        return [{"file": "File:c.jpg"}, {"file": "File:d.jpg"}]
 
     monkeypatch.setattr(writer, "fill_photos", fill)
     got = writer.pick_photos("Hurricane Rachel", {}, tmp_path, person=False, context_qids=["Q1"])
-    assert asked["need"] == 1 and len(got) == 3
+    assert asked["need"] == 2 and len(got) == 4
 
 
 def _death(monkeypatch, photos):

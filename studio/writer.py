@@ -24,8 +24,10 @@ from . import anchor, faces, gate, ledger, llm, media, outlets, stories, terrain
 from .spec import Beat, Fact, Short
 
 WORK = Path(__file__).resolve().parents[1] / "work"
-MIN_PHOTOS, TRIBUTE_PHOTOS = gate.MIN_PHOTOS, gate.TRIBUTE_PHOTOS
-WANT_PHOTOS = 3  # fill photos are looked for until a story has this many
+# Every publishable photo story already requires four distinct picture beats. Gather enough before drafting.
+MIN_PHOTOS = max(gate.MIN_PHOTOS, gate.MIN_BEATS)
+TRIBUTE_PHOTOS = max(gate.TRIBUTE_PHOTOS, gate.MIN_BEATS)
+WANT_PHOTOS = max(MIN_PHOTOS, gate.REAL_PHOTOS)
 PLACE_FACE = 0.06  # a face this share of a place photo's shorter side features a person
 # The end card is silent: the story's own last beat closes it, with what happens next or why it matters. Until
 # 2026-10-22 every Short ended on the same spoken "Follow Orbitwire for the stories the whole world is talking
@@ -132,6 +134,9 @@ RULES = """RULES (all mandatory):
 - Write numbers as digits (1994, 75). Use a year only when it helps the story.
 - Respectful, warm English. No slang, no hype ("shocking", "insane", "legendary", "breaking"), no "RIP", no emojis,
   no questions to the viewer, no request to like or follow.
+- Photo indices and routing labels are production instructions only: never say "Photo 0", "image 1", or describe
+  the numbered photo in the spoken narration. Photo descriptions locate visuals; only SOURCE and CONFIRMED FACTS
+  establish facts. Tell the verified story directly.
 - photo: the index of the PHOTO the beat shows, and the beat names what that photo shows. A PERSON photo goes on
   a beat that names that person; a THING or PLACE photo on a beat that names it; an EVENT photo on a beat about the
   event itself that names nobody else. The names a beat can say to show a photo: {shows}. A beat that names
@@ -584,7 +589,11 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
     beats = draft.get("beats", [])
     # Four short beats can satisfy the per-beat tolerance yet miss the final 50-word floor.
     # Return that failure through the existing rewrite loop, including its final draft.
-    problems += gate.narration_problems(" ".join(b["say"] for b in beats))
+    narration = " ".join(b["say"] for b in beats)
+    problems += gate.narration_problems(narration)
+    if label := re.search(r"\b(?:photo|image|picture)\s*#?\s*\d+\b", narration, re.I):
+        problems.append(f"the narration speaks the internal visual label {label.group()!r}; remove that routing "
+                        "label and tell the verified story directly. Do not read photo descriptions as sourced facts")
     words, n = sum(len(b["say"].split()) for b in beats), beat_count(photos)
     if not 11 * n <= words <= 19 * n:
         problems.append(f"the script has {words} words; it must have {13 * n} to {17 * n}")
@@ -1706,7 +1715,7 @@ def build_report(cand: dict) -> Short:
     if person:
         own = stories.plain_title(title)
         people = [own] + [p for p in people if p != own]
-        photos += stamp(pick_photos(title, person, work / "photos", person=True)[:3], "person", [own])
+        photos += stamp(pick_photos(title, person, work / "photos", person=True)[:WANT_PHOTOS], "person", [own])
         photos += people_photos(people[1:], work / "photos", {p["file"] for p in photos})
     else:
         photos += people_photos(people, work / "photos", {p["file"] for p in photos})
@@ -1720,10 +1729,10 @@ def build_report(cand: dict) -> Short:
     if place and not media.too_wide(place):
         photos = with_maps(photos, wiki.coords(place), ", ".join(dict.fromkeys([where] + country[:1])),
                            work / "photos", cat)
-    if len(photos) < MIN_PHOTOS:
-        raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
     if why := faceless(photos, name, sid, category=cat):
         raise ValueError(why)
+    if len(photos) < MIN_PHOTOS:
+        raise ValueError(f"gate: only {len(photos)} usable photos of {where} (want {MIN_PHOTOS})")
     kind = "protest" if cat in ("protest", "movement") else "incident"
     toll = gate.reported_toll(reports)
     words = [name] + sorted(outlets.headline_keys(cand["title"])[0])

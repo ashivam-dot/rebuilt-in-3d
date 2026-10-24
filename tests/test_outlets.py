@@ -235,7 +235,7 @@ def test_an_nw_story_about_a_person_is_told_over_their_own_portraits(monkeypatch
     monkeypatch.setattr(writer, "story_person", lambda name, reports=None: ("Tiger Shroff", PERSON))
     asked = {}
     monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
-                        asked.update(title=title, person=person) or [{"file": f"File:T{i}.jpg"} for i in range(3)])
+                        asked.update(title=title, person=person) or [{"file": f"File:T{i}.jpg"} for i in range(4)])
     monkeypatch.setattr(writer, "write", lambda kind, name, she, facts, *a, **kw: (_ for _ in ()).throw(Told(facts)))
     # Review round 2: a portrait alone no longer carries a non-death story (the Macron ban re-made over his
     # portrait): it is refused before writing until a photo of the event itself turns up.
@@ -244,7 +244,7 @@ def test_an_nw_story_about_a_person_is_told_over_their_own_portraits(monkeypatch
     assert asked == {"title": "Tiger Shroff", "person": True}
     monkeypatch.setattr(writer, "pick_photos", lambda title, ent, folder, person, **kw:
                         [{"file": f"File:T{i}.jpg", "kind": "event", "description": "Tiger Shroff at the event"}
-                         for i in range(3)])
+                         for i in range(4)])
     with pytest.raises(Told) as told:
         writer.build(cand)
     assert told.value.args[0][0] == "Person: Tiger Shroff."
@@ -259,7 +259,7 @@ def test_an_nw_story_is_told_only_from_two_owners_reporting(monkeypatch, tmp_pat
     monkeypatch.setattr(writer, "story_place", lambda name: ("Q1", {"labels": {}}))
     monkeypatch.setattr(writer.wiki, "claims", lambda ent, pid: [])
     photos = [{"file": f"File:{i}.jpg", "description": "Chamoli", "credit": "Photo: A / CC BY 2.0 / Openverse (Flickr)",
-               "page": f"https://flickr/{i}", "host": "Openverse (Flickr)", "license": "CC BY 2.0"} for i in range(3)]
+               "page": f"https://flickr/{i}", "host": "Openverse (Flickr)", "license": "CC BY 2.0"} for i in range(4)]
     monkeypatch.setattr(writer, "fill_photos", lambda qids, folder, exclude, need=3: photos)
     seen = {}
 
