@@ -1,13 +1,12 @@
 {
- "at": "2026-10-24T20:00:22+00:00",
+ "at": "2026-10-24T20:39:53+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 25 units today",
-  "watch: 2 candidates (0 quakes, 22 trending), 2 hazard alerts",
-  "outlets: 721 headlines from 29 feeds (20 owners), 22 matched to articles, 6 candidates with 2+ owners, 6 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack",
-  "trend radar errors: ['outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss']",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 26 units today",
+  "watch: 2 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 740 headlines from 30 feeds (21 owners), 26 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack",
   "hold wk-Q141760142: outside the india window",
-  "skip wk-Q983618: voice: beat 1 came out garbled (78% of words heard)",
+  "skip wk-Q983618: gate: narration: 48 words (want 50-200)",
   "nothing eligible to publish"
  ]
 }
