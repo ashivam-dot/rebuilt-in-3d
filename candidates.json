@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T04:38:36+00:00",
+ "at": "2026-10-24T05:11:20+00:00",
  "quakes": [],
  "trending": [
   {
@@ -462,7 +462,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T02:22:32+00:00",
+   "news_at": "2026-10-24T05:00:42+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
@@ -477,7 +477,8 @@
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens"
    ],
    "places": [
     "Champi",
@@ -522,6 +523,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T07:30:03+00:00"
+    },
+    {
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T05:00:42+00:00"
     },
     {
      "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
@@ -954,12 +965,113 @@
    "lon": "123.8"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261023-taiwan-cyclone",
+   "qid": null,
+   "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+   "name": "Taiwan",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T05:00:42+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+    "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens"
+   ],
+   "places": [
+    "Champi",
+    "Deadly"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:22:32+00:00"
+    },
+    {
+     "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
+     "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:54+00:00"
+    },
+    {
+     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T07:30:03+00:00"
+    },
+    {
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T05:00:42+00:00"
+    },
+    {
+     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T00:54:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 767,
+  "headlines": 771,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 32,
   "corroborated": 6
  },
  "emerging": [
@@ -1229,7 +1341,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T02:22:32+00:00",
+   "news_at": "2026-10-24T05:00:42+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
@@ -1244,7 +1356,8 @@
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens"
    ],
    "places": [
     "Champi",
@@ -1289,6 +1402,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T07:30:03+00:00"
+    },
+    {
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T05:00:42+00:00"
     },
     {
      "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
@@ -1483,5 +1606,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 767 headlines from 30 feeds (21 owners), 33 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
+ "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 32 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
 }

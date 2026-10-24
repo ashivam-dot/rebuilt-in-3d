@@ -1,9 +1,11 @@
 {
- "at": "2026-10-24T04:38:35+00:00",
+ "at": "2026-10-24T05:11:18+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 586 units today",
-  "watch: 0 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 767 headlines from 30 feeds (21 owners), 33 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
+  "learn: 44 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 6, 'typical_view_pct': 60.7}, 'kind:death': {'n': 12, 'lift': 1.171, 'typical_views_24h': 251, 'n_retention': 11, 'typical_view_pct': 52.8}, 'kind:incident': {'n': 24, 'lift': 1.053, 'typical_views_24h': 181, 'n_retention': 21, 'typical_view_pct': 54.1}, 'category:death': {'n': 11, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 587 units today",
+  "watch: 1 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 771 headlines from 30 feeds (21 owners), 32 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone",
+  "hold nw-20261023-taiwan-cyclone: outside the world window"
  ]
 }
