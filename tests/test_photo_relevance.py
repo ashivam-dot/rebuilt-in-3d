@@ -45,6 +45,22 @@ def test_a_new_article_without_a_wikidata_item_can_be_remade_by_hand(monkeypatch
         "wp-2026_Multan_train_derailment", "incident", "rail", None)
 
 
+def test_manual_candidate_matches_radar_when_new_wikidata_item_has_no_class(monkeypatch):
+    from datetime import datetime, timezone
+    from studio import trends
+
+    year = datetime.now(timezone.utc).year
+    title = f"{year} Karak church shooting"
+    monkeypatch.setattr(trends.wiki, "page_info", lambda titles: {t: {"title": t, "qid": "Q123"} for t in titles})
+    monkeypatch.setattr(trends.wiki, "classify", lambda ids: {q: set() for q in ids})
+    monkeypatch.setattr(trends.wiki, "entities", lambda ids: {q: {} for q in ids})
+    cand = trends.candidate(title)
+    assert (cand["id"], cand["kind"], cand["category"]) == ("wk-Q123", "incident", "attack")
+    import pytest
+    with pytest.raises(ValueError, match="neither an incident"):
+        trends.candidate(f"{year} sports season")
+
+
 def _info(files):
     return {f: {"mime": "image/jpeg", "width": 2000, "height": 1500, "sha1": f, "descriptionurl": "https://c/" + f,
                 "url": "https://u/" + f, "extmetadata": {"LicenseShortName": {"value": "CC BY-SA 4.0"},

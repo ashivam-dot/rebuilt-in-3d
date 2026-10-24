@@ -291,6 +291,10 @@ def candidate(title: str) -> dict:
     if "human" in cats:
         return base | {"kind": "death", "category": "death"}
     cat = next((c for c in ORDER if c in cats), None)
+    # The scheduled radar already uses a current event title while Wikidata's instance-of data catches up.
+    # A manual private preview must resolve the same candidate, with the same stable QID and downstream gates.
+    if not cats:
+        cat = title_kind(page["title"], today)
     if not cat:
         raise ValueError(f"{title!r} is neither an incident nor a person ({sorted(cats)})")
     return base | {"id": story_id(page["qid"], cat, today), "kind": "incident", "category": cat}
