@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T10:06:01+00:00",
+ "at": "2026-10-24T10:33:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -163,8 +163,9 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T01:57:47+00:00",
+   "news_at": "2026-10-24T10:23:13+00:00",
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "SCMP Group",
@@ -177,11 +178,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
+    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
    ],
    "places": [
     "Christian"
@@ -217,14 +218,14 @@
      "at": "2026-10-23T14:16:29+00:00"
     },
     {
-     "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
+     "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
      "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T01:57:47+00:00"
+     "at": "2026-10-24T10:23:13+00:00"
     },
     {
      "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
@@ -255,9 +256,20 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -275,7 +287,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T10:06:01.075818+00:00",
+   "news_at": "2026-10-24T10:33:53.974909+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -513,92 +525,6 @@
    "article": null
   },
   {
-   "id": "nw-20261023-oregon-attack",
-   "qid": null,
-   "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-   "name": "Oregon",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T09:22:33+00:00",
-   "owners": [
-    "BBC",
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "Independent Digital News"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-    "Hero dad who stopped Oregon school shooter shares his story",
-    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T22:47:07+00:00"
-    },
-    {
-     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
-     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T09:22:33+00:00"
-    },
-    {
-     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T23:10:42+00:00"
-    },
-    {
-     "title": "Hero dad who stopped Oregon school shooter shares his story",
-     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T23:48:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261024-vanuatu-earthquake",
    "qid": null,
    "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
@@ -689,96 +615,6 @@
    "article": null
   },
   {
-   "id": "nw-20261024-hitler-disaster",
-   "qid": null,
-   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-   "name": "Hitler",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T09:38:18+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Al Jazeera Media Network",
-    "ABC (Australia)",
-    "Disney (ABC News)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
-   ],
-   "places": [
-    "Eagle",
-    "Nest’",
-    "Bavaria"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T09:16:03+00:00"
-    },
-    {
-     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T07:31:42+00:00"
-    },
-    {
-     "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-     "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T06:21:44+00:00"
-    },
-    {
-     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T09:38:18+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
    "fame": 98885,
@@ -808,8 +644,8 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T05:26:00+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Guardian Media Group",
+    "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "fame": 75000,
@@ -818,8 +654,8 @@
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
@@ -867,20 +703,93 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
+    "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-oregon-attack",
+   "qid": null,
+   "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T09:22:33+00:00",
+   "owners": [
+    "BBC",
+    "Paramount (CBS)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+    "Hero dad who stopped Oregon school shooter shares his story",
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T09:22:33+00:00"
+    },
+    {
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T23:48:25+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -953,6 +862,83 @@
    "via": [
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261024-hitler-disaster",
+   "qid": null,
+   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+   "name": "Hitler",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T09:38:18+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "ABC (Australia)",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
+   ],
+   "places": [
+    "Alpine",
+    "Eagle",
+    "Nest"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T09:16:03+00:00"
+    },
+    {
+     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T07:31:42+00:00"
+    },
+    {
+     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
+     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T09:38:18+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:ABC (Australia)",
     "outlet:Disney (ABC News)"
    ],
    "emerging": true,
@@ -1203,10 +1189,10 @@
   }
  ],
  "outlets": {
-  "headlines": 765,
+  "headlines": 764,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 27,
   "corroborated": 9
  },
  "emerging": [
@@ -1218,8 +1204,9 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T01:57:47+00:00",
+   "news_at": "2026-10-24T10:23:13+00:00",
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "SCMP Group",
@@ -1232,11 +1219,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
+    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
    ],
    "places": [
     "Christian"
@@ -1272,14 +1259,14 @@
      "at": "2026-10-23T14:16:29+00:00"
     },
     {
-     "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
+     "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
      "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T01:57:47+00:00"
+     "at": "2026-10-24T10:23:13+00:00"
     },
     {
      "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
@@ -1310,9 +1297,20 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -1498,92 +1496,6 @@
    "article": null
   },
   {
-   "id": "nw-20261023-oregon-attack",
-   "qid": null,
-   "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-   "name": "Oregon",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T09:22:33+00:00",
-   "owners": [
-    "BBC",
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "Independent Digital News"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-    "Hero dad who stopped Oregon school shooter shares his story",
-    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T22:47:07+00:00"
-    },
-    {
-     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
-     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T09:22:33+00:00"
-    },
-    {
-     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T23:10:42+00:00"
-    },
-    {
-     "title": "Hero dad who stopped Oregon school shooter shares his story",
-     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T23:48:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261024-vanuatu-earthquake",
    "qid": null,
    "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
@@ -1674,96 +1586,6 @@
    "article": null
   },
   {
-   "id": "nw-20261024-hitler-disaster",
-   "qid": null,
-   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-   "name": "Hitler",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T09:38:18+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Al Jazeera Media Network",
-    "ABC (Australia)",
-    "Disney (ABC News)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
-   ],
-   "places": [
-    "Eagle",
-    "Nest’",
-    "Bavaria"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T09:16:03+00:00"
-    },
-    {
-     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T07:31:42+00:00"
-    },
-    {
-     "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-     "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T06:21:44+00:00"
-    },
-    {
-     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T09:38:18+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
    "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
@@ -1773,8 +1595,8 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T05:26:00+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Guardian Media Group",
+    "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "fame": 75000,
@@ -1783,8 +1605,8 @@
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
@@ -1832,20 +1654,93 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
+    "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-oregon-attack",
+   "qid": null,
+   "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+   "name": "Oregon",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T09:22:33+00:00",
+   "owners": [
+    "BBC",
+    "Paramount (CBS)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+    "Hero dad who stopped Oregon school shooter shares his story",
+    "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+     "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T22:47:07+00:00"
+    },
+    {
+     "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
+     "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T09:22:33+00:00"
+    },
+    {
+     "title": "Hero dad who stopped Oregon school shooter shares his story",
+     "url": "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T23:48:25+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -1922,7 +1817,84 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261024-hitler-disaster",
+   "qid": null,
+   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+   "name": "Hitler",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T09:38:18+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "ABC (Australia)",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
+   ],
+   "places": [
+    "Alpine",
+    "Eagle",
+    "Nest"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T09:16:03+00:00"
+    },
+    {
+     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T07:31:42+00:00"
+    },
+    {
+     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
+     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T09:38:18+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 765 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 27 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack"
 }
