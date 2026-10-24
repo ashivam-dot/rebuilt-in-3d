@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T14:15:19+00:00",
+ "at": "2026-10-24T14:31:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,47 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T14:31:51.948202+00:00",
+   "headlines": [
+    "French police arrest 135 people, as tens of thousands protest across country",
+    "French cooking schools fuel fine-dining dreams of India’s young chefs"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24",
+    "google-news:French police arrest 135 people, as tens of thousands protest across country",
+    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:15:05+00:00"
+    }
+   ],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141807978",
@@ -125,14 +166,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T11:59:08+00:00",
+   "news_at": "2026-10-24T14:24:15+00:00",
    "owners": [
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
     "BBC",
-    "Guardian Media Group",
-    "NPR"
+    "NPR",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -179,14 +220,14 @@
      "at": "2026-10-23T19:46:30+00:00"
     },
     {
-     "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
+     "title": "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan",
      "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T10:23:13+00:00"
+     "at": "2026-10-24T14:24:15+00:00"
     },
     {
      "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
@@ -234,8 +275,8 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:BBC",
-    "outlet:Guardian Media Group",
-    "outlet:NPR"
+    "outlet:NPR",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -247,7 +288,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T14:15:19.280894+00:00",
+   "news_at": "2026-10-24T14:31:51.948202+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -876,6 +917,28 @@
    "has_coords": true
   },
   {
+   "qid": "Q139998119",
+   "title": "Flamingo Revolution",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-24T14:31:51.948202+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q139998119-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q6830740",
    "title": "Michael Gray (actor)",
    "fame": 41840,
@@ -1016,12 +1079,79 @@
    "lon": "123.8"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T14:31:51.948202+00:00",
+   "headlines": [
+    "French police arrest 135 people, as tens of thousands protest across country",
+    "French cooking schools fuel fine-dining dreams of India’s young chefs"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24",
+    "google-news:French police arrest 135 people, as tens of thousands protest across country",
+    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:15:05+00:00"
+    }
+   ],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q139998119",
+   "title": "Flamingo Revolution",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-24T14:31:51.948202+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q139998119-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": true
+  }
+ ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.3 h ago, 126 people)"
+ ],
  "outlets": {
   "headlines": 767,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 31,
   "corroborated": 8
  },
  "emerging": [
@@ -1033,14 +1163,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T11:59:08+00:00",
+   "news_at": "2026-10-24T14:24:15+00:00",
    "owners": [
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
     "BBC",
-    "Guardian Media Group",
-    "NPR"
+    "NPR",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1087,14 +1217,14 @@
      "at": "2026-10-23T19:46:30+00:00"
     },
     {
-     "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
+     "title": "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan",
      "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T10:23:13+00:00"
+     "at": "2026-10-24T14:24:15+00:00"
     },
     {
      "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
@@ -1142,8 +1272,8 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:BBC",
-    "outlet:Guardian Media Group",
-    "outlet:NPR"
+    "outlet:NPR",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -1618,5 +1748,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 767 headlines from 30 feeds (21 owners), 29 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 767 headlines from 30 feeds (21 owners), 31 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
 }

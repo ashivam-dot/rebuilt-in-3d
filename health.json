@@ -1,9 +1,13 @@
 {
- "at": "2026-10-24T14:15:18+00:00",
+ "at": "2026-10-24T14:31:51+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
-  "watch: 0 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 767 headlines from 30 feeds (21 owners), 29 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
+  "watch: 2 candidates (0 quakes, 22 trending), 2 hazard alerts",
+  "outlets: 767 headlines from 30 feeds (21 owners), 31 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.3 h ago, 126 people)']",
+  "skip wk-Q141535181-2026w43: gate: faceless: no free photo shows 2026 French fuel protests or the event itself (only 8 photos of places or things near it)",
+  "skip wk-Q139998119-2026w43: gate: no draft passed the fact checks: photo(s) 4 are on more than one beat: show each photo on one beat only, and write one beat for each photo; these names or numbers are not in the sources: 1, Berlin, Brandenburg, Nathan, Phillips, Toronto",
+  "nothing eligible to publish"
  ]
 }
