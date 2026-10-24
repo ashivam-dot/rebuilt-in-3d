@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T09:38:34+00:00",
+ "at": "2026-10-24T10:06:01+00:00",
  "quakes": [],
  "trending": [
   {
@@ -165,7 +165,6 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T01:57:47+00:00",
    "owners": [
-    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "SCMP Group",
@@ -178,11 +177,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
+    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
    ],
    "places": [
     "Christian"
@@ -256,20 +255,9 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -287,7 +275,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T09:38:34.350818+00:00",
+   "news_at": "2026-10-24T10:06:01.075818+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -708,7 +696,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:27:46+00:00",
+   "news_at": "2026-10-24T09:38:18+00:00",
    "owners": [
     "Guardian Media Group",
     "Al Jazeera Media Network",
@@ -778,7 +766,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:27:46+00:00"
+     "at": "2026-10-24T09:38:18+00:00"
     }
    ],
    "via": [
@@ -832,7 +820,6 @@
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
@@ -878,16 +865,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T07:30:03+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
     },
     {
      "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
@@ -1039,7 +1016,7 @@
    "date": "2026-10-22"
   },
   {
-   "qid": null,
+   "qid": "Q141820360",
    "title": "2026 Trappes and La Verrière shootings",
    "fame": 50000,
    "views": 0,
@@ -1053,12 +1030,12 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wp-2026_Trappes_and_La_Verrière_shootings",
+   "id": "wk-Q141820360",
    "kind": "incident",
    "category": "attack",
-   "date": "2026-10-24",
+   "date": "2026-10-23",
    "coords": null,
-   "has_coords": false
+   "has_coords": true
   },
   {
    "qid": "Q6830740",
@@ -1203,97 +1180,7 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261024-hitler-disaster",
-   "qid": null,
-   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-   "name": "Hitler",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T09:27:46+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Al Jazeera Media Network",
-    "ABC (Australia)",
-    "Disney (ABC News)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
-   ],
-   "places": [
-    "Eagle",
-    "Nest’",
-    "Bavaria"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T09:16:03+00:00"
-    },
-    {
-     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T07:31:42+00:00"
-    },
-    {
-     "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-     "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T06:21:44+00:00"
-    },
-    {
-     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T09:27:46+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": null,
+   "qid": "Q141820360",
    "title": "2026 Trappes and La Verrière shootings",
    "fame": 50000,
    "views": 0,
@@ -1307,16 +1194,16 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wp-2026_Trappes_and_La_Verrière_shootings",
+   "id": "wk-Q141820360",
    "kind": "incident",
    "category": "attack",
-   "date": "2026-10-24",
+   "date": "2026-10-23",
    "coords": null,
-   "has_coords": false
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 768,
+  "headlines": 765,
   "feeds": 30,
   "owners": 21,
   "matched": 29,
@@ -1333,7 +1220,6 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T01:57:47+00:00",
    "owners": [
-    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "SCMP Group",
@@ -1346,11 +1232,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
+    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
    ],
    "places": [
     "Christian"
@@ -1424,20 +1310,9 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
@@ -1806,7 +1681,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T09:27:46+00:00",
+   "news_at": "2026-10-24T09:38:18+00:00",
    "owners": [
     "Guardian Media Group",
     "Al Jazeera Media Network",
@@ -1876,7 +1751,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:27:46+00:00"
+     "at": "2026-10-24T09:38:18+00:00"
     }
    ],
    "via": [
@@ -1910,7 +1785,6 @@
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
@@ -1956,16 +1830,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-23T07:30:03+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
     },
     {
      "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
@@ -2060,5 +1924,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 768 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 765 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack"
 }
