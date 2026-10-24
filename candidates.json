@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T17:30:59+00:00",
+ "at": "2026-10-24T18:02:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,7 +29,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T17:30:59.870678+00:00",
+   "news_at": "2026-10-24T18:02:48.913414+00:00",
    "headlines": [
     "World News Live Updates: Jordan’s king orders firm response to Karak church attack",
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
@@ -70,20 +70,50 @@
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 125000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-24T16:23:45+00:00",
+   "news": 175000,
+   "news_at": "2026-10-24T17:50:25+00:00",
    "headlines": [
-    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility"
+    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
+    "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
+    "Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
-    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility"
+    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
+    "google-news:Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
+    "google-news:Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi",
+    "outlet:France Médias Monde",
+    "outlet:NDTV"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "France Médias Monde",
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
+     "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:25+00:00"
+    },
+    {
+     "title": "Houthis Claim They Targeted Riyadh, 2 Other Airports, Oil Facilities In Saudi",
+     "url": "https://www.ndtv.com/world-news/yemen-houthis-say-targeted-3-saudi-airports-in-riyadh-dammam-najran-oil-facilities-in-last-24-hours-12231046#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T16:52:27+00:00"
+    }
+   ],
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
@@ -116,57 +146,173 @@
    "has_coords": true
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-23T21:33:59+00:00",
-   "headlines": [
-    "‘I Have to Go In’: Kaylub Giamanco Describes Killing Gunman in Oregon School Shooting"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:‘I Have to Go In’: Kaylub Giamanco Describes Killing Gunman in Oregon School Shooting"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261023-taiwan-cyclone",
+   "id": "nw-20261024-milan-protest",
    "qid": null,
-   "title": "Typhoon Champi batters Taiwan",
-   "name": "Taiwan",
+   "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+   "name": "Milan",
    "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T10:33:04+00:00",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T15:44:04+00:00",
    "owners": [
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "Deutsche Welle",
-    "France Médias Monde"
+    "Independent Digital News",
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+    "Hundreds of soldiers sent to Milan as protesters march across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T15:05:58+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protesters march across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T15:44:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 98885,
+   "views": 98885,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1699148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T18:02:48.913414+00:00",
+   "headlines": [
+    "French cooking schools fuel fine-dining dreams of India’s young chefs"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24",
+    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:15:05+00:00"
+    }
+   ],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261023-taiwan-cyclone",
+   "qid": null,
+   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+   "name": "Taiwan",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T05:26:00+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-    "Typhoon Champi batters Taiwan"
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
     "Champi",
@@ -182,16 +328,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Typhoon Champi batters Taiwan",
-     "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T10:33:04+00:00"
-    },
     {
      "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
      "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
@@ -223,21 +359,20 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde"
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -252,21 +387,20 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T14:24:15+00:00",
    "owners": [
-    "Fox Corporation",
     "BBC",
     "NPR",
     "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
     "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-    "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-    "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan"
+    "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40"
    ],
    "places": [
     "Christian"
@@ -330,75 +464,25 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
-    "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:NPR",
     "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 98885,
-   "views": 98885,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141535181",
-   "title": "2026 French fuel protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T17:30:59.870678+00:00",
-   "headlines": [
-    "French cooking schools fuel fine-dining dreams of India’s young chefs"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24",
-    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T02:15:05+00:00"
-    }
-   ],
-   "id": "wk-Q141535181-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261023-oregon-attack",
@@ -632,7 +716,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T17:30:59.870678+00:00",
+   "news_at": "2026-10-24T18:02:48.913414+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -654,7 +738,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T17:30:59.870678+00:00",
+   "news_at": "2026-10-24T18:02:48.913414+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -810,40 +894,250 @@
    "lon": "123.8"
   }
  ],
- "candidates": [],
- "outlets": {
-  "headlines": 750,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 23,
-  "corroborated": 4
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261023-taiwan-cyclone",
+   "id": "nw-20261024-milan-protest",
    "qid": null,
-   "title": "Typhoon Champi batters Taiwan",
-   "name": "Taiwan",
+   "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+   "name": "Milan",
    "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T10:33:04+00:00",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T15:44:04+00:00",
    "owners": [
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "Deutsche Welle",
-    "France Médias Monde"
+    "Independent Digital News",
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+    "Hundreds of soldiers sent to Milan as protesters march across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T15:05:58+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protesters march across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T15:44:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T18:02:48.913414+00:00",
+   "headlines": [
+    "French cooking schools fuel fine-dining dreams of India’s young chefs"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24",
+    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T02:15:05+00:00"
+    }
+   ],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": false
+  }
+ ],
+ "outlets": {
+  "headlines": 749,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 23,
+  "corroborated": 6
+ },
+ "emerging": [
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T15:44:04+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+    "Hundreds of soldiers sent to Milan as protesters march across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
+     "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T15:05:58+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protesters march across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T15:44:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-taiwan-cyclone",
+   "qid": null,
+   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+   "name": "Taiwan",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T05:26:00+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-    "Typhoon Champi batters Taiwan"
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
     "Champi",
@@ -859,16 +1153,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Typhoon Champi batters Taiwan",
-     "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T10:33:04+00:00"
-    },
     {
      "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
      "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
@@ -900,21 +1184,20 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde"
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -929,21 +1212,20 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T14:24:15+00:00",
    "owners": [
-    "Fox Corporation",
     "BBC",
     "NPR",
     "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
     "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-    "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-    "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan"
+    "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40"
    ],
    "places": [
     "Christian"
@@ -1007,10 +1289,19 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
-    "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:NPR",
     "outlet:Guardian Media Group"
@@ -1165,5 +1456,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 750 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
+ "outlet_note": "outlets: 749 headlines from 30 feeds (21 owners), 23 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261024-milan-protest, nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack"
 }
