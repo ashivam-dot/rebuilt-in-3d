@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T06:41:37+00:00",
+ "at": "2026-10-24T07:23:50+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,48 +21,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 200000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-24T00:00:00+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141807978",
@@ -177,7 +135,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T02:24:45+00:00",
+   "news_at": "2026-10-24T01:57:47+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
@@ -186,9 +144,7 @@
     "SCMP Group",
     "Fox Corporation",
     "Al Jazeera Media Network",
-    "Bennett, Coleman & Co.",
-    "Guardian Media Group",
-    "NDTV"
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -203,8 +159,7 @@
    ],
    "places": [
     "CCTV",
-    "Christian",
-    "Captures"
+    "Christian"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -305,12 +260,34 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Guardian Media Group",
-    "outlet:NDTV"
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-24T00:10:00+00:00",
+   "headlines": [
+    "Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141760142",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q141745391",
@@ -745,6 +722,48 @@
    "date": "2026-10-21"
   },
   {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T00:00:00+00:00",
+   "headlines": [
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:33:00+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q452431",
    "title": "Ron Duguay",
    "fame": 55287,
@@ -883,44 +902,6 @@
    "date": "2026-10-23"
   },
   {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T03:10:43+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Kolkata stampede: Death in the time of Durga Puja",
-     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T03:10:43+00:00"
-    }
-   ],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
    "fame": 11001,
@@ -1007,6 +988,30 @@
    "date": "2026-10-24",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-24T00:10:00+00:00",
+   "headlines": [
+    "Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141760142",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "outlets": {
@@ -1025,7 +1030,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T02:24:45+00:00",
+   "news_at": "2026-10-24T01:57:47+00:00",
    "owners": [
     "Disney (ABC News)",
     "France Médias Monde",
@@ -1034,9 +1039,7 @@
     "SCMP Group",
     "Fox Corporation",
     "Al Jazeera Media Network",
-    "Bennett, Coleman & Co.",
-    "Guardian Media Group",
-    "NDTV"
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1051,8 +1054,7 @@
    ],
    "places": [
     "CCTV",
-    "Christian",
-    "Captures"
+    "Christian"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1153,9 +1155,7 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Guardian Media Group",
-    "outlet:NDTV"
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
