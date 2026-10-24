@@ -5,6 +5,7 @@ In GitHub Actions the `state` directory is a checkout of the repo's `state` bran
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -23,6 +24,9 @@ PICTURE_REASONS = ("faceless:", "usable photos", "show who or what the story is 
                    "name(s) nothing its photo shows", "shows what it says; want", "who has no photo here")
 PICTURE_BACKOFF_H = (3, 12, 24, 48)
 PICTURES_RULES = "anchored-2026-10"
+# The old constrained schema required six beats even for two to five photos. Reopen only that
+# identifiable draft failure once; factual refusals and photo availability keep their existing limits.
+DRAFT_RULES = "exact-photo-count-2026-10-25"
 
 
 def now() -> str:
@@ -125,7 +129,7 @@ def stale_uploads(at: datetime | None = None) -> list[str]:
 
 def skip(story_id: str, reason: str) -> None:
     skipped = load("skipped", {})
-    skipped[story_id] = {"reason": reason, "at": now(), "rules": PICTURES_RULES}
+    skipped[story_id] = {"reason": reason, "at": now(), "rules": PICTURES_RULES, "draft_rules": DRAFT_RULES}
     save("skipped", skipped)
 
 
@@ -140,7 +144,8 @@ def retry(story_id: str, reason: str, limit: int = 6) -> bool:
     row = tries.get(story_id, {"count": 0})
     if waiting(row.get("reason")) or reopened(row):
         row = {"count": 0}
-    row = {"count": row["count"] + 1, "reason": reason, "at": now(), "rules": PICTURES_RULES}
+    row = {"count": row["count"] + 1, "reason": reason, "at": now(), "rules": PICTURES_RULES,
+           "draft_rules": DRAFT_RULES}
     tries[story_id] = row
     save("retries", tries)
     if pictures_reason(reason):
@@ -168,12 +173,13 @@ def waiting(reason: str | None) -> bool:
 
 
 def reopened(row: dict | None) -> bool:
-    """A skip or retry for want of photos from before locator maps, or for want of pictures under the old picture
-    rules (before the event-photo search): the story starts its tries afresh."""
+    """A narrowly identified failure under superseded production rules starts its tries afresh."""
     if not row:
         return False
     reason = row.get("reason", "")
-    return ("usable photos" in reason and row.get("at", "") < MAPS_SINCE) or \
+    old_draft_shape = row.get("draft_rules") != DRAFT_RULES and bool(
+        re.search(r"the script has \d+ beats; it must have \d+, one for each photo", reason))
+    return old_draft_shape or ("usable photos" in reason and row.get("at", "") < MAPS_SINCE) or \
         (pictures_reason(reason) and row.get("rules") != PICTURES_RULES)
 
 

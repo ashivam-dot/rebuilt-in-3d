@@ -67,6 +67,25 @@ def test_fresh_story_beats_bigger_stale_one():
     assert plan.priority(fresh, at) > plan.priority(stale, at)
 
 
+def test_old_impossible_photo_count_gets_one_bounded_recovery_without_reopening_other_refusals():
+    reason = "gate: no draft passed the fact checks: the script has 6 beats; it must have 4, one for each photo"
+    old = {"reason": "gave up after 6 tries: " + reason, "at": "2026-10-24T02:54:31+00:00",
+           "rules": ledger.PICTURES_RULES}
+    ledger.save("skipped", {"wk-fixed": old, "wk-facts": {**old, "reason": "gate: unsupported death toll"},
+                            "wk-photos": {**old, "reason": "gate: only 1 usable photos"}})
+    ledger.save("retries", {"wk-fixed": {**old, "count": 6}})
+    assert not ledger.is_done("wk-fixed")
+    assert ledger.is_done("wk-facts") and ledger.is_done("wk-photos")
+    assert ledger.retry("wk-fixed", reason)
+    assert ledger.load("retries", {})["wk-fixed"]["count"] == 1
+    for _ in range(4):
+        assert ledger.retry("wk-fixed", reason)
+    assert not ledger.retry("wk-fixed", reason) and ledger.is_done("wk-fixed")
+    ledger.record_publish({"id": "wk-fixed"})
+    ledger.save("skipped", {"wk-fixed": old})
+    assert ledger.is_done("wk-fixed")  # a published upload always remains protected
+
+
 def test_windows_follow_the_audience():
     india = {"region": "india"}
     world = {"region": "world"}
