@@ -141,7 +141,7 @@ def test_a_title_flagged_on_the_last_attempt_falls_back_to_the_plain_title(monke
     assert [b["say"] for b in draft["beats"]] == [x.strip() for x in SAY]
     assert len(log) == 3 and all(p.startswith("the title (How Hurricane Milton") for p in log[-1]["problems"])
     # The rewrite feedback named the title, not "line 5".
-    rewrites = [c for schema, c in asked if schema is writer.SCHEMA and "Fix these problems" in c]
+    rewrites = [c for schema, c in asked if "beats" in schema.get("properties", {}) and "Fix these problems" in c]
     assert len(rewrites) == 2 and all("- the title (How" in c and "line 5" not in c for c in rewrites)
     assert writer.plain_title("death", "Nana Patekar") == "Remembering Nana Patekar"
     assert writer.plain_title("incident", "Cyclone Montha", {"part": 2}) == "Part 2: Cyclone Montha: what happened"

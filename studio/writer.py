@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import re
+from copy import deepcopy
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -42,7 +43,7 @@ SCHEMA = {
     "properties": {
         "title": {"type": "string"},
         "hook": {"type": "string"},
-        "beats": {"type": "array", "minItems": 6, "maxItems": 9, "items": {
+        "beats": {"type": "array", "minItems": 1, "maxItems": 8, "items": {
             "type": "object",
             "properties": {"say": {"type": "string"}, "photo": {"type": "integer"}, "caption": {"type": "string"}},
             "required": ["say", "photo", "caption"]}},
@@ -556,6 +557,26 @@ def beat_count(photos: list[dict]) -> int:
     return min(len(photos), MAX_BEATS)
 
 
+def draft_schema(photos: list[dict]) -> dict:
+    """Constrain generation to the same one-photo-per-beat contract as the validator.
+
+    The old fixed six-beat minimum contradicted every two-to-five-photo brief. A constrained decoder could
+    never produce the requested draft, however often it was retried.
+    """
+    n = beat_count(photos)
+    if not n:
+        raise ValueError("a draft needs at least one photo")
+    schema = deepcopy(SCHEMA)
+    beats = schema["properties"]["beats"]
+    beats.update(minItems=n, maxItems=n)
+    beats["items"]["properties"]["photo"].update(minimum=0, maximum=len(photos) - 1)
+    for key, limit in (("title", 120), ("hook", 100)):
+        schema["properties"][key]["maxLength"] = limit
+    for key, limit in (("say", 280), ("caption", 100)):
+        beats["items"]["properties"][key]["maxLength"] = limit
+    return schema
+
+
 def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_names: list[str],
               reports: list[dict] | None = None, casualties: bool = True, recent: list[str] | None = None,
               style: bool = True, story: anchor.Story | None = None) -> list[str]:
@@ -770,14 +791,24 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
         ground += f"\nPart {series['part']}, Part {series['part'] + 1}, of {series['of']}. {series.get('next') or ''}"
     checked = ground + ("\n" + report_ground(reports) if reports else "")
     log, base = [], messages
+    schema, budget = draft_schema(photos), 1800
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
             try:
-                raw = m.chat(messages, SCHEMA, temperature=0.75 if attempt == 0 else 0.6)
+                raw = m.chat(messages, schema, temperature=0.75 if attempt == 0 else 0.6,
+                             max_tokens=budget)
             except json.JSONDecodeError as exc:
-                # The local model ran a string past its token budget (dry runs 39922617481 and 39929261269 lost the
-                # story on it): a failed attempt, not a failed story. The same request is asked again.
+                # Increase the bounded output allowance and ask for a compact complete draft. Repeating the
+                # identical request at the same budget lost all three attempts in recovery run 40120068546.
                 log.append({"attempt": attempt + 1, "problems": [f"the draft was cut off ({exc.msg})"], "draft": {}})
+                if log_path:
+                    log_path.parent.mkdir(parents=True, exist_ok=True)
+                    log_path.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
+                budget = min(budget + 700, 3200)
+                messages = base + [{"role": "user", "content":
+                    f"The previous JSON was cut off. Return the complete compact object with exactly "
+                    f"{beat_count(photos)} beats, one per photo; 13-17 spoken words per beat. Keep every fact "
+                    "within the supplied sources. No analysis, extra keys, or repeated text."}]
                 continue
             draft = anchor_photos(raw, story)
             problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent,
@@ -790,12 +821,15 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
                 titled = bool(CURIOUS.search(draft.get("title", "")))
                 if titled:
                     lines.append(TITLE_LINE + draft["title"].strip())
-                verdict = m.chat(_check_messages(lines, facts, source, reports), CHECK_SCHEMA, temperature=0.0,
-                                 max_tokens=1800)
-                flagged = check_verdict(verdict, lines, checked)
-                if titled:
-                    flagged = title_flag(verdict, lines, flagged)
-                problems = recheck(m, lines, flagged, checked)
+                try:
+                    verdict = m.chat(_check_messages(lines, facts, source, reports), CHECK_SCHEMA, temperature=0.0,
+                                     max_tokens=2400)
+                    flagged = check_verdict(verdict, lines, checked)
+                    if titled:
+                        flagged = title_flag(verdict, lines, flagged)
+                    problems = recheck(m, lines, flagged, checked)
+                except json.JSONDecodeError:
+                    problems = ["the fact-check response was cut off; no verification was accepted"]
                 if titled and problems and attempt == 2 and all(p.startswith("the title") for p in problems):
                     # Every beat is supported and only the title's claim is not: the plain title costs nothing.
                     log.append({"attempt": attempt + 1, "problems": problems, "draft": dict(draft)})
