@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T23:04:05+00:00",
+ "at": "2026-10-24T23:32:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,92 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T23:32:32.060116+00:00",
+   "headlines": [
+    "World News Live Updates: Jordan’s king orders firm response to Karak church attack",
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "wikipedia-current-events-2026-10-24",
+    "google-news:World News Live Updates: Jordan’s king orders firm response to Karak church attack",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:33:00+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 171729,
+   "views": 21729,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-24T21:35:57+00:00",
+   "headlines": [
+    "French protests: Almost 1,000 arrested, Laurent Nuñez says, as clashes erupt",
+    "'The marches went well' – French government on demonstrations a week after looting and violence"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23",
+    "google-news:French protests: Almost 1,000 arrested, Laurent Nuñez says, as clashes erupt",
+    "google-news:'The marches went well' – French government on demonstrations a week after looting and violence",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "'The marches went well' – French government on demonstrations a week after looting and violence",
+     "url": "https://www.france24.com/en/france/20261024-the-marches-went-well-%E2%80%93-french-government-on-demonstrations-a-week-after-looting-and-violence",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T21:01:56+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q141695384",
@@ -61,49 +147,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T23:04:05.297975+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "wikipedia-current-events-2026-10-24",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141760142",
@@ -246,7 +289,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T23:04:05.297975+00:00",
+   "news_at": "2026-10-24T23:32:32.060116+00:00",
    "headlines": [
     "French cooking schools fuel fine-dining dreams of India’s young chefs"
    ],
@@ -538,43 +581,6 @@
    "article": null
   },
   {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 57553,
-   "views": 32553,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T08:44:44+00:00",
-   "headlines": [
-    "Dónal Lunny, ‘colossus of Irish music’, dies aged 79"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-     "url": "https://www.theguardian.com/music/2026/oct/24/donal-lunny-colossus-irish-music-dies-aged-79",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:44:44+00:00"
-    }
-   ],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
    "qid": "Q452431",
    "title": "Ron Duguay",
    "fame": 55287,
@@ -623,7 +629,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T23:04:05.297975+00:00",
+   "news_at": "2026-10-24T23:32:32.060116+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -645,7 +651,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T23:04:05.297975+00:00",
+   "news_at": "2026-10-24T23:32:32.060116+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -679,6 +685,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-16"
+  },
+  {
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 32553,
+   "views": 32553,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q983618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
   },
   {
    "qid": "Q380265",
@@ -828,10 +854,10 @@
   }
  ],
  "outlets": {
-  "headlines": 737,
+  "headlines": 731,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 30,
   "corroborated": 4
  },
  "emerging": [
@@ -1185,5 +1211,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 737 headlines from 30 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261024-taiwan-cyclone"
+ "outlet_note": "outlets: 731 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261024-taiwan-cyclone"
 }
