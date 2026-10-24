@@ -85,4 +85,4 @@ def test_the_writer_sees_a_pass_as_what_it_shows_not_its_commons_note(monkeypatc
     monkeypatch.setattr(media, "satellite", lambda *a, **k: [p])
     monkeypatch.setattr(media, "download", lambda found, folder: found)
     rows = writer.satellite_photos("cyclone", ["Typhoon Champi", "Taiwan"], date(2026, 10, 23), tmp_path, set())
-    assert [r["description"] for r in rows] == ["Typhoon Champi from orbit (Satellite image, 20 Oct 2026)"]
+    assert [r["description"] for r in rows] == ["Typhoon Champi from orbit"]

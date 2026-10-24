@@ -914,9 +914,9 @@ def satellite_photos(category: str | None, names: list[str], when: date, folder:
     for r in rows:
         r["focus"] = None
         # A pass's Commons description tells the storm's whole track ("over the Philippine Sea", "southwest of
-        # Guam"): the writer took those as facts (dry runs 40070831161, 40071804587). It sees only what the frame is.
-        day = media._day(r.get("date") or "")
-        r["description"] = f"{names[0]} from orbit" + (f" ({media.satellite_label(day)})" if day else "")
+        # Guam"): the writer took those as facts (dry runs 40070831161, 40071804587), and a pass's day too (40073017968).
+        # It sees only what the frame is; the day is on screen from the label.
+        r["description"] = f"{names[0]} from orbit"
     return stamp(rows, "event")
 
 
