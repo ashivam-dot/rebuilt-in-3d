@@ -1,10 +1,13 @@
 {
- "at": "2026-10-24T05:37:00+00:00",
+ "at": "2026-10-24T06:06:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 588 units today",
-  "watch: 1 candidates (0 quakes, 17 trending), 2 hazard alerts",
-  "outlets: 773 headlines from 30 feeds (21 owners), 34 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack",
-  "hold nw-20261023-taiwan-cyclone: outside the world window"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 589 units today",
+  "watch: 3 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 773 headlines from 30 feeds (21 owners), 32 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack",
+  "skip nw-20261023-taiwan-cyclone: gate: only 1 usable photos of Taiwan (want 2)",
+  "skip wk-Q3012285: gate: only 1 usable photos of Dale Brown on Wikimedia Commons (want 3)",
+  "skip wk-Q6830740: gate: only 1 usable photos of Michael Gray on Wikimedia Commons (want 3)",
+  "nothing eligible to publish"
  ]
 }
