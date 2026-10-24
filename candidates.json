@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T12:04:43+00:00",
+ "at": "2026-10-24T12:48:59+00:00",
  "quakes": [],
  "trending": [
   {
@@ -249,7 +249,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T12:04:43.407989+00:00",
+   "news_at": "2026-10-24T12:48:59.456578+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -728,57 +728,77 @@
    "article": null
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 71729,
-   "views": 21729,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-24T12:04:23+00:00",
-   "headlines": [
-    "French police respond as nation braces for another weekend of protests",
-    "French students vow to keep protesting"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:French police respond as nation braces for another weekend of protests",
-    "google-news:French students vow to keep protesting",
-    "outlet:Paramount (CBS)",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "Paramount (CBS)",
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "French police respond as nation braces for another weekend of protests",
-     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T12:04:23+00:00"
-    },
-    {
-     "title": "French students vow to keep protesting",
-     "url": "https://www.france24.com/en/french-students-vow-to-keep-protesting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T10:31:08+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+   "name": "Milan",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "coords": null,
-   "has_coords": true
+   "news_at": "2026-10-24T12:06:25+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Hundreds of soldiers sent to Milan as protests planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protests planned across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T11:14:43+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q983618",
@@ -1002,100 +1022,154 @@
  ],
  "candidates": [
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 71729,
-   "views": 21729,
+   "id": "nw-20261024-hitler-disaster",
+   "qid": null,
+   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+   "name": "Hitler",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T10:42:26+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "ABC (Australia)",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-24T12:04:23+00:00",
    "headlines": [
-    "French police respond as nation braces for another weekend of protests",
-    "French students vow to keep protesting"
+    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
+   ],
+   "places": [
+    "Alpine",
+    "Eagle",
+    "Nest"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:French police respond as nation braces for another weekend of protests",
-    "google-news:French students vow to keep protesting",
-    "outlet:Paramount (CBS)",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "Paramount (CBS)",
-    "France Médias Monde"
-   ],
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "French police respond as nation braces for another weekend of protests",
-     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T12:04:23+00:00"
-    },
-    {
-     "title": "French students vow to keep protesting",
-     "url": "https://www.france24.com/en/french-students-vow-to-keep-protesting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
+     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T10:31:08+00:00"
+     "at": "2026-10-24T09:16:03+00:00"
+    },
+    {
+     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T07:31:42+00:00"
+    },
+    {
+     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
+     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T10:42:26+00:00"
     }
    ],
-   "id": "wk-Q141615137-2026w43",
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+   "name": "Milan",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
+   "news_at": "2026-10-24T12:06:25+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T12:04:43.407989+00:00",
    "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Hundreds of soldiers sent to Milan as protests planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "wikipedia-current-events-2026-10-24",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protests planned across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T11:14:43+00:00"
     }
    ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Euronews"
    ],
-   "has_coords": true
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141820360",
@@ -1121,10 +1195,10 @@
   }
  ],
  "outlets": {
-  "headlines": 766,
+  "headlines": 771,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 30,
   "corroborated": 8
  },
  "emerging": [
@@ -1650,7 +1724,80 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T12:06:25+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Hundreds of soldiers sent to Milan as protests planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Hundreds of soldiers sent to Milan as protests planned across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T11:14:43+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 766 headlines from 30 feeds (21 owners), 28 matched to articles, 8 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 30 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
 }
