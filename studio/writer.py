@@ -582,6 +582,9 @@ def _validate(draft: dict, photos: list[dict], name: str, ground: str, banned_na
               style: bool = True, story: anchor.Story | None = None) -> list[str]:
     problems = []
     beats = draft.get("beats", [])
+    # Four short beats can satisfy the per-beat tolerance yet miss the final 50-word floor.
+    # Return that failure through the existing rewrite loop, including its final draft.
+    problems += gate.narration_problems(" ".join(b["say"] for b in beats))
     words, n = sum(len(b["say"].split()) for b in beats), beat_count(photos)
     if not 11 * n <= words <= 19 * n:
         problems.append(f"the script has {words} words; it must have {13 * n} to {17 * n}")

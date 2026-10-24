@@ -151,6 +151,12 @@ def reported_toll(reports: list[dict], wikidata: set[int] | None = None) -> tupl
     return None
 
 
+def narration_problems(text: str) -> list[str]:
+    """The same spoken-length contract applies while drafting and before publishing."""
+    words = len(text.split())
+    return [] if 50 <= words <= 200 else [f"narration: {words} words (want 50-200)"]
+
+
 def check(short: Short) -> list[str]:
     problems = []
     if short.kind == "quake" and QUAKES_HELD:
@@ -178,9 +184,7 @@ def check(short: Short) -> list[str]:
             problems.append(f"title: shouting in capitals ({word})")
     if not 20 <= len(short.title) <= 70:
         problems.append(f"title: {len(short.title)} characters (want 20-70)")
-    words = len(short.narration.split())
-    if not 50 <= words <= 200:
-        problems.append(f"narration: {words} words (want 50-200)")
+    problems += narration_problems(short.narration)
     if not short.sources or any(not s.startswith("https://") for s in short.sources):
         problems.append("sources: every Short needs https primary sources")
     if short.scene.get("template") == "story":
