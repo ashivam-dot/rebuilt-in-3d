@@ -1,13 +1,13 @@
 {
- "at": "2026-10-23T23:35:34+00:00",
+ "at": "2026-10-24T00:00:45+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 578 units today",
-  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 781 headlines from 30 feeds (21 owners), 39 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-champi-cyclone",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 579 units today",
+  "watch: 2 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 775 headlines from 30 feeds (21 owners), 41 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-champi-cyclone",
   "hold wk-Q3424313: outside the india window",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261023-oregon-attack",
-  "skip nw-20261023-oregon-attack: gate: faceless: no free photo shows Oregon or the event itself (only 3 photos of places or things near it)",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q141820731",
+  "skip wk-Q141820731: gate: only 1 usable photos of 2026 Karak church shooting on Wikimedia Commons (want 2)",
   "nothing eligible to publish"
  ]
 }
