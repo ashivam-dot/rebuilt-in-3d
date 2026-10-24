@@ -1,15 +1,11 @@
 {
- "at": "2026-10-24T16:04:49+00:00",
+ "at": "2026-10-24T16:49:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 17 units today",
-  "watch: 4 candidates (0 quakes, 22 trending), 2 hazard alerts",
-  "outlets: 756 headlines from 30 feeds (21 owners), 18 matched to articles, 6 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261024-paris-protest",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q141820360",
-  "skip wk-Q141615137-2026w43: gate: no draft passed the fact checks: photo(s) 0 are on more than one beat: show each photo on one beat only, and write one beat for each photo; beat 2, 3, 4 name(s) nothing its photo shows (only 64% of the script shows what it says; want 70%): in each, name who or what a photo shows (Laurent Nuñez, Lionel Jospin, police, school), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police l",
-  "skip wk-Q141820360: gate: faceless: no free photo shows 2026 Trappes and La Verrière shootings or the event itself (only 7 photos of places or things near it)",
-  "skip wk-Q3424313: gate: only 2 usable photos of Deva on Wikimedia Commons (want 3)",
-  "skip wk-Q141776873: gate: no draft passed the fact checks: photo(s) 1 are on more than one beat: show each photo on one beat only, and write one beat for each photo; these names or numbers are not in the sources: Legnano",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 18 units today",
+  "watch: 1 candidates (0 quakes, 20 trending), 2 hazard alerts",
+  "outlets: 753 headlines from 30 feeds (21 owners), 18 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-taiwan-cyclone, nw-20261023-jordan-attack, nw-20261023-oregon-attack",
+  "skip wk-Q141776873: gate: no draft passed the fact checks: photo(s) 2 are on more than one beat: show each photo on one beat only, and write one beat for each photo; beat 1, 4 name(s) nothing its photo shows (only 67% of the script shows what it says; want 70%): in each, name who or what a photo shows (Giorgia Meloni, police, school), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without nami",
   "nothing eligible to publish"
  ]
 }
