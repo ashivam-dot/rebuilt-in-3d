@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T10:33:53+00:00",
+ "at": "2026-10-24T11:05:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -166,7 +166,6 @@
    "news_at": "2026-10-24T10:23:13+00:00",
    "owners": [
     "Disney (ABC News)",
-    "France Médias Monde",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
@@ -179,10 +178,10 @@
    "traffic": 0,
    "headlines": [
     "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-    "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
+    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
    ],
    "places": [
     "Christian"
@@ -206,16 +205,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T19:46:30+00:00"
-    },
-    {
-     "title": "Several killed, dozens wounded in Jordan church shooting",
-     "url": "https://www.france24.com/en/middle-east/20261023-several-killed-dozens-wounded-in-jordan-church-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:16:29+00:00"
     },
     {
      "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
@@ -270,7 +259,6 @@
    ],
    "via": [
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
@@ -287,7 +275,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T10:33:53.974909+00:00",
+   "news_at": "2026-10-24T11:05:53.575819+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -351,31 +339,35 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261023-paris-attack",
+   "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
-   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-   "name": "Paris",
+   "title": "Typhoon Champi batters Taiwan",
+   "name": "Taiwan",
    "kind": "incident",
-   "category": "attack",
+   "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T08:00:34+00:00",
+   "news_at": "2026-10-24T10:33:04+00:00",
    "owners": [
+    "Guardian Media Group",
     "Disney (ABC News)",
     "Deutsche Welle",
-    "France Médias Monde",
-    "Paramount (CBS)"
+    "France Médias Monde"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-    "France: 1 killed, 4 wounded after shooting near Paris",
-    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+    "Typhoon Champi batters Taiwan"
    ],
-   "places": [],
+   "places": [
+    "Champi",
+    "Deadly"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -387,139 +379,61 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "title": "Typhoon Champi batters Taiwan",
+     "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
      "owner": "France Médias Monde",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T14:24:56+00:00"
+     "at": "2026-10-24T10:33:04+00:00"
     },
     {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
+     "at": "2026-10-24T05:26:00+00:00"
     },
     {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T08:00:34+00:00"
+     "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T07:30:03+00:00"
+    },
+    {
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T10:43:27+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
+    "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle",
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T20:32:02+00:00",
-   "owners": [
-    "NBCUniversal",
-    "France Médias Monde",
-    "Independent Digital News",
-    "Fox Corporation"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    },
-    {
-     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T20:32:02+00:00"
-    },
-    {
-     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T11:37:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -635,32 +549,30 @@
    "date": "2026-10-21"
   },
   {
-   "id": "nw-20261023-taiwan-cyclone",
+   "id": "nw-20261023-paris-attack",
    "qid": null,
-   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
+   "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+   "name": "Paris",
    "kind": "incident",
-   "category": "cyclone",
+   "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T05:26:00+00:00",
+   "news_at": "2026-10-23T20:32:02+00:00",
    "owners": [
-    "Guardian Media Group",
-    "Disney (ABC News)",
-    "Deutsche Welle"
+    "NBCUniversal",
+    "Independent Digital News",
+    "Fox Corporation"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
+    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris"
    ],
    "places": [
-    "Champi",
-    "Deadly"
+    "Islamophobic"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -673,50 +585,115 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T05:26:00+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T02:22:32+00:00"
+     "at": "2026-10-23T15:30:43+00:00"
     },
     {
-     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T07:30:03+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
+     "at": "2026-10-23T20:32:02+00:00"
+    },
+    {
+     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T11:37:09+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle"
+    "outlet:NBCUniversal",
+    "outlet:Independent Digital News",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T08:00:34+00:00",
+   "owners": [
+    "SCMP Group",
+    "BBC",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
+    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+   ],
+   "places": [
+    "Macron"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T19:42:08+00:00"
+    },
+    {
+     "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
+     "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T18:13:09+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T08:00:34+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -1138,6 +1115,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-23"
+  },
+  {
+   "qid": "Q5213357",
+   "title": "Dan Davis (broadcaster)",
+   "fame": 5000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:espn radio broadcaster dan davis passes"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213357",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   }
  ],
  "hazards": [
@@ -1186,13 +1183,33 @@
    "date": "2026-10-23",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q5213357",
+   "title": "Dan Davis (broadcaster)",
+   "fame": 5000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:espn radio broadcaster dan davis passes"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213357",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   }
  ],
  "outlets": {
-  "headlines": 764,
+  "headlines": 766,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 29,
   "corroborated": 9
  },
  "emerging": [
@@ -1207,7 +1224,6 @@
    "news_at": "2026-10-24T10:23:13+00:00",
    "owners": [
     "Disney (ABC News)",
-    "France Médias Monde",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
@@ -1220,10 +1236,10 @@
    "traffic": 0,
    "headlines": [
     "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-    "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
+    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
    ],
    "places": [
     "Christian"
@@ -1247,16 +1263,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-23T19:46:30+00:00"
-    },
-    {
-     "title": "Several killed, dozens wounded in Jordan church shooting",
-     "url": "https://www.france24.com/en/middle-east/20261023-several-killed-dozens-wounded-in-jordan-church-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:16:29+00:00"
     },
     {
      "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
@@ -1311,7 +1317,6 @@
    ],
    "via": [
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
@@ -1322,31 +1327,35 @@
    "article": null
   },
   {
-   "id": "nw-20261023-paris-attack",
+   "id": "nw-20261023-taiwan-cyclone",
    "qid": null,
-   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-   "name": "Paris",
+   "title": "Typhoon Champi batters Taiwan",
+   "name": "Taiwan",
    "kind": "incident",
-   "category": "attack",
+   "category": "cyclone",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T08:00:34+00:00",
+   "news_at": "2026-10-24T10:33:04+00:00",
    "owners": [
+    "Guardian Media Group",
     "Disney (ABC News)",
     "Deutsche Welle",
-    "France Médias Monde",
-    "Paramount (CBS)"
+    "France Médias Monde"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-    "France: 1 killed, 4 wounded after shooting near Paris",
-    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+    "Typhoon Champi batters Taiwan"
    ],
-   "places": [],
+   "places": [
+    "Champi",
+    "Deadly"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -1358,139 +1367,61 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "title": "Typhoon Champi batters Taiwan",
+     "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
      "owner": "France Médias Monde",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T14:24:56+00:00"
+     "at": "2026-10-24T10:33:04+00:00"
     },
     {
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-23T11:22:00+00:00"
+     "at": "2026-10-24T05:26:00+00:00"
     },
     {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T08:00:34+00:00"
+     "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
-     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T07:30:03+00:00"
+    },
+    {
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-23T10:43:27+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
+    "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle",
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "France: Gunman kills one and wounds four in town outside Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T20:32:02+00:00",
-   "owners": [
-    "NBCUniversal",
-    "France Médias Monde",
-    "Independent Digital News",
-    "Fox Corporation"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-    "France: Gunman kills one and wounds four in town outside Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Gunman kills one and wounds four in town outside Paris",
-     "url": "https://www.france24.com/en/france-gunman-kills-one-and-wounds-four-in-town-outside-paris",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T14:21:35+00:00"
-    },
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    },
-    {
-     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T20:32:02+00:00"
-    },
-    {
-     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T11:37:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -1586,32 +1517,30 @@
    "article": null
   },
   {
-   "id": "nw-20261023-taiwan-cyclone",
+   "id": "nw-20261023-paris-attack",
    "qid": null,
-   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
+   "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+   "name": "Paris",
    "kind": "incident",
-   "category": "cyclone",
+   "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T05:26:00+00:00",
+   "news_at": "2026-10-23T20:32:02+00:00",
    "owners": [
-    "Guardian Media Group",
-    "Disney (ABC News)",
-    "Deutsche Welle"
+    "NBCUniversal",
+    "Independent Digital News",
+    "Fox Corporation"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
+    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris"
    ],
    "places": [
-    "Champi",
-    "Deadly"
+    "Islamophobic"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1624,50 +1553,115 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T05:26:00+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T02:22:32+00:00"
+     "at": "2026-10-23T15:30:43+00:00"
     },
     {
-     "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-     "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T07:30:03+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
+     "at": "2026-10-23T20:32:02+00:00"
+    },
+    {
+     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
+     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T11:37:09+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle"
+    "outlet:NBCUniversal",
+    "outlet:Independent Digital News",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-24T08:00:34+00:00",
+   "owners": [
+    "SCMP Group",
+    "BBC",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
+    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+   ],
+   "places": [
+    "Macron"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T19:42:08+00:00"
+    },
+    {
+     "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
+     "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T18:13:09+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T08:00:34+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -1896,5 +1890,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 27 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 766 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake"
 }

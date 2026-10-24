@@ -1,12 +1,13 @@
 {
- "at": "2026-10-24T10:33:53+00:00",
+ "at": "2026-10-24T11:05:52+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 7 units today",
-  "watch: 1 candidates (0 quakes, 22 trending), 2 hazard alerts",
-  "outlets: 764 headlines from 30 feeds (21 owners), 27 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 8 units today",
+  "watch: 2 candidates (0 quakes, 23 trending), 2 hazard alerts",
+  "outlets: 766 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake",
   "ad-suitability x0.85 (attack, not breaking): wk-Q141820360",
-  "wait wk-Q141820360: gate: the article is under 6 hours old; facts may still move (ready in 2.1 h)",
+  "wait wk-Q141820360: gate: the article is under 6 hours old; facts may still move (ready in 1.6 h)",
+  "skip wk-Q5213357: gate: the article has no infobox to confirm the death",
   "nothing eligible to publish"
  ]
 }
