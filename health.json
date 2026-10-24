@@ -1,12 +1,13 @@
 {
- "at": "2026-10-24T09:05:15+00:00",
+ "at": "2026-10-24T09:38:33+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
-  "watch: 1 candidates (0 quakes, 21 trending), 2 hazard alerts",
-  "outlets: 772 headlines from 30 feeds (21 owners), 25 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
+  "watch: 2 candidates (0 quakes, 22 trending), 2 hazard alerts",
+  "outlets: 768 headlines from 30 feeds (21 owners), 29 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-paris-attack, nw-20261023-paris-attack",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Trappes_and_La_Verrière_shootings",
-  "wait wp-2026_Trappes_and_La_Verrière_shootings: gate: the article is under 6 hours old; facts may still move (ready in 3.5 h)",
+  "skip nw-20261024-hitler-disaster: gate: faceless: no free photo shows Hitler or the event itself (only 3 photos of places or things near it)",
+  "wait wp-2026_Trappes_and_La_Verrière_shootings: gate: the article is under 6 hours old; facts may still move (ready in 3.0 h)",
   "nothing eligible to publish"
  ]
 }
