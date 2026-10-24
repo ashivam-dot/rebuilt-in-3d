@@ -744,6 +744,26 @@ def satellite_ok(file: str, desc: str, licence: str, artist: str, credit: str) -
             and not THIRD_PARTY.search(text) and not NASA_NOT_PHOTO.search(text) and not NOT_SATELLITE.search(text))
 
 
+# A storm story is often named by the place it nears ("Taiwan"), whose Commons categories hold no passes: the storm's
+# own name is in its headlines ("Typhoon Champi nears Taiwan"), said by at least two of them.
+STORM_NAME = re.compile(r"\b(?:Super\s+)?(?:Typhoon|Hurricane|Cyclone|Tropical\s+(?:Storm|Cyclone|Depression)|Storm)"
+                        r"\s+([A-Z][a-z]{2,})\b")
+NOT_STORM_NAME = {"Warning", "Warnings", "Season", "Signal", "Alert", "Center", "Centre", "Hits", "Nears", "Makes",
+                  "Live", "Update", "Updates", "Tracker", "Watch", "Shelter", "Damage", "Death", "Toll", "Batters"}
+
+
+def storm_names(texts: list[str]) -> list[str]:
+    """The storms a story's headlines name, by how many of them name each ("Typhoon Champi"), at least two."""
+    counts: dict[str, int] = {}
+    kinds: dict[str, str] = {}
+    for text in texts:
+        for m in {m.group(1): m for m in STORM_NAME.finditer(text or "")}.values():
+            if m.group(1) not in NOT_STORM_NAME:
+                counts[m.group(1)] = counts.get(m.group(1), 0) + 1
+                kinds.setdefault(m.group(1), m.group(0))
+    return [kinds[n] for n, c in sorted(counts.items(), key=lambda kv: -kv[1]) if c >= 2]
+
+
 def satellite_label(day: date) -> str:
     return f"Satellite image, {day.day} {SHORT_MONTHS[day.month - 1]} {day.year}"
 

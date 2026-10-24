@@ -55,3 +55,11 @@ def test_west_bank_is_one_story_with_bank():
     assert outlets.same_story("nw-20261023-bank-shooting", "nw-20261023-west-bank-shooting")
     assert outlets.same_story("nw-20261016-black-maritime", "nw-20261016-black-sea-maritime")
     assert not outlets.same_story("nw-20261023-bank-shooting", "nw-20261023-west-bengal-shooting")
+
+
+def test_a_storm_named_by_its_place_is_found_by_the_name_its_headlines_give():
+    heads = ["Typhoon Champi nears Taiwan as thousands evacuate", "Taiwan braces for Super Typhoon Champi",
+             "Typhoon Warning issued across Taiwan", "Typhoon Warning: schools shut", "Storm Hits Taiwan"]
+    assert media.storm_names(heads) == ["Typhoon Champi"]
+    assert media.storm_names(["Typhoon Champi nears Taiwan"]) == []
+    assert media.storm_names(["Taiwan shuts schools", "Quake hits Taiwan"]) == []

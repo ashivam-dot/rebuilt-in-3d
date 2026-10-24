@@ -1647,7 +1647,8 @@ def build_report(cand: dict) -> Short:
         event_photos([name], when, cat, work / "photos", set(), places=[where])
     # A storm is pictured from orbit before anyone photographs it (owner, 2026-10-23): Typhoon Champi, nearing Taiwan,
     # had 0 usable photos while its Commons category held a week of NOAA and NASA satellite passes.
-    photos += satellite_photos(cat, [name], when, work / "photos", {p["file"] for p in photos})
+    storms = media.storm_names((cand.get("headlines") or []) + [r["title"] for r in reports])
+    photos += satellite_photos(cat, storms + [name], when, work / "photos", {p["file"] for p in photos})
     people = named_people(name, reports)
     if person:
         own = stories.plain_title(title)
