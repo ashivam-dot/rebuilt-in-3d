@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T22:45:22+00:00",
+ "at": "2026-10-24T23:04:05+00:00",
  "quakes": [],
  "trending": [
   {
@@ -69,7 +69,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T22:45:22.358508+00:00",
+   "news_at": "2026-10-24T23:04:05.297975+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -246,7 +246,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T22:45:22.358508+00:00",
+   "news_at": "2026-10-24T23:04:05.297975+00:00",
    "headlines": [
     "French cooking schools fuel fine-dining dreams of India’s young chefs"
    ],
@@ -623,7 +623,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T22:45:22.358508+00:00",
+   "news_at": "2026-10-24T23:04:05.297975+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -645,7 +645,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T22:45:22.358508+00:00",
+   "news_at": "2026-10-24T23:04:05.297975+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -803,81 +803,6 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261024-taiwan-cyclone",
-   "qid": null,
-   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T05:26:00+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
-   ],
-   "places": [
-    "Champi"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T05:26:00+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T02:22:32+00:00"
-    },
-    {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q141760142",
    "title": "2026 Kolkata Durga Puja crowd crush",
    "fame": 125000,
@@ -903,10 +828,10 @@
   }
  ],
  "outlets": {
-  "headlines": 738,
+  "headlines": 737,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 33,
   "corroborated": 4
  },
  "emerging": [
@@ -1260,5 +1185,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 738 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261024-taiwan-cyclone"
+ "outlet_note": "outlets: 737 headlines from 30 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261024-taiwan-cyclone"
 }
