@@ -279,7 +279,9 @@ hijack, suicide…) are never read out; the Short says the cause is under invest
 - Writer recovery (25 October 2026): the constrained JSON decoder uses exactly the available photo count (up to
   eight), matching the one-photo-per-beat editor. Truncated drafts receive a compact retry with a bounded larger
   output allowance; truncated fact-check replies never count as verification. All source, licence and relevance
-  gates remain in force.
+  gates remain in force. Display-hook, repeated-opening and closing-style feedback is returned alongside semantic
+  fact-check feedback whenever the structural/source gates pass, so display edits do not defer factual repairs to
+  the final draft. The same three-draft limit and final factual checks apply.
 
 - The half-hourly GitHub Actions run (`run.yml`) is the only automatic publisher; hand-made series parts are
   published from the Mac with `.scratch/publish_story.py` and recorded in the same ledger. Its state lives on the `state` branch. Setting

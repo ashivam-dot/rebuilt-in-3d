@@ -813,8 +813,11 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
             draft = anchor_photos(raw, story)
             problems = _validate(draft, photos, name, ground, banned_names or [], reports, casualties, recent,
                                  style=attempt < 2, story=story)
-            if attempt < 2:
-                problems += monotone(draft) + hook_text_problems(draft) + closing_problems(draft)
+            # Display wording must not consume the remaining drafts before semantic review.
+            # Run 40125472335 reached its temporal/attribution errors only on the last attempt,
+            # after two overlong hook cards; return both kinds of feedback in the same rewrite.
+            presentation = (monotone(draft) + hook_text_problems(draft) + closing_problems(draft)
+                            if attempt < 2 else [])
             if not problems:
                 teaser = f"part {series['part'] + 1}" if series else None
                 lines = [b["say"] for b in draft["beats"] if not (teaser and b["say"].lower().startswith(teaser))]
@@ -835,6 +838,7 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
                     log.append({"attempt": attempt + 1, "problems": problems, "draft": dict(draft)})
                     draft["title"] = plain_title(kind, name, series)
                     problems = []
+            problems += presentation
             if not problems:
                 return draft, log
             log.append({"attempt": attempt + 1, "problems": problems, "draft": draft})
