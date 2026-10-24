@@ -1,13 +1,13 @@
 {
- "at": "2026-10-24T19:35:29+00:00",
+ "at": "2026-10-24T20:00:22+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 24 units today",
-  "watch: 3 candidates (0 quakes, 21 trending), 2 hazard alerts",
-  "outlets: 744 headlines from 30 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-oregon-attack, nw-20261024-taiwan-cyclone",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 25 units today",
+  "watch: 2 candidates (0 quakes, 22 trending), 2 hazard alerts",
+  "outlets: 721 headlines from 29 feeds (20 owners), 22 matched to articles, 6 candidates with 2+ owners, 6 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack",
+  "trend radar errors: ['outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss']",
   "hold wk-Q141760142: outside the india window",
-  "skip nw-20261024-taiwan-cyclone: gate: only 1 usable photos of Taiwan (want 2)",
-  "skip wk-Q983618: gate: no draft passed the fact checks: line 2 (A student of design, he first played in pub trios as a teena): its supporting quote is not in the sources | second look: The source sentences do not state that he was a 'student of design' at the time he played in the pub trios. The sources state he enrolled in the National College of Art & Design in 1965, while the source regarding the trio (Rakes of Kildare) mentions he played as a teena",
+  "skip wk-Q983618: voice: beat 1 came out garbled (78% of words heard)",
   "nothing eligible to publish"
  ]
 }

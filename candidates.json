@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T19:35:30+00:00",
+ "at": "2026-10-24T20:00:23+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,7 +29,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-10-24T19:35:30.073643+00:00",
+   "news_at": "2026-10-24T20:00:23.321640+00:00",
    "headlines": [
     "World News Live Updates: Jordan’s king orders firm response to Karak church attack",
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
@@ -70,36 +70,20 @@
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-24T17:50:25+00:00",
+   "news": 125000,
+   "news_at": "2026-10-24T16:23:45+00:00",
    "headlines": [
-    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
-    "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia"
+    "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
-    "google-news:Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
-    "outlet:France Médias Monde"
+    "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility"
    ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
-     "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T17:50:25+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141695384",
    "kind": "incident",
    "category": "conflict",
@@ -132,6 +116,96 @@
    "has_coords": true
   },
   {
+   "id": "nw-20261024-paris-protest",
+   "qid": null,
+   "title": "Thousands join Paris protests as authorities clamp down on disorder",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T19:01:52+00:00",
+   "owners": [
+    "SCMP Group",
+    "Independent Digital News",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Chinese students in Paris hunker down as city braces for more mass protests",
+    "France protests: Louvre shuts down over fears of violence in Paris",
+    "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
+    "Thousands join Paris protests as authorities clamp down on disorder"
+   ],
+   "places": [
+    "Louvre",
+    "Lisa",
+    "Off"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thousands join Paris protests as authorities clamp down on disorder",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T19:01:52+00:00"
+    },
+    {
+     "title": "France protests: Louvre shuts down over fears of violence in Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T08:44:22+00:00"
+    },
+    {
+     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
+     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T08:00:13+00:00"
+    },
+    {
+     "title": "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
+     "url": "https://www.ndtv.com/world-news/mona-lisa-off-limits-as-louvre-other-museums-across-paris-shut-amid-protests-12231331#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T18:32:25+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Independent Digital News",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
    "fame": 98885,
@@ -158,7 +232,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T19:35:30.073643+00:00",
+   "news_at": "2026-10-24T20:00:23.321640+00:00",
    "headlines": [
     "French cooking schools fuel fine-dining dreams of India’s young chefs"
    ],
@@ -198,11 +272,11 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T14:24:15+00:00",
+   "news_at": "2026-10-24T18:34:04+00:00",
    "owners": [
-    "BBC",
     "NPR",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NDTV"
    ],
    "fame": 75000,
    "news": 75000,
@@ -216,7 +290,9 @@
     "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan"
    ],
    "places": [
-    "Christian"
+    "Christian",
+    "Count",
+    "church"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -277,12 +353,22 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Death Count In Jordan Church Firing Rises To 9",
+     "url": "https://www.ndtv.com/world-news/death-count-in-jordan-church-firing-rises-to-9-12231344#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T18:34:04+00:00"
     }
    ],
    "via": [
-    "outlet:BBC",
     "outlet:NPR",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -667,7 +753,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T19:35:30.073643+00:00",
+   "news_at": "2026-10-24T20:00:23.321640+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -689,7 +775,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-24T19:35:30.073643+00:00",
+   "news_at": "2026-10-24T20:00:23.321640+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -847,81 +933,6 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261024-taiwan-cyclone",
-   "qid": null,
-   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-   "name": "Taiwan",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T05:26:00+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "Guardian Media Group",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
-   ],
-   "places": [
-    "Champi"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
-     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T05:26:00+00:00"
-    },
-    {
-     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T02:22:32+00:00"
-    },
-    {
-     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T00:54:31+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q983618",
    "title": "Dónal Lunny",
    "fame": 57553,
@@ -983,14 +994,107 @@
    "has_coords": true
   }
  ],
+ "trend_errors": [
+  "outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss"
+ ],
  "outlets": {
-  "headlines": 744,
-  "feeds": 30,
-  "owners": 21,
+  "headlines": 721,
+  "feeds": 29,
+  "owners": 20,
   "matched": 22,
-  "corroborated": 5
+  "corroborated": 6
  },
  "emerging": [
+  {
+   "id": "nw-20261024-paris-protest",
+   "qid": null,
+   "title": "Thousands join Paris protests as authorities clamp down on disorder",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T19:01:52+00:00",
+   "owners": [
+    "SCMP Group",
+    "Independent Digital News",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Chinese students in Paris hunker down as city braces for more mass protests",
+    "France protests: Louvre shuts down over fears of violence in Paris",
+    "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
+    "Thousands join Paris protests as authorities clamp down on disorder"
+   ],
+   "places": [
+    "Louvre",
+    "Lisa",
+    "Off"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thousands join Paris protests as authorities clamp down on disorder",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T19:01:52+00:00"
+    },
+    {
+     "title": "France protests: Louvre shuts down over fears of violence in Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T08:44:22+00:00"
+    },
+    {
+     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
+     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T08:00:13+00:00"
+    },
+    {
+     "title": "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
+     "url": "https://www.ndtv.com/world-news/mona-lisa-off-limits-as-louvre-other-museums-across-paris-shut-amid-protests-12231331#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T18:32:25+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Independent Digital News",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
@@ -999,11 +1103,11 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T14:24:15+00:00",
+   "news_at": "2026-10-24T18:34:04+00:00",
    "owners": [
-    "BBC",
     "NPR",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NDTV"
    ],
    "fame": 75000,
    "news": 75000,
@@ -1017,7 +1121,9 @@
     "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan"
    ],
    "places": [
-    "Christian"
+    "Christian",
+    "Count",
+    "church"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1078,12 +1184,22 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
+    },
+    {
+     "title": "Death Count In Jordan Church Firing Rises To 9",
+     "url": "https://www.ndtv.com/world-news/death-count-in-jordan-church-firing-rises-to-9-12231344#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-24T18:34:04+00:00"
     }
    ],
    "via": [
-    "outlet:BBC",
     "outlet:NPR",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -1383,5 +1499,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 744 headlines from 30 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-oregon-attack, nw-20261024-taiwan-cyclone"
+ "outlet_note": "outlets: 721 headlines from 29 feeds (20 owners), 22 matched to articles, 6 candidates with 2+ owners, 6 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261023-oregon-attack"
 }
