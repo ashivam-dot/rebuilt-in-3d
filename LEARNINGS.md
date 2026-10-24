@@ -1,22 +1,22 @@
 # What this channel's own numbers say
 
-Updated 2026-10-24T08:42:56+00:00. Scored Shorts (views at 24 h): 44. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-24T12:04:41+00:00. Scored Shorts (views at 24 h): 44. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 159 views at 24 h.
-Retention: a typical Short is watched 54.7% through; a group's retention is blended into its lift at 0.5.
-- kind:death: x1.171 ranking lift (12 Shorts, typical 251 views; 11 with retention, typically 52.8% watched)
-- category:death: x1.105 ranking lift (11 Shorts, typical 212 views; 10 with retention, typically 53.9% watched)
-- kind:incident: x1.053 ranking lift (24 Shorts, typical 181 views; 21 with retention, typically 54.1% watched)
-- category:protest: x0.913 ranking lift (6 Shorts, typical 136 views; 4 with retention, typically 45.6% watched)
+Retention: a typical Short is watched 55.4% through; a group's retention is blended into its lift at 0.5.
+- kind:death: x1.165 ranking lift (12 Shorts, typical 251 views; 11 with retention, typically 52.8% watched)
+- category:death: x1.1 ranking lift (11 Shorts, typical 212 views; 10 with retention, typically 53.9% watched)
+- kind:incident: x1.057 ranking lift (24 Shorts, typical 181 views; 22 with retention, typically 55.4% watched)
+- category:protest: x0.94 ranking lift (6 Shorts, typical 136 views; 5 with retention, typically 52.2% watched)
 - kind:quake: x0.75 ranking lift (8 Shorts, typical 54 views; 6 with retention, typically 60.7% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q320093 | 2026-10-22T22:48 | death | death | 1635 | 1600 |
+| wk-Q320093 | 2026-10-22T22:48 | death | death | 1646 | 1600 |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 28 | 28 |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 | 14 |
 | nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1171 | 1173 |
-| wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 409 | 325 |
+| wk-Q141758443-2026w43 | 2026-10-21T09:59 | incident | protest | 413 | 325 |
 | wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 162 | 128 |
 | wk-Q1889124 | 2026-10-20T00:12 | death | death | 618 | 520 |
 | wk-Q5115327 | 2026-10-19T16:51 | death | death | 447 | 371 |

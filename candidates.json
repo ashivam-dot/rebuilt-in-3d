@@ -1,43 +1,23 @@
 {
- "at": "2026-10-24T11:33:03+00:00",
+ "at": "2026-10-24T12:04:43+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q320093",
    "title": "Tom Skerritt",
-   "fame": 371141,
-   "views": 371141,
+   "fame": 406636,
+   "views": 406636,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
    "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 336579,
-   "views": 336579,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1699148",
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
@@ -140,19 +120,20 @@
   {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
-   "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+   "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
    "name": "Jordan",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T10:23:13+00:00",
+   "news_at": "2026-10-24T11:59:08+00:00",
    "owners": [
     "Disney (ABC News)",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
     "BBC",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NPR"
    ],
    "fame": 150000,
    "news": 150000,
@@ -178,6 +159,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T11:59:08+00:00"
+    },
     {
      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
@@ -245,7 +236,8 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:BBC",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NPR"
    ],
    "emerging": true,
    "article": null
@@ -257,7 +249,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T11:33:03.172483+00:00",
+   "news_at": "2026-10-24T12:04:43.407989+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -418,189 +410,24 @@
    "article": null
   },
   {
-   "id": "nw-20261024-vanuatu-earthquake",
-   "qid": null,
-   "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-   "name": "Vanuatu",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T08:21:23+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "Disney (ABC News)",
-    "NDTV",
-    "Independent Digital News"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-    "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
-    "6.9-Magnitude Earthquake In Vanuatu Triggers Brief Tsunami Warning",
-    "Two powerful earthquakes strike off coast of Vanuatu"
-   ],
-   "places": [
-    "Triggers",
-    "Brief",
-    "tsunami"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-     "url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T04:31:41+00:00"
-    },
-    {
-     "title": "Two powerful earthquakes strike off coast of Vanuatu",
-     "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-earthquake-tsunami-warning-magnitude-b3072604.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:21:23+00:00"
-    },
-    {
-     "title": "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
-     "url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T05:38:21+00:00"
-    },
-    {
-     "title": "6.9-Magnitude Earthquake In Vanuatu Triggers Brief Tsunami Warning",
-     "url": "https://www.ndtv.com/world-news/6-9-magnitude-earthquake-in-pacific-nation-of-vanuatu-triggers-brief-tsunami-warning-12229042#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T07:32:33+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)",
-    "outlet:NDTV",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q452431",
-   "title": "Ron Duguay",
-   "fame": 92485,
-   "views": 92485,
+   "qid": "Q1699148",
+   "title": "John Anderson (singer)",
+   "fame": 98885,
+   "views": 98885,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q452431",
+   "id": "wk-Q1699148",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T20:32:02+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Independent Digital News",
-    "Fox Corporation"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    },
-    {
-     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T20:32:02+00:00"
-    },
-    {
-     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T11:37:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation"
-   ],
-   "emerging": true,
-   "article": null
+   "date": "2026-10-21"
   },
   {
    "id": "nw-20261023-paris-attack",
@@ -751,27 +578,27 @@
    "article": null
   },
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-vanuatu-earthquake",
    "qid": null,
-   "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-   "name": "Paris",
+   "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
+   "name": "Vanuatu",
    "kind": "incident",
-   "category": "protest",
+   "category": "earthquake",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T11:29:58+00:00",
+   "news_at": "2026-10-24T08:21:23+00:00",
    "owners": [
-    "France Médias Monde",
+    "ABC (Australia)",
     "Disney (ABC News)",
-    "Paramount (CBS)"
+    "Independent Digital News"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "French police deploy in large numbers, major Paris museums close ahead of new protests",
-    "Paris shuts museums and police deploy in big numbers for new protests across France",
-    "Paris museums close, shops build barricades ahead of more protests"
+    "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
+    "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
+    "Two powerful earthquakes strike off coast of Vanuatu"
    ],
    "places": [],
    "attackers": [],
@@ -785,40 +612,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-     "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
+     "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
+     "url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T05:27:48+00:00"
+     "at": "2026-10-24T04:31:41+00:00"
     },
     {
-     "title": "Paris museums close, shops build barricades ahead of more protests",
-     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Two powerful earthquakes strike off coast of Vanuatu",
+     "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-earthquake-tsunami-warning-magnitude-b3072604.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T11:29:58+00:00"
+     "at": "2026-10-24T08:21:23+00:00"
     },
     {
-     "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "title": "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
+     "url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:30:59+00:00"
+     "at": "2026-10-24T05:38:21+00:00"
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
+    "outlet:ABC (Australia)",
     "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -901,32 +728,63 @@
    "article": null
   },
   {
-   "qid": "Q141820360",
-   "title": "2026 Trappes and La Verrière shootings",
-   "fame": 50000,
-   "views": 0,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 71729,
+   "views": 21729,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-24T00:00:00+00:00",
-   "headlines": [],
+   "news": 50000,
+   "news_at": "2026-10-24T12:04:23+00:00",
+   "headlines": [
+    "French police respond as nation braces for another weekend of protests",
+    "French students vow to keep protesting"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-10-23"
+    "wikipedia-top-2026-10-23",
+    "google-news:French police respond as nation braces for another weekend of protests",
+    "google-news:French students vow to keep protesting",
+    "outlet:Paramount (CBS)",
+    "outlet:France Médias Monde"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820360",
+   "owners": [
+    "Paramount (CBS)",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "French police respond as nation braces for another weekend of protests",
+     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T12:04:23+00:00"
+    },
+    {
+     "title": "French students vow to keep protesting",
+     "url": "https://www.france24.com/en/french-students-vow-to-keep-protesting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T10:31:08+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w43",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
+   "category": "protest",
+   "date": "2026-10-24",
    "coords": null,
    "has_coords": true
   },
   {
    "qid": "Q983618",
    "title": "Dónal Lunny",
-   "fame": 25000,
-   "views": 0,
+   "fame": 57553,
+   "views": 32553,
    "traffic": 0,
    "news": 25000,
    "news_at": "2026-10-24T08:44:44+00:00",
@@ -935,6 +793,7 @@
    ],
    "region": "world",
    "via": [
+    "wikipedia-top-2026-10-23",
     "google-news:Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
     "outlet:Guardian Media Group"
    ],
@@ -957,6 +816,88 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-23"
+  },
+  {
+   "qid": "Q452431",
+   "title": "Ron Duguay",
+   "fame": 55287,
+   "views": 55287,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q452431",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q141820360",
+   "title": "2026 Trappes and La Verrière shootings",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-24T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820360",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q6830740",
+   "title": "Michael Gray (actor)",
+   "fame": 41840,
+   "views": 41840,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6830740",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-16"
+  },
+  {
+   "qid": "Q380265",
+   "title": "Ryū Murakami",
+   "fame": 27254,
+   "views": 27254,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q380265",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-17"
   },
   {
    "qid": "Q5218847",
@@ -997,15 +938,15 @@
   {
    "qid": "Q3424313",
    "title": "Deva (composer)",
-   "fame": 20344,
-   "views": 20344,
+   "fame": 11001,
+   "views": 11001,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
@@ -1015,129 +956,24 @@
    "date": "2026-10-17"
   },
   {
-   "qid": "Q1889124",
-   "title": "Richard Riehle",
-   "fame": 10326,
-   "views": 10326,
+   "qid": "Q3012285",
+   "title": "Dale Brown (basketball)",
+   "fame": 8650,
+   "views": 8650,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-22"
+    "wikipedia-top-2026-10-23"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1889124",
+   "id": "wk-Q3012285",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-15"
-  },
-  {
-   "qid": "Q19729623",
-   "title": "Napoleon Bonaparte (police officer)",
-   "fame": 9763,
-   "views": 9763,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q19729623",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-18"
-  },
-  {
-   "qid": "Q28151642",
-   "title": "Kwame Dzokoto",
-   "fame": 9061,
-   "views": 9061,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q28151642",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "qid": "Q51641814",
-   "title": "Ann Hornaday",
-   "fame": 8519,
-   "views": 8519,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q51641814",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-18"
-  },
-  {
-   "qid": "Q6261870",
-   "title": "John Vaughan (footballer, born 1964)",
-   "fame": 7892,
-   "views": 7892,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6261870",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
-  },
-  {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 7589,
-   "views": 7589,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141745391",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
-   "has_coords": true
+   "date": "2026-10-23"
   }
  ],
  "hazards": [
@@ -1166,77 +1002,100 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T11:29:58+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Disney (ABC News)",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 71729,
+   "views": 21729,
    "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-24T12:04:23+00:00",
    "headlines": [
-    "French police deploy in large numbers, major Paris museums close ahead of new protests",
-    "Paris shuts museums and police deploy in big numbers for new protests across France",
-    "Paris museums close, shops build barricades ahead of more protests"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "French police respond as nation braces for another weekend of protests",
+    "French students vow to keep protesting"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
+   "via": [
+    "wikipedia-top-2026-10-23",
+    "google-news:French police respond as nation braces for another weekend of protests",
+    "google-news:French students vow to keep protesting",
+    "outlet:Paramount (CBS)",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "Paramount (CBS)",
+    "France Médias Monde"
+   ],
    "reports": [
     {
-     "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-     "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T05:27:48+00:00"
-    },
-    {
-     "title": "Paris museums close, shops build barricades ahead of more protests",
+     "title": "French police respond as nation braces for another weekend of protests",
      "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T11:29:58+00:00"
+     "at": "2026-10-24T12:04:23+00:00"
     },
     {
-     "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
+     "title": "French students vow to keep protesting",
+     "url": "https://www.france24.com/en/french-students-vow-to-keep-protesting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T09:30:59+00:00"
+     "at": "2026-10-24T10:31:08+00:00"
     }
    ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)"
+   "id": "wk-Q141615137-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-24T12:04:43.407989+00:00",
+   "headlines": [
+    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
-   "emerging": true,
-   "article": null
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-23",
+    "wikipedia-current-events-2026-10-24",
+    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T18:33:00+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141820360",
@@ -1262,29 +1121,30 @@
   }
  ],
  "outlets": {
-  "headlines": 764,
+  "headlines": 766,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 9
+  "matched": 28,
+  "corroborated": 8
  },
  "emerging": [
   {
    "id": "nw-20261023-jordan-attack",
    "qid": null,
-   "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+   "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
    "name": "Jordan",
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-23",
-   "news_at": "2026-10-24T10:23:13+00:00",
+   "news_at": "2026-10-24T11:59:08+00:00",
    "owners": [
     "Disney (ABC News)",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
     "BBC",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NPR"
    ],
    "fame": 150000,
    "news": 150000,
@@ -1310,6 +1170,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T11:59:08+00:00"
+    },
     {
      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
@@ -1377,7 +1247,8 @@
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
     "outlet:BBC",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NPR"
    ],
    "emerging": true,
    "article": null
@@ -1483,171 +1354,6 @@
    "article": null
   },
   {
-   "id": "nw-20261024-vanuatu-earthquake",
-   "qid": null,
-   "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-   "name": "Vanuatu",
-   "kind": "incident",
-   "category": "earthquake",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T08:21:23+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "Disney (ABC News)",
-    "NDTV",
-    "Independent Digital News"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-    "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
-    "6.9-Magnitude Earthquake In Vanuatu Triggers Brief Tsunami Warning",
-    "Two powerful earthquakes strike off coast of Vanuatu"
-   ],
-   "places": [
-    "Triggers",
-    "Brief",
-    "tsunami"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-     "url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T04:31:41+00:00"
-    },
-    {
-     "title": "Two powerful earthquakes strike off coast of Vanuatu",
-     "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-earthquake-tsunami-warning-magnitude-b3072604.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:21:23+00:00"
-    },
-    {
-     "title": "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
-     "url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T05:38:21+00:00"
-    },
-    {
-     "title": "6.9-Magnitude Earthquake In Vanuatu Triggers Brief Tsunami Warning",
-     "url": "https://www.ndtv.com/world-news/6-9-magnitude-earthquake-in-pacific-nation-of-vanuatu-triggers-brief-tsunami-warning-12229042#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T07:32:33+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)",
-    "outlet:NDTV",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T20:32:02+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Independent Digital News",
-    "Fox Corporation"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-    "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-    "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris"
-   ],
-   "places": [
-    "Islamophobic"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Terror investigation underway after person killed in suspected Islamophobic shooting near Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/trappes-shooting-yvelines-paris-terrorism-b3072366.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T15:30:43+00:00"
-    },
-    {
-     "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-     "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T20:32:02+00:00"
-    },
-    {
-     "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-     "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T11:37:09+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261023-paris-attack",
    "qid": null,
    "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
@@ -1796,27 +1502,27 @@
    "article": null
   },
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-vanuatu-earthquake",
    "qid": null,
-   "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-   "name": "Paris",
+   "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
+   "name": "Vanuatu",
    "kind": "incident",
-   "category": "protest",
+   "category": "earthquake",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T11:29:58+00:00",
+   "news_at": "2026-10-24T08:21:23+00:00",
    "owners": [
-    "France Médias Monde",
+    "ABC (Australia)",
     "Disney (ABC News)",
-    "Paramount (CBS)"
+    "Independent Digital News"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "French police deploy in large numbers, major Paris museums close ahead of new protests",
-    "Paris shuts museums and police deploy in big numbers for new protests across France",
-    "Paris museums close, shops build barricades ahead of more protests"
+    "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
+    "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
+    "Two powerful earthquakes strike off coast of Vanuatu"
    ],
    "places": [],
    "attackers": [],
@@ -1830,40 +1536,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-     "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
+     "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
+     "url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T05:27:48+00:00"
+     "at": "2026-10-24T04:31:41+00:00"
     },
     {
-     "title": "Paris museums close, shops build barricades ahead of more protests",
-     "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Two powerful earthquakes strike off coast of Vanuatu",
+     "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-earthquake-tsunami-warning-magnitude-b3072604.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T11:29:58+00:00"
+     "at": "2026-10-24T08:21:23+00:00"
     },
     {
-     "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "title": "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
+     "url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T09:30:59+00:00"
+     "at": "2026-10-24T05:38:21+00:00"
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
+    "outlet:ABC (Australia)",
     "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -1946,5 +1652,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 26 matched to articles, 9 candidates with 2+ owners, 8 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261024-vanuatu-earthquake"
+ "outlet_note": "outlets: 766 headlines from 30 feeds (21 owners), 28 matched to articles, 8 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
 }
