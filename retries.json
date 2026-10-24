@@ -336,9 +336,9 @@
   "rules": "anchored-2026-10"
  },
  "wk-Q983618": {
-  "count": 3,
-  "reason": "gate: narration: 48 words (want 50-200)",
-  "at": "2026-10-24T21:08:17+00:00",
+  "count": 4,
+  "reason": "gate: no draft passed the fact checks: these names or numbers are not in the sources: 0",
+  "at": "2026-10-24T21:29:08+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25"
  },
@@ -406,6 +406,13 @@
   "count": 1,
   "reason": "gate: only 1 usable photos of Taiwan (want 2)",
   "at": "2026-10-24T19:38:33+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25"
+ },
+ "nw-20261024-champi-cyclone": {
+  "count": 1,
+  "reason": "gate: narration: 32 words (want 50-200); beats: only 2 pictures (want 4 or more, each shown once); photos: only 2 show who or what the story is about (want 3 or more)",
+  "at": "2026-10-24T21:22:31+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25"
  }
