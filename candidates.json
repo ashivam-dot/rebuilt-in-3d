@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T00:00:45+00:00",
+ "at": "2026-10-24T00:50:23+00:00",
  "quakes": [],
  "trending": [
   {
@@ -44,6 +44,48 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141745391",
+   "title": "2026 Silver Rail Elementary School shooting",
+   "fame": 157589,
+   "views": 7589,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-23T23:14:00+00:00",
+   "headlines": [
+    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-22",
+    "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-23T23:10:42+00:00"
+    }
+   ],
+   "id": "wk-Q141745391",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-15",
+   "coords": [
+    44.03444444,
+    -121.29527778
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261023-paris-attack",
@@ -170,6 +212,7 @@
    "date": "2026-10-23",
    "news_at": "2026-10-23T23:49:51+00:00",
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "BBC",
@@ -183,11 +226,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Watch: CCTV footage shows gunmen near church in Jordan",
-    "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Jordan church, king vows retaliation"
    ],
    "places": [
     "CCTV",
@@ -274,17 +317,18 @@
      "at": "2026-10-23T15:36:20+00:00"
     },
     {
-     "title": "Video: Gunmen storm Jordan church during funeral, killing 7 and wounding 40",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/video-gunmen-storm-jordan-church-during-funeral-killing-7-and-wounding-40-mourners/articleshow/135158303.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-23T23:49:51+00:00"
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:BBC",
@@ -303,7 +347,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-23T08:48:37+00:00",
+   "news_at": "2026-10-23T21:51:00+00:00",
    "headlines": [
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
     "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
@@ -386,6 +430,30 @@
     32.38,
     93.78
    ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets gang ambush",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-23T00:54:00+00:00",
+   "headlines": [
+    "El Salvador Sends Troops to Haiti to Rescue Military Personnel After Gang Ambush"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:El Salvador Sends Troops to Haiti to Rescue Military Personnel After Gang Ambush"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141808612",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-18",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -485,6 +553,92 @@
     "outlet:Disney (ABC News)",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:05:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T22:05:59+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -638,81 +792,6 @@
    "article": null
   },
   {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T22:05:59+00:00",
-   "owners": [
-    "SCMP Group",
-    "BBC",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T19:42:08+00:00"
-    },
-    {
-     "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-     "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T18:13:09+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T22:05:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261023-oregon-attack",
    "qid": null,
    "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
@@ -786,45 +865,41 @@
    "article": null
   },
   {
-   "qid": "Q141745391",
-   "title": "2026 Silver Rail Elementary School shooting",
-   "fame": 32589,
-   "views": 7589,
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 25000,
+   "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-23T23:10:42+00:00",
+   "news_at": "2026-10-23T21:56:03+00:00",
    "headlines": [
-    "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’"
+    "Kolkata stampede: Death in the time of Durga Puja"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-10-22",
-    "google-news:Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-    "outlet:Guardian Media Group"
+    "google-news:Kolkata stampede: Death in the time of Durga Puja",
+    "outlet:The Hindu Group"
    ],
    "owners": [
-    "Guardian Media Group"
+    "The Hindu Group"
    ],
    "reports": [
     {
-     "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
-     "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
+     "title": "Kolkata stampede: Death in the time of Durga Puja",
+     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-23T23:10:42+00:00"
+     "at": "2026-10-23T21:56:03+00:00"
     }
    ],
-   "id": "wk-Q141745391",
+   "id": "wk-Q141760142",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-15",
-   "coords": [
-    44.03444444,
-    -121.29527778
-   ],
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -974,48 +1049,6 @@
  ],
  "candidates": [
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T00:00:00+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q3424313",
    "title": "Deva (composer)",
    "fame": 20344,
@@ -1034,13 +1067,51 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-17"
+  },
+  {
+   "qid": "Q141760142",
+   "title": "2026 Kolkata Durga Puja crowd crush",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-23T21:56:03+00:00",
+   "headlines": [
+    "Kolkata stampede: Death in the time of Durga Puja"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Kolkata stampede: Death in the time of Durga Puja",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Kolkata stampede: Death in the time of Durga Puja",
+     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-23T21:56:03+00:00"
+    }
+   ],
+   "id": "wk-Q141760142",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-10-17",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 775,
+  "headlines": 785,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 46,
   "corroborated": 7
  },
  "emerging": [
@@ -1169,6 +1240,7 @@
    "date": "2026-10-23",
    "news_at": "2026-10-23T23:49:51+00:00",
    "owners": [
+    "Disney (ABC News)",
     "France Médias Monde",
     "Paramount (CBS)",
     "BBC",
@@ -1182,11 +1254,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Several killed, dozens wounded in Jordan church shooting",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Watch: CCTV footage shows gunmen near church in Jordan",
-    "Gunmen kill 7 at Jordan church, king vows retaliation",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+    "Gunmen kill 7 at Jordan church, king vows retaliation"
    ],
    "places": [
     "CCTV",
@@ -1273,17 +1345,18 @@
      "at": "2026-10-23T15:36:20+00:00"
     },
     {
-     "title": "Video: Gunmen storm Jordan church during funeral, killing 7 and wounding 40",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/video-gunmen-storm-jordan-church-during-funeral-killing-7-and-wounding-40-mourners/articleshow/135158303.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
+     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
+     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-23T23:49:51+00:00"
+     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Paramount (CBS)",
     "outlet:BBC",
@@ -1397,6 +1470,92 @@
    "article": null
   },
   {
+   "id": "nw-20261023-paris-attack",
+   "qid": null,
+   "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "news_at": "2026-10-23T22:05:59+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+    "France: 1 killed, 4 wounded after shooting near Paris",
+    "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
+     "url": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T14:24:56+00:00"
+    },
+    {
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-23T11:22:00+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T22:05:59+00:00"
+    },
+    {
+     "title": "Suspect arrested after 1 killed and several wounded in a shooting in Paris suburb",
+     "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-1-killed-wounded-shooting-paris-137503084",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T10:43:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261023-bank-attack",
    "qid": null,
    "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
@@ -1483,81 +1642,6 @@
    "article": null
   },
   {
-   "id": "nw-20261023-paris-attack",
-   "qid": null,
-   "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-23T22:05:59+00:00",
-   "owners": [
-    "SCMP Group",
-    "BBC",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T19:42:08+00:00"
-    },
-    {
-     "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-     "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T18:13:09+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T22:05:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261023-oregon-attack",
    "qid": null,
    "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
@@ -1631,5 +1715,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 775 headlines from 30 feeds (21 owners), 41 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-champi-cyclone"
+ "outlet_note": "outlets: 785 headlines from 30 feeds (21 owners), 46 matched to articles, 7 candidates with 2+ owners, 6 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-champi-cyclone"
 }
