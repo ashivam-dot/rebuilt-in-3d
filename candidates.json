@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T03:51:37+00:00",
+ "at": "2026-10-24T04:10:55+00:00",
  "quakes": [],
  "trending": [
   {
@@ -465,26 +465,23 @@
    "news_at": "2026-10-24T02:22:32+00:00",
    "owners": [
     "Euronews",
-    "SCMP Group",
     "Al Jazeera Media Network",
     "Disney (ABC News)",
     "Guardian Media Group"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
     "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
    ],
    "places": [
     "Champi",
-    "Deadly",
-    "Shanghai"
+    "Deadly"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -517,16 +514,6 @@
      "at": "2026-10-23T23:10:54+00:00"
     },
     {
-     "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T08:00:39+00:00"
-    },
-    {
      "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
      "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
      "outlet": "Euronews",
@@ -549,7 +536,6 @@
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:SCMP Group",
     "outlet:Al Jazeera Media Network",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group"
@@ -968,107 +954,12 @@
    "lon": "123.8"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q5218847",
-   "title": "Daniel Stewart (Australian footballer)",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T03:29:23+00:00",
-   "headlines": [
-    "Former Port Adelaide AFL player Daniel Stewart dies at 37"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Former Port Adelaide AFL player Daniel Stewart dies at 37",
-    "outlet:ABC (Australia)"
-   ],
-   "owners": [
-    "ABC (Australia)"
-   ],
-   "reports": [
-    {
-     "title": "Former Port Adelaide AFL player Daniel Stewart dies at 37",
-     "url": "https://www.abc.net.au/news/2026-10-24/former-port-adelaide-afl-player-daniel-stewart-dies-at-37/107304782",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T03:29:23+00:00"
-    }
-   ],
-   "id": "wk-Q5218847",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q3424313",
-   "title": "Deva (composer)",
-   "fame": 11001,
-   "views": 11001,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3424313",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-17"
-  },
-  {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-24T03:10:43+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Kolkata stampede: Death in the time of Durga Puja",
-     "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-death-in-the-time-of-durga-puja/article71616855.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T03:10:43+00:00"
-    }
-   ],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 776,
+  "headlines": 770,
   "feeds": 30,
   "owners": 21,
-  "matched": 37,
+  "matched": 33,
   "corroborated": 6
  },
  "emerging": [
@@ -1341,26 +1232,23 @@
    "news_at": "2026-10-24T02:22:32+00:00",
    "owners": [
     "Euronews",
-    "SCMP Group",
     "Al Jazeera Media Network",
     "Disney (ABC News)",
     "Guardian Media Group"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
-    "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
     "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
     "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
    ],
    "places": [
     "Champi",
-    "Deadly",
-    "Shanghai"
+    "Deadly"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1393,16 +1281,6 @@
      "at": "2026-10-23T23:10:54+00:00"
     },
     {
-     "title": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
-     "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-23T08:00:39+00:00"
-    },
-    {
      "title": "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
      "url": "https://www.euronews.com/video/2026/10/23/taiwan-deadly-typhoon-champi-brings-travel-chaos-and-school-closures",
      "outlet": "Euronews",
@@ -1425,7 +1303,6 @@
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:SCMP Group",
     "outlet:Al Jazeera Media Network",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group"
@@ -1606,5 +1483,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 776 headlines from 30 feeds (21 owners), 37 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
+ "outlet_note": "outlets: 770 headlines from 30 feeds (21 owners), 33 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-paris-attack, nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone"
 }
