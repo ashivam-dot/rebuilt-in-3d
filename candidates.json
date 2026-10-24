@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T12:48:59+00:00",
+ "at": "2026-10-24T13:17:27+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,10 +25,10 @@
   {
    "qid": "Q141807978",
    "title": "2026 Tibet earthquake",
-   "fame": 150000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
+   "news": 175000,
    "news_at": "2026-10-24T10:59:59+00:00",
    "headlines": [
     "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
@@ -44,6 +44,7 @@
     "google-news:Number of injured rises to 76 after deadly earthquake in Tibet",
     "outlet:Bennett, Coleman & Co.",
     "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)",
     "outlet:Euronews"
@@ -51,6 +52,7 @@
    "owners": [
     "Bennett, Coleman & Co.",
     "ABC (Australia)",
+    "Disney (ABC News)",
     "Guardian Media Group",
     "Paramount (CBS)",
     "Euronews"
@@ -75,6 +77,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-24T01:22:11+00:00"
+    },
+    {
+     "title": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+     "url": "https://abcnews.com/International/wireStory/rescuers-search-survivors-after-deadly-earthquake-chinas-tibet-137501379",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-23T08:48:37+00:00"
     },
     {
      "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
@@ -127,7 +139,6 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T11:59:08+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
@@ -140,11 +151,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
     "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
+    "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+    "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan"
    ],
    "places": [
     "Christian"
@@ -218,20 +229,9 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
@@ -249,7 +249,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-24T12:48:59.456578+00:00",
+   "news_at": "2026-10-24T13:17:27.534808+00:00",
    "headlines": [
     "Jordan: Karak church shooting leaves 7 dead, dozens injured"
    ],
@@ -319,8 +319,8 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T10:33:04+00:00",
    "owners": [
-    "Guardian Media Group",
     "Disney (ABC News)",
+    "Guardian Media Group",
     "Deutsche Welle",
     "France Médias Monde"
    ],
@@ -330,8 +330,8 @@
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
     "Typhoon Champi batters Taiwan"
    ],
@@ -390,19 +390,19 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
+     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
+     "at": "2026-10-24T00:54:31+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde"
    ],
@@ -651,156 +651,6 @@
    "article": null
   },
   {
-   "id": "nw-20261024-hitler-disaster",
-   "qid": null,
-   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-   "name": "Hitler",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T10:42:26+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "ABC (Australia)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
-   ],
-   "places": [
-    "Alpine",
-    "Eagle",
-    "Nest"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T09:16:03+00:00"
-    },
-    {
-     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T07:31:42+00:00"
-    },
-    {
-     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T10:42:26+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T12:06:25+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Hundreds of soldiers sent to Milan as protests planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Hundreds of soldiers sent to Milan as protests planned across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T11:14:43+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q983618",
    "title": "Dónal Lunny",
    "fame": 57553,
@@ -1020,186 +870,13 @@
    "lon": "123.8"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261024-hitler-disaster",
-   "qid": null,
-   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-   "name": "Hitler",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T10:42:26+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "ABC (Australia)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
-   ],
-   "places": [
-    "Alpine",
-    "Eagle",
-    "Nest"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T09:16:03+00:00"
-    },
-    {
-     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T07:31:42+00:00"
-    },
-    {
-     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T10:42:26+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T12:06:25+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Hundreds of soldiers sent to Milan as protests planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Hundreds of soldiers sent to Milan as protests planned across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T11:14:43+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q141820360",
-   "title": "2026 Trappes and La Verrière shootings",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-24T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820360",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": null,
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 771,
+  "headlines": 768,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
-  "corroborated": 8
+  "matched": 31,
+  "corroborated": 6
  },
  "emerging": [
   {
@@ -1212,7 +889,6 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T11:59:08+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Paramount (CBS)",
     "SCMP Group",
     "Fox Corporation",
@@ -1225,11 +901,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
     "Gunmen kill at least 7 in attack on Jordan church, authorities say",
     "Gunmen kill 7 at Jordan church, king vows retaliation",
     "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-    "Seven shot dead by gunmen at church funeral in Jordan, officials say"
+    "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+    "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan"
    ],
    "places": [
     "Christian"
@@ -1303,20 +979,9 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Gunmen open fire inside a church in Jordan, causing deaths and injuries",
-     "url": "https://abcnews.com/International/wireStory/gunmen-open-fire-inside-church-jordan-causing-deaths-137507163",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T13:15:32+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)",
     "outlet:SCMP Group",
     "outlet:Fox Corporation",
@@ -1337,8 +1002,8 @@
    "date": "2026-10-23",
    "news_at": "2026-10-24T10:33:04+00:00",
    "owners": [
-    "Guardian Media Group",
     "Disney (ABC News)",
+    "Guardian Media Group",
     "Deutsche Welle",
     "France Médias Monde"
    ],
@@ -1348,8 +1013,8 @@
    "traffic": 0,
    "headlines": [
     "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
+    "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
     "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
     "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
     "Typhoon Champi batters Taiwan"
    ],
@@ -1408,19 +1073,19 @@
      "at": "2026-10-23T07:30:03+00:00"
     },
     {
-     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
-     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
+     "title": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+     "url": "https://abcnews.com/International/wireStory/taiwan-shuts-schools-grounds-flights-typhoon-champi-brushes-137500371",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-24T05:00:42+00:00"
+     "at": "2026-10-24T00:54:31+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde"
    ],
@@ -1647,157 +1312,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261024-hitler-disaster",
-   "qid": null,
-   "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-   "name": "Hitler",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T10:42:26+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "ABC (Australia)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-    "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-    "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained"
-   ],
-   "places": [
-    "Alpine",
-    "Eagle",
-    "Nest"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-     "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T09:16:03+00:00"
-    },
-    {
-     "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T07:31:42+00:00"
-    },
-    {
-     "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-     "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T10:42:26+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T12:06:25+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Hundreds of soldiers sent to Milan as protests planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Hundreds of soldiers sent to Milan as protests planned across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T11:14:43+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 30 matched to articles, 8 candidates with 2+ owners, 7 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
+ "outlet_note": "outlets: 768 headlines from 30 feeds (21 owners), 31 matched to articles, 6 candidates with 2+ owners, 5 nw- stories (on): nw-20261023-jordan-attack, nw-20261023-taiwan-cyclone, nw-20261023-paris-attack"
 }
