@@ -1,13 +1,12 @@
 {
- "at": "2026-10-25T13:17:32+00:00",
+ "at": "2026-10-25T13:47:37+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
-  "watch: 2 candidates (0 quakes, 17 trending), 2 hazard alerts",
-  "outlets: 657 headlines from 29 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting, wk-Q141820731",
-  "skip wp-2026_Florida_A_M_University_shooting: gate: neither Wikidata nor the infobox gives a date for this event",
-  "skip wk-Q141820731: gate: no draft passed the fact checks: beat 2, 3 name(s) nothing its photo shows (only 49% of the script shows what it says; want 70%): in each, name who or what a photo shows (Jafar Hassan, police, hospital), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; beat 3's caption 'Luzmila Hospital' names a place, which viewers read as where",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
+  "watch: 1 candidates (0 quakes, 17 trending), 2 hazard alerts",
+  "outlets: 660 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting",
+  "skip wp-2026_Florida_A_M_University_shooting: gate: event date conflicts between the structured source (2026-10-25) and article lead (2026-10-24)",
   "nothing eligible to publish"
  ]
 }

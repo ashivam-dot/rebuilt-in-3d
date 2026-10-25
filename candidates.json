@@ -1,15 +1,43 @@
 {
- "at": "2026-10-25T13:17:33+00:00",
+ "at": "2026-10-25T13:47:38+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": null,
-   "title": "2026 Florida A&M University shooting",
-   "fame": 200000,
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-10-25T10:45:37+00:00",
+   "news": 175000,
+   "news_at": "2026-10-25T12:36:48+00:00",
+   "headlines": [
+    "Saudi Arabia Reopens Riyadh Airport After Weeks of Houthi Attacks",
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Saudi Arabia Reopens Riyadh Airport After Weeks of Houthi Attacks",
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": null,
+   "title": "2026 Florida A&M University shooting",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 100000,
+   "news_at": "2026-10-25T13:30:57+00:00",
    "headlines": [
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "12 injured, including 6 children, in shooting near Florida university, police say",
@@ -38,7 +66,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-25T10:45:37+00:00"
+     "at": "2026-10-25T13:30:57+00:00"
     },
     {
      "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -182,32 +210,6 @@
    "date": "2026-10-25",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-25T06:40:06+00:00",
-   "headlines": [
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q5218847",
@@ -460,11 +462,11 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 200000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-10-25T10:45:37+00:00",
+   "news": 100000,
+   "news_at": "2026-10-25T13:30:57+00:00",
    "headlines": [
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "12 injured, including 6 children, in shooting near Florida university, police say",
@@ -493,7 +495,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-25T10:45:37+00:00"
+     "at": "2026-10-25T13:30:57+00:00"
     },
     {
      "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -525,41 +527,15 @@
     -84.29166667
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 60900,
-   "views": 10900,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24",
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 657,
+  "headlines": 660,
   "feeds": 29,
   "owners": 21,
-  "matched": 25,
+  "matched": 24,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 657 headlines from 29 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 660 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
