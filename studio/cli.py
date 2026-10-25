@@ -18,7 +18,7 @@ RETRYABLE = ("faceless:", "words (want", "does not confirm the death", "usable p
              "came out garbled", "banned wording", "casualties without an agreed toll", "isn't backed by any sourced",
              "show who or what the story is about", "pictures show what is said for only",
              # a feed's article that could not be read this run (a timeout, the run's fetches spent) may be next run
-             "could be read")
+             "could be read", "neither Wikidata nor the infobox gives a date", "event date conflicts")
 MAX_WRITTEN = 2  # each script costs minutes of CPU on the runner
 PRODUCTION_VERSION = "news-shorts-2026-10-24"
 log = logging.getLogger("studio")
