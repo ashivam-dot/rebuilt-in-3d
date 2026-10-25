@@ -1,10 +1,12 @@
 {
- "at": "2026-10-24T23:32:30+00:00",
+ "at": "2026-10-25T00:09:08+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 83 units today",
-  "watch: 1 candidates (0 quakes, 21 trending), 2 hazard alerts",
-  "outlets: 731 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261024-taiwan-cyclone",
-  "hold wk-Q141760142: outside the india window"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 84 units today",
+  "watch: 2 candidates (0 quakes, 20 trending), 2 hazard alerts",
+  "outlets: 728 headlines from 30 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261023-jordan-attack",
+  "hold wk-Q141760142: outside the india window",
+  "skip nw-20261024-paris-protest: gate: faceless: no free photo shows Paris or the event itself (only 2 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }

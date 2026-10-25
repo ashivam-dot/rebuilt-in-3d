@@ -367,10 +367,11 @@
   "rules": "anchored-2026-10"
  },
  "nw-20261024-paris-protest": {
-  "count": 2,
-  "reason": "gate: faceless: no free photo shows Paris or the event itself (only 6 photos of places or things near it)",
-  "at": "2026-10-24T11:35:40+00:00",
-  "rules": "anchored-2026-10"
+  "count": 3,
+  "reason": "gate: faceless: no free photo shows Paris or the event itself (only 2 photos of places or things near it)",
+  "at": "2026-10-25T00:12:16+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25"
  },
  "nw-20261024-hitler-disaster": {
   "count": 2,
