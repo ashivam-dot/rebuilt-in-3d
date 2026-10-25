@@ -1,27 +1,27 @@
 {
- "at": "2026-10-25T11:03:50+00:00",
+ "at": "2026-10-25T11:34:41+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 375000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
+   "news": 250000,
    "news_at": "2026-10-25T10:45:37+00:00",
    "headlines": [
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "12 injured, including 6 children, in shooting near Florida university, police say",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "12, Including 6 Children, Injured In Shooting Near Florida University"
    ],
    "region": "world",
    "via": [
-    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
     "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
+    "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
     "outlet:Disney (ABC News)",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
@@ -96,6 +96,60 @@
     -84.29166667
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-10-25T10:56:19+00:00",
+   "headlines": [
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "India advises its nationals in Saudi Arabia against filming missile interceptions"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "google-news:India advises its nationals in Saudi Arabia against filming missile interceptions",
+    "outlet:The Hindu Group",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "The Hindu Group",
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T10:56:19+00:00"
+    },
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.hindustantimes.com/india-news/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions-101792919967630.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T09:25:54+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141760142",
@@ -225,10 +279,102 @@
    "article": "2026 Florida A&M University shooting"
   },
   {
-   "id": "nw-20261024-paris-protest",
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:15:00+00:00",
+   "owners": [
+    "Euronews",
+    "Disney (ABC News)",
+    "NPR"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T07:15:00+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:43:07+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)",
+    "outlet:NPR"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261024-clashes-protest",
    "qid": null,
    "title": "France: Clashes erupt as protests sweep across cities",
-   "name": "Paris",
+   "name": "Clashes",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
@@ -236,22 +382,19 @@
    "owners": [
     "SCMP Group",
     "France Médias Monde",
-    "Disney (ABC News)",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Clashes flare at Paris protests as more than 400,000 march across France",
     "France: Clashes erupt as protests sweep across cities",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
     "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
-    "Clashes",
-    "Macron"
+    "Paris"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -292,178 +435,12 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
     "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
     "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88131,
-   "views": 88131,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-10-25T10:56:19+00:00",
-   "headlines": [
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "India advises its nationals in Saudi Arabia against filming missile interceptions"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "google-news:India advises its nationals in Saudi Arabia against filming missile interceptions",
-    "outlet:The Hindu Group",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "The Hindu Group",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
-     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T10:56:19+00:00"
-    },
-    {
-     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
-     "url": "https://www.hindustantimes.com/india-news/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions-101792919967630.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T09:25:54+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T07:15:00+00:00",
-   "owners": [
-    "Euronews",
-    "Disney (ABC News)",
-    "NPR"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests",
-    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T07:15:00+00:00"
-    },
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:43:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:NPR"
    ],
    "emerging": true,
    "article": null
@@ -811,23 +788,23 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 375000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
+   "news": 250000,
    "news_at": "2026-10-25T10:45:37+00:00",
    "headlines": [
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "12 injured, including 6 children, in shooting near Florida university, police say",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "12, Including 6 Children, Injured In Shooting Near Florida University"
    ],
    "region": "world",
    "via": [
-    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
     "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
+    "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
     "outlet:Disney (ABC News)",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
@@ -902,13 +879,116 @@
     -84.29166667
    ],
    "has_coords": true
+  },
+  {
+   "id": "nw-20261025-florida-attack",
+   "qid": null,
+   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "news_at": "2026-10-25T10:45:37+00:00",
+   "owners": [
+    "NDTV",
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Disney (ABC News)"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "At least 12 injured, including 6 children, in shooting near Florida A&M",
+    "12 injured, including 6 children, in shooting near Florida university, police say"
+   ],
+   "places": [
+    "Injured",
+    "University",
+    "Children"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:47+00:00"
+    },
+    {
+     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
+     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:45:37+00:00"
+    },
+    {
+     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
+     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:21:28+00:00"
+    },
+    {
+     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T05:31:31+00:00"
+    },
+    {
+     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:28:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": "2026 Florida A&M University shooting"
   }
  ],
  "outlets": {
-  "headlines": 680,
+  "headlines": 675,
   "feeds": 29,
   "owners": 21,
-  "matched": 22,
+  "matched": 23,
   "corroborated": 5
  },
  "emerging": [
@@ -1016,10 +1096,82 @@
    "article": "2026 Florida A&M University shooting"
   },
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:15:00+00:00",
+   "owners": [
+    "Euronews",
+    "Disney (ABC News)",
+    "NPR"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T07:15:00+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:43:07+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)",
+    "outlet:NPR"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261024-clashes-protest",
    "qid": null,
    "title": "France: Clashes erupt as protests sweep across cities",
-   "name": "Paris",
+   "name": "Clashes",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
@@ -1027,22 +1179,19 @@
    "owners": [
     "SCMP Group",
     "France Médias Monde",
-    "Disney (ABC News)",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Clashes flare at Paris protests as more than 400,000 march across France",
     "France: Clashes erupt as protests sweep across cities",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
     "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
-    "Clashes",
-    "Macron"
+    "Paris"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1083,110 +1232,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
     "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
     "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T07:15:00+00:00",
-   "owners": [
-    "Euronews",
-    "Disney (ABC News)",
-    "NPR"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests",
-    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T07:15:00+00:00"
-    },
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:43:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:NPR"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 680 headlines from 29 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-paris-protest, nw-20261024-milan-protest"
+ "outlet_note": "outlets: 675 headlines from 29 feeds (21 owners), 23 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-milan-protest, nw-20261024-clashes-protest"
 }

@@ -1,12 +1,13 @@
 {
- "at": "2026-10-25T11:03:49+00:00",
+ "at": "2026-10-25T11:34:40+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 8 units today",
-  "watch: 1 candidates (0 quakes, 21 trending), 2 hazard alerts",
-  "outlets: 680 headlines from 29 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-paris-protest, nw-20261024-milan-protest",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting",
-  "wait wp-2026_Florida_A_M_University_shooting: gate: the article is under 6 hours old; facts may still move (ready in 2.1 h)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
+  "watch: 2 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 675 headlines from 29 feeds (21 owners), 23 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-milan-protest, nw-20261024-clashes-protest",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting, nw-20261025-florida-attack",
+  "wait wp-2026_Florida_A_M_University_shooting: gate: the article is under 6 hours old; facts may still move (ready in 1.6 h)",
+  "skip nw-20261025-florida-attack: gate: faceless: no free photo shows Florida or the event itself (only 2 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
