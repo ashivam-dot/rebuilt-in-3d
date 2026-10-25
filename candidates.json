@@ -1,14 +1,14 @@
 {
- "at": "2026-10-25T03:41:26+00:00",
+ "at": "2026-10-25T04:15:41+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 275000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
+   "news": 175000,
    "news_at": "2026-10-24T21:12:22+00:00",
    "headlines": [
     "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
@@ -116,45 +116,6 @@
     35.79955
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141535181",
-   "title": "2026 French fuel protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [
-    "French cooking schools fuel fine-dining dreams of India’s young chefs"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24",
-    "google-news:French cooking schools fuel fine-dining dreams of India’s young chefs",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "French cooking schools fuel fine-dining dreams of India’s young chefs",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T02:15:05+00:00"
-    }
-   ],
-   "id": "wk-Q141535181-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-25",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261024-paris-protest",
@@ -307,16 +268,16 @@
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "France: Clashes erupt as protests sweep across cities",
+   "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
    "name": "Paris",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-25T00:42:20+00:00",
+   "news_at": "2026-10-25T04:03:10+00:00",
    "owners": [
     "SCMP Group",
     "Disney (ABC News)",
-    "France Médias Monde"
+    "Independent Digital News"
    ],
    "fame": 75000,
    "news": 75000,
@@ -325,11 +286,10 @@
    "headlines": [
     "Small clashes erupt at Paris protests, as police remain on high alert",
     "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "France: Clashes erupt as protests sweep across cities"
+    "Protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
-    "Macron",
-    "clashes"
+    "Macron"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -342,14 +302,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "France: Clashes erupt as protests sweep across cities",
-     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
+     "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T17:50:19+00:00"
+     "at": "2026-10-25T04:03:10+00:00"
     },
     {
      "title": "Small clashes erupt at Paris protests, as police remain on high alert",
@@ -375,10 +335,32 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-25T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-25",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141776873",
@@ -671,76 +653,9 @@
    "lon": "123.8"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q139998119",
-   "title": "Flamingo Revolution",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q139998119-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-25",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q1771537",
-   "title": "Slavcho Binev",
-   "fame": 10666,
-   "views": 10666,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1771537",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-24"
-  },
-  {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-24T00:10:00+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 709,
+  "headlines": 711,
   "feeds": 30,
   "owners": 21,
   "matched": 26,
@@ -898,16 +813,16 @@
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "France: Clashes erupt as protests sweep across cities",
+   "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
    "name": "Paris",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-25T00:42:20+00:00",
+   "news_at": "2026-10-25T04:03:10+00:00",
    "owners": [
     "SCMP Group",
     "Disney (ABC News)",
-    "France Médias Monde"
+    "Independent Digital News"
    ],
    "fame": 75000,
    "news": 75000,
@@ -916,11 +831,10 @@
    "headlines": [
     "Small clashes erupt at Paris protests, as police remain on high alert",
     "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "France: Clashes erupt as protests sweep across cities"
+    "Protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
-    "Macron",
-    "clashes"
+    "Macron"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -933,14 +847,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "France: Clashes erupt as protests sweep across cities",
-     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
+     "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-24T17:50:19+00:00"
+     "at": "2026-10-25T04:03:10+00:00"
     },
     {
      "title": "Small clashes erupt at Paris protests, as police remain on high alert",
@@ -966,11 +880,11 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 709 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261024-paris-protest"
+ "outlet_note": "outlets: 711 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261024-paris-protest"
 }
