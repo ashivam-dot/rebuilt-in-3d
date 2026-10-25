@@ -1,27 +1,27 @@
 {
- "at": "2026-10-25T09:08:44+00:00",
+ "at": "2026-10-25T09:37:47+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 250000,
+   "fame": 375000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-25T06:18:02+00:00",
+   "news": 375000,
+   "news_at": "2026-10-25T07:49:00+00:00",
    "headlines": [
-    "11 people shot near Florida university stadium in Tallahassee",
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
     "Eleven sustain gunshot wounds in shooting near Florida university",
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "12, Including 6 Children, Injured In Shooting Near Florida University"
+    "6 children among 12 injured in shooting near Florida university stadium"
    ],
    "region": "world",
    "via": [
-    "google-news:11 people shot near Florida university stadium in Tallahassee",
+    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
+    "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
@@ -96,6 +96,48 @@
     -84.29166667
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-10-25T09:16:47+00:00",
+   "headlines": [
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "India advises its nationals in Saudi Arabia against filming missile interceptions"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "google-news:India advises its nationals in Saudi Arabia against filming missile interceptions",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T09:16:47+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141760142",
@@ -498,32 +540,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-25T06:33:45+00:00",
-   "headlines": [
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q5218847",
    "title": "Daniel Stewart (Australian footballer)",
    "fame": 39862,
@@ -774,23 +790,23 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 250000,
+   "fame": 375000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-25T06:18:02+00:00",
+   "news": 375000,
+   "news_at": "2026-10-25T07:49:00+00:00",
    "headlines": [
-    "11 people shot near Florida university stadium in Tallahassee",
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
     "Eleven sustain gunshot wounds in shooting near Florida university",
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "12, Including 6 Children, Injured In Shooting Near Florida University"
+    "6 children among 12 injured in shooting near Florida university stadium"
    ],
    "region": "world",
    "via": [
-    "google-news:11 people shot near Florida university stadium in Tallahassee",
+    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
+    "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
@@ -868,10 +884,10 @@
   }
  ],
  "outlets": {
-  "headlines": 682,
+  "headlines": 685,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
+  "matched": 27,
   "corroborated": 4
  },
  "emerging": [
@@ -1140,5 +1156,5 @@
    "article": "2026 Florida A&M University shooting"
   }
  ],
- "outlet_note": "outlets: 682 headlines from 30 feeds (21 owners), 24 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest, nw-20261025-florida-attack"
+ "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 27 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest, nw-20261025-florida-attack"
 }
