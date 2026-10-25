@@ -36,6 +36,15 @@ def test_an_incident_searches_the_train_line_operator_and_station_before_the_tow
     assert not {"passenger train", "Derailment", "Nishtar Hospital", "Peshawar Cantonment railway station"} & set(links)
 
 
+def test_named_campus_and_stadium_are_visual_subjects_before_nearby_towns():
+    raw = {'location': '[[Tallahassee]], [[Florida]]'}
+    text = ("A shooting occurred near [[Florida A&M University]] in [[Tallahassee, Florida]].\n"
+            "== Shooting ==\nIt followed a game at [[Bragg Memorial Stadium]].\n"
+            "== Background ==\nA previous event happened at [[Example High School]].\n"
+            "== Response ==\nStudents at the [[school]] were advised to avoid the area.")
+    assert writer.subject_links(raw, text) == ['Florida A&M University', 'Bragg Memorial Stadium']
+
+
 def test_a_new_article_without_a_wikidata_item_can_be_remade_by_hand(monkeypatch):
     from studio import trends
 

@@ -1180,7 +1180,7 @@ SUBJECT_FIELDS = ("target", "trains", "train", "line", "operator", "aircraft_typ
                   "ship", "origin", "destination", "stations")
 # Article links whose names say they are such a thing ("Rehman Baba Express", "Sher Shah Junction railway station").
 SUBJECT_LINK = re.compile(r"\b(Express|Mail|Railways?|railway station|Junction|Line|Metro|Bridge|Airlines?|Airways|"
-                          r"Air|Airport|Flight|Boeing|Airbus|[Ff]erry|MV|MS)\b")
+                          r"Air|Airport|Flight|Boeing|Airbus|[Ff]erry|MV|MS|University|College|School|Stadium)\b")
 
 
 def _links(wikitext: str) -> list[str]:
