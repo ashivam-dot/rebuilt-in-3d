@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import math
 import re
+import mwparserfromhell
 from datetime import date, datetime, timedelta, timezone
 
 from . import terrain, wiki
@@ -96,10 +97,27 @@ MONTHS = ("january", "february", "march", "april", "may", "june", "july", "augus
           "november", "december")
 
 
-def infobox_date(fields: dict) -> date | None:
+def infobox_date(fields: dict, raw: dict | None = None) -> date | None:
     """The first full date in the infobox's date field, or a storm's 'formed' field ('9 October 2026',
     'October 9, 2026', '9–10 October 2026')."""
     text = (fields.get("date") or fields.get("formed") or "").lower()
+    if not text and raw:
+        # strip_code removes date templates entirely. Read only an explicit,
+        # complete start-date template, never a citation date or inferred year.
+        value = raw.get("date") or raw.get("formed") or ""
+        dates = []
+        for template in mwparserfromhell.parse(value).filter_templates():
+            name = str(template.name).strip().lower().replace("_", " ")
+            if name not in ("start date", "start date and age"):
+                continue
+            try:
+                parts = [str(template.get(str(i)).value).strip() for i in (1, 2, 3)]
+                if not all(re.fullmatch(r"\d{1,4}", part) for part in parts):
+                    return None
+                dates.append(date(*(int(part) for part in parts)))
+            except (ValueError, TypeError):
+                return None
+        return dates[0] if len(dates) == 1 else None
     m = re.search(r"(\d{1,2})(?:\s*[–-]\s*\d{1,2})?\s+(" + "|".join(MONTHS) + r")\s+(\d{4})", text)
     if m:
         day, month, year = int(m.group(1)), MONTHS.index(m.group(2)) + 1, int(m.group(3))
@@ -112,6 +130,17 @@ def infobox_date(fields: dict) -> date | None:
         return date(year, month, day)
     except ValueError:
         return None
+
+
+def check_lead_event_date(when: date, text: str) -> None:
+    """Hold an explicit opening 'On <date>' that contradicts the structured date."""
+    # Parse the first full date directly: a comma also belongs inside US dates.
+    if re.match(r"\s*On\s+", text or "", re.I):
+        prefix = re.sub(r"^\s*On\s+", "", text, flags=re.I)[:64]
+        lead_date = infobox_date({"date": prefix})
+        if lead_date and lead_date != when:
+            raise ValueError("gate: event date conflicts between the structured source "
+                             f"({when.isoformat()}) and article lead ({lead_date.isoformat()})")
 
 
 def infobox_span(fields: dict) -> bool:
