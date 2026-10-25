@@ -1,14 +1,12 @@
 {
- "at": "2026-10-25T08:39:13+00:00",
+ "at": "2026-10-25T09:08:43+00:00",
  "ok": true,
  "steps": [
-  "learn: 44 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 6, 'typical_view_pct': 60.7}, 'kind:death': {'n': 12, 'lift': 1.164, 'typical_views_24h': 251, 'n_retention': 11, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 24, 'lift': 1.058, 'typical_views_24h': 181, 'n_retention': 23, 'typical_view_pct': 55.5}, 'category:death': {'n': 11, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
-  "watch: 2 candidates (0 quakes, 21 trending), 2 hazard alerts",
-  "outlets: 687 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-clashes-protest, nw-20261025-florida-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
+  "watch: 1 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 682 headlines from 30 feeds (21 owners), 24 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest, nw-20261025-florida-attack",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting",
-  "wait wp-2026_Florida_A_M_University_shooting: gate: the article is under 6 hours old; facts may still move (ready in 4.5 h)",
-  "skip nw-20261024-clashes-protest: gate: faceless: no free photo shows Clashes or the event itself (only 5 photos of places or things near it)",
+  "wait wp-2026_Florida_A_M_University_shooting: gate: the article is under 6 hours old; facts may still move (ready in 4.0 h)",
   "nothing eligible to publish"
  ]
 }
