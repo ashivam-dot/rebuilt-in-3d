@@ -1,15 +1,15 @@
 {
- "at": "2026-10-25T14:05:40+00:00",
+ "at": "2026-10-25T14:33:55+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 175000,
+   "fame": 275000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-25T12:36:48+00:00",
+   "news": 275000,
+   "news_at": "2026-10-25T12:14:44+00:00",
    "headlines": [
     "Saudi Arabia Reopens Riyadh Airport After Weeks of Houthi Attacks",
     "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
@@ -31,23 +31,43 @@
    "has_coords": false
   },
   {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 100000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 100000,
+   "news": 75000,
    "news_at": "2026-10-25T13:30:57+00:00",
    "headlines": [
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "12 injured, including 6 children, in shooting near Florida university, police say",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium"
    ],
    "region": "world",
    "via": [
-    "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
     "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
+    "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal"
@@ -98,101 +118,6 @@
     -84.29166667
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88131,
-   "views": 88131,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "France: Clashes erupt as protests sweep across cities",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France: Clashes erupt as protests sweep across cities",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Clashes erupt as protests sweep across cities",
-     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T17:50:19+00:00"
-    },
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q141820731",
@@ -537,21 +462,21 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 100000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 100000,
+   "news": 75000,
    "news_at": "2026-10-25T13:30:57+00:00",
    "headlines": [
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "12 injured, including 6 children, in shooting near Florida university, police say",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium"
    ],
    "region": "world",
    "via": [
-    "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
     "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
+    "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal"
@@ -605,88 +530,12 @@
   }
  ],
  "outlets": {
-  "headlines": 661,
+  "headlines": 664,
   "feeds": 29,
   "owners": 21,
-  "matched": 20,
-  "corroborated": 2
+  "matched": 13,
+  "corroborated": 1
  },
- "emerging": [
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "France: Clashes erupt as protests sweep across cities",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "France: Clashes erupt as protests sweep across cities",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Clashes erupt as protests sweep across cities",
-     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T17:50:19+00:00"
-    },
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 661 headlines from 29 feeds (21 owners), 20 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-protest"
+ "emerging": [],
+ "outlet_note": "outlets: 664 headlines from 29 feeds (21 owners), 13 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
