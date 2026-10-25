@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T00:09:09+00:00",
+ "at": "2026-10-25T00:42:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,47 +21,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 171729,
-   "views": 21729,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-24T21:35:57+00:00",
-   "headlines": [
-    "French protests: Almost 1,000 arrested, Laurent Nuñez says, as clashes erupt",
-    "'The marches went well' – French government on demonstrations a week after looting and violence"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-23",
-    "google-news:French protests: Almost 1,000 arrested, Laurent Nuñez says, as clashes erupt",
-    "google-news:'The marches went well' – French government on demonstrations a week after looting and violence",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "'The marches went well' – French government on demonstrations a week after looting and violence",
-     "url": "https://www.france24.com/en/france/20261024-the-marches-went-well-%E2%80%93-french-government-on-demonstrations-a-week-after-looting-and-violence",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T21:01:56+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q141760142",
@@ -815,34 +774,30 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-champi-cyclone",
    "qid": null,
-   "title": "Thousands join Paris protests as authorities clamp down on disorder",
-   "name": "Paris",
+   "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+   "name": "Champi",
    "kind": "incident",
-   "category": "protest",
+   "category": "cyclone",
    "date": "2026-10-24",
-   "news_at": "2026-10-24T19:01:52+00:00",
+   "news_at": "2026-10-24T05:26:00+00:00",
    "owners": [
-    "SCMP Group",
-    "Independent Digital News",
-    "NDTV",
-    "Al Jazeera Media Network"
+    "Guardian Media Group",
+    "Disney (ABC News)",
+    "Deutsche Welle"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Chinese students in Paris hunker down as city braces for more mass protests",
-    "France protests: Louvre shuts down over fears of violence in Paris",
-    "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
-    "Thousands join Paris protests as authorities clamp down on disorder"
+    "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+    "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+    "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured"
    ],
    "places": [
-    "Louvre",
-    "Lisa",
-    "Off"
+    "Taiwan"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -855,51 +810,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Thousands join Paris protests as authorities clamp down on disorder",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured",
+     "url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T19:01:52+00:00"
+     "at": "2026-10-24T05:26:00+00:00"
     },
     {
-     "title": "France protests: Louvre shuts down over fears of violence in Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+     "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T08:44:22+00:00"
+     "at": "2026-10-24T02:22:32+00:00"
     },
     {
-     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
+     "title": "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+     "url": "https://abcnews.com/International/wireStory/typhoon-champi-kills-1-injures-350-taiwan-overnight-137531069",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-24T08:00:13+00:00"
-    },
-    {
-     "title": "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
-     "url": "https://www.ndtv.com/world-news/mona-lisa-off-limits-as-louvre-other-museums-across-paris-shut-amid-protests-12231331#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T18:32:25+00:00"
+     "at": "2026-10-24T05:00:42+00:00"
     }
    ],
    "via": [
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News",
-    "outlet:NDTV",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Guardian Media Group",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -930,10 +874,10 @@
   }
  ],
  "outlets": {
-  "headlines": 728,
+  "headlines": 721,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 30,
   "corroborated": 4
  },
  "emerging": [
@@ -1300,5 +1244,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 728 headlines from 30 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261023-jordan-attack"
+ "outlet_note": "outlets: 721 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261023-jordan-attack"
 }
