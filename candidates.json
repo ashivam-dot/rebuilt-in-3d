@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T22:00:47+00:00",
+ "at": "2026-10-25T22:29:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 375000,
-   "news_at": "2026-10-25T22:00:47.301671+00:00",
+   "news_at": "2026-10-25T22:29:35.281813+00:00",
    "headlines": [
     "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
@@ -72,32 +72,49 @@
    "has_coords": false
   },
   {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 100000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 100000,
+   "news": 75000,
    "news_at": "2026-10-25T21:19:20+00:00",
    "headlines": [
     "12 injured, including 6 children, in shooting near Florida university, police say",
-    "5 victims released from hospital after Florida A&M University shooting, 1 remains critical",
     "At least 12 injured, including six kids, after mass shooting near Florida A&M University",
     "Twelve injured, including six juveniles, in shooting near Florida university"
    ],
    "region": "world",
    "via": [
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
-    "google-news:5 victims released from hospital after Florida A&M University shooting, 1 remains critical",
     "google-news:At least 12 injured, including six kids, after mass shooting near Florida A&M University",
+    "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
     "outlet:Disney (ABC News)",
-    "outlet:Fox Corporation",
     "outlet:Independent Digital News",
     "outlet:Guardian Media Group"
    ],
    "owners": [
     "Disney (ABC News)",
-    "Fox Corporation",
     "Independent Digital News",
     "Guardian Media Group"
    ],
@@ -111,16 +128,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-25T21:19:20+00:00"
-    },
-    {
-     "title": "5 victims released from hospital after Florida A&M University shooting, 1 remains critical",
-     "url": "https://www.foxnews.com/us/5-victims-released-hospital-after-florida-am-university-shooting-1-remains-critical",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T16:16:35+00:00"
     },
     {
      "title": "At least 12 injured, including six kids, after mass shooting near Florida A&M University",
@@ -152,27 +159,6 @@
     -84.29166667
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88331,
-   "views": 88131,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24",
-    "google-trends-GB:julia roberts"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   },
   {
    "qid": "Q141820731",
@@ -498,12 +484,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 692,
+  "headlines": 694,
   "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 29,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 694 headlines from 29 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
