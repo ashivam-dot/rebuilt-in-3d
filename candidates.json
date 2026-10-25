@@ -1,39 +1,91 @@
 {
- "at": "2026-10-25T09:37:47+00:00",
+ "at": "2026-10-25T10:04:25+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": null,
-   "title": "2026 Florida A&M University shooting",
-   "fame": 375000,
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 225000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-10-25T07:49:00+00:00",
+   "news": 225000,
+   "news_at": "2026-10-25T09:25:54+00:00",
    "headlines": [
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university",
-    "6 children among 12 injured in shooting near Florida university stadium"
+    "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues",
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "India advises its nationals in Saudi Arabia against filming missile interceptions"
    ],
    "region": "world",
    "via": [
-    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
+    "google-news:Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues",
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "outlet:HT Media",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "HT Media",
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.hindustantimes.com/india-news/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions-101792919967630.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T09:25:54+00:00"
+    },
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T09:16:47+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": null,
+   "title": "2026 Florida A&M University shooting",
+   "fame": 225000,
+   "views": 0,
+   "traffic": 0,
+   "news": 225000,
+   "news_at": "2026-10-25T07:49:00+00:00",
+   "headlines": [
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "12, Including 6 Children, Injured In Shooting Near Florida University"
+   ],
+   "region": "world",
+   "via": [
     "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
+    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:NDTV"
    ],
    "owners": [
     "Fox Corporation",
     "Guardian Media Group",
     "NBCUniversal",
-    "NDTV",
-    "Bennett, Coleman & Co."
+    "NDTV"
    ],
    "reports": [
     {
@@ -75,16 +127,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-25T05:28:10+00:00"
-    },
-    {
-     "title": "6 children among 12 injured in shooting near Florida university stadium",
-     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:19:19+00:00"
     }
    ],
    "id": "wp-2026_Florida_A_M_University_shooting",
@@ -96,48 +138,6 @@
     -84.29166667
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-25T09:16:47+00:00",
-   "headlines": [
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "India advises its nationals in Saudi Arabia against filming missile interceptions"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "google-news:India advises its nationals in Saudi Arabia against filming missile interceptions",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
-     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T09:16:47+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141760142",
@@ -338,6 +338,26 @@
    "article": null
   },
   {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
    "id": "nw-20261025-florida-attack",
    "qid": null,
    "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -347,25 +367,23 @@
    "date": "2026-10-25",
    "news_at": "2026-10-25T06:07:47+00:00",
    "owners": [
-    "Bennett, Coleman & Co.",
     "NDTV",
     "NBCUniversal",
     "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "6 children among 12 injured in shooting near Florida university stadium",
     "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "Eleven sustain gunshot wounds in shooting near Florida university"
    ],
    "places": [
-    "children",
-    "injured",
-    "university"
+    "Injured",
+    "University",
+    "Children"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -406,46 +424,15 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-25T05:28:10+00:00"
-    },
-    {
-     "title": "6 children among 12 injured in shooting near Florida university stadium",
-     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:19:19+00:00"
     }
    ],
    "via": [
-    "outlet:Bennett, Coleman & Co.",
     "outlet:NDTV",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": "2026 Florida A&M University shooting"
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88131,
-   "views": 88131,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
   },
   {
    "qid": "Q141820731",
@@ -790,35 +777,32 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 375000,
+   "fame": 225000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
+   "news": 225000,
    "news_at": "2026-10-25T07:49:00+00:00",
    "headlines": [
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
     "Eleven sustain gunshot wounds in shooting near Florida university",
-    "6 children among 12 injured in shooting near Florida university stadium"
+    "12, Including 6 Children, Injured In Shooting Near Florida University"
    ],
    "region": "world",
    "via": [
-    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
     "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
     "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
+    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:NDTV"
    ],
    "owners": [
     "Fox Corporation",
     "Guardian Media Group",
     "NBCUniversal",
-    "NDTV",
-    "Bennett, Coleman & Co."
+    "NDTV"
    ],
    "reports": [
     {
@@ -860,16 +844,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-25T05:28:10+00:00"
-    },
-    {
-     "title": "6 children among 12 injured in shooting near Florida university stadium",
-     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:19:19+00:00"
     }
    ],
    "id": "wp-2026_Florida_A_M_University_shooting",
@@ -887,8 +861,8 @@
   "headlines": 685,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
-  "corroborated": 4
+  "matched": 22,
+  "corroborated": 5
  },
  "emerging": [
   {
@@ -1075,25 +1049,23 @@
    "date": "2026-10-25",
    "news_at": "2026-10-25T06:07:47+00:00",
    "owners": [
-    "Bennett, Coleman & Co.",
     "NDTV",
     "NBCUniversal",
     "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "6 children among 12 injured in shooting near Florida university stadium",
     "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
     "Eleven sustain gunshot wounds in shooting near Florida university"
    ],
    "places": [
-    "children",
-    "injured",
-    "university"
+    "Injured",
+    "University",
+    "Children"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -1134,20 +1106,9 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-25T05:28:10+00:00"
-    },
-    {
-     "title": "6 children among 12 injured in shooting near Florida university stadium",
-     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:19:19+00:00"
     }
    ],
    "via": [
-    "outlet:Bennett, Coleman & Co.",
     "outlet:NDTV",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group"
@@ -1156,5 +1117,5 @@
    "article": "2026 Florida A&M University shooting"
   }
  ],
- "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 27 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest, nw-20261025-florida-attack"
+ "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest, nw-20261025-florida-attack"
 }
