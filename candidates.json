@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T12:01:47+00:00",
+ "at": "2026-10-25T12:42:07+00:00",
  "quakes": [],
  "trending": [
   {
@@ -114,119 +114,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q141760142",
-   "title": "2026 Kolkata Durga Puja crowd crush",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-24T00:10:00+00:00",
-   "headlines": [
-    "Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kolkata stampede: Death in the time of Durga Puja"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141760142",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-10-17",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "France: Clashes erupt as protests sweep across cities",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "SCMP Group",
-    "France Médias Monde",
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Clashes flare at Paris protests as more than 400,000 march across France",
-    "France: Clashes erupt as protests sweep across cities",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
-   ],
-   "places": [
-    "Clashes",
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "France: Clashes erupt as protests sweep across cities",
-     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T17:50:19+00:00"
-    },
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "Clashes flare at Paris protests as more than 400,000 march across France",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261025-florida-attack",
    "qid": null,
    "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -333,6 +220,81 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "id": "nw-20261024-clashes-protest",
+   "qid": null,
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Clashes",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T06:07:45+00:00",
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes flare at Paris protests as more than 400,000 march across France",
+    "France: Clashes erupt as protests sweep across cities",
+    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
+   ],
+   "places": [
+    "Paris"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
+     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:45+00:00"
+    },
+    {
+     "title": "Clashes flare at Paris protests as more than 400,000 march across France",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141820731",
@@ -742,21 +704,12 @@
     -84.29166667
    ],
    "has_coords": true
-  }
- ],
- "outlets": {
-  "headlines": 662,
-  "feeds": 29,
-  "owners": 21,
-  "matched": 20,
-  "corroborated": 3
- },
- "emerging": [
+  },
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-clashes-protest",
    "qid": null,
    "title": "France: Clashes erupt as protests sweep across cities",
-   "name": "Paris",
+   "name": "Clashes",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
@@ -764,22 +717,19 @@
    "owners": [
     "SCMP Group",
     "France Médias Monde",
-    "Disney (ABC News)",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Clashes flare at Paris protests as more than 400,000 march across France",
     "France: Clashes erupt as protests sweep across cities",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
     "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
-    "Clashes",
-    "Macron"
+    "Paris"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -820,27 +770,25 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
     "outlet:France Médias Monde",
-    "outlet:Disney (ABC News)",
     "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
-  },
+  }
+ ],
+ "outlets": {
+  "headlines": 657,
+  "feeds": 29,
+  "owners": 21,
+  "matched": 21,
+  "corroborated": 3
+ },
+ "emerging": [
   {
    "id": "nw-20261025-florida-attack",
    "qid": null,
@@ -928,7 +876,82 @@
    ],
    "emerging": true,
    "article": "2026 Florida A&M University shooting"
+  },
+  {
+   "id": "nw-20261024-clashes-protest",
+   "qid": null,
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Clashes",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T06:07:45+00:00",
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes flare at Paris protests as more than 400,000 march across France",
+    "France: Clashes erupt as protests sweep across cities",
+    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
+   ],
+   "places": [
+    "Paris"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
+     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:45+00:00"
+    },
+    {
+     "title": "Clashes flare at Paris protests as more than 400,000 march across France",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 662 headlines from 29 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-paris-protest, nw-20261025-florida-attack"
+ "outlet_note": "outlets: 657 headlines from 29 feeds (21 owners), 21 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261025-florida-attack, nw-20261024-clashes-protest"
 }
