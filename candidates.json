@@ -1,7 +1,76 @@
 {
- "at": "2026-10-25T18:00:06+00:00",
+ "at": "2026-10-25T18:46:00+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 300000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-10-25T18:46:00.505290+00:00",
+   "headlines": [
+    "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "Saudi air defences intercept Houthi barrage near Mecca",
+    "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-25",
+    "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Al Jazeera Media Network",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Saudi air defences intercept Houthi barrage near Mecca",
+     "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T13:49:33+00:00"
+    },
+    {
+     "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news",
+     "url": "https://abcnews.com/International/wireStory/saudi-arabia-reopens-airport-attacks-houthi-rebels-persist-137549261",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T11:01:09+00:00"
+    },
+    {
+     "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
+     "url": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T09:13:00+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
@@ -105,79 +174,6 @@
    "date": "2026-10-21"
   },
   {
-   "id": "nw-20261024-paris-attack",
-   "qid": null,
-   "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T15:32:51+00:00",
-   "owners": [
-    "Paramount (CBS)",
-    "BBC",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-    "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-    "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-     "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T15:32:51+00:00"
-    },
-    {
-     "title": "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system",
-     "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T10:36:42+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T18:14:41+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Paramount (CBS)",
-    "outlet:BBC",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q141820731",
    "title": "2026 Karak church shooting",
    "fame": 60900,
@@ -268,32 +264,6 @@
    "date": "2026-10-25",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-25T06:40:06+00:00",
-   "headlines": [
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q1699148",
@@ -527,86 +497,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 678,
+  "headlines": 681,
   "feeds": 29,
   "owners": 21,
-  "matched": 35,
+  "matched": 36,
   "corroborated": 2
  },
- "emerging": [
-  {
-   "id": "nw-20261024-paris-attack",
-   "qid": null,
-   "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T15:32:51+00:00",
-   "owners": [
-    "Paramount (CBS)",
-    "BBC",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-    "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-    "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-     "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T15:32:51+00:00"
-    },
-    {
-     "title": "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system",
-     "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T10:36:42+00:00"
-    },
-    {
-     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-24T18:14:41+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Paramount (CBS)",
-    "outlet:BBC",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 678 headlines from 29 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-attack"
+ "emerging": [],
+ "outlet_note": "outlets: 681 headlines from 29 feeds (21 owners), 36 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
