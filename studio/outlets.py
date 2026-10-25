@@ -451,8 +451,9 @@ gaza palestinian lebanon syria afghanistan africa african asia asian japan japan
 german italy spain canada australia mexico brazil indonesia philippines turkey saudi arabia uae world global
 government police army centre center state states national north south east west northern southern eastern western
 pm president un""".split())
-# Words that help match headlines but never name a story ("Air India", "Air Canada").
-NAMELESS = {"air"}
+# Words that help match headlines but never identify the subject. Title-case
+# "Clashes" describes an event; it is not a place to corroborate or photograph.
+NAMELESS = {"air", "clash", "clashes"}
 STOP = set("""the and for from with into over after near of on in at to by a an as is are was were be been has have had
 its it this that these those their they them his her who what when where how why amid says said say will would
 could can may more most than new latest update updates report reports reported day days week year years""".split())
@@ -644,7 +645,7 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
             continue  # Wikipedia already has the story's article: it is told from there
         heads = list(dict.fromkeys(i["title"] for i in c["items"]))
         struck = attackers(heads) if c["kind"] in ("attack", "strike") else []
-        banned = {_stem(w) for w in struck} | NAMELESS
+        banned = {_stem(w) for w in [*struck, *NAMELESS]}
         named = [k for k, _ in c["counts"].most_common() if k in c["names"] and k not in GENERIC and k not in banned]
         if not named:
             continue
