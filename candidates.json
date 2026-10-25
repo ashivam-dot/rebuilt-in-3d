@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T02:43:27+00:00",
+ "at": "2026-10-25T03:12:11+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,19 +25,21 @@
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 250000,
+   "fame": 275000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-24T19:24:39+00:00",
+   "news": 275000,
+   "news_at": "2026-10-24T21:12:22+00:00",
    "headlines": [
     "Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden"
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
    ],
    "region": "world",
    "via": [
     "google-news:Houthis say they attacked Riyadh and Dammam airports, Saudi Aramco facility",
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden"
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
    ],
    "owners": [],
    "reports": [],
@@ -71,96 +73,6 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Thousands join Paris protests as authorities clamp down on disorder",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T19:01:52+00:00",
-   "owners": [
-    "SCMP Group",
-    "Independent Digital News",
-    "NDTV",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Chinese students in Paris hunker down as city braces for more mass protests",
-    "France protests: Louvre shuts down over fears of violence in Paris",
-    "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
-    "Thousands join Paris protests as authorities clamp down on disorder"
-   ],
-   "places": [
-    "Louvre",
-    "Lisa",
-    "Off"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Thousands join Paris protests as authorities clamp down on disorder",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T19:01:52+00:00"
-    },
-    {
-     "title": "France protests: Louvre shuts down over fears of violence in Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:44:22+00:00"
-    },
-    {
-     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:00:13+00:00"
-    },
-    {
-     "title": "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
-     "url": "https://www.ndtv.com/world-news/mona-lisa-off-limits-as-louvre-other-museums-across-paris-shut-amid-protests-12231331#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T18:32:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News",
-    "outlet:NDTV",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q1699148",
@@ -264,34 +176,30 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261023-jordan-attack",
+   "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-   "name": "Jordan",
+   "title": "Thousands join Paris protests as authorities clamp down on disorder",
+   "name": "Paris",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T18:34:04+00:00",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-24T19:01:52+00:00",
    "owners": [
-    "NPR",
-    "Guardian Media Group",
-    "NDTV"
+    "SCMP Group",
+    "Independent Digital News",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-    "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-    "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-    "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan"
+    "Chinese students in Paris hunker down as city braces for more mass protests",
+    "France protests: Louvre shuts down over fears of violence in Paris",
+    "Thousands join Paris protests as authorities clamp down on disorder"
    ],
    "places": [
-    "Christian",
-    "Count",
-    "church"
+    "Louvre"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -304,70 +212,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-     "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T11:59:08+00:00"
-    },
-    {
-     "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-     "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T19:46:30+00:00"
-    },
-    {
-     "title": "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan",
-     "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Thousands join Paris protests as authorities clamp down on disorder",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-24T14:24:15+00:00"
+     "at": "2026-10-24T19:01:52+00:00"
     },
     {
-     "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-     "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
+     "title": "France protests: Louvre shuts down over fears of violence in Paris",
+     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-23T18:01:47+00:00"
+     "at": "2026-10-24T08:44:22+00:00"
     },
     {
-     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
+     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Death Count In Jordan Church Firing Rises To 9",
-     "url": "https://www.ndtv.com/world-news/death-count-in-jordan-church-firing-rises-to-9-12231344#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T18:34:04+00:00"
+     "at": "2026-10-24T08:00:13+00:00"
     }
    ],
    "via": [
-    "outlet:NPR",
-    "outlet:Guardian Media Group",
-    "outlet:NDTV"
+    "outlet:SCMP Group",
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -441,6 +319,82 @@
     "outlet:Independent Digital News",
     "outlet:Euronews",
     "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261024-paris-protest",
+   "qid": null,
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T00:42:20+00:00",
+   "owners": [
+    "SCMP Group",
+    "Disney (ABC News)",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Small clashes erupt at Paris protests, as police remain on high alert",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "France: Clashes erupt as protests sweep across cities"
+   ],
+   "places": [
+    "Macron",
+    "clashes"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    },
+    {
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:42:20+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -697,10 +651,10 @@
   }
  ],
  "outlets": {
-  "headlines": 712,
+  "headlines": 710,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 24,
   "corroborated": 3
  },
  "emerging": [
@@ -716,23 +670,19 @@
    "owners": [
     "SCMP Group",
     "Independent Digital News",
-    "NDTV",
     "Al Jazeera Media Network"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Chinese students in Paris hunker down as city braces for more mass protests",
     "France protests: Louvre shuts down over fears of violence in Paris",
-    "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
     "Thousands join Paris protests as authorities clamp down on disorder"
    ],
    "places": [
-    "Louvre",
-    "Lisa",
-    "Off"
+    "Louvre"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -773,132 +723,12 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-24T08:00:13+00:00"
-    },
-    {
-     "title": "Mona Lisa Off Limits As Louvre, Other Museums Across Paris Shut Amid Protests",
-     "url": "https://www.ndtv.com/world-news/mona-lisa-off-limits-as-louvre-other-museums-across-paris-shut-amid-protests-12231331#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T18:32:25+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
     "outlet:Independent Digital News",
-    "outlet:NDTV",
     "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261023-jordan-attack",
-   "qid": null,
-   "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-   "name": "Jordan",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "news_at": "2026-10-24T18:34:04+00:00",
-   "owners": [
-    "NPR",
-    "Guardian Media Group",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-    "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-    "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-    "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-    "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan"
-   ],
-   "places": [
-    "Christian",
-    "Count",
-    "church"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-     "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T11:59:08+00:00"
-    },
-    {
-     "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-     "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T19:46:30+00:00"
-    },
-    {
-     "title": "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan",
-     "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T14:24:15+00:00"
-    },
-    {
-     "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-     "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T18:01:47+00:00"
-    },
-    {
-     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-23T15:36:20+00:00"
-    },
-    {
-     "title": "Death Count In Jordan Church Firing Rises To 9",
-     "url": "https://www.ndtv.com/world-news/death-count-in-jordan-church-firing-rises-to-9-12231344#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-24T18:34:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NPR",
-    "outlet:Guardian Media Group",
-    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -975,7 +805,83 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261024-paris-protest",
+   "qid": null,
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T00:42:20+00:00",
+   "owners": [
+    "SCMP Group",
+    "Disney (ABC News)",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Small clashes erupt at Paris protests, as police remain on high alert",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "France: Clashes erupt as protests sweep across cities"
+   ],
+   "places": [
+    "Macron",
+    "clashes"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    },
+    {
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:42:20+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 712 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261023-jordan-attack, nw-20261024-milan-protest"
+ "outlet_note": "outlets: 710 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261024-paris-protest"
 }
