@@ -1,0 +1,208 @@
+"""Complete weekly-episode review of the actual rendered pictures AND audio, bound to the original MP4.
+
+The reviewer receives the complete clip and complete mixed soundtrack. This is an AI editorial review,
+not a claim that a person listened. Missing media, unavailable quota or an incomplete verdict holds release.
+"""
+from __future__ import annotations
+
+import base64
+import hashlib
+import json
+import os
+import re
+import subprocess
+from pathlib import Path
+
+import requests
+
+API = "https://generativelanguage.googleapis.com/v1beta/models"
+# Free-tier video/audio input and output verified in the official pricing table on 25 October 2026.
+# Do not silently adopt a newly listed paid-only model or change billing when quota is unavailable.
+FREE_MODELS = ("gemini-3.8-flash", "gemini-3.6-flash", "gemini-3-flash-preview",
+               "gemini-3.5-flash-lite", "gemini-3.1-flash-lite")
+CHECKS = ("speech_clear", "pronunciation_ok", "music_balance_ok", "captions_readable", "visuals_match",
+          "continuity_ok", "opening_clear", "complete_payoff", "no_material_factual_contradiction")
+SCHEMA = {
+    "type": "object", "properties": {
+        "decision": {"type": "string", "enum": ["pass", "hold"]},
+        "audio_listened": {"type": "boolean"}, "video_viewed": {"type": "boolean"},
+        "heard_opening": {"type": "string"}, "heard_ending": {"type": "string"},
+        "checks": {"type": "object", "properties": {k: {"type": "boolean"} for k in CHECKS},
+                   "required": list(CHECKS)},
+        "segments": {"type": "array", "items": {"type": "object", "properties": {
+            "part": {"type": "string", "enum": ["opening", "middle", "ending"]},
+            "seconds": {"type": "number"}, "seen": {"type": "string"}, "heard": {"type": "string"}},
+            "required": ["part", "seconds", "seen", "heard"]}},
+        "issues": {"type": "array", "items": {"type": "object", "properties": {
+            "seconds": {"type": "number"}, "severity": {"type": "string", "enum": ["minor", "blocker"]},
+            "problem": {"type": "string"}, "repair": {"type": "string"}},
+            "required": ["seconds", "severity", "problem", "repair"]}}},
+    "required": ["decision", "audio_listened", "video_viewed", "heard_opening", "heard_ending", "checks",
+                 "segments", "issues"]}
+
+
+class ReviewHold(RuntimeError):
+    pass
+
+
+def digest(path: Path) -> str:
+    with path.open("rb") as fh:
+        return hashlib.file_digest(fh, "sha256").hexdigest()
+
+
+def brief_digest(brief: dict) -> str:
+    return hashlib.sha256(json.dumps(brief, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def verdict_problems(verdict: dict, duration: float) -> list[str]:
+    problems = []
+    if verdict.get("decision") != "pass" or verdict.get("audio_listened") is not True \
+            or verdict.get("video_viewed") is not True:
+        problems.append("the audiovisual reviewer did not approve both media streams")
+    for key in CHECKS:
+        if verdict.get("checks", {}).get(key) is not True:
+            problems.append(f"review: {key} is not confirmed")
+    if any(not str(verdict.get(k, "")).strip() for k in ("heard_opening", "heard_ending")):
+        problems.append("missing words actually heard at the opening or ending")
+    segments = {s.get("part"): s for s in verdict.get("segments", [])}
+    for part, lo, hi in (("opening", 0, min(5, duration / 4)),
+                         ("middle", duration / 4, duration * 0.8),
+                         ("ending", duration * 0.8, duration)):
+        row = segments.get(part, {})
+        t = row.get("seconds")
+        if not isinstance(t, (int, float)) or not lo <= t <= hi or not row.get("seen") or not row.get("heard"):
+            problems.append(f"missing rendered {part} observation")
+    problems.extend(f"{i.get('seconds')}s: {i.get('problem')}" for i in verdict.get("issues", [])
+                    if i.get("severity") != "minor")
+    return problems
+
+
+def receipt_problems(receipt: dict, mp4: Path, brief: dict) -> list[str]:
+    if receipt.get("schema") != 1 or receipt.get("video_sha256") != digest(mp4) \
+            or receipt.get("brief_sha256") != brief_digest(brief):
+        return ["the review receipt is missing or belongs to different video/brief bytes"]
+    if not receipt.get("model") or not receipt.get("review_video_sha256") or not receipt.get("review_audio_sha256"):
+        return ["the review receipt lacks model or media provenance"]
+    return verdict_problems(receipt.get("verdict", {}), receipt.get("duration", 0))
+
+
+def _models(key: str) -> list[str]:
+    try:
+        r = requests.get(API, headers={"x-goog-api-key": key}, params={"pageSize": 1000}, timeout=30)
+    except requests.RequestException as exc:
+        raise ReviewHold("review model discovery network unavailable") from exc
+    if r.status_code != 200:
+        raise ReviewHold(f"review model discovery unavailable (HTTP {r.status_code})")
+    try:
+        found = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])
+                 and m["name"].split("/")[-1] in FREE_MODELS]
+    except (ValueError, TypeError, KeyError, AttributeError) as exc:
+        raise ReviewHold("review model discovery returned an unreadable response") from exc
+    def rank(name):
+        v = re.search(r"gemini-(\d+(?:\.\d+)?)", name)
+        return ("lite" in name, "latest" in name, -float(v.group(1)) if v else 0, "preview" in name)
+    return sorted(set(found), key=rank)
+
+
+def review(mp4: Path, brief: dict, folder: Path) -> dict:
+    folder.mkdir(parents=True, exist_ok=True)
+    target = folder / "av-review.json"
+    if target.exists():
+        old = json.loads(target.read_text())
+        if old.get("schema") == 1 and old.get("video_sha256") == digest(mp4) \
+                and old.get("brief_sha256") == brief_digest(brief) and old.get("model") \
+                and old.get("review_video_sha256") and old.get("review_audio_sha256"):
+            # Preserve a refusal for unchanged bytes too. The caller applies the verdict; repairing
+            # the actual video/brief is the only way to request a new editorial decision.
+            return old
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        raise ReviewHold("no configured audiovisual reviewer; release remains held")
+    info = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "json", str(mp4)],
+                          check=True, capture_output=True, text=True)
+    duration = float(json.loads(info.stdout)["format"]["duration"])
+    if not 480 <= duration <= 870:
+        raise ReviewHold("this reviewer accepts complete weekly episodes only (480–870 seconds)")
+    video, audio = folder / "review-video.mp4", folder / "review-audio.ogg"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4), "-vf", "scale=540:-2,fps=4", "-c:v",
+                    "libx264", "-preset", "fast", "-crf", "27", "-an", str(video)],
+                   check=True, timeout=180)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4), "-vn", "-ac", "1", "-ar", "24000",
+                    "-c:a", "libopus", "-b:a", "64k", str(audio)], check=True, timeout=60)
+    frames = []
+    for i in range(9):
+        t = min(duration - .2, .1 if i == 0 else duration * i / 8)
+        frame = folder / f"review-frame-{i:02d}.jpg"
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", str(t), "-i", str(mp4),
+                        "-frames:v", "1", "-vf", "scale=960:-2", "-q:v", "4", str(frame)],
+                       check=True, timeout=60)
+        frames.append(frame)
+    # The complete soundtrack is already attached separately. Avoid duplicating it
+    # in the video; bound the review proxy without trimming any chapter or audio.
+    remaining = 13_000_000 - audio.stat().st_size - sum(p.stat().st_size for p in frames)
+    if video.stat().st_size > remaining:
+        bitrate = min(120_000, int((remaining - 250_000) * 8 / duration * .95))
+        if bitrate < 32_000:
+            raise ReviewHold("complete readable review payload exceeds the bounded inline-media allowance")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4), "-vf", "scale=540:-2,fps=4",
+                        "-c:v", "libx264", "-preset", "fast", "-b:v", str(bitrate),
+                        "-maxrate", str(bitrate), "-bufsize", str(bitrate * 2), "-an", str(video)],
+                       check=True, timeout=180)
+    if video.stat().st_size + audio.stat().st_size + sum(p.stat().st_size for p in frames) > 13_000_000:
+        raise ReviewHold("review payload exceeds the bounded inline-media allowance")
+    prompt = ("You are the release editor. Watch the COMPLETE attached rendered weekly episode and listen to its COMPLETE "
+              "mixed soundtrack (also supplied separately as complete Opus audio). The nine chronological higher-resolution "
+              "stills supplement readability checks; the complete video and audio remain mandatory. Inspect the full "
+              "episode, opening, each chapter, transitions and ending. Respect its slower explanatory pacing. "
+              "Judge what is ACTUALLY visible and audible, not merely the script or prior gate summaries. "
+              f"The clip lasts {duration:.3f} seconds. For the three segments, give ONE specific observation time "
+              f"inside each required interval: opening 0–{min(5, duration / 4):.3f}s; "
+              f"middle {duration / 4:.3f}–{duration * 0.8:.3f}s; ending {duration * 0.8:.3f}–{duration:.3f}s. "
+              "Describe only what is visible and heard AT that time, rather than the start of a long sequence. "
+              "Give concrete heard/seen observations. Transcribe the first and last spoken sentence "
+              "in the spoken language. Check natural pronunciation, no clipped/rushed/garbled words, voice/music "
+              "balance, captions at phone size, beat-to-visual alignment, object/character continuity, an immediately "
+              "clear opening and a complete payoff. For science reject contradictions between claimed habitat/depth "
+              "and rendered lighting/animals. Respect uncertainty and distinguish imagined scenarios from facts. "
+              "Enforce every stated visual rule: when the brief forbids humans, any visible human body part, "
+              "including a first-person boot or leg, is a blocker and visuals_match must be false. "
+              "For fiction respect the supplied world and stable props. Minor aesthetic preferences alone do not "
+              "block; any substantive defect does. If a media stream cannot be examined, HOLD. Never claim human "
+              "review. Return the required JSON. Editorial brief and pinned facts:\n" +
+              json.dumps(brief, ensure_ascii=False))
+    parts = [{"text": prompt},
+             {"inlineData": {"mimeType": "video/mp4", "data": base64.b64encode(video.read_bytes()).decode()}},
+             {"inlineData": {"mimeType": "audio/ogg", "data": base64.b64encode(audio.read_bytes()).decode()}}]
+    parts += [{"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(p.read_bytes()).decode()}}
+              for p in frames]
+    body = {"contents": [{"role": "user", "parts": parts}], "generationConfig": {
+        "temperature": 0, "maxOutputTokens": 8192, "responseMimeType": "application/json",
+        "responseJsonSchema": SCHEMA}}
+    errors = []
+    for model in _models(key)[:5]:
+        try:
+            r = requests.post(f"{API}/{model}:generateContent", headers={"x-goog-api-key": key}, json=body,
+                              timeout=240)
+            if r.status_code != 200:
+                errors.append(f"{model}: HTTP {r.status_code}")
+                if r.status_code in (401, 403):
+                    break
+                continue
+            candidate = r.json().get("candidates", [{}])[0]
+            if candidate.get("finishReason") != "STOP":
+                errors.append(f"{model}: incomplete review")
+                continue
+            answer = json.loads("".join(p.get("text", "") for p in candidate.get("content", {}).get("parts", [])
+                                        if not p.get("thought")))
+            receipt = {"schema": 1, "model": model, "duration": duration, "video_sha256": digest(mp4),
+                       "brief_sha256": brief_digest(brief), "review_video_sha256": digest(video),
+                       "review_audio_sha256": digest(audio), "verdict": answer,
+                       "review_contract": "orbitwire-weekly-av-v1",
+                       "review_frame_sha256": [digest(p) for p in frames]}
+            target.write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + "\n")
+            # A negative editorial verdict is final for these exact bytes; never shop among models for a pass.
+            return receipt
+        except (requests.RequestException, ValueError, IndexError, TypeError):
+            errors.append(f"{model}: unavailable or malformed review")
+    raise ReviewHold("audiovisual review unavailable: " + "; ".join(errors))

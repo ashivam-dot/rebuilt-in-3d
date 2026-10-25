@@ -9,7 +9,7 @@ import pytest
 from googleapiclient.errors import HttpError
 
 from studio import gate, ledger, usgs, youtube
-from studio.longform import assemble, data, describe, plan, publish, scenes, topics, write
+from studio.longform import assemble, data, describe, media_review, plan, publish, review, scenes, topics, write
 from studio.longform.spec import Chapter, Episode
 from studio.spec import Fact
 
@@ -414,11 +414,32 @@ def _work(tmp_path: Path, ep: Episode, problems=()) -> Path:
     w.mkdir()
     for name in ("episode.mp4", "thumbnail.jpg", "captions.srt"):
         (w / name).write_bytes(b"x")
+    ep.save(w / "episode.json")
     (w / "description.txt").write_text("Panama shakes often.")
     (w / "meta.json").write_text(json.dumps({"id": ep.id, "title": ep.title, "tags": ["Panama"],
                                              "topic_key": "quake-region:panama", "publish_at": ep.publish_at,
-                                             "problems": list(problems), "related": ep.related}))
+                                             "problems": list(problems), "related": ep.related,
+                                             "sha256": media_review.digest(w / "episode.mp4")}))
+    if not problems:
+        _approve_work(w)
     return w
+
+
+def _approve_work(work):
+    receipt = {"schema": 1, "model": "test-reviewer", "duration": 600,
+               "video_sha256": media_review.digest(work / "episode.mp4"),
+               "brief_sha256": media_review.brief_digest(review.brief(work)),
+               "review_video_sha256": "a" * 64, "review_audio_sha256": "b" * 64,
+               "review_contract": "orbitwire-weekly-av-v1", "review_frame_sha256": ["c" * 64] * 9,
+               "verdict": {"decision": "pass", "audio_listened": True, "video_viewed": True,
+                           "heard_opening": "Panama shakes.", "heard_ending": "This explains why.",
+                           "checks": {k: True for k in media_review.CHECKS}, "issues": [],
+                           "segments": [{"part": part, "seconds": t, "seen": "A labelled map.",
+                                         "heard": "A checked explanation."}
+                                        for part, t in [("opening", 1), ("middle", 300), ("ending", 590)]]}}
+    folder = work / "review"
+    folder.mkdir(exist_ok=True)
+    (folder / "av-review.json").write_text(json.dumps(receipt))
 
 
 def test_publish_uploads_private_schedules_once_and_never_again(tmp_path):
@@ -443,6 +464,7 @@ def test_publish_adopts_an_upload_whose_save_was_lost(tmp_path):
     ep = _episode()
     lost = {"id": "LOSTupload1", "snippet": {"title": ep.title, "channelId": youtube.CHANNEL_ID},
             "status": {"uploadStatus": "processed", "privacyStatus": "private"}}
+    lost["snippet"]["tags"] = sorted(publish.markers({"id": ep.id, "sha256": __import__("hashlib").sha256(b"x").hexdigest()}))
     api = FakeYouTube([lost])
     out = publish.publish(_work(tmp_path, ep), api=api, at=AT, sleep=lambda s: None)
     assert api.inserted == [] and out["video_id"] == "LOSTupload1"
@@ -526,6 +548,7 @@ def test_a_week_with_an_episode_gets_no_second_one(tmp_path):
     assert api.inserted == []
     meta = tmp_path / "work" / "meta.json"
     meta.write_text(json.dumps(json.loads(meta.read_text()) | {"override": True}))
+    _approve_work(tmp_path / "work")  # A changed editorial brief requires its own exact approval.
     assert publish.publish(tmp_path / "work", api=api, at=AT, sleep=lambda s: None)["video_id"]
 
 

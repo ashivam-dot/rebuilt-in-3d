@@ -1,0 +1,83 @@
+name: longform-recover
+on:
+  workflow_dispatch:
+    inputs:
+      source_run:
+        description: "Successful existing longform build; never rebuild the episode"
+        required: true
+        type: string
+      source_sha:
+        description: "Exact 40-character source commit of that build"
+        required: true
+        type: string
+      video_sha256:
+        description: "Exact finished MP4 SHA-256"
+        required: true
+        type: string
+      mode:
+        description: "Review only, or release the same approved bytes"
+        type: choice
+        options: [review, publish]
+        default: review
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: longform
+  cancel-in-progress: false
+jobs:
+  recover:
+    if: vars.PAUSED != 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    environment: youtube
+    env:
+      SOURCE_RUN: ${{ inputs.source_run }}
+      SOURCE_SHA: ${{ inputs.source_sha }}
+      VIDEO_SHA256: ${{ inputs.video_sha256 }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Review and publishing dependencies
+        run: pip install -q requests numpy pillow soundfile mwparserfromhell google-api-python-client google-auth google-auth-oauthlib
+      - name: FFmpeg
+        run: bash .github/scripts/install-media-tools.sh ffmpeg
+      - name: Validate the pinned successful build
+        run: python -m studio.longform.recover source
+      - name: Download the existing finished artifact
+        run: gh run download "$SOURCE_RUN" --repo "$GITHUB_REPOSITORY" --name longform-episode --dir work/longform
+      - name: Verify exact video and source brief
+        run: python -m studio.longform.recover media
+      - name: State branch
+        run: |
+          git fetch --depth 1 origin state
+          git worktree add state origin/state
+      - name: Complete audiovisual review
+        env:
+          GEMINI_API_KEY: ${{ secrets.DOCTOR_GEMINI_API_KEY }}
+        run: python -m studio.longform.review work/longform
+      - name: Retain passing or refused review before publication
+        if: always()
+        run: if [[ -d state/longform-reviews ]]; then bash .github/scripts/save-longform-state.sh review; fi
+      - name: Upload the approved media and verify its schedule
+        if: success() && inputs.mode == 'publish'
+        env:
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+        run: python -m studio.longform publish
+      - name: Retain delivery state
+        if: always()
+        run: if [[ -d state/longform-reviews ]]; then bash .github/scripts/save-longform-state.sh all; fi
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: longform-recovery-${{ github.run_id }}
+          path: |
+            work/recovery-source.json
+            work/longform/review/av-review.json
+            work/longform/meta.json
+            state/longform.json
+          if-no-files-found: ignore
+          retention-days: 30

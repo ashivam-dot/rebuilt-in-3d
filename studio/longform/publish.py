@@ -4,7 +4,7 @@ state/longform.json is the episode ledger (no Short job writes it; ledger.longfo
   {"episodes": {episode id: {"video_id", "state", "title", "topic_key", "publish_at", "at", ...}},
    "playlist": the "Orbitwire Explains" playlist id, "links": {episode id: {"shorts": [...], "done": [...]}}}
 Each step is saved as soon as it is done, so a run cut short resumes where it stopped: an episode with a video id is
-never uploaded again, and an upload whose save was lost is adopted by its exact title instead of uploaded twice.
+never uploaded again, and an upload whose save was lost is adopted only by exact episode/media markers, with ambiguous title matches held.
 The thumbnail (needs a phone-verified channel) and the captions (need the youtube.force-ssl scope) are best effort:
 a refusal is recorded, not fatal. The Shorts' descriptions are edited only after the episode is public, by
 read-modify-write of the whole snippet (videos.update replaces every snippet field it is given and drops tags it
@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .. import ledger, youtube
-from . import describe, topics
+from . import describe, review, topics
 
 PLAYLIST = "Orbitwire Explains"
 PLAYLIST_ABOUT = ("Orbitwire's long-form explainers: one natural hazard a week, told from open USGS and NOAA data: what "
@@ -73,18 +73,36 @@ def known_ids() -> set[str]:
             | set(ledger.markers().values()) | ledger.longform_videos())
 
 
-def adopt(api, channel: dict, title: str) -> str | None:
-    """A recent upload with this exact title that no ledger knows: this episode's upload whose save was lost."""
+def markers(meta: dict) -> set[str]:
+    return {f"orbitwire-longform:{meta['id']}", f"orbitwire-longform-sha256:{meta['sha256']}"}
+
+
+def adopt(api, channel: dict, meta: dict) -> str | None:
+    """Bind uncertain recovery to exact reviewed media; refuse ambiguous legacy title matches."""
     known = known_ids()
-    hits = [v for v in youtube.recent(api, channel) if v["snippet"].get("title") == title and v["id"] not in known
+    recent = youtube.recent(api, channel)
+    hits = [v for v in recent if markers(meta) <= set(v["snippet"].get("tags", []))
             and v["id"] not in youtube.RETRACTED]
-    return hits[0]["id"] if len(hits) == 1 else None
+    if len(hits) > 1:
+        raise RuntimeError("multiple uploads match this exact episode/media; reconcile before another write")
+    if hits:
+        if hits[0]["snippet"].get("channelId") != youtube.CHANNEL_ID:
+            raise RuntimeError("the recovered episode is on another channel")
+        if hits[0]["id"] in known:
+            raise RuntimeError("this exact episode/media is already owned by another ledger entry")
+        return hits[0]["id"]
+    if any(v["id"] not in known and v["id"] not in youtube.RETRACTED
+           and (v["snippet"].get("title") == meta["title"]
+                or f"orbitwire-longform:{meta['id']}" in v["snippet"].get("tags", [])) for v in recent):
+        raise RuntimeError("an unbound or different-media upload may exist; reconcile before uploading")
+    return None
 
 
 def upload(api, mp4: Path, meta: dict, desc: str) -> str:
     from googleapiclient.http import MediaFileUpload
 
-    body = {"snippet": {"title": meta["title"], "description": desc, "tags": meta["tags"],
+    body = {"snippet": {"title": meta["title"], "description": desc,
+                        "tags": list(dict.fromkeys(meta["tags"] + sorted(markers(meta)))),
                         "categoryId": youtube.CATEGORY, "defaultLanguage": "en", "defaultAudioLanguage": "en"},
             "status": {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
                        "embeddable": True, "publicStatsViewable": True}}
@@ -142,7 +160,8 @@ def schedule(api, video_id: str, publish_at: str) -> str:
         "privacyStatus": "private", "publishAt": publish_at, "selfDeclaredMadeForKids": False,
         "containsSyntheticMedia": True, "embeddable": True, "publicStatsViewable": True}}).execute()
     final = api.videos().list(part="status", id=video_id).execute()["items"][0]["status"]
-    if not final.get("publishAt"):
+    if not final.get("publishAt") or datetime.fromisoformat(final["publishAt"].replace("Z", "+00:00")) \
+            != datetime.fromisoformat(publish_at.replace("Z", "+00:00")):
         raise RuntimeError(f"{video_id} was not scheduled (status {final})")
     return final["publishAt"]
 
@@ -171,12 +190,15 @@ def publish(work: Path, api=None, at: datetime | None = None, max_wait: float = 
     meta = json.loads((work / "meta.json").read_text(encoding="utf-8"))
     if meta.get("problems"):
         raise RuntimeError("the episode failed QA; refusing to upload: " + "; ".join(meta["problems"]))
+    approval = review.require(work)
     publish_at = datetime.fromisoformat(meta["publish_at"].replace("Z", "+00:00"))
     desc = (work / "description.txt").read_text(encoding="utf-8")
     if describe.size(desc) > describe.LIMIT:
         raise RuntimeError("the description is over 5000 bytes")
     state = load()
     row = state["episodes"].get(meta["id"])
+    if row and row.get("sha256") != meta["sha256"]:
+        raise RuntimeError("the ledger episode belongs to different media; reconcile before publishing")
     if row and row.get("state") == "scheduled":
         return {"episode": meta["id"], "video_id": row["video_id"], "did": "nothing: already scheduled"}
     if (not row or not row.get("video_id")) and not meta.get("override") and \
@@ -189,7 +211,7 @@ def publish(work: Path, api=None, at: datetime | None = None, max_wait: float = 
     if not row or not row.get("video_id"):
         if publish_at <= at:
             raise RuntimeError(f"publishAt {meta['publish_at']} has passed: plan the episode again")
-        video_id = adopt(api, channel, meta["title"])
+        video_id = adopt(api, channel, meta)
         if video_id:
             did.append(f"adopted {video_id} (an upload whose save was lost)")
         else:
@@ -197,11 +219,15 @@ def publish(work: Path, api=None, at: datetime | None = None, max_wait: float = 
             did.append(f"uploaded {video_id} (private)")
         row = state["episodes"][meta["id"]] = {
             "video_id": video_id, "state": "uploaded", "title": meta["title"], "topic_key": meta.get("topic_key"),
-            "publish_at": meta["publish_at"], "sha256": meta.get("sha256"), "at": ledger.now()}
+            "publish_at": meta["publish_at"], "sha256": meta["sha256"], "at": ledger.now(),
+            "review_model": approval["model"], "review_brief_sha256": approval["brief_sha256"],
+            "synthetic_declared": True}
         save(state)
         did.append("state " + push_state(f"longform: uploaded {meta['id']} as {video_id}"))
     video_id = row["video_id"]
-    processed(api, video_id, max_wait, sleep)
+    owner = processed(api, video_id, max_wait, sleep)
+    if not markers(meta) <= set(owner["snippet"].get("tags", [])):
+        raise RuntimeError("the owner API does not bind the upload to the exact reviewed episode/media")
     if "thumbnail" not in row:
         row["thumbnail"] = best_effort(set_thumbnail, api, video_id, work / "thumbnail.jpg")
         save(state)
@@ -212,6 +238,20 @@ def publish(work: Path, api=None, at: datetime | None = None, max_wait: float = 
         raise RuntimeError(f"publishAt {meta['publish_at']} passed before {video_id} was scheduled: it stays private "
                            "for the owner to publish in Studio")
     row["publish_at"] = schedule(api, video_id, meta["publish_at"])
+    owner = api.videos().list(part="snippet,status,processingDetails", id=video_id).execute()["items"][0]
+    status = owner["status"]
+    if owner["snippet"].get("channelId") != youtube.CHANNEL_ID \
+            or status.get("uploadStatus") != "processed" or status.get("privacyStatus") != "private" \
+            or not status.get("publishAt") \
+            or datetime.fromisoformat(status["publishAt"].replace("Z", "+00:00")) != publish_at \
+            or status.get("selfDeclaredMadeForKids") is not False \
+            or status.get("containsSyntheticMedia") is False:
+        raise RuntimeError("the scheduled owner readback did not confirm channel, processing and disclosures")
+    # YouTube may omit the synthetic field from owner readback even after accepting
+    # the explicit true upload/update value. Keep the accepted write and unknown
+    # readback distinct; an explicit contradictory false remains a hold.
+    row["owner_readback"] = {"channel_id": owner["snippet"]["channelId"],
+                             "containsSyntheticMedia": status.get("containsSyntheticMedia"), **status}
     row["state"] = "scheduled"
     save(state)
     did.append(f"scheduled for {row['publish_at']}")

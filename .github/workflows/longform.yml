@@ -106,7 +106,7 @@ jobs:
         run: uv sync --frozen
       - name: Write the chapter
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.DOCTOR_GEMINI_API_KEY }}
           KEY: ${{ matrix.key }}
         run: uv run python -m studio.longform write "$KEY"
       - uses: actions/upload-artifact@v6
@@ -238,6 +238,15 @@ jobs:
           enable-cache: true
       - name: Install
         run: uv sync --frozen
+      - name: FFmpeg for complete audiovisual review
+        run: bash .github/scripts/install-media-tools.sh ffmpeg
+      - name: Complete audiovisual review
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run python -m studio.longform.review work/longform
+      - name: Retain passing or refused review before publication
+        if: always()
+        run: if [[ -d state/longform-reviews ]]; then bash .github/scripts/save-longform-state.sh review; fi
       - name: Upload private and schedule
         env:
           YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
