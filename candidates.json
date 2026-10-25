@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T08:11:06+00:00",
+ "at": "2026-10-25T08:39:15+00:00",
  "quakes": [],
  "trending": [
   {
@@ -96,6 +96,32 @@
     -84.29166667
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-25T06:33:45+00:00",
+   "headlines": [
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141760142",
@@ -220,6 +246,95 @@
    "article": null
   },
   {
+   "id": "nw-20261024-clashes-protest",
+   "qid": null,
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Clashes",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:28:47+00:00",
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes erupt at Paris protests, as police remain on high alert",
+    "France: Clashes erupt as protests sweep across cities",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "Photos: Clashes erupt in France during protests over rising living costs"
+   ],
+   "places": [
+    "Paris",
+    "Macron"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "Photos: Clashes erupt in France during protests over rising living costs",
+     "url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T07:28:47+00:00"
+    },
+    {
+     "title": "Clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    },
+    {
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:42:20+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261025-florida-attack",
    "qid": null,
    "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -330,81 +445,6 @@
    "date": "2026-10-21"
   },
   {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "SCMP Group",
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Small clashes erupt at Paris protests, as police remain on high alert",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q141820731",
    "title": "2026 Karak church shooting",
    "fame": 60900,
@@ -495,32 +535,6 @@
    "date": "2026-10-25",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-10-25T06:33:45+00:00",
-   "headlines": [
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q5218847",
@@ -866,34 +880,33 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261025-florida-attack",
+   "id": "nw-20261024-clashes-protest",
    "qid": null,
-   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
-   "name": "Florida",
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Clashes",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-25",
-   "news_at": "2026-10-25T06:07:47+00:00",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:28:47+00:00",
    "owners": [
-    "Bennett, Coleman & Co.",
-    "NDTV",
-    "NBCUniversal",
-    "Guardian Media Group"
+    "SCMP Group",
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "Al Jazeera Media Network"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "6 children among 12 injured in shooting near Florida university stadium",
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Clashes erupt at Paris protests, as police remain on high alert",
+    "France: Clashes erupt as protests sweep across cities",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "Photos: Clashes erupt in France during protests over rising living costs"
    ],
    "places": [
-    "children",
-    "injured",
-    "university"
+    "Paris",
+    "Macron"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -906,78 +919,58 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
-     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "Photos: Clashes erupt in France during protests over rising living costs",
+     "url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-25T06:07:47+00:00"
+     "at": "2026-10-25T07:28:47+00:00"
     },
     {
-     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
-     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
+     "title": "Clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    },
+    {
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-25T05:31:31+00:00"
-    },
-    {
-     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
-     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:28:10+00:00"
-    },
-    {
-     "title": "6 children among 12 injured in shooting near Florida university stadium",
-     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:19:19+00:00"
+     "at": "2026-10-25T00:42:20+00:00"
     }
    ],
    "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:NDTV",
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group"
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
-   "article": "2026 Florida A&M University shooting"
-  },
-  {
-   "qid": "Q1699148",
-   "title": "John Anderson (singer)",
-   "fame": 38342,
-   "views": 38342,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1699148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
+   "article": null
   }
  ],
  "outlets": {
-  "headlines": 693,
+  "headlines": 687,
   "feeds": 30,
   "owners": 21,
   "matched": 23,
@@ -1083,6 +1076,95 @@
    "article": null
   },
   {
+   "id": "nw-20261024-clashes-protest",
+   "qid": null,
+   "title": "France: Clashes erupt as protests sweep across cities",
+   "name": "Clashes",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:28:47+00:00",
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde",
+    "Disney (ABC News)",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes erupt at Paris protests, as police remain on high alert",
+    "France: Clashes erupt as protests sweep across cities",
+    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+    "Photos: Clashes erupt in France during protests over rising living costs"
+   ],
+   "places": [
+    "Paris",
+    "Macron"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France: Clashes erupt as protests sweep across cities",
+     "url": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-24T17:50:19+00:00"
+    },
+    {
+     "title": "Photos: Clashes erupt in France during protests over rising living costs",
+     "url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T07:28:47+00:00"
+    },
+    {
+     "title": "Clashes erupt at Paris protests, as police remain on high alert",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T13:17:24+00:00"
+    },
+    {
+     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:42:20+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261025-florida-attack",
    "qid": null,
    "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -1171,82 +1253,7 @@
    ],
    "emerging": true,
    "article": "2026 Florida A&M University shooting"
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "SCMP Group",
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Small clashes erupt at Paris protests, as police remain on high alert",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "Small clashes erupt at Paris protests, as police remain on high alert",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 693 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261025-florida-attack, nw-20261024-paris-protest"
+ "outlet_note": "outlets: 687 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-clashes-protest, nw-20261025-florida-attack"
 }
