@@ -1,64 +1,7 @@
 {
- "at": "2026-10-25T15:31:44+00:00",
+ "at": "2026-10-25T16:11:09+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": null,
-   "title": "2026 Florida A&M University shooting",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-25T15:19:47+00:00",
-   "headlines": [
-    "Eleven sustain gunshot wounds in shooting near Florida university",
-    "Twelve injured, including six juveniles, in shooting near Florida university",
-    "12 injured, including 6 children, in shooting near Florida university, police say"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
-    "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
-    "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Twelve injured, including six juveniles, in shooting near Florida university",
-     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T15:19:47+00:00"
-    },
-    {
-     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
-     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T13:30:57+00:00"
-    }
-   ],
-   "id": "wp-2026_Florida_A_M_University_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-25",
-   "coords": [
-    30.42611111,
-    -84.29166667
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
@@ -108,31 +51,29 @@
    "date": "2026-10-21"
   },
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-paris-attack",
    "qid": null,
-   "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
+   "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
    "name": "Paris",
    "kind": "incident",
-   "category": "protest",
+   "category": "attack",
    "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
+   "news_at": "2026-10-25T15:32:51+00:00",
    "owners": [
+    "Paramount (CBS)",
     "BBC",
-    "Independent Digital News",
-    "Disney (ABC News)"
+    "France Médias Monde"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Fireworks and tear gas as protesters and riot police clash in Paris",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt"
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+    "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+    "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system"
    ],
-   "places": [
-    "Macron"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -144,40 +85,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-     "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+     "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+     "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T19:37:35+00:00"
+     "at": "2026-10-25T15:32:51+00:00"
     },
     {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
+     "title": "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system",
+     "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
+     "at": "2026-10-25T10:36:42+00:00"
     },
     {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
+     "at": "2026-10-24T18:14:41+00:00"
     }
    ],
    "via": [
+    "outlet:Paramount (CBS)",
     "outlet:BBC",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -272,6 +213,61 @@
    "category": "protest",
    "date": "2026-10-25",
    "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": null,
+   "title": "2026 Florida A&M University shooting",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-25T15:19:47+00:00",
+   "headlines": [
+    "Twelve injured, including six juveniles, in shooting near Florida university",
+    "12 injured, including 6 children, in shooting near Florida university, police say"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
+    "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
+    "outlet:Guardian Media Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Twelve injured, including six juveniles, in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T15:19:47+00:00"
+    },
+    {
+     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
+     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T13:30:57+00:00"
+    }
+   ],
+   "id": "wp-2026_Florida_A_M_University_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "coords": [
+    30.42611111,
+    -84.29166667
+   ],
    "has_coords": true
   },
   {
@@ -508,19 +504,17 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 175000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
+   "news": 50000,
    "news_at": "2026-10-25T15:19:47+00:00",
    "headlines": [
-    "Eleven sustain gunshot wounds in shooting near Florida university",
     "Twelve injured, including six juveniles, in shooting near Florida university",
     "12 injured, including 6 children, in shooting near Florida university, police say"
    ],
    "region": "world",
    "via": [
-    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
     "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
     "outlet:Guardian Media Group",
@@ -561,42 +555,31 @@
     -84.29166667
    ],
    "has_coords": true
-  }
- ],
- "outlets": {
-  "headlines": 663,
-  "feeds": 29,
-  "owners": 21,
-  "matched": 14,
-  "corroborated": 2
- },
- "emerging": [
+  },
   {
-   "id": "nw-20261024-paris-protest",
+   "id": "nw-20261024-paris-attack",
    "qid": null,
-   "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
+   "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
    "name": "Paris",
    "kind": "incident",
-   "category": "protest",
+   "category": "attack",
    "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
+   "news_at": "2026-10-25T15:32:51+00:00",
    "owners": [
+    "Paramount (CBS)",
     "BBC",
-    "Independent Digital News",
-    "Disney (ABC News)"
+    "France Médias Monde"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Fireworks and tear gas as protesters and riot police clash in Paris",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt"
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+    "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+    "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system"
    ],
-   "places": [
-    "Macron"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -608,44 +591,126 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-     "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+     "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+     "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-24T19:37:35+00:00"
+     "at": "2026-10-25T15:32:51+00:00"
     },
     {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
+     "title": "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system",
+     "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
+     "at": "2026-10-25T10:36:42+00:00"
     },
     {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
+     "at": "2026-10-24T18:14:41+00:00"
     }
    ],
    "via": [
+    "outlet:Paramount (CBS)",
     "outlet:BBC",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 663 headlines from 29 feeds (21 owners), 14 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-protest"
+ "outlets": {
+  "headlines": 664,
+  "feeds": 29,
+  "owners": 21,
+  "matched": 15,
+  "corroborated": 2
+ },
+ "emerging": [
+  {
+   "id": "nw-20261024-paris-attack",
+   "qid": null,
+   "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+   "name": "Paris",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T15:32:51+00:00",
+   "owners": [
+    "Paramount (CBS)",
+    "BBC",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+    "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+    "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+     "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T15:32:51+00:00"
+    },
+    {
+     "title": "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system",
+     "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T10:36:42+00:00"
+    },
+    {
+     "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
+     "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-24T18:14:41+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 664 headlines from 29 feeds (21 owners), 15 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-attack"
 }

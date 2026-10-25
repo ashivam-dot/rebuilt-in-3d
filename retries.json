@@ -438,9 +438,16 @@
   "draft_rules": "exact-photo-count-2026-10-25"
  },
  "wp-2026_Florida_A_M_University_shooting": {
-  "count": 5,
+  "count": 6,
   "reason": "gate: event date conflicts between the structured source (2026-10-25) and article lead (2026-10-24)",
-  "at": "2026-10-25T15:35:58+00:00",
+  "at": "2026-10-25T16:13:15+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25"
+ },
+ "nw-20261024-paris-attack": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Paris or the event itself (only 5 photos of places or things near it)",
+  "at": "2026-10-25T16:14:37+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25"
  }

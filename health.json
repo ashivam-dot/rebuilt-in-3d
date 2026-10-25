@@ -1,12 +1,13 @@
 {
- "at": "2026-10-25T15:31:43+00:00",
+ "at": "2026-10-25T16:11:08+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 17 units today",
-  "watch: 1 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 663 headlines from 29 feeds (21 owners), 14 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-protest",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 18 units today",
+  "watch: 2 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 664 headlines from 29 feeds (21 owners), 15 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-attack",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting, nw-20261024-paris-attack",
   "skip wp-2026_Florida_A_M_University_shooting: gate: event date conflicts between the structured source (2026-10-25) and article lead (2026-10-24)",
+  "skip nw-20261024-paris-attack: gate: faceless: no free photo shows Paris or the event itself (only 5 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
