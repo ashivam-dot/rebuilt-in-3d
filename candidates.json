@@ -1,93 +1,51 @@
 {
- "at": "2026-10-25T10:34:26+00:00",
+ "at": "2026-10-25T11:03:50+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 225000,
-   "views": 0,
-   "traffic": 0,
-   "news": 225000,
-   "news_at": "2026-10-25T09:25:54+00:00",
-   "headlines": [
-    "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues",
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "India advises its nationals in Saudi Arabia against filming missile interceptions"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues",
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "outlet:HT Media",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "HT Media",
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
-     "url": "https://www.hindustantimes.com/india-news/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions-101792919967630.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T09:25:54+00:00"
-    },
-    {
-     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
-     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T09:16:47+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 225000,
+   "fame": 375000,
    "views": 0,
    "traffic": 0,
-   "news": 225000,
-   "news_at": "2026-10-25T07:49:00+00:00",
+   "news": 375000,
+   "news_at": "2026-10-25T10:45:37+00:00",
    "headlines": [
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "12 injured, including 6 children, in shooting near Florida university, police say",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university",
-    "12, Including 6 Children, Injured In Shooting Near Florida University"
+    "Eleven sustain gunshot wounds in shooting near Florida university"
    ],
    "region": "world",
    "via": [
+    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
     "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
+    "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
+    "outlet:Disney (ABC News)",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
     "outlet:NDTV"
    ],
    "owners": [
+    "Disney (ABC News)",
     "Fox Corporation",
     "Guardian Media Group",
     "NBCUniversal",
     "NDTV"
    ],
    "reports": [
+    {
+     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
+     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:45:37+00:00"
+    },
     {
      "title": "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
      "url": "https://www.foxnews.com/us/florida-am-university-shooting-tallahassee-stadium-copy-slug",
@@ -162,6 +120,109 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "id": "nw-20261025-florida-attack",
+   "qid": null,
+   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "news_at": "2026-10-25T10:45:37+00:00",
+   "owners": [
+    "NDTV",
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Disney (ABC News)"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "At least 12 injured, including 6 children, in shooting near Florida A&M",
+    "12 injured, including 6 children, in shooting near Florida university, police say"
+   ],
+   "places": [
+    "Injured",
+    "University",
+    "Children"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:47+00:00"
+    },
+    {
+     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
+     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:45:37+00:00"
+    },
+    {
+     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
+     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:21:28+00:00"
+    },
+    {
+     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T05:31:31+00:00"
+    },
+    {
+     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:28:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": "2026 Florida A&M University shooting"
   },
   {
    "id": "nw-20261024-paris-protest",
@@ -253,96 +314,6 @@
    "article": null
   },
   {
-   "id": "nw-20261025-florida-attack",
-   "qid": null,
-   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-25",
-   "news_at": "2026-10-25T10:21:28+00:00",
-   "owners": [
-    "NDTV",
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Paramount (CBS)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university",
-    "At least 12 injured, including 6 children, in shooting near Florida A&M"
-   ],
-   "places": [
-    "Injured",
-    "University",
-    "Children"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
-     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:47+00:00"
-    },
-    {
-     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
-     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T10:21:28+00:00"
-    },
-    {
-     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
-     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T05:31:31+00:00"
-    },
-    {
-     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
-     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:28:10+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NDTV",
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": "2026 Florida A&M University shooting"
-  },
-  {
    "qid": "Q320093",
    "title": "Tom Skerritt",
    "fame": 88131,
@@ -361,6 +332,58 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-10-25T10:56:19+00:00",
+   "headlines": [
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "India advises its nationals in Saudi Arabia against filming missile interceptions"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "google-news:India advises its nationals in Saudi Arabia against filming missile interceptions",
+    "outlet:The Hindu Group",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "The Hindu Group",
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.thehindu.com/news/national/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions/article71622868.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T10:56:19+00:00"
+    },
+    {
+     "title": "India advises its nationals in Saudi Arabia against filming missile interceptions",
+     "url": "https://www.hindustantimes.com/india-news/india-advises-its-nationals-in-saudi-arabia-against-filming-missile-interceptions-101792919967630.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T09:25:54+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261024-milan-protest",
@@ -788,34 +811,47 @@
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 225000,
+   "fame": 375000,
    "views": 0,
    "traffic": 0,
-   "news": 225000,
-   "news_at": "2026-10-25T07:49:00+00:00",
+   "news": 375000,
+   "news_at": "2026-10-25T10:45:37+00:00",
    "headlines": [
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "12 injured, including 6 children, in shooting near Florida university, police say",
     "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university",
-    "12, Including 6 Children, Injured In Shooting Near Florida University"
+    "Eleven sustain gunshot wounds in shooting near Florida university"
    ],
    "region": "world",
    "via": [
+    "google-news:12, Including 6 Children, Injured In Shooting Near Florida University",
     "google-news:12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "google-news:Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
-    "google-news:Eleven sustain gunshot wounds in shooting near Florida university",
+    "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
+    "outlet:Disney (ABC News)",
     "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
     "outlet:NDTV"
    ],
    "owners": [
+    "Disney (ABC News)",
     "Fox Corporation",
     "Guardian Media Group",
     "NBCUniversal",
     "NDTV"
    ],
    "reports": [
+    {
+     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
+     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:45:37+00:00"
+    },
     {
      "title": "Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium",
      "url": "https://www.foxnews.com/us/florida-am-university-shooting-tallahassee-stadium-copy-slug",
@@ -869,13 +905,116 @@
   }
  ],
  "outlets": {
-  "headlines": 682,
-  "feeds": 30,
+  "headlines": 680,
+  "feeds": 29,
   "owners": 21,
   "matched": 22,
   "corroborated": 5
  },
  "emerging": [
+  {
+   "id": "nw-20261025-florida-attack",
+   "qid": null,
+   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "news_at": "2026-10-25T10:45:37+00:00",
+   "owners": [
+    "NDTV",
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Disney (ABC News)"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "At least 12 injured, including 6 children, in shooting near Florida A&M",
+    "12 injured, including 6 children, in shooting near Florida university, police say"
+   ],
+   "places": [
+    "Injured",
+    "University",
+    "Children"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:47+00:00"
+    },
+    {
+     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
+     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:45:37+00:00"
+    },
+    {
+     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
+     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:21:28+00:00"
+    },
+    {
+     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T05:31:31+00:00"
+    },
+    {
+     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:28:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": "2026 Florida A&M University shooting"
+  },
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
@@ -966,96 +1105,6 @@
    "article": null
   },
   {
-   "id": "nw-20261025-florida-attack",
-   "qid": null,
-   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-25",
-   "news_at": "2026-10-25T10:21:28+00:00",
-   "owners": [
-    "NDTV",
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Paramount (CBS)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "12, Including 6 Children, Injured In Shooting Near Florida University",
-    "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university",
-    "At least 12 injured, including 6 children, in shooting near Florida A&M"
-   ],
-   "places": [
-    "Injured",
-    "University",
-    "Children"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
-     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:47+00:00"
-    },
-    {
-     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
-     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T10:21:28+00:00"
-    },
-    {
-     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
-     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T05:31:31+00:00"
-    },
-    {
-     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
-     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-25T05:28:10+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NDTV",
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": "2026 Florida A&M University shooting"
-  },
-  {
    "id": "nw-20261024-milan-protest",
    "qid": null,
    "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
@@ -1139,5 +1188,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 682 headlines from 30 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261025-florida-attack, nw-20261024-milan-protest"
+ "outlet_note": "outlets: 680 headlines from 29 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-paris-protest, nw-20261024-milan-protest"
 }
