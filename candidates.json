@@ -1,17 +1,16 @@
 {
- "at": "2026-10-25T16:34:31+00:00",
+ "at": "2026-10-25T17:16:21+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 225000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 225000,
+   "news": 100000,
    "news_at": "2026-10-25T16:16:35+00:00",
    "headlines": [
-    "12 people, including 6 minors, injured in shooting near Florida university stadium",
     "5 victims released from hospital after Florida A&M University shooting, 1 remains critical",
     "At least 12 injured, including six kids, after mass shooting near Florida A&M University",
     "Twelve injured, including six juveniles, in shooting near Florida university",
@@ -19,9 +18,9 @@
    ],
    "region": "world",
    "via": [
-    "google-news:12 people, including 6 minors, injured in shooting near Florida university stadium",
     "google-news:5 victims released from hospital after Florida A&M University shooting, 1 remains critical",
     "google-news:At least 12 injured, including six kids, after mass shooting near Florida A&M University",
+    "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
     "outlet:Fox Corporation",
     "outlet:Independent Digital News",
     "outlet:Guardian Media Group",
@@ -84,34 +83,6 @@
     -84.29166667
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-25T14:05:17+00:00",
-   "headlines": [
-    "Saudi Arabia Reopens Riyadh Airport After Weeks of Houthi Attacks",
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Saudi Arabia Reopens Riyadh Airport After Weeks of Houthi Attacks",
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q320093",
@@ -207,81 +178,6 @@
    "article": null
   },
   {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "BBC",
-    "Independent Digital News",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Fireworks and tear gas as protesters and riot police clash in Paris",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-     "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T19:37:35+00:00"
-    },
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q141820731",
    "title": "2026 Karak church shooting",
    "fame": 60900,
@@ -372,6 +268,32 @@
    "date": "2026-10-25",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-25T06:40:06+00:00",
+   "headlines": [
+    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q1699148",
@@ -605,32 +527,34 @@
  ],
  "candidates": [
   {
-   "qid": "Q3424313",
-   "title": "Deva (composer)",
-   "fame": 8248,
-   "views": 8248,
+   "qid": "Q141776873",
+   "title": "2026 Italian unrest",
+   "fame": 50000,
+   "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": null,
+   "news_at": "2026-10-25T00:00:00+00:00",
    "headlines": [],
-   "region": "india",
+   "region": "world",
    "via": [
-    "wikipedia-top-2026-10-24"
+    "wikipedia-current-events-2026-10-24"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q3424313",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-17"
+   "id": "wk-Q141776873",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-16",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 667,
+  "headlines": 671,
   "feeds": 29,
   "owners": 21,
-  "matched": 20,
-  "corroborated": 3
+  "matched": 31,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -705,82 +629,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T06:07:45+00:00",
-   "owners": [
-    "BBC",
-    "Independent Digital News",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Fireworks and tear gas as protesters and riot police clash in Paris",
-    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-    "More than 400,000 protest across France, challenging Macron as Paris clashes erupt"
-   ],
-   "places": [
-    "Macron"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-     "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-24T19:37:35+00:00"
-    },
-    {
-     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-     "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-25T06:07:45+00:00"
-    },
-    {
-     "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-     "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:42:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-paris-attack, nw-20261024-paris-protest"
+ "outlet_note": "outlets: 671 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261024-paris-attack"
 }
