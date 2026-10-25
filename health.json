@@ -1,10 +1,10 @@
 {
- "at": "2026-10-25T05:12:59+00:00",
+ "at": "2026-10-25T05:42:35+00:00",
  "ok": true,
  "steps": [
-  "learn: 44 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 6, 'typical_view_pct': 60.7}, 'kind:death': {'n': 12, 'lift': 1.164, 'typical_views_24h': 251, 'n_retention': 11, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 24, 'lift': 1.058, 'typical_views_24h': 181, 'n_retention': 23, 'typical_view_pct': 55.5}, 'category:death': {'n': 11, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 92 units today",
-  "watch: 0 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 710 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261024-paris-protest"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 93 units today",
+  "watch: 0 candidates (0 quakes, 19 trending), 0 hazard alerts",
+  "outlets: 708 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest",
+  "trend radar errors: [\"gdacs: HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7f49d96c3f2\"]"
  ]
 }

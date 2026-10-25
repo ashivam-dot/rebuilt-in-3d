@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T05:13:01+00:00",
+ "at": "2026-10-25T05:42:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -45,124 +45,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 85900,
-   "views": 10900,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [
-    "Jordan: Karak church shooting leaves 7 dead, dozens injured"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24",
-    "wikipedia-current-events-2026-10-24",
-    "google-news:Jordan: Karak church shooting leaves 7 dead, dozens injured",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-23T18:33:00+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Thousands join Paris protests as authorities clamp down on disorder",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T19:01:52+00:00",
-   "owners": [
-    "SCMP Group",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Chinese students in Paris hunker down as city braces for more mass protests",
-    "France protests: Louvre shuts down over fears of violence in Paris",
-    "Thousands join Paris protests as authorities clamp down on disorder"
-   ],
-   "places": [
-    "Louvre"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Thousands join Paris protests as authorities clamp down on disorder",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T19:01:52+00:00"
-    },
-    {
-     "title": "France protests: Louvre shuts down over fears of violence in Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:44:22+00:00"
-    },
-    {
-     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:00:13+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "id": "nw-20261024-milan-protest",
@@ -311,6 +193,32 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 60900,
+   "views": 10900,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-25T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24",
+    "wikipedia-current-events-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141535181",
@@ -627,114 +535,19 @@
    "date": "2026-10-17"
   }
  ],
- "hazards": [
-  {
-   "id": "gdacs-EQ-1573141",
-   "kind": "EQ",
-   "level": "Red",
-   "title": "Red earthquake (Magnitude 7M, Depth:18km) in China 22/10/2026 14:33 UTC, 10 thousand (in MMI>=VII).",
-   "country": "China",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
-   "published": "2026-10-22T14:54:15+00:00",
-   "lat": "32.3805",
-   "lon": "93.7797"
-  },
-  {
-   "id": "gdacs-TC-1001338",
-   "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.181 million .",
-   "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-   "published": "2026-10-14T14:31:53+00:00",
-   "lat": "22.7",
-   "lon": "123.8"
-  }
- ],
+ "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "gdacs: HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7f49d96c3f2"
+ ],
  "outlets": {
-  "headlines": 710,
+  "headlines": 708,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 3
+  "matched": 24,
+  "corroborated": 2
  },
  "emerging": [
-  {
-   "id": "nw-20261024-paris-protest",
-   "qid": null,
-   "title": "Thousands join Paris protests as authorities clamp down on disorder",
-   "name": "Paris",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-24T19:01:52+00:00",
-   "owners": [
-    "SCMP Group",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Chinese students in Paris hunker down as city braces for more mass protests",
-    "France protests: Louvre shuts down over fears of violence in Paris",
-    "Thousands join Paris protests as authorities clamp down on disorder"
-   ],
-   "places": [
-    "Louvre"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Thousands join Paris protests as authorities clamp down on disorder",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T19:01:52+00:00"
-    },
-    {
-     "title": "France protests: Louvre shuts down over fears of violence in Paris",
-     "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-louvre-shut-b3072616.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:44:22+00:00"
-    },
-    {
-     "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T08:00:13+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261024-milan-protest",
    "qid": null,
@@ -884,5 +697,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 710 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261024-milan-protest, nw-20261024-paris-protest"
+ "outlet_note": "outlets: 708 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest",
+ "hazards_error": "HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7f49d68f8050>, 'Co"
 }
