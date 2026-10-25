@@ -1,13 +1,14 @@
 {
- "at": "2026-10-25T06:41:47+00:00",
+ "at": "2026-10-25T07:42:57+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 95 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
   "watch: 3 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 705 headlines from 30 feeds (21 owners), 22 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-milan-protest, nw-20261024-paris-protest",
-  "hold nw-20261025-florida-attack: outside the world window",
-  "hold nw-20261024-milan-protest: outside the world window",
-  "hold wk-Q141535181-2026w43: outside the world window",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261025-florida-attack"
+  "outlets: 698 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Florida_A_M_University_shooting",
+  "wait wp-2026_Florida_A_M_University_shooting: gate: the article is under 6 hours old; facts may still move (ready in 5.4 h)",
+  "skip nw-20261024-milan-protest: gate: faceless: no free photo shows Milan or the event itself (only 7 photos of places or things near it)",
+  "skip wk-Q141535181-2026w43: gate: faceless: no free photo shows 2026 French fuel protests or the event itself (only 6 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
