@@ -280,10 +280,11 @@
   "at": "2026-10-22T02:31:49+00:00"
  },
  "wk-Q1699148": {
-  "count": 3,
-  "reason": "gate: only 1 usable photos of John Anderson on Wikimedia Commons (want 3)",
-  "at": "2026-10-24T08:09:28+00:00",
-  "rules": "anchored-2026-10"
+  "count": 4,
+  "reason": "gate: only 1 usable photos of John Anderson on Wikimedia Commons (want 4)",
+  "at": "2026-10-25T08:13:32+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25"
  },
  "nw-20261021-oregon-attack": {
   "count": 2,
@@ -418,6 +419,13 @@
   "count": 2,
   "reason": "gate: only 2 usable photos of Taiwan (want 4)",
   "at": "2026-10-25T00:45:49+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25"
+ },
+ "nw-20261025-florida-attack": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Florida or the event itself (only 0 photos of places or things near it)",
+  "at": "2026-10-25T08:13:31+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25"
  }
