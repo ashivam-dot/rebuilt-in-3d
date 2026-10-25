@@ -1,47 +1,47 @@
 {
- "at": "2026-10-25T19:09:49+00:00",
+ "at": "2026-10-25T19:33:10+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 300000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-25T19:09:49.039245+00:00",
+   "news": 125000,
+   "news_at": "2026-10-25T19:33:10.125030+00:00",
    "headlines": [
-    "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
     "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "Saudi air defences intercept Houthi barrage near Mecca",
-    "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news"
+    "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
+    "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news",
+    "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-25",
-    "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
     "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-    "outlet:Al Jazeera Media Network",
+    "google-news:Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
+    "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
    ],
    "owners": [
-    "Al Jazeera Media Network",
+    "Independent Digital News",
     "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "reports": [
     {
-     "title": "Saudi air defences intercept Houthi barrage near Mecca",
-     "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
+     "title": "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
+     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-riyadh-airport-houthis-king-khalid-b3073057.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-25T13:49:33+00:00"
+     "at": "2026-10-25T19:19:37+00:00"
     },
     {
      "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news",
@@ -495,55 +495,14 @@
    "lon": "126.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q3012285",
-   "title": "Dale Brown (basketball)",
-   "fame": 9245,
-   "views": 9245,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3012285",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q6830740",
-   "title": "Michael Gray (actor)",
-   "fame": 14432,
-   "views": 14432,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6830740",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-16"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 683,
+  "headlines": 681,
   "feeds": 29,
   "owners": 21,
-  "matched": 38,
+  "matched": 37,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 683 headlines from 29 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 681 headlines from 29 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
