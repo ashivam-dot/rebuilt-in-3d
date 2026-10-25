@@ -32,6 +32,11 @@ GRAPHIC = re.compile(r"(corpse|bodies|\bbody\b|victim|blood|wound|injur|\bdead\b
 MIN_SIDE = 480
 # A person's own Wikidata portrait (P18) may be smaller: Captain Smit Machchhar's only free photo is 450x542.
 PORTRAIT_SIDE = 360
+# Generic filenames hid a Starlink data plot and Blender render in the Hindi desk's run40160034587.
+# Both desks use Commons; a source-declared illustration cannot enter their real-photo pools.
+NOT_CAMERA = re.compile(r"\b(?:rendered (?:with|using|in)|3[- ]?d render(?:ing)?s?|computer[- ]generated|"
+                        r"artist['’]s (?:impression|concept|conception)|(?:line|bar|pie) chart|"
+                        r"(?:data|statistical) (?:plot|chart)|plot(?:ted)? data)\b", re.I)
 # A map by what it shows, not by its file name: "Internationalwaters.png" (sea zones in blue) and the NASA FIRMS
 # hotspot image of the CFB Wainwright fire both passed NOT_PHOTO and stood under beats as photos (2026-10-22 audit).
 MAP_TEXT = re.compile(r"\b(maps?|locator|location of|exclusive economic zones?|EEZs?|hotspots?|FIRMS|"
@@ -557,7 +562,8 @@ def openverse(query: str, limit: int = OPENVERSE_PER_PLACE, exclude: set[str] | 
         ext = (r.get("filetype") or url.rsplit(".", 1)[-1]).lower()
         if not lic or r.get("mature") or not url.startswith("https://") or file in (exclude or set()):
             continue
-        if ext not in ("jpg", "jpeg", "png", "webp") or NOT_PHOTO.search(title) or GRAPHIC.search(title):
+        if ext not in ("jpg", "jpeg", "png", "webp") or NOT_PHOTO.search(title) or NOT_CAMERA.search(title) \
+                or GRAPHIC.search(title):
             continue
         if min(r.get("width") or 0, r.get("height") or 0) < MIN_SIDE or not _names(title, keys):
             continue
@@ -771,6 +777,10 @@ def _usable(ordered: list[tuple], keys: set[str], limit: int, shoot_cap: int = 2
         lic = _text(meta.get("LicenseShortName", {}).get("value"), 40)
         desc = _text(meta.get("ImageDescription", {}).get("value"))
         if not FREE.match(lic) or meta.get("NonFree", {}).get("value") or GRAPHIC.search(desc):
+            continue
+        medium = " ".join((f, desc, _text(meta.get("Credit", {}).get("value"), 1000),
+                           _text(meta.get("Categories", {}).get("value"), 1000)))
+        if NOT_CAMERA.search(medium):
             continue
         if DERIVATIVE.search(f"{f} {desc}") or MAP_TEXT.search(f"{f} {desc}") or DERIVED.search(f"{f} {desc}"):
             continue
