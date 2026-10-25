@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T06:08:18+00:00",
+ "at": "2026-10-25T06:41:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,6 +25,96 @@
    "date": "2026-10-17",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "id": "nw-20261025-florida-attack",
+   "qid": null,
+   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "news_at": "2026-10-25T06:07:47+00:00",
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "NBCUniversal",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "6 children among 12 injured in shooting near Florida university stadium",
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university"
+   ],
+   "places": [
+    "children",
+    "injured",
+    "university"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:47+00:00"
+    },
+    {
+     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T05:31:31+00:00"
+    },
+    {
+     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:28:10+00:00"
+    },
+    {
+     "title": "6 children among 12 injured in shooting near Florida university stadium",
+     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:19:19+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q320093",
@@ -122,12 +212,12 @@
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+   "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
    "name": "Paris",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-25T04:09:59+00:00",
+   "news_at": "2026-10-25T06:07:45+00:00",
    "owners": [
     "SCMP Group",
     "Disney (ABC News)",
@@ -140,7 +230,7 @@
    "headlines": [
     "Small clashes erupt at Paris protests, as police remain on high alert",
     "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "Protesters clash with police in Paris as demonstrations turn hostile across France"
+    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
     "Macron"
@@ -156,14 +246,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
      "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-25T04:09:59+00:00"
+     "at": "2026-10-25T06:07:45+00:00"
     },
     {
      "title": "Small clashes erupt at Paris protests, as police remain on high alert",
@@ -561,6 +651,96 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261025-florida-attack",
+   "qid": null,
+   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "news_at": "2026-10-25T06:07:47+00:00",
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "NBCUniversal",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "6 children among 12 injured in shooting near Florida university stadium",
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university"
+   ],
+   "places": [
+    "children",
+    "injured",
+    "university"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:47+00:00"
+    },
+    {
+     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T05:31:31+00:00"
+    },
+    {
+     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:28:10+00:00"
+    },
+    {
+     "title": "6 children among 12 injured in shooting near Florida university stadium",
+     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:19:19+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261024-milan-protest",
    "qid": null,
    "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
@@ -657,13 +837,103 @@
   }
  ],
  "outlets": {
-  "headlines": 707,
+  "headlines": 705,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 2
+  "matched": 22,
+  "corroborated": 3
  },
  "emerging": [
+  {
+   "id": "nw-20261025-florida-attack",
+   "qid": null,
+   "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "news_at": "2026-10-25T06:07:47+00:00",
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "NBCUniversal",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "6 children among 12 injured in shooting near Florida university stadium",
+    "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "12 injured, including several minors, in shooting near Florida A&M University stadium",
+    "Eleven sustain gunshot wounds in shooting near Florida university"
+   ],
+   "places": [
+    "children",
+    "injured",
+    "university"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T06:07:47+00:00"
+    },
+    {
+     "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T05:31:31+00:00"
+    },
+    {
+     "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+     "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:28:10+00:00"
+    },
+    {
+     "title": "6 children among 12 injured in shooting near Florida university stadium",
+     "url": "https://timesofindia.indiatimes.com/world/us/6-children-among-12-injured-in-shooting-near-florida-university-stadium/articleshow/135183905.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-25T05:19:19+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261024-milan-protest",
    "qid": null,
@@ -740,12 +1010,12 @@
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
-   "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+   "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
    "name": "Paris",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-24",
-   "news_at": "2026-10-25T04:09:59+00:00",
+   "news_at": "2026-10-25T06:07:45+00:00",
    "owners": [
     "SCMP Group",
     "Disney (ABC News)",
@@ -758,7 +1028,7 @@
    "headlines": [
     "Small clashes erupt at Paris protests, as police remain on high alert",
     "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-    "Protesters clash with police in Paris as demonstrations turn hostile across France"
+    "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France"
    ],
    "places": [
     "Macron"
@@ -774,14 +1044,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+     "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
      "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-25T04:09:59+00:00"
+     "at": "2026-10-25T06:07:45+00:00"
     },
     {
      "title": "Small clashes erupt at Paris protests, as police remain on high alert",
@@ -813,5 +1083,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 707 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest"
+ "outlet_note": "outlets: 705 headlines from 30 feeds (21 owners), 22 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-milan-protest, nw-20261024-paris-protest"
 }

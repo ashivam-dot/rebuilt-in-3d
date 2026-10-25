@@ -1,11 +1,13 @@
 {
- "at": "2026-10-25T06:08:17+00:00",
+ "at": "2026-10-25T06:41:47+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 94 units today",
-  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 707 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 95 units today",
+  "watch: 3 candidates (0 quakes, 20 trending), 2 hazard alerts",
+  "outlets: 705 headlines from 30 feeds (21 owners), 22 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261025-florida-attack, nw-20261024-milan-protest, nw-20261024-paris-protest",
+  "hold nw-20261025-florida-attack: outside the world window",
   "hold nw-20261024-milan-protest: outside the world window",
-  "hold wk-Q141535181-2026w43: outside the world window"
+  "hold wk-Q141535181-2026w43: outside the world window",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261025-florida-attack"
  ]
 }
