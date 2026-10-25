@@ -24,7 +24,8 @@ def _pipe():
 
 
 def _norm(word: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", word.lower())
+    norm = re.sub(r"[^a-z0-9]", "", word.lower())
+    return "km" if norm in {"km", "kilometer", "kilometers", "kilometre", "kilometres"} else norm
 
 
 def transcribe(audio: np.ndarray, sr: int) -> list[dict]:
@@ -46,13 +47,23 @@ def transcribe(audio: np.ndarray, sr: int) -> list[dict]:
 CLOSE = 0.75  # spelling likeness at which a heard word is the script's word ("rahman" for "rehman")
 
 
-def _spelled_alike(a: list[str], heard: list[dict]) -> tuple[list[str], list[dict]]:
+def _spelled_alike(a: list[str], heard: list[dict], compounds: set[str] | None = None) -> tuple[list[str], list[dict]]:
     """Whisper spells names and British words its own way: "Rehman" comes back "Rahman", "kilometres" "kilometers",
     and "Sher Shah" one word "Shershah". A heard word that joins two script words is split in two, and a script word
     of 5+ letters takes the heard spelling when CLOSE alike, so a good take of a foreign name is not called garbled."""
+    # Whisper may write a hyphenated compass direction as two or three words.
+    # Join only an EXACT spelling of a compound actually present in this script;
+    # unrelated words or missing direction components must still fail the check.
+    joined, i = [], 0
+    while i < len(heard):
+        count = next((n for n in (3, 2) if i + n <= len(heard)
+                      and "".join(_norm(h["text"]) for h in heard[i:i + n]) in (compounds or set())), 1)
+        joined.append(heard[i] | {"text": "".join(h["text"].strip() for h in heard[i:i + count]),
+                                 "end": heard[i + count - 1]["end"]})
+        i += count
     pairs = {x + y: (x, y) for x, y in zip(a, a[1:]) if x and y}
     split = []
-    for h in heard:
+    for h in joined:
         n = _norm(h["text"])
         if n in pairs:
             mid = (h["start"] + h["end"]) / 2
@@ -75,7 +86,7 @@ def align(script: str, heard: list[dict], duration: float) -> tuple[list[dict], 
     Returns (words, match ratio of script words found in the transcript).
     """
     said = script.split()
-    a, heard = _spelled_alike([_norm(w) for w in said], heard)
+    a, heard = _spelled_alike([_norm(w) for w in said], heard, {_norm(w) for w in said if "-" in w})
     b = [_norm(w["text"]) for w in heard]
     times: list[tuple[float, float] | None] = [None] * len(said)
     matcher = difflib.SequenceMatcher(a=a, b=b, autojunk=False)

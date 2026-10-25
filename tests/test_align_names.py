@@ -24,3 +24,19 @@ def test_a_cut_off_or_babbled_take_is_still_garbled():
     assert match < voice.MIN_MATCH
     _, match = align.align(BEAT, _heard("Ah tuh mana bah ex was pass thru shuh junk"), 4.0)
     assert match < voice.MIN_MATCH
+
+
+def test_longform_history_units_and_hyphenated_bearings_match_their_exact_spoken_words():
+    script = "In 1916, a magnitude 7.1 quake struck 6 km west-north-west of Siquirres, Costa Rica."
+    transcript = "In 1916, a magnitude 7.1 quake struck 6 kilometers west north west of Siquirres, Costa Rica."
+    words, match = align.align(script, _heard(transcript), 8)
+    assert match == 1 and [w['text'] for w in words] == script.split()
+    bearing = next(w for w in words if w['text'] == 'west-north-west')
+    assert bearing['text'] == 'west-north-west' and bearing['end'] > bearing['start']
+
+
+def test_unit_and_direction_normalization_cannot_accept_a_changed_distance_or_direction():
+    script = "6 km west-north-west"
+    assert align.align(script, _heard("6 miles west north west"), 3)[1] < voice.MIN_MATCH
+    assert align.align(script, _heard("6 kilometers south south east"), 3)[1] < voice.MIN_MATCH
+    assert align.align(script, _heard("60 kilometers west north west"), 3)[1] < voice.MIN_MATCH

@@ -84,6 +84,7 @@ def _clock(m: re.Match) -> str:
 def speakable(text: str) -> str:
     """What Kokoro should read: symbols and clock times spelled the way a newsreader says them."""
     text = re.sub(r"\b(\d{1,2}):(\d{2})\b", _clock, text)
+    text = re.sub(r"\bkm\b", "kilometres", text)
     return text.replace("≈", "about ").replace("%", " percent")
 
 
