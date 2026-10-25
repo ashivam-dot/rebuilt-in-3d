@@ -804,6 +804,18 @@ def write(kind: str, name: str, pronoun: str, facts: list[str], source: str, pho
     checked = ground + ("\n" + report_ground(reports) if reports else "")
     log, base = [], messages
     schema, budget = draft_schema(photos), 1800
+    if log_path:
+        # Failed run 40158687969 kept rejected drafts but lost the photo classifications
+        # and source brief needed to diagnose their mismatches. Persist public inputs
+        # before inference; credentials and the process environment are never captured.
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        log_path.with_name("writer_input.json").write_text(json.dumps({
+            "schema": 1, "kind": kind, "name": name, "pronoun": pronoun,
+            "model_requested": model or llm.DEFAULT, "messages": messages,
+            "draft_schema": schema, "ground": ground, "checked_ground": checked,
+            "photos": photos, "people": people or [], "banned_names": banned_names or [],
+            "casualties": casualties, "recent_titles": recent, "series": series,
+        }, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     with llm.Model(model or llm.DEFAULT) as m:
         for attempt in range(3):
             try:

@@ -53,6 +53,11 @@ def test_truncation_changes_the_retry_and_keeps_the_verification(monkeypatch, tm
     assert "exactly 2 beats" in calls[1][0][-1]["content"]
     assert any(schema is writer.CHECK_SCHEMA for _, schema, _ in calls)
     assert json.loads(log_path.read_text()) == log
+    evidence = json.loads((tmp_path / "writer_input.json").read_text())
+    assert evidence["messages"] == calls[0][0]
+    assert evidence["draft_schema"] == calls[0][1]
+    assert evidence["ground"] == "Police continued their investigation.\n"
+    assert [p["file"] for p in evidence["photos"]] == ["0.jpg", "1.jpg"]
 
 
 def test_no_photos_cannot_reach_the_model():

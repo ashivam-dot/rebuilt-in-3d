@@ -113,6 +113,7 @@ jobs:
             work/*/short.json
             work/*/timing.json
             work/*/writer_log.json
+            work/*/writer_input.json
             work/*/stills/*.png
           if-no-files-found: ignore
           retention-days: 14
