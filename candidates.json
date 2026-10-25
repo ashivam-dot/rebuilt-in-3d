@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T10:04:25+00:00",
+ "at": "2026-10-25T10:34:26+00:00",
  "quakes": [],
  "trending": [
   {
@@ -164,91 +164,6 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T07:15:00+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Euronews",
-    "Disney (ABC News)",
-    "NPR"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests",
-    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T07:15:00+00:00"
-    },
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:43:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:NPR"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261024-paris-protest",
    "qid": null,
    "title": "France: Clashes erupt as protests sweep across cities",
@@ -338,26 +253,6 @@
    "article": null
   },
   {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88131,
-   "views": 88131,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
    "id": "nw-20261025-florida-attack",
    "qid": null,
    "title": "Eleven sustain gunshot wounds in shooting near Florida university",
@@ -365,20 +260,22 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-25",
-   "news_at": "2026-10-25T06:07:47+00:00",
+   "news_at": "2026-10-25T10:21:28+00:00",
    "owners": [
     "NDTV",
     "NBCUniversal",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "Paramount (CBS)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "At least 12 injured, including 6 children, in shooting near Florida A&M"
    ],
    "places": [
     "Injured",
@@ -406,6 +303,16 @@
      "at": "2026-10-25T06:07:47+00:00"
     },
     {
+     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
+     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:21:28+00:00"
+    },
+    {
      "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
      "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
      "outlet": "NBC News",
@@ -429,10 +336,114 @@
    "via": [
     "outlet:NDTV",
     "outlet:NBCUniversal",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": "2026 Florida A&M University shooting"
+  },
+  {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:15:00+00:00",
+   "owners": [
+    "Euronews",
+    "Disney (ABC News)",
+    "NPR"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T07:15:00+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:43:07+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)",
+    "outlet:NPR"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141820731",
@@ -858,98 +869,13 @@
   }
  ],
  "outlets": {
-  "headlines": 685,
+  "headlines": 682,
   "feeds": 30,
   "owners": 21,
   "matched": 22,
   "corroborated": 5
  },
  "emerging": [
-  {
-   "id": "nw-20261024-milan-protest",
-   "qid": null,
-   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-   "name": "Milan",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-24",
-   "news_at": "2026-10-25T07:15:00+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Euronews",
-    "Disney (ABC News)",
-    "NPR"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-    "Soldiers patrol Milan streets as shops board up ahead of protests",
-    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-25T07:15:00+00:00"
-    },
-    {
-     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
-     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T12:06:25+00:00"
-    },
-    {
-     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-24T10:27:40+00:00"
-    },
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T00:43:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:NPR"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261024-paris-protest",
    "qid": null,
@@ -1047,20 +973,22 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-10-25",
-   "news_at": "2026-10-25T06:07:47+00:00",
+   "news_at": "2026-10-25T10:21:28+00:00",
    "owners": [
     "NDTV",
     "NBCUniversal",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "Paramount (CBS)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "12, Including 6 Children, Injured In Shooting Near Florida University",
     "12 injured, including several minors, in shooting near Florida A&M University stadium",
-    "Eleven sustain gunshot wounds in shooting near Florida university"
+    "Eleven sustain gunshot wounds in shooting near Florida university",
+    "At least 12 injured, including 6 children, in shooting near Florida A&M"
    ],
    "places": [
     "Injured",
@@ -1088,6 +1016,16 @@
      "at": "2026-10-25T06:07:47+00:00"
     },
     {
+     "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
+     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T10:21:28+00:00"
+    },
+    {
      "title": "12 injured, including several minors, in shooting near Florida A&M University stadium",
      "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484",
      "outlet": "NBC News",
@@ -1111,11 +1049,95 @@
    "via": [
     "outlet:NDTV",
     "outlet:NBCUniversal",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": "2026 Florida A&M University shooting"
+  },
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T07:15:00+00:00",
+   "owners": [
+    "Euronews",
+    "Disney (ABC News)",
+    "NPR"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-25T07:15:00+00:00"
+    },
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:43:07+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)",
+    "outlet:NPR"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest, nw-20261025-florida-attack"
+ "outlet_note": "outlets: 682 headlines from 30 feeds (21 owners), 22 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261024-paris-protest, nw-20261025-florida-attack, nw-20261024-milan-protest"
 }
