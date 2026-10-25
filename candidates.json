@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T05:42:36+00:00",
+ "at": "2026-10-25T06:08:18+00:00",
  "quakes": [],
  "trending": [
   {
@@ -535,13 +535,129 @@
    "date": "2026-10-17"
   }
  ],
- "hazards": [],
- "candidates": [],
- "trend_errors": [
-  "gdacs: HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7f49d96c3f2"
+ "hazards": [
+  {
+   "id": "gdacs-EQ-1573141",
+   "kind": "EQ",
+   "level": "Red",
+   "title": "Red earthquake (Magnitude 7M, Depth:18km) in China 22/10/2026 14:33 UTC, 10 thousand (in MMI>=VII).",
+   "country": "China",
+   "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
+   "published": "2026-10-22T14:54:15+00:00",
+   "lat": "32.3805",
+   "lon": "93.7797"
+  },
+  {
+   "id": "gdacs-TC-1001338",
+   "kind": "TC",
+   "level": "Red",
+   "title": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.181 million .",
+   "country": "Philippines, Guam, Northern Mariana Islands, Japan",
+   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
+   "published": "2026-10-14T14:31:53+00:00",
+   "lat": "22.7",
+   "lon": "123.8"
+  }
+ ],
+ "candidates": [
+  {
+   "id": "nw-20261024-milan-protest",
+   "qid": null,
+   "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+   "name": "Milan",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-24",
+   "news_at": "2026-10-25T00:43:07+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Euronews",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+    "Soldiers patrol Milan streets as shops board up ahead of protests",
+    "Soldiers guard center of Milan as thousands of protesters march in cities across Europe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Soldiers patrol Milan streets as shops board up ahead of protests",
+     "url": "https://www.euronews.com/2026/10/24/soldiers-patrol-milan-streets-as-shops-board-up-ahead-of-protests",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T12:06:25+00:00"
+    },
+    {
+     "title": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+     "url": "https://www.independent.co.uk/news/world/europe/milan-rome-italy-giorgia-meloni-europe-b3072651.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-24T10:27:40+00:00"
+    },
+    {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "url": "https://abcnews.com/International/wireStory/hundreds-soldiers-milan-protests-planned-europe-137534380",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T00:43:07+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q141535181",
+   "title": "2026 French fuel protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-25T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141535181-2026w43",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-25",
+   "coords": null,
+   "has_coords": false
+  }
  ],
  "outlets": {
-  "headlines": 708,
+  "headlines": 707,
   "feeds": 30,
   "owners": 21,
   "matched": 24,
@@ -697,6 +813,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 708 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest",
- "hazards_error": "HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7f49d68f8050>, 'Co"
+ "outlet_note": "outlets: 707 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261024-milan-protest, nw-20261024-paris-protest"
 }
