@@ -1,18 +1,18 @@
 {
- "at": "2026-10-26T03:38:26+00:00",
+ "at": "2026-10-26T04:15:58+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 300000,
+   "fame": 400000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
+   "news": 350000,
    "news_at": "2026-10-26T02:02:09+00:00",
    "headlines": [
+    "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-    "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
     "Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
     "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
     "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news"
@@ -20,8 +20,8 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-25",
+    "google-news:Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-    "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
     "google-news:Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Independent Digital News",
@@ -198,6 +198,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-22"
+  },
+  {
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:eric bauza"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
   }
  ],
  "hazards": [
@@ -235,14 +255,35 @@
    "lon": "127.4"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:eric bauza"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  }
+ ],
  "outlets": {
-  "headlines": 694,
+  "headlines": 690,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 30,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 694 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 690 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
