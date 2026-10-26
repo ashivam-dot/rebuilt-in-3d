@@ -1,19 +1,19 @@
 {
- "at": "2026-10-26T09:22:16+00:00",
+ "at": "2026-10-26T10:25:50+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 500000,
+   "fame": 400000,
    "views": 0,
    "traffic": 0,
-   "news": 450000,
-   "news_at": "2026-10-26T07:17:34+00:00",
+   "news": 350000,
+   "news_at": "2026-10-26T09:43:05+00:00",
    "headlines": [
     "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "How Houthis Found An Unlikely Weapon Against Saudis In Epstein Files",
     "Iran live updates: Houthis claim new missile attack on Riyadh airport",
     "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited"
    ],
@@ -22,17 +22,29 @@
     "wikipedia-current-events-2026-10-25",
     "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "google-news:How Houthis Found An Unlikely Weapon Against Saudis In Epstein Files",
+    "outlet:NDTV",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Deutsche Welle"
    ],
    "owners": [
+    "NDTV",
     "Disney (ABC News)",
     "Independent Digital News",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "How Houthis Found An Unlikely Weapon Against Saudis In Epstein Files",
+     "url": "https://www.ndtv.com/world-news/how-houthis-found-an-unlikely-weapon-against-saudis-in-epstein-files-12237063#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T09:43:05+00:00"
+    },
     {
      "title": "Iran live updates: Houthis claim new missile attack on Riyadh airport",
      "url": "https://abcnews.com/International/live-updates/iran-live-updates-houthis-claim-new-attack-riyadh/?id=137563447",
@@ -199,6 +211,56 @@
    "has_coords": true
   },
   {
+   "qid": "Q101137",
+   "title": "Yasuo Fukuda",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-26T09:23:20+00:00",
+   "headlines": [
+    "Former Japan PM Yasuo Fukuda, Who Sought Better China Ties, Dies At 90",
+    "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Former Japan PM Yasuo Fukuda, Who Sought Better China Ties, Dies At 90",
+    "google-news:Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
+    "outlet:NDTV",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "NDTV",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Former Japan PM Yasuo Fukuda, Who Sought Better China Ties, Dies At 90",
+     "url": "https://www.ndtv.com/world-news/former-japan-pm-yasuo-fukuda-who-sought-better-china-ties-dies-at-90-12236947#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T09:23:20+00:00"
+    },
+    {
+     "title": "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
+     "url": "https://www.scmp.com/news/asia/east-asia/article/3372141/former-japanese-prime-minister-yasuo-fukuda-known-seeking-china-ties-dies-90",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T06:37:40+00:00"
+    }
+   ],
+   "id": "wk-Q101137",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
    "qid": "Q320093",
    "title": "Tom Skerritt",
    "fame": 42075,
@@ -217,42 +279,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q101137",
-   "title": "Yasuo Fukuda",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-26T06:37:40+00:00",
-   "headlines": [
-    "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
-     "url": "https://www.scmp.com/news/asia/east-asia/article/3372141/former-japanese-prime-minister-yasuo-fukuda-known-seeking-china-ties-dies-90",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T06:37:40+00:00"
-    }
-   ],
-   "id": "wk-Q101137",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
   },
   {
    "qid": "Q1699148",
@@ -332,48 +358,39 @@
  ],
  "candidates": [
   {
-   "qid": "Q85850332",
-   "title": "Chef Damu",
-   "fame": 249496,
-   "views": 124496,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-25T09:16:24+00:00",
-   "headlines": [
-    "Chef Damu Dies At 72, Tamil Nadu Chief Minister Vijay Pays Tribute"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-25",
-    "google-news:Chef Damu Dies At 72, Tamil Nadu Chief Minister Vijay Pays Tribute"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q85850332",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
-  },
-  {
    "qid": "Q101137",
    "title": "Yasuo Fukuda",
-   "fame": 25000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-26T06:37:40+00:00",
+   "news": 50000,
+   "news_at": "2026-10-26T09:23:20+00:00",
    "headlines": [
+    "Former Japan PM Yasuo Fukuda, Who Sought Better China Ties, Dies At 90",
     "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90"
    ],
    "region": "world",
    "via": [
+    "google-news:Former Japan PM Yasuo Fukuda, Who Sought Better China Ties, Dies At 90",
     "google-news:Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
+    "outlet:NDTV",
     "outlet:SCMP Group"
    ],
    "owners": [
+    "NDTV",
     "SCMP Group"
    ],
    "reports": [
+    {
+     "title": "Former Japan PM Yasuo Fukuda, Who Sought Better China Ties, Dies At 90",
+     "url": "https://www.ndtv.com/world-news/former-japan-pm-yasuo-fukuda-who-sought-better-china-ties-dies-at-90-12236947#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T09:23:20+00:00"
+    },
     {
      "title": "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
      "url": "https://www.scmp.com/news/asia/east-asia/article/3372141/former-japanese-prime-minister-yasuo-fukuda-known-seeking-china-ties-dies-90",
@@ -392,12 +409,12 @@
   }
  ],
  "outlets": {
-  "headlines": 690,
+  "headlines": 701,
   "feeds": 29,
   "owners": 21,
-  "matched": 32,
-  "corroborated": 2
+  "matched": 36,
+  "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 690 headlines from 29 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 701 headlines from 29 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
