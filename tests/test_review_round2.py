@@ -104,6 +104,24 @@ def test_the_writers_picture_refusals_back_off(tmp_path, monkeypatch, reason):
     assert not ledger.due("nw-x", at + timedelta(hours=1)) and ledger.due("nw-x", at + timedelta(hours=3))
 
 
+def test_a_tribute_the_writer_mislabelled_is_retried_within_hours(tmp_path, monkeypatch):
+    monkeypatch.setattr(ledger, "STATE", tmp_path)
+    miss = "gate: beat 4, 5 name(s) nothing its photo shows (only 59% of the script shows what it says; want 70%)"
+    assert ledger.retry("wk-Q1", miss, kind="death")
+    at = datetime.fromisoformat(ledger.load("retries", {})["wk-Q1"]["at"])
+    assert not ledger.due("wk-Q1", at + timedelta(minutes=20)) and ledger.due("wk-Q1", at + timedelta(minutes=30))
+    for _ in range(3):
+        assert ledger.retry("wk-Q1", miss, kind="death")
+    at = datetime.fromisoformat(ledger.load("retries", {})["wk-Q1"]["at"])
+    assert not ledger.due("wk-Q1", at + timedelta(hours=3)) and ledger.due("wk-Q1", at + timedelta(hours=4))
+    # A tribute short of free photos, and an incident the writer mislabelled, keep the long clock.
+    assert ledger.retry("wk-Q2", "gate: faceless: no free photo shows them", kind="death")
+    assert ledger.retry("wk-Q3", miss, kind="incident")
+    for sid in ("wk-Q2", "wk-Q3"):
+        at = datetime.fromisoformat(ledger.load("retries", {})[sid]["at"])
+        assert not ledger.due(sid, at + timedelta(hours=1))
+
+
 def test_a_refusal_after_the_script_was_written_takes_its_slot(tmp_path, monkeypatch):
     # 12 scripts in one run: a gate-stage faceless refusal gave its candidate slot back.
     monkeypatch.setattr(ledger, "STATE", tmp_path / "state")

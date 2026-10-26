@@ -198,7 +198,7 @@ def run(dry: bool = False) -> dict:
                     continue
                 # Thin articles, and stories still short of free photos, get another chance next run.
                 if any(m in str(exc) for m in RETRYABLE):
-                    ledger.retry(cand["id"], str(exc)[:300])
+                    ledger.retry(cand["id"], str(exc)[:300], kind=cand["kind"])
                     # Faceless before any script is written (writer.faceless) does not take a candidate's slot.
                     tried -= str(exc).startswith(writer_faceless()) and not getattr(exc, "written", False)
                 else:
@@ -216,7 +216,7 @@ def run(dry: bool = False) -> dict:
             try:
                 short, stats = make(cand, short)
             except ValueError as exc:
-                ledger.retry(cand["id"], str(exc)[:300])
+                ledger.retry(cand["id"], str(exc)[:300], kind=cand["kind"])
                 health["steps"].append(f"skip {cand['id']}: {exc}")
                 continue
             if dry:

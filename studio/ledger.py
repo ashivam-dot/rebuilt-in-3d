@@ -23,6 +23,10 @@ PICTURE_REASONS = ("faceless:", "usable photos", "show who or what the story is 
                    # the writer's own wording of the same refusal (writer.shown_problems, review round 2)
                    "name(s) nothing its photo shows", "shows what it says; want", "who has no photo here")
 PICTURE_BACKOFF_H = (3, 12, 24, 48)
+# A tribute's own photo is there; the writer named something else beside it. Another draft can pass at once, and a
+# tribute is worth little after its first day (deaths: 283 views at 24 h, the channel's best kind).
+WRITER_MISSES = ("name(s) nothing its photo shows", "shows what it says; want")
+TRIBUTE_BACKOFF_H = (0.5, 1, 2, 4)
 PICTURES_RULES = "anchored-2026-10"
 # The old constrained schema required six beats even for two to five photos. Reopen only that
 # identifiable draft failure once; factual refusals and photo availability keep their existing limits.
@@ -137,7 +141,13 @@ def pictures_reason(reason: str | None) -> bool:
     return any(m in (reason or "") for m in PICTURE_REASONS)
 
 
-def retry(story_id: str, reason: str, limit: int = 6) -> bool:
+def backoff(row: dict) -> tuple:
+    if row.get("kind") == "death" and any(m in (row.get("reason") or "") for m in WRITER_MISSES):
+        return TRIBUTE_BACKOFF_H
+    return PICTURE_BACKOFF_H
+
+
+def retry(story_id: str, reason: str, limit: int = 6, kind: str | None = None) -> bool:
     """Count a retryable failure; past `limit` the story is skipped for good. True while it may still be retried.
     A story short of pictures gets one try per PICTURE_BACKOFF_H step (see due) and then one last try."""
     tries = load("retries", {})
@@ -145,7 +155,7 @@ def retry(story_id: str, reason: str, limit: int = 6) -> bool:
     if waiting(row.get("reason")) or reopened(row):
         row = {"count": 0}
     row = {"count": row["count"] + 1, "reason": reason, "at": now(), "rules": PICTURES_RULES,
-           "draft_rules": DRAFT_RULES}
+           "draft_rules": DRAFT_RULES} | ({"kind": kind} if kind else {})
     tries[story_id] = row
     save("retries", tries)
     if pictures_reason(reason):
@@ -165,7 +175,8 @@ def due(story_id: str, at: datetime | None = None) -> bool:
         hours = ((at or datetime.now(timezone.utc)) - datetime.fromisoformat(row["at"])).total_seconds() / 3600
     except (KeyError, TypeError, ValueError):
         return True
-    return hours >= PICTURE_BACKOFF_H[min(max(row.get("count", 1), 1), len(PICTURE_BACKOFF_H)) - 1]
+    steps = backoff(row)
+    return hours >= steps[min(max(row.get("count", 1), 1), len(steps)) - 1]
 
 
 def waiting(reason: str | None) -> bool:
