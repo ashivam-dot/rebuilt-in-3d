@@ -107,7 +107,7 @@ def _chatterbox(lines: list[str], out: Path, style: dict, seed: int) -> list[dic
     return json.loads((out / "lines.json").read_text(encoding="utf-8"))
 
 
-def synthesize_story(short: Short, out_dir: Path) -> dict:
+def synthesize_story(short: Short, out_dir: Path, *, speech_normalizer=None) -> dict:
     """Chatterbox narration, one take per beat, each checked by Whisper; same outputs as synthesize(). A beat with no
     text (the silent end card) is not spoken: it lasts its pause_after."""
     from . import align
@@ -115,7 +115,7 @@ def synthesize_story(short: Short, out_dir: Path) -> dict:
     mood = short.scene.get("mood", "tribute")
     lane = short.scene.get("voice", "world")
     style = STYLE.get(mood, STYLE["tribute"]) | {"voice": str(VOICES.get(lane, VOICES["world"]))}
-    texts = [speakable(b.text) for b in short.beats]
+    texts = [(speech_normalizer or speakable)(b.text) for b in short.beats]
     spoken = iter(_chatterbox([t for t in texts if t.strip()], out_dir / "takes", style, seed=7))
     clips, checks, sr = [], [], SAMPLE_RATE
     for i, beat in enumerate(short.beats):

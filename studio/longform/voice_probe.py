@@ -7,7 +7,7 @@ from pathlib import Path
 import soundfile as sf
 
 from .. import align, voice
-from . import chapter_recover
+from . import chapter_recover, voice as chapter_voice
 
 
 def run(chapter: Path, out: Path, line: int):
@@ -17,7 +17,7 @@ def run(chapter: Path, out: Path, line: int):
     text = data['lines'][line - 1]
     style = voice.STYLE['news'] | {'voice': str(voice.VOICES['world'])}
     result = {'chapter_sha256': hashlib.sha256(chapter.read_bytes()).hexdigest(),
-              'chapter': data['key'], 'line': line, 'text': text, 'speakable': voice.speakable(text),
+              'chapter': data['key'], 'line': line, 'text': text, 'speakable': chapter_voice.speakable(text),
               'engine': 'chatterbox', 'lane': 'world', 'minimum_match': voice.MIN_MATCH,
               'scope': 'Isolated diagnostic takes, not the lost original batch take',
               'release_approval': False, 'attempts': []}

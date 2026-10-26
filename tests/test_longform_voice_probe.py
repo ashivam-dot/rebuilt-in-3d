@@ -5,7 +5,7 @@ import pytest
 import soundfile as sf
 
 from studio import align, voice
-from studio.longform import voice_probe
+from studio.longform import voice as chapter_voice, voice_probe
 
 
 def test_isolated_probe_retains_all_verdicts_and_the_exact_existing_voice(tmp_path, monkeypatch):
@@ -27,7 +27,7 @@ def test_isolated_probe_retains_all_verdicts_and_the_exact_existing_voice(tmp_pa
     result = voice_probe.run(chapter, output, 2)
     assert [r['passed'] for r in result['attempts']] == [False, True, False]
     assert [r[2] for r in requests] == [7, 132, 163]
-    assert all(r[0] == [voice.speakable(text)] and r[1] == voice.STYLE['news'] | {
+    assert all(r[0] == [chapter_voice.speakable(text)] and r[1] == voice.STYLE['news'] | {
         'voice': str(voice.VOICES['world'])} for r in requests)
     assert result['minimum_match'] == voice.MIN_MATCH == .8 and result['release_approval'] is False
     assert len(list(output.rglob('*.wav'))) == 3
