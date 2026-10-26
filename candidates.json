@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T23:31:04+00:00",
+ "at": "2026-10-25T23:58:08+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-25T23:31:04.231082+00:00",
+   "news_at": "2026-10-25T23:58:08.009156+00:00",
    "headlines": [
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
@@ -72,43 +72,24 @@
    "has_coords": false
   },
   {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88131,
-   "views": 88131,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 75000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 75000,
+   "news": 200000,
    "news_at": "2026-10-25T21:19:20+00:00",
    "headlines": [
+    "At least 12 injured, including 6 children, in a shooting near Florida A&M University",
     "12 injured, including 6 children, in shooting near Florida university, police say",
     "At least 12 injured, including six kids, after mass shooting near Florida A&M University",
     "Twelve injured, including six juveniles, in shooting near Florida university"
    ],
    "region": "world",
    "via": [
+    "google-news:At least 12 injured, including 6 children, in a shooting near Florida A&M University",
     "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
     "google-news:At least 12 injured, including six kids, after mass shooting near Florida A&M University",
-    "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Guardian Media Group"
@@ -159,6 +140,26 @@
     -84.29166667
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
   },
   {
    "qid": "Q141820731",
@@ -487,9 +488,9 @@
   "headlines": 699,
   "feeds": 29,
   "owners": 21,
-  "matched": 29,
+  "matched": 31,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 699 headlines from 29 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 699 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
