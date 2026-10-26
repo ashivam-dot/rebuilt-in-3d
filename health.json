@@ -1,11 +1,15 @@
 {
- "at": "2026-10-26T11:17:35+00:00",
+ "at": "2026-10-26T17:21:56+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 56 units today",
-  "watch: 1 candidates (0 quakes, 8 trending), 3 hazard alerts",
-  "outlets: 714 headlines from 29 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q101137: gate: no draft passed the fact checks: these names or numbers are not in the sources: 17, Robert (17 only in one outlet's report: one outlet is not enough)",
+  "learn: 45 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 61.8}, 'kind:death': {'n': 13, 'lift': 1.198, 'typical_views_24h': 283, 'n_retention': 12, 'typical_view_pct': 53.0}, 'kind:incident': {'n': 24, 'lift': 1.038, 'typical_views_24h': 181, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 12, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 57 units today",
+  "watch: 3 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 761 headlines from 30 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261026-florida-attack",
+  "skip wk-Q376176: gate: no draft passed the fact checks: these names or numbers are not in the sources: 2020",
+  "skip nw-20261026-florida-attack: gate: faceless: no free photo shows Florida or the event itself (only 1 photos of places or things near it)",
+  "skip wk-Q101137: gate: no draft passed the fact checks: beat 4, 5 name(s) nothing its photo shows (only 59% of the script shows what it says; want 70%): in each, name who or what a photo shows (Yasuo Fukuda, Cosmo Oil Company, Grand Order of Queen Jelena), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
   "nothing eligible to publish"
  ]
 }
