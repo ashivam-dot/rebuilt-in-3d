@@ -1,27 +1,25 @@
 {
- "at": "2026-10-26T21:43:44+00:00",
+ "at": "2026-10-26T23:13:15+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 450000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 400000,
-   "news_at": "2026-10-26T19:42:58+00:00",
+   "news": 150000,
+   "news_at": "2026-10-26T23:13:15.027568+00:00",
    "headlines": [
-    "Egypt OKs Military Aid to Saudis in Fight With Houthis",
-    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "Saudi Arabia turns to AI system to hunt Houthi missiles; why it may not be effective"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-25",
-    "google-news:Egypt OKs Military Aid to Saudis in Fight With Houthis",
-    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "wikipedia-current-events-2026-10-26",
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+    "google-news:Saudi Arabia turns to AI system to hunt Houthi missiles; why it may not be effective",
     "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
@@ -47,16 +45,136 @@
    "has_coords": false
   },
   {
+   "qid": "Q376176",
+   "title": "Walter Koenig",
+   "fame": 225000,
+   "views": 0,
+   "traffic": 0,
+   "news": 225000,
+   "news_at": "2026-10-26T20:15:03+00:00",
+   "headlines": [
+    "Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
+    "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
+    "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
+    "Walter Koenig, Star Trek’s original Pavel Chekov, dies at 90"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
+    "google-news:Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
+    "google-news:Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
+    "outlet:Paramount (CBS)",
+    "outlet:BBC",
+    "outlet:NBCUniversal",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "Paramount (CBS)",
+    "BBC",
+    "NBCUniversal",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
+     "url": "https://www.cbsnews.com/news/walter-koenig-dies-age-90-chekov-star-trek/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-26T19:44:27+00:00"
+    },
+    {
+     "title": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
+     "url": "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-26T18:34:15+00:00"
+    },
+    {
+     "title": "Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
+     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/walter-koenig-actor-played-chekov-original-star-trek-series-dies-90-rcna605743",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-26T17:55:53+00:00"
+    },
+    {
+     "title": "Walter Koenig, Star Trek’s original Pavel Chekov, dies at 90",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3372213/walter-koenig-star-treks-original-pavel-chekov-dies-90",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T17:25:02+00:00"
+    }
+   ],
+   "id": "wk-Q376176",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-26T23:13:15.027568+00:00",
+   "headlines": [
+    "Jordan arrests three suspects over church attack in dawn raid: What to know",
+    "Jordan attacks militants in Syria in retaliation for last week’s church attack"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-26",
+    "google-news:Jordan arrests three suspects over church attack in dawn raid: What to know",
+    "google-news:Jordan attacks militants in Syria in retaliation for last week’s church attack",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Jordan attacks militants in Syria in retaliation for last week’s church attack",
+     "url": "https://www.theguardian.com/world/2026/oct/26/jordan-attacks-militants-syria-retaliation-for-last-week-church-attack",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T22:08:38+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 318329,
+   "fame": 193329,
    "views": 18329,
    "traffic": 0,
-   "news": 300000,
+   "news": 175000,
    "news_at": "2026-10-26T20:35:19+00:00",
    "headlines": [
     "French students vow more protests despite Macron government's concessions",
-    "French student representatives hail ‘concrete measures’, call for protests to continue",
     "Protest leaders urge French pupils to keep barricading their schools",
     "French student union leaders call for 'continued mobilisation' after meeting PM"
    ],
@@ -64,8 +182,8 @@
    "via": [
     "wikipedia-top-2026-10-25",
     "google-news:French students vow more protests despite Macron government's concessions",
-    "google-news:French student representatives hail ‘concrete measures’, call for protests to continue",
     "google-news:Protest leaders urge French pupils to keep barricading their schools",
+    "google-news:French student union leaders call for 'continued mobilisation' after meeting PM",
     "outlet:Guardian Media Group",
     "outlet:France Médias Monde"
    ],
@@ -103,50 +221,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 200000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-26T21:43:44.418832+00:00",
-   "headlines": [
-    "Jordanian security forces arrest 3 men over last week’s deadly church attack",
-    "Jordan arrests three suspects over deadly church attack"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-26",
-    "google-news:Jordanian security forces arrest 3 men over last week’s deadly church attack",
-    "google-news:Jordan arrests three suspects over deadly church attack",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "owners": [
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Jordan arrests three suspects over deadly church attack",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T19:25:53+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q101137",
    "title": "Yasuo Fukuda",
    "fame": 150000,
@@ -177,112 +251,12 @@
      "group": "international",
      "lang": "en",
      "at": "2026-10-26T12:20:20+00:00"
-    },
-    {
-     "title": "Former Japanese prime minister Yasuo Fukuda, known for seeking China ties, dies at 90",
-     "url": "https://www.scmp.com/news/asia/east-asia/article/3372141/former-japanese-prime-minister-yasuo-fukuda-known-seeking-china-ties-dies-90",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T06:37:40+00:00"
     }
    ],
    "id": "wk-Q101137",
    "kind": "death",
    "category": "death",
    "date": "2026-10-22"
-  },
-  {
-   "qid": "Q376176",
-   "title": "Walter Koenig",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-26T19:44:27+00:00",
-   "headlines": [
-    "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
-    "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
-    "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90",
-    "Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
-    "Walter Koenig, Star Trek’s original Pavel Chekov, dies at 90"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
-    "google-news:Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
-    "google-news:Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
-    "outlet:BBC",
-    "outlet:NBCUniversal",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "Paramount (CBS)",
-    "Guardian Media Group",
-    "BBC",
-    "NBCUniversal",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
-     "url": "https://www.cbsnews.com/news/walter-koenig-dies-age-90-chekov-star-trek/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-26T19:44:27+00:00"
-    },
-    {
-     "title": "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90",
-     "url": "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T18:42:11+00:00"
-    },
-    {
-     "title": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
-     "url": "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-26T18:34:15+00:00"
-    },
-    {
-     "title": "Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
-     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/walter-koenig-actor-played-chekov-original-star-trek-series-dies-90-rcna605743",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-26T17:55:53+00:00"
-    },
-    {
-     "title": "Walter Koenig, Star Trek’s original Pavel Chekov, dies at 90",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3372213/walter-koenig-star-treks-original-pavel-chekov-dies-90",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T17:25:02+00:00"
-    }
-   ],
-   "id": "wk-Q376176",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
   },
   {
    "qid": "Q85850332",
@@ -490,6 +464,44 @@
    "has_coords": true
   },
   {
+   "qid": "Q141605182",
+   "title": "Flydubai Flight 1073",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-26T22:42:05+00:00",
+   "headlines": [
+    "United Flight Diverts After Passenger Allegedly Threatens To \"Hijack\" Plane"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:United Flight Diverts After Passenger Allegedly Threatens To \"Hijack\" Plane",
+    "outlet:NDTV"
+   ],
+   "owners": [
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "United Flight Diverts After Passenger Allegedly Threatens To \"Hijack\" Plane",
+     "url": "https://www.ndtv.com/world-news/united-flight-diverts-after-passenger-allegedly-threatens-to-hijack-plane-12240208#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T22:42:05+00:00"
+    }
+   ],
+   "id": "wk-Q141605182",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-09-30",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q1699148",
    "title": "John Anderson (singer)",
    "fame": 21530,
@@ -585,106 +597,12 @@
    "lon": "127.4"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261026-florida-attack",
-   "qid": null,
-   "title": "Police arrest teenager after shooting that injured 12, including children, in Florida",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-26",
-   "news_at": "2026-10-26T15:45:30+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Paramount (CBS)",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Police arrest a 15-year-old in shooting near Florida A&M stadium",
-    "12 injured in shooting near Florida A&M; 15-year-old arrested",
-    "Police arrest teenager after shooting that injured 12, including children, in Florida"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Police arrest teenager after shooting that injured 12, including children, in Florida",
-     "url": "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-26T15:45:30+00:00"
-    },
-    {
-     "title": "12 injured in shooting near Florida A&M; 15-year-old arrested",
-     "url": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-26T13:44:06+00:00"
-    },
-    {
-     "title": "Police arrest a 15-year-old in shooting near Florida A&M stadium",
-     "url": "https://www.nbcnews.com/now/video/police-arrest-suspect-in-shooting-near-florida-a-m-stadium-272217669952",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-26T12:37:48+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q7171839",
-   "title": "Pete Banaszak",
-   "fame": 8811,
-   "views": 8811,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7171839",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-24"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 778,
+  "headlines": 775,
   "feeds": 30,
   "owners": 21,
-  "matched": 44,
+  "matched": 49,
   "corroborated": 4
  },
  "emerging": [
@@ -762,5 +680,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 778 headlines from 30 feeds (21 owners), 44 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack"
+ "outlet_note": "outlets: 775 headlines from 30 feeds (21 owners), 49 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack"
 }
