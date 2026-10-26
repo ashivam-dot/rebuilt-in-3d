@@ -1,28 +1,29 @@
 {
- "at": "2026-10-25T23:58:08+00:00",
+ "at": "2026-10-26T00:57:40+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 300000,
+   "fame": 275100,
    "views": 0,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-10-25T23:58:08.009156+00:00",
+   "traffic": 100,
+   "news": 225000,
+   "news_at": "2026-10-26T00:00:00+00:00",
    "headlines": [
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
     "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
-    "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news"
+    "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news",
+    "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure"
    ],
    "region": "world",
    "via": [
+    "google-trends-IN:saudi arabia",
     "wikipedia-current-events-2026-10-25",
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "google-news:Houthis say they targeted Saudi oil sites; attacks reported in Aden",
-    "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+    "google-news:Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
@@ -72,44 +73,49 @@
    "has_coords": false
   },
   {
+   "qid": "Q320093",
+   "title": "Tom Skerritt",
+   "fame": 88131,
+   "views": 88131,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q320093",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-21"
+  },
+  {
    "qid": null,
    "title": "2026 Florida A&M University shooting",
-   "fame": 200000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-10-25T21:19:20+00:00",
+   "news": 50000,
+   "news_at": "2026-10-25T16:11:09+00:00",
    "headlines": [
-    "At least 12 injured, including 6 children, in a shooting near Florida A&M University",
-    "12 injured, including 6 children, in shooting near Florida university, police say",
     "At least 12 injured, including six kids, after mass shooting near Florida A&M University",
     "Twelve injured, including six juveniles, in shooting near Florida university"
    ],
    "region": "world",
    "via": [
-    "google-news:At least 12 injured, including 6 children, in a shooting near Florida A&M University",
-    "google-news:12 injured, including 6 children, in shooting near Florida university, police say",
     "google-news:At least 12 injured, including six kids, after mass shooting near Florida A&M University",
-    "outlet:Disney (ABC News)",
+    "google-news:Twelve injured, including six juveniles, in shooting near Florida university",
     "outlet:Independent Digital News",
     "outlet:Guardian Media Group"
    ],
    "owners": [
-    "Disney (ABC News)",
     "Independent Digital News",
     "Guardian Media Group"
    ],
    "reports": [
-    {
-     "title": "12 injured, including 6 children, in shooting near Florida university, police say",
-     "url": "https://abcnews.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-25T21:19:20+00:00"
-    },
     {
      "title": "At least 12 injured, including six kids, after mass shooting near Florida A&M University",
      "url": "https://www.independent.co.uk/news/world/americas/florida-am-university-shooting-campus-football-b3072993.html",
@@ -139,118 +145,6 @@
     30.42611111,
     -84.29166667
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q320093",
-   "title": "Tom Skerritt",
-   "fame": 88131,
-   "views": 88131,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q320093",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-21"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 60900,
-   "views": 10900,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-24",
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141535181",
-   "title": "2026 French fuel protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141535181-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-25",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141776873",
-   "title": "2026 Italian unrest",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141776873",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-16",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q139998119",
-   "title": "Flamingo Revolution",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-10-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q139998119-2026w43",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-25",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -399,6 +293,31 @@
    "date": "2026-10-16"
   },
   {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 10900,
+   "views": 10900,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q1771537",
    "title": "Slavcho Binev",
    "fame": 10666,
@@ -485,12 +404,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 699,
+  "headlines": 706,
   "feeds": 29,
   "owners": 21,
-  "matched": 31,
+  "matched": 37,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 699 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 706 headlines from 29 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
