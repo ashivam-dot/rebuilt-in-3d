@@ -1,13 +1,13 @@
 {
- "at": "2026-10-26T21:12:15+00:00",
+ "at": "2026-10-26T21:43:43+00:00",
  "ok": true,
  "steps": [
-  "learn: 45 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 61.7}, 'kind:death': {'n': 13, 'lift': 1.2, 'typical_views_24h': 283, 'n_retention': 12, 'typical_view_pct': 53.2}, 'kind:incident': {'n': 24, 'lift': 1.038, 'typical_views_24h': 181, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 12, 'lift': 1.",
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 112 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 113 units today",
   "watch: 2 candidates (0 quakes, 13 trending), 3 hazard alerts",
-  "outlets: 774 headlines from 30 feeds (21 owners), 43 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack",
-  "hold nw-20261026-florida-attack: last Short went out 0.3 h ago",
-  "hold wk-Q7171839: last Short went out 0.3 h ago",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261026-florida-attack"
+  "outlets: 778 headlines from 30 feeds (21 owners), 44 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261026-florida-attack",
+  "skip nw-20261026-florida-attack: gate: faceless: no free photo shows Florida or the event itself (only 0 photos of places or things near it)",
+  "skip wk-Q7171839: gate: no photo on Wikimedia Commons shows Pete Banaszak's face (a tribute needs one)",
+  "nothing eligible to publish"
  ]
 }
