@@ -1,42 +1,64 @@
 {
- "at": "2026-10-26T05:17:19+00:00",
+ "at": "2026-10-26T06:14:16+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 425000,
+   "fame": 450000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-10-26T02:02:09+00:00",
+   "news": 400000,
+   "news_at": "2026-10-26T05:49:19+00:00",
    "headlines": [
     "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-    "Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
-    "Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh",
-    "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited"
+    "Saudi coalition intercepts missile as Houthis claim new attack on Riyadh airport",
+    "Saudi Reopens Riyadh Airport As Houthi Missile, Drone Attacks Continue",
+    "Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-25",
     "google-news:Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-    "google-news:Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
+    "google-news:Saudi coalition intercepts missile as Houthis claim new attack on Riyadh airport",
+    "outlet:SCMP Group",
+    "outlet:NDTV",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:Al Jazeera Media Network",
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
    ],
    "owners": [
+    "SCMP Group",
+    "NDTV",
     "Bennett, Coleman & Co.",
-    "Al Jazeera Media Network",
     "Independent Digital News",
     "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "Saudi coalition intercepts missile as Houthis claim new attack on Riyadh airport",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3372131/saudi-coalition-intercepts-missile-houthis-claim-new-attack-riyadh-airport",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T05:49:19+00:00"
+    },
+    {
+     "title": "Saudi Reopens Riyadh Airport As Houthi Missile, Drone Attacks Continue",
+     "url": "https://www.ndtv.com/world-news/saudi-arabia-reopens-riyadh-airport-as-houthi-missile-drone-attacks-continue-12235445#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T04:32:20+00:00"
+    },
     {
      "title": "Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
      "url": "https://timesofindia.indiatimes.com/world/middle-east/riyadh-airport-partially-reopens-saudi-arabia-intercepts-houthi-ballistic-missile-drones/articleshow/135200598.cms",
@@ -46,16 +68,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-26T02:02:09+00:00"
-    },
-    {
-     "title": "Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T00:00:00+00:00"
     },
     {
      "title": "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
@@ -94,6 +106,29 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 127000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 125000,
+   "news_at": "2026-10-26T04:30:26+00:00",
+   "headlines": [
+    "Eric Bauza, ‘Looney Tunes’ Actor, Has Died at Age 46"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:eric bauza",
+    "google-news:Eric Bauza, ‘Looney Tunes’ Actor, Has Died at Age 46"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
   },
   {
    "id": "nw-20261025-thousands-protest",
@@ -286,26 +321,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-22"
-  },
-  {
-   "qid": "Q5386105",
-   "title": "Eric Bauza",
-   "fame": 1000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:eric bauza"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5386105",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
   }
  ],
  "hazards": [
@@ -344,6 +359,29 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 127000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 125000,
+   "news_at": "2026-10-26T04:30:26+00:00",
+   "headlines": [
+    "Eric Bauza, ‘Looney Tunes’ Actor, Has Died at Age 46"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:eric bauza",
+    "google-news:Eric Bauza, ‘Looney Tunes’ Actor, Has Died at Age 46"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
   {
    "id": "nw-20261025-thousands-protest",
    "qid": null,
@@ -419,33 +457,13 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q5386105",
-   "title": "Eric Bauza",
-   "fame": 1000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:eric bauza"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5386105",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
   }
  ],
  "outlets": {
-  "headlines": 700,
-  "feeds": 30,
+  "headlines": 693,
+  "feeds": 29,
   "owners": 21,
-  "matched": 28,
+  "matched": 32,
   "corroborated": 3
  },
  "emerging": [
@@ -526,5 +544,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 700 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261025-thousands-protest"
+ "outlet_note": "outlets: 693 headlines from 29 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261025-thousands-protest"
 }
