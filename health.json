@@ -1,11 +1,17 @@
 {
- "at": "2026-10-26T19:24:20+00:00",
+ "at": "2026-10-26T20:13:01+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 59 units today",
-  "watch: 2 candidates (0 quakes, 13 trending), 3 hazard alerts",
-  "outlets: 771 headlines from 30 feeds (21 owners), 43 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack",
-  "hold wk-Q376176: last Short went out 0.3 h ago",
-  "hold wk-Q7171839: last Short went out 0.3 h ago"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 60 units today",
+  "watch: 1 candidates (0 quakes, 11 trending), 3 hazard alerts",
+  "outlets: 772 headlines from 30 feeds (21 owners), 44 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack",
+  "published wk-Q376176: https://www.youtube.com/shorts/i6XmlnD_RVs"
+ ],
+ "published": {
+  "video_id": "i6XmlnD_RVs",
+  "url": "https://www.youtube.com/shorts/i6XmlnD_RVs",
+  "title": "Walter Koenig, Star Trek Actor, Dies at 90",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
