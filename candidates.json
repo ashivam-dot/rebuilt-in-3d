@@ -1,21 +1,21 @@
 {
- "at": "2026-10-26T04:15:58+00:00",
+ "at": "2026-10-26T05:17:19+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 400000,
+   "fame": 425000,
    "views": 0,
    "traffic": 0,
-   "news": 350000,
+   "news": 375000,
    "news_at": "2026-10-26T02:02:09+00:00",
    "headlines": [
     "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
-    "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
-    "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news"
+    "Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh",
+    "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited"
    ],
    "region": "world",
    "via": [
@@ -24,12 +24,14 @@
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "google-news:Riyadh airport partially reopens: Saudi intercepts Houthi ballistic missile, drones",
     "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network",
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
    ],
    "owners": [
     "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network",
     "Independent Digital News",
     "Disney (ABC News)",
     "Deutsche Welle"
@@ -44,6 +46,16 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-26T02:02:09+00:00"
+    },
+    {
+     "title": "Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T00:00:00+00:00"
     },
     {
      "title": "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
@@ -82,6 +94,82 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261025-thousands-protest",
+   "qid": null,
+   "title": "Thousands protest in Prague against public media funding reforms",
+   "name": "Thousands",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-25",
+   "news_at": "2026-10-26T02:57:55+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Thousands protest in Prague as government advances public media funding overhaul",
+    "Thousands protest in Prague against public media funding reforms",
+    "'Had enough': Thousands protest in Prague against Czech govt's media funding overhaul"
+   ],
+   "places": [
+    "Prague",
+    "Czech"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thousands protest in Prague against public media funding reforms",
+     "url": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T23:29:13+00:00"
+    },
+    {
+     "title": "Thousands protest in Prague as government advances public media funding overhaul",
+     "url": "https://abcnews.com/International/wireStory/thousands-protest-prague-government-advances-public-media-funding-137556493",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T18:18:19+00:00"
+    },
+    {
+     "title": "'Had enough': Thousands protest in Prague against Czech govt's media funding overhaul",
+     "url": "https://timesofindia.indiatimes.com/world/europe/had-enough-thousands-protest-in-prague-against-czech-governments-public-media-funding-overhaul/articleshow/135200971.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T02:57:55+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": null,
@@ -202,9 +290,9 @@
   {
    "qid": "Q5386105",
    "title": "Eric Bauza",
-   "fame": 500,
+   "fame": 1000,
    "views": 0,
-   "traffic": 500,
+   "traffic": 1000,
    "news": 0,
    "news_at": null,
    "headlines": [],
@@ -257,11 +345,87 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261025-thousands-protest",
+   "qid": null,
+   "title": "Thousands protest in Prague against public media funding reforms",
+   "name": "Thousands",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-25",
+   "news_at": "2026-10-26T02:57:55+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Thousands protest in Prague as government advances public media funding overhaul",
+    "Thousands protest in Prague against public media funding reforms",
+    "'Had enough': Thousands protest in Prague against Czech govt's media funding overhaul"
+   ],
+   "places": [
+    "Prague",
+    "Czech"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thousands protest in Prague against public media funding reforms",
+     "url": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T23:29:13+00:00"
+    },
+    {
+     "title": "Thousands protest in Prague as government advances public media funding overhaul",
+     "url": "https://abcnews.com/International/wireStory/thousands-protest-prague-government-advances-public-media-funding-137556493",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T18:18:19+00:00"
+    },
+    {
+     "title": "'Had enough': Thousands protest in Prague against Czech govt's media funding overhaul",
+     "url": "https://timesofindia.indiatimes.com/world/europe/had-enough-thousands-protest-in-prague-against-czech-governments-public-media-funding-overhaul/articleshow/135200971.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T02:57:55+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q5386105",
    "title": "Eric Bauza",
-   "fame": 500,
+   "fame": 1000,
    "views": 0,
-   "traffic": 500,
+   "traffic": 1000,
    "news": 0,
    "news_at": null,
    "headlines": [],
@@ -278,12 +442,89 @@
   }
  ],
  "outlets": {
-  "headlines": 690,
+  "headlines": 700,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
-  "corroborated": 2
+  "matched": 28,
+  "corroborated": 3
  },
- "emerging": [],
- "outlet_note": "outlets: 690 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261025-thousands-protest",
+   "qid": null,
+   "title": "Thousands protest in Prague against public media funding reforms",
+   "name": "Thousands",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-25",
+   "news_at": "2026-10-26T02:57:55+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Thousands protest in Prague as government advances public media funding overhaul",
+    "Thousands protest in Prague against public media funding reforms",
+    "'Had enough': Thousands protest in Prague against Czech govt's media funding overhaul"
+   ],
+   "places": [
+    "Prague",
+    "Czech"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thousands protest in Prague against public media funding reforms",
+     "url": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-25T23:29:13+00:00"
+    },
+    {
+     "title": "Thousands protest in Prague as government advances public media funding overhaul",
+     "url": "https://abcnews.com/International/wireStory/thousands-protest-prague-government-advances-public-media-funding-137556493",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-25T18:18:19+00:00"
+    },
+    {
+     "title": "'Had enough': Thousands protest in Prague against Czech govt's media funding overhaul",
+     "url": "https://timesofindia.indiatimes.com/world/europe/had-enough-thousands-protest-in-prague-against-czech-governments-public-media-funding-overhaul/articleshow/135200971.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-26T02:57:55+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 700 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261025-thousands-protest"
 }
