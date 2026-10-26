@@ -17,7 +17,9 @@ def brief(work: Path) -> dict:
     episode = json.loads((work / "episode.json").read_text())
     if episode.get("id") != meta.get("id") or episode.get("title") != meta.get("title"):
         raise RuntimeError("the episode brief differs from its finished metadata")
+    repair = work / 'repair-source.json'
     return {"channel": "Orbitwire", "format": "weekly-3d-explainer", "episode": episode,
+            "chapter_recovery": json.loads(repair.read_text()) if repair.exists() else None,
             "metadata": meta, "description": (work / "description.txt").read_text(),
             "captions": (work / "captions.srt").read_text(),
             "rules": "Open USGS/NOAA data, clearly labelled original diagrams and relevant licensed visuals. "

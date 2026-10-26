@@ -18,7 +18,8 @@ def source(run_id: str, source_sha: str, api) -> dict:
     if run.get("repository", {}).get("full_name") != REPO \
             or run.get("head_repository", {}).get("full_name") != REPO \
             or run.get("head_sha") != source_sha or run.get("status") != "completed" \
-            or run.get("conclusion") != "success" or run.get("path") != ".github/workflows/longform.yml":
+            or run.get("conclusion") != "success" or run.get("path") not in (
+                ".github/workflows/longform.yml", ".github/workflows/longform-chapters.yml"):
         raise RuntimeError("source is not the pinned successful same-repository weekly build")
     rows = api(f"repos/{REPO}/actions/runs/{run_id}/artifacts?per_page=100")["artifacts"]
     artifacts = [a for a in rows if a["name"] == "longform-episode" and not a.get("expired")]

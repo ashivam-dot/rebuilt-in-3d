@@ -45,6 +45,7 @@ RULES = """RULES (all mandatory):
 - No questions, no "here's why", no "stay tuned", no call to subscribe, no "we", "us" or "our".
 - One sentence per line, {lo}-{hi} words each. Explain cause and effect plainly, like a patient teacher.
 - Chances are chances: say "a 56 percent chance", never that something will happen.
+- PAGER exposure is a model estimate; keep that qualifier. Alert colours describe estimated impact, not how many people actually felt shaking.
 - Total: {min_words}-{max_words} words."""
 
 

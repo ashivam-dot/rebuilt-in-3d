@@ -245,13 +245,13 @@ def plan_quake(cand: dict, at: datetime) -> Episode:
             series["exposure"] = [[usgs.ROMAN[k], int(v)] for k, v in sorted(exposure.items()) if k >= 3 and v]
             strong = sum(v for k, v in exposure.items() if k >= 5)
             if strong:
-                F["people"].append(fact("exposure-5", f"USGS PAGER estimates that about "
+                F["people"].append(fact("exposure-5", f"The USGS PAGER exposure model estimates that about "
                                                       f"{usgs.fmt_int(usgs.round_people(strong))} people were where "
                                                       "shaking reached intensity V (moderate) or stronger.", page))
             for level in (7, 6):
                 many = sum(v for k, v in exposure.items() if k >= level)
                 if many:
-                    F["people"].append(fact(f"exposure-{level}", f"About {usgs.fmt_int(usgs.round_people(many))} were "
+                    F["people"].append(fact(f"exposure-{level}", f"The USGS PAGER exposure model estimates about {usgs.fmt_int(usgs.round_people(many))} people were "
                                                                   f"where it reached intensity {usgs.ROMAN[level]} "
                                                                   f"({MMI_WORDS[level]}) or stronger.", page))
                     break
@@ -489,7 +489,8 @@ BRIEFS = {
                     "the SOURCE and the facts. This is the heart of the episode.",
     "before": "Show that this has happened before: the long record, the biggest events, and how often it comes.",
     "people": "Say who was in the way, using exposure and felt reports only: never deaths, injuries or damage "
-              "figures.",
+              "figures. Keep modelled PAGER exposure separate from actual felt reports. The alert colour "
+              "describes estimated impact, not the number of people who felt shaking.",
     "next": "Say what the numbers say about what comes next, framed as chances and averages, never as an outcome.",
     "why-it-matters": "Close: why this matters for the people who live there, in two or three calm sentences, and a "
                       "final line that the sources are in the description.",

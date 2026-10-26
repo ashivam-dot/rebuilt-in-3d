@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "source_run": 40222331783,
+  "source_sha": "bb65b9900b42e74054ffbfde3a3036f6588de65e",
+  "episode_sha256": "0ee424496f465d1c6497754bcd3e0632932b9985cf5208d4ac8308da551b17fc",
+  "chapters": {
+    "how-it-works": {
+      "source_sha256": "e5b023689ff3971e1c7de20c49c47bbb095298ce3fc92f575314619a34ea13c9"
+    },
+    "cold-open": {
+      "source_sha256": "b6a85e3ab68e300bddb19d6d7a302a0f6a08200b67a69313c714da90e797ca57"
+    },
+    "what-happened": {
+      "source_sha256": "3907a8349fbe727f414a9c7b164e8c63e3bc354e6c74017cde1b2d2ab6ee80da"
+    },
+    "before": {
+      "source_sha256": "cd7a7d3accee9057fd423f8230a4b2aac79cfda8494b909553cfe88c04c3b4c3",
+      "edits": [
+        {
+          "before": "In 1916, a magnitude 7.1 quake struck 6 km west-north-west of Siquirres, Costa Rica.",
+          "after": "In 1916, a magnitude 7.1 quake struck Costa Rica."
+        }
+      ]
+    },
+    "people": {
+      "source_sha256": "99790ecf2b77548d330d6acec4e38f63cac70541087793a2e06d7cff95aba37f",
+      "edits": [
+        {
+          "before": "These people felt shaking at an intensity of V or stronger.",
+          "after": "The estimate covers locations with shaking intensity V or stronger."
+        },
+        {
+          "before": "About 210,000 people experienced shaking at an intensity of VII or stronger.",
+          "after": "USGS estimates about 210,000 people were where shaking reached intensity VII or stronger."
+        },
+        {
+          "before": "The orange alert signifies that the shaking was felt by a large number of residents.",
+          "after": null
+        },
+        {
+          "before": "The large population in these cities means many people felt the ground move.",
+          "after": null
+        }
+      ]
+    },
+    "why-it-matters": {
+      "source_sha256": "1fe3efcab0a1781f3f6f40c5e6c6ebf9cd51d17b9e8f82bc8568119a6687a51e"
+    },
+    "next": {
+      "source_sha256": "a83d4bc3ed942e1cbefedb10bfe5ab05689d4972cd06049aa202d25bb6fd758a"
+    }
+  },
+  "reason": "Repair one failed place-name pronunciation and preserve modelled PAGER exposure qualifiers; remove the false interpretation of the orange impact alert. Preserve the other five completed chapters and all existing source, voice and finish gates.",
+  "primary_reference": "https://earthquake.usgs.gov/data/pager/",
+  "publish_in_this_workflow": false
+}

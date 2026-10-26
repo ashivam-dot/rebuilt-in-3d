@@ -1,0 +1,100 @@
+name: longform-chapters
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: "Committed exact chapter repair manifest"
+        required: true
+        type: string
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: longform
+  cancel-in-progress: false
+jobs:
+  repair:
+    if: vars.PAUSED != 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPAIR_MANIFEST: ${{ inputs.manifest }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Free runner disk for the existing models
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Bounded media dependencies
+        run: bash .github/scripts/install-media-tools.sh ffmpeg espeak-ng tesseract-ocr
+      - uses: actions/cache/restore@v5
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/ms-playwright
+            work/cache
+          key: models-${{ hashFiles('uv.lock', 'tts/uv.lock') }}
+          restore-keys: models-
+      - name: Existing writer, voice and renderer dependencies
+        run: |
+          uv sync --frozen
+          uv sync --frozen --project tts
+      - name: Validate original run, chapters and exact editorial patch
+        run: uv run python -m studio.longform.chapter_recover prepare --manifest "$REPAIR_MANIFEST"
+      - name: Apply every existing semantic source check to the repaired chapters
+        run: uv run python -m studio.longform.chapter_recover check
+      - name: Remake the failed historical narration chapter
+        run: uv run python -m studio.longform make before
+      - name: Keep the completed historical chapter for recovery
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: longform-make-before
+          path: |
+            work/longform/episode.json
+            work/longform/chapters/before/chapter.json
+            work/longform/chapters/before/repair-check.json
+            work/longform/chapters/before/timing.json
+            work/longform/chapters/before/narration.wav
+            work/longform/chapters/before/chapter.mp4
+            work/longform/chapters/before/hero.png
+          if-no-files-found: ignore
+      - name: Remake the corrected exposure chapter
+        run: uv run python -m studio.longform make people
+      - name: Keep the corrected exposure chapter for recovery
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: longform-make-people
+          path: |
+            work/longform/episode.json
+            work/longform/chapters/people/chapter.json
+            work/longform/chapters/people/repair-check.json
+            work/longform/chapters/people/timing.json
+            work/longform/chapters/people/narration.wav
+            work/longform/chapters/people/chapter.mp4
+            work/longform/chapters/people/hero.png
+          if-no-files-found: ignore
+      - name: Reuse and hash the other five successful chapters
+        run: uv run python -m studio.longform.chapter_recover retain
+      - name: Finish using every existing episode QA check
+        run: uv run python -m studio.longform finish
+      - name: Keep the finished episode; review and publication are separate
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: longform-episode
+          path: |
+            work/longform/episode.mp4
+            work/longform/thumbnail.jpg
+            work/longform/description.txt
+            work/longform/captions.srt
+            work/longform/meta.json
+            work/longform/plan.json
+            work/longform/episode.json
+            work/longform/repair-source.json
+            work/longform/chapters/*/repair-check.json
+          if-no-files-found: ignore
+          retention-days: 30
