@@ -1,17 +1,17 @@
 {
- "at": "2026-10-26T08:26:50+00:00",
+ "at": "2026-10-26T09:22:16+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 400000,
+   "fame": 500000,
    "views": 0,
    "traffic": 0,
-   "news": 350000,
+   "news": 450000,
    "news_at": "2026-10-26T07:17:34+00:00",
    "headlines": [
-    "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
+    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
     "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
     "Iran live updates: Houthis claim new missile attack on Riyadh airport",
@@ -20,7 +20,7 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-25",
-    "google-news:Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
+    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
     "google-news:Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "google-news:Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
     "outlet:Disney (ABC News)",
@@ -82,43 +82,20 @@
    "has_coords": false
   },
   {
-   "qid": "Q85850332",
-   "title": "Chef Damu",
-   "fame": 249496,
-   "views": 124496,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-25T09:16:24+00:00",
-   "headlines": [
-    "Chef Damu Dies At 72, Tamil Nadu Chief Minister Vijay Pays Tribute"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-25",
-    "google-news:Chef Damu Dies At 72, Tamil Nadu Chief Minister Vijay Pays Tribute"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q85850332",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
-  },
-  {
    "qid": "Q5386105",
    "title": "Eric Bauza",
-   "fame": 175000,
+   "fame": 275000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-26T06:24:00+00:00",
+   "news": 275000,
+   "news_at": "2026-10-26T06:16:15+00:00",
    "headlines": [
-    "Eric Bauza, award-winning Looney Tunes voice actor, dies aged 46",
+    "Eric Bauza, the Modern Voice of Bugs Bunny, Daffy Duck and Other Iconic Characters, Dies at 46",
     "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46"
    ],
    "region": "world",
    "via": [
-    "google-news:Eric Bauza, award-winning Looney Tunes voice actor, dies aged 46",
+    "google-news:Eric Bauza, the Modern Voice of Bugs Bunny, Daffy Duck and Other Iconic Characters, Dies at 46",
     "google-news:Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
     "outlet:BBC"
    ],
@@ -138,6 +115,29 @@
     }
    ],
    "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
+  {
+   "qid": "Q85850332",
+   "title": "Chef Damu",
+   "fame": 249496,
+   "views": 124496,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-25T09:16:24+00:00",
+   "headlines": [
+    "Chef Damu Dies At 72, Tamil Nadu Chief Minister Vijay Pays Tribute"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-25",
+    "google-news:Chef Damu Dies At 72, Tamil Nadu Chief Minister Vijay Pays Tribute"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q85850332",
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
@@ -392,12 +392,12 @@
   }
  ],
  "outlets": {
-  "headlines": 692,
+  "headlines": 690,
   "feeds": 29,
   "owners": 21,
-  "matched": 28,
+  "matched": 32,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 690 headlines from 29 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
