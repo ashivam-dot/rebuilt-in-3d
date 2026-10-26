@@ -1,17 +1,12 @@
 {
- "at": "2026-10-26T07:36:31+00:00",
+ "at": "2026-10-26T08:26:47+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
-  "watch: 2 candidates (0 quakes, 7 trending), 3 hazard alerts",
-  "outlets: 702 headlines from 29 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "published wk-Q5386105: https://www.youtube.com/shorts/Nk5K94ywGwk"
- ],
- "published": {
-  "video_id": "Nk5K94ywGwk",
-  "url": "https://www.youtube.com/shorts/Nk5K94ywGwk",
-  "title": "Eric Bauza, Voice of Looney Tunes, Dies at 46",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 45 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 61.8}, 'kind:death': {'n': 13, 'lift': 1.198, 'typical_views_24h': 283, 'n_retention': 12, 'typical_view_pct': 53.0}, 'kind:incident': {'n': 24, 'lift': 1.038, 'typical_views_24h': 181, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 12, 'lift': ",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 53 units today",
+  "watch: 2 candidates (0 quakes, 8 trending), 3 hazard alerts",
+  "outlets: 692 headlines from 29 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wk-Q85850332: last Short went out 0.3 h ago",
+  "hold wk-Q101137: last Short went out 0.3 h ago"
+ ]
 }
