@@ -36,9 +36,8 @@ WORKFLOWS = [
 ]
 FAIL_STREAK = 3
 # Paused by the owner on 2026-10-20 (channel -> repo): silence and stopped workflows are expected, not problems.
-# Pangaea Nights publishes again since 2026-10-22 (three Shorts a day from 2026-10-25).
-PAUSED = {"Mool Katha": "mool-katha-control", "Kyun Hua": "hindi-news-desk", "Pangaea Nights": "pangaea-nights",
-          "Kahaani Chaos": "kahaani-chaos"}
+# Pangaea Nights publishes again since 2026-10-22 (three Shorts a day from 2026-10-25); Mool Katha since 2026-10-27.
+PAUSED = {"Kyun Hua": "hindi-news-desk", "Pangaea Nights": "pangaea-nights", "Kahaani Chaos": "kahaani-chaos"}
 
 
 def _get(url: str, token: str | None = None) -> bytes:
