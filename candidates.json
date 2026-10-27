@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T09:20:10+00:00",
+ "at": "2026-10-27T10:20:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -40,83 +40,24 @@
    "date": "2026-10-25"
   },
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 350000,
-   "views": 0,
-   "traffic": 0,
-   "news": 300000,
-   "news_at": "2026-10-27T04:19:09+00:00",
-   "headlines": [
-    "Saudi Arabia offered Houthis $1 billion through Iran to stop attacks: Report",
-    "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
-    "Iran live updates: Houthis claim new missile attack on Riyadh airport"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-26",
-    "google-news:Saudi Arabia offered Houthis $1 billion through Iran to stop attacks: Report",
-    "google-news:Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
-    "google-news:Iran live updates: Houthis claim new missile attack on Riyadh airport",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Saudi Arabia offered Houthis $1 billion through Iran to stop attacks: Report",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-offered-houthis-1-billion-through-iran-to-stop-attacks-report/articleshow/135224015.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-27T04:19:09+00:00"
-    },
-    {
-     "title": "Iran live updates: Houthis claim new missile attack on Riyadh airport",
-     "url": "https://abcnews.com/International/live-updates/iran-live-updates-houthis-claim-new-attack-riyadh/?id=137563447",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-26T20:40:09+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q376176",
    "title": "Walter Koenig",
-   "fame": 326569,
+   "fame": 301569,
    "views": 276569,
    "traffic": 0,
-   "news": 50000,
+   "news": 25000,
    "news_at": "2026-10-26T19:44:27+00:00",
    "headlines": [
-    "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
-    "Walter Koenig, original Star Trek navigator Chekov, dies at 90"
+    "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-26",
     "google-news:Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
-    "google-news:Walter Koenig, original Star Trek navigator Chekov, dies at 90",
-    "outlet:Paramount (CBS)",
-    "outlet:SCMP Group"
+    "outlet:Paramount (CBS)"
    ],
    "owners": [
-    "Paramount (CBS)",
-    "SCMP Group"
+    "Paramount (CBS)"
    ],
    "reports": [
     {
@@ -128,22 +69,37 @@
      "group": "national",
      "lang": "en",
      "at": "2026-10-26T19:44:27+00:00"
-    },
-    {
-     "title": "Walter Koenig, original Star Trek navigator Chekov, dies at 90",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3372213/walter-koenig-star-treks-original-pavel-chekov-dies-90",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T17:25:02+00:00"
     }
    ],
    "id": "wk-Q376176",
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-27T02:17:00+00:00",
+   "headlines": [
+    "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-26",
+    "google-news:Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q85850332",
@@ -377,12 +333,12 @@
   }
  ],
  "outlets": {
-  "headlines": 776,
+  "headlines": 784,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
-  "corroborated": 2
+  "matched": 23,
+  "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 776 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
