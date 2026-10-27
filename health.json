@@ -1,12 +1,15 @@
 {
- "at": "2026-10-27T13:36:37+00:00",
+ "at": "2026-10-27T14:28:19+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 58 units today",
-  "watch: 2 candidates (0 quakes, 13 trending), 2 hazard alerts",
-  "outlets: 783 headlines from 30 feeds (21 owners), 29 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q137034957: last Short went out 0.4 h ago",
-  "hold wk-Q141820731: last Short went out 0.4 h ago",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q141820731"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 59 units today",
+  "watch: 4 candidates (0 quakes, 15 trending), 2 hazard alerts",
+  "outlets: 781 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q141820731",
+  "skip wk-Q4834146: gate: no photo on Wikimedia Commons shows B. P. Singh's face (a tribute needs one)",
+  "skip wk-Q137034957: gate: no photo on Wikimedia Commons shows Jack Armstrong's face (a tribute needs one)",
+  "skip wk-Q259559: gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
+  "skip wk-Q141820731: gate: only 2 usable photos of 2026 Karak church shooting on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }

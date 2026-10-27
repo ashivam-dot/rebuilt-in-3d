@@ -348,11 +348,12 @@
   "draft_rules": "exact-photo-count-2026-10-25"
  },
  "wk-Q141820731": {
-  "count": 4,
-  "reason": "gate: no draft passed the fact checks: beat 2, 3 name(s) nothing its photo shows (only 49% of the script shows what it says; want 70%): in each, name who or what a photo shows (Jafar Hassan, police, hospital), or say what an EVENT photo itself shows (the words of its description: the march, the smok",
-  "at": "2026-10-25T13:36:42+00:00",
+  "count": 5,
+  "reason": "gate: only 2 usable photos of 2026 Karak church shooting on Wikimedia Commons (want 4)",
+  "at": "2026-10-27T14:31:51+00:00",
   "rules": "anchored-2026-10",
-  "draft_rules": "exact-photo-count-2026-10-25"
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  },
  "nw-20261023-oregon-attack": {
   "count": 3,
@@ -490,6 +491,14 @@
   "count": 6,
   "reason": "gate: no draft passed the fact checks: these names or numbers are not in the sources: Britain",
   "at": "2026-10-27T12:44:15+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
+ },
+ "wk-Q259559": {
+  "count": 1,
+  "reason": "gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
+  "at": "2026-10-27T14:31:45+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"

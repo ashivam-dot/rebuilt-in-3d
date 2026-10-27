@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T13:36:39+00:00",
+ "at": "2026-10-27T14:28:20+00:00",
  "quakes": [],
  "trending": [
   {
@@ -60,22 +60,41 @@
    "date": "2026-10-25"
   },
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 300000,
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-27T09:06:05+00:00",
+   "news_at": "2026-10-27T09:08:00+00:00",
    "headlines": [
-    "Saudi Arabia offered $1 billion to Houthis to halt attacks during surprise Iran visit: Report",
-    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies"
+    "‘CID’ producer BP Singh passes away, Ashoke Pandit pays an emotional tribute; calls him a great human bei",
+    "Called Twisha Sharma a murderer in heat of moment over abortion, didn't abet suicide: Giribala Singh to MP High Court"
    ],
+   "region": "india",
+   "via": [
+    "google-news:‘CID’ producer BP Singh passes away, Ashoke Pandit pays an emotional tribute; calls him a great human bei",
+    "google-news:Called Twisha Sharma a murderer in heat of moment over abortion, didn't abet suicide: Giribala Singh to MP High Court"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-27T00:00:00+00:00",
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-10-26",
-    "google-news:Saudi Arabia offered $1 billion to Houthis to halt attacks during surprise Iran visit: Report",
-    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies"
+    "wikipedia-current-events-2026-10-26"
    ],
    "owners": [],
    "reports": [],
@@ -308,6 +327,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 5000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:susan saint james"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q259559",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
   }
  ],
  "hazards": [
@@ -315,12 +354,12 @@
    "id": "gdacs-TC-1001345",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone ARNAB-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.447 million .",
+   "title": "Red notification for tropical cyclone ARNAB-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 4.878 million .",
    "country": "India",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
    "published": "2026-10-26T01:51:40+00:00",
-   "lat": "16.2",
-   "lon": "83.8"
+   "lat": "16.3",
+   "lon": "82.7"
   },
   {
    "id": "gdacs-TC-1001338",
@@ -335,6 +374,30 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-10-27T09:08:00+00:00",
+   "headlines": [
+    "‘CID’ producer BP Singh passes away, Ashoke Pandit pays an emotional tribute; calls him a great human bei",
+    "Called Twisha Sharma a murderer in heat of moment over abortion, didn't abet suicide: Giribala Singh to MP High Court"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:‘CID’ producer BP Singh passes away, Ashoke Pandit pays an emotional tribute; calls him a great human bei",
+    "google-news:Called Twisha Sharma a murderer in heat of moment over abortion, didn't abet suicide: Giribala Singh to MP High Court"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
+  },
   {
    "qid": "Q137034957",
    "title": "Jack Armstrong (wrestler)",
@@ -354,6 +417,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 5000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:susan saint james"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q259559",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
   },
   {
    "qid": "Q141820731",
@@ -382,12 +465,12 @@
   }
  ],
  "outlets": {
-  "headlines": 783,
+  "headlines": 781,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 26,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 783 headlines from 30 feeds (21 owners), 29 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 781 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
