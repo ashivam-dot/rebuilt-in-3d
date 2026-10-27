@@ -1,72 +1,26 @@
 {
- "at": "2026-10-27T11:18:55+00:00",
+ "at": "2026-10-27T12:15:05+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q5386105",
    "title": "Eric Bauza",
-   "fame": 536715,
+   "fame": 511715,
    "views": 511715,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-26T11:17:41+00:00",
-   "headlines": [
-    "Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-26",
-    "google-news:Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46",
-    "outlet:NBCUniversal"
+    "wikipedia-top-2026-10-26"
    ],
-   "owners": [
-    "NBCUniversal"
-   ],
-   "reports": [
-    {
-     "title": "Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46",
-     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/eric-bauza-voice-bugs-bunny-daffy-duck-porky-pig-dies-46-rcna605663",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-26T11:17:41+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q5386105",
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 425000,
-   "views": 0,
-   "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-10-27T11:01:00+00:00",
-   "headlines": [
-    "Saudi Arabia offered $1 billion to Houthis to halt attacks during surprise Iran visit: Report",
-    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
-    "8-month Iran war looms over Israeli election as Egypt wades into Saudi's fight with the Houthis"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-26",
-    "google-news:Saudi Arabia offered $1 billion to Houthis to halt attacks during surprise Iran visit: Report",
-    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
-    "google-news:8-month Iran war looms over Israeli election as Egypt wades into Saudi's fight with the Houthis"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q376176",
@@ -106,48 +60,67 @@
    "date": "2026-10-25"
   },
   {
-   "qid": "Q101137",
-   "title": "Yasuo Fukuda",
-   "fame": 125000,
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 300000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-26T05:26:00+00:00",
+   "news": 250000,
+   "news_at": "2026-10-27T11:01:00+00:00",
    "headlines": [
-    "Yasuo Fukuda, Japan's first second-generation prime minister, dies at 90, Nikkei reports"
+    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "8-month Iran war looms over Israeli election as Egypt wades into Saudi's fight with the Houthis"
    ],
    "region": "world",
    "via": [
-    "google-news:Yasuo Fukuda, Japan's first second-generation prime minister, dies at 90, Nikkei reports"
+    "wikipedia-current-events-2026-10-26",
+    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "google-news:8-month Iran war looms over Israeli election as Egypt wades into Saudi's fight with the Houthis"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q101137",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-22"
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141820731",
    "title": "2026 Karak church shooting",
-   "fame": 75000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-27T10:52:48+00:00",
+   "news": 50000,
+   "news_at": "2026-10-27T10:59:14+00:00",
    "headlines": [
+    "Jordan launches airstrikes in Syria after church attack",
     "Families of victims killed in Jordanian strike deny links to church attack"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-26",
+    "google-news:Jordan launches airstrikes in Syria after church attack",
     "google-news:Families of victims killed in Jordanian strike deny links to church attack",
+    "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network"
    ],
    "owners": [
+    "France Médias Monde",
     "Al Jazeera Media Network"
    ],
    "reports": [
+    {
+     "title": "Jordan launches airstrikes in Syria after church attack",
+     "url": "https://www.france24.com/en/jordan-launches-airstrikes-in-syria-after-church-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-27T10:59:14+00:00"
+    },
     {
      "title": "Families of victims killed in Jordanian strike deny links to church attack",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/families-of-victims-killed-in-jordanian-strike-deny-links-to-church-attack?traffic_source=rss",
@@ -232,6 +205,42 @@
    "date": "2026-10-21"
   },
   {
+   "qid": "Q2339941",
+   "title": "Tetsuya Chiba",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-27T11:50:18+00:00",
+   "headlines": [
+    "Legendary Japanese manga artist Tetsuya Chiba creator of 'Ashita no Joe' dies at 87"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Legendary Japanese manga artist Tetsuya Chiba creator of 'Ashita no Joe' dies at 87",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Legendary Japanese manga artist Tetsuya Chiba creator of 'Ashita no Joe' dies at 87",
+     "url": "https://www.independent.co.uk/arts-entertainment/books/news/tetsuya-chiba-death-ashita-no-joe-manga-b3074093.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-27T11:50:18+00:00"
+    }
+   ],
+   "id": "wk-Q2339941",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
    "qid": "Q4665749",
    "title": "Abdul Waheed Kakar",
    "fame": 21358,
@@ -310,6 +319,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q12691101",
+   "title": "L. Krishnan",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "google-trends-IN:బిగ్ బాస్"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q12691101",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-24"
   }
  ],
  "hazards": [
@@ -356,15 +385,71 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-26"
+  },
+  {
+   "qid": "Q2339941",
+   "title": "Tetsuya Chiba",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-27T11:50:18+00:00",
+   "headlines": [
+    "Legendary Japanese manga artist Tetsuya Chiba creator of 'Ashita no Joe' dies at 87"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Legendary Japanese manga artist Tetsuya Chiba creator of 'Ashita no Joe' dies at 87",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Legendary Japanese manga artist Tetsuya Chiba creator of 'Ashita no Joe' dies at 87",
+     "url": "https://www.independent.co.uk/arts-entertainment/books/news/tetsuya-chiba-death-ashita-no-joe-manga-b3074093.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-27T11:50:18+00:00"
+    }
+   ],
+   "id": "wk-Q2339941",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-22"
+  },
+  {
+   "qid": "Q12691101",
+   "title": "L. Krishnan",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "google-trends-IN:బిగ్ బాస్"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q12691101",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-24"
   }
  ],
  "outlets": {
   "headlines": 784,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
-  "corroborated": 0
+  "matched": 27,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

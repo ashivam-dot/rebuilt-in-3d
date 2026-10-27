@@ -1,11 +1,19 @@
 {
- "at": "2026-10-27T11:18:54+00:00",
+ "at": "2026-10-27T12:15:03+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
-  "watch: 1 candidates (0 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 784 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q4665749: gate: no draft passed the fact checks: these names or numbers are not in the sources: Britain, Charles, Guthrie",
-  "nothing eligible to publish"
- ]
+  "learn: 46 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 14, 'lift': 1.143, 'typical_views_24h': 237, 'n_retention': 12, 'typical_view_pct': 53.2}, 'kind:incident': {'n': 24, 'lift': 1.056, 'typical_views_24h': 181, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 13, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
+  "watch: 3 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 784 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q4665749: gate: no draft passed the fact checks: these names or numbers are not in the sources: Britain",
+  "published wk-Q2339941: https://www.youtube.com/shorts/C7oZ5Z4CGMo"
+ ],
+ "published": {
+  "video_id": "C7oZ5Z4CGMo",
+  "url": "https://www.youtube.com/shorts/C7oZ5Z4CGMo",
+  "title": "Tetsuya Chiba, Sports Manga Pioneer, Dies at 87",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
