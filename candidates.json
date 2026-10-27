@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T15:27:10+00:00",
+ "at": "2026-10-27T16:24:28+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,19 +25,17 @@
   {
    "qid": "Q376176",
    "title": "Walter Koenig",
-   "fame": 426569,
+   "fame": 301569,
    "views": 276569,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-27T11:20:00+00:00",
+   "news": 25000,
+   "news_at": "2026-10-26T19:44:27+00:00",
    "headlines": [
-    "Walter Koenig, actor vividly remembered as navigator of USS Enterprise Pavel Chekov in Star Trek",
     "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-26",
-    "google-news:Walter Koenig, actor vividly remembered as navigator of USS Enterprise Pavel Chekov in Star Trek",
     "google-news:Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
     "outlet:Paramount (CBS)"
    ],
@@ -68,15 +66,15 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-10-27T09:08:00+00:00",
+   "news_at": "2026-10-27T08:20:32+00:00",
    "headlines": [
-    "‘CID’ producer BP Singh passes away, Ashoke Pandit pays an emotional tribute; calls him a great human bei",
-    "‘Called her murderer in heat of moment over abortion’: Twisha Sharma's mother-in-law Giribala Singh tells court in bail plea hearing | India News"
+    "CID Producer-Director B.P Singh Dies Due To Massive Heart Attack, Funeral To Be Held On October 28",
+    "Called Twisha Sharma a murderer in heat of moment over abortion, didn't abet suicide: Giribala Singh to MP High Court"
    ],
    "region": "india",
    "via": [
-    "google-news:‘CID’ producer BP Singh passes away, Ashoke Pandit pays an emotional tribute; calls him a great human bei",
-    "google-news:‘Called her murderer in heat of moment over abortion’: Twisha Sharma's mother-in-law Giribala Singh tells court in bail plea hearing | India News"
+    "google-news:CID Producer-Director B.P Singh Dies Due To Massive Heart Attack, Funeral To Be Held On October 28",
+    "google-news:Called Twisha Sharma a murderer in heat of moment over abortion, didn't abet suicide: Giribala Singh to MP High Court"
    ],
    "owners": [],
    "reports": [],
@@ -92,26 +90,36 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-10-27T13:53:25+00:00",
+   "news_at": "2026-10-27T15:18:55+00:00",
    "headlines": [
-    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
-    "Houthis Claim Missile Strike On Saudi Oil Refinery As Blasts Shake Riyadh",
-    "Saudi Arabia offered Houthis $1 billion through Iran to stop attacks: Report"
+    "8-month Iran war looms over Israeli election as Egypt wades into Saudi's fight with the Houthis",
+    "Watch: Houthis release dramatic drone strike footage from Saudi border regions",
+    "Houthis Claim Missile Strike On Saudi Oil Refinery As Blasts Shake Riyadh"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-26",
-    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "google-news:8-month Iran war looms over Israeli election as Egypt wades into Saudi's fight with the Houthis",
+    "google-news:Watch: Houthis release dramatic drone strike footage from Saudi border regions",
     "google-news:Houthis Claim Missile Strike On Saudi Oil Refinery As Blasts Shake Riyadh",
-    "google-news:Saudi Arabia offered Houthis $1 billion through Iran to stop attacks: Report",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV"
    ],
    "owners": [
-    "NDTV",
-    "Bennett, Coleman & Co."
+    "Bennett, Coleman & Co.",
+    "NDTV"
    ],
    "reports": [
+    {
+     "title": "Watch: Houthis release dramatic drone strike footage from Saudi border regions",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/watch-houthis-release-dramatic-drone-strike-footage-from-saudi-border-regions/articleshow/135238777.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T15:18:55+00:00"
+    },
     {
      "title": "Houthis Claim Missile Strike On Saudi Oil Refinery As Blasts Shake Riyadh",
      "url": "https://www.ndtv.com/world-news/houthis-claim-missile-strike-on-saudi-oil-refinery-as-blasts-shake-riyadh-12244075#publisher=newsstand",
@@ -149,6 +157,83 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261027-arnab-cyclone",
+   "qid": null,
+   "title": "Cyclone Arnab batters India’s east coast",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-27",
+   "news_at": "2026-10-27T15:11:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+    "Cyclone Arnab Nears Andhra Coast, Red Alert Issued Ahead Of Landfall",
+    "Cyclone Arnab batters India’s east coast"
+   ],
+   "places": [
+    "Andhra",
+    "coast",
+    "Red"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cyclone Arnab batters India’s east coast",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-27T15:11:12+00:00"
+    },
+    {
+     "title": "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+     "url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-27T12:29:56+00:00"
+    },
+    {
+     "title": "Cyclone Arnab Nears Andhra Coast, Red Alert Issued Ahead Of Landfall",
+     "url": "https://www.ndtv.com/india-news/cyclone-arnab-nears-andhra-pradesh-coast-red-alert-issued-ahead-of-landfall-12244242#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T14:42:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141615137",
@@ -299,29 +384,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 25200,
-   "views": 0,
-   "traffic": 200,
-   "news": 25000,
-   "news_at": "2026-10-27T14:39:00+00:00",
-   "headlines": [
-    "Susan Saint James, Emmy-Winning Star of ‘Kate & Allie’ and ‘McMillan & Wife,’ Dies at 80"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:susan saint james",
-    "google-news:Susan Saint James, Emmy-Winning Star of ‘Kate & Allie’ and ‘McMillan & Wife,’ Dies at 80"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q259559",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
   },
   {
    "qid": "Q2339941",
@@ -484,14 +546,170 @@
    "lon": "127.4"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261027-arnab-cyclone",
+   "qid": null,
+   "title": "Cyclone Arnab batters India’s east coast",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-27",
+   "news_at": "2026-10-27T15:11:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+    "Cyclone Arnab Nears Andhra Coast, Red Alert Issued Ahead Of Landfall",
+    "Cyclone Arnab batters India’s east coast"
+   ],
+   "places": [
+    "Andhra",
+    "coast",
+    "Red"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cyclone Arnab batters India’s east coast",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-27T15:11:12+00:00"
+    },
+    {
+     "title": "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+     "url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-27T12:29:56+00:00"
+    },
+    {
+     "title": "Cyclone Arnab Nears Andhra Coast, Red Alert Issued Ahead Of Landfall",
+     "url": "https://www.ndtv.com/india-news/cyclone-arnab-nears-andhra-pradesh-coast-red-alert-issued-ahead-of-landfall-12244242#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T14:42:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 784,
+  "headlines": 790,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
-  "corroborated": 2
+  "matched": 28,
+  "corroborated": 3
  },
- "emerging": [],
- "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 36 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261027-arnab-cyclone",
+   "qid": null,
+   "title": "Cyclone Arnab batters India’s east coast",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-27",
+   "news_at": "2026-10-27T15:11:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+    "Cyclone Arnab Nears Andhra Coast, Red Alert Issued Ahead Of Landfall",
+    "Cyclone Arnab batters India’s east coast"
+   ],
+   "places": [
+    "Andhra",
+    "coast",
+    "Red"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cyclone Arnab batters India’s east coast",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-27T15:11:12+00:00"
+    },
+    {
+     "title": "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+     "url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-27T12:29:56+00:00"
+    },
+    {
+     "title": "Cyclone Arnab Nears Andhra Coast, Red Alert Issued Ahead Of Landfall",
+     "url": "https://www.ndtv.com/india-news/cyclone-arnab-nears-andhra-pradesh-coast-red-alert-issued-ahead-of-landfall-12244242#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T14:42:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261027-arnab-cyclone"
 }
