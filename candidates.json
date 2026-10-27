@@ -1,64 +1,49 @@
 {
- "at": "2026-10-27T00:03:54+00:00",
+ "at": "2026-10-27T01:49:16+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 225000,
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
+   "news": 275000,
    "news_at": "2026-10-27T00:00:00+00:00",
    "headlines": [
-    "Jordan arrests three suspects over church attack in dawn raid: What to know",
-    "Jordan attacks Syria in response to Karak church attack",
-    "Jordan attacks militants in Syria in retaliation for last week’s church attack"
+    "Egypt OKs Military Aid to Saudis in Fight With Houthis",
+    "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "Iran live updates: Houthis claim new missile attack on Riyadh airport"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-10-26",
-    "google-news:Jordan arrests three suspects over church attack in dawn raid: What to know",
-    "google-news:Jordan attacks Syria in response to Karak church attack",
-    "google-news:Jordan attacks militants in Syria in retaliation for last week’s church attack",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group"
+    "google-news:Egypt OKs Military Aid to Saudis in Fight With Houthis",
+    "google-news:Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "google-news:Iran live updates: Houthis claim new missile attack on Riyadh airport",
+    "outlet:Disney (ABC News)"
    ],
    "owners": [
-    "Al Jazeera Media Network",
-    "Guardian Media Group"
+    "Disney (ABC News)"
    ],
    "reports": [
     {
-     "title": "Jordan attacks Syria in response to Karak church attack",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-attacks-syria-in-response-to-karak-church-attack?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Iran live updates: Houthis claim new missile attack on Riyadh airport",
+     "url": "https://abcnews.com/International/live-updates/iran-live-updates-houthis-claim-new-attack-riyadh/?id=137563447",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-10-26T23:48:51+00:00"
-    },
-    {
-     "title": "Jordan attacks militants in Syria in retaliation for last week’s church attack",
-     "url": "https://www.theguardian.com/world/2026/oct/26/jordan-attacks-militants-syria-retaliation-for-last-week-church-attack",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T22:08:38+00:00"
+     "at": "2026-10-26T20:40:09+00:00"
     }
    ],
-   "id": "wk-Q141820731",
+   "id": "wk-Q141695384",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q376176",
@@ -67,7 +52,7 @@
    "views": 0,
    "traffic": 0,
    "news": 225000,
-   "news_at": "2026-10-26T22:54:42+00:00",
+   "news_at": "2026-10-27T00:36:42+00:00",
    "headlines": [
     "Walter Koenig, Russian navigator Chekov on ‘Star Trek,’ dies at 90",
     "Walter Koenig, actor who played Chekov on \"Star Trek,\" dies at 90",
@@ -139,6 +124,99 @@
    "date": "2026-10-25"
   },
   {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-27T00:00:37+00:00",
+   "headlines": [
+    "Jordan strikes Syria after church attack, killing at least seven people"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-26",
+    "google-news:Jordan strikes Syria after church attack, killing at least seven people",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Jordan strikes Syria after church attack, killing at least seven people",
+     "url": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T23:50:11+00:00"
+    },
+    {
+     "title": "Jordan attacks Syria in response to Karak church attack",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-attacks-syria-in-response-to-karak-church-attack?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-26T23:48:51+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 168329,
+   "views": 18329,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-10-26T20:35:19+00:00",
+   "headlines": [
+    "French students vow more protests despite Macron government's concessions",
+    "French student union leaders call for 'continued mobilisation' after meeting PM"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-25",
+    "google-news:French students vow more protests despite Macron government's concessions",
+    "google-news:French student union leaders call for 'continued mobilisation' after meeting PM",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "French student union leaders call for 'continued mobilisation' after meeting PM",
+     "url": "https://www.france24.com/en/video/20261026-french-student-union-leaders-call-for-continued-mobilisation-after-meeting-pm",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-26T17:37:05+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w44",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-26",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q101137",
    "title": "Yasuo Fukuda",
    "fame": 150000,
@@ -177,6 +255,34 @@
    "date": "2026-10-22"
   },
   {
+   "qid": null,
+   "title": "2026 Florida A&M University shooting",
+   "fame": 140549,
+   "views": 15549,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-26T23:55:00+00:00",
+   "headlines": [
+    "15-year-old arrested in connection with mass shooting near Florida A&M University, police say"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-25",
+    "google-news:15-year-old arrested in connection with mass shooting near Florida A&M University, police say"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Florida_A_M_University_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-25",
+   "coords": [
+    30.42611111,
+    -84.29166667
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q85850332",
    "title": "Chef Damu",
    "fame": 124496,
@@ -195,45 +301,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-27T00:00:00+00:00",
-   "headlines": [
-    "Saudi Arabia turns to AI system to hunt Houthi missiles; why it may not be effective"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-26",
-    "google-news:Saudi Arabia turns to AI system to hunt Houthi missiles; why it may not be effective",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "Saudi Arabia turns to AI system to hunt Houthi missiles; why it may not be effective",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-turns-to-maven-like-ai-system-to-hunt-houthi-missiles-why-it-may-not-be-effective/articleshow/135216200.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-26T17:19:07+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261026-florida-attack",
@@ -309,6 +376,56 @@
    "article": null
   },
   {
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-26T11:17:41+00:00",
+   "headlines": [
+    "Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46",
+    "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46",
+    "google-news:Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+    "outlet:NBCUniversal",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "NBCUniversal",
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46",
+     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/eric-bauza-voice-bugs-bunny-daffy-duck-porky-pig-dies-46-rcna605663",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-26T11:17:41+00:00"
+    },
+    {
+     "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+     "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-26T06:16:15+00:00"
+    }
+   ],
+   "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
+  {
    "qid": "Q320093",
    "title": "Tom Skerritt",
    "fame": 42075,
@@ -327,48 +444,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-21"
-  },
-  {
-   "qid": null,
-   "title": "2026 Florida A&M University shooting",
-   "fame": 40549,
-   "views": 15549,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-26T18:01:23+00:00",
-   "headlines": [
-    "Fifteen-year-old arrested in shooting near Florida university that injured 12"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-25",
-    "google-news:Fifteen-year-old arrested in shooting near Florida university that injured 12",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Fifteen-year-old arrested in shooting near Florida university that injured 12",
-     "url": "https://www.theguardian.com/us-news/2026/oct/26/florida-famu-shooting-arrest",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-26T18:01:23+00:00"
-    }
-   ],
-   "id": "wp-2026_Florida_A_M_University_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-25",
-   "coords": [
-    30.42611111,
-    -84.29166667
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141605182",
@@ -407,42 +482,6 @@
    "date": "2026-09-30",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q5386105",
-   "title": "Eric Bauza",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-26T06:16:15+00:00",
-   "headlines": [
-    "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
-     "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-26T06:16:15+00:00"
-    }
-   ],
-   "id": "wk-Q5386105",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
   },
   {
    "qid": "Q1699148",
@@ -531,10 +570,10 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 779,
+  "headlines": 780,
   "feeds": 30,
   "owners": 21,
-  "matched": 48,
+  "matched": 44,
   "corroborated": 3
  },
  "emerging": [
@@ -612,5 +651,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 779 headlines from 30 feeds (21 owners), 48 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack"
+ "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261026-florida-attack"
 }
