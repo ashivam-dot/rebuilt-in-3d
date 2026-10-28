@@ -1,18 +1,16 @@
 {
- "at": "2026-10-28T12:19:48+00:00",
+ "at": "2026-10-28T13:37:40+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
-  "watch: 2 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-toledo-rail, nw-20261027-arnab-cyclone, nw-20261028-first-rail",
-  "wait wk-Q141898879: gate: the article is under 6 hours old; facts may still move (ready in 3.1 h)",
-  "published wk-Q455700: https://www.youtube.com/shorts/HiZwT42dNaQ"
- ],
- "published": {
-  "video_id": "HiZwT42dNaQ",
-  "url": "https://www.youtube.com/shorts/HiZwT42dNaQ",
-  "title": "Liu Yandong, China's Highest Ranking Female Politician, Dies at 80",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 49 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 16, 'lift': 1.206, 'typical_views_24h': 290, 'n_retention': 13, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 1.013, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 15, 'lift': ",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 58 units today",
+  "watch: 4 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 798 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 4 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-toledo-rail, nw-20261028-first-rail",
+  "trend radar errors: ['wikidata recent deaths: HTTP 502 (used the list from 1.3 h ago, 141 people)']",
+  "wait wk-Q141898879: gate: the article is under 6 hours old; facts may still move (ready in 1.7 h)",
+  "skip nw-20261028-toledo-rail: gate: faceless: no free photo shows Toledo or the event itself (only 2 photos of places or things near it)",
+  "skip nw-20261028-toledo-rail: gate: faceless: no free photo shows Toledo or the event itself (only 0 photos of places or things near it)",
+  "skip wk-Q141884796: gate: no photo on Wikimedia Commons shows Alan Dysert's face (a tribute needs one)",
+  "nothing eligible to publish"
+ ]
 }
