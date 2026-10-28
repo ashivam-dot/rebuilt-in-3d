@@ -1,9 +1,13 @@
 {
- "at": "2026-10-28T08:28:02+00:00",
+ "at": "2026-10-28T09:27:19+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261027-arnab-cyclone"
+  "learn: 48 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 15, 'lift': 1.182, 'typical_views_24h': 268, 'n_retention': 13, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 1.029, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 14, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
+  "watch: 2 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 774 headlines from 30 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261027-arnab-cyclone",
+  "skip wk-Q259559: gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
+  "wait wp-2026_Toledo_train_collision: gate: the article is under 6 hours old; facts may still move (ready in 5.9 h)",
+  "nothing eligible to publish"
  ]
 }
