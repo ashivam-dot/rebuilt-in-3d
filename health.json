@@ -1,9 +1,12 @@
 {
- "at": "2026-10-28T01:38:29+00:00",
+ "at": "2026-10-28T02:25:23+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 70 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 797 headlines from 30 feeds (21 owners), 29 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+  "learn: 48 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 15, 'lift': 1.182, 'typical_views_24h': 268, 'n_retention': 13, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 1.029, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 14, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 71 units today",
+  "watch: 1 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 796 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261027-arnab-cyclone",
+  "skip nw-20261027-arnab-cyclone: gate: only 2 usable photos of Andhra (want 4)",
+  "nothing eligible to publish"
  ]
 }

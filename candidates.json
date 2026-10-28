@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T01:38:30+00:00",
+ "at": "2026-10-28T02:25:26+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,14 +29,14 @@
    "views": 276569,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-27T11:20:00+00:00",
+   "news_at": "2026-10-27T22:50:33+00:00",
    "headlines": [
-    "Walter Koenig, actor vividly remembered as navigator of USS Enterprise Pavel Chekov in Star Trek"
+    "Heartfelt Tributes To Walter Koenig Coming In From Across Star Trek And Beyond"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-26",
-    "google-news:Walter Koenig, actor vividly remembered as navigator of USS Enterprise Pavel Chekov in Star Trek"
+    "google-news:Heartfelt Tributes To Walter Koenig Coming In From Across Star Trek And Beyond"
    ],
    "owners": [],
    "reports": [],
@@ -48,17 +48,19 @@
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 150000,
+   "fame": 275000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-27T17:30:35+00:00",
+   "news": 275000,
+   "news_at": "2026-10-27T20:04:48+00:00",
    "headlines": [
+    "Who was B.P. Singh? His journey from creating Aahat, CID to playing DCP Chitrole; Funeral to be held on October 28",
     "13-goal blitz! India show no mercy as Mandeep Singh runs riot at Asian Champions Trophy hockey tournament",
     "Bihar MLC election results: BJP’s Narendra Prasad Singh wins Tirhut Teachers’ seat"
    ],
    "region": "india",
    "via": [
+    "google-news:Who was B.P. Singh? His journey from creating Aahat, CID to playing DCP Chitrole; Funeral to be held on October 28",
     "google-news:13-goal blitz! India show no mercy as Mandeep Singh runs riot at Asian Champions Trophy hockey tournament",
     "google-news:Bihar MLC election results: BJP’s Narendra Prasad Singh wins Tirhut Teachers’ seat",
     "outlet:HT Media"
@@ -104,6 +106,128 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-26"
+  },
+  {
+   "id": "nw-20261027-arnab-cyclone",
+   "qid": null,
+   "title": "100,000 evacuated in India as Cyclone Arnab makes landfall on southeast coast",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-27",
+   "news_at": "2026-10-28T01:58:16+00:00",
+   "owners": [
+    "HT Media",
+    "Bennett, Coleman & Co.",
+    "The Hindu Group",
+    "SCMP Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Andhra govt fully geared up for Cyclone Arnab, 84,000 evacuated to safer places: CM Naidu",
+    "Aviation ministry suspends ops at three Andhra airports as Cyclone Arnab intensifies",
+    "Cyclone Arnab: Civil Aviation Ministry reviews situation to ensure safety of flight operations",
+    "Cyclone Arnab nears Andhra coast as 1.5 lakh people evacuated",
+    "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted"
+   ],
+   "places": [
+    "Andhra",
+    "Aviation",
+    "Naidu"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "100,000 evacuated in India as Cyclone Arnab makes landfall on southeast coast",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3372365/100000-evacuated-india-cyclone-arnab-makes-landfall-southeast-coast",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T01:58:16+00:00"
+    },
+    {
+     "title": "Cyclone Arnab's landfall process continues along Andhra coast | Highlights",
+     "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:31:09+00:00"
+    },
+    {
+     "title": "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-makes-landfall-in-andhra-pradesh-trees-uprooted-power-supply-disrupted-101793150892386.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:28:11+00:00"
+    },
+    {
+     "title": "Cyclone Arnab nears Andhra coast as 1.5 lakh people evacuated",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-nears-andhra-coast-as-1-5-lakh-people-evacuated-101793145718730.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:18:31+00:00"
+    },
+    {
+     "title": "Cyclone Arnab: Civil Aviation Ministry reviews situation to ensure safety of flight operations",
+     "url": "https://www.thehindu.com/news/national/cyclone-arnab-civil-aviation-ministry-reviews-situation-to-ensure-safety-of-flight-operations/article71633204.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T19:03:50+00:00"
+    },
+    {
+     "title": "Aviation ministry suspends ops at three Andhra airports as Cyclone Arnab intensifies",
+     "url": "https://timesofindia.indiatimes.com/india/aviation-ministry-suspends-operations-at-three-andhra-airports-as-cyclone-arnab-intensifies/articleshow/135243430.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T18:25:41+00:00"
+    },
+    {
+     "title": "Andhra govt fully geared up for Cyclone Arnab, 84,000 evacuated to safer places: CM Naidu",
+     "url": "https://www.hindustantimes.com/india-news/andhra-govt-fully-geared-up-for-cyclone-arnab-84-000-evacuated-to-safer-places-cm-naidu-101793120821623.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T17:11:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:The Hindu Group",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q85850332",
@@ -306,14 +430,260 @@
    "lon": "127.4"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261027-arnab-cyclone",
+   "qid": null,
+   "title": "100,000 evacuated in India as Cyclone Arnab makes landfall on southeast coast",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-27",
+   "news_at": "2026-10-28T01:58:16+00:00",
+   "owners": [
+    "HT Media",
+    "Bennett, Coleman & Co.",
+    "The Hindu Group",
+    "SCMP Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Andhra govt fully geared up for Cyclone Arnab, 84,000 evacuated to safer places: CM Naidu",
+    "Aviation ministry suspends ops at three Andhra airports as Cyclone Arnab intensifies",
+    "Cyclone Arnab: Civil Aviation Ministry reviews situation to ensure safety of flight operations",
+    "Cyclone Arnab nears Andhra coast as 1.5 lakh people evacuated",
+    "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted"
+   ],
+   "places": [
+    "Andhra",
+    "Aviation",
+    "Naidu"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "100,000 evacuated in India as Cyclone Arnab makes landfall on southeast coast",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3372365/100000-evacuated-india-cyclone-arnab-makes-landfall-southeast-coast",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T01:58:16+00:00"
+    },
+    {
+     "title": "Cyclone Arnab's landfall process continues along Andhra coast | Highlights",
+     "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:31:09+00:00"
+    },
+    {
+     "title": "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-makes-landfall-in-andhra-pradesh-trees-uprooted-power-supply-disrupted-101793150892386.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:28:11+00:00"
+    },
+    {
+     "title": "Cyclone Arnab nears Andhra coast as 1.5 lakh people evacuated",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-nears-andhra-coast-as-1-5-lakh-people-evacuated-101793145718730.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:18:31+00:00"
+    },
+    {
+     "title": "Cyclone Arnab: Civil Aviation Ministry reviews situation to ensure safety of flight operations",
+     "url": "https://www.thehindu.com/news/national/cyclone-arnab-civil-aviation-ministry-reviews-situation-to-ensure-safety-of-flight-operations/article71633204.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T19:03:50+00:00"
+    },
+    {
+     "title": "Aviation ministry suspends ops at three Andhra airports as Cyclone Arnab intensifies",
+     "url": "https://timesofindia.indiatimes.com/india/aviation-ministry-suspends-operations-at-three-andhra-airports-as-cyclone-arnab-intensifies/articleshow/135243430.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T18:25:41+00:00"
+    },
+    {
+     "title": "Andhra govt fully geared up for Cyclone Arnab, 84,000 evacuated to safer places: CM Naidu",
+     "url": "https://www.hindustantimes.com/india-news/andhra-govt-fully-geared-up-for-cyclone-arnab-84-000-evacuated-to-safer-places-cm-naidu-101793120821623.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T17:11:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:The Hindu Group",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 797,
+  "headlines": 796,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
-  "corroborated": 0
+  "matched": 27,
+  "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 29 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261027-arnab-cyclone",
+   "qid": null,
+   "title": "100,000 evacuated in India as Cyclone Arnab makes landfall on southeast coast",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-27",
+   "news_at": "2026-10-28T01:58:16+00:00",
+   "owners": [
+    "HT Media",
+    "Bennett, Coleman & Co.",
+    "The Hindu Group",
+    "SCMP Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Andhra govt fully geared up for Cyclone Arnab, 84,000 evacuated to safer places: CM Naidu",
+    "Aviation ministry suspends ops at three Andhra airports as Cyclone Arnab intensifies",
+    "Cyclone Arnab: Civil Aviation Ministry reviews situation to ensure safety of flight operations",
+    "Cyclone Arnab nears Andhra coast as 1.5 lakh people evacuated",
+    "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted"
+   ],
+   "places": [
+    "Andhra",
+    "Aviation",
+    "Naidu"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "100,000 evacuated in India as Cyclone Arnab makes landfall on southeast coast",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3372365/100000-evacuated-india-cyclone-arnab-makes-landfall-southeast-coast",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T01:58:16+00:00"
+    },
+    {
+     "title": "Cyclone Arnab's landfall process continues along Andhra coast | Highlights",
+     "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:31:09+00:00"
+    },
+    {
+     "title": "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-makes-landfall-in-andhra-pradesh-trees-uprooted-power-supply-disrupted-101793150892386.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:28:11+00:00"
+    },
+    {
+     "title": "Cyclone Arnab nears Andhra coast as 1.5 lakh people evacuated",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-nears-andhra-coast-as-1-5-lakh-people-evacuated-101793145718730.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:18:31+00:00"
+    },
+    {
+     "title": "Cyclone Arnab: Civil Aviation Ministry reviews situation to ensure safety of flight operations",
+     "url": "https://www.thehindu.com/news/national/cyclone-arnab-civil-aviation-ministry-reviews-situation-to-ensure-safety-of-flight-operations/article71633204.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T19:03:50+00:00"
+    },
+    {
+     "title": "Aviation ministry suspends ops at three Andhra airports as Cyclone Arnab intensifies",
+     "url": "https://timesofindia.indiatimes.com/india/aviation-ministry-suspends-operations-at-three-andhra-airports-as-cyclone-arnab-intensifies/articleshow/135243430.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T18:25:41+00:00"
+    },
+    {
+     "title": "Andhra govt fully geared up for Cyclone Arnab, 84,000 evacuated to safer places: CM Naidu",
+     "url": "https://www.hindustantimes.com/india-news/andhra-govt-fully-geared-up-for-cyclone-arnab-84-000-evacuated-to-safer-places-cm-naidu-101793120821623.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-27T17:11:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:The Hindu Group",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 796 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261027-arnab-cyclone"
 }
