@@ -1,11 +1,12 @@
 {
- "at": "2026-10-28T06:16:55+00:00",
+ "at": "2026-10-28T07:41:08+00:00",
  "ok": true,
  "steps": [
-  "learn: 48 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 15, 'lift': 1.182, 'typical_views_24h': 268, 'n_retention': 13, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 1.029, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 14, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 75 units today",
-  "watch: 1 candidates (0 quakes, 12 trending), 2 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261027-arnab-cyclone",
-  "hold wk-Q125560811-2026w44: outside the world window"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
+  "watch: 2 candidates (0 quakes, 13 trending), 2 hazard alerts",
+  "outlets: 787 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-arnab-cyclone",
+  "skip nw-20261028-arnab-cyclone: gate: only 1 usable photos of Arnab (want 4)",
+  "skip wk-Q125560811-2026w44: gate: faceless: no free photo shows Gaza war protests at Columbia University or the event itself (only 8 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
