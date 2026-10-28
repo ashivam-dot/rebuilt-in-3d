@@ -1,12 +1,12 @@
 {
- "at": "2026-10-28T15:30:36+00:00",
+ "at": "2026-10-28T16:31:30+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 60 units today",
-  "watch: 2 candidates (0 quakes, 15 trending), 2 hazard alerts",
-  "outlets: 801 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail",
-  "skip wk-Q141898879: gate: only 2 usable photos of 2026 Toledo train collision on Wikimedia Commons (want 4)",
-  "skip nw-20261028-high-speed-rail: gate: faceless: no free photo shows high-speed or the event itself (only 1 photos of places or things near it)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 61 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 816 headlines from 30 feeds (21 owners), 39 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 144 people)\"]",
+  "skip wk-Q468843: gate: no draft passed the fact checks: line 4 (She quit teaching after a year to become a lobbyist and comm): partly: The source states she quit teaching after a year and became a lobbyist by the late 1950s, but it does not state she quit teaching *to* become a lobbyist; there is a gap of several years where she was involved in other CSO | second look: The source sentences do not state that she became a lobbyist. While the sources ment",
   "nothing eligible to publish"
  ]
 }
