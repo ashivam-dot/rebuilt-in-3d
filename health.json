@@ -1,14 +1,18 @@
 {
- "at": "2026-10-28T11:20:54+00:00",
+ "at": "2026-10-28T12:19:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
-  "watch: 4 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 790 headlines from 30 feeds (21 owners), 47 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-toledo-rail, nw-20261027-arnab-cyclone, nw-20261028-first-rail",
-  "wait wk-Q141898879: gate: the article is under 6 hours old; facts may still move (ready in 4.1 h)",
-  "skip nw-20261028-first-rail: gate: fewer than 2 independent outlets' articles name First",
-  "skip wk-Q455700: gate: no draft passed the fact checks: line 5 (She met with the U.S. Secretary of State in the Great Hall o): unsupported: There is no mention of a meeting with the U.S. Secretary of State or the Great Hall of the People in the source. | second look: The source sentences do not mention a meeting with the U.S. Secretary of State, nor do they mention the Great Hall of the People as a location for such an event.; line 6 (During a lunch, s",
-  "skip wk-Q125560811-2026w44: gate: faceless: no free photo shows Gaza war protests at Columbia University or the event itself (only 8 photos of places or things near it)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
+  "watch: 2 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 788 headlines from 30 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-toledo-rail, nw-20261027-arnab-cyclone, nw-20261028-first-rail",
+  "wait wk-Q141898879: gate: the article is under 6 hours old; facts may still move (ready in 3.1 h)",
+  "published wk-Q455700: https://www.youtube.com/shorts/HiZwT42dNaQ"
+ ],
+ "published": {
+  "video_id": "HiZwT42dNaQ",
+  "url": "https://www.youtube.com/shorts/HiZwT42dNaQ",
+  "title": "Liu Yandong, China's Highest Ranking Female Politician, Dies at 80",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
