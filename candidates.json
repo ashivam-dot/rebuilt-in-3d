@@ -1,7 +1,30 @@
 {
- "at": "2026-10-28T10:26:34+00:00",
+ "at": "2026-10-28T11:20:55+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q376176",
+   "title": "Walter Koenig",
+   "fame": 307339,
+   "views": 182339,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-27T22:50:33+00:00",
+   "headlines": [
+    "Heartfelt Tributes To Walter Koenig Coming In From Across Star Trek And Beyond"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-27",
+    "google-news:Heartfelt Tributes To Walter Koenig Coming In From Across Star Trek And Beyond"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q376176",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
   {
    "qid": "Q259559",
    "title": "Susan Saint James",
@@ -21,84 +44,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-26"
-  },
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 225000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-28T10:26:34.254861+00:00",
-   "headlines": [
-    "Spain train crash: at least 10 feared dead after collision in Toledo province",
-    "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "Spain train crash: at least 10 dead after collision in Toledo province"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-28",
-    "google-news:Spain train crash: at least 10 feared dead after collision in Toledo province",
-    "google-news:Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "google-news:Spain train crash: at least 10 dead after collision in Toledo province",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Independent Digital News",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T10:21:22+00:00"
-    },
-    {
-     "title": "Spain train crash: at least 10 dead after collision in Toledo province",
-     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T09:59:53+00:00"
-    }
-   ],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.4325,
-    -3.816388888888889
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q376176",
-   "title": "Walter Koenig",
-   "fame": 182339,
-   "views": 182339,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-27"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q376176",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
   },
   {
    "qid": "Q5386105",
@@ -121,6 +66,188 @@
    "date": "2026-10-25"
   },
   {
+   "id": "nw-20261028-toledo-rail",
+   "qid": null,
+   "title": "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+   "name": "Toledo",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-28T11:09:58+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Disney (ABC News)",
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Train collision in Spain kills at least 30 people",
+    "At least 30 killed in train collision on high-speed line in Spain",
+    "Spain train crash: at least 30 dead after collision in Toledo province",
+    "At least 30 dead in high-speed train crash in Spain",
+    "Spain high-speed train crash kills at least 10"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:09:58+00:00"
+    },
+    {
+     "title": "Spain train crash: at least 30 dead after collision in Toledo province",
+     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:01:47+00:00"
+    },
+    {
+     "title": "Train collision in Spain kills at least 30 people",
+     "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T09:26:47+00:00"
+    },
+    {
+     "title": "Spain high-speed train crash kills at least 10",
+     "url": "https://www.foxnews.com/world/spain-high-speed-train-crash-deaths",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T11:08:48+00:00"
+    },
+    {
+     "title": "At least 30 dead in high-speed train crash in Spain",
+     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T11:03:22+00:00"
+    },
+    {
+     "title": "At least 30 killed in train collision on high-speed line in Spain",
+     "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T10:43:36+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": "2026 Toledo train collision"
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 145000,
+   "views": 0,
+   "traffic": 20000,
+   "news": 75000,
+   "news_at": "2026-10-28T11:20:55.348562+00:00",
+   "headlines": [
+    "First aerial images show scene of deadly train crash in Toledo, Spain",
+    "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+    "Spain train crash: at least 30 dead after collision in Toledo province"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:spanish train",
+    "wikipedia-current-events-2026-10-28",
+    "google-news:First aerial images show scene of deadly train crash in Toledo, Spain",
+    "google-news:Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+    "google-news:Spain train crash: at least 30 dead after collision in Toledo province",
+    "outlet:Euronews",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Euronews",
+    "Independent Digital News",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "First aerial images show scene of deadly train crash in Toledo, Spain",
+     "url": "https://www.euronews.com/2026/10/28/first-aerial-images-show-scene-of-deadly-train-crash-in-toledo-spain",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:12:05+00:00"
+    },
+    {
+     "title": "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:09:58+00:00"
+    },
+    {
+     "title": "Spain train crash: at least 30 dead after collision in Toledo province",
+     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:01:47+00:00"
+    }
+   ],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.4280031776118,
+    -3.81799865897997
+   ],
+   "has_coords": true
+  },
+  {
    "id": "nw-20261027-arnab-cyclone",
    "qid": null,
    "title": "India news: Cyclone Arnab turns deadly after landfall",
@@ -128,18 +255,16 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-27",
-   "news_at": "2026-10-28T09:57:54+00:00",
+   "news_at": "2026-10-28T06:55:38+00:00",
    "owners": [
     "Disney (ABC News)",
     "HT Media",
     "SCMP Group",
     "Euronews",
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "NDTV"
+    "Deutsche Welle"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -174,16 +299,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-28T04:30:00+00:00"
-    },
-    {
-     "title": "Cyclone Arnab makes landfall in India’s Andhra Pradesh",
-     "url": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T08:07:26+00:00"
     },
     {
      "title": "India evacuates tens of thousands as Cyclone Arnab makes landfall",
@@ -226,16 +341,6 @@
      "at": "2026-10-27T12:29:56+00:00"
     },
     {
-     "title": "5 Killed In Andhra Pradesh Due To Cyclone Arnab",
-     "url": "https://www.ndtv.com/india-news/cyclone-arnab-brings-heavy-rain-weather-body-warns-of-winds-up-to-140-kmph-12246086#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-28T09:57:54+00:00"
-    },
-    {
      "title": "Sea waves surge onto roads, trees uprooted, heavy rains trigger waterlogging amid Cyclone Arnab landfall process | Visuals",
      "url": "https://www.hindustantimes.com/india-news/sea-waves-surge-onto-roads-trees-uprooted-heavy-rains-trigger-waterlogging-amid-cyclone-arnab-landfall-process-videos-101793160780846.html",
      "outlet": "Hindustan Times",
@@ -244,6 +349,26 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-28T04:52:18+00:00"
+    },
+    {
+     "title": "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-makes-landfall-in-andhra-pradesh-trees-uprooted-power-supply-disrupted-101793150892386.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:28:11+00:00"
+    },
+    {
+     "title": "Cyclone Arnab 'practically stationary,' landfall process to continue for 2-3 hours",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-practically-stationary-landfall-process-to-continue-for-2-3-hours-101793150788486.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:26:27+00:00"
     }
    ],
    "via": [
@@ -251,9 +376,7 @@
     "outlet:HT Media",
     "outlet:SCMP Group",
     "outlet:Euronews",
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -374,29 +497,27 @@
    "date": "2026-10-27"
   },
   {
-   "id": "nw-20261028-toledo-rail",
+   "id": "nw-20261028-first-rail",
    "qid": null,
-   "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-   "name": "Toledo",
+   "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+   "name": "First",
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-28",
-   "news_at": "2026-10-28T10:22:43+00:00",
+   "news_at": "2026-10-28T11:16:14+00:00",
    "owners": [
-    "Guardian Media Group",
-    "Disney (ABC News)",
-    "Independent Digital News",
-    "Paramount (CBS)"
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network",
+    "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Spain train crash: at least 10 dead after collision in Toledo province",
-    "At least 10 killed in train collision on high-speed line in Spain",
-    "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "At least 10 dead in high-speed train crash in Spain"
+    "Train driver missing after deadly Spain train collision: What we know so far",
+    "Deadly high-speed train collision in Spain",
+    "Spain: First footage reveals wreckage of deadly high-speed train crash"
    ],
    "places": [],
    "attackers": [],
@@ -410,54 +531,43 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+     "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T10:21:22+00:00"
+     "at": "2026-10-28T11:16:14+00:00"
     },
     {
-     "title": "Spain train crash: at least 10 dead after collision in Toledo province",
-     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Deadly high-speed train collision in Spain",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/deadly-high-speed-train-collision-in-spain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T09:59:53+00:00"
+     "at": "2026-10-28T11:02:31+00:00"
     },
     {
-     "title": "At least 10 dead in high-speed train crash in Spain",
-     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Train driver missing after deadly Spain train collision: What we know so far",
+     "url": "https://timesofindia.indiatimes.com/world/europe/spain-train-collision-several-killed-rescue-operations-on-what-we-know-so-far/articleshow/135261448.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-28T10:22:43+00:00"
-    },
-    {
-     "title": "At least 10 killed in train collision on high-speed line in Spain",
-     "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-28T10:16:34+00:00"
+     "at": "2026-10-28T10:30:04+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)"
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Euronews"
    ],
    "emerging": true,
-   "article": "2026 Toledo train collision"
+   "article": null
   },
   {
    "qid": "Q125560811",
@@ -652,8 +762,8 @@
    "country": "India",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
    "published": "2026-10-26T01:51:40+00:00",
-   "lat": "16.2",
-   "lon": "81.6"
+   "lat": "16.4",
+   "lon": "81.8"
   },
   {
    "id": "gdacs-TC-1001338",
@@ -671,49 +781,62 @@
   {
    "qid": "Q141898879",
    "title": "2026 Toledo train collision",
-   "fame": 225000,
+   "fame": 145000,
    "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-10-28T10:26:34.254861+00:00",
+   "traffic": 20000,
+   "news": 75000,
+   "news_at": "2026-10-28T11:20:55.348562+00:00",
    "headlines": [
-    "Spain train crash: at least 10 feared dead after collision in Toledo province",
-    "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "Spain train crash: at least 10 dead after collision in Toledo province"
+    "First aerial images show scene of deadly train crash in Toledo, Spain",
+    "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+    "Spain train crash: at least 30 dead after collision in Toledo province"
    ],
    "region": "world",
    "via": [
+    "google-trends-GB:spanish train",
     "wikipedia-current-events-2026-10-28",
-    "google-news:Spain train crash: at least 10 feared dead after collision in Toledo province",
-    "google-news:Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "google-news:Spain train crash: at least 10 dead after collision in Toledo province",
+    "google-news:First aerial images show scene of deadly train crash in Toledo, Spain",
+    "google-news:Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+    "google-news:Spain train crash: at least 30 dead after collision in Toledo province",
+    "outlet:Euronews",
     "outlet:Independent Digital News",
     "outlet:Guardian Media Group"
    ],
    "owners": [
+    "Euronews",
     "Independent Digital News",
     "Guardian Media Group"
    ],
    "reports": [
     {
-     "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
+     "title": "First aerial images show scene of deadly train crash in Toledo, Spain",
+     "url": "https://www.euronews.com/2026/10/28/first-aerial-images-show-scene-of-deadly-train-crash-in-toledo-spain",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:12:05+00:00"
+    },
+    {
+     "title": "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
      "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T10:21:22+00:00"
+     "at": "2026-10-28T11:09:58+00:00"
     },
     {
-     "title": "Spain train crash: at least 10 dead after collision in Toledo province",
+     "title": "Spain train crash: at least 30 dead after collision in Toledo province",
      "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T09:59:53+00:00"
+     "at": "2026-10-28T11:01:47+00:00"
     }
    ],
    "id": "wk-Q141898879",
@@ -721,35 +844,33 @@
    "category": "rail",
    "date": "2026-10-28",
    "coords": [
-    39.4325,
-    -3.816388888888889
+    39.4280031776118,
+    -3.81799865897997
    ],
    "has_coords": true
   },
   {
-   "id": "nw-20261028-toledo-rail",
+   "id": "nw-20261028-first-rail",
    "qid": null,
-   "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-   "name": "Toledo",
+   "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+   "name": "First",
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-28",
-   "news_at": "2026-10-28T10:22:43+00:00",
+   "news_at": "2026-10-28T11:16:14+00:00",
    "owners": [
-    "Guardian Media Group",
-    "Disney (ABC News)",
-    "Independent Digital News",
-    "Paramount (CBS)"
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network",
+    "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Spain train crash: at least 10 dead after collision in Toledo province",
-    "At least 10 killed in train collision on high-speed line in Spain",
-    "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "At least 10 dead in high-speed train crash in Spain"
+    "Train driver missing after deadly Spain train collision: What we know so far",
+    "Deadly high-speed train collision in Spain",
+    "Spain: First footage reveals wreckage of deadly high-speed train crash"
    ],
    "places": [],
    "attackers": [],
@@ -763,54 +884,43 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+     "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T10:21:22+00:00"
+     "at": "2026-10-28T11:16:14+00:00"
     },
     {
-     "title": "Spain train crash: at least 10 dead after collision in Toledo province",
-     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Deadly high-speed train collision in Spain",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/deadly-high-speed-train-collision-in-spain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T09:59:53+00:00"
+     "at": "2026-10-28T11:02:31+00:00"
     },
     {
-     "title": "At least 10 dead in high-speed train crash in Spain",
-     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Train driver missing after deadly Spain train collision: What we know so far",
+     "url": "https://timesofindia.indiatimes.com/world/europe/spain-train-collision-several-killed-rescue-operations-on-what-we-know-so-far/articleshow/135261448.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-28T10:22:43+00:00"
-    },
-    {
-     "title": "At least 10 killed in train collision on high-speed line in Spain",
-     "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-28T10:16:34+00:00"
+     "at": "2026-10-28T10:30:04+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)"
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Euronews"
    ],
    "emerging": true,
-   "article": "2026 Toledo train collision"
+   "article": null
   },
   {
    "qid": "Q455700",
@@ -847,16 +957,152 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q125560811",
+   "title": "Gaza war protests at Columbia University",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-28T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-27"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q125560811-2026w44",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-28",
+   "coords": [
+    40.8075,
+    -73.96194444444444
+   ],
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 780,
+  "headlines": 790,
   "feeds": 30,
   "owners": 21,
-  "matched": 50,
-  "corroborated": 4
+  "matched": 47,
+  "corroborated": 5
  },
  "emerging": [
+  {
+   "id": "nw-20261028-toledo-rail",
+   "qid": null,
+   "title": "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+   "name": "Toledo",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-28T11:09:58+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Disney (ABC News)",
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Train collision in Spain kills at least 30 people",
+    "At least 30 killed in train collision on high-speed line in Spain",
+    "Spain train crash: at least 30 dead after collision in Toledo province",
+    "At least 30 dead in high-speed train crash in Spain",
+    "Spain high-speed train crash kills at least 10"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Spain train crash latest: At least 46 feared dead after high-speed rail collision in Toledo",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:09:58+00:00"
+    },
+    {
+     "title": "Spain train crash: at least 30 dead after collision in Toledo province",
+     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:01:47+00:00"
+    },
+    {
+     "title": "Train collision in Spain kills at least 30 people",
+     "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T09:26:47+00:00"
+    },
+    {
+     "title": "Spain high-speed train crash kills at least 10",
+     "url": "https://www.foxnews.com/world/spain-high-speed-train-crash-deaths",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T11:08:48+00:00"
+    },
+    {
+     "title": "At least 30 dead in high-speed train crash in Spain",
+     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T11:03:22+00:00"
+    },
+    {
+     "title": "At least 30 killed in train collision on high-speed line in Spain",
+     "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T10:43:36+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": "2026 Toledo train collision"
+  },
   {
    "id": "nw-20261027-arnab-cyclone",
    "qid": null,
@@ -865,18 +1111,16 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-27",
-   "news_at": "2026-10-28T09:57:54+00:00",
+   "news_at": "2026-10-28T06:55:38+00:00",
    "owners": [
     "Disney (ABC News)",
     "HT Media",
     "SCMP Group",
     "Euronews",
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "NDTV"
+    "Deutsche Welle"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -911,16 +1155,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-10-28T04:30:00+00:00"
-    },
-    {
-     "title": "Cyclone Arnab makes landfall in India’s Andhra Pradesh",
-     "url": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T08:07:26+00:00"
     },
     {
      "title": "India evacuates tens of thousands as Cyclone Arnab makes landfall",
@@ -963,16 +1197,6 @@
      "at": "2026-10-27T12:29:56+00:00"
     },
     {
-     "title": "5 Killed In Andhra Pradesh Due To Cyclone Arnab",
-     "url": "https://www.ndtv.com/india-news/cyclone-arnab-brings-heavy-rain-weather-body-warns-of-winds-up-to-140-kmph-12246086#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-28T09:57:54+00:00"
-    },
-    {
      "title": "Sea waves surge onto roads, trees uprooted, heavy rains trigger waterlogging amid Cyclone Arnab landfall process | Visuals",
      "url": "https://www.hindustantimes.com/india-news/sea-waves-surge-onto-roads-trees-uprooted-heavy-rains-trigger-waterlogging-amid-cyclone-arnab-landfall-process-videos-101793160780846.html",
      "outlet": "Hindustan Times",
@@ -981,6 +1205,26 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-28T04:52:18+00:00"
+    },
+    {
+     "title": "Cyclone Arnab makes landfall in Andhra Pradesh; trees uprooted, power supply disrupted",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-makes-landfall-in-andhra-pradesh-trees-uprooted-power-supply-disrupted-101793150892386.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:28:11+00:00"
+    },
+    {
+     "title": "Cyclone Arnab 'practically stationary,' landfall process to continue for 2-3 hours",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-practically-stationary-landfall-process-to-continue-for-2-3-hours-101793150788486.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T01:26:27+00:00"
     }
    ],
    "via": [
@@ -988,37 +1232,33 @@
     "outlet:HT Media",
     "outlet:SCMP Group",
     "outlet:Euronews",
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261028-toledo-rail",
+   "id": "nw-20261028-first-rail",
    "qid": null,
-   "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-   "name": "Toledo",
+   "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+   "name": "First",
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-28",
-   "news_at": "2026-10-28T10:22:43+00:00",
+   "news_at": "2026-10-28T11:16:14+00:00",
    "owners": [
-    "Guardian Media Group",
-    "Disney (ABC News)",
-    "Independent Digital News",
-    "Paramount (CBS)"
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network",
+    "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Spain train crash: at least 10 dead after collision in Toledo province",
-    "At least 10 killed in train collision on high-speed line in Spain",
-    "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-    "At least 10 dead in high-speed train crash in Spain"
+    "Train driver missing after deadly Spain train collision: What we know so far",
+    "Deadly high-speed train collision in Spain",
+    "Spain: First footage reveals wreckage of deadly high-speed train crash"
    ],
    "places": [],
    "attackers": [],
@@ -1032,55 +1272,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Spain train crash latest: At least 39 dead after high speed rail collision in Toledo",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+     "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T10:21:22+00:00"
+     "at": "2026-10-28T11:16:14+00:00"
     },
     {
-     "title": "Spain train crash: at least 10 dead after collision in Toledo province",
-     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Deadly high-speed train collision in Spain",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/deadly-high-speed-train-collision-in-spain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T09:59:53+00:00"
+     "at": "2026-10-28T11:02:31+00:00"
     },
     {
-     "title": "At least 10 dead in high-speed train crash in Spain",
-     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
+     "title": "Train driver missing after deadly Spain train collision: What we know so far",
+     "url": "https://timesofindia.indiatimes.com/world/europe/spain-train-collision-several-killed-rescue-operations-on-what-we-know-so-far/articleshow/135261448.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-28T10:22:43+00:00"
-    },
-    {
-     "title": "At least 10 killed in train collision on high-speed line in Spain",
-     "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-28T10:16:34+00:00"
+     "at": "2026-10-28T10:30:04+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)"
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Euronews"
    ],
    "emerging": true,
-   "article": "2026 Toledo train collision"
+   "article": null
   }
  ],
- "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 50 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-toledo-rail"
+ "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 47 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-toledo-rail, nw-20261027-arnab-cyclone, nw-20261028-first-rail"
 }

@@ -1,13 +1,14 @@
 {
- "at": "2026-10-28T10:26:33+00:00",
+ "at": "2026-10-28T11:20:54+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
-  "watch: 3 candidates (0 quakes, 15 trending), 2 hazard alerts",
-  "outlets: 780 headlines from 30 feeds (21 owners), 50 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-toledo-rail",
-  "wait wk-Q141898879: gate: the article is under 6 hours old; facts may still move (ready in 4.9 h)",
-  "skip nw-20261028-toledo-rail: gate: faceless: no free photo shows Toledo or the event itself (only 0 photos of places or things near it)",
-  "skip wk-Q455700: gate: no draft passed the fact checks: line 4 (In 2007, she became the first woman since Deng Yingchao to s): partly: The line states she became the first woman to serve consecutive terms in 2007, but the source states she was elected to the 17th Politburo in 2007 and the 18th Politburo in 2012; it does not specify that the 'consecutive  | second look: The LINE includes the date 'In 2007', but the SOURCE SENTENCES do not explicitly sta",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
+  "watch: 4 candidates (0 quakes, 16 trending), 2 hazard alerts",
+  "outlets: 790 headlines from 30 feeds (21 owners), 47 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-toledo-rail, nw-20261027-arnab-cyclone, nw-20261028-first-rail",
+  "wait wk-Q141898879: gate: the article is under 6 hours old; facts may still move (ready in 4.1 h)",
+  "skip nw-20261028-first-rail: gate: fewer than 2 independent outlets' articles name First",
+  "skip wk-Q455700: gate: no draft passed the fact checks: line 5 (She met with the U.S. Secretary of State in the Great Hall o): unsupported: There is no mention of a meeting with the U.S. Secretary of State or the Great Hall of the People in the source. | second look: The source sentences do not mention a meeting with the U.S. Secretary of State, nor do they mention the Great Hall of the People as a location for such an event.; line 6 (During a lunch, s",
+  "skip wk-Q125560811-2026w44: gate: faceless: no free photo shows Gaza war protests at Columbia University or the event itself (only 8 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
