@@ -1,10 +1,14 @@
 {
- "at": "2026-10-28T18:28:13+00:00",
+ "at": "2026-10-28T19:31:57+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 114 units today",
-  "watch: 1 candidates (0 quakes, 17 trending), 2 hazard alerts",
-  "outlets: 816 headlines from 30 feeds (21 owners), 41 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail, nw-20261028-death-rail",
-  "hold nw-20261028-death-rail: last Short went out 0.2 h ago"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 115 units today",
+  "watch: 3 candidates (0 quakes, 17 trending), 2 hazard alerts",
+  "outlets: 820 headlines from 30 feeds (21 owners), 39 matched to articles, 6 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail",
+  "trend radar errors: ['wikidata recent deaths: HTTP 500 (used the list from 1.1 h ago, 147 people)']",
+  "skip wk-Q4738117: gate: no photo on Wikimedia Commons shows Alvin Hellerstein's face (a tribute needs one)",
+  "skip nw-20261028-high-speed-rail: gate: faceless: no free photo shows high-speed or the event itself (only 1 photos of places or things near it)",
+  "skip wk-Q141898879: gate: only 2 usable photos of 2026 Toledo train collision on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
