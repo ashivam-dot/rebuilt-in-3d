@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T16:31:31+00:00",
+ "at": "2026-10-28T17:32:27+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,37 +23,136 @@
    "date": "2026-10-26"
   },
   {
-   "qid": "Q468843",
-   "title": "Dolores Huerta",
-   "fame": 260000,
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 275000,
    "views": 0,
-   "traffic": 10000,
-   "news": 250000,
-   "news_at": "2026-10-28T16:25:00+00:00",
+   "traffic": 0,
+   "news": 225000,
+   "news_at": "2026-10-28T17:32:27.817986+00:00",
    "headlines": [
-    "Dolores Huerta, pioneering labor leader and civil rights icon, dies at 96",
-    "Dolores Huerta, labor activist and civil rights icon, dies at 96",
-    "US civil rights leader Dolores Huerta dies aged 96",
-    "Dolores Huerta, United Farm Workers co-founder who accused César Chavez of sex abuse, dead at 96",
-    "Labor rights leader Dolores Huerta dies at 96"
+    "Spain Train Crash Live Updates: At Least 68 Killed in High-Speed Train Collision, Officials Say",
+    "Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
+    "Spain: Rescuers search mangled train wreckage near Toledo",
+    "Spain Train Crash Updates: Human Error Believed To Be Behind Toledo Train Crash, Says Report",
+    "Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash"
    ],
    "region": "world",
    "via": [
-    "google-trends-US:dolores huerta",
-    "google-news:Dolores Huerta, pioneering labor leader and civil rights icon, dies at 96",
-    "google-news:Dolores Huerta, labor activist and civil rights icon, dies at 96",
+    "wikipedia-current-events-2026-10-28",
+    "google-news:Spain Train Crash Live Updates: At Least 68 Killed in High-Speed Train Collision, Officials Say",
+    "google-news:Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
+    "google-news:Spain: Rescuers search mangled train wreckage near Toledo",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews",
+    "outlet:NDTV",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Euronews",
+    "NDTV",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
+     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T16:39:15+00:00"
+    },
+    {
+     "title": "Spain: Rescuers search mangled train wreckage near Toledo",
+     "url": "https://www.euronews.com/video/2026/10/28/spain-rescuers-search-mangled-train-wreckage-near-toledo",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T15:54:11+00:00"
+    },
+    {
+     "title": "Spain Train Crash Updates: Human Error Believed To Be Behind Toledo Train Crash, Says Report",
+     "url": "https://www.ndtv.com/world-news/spain-train-crash-toledo-live-updates-deaths-madrid-news-today-pedro-sanchez-12248070#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T15:37:34+00:00"
+    },
+    {
+     "title": "Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash",
+     "url": "https://www.independent.co.uk/sport/football/madrid-train-crash-latest-copa-del-rey-postponed-b3074883.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T15:11:20+00:00"
+    },
+    {
+     "title": "First aerial images show scene of deadly train crash in Toledo, Spain",
+     "url": "https://www.euronews.com/2026/10/28/first-aerial-images-show-scene-of-deadly-train-crash-in-toledo-spain",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:12:05+00:00"
+    }
+   ],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q468843",
+   "title": "Dolores Huerta",
+   "fame": 275000,
+   "views": 0,
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-10-28T17:34:28+00:00",
+   "headlines": [
+    "US civil rights leader Dolores Huerta dies aged 96",
+    "Dolores Huerta, labor activist and civil rights icon, dies at 96",
+    "Dolores Huerta: Influential labor leader and civil rights icon dies aged 96",
+    "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
+    "Dolores Huerta, United Farm Workers co-founder who accused César Chavez of sex abuse, dead at 96"
+   ],
+   "region": "world",
+   "via": [
     "google-news:US civil rights leader Dolores Huerta dies aged 96",
+    "google-news:Dolores Huerta, labor activist and civil rights icon, dies at 96",
+    "google-news:Dolores Huerta: Influential labor leader and civil rights icon dies aged 96",
     "outlet:Paramount (CBS)",
     "outlet:BBC",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
     "outlet:Fox Corporation",
     "outlet:Disney (ABC News)",
+    "outlet:NPR",
     "outlet:NBCUniversal"
    ],
    "owners": [
     "Paramount (CBS)",
     "BBC",
+    "Independent Digital News",
+    "Guardian Media Group",
     "Fox Corporation",
     "Disney (ABC News)",
+    "NPR",
     "NBCUniversal"
    ],
    "reports": [
@@ -65,7 +164,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-28T16:25:00+00:00"
+     "at": "2026-10-28T17:34:28+00:00"
     },
     {
      "title": "US civil rights leader Dolores Huerta dies aged 96",
@@ -75,7 +174,27 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-28T16:23:36+00:00"
+     "at": "2026-10-28T17:16:45+00:00"
+    },
+    {
+     "title": "Dolores Huerta: Influential labor leader and civil rights icon dies aged 96",
+     "url": "https://www.independent.co.uk/news/world/americas/dolores-huerta-death-cancer-cesar-chavez-allegations-b3075061.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T16:40:44+00:00"
+    },
+    {
+     "title": "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
+     "url": "https://www.theguardian.com/us-news/2026/oct/28/dolores-huerta-dead-california",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T16:40:16+00:00"
     },
     {
      "title": "Dolores Huerta, United Farm Workers co-founder who accused César Chavez of sex abuse, dead at 96",
@@ -98,6 +217,16 @@
      "at": "2026-10-28T16:17:57+00:00"
     },
     {
+     "title": "Dolores Huerta, influential labor leader, feminist and civil rights icon, dies at 96",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6020543/dolores-huerta-dies",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T16:10:43+00:00"
+    },
+    {
      "title": "Dolores Huerta, farmworker and civil rights activist, dies at 96",
      "url": "https://www.nbcnews.com/news/obituaries/dolores-huerta-farmworker-civil-rights-activist-dies-96-rcna137901",
      "outlet": "NBC News",
@@ -112,87 +241,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 250000,
-   "views": 0,
-   "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-10-28T16:31:31.687208+00:00",
-   "headlines": [
-    "Two trains collide in Spain’s Toledo Province; at least 64 dead",
-    "Spain: Rescuers search mangled train wreckage near Toledo",
-    "Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash",
-    "Spain train crash: at least 64 dead after collision in Toledo province"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-28",
-    "google-news:Two trains collide in Spain’s Toledo Province; at least 64 dead",
-    "google-news:Spain: Rescuers search mangled train wreckage near Toledo",
-    "google-news:Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash",
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Euronews",
-    "Independent Digital News",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Spain: Rescuers search mangled train wreckage near Toledo",
-     "url": "https://www.euronews.com/video/2026/10/28/spain-rescuers-search-mangled-train-wreckage-near-toledo",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T15:54:11+00:00"
-    },
-    {
-     "title": "Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash",
-     "url": "https://www.independent.co.uk/sport/football/madrid-train-crash-latest-copa-del-rey-postponed-b3074883.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T15:11:20+00:00"
-    },
-    {
-     "title": "Spain train crash: at least 64 dead after collision in Toledo province",
-     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T13:22:21+00:00"
-    },
-    {
-     "title": "First aerial images show scene of deadly train crash in Toledo, Spain",
-     "url": "https://www.euronews.com/2026/10/28/first-aerial-images-show-scene-of-deadly-train-crash-in-toledo-spain",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T11:12:05+00:00"
-    }
-   ],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q376176",
@@ -278,7 +326,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-27",
-   "news_at": "2026-10-28T15:46:55+00:00",
+   "news_at": "2026-10-28T16:33:26+00:00",
    "owners": [
     "HT Media",
     "Euronews",
@@ -355,6 +403,16 @@
      "at": "2026-10-27T12:29:56+00:00"
     },
     {
+     "title": "5 dead as Cyclone Arnab batters north Andhra with heavy rain",
+     "url": "https://www.thehindu.com/news/national/andhra-pradesh/5-dead-as-cyclone-arnab-batters-north-andhra-with-heavy-rain/article71636779.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T16:33:26+00:00"
+    },
+    {
      "title": "Cyclone Arnab: Heavy inflows swell rivers across three North Andhra districts",
      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-heavy-inflows-swell-rivers-across-three-north-andhra-districts/article71634333.ece",
      "outlet": "The Hindu",
@@ -383,16 +441,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-28T14:37:58+00:00"
-    },
-    {
-     "title": "Sea waves surge onto roads, trees uprooted, heavy rains trigger waterlogging amid Cyclone Arnab landfall process | Visuals",
-     "url": "https://www.hindustantimes.com/india-news/sea-waves-surge-onto-roads-trees-uprooted-heavy-rains-trigger-waterlogging-amid-cyclone-arnab-landfall-process-videos-101793160780846.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-28T04:52:18+00:00"
     }
    ],
    "via": [
@@ -407,49 +455,31 @@
    "article": null
   },
   {
-   "qid": "Q5296666",
-   "title": "Donnie Iris",
-   "fame": 115635,
-   "views": 115635,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-27"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5296666",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
-  },
-  {
    "id": "nw-20261028-high-speed-rail",
    "qid": null,
-   "title": "Spain: At least 64 dead in high-speed train crash",
+   "title": "At least 64 dead in Spain’s high-speed train crash",
    "name": "high-speed",
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-28",
-   "news_at": "2026-10-28T16:10:23+00:00",
+   "news_at": "2026-10-28T17:13:29+00:00",
    "owners": [
     "NPR",
     "Deutsche Welle",
     "France Médias Monde",
-    "Guardian Media Group"
+    "Paramount (CBS)",
+    "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Dozens are dead in a high-speed train crash in Spain",
     "Spain: High-speed train crash kills dozens, rescue operations ongoing",
     "Spain: At least 64 dead in high-speed train crash",
-    "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates"
+    "At least 64 dead in Spain’s high-speed train crash",
+    "At least 68 dead in high-speed train crash in Spain"
    ],
    "places": [],
    "attackers": [],
@@ -462,6 +492,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "At least 64 dead in Spain’s high-speed train crash",
+     "url": "https://www.france24.com/en/video/20261028-at-least-64-dead-in-spain-s-high-speed-train-crash",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T15:37:14+00:00"
+    },
     {
      "title": "Spain: At least 64 dead in high-speed train crash",
      "url": "https://www.france24.com/en/video/20261028-spain-at-least-64-dead-in-high-speed-train-crash",
@@ -493,24 +533,55 @@
      "at": "2026-10-28T10:09:46+00:00"
     },
     {
-     "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
-     "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "High speed train crash leaves at least 68 dead and 77 injured in one of Spain’s worst rail disasters",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-toledo-madrid-seville-b3074895.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T16:10:23+00:00"
+     "at": "2026-10-28T17:13:29+00:00"
+    },
+    {
+     "title": "At least 68 dead in high-speed train crash in Spain",
+     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T16:43:40+00:00"
     }
    ],
    "via": [
     "outlet:NPR",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
-    "outlet:Guardian Media Group"
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q5296666",
+   "title": "Donnie Iris",
+   "fame": 115635,
+   "views": 115635,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-27"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5296666",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
   },
   {
    "qid": "Q4834146",
@@ -519,7 +590,7 @@
    "views": 27872,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-10-28T16:35:15.095291+00:00",
+   "news_at": "2026-10-28T17:34:49.940111+00:00",
    "headlines": [
     "India’s Cultural Consciousness and Knowledge Traditions Form the Foundation of Its Civilisational Continuity: Shri Gajendra Singh Shekhawat",
     "Defence minister Rajnath Singh flags concern over US military aid to Pakistan in talks with Pete Hegseth"
@@ -545,7 +616,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-10-28T16:35:15.095291+00:00"
+     "at": "2026-10-28T17:34:49.940111+00:00"
     },
     {
      "title": "Defence minister Rajnath Singh flags concern over US military aid to Pakistan in talks with Pete Hegseth",
@@ -592,6 +663,79 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
+  },
+  {
+   "id": "nw-20261028-death-rail",
+   "qid": null,
+   "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+   "name": "Death",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-28T17:20:12+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Guardian Media Group",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+    "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
+    "Spain train crash latest: Death toll rises to 68 with dozens more injured after high-speed rail catastrophe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+     "url": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T13:11:18+00:00"
+    },
+    {
+     "title": "Spain train crash latest: Death toll rises to 68 with dozens more injured after high-speed rail catastrophe",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T17:20:12+00:00"
+    },
+    {
+     "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
+     "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T17:02:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Guardian Media Group",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q125560811",
@@ -752,35 +896,40 @@
   {
    "qid": "Q468843",
    "title": "Dolores Huerta",
-   "fame": 260000,
+   "fame": 275000,
    "views": 0,
-   "traffic": 10000,
-   "news": 250000,
-   "news_at": "2026-10-28T16:25:00+00:00",
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-10-28T17:34:28+00:00",
    "headlines": [
-    "Dolores Huerta, pioneering labor leader and civil rights icon, dies at 96",
-    "Dolores Huerta, labor activist and civil rights icon, dies at 96",
     "US civil rights leader Dolores Huerta dies aged 96",
-    "Dolores Huerta, United Farm Workers co-founder who accused César Chavez of sex abuse, dead at 96",
-    "Labor rights leader Dolores Huerta dies at 96"
+    "Dolores Huerta, labor activist and civil rights icon, dies at 96",
+    "Dolores Huerta: Influential labor leader and civil rights icon dies aged 96",
+    "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
+    "Dolores Huerta, United Farm Workers co-founder who accused César Chavez of sex abuse, dead at 96"
    ],
    "region": "world",
    "via": [
-    "google-trends-US:dolores huerta",
-    "google-news:Dolores Huerta, pioneering labor leader and civil rights icon, dies at 96",
-    "google-news:Dolores Huerta, labor activist and civil rights icon, dies at 96",
     "google-news:US civil rights leader Dolores Huerta dies aged 96",
+    "google-news:Dolores Huerta, labor activist and civil rights icon, dies at 96",
+    "google-news:Dolores Huerta: Influential labor leader and civil rights icon dies aged 96",
     "outlet:Paramount (CBS)",
     "outlet:BBC",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
     "outlet:Fox Corporation",
     "outlet:Disney (ABC News)",
+    "outlet:NPR",
     "outlet:NBCUniversal"
    ],
    "owners": [
     "Paramount (CBS)",
     "BBC",
+    "Independent Digital News",
+    "Guardian Media Group",
     "Fox Corporation",
     "Disney (ABC News)",
+    "NPR",
     "NBCUniversal"
    ],
    "reports": [
@@ -792,7 +941,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-28T16:25:00+00:00"
+     "at": "2026-10-28T17:34:28+00:00"
     },
     {
      "title": "US civil rights leader Dolores Huerta dies aged 96",
@@ -802,7 +951,27 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-10-28T16:23:36+00:00"
+     "at": "2026-10-28T17:16:45+00:00"
+    },
+    {
+     "title": "Dolores Huerta: Influential labor leader and civil rights icon dies aged 96",
+     "url": "https://www.independent.co.uk/news/world/americas/dolores-huerta-death-cancer-cesar-chavez-allegations-b3075061.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T16:40:44+00:00"
+    },
+    {
+     "title": "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
+     "url": "https://www.theguardian.com/us-news/2026/oct/28/dolores-huerta-dead-california",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T16:40:16+00:00"
     },
     {
      "title": "Dolores Huerta, United Farm Workers co-founder who accused César Chavez of sex abuse, dead at 96",
@@ -825,6 +994,16 @@
      "at": "2026-10-28T16:17:57+00:00"
     },
     {
+     "title": "Dolores Huerta, influential labor leader, feminist and civil rights icon, dies at 96",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6020543/dolores-huerta-dies",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T16:10:43+00:00"
+    },
+    {
      "title": "Dolores Huerta, farmworker and civil rights activist, dies at 96",
      "url": "https://www.nbcnews.com/news/obituaries/dolores-huerta-farmworker-civil-rights-activist-dies-96-rcna137901",
      "outlet": "NBC News",
@@ -839,17 +1018,87 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "id": "nw-20261028-death-rail",
+   "qid": null,
+   "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+   "name": "Death",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-28T17:20:12+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Guardian Media Group",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+    "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
+    "Spain train crash latest: Death toll rises to 68 with dozens more injured after high-speed rail catastrophe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+     "url": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T13:11:18+00:00"
+    },
+    {
+     "title": "Spain train crash latest: Death toll rises to 68 with dozens more injured after high-speed rail catastrophe",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T17:20:12+00:00"
+    },
+    {
+     "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
+     "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T17:02:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Guardian Media Group",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 144 people)"
- ],
  "outlets": {
-  "headlines": 816,
+  "headlines": 819,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
-  "corroborated": 5
+  "matched": 40,
+  "corroborated": 6
  },
  "emerging": [
   {
@@ -860,7 +1109,7 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-10-27",
-   "news_at": "2026-10-28T15:46:55+00:00",
+   "news_at": "2026-10-28T16:33:26+00:00",
    "owners": [
     "HT Media",
     "Euronews",
@@ -937,6 +1186,16 @@
      "at": "2026-10-27T12:29:56+00:00"
     },
     {
+     "title": "5 dead as Cyclone Arnab batters north Andhra with heavy rain",
+     "url": "https://www.thehindu.com/news/national/andhra-pradesh/5-dead-as-cyclone-arnab-batters-north-andhra-with-heavy-rain/article71636779.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-28T16:33:26+00:00"
+    },
+    {
      "title": "Cyclone Arnab: Heavy inflows swell rivers across three North Andhra districts",
      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-heavy-inflows-swell-rivers-across-three-north-andhra-districts/article71634333.ece",
      "outlet": "The Hindu",
@@ -965,16 +1224,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-28T14:37:58+00:00"
-    },
-    {
-     "title": "Sea waves surge onto roads, trees uprooted, heavy rains trigger waterlogging amid Cyclone Arnab landfall process | Visuals",
-     "url": "https://www.hindustantimes.com/india-news/sea-waves-surge-onto-roads-trees-uprooted-heavy-rains-trigger-waterlogging-amid-cyclone-arnab-landfall-process-videos-101793160780846.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-28T04:52:18+00:00"
     }
    ],
    "via": [
@@ -991,27 +1240,29 @@
   {
    "id": "nw-20261028-high-speed-rail",
    "qid": null,
-   "title": "Spain: At least 64 dead in high-speed train crash",
+   "title": "At least 64 dead in Spain’s high-speed train crash",
    "name": "high-speed",
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-28",
-   "news_at": "2026-10-28T16:10:23+00:00",
+   "news_at": "2026-10-28T17:13:29+00:00",
    "owners": [
     "NPR",
     "Deutsche Welle",
     "France Médias Monde",
-    "Guardian Media Group"
+    "Paramount (CBS)",
+    "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Dozens are dead in a high-speed train crash in Spain",
     "Spain: High-speed train crash kills dozens, rescue operations ongoing",
     "Spain: At least 64 dead in high-speed train crash",
-    "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates"
+    "At least 64 dead in Spain’s high-speed train crash",
+    "At least 68 dead in high-speed train crash in Spain"
    ],
    "places": [],
    "attackers": [],
@@ -1024,6 +1275,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "At least 64 dead in Spain’s high-speed train crash",
+     "url": "https://www.france24.com/en/video/20261028-at-least-64-dead-in-spain-s-high-speed-train-crash",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T15:37:14+00:00"
+    },
     {
      "title": "Spain: At least 64 dead in high-speed train crash",
      "url": "https://www.france24.com/en/video/20261028-spain-at-least-64-dead-in-high-speed-train-crash",
@@ -1055,6 +1316,91 @@
      "at": "2026-10-28T10:09:46+00:00"
     },
     {
+     "title": "High speed train crash leaves at least 68 dead and 77 injured in one of Spain’s worst rail disasters",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-toledo-madrid-seville-b3074895.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T17:13:29+00:00"
+    },
+    {
+     "title": "At least 68 dead in high-speed train crash in Spain",
+     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-28T16:43:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NPR",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261028-death-rail",
+   "qid": null,
+   "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+   "name": "Death",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-28T17:20:12+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Guardian Media Group",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+    "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
+    "Spain train crash latest: Death toll rises to 68 with dozens more injured after high-speed rail catastrophe"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+     "url": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T13:11:18+00:00"
+    },
+    {
+     "title": "Spain train crash latest: Death toll rises to 68 with dozens more injured after high-speed rail catastrophe",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-toledo-train-crash-live-updates-b3074682.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T17:20:12+00:00"
+    },
+    {
      "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
      "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
      "outlet": "The Guardian",
@@ -1062,18 +1408,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-28T16:10:23+00:00"
+     "at": "2026-10-28T17:02:10+00:00"
     }
    ],
    "via": [
-    "outlet:NPR",
-    "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 39 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail"
+ "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail, nw-20261028-death-rail"
 }

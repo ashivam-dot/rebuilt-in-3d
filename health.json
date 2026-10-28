@@ -1,12 +1,18 @@
 {
- "at": "2026-10-28T16:31:30+00:00",
+ "at": "2026-10-28T17:32:25+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 61 units today",
-  "watch: 1 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 816 headlines from 30 feeds (21 owners), 39 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 144 people)\"]",
-  "skip wk-Q468843: gate: no draft passed the fact checks: line 4 (She quit teaching after a year to become a lobbyist and comm): partly: The source states she quit teaching after a year and became a lobbyist by the late 1950s, but it does not state she quit teaching *to* become a lobbyist; there is a gap of several years where she was involved in other CSO | second look: The source sentences do not state that she became a lobbyist. While the sources ment",
-  "nothing eligible to publish"
- ]
+  "learn: 49 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 16, 'lift': 1.206, 'typical_views_24h': 290, 'n_retention': 13, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 1.013, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 15, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 62 units today",
+  "watch: 2 candidates (0 quakes, 17 trending), 2 hazard alerts",
+  "outlets: 819 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261027-arnab-cyclone, nw-20261028-high-speed-rail, nw-20261028-death-rail",
+  "published wk-Q468843: https://www.youtube.com/shorts/hjOFlQ4PyLo"
+ ],
+ "published": {
+  "video_id": "hjOFlQ4PyLo",
+  "url": "https://www.youtube.com/shorts/hjOFlQ4PyLo",
+  "title": "Dolores Huerta, Labor Leader and Feminist Icon, Dies at 96",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
