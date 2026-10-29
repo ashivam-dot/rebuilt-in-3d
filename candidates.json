@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T04:51:47+00:00",
+ "at": "2026-10-29T05:49:05+00:00",
  "quakes": [],
  "trending": [
   {
@@ -219,30 +219,31 @@
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 122425,
+   "fame": 122625,
    "views": 47425,
-   "traffic": 0,
+   "traffic": 200,
    "news": 75000,
-   "news_at": "2026-10-29T04:52:52.388453+00:00",
+   "news_at": "2026-10-29T05:50:18.216251+00:00",
    "headlines": [
     "India’s Cultural Consciousness and Knowledge Traditions Form the Foundation of Its Civilisational Continuity: Shri Gajendra Singh Shekhawat",
-    "‘Unwavering commitment’: Rajnath Singh backs ASEAN centrality, calls for stronger defence ties",
-    "Foreign policy had to evolve after 1991 reforms: Jaishankar at NK Singh’s book launch"
+    "India ready to share 'battle-tested' anti-terror expertise with ASEAN, its dialogue partners: Rajnath Singh",
+    "‘Unwavering commitment’: Rajnath Singh backs ASEAN centrality, calls for stronger defence ties"
    ],
    "region": "india",
    "via": [
     "wikipedia-top-2026-10-28",
+    "google-trends-IN:मैराथन",
     "google-news:India’s Cultural Consciousness and Knowledge Traditions Form the Foundation of Its Civilisational Continuity: Shri Gajendra Singh Shekhawat",
+    "google-news:India ready to share 'battle-tested' anti-terror expertise with ASEAN, its dialogue partners: Rajnath Singh",
     "google-news:‘Unwavering commitment’: Rajnath Singh backs ASEAN centrality, calls for stronger defence ties",
-    "google-news:Foreign policy had to evolve after 1991 reforms: Jaishankar at NK Singh’s book launch",
     "outlet:Government of India",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:HT Media"
+    "outlet:HT Media",
+    "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
     "Government of India",
-    "Bennett, Coleman & Co.",
-    "HT Media"
+    "HT Media",
+    "Bennett, Coleman & Co."
    ],
    "reports": [
     {
@@ -253,7 +254,27 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-10-29T04:52:52.388453+00:00"
+     "at": "2026-10-29T05:50:18.216251+00:00"
+    },
+    {
+     "title": "India ready to share 'battle-tested' anti-terror expertise with ASEAN, its dialogue partners: Rajnath Singh",
+     "url": "https://www.hindustantimes.com/india-news/india-ready-to-share-battle-tested-anti-terror-expertise-with-asean-its-dialogue-partners-rajnath-singh-101793252705574.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T05:45:05+00:00"
+    },
+    {
+     "title": "BJP's Kedarnath Singh concedes defeat in Varanasi Graduate polls",
+     "url": "https://www.hindustantimes.com/india-news/bjp-kedarnath-singh-concedes-defeat-in-varanasi-graduate-polls-101793251352168.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T05:24:00+00:00"
     },
     {
      "title": "‘Unwavering commitment’: Rajnath Singh backs ASEAN centrality, calls for stronger defence ties",
@@ -351,6 +372,81 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "id": "nw-20261028-spanish-rail",
+   "qid": null,
+   "title": "Conflicting accounts emerge after Spanish train collision",
+   "name": "Spanish",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-29T05:25:06+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "France Médias Monde",
+    "ABC (Australia)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+    "Spain: PM Sanchez gives speech on train collision",
+    "Conflicting accounts emerge after Spanish train collision"
+   ],
+   "places": [
+    "Sanchez"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Conflicting accounts emerge after Spanish train collision",
+     "url": "https://www.abc.net.au/news/2026-10-29/spain-train-collision-rail-safety-traffic-control/107322634",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T05:25:06+00:00"
+    },
+    {
+     "title": "Spain: PM Sanchez gives speech on train collision",
+     "url": "https://www.france24.com/en/spain-pm-sanchez-gives-speech-on-train-collision",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T16:29:46+00:00"
+    },
+    {
+     "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+     "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T14:33:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q5296666",
@@ -470,42 +566,6 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q455700",
-   "title": "Liu Yandong",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-28T10:09:38+00:00",
-   "headlines": [
-    "China’s former vice-premier Liu Yandong dies at age 80"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:China’s former vice-premier Liu Yandong dies at age 80",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "China’s former vice-premier Liu Yandong dies at age 80",
-     "url": "https://www.scmp.com/news/china/politics/article/3372453/chinas-former-vice-premier-liu-yandong-dies-beijing",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-28T10:09:38+00:00"
-    }
-   ],
-   "id": "wk-Q455700",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
    "qid": "Q2339941",
    "title": "Tetsuya Chiba",
    "fame": 17745,
@@ -617,6 +677,81 @@
  ],
  "candidates": [
   {
+   "id": "nw-20261028-spanish-rail",
+   "qid": null,
+   "title": "Conflicting accounts emerge after Spanish train collision",
+   "name": "Spanish",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-29T05:25:06+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "France Médias Monde",
+    "ABC (Australia)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+    "Spain: PM Sanchez gives speech on train collision",
+    "Conflicting accounts emerge after Spanish train collision"
+   ],
+   "places": [
+    "Sanchez"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Conflicting accounts emerge after Spanish train collision",
+     "url": "https://www.abc.net.au/news/2026-10-29/spain-train-collision-rail-safety-traffic-control/107322634",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T05:25:06+00:00"
+    },
+    {
+     "title": "Spain: PM Sanchez gives speech on train collision",
+     "url": "https://www.france24.com/en/spain-pm-sanchez-gives-speech-on-train-collision",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T16:29:46+00:00"
+    },
+    {
+     "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+     "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T14:33:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q453730",
    "title": "Fátima Báñez",
    "fame": 33228,
@@ -638,12 +773,88 @@
   }
  ],
  "outlets": {
-  "headlines": 802,
+  "headlines": 805,
   "feeds": 30,
   "owners": 21,
-  "matched": 45,
-  "corroborated": 4
+  "matched": 49,
+  "corroborated": 5
  },
- "emerging": [],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 45 matched to articles, 4 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261028-spanish-rail",
+   "qid": null,
+   "title": "Conflicting accounts emerge after Spanish train collision",
+   "name": "Spanish",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-29T05:25:06+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "France Médias Monde",
+    "ABC (Australia)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+    "Spain: PM Sanchez gives speech on train collision",
+    "Conflicting accounts emerge after Spanish train collision"
+   ],
+   "places": [
+    "Sanchez"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Conflicting accounts emerge after Spanish train collision",
+     "url": "https://www.abc.net.au/news/2026-10-29/spain-train-collision-rail-safety-traffic-control/107322634",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T05:25:06+00:00"
+    },
+    {
+     "title": "Spain: PM Sanchez gives speech on train collision",
+     "url": "https://www.france24.com/en/spain-pm-sanchez-gives-speech-on-train-collision",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T16:29:46+00:00"
+    },
+    {
+     "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+     "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T14:33:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 49 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261028-spanish-rail"
 }
