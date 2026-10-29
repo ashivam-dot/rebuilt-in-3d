@@ -496,9 +496,9 @@
   "kind": "death"
  },
  "wk-Q259559": {
-  "count": 3,
+  "count": 4,
   "reason": "gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
-  "at": "2026-10-28T09:30:13+00:00",
+  "at": "2026-10-29T11:14:05+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -584,9 +584,9 @@
   "kind": "incident"
  },
  "wk-Q453730": {
-  "count": 2,
-  "reason": "gate: no draft passed the fact checks: beat 3, 4 name(s) nothing its photo shows (only 65% of the script shows what it says; want 70%): in each, name who or what a photo shows (Fátima Báñez, Iberdrola), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the ",
-  "at": "2026-10-29T08:25:48+00:00",
+  "count": 3,
+  "reason": "gate: no draft passed the fact checks: beat 3, 6 name(s) nothing its photo shows (only 67% of the script shows what it says; want 70%): in each, name who or what a photo shows (Fátima Báñez, Iberdrola), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the ",
+  "at": "2026-10-29T11:25:18+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -619,6 +619,14 @@
   "count": 1,
   "reason": "gate: no draft passed the fact checks: beat 2, 3, 8 name(s) nothing its photo shows (only 50% of the script shows what it says; want 70%): in each, name who or what a photo shows (Jamia Millia Islamia, Imran Pratapgarhi, Imran Masood, police), or say what an EVENT photo itself shows (the words of it",
   "at": "2026-10-29T09:11:40+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261029-arnab-cyclone": {
+  "count": 1,
+  "reason": "gate: no draft passed the fact checks: line 3 (A satellite image shows the storm striking the east coast of): unsupported: No source mentions a satellite image. | second look: The line states the storm is striking the 'east coast' of India, but the source sentences specify the 'southeastern coast' a",
+  "at": "2026-10-29T11:14:01+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

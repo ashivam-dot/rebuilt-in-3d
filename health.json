@@ -1,12 +1,14 @@
 {
- "at": "2026-10-29T09:55:00+00:00",
+ "at": "2026-10-29T10:52:21+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 54 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 55 units today",
   "watch: 3 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 795 headlines from 30 feeds (21 owners), 40 matched to articles, 7 candidates with 2+ owners, 4 nw- stories (on): nw-20261028-first-rail, nw-20261028-spanish-rail, nw-20261029-sanchez-rail",
-  "hold nw-20261029-arnab-cyclone: last Short went out 0.5 h ago",
-  "hold wk-Q259559: last Short went out 0.5 h ago",
-  "hold wk-Q453730: last Short went out 0.5 h ago"
+  "outlets: 802 headlines from 30 feeds (21 owners), 35 matched to articles, 6 candidates with 2+ owners, 4 nw- stories (on): nw-20261028-first-rail, nw-20261028-spanish-rail, nw-20261029-sanchez-rail",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 146 people)\"]",
+  "skip nw-20261029-arnab-cyclone: gate: no draft passed the fact checks: line 3 (A satellite image shows the storm striking the east coast of): unsupported: No source mentions a satellite image. | second look: The line states the storm is striking the 'east coast' of India, but the source sentences specify the 'southeastern coast' and the specific states of 'Andhra Pradesh' and 'Odisha'. Furthermore, the source sentences indicate the storm has already 'made landfall' a",
+  "skip wk-Q259559: gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
+  "skip wk-Q453730: gate: no draft passed the fact checks: beat 3, 6 name(s) nothing its photo shows (only 67% of the script shows what it says; want 70%): in each, name who or what a photo shows (Fátima Báñez, Iberdrola), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
+  "nothing eligible to publish"
  ]
 }
