@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-10-29T04:51:45+00:00. Scored Shorts (views at 24 h): 49. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-29T08:02:39+00:00. Scored Shorts (views at 24 h): 49. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 170 views at 24 h.
 Retention: a typical Short is watched 55.9% through; a group's retention is blended into its lift at 0.5.
@@ -12,14 +12,14 @@ Retention: a typical Short is watched 55.9% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q468843 | 2026-10-28T18:21 | death | death | 416 |  |
-| wk-Q455700 | 2026-10-28T12:45 | death | death | 318 |  |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1090 | 939 |
-| wk-Q376176 | 2026-10-26T20:55 | death | death | 3244 | 1424 |
+| wk-Q468843 | 2026-10-28T18:21 | death | death | 417 |  |
+| wk-Q455700 | 2026-10-28T12:45 | death | death | 336 |  |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1099 | 939 |
+| wk-Q376176 | 2026-10-26T20:55 | death | death | 3518 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 113 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 26 | 24 |
-| wk-Q983618 | 2026-10-24T22:07 | death | death | 1373 | 1182 |
-| wk-Q320093 | 2026-10-22T22:48 | death | death | 1761 | 1600 |
+| wk-Q983618 | 2026-10-24T22:07 | death | death | 1374 | 1182 |
+| wk-Q320093 | 2026-10-22T22:48 | death | death | 1763 | 1600 |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 27 | 28 |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 | 14 |
 | nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1168 | 1173 |
@@ -27,7 +27,7 @@ Retention: a typical Short is watched 55.9% through; a group's retention is blen
 | wk-Q141764900 | 2026-10-20T14:35 | incident | disaster | 162 | 128 |
 | wk-Q1889124 | 2026-10-20T00:12 | death | death | 618 | 520 |
 | wk-Q5115327 | 2026-10-19T16:51 | death | death | 447 | 371 |
-| wk-Q1702112 | 2026-10-19T14:33 | death | death | 596 | 385 |
+| wk-Q1702112 | 2026-10-19T14:33 | death | death | 597 | 385 |
 | wk-Q3837943 | 2026-10-19T12:32 | death | death | 896 | 732 |
 | wk-Q438492 | 2026-10-19T10:18 | death | death | 1374 | 1272 |
 | nw-20261017-trudy-cyclone | 2026-10-19T00:13 | incident | cyclone | 1103 | 1078 |

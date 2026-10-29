@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T06:55:11+00:00",
+ "at": "2026-10-29T08:02:42+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 76012,
    "traffic": 0,
    "news": 275000,
-   "news_at": "2026-10-28T23:33:24+00:00",
+   "news_at": "2026-10-28T23:43:00+00:00",
    "headlines": [
     "Dolores Huerta, activist and labor leader who advocated for farmworkers, dies at 96",
     "Dolores Huerta, US labour leader and civil rights icon, dies at 96",
@@ -221,7 +221,7 @@
    "views": 47425,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-10-29T06:55:40.403576+00:00",
+   "news_at": "2026-10-29T08:06:20.621939+00:00",
    "headlines": [
     "India’s Cultural Consciousness and Knowledge Traditions Form the Foundation of Its Civilisational Continuity: Shri Gajendra Singh Shekhawat",
     "India ready to share 'battle-tested' anti-terror expertise with ASEAN, its dialogue partners: Rajnath Singh"
@@ -249,7 +249,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-10-29T06:55:40.403576+00:00"
+     "at": "2026-10-29T08:06:20.621939+00:00"
     },
     {
      "title": "India ready to share 'battle-tested' anti-terror expertise with ASEAN, its dialogue partners: Rajnath Singh",
@@ -259,7 +259,17 @@
      "owner": "The Hindu Group",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-29T06:45:24+00:00"
+     "at": "2026-10-29T07:25:21+00:00"
+    },
+    {
+     "title": "Rajnath Singh stresses need for long-term vision, flexible strategies for the Army",
+     "url": "https://www.thehindu.com/news/national/rajnath-singh-stresses-need-for-long-term-vision-flexible-strategies-for-the-army/article71616903.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T07:25:14+00:00"
     },
     {
      "title": "India ready to share 'battle-tested' anti-terror expertise with ASEAN, its dialogue partners: Rajnath Singh",
@@ -300,16 +310,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-10-28T14:43:22+00:00"
-    },
-    {
-     "title": "Rajnath Singh, US War Secretary Hegseth review progress of 10-year defence pact",
-     "url": "https://www.hindustantimes.com/india-news/rajnath-singh-us-war-secretary-hegseth-review-progress-of-10-year-defence-pact-101793170070945.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-28T06:47:50+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -367,6 +367,154 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "id": "nw-20261028-spanish-rail",
+   "qid": null,
+   "title": "Conflicting accounts emerge after Spanish train collision",
+   "name": "Spanish",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-29T07:18:51+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+    "Conflicting accounts emerge after Spanish train collision",
+    "Urda: The tiny Spanish town that rushed to help after horror train crash that killed at least 68"
+   ],
+   "places": [
+    "Sanchez"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Conflicting accounts emerge after Spanish train collision",
+     "url": "https://www.abc.net.au/news/2026-10-29/spain-train-collision-rail-safety-traffic-control/107322634",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T05:25:06+00:00"
+    },
+    {
+     "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+     "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T14:33:00+00:00"
+    },
+    {
+     "title": "Urda: The tiny Spanish town that rushed to help after horror train crash that killed at least 68",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-urda-map-b3075367.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-29T07:18:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261029-sanchez-rail",
+   "qid": null,
+   "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+   "name": "Sanchez",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-29",
+   "news_at": "2026-10-29T07:22:00+00:00",
+   "owners": [
+    "BBC",
+    "France Médias Monde",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spain begins three days of mourning after train crash kills dozens",
+    "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+     "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T07:22:00+00:00"
+    },
+    {
+     "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+     "url": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T06:25:15+00:00"
+    },
+    {
+     "title": "Spain begins three days of mourning after train crash kills dozens",
+     "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T03:51:05+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q5296666",
@@ -617,6 +765,221 @@
  ],
  "candidates": [
   {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 180105,
+   "views": 80105,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-10-29T00:00:00+00:00",
+   "headlines": [
+    "Spain: Rescuers search mangled train wreckage near Toledo",
+    "Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-28",
+    "wikipedia-current-events-2026-10-28",
+    "google-news:Spain: Rescuers search mangled train wreckage near Toledo",
+    "google-news:Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash",
+    "outlet:Euronews",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Euronews",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Spain: Rescuers search mangled train wreckage near Toledo",
+     "url": "https://www.euronews.com/video/2026/10/28/spain-rescuers-search-mangled-train-wreckage-near-toledo",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T15:54:11+00:00"
+    },
+    {
+     "title": "Spanish FA postpones 24 Copa del Rey ties after fatal Toledo train crash",
+     "url": "https://www.independent.co.uk/sport/football/madrid-train-crash-latest-copa-del-rey-postponed-b3074883.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T15:11:20+00:00"
+    },
+    {
+     "title": "First aerial images show scene of deadly train crash in Toledo, Spain",
+     "url": "https://www.euronews.com/2026/10/28/first-aerial-images-show-scene-of-deadly-train-crash-in-toledo-spain",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-28T11:12:05+00:00"
+    }
+   ],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
+   "id": "nw-20261029-sanchez-rail",
+   "qid": null,
+   "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+   "name": "Sanchez",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-29",
+   "news_at": "2026-10-29T07:22:00+00:00",
+   "owners": [
+    "BBC",
+    "France Médias Monde",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spain begins three days of mourning after train crash kills dozens",
+    "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+     "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T07:22:00+00:00"
+    },
+    {
+     "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+     "url": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T06:25:15+00:00"
+    },
+    {
+     "title": "Spain begins three days of mourning after train crash kills dozens",
+     "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T03:51:05+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261028-spanish-rail",
+   "qid": null,
+   "title": "Conflicting accounts emerge after Spanish train collision",
+   "name": "Spanish",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-29T07:18:51+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+    "Conflicting accounts emerge after Spanish train collision",
+    "Urda: The tiny Spanish town that rushed to help after horror train crash that killed at least 68"
+   ],
+   "places": [
+    "Sanchez"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Conflicting accounts emerge after Spanish train collision",
+     "url": "https://www.abc.net.au/news/2026-10-29/spain-train-collision-rail-safety-traffic-control/107322634",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T05:25:06+00:00"
+    },
+    {
+     "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+     "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T14:33:00+00:00"
+    },
+    {
+     "title": "Urda: The tiny Spanish town that rushed to help after horror train crash that killed at least 68",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-urda-map-b3075367.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-29T07:18:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q453730",
    "title": "Fátima Báñez",
    "fame": 33228,
@@ -657,13 +1020,165 @@
    "date": "2026-10-27"
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.1 h ago, 140 people)"
+ ],
  "outlets": {
-  "headlines": 803,
+  "headlines": 810,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
-  "corroborated": 4
+  "matched": 40,
+  "corroborated": 6
  },
- "emerging": [],
- "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 42 matched to articles, 4 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261028-spanish-rail",
+   "qid": null,
+   "title": "Conflicting accounts emerge after Spanish train collision",
+   "name": "Spanish",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "news_at": "2026-10-29T07:18:51+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+    "Conflicting accounts emerge after Spanish train collision",
+    "Urda: The tiny Spanish town that rushed to help after horror train crash that killed at least 68"
+   ],
+   "places": [
+    "Sanchez"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Conflicting accounts emerge after Spanish train collision",
+     "url": "https://www.abc.net.au/news/2026-10-29/spain-train-collision-rail-safety-traffic-control/107322634",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T05:25:06+00:00"
+    },
+    {
+     "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+     "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-28T14:33:00+00:00"
+    },
+    {
+     "title": "Urda: The tiny Spanish town that rushed to help after horror train crash that killed at least 68",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-urda-map-b3075367.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-29T07:18:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261029-sanchez-rail",
+   "qid": null,
+   "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+   "name": "Sanchez",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-29",
+   "news_at": "2026-10-29T07:22:00+00:00",
+   "owners": [
+    "BBC",
+    "France Médias Monde",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Spain begins three days of mourning after train crash kills dozens",
+    "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+     "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T07:22:00+00:00"
+    },
+    {
+     "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+     "url": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T06:25:15+00:00"
+    },
+    {
+     "title": "Spain begins three days of mourning after train crash kills dozens",
+     "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-10-29T03:51:05+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:France Médias Monde",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 2 nw- stories (on): nw-20261028-spanish-rail, nw-20261029-sanchez-rail"
 }
