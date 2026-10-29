@@ -1,13 +1,10 @@
 {
- "at": "2026-10-29T16:57:26+00:00",
+ "at": "2026-10-29T17:52:33+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 163 units today",
-  "watch: 1 candidates (0 quakes, 16 trending), 2 hazard alerts",
-  "outlets: 824 headlines from 29 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261029-dnipro-strike",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 139 people)\"]",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261029-dnipro-strike",
-  "skip nw-20261029-dnipro-strike: gate: faceless: no free photo shows Dnipro or the event itself (only 7 photos of places or things near it)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 164 units today",
+  "watch: 1 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 832 headlines from 29 feeds (21 owners), 40 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261029-dnipro-strike",
+  "hold wk-Q141890195-2026w44: outside the india window"
  ]
 }
