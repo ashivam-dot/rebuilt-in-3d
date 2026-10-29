@@ -1,17 +1,18 @@
 {
- "at": "2026-10-29T08:02:39+00:00",
+ "at": "2026-10-29T08:58:02+00:00",
  "ok": true,
  "steps": [
-  "learn: 49 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 16, 'lift': 1.206, 'typical_views_24h': 290, 'n_retention': 13, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 1.013, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 15, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
-  "watch: 5 candidates (0 quakes, 17 trending), 2 hazard alerts",
-  "outlets: 810 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 2 nw- stories (on): nw-20261028-spanish-rail, nw-20261029-sanchez-rail",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.1 h ago, 140 people)\"]",
-  "skip wk-Q141898879: gate: only 0 usable photos of 2026 Toledo train collision show the train, its line or a station or port (want 2)",
-  "skip nw-20261029-sanchez-rail: gate: faceless: no free photo shows Sanchez or the event itself (only 0 photos of places or things near it)",
-  "skip nw-20261028-spanish-rail: gate: faceless: no free photo shows Spanish or the event itself (only 0 photos of places or things near it)",
-  "skip wk-Q453730: gate: no draft passed the fact checks: beat 3, 4 name(s) nothing its photo shows (only 65% of the script shows what it says; want 70%): in each, name who or what a photo shows (Fátima Báñez, Iberdrola), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; these names or numbers are not in the sources: Cotera, Daniel, Ortiz",
-  "skip wk-Q18684940: gate: only 1 usable photos of Jim Boyd on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
+  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 801 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-first-rail, nw-20261028-spanish-rail, nw-20261029-sanchez-rail",
+  "skip wk-Q141890195-2026w44: gate: no draft passed the fact checks: beat 2, 3, 8 name(s) nothing its photo shows (only 50% of the script shows what it says; want 70%): in each, name who or what a photo shows (Jamia Millia Islamia, Imran Pratapgarhi, Imran Masood, police), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
+  "published wk-Q922837: https://www.youtube.com/shorts/7WVXiqsmaEY"
+ ],
+ "published": {
+  "video_id": "7WVXiqsmaEY",
+  "url": "https://www.youtube.com/shorts/7WVXiqsmaEY",
+  "title": "Cuauhtémoc Cárdenas Solórzano, Democratic Pioneer, Dies at 92",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
