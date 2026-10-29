@@ -1,15 +1,19 @@
 {
- "at": "2026-10-29T11:44:58+00:00",
+ "at": "2026-10-29T12:58:49+00:00",
  "ok": true,
  "steps": [
-  "learn: 49 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 16, 'lift': 1.195, 'typical_views_24h': 290, 'n_retention': 14, 'typical_view_pct': 50.3}, 'kind:incident': {'n': 25, 'lift': 1.018, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 15, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 56 units today",
-  "watch: 4 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 804 headlines from 30 feeds (21 owners), 36 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-spanish-rail, nw-20261029-sanchez-rail, nw-20261029-arnab-cyclone",
-  "skip nw-20261029-sanchez-rail: gate: faceless: no free photo shows Sanchez or the event itself (only 0 photos of places or things near it)",
-  "skip nw-20261029-arnab-cyclone: gate: no draft passed the fact checks: these names or numbers are not in the sources: 120, 2026, 28 (120, 2026, 28 only in one outlet's report: one outlet is not enough)",
-  "skip nw-20261028-spanish-rail: gate: faceless: no free photo shows Spanish or the event itself (only 0 photos of places or things near it)",
-  "skip wk-Q18684940: gate: only 1 usable photos of Jim Boyd on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 57 units today",
+  "watch: 2 candidates (0 quakes, 18 trending), 2 hazard alerts",
+  "outlets: 805 headlines from 29 feeds (21 owners), 36 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261028-spanish-rail, nw-20261029-dnipro-strike",
+  "trend radar errors: ['wikidata recent deaths: HTTP 502 (used the list from 1.2 h ago, 148 people)']",
+  "skip nw-20261029-dnipro-strike: gate: faceless: no free photo shows Dnipro or the event itself (only 7 photos of places or things near it)",
+  "published wk-Q241115: https://www.youtube.com/shorts/PbsGci236Uo"
+ ],
+ "published": {
+  "video_id": "PbsGci236Uo",
+  "url": "https://www.youtube.com/shorts/PbsGci236Uo",
+  "title": "Elke Sommer, Film Star and Artist, Dies at 85",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
