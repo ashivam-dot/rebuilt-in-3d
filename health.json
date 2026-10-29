@@ -1,18 +1,11 @@
 {
- "at": "2026-10-29T14:05:57+00:00",
+ "at": "2026-10-29T14:59:11+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 109 units today",
-  "watch: 2 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 824 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261029-dnipro-strike",
-  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 2.3 h ago, 148 people)']",
-  "published wk-Q453730: https://www.youtube.com/shorts/0f1fKIPL-_M"
- ],
- "published": {
-  "video_id": "0f1fKIPL-_M",
-  "url": "https://www.youtube.com/shorts/0f1fKIPL-_M",
-  "title": "Fátima Báñez, First Woman Minister of Employment, Dies at 59",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "learn: 50 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 17, 'lift': 1.197, 'typical_views_24h': 293, 'n_retention': 14, 'typical_view_pct': 50.3}, 'kind:incident': {'n': 25, 'lift': 1.012, 'typical_views_24h': 174, 'n_retention': 24, 'typical_view_pct': 56.1}, 'category:death': {'n': 16, 'lift': ",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 161 units today",
+  "watch: 0 candidates (0 quakes, 12 trending), 2 hazard alerts",
+  "outlets: 824 headlines from 29 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261029-dnipro-strike",
+  "trend radar errors: ['wikidata recent deaths: HTTP 500']"
+ ]
 }

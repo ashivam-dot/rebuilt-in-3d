@@ -1,26 +1,28 @@
 # What this channel's own numbers say
 
-Updated 2026-10-29T11:44:58+00:00. Scored Shorts (views at 24 h): 49. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-29T14:59:11+00:00. Scored Shorts (views at 24 h): 50. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 170 views at 24 h.
+Baseline: a typical Short has 172 views at 24 h.
 Retention: a typical Short is watched 55.1% through; a group's retention is blended into its lift at 0.5.
-- kind:death: x1.195 ranking lift (16 Shorts, typical 290 views; 14 with retention, typically 50.3% watched)
-- category:death: x1.145 ranking lift (15 Shorts, typical 258 views; 13 with retention, typically 51.0% watched)
-- kind:incident: x1.018 ranking lift (25 Shorts, typical 174 views; 24 with retention, typically 56.1% watched)
-- category:protest: x0.897 ranking lift (7 Shorts, typical 123 views; 6 with retention, typically 54.0% watched)
+- kind:death: x1.197 ranking lift (17 Shorts, typical 293 views; 14 with retention, typically 50.3% watched)
+- category:death: x1.151 ranking lift (16 Shorts, typical 264 views; 13 with retention, typically 51.0% watched)
+- kind:incident: x1.012 ranking lift (25 Shorts, typical 174 views; 24 with retention, typically 56.1% watched)
+- category:protest: x0.892 ranking lift (7 Shorts, typical 123 views; 6 with retention, typically 54.0% watched)
 - kind:quake: x0.75 ranking lift (8 Shorts, typical 54 views; 7 with retention, typically 62.2% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q922837 | 2026-10-29T09:29 | death | death | 19 |  |
-| wk-Q468843 | 2026-10-28T18:21 | death | death | 417 |  |
-| wk-Q455700 | 2026-10-28T12:45 | death | death | 361 |  |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1134 | 939 |
-| wk-Q376176 | 2026-10-26T20:55 | death | death | 3748 | 1424 |
+| wk-Q453730 | 2026-10-29T14:30 | death | death | 67 |  |
+| wk-Q241115 | 2026-10-29T13:29 | death | death | 156 |  |
+| wk-Q922837 | 2026-10-29T09:29 | death | death | 97 |  |
+| wk-Q468843 | 2026-10-28T18:21 | death | death | 419 |  |
+| wk-Q455700 | 2026-10-28T12:45 | death | death | 368 | 363 |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1139 | 939 |
+| wk-Q376176 | 2026-10-26T20:55 | death | death | 3925 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 113 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 26 | 24 |
 | wk-Q983618 | 2026-10-24T22:07 | death | death | 1374 | 1182 |
-| wk-Q320093 | 2026-10-22T22:48 | death | death | 1763 | 1600 |
+| wk-Q320093 | 2026-10-22T22:48 | death | death | 1764 | 1600 |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 27 | 28 |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 | 14 |
 | nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1168 | 1173 |
@@ -40,5 +42,3 @@ Retention: a typical Short is watched 55.1% through; a group's retention is blen
 | wk-Q1101154 | 2026-10-16T23:55 | death | death | 143 | 90 |
 | wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports | 2026-10-16T19:59 | incident | attack | 9 | 9 |
 | eq-us6000u1z5 | 2026-10-16T18:26 | quake |  | 0 | 0 |
-| eq-us6000u214 | 2026-10-16T17:26 | quake |  | 8 | 8 |
-| eq-us6000u2mq | 2026-10-16T15:53 | quake |  | 33 | 33 |
