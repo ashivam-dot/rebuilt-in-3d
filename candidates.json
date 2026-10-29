@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T08:58:03+00:00",
+ "at": "2026-10-29T09:55:01+00:00",
  "quakes": [],
  "trending": [
   {
@@ -200,46 +200,6 @@
     39.42777778,
     -3.81805556
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141890195",
-   "title": "Jamia Millia Islamia student union protests 2026",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-29T05:35:03+00:00",
-   "headlines": [
-    "BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students | India News",
-    "BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students | India News",
-    "google-news:BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students",
-     "url": "https://www.hindustantimes.com/india-news/bjps-kiren-rijiju-calls-naseeruddin-shah-dangerous-urban-dimagi-naxal-after-actor-backs-jamia-students-101793249676180.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-29T05:35:03+00:00"
-    }
-   ],
-   "id": "wk-Q141890195-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-29",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -487,20 +447,20 @@
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-29",
-   "news_at": "2026-10-29T07:22:00+00:00",
+   "news_at": "2026-10-29T09:29:30+00:00",
    "owners": [
-    "Guardian Media Group",
     "France Médias Monde",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Guardian Media Group"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Spain begins mourning period after deadly train crash",
     "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
-    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins"
+    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+    "Spain begins mourning period after train crash as search continues for victims in wreckage"
    ],
    "places": [],
    "attackers": [],
@@ -534,20 +494,98 @@
      "at": "2026-10-29T06:25:15+00:00"
     },
     {
-     "title": "Spain begins mourning period after deadly train crash",
+     "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
      "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-29T05:31:16+00:00"
+     "at": "2026-10-29T09:29:30+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261029-arnab-cyclone",
+   "qid": null,
+   "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-29",
+   "news_at": "2026-10-29T09:17:54+00:00",
+   "owners": [
+    "The Hindu Group",
+    "HT Media",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Cyclone Arnab: Odisha prepares to airlift people stranded by floodwater",
+    "Odisha plans to airlift 120 stranded in Ganjam amid Cyclone Arnab aftermath",
+    "Photos: Aftermath of deadly Cyclone Arnab in southern India"
+   ],
+   "places": [
+    "Odisha",
+    "Ganjam",
+    "aftermath"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+     "url": "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-29T09:06:38+00:00"
+    },
+    {
+     "title": "Odisha plans to airlift 120 stranded in Ganjam amid Cyclone Arnab aftermath",
+     "url": "https://www.hindustantimes.com/india-news/odisha-plans-to-airlift-120-stranded-in-ganjam-amid-cyclone-arnab-aftermath-101793264429754.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T09:17:54+00:00"
+    },
+    {
+     "title": "Cyclone Arnab: Odisha prepares to airlift people stranded by floodwater",
+     "url": "https://www.thehindu.com/news/national/odisha/post-arnab-odisha-preparing-to-airlift-people-stranded-by-floodwater/article71639465.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T08:46:41+00:00"
+    }
+   ],
+   "via": [
+    "outlet:The Hindu Group",
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -823,74 +861,130 @@
  ],
  "candidates": [
   {
-   "qid": "Q141890195",
-   "title": "Jamia Millia Islamia student union protests 2026",
-   "fame": 150000,
+   "id": "nw-20261029-arnab-cyclone",
+   "qid": null,
+   "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-29",
+   "news_at": "2026-10-29T09:17:54+00:00",
+   "owners": [
+    "The Hindu Group",
+    "HT Media",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-10-29T05:35:03+00:00",
    "headlines": [
-    "BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students | India News",
-    "BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students"
+    "Cyclone Arnab: Odisha prepares to airlift people stranded by floodwater",
+    "Odisha plans to airlift 120 stranded in Ganjam amid Cyclone Arnab aftermath",
+    "Photos: Aftermath of deadly Cyclone Arnab in southern India"
    ],
-   "region": "india",
-   "via": [
-    "google-news:BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students | India News",
-    "google-news:BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students",
-    "outlet:HT Media"
+   "places": [
+    "Odisha",
+    "Ganjam",
+    "aftermath"
    ],
-   "owners": [
-    "HT Media"
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
    ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
    "reports": [
     {
-     "title": "BJP's Kiren Rijiju calls Naseeruddin Shah ‘dangerous urban Dimagi Naxal’ after actor backs Jamia students",
-     "url": "https://www.hindustantimes.com/india-news/bjps-kiren-rijiju-calls-naseeruddin-shah-dangerous-urban-dimagi-naxal-after-actor-backs-jamia-students-101793249676180.html",
+     "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+     "url": "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-29T09:06:38+00:00"
+    },
+    {
+     "title": "Odisha plans to airlift 120 stranded in Ganjam amid Cyclone Arnab aftermath",
+     "url": "https://www.hindustantimes.com/india-news/odisha-plans-to-airlift-120-stranded-in-ganjam-amid-cyclone-arnab-aftermath-101793264429754.html",
      "outlet": "Hindustan Times",
      "outlet_hi": "हिंदुस्तान टाइम्स",
      "owner": "HT Media",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-10-29T05:35:03+00:00"
+     "at": "2026-10-29T09:17:54+00:00"
+    },
+    {
+     "title": "Cyclone Arnab: Odisha prepares to airlift people stranded by floodwater",
+     "url": "https://www.thehindu.com/news/national/odisha/post-arnab-odisha-preparing-to-airlift-people-stranded-by-floodwater/article71639465.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T08:46:41+00:00"
     }
    ],
-   "id": "wk-Q141890195-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-29",
-   "coords": null,
-   "has_coords": true
+   "via": [
+    "outlet:The Hindu Group",
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
-   "qid": "Q922837",
-   "title": "Cuauhtémoc Cárdenas",
-   "fame": 25000,
-   "views": 0,
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 200179,
+   "views": 200179,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-29T06:58:00+00:00",
-   "headlines": [
-    "Cuauhtémoc Cárdenas, Who Helped End One-Party Rule in Mexico, Dies at 92"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "google-news:Cuauhtémoc Cárdenas, Who Helped End One-Party Rule in Mexico, Dies at 92"
+    "wikipedia-top-2026-10-28"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q922837",
+   "id": "wk-Q259559",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
+  },
+  {
+   "qid": "Q453730",
+   "title": "Fátima Báñez",
+   "fame": 33228,
+   "views": 33228,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-28"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q453730",
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
   }
  ],
  "outlets": {
-  "headlines": 801,
+  "headlines": 795,
   "feeds": 30,
   "owners": 21,
   "matched": 40,
-  "corroborated": 6
+  "corroborated": 7
  },
  "emerging": [
   {
@@ -1049,20 +1143,20 @@
    "kind": "incident",
    "category": "rail",
    "date": "2026-10-29",
-   "news_at": "2026-10-29T07:22:00+00:00",
+   "news_at": "2026-10-29T09:29:30+00:00",
    "owners": [
-    "Guardian Media Group",
     "France Médias Monde",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Guardian Media Group"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Spain begins mourning period after deadly train crash",
     "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
-    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins"
+    "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+    "Spain begins mourning period after train crash as search continues for victims in wreckage"
    ],
    "places": [],
    "attackers": [],
@@ -1096,24 +1190,102 @@
      "at": "2026-10-29T06:25:15+00:00"
     },
     {
-     "title": "Spain begins mourning period after deadly train crash",
+     "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
      "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-29T05:31:16+00:00"
+     "at": "2026-10-29T09:29:30+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261029-arnab-cyclone",
+   "qid": null,
+   "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+   "name": "Arnab",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-10-29",
+   "news_at": "2026-10-29T09:17:54+00:00",
+   "owners": [
+    "The Hindu Group",
+    "HT Media",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Cyclone Arnab: Odisha prepares to airlift people stranded by floodwater",
+    "Odisha plans to airlift 120 stranded in Ganjam amid Cyclone Arnab aftermath",
+    "Photos: Aftermath of deadly Cyclone Arnab in southern India"
+   ],
+   "places": [
+    "Odisha",
+    "Ganjam",
+    "aftermath"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+     "url": "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-29T09:06:38+00:00"
+    },
+    {
+     "title": "Odisha plans to airlift 120 stranded in Ganjam amid Cyclone Arnab aftermath",
+     "url": "https://www.hindustantimes.com/india-news/odisha-plans-to-airlift-120-stranded-in-ganjam-amid-cyclone-arnab-aftermath-101793264429754.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T09:17:54+00:00"
+    },
+    {
+     "title": "Cyclone Arnab: Odisha prepares to airlift people stranded by floodwater",
+     "url": "https://www.thehindu.com/news/national/odisha/post-arnab-odisha-preparing-to-airlift-people-stranded-by-floodwater/article71639465.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-29T08:46:41+00:00"
+    }
+   ],
+   "via": [
+    "outlet:The Hindu Group",
+    "outlet:HT Media",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 40 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261028-first-rail, nw-20261028-spanish-rail, nw-20261029-sanchez-rail"
+ "outlet_note": "outlets: 795 headlines from 30 feeds (21 owners), 40 matched to articles, 7 candidates with 2+ owners, 4 nw- stories (on): nw-20261028-first-rail, nw-20261028-spanish-rail, nw-20261029-sanchez-rail"
 }
