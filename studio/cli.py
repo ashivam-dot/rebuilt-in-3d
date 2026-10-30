@@ -14,7 +14,7 @@ from . import gate, ledger, learn, plan
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work"
-RETRYABLE = ("faceless:", "words (want", "does not confirm the death", "usable photos", "no draft passed",
+RETRYABLE = ("faceless:", "words (want", "confirm the death", "usable photos", "no draft passed",
              "came out garbled", "banned wording", "casualties without an agreed toll", "isn't backed by any sourced",
              "show who or what the story is about", "pictures show what is said for only",
              # a feed's article that could not be read this run (a timeout, the run's fetches spent) may be next run
