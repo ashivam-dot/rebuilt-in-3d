@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-10-30T02:37:03+00:00. Scored Shorts (views at 24 h): 51. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-10-30T09:02:09+00:00. Scored Shorts (views at 24 h): 51. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 176 views at 24 h.
 Retention: a typical Short is watched 55.3% through; a group's retention is blended into its lift at 0.5.
@@ -12,17 +12,17 @@ Retention: a typical Short is watched 55.3% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q16296 | 2026-10-29T23:32 | death | death | 721 |  |
-| wk-Q453730 | 2026-10-29T14:30 | death | death | 445 |  |
-| wk-Q241115 | 2026-10-29T13:29 | death | death | 1120 |  |
-| wk-Q922837 | 2026-10-29T09:29 | death | death | 223 |  |
-| wk-Q468843 | 2026-10-28T18:21 | death | death | 502 | 445 |
-| wk-Q455700 | 2026-10-28T12:45 | death | death | 453 | 363 |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1152 | 939 |
-| wk-Q376176 | 2026-10-26T20:55 | death | death | 4215 | 1424 |
+| wk-Q16296 | 2026-10-29T23:32 | death | death | 1055 |  |
+| wk-Q453730 | 2026-10-29T14:30 | death | death | 489 |  |
+| wk-Q241115 | 2026-10-29T13:29 | death | death | 1171 |  |
+| wk-Q922837 | 2026-10-29T09:29 | death | death | 290 |  |
+| wk-Q468843 | 2026-10-28T18:21 | death | death | 536 | 445 |
+| wk-Q455700 | 2026-10-28T12:45 | death | death | 474 | 363 |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1155 | 939 |
+| wk-Q376176 | 2026-10-26T20:55 | death | death | 4230 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 113 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 26 | 24 |
-| wk-Q983618 | 2026-10-24T22:07 | death | death | 1391 | 1182 |
+| wk-Q983618 | 2026-10-24T22:07 | death | death | 1395 | 1182 |
 | wk-Q320093 | 2026-10-22T22:48 | death | death | 1769 | 1600 |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 27 | 28 |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 | 14 |
