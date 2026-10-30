@@ -1,19 +1,15 @@
 {
- "at": "2026-10-29T22:46:18+00:00",
+ "at": "2026-10-30T02:37:03+00:00",
  "ok": true,
  "steps": [
   "learn: 51 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 18, 'lift': 1.206, 'typical_views_24h': 300, 'n_retention': 15, 'typical_view_pct': 51.0}, 'kind:incident': {'n': 25, 'lift': 1.003, 'typical_views_24h': 174, 'n_retention': 25, 'typical_view_pct': 56.2}, 'category:death': {'n': 17, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 165 units today",
-  "watch: 2 candidates (0 quakes, 18 trending), 2 hazard alerts",
-  "outlets: 815 headlines from 29 feeds (21 owners), 54 matched to articles, 5 candidates with 2+ owners, 1 nw- stories (on): nw-20261029-paris-attack",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 217 units today",
+  "watch: 3 candidates (0 quakes, 19 trending), 1 hazard alerts",
+  "outlets: 803 headlines from 29 feeds (21 owners), 49 matched to articles, 6 candidates with 2+ owners, 2 nw- stories (on): nw-20261029-paris-attack, nw-20261029-bosnia-aviation",
   "ad-suitability x0.85 (attack, not breaking): nw-20261029-paris-attack",
-  "published wk-Q16296: https://www.youtube.com/shorts/DjF4U4ZyZ9g"
- ],
- "published": {
-  "video_id": "DjF4U4ZyZ9g",
-  "url": "https://www.youtube.com/shorts/DjF4U4ZyZ9g",
-  "title": "Patrick Stewart, Star Trek Actor, Dies at 86",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "skip nw-20261029-bosnia-aviation: gate: faceless: no free photo shows Bosnia or the event itself (only 0 photos of places or things near it)",
+  "skip nw-20261029-paris-attack: gate: faceless: no free photo shows Paris or the event itself (only 2 photos of places or things near it)",
+  "skip wk-Q18684940: gate: only 1 usable photos of Jim Boyd on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
+ ]
 }
