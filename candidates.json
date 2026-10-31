@@ -1,25 +1,22 @@
 {
- "at": "2026-10-31T21:28:32+00:00",
+ "at": "2026-10-31T22:05:43+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 2157586,
+   "fame": 2032386,
    "views": 1882386,
-   "traffic": 200,
-   "news": 275000,
+   "traffic": 0,
+   "news": 150000,
    "news_at": "2026-10-31T16:00:00+00:00",
    "headlines": [
-    "Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc",
     "What Patrick Stewart’s ‘brief’ dementia journey reveals about lifespans after diagnosis",
     "US: flowers laid at Patrick Stewart's Hollywood star after his death"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-30",
-    "google-trends-GB:james mcavoy",
-    "google-news:Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc",
     "google-news:What Patrick Stewart’s ‘brief’ dementia journey reveals about lifespans after diagnosis",
     "google-news:US: flowers laid at Patrick Stewart's Hollywood star after his death",
     "outlet:Euronews"
@@ -100,31 +97,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 141034,
-   "views": 16034,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-31T03:52:38+00:00",
-   "headlines": [
-    "Scoop: Trump blesses El Salvador strongman's troop surge in Haiti"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30",
-    "google-news:Scoop: Trump blesses El Salvador strongman's troop surge in Haiti"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
    "fame": 125000,
@@ -155,7 +127,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-31T21:28:32.350504+00:00",
+   "news_at": "2026-10-31T22:05:43.617504+00:00",
    "headlines": [
     "French police clash with some protesters again as demonstrations continue"
    ],
@@ -612,6 +584,28 @@
    "date": "2026-10-28"
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 16034,
+   "views": 16034,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-30"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q7197456",
    "title": "Pipo Nguyen-duy",
    "fame": 12560,
@@ -707,10 +701,10 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 721,
+  "headlines": 713,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 21,
   "corroborated": 4
  },
  "emerging": [
@@ -946,5 +940,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 721 headlines from 30 feeds (21 owners), 19 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest, nw-20261031-break-protest"
+ "outlet_note": "outlets: 713 headlines from 30 feeds (21 owners), 21 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest, nw-20261031-break-protest"
 }
