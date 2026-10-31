@@ -497,9 +497,9 @@
   "kind": "death"
  },
  "wk-Q259559": {
-  "count": 4,
+  "count": 5,
   "reason": "gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
-  "at": "2026-10-29T11:14:05+00:00",
+  "at": "2026-10-31T13:42:48+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -668,6 +668,14 @@
   "count": 1,
   "reason": "gate: no draft passed the fact checks: narration: 48 words (want 50-200); beat 1, 2 name(s) nothing its photo shows (only 52% of the script shows what it says; want 70%): in each, name who or what a photo shows (Eurocopter AS350 Écureuil, aircraft, Indian Air Force), or say what an EVENT photo itsel",
   "at": "2026-10-31T07:15:49+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "wk-Q141947331": {
+  "count": 1,
+  "reason": "gate: only 0 usable photos of 2026 Uttarakhand helicopter crash show the aircraft, its line or a station or port (want 2)",
+  "at": "2026-10-31T13:42:47+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

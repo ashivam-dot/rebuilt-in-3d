@@ -1,16 +1,13 @@
 {
- "at": "2026-10-31T06:58:47+00:00",
+ "at": "2026-10-31T13:39:46+00:00",
  "ok": true,
  "steps": [
-  "learn: 55 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 22, 'lift': 1.239, 'typical_views_24h': 348, 'n_retention': 16, 'typical_view_pct': 50.7}, 'kind:incident': {'n': 25, 'lift': 0.963, 'typical_views_24h': 174, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 21, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
-  "watch: 4 candidates (0 quakes, 16 trending), 1 hazard alerts",
-  "outlets: 751 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261030-thousands-protest",
-  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
-  "skip wp-2026_Uttarakhand_helicopter_crash: gate: no draft passed the fact checks: narration: 48 words (want 50-200); beat 1, 2 name(s) nothing its photo shows (only 52% of the script shows what it says; want 70%): in each, name who or what a photo shows (Eurocopter AS350 Écureuil, aircraft, Indian Air Force), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; these names or numbe",
-  "skip wk-Q7197456: gate: no photo on Wikimedia Commons shows Pipo Nguyen-duy's face (a tribute needs one)",
-  "skip wk-Q5103870: gate: no photo on Wikimedia Commons shows Choi Bool-am's face (a tribute needs one)",
-  "skip wk-Q141921562: gate: faceless: no free photo shows Salvadoran military intervention in Haiti or the event itself (only 7 photos of places or things near it)",
+  "learn: 55 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 22, 'lift': 1.242, 'typical_views_24h': 348, 'n_retention': 17, 'typical_view_pct': 51.1}, 'kind:incident': {'n': 25, 'lift': 0.962, 'typical_views_24h': 174, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 21, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
+  "watch: 2 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 734 headlines from 29 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q141947331: gate: only 0 usable photos of 2026 Uttarakhand helicopter crash show the aircraft, its line or a station or port (want 2)",
+  "skip wk-Q259559: gate: only 2 usable photos of Susan Saint James on Wikimedia Commons (want 4)",
   "nothing eligible to publish"
  ]
 }
