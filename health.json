@@ -1,9 +1,10 @@
 {
- "at": "2026-10-31T17:18:26+00:00",
+ "at": "2026-10-31T17:46:53+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 7 units today",
   "watch: 0 candidates (0 quakes, 19 trending), 1 hazard alerts",
-  "outlets: 735 headlines from 30 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-california-halloween-attack, nw-20261031-halloween-protest"
+  "outlets: 737 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-california-halloween-attack, nw-20261031-halloween-protest",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 156 people)']"
  ]
 }
