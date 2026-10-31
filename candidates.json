@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T19:02:55+00:00",
+ "at": "2026-10-31T19:33:52+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,16 +9,16 @@
    "views": 1882386,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-10-31T16:00:00+00:00",
+   "news_at": "2026-10-30T22:08:58+00:00",
    "headlines": [
-    "What Patrick Stewart’s ‘brief’ dementia journey reveals about lifespans after diagnosis",
+    "‘Star Trek’ Actor Wil Wheaton Tells Stephen Miller to Keep Patrick Stewart’s Name Out of His ‘Nazi Mouth’",
     "US: flowers laid at Patrick Stewart's Hollywood star after his death",
     "WATCH: Remembering Patrick Stewart in his own words"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-30",
-    "google-news:What Patrick Stewart’s ‘brief’ dementia journey reveals about lifespans after diagnosis",
+    "google-news:‘Star Trek’ Actor Wil Wheaton Tells Stephen Miller to Keep Patrick Stewart’s Name Out of His ‘Nazi Mouth’",
     "google-news:US: flowers laid at Patrick Stewart's Hollywood star after his death",
     "google-news:WATCH: Remembering Patrick Stewart in his own words",
     "outlet:Euronews",
@@ -103,7 +103,7 @@
    "views": 16034,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-10-30T09:25:47+00:00",
+   "news_at": "2026-10-31T03:52:38+00:00",
    "headlines": [
     "Scoop: Trump blesses El Salvador strongman's troop surge in Haiti"
    ],
@@ -144,45 +144,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-31T19:02:55.165542+00:00",
-   "headlines": [
-    "French police clash with some protesters again as demonstrations continue"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-31",
-    "google-news:French police clash with some protesters again as demonstrations continue",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "French police clash with some protesters again as demonstrations continue",
-     "url": "https://www.cbsnews.com/news/france-protests-paris-police-clash-demonstrators-halloween/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-31T16:57:12+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "coords": null,
-   "has_coords": true
   },
   {
    "id": "nw-20261031-halloween-protest",
@@ -338,17 +299,17 @@
    "article": null
   },
   {
-   "id": "nw-20261031-france-halloween-protest",
+   "id": "nw-20261031-london-protest",
    "qid": null,
-   "title": "Tension and clashes as hundreds of thousands protest again in France",
-   "name": "France Halloween",
+   "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+   "name": "London",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-31",
-   "news_at": "2026-10-31T18:28:14+00:00",
+   "news_at": "2026-10-31T18:48:29+00:00",
    "owners": [
-    "Disney (ABC News)",
-    "SCMP Group",
+    "Paramount (CBS)",
+    "Guardian Media Group",
     "Al Jazeera Media Network"
    ],
    "fame": 75000,
@@ -356,9 +317,86 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Hundreds of thousands of young protesters take to the streets across France",
+    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+    "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+    "London police arrest 139 as hundreds protest Palestine Action ban"
+   ],
+   "places": [
+    "Palestine",
+    "Action",
+    "Embassy"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+     "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:48:29+00:00"
+    },
+    {
+     "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+     "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:28:30+00:00"
+    },
+    {
+     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:09:28+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261031-france-halloween-protest",
+   "qid": null,
+   "title": "Tension and clashes as hundreds of thousands protest again in France",
+   "name": "France Halloween",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-10-31T18:50:23+00:00",
+   "owners": [
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
     "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-    "Tension and clashes as hundreds of thousands protest again in France"
+    "Tension and clashes as hundreds of thousands protest again in France",
+    "Hundreds of thousands of young protesters take to the streets across France"
    ],
    "places": [],
    "attackers": [],
@@ -399,13 +437,13 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-31T16:59:04+00:00"
+     "at": "2026-10-31T18:50:23+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -471,6 +509,28 @@
    "date": "2026-10-16",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-10-31T19:33:52.871500+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w44",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q141898879",
@@ -699,17 +759,17 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261031-france-halloween-protest",
+   "id": "nw-20261031-london-protest",
    "qid": null,
-   "title": "Tension and clashes as hundreds of thousands protest again in France",
-   "name": "France Halloween",
+   "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+   "name": "London",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-31",
-   "news_at": "2026-10-31T18:28:14+00:00",
+   "news_at": "2026-10-31T18:48:29+00:00",
    "owners": [
-    "Disney (ABC News)",
-    "SCMP Group",
+    "Paramount (CBS)",
+    "Guardian Media Group",
     "Al Jazeera Media Network"
    ],
    "fame": 75000,
@@ -717,11 +777,15 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Hundreds of thousands of young protesters take to the streets across France",
-    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-    "Tension and clashes as hundreds of thousands protest again in France"
+    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+    "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+    "London police arrest 139 as hundreds protest Palestine Action ban"
    ],
-   "places": [],
+   "places": [
+    "Palestine",
+    "Action",
+    "Embassy"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -733,127 +797,79 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Tension and clashes as hundreds of thousands protest again in France",
-     "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+     "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+     "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
      "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-31T18:28:14+00:00"
+     "at": "2026-10-31T18:48:29+00:00"
     },
     {
-     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+     "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-31T18:23:31+00:00"
+     "at": "2026-10-31T18:28:30+00:00"
     },
     {
-     "title": "Hundreds of thousands of young protesters take to the streets across France",
-     "url": "https://abcnews.com/Business/wireStory/weekend-protests-france-youth-led-rallies-sweep-europe-137735678",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-31T16:59:04+00:00"
+     "at": "2026-10-31T18:09:28+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:SCMP Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group",
     "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261031-spirit-halloween-attack",
-   "qid": null,
-   "title": "Suspect on the loose after 1 person dead and six injured at Spirit Halloween store shooting",
-   "name": "Spirit Halloween",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-31",
-   "news_at": "2026-10-31T17:40:20+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 141034,
+   "views": 16034,
    "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-10-31T03:52:38+00:00",
    "headlines": [
-    "Suspect on the loose after 1 person dead and six injured at Spirit Halloween store shooting",
-    "Shooting at Spirit Halloween store in California kills 1, injures 6",
-    "1 dead, 6 injured in 'targeted' shooting at California Halloween store, police say"
-   ],
-   "places": [
-    "Spirit",
-    "California"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Scoop: Trump blesses El Salvador strongman's troop surge in Haiti"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Suspect on the loose after 1 person dead and six injured at Spirit Halloween store shooting",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/california-spirit-halloween-shooting-one-dead-b3076821.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T14:03:16+00:00"
-    },
-    {
-     "title": "1 dead, 6 injured in 'targeted' shooting at California Halloween store, police say",
-     "url": "https://abcnews.com/US/1-dead-6-injured-shooting-california-halloween-store/story?id=137730138",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-31T17:40:20+00:00"
-    },
-    {
-     "title": "Shooting at Spirit Halloween store in California kills 1, injures 6",
-     "url": "https://www.cbsnews.com/news/spirit-halloween-store-shooting-fairfield-california/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-31T17:01:53+00:00"
-    }
-   ],
    "via": [
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "wikipedia-top-2026-10-30",
+    "google-news:Scoop: Trump blesses El Salvador strongman's troop surge in Haiti"
    ],
-   "emerging": true,
-   "article": null
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 157 people)"
+ ],
  "outlets": {
-  "headlines": 726,
+  "headlines": 727,
   "feeds": 30,
   "owners": 21,
   "matched": 23,
-  "corroborated": 4
+  "corroborated": 5
  },
  "emerging": [
   {
@@ -1010,17 +1026,17 @@
    "article": null
   },
   {
-   "id": "nw-20261031-france-halloween-protest",
+   "id": "nw-20261031-london-protest",
    "qid": null,
-   "title": "Tension and clashes as hundreds of thousands protest again in France",
-   "name": "France Halloween",
+   "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+   "name": "London",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-31",
-   "news_at": "2026-10-31T18:28:14+00:00",
+   "news_at": "2026-10-31T18:48:29+00:00",
    "owners": [
-    "Disney (ABC News)",
-    "SCMP Group",
+    "Paramount (CBS)",
+    "Guardian Media Group",
     "Al Jazeera Media Network"
    ],
    "fame": 75000,
@@ -1028,9 +1044,86 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Hundreds of thousands of young protesters take to the streets across France",
+    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+    "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+    "London police arrest 139 as hundreds protest Palestine Action ban"
+   ],
+   "places": [
+    "Palestine",
+    "Action",
+    "Embassy"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+     "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:48:29+00:00"
+    },
+    {
+     "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+     "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:28:30+00:00"
+    },
+    {
+     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:09:28+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261031-france-halloween-protest",
+   "qid": null,
+   "title": "Tension and clashes as hundreds of thousands protest again in France",
+   "name": "France Halloween",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-10-31T18:50:23+00:00",
+   "owners": [
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
     "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-    "Tension and clashes as hundreds of thousands protest again in France"
+    "Tension and clashes as hundreds of thousands protest again in France",
+    "Hundreds of thousands of young protesters take to the streets across France"
    ],
    "places": [],
    "attackers": [],
@@ -1071,17 +1164,17 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-31T16:59:04+00:00"
+     "at": "2026-10-31T18:50:23+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 726 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-spirit-halloween-attack, nw-20261031-france-halloween-protest"
+ "outlet_note": "outlets: 727 headlines from 30 feeds (21 owners), 23 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-spirit-halloween-attack, nw-20261031-london-protest"
 }
