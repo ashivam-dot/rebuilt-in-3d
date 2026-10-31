@@ -657,9 +657,17 @@
   "kind": "incident"
  },
  "wk-Q141921562": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: faceless: no free photo shows Salvadoran military intervention in Haiti or the event itself (only 7 photos of places or things near it)",
-  "at": "2026-10-30T20:54:07+00:00",
+  "at": "2026-10-31T07:16:09+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "wp-2026_Uttarakhand_helicopter_crash": {
+  "count": 1,
+  "reason": "gate: no draft passed the fact checks: narration: 48 words (want 50-200); beat 1, 2 name(s) nothing its photo shows (only 52% of the script shows what it says; want 70%): in each, name who or what a photo shows (Eurocopter AS350 Écureuil, aircraft, Indian Air Force), or say what an EVENT photo itsel",
+  "at": "2026-10-31T07:15:49+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
