@@ -1,0 +1,31 @@
+name: keeper
+# GitHub drops most scheduled runs of `run`; this job starts it every 15 minutes and hands over to the next keeper
+# before its 6 h limit. The hourly cron only restarts the chain if it ever breaks (the concurrency group keeps one).
+# PAUSED=true stops new keepers only: also cancel the running one (gh run list -w keeper; gh run cancel <id>), since
+# run.yml honours PAUSED for scheduled runs alone.
+on:
+  schedule:
+    - cron: "52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: keeper
+  cancel-in-progress: false
+
+jobs:
+  keep:
+    if: vars.PAUSED != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/keeper.py "$GITHUB_REPOSITORY"
