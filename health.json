@@ -1,9 +1,13 @@
 {
- "at": "2026-10-31T18:32:45+00:00",
+ "at": "2026-10-31T19:02:54+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
-  "watch: 0 candidates (0 quakes, 19 trending), 1 hazard alerts",
-  "outlets: 731 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-california-halloween-attack, nw-20261031-halloween-protest"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
+  "watch: 2 candidates (0 quakes, 20 trending), 1 hazard alerts",
+  "outlets: 726 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-spirit-halloween-attack, nw-20261031-france-halloween-protest",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261031-spirit-halloween-attack",
+  "skip nw-20261031-france-halloween-protest: gate: fewer than 2 independent outlets' articles name France Halloween",
+  "skip nw-20261031-spirit-halloween-attack: gate: faceless: no free photo shows Spirit Halloween or the event itself (only 4 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
