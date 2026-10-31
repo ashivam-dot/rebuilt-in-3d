@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T23:07:04+00:00",
+ "at": "2026-10-31T23:35:24+00:00",
  "quakes": [],
  "trending": [
   {
@@ -78,37 +78,13 @@
    "has_coords": true
   },
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-30T11:11:58+00:00",
-   "headlines": [
-    "Saudi Arabia reports interception of Houthi drone targeting Mecca"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Saudi Arabia reports interception of Houthi drone targeting Mecca"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141615137",
    "title": "2026 French student protests",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-10-31T23:07:04.075358+00:00",
+   "news_at": "2026-10-31T23:35:24.963338+00:00",
    "headlines": [
     "French police clash with some protesters again as demonstrations continue"
    ],
@@ -603,87 +579,9 @@
    "lon": "81.8"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261031-london-protest",
-   "qid": null,
-   "title": "London police arrest 139 as hundreds protest Palestine Action ban",
-   "name": "London",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "news_at": "2026-10-31T18:48:29+00:00",
-   "owners": [
-    "Paramount (CBS)",
-    "Guardian Media Group",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
-    "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
-    "London police arrest 139 as hundreds protest Palestine Action ban"
-   ],
-   "places": [
-    "Palestine",
-    "Action",
-    "Embassy"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "London police arrest 139 as hundreds protest Palestine Action ban",
-     "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:48:29+00:00"
-    },
-    {
-     "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
-     "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:28:30+00:00"
-    },
-    {
-     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
-     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-31T18:09:28+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 707,
+  "headlines": 701,
   "feeds": 30,
   "owners": 21,
   "matched": 23,
@@ -845,5 +743,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 707 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest"
+ "outlet_note": "outlets: 701 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest"
 }
