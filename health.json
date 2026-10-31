@@ -1,13 +1,12 @@
 {
- "at": "2026-10-31T19:33:52+00:00",
+ "at": "2026-10-31T20:04:01+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 11 units today",
-  "watch: 2 candidates (0 quakes, 21 trending), 1 hazard alerts",
-  "outlets: 727 headlines from 30 feeds (21 owners), 23 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-spirit-halloween-attack, nw-20261031-london-protest",
-  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 157 people)']",
-  "skip nw-20261031-london-protest: gate: faceless: no free photo shows London or the event itself (only 6 photos of places or things near it)",
-  "skip wk-Q141921562: gate: faceless: no free photo shows Salvadoran military intervention in Haiti or the event itself (only 8 photos of places or things near it)",
+  "learn: 55 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 22, 'lift': 1.242, 'typical_views_24h': 348, 'n_retention': 18, 'typical_view_pct': 51.0}, 'kind:incident': {'n': 25, 'lift': 0.963, 'typical_views_24h': 174, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 21, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
+  "watch: 1 candidates (0 quakes, 20 trending), 1 hazard alerts",
+  "outlets: 721 headlines from 30 feeds (21 owners), 21 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest, nw-20261031-france-halloween-protest",
+  "skip nw-20261031-halloween-protest: gate: faceless: no free photo shows Halloween or the event itself (only 2 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
