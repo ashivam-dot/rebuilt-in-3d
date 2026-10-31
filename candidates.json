@@ -1,16 +1,17 @@
 {
- "at": "2026-10-31T20:04:03+00:00",
+ "at": "2026-10-31T20:34:00+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 2057386,
+   "fame": 2182386,
    "views": 1882386,
    "traffic": 0,
-   "news": 175000,
+   "news": 300000,
    "news_at": "2026-10-31T16:00:00+00:00",
    "headlines": [
+    "Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc",
     "What Patrick Stewart’s ‘brief’ dementia journey reveals about lifespans after diagnosis",
     "US: flowers laid at Patrick Stewart's Hollywood star after his death",
     "WATCH: Remembering Patrick Stewart in his own words"
@@ -18,9 +19,9 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-30",
+    "google-news:Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc",
     "google-news:What Patrick Stewart’s ‘brief’ dementia journey reveals about lifespans after diagnosis",
     "google-news:US: flowers laid at Patrick Stewart's Hollywood star after his death",
-    "google-news:WATCH: Remembering Patrick Stewart in his own words",
     "outlet:Euronews",
     "outlet:Disney (ABC News)"
    ],
@@ -158,6 +159,96 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261031-hundreds-protest",
+   "qid": null,
+   "title": "Tension and clashes as hundreds of thousands protest again in France",
+   "name": "Hundreds",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-10-31T18:50:23+00:00",
+   "owners": [
+    "NDTV",
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes Break Out As Hundreds Of Thousands Protest In France",
+    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+    "Tension and clashes as hundreds of thousands protest again in France",
+    "Hundreds of thousands of young protesters take to the streets across France"
+   ],
+   "places": [
+    "Break",
+    "Out",
+    "Thousands"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Tension and clashes as hundreds of thousands protest again in France",
+     "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:28:14+00:00"
+    },
+    {
+     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:23:31+00:00"
+    },
+    {
+     "title": "Hundreds of thousands of young protesters take to the streets across France",
+     "url": "https://abcnews.com/Business/wireStory/weekend-protests-france-youth-led-rallies-sweep-europe-137735678",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:50:23+00:00"
+    },
+    {
+     "title": "Clashes Break Out As Hundreds Of Thousands Protest In France",
+     "url": "https://www.ndtv.com/world-news/clashes-break-out-as-hundreds-of-thousands-protest-in-france-12265072#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-31T18:16:37+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261031-halloween-protest",
@@ -314,79 +405,6 @@
    "article": null
   },
   {
-   "id": "nw-20261031-france-halloween-protest",
-   "qid": null,
-   "title": "Tension and clashes as hundreds of thousands protest again in France",
-   "name": "France Halloween",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "news_at": "2026-10-31T18:50:23+00:00",
-   "owners": [
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-    "Tension and clashes as hundreds of thousands protest again in France",
-    "Hundreds of thousands of young protesters take to the streets across France"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Tension and clashes as hundreds of thousands protest again in France",
-     "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:28:14+00:00"
-    },
-    {
-     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:23:31+00:00"
-    },
-    {
-     "title": "Hundreds of thousands of young protesters take to the streets across France",
-     "url": "https://abcnews.com/Business/wireStory/weekend-protests-france-youth-led-rallies-sweep-europe-137735678",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-31T18:50:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q376176",
    "title": "Walter Koenig",
    "fame": 61127,
@@ -455,7 +473,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-10-31T20:04:03.378660+00:00",
+   "news_at": "2026-10-31T20:34:00.355515+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -697,32 +715,34 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261031-halloween-protest",
+   "id": "nw-20261031-hundreds-protest",
    "qid": null,
-   "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-   "name": "Halloween",
+   "title": "Tension and clashes as hundreds of thousands protest again in France",
+   "name": "Hundreds",
    "kind": "incident",
    "category": "protest",
    "date": "2026-10-31",
-   "news_at": "2026-10-31T16:28:04+00:00",
+   "news_at": "2026-10-31T18:50:23+00:00",
    "owners": [
-    "France Médias Monde",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
+    "NDTV",
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-    "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-    "Thousands rally in Berlin as Gen Z plans protests in 30 German cities"
+    "Clashes Break Out As Hundreds Of Thousands Protest In France",
+    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+    "Tension and clashes as hundreds of thousands protest again in France",
+    "Hundreds of thousands of young protesters take to the streets across France"
    ],
    "places": [
-    "Gen",
-    "Promises",
-    "Mid"
+    "Break",
+    "Out",
+    "Thousands"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -735,53 +755,154 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261031-halloween-protests-french-promises-us-mid-term-mood-what-now-for-israel",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-31T00:30:13+00:00"
-    },
-    {
-     "title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
-     "url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
+     "title": "Tension and clashes as hundreds of thousands protest again in France",
+     "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
      "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-31T16:28:04+00:00"
+     "at": "2026-10-31T18:28:14+00:00"
     },
     {
-     "title": "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-     "url": "https://www.independent.co.uk/news/world/europe/germany-protests-berlin-france-spain-b3076845.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-10-31T14:55:07+00:00"
+     "at": "2026-10-31T18:23:31+00:00"
+    },
+    {
+     "title": "Hundreds of thousands of young protesters take to the streets across France",
+     "url": "https://abcnews.com/Business/wireStory/weekend-protests-france-youth-led-rallies-sweep-europe-137735678",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:50:23+00:00"
+    },
+    {
+     "title": "Clashes Break Out As Hundreds Of Thousands Protest In France",
+     "url": "https://www.ndtv.com/world-news/clashes-break-out-as-hundreds-of-thousands-protest-in-france-12265072#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-31T18:16:37+00:00"
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
   }
  ],
  "outlets": {
-  "headlines": 721,
+  "headlines": 728,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 20,
   "corroborated": 5
  },
  "emerging": [
+  {
+   "id": "nw-20261031-hundreds-protest",
+   "qid": null,
+   "title": "Tension and clashes as hundreds of thousands protest again in France",
+   "name": "Hundreds",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-10-31T18:50:23+00:00",
+   "owners": [
+    "NDTV",
+    "SCMP Group",
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Clashes Break Out As Hundreds Of Thousands Protest In France",
+    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+    "Tension and clashes as hundreds of thousands protest again in France",
+    "Hundreds of thousands of young protesters take to the streets across France"
+   ],
+   "places": [
+    "Break",
+    "Out",
+    "Thousands"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Tension and clashes as hundreds of thousands protest again in France",
+     "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:28:14+00:00"
+    },
+    {
+     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-10-31T18:23:31+00:00"
+    },
+    {
+     "title": "Hundreds of thousands of young protesters take to the streets across France",
+     "url": "https://abcnews.com/Business/wireStory/weekend-protests-france-youth-led-rallies-sweep-europe-137735678",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:50:23+00:00"
+    },
+    {
+     "title": "Clashes Break Out As Hundreds Of Thousands Protest In France",
+     "url": "https://www.ndtv.com/world-news/clashes-break-out-as-hundreds-of-thousands-protest-in-france-12265072#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-31T18:16:37+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261031-halloween-protest",
    "qid": null,
@@ -935,80 +1056,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261031-france-halloween-protest",
-   "qid": null,
-   "title": "Tension and clashes as hundreds of thousands protest again in France",
-   "name": "France Halloween",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "news_at": "2026-10-31T18:50:23+00:00",
-   "owners": [
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-    "Tension and clashes as hundreds of thousands protest again in France",
-    "Hundreds of thousands of young protesters take to the streets across France"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Tension and clashes as hundreds of thousands protest again in France",
-     "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:28:14+00:00"
-    },
-    {
-     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:23:31+00:00"
-    },
-    {
-     "title": "Hundreds of thousands of young protesters take to the streets across France",
-     "url": "https://abcnews.com/Business/wireStory/weekend-protests-france-youth-led-rallies-sweep-europe-137735678",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-10-31T18:50:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 721 headlines from 30 feeds (21 owners), 21 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest, nw-20261031-france-halloween-protest"
+ "outlet_note": "outlets: 728 headlines from 30 feeds (21 owners), 20 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-hundreds-protest, nw-20261031-halloween-protest, nw-20261031-london-protest"
 }
