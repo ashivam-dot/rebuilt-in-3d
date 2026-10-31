@@ -1,13 +1,9 @@
 {
- "at": "2026-10-31T15:11:24+00:00",
+ "at": "2026-10-31T15:48:22+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
-  "watch: 1 candidates (0 quakes, 18 trending), 1 hazard alerts",
-  "outlets: 737 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-california-halloween-attack",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.5 h ago, 155 people)\"]",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261031-california-halloween-attack",
-  "skip nw-20261031-california-halloween-attack: gate: fewer than 2 independent outlets' articles name California Halloween",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
+  "watch: 0 candidates (0 quakes, 19 trending), 1 hazard alerts",
+  "outlets: 736 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-california-halloween-attack"
  ]
 }
