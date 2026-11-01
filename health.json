@@ -1,11 +1,19 @@
 {
- "at": "2026-11-01T10:38:27+00:00",
+ "at": "2026-11-01T11:08:12+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
-  "watch: 1 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 653 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261101-molotov-protest",
-  "skip nw-20261101-molotov-protest: gate: faceless: no free photo shows Molotov or the event itself (only 4 photos of places or things near it)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
+  "watch: 3 candidates (0 quakes, 20 trending), 2 hazard alerts",
+  "outlets: 655 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-halloween-protest",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 147 people)\"]",
+  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 5.8 h)",
+  "published wk-Q2913482: https://www.youtube.com/shorts/FShBhonr7zc"
+ ],
+ "published": {
+  "video_id": "FShBhonr7zc",
+  "url": "https://www.youtube.com/shorts/FShBhonr7zc",
+  "title": "Irish Runner Ciara Mageean Dies at 34",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
