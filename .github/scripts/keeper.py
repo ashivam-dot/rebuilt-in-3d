@@ -29,7 +29,9 @@ def gh(*args: str) -> str:
 
 
 def should_wait() -> str:
-    runs = json.loads(gh("run", "list", "-w", "run", "-L", "5", "--json", "status,conclusion,createdAt") or "[]")
+    # Only main publishes: a dry run of a branch (an hour on the runner) must not hold the live runs back.
+    runs = json.loads(gh("run", "list", "-w", "run", "-b", "main", "-L", "5", "--json", "status,conclusion,createdAt")
+                      or "[]")
     now = datetime.now(timezone.utc)
     ages = [(now - datetime.fromisoformat(r["createdAt"].replace("Z", "+00:00"))).total_seconds() for r in runs]
     if any(r["status"] in ("queued", "in_progress", "waiting", "pending", "requested") for r in runs):
