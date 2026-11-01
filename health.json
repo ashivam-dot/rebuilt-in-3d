@@ -1,10 +1,13 @@
 {
- "at": "2026-11-01T06:34:50+00:00",
+ "at": "2026-11-01T06:49:46+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 33 units today",
-  "watch: 1 candidates (0 quakes, 18 trending), 1 hazard alerts",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 34 units today",
+  "watch: 3 candidates (0 quakes, 18 trending), 1 hazard alerts",
   "outlets: 671 headlines from 29 feeds (21 owners), 19 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261101-gen-z-led-protest",
-  "hold nw-20261101-gen-z-led-protest: outside the world window"
+  "hold nw-20261101-gen-z-led-protest: outside the world window",
+  "hold wk-Q965634: outside the world window",
+  "skip wk-Q644401: gate: only 1 usable photos of Sanjay Gupta on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
