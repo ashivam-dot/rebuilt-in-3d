@@ -1,19 +1,22 @@
 {
- "at": "2026-11-01T00:29:20+00:00",
+ "at": "2026-11-01T01:06:04+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 1882386,
+   "fame": 2007386,
    "views": 1882386,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
+   "news": 125000,
+   "news_at": "2026-10-30T20:25:00+00:00",
+   "headlines": [
+    "Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc"
+   ],
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-10-30"
+    "wikipedia-top-2026-10-30",
+    "google-news:Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc"
    ],
    "owners": [],
    "reports": [],
@@ -83,7 +86,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-01T00:00:00+00:00",
+   "news_at": "2026-11-01T01:03:45+00:00",
    "headlines": [
     "French police clash with some protesters again as demonstrations continue"
    ],
@@ -105,7 +108,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-10-31T21:11:55+00:00"
+     "at": "2026-11-01T01:03:45+00:00"
     }
    ],
    "id": "wk-Q141615137-2026w44",
@@ -460,11 +463,14 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.6 h ago, 144 people)"
+ ],
  "outlets": {
-  "headlines": 695,
+  "headlines": 701,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 27,
   "corroborated": 2
  },
  "emerging": [
@@ -546,5 +552,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 695 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest"
+ "outlet_note": "outlets: 701 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest"
 }
