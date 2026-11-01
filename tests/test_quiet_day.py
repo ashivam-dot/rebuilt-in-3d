@@ -1,8 +1,11 @@
 from datetime import date, datetime, timezone
 
+import pytest
+
 from studio import ledger, plan, trends
 
 TODAY = date(2026, 11, 1)
+AT = datetime(2026, 11, 1, 10, 30, tzinfo=timezone.utc)
 
 
 def _person(died: str, **extra) -> dict:
@@ -17,7 +20,9 @@ PEOPLE = {
     "Q2": ("Little Known", _person("2026-10-28"), 300),
     "Q3": ("Old News", _person("2026-10-01"), 90000),
     "Q4": ("A Convict", _person("2026-10-29", P1399="Q99"), 50000),
-    "Q5": ("Claude Cohen-Tannoudji", _person("2026-10-26"), 1664),
+    "Q5": ("Claude Cohen-Tannoudji", _person("2026-10-29"), 1664),
+    "Q6": ("Six Days Ago", _person("2026-10-26"), 70000),
+    "Q7": ("A Suicide", _person("2026-10-30", P1196=trends.SUICIDE), 40000),
 }
 
 
@@ -54,6 +59,13 @@ def test_wikidata_down_is_an_error_not_a_crash(monkeypatch):
     monkeypatch.setattr(trends.wiki, "entities", down)
     errors = []
     assert trends.quiet_day_deaths(TODAY, lambda sid: True, errors) == [] and "quiet day" in errors[0]
+
+
+@pytest.mark.parametrize("cache", ["{", "", "[]", '"rows"', '{"at": "2026-11-01T10:00:00+00:00", "rows": [1]}'])
+def test_a_cut_short_or_malformed_cache_gives_no_candidates_and_no_crash(monkeypatch, cache):
+    _wire(monkeypatch)
+    (ledger.STATE / f"{trends.DEATHS_CACHE}.json").write_text(cache)
+    assert trends.quiet_day_deaths(TODAY, lambda sid: True, [], now=AT) == []
 
 
 def test_a_day_is_quiet_only_after_the_hour_and_with_no_short_out_or_scheduled():

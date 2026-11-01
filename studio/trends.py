@@ -433,17 +433,19 @@ def tribute_death(ent: dict, today: date) -> date | None:
 # told or lacked free photos, while notable ones nobody was searching for (two Nobel laureates) were never tried: the
 # radar only sees a death that trends. From QUIET_FROM_UTC on such a day, recent deaths whose article English Wikipedia
 # readers opened at least QUIET_MIN_VIEWS times on one of the last 7 days are offered too, through the same tribute
-# writer and gate; their fame is those views, so any trending story still ranks first.
+# writer and gate; their fame is those views, so any trending story still ranks first. A tribute is worth little
+# after its first days, so this lane stops at QUIET_MAX_DAYS, not DEATH_MAX_DAYS.
 QUIET_FROM_UTC = 14
 QUIET_MIN_VIEWS = 1000
+QUIET_MAX_DAYS = 5
 QUIET_LOOK = 25
 
 
-def quiet_day_deaths(today: date, wanted, errors: list[str]) -> list[dict]:
+def quiet_day_deaths(today: date, wanted, errors: list[str], now: datetime | None = None) -> list[dict]:
     """Tribute candidates from the recent-deaths list the radar just read (best known first), for a day with no
     Short. wanted(story_id) says whether the desk may still make a story (not told, skipped or backing off)."""
-    rows = [r for r in ledger.load(DEATHS_CACHE, {}).get("rows") or []
-            if isinstance(r, dict) and r.get("qid") and r.get("title") and wanted(f"wk-{r['qid']}")][:QUIET_LOOK]
+    cached, _ = cached_deaths(now or datetime.now(timezone.utc), errors)
+    rows = [r for r in cached if r.get("qid") and r.get("title") and wanted(f"wk-{r['qid']}")][:2 * QUIET_LOOK]
     if not rows:
         return []
     try:
@@ -451,11 +453,11 @@ def quiet_day_deaths(today: date, wanted, errors: list[str]) -> list[dict]:
     except Exception as exc:
         errors.append(f"quiet day: wikidata: {exc}"[:200])
         return []
+    fit = [(r, died) for r in rows if (ent := ents.get(r["qid"])) and (died := tribute_death(ent, today))
+           and (today - died).days <= QUIET_MAX_DAYS][:QUIET_LOOK]
     out = []
-    for r in rows:
-        ent = ents.get(r["qid"])
-        if not ent or not (died := tribute_death(ent, today)):
-            continue
+    for r, died in fit:
+        ent = ents[r["qid"]]
         peak = max(wiki.daily_views(r["title"], days=7), default=0)
         if peak < QUIET_MIN_VIEWS:
             continue

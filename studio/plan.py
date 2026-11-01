@@ -261,12 +261,16 @@ def watch() -> dict:
                and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
                and not told_before(c, rows, at, moved)]
     if quiet_day(at, rows):
-        taken = {c["id"] for c in found["trending"]}
-        errors = found.setdefault("trend_errors", [])
-        quiet = trends.quiet_day_deaths(at.date(), lambda sid: sid not in taken and not ledger.is_done(sid)
-                                        and ledger.due(sid), errors)
-        if not errors:
-            found.pop("trend_errors")
+        taken, errors = {c["id"] for c in found["trending"]}, []
+        try:  # the regular lanes must keep working whatever the quiet-day lane meets
+            quiet = [c for c in trends.quiet_day_deaths(at.date(), lambda sid: sid not in taken and not
+                                                        ledger.is_done(sid) and ledger.due(sid), errors, now=at)
+                     if not told_before(c, rows, at, moved)]
+        except Exception as exc:
+            quiet = []
+            errors.append(f"quiet day: {type(exc).__name__}: {exc}"[:200])
+        if errors:
+            found.setdefault("trend_errors", []).extend(errors)
         found["quiet_note"] = f"quiet day (no Short yet today): {len(quiet)} tribute candidates" + (
             f": {', '.join(c['title'] for c in quiet[:4])}" if quiet else "")
         stories += quiet
