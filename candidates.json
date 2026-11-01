@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T06:05:10+00:00",
+ "at": "2026-11-01T06:34:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -91,7 +91,7 @@
   {
    "id": "nw-20261031-halloween-protest",
    "qid": null,
-   "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
+   "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
    "name": "Halloween",
    "kind": "incident",
    "category": "protest",
@@ -107,15 +107,13 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
     "Now Gen Z protests reach Germany as thousands join Halloween rallies",
     "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
     "'GenZ regelt!' Thousands protest across Germany in Halloween costumes"
    ],
    "places": [
-    "Promises",
-    "Mid",
-    "Term"
+    "Gen",
+    "thousands"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -127,16 +125,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261031-halloween-protests-french-promises-us-mid-term-mood-what-now-for-israel",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-31T00:30:13+00:00"
-    },
     {
      "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
      "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
@@ -177,6 +165,83 @@
    "article": null
   },
   {
+   "id": "nw-20261101-gen-z-led-protest",
+   "qid": null,
+   "title": "Shops looted as German cost of living protests turn violent",
+   "name": "Gen Z-led",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T06:30:59+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "NDTV",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gen Z-led protests in Germany turn violent",
+    "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
+    "Shops looted as German cost of living protests turn violent"
+   ],
+   "places": [
+    "Shops",
+    "Z-led",
+    "Cocktails"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Shops looted as German cost of living protests turn violent",
+     "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T06:30:59+00:00"
+    },
+    {
+     "title": "Gen Z-led protests in Germany turn violent",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T00:27:20+00:00"
+    },
+    {
+     "title": "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
+     "url": "https://www.ndtv.com/world-news/molotov-cocktails-looted-shops-germanys-gen-z-protests-turn-violent-12266095#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T05:15:22+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q141615137",
    "title": "2026 French student protests",
    "fame": 50000,
@@ -199,6 +264,56 @@
    "has_coords": true
   },
   {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-01T06:36:08.834669+00:00",
+   "headlines": [
+    "Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
+    "SC cancels bail granted to expelled JD(U) MLA Anant Singh, directs him to surrender by Dec 1"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
+    "google-news:SC cancels bail granted to expelled JD(U) MLA Anant Singh, directs him to surrender by Dec 1",
+    "outlet:Government of India",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "Government of India",
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331082",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-01T06:36:08.834669+00:00"
+    },
+    {
+     "title": "SC cancels bail granted to expelled JD(U) MLA Anant Singh, directs him to surrender by Dec 1",
+     "url": "https://www.hindustantimes.com/india-news/sc-cancels-bail-granted-to-expelled-jd-u-mla-anant-singh-directs-him-to-surrender-by-dec-1-101793386393322.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-31T02:13:30+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
+  },
+  {
    "qid": "Q376176",
    "title": "Walter Koenig",
    "fame": 26577,
@@ -217,43 +332,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
-  },
-  {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 25500,
-   "views": 0,
-   "traffic": 500,
-   "news": 25000,
-   "news_at": "2026-10-31T02:13:30+00:00",
-   "headlines": [
-    "SC cancels bail granted to expelled JD(U) MLA Anant Singh, directs him to surrender by Dec 1"
-   ],
-   "region": "india",
-   "via": [
-    "google-trends-GB:shashank singh",
-    "google-news:SC cancels bail granted to expelled JD(U) MLA Anant Singh, directs him to surrender by Dec 1",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "SC cancels bail granted to expelled JD(U) MLA Anant Singh, directs him to surrender by Dec 1",
-     "url": "https://www.hindustantimes.com/india-news/sc-cancels-bail-granted-to-expelled-jd-u-mla-anant-singh-directs-him-to-surrender-by-dec-1-101793386393322.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-31T02:13:30+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
   },
   {
    "qid": "Q5386105",
@@ -474,19 +552,97 @@
    "lon": "81.8"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261101-gen-z-led-protest",
+   "qid": null,
+   "title": "Shops looted as German cost of living protests turn violent",
+   "name": "Gen Z-led",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T06:30:59+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "NDTV",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gen Z-led protests in Germany turn violent",
+    "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
+    "Shops looted as German cost of living protests turn violent"
+   ],
+   "places": [
+    "Shops",
+    "Z-led",
+    "Cocktails"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Shops looted as German cost of living protests turn violent",
+     "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T06:30:59+00:00"
+    },
+    {
+     "title": "Gen Z-led protests in Germany turn violent",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T00:27:20+00:00"
+    },
+    {
+     "title": "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
+     "url": "https://www.ndtv.com/world-news/molotov-cocktails-looted-shops-germanys-gen-z-protests-turn-violent-12266095#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T05:15:22+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
   "headlines": 671,
   "feeds": 29,
   "owners": 21,
-  "matched": 21,
-  "corroborated": 1
+  "matched": 19,
+  "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261031-halloween-protest",
    "qid": null,
-   "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
+   "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
    "name": "Halloween",
    "kind": "incident",
    "category": "protest",
@@ -502,15 +658,13 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
     "Now Gen Z protests reach Germany as thousands join Halloween rallies",
     "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
     "'GenZ regelt!' Thousands protest across Germany in Halloween costumes"
    ],
    "places": [
-    "Promises",
-    "Mid",
-    "Term"
+    "Gen",
+    "thousands"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -522,16 +676,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261031-halloween-protests-french-promises-us-mid-term-mood-what-now-for-israel",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-31T00:30:13+00:00"
-    },
     {
      "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
      "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
@@ -570,7 +714,84 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261101-gen-z-led-protest",
+   "qid": null,
+   "title": "Shops looted as German cost of living protests turn violent",
+   "name": "Gen Z-led",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T06:30:59+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "NDTV",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gen Z-led protests in Germany turn violent",
+    "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
+    "Shops looted as German cost of living protests turn violent"
+   ],
+   "places": [
+    "Shops",
+    "Z-led",
+    "Cocktails"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Shops looted as German cost of living protests turn violent",
+     "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T06:30:59+00:00"
+    },
+    {
+     "title": "Gen Z-led protests in Germany turn violent",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T00:27:20+00:00"
+    },
+    {
+     "title": "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
+     "url": "https://www.ndtv.com/world-news/molotov-cocktails-looted-shops-germanys-gen-z-protests-turn-violent-12266095#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T05:15:22+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 671 headlines from 29 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-halloween-protest"
+ "outlet_note": "outlets: 671 headlines from 29 feeds (21 owners), 19 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261101-gen-z-led-protest"
 }
