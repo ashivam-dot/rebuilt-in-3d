@@ -159,6 +159,8 @@ def run(dry: bool = False) -> dict:
                                f"{len(found['trending'])} trending), {len(found['hazards'])} hazard alerts")
         if found.get("outlet_note"):
             health["steps"].append(found["outlet_note"])
+        if found.get("quiet_note"):
+            health["steps"].append(found["quiet_note"][:300])
         if found.get("trend_errors"):
             health["steps"].append(f"trend radar errors: {found['trend_errors']}")
         ready, held = plan.lineup(found["candidates"])

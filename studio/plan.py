@@ -230,6 +230,12 @@ def quake_candidates(trending_quakes: list[dict] | None = None) -> list[dict]:
     return out
 
 
+def quiet_day(at: datetime, rows: list[dict]) -> bool:
+    """No Short has gone out (or is scheduled) this UTC day and it is past trends.QUIET_FROM_UTC."""
+    day = at.date().isoformat()
+    return at.hour >= trends.QUIET_FROM_UTC and not any(r["published_at"][:10] == day for r in rows)
+
+
 def watch() -> dict:
     """Everything the watcher sees this run, written to state/candidates.json for the record."""
     found = {"at": ledger.now(), "quakes": [], "trending": [], "hazards": [], "candidates": []}
@@ -254,6 +260,16 @@ def watch() -> dict:
                and ledger.due(c["id"])
                and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
                and not told_before(c, rows, at, moved)]
+    if quiet_day(at, rows):
+        taken = {c["id"] for c in found["trending"]}
+        errors = found.setdefault("trend_errors", [])
+        quiet = trends.quiet_day_deaths(at.date(), lambda sid: sid not in taken and not ledger.is_done(sid)
+                                        and ledger.due(sid), errors)
+        if not errors:
+            found.pop("trend_errors")
+        found["quiet_note"] = f"quiet day (no Short yet today): {len(quiet)} tribute candidates" + (
+            f": {', '.join(c['title'] for c in quiet[:4])}" if quiet else "")
+        stories += quiet
     found["candidates"] = sorted(found["quakes"] + stories, key=lambda c: -priority(c, at))
     try:
         found["hazards"] = gdacs.alerts()

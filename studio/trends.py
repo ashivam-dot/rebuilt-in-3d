@@ -381,14 +381,8 @@ def radar(today: date | None = None) -> dict:
                 "region": region(ent, h.get("geos", set())), "via": h["via"],
                 "owners": h.get("owners", []), "reports": [outlets.compact(r) for r in h.get("reports", [])][:8]}
         if "human" in cats:
-            died = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P570")), None)
-            if not died or not 0 <= (today - died).days <= DEATH_MAX_DAYS:
-                continue
-            if wiki.claims(ent, "P1399"):
-                continue  # people convicted of crimes are not eulogised on this channel
-            if any(c["value"] == SUICIDE for c in wiki.claims(ent, "P1196")):
-                continue
-            out.append(base | {"id": f"wk-{qid}", "kind": "death", "category": "death", "date": died.isoformat()})
+            if died := tribute_death(ent, today):
+                out.append(base | {"id": f"wk-{qid}", "kind": "death", "category": "death", "date": died.isoformat()})
             continue
         cat = next((c for c in ORDER if c in cats), None)
         if not cat:
@@ -422,6 +416,54 @@ def radar(today: date | None = None) -> dict:
     out.sort(key=lambda c: -c["fame"])
     return {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "candidates": out, "errors": errors,
             "scanned": len(hits), "emerging": emerging, "outlets": outlet_stats(read, out)}
+
+
+def tribute_death(ent: dict, today: date) -> date | None:
+    """The death date of a person the channel may eulogise: died in the last DEATH_MAX_DAYS, never convicted of a
+    crime, not a suicide. None otherwise."""
+    died = next((wiki.wd_time(c["value"]) for c in wiki.claims(ent, "P570")), None)
+    if not died or not 0 <= (today - died).days <= DEATH_MAX_DAYS:
+        return None
+    if wiki.claims(ent, "P1399") or any(c["value"] == SUICIDE for c in wiki.claims(ent, "P1196")):
+        return None
+    return died
+
+
+# A day with no Short (owner, 2026-11-01: "everyday minimum 1 video is for sure required"). Famous deaths had all been
+# told or lacked free photos, while notable ones nobody was searching for (two Nobel laureates) were never tried: the
+# radar only sees a death that trends. From QUIET_FROM_UTC on such a day, recent deaths whose article English Wikipedia
+# readers opened at least QUIET_MIN_VIEWS times on one of the last 7 days are offered too, through the same tribute
+# writer and gate; their fame is those views, so any trending story still ranks first.
+QUIET_FROM_UTC = 14
+QUIET_MIN_VIEWS = 1000
+QUIET_LOOK = 25
+
+
+def quiet_day_deaths(today: date, wanted, errors: list[str]) -> list[dict]:
+    """Tribute candidates from the recent-deaths list the radar just read (best known first), for a day with no
+    Short. wanted(story_id) says whether the desk may still make a story (not told, skipped or backing off)."""
+    rows = [r for r in ledger.load(DEATHS_CACHE, {}).get("rows") or []
+            if isinstance(r, dict) and r.get("qid") and r.get("title") and wanted(f"wk-{r['qid']}")][:QUIET_LOOK]
+    if not rows:
+        return []
+    try:
+        ents = wiki.entities([r["qid"] for r in rows])
+    except Exception as exc:
+        errors.append(f"quiet day: wikidata: {exc}"[:200])
+        return []
+    out = []
+    for r in rows:
+        ent = ents.get(r["qid"])
+        if not ent or not (died := tribute_death(ent, today)):
+            continue
+        peak = max(wiki.daily_views(r["title"], days=7), default=0)
+        if peak < QUIET_MIN_VIEWS:
+            continue
+        out.append({"qid": r["qid"], "title": r["title"], "fame": peak, "views": peak, "traffic": 0, "news": 0,
+                    "news_at": None, "headlines": [], "region": region(ent, set()), "via": ["quiet day"],
+                    "owners": [], "reports": [], "id": f"wk-{r['qid']}", "kind": "death", "category": "death",
+                    "date": died.isoformat()})
+    return sorted(out, key=lambda c: -c["fame"])
 
 
 def young_articles(cands: list[dict]) -> list[str]:
