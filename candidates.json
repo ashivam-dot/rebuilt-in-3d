@@ -1,22 +1,19 @@
 {
- "at": "2026-11-01T16:24:46+00:00",
+ "at": "2026-11-01T16:53:43+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 575119,
+   "fame": 450119,
    "views": 450119,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T05:11:00+00:00",
-   "headlines": [
-    "‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31",
-    "google-news:‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode"
+    "wikipedia-top-2026-10-31"
    ],
    "owners": [],
    "reports": [],
@@ -69,7 +66,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-01T16:26:02.414997+00:00",
+   "news_at": "2026-11-01T16:55:49.257442+00:00",
    "headlines": [
     "Punjab polls: In a blow to AAP, 2 MLAs, Chetan Singh Jouramajra and Harmeet Singh Pathanmajra, quit party",
     "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
@@ -96,7 +93,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-01T16:26:02.414997+00:00"
+     "at": "2026-11-01T16:55:49.257442+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -266,6 +263,83 @@
    "has_coords": true
   },
   {
+   "id": "nw-20261031-embassy-protest",
+   "qid": null,
+   "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+   "name": "Embassy",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-11-01T16:04:26+00:00",
+   "owners": [
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co.",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+    "Over 300 arrested at US Embassy in London during Palestine Action protests",
+    "More than 300 arrests at Palestine Action support protest outside US embassy"
+   ],
+   "places": [
+    "London",
+    "Palestine",
+    "Action"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+     "url": "https://www.bbc.co.uk/news/articles/c98rz23ed781o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T13:41:00+00:00"
+    },
+    {
+     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:09:28+00:00"
+    },
+    {
+     "title": "Over 300 arrested at US Embassy in London during Palestine Action protests",
+     "url": "https://timesofindia.indiatimes.com/world/uk/over-300-arrested-outside-us-embassy-in-london-amid-protests-against-ban-on-palestine-action-group/articleshow/135431739.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T16:04:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q123521174",
    "title": "Gaza war protests in the United Kingdom",
    "fame": 50000,
@@ -294,7 +368,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T16:24:46.003738+00:00",
+   "news_at": "2026-11-01T16:53:43.223164+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -601,13 +675,90 @@
    "has_coords": false
   },
   {
+   "id": "nw-20261031-embassy-protest",
+   "qid": null,
+   "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+   "name": "Embassy",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-11-01T16:04:26+00:00",
+   "owners": [
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co.",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+    "Over 300 arrested at US Embassy in London during Palestine Action protests",
+    "More than 300 arrests at Palestine Action support protest outside US embassy"
+   ],
+   "places": [
+    "London",
+    "Palestine",
+    "Action"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+     "url": "https://www.bbc.co.uk/news/articles/c98rz23ed781o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T13:41:00+00:00"
+    },
+    {
+     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:09:28+00:00"
+    },
+    {
+     "title": "Over 300 arrested at US Embassy in London during Palestine Action protests",
+     "url": "https://timesofindia.indiatimes.com/world/uk/over-300-arrested-outside-us-embassy-in-london-amid-protests-against-ban-on-palestine-action-group/articleshow/135431739.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T16:04:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q141790807",
    "title": "2026 Portuguese housing protests",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T16:24:46.003738+00:00",
+   "news_at": "2026-11-01T16:53:43.223164+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -624,12 +775,90 @@
   }
  ],
  "outlets": {
-  "headlines": 680,
+  "headlines": 684,
   "feeds": 29,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 1
+  "matched": 27,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 680 headlines from 29 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261031-embassy-protest",
+   "qid": null,
+   "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+   "name": "Embassy",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-10-31",
+   "news_at": "2026-11-01T16:04:26+00:00",
+   "owners": [
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co.",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+    "Over 300 arrested at US Embassy in London during Palestine Action protests",
+    "More than 300 arrests at Palestine Action support protest outside US embassy"
+   ],
+   "places": [
+    "London",
+    "Palestine",
+    "Action"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+     "url": "https://www.bbc.co.uk/news/articles/c98rz23ed781o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T13:41:00+00:00"
+    },
+    {
+     "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+     "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-10-31T18:09:28+00:00"
+    },
+    {
+     "title": "Over 300 arrested at US Embassy in London during Palestine Action protests",
+     "url": "https://timesofindia.indiatimes.com/world/uk/over-300-arrested-outside-us-embassy-in-london-amid-protests-against-ban-on-palestine-action-group/articleshow/135431739.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T16:04:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Paramount (CBS)",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 684 headlines from 29 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-embassy-protest"
 }

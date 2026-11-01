@@ -745,9 +745,17 @@
   "kind": "incident"
  },
  "wk-Q141790807-2026w44": {
+  "count": 2,
+  "reason": "gate: no draft passed the fact checks: beat 2, 4, 7 name(s) nothing its photo shows (only 65% of the script shows what it says; want 70%): in each, name who or what a photo shows (Portuguese, Luís Montenegro, José Luís Carneiro, Luís Neves, police), or say what an EVENT photo itself shows (the words",
+  "at": "2026-11-01T17:11:23+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261031-embassy-protest": {
   "count": 1,
-  "reason": "gate: no draft passed the fact checks: these names or numbers are not in the sources: 2024, April, Luýs",
-  "at": "2026-11-01T16:44:45+00:00",
+  "reason": "gate: faceless: no free photo shows Embassy or the event itself (only 3 photos of places or things near it)",
+  "at": "2026-11-01T16:58:05+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

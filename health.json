@@ -1,12 +1,13 @@
 {
- "at": "2026-11-01T16:24:45+00:00",
+ "at": "2026-11-01T16:53:42+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 67 units today",
-  "watch: 2 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 680 headlines from 29 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
-  "skip wk-Q141790807-2026w44: gate: no draft passed the fact checks: these names or numbers are not in the sources: 2024, April, Luýs",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 68 units today",
+  "watch: 3 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 684 headlines from 29 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-embassy-protest",
+  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 0.1 h)",
+  "skip nw-20261031-embassy-protest: gate: faceless: no free photo shows Embassy or the event itself (only 3 photos of places or things near it)",
+  "skip wk-Q141790807-2026w44: gate: no draft passed the fact checks: beat 2, 4, 7 name(s) nothing its photo shows (only 65% of the script shows what it says; want 70%): in each, name who or what a photo shows (Portuguese, Luís Montenegro, José Luís Carneiro, Luís Neves, police), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; these names or numbers are not in the ",
   "nothing eligible to publish"
  ]
 }
