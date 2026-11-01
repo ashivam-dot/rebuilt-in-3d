@@ -1,13 +1,15 @@
 {
- "at": "2026-11-01T06:49:46+00:00",
+ "at": "2026-11-01T08:08:54+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 34 units today",
-  "watch: 3 candidates (0 quakes, 18 trending), 1 hazard alerts",
-  "outlets: 671 headlines from 29 feeds (21 owners), 19 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261101-gen-z-led-protest",
-  "hold nw-20261101-gen-z-led-protest: outside the world window",
-  "hold wk-Q965634: outside the world window",
-  "skip wk-Q644401: gate: only 1 usable photos of Sanjay Gupta on Wikimedia Commons (want 4)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
+  "watch: 4 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 667 headlines from 29 feeds (21 owners), 18 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261101-gen-z-led-protest",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
+  "skip nw-20261101-gen-z-led-protest: gate: fewer than 2 independent outlets' articles name Gen Z-led",
+  "skip nw-20261031-halloween-protest: gate: faceless: no free photo shows Halloween or the event itself (only 6 photos of places or things near it)",
+  "skip wk-Q123521174-2026w44: gate: faceless: no free photo shows Gaza war protests in the United Kingdom or the event itself (only 8 photos of places or things near it)",
+  "skip wk-Q965634: gate: only 2 usable photos of Mišo Kovač on Wikimedia Commons (want 4)",
   "nothing eligible to publish"
  ]
 }
