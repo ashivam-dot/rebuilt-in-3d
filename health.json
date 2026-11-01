@@ -1,15 +1,13 @@
 {
- "at": "2026-11-01T21:38:20+00:00",
+ "at": "2026-11-01T22:08:03+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 78 units today",
-  "watch: 5 candidates (0 quakes, 25 trending), 2 hazard alerts",
-  "outlets: 700 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261031-london-protest, nw-20261101-lisbon-protest, nw-20261101-florida-aviation",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
+  "watch: 3 candidates (0 quakes, 25 trending), 2 hazard alerts",
+  "outlets: 701 headlines from 29 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
   "hold wk-Q644401: outside the india window",
   "hold wk-Q141717158-2026w44: outside the india window",
-  "skip nw-20261101-florida-aviation: gate: faceless: no free photo shows Florida or the event itself (only 0 photos of places or things near it)",
-  "wait wp-2026_Palm_Beach_plane_crash: gate: the article is under 6 hours old; facts may still move (ready in 5.7 h)",
-  "skip wk-Q3299104: gate: no photo on Wikimedia Commons shows Jerry Koosman's face (a tribute needs one)",
+  "wait wp-2026_Palm_Beach_plane_crash: gate: the article is under 6 hours old; facts may still move (ready in 5.8 h)",
   "nothing eligible to publish"
  ]
 }
