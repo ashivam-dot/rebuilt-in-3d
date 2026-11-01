@@ -1,19 +1,24 @@
 {
- "at": "2026-11-01T08:08:56+00:00",
+ "at": "2026-11-01T09:37:00+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 450119,
+   "fame": 700119,
    "views": 450119,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 250000,
+   "news_at": "2026-11-01T08:01:00+00:00",
+   "headlines": [
+    "‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode",
+    "Dafne Keen and Harriet Walter on working with Patrick Stewart: ‘I’ve never seen anyone so ecstatic’"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-10-31",
+    "google-news:‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode",
+    "google-news:Dafne Keen and Harriet Walter on working with Patrick Stewart: ‘I’ve never seen anyone so ecstatic’"
    ],
    "owners": [],
    "reports": [],
@@ -21,6 +26,59 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 300000,
+   "views": 0,
+   "traffic": 0,
+   "news": 300000,
+   "news_at": "2026-11-01T09:38:08.427608+00:00",
+   "headlines": [
+    "'Dark decade for me': Yo Yo Honey Singh mourns nephew Vidit Olak’s death in Jalandhar accident",
+    "India vs New Zealand Live Score, 5th T20I: Arshdeep Singh draws first blood as Finn Allen departs early in Kiwis' chase",
+    "Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
+    "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:'Dark decade for me': Yo Yo Honey Singh mourns nephew Vidit Olak’s death in Jalandhar accident",
+    "google-news:India vs New Zealand Live Score, 5th T20I: Arshdeep Singh draws first blood as Finn Allen departs early in Kiwis' chase",
+    "google-news:Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
+    "outlet:Government of India",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "Government of India",
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331082",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-01T09:38:08.427608+00:00"
+    },
+    {
+     "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
+     "url": "https://www.hindustantimes.com/india-news/op-sindoor-drew-non-negotiable-red-line-on-terrorism-rajnath-singh-101793516624962.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T07:03:44+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q644401",
@@ -136,83 +194,6 @@
    "article": null
   },
   {
-   "id": "nw-20261101-gen-z-led-protest",
-   "qid": null,
-   "title": "Shops looted as German cost of living protests turn violent",
-   "name": "Gen Z-led",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "news_at": "2026-11-01T07:36:18+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "NDTV",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gen Z-led protests in Germany turn violent",
-    "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
-    "Shops looted as German cost of living protests turn violent"
-   ],
-   "places": [
-    "Shops",
-    "Z-led",
-    "Cocktails"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Shops looted as German cost of living protests turn violent",
-     "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T07:36:18+00:00"
-    },
-    {
-     "title": "Gen Z-led protests in Germany turn violent",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-01T00:27:20+00:00"
-    },
-    {
-     "title": "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
-     "url": "https://www.ndtv.com/world-news/molotov-cocktails-looted-shops-germanys-gen-z-protests-turn-violent-12266095#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T05:15:22+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q123521174",
    "title": "Gaza war protests in the United Kingdom",
    "fame": 50000,
@@ -255,56 +236,6 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-01T08:09:22.358632+00:00",
-   "headlines": [
-    "Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
-    "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
-    "google-news:Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
-    "outlet:Government of India",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "Government of India",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Hon’ble Union Minister, Shri Rajiv Ranjan Singh, to visit Gangtok and Mangan Districts, Sikkim on 2nd November 2026",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331082",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
-     "lang": "en",
-     "at": "2026-11-01T08:09:22.358632+00:00"
-    },
-    {
-     "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
-     "url": "https://www.hindustantimes.com/india-news/op-sindoor-drew-non-negotiable-red-line-on-terrorism-rajnath-singh-101793516624962.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T07:03:44+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
   },
   {
    "qid": "Q376176",
@@ -596,185 +527,10 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261101-gen-z-led-protest",
-   "qid": null,
-   "title": "Shops looted as German cost of living protests turn violent",
-   "name": "Gen Z-led",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "news_at": "2026-11-01T07:36:18+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "NDTV",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gen Z-led protests in Germany turn violent",
-    "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
-    "Shops looted as German cost of living protests turn violent"
-   ],
-   "places": [
-    "Shops",
-    "Z-led",
-    "Cocktails"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Shops looted as German cost of living protests turn violent",
-     "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T07:36:18+00:00"
-    },
-    {
-     "title": "Gen Z-led protests in Germany turn violent",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-01T00:27:20+00:00"
-    },
-    {
-     "title": "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
-     "url": "https://www.ndtv.com/world-news/molotov-cocktails-looted-shops-germanys-gen-z-protests-turn-violent-12266095#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T05:15:22+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261031-halloween-protest",
-   "qid": null,
-   "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-   "name": "Halloween",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "news_at": "2026-11-01T03:56:41+00:00",
-   "owners": [
-    "Independent Digital News",
-    "SCMP Group",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-    "'GenZ regelt!' Thousands protest across Germany in Halloween costumes"
-   ],
-   "places": [
-    "Gen",
-    "thousands"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:23:31+00:00"
-    },
-    {
-     "title": "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-     "url": "https://www.independent.co.uk/news/world/europe/germany-protests-berlin-france-spain-b3076845.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T14:55:07+00:00"
-    },
-    {
-     "title": "'GenZ regelt!' Thousands protest across Germany in Halloween costumes",
-     "url": "https://timesofindia.indiatimes.com/world/europe/halloween-protests-and-chaos-why-is-gen-z-taking-to-the-streets-across-germany/articleshow/135416953.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T03:56:41+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:SCMP Group",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q123521174",
-   "title": "Gaza war protests in the United Kingdom",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-01T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q123521174-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q965634",
-   "title": "Mišo Kovač",
-   "fame": 11959,
-   "views": 11959,
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 17408,
+   "views": 17408,
    "traffic": 0,
    "news": 0,
    "news_at": null,
@@ -785,25 +541,23 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q965634",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   }
  ],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
  "outlets": {
-  "headlines": 667,
+  "headlines": 658,
   "feeds": 29,
   "owners": 21,
-  "matched": 18,
-  "corroborated": 3
+  "matched": 29,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -881,84 +635,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261101-gen-z-led-protest",
-   "qid": null,
-   "title": "Shops looted as German cost of living protests turn violent",
-   "name": "Gen Z-led",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "news_at": "2026-11-01T07:36:18+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "NDTV",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gen Z-led protests in Germany turn violent",
-    "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
-    "Shops looted as German cost of living protests turn violent"
-   ],
-   "places": [
-    "Shops",
-    "Z-led",
-    "Cocktails"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Shops looted as German cost of living protests turn violent",
-     "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T07:36:18+00:00"
-    },
-    {
-     "title": "Gen Z-led protests in Germany turn violent",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-01T00:27:20+00:00"
-    },
-    {
-     "title": "Molotov Cocktails, Looted Shops: Germany's Gen Z Protests Turn Violent",
-     "url": "https://www.ndtv.com/world-news/molotov-cocktails-looted-shops-germanys-gen-z-protests-turn-violent-12266095#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T05:15:22+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 18 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261101-gen-z-led-protest"
+ "outlet_note": "outlets: 658 headlines from 29 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-halloween-protest"
 }
