@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T22:39:54+00:00",
+ "at": "2026-11-01T23:04:50+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,32 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-01T11:38:59+00:00",
+   "headlines": [
+    "Bangladesh garment workers torch police box, block highway over wage hike demand",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bangladesh garment workers torch police box, block highway over wage hike demand",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141615137",
@@ -99,65 +125,13 @@
    "date": "2026-10-30"
   },
   {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-01T22:41:44.023382+00:00",
-   "headlines": [
-    "Punjab polls: In a blow to AAP, 2 MLAs, Chetan Singh Jouramajra and Harmeet Singh Pathanmajra, quit party",
-    "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
-    "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Punjab polls: In a blow to AAP, 2 MLAs, Chetan Singh Jouramajra and Harmeet Singh Pathanmajra, quit party",
-    "google-news:AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
-    "google-news:Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
-    "outlet:Government of India",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "Government of India",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331268",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
-     "lang": "en",
-     "at": "2026-11-01T22:41:44.023382+00:00"
-    },
-    {
-     "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
-     "url": "https://www.hindustantimes.com/india-news/op-sindoor-drew-non-negotiable-red-line-on-terrorism-rajnath-singh-101793516624962.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T07:03:44+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
-  },
-  {
    "qid": "Q2913482",
    "title": "Ciara Mageean",
    "fame": 150000,
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-01T20:33:11+00:00",
+   "news_at": "2026-11-01T22:44:47+00:00",
    "headlines": [
     "Ireland’s European athletics champion Ciara Mageean dies aged 34",
     "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
@@ -180,13 +154,41 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-01T20:33:11+00:00"
+     "at": "2026-11-01T22:44:47+00:00"
     }
    ],
    "id": "wk-Q2913482",
    "kind": "death",
    "category": "death",
    "date": "2026-11-01"
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 142408,
+   "views": 17408,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-01T15:14:58+00:00",
+   "headlines": [
+    "University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31",
+    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261101-florida-aviation",
@@ -210,7 +212,7 @@
    "headlines": [
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
-    "Nine dead as business jet crashes into Florida roadside",
+    "Nine die as business jet crashes on Florida roadside",
     "Nine killed in 'horrific' Florida jet crash"
    ],
    "places": [],
@@ -235,7 +237,7 @@
      "at": "2026-11-01T22:19:19+00:00"
     },
     {
-     "title": "Nine dead as business jet crashes into Florida roadside",
+     "title": "Nine die as business jet crashes on Florida roadside",
      "url": "https://www.abc.net.au/news/2026-11-02/business-jet-carrying-9-people-crashes-in-florida-neighbourhood/107335094",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -439,6 +441,59 @@
    "article": null
   },
   {
+   "qid": "Q141966885",
+   "title": "2026 Greenacres Learjet 60 crash",
+   "fame": 50500,
+   "views": 0,
+   "traffic": 500,
+   "news": 50000,
+   "news_at": "2026-11-01T22:38:17+00:00",
+   "headlines": [
+    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-IN:learjet 60",
+    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+    "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+     "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T22:38:17+00:00"
+    },
+    {
+     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-01T22:00:36+00:00"
+    }
+   ],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q123521174",
    "title": "Gaza war protests in the United Kingdom",
    "fame": 50000,
@@ -467,7 +522,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T22:39:54.786949+00:00",
+   "news_at": "2026-11-01T23:04:50.155135+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -489,7 +544,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T22:39:54.786949+00:00",
+   "news_at": "2026-11-01T23:04:50.155135+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -503,6 +558,56 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-01T23:05:40.808003+00:00",
+   "headlines": [
+    "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+    "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+    "google-news:Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
+    "outlet:Government of India",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "Government of India",
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331268",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-01T23:05:40.808003+00:00"
+    },
+    {
+     "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
+     "url": "https://www.hindustantimes.com/india-news/op-sindoor-drew-non-negotiable-red-line-on-terrorism-rajnath-singh-101793516624962.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-01T07:03:44+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q376176",
@@ -599,31 +704,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 17408,
-   "views": 17408,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q922837",
@@ -777,20 +857,35 @@
    "published": "2026-11-01T02:23:45+00:00",
    "lat": "13.6",
    "lon": "82.6"
-  },
-  {
-   "id": "gdacs-TC-1001345",
-   "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone ARNAB-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 4.008 million .",
-   "country": "India",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
-   "published": "2026-10-26T01:51:40+00:00",
-   "lat": "16.4",
-   "lon": "81.8"
   }
  ],
  "candidates": [
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-01T11:38:59+00:00",
+   "headlines": [
+    "Bangladesh garment workers torch police box, block highway over wage hike demand",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bangladesh garment workers torch police box, block highway over wage hike demand",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
@@ -835,7 +930,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T22:39:54.786949+00:00",
+   "news_at": "2026-11-01T23:04:50.155135+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -849,14 +944,67 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q141966885",
+   "title": "2026 Greenacres Learjet 60 crash",
+   "fame": 50500,
+   "views": 0,
+   "traffic": 500,
+   "news": 50000,
+   "news_at": "2026-11-01T22:38:17+00:00",
+   "headlines": [
+    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-IN:learjet 60",
+    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+    "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+     "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T22:38:17+00:00"
+    },
+    {
+     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-01T22:00:36+00:00"
+    }
+   ],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 696,
+  "headlines": 694,
   "feeds": 29,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 4
+  "matched": 33,
+  "corroborated": 5
  },
  "emerging": [
   {
@@ -881,7 +1029,7 @@
    "headlines": [
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
-    "Nine dead as business jet crashes into Florida roadside",
+    "Nine die as business jet crashes on Florida roadside",
     "Nine killed in 'horrific' Florida jet crash"
    ],
    "places": [],
@@ -906,7 +1054,7 @@
      "at": "2026-11-01T22:19:19+00:00"
     },
     {
-     "title": "Nine dead as business jet crashes into Florida roadside",
+     "title": "Nine die as business jet crashes on Florida roadside",
      "url": "https://www.abc.net.au/news/2026-11-02/business-jet-carrying-9-people-crashes-in-florida-neighbourhood/107335094",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -1110,5 +1258,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 696 headlines from 29 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 694 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }
