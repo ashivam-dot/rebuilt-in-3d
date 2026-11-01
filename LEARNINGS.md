@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-01T09:36:59+00:00. Scored Shorts (views at 24 h): 55. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-11-01T12:38:59+00:00. Scored Shorts (views at 24 h): 55. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 194 views at 24 h.
 Retention: a typical Short is watched 55.0% through; a group's retention is blended into its lift at 0.5.
@@ -12,10 +12,11 @@ Retention: a typical Short is watched 55.0% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
+| wk-Q2913482 | 2026-11-01T11:27 | death | death | 298 |  |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1101 | 1072 |
-| wk-Q453730 | 2026-10-29T14:30 | death | death | 649 | 535 |
+| wk-Q453730 | 2026-10-29T14:30 | death | death | 651 | 535 |
 | wk-Q241115 | 2026-10-29T13:29 | death | death | 1249 | 1191 |
-| wk-Q922837 | 2026-10-29T09:29 | death | death | 461 | 294 |
+| wk-Q922837 | 2026-10-29T09:29 | death | death | 462 | 294 |
 | wk-Q468843 | 2026-10-28T18:21 | death | death | 566 | 445 |
 | wk-Q455700 | 2026-10-28T12:45 | death | death | 539 | 363 |
 | wk-Q2339941 | 2026-10-27T13:16 | death | death | 1206 | 939 |
@@ -41,4 +42,3 @@ Retention: a typical Short is watched 55.0% through; a group's retention is blen
 | wk-Q141717158-2026w42 | 2026-10-17T04:44 | incident | protest | 53 | 19 |
 | wk-Q141745391 | 2026-10-17T01:12 | incident | attack | 604 | 496 |
 | wk-Q1101154 | 2026-10-16T23:55 | death | death | 144 | 90 |
-| wp-October_2026_Houthi_attacks_on_Saudi_Arabian_airports | 2026-10-16T19:59 | incident | attack | 9 | 9 |
