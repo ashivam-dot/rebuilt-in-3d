@@ -1,13 +1,13 @@
 {
- "at": "2026-11-01T13:39:29+00:00",
+ "at": "2026-11-01T14:10:15+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 705119,
+   "fame": 700119,
    "views": 450119,
-   "traffic": 5000,
+   "traffic": 0,
    "news": 250000,
    "news_at": "2026-11-01T08:01:00+00:00",
    "headlines": [
@@ -17,7 +17,6 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-10-31",
-    "google-trends-US:star trek",
     "google-news:‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode",
     "google-news:Dafne Keen and Harriet Walter on working with Patrick Stewart: ‘I’ve never seen anyone so ecstatic’"
    ],
@@ -31,17 +30,19 @@
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
-   "fame": 193695,
+   "fame": 318695,
    "views": 168695,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-31T13:54:38+00:00",
+   "news": 150000,
+   "news_at": "2026-10-31T15:28:00+00:00",
    "headlines": [
+    "Sanjay Gupta's Last Rites Held In Mumbai, Abhishek Bachchan, Rakesh Roshan Pay Last Respects",
     "Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away"
    ],
    "region": "india",
    "via": [
     "wikipedia-top-2026-10-31",
+    "google-news:Sanjay Gupta's Last Rites Held In Mumbai, Abhishek Bachchan, Rakesh Roshan Pay Last Respects",
     "google-news:Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
     "outlet:HT Media"
    ],
@@ -72,7 +73,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-01T13:41:53.593326+00:00",
+   "news_at": "2026-11-01T14:13:51.958296+00:00",
    "headlines": [
     "'Dark decade for me': Yo Yo Honey Singh mourns nephew Vidit Olak’s death in Jalandhar accident",
     "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
@@ -99,7 +100,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-01T13:41:53.593326+00:00"
+     "at": "2026-11-01T14:13:51.958296+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -116,28 +117,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
-  },
-  {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T13:19:09+00:00",
-   "headlines": [
-    "Former European 1,500m champion Ciara Mageean has died at the age of 34."
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Former European 1,500m champion Ciara Mageean has died at the age of 34."
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2913482",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
   },
   {
    "qid": "Q123521174",
@@ -182,6 +161,44 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-01T13:43:57+00:00",
+   "headlines": [
+    "Ciara Mageean: European champion and Olympian dies aged 34",
+    "Ireland’s European athletics champion Ciara Mageean dies aged 34"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ciara Mageean: European champion and Olympian dies aged 34",
+    "google-news:Ireland’s European athletics champion Ciara Mageean dies aged 34",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Ireland’s European athletics champion Ciara Mageean dies aged 34",
+     "url": "https://www.aljazeera.com/sports/2026/11/1/irelands-european-athletics-champion-ciara-mageean-dies-aged-34?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T13:43:57+00:00"
+    }
+   ],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
   },
   {
    "qid": "Q376176",
@@ -452,12 +469,12 @@
    "id": "gdacs-TC-1001346",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone FOUR-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.156 million .",
+   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.204 million .",
    "country": "India",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
    "published": "2026-11-01T02:23:45+00:00",
-   "lat": "12.2",
-   "lon": "84.8"
+   "lat": "12.8",
+   "lon": "83.8"
   },
   {
    "id": "gdacs-TC-1001345",
@@ -472,13 +489,16 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 147 people)"
+ ],
  "outlets": {
-  "headlines": 649,
-  "feeds": 30,
+  "headlines": 658,
+  "feeds": 29,
   "owners": 21,
-  "matched": 24,
+  "matched": 32,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 649 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 658 headlines from 29 feeds (21 owners), 32 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
