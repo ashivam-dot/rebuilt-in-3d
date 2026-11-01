@@ -1,19 +1,13 @@
 {
- "at": "2026-11-01T11:08:12+00:00",
+ "at": "2026-11-01T11:37:04+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 57 units today",
   "watch: 3 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 655 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-halloween-protest",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 147 people)\"]",
-  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 5.8 h)",
-  "published wk-Q2913482: https://www.youtube.com/shorts/FShBhonr7zc"
- ],
- "published": {
-  "video_id": "FShBhonr7zc",
-  "url": "https://www.youtube.com/shorts/FShBhonr7zc",
-  "title": "Irish Runner Ciara Mageean Dies at 34",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "outlets: 652 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-portugal-protest",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 147 people)\"]",
+  "hold wp-2026_Bangladesh_garment_sector_minimum_wage_protests: last Short went out 0.3 h ago",
+  "hold nw-20261101-portugal-protest: last Short went out 0.3 h ago",
+  "hold wk-Q123521174-2026w44: last Short went out 0.3 h ago"
+ ]
 }
