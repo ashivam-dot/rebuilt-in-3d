@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T23:04:50+00:00",
+ "at": "2026-11-01T23:41:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,14 +29,14 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-11-01T11:38:59+00:00",
+   "news_at": "2026-11-01T08:15:57+00:00",
    "headlines": [
-    "Bangladesh garment workers torch police box, block highway over wage hike demand",
+    "Bangladesh forms wage board as garment workers protest",
     "Bangladesh sets up wage board as garment workers' unrest shuts factories"
    ],
    "region": "world",
    "via": [
-    "google-news:Bangladesh garment workers torch police box, block highway over wage hike demand",
+    "google-news:Bangladesh forms wage board as garment workers protest",
     "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
    ],
    "owners": [],
@@ -131,7 +131,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-01T22:44:47+00:00",
+   "news_at": "2026-11-01T23:31:31+00:00",
    "headlines": [
     "Ireland’s European athletics champion Ciara Mageean dies aged 34",
     "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
@@ -154,7 +154,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-01T22:44:47+00:00"
+     "at": "2026-11-01T23:31:31+00:00"
     }
    ],
    "id": "wk-Q2913482",
@@ -193,12 +193,12 @@
   {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
-   "title": "Nine killed in 'horrific' Florida jet crash",
+   "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-01T22:19:19+00:00",
+   "news_at": "2026-11-01T23:15:56+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
@@ -213,9 +213,11 @@
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine die as business jet crashes on Florida roadside",
-    "Nine killed in 'horrific' Florida jet crash"
+    "'Like a missile coming down' - Nine killed in fiery Florida jet crash"
    ],
-   "places": [],
+   "places": [
+    "nine"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -227,14 +229,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Nine killed in 'horrific' Florida jet crash",
+     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-01T22:19:19+00:00"
+     "at": "2026-11-01T23:15:56+00:00"
     },
     {
      "title": "Nine die as business jet crashes on Florida roadside",
@@ -447,24 +449,34 @@
    "views": 0,
    "traffic": 500,
    "news": 50000,
-   "news_at": "2026-11-01T22:38:17+00:00",
+   "news_at": "2026-11-01T23:28:59+00:00",
    "headlines": [
-    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
-    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA"
+    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball"
    ],
    "region": "world",
    "via": [
     "google-trends-IN:learjet 60",
-    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
     "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
+    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+    "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News"
    ],
    "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-01T23:28:59+00:00"
+    },
     {
      "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
      "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
@@ -474,16 +486,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-01T22:38:17+00:00"
-    },
-    {
-     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T22:00:36+00:00"
     }
    ],
    "id": "wk-Q141966885",
@@ -522,7 +524,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T23:04:50.155135+00:00",
+   "news_at": "2026-11-01T23:41:10.776954+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -544,7 +546,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T23:04:50.155135+00:00",
+   "news_at": "2026-11-01T23:41:10.776954+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -566,7 +568,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-01T23:05:40.808003+00:00",
+   "news_at": "2026-11-01T23:41:27.182080+00:00",
    "headlines": [
     "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -591,7 +593,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-01T23:05:40.808003+00:00"
+     "at": "2026-11-01T23:41:27.182080+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -861,32 +863,6 @@
  ],
  "candidates": [
   {
-   "qid": null,
-   "title": "2026 Bangladesh garment sector minimum wage protests",
-   "fame": 250000,
-   "views": 0,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-01T11:38:59+00:00",
-   "headlines": [
-    "Bangladesh garment workers torch police box, block highway over wage hike demand",
-    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Bangladesh garment workers torch police box, block highway over wage hike demand",
-    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
    "fame": 193695,
@@ -930,7 +906,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T23:04:50.155135+00:00",
+   "news_at": "2026-11-01T23:41:10.776954+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -952,24 +928,34 @@
    "views": 0,
    "traffic": 500,
    "news": 50000,
-   "news_at": "2026-11-01T22:38:17+00:00",
+   "news_at": "2026-11-01T23:28:59+00:00",
    "headlines": [
-    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
-    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA"
+    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball"
    ],
    "region": "world",
    "via": [
     "google-trends-IN:learjet 60",
-    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
     "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
+    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+    "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News"
    ],
    "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-01T23:28:59+00:00"
+    },
     {
      "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
      "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
@@ -979,16 +965,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-01T22:38:17+00:00"
-    },
-    {
-     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T22:00:36+00:00"
     }
    ],
    "id": "wk-Q141966885",
@@ -1000,7 +976,7 @@
   }
  ],
  "outlets": {
-  "headlines": 694,
+  "headlines": 690,
   "feeds": 29,
   "owners": 21,
   "matched": 33,
@@ -1010,12 +986,12 @@
   {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
-   "title": "Nine killed in 'horrific' Florida jet crash",
+   "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-01T22:19:19+00:00",
+   "news_at": "2026-11-01T23:15:56+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
@@ -1030,9 +1006,11 @@
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine die as business jet crashes on Florida roadside",
-    "Nine killed in 'horrific' Florida jet crash"
+    "'Like a missile coming down' - Nine killed in fiery Florida jet crash"
    ],
-   "places": [],
+   "places": [
+    "nine"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -1044,14 +1022,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Nine killed in 'horrific' Florida jet crash",
+     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-01T22:19:19+00:00"
+     "at": "2026-11-01T23:15:56+00:00"
     },
     {
      "title": "Nine die as business jet crashes on Florida roadside",
@@ -1258,5 +1236,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 694 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 690 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }
