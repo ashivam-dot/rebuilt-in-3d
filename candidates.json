@@ -1,12 +1,12 @@
 {
- "at": "2026-11-01T03:04:39+00:00",
+ "at": "2026-11-01T03:35:28+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 2132386,
-   "views": 1882386,
+   "fame": 700119,
+   "views": 450119,
    "traffic": 0,
    "news": 250000,
    "news_at": "2026-10-31T22:01:00+00:00",
@@ -16,7 +16,7 @@
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-30",
+    "wikipedia-top-2026-10-31",
     "google-news:Patrick Stewart dies at 86: A look at his three marriages, wife Sunny Ozell, two children and four grandc",
     "google-news:'Green Room' Writer/Director Says Patrick Stewart \"Saved The Day\""
    ],
@@ -30,8 +30,8 @@
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
-   "fame": 150000,
-   "views": 0,
+   "fame": 318695,
+   "views": 168695,
    "traffic": 0,
    "news": 150000,
    "news_at": "2026-10-31T13:54:38+00:00",
@@ -41,6 +41,7 @@
    ],
    "region": "india",
    "via": [
+    "wikipedia-top-2026-10-31",
     "google-news:Sanjay Gupta, Indian Director of ‘Kaante’ and ‘Zinda,’ Dies at 59",
     "google-news:Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
     "outlet:HT Media"
@@ -222,84 +223,19 @@
   {
    "qid": "Q376176",
    "title": "Walter Koenig",
-   "fame": 61127,
-   "views": 61127,
+   "fame": 26577,
+   "views": 26577,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-30"
+    "wikipedia-top-2026-10-31"
    ],
    "owners": [],
    "reports": [],
    "id": "wk-Q376176",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
-  },
-  {
-   "qid": "Q241115",
-   "title": "Elke Sommer",
-   "fame": 60095,
-   "views": 60095,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q241115",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 33457,
-   "views": 33457,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q5386105",
-   "title": "Eric Bauza",
-   "fame": 26077,
-   "views": 26077,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5386105",
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
@@ -352,17 +288,102 @@
    "date": "2026-10-27"
   },
   {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 24708,
-   "views": 24708,
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 22291,
+   "views": 22291,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-30"
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5386105",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
+  {
+   "qid": "Q241115",
+   "title": "Elke Sommer",
+   "fame": 21403,
+   "views": 21403,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q241115",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 17408,
+   "views": 17408,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q922837",
+   "title": "Cuauhtémoc Cárdenas",
+   "fame": 15665,
+   "views": 15665,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q922837",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
+  },
+  {
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 12255,
+   "views": 12255,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
    ],
    "owners": [],
    "reports": [],
@@ -372,17 +393,77 @@
    "date": "2026-10-26"
   },
   {
-   "qid": "Q468843",
-   "title": "Dolores Huerta",
-   "fame": 19694,
-   "views": 19694,
+   "qid": "Q965634",
+   "title": "Mišo Kovač",
+   "fame": 11959,
+   "views": 11959,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-30"
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q965634",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
+  },
+  {
+   "qid": "Q983618",
+   "title": "Dónal Lunny",
+   "fame": 10918,
+   "views": 10918,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q983618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-23"
+  },
+  {
+   "qid": "Q5103870",
+   "title": "Choi Bool-am",
+   "fame": 10045,
+   "views": 10045,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5103870",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-29"
+  },
+  {
+   "qid": "Q468843",
+   "title": "Dolores Huerta",
+   "fame": 9129,
+   "views": 9129,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
    ],
    "owners": [],
    "reports": [],
@@ -392,59 +473,17 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 16034,
-   "views": 16034,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q7197456",
-   "title": "Pipo Nguyen-duy",
-   "fame": 12560,
-   "views": 12560,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7197456",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
    "qid": "Q5296666",
    "title": "Donnie Iris",
-   "fame": 9351,
-   "views": 9351,
+   "fame": 8464,
+   "views": 8464,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-30"
+    "wikipedia-top-2026-10-31"
    ],
    "owners": [],
    "reports": [],
@@ -452,26 +491,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-26"
-  },
-  {
-   "qid": "Q5103870",
-   "title": "Choi Bool-am",
-   "fame": 7724,
-   "views": 7724,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-30"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5103870",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-29"
   }
  ],
  "hazards": [
@@ -491,8 +510,8 @@
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
-   "fame": 150000,
-   "views": 0,
+   "fame": 318695,
+   "views": 168695,
    "traffic": 0,
    "news": 150000,
    "news_at": "2026-10-31T13:54:38+00:00",
@@ -502,6 +521,7 @@
    ],
    "region": "india",
    "via": [
+    "wikipedia-top-2026-10-31",
     "google-news:Sanjay Gupta, Indian Director of ‘Kaante’ and ‘Zinda,’ Dies at 59",
     "google-news:Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
     "outlet:HT Media"
@@ -525,10 +545,30 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-30"
+  },
+  {
+   "qid": "Q965634",
+   "title": "Mišo Kovač",
+   "fame": 11959,
+   "views": 11959,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q965634",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
   }
  ],
  "outlets": {
-  "headlines": 686,
+  "headlines": 681,
   "feeds": 29,
   "owners": 21,
   "matched": 27,
@@ -613,5 +653,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 686 headlines from 29 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest"
+ "outlet_note": "outlets: 681 headlines from 29 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest"
 }
