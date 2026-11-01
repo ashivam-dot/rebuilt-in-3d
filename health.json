@@ -1,12 +1,13 @@
 {
- "at": "2026-11-01T17:22:09+00:00",
+ "at": "2026-11-01T17:54:34+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 69 units today",
-  "watch: 1 candidates (0 quakes, 21 trending), 2 hazard alerts",
-  "outlets: 689 headlines from 29 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-embassy-protest",
-  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 147 people)']",
-  "skip wk-Q141717158-2026w44: gate: no draft passed the fact checks: a MAP may stand only under one beat whose point is where it happened, naming that place and nobody else, and never beat 1",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 70 units today",
+  "watch: 3 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 691 headlines from 29 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest",
+  "hold wp-2026_Bangladesh_garment_sector_minimum_wage_protests: outside the india window",
+  "hold wk-Q141717158-2026w44: outside the india window",
+  "skip nw-20261031-london-protest: gate: faceless: no free photo shows London or the event itself (only 2 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
