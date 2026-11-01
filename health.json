@@ -1,13 +1,12 @@
 {
- "at": "2026-11-01T22:08:03+00:00",
+ "at": "2026-11-01T22:39:52+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
-  "watch: 3 candidates (0 quakes, 25 trending), 2 hazard alerts",
-  "outlets: 701 headlines from 29 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
+  "learn: 55 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 22, 'lift': 1.248, 'typical_views_24h': 348, 'n_retention': 21, 'typical_view_pct': 51.8}, 'kind:incident': {'n': 25, 'lift': 0.962, 'typical_views_24h': 174, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 21, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 80 units today",
+  "watch: 2 candidates (0 quakes, 23 trending), 2 hazard alerts",
+  "outlets: 696 headlines from 29 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
   "hold wk-Q644401: outside the india window",
-  "hold wk-Q141717158-2026w44: outside the india window",
-  "wait wp-2026_Palm_Beach_plane_crash: gate: the article is under 6 hours old; facts may still move (ready in 5.8 h)",
-  "nothing eligible to publish"
+  "hold wk-Q141717158-2026w44: outside the india window"
  ]
 }
