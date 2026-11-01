@@ -1,22 +1,19 @@
 {
- "at": "2026-11-01T00:05:03+00:00",
+ "at": "2026-11-01T00:29:20+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 2007386,
+   "fame": 1882386,
    "views": 1882386,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-10-31T22:01:00+00:00",
-   "headlines": [
-    "'Green Room' Writer/Director Says Patrick Stewart \"Saved The Day\""
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-30",
-    "google-news:'Green Room' Writer/Director Says Patrick Stewart \"Saved The Day\""
+    "wikipedia-top-2026-10-30"
    ],
    "owners": [],
    "reports": [],
@@ -117,83 +114,6 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "id": "nw-20261031-halloween-protest",
-   "qid": null,
-   "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-   "name": "Halloween",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "news_at": "2026-10-31T18:23:31+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Independent Digital News",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-    "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets"
-   ],
-   "places": [
-    "Promises",
-    "Mid",
-    "Term"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261031-halloween-protests-french-promises-us-mid-term-mood-what-now-for-israel",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-31T00:30:13+00:00"
-    },
-    {
-     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:23:31+00:00"
-    },
-    {
-     "title": "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-     "url": "https://www.independent.co.uk/news/world/europe/germany-protests-berlin-france-spain-b3076845.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T14:55:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "id": "nw-20261031-london-protest",
@@ -541,90 +461,13 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 703,
+  "headlines": 695,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 3
+  "matched": 25,
+  "corroborated": 2
  },
  "emerging": [
-  {
-   "id": "nw-20261031-halloween-protest",
-   "qid": null,
-   "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-   "name": "Halloween",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-10-31",
-   "news_at": "2026-10-31T18:23:31+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Independent Digital News",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-    "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-    "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets"
-   ],
-   "places": [
-    "Promises",
-    "Mid",
-    "Term"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261031-halloween-protests-french-promises-us-mid-term-mood-what-now-for-israel",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-10-31T00:30:13+00:00"
-    },
-    {
-     "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-     "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T18:23:31+00:00"
-    },
-    {
-     "title": "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-     "url": "https://www.independent.co.uk/news/world/europe/germany-protests-berlin-france-spain-b3076845.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-10-31T14:55:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261031-london-protest",
    "qid": null,
@@ -703,5 +546,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 703 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-halloween-protest, nw-20261031-london-protest"
+ "outlet_note": "outlets: 695 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest"
 }
