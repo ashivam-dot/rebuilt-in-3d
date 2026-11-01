@@ -1,12 +1,11 @@
 {
- "at": "2026-11-01T14:21:11+00:00",
+ "at": "2026-11-01T14:53:19+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 63 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 64 units today",
   "watch: 1 candidates (0 quakes, 19 trending), 2 hazard alerts",
-  "outlets: 660 headlines from 29 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.7 h ago, 147 people)\"]",
-  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 2.6 h)",
+  "outlets: 665 headlines from 29 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 2.1 h)",
   "nothing eligible to publish"
  ]
 }
