@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T20:41:27+00:00",
+ "at": "2026-11-01T21:08:34+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,45 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-01T14:31:49+00:00",
+   "headlines": [
+    "French high school blockades to restart on Monday, student unions say"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-10-31",
+    "google-news:French high school blockades to restart on Monday, student unions say",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "French high school blockades to restart on Monday, student unions say",
+     "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T14:31:49+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w44",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q644401",
@@ -60,93 +99,56 @@
    "date": "2026-10-30"
   },
   {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
    "fame": 175000,
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-01T20:33:11+00:00",
+   "news_at": "2026-11-01T21:12:05.737947+00:00",
    "headlines": [
-    "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-    "Ireland’s European athletics champion Ciara Mageean dies aged 34"
+    "Punjab polls: In a blow to AAP, 2 MLAs, Chetan Singh Jouramajra and Harmeet Singh Pathanmajra, quit party",
+    "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+    "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-    "google-news:Ireland’s European athletics champion Ciara Mageean dies aged 34",
-    "outlet:BBC",
-    "outlet:Al Jazeera Media Network"
+    "google-news:Punjab polls: In a blow to AAP, 2 MLAs, Chetan Singh Jouramajra and Harmeet Singh Pathanmajra, quit party",
+    "google-news:AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+    "google-news:Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
+    "outlet:Government of India",
+    "outlet:HT Media"
    ],
    "owners": [
-    "BBC",
-    "Al Jazeera Media Network"
+    "Government of India",
+    "HT Media"
    ],
    "reports": [
     {
-     "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-     "url": "https://www.bbc.co.uk/news/articles/cj3vqy1g3eygo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
+     "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331268",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
      "lang": "en",
-     "at": "2026-11-01T20:33:11+00:00"
+     "at": "2026-11-01T21:12:05.737947+00:00"
     },
     {
-     "title": "Ireland’s European athletics champion Ciara Mageean dies aged 34",
-     "url": "https://www.aljazeera.com/sports/2026/11/1/irelands-european-athletics-champion-ciara-mageean-dies-aged-34?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
+     "url": "https://www.hindustantimes.com/india-news/op-sindoor-drew-non-negotiable-red-line-on-terrorism-rajnath-singh-101793516624962.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-01T13:43:57+00:00"
+     "at": "2026-11-01T07:03:44+00:00"
     }
    ],
-   "id": "wk-Q2913482",
+   "id": "wk-Q4834146",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-01T14:31:49+00:00",
-   "headlines": [
-    "French high school blockades to restart on Monday, student unions say"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-31",
-    "google-news:French high school blockades to restart on Monday, student unions say",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "French high school blockades to restart on Monday, student unions say",
-     "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T14:31:49+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": true
+   "date": "2026-10-27"
   },
   {
    "id": "nw-20261031-london-protest",
@@ -237,6 +239,82 @@
    "article": null
   },
   {
+   "id": "nw-20261101-lisbon-protest",
+   "qid": null,
+   "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+   "name": "Lisbon",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T20:31:17+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Violence in Lisbon as police move in to clear housing protest camp",
+    "Portugal police storm housing protest camps in Lisbon, Porto",
+    "Police clash with housing crisis protesters in Portugal"
+   ],
+   "places": [
+    "Portugal",
+    "Porto"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+     "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T11:20:00+00:00"
+    },
+    {
+     "title": "Police clash with housing crisis protesters in Portugal",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/police-clash-with-housing-crisis-protesters-in-portugal?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T20:31:17+00:00"
+    },
+    {
+     "title": "Violence in Lisbon as police move in to clear housing protest camp",
+     "url": "https://www.independent.co.uk/news/world/europe/lisbon-protest-housing-portugal-rossio-square-b3077045.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T10:23:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q123521174",
    "title": "Gaza war protests in the United Kingdom",
    "fame": 50000,
@@ -265,7 +343,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T20:41:27.402797+00:00",
+   "news_at": "2026-11-01T21:08:34.024155+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -287,7 +365,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T20:41:27.402797+00:00",
+   "news_at": "2026-11-01T21:08:34.024155+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -301,56 +379,6 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-01T20:45:05.573633+00:00",
-   "headlines": [
-    "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
-    "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
-    "google-news:Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
-    "outlet:Government of India",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "Government of India",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331268",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
-     "lang": "en",
-     "at": "2026-11-01T20:45:05.573633+00:00"
-    },
-    {
-     "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
-     "url": "https://www.hindustantimes.com/india-news/op-sindoor-drew-non-negotiable-red-line-on-terrorism-rajnath-singh-101793516624962.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-01T07:03:44+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
   },
   {
    "qid": "Q376176",
@@ -371,6 +399,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-01T20:33:11+00:00",
+   "headlines": [
+    "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
+     "url": "https://www.bbc.co.uk/news/articles/cj3vqy1g3eygo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T20:33:11+00:00"
+    }
+   ],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
   },
   {
    "qid": "Q366714",
@@ -677,13 +741,89 @@
    "date": "2026-10-30"
   },
   {
+   "id": "nw-20261101-lisbon-protest",
+   "qid": null,
+   "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+   "name": "Lisbon",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T20:31:17+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Violence in Lisbon as police move in to clear housing protest camp",
+    "Portugal police storm housing protest camps in Lisbon, Porto",
+    "Police clash with housing crisis protesters in Portugal"
+   ],
+   "places": [
+    "Portugal",
+    "Porto"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+     "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T11:20:00+00:00"
+    },
+    {
+     "title": "Police clash with housing crisis protesters in Portugal",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/police-clash-with-housing-crisis-protesters-in-portugal?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T20:31:17+00:00"
+    },
+    {
+     "title": "Violence in Lisbon as police move in to clear housing protest camp",
+     "url": "https://www.independent.co.uk/news/world/europe/lisbon-protest-housing-portugal-rossio-square-b3077045.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T10:23:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T20:41:27.402797+00:00",
+   "news_at": "2026-11-01T21:08:34.024155+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -697,52 +837,16 @@
    "date": "2026-11-01",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q366714",
-   "title": "Juan Atkins",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-01T18:31:22+00:00",
-   "headlines": [
-    "Juan Atkins, pioneer of Detroit techno sound, dies aged 64"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Juan Atkins, pioneer of Detroit techno sound, dies aged 64",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Juan Atkins, pioneer of Detroit techno sound, dies aged 64",
-     "url": "https://www.theguardian.com/music/2026/nov/01/juan-atkins-pioneer-of-detroit-techno-sound-dies-aged-64",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-01T18:31:22+00:00"
-    }
-   ],
-   "id": "wk-Q366714",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
   }
  ],
  "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 152 people)"
+  "wikidata recent deaths: HTTP 429 (used the list from 1.0 h ago, 152 people)"
  ],
  "outlets": {
-  "headlines": 703,
+  "headlines": 702,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
+  "matched": 31,
   "corroborated": 3
  },
  "emerging": [
@@ -833,7 +937,83 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261101-lisbon-protest",
+   "qid": null,
+   "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+   "name": "Lisbon",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T20:31:17+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Violence in Lisbon as police move in to clear housing protest camp",
+    "Portugal police storm housing protest camps in Lisbon, Porto",
+    "Police clash with housing crisis protesters in Portugal"
+   ],
+   "places": [
+    "Portugal",
+    "Porto"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+     "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T11:20:00+00:00"
+    },
+    {
+     "title": "Police clash with housing crisis protesters in Portugal",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/police-clash-with-housing-crisis-protesters-in-portugal?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T20:31:17+00:00"
+    },
+    {
+     "title": "Violence in Lisbon as police move in to clear housing protest camp",
+     "url": "https://www.independent.co.uk/news/world/europe/lisbon-protest-housing-portugal-rossio-square-b3077045.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T10:23:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 703 headlines from 29 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest"
+ "outlet_note": "outlets: 702 headlines from 29 feeds (21 owners), 31 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }
