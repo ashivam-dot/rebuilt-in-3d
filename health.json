@@ -1,13 +1,14 @@
 {
- "at": "2026-11-01T20:09:33+00:00",
+ "at": "2026-11-01T20:41:25+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 75 units today",
-  "watch: 3 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 704 headlines from 29 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 76 units today",
+  "watch: 3 candidates (0 quakes, 21 trending), 2 hazard alerts",
+  "outlets: 703 headlines from 29 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-london-protest",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 152 people)\"]",
   "hold wk-Q644401: outside the india window",
   "hold wk-Q141717158-2026w44: outside the india window",
-  "skip wk-Q965634: gate: only 2 usable photos of Mišo Kovač on Wikimedia Commons (want 4)",
+  "skip wk-Q366714: gate: only 1 usable photos of Juan Atkins on Wikimedia Commons (want 4)",
   "nothing eligible to publish"
  ]
 }
