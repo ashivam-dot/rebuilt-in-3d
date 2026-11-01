@@ -1,9 +1,12 @@
 {
- "at": "2026-11-01T04:35:25+00:00",
+ "at": "2026-11-01T05:05:53+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 29 units today",
-  "watch: 0 candidates (0 quakes, 17 trending), 1 hazard alerts",
-  "outlets: 680 headlines from 29 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-halloween-protest"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 30 units today",
+  "watch: 1 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 672 headlines from 29 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261031-halloween-protest",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 146 people)\"]",
+  "skip wk-Q141947331: gate: only 0 usable photos of 2026 Uttarakhand helicopter crash show the aircraft, its line or a station or port (want 2)",
+  "nothing eligible to publish"
  ]
 }
