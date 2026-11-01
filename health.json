@@ -1,13 +1,13 @@
 {
- "at": "2026-11-01T11:37:04+00:00",
+ "at": "2026-11-01T12:06:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 57 units today",
-  "watch: 3 candidates (0 quakes, 20 trending), 2 hazard alerts",
-  "outlets: 652 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-portugal-protest",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.0 h ago, 147 people)\"]",
-  "hold wp-2026_Bangladesh_garment_sector_minimum_wage_protests: last Short went out 0.3 h ago",
-  "hold nw-20261101-portugal-protest: last Short went out 0.3 h ago",
-  "hold wk-Q123521174-2026w44: last Short went out 0.3 h ago"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 58 units today",
+  "watch: 2 candidates (0 quakes, 19 trending), 2 hazard alerts",
+  "outlets: 654 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 1.5 h ago, 147 people)']",
+  "wait wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: the article is under 6 hours old; facts may still move (ready in 4.8 h)",
+  "skip wk-Q123521174-2026w44: gate: faceless: no free photo shows Gaza war protests in the United Kingdom or the event itself (only 8 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
