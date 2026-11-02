@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T10:03:38+00:00",
+ "at": "2026-11-02T10:26:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -33,29 +33,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 223434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T06:43:00+00:00",
-   "headlines": [
-    "Sanjay Gupta’s wife Anuradha REACTS to daughter’s viral middle finger video, urges privacy for grieving children"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Sanjay Gupta’s wife Anuradha REACTS to daughter’s viral middle finger video, urges privacy for grieving children"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
    "qid": "Q16296",
    "title": "Patrick Stewart",
    "fame": 205436,
@@ -74,46 +51,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": null,
-   "title": "2026 Bangladesh garment sector minimum wage protests",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-02T07:08:28+00:00",
-   "headlines": [
-    "Bangladesh sets up wage board as garment workers' unrest shuts factories",
-    "Bangladesh garment factories disrupted as protests continue for third day"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories",
-    "google-news:Bangladesh garment factories disrupted as protests continue for third day",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "owners": [
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh garment factories disrupted as protests continue for third day",
-     "url": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T07:08:28+00:00"
-    }
-   ],
-   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261101-florida-aviation",
@@ -261,6 +198,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-01"
+  },
+  {
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 98434,
+   "views": 98434,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
   },
   {
    "qid": "Q141966885",
@@ -452,7 +409,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T10:04:58.434805+00:00",
+   "news_at": "2026-11-02T10:29:51.627699+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026"
    ],
@@ -473,7 +430,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T10:04:58.434805+00:00"
+     "at": "2026-11-02T10:29:51.627699+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -709,11 +666,14 @@
    "date": "2026-11-01"
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.4 h ago, 143 people)"
+ ],
  "outlets": {
   "headlines": 708,
   "feeds": 29,
   "owners": 21,
-  "matched": 32,
+  "matched": 28,
   "corroborated": 1
  },
  "emerging": [
@@ -845,5 +805,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 708 headlines from 29 feeds (21 owners), 32 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
+ "outlet_note": "outlets: 708 headlines from 29 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
 }
