@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T22:27:33+00:00",
+ "at": "2026-11-02T22:58:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,50 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach County Learjet 60 crash",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-02T22:17:47+00:00",
+   "headlines": [
+    "20-Year-Old Co-Pilot Died In Florida Learjet Crash That Killed 9, Family Says",
+    "Learjet may have been breaking up before it crashed in Florida, NTSB says"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-01",
+    "google-news:20-Year-Old Co-Pilot Died In Florida Learjet Crash That Killed 9, Family Says",
+    "google-news:Learjet may have been breaking up before it crashed in Florida, NTSB says",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Learjet may have been breaking up before it crashed in Florida, NTSB says",
+     "url": "https://abcnews.com/US/learjet-breaking-crashed-florida-ntsb/story?id=137781527",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T22:17:47+00:00"
+    }
+   ],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141790807",
@@ -380,55 +424,13 @@
    "date": "2026-10-25"
   },
   {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 26000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 25000,
-   "news_at": "2026-11-02T13:56:49+00:00",
-   "headlines": [
-    "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-US:accidente",
-    "google-news:Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-     "url": "https://www.cbsnews.com/news/texas-jet-florida-crash-11-1-2026/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T13:56:49+00:00"
-    }
-   ],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q4834146",
    "title": "B. P. Singh",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T22:28:33.914157+00:00",
+   "news_at": "2026-11-02T22:59:31.533958+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -449,7 +451,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T22:28:33.914157+00:00"
+     "at": "2026-11-02T22:59:31.533958+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -676,10 +678,10 @@
   }
  ],
  "outlets": {
-  "headlines": 770,
+  "headlines": 769,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 33,
   "corroborated": 2
  },
  "emerging": [
@@ -862,5 +864,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 770 headlines from 30 feeds (21 owners), 36 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 769 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
