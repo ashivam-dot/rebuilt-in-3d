@@ -1,19 +1,20 @@
 {
- "at": "2026-11-02T21:27:57+00:00",
+ "at": "2026-11-02T21:59:39+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 205436,
+   "fame": 207436,
    "views": 205436,
-   "traffic": 0,
+   "traffic": 2000,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-01",
+    "google-trends-US:gates mcfadden"
    ],
    "owners": [],
    "reports": [],
@@ -29,7 +30,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-02T05:20:49+00:00",
+   "news_at": "2026-11-02T00:00:00+00:00",
    "headlines": [
     "Clashes broke out in Portugal as police stormed housing protest camps in Lisbon and Porto"
    ],
@@ -127,24 +128,28 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-02T19:58:34+00:00",
+   "news_at": "2026-11-02T21:52:26+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
-    "Guardian Media Group",
-    "BBC"
+    "BBC",
+    "Al Jazeera Media Network",
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Dashcam captures deadly private jet crash in Florida",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
-    "Copilot in deadly Florida jet crash identified in reports as 20-year-old"
+    "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+    "‘Work to do’: Authorities give update on Florida private jet crash",
+    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash"
    ],
-   "places": [],
+   "places": [
+    "Authorities"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -173,7 +178,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T19:37:00+00:00"
+     "at": "2026-11-02T21:52:26+00:00"
+    },
+    {
+     "title": "‘Work to do’: Authorities give update on Florida private jet crash",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/work-to-do-authorities-give-update-on-florida-private-jet-crash?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T21:23:31+00:00"
     },
     {
      "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
@@ -199,8 +214,9 @@
    "via": [
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -268,6 +284,83 @@
    "has_coords": true
   },
   {
+   "id": "nw-20261102-supermarkets-cyberattack",
+   "qid": null,
+   "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+   "name": "Supermarkets",
+   "kind": "incident",
+   "category": "cyberattack",
+   "date": "2026-11-02",
+   "news_at": "2026-11-02T20:40:02+00:00",
+   "owners": [
+    "NBCUniversal",
+    "NDTV",
+    "SCMP Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Supermarkets across Europe hit by new fridge cyberattacks",
+    "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
+    "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’"
+   ],
+   "places": [
+    "Disrupts",
+    "fridge",
+    "across"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+     "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T14:18:58+00:00"
+    },
+    {
+     "title": "Supermarkets across Europe hit by new fridge cyberattacks",
+     "url": "https://www.nbcnews.com/world/europe/european-supermarkets-hit-new-fridge-cyberattack-rcna606972",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T11:56:47+00:00"
+    },
+    {
+     "title": "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
+     "url": "https://www.ndtv.com/world-news/cyberattack-disrupts-supermarket-fridges-across-9-european-countries-12273675#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T20:40:02+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:NDTV",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
@@ -332,16 +425,17 @@
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 25000,
+   "fame": 25100,
    "views": 0,
-   "traffic": 0,
+   "traffic": 100,
    "news": 25000,
-   "news_at": "2026-11-02T21:31:16.976995+00:00",
+   "news_at": "2026-11-02T22:00:50.016806+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
    "region": "india",
    "via": [
+    "google-trends-IN:honey singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
     "outlet:Government of India"
    ],
@@ -357,7 +451,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T21:31:16.976995+00:00"
+     "at": "2026-11-02T22:00:50.016806+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -544,26 +638,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-31"
-  },
-  {
-   "qid": "Q401911",
-   "title": "Ahmet Nazif Zorlu",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:ahmet nazif zorlu"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q401911",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-02"
   }
  ],
  "hazards": [
@@ -580,6 +654,83 @@
   }
  ],
  "candidates": [
+  {
+   "id": "nw-20261102-supermarkets-cyberattack",
+   "qid": null,
+   "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+   "name": "Supermarkets",
+   "kind": "incident",
+   "category": "cyberattack",
+   "date": "2026-11-02",
+   "news_at": "2026-11-02T20:40:02+00:00",
+   "owners": [
+    "NBCUniversal",
+    "NDTV",
+    "SCMP Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Supermarkets across Europe hit by new fridge cyberattacks",
+    "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
+    "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’"
+   ],
+   "places": [
+    "Disrupts",
+    "fridge",
+    "across"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+     "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T14:18:58+00:00"
+    },
+    {
+     "title": "Supermarkets across Europe hit by new fridge cyberattacks",
+     "url": "https://www.nbcnews.com/world/europe/european-supermarkets-hit-new-fridge-cyberattack-rcna606972",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T11:56:47+00:00"
+    },
+    {
+     "title": "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
+     "url": "https://www.ndtv.com/world-news/cyberattack-disrupts-supermarket-fridges-across-9-european-countries-12273675#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T20:40:02+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:NDTV",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
@@ -601,34 +752,14 @@
    "date": "2026-11-02",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q401911",
-   "title": "Ahmet Nazif Zorlu",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:ahmet nazif zorlu"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q401911",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-02"
   }
  ],
  "outlets": {
-  "headlines": 764,
+  "headlines": 769,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 1
+  "matched": 41,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -639,24 +770,28 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-02T19:58:34+00:00",
+   "news_at": "2026-11-02T21:52:26+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
-    "Guardian Media Group",
-    "BBC"
+    "BBC",
+    "Al Jazeera Media Network",
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Dashcam captures deadly private jet crash in Florida",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
-    "Copilot in deadly Florida jet crash identified in reports as 20-year-old"
+    "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+    "‘Work to do’: Authorities give update on Florida private jet crash",
+    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash"
    ],
-   "places": [],
+   "places": [
+    "Authorities"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -685,7 +820,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T19:37:00+00:00"
+     "at": "2026-11-02T21:52:26+00:00"
+    },
+    {
+     "title": "‘Work to do’: Authorities give update on Florida private jet crash",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/work-to-do-authorities-give-update-on-florida-private-jet-crash?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T21:23:31+00:00"
     },
     {
      "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
@@ -711,12 +856,90 @@
    "via": [
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261102-supermarkets-cyberattack",
+   "qid": null,
+   "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+   "name": "Supermarkets",
+   "kind": "incident",
+   "category": "cyberattack",
+   "date": "2026-11-02",
+   "news_at": "2026-11-02T20:40:02+00:00",
+   "owners": [
+    "NBCUniversal",
+    "NDTV",
+    "SCMP Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Supermarkets across Europe hit by new fridge cyberattacks",
+    "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
+    "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’"
+   ],
+   "places": [
+    "Disrupts",
+    "fridge",
+    "across"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+     "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T14:18:58+00:00"
+    },
+    {
+     "title": "Supermarkets across Europe hit by new fridge cyberattacks",
+     "url": "https://www.nbcnews.com/world/europe/european-supermarkets-hit-new-fridge-cyberattack-rcna606972",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T11:56:47+00:00"
+    },
+    {
+     "title": "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
+     "url": "https://www.ndtv.com/world-news/cyberattack-disrupts-supermarket-fridges-across-9-european-countries-12273675#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T20:40:02+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:NDTV",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 34 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 769 headlines from 30 feeds (21 owners), 41 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
