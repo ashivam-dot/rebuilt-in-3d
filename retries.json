@@ -833,19 +833,27 @@
   "kind": "incident"
  },
  "wk-Q7612484": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: only 1 usable photos of Steve Ellis on Wikimedia Commons (want 4)",
-  "at": "2026-11-02T08:03:46+00:00",
+  "at": "2026-11-02T11:54:11+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
  },
  "wk-Q7917881": {
-  "count": 5,
+  "count": 6,
   "reason": "gate: the article has no infobox to confirm the death",
-  "at": "2026-11-02T11:02:32+00:00",
+  "at": "2026-11-02T11:54:08+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "wk-Q141615137-2026w45": {
+  "count": 1,
+  "reason": "gate: no draft passed the fact checks: beat 3, 4, 8 name(s) nothing its photo shows (only 66% of the script shows what it says; want 70%): in each, name who or what a photo shows (Laurent Nuñez, Emmanuel Macron, Raphaël Glucksmann), or say what an EVENT photo itself shows (the words of its descripti",
+  "at": "2026-11-02T11:54:06+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }
