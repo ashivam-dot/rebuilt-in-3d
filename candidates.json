@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T01:09:22+00:00",
+ "at": "2026-11-02T01:39:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,34 +23,30 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 267408,
-   "views": 17408,
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-11-01T17:05:18+00:00",
+   "news_at": "2026-11-01T08:15:57+00:00",
    "headlines": [
-    "Cambridge scientist dies in Spanish train crash",
-    "University of Cambridge scientist among victims of deadly Spain train crash"
+    "Bangladesh forms wage board as garment workers protest",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31",
-    "google-news:Cambridge scientist dies in Spanish train crash",
-    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
+    "google-news:Bangladesh forms wage board as garment workers protest",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141898879",
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
    "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
+   "category": "protest",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q644401",
@@ -237,6 +233,34 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 142408,
+   "views": 17408,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-01T17:05:18+00:00",
+   "headlines": [
+    "Cambridge scientist dies in Spanish train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31",
+    "google-news:Cambridge scientist dies in Spanish train crash"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q366714",
@@ -444,7 +468,7 @@
    "category": "aviation",
    "date": "2026-11-01",
    "coords": [
-    26.63277778,
+    26.63305556,
     -80.11305556
    ],
    "has_coords": true
@@ -500,14 +524,14 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T01:09:48.692474+00:00",
+   "news_at": "2026-11-02T01:39:55.387781+00:00",
    "headlines": [
-    "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+    "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
    ],
    "region": "india",
    "via": [
-    "google-news:AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
+    "google-news:Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
     "google-news:Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
     "outlet:Government of India",
     "outlet:HT Media"
@@ -518,6 +542,16 @@
    ],
    "reports": [
     {
+     "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331374",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-02T01:39:55.387781+00:00"
+    },
+    {
      "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331268",
      "outlet": "PIB",
@@ -525,7 +559,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T01:09:48.692474+00:00"
+     "at": "2026-11-02T01:39:55.387781+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -562,42 +596,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
-  },
-  {
-   "qid": "Q3299104",
-   "title": "Jerry Koosman",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-01T18:50:43+00:00",
-   "headlines": [
-    "Jerry Koosman, hero of the 1969 'Miracle' Mets World Series championship run, dead at 83"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jerry Koosman, hero of the 1969 'Miracle' Mets World Series championship run, dead at 83",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Jerry Koosman, hero of the 1969 'Miracle' Mets World Series championship run, dead at 83",
-     "url": "https://www.foxnews.com/outkick-sports/jerry-koosman-hero-1969-miracle-mets-world-series-championship-run-dead-83",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T18:50:43+00:00"
-    }
-   ],
-   "id": "wk-Q3299104",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
   },
   {
    "qid": "Q5386105",
@@ -1062,7 +1060,7 @@
    "category": "aviation",
    "date": "2026-11-01",
    "coords": [
-    26.63277778,
+    26.63305556,
     -80.11305556
    ],
    "has_coords": true
@@ -1072,7 +1070,7 @@
   "headlines": 692,
   "feeds": 29,
   "owners": 21,
-  "matched": 43,
+  "matched": 45,
   "corroborated": 4
  },
  "emerging": [
@@ -1354,5 +1352,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 43 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 45 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }
