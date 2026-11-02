@@ -1,7 +1,33 @@
 {
- "at": "2026-11-02T12:40:51+00:00",
+ "at": "2026-11-02T13:11:40+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-02T07:18:58+00:00",
+   "headlines": [
+    "Bangladesh garment factories disrupted as protests continue for third day",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bangladesh garment factories disrupted as protests continue for third day",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
@@ -48,32 +74,42 @@
    "has_coords": false
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 139556,
-   "views": 14556,
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 150000,
+   "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T01:52:38+00:00",
+   "news": 150000,
+   "news_at": "2026-11-02T13:15:23.431043+00:00",
    "headlines": [
-    "Spain train crash: US, Japan and Canada citizens among dead, authorities say"
+    "King First Song Tu Mil Jaaye: Shah Rukh Khan, Deepika Padukone look electrifying in Ed Sheeran and Arijit Singh collab",
+    "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say"
+    "google-news:King First Song Tu Mil Jaaye: Shah Rukh Khan, Deepika Padukone look electrifying in Ed Sheeran and Arijit Singh collab",
+    "google-news:Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
+    "outlet:Government of India"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
+   "owners": [
+    "Government of India"
    ],
-   "has_coords": true
+   "reports": [
+    {
+     "title": "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331574",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-02T13:15:23.431043+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q2913482",
@@ -290,58 +326,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-02T11:39:22+00:00",
-   "headlines": [
-    "French school protests resume on small scale as students return from break",
-    "French school protests resume on smaller scale as holidays end"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:French school protests resume on small scale as students return from break",
-    "google-news:French school protests resume on smaller scale as holidays end",
-    "outlet:Al Jazeera Media Network",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "Al Jazeera Media Network",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "French school protests resume on small scale as students return from break",
-     "url": "https://www.aljazeera.com/news/2026/11/2/french-school-protests-resume-on-small-scale-as-students-return-from-break?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T11:39:22+00:00"
-    },
-    {
-     "title": "French school protests resume on smaller scale as holidays end",
-     "url": "https://www.scmp.com/news/world/europe/article/3373008/french-school-protests-resume-smaller-scale-holidays-end",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T11:13:04+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q366714",
    "title": "Juan Atkins",
    "fame": 49138,
@@ -397,78 +381,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
-  },
-  {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T12:44:05.134292+00:00",
-   "headlines": [
-    "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
-    "outlet:Government of India"
-   ],
-   "owners": [
-    "Government of India"
-   ],
-   "reports": [
-    {
-     "title": "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331574",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
-     "lang": "en",
-     "at": "2026-11-02T12:44:05.134292+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
-  },
-  {
-   "qid": "Q7917881",
-   "title": "Ved Rahi",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T09:18:16+00:00",
-   "headlines": [
-    "Sahitya Akademi pays tribute to veteran Dogri writer and filmmaker Ved Rahi"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Sahitya Akademi pays tribute to veteran Dogri writer and filmmaker Ved Rahi",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "Sahitya Akademi pays tribute to veteran Dogri writer and filmmaker Ved Rahi",
-     "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ved-rahi-passes-away-at-93-sahitya-akademi-pays-tribute-to-veteran-dogri-writer-and-filmmaker/articleshow/135453120.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T09:18:16+00:00"
-    }
-   ],
-   "id": "wk-Q7917881",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
   },
   {
    "qid": "Q16146453",
@@ -571,6 +483,31 @@
    "date": "2026-10-28"
   },
   {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 14556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q259559",
    "title": "Susan Saint James",
    "fame": 12471,
@@ -646,14 +583,14 @@
  ],
  "candidates": [],
  "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.7 h ago, 153 people)"
+  "wikidata recent deaths: HTTP 504 (used the list from 2.3 h ago, 153 people)"
  ],
  "outlets": {
   "headlines": 718,
   "feeds": 29,
   "owners": 21,
-  "matched": 31,
-  "corroborated": 2
+  "matched": 22,
+  "corroborated": 1
  },
  "emerging": [
   {
@@ -747,5 +684,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 718 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 718 headlines from 29 feeds (21 owners), 22 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
