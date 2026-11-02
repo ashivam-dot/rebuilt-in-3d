@@ -1,49 +1,45 @@
 {
- "at": "2026-11-02T02:54:42+00:00",
+ "at": "2026-11-02T03:24:20+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 450119,
-   "views": 450119,
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 288465,
+   "views": 138465,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 150000,
+   "news_at": "2026-11-01T23:31:31+00:00",
+   "headlines": [
+    "European champion Ciara Mageean dies aged 34 | ITV News",
+    "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-11-01",
+    "google-news:European champion Ciara Mageean dies aged 34 | ITV News",
+    "google-news:Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
+    "outlet:BBC"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16296",
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
+     "url": "https://www.bbc.co.uk/news/articles/cj3vqy1g3eygo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T23:31:31+00:00"
+    }
+   ],
+   "id": "wk-Q2913482",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-28"
-  },
-  {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 293695,
-   "views": 168695,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T03:36:30+00:00",
-   "headlines": [
-    "Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-31",
-    "google-news:Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
+   "date": "2026-11-01"
   },
   {
    "qid": null,
@@ -72,57 +68,65 @@
    "has_coords": false
   },
   {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 150000,
-   "views": 0,
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 223434,
+   "views": 98434,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-01T23:31:31+00:00",
+   "news": 125000,
+   "news_at": "2026-11-01T03:36:30+00:00",
    "headlines": [
-    "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
+    "Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-    "outlet:BBC"
+    "wikipedia-top-2026-11-01",
+    "google-news:Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-     "url": "https://www.bbc.co.uk/news/articles/cj3vqy1g3eygo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T23:31:31+00:00"
-    }
-   ],
-   "id": "wk-Q2913482",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q644401",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-01"
+   "date": "2026-10-30"
+  },
+  {
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 205436,
+   "views": 205436,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
   },
   {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
-   "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+   "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-02T00:34:22+00:00",
+   "news_at": "2026-11-02T02:59:02+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "ABC (Australia)",
-    "BBC",
     "France Médias Monde",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "NDTV",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
@@ -132,11 +136,13 @@
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine die as business jet crashes on Florida roadside",
-    "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
-    "Nine killed as business jet crashes into South Florida neighbourhood"
+    "Nine killed as business jet crashes into South Florida neighbourhood",
+    "Nine die in ‘cataclysmic’ Florida business jet crash"
    ],
    "places": [
-    "nine"
+    "nine",
+    "Going",
+    "business"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -149,6 +155,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T02:59:02+00:00"
+    },
+    {
      "title": "Nine killed as business jet crashes into South Florida neighbourhood",
      "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
      "outlet": "France 24",
@@ -157,16 +173,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-01T23:45:08+00:00"
-    },
-    {
-     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
-     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T23:15:56+00:00"
     },
     {
      "title": "Nine die as business jet crashes on Florida roadside",
@@ -207,40 +213,29 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-01T20:43:44+00:00"
+    },
+    {
+     "title": "\"We're Going To Crash\": 9 Killed As Business Jet Nose Dives In Florida",
+     "url": "https://www.ndtv.com/world-news/9-killed-after-private-jet-nosedives-erupts-into-fireball-in-florida-12268974#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T01:55:49+00:00"
     }
    ],
    "via": [
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
-    "outlet:BBC",
     "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 117255,
-   "views": 12255,
-   "traffic": 105000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31",
-    "google-trends-US:susan st james",
-    "google-trends-US:susan saint james cause of death"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q259559",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
   },
   {
    "id": "nw-20261031-london-protest",
@@ -482,7 +477,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T02:55:12.726125+00:00",
+   "news_at": "2026-11-02T03:24:56.680022+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -507,7 +502,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T02:55:12.726125+00:00"
+     "at": "2026-11-02T03:24:56.680022+00:00"
     },
     {
      "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
@@ -517,7 +512,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T02:55:12.726125+00:00"
+     "at": "2026-11-02T03:24:56.680022+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -536,37 +531,17 @@
    "date": "2026-10-27"
   },
   {
-   "qid": "Q376176",
-   "title": "Walter Koenig",
-   "fame": 26577,
-   "views": 26577,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q376176",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
-  },
-  {
    "qid": "Q5386105",
    "title": "Eric Bauza",
-   "fame": 22291,
-   "views": 22291,
+   "fame": 27849,
+   "views": 27849,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-11-01"
    ],
    "owners": [],
    "reports": [],
@@ -576,21 +551,121 @@
    "date": "2026-10-25"
   },
   {
-   "qid": "Q241115",
-   "title": "Elke Sommer",
-   "fame": 21403,
-   "views": 21403,
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 24138,
+   "views": 24138,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-11-01"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q241115",
+   "id": "wk-Q366714",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
+  },
+  {
+   "qid": "Q16146453",
+   "title": "Ate Gay",
+   "fame": 19518,
+   "views": 19518,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16146453",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q376176",
+   "title": "Walter Koenig",
+   "fame": 16706,
+   "views": 16706,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q376176",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
+  {
+   "qid": "Q3299104",
+   "title": "Jerry Koosman",
+   "fame": 15595,
+   "views": 15595,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3299104",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q1812342",
+   "title": "John Leeson",
+   "fame": 15197,
+   "views": 15197,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1812342",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q922837",
+   "title": "Cuauhtémoc Cárdenas",
+   "fame": 15029,
+   "views": 15029,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q922837",
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
@@ -598,15 +673,15 @@
   {
    "qid": "Q141898879",
    "title": "2026 Toledo train collision",
-   "fame": 17408,
-   "views": 17408,
+   "fame": 14556,
+   "views": 14556,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-11-01"
    ],
    "owners": [],
    "reports": [],
@@ -621,21 +696,41 @@
    "has_coords": true
   },
   {
-   "qid": "Q922837",
-   "title": "Cuauhtémoc Cárdenas",
-   "fame": 15665,
-   "views": 15665,
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 12471,
+   "views": 12471,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-11-01"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q922837",
+   "id": "wk-Q259559",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
+  },
+  {
+   "qid": "Q241115",
+   "title": "Elke Sommer",
+   "fame": 10001,
+   "views": 10001,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q241115",
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
@@ -643,15 +738,15 @@
   {
    "qid": "Q965634",
    "title": "Mišo Kovač",
-   "fame": 11959,
-   "views": 11959,
+   "fame": 8664,
+   "views": 8664,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-11-01"
    ],
    "owners": [],
    "reports": [],
@@ -659,86 +754,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-31"
-  },
-  {
-   "qid": "Q983618",
-   "title": "Dónal Lunny",
-   "fame": 10918,
-   "views": 10918,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q983618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-23"
-  },
-  {
-   "qid": "Q5103870",
-   "title": "Choi Bool-am",
-   "fame": 10045,
-   "views": 10045,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5103870",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-29"
-  },
-  {
-   "qid": "Q468843",
-   "title": "Dolores Huerta",
-   "fame": 9129,
-   "views": 9129,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q468843",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
-   "qid": "Q5296666",
-   "title": "Donnie Iris",
-   "fame": 8464,
-   "views": 8464,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5296666",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
   }
  ],
  "hazards": [],
@@ -746,8 +761,8 @@
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
-   "fame": 293695,
-   "views": 168695,
+   "fame": 223434,
+   "views": 98434,
    "traffic": 0,
    "news": 125000,
    "news_at": "2026-11-01T03:36:30+00:00",
@@ -756,7 +771,7 @@
    ],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-31",
+    "wikipedia-top-2026-11-01",
     "google-news:Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
    ],
    "owners": [],
@@ -765,32 +780,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-30"
-  },
-  {
-   "qid": null,
-   "title": "2026 Bangladesh garment sector minimum wage protests",
-   "fame": 250000,
-   "views": 0,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-01T09:05:00+00:00",
-   "headlines": [
-    "Violent protests rock Bangladesh garment hubs as workers demand a steep pay hike",
-    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Violent protests rock Bangladesh garment hubs as workers demand a steep pay hike",
-    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141717158",
@@ -838,32 +827,73 @@
     -80.11311111
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q16146453",
+   "title": "Ate Gay",
+   "fame": 19518,
+   "views": 19518,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16146453",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q1812342",
+   "title": "John Leeson",
+   "fame": 15197,
+   "views": 15197,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1812342",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
   }
  ],
  "outlets": {
-  "headlines": 699,
+  "headlines": 698,
   "feeds": 29,
   "owners": 21,
-  "matched": 41,
+  "matched": 36,
   "corroborated": 4
  },
  "emerging": [
   {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
-   "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+   "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-02T00:34:22+00:00",
+   "news_at": "2026-11-02T02:59:02+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "ABC (Australia)",
-    "BBC",
     "France Médias Monde",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "NDTV",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
@@ -873,11 +903,13 @@
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine die as business jet crashes on Florida roadside",
-    "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
-    "Nine killed as business jet crashes into South Florida neighbourhood"
+    "Nine killed as business jet crashes into South Florida neighbourhood",
+    "Nine die in ‘cataclysmic’ Florida business jet crash"
    ],
    "places": [
-    "nine"
+    "nine",
+    "Going",
+    "business"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -890,6 +922,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T02:59:02+00:00"
+    },
+    {
      "title": "Nine killed as business jet crashes into South Florida neighbourhood",
      "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
      "outlet": "France 24",
@@ -898,16 +940,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-01T23:45:08+00:00"
-    },
-    {
-     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
-     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T23:15:56+00:00"
     },
     {
      "title": "Nine die as business jet crashes on Florida roadside",
@@ -948,15 +980,26 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-01T20:43:44+00:00"
+    },
+    {
+     "title": "\"We're Going To Crash\": 9 Killed As Business Jet Nose Dives In Florida",
+     "url": "https://www.ndtv.com/world-news/9-killed-after-private-jet-nosedives-erupts-into-fireball-in-florida-12268974#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T01:55:49+00:00"
     }
    ],
    "via": [
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
-    "outlet:BBC",
     "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -1126,5 +1169,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 699 headlines from 29 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 698 headlines from 29 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }

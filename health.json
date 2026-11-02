@@ -1,14 +1,15 @@
 {
- "at": "2026-11-02T02:54:41+00:00",
+ "at": "2026-11-02T03:24:19+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 88 units today",
-  "watch: 4 candidates (0 quakes, 22 trending), 0 hazard alerts",
-  "outlets: 699 headlines from 29 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 89 units today",
+  "watch: 5 candidates (0 quakes, 22 trending), 0 hazard alerts",
+  "outlets: 698 headlines from 29 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
   "hold wk-Q644401: outside the india window",
   "hold wk-Q141717158-2026w45: outside the india window",
-  "skip wp-2026_Bangladesh_garment_sector_minimum_wage_protests: gate: only 3 usable photos of 2026 Bangladesh garment sector minimum wage protests on Wikimedia Commons (want 4)",
-  "wait wk-Q141966885: gate: the article is under 6 hours old; facts may still move (ready in 0.4 h)",
+  "skip wk-Q141966885: gate: only 2 usable photos of 2026 Palm Beach County Learjet 60 crash on Wikimedia Commons (want 4)",
+  "skip wk-Q16146453: gate: no photo on Wikimedia Commons shows Ate Gay's face (a tribute needs one)",
+  "skip wk-Q1812342: gate: only 2 usable photos of John Leeson on Wikimedia Commons (want 4)",
   "nothing eligible to publish"
  ]
 }
