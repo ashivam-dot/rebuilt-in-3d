@@ -1,30 +1,7 @@
 {
- "at": "2026-11-02T06:56:28+00:00",
+ "at": "2026-11-02T07:24:47+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 223434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T02:33:11+00:00",
-   "headlines": [
-    "Amitabh Bachchan mourns friend Sanjay Gupta's death, says unable to understand why all of this is happening | Bollywood"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Amitabh Bachchan mourns friend Sanjay Gupta's death, says unable to understand why all of this is happening | Bollywood"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
@@ -83,6 +60,46 @@
    "date": "2026-11-01"
   },
   {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-02T07:08:28+00:00",
+   "headlines": [
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories",
+    "Bangladesh garment factories disrupted as protests continue for third day"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories",
+    "google-news:Bangladesh garment factories disrupted as protests continue for third day",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment factories disrupted as protests continue for third day",
+     "url": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:08:28+00:00"
+    }
+   ],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
    "title": "Nine killed as small jet crashes on Florida street",
@@ -90,14 +107,14 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-02T04:41:10+00:00",
+   "news_at": "2026-11-02T07:12:55+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "France Médias Monde",
     "Al Jazeera Media Network",
-    "BBC",
-    "Independent Digital News"
+    "Independent Digital News",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
@@ -108,7 +125,7 @@
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine killed as business jet crashes into South Florida neighbourhood",
     "Nine die in ‘cataclysmic’ Florida business jet crash",
-    "Nine killed as small jet crashes on Florida street"
+    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball"
    ],
    "places": [],
    "attackers": [],
@@ -129,7 +146,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-02T02:59:02+00:00"
+     "at": "2026-11-02T07:12:55+00:00"
     },
     {
      "title": "Nine killed as business jet crashes into South Florida neighbourhood",
@@ -149,7 +166,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T04:41:10+00:00"
+     "at": "2026-11-02T06:56:09+00:00"
     },
     {
      "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
@@ -187,34 +204,108 @@
     "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
+    "outlet:Independent Digital News",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "qid": "Q1812342",
-   "title": "John Leeson",
-   "fame": 140197,
-   "views": 15197,
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 98434,
+   "views": 98434,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T20:58:08+00:00",
-   "headlines": [
-    "Doctor Who Actor John Leeson, Voice of K-9, Passes Away at Age 83"
-   ],
-   "region": "world",
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Doctor Who Actor John Leeson, Voice of K-9, Passes Away at Age 83"
+    "wikipedia-top-2026-11-01"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1812342",
+   "id": "wk-Q644401",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-01"
+   "date": "2026-10-30"
+  },
+  {
+   "id": "nw-20261101-florida-aviation",
+   "qid": null,
+   "title": "Dashcam captures deadly private jet crash in Florida",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "news_at": "2026-11-02T07:15:56+00:00",
+   "owners": [
+    "SCMP Group",
+    "NDTV",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "‘We’re out of time’: 9 dead as private jet crashes in fireball in Florida",
+    "\"Holy F**k, We're Out Of Time\": Pilot's Last Words Before Florida Jet Crash",
+    "Dashcam captures deadly private jet crash in Florida"
+   ],
+   "places": [
+    "We're",
+    "out",
+    "Time"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Dashcam captures deadly private jet crash in Florida",
+     "url": "https://www.euronews.com/2026/11/02/dashcam-captures-deadly-private-jet-crash-in-florida",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:15:56+00:00"
+    },
+    {
+     "title": "‘We’re out of time’: 9 dead as private jet crashes in fireball in Florida",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3372912/private-jet-carrying-9-crashes-florida-roadside-erupting-massive-fireball",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T21:31:36+00:00"
+    },
+    {
+     "title": "\"Holy F**k, We're Out Of Time\": Pilot's Last Words Before Florida Jet Crash",
+     "url": "https://www.ndtv.com/world-news/florida-jet-crash-news-mayday-calls-ice-warning-then-a-deadly-dive-florida-jets-final-moments-that-killed-9-12269126#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T04:21:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:NDTV",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q141966885",
@@ -292,7 +383,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T06:59:15.194988+00:00",
+   "news_at": "2026-11-02T07:26:03.498489+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -317,7 +408,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T06:59:15.194988+00:00"
+     "at": "2026-11-02T07:26:03.498489+00:00"
     },
     {
      "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
@@ -327,7 +418,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T06:59:15.194988+00:00"
+     "at": "2026-11-02T07:26:03.498489+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -463,6 +554,26 @@
    "date": "2026-11-01"
   },
   {
+   "qid": "Q1812342",
+   "title": "John Leeson",
+   "fame": 15197,
+   "views": 15197,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1812342",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
    "qid": "Q922837",
    "title": "Cuauhtémoc Cárdenas",
    "fame": 15029,
@@ -569,62 +680,13 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q1812342",
-   "title": "John Leeson",
-   "fame": 140197,
-   "views": 15197,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T20:58:08+00:00",
-   "headlines": [
-    "Doctor Who Actor John Leeson, Voice of K-9, Passes Away at Age 83"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Doctor Who Actor John Leeson, Voice of K-9, Passes Away at Age 83"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1812342",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 688,
+  "headlines": 692,
   "feeds": 29,
   "owners": 21,
-  "matched": 31,
-  "corroborated": 2
+  "matched": 28,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -635,14 +697,14 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-02T04:41:10+00:00",
+   "news_at": "2026-11-02T07:12:55+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "France Médias Monde",
     "Al Jazeera Media Network",
-    "BBC",
-    "Independent Digital News"
+    "Independent Digital News",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
@@ -653,7 +715,7 @@
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine killed as business jet crashes into South Florida neighbourhood",
     "Nine die in ‘cataclysmic’ Florida business jet crash",
-    "Nine killed as small jet crashes on Florida street"
+    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball"
    ],
    "places": [],
    "attackers": [],
@@ -674,7 +736,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-02T02:59:02+00:00"
+     "at": "2026-11-02T07:12:55+00:00"
     },
     {
      "title": "Nine killed as business jet crashes into South Florida neighbourhood",
@@ -694,7 +756,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T04:41:10+00:00"
+     "at": "2026-11-02T06:56:09+00:00"
     },
     {
      "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
@@ -732,12 +794,89 @@
     "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261101-florida-aviation",
+   "qid": null,
+   "title": "Dashcam captures deadly private jet crash in Florida",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "news_at": "2026-11-02T07:15:56+00:00",
+   "owners": [
+    "SCMP Group",
+    "NDTV",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "‘We’re out of time’: 9 dead as private jet crashes in fireball in Florida",
+    "\"Holy F**k, We're Out Of Time\": Pilot's Last Words Before Florida Jet Crash",
+    "Dashcam captures deadly private jet crash in Florida"
+   ],
+   "places": [
+    "We're",
+    "out",
+    "Time"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Dashcam captures deadly private jet crash in Florida",
+     "url": "https://www.euronews.com/2026/11/02/dashcam-captures-deadly-private-jet-crash-in-florida",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:15:56+00:00"
+    },
+    {
+     "title": "‘We’re out of time’: 9 dead as private jet crashes in fireball in Florida",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3372912/private-jet-carrying-9-crashes-florida-roadside-erupting-massive-fireball",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T21:31:36+00:00"
+    },
+    {
+     "title": "\"Holy F**k, We're Out Of Time\": Pilot's Last Words Before Florida Jet Crash",
+     "url": "https://www.ndtv.com/world-news/florida-jet-crash-news-mayday-calls-ice-warning-then-a-deadly-dive-florida-jets-final-moments-that-killed-9-12269126#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T04:21:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:NDTV",
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 688 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
+ "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261101-florida-aviation, nw-20261101-florida-aviation"
 }
