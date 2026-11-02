@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T16:10:31+00:00",
+ "at": "2026-11-02T16:41:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -46,6 +46,34 @@
    "date": "2026-11-02",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 139556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-02T15:40:00+00:00",
+   "headlines": [
+    "Spain train crash: US, Japan and Canada citizens among dead, authorities say"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q2913482",
@@ -237,56 +265,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-02T15:55:37+00:00",
-   "headlines": [
-    "Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
-    "IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
-    "google-news:IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws",
-    "outlet:The Hindu Group",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "The Hindu Group",
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
-     "url": "https://www.thehindu.com/news/national/kerala/gurnam-singh-charuni-warns-against-indo-us-trade-agreement/article71657654.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T15:55:37+00:00"
-    },
-    {
-     "title": "IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws",
-     "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/ioa-elections-manjeet-singh-elected-into-athletes-commission-kidambi-srikanth-withdraws/articleshow/135466118.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T15:13:40+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
-  },
-  {
    "qid": "Q7612484",
    "title": "Steve Ellis (musician)",
    "fame": 32160,
@@ -325,6 +303,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-02T16:27:40+00:00",
+   "headlines": [
+    "Gurnam Singh Charuni warns against Indo-U.S. trade agreement"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
+     "url": "https://www.thehindu.com/news/national/kerala/gurnam-singh-charuni-warns-against-indo-us-trade-agreement/article71657654.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T16:27:40+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q366714",
@@ -447,31 +461,6 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 14556,
-   "views": 14556,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q259559",
    "title": "Susan Saint James",
    "fame": 12471,
@@ -546,12 +535,15 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "outlet pib: SSLError: HTTPSConnectionPool(host='www.pib.gov.in', port=443): Max retries exceeded with url: /RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=3 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT"
+ ],
  "outlets": {
-  "headlines": 740,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 21,
-  "corroborated": 2
+  "headlines": 725,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 27,
+  "corroborated": 1
  },
  "emerging": [
   {
@@ -657,5 +649,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 740 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 725 headlines from 29 feeds (20 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }

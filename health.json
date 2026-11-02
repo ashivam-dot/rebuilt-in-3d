@@ -1,9 +1,10 @@
 {
- "at": "2026-11-02T16:10:30+00:00",
+ "at": "2026-11-02T16:41:35+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 17 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 18 units today",
   "watch: 0 candidates (0 quakes, 20 trending), 1 hazard alerts",
-  "outlets: 740 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+  "outlets: 725 headlines from 29 feeds (20 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation",
+  "trend radar errors: [\"outlet pib: SSLError: HTTPSConnectionPool(host='www.pib.gov.in', port=443): Max retries exceeded with url: /RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=3 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT\"]"
  ]
 }
