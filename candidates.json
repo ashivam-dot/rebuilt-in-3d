@@ -1,19 +1,22 @@
 {
- "at": "2026-11-02T17:42:19+00:00",
+ "at": "2026-11-02T18:12:22+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 205436,
+   "fame": 330436,
    "views": 205436,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-02T14:34:00+00:00",
+   "headlines": [
+    "‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-01",
+    "google-news:‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
    ],
    "owners": [],
    "reports": [],
@@ -96,9 +99,29 @@
    "date": "2026-11-01"
   },
   {
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 98434,
+   "views": 98434,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
+  },
+  {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
-   "title": "Nine dead in small plane crash near Trump's Florida home",
+   "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
@@ -106,26 +129,19 @@
    "news_at": "2026-11-02T16:44:01+00:00",
    "owners": [
     "Euronews",
-    "BBC",
     "Independent Digital News",
-    "France Médias Monde",
     "Guardian Media Group"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-    "Nine killed as small jet crashes on Florida street",
+    "Dashcam captures deadly private jet crash in Florida",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Nine dead in small plane crash near Trump's Florida home",
     "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash"
    ],
-   "places": [
-    "Trump",
-    "Learjet"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -136,26 +152,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Nine dead in small plane crash near Trump's Florida home",
-     "url": "https://www.france24.com/en/video/20261102-nine-dead-in-small-plane-crash-near-trump-s-florida-home",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T15:33:38+00:00"
-    },
-    {
-     "title": "Nine killed as small jet crashes on Florida street",
-     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T09:10:19+00:00"
-    },
     {
      "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
      "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
@@ -177,45 +173,23 @@
      "at": "2026-11-02T10:47:41+00:00"
     },
     {
-     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+     "title": "Dashcam captures deadly private jet crash in Florida",
+     "url": "https://www.euronews.com/2026/11/02/dashcam-captures-deadly-private-jet-crash-in-florida",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T07:30:17+00:00"
+     "at": "2026-11-02T07:15:56+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:BBC",
     "outlet:Independent Digital News",
-    "outlet:France Médias Monde",
     "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 98434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
   },
   {
    "qid": "Q141966885",
@@ -271,7 +245,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T17:43:36.994729+00:00",
+   "news_at": "2026-11-02T18:13:39.103010+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
     "Gurnam Singh Charuni warns against Indo-U.S. trade agreement"
@@ -296,7 +270,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T17:43:36.994729+00:00"
+     "at": "2026-11-02T18:13:39.103010+00:00"
     },
     {
      "title": "Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
@@ -573,17 +547,17 @@
   }
  ],
  "outlets": {
-  "headlines": 757,
+  "headlines": 749,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 23,
   "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
-   "title": "Nine dead in small plane crash near Trump's Florida home",
+   "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
@@ -591,26 +565,19 @@
    "news_at": "2026-11-02T16:44:01+00:00",
    "owners": [
     "Euronews",
-    "BBC",
     "Independent Digital News",
-    "France Médias Monde",
     "Guardian Media Group"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-    "Nine killed as small jet crashes on Florida street",
+    "Dashcam captures deadly private jet crash in Florida",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Nine dead in small plane crash near Trump's Florida home",
     "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash"
    ],
-   "places": [
-    "Trump",
-    "Learjet"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -621,26 +588,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Nine dead in small plane crash near Trump's Florida home",
-     "url": "https://www.france24.com/en/video/20261102-nine-dead-in-small-plane-crash-near-trump-s-florida-home",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T15:33:38+00:00"
-    },
-    {
-     "title": "Nine killed as small jet crashes on Florida street",
-     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T09:10:19+00:00"
-    },
     {
      "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
      "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
@@ -662,26 +609,24 @@
      "at": "2026-11-02T10:47:41+00:00"
     },
     {
-     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+     "title": "Dashcam captures deadly private jet crash in Florida",
+     "url": "https://www.euronews.com/2026/11/02/dashcam-captures-deadly-private-jet-crash-in-florida",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T07:30:17+00:00"
+     "at": "2026-11-02T07:15:56+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:BBC",
     "outlet:Independent Digital News",
-    "outlet:France Médias Monde",
     "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 757 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 749 headlines from 30 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
