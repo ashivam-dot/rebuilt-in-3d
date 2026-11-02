@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T19:42:22+00:00",
+ "at": "2026-11-02T20:13:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -96,47 +96,29 @@
    "date": "2026-11-01"
   },
   {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 98434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
-   "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+   "title": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-02T19:37:00+00:00",
+   "news_at": "2026-11-02T19:58:34+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "BBC"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Dashcam captures deadly private jet crash in Florida",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash"
+    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+    "Copilot in deadly Florida jet crash identified in reports as 20-year-old"
    ],
    "places": [],
    "attackers": [],
@@ -149,6 +131,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T19:58:34+00:00"
+    },
     {
      "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
      "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
@@ -183,10 +175,31 @@
    "via": [
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 98434,
+   "views": 98434,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
   },
   {
    "qid": "Q141966885",
@@ -282,7 +295,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T19:43:39.053595+00:00",
+   "news_at": "2026-11-02T20:15:40.027488+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -303,7 +316,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T19:43:39.053595+00:00"
+     "at": "2026-11-02T20:15:40.027488+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -497,12 +510,12 @@
    "id": "gdacs-TC-1001346",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.457 million .",
+   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 2.379 million .",
    "country": "India",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
    "published": "2026-11-01T02:23:45+00:00",
-   "lat": "14.7",
-   "lon": "80.7"
+   "lat": "15.1",
+   "lon": "80.5"
   }
  ],
  "candidates": [
@@ -552,38 +565,60 @@
    "date": "2026-11-02",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q965634",
+   "title": "Mišo Kovač",
+   "fame": 8664,
+   "views": 8664,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q965634",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
   }
  ],
  "outlets": {
   "headlines": 756,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 34,
   "corroborated": 1
  },
  "emerging": [
   {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
-   "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+   "title": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-02T19:37:00+00:00",
+   "news_at": "2026-11-02T19:58:34+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "BBC"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Dashcam captures deadly private jet crash in Florida",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash"
+    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+    "Copilot in deadly Florida jet crash identified in reports as 20-year-old"
    ],
    "places": [],
    "attackers": [],
@@ -596,6 +631,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T19:58:34+00:00"
+    },
     {
      "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
      "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
@@ -630,11 +675,12 @@
    "via": [
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 756 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 756 headlines from 30 feeds (21 owners), 34 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
