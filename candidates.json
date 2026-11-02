@@ -1,19 +1,22 @@
 {
- "at": "2026-11-02T22:58:12+00:00",
+ "at": "2026-11-02T23:29:18+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 205436,
+   "fame": 330436,
    "views": 205436,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-02T14:34:00+00:00",
+   "headlines": [
+    "‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-01",
+    "google-news:‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
    ],
    "owners": [],
    "reports": [],
@@ -362,6 +365,79 @@
    "article": null
   },
   {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-02T22:52:55+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Federal investigators on scene of Florida plane crash that killed 9 people",
+    "Florida plane crash victims identified after 9 people killed in fiery wreck",
+    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T22:52:55+00:00"
+    },
+    {
+     "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
+     "url": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T21:57:03+00:00"
+    },
+    {
+     "title": "Federal investigators on scene of Florida plane crash that killed 9 people",
+     "url": "https://www.nbcnews.com/now/video/federal-investigators-on-scene-of-florida-plane-crash-that-killed-9-people-272708165587",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T19:30:28+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
@@ -430,7 +506,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T22:59:31.533958+00:00",
+   "news_at": "2026-11-02T23:30:30.012013+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -451,7 +527,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T22:59:31.533958+00:00"
+     "at": "2026-11-02T23:30:30.012013+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -678,11 +754,11 @@
   }
  ],
  "outlets": {
-  "headlines": 769,
+  "headlines": 766,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 2
+  "matched": 40,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -862,7 +938,80 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-02T22:52:55+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Federal investigators on scene of Florida plane crash that killed 9 people",
+    "Florida plane crash victims identified after 9 people killed in fiery wreck",
+    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T22:52:55+00:00"
+    },
+    {
+     "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
+     "url": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T21:57:03+00:00"
+    },
+    {
+     "title": "Federal investigators on scene of Florida plane crash that killed 9 people",
+     "url": "https://www.nbcnews.com/now/video/federal-investigators-on-scene-of-florida-plane-crash-that-killed-9-people-272708165587",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T19:30:28+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 769 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 766 headlines from 30 feeds (21 owners), 40 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack, nw-20261102-florida-aviation"
 }
