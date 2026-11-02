@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T02:28:07+00:00",
+ "at": "2026-11-02T02:54:42+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,15 +25,18 @@
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
-   "fame": 168695,
+   "fame": 293695,
    "views": 168695,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-01T03:36:30+00:00",
+   "headlines": [
+    "Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
+   ],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-10-31",
+    "google-news:Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
    ],
    "owners": [],
    "reports": [],
@@ -41,6 +44,32 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-30"
+  },
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-01T09:05:00+00:00",
+   "headlines": [
+    "Violent protests rock Bangladesh garment hubs as workers demand a steep pay hike",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Violent protests rock Bangladesh garment hubs as workers demand a steep pay hike",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q2913482",
@@ -190,6 +219,28 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 117255,
+   "views": 12255,
+   "traffic": 105000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31",
+    "google-trends-US:susan st james",
+    "google-trends-US:susan saint james cause of death"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q259559",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
   },
   {
    "id": "nw-20261031-london-protest",
@@ -375,8 +426,8 @@
    "category": "aviation",
    "date": "2026-11-01",
    "coords": [
-    26.63305556,
-    -80.11305556
+    26.63288889,
+    -80.11311111
    ],
    "has_coords": true
   },
@@ -431,7 +482,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T02:28:34.215485+00:00",
+   "news_at": "2026-11-02T02:55:12.726125+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -456,7 +507,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T02:28:34.215485+00:00"
+     "at": "2026-11-02T02:55:12.726125+00:00"
     },
     {
      "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
@@ -466,7 +517,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T02:28:34.215485+00:00"
+     "at": "2026-11-02T02:55:12.726125+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -590,26 +641,6 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 12255,
-   "views": 12255,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q259559",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
-  },
-  {
    "qid": "Q965634",
    "title": "Mišo Kovač",
    "fame": 11959,
@@ -710,32 +741,23 @@
    "date": "2026-10-26"
   }
  ],
- "hazards": [
-  {
-   "id": "gdacs-TC-1001346",
-   "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.196 million .",
-   "country": "India",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-   "published": "2026-11-01T02:23:45+00:00",
-   "lat": "13.6",
-   "lon": "82.6"
-  }
- ],
+ "hazards": [],
  "candidates": [
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
-   "fame": 168695,
+   "fame": 293695,
    "views": 168695,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-01T03:36:30+00:00",
+   "headlines": [
+    "Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
+   ],
    "region": "india",
    "via": [
-    "wikipedia-top-2026-10-31"
+    "wikipedia-top-2026-10-31",
+    "google-news:Sanjay Gupta funeral: Abhishek Bachchan, Manoj Bajpayee attend last rites; Hrithik Roshan is ‘heartbroken’"
    ],
    "owners": [],
    "reports": [],
@@ -743,6 +765,32 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-30"
+  },
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-01T09:05:00+00:00",
+   "headlines": [
+    "Violent protests rock Bangladesh garment hubs as workers demand a steep pay hike",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Violent protests rock Bangladesh garment hubs as workers demand a steep pay hike",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141717158",
@@ -786,17 +834,17 @@
    "category": "aviation",
    "date": "2026-11-01",
    "coords": [
-    26.63305556,
-    -80.11305556
+    26.63288889,
+    -80.11311111
    ],
    "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 688,
+  "headlines": 699,
   "feeds": 29,
   "owners": 21,
-  "matched": 46,
+  "matched": 41,
   "corroborated": 4
  },
  "emerging": [
@@ -1078,5 +1126,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 688 headlines from 29 feeds (21 owners), 46 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 699 headlines from 29 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }
