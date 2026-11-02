@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T23:41:10+00:00",
+ "at": "2026-11-02T00:09:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -49,45 +49,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 200000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-01T14:31:49+00:00",
-   "headlines": [
-    "French high school blockades to restart on Monday, student unions say"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-31",
-    "google-news:French high school blockades to restart on Monday, student unions say",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "French high school blockades to restart on Monday, student unions say",
-     "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T14:31:49+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
    "fame": 193695,
@@ -133,12 +94,10 @@
    "news": 150000,
    "news_at": "2026-11-01T23:31:31+00:00",
    "headlines": [
-    "Ireland’s European athletics champion Ciara Mageean dies aged 34",
     "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
    ],
    "region": "world",
    "via": [
-    "google-news:Ireland’s European athletics champion Ciara Mageean dies aged 34",
     "google-news:Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
     "outlet:BBC"
    ],
@@ -163,57 +122,53 @@
    "date": "2026-11-01"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 142408,
-   "views": 17408,
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 125000,
+   "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-01T15:14:58+00:00",
+   "news_at": "2026-11-01T16:51:00+00:00",
    "headlines": [
-    "University of Cambridge scientist among victims of deadly Spain train crash"
+    "Juan Atkins, Detroit techno pioneer, has died"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-10-31",
-    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
+    "google-news:Juan Atkins, Detroit techno pioneer, has died"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
+   "id": "wk-Q366714",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
   },
   {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
-   "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+   "title": "Nine killed as business jet crashes into South Florida neighbourhood",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-01T23:15:56+00:00",
+   "news_at": "2026-11-01T23:45:08+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "ABC (Australia)",
-    "BBC"
+    "BBC",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine die as business jet crashes on Florida roadside",
-    "'Like a missile coming down' - Nine killed in fiery Florida jet crash"
+    "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+    "Nine killed as business jet crashes into South Florida neighbourhood"
    ],
    "places": [
     "nine"
@@ -228,6 +183,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+     "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T23:45:08+00:00"
+    },
     {
      "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
@@ -273,7 +238,8 @@
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -445,49 +411,18 @@
   {
    "qid": "Q141966885",
    "title": "2026 Greenacres Learjet 60 crash",
-   "fame": 50500,
+   "fame": 50000,
    "views": 0,
-   "traffic": 500,
-   "news": 50000,
-   "news_at": "2026-11-01T23:28:59+00:00",
-   "headlines": [
-    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball"
-   ],
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-IN:learjet 60",
-    "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
+    "wikipedia-current-events-2026-11-01"
    ],
-   "owners": [
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T23:28:59+00:00"
-    },
-    {
-     "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
-     "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-01T22:38:17+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141966885",
    "kind": "incident",
    "category": "aviation",
@@ -496,35 +431,13 @@
    "has_coords": true
   },
   {
-   "qid": "Q123521174",
-   "title": "Gaza war protests in the United Kingdom",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-01T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q123521174-2026w44",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141790807",
    "title": "2026 Portuguese housing protests",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T23:41:10.776954+00:00",
+   "news_at": "2026-11-02T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -532,10 +445,10 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141790807-2026w44",
+   "id": "wk-Q141790807-2026w45",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "coords": null,
    "has_coords": false
   },
@@ -546,7 +459,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T23:41:10.776954+00:00",
+   "news_at": "2026-11-02T00:00:00+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -554,10 +467,10 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141717158-2026w44",
+   "id": "wk-Q141717158-2026w45",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "coords": null,
    "has_coords": true
   },
@@ -568,7 +481,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-01T23:41:27.182080+00:00",
+   "news_at": "2026-11-02T00:10:58.096617+00:00",
    "headlines": [
     "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -593,7 +506,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-01T23:41:27.182080+00:00"
+     "at": "2026-11-02T00:10:58.096617+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -706,6 +619,31 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 17408,
+   "views": 17408,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-10-31"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q922837",
@@ -863,6 +801,28 @@
  ],
  "candidates": [
   {
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-01T16:51:00+00:00",
+   "headlines": [
+    "Juan Atkins, Detroit techno pioneer, has died"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Juan Atkins, Detroit techno pioneer, has died"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q366714",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
+  },
+  {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
    "fame": 193695,
@@ -900,13 +860,35 @@
    "date": "2026-10-30"
   },
   {
+   "qid": "Q141790807",
+   "title": "2026 Portuguese housing protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141790807-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-01T23:41:10.776954+00:00",
+   "news_at": "2026-11-02T00:00:00+00:00",
    "headlines": [],
    "region": "india",
    "via": [
@@ -914,59 +896,28 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141717158-2026w44",
+   "id": "wk-Q141717158-2026w45",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "coords": null,
    "has_coords": true
   },
   {
    "qid": "Q141966885",
    "title": "2026 Greenacres Learjet 60 crash",
-   "fame": 50500,
+   "fame": 50000,
    "views": 0,
-   "traffic": 500,
-   "news": 50000,
-   "news_at": "2026-11-01T23:28:59+00:00",
-   "headlines": [
-    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-    "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball"
-   ],
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-IN:learjet 60",
-    "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-    "google-news:Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
+    "wikipedia-current-events-2026-11-01"
    ],
-   "owners": [
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T23:28:59+00:00"
-    },
-    {
-     "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
-     "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-01T22:38:17+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q141966885",
    "kind": "incident",
    "category": "aviation",
@@ -976,37 +927,39 @@
   }
  ],
  "outlets": {
-  "headlines": 690,
+  "headlines": 683,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 5
+  "matched": 35,
+  "corroborated": 4
  },
  "emerging": [
   {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
-   "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+   "title": "Nine killed as business jet crashes into South Florida neighbourhood",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-01T23:15:56+00:00",
+   "news_at": "2026-11-01T23:45:08+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "ABC (Australia)",
-    "BBC"
+    "BBC",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Jet crashes in Florida, killing all nine people on board",
     "All nine people aboard business jet that crashed in Florida have died",
     "Nine die as business jet crashes on Florida roadside",
-    "'Like a missile coming down' - Nine killed in fiery Florida jet crash"
+    "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+    "Nine killed as business jet crashes into South Florida neighbourhood"
    ],
    "places": [
     "nine"
@@ -1021,6 +974,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+     "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T23:45:08+00:00"
+    },
     {
      "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
@@ -1066,7 +1029,8 @@
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -1236,5 +1200,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 690 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 683 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }

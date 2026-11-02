@@ -1,13 +1,20 @@
 {
- "at": "2026-11-01T23:41:09+00:00",
+ "at": "2026-11-02T00:09:47+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 82 units today",
-  "watch: 3 candidates (0 quakes, 25 trending), 1 hazard alerts",
-  "outlets: 690 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 83 units today",
+  "watch: 5 candidates (0 quakes, 24 trending), 1 hazard alerts",
+  "outlets: 683 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
   "hold wk-Q644401: outside the india window",
-  "hold wk-Q141717158-2026w44: outside the india window",
-  "wait wk-Q141966885: gate: the article is under 6 hours old; facts may still move (ready in 3.7 h)",
-  "nothing eligible to publish"
- ]
+  "hold wk-Q141717158-2026w45: outside the india window",
+  "skip wk-Q366714: gate: only 1 usable photos of Juan Atkins on Wikimedia Commons (want 4)",
+  "published wk-Q141790807-2026w45: https://www.youtube.com/shorts/zNBe9MkeoN0"
+ ],
+ "published": {
+  "video_id": "zNBe9MkeoN0",
+  "url": "https://www.youtube.com/shorts/zNBe9MkeoN0",
+  "title": "2026 Portuguese Housing Protests: Escalation in Porto and Lisbon",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
