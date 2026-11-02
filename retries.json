@@ -777,9 +777,9 @@
   "kind": "incident"
  },
  "wk-Q366714": {
-  "count": 2,
+  "count": 3,
   "reason": "gate: only 1 usable photos of Juan Atkins on Wikimedia Commons (want 4)",
-  "at": "2026-11-02T00:13:18+00:00",
+  "at": "2026-11-02T12:17:24+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -852,6 +852,14 @@
   "count": 1,
   "reason": "gate: no draft passed the fact checks: beat 3, 4, 8 name(s) nothing its photo shows (only 66% of the script shows what it says; want 70%): in each, name who or what a photo shows (Laurent Nuñez, Emmanuel Macron, Raphaël Glucksmann), or say what an EVENT photo itself shows (the words of its descripti",
   "at": "2026-11-02T11:54:06+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261102-florida-aviation": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Florida or the event itself (only 2 photos of places or things near it)",
+  "at": "2026-11-02T12:17:21+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

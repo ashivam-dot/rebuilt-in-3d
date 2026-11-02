@@ -1,37 +1,7 @@
 {
- "at": "2026-11-02T11:25:36+00:00",
+ "at": "2026-11-02T12:11:00+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 264556,
-   "views": 14556,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-02T01:52:38+00:00",
-   "headlines": [
-    "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
-    "University of Cambridge scientist among victims of deadly Spain train crash"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say",
-    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
@@ -118,32 +88,77 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261101-florida-aviation",
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 139556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-01T15:14:58+00:00",
+   "headlines": [
+    "University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 138465,
+   "views": 138465,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "nw-20261102-florida-aviation",
    "qid": null,
    "title": "Nine killed as small jet crashes on Florida street",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "news_at": "2026-11-02T10:47:41+00:00",
    "owners": [
-    "NBCUniversal",
-    "France Médias Monde",
     "Euronews",
     "Deutsche Welle",
     "BBC",
     "Independent Digital News"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Jet crashes in Florida, killing all nine people on board",
-    "Nine killed as business jet crashes into South Florida neighbourhood",
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "US: Nine killed in Florida jet crash",
-    "Nine killed as small jet crashes on Florida street"
+    "Nine killed as small jet crashes on Florida street",
+    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball"
    ],
    "places": [
     "nine",
@@ -181,16 +196,6 @@
      "at": "2026-11-02T07:46:00+00:00"
     },
     {
-     "title": "Nine killed as business jet crashes into South Florida neighbourhood",
-     "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-01T23:45:08+00:00"
-    },
-    {
      "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
      "url": "https://www.independent.co.uk/news/world/americas/florida-learjet-60-plane-crash-palm-beach-county-b3077261.html",
      "outlet": "The Independent",
@@ -209,21 +214,9 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-02T07:30:17+00:00"
-    },
-    {
-     "title": "Jet crashes in Florida, killing all nine people on board",
-     "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T20:43:44+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
-    "outlet:France Médias Monde",
     "outlet:Euronews",
     "outlet:Deutsche Welle",
     "outlet:BBC",
@@ -231,26 +224,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 138465,
-   "views": 138465,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2913482",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
   },
   {
    "qid": "Q644401",
@@ -268,6 +241,109 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-11-02T11:39:22+00:00",
+   "headlines": [
+    "French school protests resume on small scale as students return from break",
+    "French school protests resume on smaller scale as holidays end",
+    "French school protests resume on smaller scale after holiday break"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:French school protests resume on small scale as students return from break",
+    "google-news:French school protests resume on smaller scale as holidays end",
+    "google-news:French school protests resume on smaller scale after holiday break",
+    "outlet:Al Jazeera Media Network",
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "Al Jazeera Media Network",
+    "SCMP Group",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "French school protests resume on small scale as students return from break",
+     "url": "https://www.aljazeera.com/news/2026/11/2/french-school-protests-resume-on-small-scale-as-students-return-from-break?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T11:39:22+00:00"
+    },
+    {
+     "title": "French school protests resume on smaller scale as holidays end",
+     "url": "https://www.scmp.com/news/world/europe/article/3373008/french-school-protests-resume-smaller-scale-holidays-end",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T11:13:04+00:00"
+    },
+    {
+     "title": "French school protests resume on smaller scale after holiday break",
+     "url": "https://www.france24.com/en/france/20261102-french-school-protests-resume-smaller-scale-after-holiday-break",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T10:53:39+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q7612484",
+   "title": "Steve Ellis (musician)",
+   "fame": 57160,
+   "views": 32160,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-02T11:29:51+00:00",
+   "headlines": [
+    "Steve Ellis, frontman of Everlasting Love hitmakers Love Affair, dies aged 76"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:Steve Ellis, frontman of Everlasting Love hitmakers Love Affair, dies aged 76",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Steve Ellis, frontman of Everlasting Love hitmakers Love Affair, dies aged 76",
+     "url": "https://www.theguardian.com/music/2026/nov/02/steve-ellis-frontman-of-everlasting-love-hitmakers-love-affair-dies-aged-76",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T11:29:51+00:00"
+    }
+   ],
+   "id": "wk-Q7612484",
    "kind": "death",
    "category": "death",
    "date": "2026-10-30"
@@ -320,58 +396,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-02T11:13:04+00:00",
-   "headlines": [
-    "French school protests resume on smaller scale as holidays end",
-    "French school protests resume on smaller scale after holiday break"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:French school protests resume on smaller scale as holidays end",
-    "google-news:French school protests resume on smaller scale after holiday break",
-    "outlet:SCMP Group",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "SCMP Group",
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "French school protests resume on smaller scale as holidays end",
-     "url": "https://www.scmp.com/news/world/europe/article/3373008/french-school-protests-resume-smaller-scale-holidays-end",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T11:13:04+00:00"
-    },
-    {
-     "title": "French school protests resume on smaller scale after holiday break",
-     "url": "https://www.france24.com/en/france/20261102-french-school-protests-resume-smaller-scale-after-holiday-break",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T10:53:39+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q366714",
    "title": "Juan Atkins",
    "fame": 49138,
@@ -409,63 +433,6 @@
    "date": "2026-10-31"
   },
   {
-   "qid": "Q1812342",
-   "title": "John Leeson",
-   "fame": 40197,
-   "views": 15197,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T09:13:42+00:00",
-   "headlines": [
-    "John Leeson, voice behind Doctor Who’s K9, dies at 83"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:John Leeson, voice behind Doctor Who’s K9, dies at 83",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "John Leeson, voice behind Doctor Who’s K9, dies at 83",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/02/john-leeson-doctor-who-k9-dies",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T09:13:42+00:00"
-    }
-   ],
-   "id": "wk-Q1812342",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q7612484",
-   "title": "Steve Ellis (musician)",
-   "fame": 32160,
-   "views": 32160,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7612484",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
    "qid": "Q5386105",
    "title": "Eric Bauza",
    "fame": 27849,
@@ -492,7 +459,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T11:29:16.627248+00:00",
+   "news_at": "2026-11-02T12:14:39.380631+00:00",
    "headlines": [
     "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar"
    ],
@@ -513,7 +480,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T11:29:16.627248+00:00"
+     "at": "2026-11-02T12:14:39.380631+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -618,6 +585,26 @@
    "date": "2026-11-01"
   },
   {
+   "qid": "Q1812342",
+   "title": "John Leeson",
+   "fame": 15197,
+   "views": 15197,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1812342",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
    "qid": "Q922837",
    "title": "Cuauhtémoc Cárdenas",
    "fame": 15029,
@@ -713,152 +700,29 @@
  ],
  "candidates": [
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-02T11:13:04+00:00",
-   "headlines": [
-    "French school protests resume on smaller scale as holidays end",
-    "French school protests resume on smaller scale after holiday break"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:French school protests resume on smaller scale as holidays end",
-    "google-news:French school protests resume on smaller scale after holiday break",
-    "outlet:SCMP Group",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "SCMP Group",
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "French school protests resume on smaller scale as holidays end",
-     "url": "https://www.scmp.com/news/world/europe/article/3373008/french-school-protests-resume-smaller-scale-holidays-end",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T11:13:04+00:00"
-    },
-    {
-     "title": "French school protests resume on smaller scale after holiday break",
-     "url": "https://www.france24.com/en/france/20261102-french-school-protests-resume-smaller-scale-after-holiday-break",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T10:53:39+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q7917881",
-   "title": "Ved Rahi",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T09:18:16+00:00",
-   "headlines": [
-    "Sahitya Akademi pays tribute to veteran Dogri writer and filmmaker Ved Rahi"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Sahitya Akademi pays tribute to veteran Dogri writer and filmmaker Ved Rahi",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "Sahitya Akademi pays tribute to veteran Dogri writer and filmmaker Ved Rahi",
-     "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ved-rahi-passes-away-at-93-sahitya-akademi-pays-tribute-to-veteran-dogri-writer-and-filmmaker/articleshow/135453120.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T09:18:16+00:00"
-    }
-   ],
-   "id": "wk-Q7917881",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q7612484",
-   "title": "Steve Ellis (musician)",
-   "fame": 32160,
-   "views": 32160,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7612484",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  }
- ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 153 people)"
- ],
- "outlets": {
-  "headlines": 715,
-  "feeds": 29,
-  "owners": 21,
-  "matched": 30,
-  "corroborated": 2
- },
- "emerging": [
-  {
-   "id": "nw-20261101-florida-aviation",
+   "id": "nw-20261102-florida-aviation",
    "qid": null,
    "title": "Nine killed as small jet crashes on Florida street",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "news_at": "2026-11-02T10:47:41+00:00",
    "owners": [
-    "NBCUniversal",
-    "France Médias Monde",
     "Euronews",
     "Deutsche Welle",
     "BBC",
     "Independent Digital News"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Jet crashes in Florida, killing all nine people on board",
-    "Nine killed as business jet crashes into South Florida neighbourhood",
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "US: Nine killed in Florida jet crash",
-    "Nine killed as small jet crashes on Florida street"
+    "Nine killed as small jet crashes on Florida street",
+    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball"
    ],
    "places": [
     "nine",
@@ -896,14 +760,143 @@
      "at": "2026-11-02T07:46:00+00:00"
     },
     {
-     "title": "Nine killed as business jet crashes into South Florida neighbourhood",
-     "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
+     "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-learjet-60-plane-crash-palm-beach-county-b3077261.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T10:47:41+00:00"
+    },
+    {
+     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:30:17+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Deutsche Welle",
+    "outlet:BBC",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 49138,
+   "views": 24138,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-02T03:22:49+00:00",
+   "headlines": [
+    "Juan Atkins, co-creator of the techno music genre, has died"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:Juan Atkins, co-creator of the techno music genre, has died",
+    "outlet:NBCUniversal"
+   ],
+   "owners": [
+    "NBCUniversal"
+   ],
+   "reports": [
+    {
+     "title": "Juan Atkins, co-creator of the techno music genre, has died",
+     "url": "https://www.nbcnews.com/news/obituaries/juan-atkins-co-creator-techno-music-genre-dies-rcna606930",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T03:22:49+00:00"
+    }
+   ],
+   "id": "wk-Q366714",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
+  }
+ ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.3 h ago, 153 people)"
+ ],
+ "outlets": {
+  "headlines": 719,
+  "feeds": 29,
+  "owners": 21,
+  "matched": 34,
+  "corroborated": 2
+ },
+ "emerging": [
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Nine killed as small jet crashes on Florida street",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-02T10:47:41+00:00",
+   "owners": [
+    "Euronews",
+    "Deutsche Welle",
+    "BBC",
+    "Independent Digital News"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+    "US: Nine killed in Florida jet crash",
+    "Nine killed as small jet crashes on Florida street",
+    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball"
+   ],
+   "places": [
+    "nine",
+    "Learjet",
+    "Trump"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nine killed as small jet crashes on Florida street",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-01T23:45:08+00:00"
+     "at": "2026-11-02T09:10:19+00:00"
+    },
+    {
+     "title": "US: Nine killed in Florida jet crash",
+     "url": "https://www.dw.com/en/us-nine-killed-in-florida-jet-crash/a-79825921?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T07:46:00+00:00"
     },
     {
      "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
@@ -924,21 +917,9 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-02T07:30:17+00:00"
-    },
-    {
-     "title": "Jet crashes in Florida, killing all nine people on board",
-     "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-01T20:43:44+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
-    "outlet:France Médias Monde",
     "outlet:Euronews",
     "outlet:Deutsche Welle",
     "outlet:BBC",
@@ -948,5 +929,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 715 headlines from 29 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
+ "outlet_note": "outlets: 719 headlines from 29 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
