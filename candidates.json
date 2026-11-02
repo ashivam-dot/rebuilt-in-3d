@@ -1,7 +1,83 @@
 {
- "at": "2026-11-02T09:27:00+00:00",
+ "at": "2026-11-02T09:55:38+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach County Learjet 60 crash",
+   "fame": 280000,
+   "views": 0,
+   "traffic": 5000,
+   "news": 275000,
+   "news_at": "2026-11-02T09:10:19+00:00",
+   "headlines": [
+    "Nine killed in fiery Florida jet crash in West Palm Beach County",
+    "Nine killed in fiery Florida Learjet crash in West Palm Beach County",
+    "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-US:se",
+    "google-news:Nine killed in fiery Florida jet crash in West Palm Beach County",
+    "google-news:Nine killed in fiery Florida Learjet crash in West Palm Beach County",
+    "google-news:Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
+     "url": "https://www.cbsnews.com/news/texas-jet-florida-crash-11-1-2026/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T05:29:00+00:00"
+    }
+   ],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 264556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-02T01:52:38+00:00",
+   "headlines": [
+    "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
+    "University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say",
+    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
@@ -83,42 +159,44 @@
    "date": "2026-11-01"
   },
   {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
    "fame": 150000,
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-02T09:29:29.043289+00:00",
+   "news_at": "2026-11-02T07:08:28+00:00",
    "headlines": [
-    "King First Song Tu Mil Jaaye: Shah Rukh Khan, Deepika Padukone look electrifying in Ed Sheeran and Arijit Singh collab",
-    "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026"
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories",
+    "Bangladesh garment factories disrupted as protests continue for third day"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
-    "google-news:King First Song Tu Mil Jaaye: Shah Rukh Khan, Deepika Padukone look electrifying in Ed Sheeran and Arijit Singh collab",
-    "google-news:Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
-    "outlet:Government of India"
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories",
+    "google-news:Bangladesh garment factories disrupted as protests continue for third day",
+    "outlet:Al Jazeera Media Network"
    ],
    "owners": [
-    "Government of India"
+    "Al Jazeera Media Network"
    ],
    "reports": [
     {
-     "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331374",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
+     "title": "Bangladesh garment factories disrupted as protests continue for third day",
+     "url": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-02T09:29:29.043289+00:00"
+     "at": "2026-11-02T07:08:28+00:00"
     }
    ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261101-florida-aviation",
@@ -248,59 +326,6 @@
    "article": null
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 139556,
-   "views": 14556,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T01:52:38+00:00",
-   "headlines": [
-    "Spain train crash: US, Japan and Canada citizens among dead, authorities say"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q141790807",
    "title": "2026 Portuguese housing protests",
    "fame": 50000,
@@ -382,6 +407,43 @@
    "date": "2026-10-31"
   },
   {
+   "qid": "Q1812342",
+   "title": "John Leeson",
+   "fame": 40197,
+   "views": 15197,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-02T09:13:42+00:00",
+   "headlines": [
+    "John Leeson, voice behind Doctor Who’s K9, dies at 83"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:John Leeson, voice behind Doctor Who’s K9, dies at 83",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "John Leeson, voice behind Doctor Who’s K9, dies at 83",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/02/john-leeson-doctor-who-k9-dies",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T09:13:42+00:00"
+    }
+   ],
+   "id": "wk-Q1812342",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
    "qid": "Q7612484",
    "title": "Steve Ellis (musician)",
    "fame": 32160,
@@ -420,6 +482,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
+  },
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-02T09:56:18.661323+00:00",
+   "headlines": [
+    "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
+    "outlet:Government of India"
+   ],
+   "owners": [
+    "Government of India"
+   ],
+   "reports": [
+    {
+     "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331374",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-02T09:56:18.661323+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q7917881",
@@ -513,26 +611,6 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q3299104",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q1812342",
-   "title": "John Leeson",
-   "fame": 15197,
-   "views": 15197,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1812342",
    "kind": "death",
    "category": "death",
    "date": "2026-11-01"
@@ -670,7 +748,7 @@
   }
  ],
  "outlets": {
-  "headlines": 701,
+  "headlines": 706,
   "feeds": 29,
   "owners": 21,
   "matched": 33,
@@ -805,5 +883,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 701 headlines from 29 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
+ "outlet_note": "outlets: 706 headlines from 29 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
 }
