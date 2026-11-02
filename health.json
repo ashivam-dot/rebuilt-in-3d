@@ -1,14 +1,10 @@
 {
- "at": "2026-11-02T12:10:58+00:00",
+ "at": "2026-11-02T12:40:50+00:00",
  "ok": true,
  "steps": [
-  "learn: 56 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 23, 'lift': 1.272, 'typical_views_24h': 376, 'n_retention': 22, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 25, 'lift': 0.944, 'typical_views_24h': 174, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 22, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
-  "watch: 2 candidates (0 quakes, 23 trending), 1 hazard alerts",
-  "outlets: 719 headlines from 29 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.3 h ago, 153 people)\"]",
-  "skip nw-20261102-florida-aviation: gate: faceless: no free photo shows Florida or the event itself (only 2 photos of places or things near it)",
-  "skip wk-Q366714: gate: only 1 usable photos of Juan Atkins on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
+  "watch: 0 candidates (0 quakes, 22 trending), 1 hazard alerts",
+  "outlets: 718 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.7 h ago, 153 people)\"]"
  ]
 }
