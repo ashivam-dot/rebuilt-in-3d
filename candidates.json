@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T15:42:36+00:00",
+ "at": "2026-11-02T16:10:31+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,77 +21,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 200500,
-   "views": 0,
-   "traffic": 500,
-   "news": 200000,
-   "news_at": "2026-11-02T13:56:49+00:00",
-   "headlines": [
-    "Nine killed in fiery Florida Learjet crash in West Palm Beach County",
-    "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-    "Learjet Crashes Near West Palm Beach, Killing All 9 Onboard",
-    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:nathalia gadelha",
-    "google-news:Nine killed in fiery Florida Learjet crash in West Palm Beach County",
-    "google-news:Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-    "google-news:Learjet Crashes Near West Palm Beach, Killing All 9 Onboard",
-    "outlet:Paramount (CBS)",
-    "outlet:NBCUniversal",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Paramount (CBS)",
-    "NBCUniversal",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-     "url": "https://www.cbsnews.com/news/texas-jet-florida-crash-11-1-2026/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T13:56:49+00:00"
-    },
-    {
-     "title": "Learjet Crashes Near West Palm Beach, Killing All 9 Onboard",
-     "url": "https://www.today.com/video/learjet-crashes-near-west-palm-beach-killing-all-9-onboard-272681029972",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T12:16:15+00:00"
-    },
-    {
-     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T10:43:22+00:00"
-    }
-   ],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141790807",
@@ -141,31 +70,33 @@
   {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
-   "title": "Nine killed as small jet crashes on Florida street",
+   "title": "Nine dead in small plane crash near Trump's Florida home",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-02T14:17:06+00:00",
+   "news_at": "2026-11-02T15:33:38+00:00",
    "owners": [
     "Euronews",
     "BBC",
     "Independent Digital News",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "Nine killed as small jet crashes on Florida street",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Investigators search for cause in Florida plane crash that killed all nine onboard"
+    "Investigators search for cause in Florida plane crash that killed all nine onboard",
+    "Nine dead in small plane crash near Trump's Florida home"
    ],
    "places": [
-    "Learjet",
-    "Trump"
+    "Trump",
+    "Learjet"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -177,6 +108,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Nine dead in small plane crash near Trump's Florida home",
+     "url": "https://www.france24.com/en/video/20261102-nine-dead-in-small-plane-crash-near-trump-s-florida-home",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T15:33:38+00:00"
+    },
     {
      "title": "Nine killed as small jet crashes on Florida street",
      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
@@ -222,7 +163,8 @@
     "outlet:Euronews",
     "outlet:BBC",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -248,6 +190,31 @@
    "date": "2026-10-30"
   },
   {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach County Learjet 60 crash",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
@@ -268,6 +235,56 @@
    "date": "2026-11-02",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-02T15:55:37+00:00",
+   "headlines": [
+    "Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
+    "IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
+    "google-news:IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws",
+    "outlet:The Hindu Group",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "owners": [
+    "The Hindu Group",
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Gurnam Singh Charuni warns against Indo-U.S. trade agreement",
+     "url": "https://www.thehindu.com/news/national/kerala/gurnam-singh-charuni-warns-against-indo-us-trade-agreement/article71657654.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T15:55:37+00:00"
+    },
+    {
+     "title": "IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws",
+     "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/ioa-elections-manjeet-singh-elected-into-athletes-commission-kidambi-srikanth-withdraws/articleshow/135466118.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T15:13:40+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q7612484",
@@ -308,42 +325,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-25"
-  },
-  {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T15:13:40+00:00",
-   "headlines": [
-    "IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "IOA Elections: Manjeet Singh elected into Athletes' Commission; Srikanth withdraws",
-     "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/ioa-elections-manjeet-singh-elected-into-athletes-commission-kidambi-srikanth-withdraws/articleshow/135466118.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T15:13:40+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
   },
   {
    "qid": "Q366714",
@@ -564,133 +545,45 @@
    "lon": "80.7"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261102-florida-aviation",
-   "qid": null,
-   "title": "Nine killed as small jet crashes on Florida street",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-02",
-   "news_at": "2026-11-02T14:17:06+00:00",
-   "owners": [
-    "Euronews",
-    "BBC",
-    "Independent Digital News",
-    "Guardian Media Group"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-    "Nine killed as small jet crashes on Florida street",
-    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Investigators search for cause in Florida plane crash that killed all nine onboard"
-   ],
-   "places": [
-    "Learjet",
-    "Trump"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Nine killed as small jet crashes on Florida street",
-     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T09:10:19+00:00"
-    },
-    {
-     "title": "Investigators search for cause in Florida plane crash that killed all nine onboard",
-     "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T14:17:06+00:00"
-    },
-    {
-     "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-     "url": "https://www.independent.co.uk/news/world/americas/florida-learjet-60-plane-crash-palm-beach-county-b3077261.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T10:47:41+00:00"
-    },
-    {
-     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T07:30:17+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 730,
+  "headlines": 740,
   "feeds": 30,
   "owners": 21,
-  "matched": 22,
+  "matched": 21,
   "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
-   "title": "Nine killed as small jet crashes on Florida street",
+   "title": "Nine dead in small plane crash near Trump's Florida home",
    "name": "Florida",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-02T14:17:06+00:00",
+   "news_at": "2026-11-02T15:33:38+00:00",
    "owners": [
     "Euronews",
     "BBC",
     "Independent Digital News",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "Nine killed as small jet crashes on Florida street",
     "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "Investigators search for cause in Florida plane crash that killed all nine onboard"
+    "Investigators search for cause in Florida plane crash that killed all nine onboard",
+    "Nine dead in small plane crash near Trump's Florida home"
    ],
    "places": [
-    "Learjet",
-    "Trump"
+    "Trump",
+    "Learjet"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -702,6 +595,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Nine dead in small plane crash near Trump's Florida home",
+     "url": "https://www.france24.com/en/video/20261102-nine-dead-in-small-plane-crash-near-trump-s-florida-home",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-02T15:33:38+00:00"
+    },
     {
      "title": "Nine killed as small jet crashes on Florida street",
      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
@@ -747,11 +650,12 @@
     "outlet:Euronews",
     "outlet:BBC",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 730 headlines from 30 feeds (21 owners), 22 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 740 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
