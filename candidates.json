@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T03:54:12+00:00",
+ "at": "2026-11-02T04:24:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -285,31 +285,6 @@
    "article": null
   },
   {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q141790807",
    "title": "2026 Portuguese housing protests",
    "fame": 50000,
@@ -360,7 +335,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T03:57:34.439352+00:00",
+   "news_at": "2026-11-02T04:27:17.167726+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -385,7 +360,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T03:57:34.439352+00:00"
+     "at": "2026-11-02T04:27:17.167726+00:00"
     },
     {
      "title": "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
@@ -395,7 +370,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T03:57:34.439352+00:00"
+     "at": "2026-11-02T04:27:17.167726+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -412,6 +387,61 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
+  },
+  {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach county Learjet 60 crash",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-02T03:20:37+00:00",
+   "headlines": [
+    "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
+    "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
+    "google-news:Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Paramount (CBS)",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
+     "url": "https://www.cbsnews.com/news/texas-jet-florida-crash-11-1-2026/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T03:20:37+00:00"
+    },
+    {
+     "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
+     "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T01:53:26+00:00"
+    }
+   ],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q366714",
@@ -659,26 +689,6 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 98434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
    "qid": "Q141717158",
    "title": "2026 anti-CEC protests",
    "fame": 50000,
@@ -702,11 +712,11 @@
   }
  ],
  "outlets": {
-  "headlines": 692,
+  "headlines": 691,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 3
+  "matched": 30,
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -913,5 +923,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261101-florida-aviation, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 691 headlines from 29 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261101-florida-aviation, nw-20261101-lisbon-protest"
 }
