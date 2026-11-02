@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T00:09:48+00:00",
+ "at": "2026-11-02T01:09:22+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,30 +23,34 @@
    "date": "2026-10-28"
   },
   {
-   "qid": null,
-   "title": "2026 Bangladesh garment sector minimum wage protests",
-   "fame": 250000,
-   "views": 0,
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 267408,
+   "views": 17408,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-11-01T08:15:57+00:00",
+   "news_at": "2026-11-01T17:05:18+00:00",
    "headlines": [
-    "Bangladesh forms wage board as garment workers protest",
-    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+    "Cambridge scientist dies in Spanish train crash",
+    "University of Cambridge scientist among victims of deadly Spain train crash"
    ],
    "region": "world",
    "via": [
-    "google-news:Bangladesh forms wage board as garment workers protest",
-    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+    "wikipedia-top-2026-10-31",
+    "google-news:Cambridge scientist dies in Spanish train crash",
+    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
    ],
    "owners": [],
    "reports": [],
-   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "id": "wk-Q141898879",
    "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": false
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q644401",
@@ -122,28 +126,6 @@
    "date": "2026-11-01"
   },
   {
-   "qid": "Q366714",
-   "title": "Juan Atkins",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T16:51:00+00:00",
-   "headlines": [
-    "Juan Atkins, Detroit techno pioneer, has died"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Juan Atkins, Detroit techno pioneer, has died"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q366714",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
-  },
-  {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
    "title": "Nine killed as business jet crashes into South Florida neighbourhood",
@@ -151,16 +133,17 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-01T23:45:08+00:00",
+   "news_at": "2026-11-02T00:34:22+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "ABC (Australia)",
     "BBC",
-    "France Médias Monde"
+    "France Médias Monde",
+    "Al Jazeera Media Network"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -214,6 +197,16 @@
      "at": "2026-11-01T21:56:40+00:00"
     },
     {
+     "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
+     "url": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T00:34:22+00:00"
+    },
+    {
      "title": "All nine people aboard business jet that crashed in Florida have died",
      "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
      "outlet": "The Guardian",
@@ -239,10 +232,33 @@
     "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
     "outlet:BBC",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-01T16:51:00+00:00",
+   "headlines": [
+    "Juan Atkins, Detroit techno pioneer, has died"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Juan Atkins, Detroit techno pioneer, has died"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q366714",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
   },
   {
    "id": "nw-20261031-london-protest",
@@ -427,7 +443,10 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "coords": null,
+   "coords": [
+    26.63277778,
+    -80.11305556
+   ],
    "has_coords": true
   },
   {
@@ -481,7 +500,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-02T00:10:58.096617+00:00",
+   "news_at": "2026-11-02T01:09:48.692474+00:00",
    "headlines": [
     "AIR MARSHAL MEHTAB SINGH DESWAL AVSM, VM TAKES OVER AS AIR OFFICER COMMANDING-IN-CHIEF EASTERN AIR COMMAND",
     "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh"
@@ -506,7 +525,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T00:10:58.096617+00:00"
+     "at": "2026-11-02T01:09:48.692474+00:00"
     },
     {
      "title": "Op Sindoor drew non-negotiable red line on terrorism: Rajnath Singh",
@@ -619,31 +638,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 17408,
-   "views": 17408,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-10-31"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q922837",
@@ -801,140 +795,6 @@
  ],
  "candidates": [
   {
-   "qid": "Q366714",
-   "title": "Juan Atkins",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-01T16:51:00+00:00",
-   "headlines": [
-    "Juan Atkins, Detroit techno pioneer, has died"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Juan Atkins, Detroit techno pioneer, has died"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q366714",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
-  },
-  {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 193695,
-   "views": 168695,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-10-31T13:54:38+00:00",
-   "headlines": [
-    "Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-10-31",
-    "google-news:Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
-     "url": "https://www.hindustantimes.com/india-news/evening-news-brief-october-31-oppn-charges-against-cec-gyanesh-kumar-sanjay-gupta-death-andhra-school-attack-omar-abdullah-101793449593698.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-10-31T13:54:38+00:00"
-    }
-   ],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
-   "qid": "Q141790807",
-   "title": "2026 Portuguese housing protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141790807-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141717158",
-   "title": "2026 anti-CEC protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141717158-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q141966885",
-   "title": "2026 Greenacres Learjet 60 crash",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": null,
-   "has_coords": true
-  }
- ],
- "outlets": {
-  "headlines": 683,
-  "feeds": 29,
-  "owners": 21,
-  "matched": 35,
-  "corroborated": 4
- },
- "emerging": [
-  {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
    "title": "Nine killed as business jet crashes into South Florida neighbourhood",
@@ -942,16 +802,17 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-01T23:45:08+00:00",
+   "news_at": "2026-11-02T00:34:22+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "ABC (Australia)",
     "BBC",
-    "France Médias Monde"
+    "France Médias Monde",
+    "Al Jazeera Media Network"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -1005,6 +866,16 @@
      "at": "2026-11-01T21:56:40+00:00"
     },
     {
+     "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
+     "url": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T00:34:22+00:00"
+    },
+    {
      "title": "All nine people aboard business jet that crashed in Florida have died",
      "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
      "outlet": "The Guardian",
@@ -1030,7 +901,290 @@
     "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
     "outlet:BBC",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 193695,
+   "views": 168695,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-10-31T13:54:38+00:00",
+   "headlines": [
+    "Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-10-31",
+    "google-news:Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "Evening News Brief October 31: Oppn levels 6 charges against CEC Gyanesh Kumar; filmmaker Sanjay Gupta passes away",
+     "url": "https://www.hindustantimes.com/india-news/evening-news-brief-october-31-oppn-charges-against-cec-gyanesh-kumar-sanjay-gupta-death-andhra-school-attack-omar-abdullah-101793449593698.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-10-31T13:54:38+00:00"
+    }
+   ],
+   "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "nw-20261101-lisbon-protest",
+   "qid": null,
+   "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+   "name": "Lisbon",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-01",
+   "news_at": "2026-11-01T20:31:17+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Violence in Lisbon as police move in to clear housing protest camp",
+    "Portugal police storm housing protest camps in Lisbon, Porto",
+    "Police clash with housing crisis protesters in Portugal"
+   ],
+   "places": [
+    "Portugal",
+    "Porto"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Portugal police storm housing protest camps in Lisbon, Porto",
+     "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T11:20:00+00:00"
+    },
+    {
+     "title": "Police clash with housing crisis protesters in Portugal",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/police-clash-with-housing-crisis-protesters-in-portugal?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T20:31:17+00:00"
+    },
+    {
+     "title": "Violence in Lisbon as police move in to clear housing protest camp",
+     "url": "https://www.independent.co.uk/news/world/europe/lisbon-protest-housing-portugal-rossio-square-b3077045.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T10:23:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q141717158",
+   "title": "2026 anti-CEC protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-current-events-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141717158-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141966885",
+   "title": "2026 Greenacres Learjet 60 crash",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63277778,
+    -80.11305556
+   ],
+   "has_coords": true
+  }
+ ],
+ "outlets": {
+  "headlines": 692,
+  "feeds": 29,
+  "owners": 21,
+  "matched": 43,
+  "corroborated": 4
+ },
+ "emerging": [
+  {
+   "id": "nw-20261101-florida-aviation",
+   "qid": null,
+   "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "news_at": "2026-11-02T00:34:22+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Guardian Media Group",
+    "ABC (Australia)",
+    "BBC",
+    "France Médias Monde",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Jet crashes in Florida, killing all nine people on board",
+    "All nine people aboard business jet that crashed in Florida have died",
+    "Nine die as business jet crashes on Florida roadside",
+    "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+    "Nine killed as business jet crashes into South Florida neighbourhood"
+   ],
+   "places": [
+    "nine"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+     "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T23:45:08+00:00"
+    },
+    {
+     "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T23:15:56+00:00"
+    },
+    {
+     "title": "Nine die as business jet crashes on Florida roadside",
+     "url": "https://www.abc.net.au/news/2026-11-02/business-jet-carrying-9-people-crashes-in-florida-neighbourhood/107335094",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-01T21:56:40+00:00"
+    },
+    {
+     "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
+     "url": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T00:34:22+00:00"
+    },
+    {
+     "title": "All nine people aboard business jet that crashed in Florida have died",
+     "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-01T21:13:23+00:00"
+    },
+    {
+     "title": "Jet crashes in Florida, killing all nine people on board",
+     "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-01T20:43:44+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:ABC (Australia)",
+    "outlet:BBC",
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -1200,5 +1354,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 683 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
+ "outlet_note": "outlets: 692 headlines from 29 feeds (21 owners), 43 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest"
 }

@@ -1,20 +1,14 @@
 {
- "at": "2026-11-02T00:09:47+00:00",
+ "at": "2026-11-02T01:09:21+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 83 units today",
-  "watch: 5 candidates (0 quakes, 24 trending), 1 hazard alerts",
-  "outlets: 683 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
-  "hold wk-Q644401: outside the india window",
-  "hold wk-Q141717158-2026w45: outside the india window",
-  "skip wk-Q366714: gate: only 1 usable photos of Juan Atkins on Wikimedia Commons (want 4)",
-  "published wk-Q141790807-2026w45: https://www.youtube.com/shorts/zNBe9MkeoN0"
- ],
- "published": {
-  "video_id": "zNBe9MkeoN0",
-  "url": "https://www.youtube.com/shorts/zNBe9MkeoN0",
-  "title": "2026 Portuguese Housing Protests: Escalation in Porto and Lisbon",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 84 units today",
+  "watch: 5 candidates (0 quakes, 23 trending), 1 hazard alerts",
+  "outlets: 692 headlines from 29 feeds (21 owners), 43 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261101-florida-aviation, nw-20261031-london-protest, nw-20261101-lisbon-protest",
+  "hold nw-20261101-florida-aviation: last Short went out 0.2 h ago",
+  "hold wk-Q644401: last Short went out 0.2 h ago",
+  "hold nw-20261101-lisbon-protest: last Short went out 0.2 h ago",
+  "hold wk-Q141717158-2026w45: last Short went out 0.2 h ago",
+  "hold wk-Q141966885: last Short went out 0.2 h ago"
+ ]
 }
