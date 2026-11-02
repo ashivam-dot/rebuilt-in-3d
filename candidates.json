@@ -1,37 +1,7 @@
 {
- "at": "2026-11-02T10:26:12+00:00",
+ "at": "2026-11-02T10:55:57+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 264556,
-   "views": 14556,
-   "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-02T01:52:38+00:00",
-   "headlines": [
-    "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
-    "University of Cambridge scientist among victims of deadly Spain train crash"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say",
-    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
@@ -53,6 +23,71 @@
    "date": "2026-10-28"
   },
   {
+   "qid": "Q141790807",
+   "title": "2026 Portuguese housing protests",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [
+    "Clashes broke out in Portugal as police stormed housing protest camps in Lisbon and Porto"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-01",
+    "google-news:Clashes broke out in Portugal as police stormed housing protest camps in Lisbon and Porto"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141790807-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-02T07:08:28+00:00",
+   "headlines": [
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories",
+    "Bangladesh garment factories disrupted as protests continue for third day"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories",
+    "google-news:Bangladesh garment factories disrupted as protests continue for third day",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment factories disrupted as protests continue for third day",
+     "url": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:08:28+00:00"
+    }
+   ],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261101-florida-aviation",
    "qid": null,
    "title": "Nine killed as small jet crashes on Florida street",
@@ -60,15 +95,15 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-02T09:10:19+00:00",
+   "news_at": "2026-11-02T10:47:41+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "France Médias Monde",
     "Euronews",
     "Deutsche Welle",
-    "Independent Digital News",
-    "BBC"
+    "BBC",
+    "Independent Digital News"
    ],
    "fame": 150000,
    "news": 150000,
@@ -134,7 +169,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T08:23:08+00:00"
+     "at": "2026-11-02T10:47:41+00:00"
     },
     {
      "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
@@ -173,11 +208,39 @@
     "outlet:France Médias Monde",
     "outlet:Euronews",
     "outlet:Deutsche Welle",
-    "outlet:Independent Digital News",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 139556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-01T15:14:58+00:00",
+   "headlines": [
+    "University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:University of Cambridge scientist among victims of deadly Spain train crash"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q2913482",
@@ -243,28 +306,6 @@
     -80.11311111
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141790807",
-   "title": "2026 Portuguese housing protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-02T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141790807-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-02",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141717158",
@@ -409,13 +450,13 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T10:29:51.627699+00:00",
+   "news_at": "2026-11-02T10:59:21.224691+00:00",
    "headlines": [
-    "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026"
+    "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar"
    ],
    "region": "india",
    "via": [
-    "google-news:Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
+    "google-news:Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
     "outlet:Government of India"
    ],
    "owners": [
@@ -423,14 +464,14 @@
    ],
    "reports": [
     {
-     "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331374",
+     "title": "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331574",
      "outlet": "PIB",
      "outlet_hi": "पीआईबी",
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T10:29:51.627699+00:00"
+     "at": "2026-11-02T10:59:21.224691+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -666,14 +707,11 @@
    "date": "2026-11-01"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.4 h ago, 143 people)"
- ],
  "outlets": {
-  "headlines": 708,
+  "headlines": 706,
   "feeds": 29,
   "owners": 21,
-  "matched": 28,
+  "matched": 33,
   "corroborated": 1
  },
  "emerging": [
@@ -685,15 +723,15 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-01",
-   "news_at": "2026-11-02T09:10:19+00:00",
+   "news_at": "2026-11-02T10:47:41+00:00",
    "owners": [
     "NBCUniversal",
     "Guardian Media Group",
     "France Médias Monde",
     "Euronews",
     "Deutsche Welle",
-    "Independent Digital News",
-    "BBC"
+    "BBC",
+    "Independent Digital News"
    ],
    "fame": 150000,
    "news": 150000,
@@ -759,7 +797,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T08:23:08+00:00"
+     "at": "2026-11-02T10:47:41+00:00"
     },
     {
      "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
@@ -798,12 +836,12 @@
     "outlet:France Médias Monde",
     "outlet:Euronews",
     "outlet:Deutsche Welle",
-    "outlet:Independent Digital News",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 708 headlines from 29 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
+ "outlet_note": "outlets: 706 headlines from 29 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
 }
