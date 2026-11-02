@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T20:57:36+00:00",
+ "at": "2026-11-02T21:27:57+00:00",
  "quakes": [],
  "trending": [
   {
@@ -336,7 +336,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T20:58:53.255076+00:00",
+   "news_at": "2026-11-02T21:31:16.976995+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -357,7 +357,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T20:58:53.255076+00:00"
+     "at": "2026-11-02T21:31:16.976995+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -544,6 +544,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-31"
+  },
+  {
+   "qid": "Q401911",
+   "title": "Ahmet Nazif Zorlu",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:ahmet nazif zorlu"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q401911",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-02"
   }
  ],
  "hazards": [
@@ -583,35 +603,31 @@
    "has_coords": true
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 125000,
+   "qid": "Q401911",
+   "title": "Ahmet Nazif Zorlu",
+   "fame": 200,
    "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T16:31:18+00:00",
-   "headlines": [
-    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
+    "google-trends-GB:ahmet nazif zorlu"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
+   "id": "wk-Q401911",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-02"
   }
  ],
  "outlets": {
-  "headlines": 763,
+  "headlines": 764,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 34,
   "corroborated": 1
  },
  "emerging": [
@@ -702,5 +718,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 763 headlines from 30 feeds (21 owners), 36 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 34 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
