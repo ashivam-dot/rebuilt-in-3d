@@ -1,12 +1,12 @@
 {
- "at": "2026-11-02T06:25:37+00:00",
+ "at": "2026-11-02T06:56:27+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 95 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 96 units today",
   "watch: 2 candidates (0 quakes, 19 trending), 0 hazard alerts",
-  "outlets: 695 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 143 people)\"]",
-  "hold wk-Q141966885: outside the world window",
-  "hold wk-Q1812342: outside the world window"
+  "outlets: 688 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation",
+  "skip wk-Q1812342: gate: only 2 usable photos of John Leeson on Wikimedia Commons (want 4)",
+  "skip wk-Q141966885: gate: only 3 usable photos of 2026 Palm Beach County Learjet 60 crash on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
