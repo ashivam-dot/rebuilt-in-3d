@@ -1,9 +1,12 @@
 {
- "at": "2026-11-02T07:24:46+00:00",
+ "at": "2026-11-02T07:56:40+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 97 units today",
-  "watch: 0 candidates (0 quakes, 21 trending), 0 hazard alerts",
-  "outlets: 692 headlines from 29 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261101-florida-aviation, nw-20261101-florida-aviation"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 98 units today",
+  "watch: 1 candidates (0 quakes, 21 trending), 1 hazard alerts",
+  "outlets: 693 headlines from 29 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261101-florida-aviation, nw-20261101-florida-aviation",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 143 people)']",
+  "skip wk-Q7612484: gate: only 1 usable photos of Steve Ellis on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
