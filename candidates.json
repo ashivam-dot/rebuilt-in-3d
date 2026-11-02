@@ -1,7 +1,33 @@
 {
- "at": "2026-11-02T13:42:49+00:00",
+ "at": "2026-11-02T14:11:49+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": null,
+   "title": "2026 Bangladesh garment sector minimum wage protests",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-02T07:18:58+00:00",
+   "headlines": [
+    "Bangladesh garment factories disrupted as protests continue for third day",
+    "Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bangladesh garment factories disrupted as protests continue for third day",
+    "google-news:Bangladesh sets up wage board as garment workers' unrest shuts factories"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Bangladesh_garment_sector_minimum_wage_protests",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-02",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
@@ -46,6 +72,34 @@
    "date": "2026-11-02",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 139556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-02T13:42:00+00:00",
+   "headlines": [
+    "Spain train crash: US, Japan and Canada citizens among dead, authorities say"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01",
+    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q2913482",
@@ -225,43 +279,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q366714",
-   "title": "Juan Atkins",
-   "fame": 49138,
-   "views": 24138,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T03:22:49+00:00",
-   "headlines": [
-    "Juan Atkins, co-creator of the techno music genre, dies at 64"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Juan Atkins, co-creator of the techno music genre, dies at 64",
-    "outlet:NBCUniversal"
-   ],
-   "owners": [
-    "NBCUniversal"
-   ],
-   "reports": [
-    {
-     "title": "Juan Atkins, co-creator of the techno music genre, dies at 64",
-     "url": "https://www.nbcnews.com/news/obituaries/juan-atkins-co-creator-techno-music-genre-dies-rcna606930",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T03:22:49+00:00"
-    }
-   ],
-   "id": "wk-Q366714",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
-  },
-  {
    "qid": "Q7612484",
    "title": "Steve Ellis (musician)",
    "fame": 32160,
@@ -302,40 +319,24 @@
    "date": "2026-10-25"
   },
   {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 25000,
-   "views": 0,
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 24138,
+   "views": 24138,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T13:46:30.668711+00:00",
-   "headlines": [
-    "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar"
-   ],
-   "region": "india",
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
    "via": [
-    "google-news:Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
-    "outlet:Government of India"
+    "wikipedia-top-2026-11-01"
    ],
-   "owners": [
-    "Government of India"
-   ],
-   "reports": [
-    {
-     "title": "Dr Jitendra Singh highlights expansion of disaster preparedness and weather monitoring infrastructure with new Seismological Observatory inaugurated in high seismic region of Kishtwar",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331574",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
-     "lang": "en",
-     "at": "2026-11-02T13:46:30.668711+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q366714",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-27"
+   "date": "2026-10-31"
   },
   {
    "qid": "Q16146453",
@@ -438,91 +439,6 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 14556,
-   "views": 14556,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 12471,
-   "views": 12471,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q259559",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
-  },
-  {
-   "qid": "Q241115",
-   "title": "Elke Sommer",
-   "fame": 10001,
-   "views": 10001,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q241115",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
-   "qid": "Q965634",
-   "title": "Mišo Kovač",
-   "fame": 8664,
-   "views": 8664,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q965634",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
-  },
-  {
    "qid": null,
    "title": "2026 Pagosa Springs flood",
    "fame": 500,
@@ -583,10 +499,10 @@
   }
  ],
  "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 2.8 h ago, 153 people)"
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65)"
  ],
  "outlets": {
-  "headlines": 722,
+  "headlines": 723,
   "feeds": 29,
   "owners": 21,
   "matched": 23,
@@ -684,5 +600,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 722 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 723 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
