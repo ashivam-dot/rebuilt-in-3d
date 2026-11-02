@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-02T12:10:58+00:00. Scored Shorts (views at 24 h): 56. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-11-02T15:12:34+00:00. Scored Shorts (views at 24 h): 56. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 202 views at 24 h.
 Retention: a typical Short is watched 55.2% through; a group's retention is blended into its lift at 0.5.
@@ -12,16 +12,16 @@ Retention: a typical Short is watched 55.2% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 11 |  |
-| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2192 | 2177 |
+| wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 17 |  |
+| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2216 | 2177 |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1102 | 1072 |
 | wk-Q453730 | 2026-10-29T14:30 | death | death | 656 | 535 |
-| wk-Q241115 | 2026-10-29T13:29 | death | death | 1264 | 1191 |
+| wk-Q241115 | 2026-10-29T13:29 | death | death | 1267 | 1191 |
 | wk-Q922837 | 2026-10-29T09:29 | death | death | 466 | 294 |
 | wk-Q468843 | 2026-10-28T18:21 | death | death | 568 | 445 |
 | wk-Q455700 | 2026-10-28T12:45 | death | death | 542 | 363 |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1225 | 939 |
-| wk-Q376176 | 2026-10-26T20:55 | death | death | 4397 | 1424 |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1227 | 939 |
+| wk-Q376176 | 2026-10-26T20:55 | death | death | 4399 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 113 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 27 | 24 |
 | wk-Q983618 | 2026-10-24T22:07 | death | death | 1508 | 1182 |
