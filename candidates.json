@@ -1,53 +1,7 @@
 {
- "at": "2026-11-02T09:55:38+00:00",
+ "at": "2026-11-02T10:03:38+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 280000,
-   "views": 0,
-   "traffic": 5000,
-   "news": 275000,
-   "news_at": "2026-11-02T09:10:19+00:00",
-   "headlines": [
-    "Nine killed in fiery Florida jet crash in West Palm Beach County",
-    "Nine killed in fiery Florida Learjet crash in West Palm Beach County",
-    "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-US:se",
-    "google-news:Nine killed in fiery Florida jet crash in West Palm Beach County",
-    "google-news:Nine killed in fiery Florida Learjet crash in West Palm Beach County",
-    "google-news:Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
-     "url": "https://www.cbsnews.com/news/texas-jet-florida-crash-11-1-2026/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T05:29:00+00:00"
-    }
-   ],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q141898879",
    "title": "2026 Toledo train collision",
@@ -120,43 +74,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 163465,
-   "views": 138465,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T08:42:56+00:00",
-   "headlines": [
-    "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-     "url": "https://www.bbc.co.uk/news/articles/cj3vqy1g3eygo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-02T08:42:56+00:00"
-    }
-   ],
-   "id": "wk-Q2913482",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
   },
   {
    "qid": null,
@@ -326,6 +243,51 @@
    "article": null
   },
   {
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 138465,
+   "views": 138465,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach County Learjet 60 crash",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-02T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q141790807",
    "title": "2026 Portuguese housing protests",
    "fame": 50000,
@@ -490,7 +452,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-02T09:56:18.661323+00:00",
+   "news_at": "2026-11-02T10:04:58.434805+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026"
    ],
@@ -511,7 +473,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-02T09:56:18.661323+00:00"
+     "at": "2026-11-02T10:04:58.434805+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -748,10 +710,10 @@
   }
  ],
  "outlets": {
-  "headlines": 706,
+  "headlines": 708,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
+  "matched": 32,
   "corroborated": 1
  },
  "emerging": [
@@ -883,5 +845,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 706 headlines from 29 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
+ "outlet_note": "outlets: 708 headlines from 29 feeds (21 owners), 32 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261101-florida-aviation"
 }
