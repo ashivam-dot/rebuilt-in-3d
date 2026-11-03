@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T03:43:53+00:00",
+ "at": "2026-11-03T04:14:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -54,7 +54,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-03T03:44:52.546903+00:00",
+   "news_at": "2026-11-03T04:15:17.209844+00:00",
    "headlines": [
     "iPhone Feature Alerts Honey Singh's Nephew's Family After Fatal Crash: How To Enable Apple's Crash Detection",
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
@@ -81,7 +81,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T03:44:52.546903+00:00"
+     "at": "2026-11-03T04:15:17.209844+00:00"
     },
     {
      "title": "Bihar Assembly serves notice to Anant Singh over plea to expel him",
@@ -242,7 +242,7 @@
    "headlines": [
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
-    "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+    "Florida jet 'broke apart' midair before crashing; 20-year-old pilot among victims",
     "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
    ],
    "places": [
@@ -281,7 +281,7 @@
      "at": "2026-11-02T20:16:47+00:00"
     },
     {
-     "title": "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+     "title": "Florida jet 'broke apart' midair before crashing; 20-year-old pilot among victims",
      "url": "https://timesofindia.indiatimes.com/world/us/florida-jet-broke-apart-midair-before-crashing-into-roadway-20-year-old-woman-pilot-among-victims/articleshow/135479116.cms",
      "outlet": "Times of India",
      "outlet_hi": "टाइम्स ऑफ़ इंडिया",
@@ -712,222 +712,31 @@
  ],
  "candidates": [
   {
-   "id": "nw-20261102-florida-aviation",
-   "qid": null,
-   "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-02",
-   "news_at": "2026-11-03T00:08:14+00:00",
-   "owners": [
-    "Euronews",
-    "Independent Digital News",
-    "Al Jazeera Media Network",
-    "Guardian Media Group",
-    "BBC"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Dashcam captures deadly private jet crash in Florida",
-    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-    "‘Work to do’: Authorities give update on Florida private jet crash",
-    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
-    "Plane may have broken apart ahead of deadly Florida jet crash, say investigators"
-   ],
-   "places": [
-    "Authorities"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-03T00:08:14+00:00"
-    },
-    {
-     "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
-     "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T21:52:26+00:00"
-    },
-    {
-     "title": "‘Work to do’: Authorities give update on Florida private jet crash",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/work-to-do-authorities-give-update-on-florida-private-jet-crash?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T21:23:31+00:00"
-    },
-    {
-     "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
-     "url": "https://www.independent.co.uk/news/world/americas/florida-learjet-60-plane-crash-palm-beach-county-b3077261.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T10:47:41+00:00"
-    },
-    {
-     "title": "Dashcam captures deadly private jet crash in Florida",
-     "url": "https://www.euronews.com/2026/11/02/dashcam-captures-deadly-private-jet-crash-in-florida",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T07:15:56+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261102-florida-aviation",
-   "qid": null,
-   "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-02",
-   "news_at": "2026-11-03T02:29:21+00:00",
-   "owners": [
-    "Euronews",
-    "NDTV",
-    "Bennett, Coleman & Co.",
-    "NBCUniversal"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-    "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
-    "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
-    "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
-   ],
-   "places": [
-    "Learjet",
-    "Trump",
-    "Finds"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T07:30:17+00:00"
-    },
-    {
-     "title": "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says",
-     "url": "https://www.nbcnews.com/news/us-news/jet-may-experienced-breakup-crashed-florida-killing-9-ntsb-says-rcna607068",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T20:16:47+00:00"
-    },
-    {
-     "title": "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
-     "url": "https://timesofindia.indiatimes.com/world/us/florida-jet-broke-apart-midair-before-crashing-into-roadway-20-year-old-woman-pilot-among-victims/articleshow/135479116.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T02:29:21+00:00"
-    },
-    {
-     "title": "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
-     "url": "https://www.ndtv.com/world-news/probe-finds-learjet-parts-broke-up-before-florida-jet-crash-12274024#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T01:24:32+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:NBCUniversal"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q5213397",
-   "title": "Dan Doornink",
-   "fame": 10852,
-   "views": 10852,
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 39653,
+   "views": 39653,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
-   "region": "world",
+   "region": "india",
    "via": [
     "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q5213397",
+   "id": "wk-Q644401",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-31"
+   "date": "2026-10-30"
   }
  ],
  "outlets": {
-  "headlines": 765,
+  "headlines": 761,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 23,
   "corroborated": 4
  },
  "emerging": [
@@ -1054,7 +863,7 @@
    "headlines": [
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
-    "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+    "Florida jet 'broke apart' midair before crashing; 20-year-old pilot among victims",
     "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
    ],
    "places": [
@@ -1093,7 +902,7 @@
      "at": "2026-11-02T20:16:47+00:00"
     },
     {
-     "title": "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+     "title": "Florida jet 'broke apart' midair before crashing; 20-year-old pilot among victims",
      "url": "https://timesofindia.indiatimes.com/world/us/florida-jet-broke-apart-midair-before-crashing-into-roadway-20-year-old-woman-pilot-among-victims/articleshow/135479116.cms",
      "outlet": "Times of India",
      "outlet_hi": "टाइम्स ऑफ़ इंडिया",
@@ -1200,5 +1009,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 765 headlines from 30 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 761 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
