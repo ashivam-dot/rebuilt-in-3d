@@ -16,6 +16,21 @@ def test_description_hashtags_are_clean():
     assert last == "#earthquake #PapuaNewGuinea #science"
 
 
+def test_hashtags_fold_accents_instead_of_dropping_letters():
+    short = replace(Short.load(FIXTURE), hashtags=["Fátima Báñez", "Cuauhtémoc Cárdenas Solórzano", "news", "news"])
+    assert youtube.description(short).splitlines()[-1] == "#FatimaBanez #CuauhtemocCardenasSolorzano #news"
+
+
+def test_source_links_lose_the_fragment_youtube_reads_as_a_hashtag():
+    url = "https://www.ndtv.com/india-news/cyclone-murasu-12274520"
+    quake = Short.load(FIXTURE)
+    story = replace(quake, sources=[url + "#publisher=newsstand"],
+                    scene={**quake.scene, "template": "story", "photos": [], "outlets": ["NDTV"]})
+    for short in (story, replace(quake, sources=quake.sources + [url + "#publisher=newsstand"])):
+        text = youtube.description(short)
+        assert url in text.splitlines() and "#publisher" not in text
+
+
 def test_description_carries_sources_and_disclosure():
     text = youtube.description(Short.load(FIXTURE))
     assert "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi" in text

@@ -5,6 +5,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -198,19 +199,35 @@ def unrecorded(api, channel: dict, short: Short, at: datetime | None = None) -> 
         if at - datetime.fromisoformat(uploaded.replace("Z", "+00:00")) > UNRECORDED_AGE:
             continue
         lines = set((snippet.get("description") or "").splitlines())
-        if any(u in lines for u in urls):
+        if any(u in lines or link(u) in lines for u in urls):
             return v
     return None
+
+
+def link(url: str) -> str:
+    """A source URL as the description prints it: without its #fragment. YouTube reads "#publisher=newsstand" (Google
+    News links) as a hashtag and can show it above the title (Cyclone Murasu, ogGMyG9ikT4, 2026-11-03)."""
+    return url.split("#", 1)[0]
 
 
 def source_lines(short: Short) -> list[str]:
     """The sources block: "Sources: Wikipedia, BBC, The Hindu" naming who the facts come from (when trusted outlets'
     reporting backs any), then every source URL."""
     named = short.scene.get("outlets") or []
+    urls = list(dict.fromkeys(link(s) for s in short.sources))
     if not named:
-        return ["Sources:"] + short.sources + [""]
+        return ["Sources:"] + urls + [""]
     wiki = ["Wikipedia"] if any("wikipedia.org" in s or "wikidata.org" in s for s in short.sources) else []
-    return ["Sources: " + ", ".join(wiki + named)] + short.sources + [""]
+    return ["Sources: " + ", ".join(wiki + named)] + urls + [""]
+
+
+def hashtag(text: str) -> str:
+    """#CamelCase letters and digits, accents folded to their base letter (Fátima Báñez -> #FatimaBanez; dropping
+    them gave #FtimaBez and #CuauhtmocCrdenasSolrzano)."""
+    words = text.split()
+    joined = "".join(w[:1].upper() + w[1:] for w in words) if len(words) > 1 else text
+    folded = unicodedata.normalize("NFKD", joined).encode("ascii", "ignore").decode()
+    return re.sub(r"[^0-9A-Za-z]", "", folded)
 
 
 DESCRIPTION_BYTES = 5000
@@ -252,13 +269,12 @@ def _description(short: Short, narration: bool) -> str:
         lines += ["Credits:"] + [f"• {c}" for c in short.credits] + [""]
     else:
         lines += ["What the data shows:"] + [f"• {b.text}" for b in short.beats[1:-1]] + [""]
-        lines += ["Sources:"] + short.sources + [""]
+        lines += ["Sources:"] + [link(s) for s in short.sources] + [""]
         lines += ["This is a 3D reconstruction built from open data, not real footage. The vertical scale is "
                   "exaggerated so depth and relief are visible. Narration is synthetic (Kokoro text-to-speech).",
                   EDITORIAL_QUAKE, "Spotted an error? Comment with a source and we will correct it.", ""]
         lines += ["Credits: " + "; ".join(short.credits), ""]
-    words = ["".join(w[:1].upper() + w[1:] for w in h.split()) if " " in h else h for h in short.hashtags]
-    lines.append(" ".join("#" + re.sub(r"[^0-9A-Za-z]", "", w) for w in words if re.sub(r"[^0-9A-Za-z]", "", w)))
+    lines.append(" ".join("#" + t for t in dict.fromkeys(hashtag(h) for h in short.hashtags) if t))
     return "\n".join(lines)
 
 
