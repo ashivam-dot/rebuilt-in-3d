@@ -1,47 +1,76 @@
 {
- "at": "2026-11-03T03:14:06+00:00",
+ "at": "2026-11-03T03:43:53+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 205436,
-   "views": 205436,
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 252010,
+   "views": 252010,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q16296",
+   "id": "wk-Q259559",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-28"
+   "date": "2026-10-26"
+  },
+  {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach County Learjet 60 crash",
+   "fame": 220959,
+   "views": 220959,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 150000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-03T03:15:48.663642+00:00",
+   "news": 175000,
+   "news_at": "2026-11-03T03:44:52.546903+00:00",
    "headlines": [
     "iPhone Feature Alerts Honey Singh's Nephew's Family After Fatal Crash: How To Enable Apple's Crash Detection",
-    "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
+    "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
+    "Bihar Assembly serves notice to Anant Singh over plea to expel him"
    ],
    "region": "india",
    "via": [
     "google-news:iPhone Feature Alerts Honey Singh's Nephew's Family After Fatal Crash: How To Enable Apple's Crash Detection",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
-    "outlet:Government of India"
+    "google-news:Bihar Assembly serves notice to Anant Singh over plea to expel him",
+    "outlet:Government of India",
+    "outlet:The Hindu Group"
    ],
    "owners": [
-    "Government of India"
+    "Government of India",
+    "The Hindu Group"
    ],
    "reports": [
     {
@@ -52,7 +81,17 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T03:15:48.663642+00:00"
+     "at": "2026-11-03T03:44:52.546903+00:00"
+    },
+    {
+     "title": "Bihar Assembly serves notice to Anant Singh over plea to expel him",
+     "url": "https://www.thehindu.com/news/national/bihar/bihar-assembly-serves-notice-to-anant-singh-over-plea-to-expel-him/article71656731.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T03:16:03+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -61,24 +100,24 @@
    "date": "2026-10-27"
   },
   {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 138465,
-   "views": 138465,
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 132688,
+   "views": 132688,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q2913482",
+   "id": "wk-Q16296",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-01"
+   "date": "2026-10-28"
   },
   {
    "id": "nw-20261102-florida-aviation",
@@ -272,29 +311,9 @@
    "article": null
   },
   {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 98434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
    "id": "nw-20261102-supermarkets-cyberattack",
    "qid": null,
-   "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+   "title": "New cyberattack hits supermarket fridges across 9 European nations",
    "name": "Supermarkets",
    "kind": "incident",
    "category": "cyberattack",
@@ -312,7 +331,7 @@
    "headlines": [
     "Supermarkets across Europe hit by new fridge cyberattacks",
     "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
-    "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’"
+    "New cyberattack hits supermarket fridges across 9 European nations"
    ],
    "places": [
     "Disrupts",
@@ -330,7 +349,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+     "title": "New cyberattack hits supermarket fridges across 9 European nations",
      "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
@@ -369,17 +388,57 @@
    "article": null
   },
   {
-   "qid": "Q7612484",
-   "title": "Steve Ellis (musician)",
-   "fame": 32160,
-   "views": 32160,
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 59386,
+   "views": 59386,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 39653,
+   "views": 39653,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
+  },
+  {
+   "qid": "Q7612484",
+   "title": "Steve Ellis (musician)",
+   "fame": 38001,
+   "views": 38001,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
@@ -389,24 +448,24 @@
    "date": "2026-10-30"
   },
   {
-   "qid": "Q5386105",
-   "title": "Eric Bauza",
-   "fame": 27849,
-   "views": 27849,
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 29064,
+   "views": 29064,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q5386105",
+   "id": "wk-Q366714",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-25"
+   "date": "2026-10-31"
   },
   {
    "qid": "Q141921562",
@@ -433,97 +492,17 @@
    "has_coords": true
   },
   {
-   "qid": "Q366714",
-   "title": "Juan Atkins",
-   "fame": 24138,
-   "views": 24138,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q366714",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
-  },
-  {
-   "qid": "Q16146453",
-   "title": "Ate Gay",
-   "fame": 19518,
-   "views": 19518,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16146453",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q376176",
-   "title": "Walter Koenig",
-   "fame": 16706,
-   "views": 16706,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q376176",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-25"
-  },
-  {
-   "qid": "Q3299104",
-   "title": "Jerry Koosman",
-   "fame": 15595,
-   "views": 15595,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3299104",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
    "qid": "Q1812342",
    "title": "John Leeson",
-   "fame": 15197,
-   "views": 15197,
+   "fame": 24937,
+   "views": 24937,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
@@ -533,37 +512,77 @@
    "date": "2026-11-01"
   },
   {
-   "qid": "Q922837",
-   "title": "Cuauhtémoc Cárdenas",
-   "fame": 15029,
-   "views": 15029,
+   "qid": "Q5386105",
+   "title": "Eric Bauza",
+   "fame": 21201,
+   "views": 21201,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q922837",
+   "id": "wk-Q5386105",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-28"
+   "date": "2026-10-25"
+  },
+  {
+   "qid": "Q3299104",
+   "title": "Jerry Koosman",
+   "fame": 20536,
+   "views": 20536,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3299104",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
+  },
+  {
+   "qid": "Q16146453",
+   "title": "Ate Gay",
+   "fame": 17673,
+   "views": 17673,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16146453",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
   },
   {
    "qid": "Q141898879",
    "title": "2026 Toledo train collision",
-   "fame": 14556,
-   "views": 14556,
+   "fame": 14883,
+   "views": 14883,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
@@ -578,37 +597,97 @@
    "has_coords": true
   },
   {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 12471,
-   "views": 12471,
+   "qid": "Q922837",
+   "title": "Cuauhtémoc Cárdenas",
+   "fame": 13075,
+   "views": 13075,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q259559",
+   "id": "wk-Q922837",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-26"
+   "date": "2026-10-28"
+  },
+  {
+   "qid": "Q5213397",
+   "title": "Dan Doornink",
+   "fame": 10852,
+   "views": 10852,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213397",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
+  },
+  {
+   "qid": "Q376176",
+   "title": "Walter Koenig",
+   "fame": 10162,
+   "views": 10162,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q376176",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-25"
+  },
+  {
+   "qid": "Q5103870",
+   "title": "Choi Bool-am",
+   "fame": 9193,
+   "views": 9193,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5103870",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-29"
   },
   {
    "qid": "Q241115",
    "title": "Elke Sommer",
-   "fame": 10001,
-   "views": 10001,
+   "fame": 7951,
+   "views": 7951,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-01"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
@@ -616,26 +695,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q965634",
-   "title": "Mišo Kovač",
-   "fame": 8664,
-   "views": 8664,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q965634",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-31"
   }
  ],
  "hazards": [
@@ -651,13 +710,225 @@
    "lon": "80.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T00:08:14+00:00",
+   "owners": [
+    "Euronews",
+    "Independent Digital News",
+    "Al Jazeera Media Network",
+    "Guardian Media Group",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Dashcam captures deadly private jet crash in Florida",
+    "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
+    "‘Work to do’: Authorities give update on Florida private jet crash",
+    "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+    "Plane may have broken apart ahead of deadly Florida jet crash, say investigators"
+   ],
+   "places": [
+    "Authorities"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+     "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T00:08:14+00:00"
+    },
+    {
+     "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+     "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T21:52:26+00:00"
+    },
+    {
+     "title": "‘Work to do’: Authorities give update on Florida private jet crash",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/work-to-do-authorities-give-update-on-florida-private-jet-crash?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T21:23:31+00:00"
+    },
+    {
+     "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-learjet-60-plane-crash-palm-beach-county-b3077261.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T10:47:41+00:00"
+    },
+    {
+     "title": "Dashcam captures deadly private jet crash in Florida",
+     "url": "https://www.euronews.com/2026/11/02/dashcam-captures-deadly-private-jet-crash-in-florida",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:15:56+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Independent Digital News",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T02:29:21+00:00",
+   "owners": [
+    "Euronews",
+    "NDTV",
+    "Bennett, Coleman & Co.",
+    "NBCUniversal"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+    "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+    "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+    "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
+   ],
+   "places": [
+    "Learjet",
+    "Trump",
+    "Finds"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:30:17+00:00"
+    },
+    {
+     "title": "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says",
+     "url": "https://www.nbcnews.com/news/us-news/jet-may-experienced-breakup-crashed-florida-killing-9-ntsb-says-rcna607068",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T20:16:47+00:00"
+    },
+    {
+     "title": "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+     "url": "https://timesofindia.indiatimes.com/world/us/florida-jet-broke-apart-midair-before-crashing-into-roadway-20-year-old-woman-pilot-among-victims/articleshow/135479116.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T02:29:21+00:00"
+    },
+    {
+     "title": "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+     "url": "https://www.ndtv.com/world-news/probe-finds-learjet-parts-broke-up-before-florida-jet-crash-12274024#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T01:24:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:NDTV",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NBCUniversal"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q5213397",
+   "title": "Dan Doornink",
+   "fame": 10852,
+   "views": 10852,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213397",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
+  }
+ ],
  "outlets": {
-  "headlines": 759,
+  "headlines": 765,
   "feeds": 30,
   "owners": 21,
   "matched": 25,
-  "corroborated": 3
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -854,7 +1125,7 @@
   {
    "id": "nw-20261102-supermarkets-cyberattack",
    "qid": null,
-   "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+   "title": "New cyberattack hits supermarket fridges across 9 European nations",
    "name": "Supermarkets",
    "kind": "incident",
    "category": "cyberattack",
@@ -872,7 +1143,7 @@
    "headlines": [
     "Supermarkets across Europe hit by new fridge cyberattacks",
     "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
-    "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’"
+    "New cyberattack hits supermarket fridges across 9 European nations"
    ],
    "places": [
     "Disrupts",
@@ -890,7 +1161,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+     "title": "New cyberattack hits supermarket fridges across 9 European nations",
      "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
@@ -929,5 +1200,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 759 headlines from 30 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 765 headlines from 30 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
