@@ -1,11 +1,12 @@
 {
- "at": "2026-11-03T10:07:12+00:00",
+ "at": "2026-11-03T10:46:04+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
-  "watch: 1 candidates (0 quakes, 22 trending), 0 hazard alerts",
-  "outlets: 754 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-murasu-cyclone, nw-20261102-florida-aviation",
-  "skip nw-20261102-murasu-cyclone: gate: no draft passed the fact checks: narration: 49 words (want 50-200)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
+  "watch: 2 candidates (0 quakes, 22 trending), 1 hazard alerts",
+  "outlets: 751 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-murasu-cyclone, nw-20261102-florida-aviation",
+  "skip nw-20261102-murasu-cyclone: gate: no draft passed the fact checks: line 2 (The severe cyclonic storm brought gale-force winds and heavy): partly: The line attributes gale-force winds and heavy rain specifically to Prakasam and Bapatla districts, but the source only confirms extensive damage (trees, poles, boats) in those districts; gale-force winds and torrential r | second look: The line states that the storm brought gale-force winds and heavy rain to Prakasam a",
+  "skip wk-Q6775394: gate: no photo on Wikimedia Commons shows Martin Erlichman's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
