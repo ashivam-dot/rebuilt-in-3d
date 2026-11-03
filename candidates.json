@@ -1,15 +1,15 @@
 {
- "at": "2026-11-03T09:43:34+00:00",
+ "at": "2026-11-03T10:07:13+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 300000,
+   "fame": 305000,
    "views": 0,
-   "traffic": 0,
+   "traffic": 5000,
    "news": 300000,
-   "news_at": "2026-11-03T09:44:25.536758+00:00",
+   "news_at": "2026-11-03T10:07:43.028212+00:00",
    "headlines": [
     "Orry calls Sara Ali Khan 'fake friend' for disappearing during his difficult time, claims Amrita Singh hurled abuses at him and never apologised | Bollywood",
     "Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
@@ -18,6 +18,7 @@
    ],
    "region": "india",
    "via": [
+    "google-trends-IN:hardik pandya arshdeep singh",
     "google-news:Orry calls Sara Ali Khan 'fake friend' for disappearing during his difficult time, claims Amrita Singh hurled abuses at him and never apologised | Bollywood",
     "google-news:Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
@@ -37,7 +38,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T09:44:25.536758+00:00"
+     "at": "2026-11-03T10:07:43.028212+00:00"
     },
     {
      "title": "‘Sinking ship’: Punjab Congress chief Pargat Singh's dig after three AAP MLAs join BJP",
@@ -121,33 +122,35 @@
    "date": "2026-10-28"
   },
   {
-   "id": "nw-20261103-murasu-cyclone",
+   "id": "nw-20261102-murasu-cyclone",
    "qid": null,
-   "title": "India news: Cyclone Murasu wreaks havoc after landfall",
+   "title": "Cyclone Murasu makes landfall on India’s eastern coast",
    "name": "Murasu",
    "kind": "incident",
    "category": "cyclone",
-   "date": "2026-11-03",
-   "news_at": "2026-11-03T06:12:54+00:00",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T09:52:34+00:00",
    "owners": [
-    "The Hindu Group",
-    "Deutsche Welle",
-    "HT Media"
+    "HT Media",
+    "NDTV",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Cyclone Murasu completes landfall, to weaken by noon",
-    "Severe Cyclone Murasu: Landfall commences near Ongole",
-    "India news: Cyclone Murasu wreaks havoc after landfall",
-    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall"
+    "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
+    "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
+    "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
+    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
+    "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit"
    ],
    "places": [
-    "landfall",
-    "Ongole",
-    "Morning"
+    "Andhra",
+    "Pradesh",
+    "Nilgiris"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -161,14 +164,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-     "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
+     "title": "Cyclone Murasu makes landfall on India’s eastern coast",
+     "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-03T06:12:00+00:00"
+     "at": "2026-11-03T09:33:18+00:00"
+    },
+    {
+     "title": "Cyclone Murasu train cancellations: Full list of affected trains in Andhra Pradesh",
+     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-train-cancellations-full-list-of-affected-trains-andhra-pradesh/article71659863.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T09:52:34+00:00"
+    },
+    {
+     "title": "CM Naidu thanks Centre for support as Cyclone Murasu disrupts life in Andhra",
+     "url": "https://www.hindustantimes.com/india-news/cm-naidu-thanks-centre-for-support-as-cyclone-murasu-disrupts-life-in-andhra-101793698686435.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T09:38:05+00:00"
+    },
+    {
+     "title": "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit",
+     "url": "https://www.ndtv.com/andhra-pradesh-news/cyclone-murasu-landfall-news-cyclone-murasu-crosses-andhra-pradesh-coast-crops-damaged-transport-hit-red-alert-in-districts-odisha-tamil-nadu-impacted-12274520#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T07:58:57+00:00"
     },
     {
      "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
@@ -181,30 +214,125 @@
      "at": "2026-11-03T06:12:54+00:00"
     },
     {
-     "title": "Severe Cyclone Murasu: Landfall commences near Ongole",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/severe-cyclone-murasu-landfall-on-november-3-2026/article71658293.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
+     "title": "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
+     "url": "https://www.hindustantimes.com/india-news/rain-alert-in-nilgiris-as-cyclone-murasu-crosses-coast-11-chennai-flights-cancelled-101793679275269.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-03T06:00:13+00:00"
+     "at": "2026-11-03T04:14:34+00:00"
     },
     {
-     "title": "Cyclone Murasu completes landfall, to weaken by noon",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-completes-landfall-to-weaken-by-noon/article71659538.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
+     "title": "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
+     "url": "https://www.hindustantimes.com/india-news/andhra-pradesh-odisha-up-safety-steps-in-wake-of-cyclone-murasu-101793672165861.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-03T05:49:51+00:00"
+     "at": "2026-11-03T02:22:16+00:00"
+    },
+    {
+     "title": "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-makes-landfall-in-andhra-pradesh-triggers-heavy-rain-thousands-evacuated-coastal-areas-on-alert-101793641721774.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T20:47:23+00:00"
     }
    ],
    "via": [
-    "outlet:The Hindu Group",
-    "outlet:Deutsche Welle",
-    "outlet:HT Media"
+    "outlet:HT Media",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T10:02:48+00:00",
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Florida plane crash victims identified after 9 people killed in fiery wreck",
+    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+    "Tech boss’s emotional post about young family goes viral after tragic Florida plane crash",
+    "Jet may have broken apart before Florida crash, officials say, as family named among victims"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+     "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T10:02:48+00:00"
+    },
+    {
+     "title": "Tech boss’s emotional post about young family goes viral after tragic Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/adam-robinson-family-florida-plane-crash-b3078093.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T09:19:13+00:00"
+    },
+    {
+     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T22:52:55+00:00"
+    },
+    {
+     "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
+     "url": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T21:57:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -515,58 +643,60 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q116992476",
+   "title": "Jesús de Miguel",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:jesús de miguel"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q116992476",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
   }
  ],
- "hazards": [
+ "hazards": [],
+ "candidates": [
   {
-   "id": "gdacs-TC-1001346",
-   "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.506 million .",
-   "country": "India",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-   "published": "2026-11-01T02:23:45+00:00",
-   "lat": "15.8",
-   "lon": "80.2"
-  }
- ],
- "candidates": [],
- "outlets": {
-  "headlines": 748,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 24,
-  "corroborated": 2
- },
- "emerging": [
-  {
-   "id": "nw-20261103-murasu-cyclone",
+   "id": "nw-20261102-murasu-cyclone",
    "qid": null,
-   "title": "India news: Cyclone Murasu wreaks havoc after landfall",
+   "title": "Cyclone Murasu makes landfall on India’s eastern coast",
    "name": "Murasu",
    "kind": "incident",
    "category": "cyclone",
-   "date": "2026-11-03",
-   "news_at": "2026-11-03T06:12:54+00:00",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T09:52:34+00:00",
    "owners": [
-    "The Hindu Group",
-    "Deutsche Welle",
-    "HT Media"
+    "HT Media",
+    "NDTV",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Cyclone Murasu completes landfall, to weaken by noon",
-    "Severe Cyclone Murasu: Landfall commences near Ongole",
-    "India news: Cyclone Murasu wreaks havoc after landfall",
-    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall"
+    "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
+    "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
+    "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
+    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
+    "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit"
    ],
    "places": [
-    "landfall",
-    "Ongole",
-    "Morning"
+    "Andhra",
+    "Pradesh",
+    "Nilgiris"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -580,14 +710,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-     "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
+     "title": "Cyclone Murasu makes landfall on India’s eastern coast",
+     "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-03T06:12:00+00:00"
+     "at": "2026-11-03T09:33:18+00:00"
+    },
+    {
+     "title": "Cyclone Murasu train cancellations: Full list of affected trains in Andhra Pradesh",
+     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-train-cancellations-full-list-of-affected-trains-andhra-pradesh/article71659863.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T09:52:34+00:00"
+    },
+    {
+     "title": "CM Naidu thanks Centre for support as Cyclone Murasu disrupts life in Andhra",
+     "url": "https://www.hindustantimes.com/india-news/cm-naidu-thanks-centre-for-support-as-cyclone-murasu-disrupts-life-in-andhra-101793698686435.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T09:38:05+00:00"
+    },
+    {
+     "title": "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit",
+     "url": "https://www.ndtv.com/andhra-pradesh-news/cyclone-murasu-landfall-news-cyclone-murasu-crosses-andhra-pradesh-coast-crops-damaged-transport-hit-red-alert-in-districts-odisha-tamil-nadu-impacted-12274520#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T07:58:57+00:00"
     },
     {
      "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
@@ -600,34 +760,271 @@
      "at": "2026-11-03T06:12:54+00:00"
     },
     {
-     "title": "Severe Cyclone Murasu: Landfall commences near Ongole",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/severe-cyclone-murasu-landfall-on-november-3-2026/article71658293.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
+     "title": "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
+     "url": "https://www.hindustantimes.com/india-news/rain-alert-in-nilgiris-as-cyclone-murasu-crosses-coast-11-chennai-flights-cancelled-101793679275269.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-03T06:00:13+00:00"
+     "at": "2026-11-03T04:14:34+00:00"
     },
     {
-     "title": "Cyclone Murasu completes landfall, to weaken by noon",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-completes-landfall-to-weaken-by-noon/article71659538.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
+     "title": "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
+     "url": "https://www.hindustantimes.com/india-news/andhra-pradesh-odisha-up-safety-steps-in-wake-of-cyclone-murasu-101793672165861.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-03T05:49:51+00:00"
+     "at": "2026-11-03T02:22:16+00:00"
+    },
+    {
+     "title": "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-makes-landfall-in-andhra-pradesh-triggers-heavy-rain-thousands-evacuated-coastal-areas-on-alert-101793641721774.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T20:47:23+00:00"
     }
    ],
    "via": [
-    "outlet:The Hindu Group",
-    "outlet:Deutsche Welle",
-    "outlet:HT Media"
+    "outlet:HT Media",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 748 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261103-murasu-cyclone"
+ "outlets": {
+  "headlines": 754,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 30,
+  "corroborated": 3
+ },
+ "emerging": [
+  {
+   "id": "nw-20261102-murasu-cyclone",
+   "qid": null,
+   "title": "Cyclone Murasu makes landfall on India’s eastern coast",
+   "name": "Murasu",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T09:52:34+00:00",
+   "owners": [
+    "HT Media",
+    "NDTV",
+    "Al Jazeera Media Network",
+    "The Hindu Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
+    "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
+    "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
+    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
+    "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit"
+   ],
+   "places": [
+    "Andhra",
+    "Pradesh",
+    "Nilgiris"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cyclone Murasu makes landfall on India’s eastern coast",
+     "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T09:33:18+00:00"
+    },
+    {
+     "title": "Cyclone Murasu train cancellations: Full list of affected trains in Andhra Pradesh",
+     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-train-cancellations-full-list-of-affected-trains-andhra-pradesh/article71659863.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T09:52:34+00:00"
+    },
+    {
+     "title": "CM Naidu thanks Centre for support as Cyclone Murasu disrupts life in Andhra",
+     "url": "https://www.hindustantimes.com/india-news/cm-naidu-thanks-centre-for-support-as-cyclone-murasu-disrupts-life-in-andhra-101793698686435.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T09:38:05+00:00"
+    },
+    {
+     "title": "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit",
+     "url": "https://www.ndtv.com/andhra-pradesh-news/cyclone-murasu-landfall-news-cyclone-murasu-crosses-andhra-pradesh-coast-crops-damaged-transport-hit-red-alert-in-districts-odisha-tamil-nadu-impacted-12274520#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T07:58:57+00:00"
+    },
+    {
+     "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
+     "url": "https://www.hindustantimes.com/india-news/ht-morning-brief-november-3-indian-tourist-killed-nepal-helicopters-collide-cyclone-murasu-landfall-indian-air-force-oman-latest-news-101793685113337.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T06:12:54+00:00"
+    },
+    {
+     "title": "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
+     "url": "https://www.hindustantimes.com/india-news/rain-alert-in-nilgiris-as-cyclone-murasu-crosses-coast-11-chennai-flights-cancelled-101793679275269.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T04:14:34+00:00"
+    },
+    {
+     "title": "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
+     "url": "https://www.hindustantimes.com/india-news/andhra-pradesh-odisha-up-safety-steps-in-wake-of-cyclone-murasu-101793672165861.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T02:22:16+00:00"
+    },
+    {
+     "title": "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
+     "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-makes-landfall-in-andhra-pradesh-triggers-heavy-rain-thousands-evacuated-coastal-areas-on-alert-101793641721774.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-02T20:47:23+00:00"
+    }
+   ],
+   "via": [
+    "outlet:HT Media",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network",
+    "outlet:The Hindu Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T10:02:48+00:00",
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Florida plane crash victims identified after 9 people killed in fiery wreck",
+    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+    "Tech boss’s emotional post about young family goes viral after tragic Florida plane crash",
+    "Jet may have broken apart before Florida crash, officials say, as family named among victims"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+     "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T10:02:48+00:00"
+    },
+    {
+     "title": "Tech boss’s emotional post about young family goes viral after tragic Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/adam-robinson-family-florida-plane-crash-b3078093.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T09:19:13+00:00"
+    },
+    {
+     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T22:52:55+00:00"
+    },
+    {
+     "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
+     "url": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T21:57:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 754 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-murasu-cyclone, nw-20261102-florida-aviation",
+ "hazards_error": "not well-formed (invalid token): line 116, column 111"
 }

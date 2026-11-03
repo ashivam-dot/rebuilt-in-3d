@@ -1,9 +1,11 @@
 {
- "at": "2026-11-03T09:43:33+00:00",
+ "at": "2026-11-03T10:07:12+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
-  "watch: 0 candidates (0 quakes, 20 trending), 1 hazard alerts",
-  "outlets: 748 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261103-murasu-cyclone"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
+  "watch: 1 candidates (0 quakes, 22 trending), 0 hazard alerts",
+  "outlets: 754 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-murasu-cyclone, nw-20261102-florida-aviation",
+  "skip nw-20261102-murasu-cyclone: gate: no draft passed the fact checks: narration: 49 words (want 50-200)",
+  "nothing eligible to publish"
  ]
 }
