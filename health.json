@@ -1,9 +1,13 @@
 {
- "at": "2026-11-03T17:47:51+00:00",
+ "at": "2026-11-03T18:15:41+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 71 units today",
-  "watch: 0 candidates (0 quakes, 21 trending), 1 hazard alerts",
-  "outlets: 777 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+  "learn: 57 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 23, 'lift': 1.293, 'typical_views_24h': 376, 'n_retention': 22, 'typical_view_pct': 52.3}, 'kind:incident': {'n': 26, 'lift': 0.928, 'typical_views_24h': 161, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 22, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 72 units today",
+  "watch: 1 candidates (0 quakes, 22 trending), 1 hazard alerts",
+  "outlets: 771 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261103-seven-aviation",
+  "trend radar errors: ['wikidata recent deaths: HTTP 429 (used the list from 0.5 h ago, 151 people)']",
+  "skip nw-20261103-seven-aviation: gate: faceless: no free photo shows Seven or the event itself (only 0 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }

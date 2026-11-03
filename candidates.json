@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T17:47:52+00:00",
+ "at": "2026-11-03T18:15:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -167,7 +167,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T22:52:55+00:00"
+     "at": "2026-11-02T20:54:43+00:00"
     },
     {
      "title": "Austin tech founder killed with wife and children in Florida jet crash had reached a $10M business milestone",
@@ -184,6 +184,79 @@
     "outlet:Independent Digital News",
     "outlet:BBC",
     "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261103-seven-aviation",
+   "qid": null,
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "name": "Seven",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-03",
+   "news_at": "2026-11-03T17:56:03+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Guardian Media Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Flight bomb threats latest: Seven European flights searched over suspected bomb attacks",
+    "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+    "Seven flights across Europe targeted by suspected bomb threats"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Seven flights across Europe targeted by suspected bomb threats",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T17:56:03+00:00"
+    },
+    {
+     "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+     "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T17:32:45+00:00"
+    },
+    {
+     "title": "Flight bomb threats latest: Seven European flights searched over suspected bomb attacks",
+     "url": "https://www.independent.co.uk/news/world/europe/london-flight-bomb-threats-ryanair-europe-live-updates-b3078133.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T15:44:11+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -217,7 +290,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-03T17:48:44.455403+00:00",
+   "news_at": "2026-11-03T18:18:09.787953+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
@@ -242,7 +315,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T17:48:44.455403+00:00"
+     "at": "2026-11-03T18:18:09.787953+00:00"
     },
     {
      "title": "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
@@ -589,13 +662,90 @@
    "lon": "80.2"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261103-seven-aviation",
+   "qid": null,
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "name": "Seven",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-03",
+   "news_at": "2026-11-03T17:56:03+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Guardian Media Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Flight bomb threats latest: Seven European flights searched over suspected bomb attacks",
+    "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+    "Seven flights across Europe targeted by suspected bomb threats"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Seven flights across Europe targeted by suspected bomb threats",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T17:56:03+00:00"
+    },
+    {
+     "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+     "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T17:32:45+00:00"
+    },
+    {
+     "title": "Flight bomb threats latest: Seven European flights searched over suspected bomb attacks",
+     "url": "https://www.independent.co.uk/news/world/europe/london-flight-bomb-threats-ryanair-europe-live-updates-b3078133.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T15:44:11+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 429 (used the list from 0.5 h ago, 151 people)"
+ ],
  "outlets": {
-  "headlines": 777,
+  "headlines": 771,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 2
+  "matched": 28,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -661,7 +811,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-02T22:52:55+00:00"
+     "at": "2026-11-02T20:54:43+00:00"
     },
     {
      "title": "Austin tech founder killed with wife and children in Florida jet crash had reached a $10M business milestone",
@@ -681,7 +831,80 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261103-seven-aviation",
+   "qid": null,
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "name": "Seven",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-03",
+   "news_at": "2026-11-03T17:56:03+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Guardian Media Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Flight bomb threats latest: Seven European flights searched over suspected bomb attacks",
+    "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+    "Seven flights across Europe targeted by suspected bomb threats"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Seven flights across Europe targeted by suspected bomb threats",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T17:56:03+00:00"
+    },
+    {
+     "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+     "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T17:32:45+00:00"
+    },
+    {
+     "title": "Flight bomb threats latest: Seven European flights searched over suspected bomb attacks",
+     "url": "https://www.independent.co.uk/news/world/europe/london-flight-bomb-threats-ryanair-europe-live-updates-b3078133.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T15:44:11+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 777 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261103-seven-aviation"
 }
