@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T12:01:04+00:00",
+ "at": "2026-11-03T12:30:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -45,31 +45,6 @@
     26.63288889,
     -80.11311111
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-03T00:00:00+00:00",
-   "headlines": [
-    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-02",
-    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -133,16 +108,15 @@
   {
    "qid": "Q16296",
    "title": "Patrick Stewart",
-   "fame": 134688,
+   "fame": 132688,
    "views": 132688,
-   "traffic": 2000,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-02",
-    "google-trends-US:star trek: the next generation"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
@@ -282,6 +256,28 @@
    "date": "2026-11-01"
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-03T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q644401",
    "title": "Sanjay Gupta (director)",
    "fame": 39653,
@@ -340,44 +336,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-31"
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-03T11:50:45+00:00",
-   "headlines": [
-    "Flights from UK airports among three targeted by bomb threats"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Flights from UK airports among three targeted by bomb threats",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Flights from UK airports among three targeted by bomb threats",
-     "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-03T11:50:45+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q1812342",
@@ -603,49 +561,29 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
-  },
-  {
-   "qid": "Q5370928",
-   "title": "Emerson (footballer, born July 1980)",
-   "fame": 2000,
-   "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:emerson jones"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5370928",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
   }
  ],
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q5370928",
-   "title": "Emerson (footballer, born July 1980)",
-   "fame": 2000,
-   "views": 0,
-   "traffic": 2000,
+   "qid": "Q366714",
+   "title": "Juan Atkins",
+   "fame": 29064,
+   "views": 29064,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-US:emerson jones"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q5370928",
+   "id": "wk-Q366714",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-27"
+   "date": "2026-10-31"
   }
  ],
  "trend_errors": [
@@ -655,7 +593,7 @@
   "headlines": 762,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 29,
   "corroborated": 1
  },
  "emerging": [
@@ -770,6 +708,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 762 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
+ "outlet_note": "outlets: 762 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
  "hazards_error": "not well-formed (invalid token): line 116, column 111"
 }
