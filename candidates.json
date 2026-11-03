@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T01:56:54+00:00",
+ "at": "2026-11-03T02:29:44+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,34 +23,6 @@
    "date": "2026-10-28"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 139556,
-   "views": 14556,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T15:40:00+00:00",
-   "headlines": [
-    "Spain train crash: US, Japan and Canada citizens among dead, authorities say"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-01",
-    "google-news:Spain train crash: US, Japan and Canada citizens among dead, authorities say"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q2913482",
    "title": "Ciara Mageean",
    "fame": 138465,
@@ -69,57 +41,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-01"
-  },
-  {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-03T01:22:04+00:00",
-   "headlines": [
-    "20-Year-Old Nathalia Filgueiras Was a Pilot on Learjet That Crashed in Florida"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:20-Year-Old Nathalia Filgueiras Was a Pilot on Learjet That Crashed in Florida"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-02T16:31:18+00:00",
-   "headlines": [
-    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "id": "nw-20261102-florida-aviation",
@@ -241,6 +162,83 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-30"
+  },
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T01:24:32+00:00",
+   "owners": [
+    "Euronews",
+    "NDTV",
+    "NBCUniversal"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+    "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+    "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
+   ],
+   "places": [
+    "Learjet",
+    "Trump",
+    "Finds"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:30:17+00:00"
+    },
+    {
+     "title": "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says",
+     "url": "https://www.nbcnews.com/news/us-news/jet-may-experienced-breakup-crashed-florida-killing-9-ntsb-says-rcna607068",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T20:16:47+00:00"
+    },
+    {
+     "title": "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+     "url": "https://www.ndtv.com/world-news/probe-finds-learjet-parts-broke-up-before-florida-jet-crash-12274024#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T01:24:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:NDTV",
+    "outlet:NBCUniversal"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261102-supermarkets-cyberattack",
@@ -366,7 +364,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-03T01:57:45.821937+00:00",
+   "news_at": "2026-11-03T02:30:15.995662+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -387,7 +385,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T01:57:45.821937+00:00"
+     "at": "2026-11-03T02:30:15.995662+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -554,6 +552,31 @@
    "date": "2026-10-28"
   },
   {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 14556,
+   "views": 14556,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q259559",
    "title": "Susan Saint James",
    "fame": 12471,
@@ -629,11 +652,11 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 764,
+  "headlines": 754,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 2
+  "matched": 27,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -738,6 +761,83 @@
    "article": null
   },
   {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T01:24:32+00:00",
+   "owners": [
+    "Euronews",
+    "NDTV",
+    "NBCUniversal"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+    "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+    "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
+   ],
+   "places": [
+    "Learjet",
+    "Trump",
+    "Finds"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+     "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T07:30:17+00:00"
+    },
+    {
+     "title": "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says",
+     "url": "https://www.nbcnews.com/news/us-news/jet-may-experienced-breakup-crashed-florida-killing-9-ntsb-says-rcna607068",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-02T20:16:47+00:00"
+    },
+    {
+     "title": "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+     "url": "https://www.ndtv.com/world-news/probe-finds-learjet-parts-broke-up-before-florida-jet-crash-12274024#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T01:24:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:NDTV",
+    "outlet:NBCUniversal"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261102-supermarkets-cyberattack",
    "qid": null,
    "title": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
@@ -815,5 +915,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 754 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
