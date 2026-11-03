@@ -1,7 +1,30 @@
 {
- "at": "2026-11-03T12:59:54+00:00",
+ "at": "2026-11-03T13:31:14+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 257688,
+   "views": 132688,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-03T05:05:47+00:00",
+   "headlines": [
+    "Sir Patrick Stewart and the football team he loved all his life: ‘It was his connection to Earth’"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02",
+    "google-news:Sir Patrick Stewart and the football team he loved all his life: ‘It was his connection to Earth’"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
+  },
   {
    "qid": "Q259559",
    "title": "Susan Saint James",
@@ -54,7 +77,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-03T13:01:02.259675+00:00",
+   "news_at": "2026-11-03T13:32:18.239960+00:00",
    "headlines": [
     "Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
@@ -81,7 +104,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T13:01:02.259675+00:00"
+     "at": "2026-11-03T13:32:18.239960+00:00"
     },
     {
      "title": "SC defers Beant Singh assassin Hawara’s plea for Punjab prison transfer based on IB note",
@@ -118,26 +141,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
-  },
-  {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 132688,
-   "views": 132688,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16296",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
   },
   {
    "id": "nw-20261102-murasu-cyclone",
@@ -592,13 +595,13 @@
  "hazards": [],
  "candidates": [],
  "trend_errors": [
-  "gdacs: not well-formed (invalid token): line 116, column 111"
+  "gdacs: no element found: line 1, column 1"
  ],
  "outlets": {
   "headlines": 762,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 29,
   "corroborated": 2
  },
  "emerging": [
@@ -725,6 +728,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 762 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
- "hazards_error": "not well-formed (invalid token): line 116, column 111"
+ "outlet_note": "outlets: 762 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
+ "hazards_error": "no element found: line 1, column 1"
 }
