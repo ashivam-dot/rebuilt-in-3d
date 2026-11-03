@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T14:29:41+00:00",
+ "at": "2026-11-03T15:01:11+00:00",
  "quakes": [],
  "trending": [
   {
@@ -48,28 +48,51 @@
    "has_coords": true
   },
   {
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 132688,
+   "views": 132688,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
+  },
+  {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 175000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-03T14:30:48.060510+00:00",
+   "news": 125000,
+   "news_at": "2026-11-03T15:01:34.901549+00:00",
    "headlines": [
     "Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
+    "Self-reliance means technological sovereignty, not just indigenous manufacturing: Rajnath Singh",
     "SC defers Beant Singh assassin Hawara’s plea for Punjab prison transfer based on IB note"
    ],
    "region": "india",
    "via": [
     "google-news:Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
-    "google-news:SC defers Beant Singh assassin Hawara’s plea for Punjab prison transfer based on IB note",
+    "google-news:Self-reliance means technological sovereignty, not just indigenous manufacturing: Rajnath Singh",
     "outlet:Government of India",
+    "outlet:The Hindu Group",
     "outlet:HT Media"
    ],
    "owners": [
     "Government of India",
+    "The Hindu Group",
     "HT Media"
    ],
    "reports": [
@@ -81,7 +104,17 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T14:30:48.060510+00:00"
+     "at": "2026-11-03T15:01:34.901549+00:00"
+    },
+    {
+     "title": "Self-reliance means technological sovereignty, not just indigenous manufacturing: Rajnath Singh",
+     "url": "https://www.thehindu.com/news/national/self-reliance-means-technological-sovereignty-not-just-indigenous-manufacturing-rajnath-singh/article71661535.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T14:38:07+00:00"
     },
     {
      "title": "SC defers Beant Singh assassin Hawara’s plea for Punjab prison transfer based on IB note",
@@ -120,134 +153,26 @@
    "date": "2026-10-27"
   },
   {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 132688,
-   "views": 132688,
+   "qid": "Q116992476",
+   "title": "Jesús de Miguel",
+   "fame": 125000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-03T11:15:00+00:00",
+   "headlines": [
+    "Tenerife forward Jesús de Miguel dies aged 30 after on-field collision"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-02"
+    "google-news:Tenerife forward Jesús de Miguel dies aged 30 after on-field collision"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q16296",
+   "id": "wk-Q116992476",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-28"
-  },
-  {
-   "id": "nw-20261102-murasu-cyclone",
-   "qid": null,
-   "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-   "name": "Murasu",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-11-02",
-   "news_at": "2026-11-03T09:33:18+00:00",
-   "owners": [
-    "HT Media",
-    "Al Jazeera Media Network",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
-    "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
-    "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
-    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
-    "Cyclone Murasu makes landfall on India’s eastern coast"
-   ],
-   "places": [
-    "Andhra",
-    "Pradesh",
-    "Nilgiris"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-     "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-03T06:12:00+00:00"
-    },
-    {
-     "title": "Cyclone Murasu makes landfall on India’s eastern coast",
-     "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-03T09:33:18+00:00"
-    },
-    {
-     "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
-     "url": "https://www.hindustantimes.com/india-news/ht-morning-brief-november-3-indian-tourist-killed-nepal-helicopters-collide-cyclone-murasu-landfall-indian-air-force-oman-latest-news-101793685113337.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T06:12:54+00:00"
-    },
-    {
-     "title": "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
-     "url": "https://www.hindustantimes.com/india-news/rain-alert-in-nilgiris-as-cyclone-murasu-crosses-coast-11-chennai-flights-cancelled-101793679275269.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T04:14:34+00:00"
-    },
-    {
-     "title": "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
-     "url": "https://www.hindustantimes.com/india-news/andhra-pradesh-odisha-up-safety-steps-in-wake-of-cyclone-murasu-101793672165861.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T02:22:16+00:00"
-    },
-    {
-     "title": "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
-     "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-makes-landfall-in-andhra-pradesh-triggers-heavy-rain-thousands-evacuated-coastal-areas-on-alert-101793641721774.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T20:47:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:HT Media",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
+   "date": "2026-11-03"
   },
   {
    "qid": "Q2913482",
@@ -578,131 +503,50 @@
    "date": "2026-10-28"
   }
  ],
- "hazards": [],
- "candidates": [],
- "trend_errors": [
-  "gdacs: no element found: line 1, column 1",
-  "outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss"
- ],
- "outlets": {
-  "headlines": 751,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 27,
-  "corroborated": 2
- },
- "emerging": [
+ "hazards": [
   {
-   "id": "nw-20261102-murasu-cyclone",
-   "qid": null,
-   "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-   "name": "Murasu",
-   "kind": "incident",
-   "category": "cyclone",
-   "date": "2026-11-02",
-   "news_at": "2026-11-03T09:33:18+00:00",
-   "owners": [
-    "HT Media",
-    "Al Jazeera Media Network",
-    "Deutsche Welle"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
-    "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
-    "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
-    "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
-    "Cyclone Murasu makes landfall on India’s eastern coast"
-   ],
-   "places": [
-    "Andhra",
-    "Pradesh",
-    "Nilgiris"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "IN",
-    "world"
-   ],
-   "region": "world",
-   "india_link": true,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-     "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-03T06:12:00+00:00"
-    },
-    {
-     "title": "Cyclone Murasu makes landfall on India’s eastern coast",
-     "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-03T09:33:18+00:00"
-    },
-    {
-     "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
-     "url": "https://www.hindustantimes.com/india-news/ht-morning-brief-november-3-indian-tourist-killed-nepal-helicopters-collide-cyclone-murasu-landfall-indian-air-force-oman-latest-news-101793685113337.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T06:12:54+00:00"
-    },
-    {
-     "title": "Rain alert in Nilgiris as Cyclone Murasu crosses coast; 11 Chennai flights cancelled",
-     "url": "https://www.hindustantimes.com/india-news/rain-alert-in-nilgiris-as-cyclone-murasu-crosses-coast-11-chennai-flights-cancelled-101793679275269.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T04:14:34+00:00"
-    },
-    {
-     "title": "Andhra Pradesh, Odisha up safety steps in wake of cyclone Murasu",
-     "url": "https://www.hindustantimes.com/india-news/andhra-pradesh-odisha-up-safety-steps-in-wake-of-cyclone-murasu-101793672165861.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T02:22:16+00:00"
-    },
-    {
-     "title": "Cyclone Murasu makes landfall in Andhra Pradesh, triggers heavy rain; thousands evacuated, coastal areas on alert",
-     "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-makes-landfall-in-andhra-pradesh-triggers-heavy-rain-thousands-evacuated-coastal-areas-on-alert-101793641721774.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T20:47:23+00:00"
-    }
-   ],
-   "via": [
-    "outlet:HT Media",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle"
-   ],
-   "emerging": true,
-   "article": null
+   "id": "gdacs-TC-1001346",
+   "kind": "TC",
+   "level": "Red",
+   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.506 million .",
+   "country": "India",
+   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
+   "published": "2026-11-01T02:23:45+00:00",
+   "lat": "15.8",
+   "lon": "80.2"
   }
  ],
- "outlet_note": "outlets: 751 headlines from 29 feeds (20 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
- "hazards_error": "no element found: line 1, column 1"
+ "candidates": [
+  {
+   "qid": "Q116992476",
+   "title": "Jesús de Miguel",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-03T11:15:00+00:00",
+   "headlines": [
+    "Tenerife forward Jesús de Miguel dies aged 30 after on-field collision"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Tenerife forward Jesús de Miguel dies aged 30 after on-field collision"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q116992476",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  }
+ ],
+ "outlets": {
+  "headlines": 771,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 22,
+  "corroborated": 1
+ },
+ "emerging": [],
+ "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 22 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
