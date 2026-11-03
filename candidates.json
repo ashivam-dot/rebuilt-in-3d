@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T02:29:44+00:00",
+ "at": "2026-11-03T02:39:57+00:00",
  "quakes": [],
  "trending": [
   {
@@ -41,6 +41,30 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-01"
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-02T16:31:18+00:00",
+   "headlines": [
+    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "id": "nw-20261102-florida-aviation",
@@ -144,26 +168,6 @@
    "article": null
   },
   {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 98434,
-   "views": 98434,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-01"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  },
-  {
    "id": "nw-20261102-florida-aviation",
    "qid": null,
    "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
@@ -171,19 +175,21 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-03T01:24:32+00:00",
+   "news_at": "2026-11-03T02:29:21+00:00",
    "owners": [
     "Euronews",
     "NDTV",
+    "Bennett, Coleman & Co.",
     "NBCUniversal"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+    "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
     "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
    ],
    "places": [
@@ -222,6 +228,16 @@
      "at": "2026-11-02T20:16:47+00:00"
     },
     {
+     "title": "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+     "url": "https://timesofindia.indiatimes.com/world/us/florida-jet-broke-apart-midair-before-crashing-into-roadway-20-year-old-woman-pilot-among-victims/articleshow/135479116.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T02:29:21+00:00"
+    },
+    {
      "title": "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
      "url": "https://www.ndtv.com/world-news/probe-finds-learjet-parts-broke-up-before-florida-jet-crash-12274024#publisher=newsstand",
      "outlet": "NDTV",
@@ -235,10 +251,31 @@
    "via": [
     "outlet:Euronews",
     "outlet:NDTV",
+    "outlet:Bennett, Coleman & Co.",
     "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q644401",
+   "title": "Sanjay Gupta (director)",
+   "fame": 98434,
+   "views": 98434,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-01"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q644401",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
   },
   {
    "id": "nw-20261102-supermarkets-cyberattack",
@@ -364,7 +401,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-03T02:30:15.995662+00:00",
+   "news_at": "2026-11-03T02:41:30.144751+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -385,7 +422,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T02:30:15.995662+00:00"
+     "at": "2026-11-03T02:41:30.144751+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -652,7 +689,7 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 754,
+  "headlines": 759,
   "feeds": 30,
   "owners": 21,
   "matched": 27,
@@ -768,19 +805,21 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-02",
-   "news_at": "2026-11-03T01:24:32+00:00",
+   "news_at": "2026-11-03T02:29:21+00:00",
    "owners": [
     "Euronews",
     "NDTV",
+    "Bennett, Coleman & Co.",
     "NBCUniversal"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
     "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
+    "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
     "Jet may have experienced ‘some breakup’ before it crashed in Florida, killing 9, NTSB says"
    ],
    "places": [
@@ -819,6 +858,16 @@
      "at": "2026-11-02T20:16:47+00:00"
     },
     {
+     "title": "Florida jet 'broke apart' midair before crashing into roadway; victims identified",
+     "url": "https://timesofindia.indiatimes.com/world/us/florida-jet-broke-apart-midair-before-crashing-into-roadway-20-year-old-woman-pilot-among-victims/articleshow/135479116.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T02:29:21+00:00"
+    },
+    {
      "title": "Probe Finds Learjet Parts Broke Up Before Florida Jet Crash",
      "url": "https://www.ndtv.com/world-news/probe-finds-learjet-parts-broke-up-before-florida-jet-crash-12274024#publisher=newsstand",
      "outlet": "NDTV",
@@ -832,6 +881,7 @@
    "via": [
     "outlet:Euronews",
     "outlet:NDTV",
+    "outlet:Bennett, Coleman & Co.",
     "outlet:NBCUniversal"
    ],
    "emerging": true,
@@ -915,5 +965,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 754 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 759 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
