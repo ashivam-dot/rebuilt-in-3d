@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T04:14:32+00:00",
+ "at": "2026-11-03T04:44:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -54,7 +54,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-03T04:15:17.209844+00:00",
+   "news_at": "2026-11-03T04:45:04.337668+00:00",
    "headlines": [
     "iPhone Feature Alerts Honey Singh's Nephew's Family After Fatal Crash: How To Enable Apple's Crash Detection",
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit",
@@ -81,7 +81,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T04:15:17.209844+00:00"
+     "at": "2026-11-03T04:45:04.337668+00:00"
     },
     {
      "title": "Bihar Assembly serves notice to Anant Singh over plea to expel him",
@@ -311,81 +311,29 @@
    "article": null
   },
   {
-   "id": "nw-20261102-supermarkets-cyberattack",
-   "qid": null,
-   "title": "New cyberattack hits supermarket fridges across 9 European nations",
-   "name": "Supermarkets",
-   "kind": "incident",
-   "category": "cyberattack",
-   "date": "2026-11-02",
-   "news_at": "2026-11-02T20:40:02+00:00",
-   "owners": [
-    "NBCUniversal",
-    "NDTV",
-    "SCMP Group"
-   ],
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
    "fame": 75000,
-   "news": 75000,
    "views": 0,
    "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-03T00:00:00+00:00",
    "headlines": [
-    "Supermarkets across Europe hit by new fridge cyberattacks",
-    "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
-    "New cyberattack hits supermarket fridges across 9 European nations"
-   ],
-   "places": [
-    "Disrupts",
-    "fridge",
-    "across"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "New cyberattack hits supermarket fridges across 9 European nations",
-     "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T14:18:58+00:00"
-    },
-    {
-     "title": "Supermarkets across Europe hit by new fridge cyberattacks",
-     "url": "https://www.nbcnews.com/world/europe/european-supermarkets-hit-new-fridge-cyberattack-rcna606972",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T11:56:47+00:00"
-    },
-    {
-     "title": "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
-     "url": "https://www.ndtv.com/world-news/cyberattack-disrupts-supermarket-fridges-across-9-european-countries-12273675#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T20:40:02+00:00"
-    }
-   ],
    "via": [
-    "outlet:NBCUniversal",
-    "outlet:NDTV",
-    "outlet:SCMP Group"
+    "wikipedia-current-events-2026-11-02",
+    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
    ],
-   "emerging": true,
-   "article": null
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q2913482",
@@ -466,30 +414,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-31"
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-02T16:31:18+00:00",
-   "headlines": [
-    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q1812342",
@@ -710,34 +634,13 @@
    "lon": "80.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q644401",
-   "title": "Sanjay Gupta (director)",
-   "fame": 39653,
-   "views": 39653,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q644401",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-30"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 761,
+  "headlines": 763,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 4
+  "matched": 21,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -930,84 +833,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261102-supermarkets-cyberattack",
-   "qid": null,
-   "title": "New cyberattack hits supermarket fridges across 9 European nations",
-   "name": "Supermarkets",
-   "kind": "incident",
-   "category": "cyberattack",
-   "date": "2026-11-02",
-   "news_at": "2026-11-02T20:40:02+00:00",
-   "owners": [
-    "NBCUniversal",
-    "NDTV",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Supermarkets across Europe hit by new fridge cyberattacks",
-    "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
-    "New cyberattack hits supermarket fridges across 9 European nations"
-   ],
-   "places": [
-    "Disrupts",
-    "fridge",
-    "across"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "New cyberattack hits supermarket fridges across 9 European nations",
-     "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T14:18:58+00:00"
-    },
-    {
-     "title": "Supermarkets across Europe hit by new fridge cyberattacks",
-     "url": "https://www.nbcnews.com/world/europe/european-supermarkets-hit-new-fridge-cyberattack-rcna606972",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T11:56:47+00:00"
-    },
-    {
-     "title": "Cyberattack Disrupts Supermarket Fridges Across 9 European Countries",
-     "url": "https://www.ndtv.com/world-news/cyberattack-disrupts-supermarket-fridges-across-9-european-countries-12273675#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-02T20:40:02+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:NDTV",
-    "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 761 headlines from 30 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
+ "outlet_note": "outlets: 763 headlines from 30 feeds (21 owners), 21 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-florida-aviation"
 }
