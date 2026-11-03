@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T16:31:24+00:00",
+ "at": "2026-11-03T17:01:44+00:00",
  "quakes": [],
  "trending": [
   {
@@ -48,43 +48,24 @@
    "has_coords": true
   },
   {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 132688,
-   "views": 132688,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16296",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 75000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-11-03T16:31:51.256128+00:00",
+   "news": 200000,
+   "news_at": "2026-11-03T17:02:39.966204+00:00",
    "headlines": [
+    "Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "Self-reliance means technological sovereignty, not just indigenous manufacturing: Rajnath Singh",
     "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
    ],
    "region": "india",
    "via": [
+    "google-news:Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "google-news:Self-reliance means technological sovereignty, not just indigenous manufacturing: Rajnath Singh",
-    "google-news:Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
     "outlet:Government of India",
     "outlet:The Hindu Group",
     "outlet:HT Media"
@@ -103,7 +84,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T16:31:51.256128+00:00"
+     "at": "2026-11-03T17:02:39.966204+00:00"
     },
     {
      "title": "Self-reliance means technological sovereignty, not just indigenous manufacturing: Rajnath Singh",
@@ -160,6 +141,63 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
+  },
+  {
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 132688,
+   "views": 132688,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
+  },
+  {
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 84386,
+   "views": 59386,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-03T16:20:59+00:00",
+   "headlines": [
+    "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02",
+    "google-news:Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
+     "url": "https://www.bbc.co.uk/news/articles/cw62ye1030njo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T16:20:59+00:00"
+    }
+   ],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
   },
   {
    "id": "nw-20261102-florida-aviation",
@@ -244,26 +282,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 59386,
-   "views": 59386,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2913482",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
   },
   {
    "qid": "Q141921562",
@@ -588,10 +606,10 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 771,
+  "headlines": 772,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 27,
   "corroborated": 2
  },
  "emerging": [
@@ -680,5 +698,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 772 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
