@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T01:33:33+00:00",
+ "at": "2026-11-03T01:56:54+00:00",
  "quakes": [],
  "trending": [
   {
@@ -95,6 +95,30 @@
     26.63288889,
     -80.11311111
    ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-02T16:31:18+00:00",
+   "headlines": [
+    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -296,79 +320,6 @@
    "article": null
   },
   {
-   "id": "nw-20261102-florida-aviation",
-   "qid": null,
-   "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-02",
-   "news_at": "2026-11-02T22:52:55+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Fox Corporation",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Federal investigators on scene of Florida plane crash that killed 9 people",
-    "Florida plane crash victims identified after 9 people killed in fiery wreck",
-    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
-     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T22:52:55+00:00"
-    },
-    {
-     "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
-     "url": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T21:57:03+00:00"
-    },
-    {
-     "title": "Federal investigators on scene of Florida plane crash that killed 9 people",
-     "url": "https://www.nbcnews.com/now/video/federal-investigators-on-scene-of-florida-plane-crash-that-killed-9-people-272708165587",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T19:30:28+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q7612484",
    "title": "Steve Ellis (musician)",
    "fame": 32160,
@@ -415,7 +366,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-03T01:36:34.943700+00:00",
+   "news_at": "2026-11-03T01:57:45.821937+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Alias Lalan Singh Reviews Dairy and Animal Husbandry Initiatives in Sikkim During Two-Day Visit"
    ],
@@ -436,7 +387,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T01:36:34.943700+00:00"
+     "at": "2026-11-03T01:57:45.821937+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -668,24 +619,21 @@
    "id": "gdacs-TC-1001346",
    "kind": "TC",
    "level": "Red",
-   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 2.379 million .",
+   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.935 million .",
    "country": "India",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
    "published": "2026-11-01T02:23:45+00:00",
-   "lat": "15.1",
-   "lon": "80.5"
+   "lat": "15.5",
+   "lon": "80.3"
   }
  ],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 1.6 h ago, 159 people)"
- ],
  "outlets": {
-  "headlines": 760,
+  "headlines": 764,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
-  "corroborated": 3
+  "matched": 34,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -865,80 +813,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261102-florida-aviation",
-   "qid": null,
-   "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
-   "name": "Florida",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-02",
-   "news_at": "2026-11-02T22:52:55+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Fox Corporation",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Federal investigators on scene of Florida plane crash that killed 9 people",
-    "Florida plane crash victims identified after 9 people killed in fiery wreck",
-    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
-     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-02T22:52:55+00:00"
-    },
-    {
-     "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
-     "url": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T21:57:03+00:00"
-    },
-    {
-     "title": "Federal investigators on scene of Florida plane crash that killed 9 people",
-     "url": "https://www.nbcnews.com/now/video/federal-investigators-on-scene-of-florida-plane-crash-that-killed-9-people-272708165587",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-02T19:30:28+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 760 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack, nw-20261102-florida-aviation"
+ "outlet_note": "outlets: 764 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-florida-aviation, nw-20261102-supermarkets-cyberattack"
 }
