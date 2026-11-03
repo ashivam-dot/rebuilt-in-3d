@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T20:16:19+00:00",
+ "at": "2026-11-03T20:51:44+00:00",
  "quakes": [],
  "trending": [
   {
@@ -105,6 +105,62 @@
    "date": "2026-11-01"
   },
   {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 64883,
+   "views": 14883,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-03T20:44:19+00:00",
+   "headlines": [
+    "Spanish transport minister resigns days after deadly train crash",
+    "Two Australians confirmed dead in Spain’s high-speed train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02",
+    "google-news:Spanish transport minister resigns days after deadly train crash",
+    "google-news:Two Australians confirmed dead in Spain’s high-speed train crash",
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "BBC",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Spanish transport minister resigns days after deadly train crash",
+     "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T20:44:19+00:00"
+    },
+    {
+     "title": "Two Australians confirmed dead in Spain’s high-speed train crash",
+     "url": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T20:21:14+00:00"
+    }
+   ],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
    "fame": 50000,
@@ -133,7 +189,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-03T20:17:33.153195+00:00",
+   "news_at": "2026-11-03T20:52:13.987195+00:00",
    "headlines": [
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
@@ -158,7 +214,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T20:17:33.153195+00:00"
+     "at": "2026-11-03T20:52:13.987195+00:00"
     },
     {
      "title": "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
@@ -347,31 +403,6 @@
    "date": "2026-11-01"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 14883,
-   "views": 14883,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q922837",
    "title": "Cuauhtémoc Cárdenas",
    "fame": 13075,
@@ -507,12 +538,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 775,
+  "headlines": 774,
   "feeds": 30,
   "owners": 21,
-  "matched": 37,
-  "corroborated": 1
+  "matched": 39,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 775 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 774 headlines from 30 feeds (21 owners), 39 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
