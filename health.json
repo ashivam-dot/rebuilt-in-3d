@@ -1,12 +1,18 @@
 {
- "at": "2026-11-03T10:46:04+00:00",
+ "at": "2026-11-03T11:13:21+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
-  "watch: 2 candidates (0 quakes, 22 trending), 1 hazard alerts",
-  "outlets: 751 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261102-murasu-cyclone, nw-20261102-florida-aviation",
-  "skip nw-20261102-murasu-cyclone: gate: no draft passed the fact checks: line 2 (The severe cyclonic storm brought gale-force winds and heavy): partly: The line attributes gale-force winds and heavy rain specifically to Prakasam and Bapatla districts, but the source only confirms extensive damage (trees, poles, boats) in those districts; gale-force winds and torrential r | second look: The line states that the storm brought gale-force winds and heavy rain to Prakasam a",
-  "skip wk-Q6775394: gate: no photo on Wikimedia Commons shows Martin Erlichman's face (a tribute needs one)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 7 units today",
+  "watch: 1 candidates (0 quakes, 21 trending), 0 hazard alerts",
+  "outlets: 757 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
+  "trend radar errors: ['gdacs: not well-formed (invalid token): line 116, column 111']",
+  "published nw-20261102-murasu-cyclone: https://www.youtube.com/shorts/ogGMyG9ikT4"
+ ],
+ "published": {
+  "video_id": "ogGMyG9ikT4",
+  "url": "https://www.youtube.com/shorts/ogGMyG9ikT4",
+  "title": "Cyclone Murasu Hits Andhra Coast: Damage and Disruption",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
