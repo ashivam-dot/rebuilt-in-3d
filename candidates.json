@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T21:47:23+00:00",
+ "at": "2026-11-03T22:18:31+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,100 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-26"
+  },
+  {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 239883,
+   "views": 14883,
+   "traffic": 0,
+   "news": 225000,
+   "news_at": "2026-11-03T22:04:09+00:00",
+   "headlines": [
+    "Spanish transport minister resigns after two deadly train crashes in one year",
+    "Spanish transport minister resigns days after deadly train crash",
+    "Spain’s transport minister resigns after train crash that killed 69",
+    "Spain's transport minister resigns after 69 killed in train crash disaster",
+    "Spanish transport minister resigns after deadly train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02",
+    "google-news:Spanish transport minister resigns after two deadly train crashes in one year",
+    "google-news:Spanish transport minister resigns days after deadly train crash",
+    "google-news:Spain’s transport minister resigns after train crash that killed 69",
+    "outlet:BBC",
+    "outlet:SCMP Group",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "BBC",
+    "SCMP Group",
+    "Independent Digital News",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Spanish transport minister resigns days after deadly train crash",
+     "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T22:04:09+00:00"
+    },
+    {
+     "title": "Spain’s transport minister resigns after train crash that killed 69",
+     "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T21:55:32+00:00"
+    },
+    {
+     "title": "Spain's transport minister resigns after 69 killed in train crash disaster",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-oscar-puente-transport-minister-resigns-b3078639.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T21:51:45+00:00"
+    },
+    {
+     "title": "Spanish transport minister resigns after deadly train crash",
+     "url": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T21:46:02+00:00"
+    },
+    {
+     "title": "Two Australians confirmed dead in Spain’s high-speed train crash",
+     "url": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T20:21:14+00:00"
+    }
+   ],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141966885",
@@ -48,152 +142,20 @@
    "has_coords": true
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 189883,
-   "views": 14883,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-03T21:40:42+00:00",
-   "headlines": [
-    "Spanish transport minister resigns days after deadly train crash",
-    "Two Australians confirmed dead in Spain’s high-speed train crash"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02",
-    "google-news:Spanish transport minister resigns days after deadly train crash",
-    "google-news:Two Australians confirmed dead in Spain’s high-speed train crash",
-    "outlet:BBC",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "BBC",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Spanish transport minister resigns days after deadly train crash",
-     "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-03T21:40:42+00:00"
-    },
-    {
-     "title": "Two Australians confirmed dead in Spain’s high-speed train crash",
-     "url": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-03T20:21:14+00:00"
-    }
-   ],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 132688,
-   "views": 132688,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16296",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
-  },
-  {
-   "qid": "Q116992476",
-   "title": "Jesús de Miguel",
-   "fame": 125000,
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-03T18:37:27+00:00",
-   "headlines": [
-    "Tenerife striker De Miguel dies after collision in match"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Tenerife striker De Miguel dies after collision in match"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q116992476",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-03"
-  },
-  {
-   "qid": "Q2913482",
-   "title": "Ciara Mageean",
-   "fame": 84386,
-   "views": 59386,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-03T17:07:28+00:00",
-   "headlines": [
-    "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02",
-    "google-news:Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
-     "url": "https://www.bbc.co.uk/news/articles/cw62ye1030njo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-03T17:07:28+00:00"
-    }
-   ],
-   "id": "wk-Q2913482",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-01"
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
    "news_at": "2026-11-03T00:00:00+00:00",
-   "headlines": [],
+   "headlines": [
+    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-02"
+    "wikipedia-current-events-2026-11-02",
+    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
    ],
    "owners": [],
    "reports": [],
@@ -207,17 +169,19 @@
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 50000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-03T21:47:59.859461+00:00",
+   "news": 175000,
+   "news_at": "2026-11-03T22:19:13.479018+00:00",
    "headlines": [
+    "India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
    ],
    "region": "india",
    "via": [
+    "google-news:India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "google-news:Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
     "outlet:Government of India",
@@ -236,7 +200,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T21:47:59.859461+00:00"
+     "at": "2026-11-03T22:19:13.479018+00:00"
     },
     {
      "title": "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
@@ -283,6 +247,63 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
+  },
+  {
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 132688,
+   "views": 132688,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
+  },
+  {
+   "qid": "Q2913482",
+   "title": "Ciara Mageean",
+   "fame": 84386,
+   "views": 59386,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-03T17:07:28+00:00",
+   "headlines": [
+    "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02",
+    "google-news:Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
+     "url": "https://www.bbc.co.uk/news/articles/cw62ye1030njo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T17:07:28+00:00"
+    }
+   ],
+   "id": "wk-Q2913482",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-01"
   },
   {
    "qid": "Q644401",
@@ -560,12 +581,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 769,
+  "headlines": 774,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 36,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 769 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 774 headlines from 30 feeds (21 owners), 36 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
