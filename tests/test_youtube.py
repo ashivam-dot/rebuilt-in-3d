@@ -56,6 +56,19 @@ def test_tags_carry_topics_but_no_machine_marker():
         ["earthquake", "Papua New Guinea", "Orbitwire"]
 
 
+def test_tags_add_searched_phrases_the_video_backs(monkeypatch):
+    from studio import seo
+
+    monkeypatch.setattr(seo, "fetch", lambda q, hl="en", gl="us": [
+        "walter koenig", "walter koenig tribute", "walter koenig net worth", "walter koenig star trek",
+        "walter koenig 2025", "walter koenig wife", "walter koenig dies"])
+    short = replace(Short.load(FIXTURE), title="Walter Koenig, Star Trek Actor, Dies at 90",
+                    tags=["Walter Koenig", "actor", "tribute"])
+    assert youtube.tags(short) == ["Walter Koenig", "actor", "tribute", "walter koenig tribute",
+                                   "walter koenig star trek", "walter koenig dies", "Orbitwire"]
+    assert seo.suggested("A Very Long Story Title With Many Words", "x") == []
+
+
 class _Channel:
     """videos.list by id and the uploads playlist, for find()."""
 

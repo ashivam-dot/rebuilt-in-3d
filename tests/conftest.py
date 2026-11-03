@@ -1,9 +1,15 @@
 import pytest
 
-from studio import ledger, media, outlets, writer
+from studio import ledger, media, outlets, seo, writer
 
 # The real lookups conftest turns off, for the tests of them.
 REAL = {"named_people": writer.named_people, "thing_photos": writer.thing_photos, "event": media.event}
+
+
+@pytest.fixture(autouse=True)
+def offline_suggest(monkeypatch):
+    """No test asks YouTube's autocomplete; tests of seo give their own suggestions."""
+    monkeypatch.setattr(seo, "fetch", lambda *args, **kwargs: [])
 
 
 @pytest.fixture(autouse=True)

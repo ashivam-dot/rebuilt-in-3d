@@ -281,8 +281,12 @@ def _description(short: Short, narration: bool) -> str:
 def tags(short: Short) -> list[str]:
     """The story's topic tags and the channel's name, within YouTube's 500 characters; no machine identifier (the
     ledger knows which video is which story)."""
+    from . import seo
+
+    said = " ".join([short.title, short.summary] + [b.text for b in short.beats])
+    searched = seo.suggested(short.tags[0], said) if short.tags else []
     out, total = [], 0
-    for t in short.tags + ["Orbitwire"]:
+    for t in dict.fromkeys(short.tags + searched + ["Orbitwire"]):
         if total + len(t) + 2 > 480:
             break
         out.append(t)
