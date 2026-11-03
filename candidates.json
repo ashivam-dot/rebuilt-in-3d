@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T15:30:55+00:00",
+ "at": "2026-11-03T16:00:04+00:00",
  "quakes": [],
  "trending": [
   {
@@ -54,17 +54,17 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-03T15:31:23.052996+00:00",
+   "news_at": "2026-11-03T16:00:32.238678+00:00",
    "headlines": [
     "Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
-    "Hardeep Singh Puri set to enter Rajya Sabha unopposed after RO rejects objections"
+    "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
    ],
    "region": "india",
    "via": [
     "google-news:Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
-    "google-news:Hardeep Singh Puri set to enter Rajya Sabha unopposed after RO rejects objections",
+    "google-news:Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
     "outlet:Government of India",
     "outlet:HT Media"
    ],
@@ -81,10 +81,10 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T15:31:23.052996+00:00"
+     "at": "2026-11-03T16:00:32.238678+00:00"
     },
     {
-     "title": "Hardeep Singh Puri set to enter Rajya Sabha unopposed after RO rejects objections",
+     "title": "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
      "url": "https://www.hindustantimes.com/india-news/hardeep-singh-puri-set-to-enter-rajya-sabha-unopposed-after-ro-rejects-objections-101793717988410.html",
      "outlet": "Hindustan Times",
      "outlet_hi": "हिंदुस्तान टाइम्स",
@@ -150,18 +150,101 @@
    "date": "2026-10-28"
   },
   {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T15:55:13+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+    "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+    "Austin tech founder killed with wife and children in Florida jet crash had reached a $10M business milestone",
+    "Tech boss’s emotional post about his young family resurfaces after they are identified as Florida plane crash victims"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+     "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T13:44:44+00:00"
+    },
+    {
+     "title": "Tech boss’s emotional post about his young family resurfaces after they are identified as Florida plane crash victims",
+     "url": "https://www.independent.co.uk/news/world/americas/adam-robinson-family-florida-plane-crash-b3078093.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T15:55:13+00:00"
+    },
+    {
+     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T22:52:55+00:00"
+    },
+    {
+     "title": "Austin tech founder killed with wife and children in Florida jet crash had reached a $10M business milestone",
+     "url": "https://www.foxnews.com/us/austin-tech-founder-killed-wife-children-florida-jet-crash-reached-10m-business-milestone",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-03T14:51:19+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q2913482",
    "title": "Ciara Mageean",
-   "fame": 59586,
+   "fame": 59386,
    "views": 59386,
-   "traffic": 200,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-02",
-    "google-trends-GB:ciara mageean funeral"
+    "wikipedia-top-2026-11-02"
    ],
    "owners": [],
    "reports": [],
@@ -493,12 +576,97 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 770,
+  "headlines": 769,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 1
+  "matched": 27,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 770 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261102-florida-aviation",
+   "qid": null,
+   "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+   "name": "Florida",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-02",
+   "news_at": "2026-11-03T15:55:13+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+    "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+    "Austin tech founder killed with wife and children in Florida jet crash had reached a $10M business milestone",
+    "Tech boss’s emotional post about his young family resurfaces after they are identified as Florida plane crash victims"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+     "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-03T13:44:44+00:00"
+    },
+    {
+     "title": "Tech boss’s emotional post about his young family resurfaces after they are identified as Florida plane crash victims",
+     "url": "https://www.independent.co.uk/news/world/americas/adam-robinson-family-florida-plane-crash-b3078093.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-03T15:55:13+00:00"
+    },
+    {
+     "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-02T22:52:55+00:00"
+    },
+    {
+     "title": "Austin tech founder killed with wife and children in Florida jet crash had reached a $10M business milestone",
+     "url": "https://www.foxnews.com/us/austin-tech-founder-killed-wife-children-florida-jet-crash-reached-10m-business-milestone",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-03T14:51:19+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 769 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-florida-aviation"
 }
