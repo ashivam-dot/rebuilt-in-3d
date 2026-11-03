@@ -1,34 +1,14 @@
 {
- "at": "2026-11-03T22:18:31+00:00",
+ "at": "2026-11-03T22:45:25+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q259559",
-   "title": "Susan Saint James",
-   "fame": 252010,
-   "views": 252010,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-02"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q259559",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-26"
-  },
-  {
    "qid": "Q141898879",
    "title": "2026 Toledo train collision",
-   "fame": 239883,
+   "fame": 264883,
    "views": 14883,
    "traffic": 0,
-   "news": 225000,
+   "news": 250000,
    "news_at": "2026-11-03T22:04:09+00:00",
    "headlines": [
     "Spanish transport minister resigns after two deadly train crashes in one year",
@@ -46,13 +26,15 @@
     "outlet:BBC",
     "outlet:SCMP Group",
     "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NDTV"
    ],
    "owners": [
     "BBC",
     "SCMP Group",
     "Independent Digital News",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NDTV"
    ],
    "reports": [
     {
@@ -96,6 +78,16 @@
      "at": "2026-11-03T21:46:02+00:00"
     },
     {
+     "title": "Spain's Transport Minister Resigns Days After Deadly Train Crash",
+     "url": "https://www.ndtv.com/world-news/spains-transport-minister-scar-puente-resigns-days-after-deadly-train-crash-12279204#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-03T21:34:59+00:00"
+    },
+    {
      "title": "Two Australians confirmed dead in Spain’s high-speed train crash",
      "url": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb",
      "outlet": "The Guardian",
@@ -115,6 +107,26 @@
     -3.81805556
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q259559",
+   "title": "Susan Saint James",
+   "fame": 252010,
+   "views": 252010,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q259559",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-26"
   },
   {
    "qid": "Q141966885",
@@ -142,38 +154,13 @@
    "has_coords": true
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-03T00:00:00+00:00",
-   "headlines": [
-    "Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-02",
-    "google-news:Haiti Gang Leader Calls for Peace After El Salvador Sends Troops"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q4834146",
    "title": "B. P. Singh",
    "fame": 175000,
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-03T22:19:13.479018+00:00",
+   "news_at": "2026-11-03T22:46:03.486207+00:00",
    "headlines": [
     "India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
@@ -200,7 +187,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T22:19:13.479018+00:00"
+     "at": "2026-11-03T22:46:03.486207+00:00"
     },
     {
      "title": "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
@@ -304,6 +291,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-01"
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-03T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-02"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q644401",
@@ -581,12 +590,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 774,
+  "headlines": 778,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 40,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 774 headlines from 30 feeds (21 owners), 36 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 778 headlines from 30 feeds (21 owners), 40 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
