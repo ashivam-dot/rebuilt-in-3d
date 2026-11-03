@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T14:00:17+00:00",
+ "at": "2026-11-03T14:29:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -54,7 +54,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-03T14:02:23.571331+00:00",
+   "news_at": "2026-11-03T14:30:48.060510+00:00",
    "headlines": [
     "Indian Premier League 2027: MI’s Hardik Pandya set for a swap with PBKS’s Arshdeep Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
@@ -81,7 +81,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-03T14:02:23.571331+00:00"
+     "at": "2026-11-03T14:30:48.060510+00:00"
     },
     {
      "title": "SC defers Beant Singh assassin Hawara’s plea for Punjab prison transfer based on IB note",
@@ -147,15 +147,14 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-11-02",
-   "news_at": "2026-11-03T13:41:52+00:00",
+   "news_at": "2026-11-03T09:33:18+00:00",
    "owners": [
     "HT Media",
     "Al Jazeera Media Network",
-    "The Hindu Group",
     "Deutsche Welle"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -202,16 +201,6 @@
      "at": "2026-11-03T09:33:18+00:00"
     },
     {
-     "title": "Cyclone Murasu: rains inundate low-lying areas in Eluru district; Collector orders evacuation",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-rains-inundate-low-lying-areas-in-eluru-district-collector-orders-evacuation/article71660583.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T13:41:52+00:00"
-    },
-    {
      "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
      "url": "https://www.hindustantimes.com/india-news/ht-morning-brief-november-3-indian-tourist-killed-nepal-helicopters-collide-cyclone-murasu-landfall-indian-air-force-oman-latest-news-101793685113337.html",
      "outlet": "Hindustan Times",
@@ -255,7 +244,6 @@
    "via": [
     "outlet:HT Media",
     "outlet:Al Jazeera Media Network",
-    "outlet:The Hindu Group",
     "outlet:Deutsche Welle"
    ],
    "emerging": true,
@@ -264,15 +252,16 @@
   {
    "qid": "Q2913482",
    "title": "Ciara Mageean",
-   "fame": 59386,
+   "fame": 59586,
    "views": 59386,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-02"
+    "wikipedia-top-2026-11-02",
+    "google-trends-GB:ciara mageean funeral"
    ],
    "owners": [],
    "reports": [],
@@ -592,13 +581,14 @@
  "hazards": [],
  "candidates": [],
  "trend_errors": [
-  "gdacs: no element found: line 1, column 1"
+  "gdacs: no element found: line 1, column 1",
+  "outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss"
  ],
  "outlets": {
-  "headlines": 763,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 26,
+  "headlines": 751,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 27,
   "corroborated": 2
  },
  "emerging": [
@@ -610,15 +600,14 @@
    "kind": "incident",
    "category": "cyclone",
    "date": "2026-11-02",
-   "news_at": "2026-11-03T13:41:52+00:00",
+   "news_at": "2026-11-03T09:33:18+00:00",
    "owners": [
     "HT Media",
     "Al Jazeera Media Network",
-    "The Hindu Group",
     "Deutsche Welle"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -665,16 +654,6 @@
      "at": "2026-11-03T09:33:18+00:00"
     },
     {
-     "title": "Cyclone Murasu: rains inundate low-lying areas in Eluru district; Collector orders evacuation",
-     "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-rains-inundate-low-lying-areas-in-eluru-district-collector-orders-evacuation/article71660583.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T13:41:52+00:00"
-    },
-    {
      "title": "HT Morning Brief Nov 3: Indian tourist killed in Nepal; rain alert in Nilgiris after Cyclone Murasu's landfall",
      "url": "https://www.hindustantimes.com/india-news/ht-morning-brief-november-3-indian-tourist-killed-nepal-helicopters-collide-cyclone-murasu-landfall-indian-air-force-oman-latest-news-101793685113337.html",
      "outlet": "Hindustan Times",
@@ -718,13 +697,12 @@
    "via": [
     "outlet:HT Media",
     "outlet:Al Jazeera Media Network",
-    "outlet:The Hindu Group",
     "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 763 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
+ "outlet_note": "outlets: 751 headlines from 29 feeds (20 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261102-murasu-cyclone",
  "hazards_error": "no element found: line 1, column 1"
 }
