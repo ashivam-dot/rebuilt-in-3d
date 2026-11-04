@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T09:48:10+00:00",
+ "at": "2026-11-04T10:17:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,21 +25,22 @@
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 175000,
+   "fame": 300000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
+   "news": 300000,
    "news_at": "2026-11-04T07:33:37+00:00",
    "headlines": [
     "India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
+    "In Speaker Om Birla's presence, CM Satheesan questions credibility of anti-corruption movement against Manmohan Singh regime",
     "Defence production at Rs 1.78 lakh crore: Rajnath Singh sets out India's next priorities",
     "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
    ],
    "region": "india",
    "via": [
     "google-news:India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
+    "google-news:In Speaker Om Birla's presence, CM Satheesan questions credibility of anti-corruption movement against Manmohan Singh regime",
     "google-news:Defence production at Rs 1.78 lakh crore: Rajnath Singh sets out India's next priorities",
-    "google-news:Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
     "outlet:Bennett, Coleman & Co.",
     "outlet:HT Media"
    ],
@@ -176,6 +177,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q3181541",
+   "title": "John Frieda",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-04T09:38:08+00:00",
+   "headlines": [
+    "Celebrity hairstylist John Frieda dies aged 75"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Celebrity hairstylist John Frieda dies aged 75",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Celebrity hairstylist John Frieda dies aged 75",
+     "url": "https://www.bbc.co.uk/news/articles/crlykl5gl3x4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T09:38:08+00:00"
+    }
+   ],
+   "id": "wk-Q3181541",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
   },
   {
    "qid": "Q2913482",
@@ -336,26 +373,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-29"
-  },
-  {
-   "qid": "Q5370928",
-   "title": "Emerson (footballer, born July 1980)",
-   "fame": 2000,
-   "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:hong kong open"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5370928",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
   }
  ],
  "hazards": [
@@ -373,33 +390,54 @@
  ],
  "candidates": [
   {
-   "qid": "Q5370928",
-   "title": "Emerson (footballer, born July 1980)",
-   "fame": 2000,
+   "qid": "Q3181541",
+   "title": "John Frieda",
+   "fame": 50000,
    "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-04T09:38:08+00:00",
+   "headlines": [
+    "Celebrity hairstylist John Frieda dies aged 75"
+   ],
    "region": "world",
    "via": [
-    "google-trends-US:hong kong open"
+    "google-news:Celebrity hairstylist John Frieda dies aged 75",
+    "outlet:BBC"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5370928",
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Celebrity hairstylist John Frieda dies aged 75",
+     "url": "https://www.bbc.co.uk/news/articles/crlykl5gl3x4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T09:38:08+00:00"
+    }
+   ],
+   "id": "wk-Q3181541",
    "kind": "death",
    "category": "death",
-   "date": "2026-10-27"
+   "date": "2026-11-03"
   }
  ],
+ "trend_errors": [
+  "google trends US: HTTP 429",
+  "google trends IN: HTTP 429",
+  "google trends GB: HTTP 429"
+ ],
  "outlets": {
-  "headlines": 798,
+  "headlines": 801,
   "feeds": 30,
   "owners": 21,
-  "matched": 53,
+  "matched": 45,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 53 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 45 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
