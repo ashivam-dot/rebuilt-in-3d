@@ -1,15 +1,21 @@
 {
- "at": "2026-11-04T14:03:09+00:00",
+ "at": "2026-11-04T14:32:50+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
-  "watch: 13 candidates (0 quakes, 15 trending), 1 hazard alerts",
-  "outlets: 804 headlines from 30 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "quiet day (no Short yet today): 12 tribute candidates: Gerry Collins (politician), Antonio Navarro Wolff, Toni Brogno, William Nordhaus",
-  "skip wk-Q77206: gate: only 3 usable photos of Janosch on Wikimedia Commons (want 4)",
-  "skip wk-Q2266133: gate: only 1 usable photos of Toni Brogno on Wikimedia Commons (want 4)",
-  "skip wk-Q446685: gate: no photo on Wikimedia Commons shows Gerry Collins's face (a tribute needs one)",
-  "skip wk-Q4776830: gate: only 3 usable photos of Antonio Navarro Wolff on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
+  "watch: 9 candidates (0 quakes, 15 trending), 1 hazard alerts",
+  "outlets: 808 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "quiet day (no Short yet today): 9 tribute candidates: William Nordhaus, Hamid Alidoosti, Nadia Santini, Regina Ziegler",
+  "skip wk-Q3334890: gate: no photo on Wikimedia Commons shows Nadia Santini's face (a tribute needs one)",
+  "skip wk-Q339985: gate: only 1 usable photos of Hamid Alidousti on Wikimedia Commons (want 4)",
+  "skip wk-Q5679668: gate: no photo on Wikimedia Commons shows Hassan Habibi's face (a tribute needs one)",
+  "published wk-Q1718539: https://www.youtube.com/shorts/fYyPMYFus2M"
+ ],
+ "published": {
+  "video_id": "fYyPMYFus2M",
+  "url": "https://www.youtube.com/shorts/fYyPMYFus2M",
+  "title": "Regina Ziegler, First Female German Film Producer, Dies at 82",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
