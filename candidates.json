@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T07:15:36+00:00",
+ "at": "2026-11-04T07:48:24+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,23 +25,39 @@
   {
    "qid": "Q141898879",
    "title": "2026 Toledo train collision",
-   "fame": 262288,
+   "fame": 287288,
    "views": 12288,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-03T22:25:06+00:00",
+   "news": 275000,
+   "news_at": "2026-11-04T07:18:08+00:00",
    "headlines": [
-    "Spanish transport minister resigns after two deadly train crashes in one year",
-    "Spain's transport minister Oscar Puente to resign after train crash killed 69 people"
+    "Spanish transport minister resigns days after deadly train crash",
+    "Spain's transport minister Oscar Puente to resign after train crash killed 69 people",
+    "Spanish transport minister resigns after train crash killed 69 people"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-03",
-    "google-news:Spanish transport minister resigns after two deadly train crashes in one year",
-    "google-news:Spain's transport minister Oscar Puente to resign after train crash killed 69 people"
+    "google-news:Spanish transport minister resigns days after deadly train crash",
+    "google-news:Spain's transport minister Oscar Puente to resign after train crash killed 69 people",
+    "google-news:Spanish transport minister resigns after train crash killed 69 people",
+    "outlet:Al Jazeera Media Network"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Spanish transport minister resigns after train crash killed 69 people",
+     "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-04T07:18:08+00:00"
+    }
+   ],
    "id": "wk-Q141898879",
    "kind": "incident",
    "category": "rail",
@@ -117,16 +133,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-11-03T10:12:41+00:00"
-    },
-    {
-     "title": "‘Sinking ship’: Punjab Congress chief Pargat Singh's dig after three AAP MLAs join BJP",
-     "url": "https://www.hindustantimes.com/india-news/punjab-congress-chief-pargat-singh-three-aap-mlas-join-bjp-sinking-ship-101793678357324.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-03T06:46:17+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -355,12 +361,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 787,
+  "headlines": 796,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 42,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 36 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 796 headlines from 30 feeds (21 owners), 42 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
