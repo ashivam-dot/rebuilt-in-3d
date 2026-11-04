@@ -953,11 +953,19 @@
   "kind": "death"
  },
  "wk-Q312472": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: only 2 usable photos of Tinto Brass on Wikimedia Commons (want 4)",
-  "at": "2026-11-04T17:05:38+00:00",
+  "at": "2026-11-04T20:11:52+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "nw-20261104-miami-aviation": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Miami or the event itself (only 1 photos of places or things near it)",
+  "at": "2026-11-04T20:11:51+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }
