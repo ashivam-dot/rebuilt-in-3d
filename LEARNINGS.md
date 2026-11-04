@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-04T13:34:33+00:00. Scored Shorts (views at 24 h): 58. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-11-04T16:35:04+00:00. Scored Shorts (views at 24 h): 58. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 197 views at 24 h.
 Retention: a typical Short is watched 55.9% through; a group's retention is blended into its lift at 0.5.
@@ -13,7 +13,8 @@ Retention: a typical Short is watched 55.9% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 359 | 354 |
+| wk-Q1718539 | 2026-11-04T15:14 | death | death | 76 |  |
+| nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 366 | 354 |
 | wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 48 | 24 |
 | wk-Q2913482 | 2026-11-01T11:27 | death | death | 2552 | 2177 |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1103 | 1072 |
@@ -42,4 +43,3 @@ Retention: a typical Short is watched 55.9% through; a group's retention is blen
 | wk-Q141592947-2026w42 | 2026-10-18T21:39 | incident | protest | 265 | 207 |
 | nw-20261017-paris-protest | 2026-10-18T11:34 | incident | protest | 325 | 313 |
 | wk-Q141605182 | 2026-10-17T18:37 | incident | aviation | 19 | 14 |
-| wk-Q141717158-2026w42 | 2026-10-17T04:44 | incident | protest | 53 | 19 |
