@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T08:47:04+00:00",
+ "at": "2026-11-04T09:17:34+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,50 +23,27 @@
    "date": "2026-11-03"
   },
   {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 287288,
-   "views": 12288,
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 207458,
+   "views": 82458,
    "traffic": 0,
-   "news": 275000,
-   "news_at": "2026-11-04T07:18:08+00:00",
+   "news": 125000,
+   "news_at": "2026-11-04T08:17:48+00:00",
    "headlines": [
-    "Spanish transport minister resigns days after deadly train crash",
-    "Spain’s transport minister resigns over deadly train crash",
-    "Spanish transport minister resigns after train crash killed 69 people"
+    "‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-03",
-    "google-news:Spanish transport minister resigns days after deadly train crash",
-    "google-news:Spain’s transport minister resigns over deadly train crash",
-    "google-news:Spanish transport minister resigns after train crash killed 69 people",
-    "outlet:Al Jazeera Media Network"
+    "google-news:‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
    ],
-   "owners": [
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Spanish transport minister resigns after train crash killed 69 people",
-     "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-04T07:18:08+00:00"
-    }
-   ],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
   },
   {
    "qid": "Q4834146",
@@ -151,6 +128,34 @@
    "date": "2026-10-27"
   },
   {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 137288,
+   "views": 12288,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-03T22:45:59+00:00",
+   "headlines": [
+    "Spanish transport minister resigns days after deadly train crash"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-03",
+    "google-news:Spanish transport minister resigns days after deadly train crash"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q141966885",
    "title": "2026 Palm Beach County Learjet 60 crash",
    "fame": 132447,
@@ -174,26 +179,6 @@
     -80.11311111
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 82458,
-   "views": 82458,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-03"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16296",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
   },
   {
    "qid": "Q2913482",
@@ -371,12 +356,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 791,
+  "headlines": 795,
   "feeds": 30,
   "owners": 21,
-  "matched": 50,
+  "matched": 49,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 791 headlines from 30 feeds (21 owners), 50 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 795 headlines from 30 feeds (21 owners), 49 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
