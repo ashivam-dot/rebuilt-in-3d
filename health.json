@@ -1,15 +1,16 @@
 {
- "at": "2026-11-04T23:01:15+00:00",
+ "at": "2026-11-04T23:35:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 130 units today",
+  "learn: 58 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 23, 'lift': 1.298, 'typical_views_24h': 376, 'n_retention': 23, 'typical_view_pct': 54.0}, 'kind:incident': {'n': 27, 'lift': 0.93, 'typical_views_24h': 166, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 22, 'lift': 1",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 131 units today",
   "watch: 4 candidates (0 quakes, 21 trending), 1 hazard alerts",
-  "outlets: 818 headlines from 30 feeds (21 owners), 56 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "outlets: 821 headlines from 30 feeds (21 owners), 55 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wp-2026_Kedartal_trail_Avalanche: outside the india window",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
-  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 5.2 h)",
-  "skip wk-Q313202: gate: no draft passed the fact checks: these names or numbers are not in the sources: 6",
-  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 1.9 h)",
+  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 4.6 h)",
+  "skip wk-Q313202: gate: no draft passed the fact checks: these names or numbers are not in the sources: Buchmesse",
+  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 1.4 h)",
   "nothing eligible to publish"
  ]
 }
