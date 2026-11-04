@@ -1,14 +1,15 @@
 {
- "at": "2026-11-04T22:05:56+00:00",
+ "at": "2026-11-04T23:01:15+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 129 units today",
-  "watch: 3 candidates (0 quakes, 20 trending), 1 hazard alerts",
-  "outlets: 822 headlines from 30 feeds (21 owners), 42 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
-  "hold wk-Q313202: last Short went out 0.4 h ago",
-  "hold wp-2026_Kedartal_trail_Avalanche: last Short went out 0.4 h ago",
-  "hold wp-2026_Tampa_shooting: last Short went out 0.4 h ago",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 130 units today",
+  "watch: 4 candidates (0 quakes, 21 trending), 1 hazard alerts",
+  "outlets: 818 headlines from 30 feeds (21 owners), 56 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wp-2026_Kedartal_trail_Avalanche: outside the india window",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
+  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 5.2 h)",
+  "skip wk-Q313202: gate: no draft passed the fact checks: these names or numbers are not in the sources: 6",
+  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 1.9 h)",
+  "nothing eligible to publish"
  ]
 }
