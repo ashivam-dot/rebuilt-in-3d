@@ -1,27 +1,28 @@
 # What this channel's own numbers say
 
-Updated 2026-11-04T10:17:49+00:00. Scored Shorts (views at 24 h): 57. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-11-04T13:34:33+00:00. Scored Shorts (views at 24 h): 58. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
-Baseline: a typical Short has 195 views at 24 h.
-Retention: a typical Short is watched 55.1% through; a group's retention is blended into its lift at 0.5.
-- kind:death: x1.292 ranking lift (23 Shorts, typical 376 views; 22 with retention, typically 52.1% watched)
-- category:death: x1.26 ranking lift (22 Shorts, typical 353 views; 21 with retention, typically 52.7% watched)
-- kind:incident: x0.928 ranking lift (26 Shorts, typical 161 views; 25 with retention, typically 56.0% watched)
-- category:protest: x0.797 ranking lift (8 Shorts, typical 100 views; 7 with retention, typically 54.0% watched)
+Baseline: a typical Short has 197 views at 24 h.
+Retention: a typical Short is watched 55.9% through; a group's retention is blended into its lift at 0.5.
+- category:cyclone: x1.35 ranking lift (4 Shorts, typical 508 views)
+- kind:death: x1.299 ranking lift (23 Shorts, typical 376 views; 23 with retention, typically 54.1% watched)
+- category:death: x1.267 ranking lift (22 Shorts, typical 353 views; 22 with retention, typically 54.7% watched)
+- kind:incident: x0.93 ranking lift (27 Shorts, typical 166 views; 25 with retention, typically 56.0% watched)
+- category:protest: x0.791 ranking lift (8 Shorts, typical 100 views; 7 with retention, typically 54.0% watched)
 - kind:quake: x0.75 ranking lift (8 Shorts, typical 54 views; 7 with retention, typically 62.2% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 350 |  |
-| wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 47 | 24 |
-| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2536 | 2177 |
+| nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 359 | 354 |
+| wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 48 | 24 |
+| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2552 | 2177 |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1103 | 1072 |
 | wk-Q453730 | 2026-10-29T14:30 | death | death | 664 | 535 |
 | wk-Q241115 | 2026-10-29T13:29 | death | death | 1277 | 1191 |
 | wk-Q922837 | 2026-10-29T09:29 | death | death | 466 | 294 |
 | wk-Q468843 | 2026-10-28T18:21 | death | death | 569 | 445 |
-| wk-Q455700 | 2026-10-28T12:45 | death | death | 551 | 363 |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1263 | 939 |
+| wk-Q455700 | 2026-10-28T12:45 | death | death | 552 | 363 |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1264 | 939 |
 | wk-Q376176 | 2026-10-26T20:55 | death | death | 4433 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 117 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 27 | 24 |
