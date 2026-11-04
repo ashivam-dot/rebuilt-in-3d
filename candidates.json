@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T09:17:34+00:00",
+ "at": "2026-11-04T09:48:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,29 +21,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
-  },
-  {
-   "qid": "Q16296",
-   "title": "Patrick Stewart",
-   "fame": 207458,
-   "views": 82458,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-04T08:17:48+00:00",
-   "headlines": [
-    "‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-03",
-    "google-news:‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q16296",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-28"
   },
   {
    "qid": "Q4834146",
@@ -179,6 +156,26 @@
     -80.11311111
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q16296",
+   "title": "Patrick Stewart",
+   "fame": 82458,
+   "views": 82458,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-03"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16296",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-28"
   },
   {
    "qid": "Q2913482",
@@ -339,6 +336,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-29"
+  },
+  {
+   "qid": "Q5370928",
+   "title": "Emerson (footballer, born July 1980)",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:hong kong open"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5370928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   }
  ],
  "hazards": [
@@ -354,14 +371,35 @@
    "lon": "80.2"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q5370928",
+   "title": "Emerson (footballer, born July 1980)",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:hong kong open"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5370928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
+  }
+ ],
  "outlets": {
-  "headlines": 795,
+  "headlines": 798,
   "feeds": 30,
   "owners": 21,
-  "matched": 49,
+  "matched": 53,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 795 headlines from 30 feeds (21 owners), 49 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 53 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
