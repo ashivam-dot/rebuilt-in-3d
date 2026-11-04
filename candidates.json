@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T07:48:24+00:00",
+ "at": "2026-11-04T08:15:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -75,16 +75,16 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-04T06:36:00+00:00",
+   "news_at": "2026-11-04T07:33:37+00:00",
    "headlines": [
     "India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
-    "IPL: MI, PBKS in talks over Hardik Pandya, Arshdeep Singh trade",
+    "Defence production at Rs 1.78 lakh crore: Rajnath Singh sets out India's next priorities",
     "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected"
    ],
    "region": "india",
    "via": [
     "google-news:India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
-    "google-news:IPL: MI, PBKS in talks over Hardik Pandya, Arshdeep Singh trade",
+    "google-news:Defence production at Rs 1.78 lakh crore: Rajnath Singh sets out India's next priorities",
     "google-news:Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
     "outlet:Bennett, Coleman & Co.",
     "outlet:HT Media"
@@ -94,6 +94,16 @@
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Defence production at Rs 1.78 lakh crore: Rajnath Singh sets out India's next priorities",
+     "url": "https://timesofindia.indiatimes.com/defence/news/atmanirbharta-key-to-strategic-autonomy-must-mean-technological-sovereignty-says-rajnath/articleshow/135525694.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-04T07:33:37+00:00"
+    },
     {
      "title": "IPL: MI, PBKS in talks over Hardik Pandya, Arshdeep Singh trade",
      "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/ipl-mi-pbks-in-talks-over-hardik-pandya-arshdeep-singh-trade/articleshow/135527632.cms",
@@ -360,13 +370,16 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss"
+ ],
  "outlets": {
-  "headlines": 796,
-  "feeds": 30,
-  "owners": 21,
+  "headlines": 774,
+  "feeds": 29,
+  "owners": 20,
   "matched": 42,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 796 headlines from 30 feeds (21 owners), 42 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 774 headlines from 29 feeds (20 owners), 42 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
