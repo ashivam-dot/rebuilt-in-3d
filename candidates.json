@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T05:49:36+00:00",
+ "at": "2026-11-04T06:17:24+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,13 +23,43 @@
    "date": "2026-11-03"
   },
   {
+   "qid": "Q141898879",
+   "title": "2026 Toledo train collision",
+   "fame": 262288,
+   "views": 12288,
+   "traffic": 0,
+   "news": 250000,
+   "news_at": "2026-11-03T22:25:06+00:00",
+   "headlines": [
+    "Spanish transport minister resigns after two deadly train crashes in one year",
+    "Spain's transport minister Oscar Puente to resign after train crash killed 69 people"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-03",
+    "google-news:Spanish transport minister resigns after two deadly train crashes in one year",
+    "google-news:Spain's transport minister Oscar Puente to resign after train crash killed 69 people"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141898879",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-10-28",
+   "coords": [
+    39.42777778,
+    -3.81805556
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 175000,
+   "fame": 175200,
    "views": 0,
-   "traffic": 0,
+   "traffic": 200,
    "news": 175000,
-   "news_at": "2026-11-04T05:50:05.581370+00:00",
+   "news_at": "2026-11-04T06:17:54.673790+00:00",
    "headlines": [
     "India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
     "Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
@@ -37,6 +67,7 @@
    ],
    "region": "india",
    "via": [
+    "google-trends-US:fresno election results",
     "google-news:India aims for Rs 3 lakh cr defence production, Rs 50,000 cr exports by 2029: Rajnath Singh",
     "google-news:Union Minister Shri Rajiv Ranjan Singh Inaugurated Microbiology Laboratory, Launched Churpi Traceability Initiative and Fodder Plus FPO Products in Sikkim",
     "google-news:Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
@@ -56,7 +87,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-04T05:50:05.581370+00:00"
+     "at": "2026-11-04T06:17:54.673790+00:00"
     },
     {
      "title": "Hardeep Singh Puri set to be elected unopposed to Rajya Sabha as rivals' nominations rejected",
@@ -103,36 +134,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-27"
-  },
-  {
-   "qid": "Q141898879",
-   "title": "2026 Toledo train collision",
-   "fame": 162288,
-   "views": 12288,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-03T22:25:06+00:00",
-   "headlines": [
-    "Spanish transport minister resigns after two deadly train crashes in one year",
-    "Spain's transport minister Oscar Puente to resign after train crash killed 69 people"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-03",
-    "google-news:Spanish transport minister resigns after two deadly train crashes in one year",
-    "google-news:Spain's transport minister Oscar Puente to resign after train crash killed 69 people"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141898879",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-10-28",
-   "coords": [
-    39.42777778,
-    -3.81805556
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141966885",
@@ -182,9 +183,9 @@
   {
    "qid": "Q2913482",
    "title": "Ciara Mageean",
-   "fame": 49199,
+   "fame": 48999,
    "views": 23999,
-   "traffic": 200,
+   "traffic": 0,
    "news": 25000,
    "news_at": "2026-11-03T17:07:28+00:00",
    "headlines": [
@@ -193,7 +194,6 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-03",
-    "google-trends-GB:ciara mageean husband",
     "google-news:Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
     "outlet:BBC"
    ],
@@ -373,12 +373,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 795,
+  "headlines": 796,
   "feeds": 30,
   "owners": 21,
-  "matched": 53,
+  "matched": 48,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 795 headlines from 30 feeds (21 owners), 53 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 796 headlines from 30 feeds (21 owners), 48 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
