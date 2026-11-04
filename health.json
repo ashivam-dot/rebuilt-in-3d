@@ -1,13 +1,19 @@
 {
- "at": "2026-11-04T20:33:07+00:00",
+ "at": "2026-11-04T21:20:11+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 76 units today",
-  "watch: 2 candidates (0 quakes, 18 trending), 1 hazard alerts",
-  "outlets: 817 headlines from 30 feeds (21 owners), 44 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 77 units today",
+  "watch: 5 candidates (0 quakes, 21 trending), 1 hazard alerts",
+  "outlets: 823 headlines from 30 feeds (21 owners), 44 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wp-2026_Kedartal_trail_Avalanche: outside the india window",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
-  "skip wk-Q313202: gate: no draft passed the fact checks: these names or numbers are not in the sources: 2008",
-  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 4.2 h)",
-  "nothing eligible to publish"
- ]
+  "published wk-Q1633044: https://www.youtube.com/shorts/5PVHMrKX6oQ"
+ ],
+ "published": {
+  "video_id": "5PVHMrKX6oQ",
+  "url": "https://www.youtube.com/shorts/5PVHMrKX6oQ",
+  "title": "Hubert Aiwanger, Bavarian Minister and Party Leader, Dies at 55",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }

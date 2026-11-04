@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T20:33:08+00:00",
+ "at": "2026-11-04T21:20:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -129,6 +129,43 @@
    "date": "2026-10-28"
   },
   {
+   "qid": "Q1633044",
+   "title": "Hubert Aiwanger",
+   "fame": 25200,
+   "views": 0,
+   "traffic": 200,
+   "news": 25000,
+   "news_at": "2026-11-04T21:00:00+00:00",
+   "headlines": [
+    "Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:hubert aiwanger",
+    "google-news:Bavarian politician Hubert Aiwanger found dead in Berlin hotel",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Bavarian politician Hubert Aiwanger found dead in Berlin hotel",
+     "url": "https://www.dw.com/en/bavarian-politician-hubert-aiwanger-found-dead-in-berlin-hotel/a-79859115?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T21:00:00+00:00"
+    }
+   ],
+   "id": "wk-Q1633044",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
    "qid": null,
    "title": "2026 Tampa shooting",
    "fame": 25000,
@@ -157,16 +194,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-04T20:12:45+00:00"
-    },
-    {
-     "title": "Florida sheriff says 2 dead, including suspect, as witnesses report shooting at Tampa office complex",
-     "url": "https://www.independent.co.uk/news/world/americas/tampa-florida-citigroup-citibank-georgia-b3079360.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-04T19:30:25+00:00"
     }
    ],
    "id": "wp-2026_Tampa_shooting",
@@ -283,6 +310,44 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
+  },
+  {
+   "qid": null,
+   "title": "2026 Kedartal trail Avalanche",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-04T13:09:05+00:00",
+   "headlines": [
+    "Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4",
+     "url": "https://www.hindustantimes.com/india-news/uttarkashi-avalanche-rescue-teams-recover-two-more-bodies-death-toll-rises-to-4-101793797745650.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-04T13:09:05+00:00"
+    }
+   ],
+   "id": "wp-2026_Kedartal_trail_Avalanche",
+   "kind": "incident",
+   "category": "landslide",
+   "date": "2026-11-04",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q77206",
@@ -504,6 +569,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-29"
+  },
+  {
+   "qid": "Q4932755",
+   "title": "Bob Heinz",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:bob heinz"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4932755",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
   }
  ],
  "hazards": [
@@ -520,6 +605,43 @@
   }
  ],
  "candidates": [
+  {
+   "qid": "Q1633044",
+   "title": "Hubert Aiwanger",
+   "fame": 25200,
+   "views": 0,
+   "traffic": 200,
+   "news": 25000,
+   "news_at": "2026-11-04T21:00:00+00:00",
+   "headlines": [
+    "Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:hubert aiwanger",
+    "google-news:Bavarian politician Hubert Aiwanger found dead in Berlin hotel",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Bavarian politician Hubert Aiwanger found dead in Berlin hotel",
+     "url": "https://www.dw.com/en/bavarian-politician-hubert-aiwanger-found-dead-in-berlin-hotel/a-79859115?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T21:00:00+00:00"
+    }
+   ],
+   "id": "wk-Q1633044",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
   {
    "qid": "Q313202",
    "title": "Herbert Blomstedt",
@@ -558,6 +680,44 @@
   },
   {
    "qid": null,
+   "title": "2026 Kedartal trail Avalanche",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-04T13:09:05+00:00",
+   "headlines": [
+    "Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4",
+     "url": "https://www.hindustantimes.com/india-news/uttarkashi-avalanche-rescue-teams-recover-two-more-bodies-death-toll-rises-to-4-101793797745650.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-04T13:09:05+00:00"
+    }
+   ],
+   "id": "wp-2026_Kedartal_trail_Avalanche",
+   "kind": "incident",
+   "category": "landslide",
+   "date": "2026-11-04",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": null,
    "title": "2026 Tampa shooting",
    "fame": 25000,
    "views": 0,
@@ -585,16 +745,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-04T20:12:45+00:00"
-    },
-    {
-     "title": "Florida sheriff says 2 dead, including suspect, as witnesses report shooting at Tampa office complex",
-     "url": "https://www.independent.co.uk/news/world/americas/tampa-florida-citigroup-citibank-georgia-b3079360.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-04T19:30:25+00:00"
     }
    ],
    "id": "wp-2026_Tampa_shooting",
@@ -603,15 +753,35 @@
    "date": "2026-11-04",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q4932755",
+   "title": "Bob Heinz",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:bob heinz"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4932755",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-31"
   }
  ],
  "outlets": {
-  "headlines": 817,
+  "headlines": 823,
   "feeds": 30,
   "owners": 21,
   "matched": 44,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 817 headlines from 30 feeds (21 owners), 44 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 44 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
