@@ -1,9 +1,12 @@
 {
- "at": "2026-11-04T18:54:33+00:00",
+ "at": "2026-11-04T19:33:33+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 73 units today",
-  "watch: 0 candidates (0 quakes, 17 trending), 1 hazard alerts",
-  "outlets: 818 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 74 units today",
+  "watch: 1 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 820 headlines from 30 feeds (21 owners), 40 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
+  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 5.7 h)",
+  "nothing eligible to publish"
  ]
 }
