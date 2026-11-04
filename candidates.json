@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T10:17:51+00:00",
+ "at": "2026-11-04T10:47:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -215,6 +215,42 @@
    "date": "2026-11-03"
   },
   {
+   "qid": "Q77206",
+   "title": "Janosch",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-04T10:16:00+00:00",
+   "headlines": [
+    "Germany's celebrated children's author Janosch has died"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Germany's celebrated children's author Janosch has died",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Germany's celebrated children's author Janosch has died",
+     "url": "https://www.dw.com/en/germany-s-celebrated-children-s-author-janosch-has-died/a-79851600?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T10:16:00+00:00"
+    }
+   ],
+   "id": "wk-Q77206",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  },
+  {
    "qid": "Q2913482",
    "title": "Ciara Mageean",
    "fame": 23999,
@@ -390,54 +426,49 @@
  ],
  "candidates": [
   {
-   "qid": "Q3181541",
-   "title": "John Frieda",
-   "fame": 50000,
+   "qid": "Q77206",
+   "title": "Janosch",
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-04T09:38:08+00:00",
+   "news": 25000,
+   "news_at": "2026-11-04T10:16:00+00:00",
    "headlines": [
-    "Celebrity hairstylist John Frieda dies aged 75"
+    "Germany's celebrated children's author Janosch has died"
    ],
    "region": "world",
    "via": [
-    "google-news:Celebrity hairstylist John Frieda dies aged 75",
-    "outlet:BBC"
+    "google-news:Germany's celebrated children's author Janosch has died",
+    "outlet:Deutsche Welle"
    ],
    "owners": [
-    "BBC"
+    "Deutsche Welle"
    ],
    "reports": [
     {
-     "title": "Celebrity hairstylist John Frieda dies aged 75",
-     "url": "https://www.bbc.co.uk/news/articles/crlykl5gl3x4o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Germany's celebrated children's author Janosch has died",
+     "url": "https://www.dw.com/en/germany-s-celebrated-children-s-author-janosch-has-died/a-79851600?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-04T09:38:08+00:00"
+     "at": "2026-11-04T10:16:00+00:00"
     }
    ],
-   "id": "wk-Q3181541",
+   "id": "wk-Q77206",
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
   }
  ],
- "trend_errors": [
-  "google trends US: HTTP 429",
-  "google trends IN: HTTP 429",
-  "google trends GB: HTTP 429"
- ],
  "outlets": {
-  "headlines": 801,
+  "headlines": 805,
   "feeds": 30,
   "owners": 21,
-  "matched": 45,
+  "matched": 31,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 45 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
