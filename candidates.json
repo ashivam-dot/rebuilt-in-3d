@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T19:38:25+00:00",
+ "at": "2026-11-05T20:09:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,14 +11,14 @@
    "news": 400000,
    "news_at": "2026-11-05T08:20:18+00:00",
    "headlines": [
-    "MP High Court Denies Bail To Giribala Singh In Twisha Sharma Dowry Death Case",
+    "WhatsApp chats show Twisha Sharma was under mental distress: MP High Court denies bail to Giribala Singh",
     "Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor"
    ],
    "region": "india",
    "via": [
-    "google-news:MP High Court Denies Bail To Giribala Singh In Twisha Sharma Dowry Death Case",
+    "google-news:WhatsApp chats show Twisha Sharma was under mental distress: MP High Court denies bail to Giribala Singh",
     "google-news:Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "google-news:Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "outlet:HT Media"
@@ -76,29 +76,42 @@
   {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 175000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-05T18:24:44+00:00",
+   "news": 200000,
+   "news_at": "2026-11-05T19:03:00+00:00",
    "headlines": [
     "The Hindu profile on Democrat Pia Dandiya who won from Florida",
+    "Marine veteran working security hailed as hero after stopping active shooter at Florida Citibank campus",
     "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
     "Florida's new tax rule puts billionaire bunkers in spotlight"
    ],
    "region": "world",
    "via": [
     "google-news:The Hindu profile on Democrat Pia Dandiya who won from Florida",
+    "google-news:Marine veteran working security hailed as hero after stopping active shooter at Florida Citibank campus",
     "google-news:Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
-    "google-news:Florida's new tax rule puts billionaire bunkers in spotlight",
+    "outlet:Fox Corporation",
     "outlet:Independent Digital News",
     "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
+    "Fox Corporation",
     "Independent Digital News",
     "Bennett, Coleman & Co."
    ],
    "reports": [
+    {
+     "title": "Marine veteran working security hailed as hero after stopping active shooter at Florida Citibank campus",
+     "url": "https://www.foxnews.com/us/marine-veteran-working-security-hailed-hero-after-stopping-active-shooter-florida-citibank-campus",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-05T19:03:00+00:00"
+    },
     {
      "title": "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
      "url": "https://www.independent.co.uk/news/world/americas/florida-flooding-traps-residents-alligators-snakes-b3079979.html",
@@ -199,7 +212,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-05T19:38:25.398857+00:00",
+   "news_at": "2026-11-05T20:09:12.601568+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -315,29 +328,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-05"
-  },
-  {
-   "qid": "Q1633044",
-   "title": "Hubert Aiwanger",
-   "fame": 36205,
-   "views": 11205,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-05T15:40:26+00:00",
-   "headlines": [
-    "Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-04",
-    "google-news:Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1633044",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
   },
   {
    "qid": "Q141745391",
@@ -517,6 +507,26 @@
    "date": "2026-11-02"
   },
   {
+   "qid": "Q1633044",
+   "title": "Hubert Aiwanger",
+   "fame": 11205,
+   "views": 11205,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-04"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1633044",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
    "qid": "Q2737890",
    "title": "Clem Cattini",
    "fame": 10116,
@@ -552,13 +562,13 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 815,
+  "headlines": 813,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
+  "matched": 45,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 42 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 45 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
