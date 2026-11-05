@@ -1,14 +1,15 @@
 {
- "at": "2026-11-05T04:23:25+00:00",
+ "at": "2026-11-05T04:51:05+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 189 units today",
-  "watch: 3 candidates (0 quakes, 19 trending), 1 hazard alerts",
-  "outlets: 787 headlines from 30 feeds (21 owners), 43 matched to articles, 4 candidates with 2+ owners, 0 nw- stories (on)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 190 units today",
+  "watch: 4 candidates (0 quakes, 20 trending), 1 hazard alerts",
+  "outlets: 789 headlines from 30 feeds (21 owners), 44 matched to articles, 4 candidates with 2+ owners, 0 nw- stories (on)",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
   "skip wp-November_2026_Florida_floods: gate: neither Wikidata nor the infobox gives a date for this event",
   "skip wp-2026_Kedartal_avalanche: gate: event date conflicts between the structured source (2026-10-28) and article lead (2026-10-29)",
   "skip wp-2026_Tampa_shooting: gate: neither Wikidata nor the infobox gives a date for this event",
+  "skip wp-2026_Phoenix_floods: gate: neither Wikidata nor the infobox gives a date for this event",
   "nothing eligible to publish"
  ]
 }
