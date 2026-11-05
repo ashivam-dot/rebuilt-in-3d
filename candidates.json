@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T19:08:27+00:00",
+ "at": "2026-11-05T19:38:25+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,14 +11,14 @@
    "news": 400000,
    "news_at": "2026-11-05T08:20:18+00:00",
    "headlines": [
-    "High Court Rejects Giribala Singh's Bail In Twisha Sharma Death Case",
+    "MP High Court Denies Bail To Giribala Singh In Twisha Sharma Dowry Death Case",
     "Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor"
    ],
    "region": "india",
    "via": [
-    "google-news:High Court Rejects Giribala Singh's Bail In Twisha Sharma Death Case",
+    "google-news:MP High Court Denies Bail To Giribala Singh In Twisha Sharma Dowry Death Case",
     "google-news:Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "google-news:Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "outlet:HT Media"
@@ -76,23 +76,27 @@
   {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 150000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
+   "news": 175000,
    "news_at": "2026-11-05T18:24:44+00:00",
    "headlines": [
     "The Hindu profile on Democrat Pia Dandiya who won from Florida",
-    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’"
+    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+    "Florida's new tax rule puts billionaire bunkers in spotlight"
    ],
    "region": "world",
    "via": [
     "google-news:The Hindu profile on Democrat Pia Dandiya who won from Florida",
     "google-news:Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
-    "outlet:Independent Digital News"
+    "google-news:Florida's new tax rule puts billionaire bunkers in spotlight",
+    "outlet:Independent Digital News",
+    "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
-    "Independent Digital News"
+    "Independent Digital News",
+    "Bennett, Coleman & Co."
    ],
    "reports": [
     {
@@ -104,6 +108,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-05T18:24:44+00:00"
+    },
+    {
+     "title": "Florida's new tax rule puts billionaire bunkers in spotlight",
+     "url": "https://timesofindia.indiatimes.com/technology/tech-news/floridas-new-property-tax-rule-why-google-co-founder-larry-page-oracle-founder-larry-ellison-citadel-ceo-ken-griffin-and-other-billionaires-move-to-billionaire-bunkers-may-be-right/articleshow/135581737.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-05T17:11:01+00:00"
     }
    ],
    "id": "wp-November_2026_Florida_floods",
@@ -185,7 +199,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-05T19:08:27.259664+00:00",
+   "news_at": "2026-11-05T19:38:25.398857+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -301,6 +315,29 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-05"
+  },
+  {
+   "qid": "Q1633044",
+   "title": "Hubert Aiwanger",
+   "fame": 36205,
+   "views": 11205,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-05T15:40:26+00:00",
+   "headlines": [
+    "Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-04",
+    "google-news:Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1633044",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   },
   {
    "qid": "Q141745391",
@@ -480,26 +517,6 @@
    "date": "2026-11-02"
   },
   {
-   "qid": "Q1633044",
-   "title": "Hubert Aiwanger",
-   "fame": 11205,
-   "views": 11205,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-04"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1633044",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  },
-  {
    "qid": "Q2737890",
    "title": "Clem Cattini",
    "fame": 10116,
@@ -538,10 +555,10 @@
   "headlines": 815,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 2
+  "matched": 42,
+  "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 42 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
