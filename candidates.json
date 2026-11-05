@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T17:35:57+00:00",
+ "at": "2026-11-05T18:20:54+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,14 +11,14 @@
    "news": 400000,
    "news_at": "2026-11-05T08:20:18+00:00",
    "headlines": [
-    "WhatsApp chats show Twisha Sharma was under mental distress: MP High Court denies bail to Giribala Singh",
+    "High Court Rejects Giribala Singh's Bail In Twisha Sharma Death Case",
     "Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor"
    ],
    "region": "india",
    "via": [
-    "google-news:WhatsApp chats show Twisha Sharma was under mental distress: MP High Court denies bail to Giribala Singh",
+    "google-news:High Court Rejects Giribala Singh's Bail In Twisha Sharma Death Case",
     "google-news:Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "google-news:Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "outlet:HT Media"
@@ -74,29 +74,45 @@
    "date": "2026-11-03"
   },
   {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 175000,
+   "qid": null,
+   "title": "November 2026 Florida floods",
+   "fame": 150500,
    "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-05T17:35:57.695441+00:00",
+   "traffic": 500,
+   "news": 150000,
+   "news_at": "2026-11-05T17:11:01+00:00",
    "headlines": [
-    "After Riots and Protests, French Workers Are Going on Strike"
+    "From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
+    "Florida’s new property tax: Why tech execs move to ‘Billionaire Bunkers’ may be right"
    ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-05",
-    "google-news:After Riots and Protests, French Workers Are Going on Strike"
+    "google-trends-US:brysen wright",
+    "google-news:From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
+    "google-news:Florida’s new property tax: Why tech execs move to ‘Billionaire Bunkers’ may be right",
+    "outlet:Bennett, Coleman & Co."
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141615137-2026w45",
+   "owners": [
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Florida’s new property tax: Why tech execs move to ‘Billionaire Bunkers’ may be right",
+     "url": "https://timesofindia.indiatimes.com/technology/tech-news/floridas-new-property-tax-rule-why-google-co-founder-larry-page-oracle-founder-larry-ellison-citadel-ceo-ken-griffin-and-other-billionaires-move-to-billionaire-bunkers-may-be-right/articleshow/135581737.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-05T17:11:01+00:00"
+    }
+   ],
+   "id": "wp-November_2026_Florida_floods",
    "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-05",
+   "category": "flood",
+   "date": "2026-11-04",
    "coords": null,
-   "has_coords": true
+   "has_coords": false
   },
   {
    "qid": "Q3181541",
@@ -161,6 +177,28 @@
     26.63288889,
     -80.11311111
    ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-05T18:20:54.222549+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-05"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-05",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -574,17 +612,14 @@
    "has_coords": false
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.9 h ago, 152 people)"
- ],
  "outlets": {
-  "headlines": 800,
+  "headlines": 806,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 37,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
