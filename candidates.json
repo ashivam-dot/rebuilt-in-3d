@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T00:11:23+00:00",
+ "at": "2026-11-05T00:53:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -84,39 +84,15 @@
    "date": "2026-10-27"
   },
   {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 132447,
-   "views": 132447,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-03"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
-  {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 102000,
+   "fame": 225000,
    "views": 0,
-   "traffic": 2000,
-   "news": 100000,
+   "traffic": 0,
+   "news": 225000,
    "news_at": "2026-11-04T22:04:58+00:00",
    "headlines": [
+    "Crucial part of Florida Learjet found miles from crash site",
     "MS NOW host suggests Byron Donalds’ not true 'kinfolk' after historic Florida gubernatorial victory",
     "From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
     "Plane parts found miles from Florida crash site",
@@ -124,10 +100,9 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-US:blackhawks vs panthers",
+    "google-news:Crucial part of Florida Learjet found miles from crash site",
     "google-news:MS NOW host suggests Byron Donalds’ not true 'kinfolk' after historic Florida gubernatorial victory",
     "google-news:From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
-    "google-news:Plane parts found miles from Florida crash site",
     "outlet:Fox Corporation",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Paramount (CBS)",
@@ -229,6 +204,31 @@
    "has_coords": false
   },
   {
+   "qid": "Q141966885",
+   "title": "2026 Palm Beach County Learjet 60 crash",
+   "fame": 132447,
+   "views": 132447,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-03"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141966885",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-01",
+   "coords": [
+    26.63288889,
+    -80.11311111
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q16296",
    "title": "Patrick Stewart",
    "fame": 82458,
@@ -247,6 +247,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-28"
+  },
+  {
+   "qid": "Q7151947",
+   "title": "Paul Langmack",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-04T23:35:40+00:00",
+   "headlines": [
+    "Rugby league great Paul Langmack dies aged 61"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Rugby league great Paul Langmack dies aged 61",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Rugby league great Paul Langmack dies aged 61",
+     "url": "https://www.abc.net.au/news/2026-11-05/rugby-league-great-paul-langmack-dies-aged-61/107348920",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T23:35:40+00:00"
+    }
+   ],
+   "id": "wk-Q7151947",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
   },
   {
    "qid": null,
@@ -614,6 +650,26 @@
    "date": "2026-11-01"
   },
   {
+   "qid": "Q7688878",
+   "title": "Taurian Fontenette",
+   "fame": 10537,
+   "views": 10537,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-03"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7688878",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-02"
+  },
+  {
    "qid": "Q5103870",
    "title": "Choi Bool-am",
    "fame": 8013,
@@ -632,6 +688,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-10-29"
+  },
+  {
+   "qid": "Q6003298",
+   "title": "María Alicia Delgado",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:maría alicia delgado"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6003298",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   }
  ],
  "hazards": [
@@ -651,12 +727,13 @@
   {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 102000,
+   "fame": 225000,
    "views": 0,
-   "traffic": 2000,
-   "news": 100000,
+   "traffic": 0,
+   "news": 225000,
    "news_at": "2026-11-04T22:04:58+00:00",
    "headlines": [
+    "Crucial part of Florida Learjet found miles from crash site",
     "MS NOW host suggests Byron Donalds’ not true 'kinfolk' after historic Florida gubernatorial victory",
     "From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
     "Plane parts found miles from Florida crash site",
@@ -664,10 +741,9 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-US:blackhawks vs panthers",
+    "google-news:Crucial part of Florida Learjet found miles from crash site",
     "google-news:MS NOW host suggests Byron Donalds’ not true 'kinfolk' after historic Florida gubernatorial victory",
     "google-news:From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
-    "google-news:Plane parts found miles from Florida crash site",
     "outlet:Fox Corporation",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Paramount (CBS)",
@@ -767,6 +843,42 @@
    "date": "2026-11-04",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q7151947",
+   "title": "Paul Langmack",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-04T23:35:40+00:00",
+   "headlines": [
+    "Rugby league great Paul Langmack dies aged 61"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Rugby league great Paul Langmack dies aged 61",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Rugby league great Paul Langmack dies aged 61",
+     "url": "https://www.abc.net.au/news/2026-11-05/rugby-league-great-paul-langmack-dies-aged-61/107348920",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T23:35:40+00:00"
+    }
+   ],
+   "id": "wk-Q7151947",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
   },
   {
    "qid": "Q313202",
@@ -879,15 +991,55 @@
    "date": "2026-11-04",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q7688878",
+   "title": "Taurian Fontenette",
+   "fame": 10537,
+   "views": 10537,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-03"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7688878",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-02"
+  },
+  {
+   "qid": "Q6003298",
+   "title": "María Alicia Delgado",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:maría alicia delgado"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6003298",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   }
  ],
  "outlets": {
-  "headlines": 819,
+  "headlines": 817,
   "feeds": 29,
   "owners": 21,
-  "matched": 55,
+  "matched": 53,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 819 headlines from 29 feeds (21 owners), 55 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 817 headlines from 29 feeds (21 owners), 53 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

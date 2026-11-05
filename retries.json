@@ -969,11 +969,19 @@
   "kind": "incident"
  },
  "wk-Q313202": {
-  "count": 4,
-  "reason": "gate: no draft passed the fact checks: line 5 (The San Francisco Symphony served as his music director role): partly: The line states the orchestra served as his role, but the source states he was the music director of the orchestra. | second look: The LINE contains a grammatical error ('served as h",
-  "at": "2026-11-05T00:49:18+00:00",
+  "count": 5,
+  "reason": "gate: no draft passed the fact checks: line 4 (Winning the Salzburg Conducting Competition in 1955 followed): its supporting quote is not in the sources | second look: The source sentences do not state that the 1955 Salzburg Conducting Competition win 'followed' the 1954 music director appointment. ",
+  "at": "2026-11-05T01:33:16+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "wp-2026_Tampa_shooting": {
+  "count": 1,
+  "reason": "gate: neither Wikidata nor the infobox gives a date for this event",
+  "at": "2026-11-05T01:33:17+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }

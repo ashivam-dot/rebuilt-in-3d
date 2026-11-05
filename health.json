@@ -1,15 +1,17 @@
 {
- "at": "2026-11-05T00:11:22+00:00",
+ "at": "2026-11-05T00:53:47+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 132 units today",
-  "watch: 4 candidates (0 quakes, 19 trending), 1 hazard alerts",
-  "outlets: 819 headlines from 29 feeds (21 owners), 55 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 133 units today",
+  "watch: 7 candidates (0 quakes, 22 trending), 1 hazard alerts",
+  "outlets: 817 headlines from 29 feeds (21 owners), 53 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wp-2026_Kedartal_trail_Avalanche: outside the india window",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
-  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 4.0 h)",
-  "skip wk-Q313202: gate: no draft passed the fact checks: line 5 (The San Francisco Symphony served as his music director role): partly: The line states the orchestra served as his role, but the source states he was the music director of the orchestra. | second look: The LINE contains a grammatical error ('served as his music director role') that changes the meaning of the source sentence ('He was music director'). Additionally, the source sentences indi",
-  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
+  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 3.3 h)",
+  "skip wk-Q7151947: gate: no photo on Wikimedia Commons shows Paul Langmack's face (a tribute needs one)",
+  "skip wk-Q313202: gate: no draft passed the fact checks: line 4 (Winning the Salzburg Conducting Competition in 1955 followed): its supporting quote is not in the sources | second look: The source sentences do not state that the 1955 Salzburg Conducting Competition win 'followed' the 1954 music director appointment. While the source sentences provide the dates for both events (1955 for the competition and 1954 for the Norrköping Symphony Orchestra appoi",
+  "skip wp-2026_Tampa_shooting: gate: neither Wikidata nor the infobox gives a date for this event",
+  "skip wk-Q7688878: gate: no photo on Wikimedia Commons shows Taurian Fontenette's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
