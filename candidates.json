@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T21:58:46+00:00",
+ "at": "2026-11-05T22:40:42+00:00",
  "quakes": [],
  "trending": [
   {
@@ -251,7 +251,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-05T21:58:46.594074+00:00",
+   "news_at": "2026-11-05T22:40:42.624177+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -265,58 +265,6 @@
    "date": "2026-11-05",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": null,
-   "title": "2026 Tampa shooting",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-05T14:56:19+00:00",
-   "headlines": [
-    "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-    "Gunman shot by security guard after killing woman at Citibank complex near Tampa"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-    "google-news:Gunman shot by security guard after killing woman at Citibank complex near Tampa",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-     "url": "https://abcnews.com/video/137872171/",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-05T14:56:19+00:00"
-    },
-    {
-     "title": "Gunman shot by security guard after killing woman at Citibank complex near Tampa",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/tampa-citibank-shooting-florida-suspect-b3079423.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-04T22:35:16+00:00"
-    }
-   ],
-   "id": "wp-2026_Tampa_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q172753",
@@ -394,6 +342,44 @@
    "has_coords": true
   },
   {
+   "qid": null,
+   "title": "2026 Tampa shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-05T14:56:19+00:00",
+   "headlines": [
+    "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
+     "url": "https://abcnews.com/video/137872171/",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-05T14:56:19+00:00"
+    }
+   ],
+   "id": "wp-2026_Tampa_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-04",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q7151947",
    "title": "Paul Langmack",
    "fame": 25000,
@@ -428,42 +414,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-05"
-  },
-  {
-   "qid": "Q77206",
-   "title": "Janosch",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-04T10:16:00+00:00",
-   "headlines": [
-    "Germany's celebrated children's author Janosch has died"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Germany's celebrated children's author Janosch has died",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Germany's celebrated children's author Janosch has died",
-     "url": "https://www.dw.com/en/germany-s-celebrated-children-s-author-janosch-has-died/a-79851600?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-04T10:16:00+00:00"
-    }
-   ],
-   "id": "wk-Q77206",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-03"
   },
   {
    "qid": "Q312472",
@@ -624,13 +574,13 @@
   }
  ],
  "outlets": {
-  "headlines": 819,
+  "headlines": 821,
   "feeds": 30,
   "owners": 21,
   "matched": 49,
-  "corroborated": 3
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 49 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 821 headlines from 30 feeds (21 owners), 49 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
