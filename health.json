@@ -1,16 +1,21 @@
 {
- "at": "2026-11-05T01:49:44+00:00",
+ "at": "2026-11-05T02:40:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 134 units today",
-  "watch: 5 candidates (0 quakes, 22 trending), 1 hazard alerts",
-  "outlets: 812 headlines from 29 feeds (21 owners), 48 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "learn: 58 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 23, 'lift': 1.296, 'typical_views_24h': 376, 'n_retention': 23, 'typical_view_pct': 54.0}, 'kind:incident': {'n': 27, 'lift': 0.932, 'typical_views_24h': 166, 'n_retention': 26, 'typical_view_pct': 56.5}, 'category:death': {'n': 22, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 135 units today",
+  "watch: 6 candidates (0 quakes, 23 trending), 1 hazard alerts",
+  "outlets: 801 headlines from 29 feeds (21 owners), 43 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wp-2026_Kedartal_avalanche: outside the india window",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
-  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 2.4 h)",
-  "skip wk-Q313202: gate: no draft passed the fact checks: line 5 (Beyond the podium, he shared a lifelong passion for building): unsupported: There is no mention of a personal collection of books in the source. | second look: The source sentences do not mention a 'podium' or a 'lifelong passion for building a personal collection of books.' These details are not present in the provided text.; line 6 (In 2023, he led the Leipzig Gewandhaus Orchestra in a p",
-  "skip wp-2026_Tampa_shooting: gate: neither Wikidata nor the infobox gives a date for this event",
-  "skip wp-2026_Phoenix_floods: gate: neither Wikidata nor the infobox gives a date for this event",
-  "nothing eligible to publish"
- ]
+  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 1.5 h)",
+  "published wk-Q172753: https://www.youtube.com/shorts/kNp864TpRds"
+ ],
+ "published": {
+  "video_id": "kNp864TpRds",
+  "url": "https://www.youtube.com/shorts/kNp864TpRds",
+  "title": "Alan Jones, 1980 Formula One World Champion, Dies at 80",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }

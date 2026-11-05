@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T01:49:45+00:00",
+ "at": "2026-11-05T02:40:09+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,15 +25,16 @@
   {
    "qid": "Q4834146",
    "title": "B. P. Singh",
-   "fame": 400000,
+   "fame": 425000,
    "views": 0,
    "traffic": 0,
-   "news": 400000,
-   "news_at": "2026-11-04T17:36:44+00:00",
+   "news": 425000,
+   "news_at": "2026-11-05T02:00:14+00:00",
    "headlines": [
     "Madhya Pradesh High Court Rejects Giribala Singh's Bail In Twisha Sharma Death Case",
     "In Speaker Om Birla's presence, CM Satheesan questions credibility of anti-corruption movement against Manmohan Singh regime",
     "Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
+    "Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "Prem Singh Chandumajra quits SAD (Punar Surjit), likely to return to Badal-led party"
    ],
    "region": "india",
@@ -41,12 +42,24 @@
     "google-news:Madhya Pradesh High Court Rejects Giribala Singh's Bail In Twisha Sharma Death Case",
     "google-news:In Speaker Om Birla's presence, CM Satheesan questions credibility of anti-corruption movement against Manmohan Singh regime",
     "google-news:Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
+    "outlet:NDTV",
     "outlet:HT Media"
    ],
    "owners": [
+    "NDTV",
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
+     "url": "https://www.ndtv.com/india-news/bihar-ips-officer-bhanu-pratap-singh-removed-from-post-amid-marital-dispute-12284520#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-05T02:00:14+00:00"
+    },
     {
      "title": "Prem Singh Chandumajra quits SAD (Punar Surjit), likely to return to Badal-led party",
      "url": "https://www.hindustantimes.com/india-news/prem-singh-chandumajra-quits-sad-punar-surjit-likely-to-return-to-badal-led-party-101793813649426.html",
@@ -124,16 +137,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-04T22:04:58+00:00"
-    },
-    {
-     "title": "Florida congressman diagnoses GOP's blue tsunami losses: 'We failed to make them think we cared about them'",
-     "url": "https://www.foxnews.com/politics/florida-congressman-diagnoses-gops-blue-tsunami-losses-we-failed-make-them-think-we-cared-about-them",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-04T21:06:57+00:00"
     },
     {
      "title": "From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
@@ -297,6 +300,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q172753",
+   "title": "Alan Jones (racing driver)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-05T01:56:23+00:00",
+   "headlines": [
+    "Breaking: Australian racing icon and F1 world champion Alan Jones dies"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Breaking: Australian racing icon and F1 world champion Alan Jones dies",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Breaking: Australian racing icon and F1 world champion Alan Jones dies",
+     "url": "https://www.abc.net.au/news/2026-11-05/australian-motor-racing-icon-alan-jones-dies-aged-80/107350036",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-05T01:56:23+00:00"
+    }
+   ],
+   "id": "wk-Q172753",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
   },
   {
    "qid": "Q7151947",
@@ -704,26 +743,24 @@
    "date": "2026-10-29"
   },
   {
-   "qid": null,
-   "title": "2026 Phoenix floods",
-   "fame": 5000,
+   "qid": "Q6003298",
+   "title": "María Alicia Delgado",
+   "fame": 1000,
    "views": 0,
-   "traffic": 5000,
+   "traffic": 1000,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-US:trail blazers vs suns"
+    "google-trends-US:maria alicia delgado"
    ],
    "owners": [],
    "reports": [],
-   "id": "wp-2026_Phoenix_floods",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
+   "id": "wk-Q6003298",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   }
  ],
  "hazards": [
@@ -781,16 +818,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-04T22:04:58+00:00"
-    },
-    {
-     "title": "Florida congressman diagnoses GOP's blue tsunami losses: 'We failed to make them think we cared about them'",
-     "url": "https://www.foxnews.com/politics/florida-congressman-diagnoses-gops-blue-tsunami-losses-we-failed-make-them-think-we-cared-about-them",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-04T21:06:57+00:00"
     },
     {
      "title": "From Jaipur roots to Florida victory, Pia Dandiya keeps family ties close",
@@ -861,40 +888,76 @@
    "has_coords": false
   },
   {
-   "qid": "Q313202",
-   "title": "Herbert Blomstedt",
+   "qid": "Q172753",
+   "title": "Alan Jones (racing driver)",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-04T20:11:14+00:00",
+   "news_at": "2026-11-05T01:56:23+00:00",
    "headlines": [
-    "Herbert Blomstedt, conductor of great orchestras for seven decades, dies at 99"
+    "Breaking: Australian racing icon and F1 world champion Alan Jones dies"
    ],
    "region": "world",
    "via": [
-    "google-news:Herbert Blomstedt, conductor of great orchestras for seven decades, dies at 99",
-    "outlet:NPR"
+    "google-news:Breaking: Australian racing icon and F1 world champion Alan Jones dies",
+    "outlet:ABC (Australia)"
    ],
    "owners": [
-    "NPR"
+    "ABC (Australia)"
    ],
    "reports": [
     {
-     "title": "Herbert Blomstedt, conductor of great orchestras for seven decades, dies at 99",
-     "url": "https://www.npr.org/2026/11/04/nx-s1-5740271/herbert-blomstedt-conductor-dead",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
+     "title": "Breaking: Australian racing icon and F1 world champion Alan Jones dies",
+     "url": "https://www.abc.net.au/news/2026-11-05/australian-motor-racing-icon-alan-jones-dies-aged-80/107350036",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-04T20:11:14+00:00"
+     "at": "2026-11-05T01:56:23+00:00"
     }
    ],
-   "id": "wk-Q313202",
+   "id": "wk-Q172753",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-04"
+   "date": "2026-11-05"
+  },
+  {
+   "qid": "Q77206",
+   "title": "Janosch",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-04T10:16:00+00:00",
+   "headlines": [
+    "Germany's celebrated children's author Janosch has died"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Germany's celebrated children's author Janosch has died",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Germany's celebrated children's author Janosch has died",
+     "url": "https://www.dw.com/en/germany-s-celebrated-children-s-author-janosch-has-died/a-79851600?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-04T10:16:00+00:00"
+    }
+   ],
+   "id": "wk-Q77206",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
   },
   {
    "qid": null,
@@ -973,35 +1036,33 @@
    "has_coords": false
   },
   {
-   "qid": null,
-   "title": "2026 Phoenix floods",
-   "fame": 5000,
+   "qid": "Q6003298",
+   "title": "María Alicia Delgado",
+   "fame": 1000,
    "views": 0,
-   "traffic": 5000,
+   "traffic": 1000,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-US:trail blazers vs suns"
+    "google-trends-US:maria alicia delgado"
    ],
    "owners": [],
    "reports": [],
-   "id": "wp-2026_Phoenix_floods",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
+   "id": "wk-Q6003298",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   }
  ],
  "outlets": {
-  "headlines": 812,
+  "headlines": 801,
   "feeds": 29,
   "owners": 21,
-  "matched": 48,
-  "corroborated": 2
+  "matched": 43,
+  "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 812 headlines from 29 feeds (21 owners), 48 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 801 headlines from 29 feeds (21 owners), 43 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
