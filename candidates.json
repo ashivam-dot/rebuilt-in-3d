@@ -1,27 +1,27 @@
 {
- "at": "2026-11-05T21:38:30+00:00",
+ "at": "2026-11-05T21:58:46+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 450000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 450000,
+   "news": 325000,
    "news_at": "2026-11-05T19:03:00+00:00",
    "headlines": [
     "The Hindu profile on Democrat Pia Dandiya who won from Florida",
-    "Timeline of Learjet crash that killed Austin family traces final minutes from takeoff to Florida plunge",
     "‘Florida Is the Last Main Anchor Standing’ for Republicans",
     "Marine veteran working security hailed as hero after stopping active shooter at Florida Citibank campus",
-    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’"
+    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+    "Florida's new tax rule puts billionaire bunkers in spotlight"
    ],
    "region": "world",
    "via": [
     "google-news:The Hindu profile on Democrat Pia Dandiya who won from Florida",
-    "google-news:Timeline of Learjet crash that killed Austin family traces final minutes from takeoff to Florida plunge",
     "google-news:‘Florida Is the Last Main Anchor Standing’ for Republicans",
+    "google-news:Marine veteran working security hailed as hero after stopping active shooter at Florida Citibank campus",
     "outlet:Fox Corporation",
     "outlet:Independent Digital News",
     "outlet:Bennett, Coleman & Co."
@@ -123,18 +123,35 @@
   {
    "qid": "Q116992476",
    "title": "Jesús de Miguel",
-   "fame": 224585,
+   "fame": 249585,
    "views": 224585,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-05T21:42:30+00:00",
+   "headlines": [
+    "Spanish footballer Jesus de Miguel mourned by family and friends"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-04"
+    "wikipedia-top-2026-11-04",
+    "google-news:Spanish footballer Jesus de Miguel mourned by family and friends",
+    "outlet:Al Jazeera Media Network"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Spanish footballer Jesus de Miguel mourned by family and friends",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/spanish-footballer-jesus-de-miguel-mourned-by-family-and-friends?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-05T21:42:30+00:00"
+    }
+   ],
    "id": "wk-Q116992476",
    "kind": "death",
    "category": "death",
@@ -234,7 +251,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-05T21:38:30.318159+00:00",
+   "news_at": "2026-11-05T21:58:46.594074+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -607,13 +624,13 @@
   }
  ],
  "outlets": {
-  "headlines": 816,
+  "headlines": 819,
   "feeds": 30,
   "owners": 21,
-  "matched": 50,
+  "matched": 49,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 50 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 49 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
