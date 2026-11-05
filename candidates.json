@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T06:22:19+00:00",
+ "at": "2026-11-05T06:50:29+00:00",
  "quakes": [],
  "trending": [
   {
@@ -381,9 +381,9 @@
   {
    "qid": "Q172753",
    "title": "Alan Jones (racing driver)",
-   "fame": 25000,
+   "fame": 25100,
    "views": 0,
-   "traffic": 0,
+   "traffic": 100,
    "news": 25000,
    "news_at": "2026-11-05T01:56:23+00:00",
    "headlines": [
@@ -391,6 +391,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-GB:alan jones",
     "google-news:Australian racing icon and F1 world champion Alan Jones dies",
     "outlet:ABC (Australia)"
    ],
@@ -772,44 +773,6 @@
   },
   {
    "qid": null,
-   "title": "2026 Kedartal avalanche",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-04T13:09:05+00:00",
-   "headlines": [
-    "Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Uttarkashi avalanche: Rescue teams recover two more bodies; death toll rises to 4",
-     "url": "https://www.hindustantimes.com/india-news/uttarkashi-avalanche-rescue-teams-recover-two-more-bodies-death-toll-rises-to-4-101793797745650.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-04T13:09:05+00:00"
-    }
-   ],
-   "id": "wp-2026_Kedartal_avalanche",
-   "kind": "incident",
-   "category": "landslide",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": null,
    "title": "2026 Tampa shooting",
    "fame": 25000,
    "views": 0,
@@ -848,12 +811,12 @@
   }
  ],
  "outlets": {
-  "headlines": 780,
+  "headlines": 777,
   "feeds": 30,
   "owners": 21,
-  "matched": 44,
+  "matched": 37,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 777 headlines from 30 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
