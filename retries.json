@@ -985,9 +985,9 @@
   "kind": "incident"
  },
  "wp-2026_Phoenix_floods": {
-  "count": 3,
+  "count": 4,
   "reason": "gate: neither Wikidata nor the infobox gives a date for this event",
-  "at": "2026-11-05T16:47:42+00:00",
+  "at": "2026-11-05T17:14:27+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
@@ -1007,5 +1007,13 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q6410167": {
+  "count": 1,
+  "reason": "gate: only 2 usable photos of Kimmarie Johnson on Wikimedia Commons (want 4)",
+  "at": "2026-11-05T17:14:27+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
