@@ -1,12 +1,14 @@
 {
- "at": "2026-11-05T06:50:28+00:00",
+ "at": "2026-11-05T07:20:52+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 194 units today",
-  "watch: 2 candidates (0 quakes, 19 trending), 1 hazard alerts",
-  "outlets: 777 headlines from 30 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wp-November_2026_Florida_floods: outside the world window",
-  "hold wp-2026_Tampa_shooting: outside the world window",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 195 units today",
+  "watch: 2 candidates (0 quakes, 20 trending), 1 hazard alerts",
+  "outlets: 781 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
+  "skip wp-November_2026_Florida_floods: gate: neither Wikidata nor the infobox gives a date for this event",
+  "skip wp-2026_Tampa_shooting: gate: neither Wikidata nor the infobox gives a date for this event",
+  "nothing eligible to publish"
  ]
 }
