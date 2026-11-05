@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-05T08:51:07+00:00. Scored Shorts (views at 24 h): 58. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
+Updated 2026-11-05T11:51:23+00:00. Scored Shorts (views at 24 h): 58. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35.
 
 Baseline: a typical Short has 197 views at 24 h.
 Retention: a typical Short is watched 56.1% through; a group's retention is blended into its lift at 0.5.
@@ -13,12 +13,12 @@ Retention: a typical Short is watched 56.1% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q172753 | 2026-11-05T03:09 | death | death | 316 |  |
-| wk-Q1633044 | 2026-11-04T21:46 | death | death | 158 |  |
-| wk-Q1718539 | 2026-11-04T15:14 | death | death | 394 |  |
+| wk-Q172753 | 2026-11-05T03:09 | death | death | 439 |  |
+| wk-Q1633044 | 2026-11-04T21:46 | death | death | 161 |  |
+| wk-Q1718539 | 2026-11-04T15:14 | death | death | 429 |  |
 | nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 383 | 354 |
 | wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 55 | 24 |
-| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2605 | 2177 |
+| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2606 | 2177 |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1103 | 1072 |
 | wk-Q453730 | 2026-10-29T14:30 | death | death | 664 | 535 |
 | wk-Q241115 | 2026-10-29T13:29 | death | death | 1279 | 1191 |
