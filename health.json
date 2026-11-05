@@ -1,10 +1,13 @@
 {
- "at": "2026-11-05T15:52:59+00:00",
+ "at": "2026-11-05T16:44:38+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 16 units today",
-  "watch: 0 candidates (0 quakes, 18 trending), 1 hazard alerts",
-  "outlets: 798 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 17 units today",
+  "watch: 1 candidates (0 quakes, 18 trending), 1 hazard alerts",
+  "outlets: 773 headlines from 29 feeds (20 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
+  "trend radar errors: ['outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss']",
+  "skip wp-2026_Phoenix_floods: gate: neither Wikidata nor the infobox gives a date for this event",
+  "nothing eligible to publish"
  ]
 }
