@@ -16,6 +16,7 @@ An attack, shooting or stabbing that is not breaking ranks at 0.85 of its fame (
 """
 from __future__ import annotations
 
+import hashlib
 import re
 from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
@@ -132,6 +133,26 @@ def cooling(cand: dict, at: datetime, rows: list[dict]) -> bool:
                for r in rows if at - datetime.fromisoformat(r["published_at"]) < timedelta(days=days))
 
 
+# An ongoing story's weekly retell goes out only when its last Short drew at least RETELL_SHARE of the channel's
+# baseline views at 24 h (2026-11-05): the French student protests drew 65 in week 44 and 15 in week 45, while
+# protests overall drew a median of 136 and tributes 535. A story whose last Short is under 24 h old is not judged.
+RETELL_SHARE = 0.5
+
+
+def retell_flopped(cand: dict, rows: list[dict], perf: dict) -> bool:
+    """True when this ongoing story's last Short (any week) drew under RETELL_SHARE of the baseline."""
+    if cand.get("category") not in COOLDOWN_DAYS or not cand.get("qid"):
+        return False
+    stem = f"wk-{cand['qid']}"
+    told = sorted((r for r in rows if (r["id"] == stem or r["id"].startswith(stem + "-")) and r["id"] != cand["id"]),
+                  key=lambda r: r["published_at"])
+    base = ((perf.get("learned") or {}).get("baseline_views_24h"))
+    if not told or not base:
+        return False
+    views = ((perf.get("videos") or {}).get(told[-1].get("video_id")) or {}).get("views_24h")
+    return views is not None and views < RETELL_SHARE * base
+
+
 TOLD_DAYS = 7
 
 
@@ -211,6 +232,31 @@ def lineup(cands: list[dict], at: datetime | None = None) -> tuple[list[dict], l
     return ready, notes
 
 
+# Evening test (2026-11-05): tributes published 12:00-20:00 UTC drew a median of 415 views at 24 h (10 Shorts) and
+# those published 20:00-04:00 UTC 1,127 (6), about as old (mostly a day) either way; incidents 84 vs 488. Fame is
+# not recorded, so timing and fame are confounded: a test, not a rule. A tribute ready in TEST_HOURS_UTC goes to
+# one arm by its id: "held" is scheduled on YouTube for EVENING_UTC (at most 8.5 h later, inside its 36 h half-life),
+# "control" goes out now. Read out at 10 per arm (views_24h in performance.json, arm in published.json "slot_test");
+# keep it if held beats control by 1.5x at the median, else set EVENING_TEST = False. Breaking news never waits.
+EVENING_TEST = True
+TEST_HOURS_UTC = (12, 20)
+EVENING_UTC = (20, 30)
+
+
+def evening_slot(cand: dict, at: datetime, rows: list[dict]) -> tuple[datetime | None, str | None]:
+    """(when to schedule, arm) for a tribute in the evening test; (None, None) when it is not in it."""
+    if not EVENING_TEST or cand.get("kind") != "death" or cand.get("breaking") \
+            or not TEST_HOURS_UTC[0] <= at.hour < TEST_HOURS_UTC[1]:
+        return None, None
+    if int(hashlib.sha1(cand["id"].encode()).hexdigest(), 16) % 2:
+        return None, "control"
+    slot = at.replace(hour=EVENING_UTC[0], minute=EVENING_UTC[1], second=0, microsecond=0)
+    times = [datetime.fromisoformat(r["published_at"]) for r in rows]
+    while any(abs(t - slot) < MIN_GAP for t in times):
+        slot += MIN_GAP
+    return slot, "held"
+
+
 def quake_candidates(trending_quakes: list[dict] | None = None) -> list[dict]:
     trending_quakes = trending_quakes or []
     out = []
@@ -256,8 +302,12 @@ def watch() -> dict:
     at = datetime.now(timezone.utc)
     rows = ledger.published()
     moved = renamed(rows, at)
+    perf = ledger.load("performance", {})
+    flopped = [c["id"] for c in found["trending"] if retell_flopped(c, rows, perf)]
+    if flopped:
+        found["retell_note"] = f"no retell (last Short under {RETELL_SHARE:.0%} of the baseline): {', '.join(flopped)}"
     stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
-               and ledger.due(c["id"])
+               and ledger.due(c["id"]) and c["id"] not in flopped
                and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
                and not told_before(c, rows, at, moved)]
     if quiet_day(at, rows):

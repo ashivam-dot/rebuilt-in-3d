@@ -24,6 +24,11 @@ SCORE_AT_H = 24.0
 MIN_SAMPLES = 4
 PRIOR = 4.0
 LIFT_RANGE = (0.75, 1.35)
+# A group with many scored Shorts may move the ranking further (2026-11-05): tributes (kind 1.30 x category 1.26 from
+# 22-23 Shorts, typically 353-376 views against a 197 baseline) were clamped to 1.35 together. Under 10 Shorts the old
+# range holds (one lucky story never steers the desk).
+WIDER_RANGES = ((20, (0.5, 2.0)), (10, (0.6, 1.7)))
+FACTOR_RANGE = (0.4, 2.5)
 FEATURES = ("kind", "category")
 RETENTION_FIELD = "avg_view_pct"
 RETENTION_WEIGHT = 0.5
@@ -84,9 +89,15 @@ def learn(videos: list[dict]) -> dict:
             if (held := retention.get(f"{feature}:{value}")) is not None:
                 diff = (1 - RETENTION_WEIGHT) * diff + RETENTION_WEIGHT * held["diff"]
                 entry |= {"n_retention": held["n"], "typical_view_pct": held["typical"]}
-            lift = min(max(math.exp(diff), LIFT_RANGE[0]), LIFT_RANGE[1])
+            low, high = lift_range(n)
+            lift = min(max(math.exp(diff), low), high)
             out["lifts"][f"{feature}:{value}"] = {"n": n, "lift": round(lift, 3)} | entry
     return out
+
+
+def lift_range(n: int) -> tuple[float, float]:
+    """The bounds a group of n scored Shorts may move its lift within (WIDER_RANGES, else LIFT_RANGE)."""
+    return next((r for least, r in WIDER_RANGES if n >= least), LIFT_RANGE)
 
 
 def _retention(scored: list[dict]) -> tuple[float | None, dict]:
@@ -119,7 +130,7 @@ def factor(cand: dict) -> float:
     f = 1.0
     for feature in FEATURES:
         f *= _cache["lifts"].get(f"{feature}:{cand.get(feature)}", {}).get("lift", 1.0)
-    return min(max(f, LIFT_RANGE[0]), LIFT_RANGE[1])
+    return min(max(f, FACTOR_RANGE[0]), FACTOR_RANGE[1])
 
 
 def report(perf: dict) -> str:
@@ -127,7 +138,8 @@ def report(perf: dict) -> str:
     lines = ["# What this channel's own numbers say", "",
              f"Updated {perf.get('at')}. Scored Shorts (views at {SCORE_AT_H:.0f} h): {learned.get('scored', 0)}. "
              f"A lift needs {MIN_SAMPLES} scored Shorts in a group; it is shrunk toward 1 and kept within "
-             f"{LIFT_RANGE[0]}-{LIFT_RANGE[1]}.", ""]
+             f"{LIFT_RANGE[0]}-{LIFT_RANGE[1]} (" + ", ".join(f"{lo}-{hi} from {least} Shorts"
+                                                         for least, (lo, hi) in WIDER_RANGES) + ").", ""]
     if learned.get("baseline_views_24h") is not None:
         lines.append(f"Baseline: a typical Short has {learned['baseline_views_24h']} views at 24 h.")
     if learned.get("baseline_view_pct") is not None:

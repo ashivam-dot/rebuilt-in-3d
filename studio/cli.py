@@ -7,7 +7,7 @@ import logging
 import os
 import sys
 import traceback
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from . import gate, ledger, learn, plan
@@ -100,8 +100,8 @@ def make(target: str | dict, short=None) -> tuple[object, dict]:
     return short, stats
 
 
-def publish(story_id: str, publish_at: str | None = None) -> dict:
-    """Publish now, or schedule for publish_at (ISO UTC); the ledger records the time it goes public."""
+def publish(story_id: str, publish_at: str | None = None, extra: dict | None = None) -> dict:
+    """Publish now, or schedule for publish_at (ISO UTC); the ledger records the time it goes public (and `extra`)."""
     from . import youtube
     from .spec import Short
 
@@ -122,7 +122,7 @@ def publish(story_id: str, publish_at: str | None = None) -> dict:
                            "article": short.scene.get("article"),
                            "report_urls": [r["url"] for r in short.scene.get("reporting") or []],
                            "outlets": short.scene.get("outlets") or [], "headlines": short.scene.get("headlines") or [],
-                           **result})
+                           **(extra or {}), **result})
     return result
 
 
@@ -161,6 +161,8 @@ def run(dry: bool = False) -> dict:
             health["steps"].append(found["outlet_note"])
         if found.get("quiet_note"):
             health["steps"].append(found["quiet_note"][:300])
+        if found.get("retell_note"):
+            health["steps"].append(found["retell_note"][:300])
         if found.get("trend_errors"):
             health["steps"].append(f"trend radar errors: {found['trend_errors']}")
         ready, held = plan.lineup(found["candidates"])
@@ -226,8 +228,10 @@ def run(dry: bool = False) -> dict:
                 return health
             from . import youtube
 
+            slot, arm = plan.evening_slot(cand, datetime.now(timezone.utc), ledger.published())
             try:
-                result = publish(short.id)
+                result = publish(short.id, publish_at=slot.isoformat() if slot else None,
+                                 extra={"slot_test": arm} if arm else None)
             except youtube.Unrecorded as exc:
                 # A story already on the channel under a lost ledger row: never a second copy of it.
                 ledger.skip(cand["id"], f"already uploaded: {exc}"[:300])

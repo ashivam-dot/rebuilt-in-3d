@@ -251,7 +251,7 @@ def test_a_run_holds_an_unrecorded_upload_and_reports_it(monkeypatch):
     monkeypatch.setattr(cli, "make", lambda c, s: (s, {"duration": 40}))
     monkeypatch.setattr(cli.gate, "channel_mix", lambda *a: None)
 
-    def publish(story_id):
+    def publish(story_id, **kw):
         raise youtube.Unrecorded("LOST (uploaded 2026-10-22T02:00:00Z, private) lists this story's source")
 
     monkeypatch.setattr(cli, "publish", publish)

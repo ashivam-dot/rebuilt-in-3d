@@ -53,6 +53,17 @@ def test_lifts_are_shrunk_and_bounded():
     assert learn.learn(mild)["lifts"]["category:earthquake"]["lift"] == pytest.approx(math.exp(gap * 0.5), abs=1e-3)
 
 
+def test_many_shorts_widen_the_lift_range():
+    for n, (low, high) in ((4, learn.LIFT_RANGE), (12, (0.6, 1.7)), (24, (0.5, 2.0))):
+        vids = [_video(i, 10_000, "death") for i in range(n)] + [_video(100 + i, 10, "protest") for i in range(n)]
+        lifts = learn.learn(vids)["lifts"]
+        assert learn.lift_range(n) == (low, high)
+        assert lifts["category:death"]["lift"] == high and lifts["category:protest"]["lift"] == low
+    ledger.save("performance", {"at": "y", "learned": {"lifts": {
+        "kind:death": {"lift": 1.3}, "category:death": {"lift": 1.26}}}})
+    assert learn.factor({"kind": "death", "category": "death"}) == pytest.approx(1.3 * 1.26)
+
+
 def test_factor_defaults_to_one_and_steers_priority():
     cand = {"category": "earthquake", "fame": 1000, "kind": "earthquake",
             "date": AT.isoformat()}
