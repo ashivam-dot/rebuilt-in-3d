@@ -1,16 +1,15 @@
 {
- "at": "2026-11-04T23:35:02+00:00",
+ "at": "2026-11-05T00:11:22+00:00",
  "ok": true,
  "steps": [
-  "learn: 58 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 23, 'lift': 1.298, 'typical_views_24h': 376, 'n_retention': 23, 'typical_view_pct': 54.0}, 'kind:incident': {'n': 27, 'lift': 0.93, 'typical_views_24h': 166, 'n_retention': 25, 'typical_view_pct': 56.0}, 'category:death': {'n': 22, 'lift': 1",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 131 units today",
-  "watch: 4 candidates (0 quakes, 21 trending), 1 hazard alerts",
-  "outlets: 821 headlines from 30 feeds (21 owners), 55 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 132 units today",
+  "watch: 4 candidates (0 quakes, 19 trending), 1 hazard alerts",
+  "outlets: 819 headlines from 29 feeds (21 owners), 55 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
   "hold wp-2026_Kedartal_trail_Avalanche: outside the india window",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Tampa_shooting",
-  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 4.6 h)",
-  "skip wk-Q313202: gate: no draft passed the fact checks: these names or numbers are not in the sources: Buchmesse",
-  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 1.4 h)",
+  "wait wp-November_2026_Florida_floods: gate: the article is under 6 hours old; facts may still move (ready in 4.0 h)",
+  "skip wk-Q313202: gate: no draft passed the fact checks: line 5 (The San Francisco Symphony served as his music director role): partly: The line states the orchestra served as his role, but the source states he was the music director of the orchestra. | second look: The LINE contains a grammatical error ('served as his music director role') that changes the meaning of the source sentence ('He was music director'). Additionally, the source sentences indi",
+  "wait wp-2026_Tampa_shooting: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
   "nothing eligible to publish"
  ]
 }
