@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T17:07:02+00:00",
+ "at": "2026-11-05T17:35:57+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,14 +11,14 @@
    "news": 400000,
    "news_at": "2026-11-05T08:20:18+00:00",
    "headlines": [
-    "MP High Court Denies Bail To Giribala Singh In Twisha Sharma Dowry Death Case",
+    "WhatsApp chats show Twisha Sharma was under mental distress: MP High Court denies bail to Giribala Singh",
     "Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor"
    ],
    "region": "india",
    "via": [
-    "google-news:MP High Court Denies Bail To Giribala Singh In Twisha Sharma Dowry Death Case",
+    "google-news:WhatsApp chats show Twisha Sharma was under mental distress: MP High Court denies bail to Giribala Singh",
     "google-news:Delhi government lawyer grants consent for contempt of court case against CJP's Ratna Singh",
     "google-news:Bihar IPS Officer Bhanu Pratap Singh Removed From Post Amid Marital Dispute",
     "outlet:HT Media"
@@ -80,7 +80,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-05T17:07:02.326666+00:00",
+   "news_at": "2026-11-05T17:35:57.695441+00:00",
    "headlines": [
     "After Riots and Protests, French Workers Are Going on Strike"
    ],
@@ -97,30 +97,6 @@
    "date": "2026-11-05",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": null,
-   "title": "November 2026 Florida floods",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-04T22:37:20+00:00",
-   "headlines": [
-    "What's next in the investigation of the Learjet crash in Florida that killed 9?"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:What's next in the investigation of the Learjet crash in Florida that killed 9?"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-November_2026_Florida_floods",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q3181541",
@@ -543,26 +519,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-02"
-  },
-  {
-   "qid": "Q6410167",
-   "title": "Kimmarie Johnson",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:kimmarie johnson"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6410167",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
   }
  ],
  "hazards": [
@@ -616,39 +572,19 @@
    "date": "2026-11-04",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q6410167",
-   "title": "Kimmarie Johnson",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:kimmarie johnson"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6410167",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
   }
  ],
  "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.4 h ago, 152 people)"
+  "wikidata recent deaths: HTTP 504 (used the list from 0.9 h ago, 152 people)"
  ],
  "outlets": {
-  "headlines": 794,
+  "headlines": 800,
   "feeds": 30,
   "owners": 21,
   "matched": 32,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 794 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
