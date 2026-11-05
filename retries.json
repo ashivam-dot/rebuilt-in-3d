@@ -969,17 +969,25 @@
   "kind": "incident"
  },
  "wk-Q313202": {
-  "count": 5,
-  "reason": "gate: no draft passed the fact checks: line 4 (Winning the Salzburg Conducting Competition in 1955 followed): its supporting quote is not in the sources | second look: The source sentences do not state that the 1955 Salzburg Conducting Competition win 'followed' the 1954 music director appointment. ",
-  "at": "2026-11-05T01:33:16+00:00",
+  "count": 6,
+  "reason": "gate: no draft passed the fact checks: line 5 (Beyond the podium, he shared a lifelong passion for building): unsupported: There is no mention of a personal collection of books in the source. | second look: The source sentences do not mention a 'podium' or a 'lifelong passion for building a personal",
+  "at": "2026-11-05T02:16:46+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
  },
  "wp-2026_Tampa_shooting": {
+  "count": 2,
+  "reason": "gate: neither Wikidata nor the infobox gives a date for this event",
+  "at": "2026-11-05T02:16:47+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "wp-2026_Phoenix_floods": {
   "count": 1,
   "reason": "gate: neither Wikidata nor the infobox gives a date for this event",
-  "at": "2026-11-05T01:33:17+00:00",
+  "at": "2026-11-05T02:16:47+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
