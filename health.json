@@ -1,11 +1,19 @@
 {
- "at": "2026-11-06T13:25:45+00:00",
- "ok": false,
+ "at": "2026-11-06T14:30:01+00:00",
+ "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 11 units today",
-  "watch: 2 candidates (0 quakes, 17 trending), 1 hazard alerts",
-  "outlets: 802 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+  "learn: 62 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 26, 'lift': 1.287, 'typical_views_24h': 379, 'n_retention': 23, 'typical_view_pct': 54.0}, 'kind:incident': {'n': 28, 'lift': 0.919, 'typical_views_24h': 161, 'n_retention': 27, 'typical_view_pct': 58.3}, 'category:death': {'n': 25, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 1 hazard alerts",
+  "outlets: 807 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "published wk-Q285102: https://www.youtube.com/shorts/oo3unhyU26c"
  ],
- "error": "RuntimeError: video oo3unhyU26c was not scheduled",
- "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 233, in run\n    result = publish(short.id, publish_at=slot.isoformat() if slot else None,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 113, in publish\n    result = youtube.publish(short, work / \"short.mp4\", publish_at=publish_at)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/youtube.py\", line 343, in publish\n    raise RuntimeError(f\"video {video_id} was not scheduled\")\nRuntimeError: video oo3unhyU26c was not scheduled\n"
+ "published": {
+  "video_id": "oo3unhyU26c",
+  "url": "https://www.youtube.com/shorts/oo3unhyU26c",
+  "title": "Jay Rockefeller, Healthcare Reformer, Dies at 89",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-06T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
