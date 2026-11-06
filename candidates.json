@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T23:57:11+00:00",
+ "at": "2026-11-06T00:08:46+00:00",
  "quakes": [],
  "trending": [
   {
@@ -90,27 +90,72 @@
    "date": "2026-11-03"
   },
   {
-   "qid": "Q1633044",
-   "title": "Hubert Aiwanger",
-   "fame": 136205,
-   "views": 11205,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-04T21:44:34+00:00",
+   "qid": null,
+   "title": "November 2026 Florida floods",
+   "fame": 202000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 200000,
+   "news_at": "2026-11-05T23:48:04+00:00",
    "headlines": [
-    "Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
+    "‘Florida Is the Last Main Anchor Standing’ for Republicans",
+    "Florida puts man to death as three US executions scheduled for same day",
+    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+    "Florida's new tax rule puts billionaire bunkers in spotlight"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-04",
-    "google-news:Bavarian politician Hubert Aiwanger found dead in Berlin hotel"
+    "google-trends-US:utsa vs fl atlantic",
+    "google-news:‘Florida Is the Last Main Anchor Standing’ for Republicans",
+    "google-news:Florida puts man to death as three US executions scheduled for same day",
+    "google-news:Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+    "outlet:Guardian Media Group",
+    "outlet:Independent Digital News",
+    "outlet:Bennett, Coleman & Co."
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1633044",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
+   "owners": [
+    "Guardian Media Group",
+    "Independent Digital News",
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Florida puts man to death as three US executions scheduled for same day",
+     "url": "https://www.theguardian.com/us-news/2026/nov/05/executions-florida-alabama-indiana",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-05T23:48:04+00:00"
+    },
+    {
+     "title": "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+     "url": "https://www.independent.co.uk/news/world/americas/florida-flooding-traps-residents-alligators-snakes-b3079979.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-05T18:24:44+00:00"
+    },
+    {
+     "title": "Florida's new tax rule puts billionaire bunkers in spotlight",
+     "url": "https://timesofindia.indiatimes.com/technology/tech-news/floridas-new-property-tax-rule-why-google-co-founder-larry-page-oracle-founder-larry-ellison-citadel-ceo-ken-griffin-and-other-billionaires-move-to-billionaire-bunkers-may-be-right/articleshow/135581737.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-05T17:11:01+00:00"
+    }
+   ],
+   "id": "wp-November_2026_Florida_floods",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-04",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q6410167",
@@ -200,66 +245,13 @@
    "has_coords": true
   },
   {
-   "qid": null,
-   "title": "November 2026 Florida floods",
-   "fame": 51000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 50000,
-   "news_at": "2026-11-05T18:24:44+00:00",
-   "headlines": [
-    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
-    "Florida's new tax rule puts billionaire bunkers in spotlight"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-US:utsa vs fl atlantic",
-    "google-news:Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
-    "google-news:Florida's new tax rule puts billionaire bunkers in spotlight",
-    "outlet:Independent Digital News",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Independent Digital News",
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
-     "url": "https://www.independent.co.uk/news/world/americas/florida-flooding-traps-residents-alligators-snakes-b3079979.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-05T18:24:44+00:00"
-    },
-    {
-     "title": "Florida's new tax rule puts billionaire bunkers in spotlight",
-     "url": "https://timesofindia.indiatimes.com/technology/tech-news/floridas-new-property-tax-rule-why-google-co-founder-larry-page-oracle-founder-larry-ellison-citadel-ceo-ken-griffin-and-other-billionaires-move-to-billionaire-bunkers-may-be-right/articleshow/135581737.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-05T17:11:01+00:00"
-    }
-   ],
-   "id": "wp-November_2026_Florida_floods",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q141615137",
    "title": "2026 French student protests",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-05T23:57:11.593601+00:00",
+   "news_at": "2026-11-06T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -270,7 +262,7 @@
    "id": "wk-Q141615137-2026w45",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "coords": null,
    "has_coords": true
   },
@@ -352,9 +344,9 @@
   {
    "qid": null,
    "title": "2026 Tampa shooting",
-   "fame": 27000,
+   "fame": 25000,
    "views": 0,
-   "traffic": 2000,
+   "traffic": 0,
    "news": 25000,
    "news_at": "2026-11-05T14:56:19+00:00",
    "headlines": [
@@ -362,7 +354,6 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-US:blackhawks vs lightning",
     "google-news:WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
     "outlet:Disney (ABC News)"
    ],
@@ -505,6 +496,26 @@
    "date": "2026-11-02"
   },
   {
+   "qid": "Q1633044",
+   "title": "Hubert Aiwanger",
+   "fame": 11205,
+   "views": 11205,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-04"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1633044",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
    "qid": "Q2737890",
    "title": "Clem Cattini",
    "fame": 10116,
@@ -563,13 +574,13 @@
   }
  ],
  "outlets": {
-  "headlines": 822,
+  "headlines": 815,
   "feeds": 30,
   "owners": 21,
   "matched": 45,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 45 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 45 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
