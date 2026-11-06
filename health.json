@@ -1,13 +1,12 @@
 {
- "at": "2026-11-06T21:12:00+00:00",
+ "at": "2026-11-06T21:39:44+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 75 units today",
-  "watch: 3 candidates (0 quakes, 17 trending), 1 hazard alerts",
-  "outlets: 799 headlines from 30 feeds (21 owners), 52 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 76 units today",
+  "watch: 2 candidates (0 quakes, 18 trending), 1 hazard alerts",
+  "outlets: 797 headlines from 30 feeds (21 owners), 47 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest",
   "ad-suitability x0.85 (attack, not breaking): wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy",
-  "skip nw-20261106-amsterdam-protest: gate: faceless: no free photo shows Amsterdam or the event itself (only 2 photos of places or things near it)",
-  "skip wk-Q4250213: gate: no draft passed the fact checks: beat 1 must name Sebastián Lelio; these names or numbers are not in the sources: Award-Winning",
+  "skip wk-Q4250213: gate: no draft passed the fact checks: these names or numbers are not in the sources: Fénix",
   "skip wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy: gate: neither Wikidata nor the infobox gives a date for this event",
   "nothing eligible to publish"
  ]
