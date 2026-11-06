@@ -1,27 +1,28 @@
 {
- "at": "2026-11-06T08:24:15+00:00",
+ "at": "2026-11-06T08:55:12+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 125000,
+   "fame": 150000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-06T01:44:36+00:00",
+   "news": 150000,
+   "news_at": "2026-11-06T08:39:48+00:00",
    "headlines": [
+    "Florida couple's foreclosure case revived despite bank's mortgage errors",
     "Indiana, Florida and Alabama carry out rare US triple execution day",
     "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
     "Alabama, Florida and Indiana carry out executions on same day",
-    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
-    "Deadly Florida workplace shooting"
+    "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’"
    ],
    "region": "world",
    "via": [
+    "google-news:Florida couple's foreclosure case revived despite bank's mortgage errors",
     "google-news:Indiana, Florida and Alabama carry out rare US triple execution day",
     "google-news:Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
-    "google-news:Alabama, Florida and Indiana carry out executions on same day",
+    "outlet:Bennett, Coleman & Co.",
     "outlet:Fox Corporation",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
@@ -29,6 +30,7 @@
     "outlet:NBCUniversal"
    ],
    "owners": [
+    "Bennett, Coleman & Co.",
     "Fox Corporation",
     "Paramount (CBS)",
     "Guardian Media Group",
@@ -36,6 +38,16 @@
     "NBCUniversal"
    ],
    "reports": [
+    {
+     "title": "Florida couple's foreclosure case revived despite bank's mortgage errors",
+     "url": "https://timesofindia.indiatimes.com/world/us/a-florida-couple-disputed-four-reversed-mortgage-payments-and-stopped-paying-in-2017-an-appeals-court-revived-foreclosure-proceedings-despite-the-banks-accounting-errors/articleshow/135568529.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-06T08:39:48+00:00"
+    },
     {
      "title": "Indiana, Florida and Alabama carry out rare US triple execution day",
      "url": "https://www.foxnews.com/us/indiana-florida-alabama-carry-out-rare-us-triple-execution-day",
@@ -162,7 +174,7 @@
    "views": 0,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-06T08:24:48.693248+00:00",
+   "news_at": "2026-11-06T08:56:03.640933+00:00",
    "headlines": [
     "Hon’ble Union Minister Shri Rajiv Ranjan Singh Releases Publication Titled “Minimum Standard Protocol for Semen Production and Standard Operating Procedures for Artificial Insemination using Liquid Semen in Pigs” to Accelerate Genetic Improvement and Enhance Livelihoods, Especially in North-East India",
     "Jyot Singh scripts history, becomes first Sikh elected to Georgia Assembly",
@@ -191,7 +203,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-06T08:24:48.693248+00:00"
+     "at": "2026-11-06T08:56:03.640933+00:00"
     },
     {
      "title": "Jyot Singh scripts history, becomes first Sikh elected to Georgia Assembly",
@@ -518,35 +530,14 @@
    "lon": "80.2"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q312472",
-   "title": "Tinto Brass",
-   "fame": 22133,
-   "views": 22133,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-05"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q312472",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 801,
+  "headlines": 798,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 28,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
