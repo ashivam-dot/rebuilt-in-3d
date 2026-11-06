@@ -1,7 +1,47 @@
 {
- "at": "2026-11-06T09:25:05+00:00",
+ "at": "2026-11-06T09:51:17+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142065275",
+   "title": "2026 Tampa Citibank shooting",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-05T18:57:19+00:00",
+   "headlines": [
+    "‘Hero’ security guard shoots gunman, stopping Tampa Citibank plaza attack: HCSO",
+    "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:‘Hero’ security guard shoots gunman, stopping Tampa Citibank plaza attack: HCSO",
+    "google-news:WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
+     "url": "https://abcnews.com/video/137872171/",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-05T14:56:19+00:00"
+    }
+   ],
+   "id": "wk-Q142065275",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-04",
+   "coords": null,
+   "has_coords": true
+  },
   {
    "qid": null,
    "title": "November 2026 Florida floods",
@@ -9,9 +49,9 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-06T08:39:48+00:00",
+   "news_at": "2026-11-06T09:30:54+00:00",
    "headlines": [
-    "Florida couple's foreclosure case revived despite bank's mortgage errors",
+    "Scientists tracked 356 Florida pythons and uncovered a surprising winter habit",
     "Indiana, Florida and Alabama carry out rare US triple execution day",
     "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
     "Alabama, Florida and Indiana carry out executions on same day",
@@ -19,7 +59,7 @@
    ],
    "region": "world",
    "via": [
-    "google-news:Florida couple's foreclosure case revived despite bank's mortgage errors",
+    "google-news:Scientists tracked 356 Florida pythons and uncovered a surprising winter habit",
     "google-news:Indiana, Florida and Alabama carry out rare US triple execution day",
     "google-news:Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
     "outlet:Bennett, Coleman & Co.",
@@ -39,14 +79,14 @@
    ],
    "reports": [
     {
-     "title": "Florida couple's foreclosure case revived despite bank's mortgage errors",
-     "url": "https://timesofindia.indiatimes.com/world/us/a-florida-couple-disputed-four-reversed-mortgage-payments-and-stopped-paying-in-2017-an-appeals-court-revived-foreclosure-proceedings-despite-the-banks-accounting-errors/articleshow/135568529.cms",
+     "title": "Scientists tracked 356 Florida pythons and uncovered a surprising winter habit",
+     "url": "https://timesofindia.indiatimes.com/science/wildlife/scientists-tracked-356-burmese-pythons-in-florida-for-8-years-and-uncovered-a-surprising-winter-habit-with-some-invasive-snakes-climbing-trees-as-high-as-7-metres-above-the-ground/articleshow/135599310.cms",
      "outlet": "Times of India",
      "outlet_hi": "टाइम्स ऑफ़ इंडिया",
      "owner": "Bennett, Coleman & Co.",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-06T08:39:48+00:00"
+     "at": "2026-11-06T09:30:54+00:00"
     },
     {
      "title": "Indiana, Florida and Alabama carry out rare US triple execution day",
@@ -350,44 +390,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q142065275",
-   "title": "2026 Tampa Citibank shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-05T14:56:19+00:00",
-   "headlines": [
-    "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-     "url": "https://abcnews.com/video/137872171/",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-05T14:56:19+00:00"
-    }
-   ],
-   "id": "wk-Q142065275",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q3181541",
    "title": "John Frieda",
    "fame": 24734,
@@ -527,16 +529,13 @@
   }
  ],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 143 people)"
- ],
  "outlets": {
-  "headlines": 797,
+  "headlines": 802,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 31,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 31 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
