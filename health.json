@@ -1,14 +1,14 @@
 {
- "at": "2026-11-06T20:42:13+00:00",
+ "at": "2026-11-06T21:12:00+00:00",
  "ok": true,
  "steps": [
-  "learn: 62 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 26, 'lift': 1.288, 'typical_views_24h': 379, 'n_retention': 23, 'typical_view_pct': 54.0}, 'kind:incident': {'n': 28, 'lift': 0.918, 'typical_views_24h': 161, 'n_retention': 27, 'typical_view_pct': 58.2}, 'category:death': {'n': 25, 'lift': ",
-  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 74 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 75 units today",
   "watch: 3 candidates (0 quakes, 17 trending), 1 hazard alerts",
-  "outlets: 802 headlines from 30 feeds (21 owners), 47 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest",
-  "hold nw-20261106-amsterdam-protest: last Short went out 0.2 h ago",
-  "hold wk-Q4250213: last Short went out 0.2 h ago",
-  "hold wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy: last Short went out 0.2 h ago",
-  "ad-suitability x0.85 (attack, not breaking): wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy"
+  "outlets: 799 headlines from 30 feeds (21 owners), 52 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy",
+  "skip nw-20261106-amsterdam-protest: gate: faceless: no free photo shows Amsterdam or the event itself (only 2 photos of places or things near it)",
+  "skip wk-Q4250213: gate: no draft passed the fact checks: beat 1 must name Sebastián Lelio; these names or numbers are not in the sources: Award-Winning",
+  "skip wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy: gate: neither Wikidata nor the infobox gives a date for this event",
+  "nothing eligible to publish"
  ]
 }
