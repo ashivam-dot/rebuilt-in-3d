@@ -1,30 +1,26 @@
 {
- "at": "2026-11-06T12:54:49+00:00",
+ "at": "2026-11-06T13:25:46+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q172753",
    "title": "Alan Jones (racing driver)",
-   "fame": 105506,
+   "fame": 80506,
    "views": 55506,
    "traffic": 0,
-   "news": 50000,
+   "news": 25000,
    "news_at": "2026-11-06T01:22:38+00:00",
    "headlines": [
-    "The anthem mix-up that became an enduring myth in the Alan Jones legend",
-    "Australian Formula One champion Alan Jones dies following 'short illness'"
+    "The anthem mix-up that became an enduring myth in the Alan Jones legend"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-05",
     "google-news:The anthem mix-up that became an enduring myth in the Alan Jones legend",
-    "google-news:Australian Formula One champion Alan Jones dies following 'short illness'",
-    "outlet:ABC (Australia)",
-    "outlet:Independent Digital News"
+    "outlet:ABC (Australia)"
    ],
    "owners": [
-    "ABC (Australia)",
-    "Independent Digital News"
+    "ABC (Australia)"
    ],
    "reports": [
     {
@@ -36,16 +32,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-06T01:22:38+00:00"
-    },
-    {
-     "title": "Australian Formula One champion Alan Jones dies following 'short illness'",
-     "url": "https://www.independent.co.uk/news/world/australasia/f1-alan-jones-formula-one-champion-death-b3079753.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-05T13:19:43+00:00"
     },
     {
      "title": "Australian racing icon and F1 world champion Alan Jones dies",
@@ -221,7 +207,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-06T12:55:57.448446+00:00",
+   "news_at": "2026-11-06T13:27:00.083119+00:00",
    "headlines": [
     "Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh"
    ],
@@ -242,7 +228,7 @@
      "owner": "Government of India",
      "group": "official",
      "lang": "en",
-     "at": "2026-11-06T12:55:57.448446+00:00"
+     "at": "2026-11-06T13:27:00.083119+00:00"
     }
    ],
    "id": "wk-Q4834146",
@@ -432,6 +418,46 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
+  },
+  {
+   "qid": "Q862015",
+   "title": "Bill Clifton",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:bluegrass"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q862015",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
+  },
+  {
+   "qid": "Q285102",
+   "title": "Jay Rockefeller",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:jay rockefeller"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q285102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
   }
  ],
  "hazards": [
@@ -447,14 +473,55 @@
    "lon": "80.2"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q285102",
+   "title": "Jay Rockefeller",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:jay rockefeller"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q285102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
+   "qid": "Q862015",
+   "title": "Bill Clifton",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:bluegrass"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q862015",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-30"
+  }
+ ],
  "outlets": {
-  "headlines": 804,
+  "headlines": 802,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 2
+  "matched": 23,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 804 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

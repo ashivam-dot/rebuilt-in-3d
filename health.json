@@ -1,9 +1,11 @@
 {
- "at": "2026-11-06T12:54:48+00:00",
- "ok": true,
+ "at": "2026-11-06T13:25:45+00:00",
+ "ok": false,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
-  "watch: 0 candidates (0 quakes, 15 trending), 1 hazard alerts",
-  "outlets: 804 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 11 units today",
+  "watch: 2 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 802 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ ],
+ "error": "RuntimeError: video oo3unhyU26c was not scheduled",
+ "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 233, in run\n    result = publish(short.id, publish_at=slot.isoformat() if slot else None,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 113, in publish\n    result = youtube.publish(short, work / \"short.mp4\", publish_at=publish_at)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/youtube.py\", line 343, in publish\n    raise RuntimeError(f\"video {video_id} was not scheduled\")\nRuntimeError: video oo3unhyU26c was not scheduled\n"
 }
