@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T12:23:25+00:00",
+ "at": "2026-11-06T12:54:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -66,30 +66,27 @@
   {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 100000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 100000,
+   "news": 75000,
    "news_at": "2026-11-06T01:42:44+00:00",
    "headlines": [
     "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
-    "Alabama, Florida and Indiana carry out executions on same day",
     "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
     "Florida’s new property tax: Why tech execs move to ‘Billionaire Bunkers’ may be right"
    ],
    "region": "world",
    "via": [
     "google-news:Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
-    "google-news:Alabama, Florida and Indiana carry out executions on same day",
     "google-news:Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+    "google-news:Florida’s new property tax: Why tech execs move to ‘Billionaire Bunkers’ may be right",
     "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
     "Paramount (CBS)",
-    "Guardian Media Group",
     "Independent Digital News",
     "Bennett, Coleman & Co."
    ],
@@ -103,16 +100,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-06T01:42:44+00:00"
-    },
-    {
-     "title": "Alabama, Florida and Indiana carry out executions on same day",
-     "url": "https://www.theguardian.com/us-news/2026/nov/05/executions-florida-alabama-indiana",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T00:27:20+00:00"
     },
     {
      "title": "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
@@ -183,56 +170,6 @@
    "date": "2026-11-04"
   },
   {
-   "qid": "Q4834146",
-   "title": "B. P. Singh",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-06T12:24:56.370558+00:00",
-   "headlines": [
-    "Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh",
-    "Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh",
-    "google-news:Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor",
-    "outlet:Government of India",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "Government of India",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333632",
-     "outlet": "PIB",
-     "outlet_hi": "पीआईबी",
-     "owner": "Government of India",
-     "group": "official",
-     "lang": "en",
-     "at": "2026-11-06T12:24:56.370558+00:00"
-    },
-    {
-     "title": "Bengal BJP government appoints neonatologist Arun Kumar Singh as advisor",
-     "url": "https://www.hindustantimes.com/india-news/bengal-bjp-government-appoints-neonatologist-arun-kumar-singh-as-advisor-101793866818858.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-05T08:20:18+00:00"
-    }
-   ],
-   "id": "wk-Q4834146",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-10-27"
-  },
-  {
    "qid": "Q16296",
    "title": "Patrick Stewart",
    "fame": 38352,
@@ -276,6 +213,42 @@
     -80.11311111
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q4834146",
+   "title": "B. P. Singh",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-06T12:55:57.448446+00:00",
+   "headlines": [
+    "Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh",
+    "outlet:Government of India"
+   ],
+   "owners": [
+    "Government of India"
+   ],
+   "reports": [
+    {
+     "title": "Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333632",
+     "outlet": "PIB",
+     "outlet_hi": "पीआईबी",
+     "owner": "Government of India",
+     "group": "official",
+     "lang": "en",
+     "at": "2026-11-06T12:55:57.448446+00:00"
+    }
+   ],
+   "id": "wk-Q4834146",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-10-27"
   },
   {
    "qid": "Q142065275",
@@ -476,12 +449,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 806,
+  "headlines": 804,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
-  "corroborated": 3
+  "matched": 28,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 804 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
