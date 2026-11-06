@@ -1,7 +1,72 @@
 {
- "at": "2026-11-06T18:54:48+00:00",
+ "at": "2026-11-06T19:42:15+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q285102",
+   "title": "Jay Rockefeller",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-11-06T18:17:10+00:00",
+   "headlines": [
+    "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
+    "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+    "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
+    "Jay Rockefeller, former governor and U.S. senator, dies at 89"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
+    "google-news:Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+    "google-news:Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+     "url": "https://www.independent.co.uk/news/world/americas/jay-rockefeller-dead-west-virginia-governor-b3080744.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-06T18:17:10+00:00"
+    },
+    {
+     "title": "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
+     "url": "https://abcnews.com/Politics/wireStory/jay-rockefeller-former-west-virginia-governor-us-senator-137911360",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-06T15:30:19+00:00"
+    },
+    {
+     "title": "Jay Rockefeller, former governor and U.S. senator, dies at 89",
+     "url": "https://www.cbsnews.com/news/jay-rockefeller-former-west-virginia-governor-us-senator-dies-89/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-06T15:04:15+00:00"
+    }
+   ],
+   "id": "wk-Q285102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
   {
    "qid": null,
    "title": "November 2026 Florida floods",
@@ -9,22 +74,22 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-06T18:01:00+00:00",
+   "news_at": "2026-11-06T19:31:04+00:00",
    "headlines": [
     "Thomas Markle Sr., Meghan's father, arrested in Florida",
+    "BOBBY BURACK: Far-left ex-ESPN wackjob Mark Jones is outraged that Florida didn't go Democrat during midterms",
     "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
-    "Shocking video shows suspected shark swimming through flooded streets of coastal Florida city",
     "Meghan Markle's estranged father is arrested in Florida",
     "Meghan Markle's father Thomas Markle Sr. arrested by FBI in Florida"
    ],
    "region": "world",
    "via": [
     "google-news:Thomas Markle Sr., Meghan's father, arrested in Florida",
+    "google-news:BOBBY BURACK: Far-left ex-ESPN wackjob Mark Jones is outraged that Florida didn't go Democrat during midterms",
     "google-news:Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
-    "google-news:Shocking video shows suspected shark swimming through flooded streets of coastal Florida city",
     "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
     "outlet:Fox Corporation",
+    "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
     "outlet:Disney (ABC News)",
     "outlet:Euronews",
@@ -32,8 +97,8 @@
    ],
    "owners": [
     "Paramount (CBS)",
-    "Guardian Media Group",
     "Fox Corporation",
+    "Guardian Media Group",
     "NBCUniversal",
     "Disney (ABC News)",
     "Euronews",
@@ -48,7 +113,17 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-06T18:01:00+00:00"
+     "at": "2026-11-06T19:31:04+00:00"
+    },
+    {
+     "title": "BOBBY BURACK: Far-left ex-ESPN wackjob Mark Jones is outraged that Florida didn't go Democrat during midterms",
+     "url": "https://www.foxnews.com/outkick-sports/far-left-ex-espn-wackjob-mark-jones-outraged-florida-didnt-go-democrat-midterms",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-06T18:27:01+00:00"
     },
     {
      "title": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
@@ -101,7 +176,7 @@
      "at": "2026-11-06T16:32:57+00:00"
     },
     {
-     "title": "Meghan Markle's father reportedly arrested in Florida over alleged child porn possession",
+     "title": "Meghan Markle's father arrested in Florida over child sex abuse images",
      "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
@@ -109,16 +184,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-06T16:10:18+00:00"
-    },
-    {
-     "title": "Florida Burmese python lays 96 eggs in abandoned concrete pipe nest",
-     "url": "https://timesofindia.indiatimes.com/world/us/a-73-6-kg-burmese-python-turned-an-abandoned-concrete-pipe-into-a-nest-in-florida-laying-96-eggs-and-using-muscle-contractions-to-keep-them-warm/articleshow/135570680.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-06T13:56:32+00:00"
     }
    ],
    "id": "wp-November_2026_Florida_floods",
@@ -331,6 +396,30 @@
    "date": "2026-11-04"
   },
   {
+   "qid": null,
+   "title": "2026 Ohio Ramaswamy campaign attack ad controversy",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-06T13:04:43+00:00",
+   "headlines": [
+    "Why did GOP back him? Vivek Ramaswamy gets torched by Ron DeSantis after Ohio rout"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Why did GOP back him? Vivek Ramaswamy gets torched by Ron DeSantis after Ohio rout"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-05",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q141966885",
    "title": "2026 Palm Beach County Learjet 60 crash",
    "fame": 31090,
@@ -356,42 +445,40 @@
    "has_coords": true
   },
   {
-   "qid": "Q142065275",
-   "title": "2026 Tampa Citibank shooting",
+   "qid": "Q4250213",
+   "title": "Sebastián Lelio",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-05T14:56:19+00:00",
+   "news_at": "2026-11-06T19:23:24+00:00",
    "headlines": [
-    "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa"
+    "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52"
    ],
    "region": "world",
    "via": [
-    "google-news:WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-    "outlet:Disney (ABC News)"
+    "google-news:Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "Disney (ABC News)"
+    "Guardian Media Group"
    ],
    "reports": [
     {
-     "title": "WATCH: New 911 calls and bodycam video released in Citibank Center shooting in Tampa",
-     "url": "https://abcnews.com/video/137872171/",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
+     "title": "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
+     "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-director-dies",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-05T14:56:19+00:00"
+     "at": "2026-11-06T19:23:24+00:00"
     }
    ],
-   "id": "wk-Q142065275",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": true
+   "id": "wk-Q4250213",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
   },
   {
    "qid": "Q3181541",
@@ -537,27 +624,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
-  },
-  {
-   "qid": "Q4250213",
-   "title": "Sebastián Lelio",
-   "fame": 700,
-   "views": 0,
-   "traffic": 700,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:sebastian lelio",
-    "google-trends-US:sebastián lelio"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4250213",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
   }
  ],
  "hazards": [
@@ -577,31 +643,70 @@
   {
    "qid": "Q4250213",
    "title": "Sebastián Lelio",
-   "fame": 700,
+   "fame": 25000,
    "views": 0,
-   "traffic": 700,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-06T19:23:24+00:00",
+   "headlines": [
+    "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52"
+   ],
    "region": "world",
    "via": [
-    "google-trends-US:sebastian lelio",
-    "google-trends-US:sebastián lelio"
+    "google-news:Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
+    "outlet:Guardian Media Group"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
+     "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-director-dies",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-06T19:23:24+00:00"
+    }
+   ],
    "id": "wk-Q4250213",
    "kind": "death",
    "category": "death",
    "date": "2026-11-06"
+  },
+  {
+   "qid": null,
+   "title": "2026 Ohio Ramaswamy campaign attack ad controversy",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-06T13:04:43+00:00",
+   "headlines": [
+    "Why did GOP back him? Vivek Ramaswamy gets torched by Ron DeSantis after Ohio rout"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Why did GOP back him? Vivek Ramaswamy gets torched by Ron DeSantis after Ohio rout"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Ohio_Ramaswamy_campaign_attack_ad_controversy",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-05",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 814,
+  "headlines": 810,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 2
+  "matched": 48,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -693,5 +798,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 814 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 48 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
 }
