@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T17:25:48+00:00",
+ "at": "2026-11-06T17:33:29+00:00",
  "quakes": [],
  "trending": [
   {
@@ -12,21 +12,21 @@
    "news_at": "2026-11-06T17:21:11+00:00",
    "headlines": [
     "Thomas Markle Sr., Meghan's father, arrested in Florida",
+    "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
     "Meghan Markle's estranged father is arrested in Florida",
     "Meghan Markle's father Thomas Markle Sr. arrested by FBI in Florida",
-    "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
     "Meghan Markle's father reportedly arrested in Florida over alleged child porn possession"
    ],
    "region": "world",
    "via": [
     "google-trends-US:meghan markle",
     "google-news:Thomas Markle Sr., Meghan's father, arrested in Florida",
+    "google-news:Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
     "google-news:Meghan Markle's estranged father is arrested in Florida",
-    "google-news:Meghan Markle's father Thomas Markle Sr. arrested by FBI in Florida",
     "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
     "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group",
     "outlet:Euronews",
     "outlet:Fox Corporation",
     "outlet:Bennett, Coleman & Co.",
@@ -34,9 +34,9 @@
    ],
    "owners": [
     "Paramount (CBS)",
+    "Guardian Media Group",
     "NBCUniversal",
     "Disney (ABC News)",
-    "Guardian Media Group",
     "Euronews",
     "Fox Corporation",
     "Bennett, Coleman & Co.",
@@ -52,6 +52,16 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-06T17:21:11+00:00"
+    },
+    {
+     "title": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
+     "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-06T17:20:25+00:00"
     },
     {
      "title": "Meghan Markle's estranged father is arrested in Florida",
@@ -82,16 +92,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-06T16:32:57+00:00"
-    },
-    {
-     "title": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
-     "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T16:14:52+00:00"
     },
     {
      "title": "Meghan Markle's father reportedly arrested in Florida over alleged child porn possession",
@@ -255,70 +255,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-05"
-  },
-  {
-   "qid": "Q285102",
-   "title": "Jay Rockefeller",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-11-06T15:30:19+00:00",
-   "headlines": [
-    "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-    "Jay Rockefeller, former governor and U.S. senator, dies at 89",
-    "Former US senator and West Virginia governor Jay Rockefeller dies at 89"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-    "google-news:Jay Rockefeller, former governor and U.S. senator, dies at 89",
-    "google-news:Former US senator and West Virginia governor Jay Rockefeller dies at 89",
-    "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Disney (ABC News)",
-    "Paramount (CBS)",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-     "url": "https://abcnews.com/Politics/wireStory/jay-rockefeller-former-west-virginia-governor-us-senator-137911360",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T15:30:19+00:00"
-    },
-    {
-     "title": "Jay Rockefeller, former governor and U.S. senator, dies at 89",
-     "url": "https://www.cbsnews.com/news/jay-rockefeller-former-west-virginia-governor-us-senator-dies-89/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T15:04:15+00:00"
-    },
-    {
-     "title": "Former US senator and West Virginia governor Jay Rockefeller dies at 89",
-     "url": "https://www.foxnews.com/politics/former-senator-governor-jay-rockefeller-dies-89",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T13:24:10+00:00"
-    }
-   ],
-   "id": "wk-Q285102",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
   },
   {
    "qid": "Q116992476",
@@ -604,11 +540,11 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 820,
+  "headlines": 822,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
-  "corroborated": 3
+  "matched": 30,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -700,5 +636,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
 }
