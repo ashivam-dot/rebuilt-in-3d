@@ -1,20 +1,12 @@
 {
- "at": "2026-11-06T03:24:41+00:00",
+ "at": "2026-11-06T04:10:01+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 37 units today",
-  "watch: 4 candidates (0 quakes, 15 trending), 1 hazard alerts",
-  "outlets: 815 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q142065275",
-  "skip wk-Q6410167: gate: only 2 usable photos of Kimmarie Johnson on Wikimedia Commons (want 4)",
-  "published wk-Q6662427: https://www.youtube.com/shorts/h1npYCfw_vw"
- ],
- "published": {
-  "video_id": "h1npYCfw_vw",
-  "url": "https://www.youtube.com/shorts/h1npYCfw_vw",
-  "title": "Lloyd Geering, Theologian and Scholar, Dies at 108",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 89 units today",
+  "watch: 2 candidates (0 quakes, 15 trending), 1 hazard alerts",
+  "outlets: 811 headlines from 30 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wk-Q142065275: last Short went out 0.3 h ago",
+  "hold wk-Q5660853: last Short went out 0.3 h ago",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142065275"
+ ]
 }
