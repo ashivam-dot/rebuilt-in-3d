@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T00:08:46+00:00",
+ "at": "2026-11-06T00:37:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -90,35 +90,68 @@
    "date": "2026-11-03"
   },
   {
+   "qid": "Q6410167",
+   "title": "Kimmarie Johnson",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-05T16:27:00+00:00",
+   "headlines": [
+    "Kimmarie Johnson death: Beverly Hills, 90210 star dies aged 50"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Kimmarie Johnson death: Beverly Hills, 90210 star dies aged 50"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6410167",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
    "qid": null,
    "title": "November 2026 Florida floods",
-   "fame": 202000,
+   "fame": 100000,
    "views": 0,
-   "traffic": 2000,
-   "news": 200000,
-   "news_at": "2026-11-05T23:48:04+00:00",
+   "traffic": 0,
+   "news": 100000,
+   "news_at": "2026-11-06T00:14:02+00:00",
    "headlines": [
-    "‘Florida Is the Last Main Anchor Standing’ for Republicans",
+    "Indiana, Florida carry out 2 of 3 U.S. executions scheduled for Thursday",
     "Florida puts man to death as three US executions scheduled for same day",
     "Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
     "Florida's new tax rule puts billionaire bunkers in spotlight"
    ],
    "region": "world",
    "via": [
-    "google-trends-US:utsa vs fl atlantic",
-    "google-news:‘Florida Is the Last Main Anchor Standing’ for Republicans",
+    "google-news:Indiana, Florida carry out 2 of 3 U.S. executions scheduled for Thursday",
     "google-news:Florida puts man to death as three US executions scheduled for same day",
     "google-news:Florida residents trapped by gators and snakes in floodwaters: ‘It’s like an apocalyptic-type event’",
+    "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:Bennett, Coleman & Co."
    ],
    "owners": [
+    "Paramount (CBS)",
     "Guardian Media Group",
     "Independent Digital News",
     "Bennett, Coleman & Co."
    ],
    "reports": [
+    {
+     "title": "Indiana, Florida carry out 2 of 3 U.S. executions scheduled for Thursday",
+     "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-06T00:14:02+00:00"
+    },
     {
      "title": "Florida puts man to death as three US executions scheduled for same day",
      "url": "https://www.theguardian.com/us-news/2026/nov/05/executions-florida-alabama-indiana",
@@ -156,28 +189,6 @@
    "date": "2026-11-04",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q6410167",
-   "title": "Kimmarie Johnson",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-05T16:27:00+00:00",
-   "headlines": [
-    "Kimmarie Johnson death: Beverly Hills, 90210 star dies aged 50"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Kimmarie Johnson death: Beverly Hills, 90210 star dies aged 50"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6410167",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
   },
   {
    "qid": "Q3181541",
@@ -574,13 +585,13 @@
   }
  ],
  "outlets": {
-  "headlines": 815,
+  "headlines": 816,
   "feeds": 30,
   "owners": 21,
-  "matched": 45,
+  "matched": 44,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 45 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 44 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
