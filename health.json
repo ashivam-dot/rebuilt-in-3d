@@ -1,9 +1,10 @@
 {
- "at": "2026-11-07T05:26:48+00:00",
+ "at": "2026-11-07T05:57:18+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 142 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 143 units today",
   "watch: 0 candidates (0 quakes, 12 trending), 1 hazard alerts",
-  "outlets: 779 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+  "outlets: 775 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 135 people)']"
  ]
 }
