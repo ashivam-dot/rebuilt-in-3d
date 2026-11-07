@@ -1,11 +1,11 @@
 {
- "at": "2026-11-07T22:13:54+00:00",
+ "at": "2026-11-07T22:46:20+00:00",
  "ok": true,
  "steps": [
-  "learn: 65 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 28, 'lift': 1.221, 'typical_views_24h': 335, 'n_retention': 25, 'typical_view_pct': 52.2}, 'kind:incident': {'n': 29, 'lift': 0.952, 'typical_views_24h': 170, 'n_retention': 27, 'typical_view_pct': 58.1}, 'category:death': {'n': 27, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 81 units today",
-  "watch: 0 candidates (0 quakes, 16 trending), 1 hazard alerts",
-  "outlets: 734 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 82 units today",
+  "watch: 0 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 729 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 138 people)\"]"
  ]
 }
