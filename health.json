@@ -1,14 +1,14 @@
 {
- "at": "2026-11-07T20:42:49+00:00",
+ "at": "2026-11-07T21:13:47+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 78 units today",
-  "watch: 1 candidates (0 quakes, 16 trending), 1 hazard alerts",
-  "outlets: 742 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
+  "watch: 2 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 742 headlines from 30 feeds (21 owners), 31 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.7 h ago, 138 people)\"]",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465",
-  "wait wk-Q142077465: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261107-poland-attack, wk-Q142077465",
+  "skip nw-20261107-poland-attack: gate: faceless: no free photo shows Poland or the event itself (only 8 photos of places or things near it)",
+  "wait wk-Q142077465: gate: the article is under 6 hours old; facts may still move (ready in 0.0 h)",
   "nothing eligible to publish"
  ]
 }
