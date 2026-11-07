@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T19:59:33+00:00",
+ "at": "2026-11-07T20:13:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -17,7 +17,6 @@
     "France Médias Monde",
     "Deutsche Welle",
     "NBCUniversal",
-    "ABC (Australia)",
     "Independent Digital News",
     "NPR"
    ],
@@ -56,16 +55,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T18:37:36+00:00"
-    },
-    {
-     "title": "At least six killed in shooting in Krakow's market square",
-     "url": "https://www.abc.net.au/news/2026-11-08/deadly-shooting-in-krakow-market-poland/107360360",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T16:35:40+00:00"
     },
     {
      "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
@@ -126,6 +115,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T15:22:55+00:00"
+    },
+    {
+     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T19:41:29+00:00"
     }
    ],
    "via": [
@@ -134,7 +133,6 @@
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:ABC (Australia)",
     "outlet:Independent Digital News",
     "outlet:NPR"
    ],
@@ -142,26 +140,28 @@
    "article": null
   },
   {
-   "qid": "Q922227",
-   "title": "Richard Lloyd (guitarist)",
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
    "fame": 125000,
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-07T17:11:52+00:00",
+   "news_at": "2026-11-07T17:55:58+00:00",
    "headlines": [
-    "Richard Lloyd, Television Guitarist, Dies at 75"
+    "Houthis claim attacks on Aramco, Riyadh airport in wave of strikes on Saudi Arabia"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
-    "google-news:Richard Lloyd, Television Guitarist, Dies at 75"
+    "google-news:Houthis claim attacks on Aramco, Riyadh airport in wave of strikes on Saudi Arabia"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q922227",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q142077465",
@@ -170,7 +170,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T19:59:33.264124+00:00",
+   "news_at": "2026-11-07T20:13:53.684753+00:00",
    "headlines": [
     "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
@@ -196,7 +196,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T19:36:28+00:00"
+     "at": "2026-11-07T20:07:50+00:00"
     },
     {
      "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
@@ -236,7 +236,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T19:59:33.264124+00:00",
+   "news_at": "2026-11-07T20:13:53.684753+00:00",
    "headlines": [
     "Clashes in Paris after new French protests",
     "Live: French student unions say 250,000 people took part in Saturday’s protests"
@@ -462,42 +462,40 @@
    "has_coords": true
   },
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
+   "qid": "Q922227",
+   "title": "Richard Lloyd (guitarist)",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T17:09:24+00:00",
+   "news_at": "2026-11-07T20:06:25+00:00",
    "headlines": [
-    "Houthis say at least 25 killed in Saudi air strike"
+    "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75"
    ],
    "region": "world",
    "via": [
-    "google-news:Houthis say at least 25 killed in Saudi air strike",
-    "outlet:BBC"
+    "google-news:Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "BBC"
+    "Guardian Media Group"
    ],
    "reports": [
     {
-     "title": "Houthis say at least 25 killed in Saudi air strike",
-     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
+     "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
+     "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-07T17:09:24+00:00"
+     "at": "2026-11-07T20:06:25+00:00"
     }
    ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
+   "id": "wk-Q922227",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-07"
   },
   {
    "qid": "Q2893079",
@@ -631,33 +629,13 @@
  ],
  "candidates": [
   {
-   "qid": "Q5962128",
-   "title": "Michael Locke (stuntman)",
-   "fame": 92092,
-   "views": 92092,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5962128",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
-  {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
    "fame": 100000,
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T19:59:33.264124+00:00",
+   "news_at": "2026-11-07T20:13:53.684753+00:00",
    "headlines": [
     "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
@@ -683,7 +661,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T19:36:28+00:00"
+     "at": "2026-11-07T20:07:50+00:00"
     },
     {
      "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
@@ -717,11 +695,14 @@
    "has_coords": true
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 502 (used the list from 0.2 h ago, 138 people)"
+ ],
  "outlets": {
-  "headlines": 740,
+  "headlines": 741,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 30,
   "corroborated": 3
  },
  "emerging": [
@@ -740,7 +721,6 @@
     "France Médias Monde",
     "Deutsche Welle",
     "NBCUniversal",
-    "ABC (Australia)",
     "Independent Digital News",
     "NPR"
    ],
@@ -779,16 +759,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T18:37:36+00:00"
-    },
-    {
-     "title": "At least six killed in shooting in Krakow's market square",
-     "url": "https://www.abc.net.au/news/2026-11-08/deadly-shooting-in-krakow-market-poland/107360360",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T16:35:40+00:00"
     },
     {
      "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
@@ -849,6 +819,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T15:22:55+00:00"
+    },
+    {
+     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T19:41:29+00:00"
     }
    ],
    "via": [
@@ -857,7 +837,6 @@
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:ABC (Australia)",
     "outlet:Independent Digital News",
     "outlet:NPR"
    ],
@@ -865,6 +844,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 740 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 741 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
