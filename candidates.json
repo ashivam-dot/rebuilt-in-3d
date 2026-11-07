@@ -1,11 +1,11 @@
 {
- "at": "2026-11-07T16:59:04+00:00",
+ "at": "2026-11-07T17:27:42+00:00",
  "quakes": [],
  "trending": [
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "Breaking: At least five killed in shooting in Krakow",
+   "title": "Breaking: At least five killed in shooting at Krakow's main square",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -26,7 +26,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "At least 5 killed, 10 injured in Poland shooting; gunman shot",
+    "At least 6 killed, 15 injured in Poland shooting; gunman shot",
     "At least five people killed in shooting in Poland’s Krakow",
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
     "At least 5 killed in shooting in Polish city of Krakow, police say",
@@ -48,7 +48,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Breaking: At least five killed in shooting in Krakow",
+     "title": "Breaking: At least five killed in shooting at Krakow's main square",
      "url": "https://www.abc.net.au/news/2026-11-08/five-killed-in-krakow/107360360",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -239,7 +239,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T16:59:04.846035+00:00",
+   "news_at": "2026-11-07T17:27:42.627486+00:00",
    "headlines": [
     "Kraków shooting latest updates: five killed and more than a dozen injured, police say"
    ],
@@ -261,7 +261,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T16:43:34+00:00"
+     "at": "2026-11-07T17:07:24+00:00"
+    },
+    {
+     "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T16:59:59+00:00"
     }
    ],
    "id": "wk-Q142077465",
@@ -277,18 +287,35 @@
   {
    "qid": "Q141615137",
    "title": "2026 French student protests",
-   "fame": 50000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-07T16:59:04.846035+00:00",
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-07T17:27:42.627486+00:00",
+   "headlines": [
+    "Live: French student unions say 250,000 people took part in Saturday’s protests"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-07"
+    "wikipedia-current-events-2026-11-07",
+    "google-news:Live: French student unions say 250,000 people took part in Saturday’s protests",
+    "outlet:France Médias Monde"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Live: French student unions say 250,000 people took part in Saturday’s protests",
+     "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T08:17:22+00:00"
+    }
+   ],
    "id": "wk-Q141615137-2026w45",
    "kind": "incident",
    "category": "protest",
@@ -513,6 +540,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q1633044",
+   "title": "Hubert Aiwanger",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:rb leipzig vs fc augsburg standings"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1633044",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   }
  ],
  "hazards": [
@@ -536,7 +583,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T16:59:04.846035+00:00",
+   "news_at": "2026-11-07T17:27:42.627486+00:00",
    "headlines": [
     "Kraków shooting latest updates: five killed and more than a dozen injured, police say"
    ],
@@ -558,7 +605,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T16:43:34+00:00"
+     "at": "2026-11-07T17:07:24+00:00"
+    },
+    {
+     "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T16:59:59+00:00"
     }
    ],
    "id": "wk-Q142077465",
@@ -573,17 +630,17 @@
   }
  ],
  "outlets": {
-  "headlines": 745,
+  "headlines": 746,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 21,
   "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "Breaking: At least five killed in shooting in Krakow",
+   "title": "Breaking: At least five killed in shooting at Krakow's main square",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -604,7 +661,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "At least 5 killed, 10 injured in Poland shooting; gunman shot",
+    "At least 6 killed, 15 injured in Poland shooting; gunman shot",
     "At least five people killed in shooting in Poland’s Krakow",
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
     "At least 5 killed in shooting in Polish city of Krakow, police say",
@@ -626,7 +683,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Breaking: At least five killed in shooting in Krakow",
+     "title": "Breaking: At least five killed in shooting at Krakow's main square",
      "url": "https://www.abc.net.au/news/2026-11-08/five-killed-in-krakow/107360360",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -720,6 +777,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 746 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
