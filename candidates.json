@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T22:46:21+00:00",
+ "at": "2026-11-07T23:13:20+00:00",
  "quakes": [],
  "trending": [
   {
@@ -178,7 +178,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T22:46:21.288390+00:00",
+   "news_at": "2026-11-07T23:13:20.048418+00:00",
    "headlines": [
     "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
@@ -321,7 +321,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T22:46:21.288390+00:00",
+   "news_at": "2026-11-07T23:13:20.048418+00:00",
    "headlines": [
     "French student unions say 250,000 people took part in Saturday’s protests"
    ],
@@ -648,28 +648,13 @@
    "date": "2026-11-04"
   }
  ],
- "hazards": [
-  {
-   "id": "gdacs-TC-1001346",
-   "kind": "TC",
-   "level": "Red",
-   "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.506 million .",
-   "country": "India",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-   "published": "2026-11-01T02:23:45+00:00",
-   "lat": "15.8",
-   "lon": "80.2"
-  }
- ],
+ "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 138 people)"
- ],
  "outlets": {
-  "headlines": 729,
+  "headlines": 722,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 35,
   "corroborated": 3
  },
  "emerging": [
@@ -883,6 +868,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 729 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 722 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
