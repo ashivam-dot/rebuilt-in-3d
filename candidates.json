@@ -1,7 +1,47 @@
 {
- "at": "2026-11-07T17:57:03+00:00",
+ "at": "2026-11-07T18:28:55+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-07T17:09:24+00:00",
+   "headlines": [
+    "An airstrike has killed 25 people near Yemen’s capital, Houthi official says",
+    "Houthis say at least 25 killed in Saudi air strike"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:An airstrike has killed 25 people near Yemen’s capital, Houthi official says",
+    "google-news:Houthis say at least 25 killed in Saudi air strike",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Houthis say at least 25 killed in Saudi air strike",
+     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T17:09:24+00:00"
+    }
+   ],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
@@ -10,14 +50,13 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T16:51:06+00:00",
+   "news_at": "2026-11-07T16:39:47+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
     "France Médias Monde",
     "Deutsche Welle",
     "NBCUniversal",
-    "NDTV",
     "ABC (Australia)",
     "Independent Digital News"
    ],
@@ -27,15 +66,14 @@
    "traffic": 0,
    "headlines": [
     "At least 6 killed, 15 injured in Poland shooting; gunman shot",
-    "At least five people killed in shooting in Poland’s Krakow",
+    "At least six people killed in shooting in Poland’s Krakow",
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
     "At least 6 killed in shooting in Polish city of Krakow, police say",
     "Six people killed, at least a dozen injured in shooting at main market square of Krakow, Poland"
    ],
    "places": [
     "Poland",
-    "Polish",
-    "injured"
+    "Polish"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -78,14 +116,14 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
-     "title": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
+     "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T16:51:06+00:00"
+     "at": "2026-11-07T16:39:47+00:00"
     },
     {
      "title": "Five killed and at least 10 injured in Krakow shooting",
@@ -98,7 +136,7 @@
      "at": "2026-11-07T16:06:58+00:00"
     },
     {
-     "title": "At least five people killed in shooting in Poland’s Krakow",
+     "title": "At least six people killed in shooting in Poland’s Krakow",
      "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -118,14 +156,14 @@
      "at": "2026-11-07T15:58:06+00:00"
     },
     {
-     "title": "5 Killed, 10 Injured In Shooting In Poland's Krakow. Gunman Shot At By Police",
-     "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
+     "title": "At least 6 killed, 15 injured in Poland shooting; gunman shot",
+     "url": "https://timesofindia.indiatimes.com/world/europe/at-least-6-killed-15-wounded-in-poland-shooting-gunman-shot/articleshow/135640186.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-07T16:32:59+00:00"
+     "at": "2026-11-07T15:18:35+00:00"
     }
    ],
    "via": [
@@ -134,7 +172,6 @@
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:NDTV",
     "outlet:ABC (Australia)",
     "outlet:Independent Digital News"
    ],
@@ -165,40 +202,79 @@
    "date": "2026-11-06"
   },
   {
-   "qid": "Q285102",
-   "title": "Jay Rockefeller",
-   "fame": 121552,
-   "views": 71552,
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 100000,
+   "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-06T18:17:10+00:00",
+   "news_at": "2026-11-07T18:28:55.858296+00:00",
    "headlines": [
-    "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+    "Clashes in Paris after new French protests",
+    "Live: French student unions say 250,000 people took part in Saturday’s protests"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07",
+    "google-news:Clashes in Paris after new French protests",
+    "google-news:Live: French student unions say 250,000 people took part in Saturday’s protests",
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Clashes in Paris after new French protests",
+     "url": "https://www.scmp.com/news/world/europe/article/3373669/clashes-paris-after-new-french-protests",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T18:05:42+00:00"
+    },
+    {
+     "title": "Live: French student unions say 250,000 people took part in Saturday’s protests",
+     "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T08:17:22+00:00"
+    }
+   ],
+   "id": "wk-Q141615137-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-07",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q285102",
+   "title": "Jay Rockefeller",
+   "fame": 96552,
+   "views": 71552,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-06T15:30:19+00:00",
+   "headlines": [
     "Jay Rockefeller, former West Virginia governor and US senator, dies at 89"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-06",
-    "google-news:Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
     "google-news:Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-    "outlet:Independent Digital News",
     "outlet:Disney (ABC News)"
    ],
    "owners": [
-    "Independent Digital News",
     "Disney (ABC News)"
    ],
    "reports": [
-    {
-     "title": "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
-     "url": "https://www.independent.co.uk/news/world/americas/jay-rockefeller-dead-west-virginia-governor-b3080744.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T18:17:10+00:00"
-    },
     {
      "title": "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
      "url": "https://abcnews.com/Politics/wireStory/jay-rockefeller-former-west-virginia-governor-us-senator-137911360",
@@ -262,7 +338,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T17:57:03.827727+00:00",
+   "news_at": "2026-11-07T18:28:55.858296+00:00",
    "headlines": [
     "Kraków shooting latest updates: six killed and more than a dozen injured, police say"
    ],
@@ -284,7 +360,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T17:41:45+00:00"
+     "at": "2026-11-07T18:22:25+00:00"
     },
     {
      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
@@ -306,120 +382,6 @@
     19.937217
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-07T17:57:03.827727+00:00",
-   "headlines": [
-    "Live: French student unions say 250,000 people took part in Saturday’s protests"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-07",
-    "google-news:Live: French student unions say 250,000 people took part in Saturday’s protests",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "Live: French student unions say 250,000 people took part in Saturday’s protests",
-     "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T08:17:22+00:00"
-    }
-   ],
-   "id": "wk-Q141615137-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-07",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261107-polish-attack",
-   "qid": null,
-   "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-   "name": "Polish",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-07T17:57:20+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-    "At least 5 killed, several injured in shooting at Polish market square: Police"
-   ],
-   "places": [
-    "Krakow"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T16:39:47+00:00"
-    },
-    {
-     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T17:57:20+00:00"
-    },
-    {
-     "title": "At least 5 killed, several injured in shooting at Polish market square: Police",
-     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T17:37:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q172753",
@@ -622,15 +584,15 @@
   {
    "qid": "Q922227",
    "title": "Richard Lloyd (guitarist)",
-   "fame": 500,
+   "fame": 200,
    "views": 0,
-   "traffic": 500,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-US:richard lloyd"
+    "google-trends-GB:richard lloyd"
    ],
    "owners": [],
    "reports": [],
@@ -661,7 +623,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T17:57:03.827727+00:00",
+   "news_at": "2026-11-07T18:28:55.858296+00:00",
    "headlines": [
     "Kraków shooting latest updates: six killed and more than a dozen injured, police say"
    ],
@@ -683,7 +645,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T17:41:45+00:00"
+     "at": "2026-11-07T18:22:25+00:00"
     },
     {
      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
@@ -705,109 +667,14 @@
     19.937217
    ],
    "has_coords": true
-  },
-  {
-   "id": "nw-20261107-polish-attack",
-   "qid": null,
-   "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-   "name": "Polish",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-07T17:57:20+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-    "At least 5 killed, several injured in shooting at Polish market square: Police"
-   ],
-   "places": [
-    "Krakow"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T16:39:47+00:00"
-    },
-    {
-     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T17:57:20+00:00"
-    },
-    {
-     "title": "At least 5 killed, several injured in shooting at Polish market square: Police",
-     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T17:37:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q922227",
-   "title": "Richard Lloyd (guitarist)",
-   "fame": 500,
-   "views": 0,
-   "traffic": 500,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:richard lloyd"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q922227",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
   }
  ],
  "outlets": {
-  "headlines": 746,
+  "headlines": 744,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
-  "corroborated": 3
+  "matched": 21,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -818,14 +685,13 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T16:51:06+00:00",
+   "news_at": "2026-11-07T16:39:47+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
     "France Médias Monde",
     "Deutsche Welle",
     "NBCUniversal",
-    "NDTV",
     "ABC (Australia)",
     "Independent Digital News"
    ],
@@ -835,15 +701,14 @@
    "traffic": 0,
    "headlines": [
     "At least 6 killed, 15 injured in Poland shooting; gunman shot",
-    "At least five people killed in shooting in Poland’s Krakow",
+    "At least six people killed in shooting in Poland’s Krakow",
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
     "At least 6 killed in shooting in Polish city of Krakow, police say",
     "Six people killed, at least a dozen injured in shooting at main market square of Krakow, Poland"
    ],
    "places": [
     "Poland",
-    "Polish",
-    "injured"
+    "Polish"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -886,14 +751,14 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
-     "title": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
+     "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T16:51:06+00:00"
+     "at": "2026-11-07T16:39:47+00:00"
     },
     {
      "title": "Five killed and at least 10 injured in Krakow shooting",
@@ -906,7 +771,7 @@
      "at": "2026-11-07T16:06:58+00:00"
     },
     {
-     "title": "At least five people killed in shooting in Poland’s Krakow",
+     "title": "At least six people killed in shooting in Poland’s Krakow",
      "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -926,14 +791,14 @@
      "at": "2026-11-07T15:58:06+00:00"
     },
     {
-     "title": "5 Killed, 10 Injured In Shooting In Poland's Krakow. Gunman Shot At By Police",
-     "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
+     "title": "At least 6 killed, 15 injured in Poland shooting; gunman shot",
+     "url": "https://timesofindia.indiatimes.com/world/europe/at-least-6-killed-15-wounded-in-poland-shooting-gunman-shot/articleshow/135640186.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-07T16:32:59+00:00"
+     "at": "2026-11-07T15:18:35+00:00"
     }
    ],
    "via": [
@@ -942,89 +807,13 @@
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:NDTV",
     "outlet:ABC (Australia)",
     "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261107-polish-attack",
-   "qid": null,
-   "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-   "name": "Polish",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-07T17:57:20+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-    "At least 5 killed, several injured in shooting at Polish market square: Police"
-   ],
-   "places": [
-    "Krakow"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T16:39:47+00:00"
-    },
-    {
-     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T17:57:20+00:00"
-    },
-    {
-     "title": "At least 5 killed, several injured in shooting at Polish market square: Police",
-     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T17:37:25+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 746 headlines from 30 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-polish-attack",
+ "outlet_note": "outlets: 744 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
