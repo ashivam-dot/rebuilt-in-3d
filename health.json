@@ -1,14 +1,13 @@
 {
- "at": "2026-11-07T21:13:47+00:00",
+ "at": "2026-11-07T21:41:45+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
-  "watch: 2 candidates (0 quakes, 17 trending), 1 hazard alerts",
-  "outlets: 742 headlines from 30 feeds (21 owners), 31 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 80 units today",
+  "watch: 1 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 738 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261107-poland-attack, wk-Q142077465",
-  "skip nw-20261107-poland-attack: gate: faceless: no free photo shows Poland or the event itself (only 8 photos of places or things near it)",
-  "wait wk-Q142077465: gate: the article is under 6 hours old; facts may still move (ready in 0.0 h)",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465",
+  "skip wk-Q142077465: gate: faceless: no free photo shows 2026 Kraków shooting or the event itself (only 9 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
