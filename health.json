@@ -1,13 +1,15 @@
 {
- "at": "2026-11-07T17:27:41+00:00",
+ "at": "2026-11-07T17:57:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 71 units today",
-  "watch: 1 candidates (0 quakes, 16 trending), 1 hazard alerts",
-  "outlets: 746 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 72 units today",
+  "watch: 3 candidates (0 quakes, 17 trending), 1 hazard alerts",
+  "outlets: 746 headlines from 30 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-polish-attack",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465",
-  "wait wk-Q142077465: gate: the article is under 6 hours old; facts may still move (ready in 3.8 h)",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465, nw-20261107-polish-attack",
+  "wait wk-Q142077465: gate: the article is under 6 hours old; facts may still move (ready in 3.3 h)",
+  "skip nw-20261107-polish-attack: gate: faceless: no free photo shows Polish or the event itself (only 6 photos of places or things near it)",
+  "skip wk-Q922227: gate: no photo on Wikimedia Commons shows Richard Lloyd's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
