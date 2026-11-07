@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T13:43:00+00:00",
+ "at": "2026-11-07T14:10:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -92,83 +92,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "id": "nw-20261106-amsterdam-protest",
-   "qid": null,
-   "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-   "name": "Amsterdam",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-06",
-   "news_at": "2026-11-07T12:01:04+00:00",
-   "owners": [
-    "Euronews",
-    "Disney (ABC News)",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Netherlands: Protesters storm Amsterdam data centre construction site",
-    "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters Climb Crane, Set Off Flares At Microsoft Data Centre Site"
-   ],
-   "places": [
-    "Microsoft",
-    "Climb",
-    "Crane"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-     "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T14:04:46+00:00"
-    },
-    {
-     "title": "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-     "url": "https://abcnews.com/International/wireStory/protesters-break-microsoft-data-center-site-amsterdam-europes-137915154",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T17:43:05+00:00"
-    },
-    {
-     "title": "Protesters Climb Crane, Set Off Flares At Microsoft Data Centre Site",
-     "url": "https://www.ndtv.com/world-news/protesters-climb-crane-set-off-flares-at-microsoft-data-centre-site-in-amsterdam-12297102#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-07T12:01:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q172753",
@@ -442,90 +365,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 746,
+  "headlines": 747,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
-  "corroborated": 2
+  "matched": 19,
+  "corroborated": 1
  },
- "emerging": [
-  {
-   "id": "nw-20261106-amsterdam-protest",
-   "qid": null,
-   "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-   "name": "Amsterdam",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-06",
-   "news_at": "2026-11-07T12:01:04+00:00",
-   "owners": [
-    "Euronews",
-    "Disney (ABC News)",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Netherlands: Protesters storm Amsterdam data centre construction site",
-    "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters Climb Crane, Set Off Flares At Microsoft Data Centre Site"
-   ],
-   "places": [
-    "Microsoft",
-    "Climb",
-    "Crane"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-     "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T14:04:46+00:00"
-    },
-    {
-     "title": "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-     "url": "https://abcnews.com/International/wireStory/protesters-break-microsoft-data-center-site-amsterdam-europes-137915154",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T17:43:05+00:00"
-    },
-    {
-     "title": "Protesters Climb Crane, Set Off Flares At Microsoft Data Centre Site",
-     "url": "https://www.ndtv.com/world-news/protesters-climb-crane-set-off-flares-at-microsoft-data-centre-site-in-amsterdam-12297102#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-07T12:01:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 746 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "emerging": [],
+ "outlet_note": "outlets: 747 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
