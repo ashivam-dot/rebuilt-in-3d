@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T09:13:46+00:00",
+ "at": "2026-11-07T09:42:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -404,101 +404,12 @@
    "lon": "80.2"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261106-amsterdam-protest",
-   "qid": null,
-   "title": "Data center protesters break into Microsoft site in Amsterdam",
-   "name": "Amsterdam",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-06",
-   "news_at": "2026-11-07T04:08:02+00:00",
-   "owners": [
-    "Euronews",
-    "Deutsche Welle",
-    "Disney (ABC News)",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Netherlands: Protesters storm Amsterdam data centre construction site",
-    "Data center protesters break into Microsoft site in Amsterdam",
-    "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters storm site of Microsoft’s planned Amsterdam data centre"
-   ],
-   "places": [
-    "Microsoft"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Data center protesters break into Microsoft site in Amsterdam",
-     "url": "https://www.dw.com/en/data-center-protesters-break-into-microsoft-site-in-amsterdam/a-79879050?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-06T16:38:00+00:00"
-    },
-    {
-     "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T04:08:02+00:00"
-    },
-    {
-     "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-     "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T14:04:46+00:00"
-    },
-    {
-     "title": "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-     "url": "https://abcnews.com/International/wireStory/protesters-break-microsoft-data-center-site-amsterdam-europes-137915154",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T17:43:05+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 768,
+  "headlines": 762,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 27,
   "corroborated": 2
  },
  "emerging": [
@@ -591,5 +502,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 768 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "outlet_note": "outlets: 762 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
 }
