@@ -1009,9 +1009,9 @@
   "kind": "incident"
  },
  "wk-Q6410167": {
-  "count": 3,
+  "count": 4,
   "reason": "gate: only 2 usable photos of Kimmarie Johnson on Wikimedia Commons (want 4)",
-  "at": "2026-11-06T15:28:32+00:00",
+  "at": "2026-11-07T15:45:50+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1055,5 +1055,13 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "nw-20261107-krakow-attack": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Krakow or the event itself (only 4 photos of places or things near it)",
+  "at": "2026-11-07T15:45:49+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }

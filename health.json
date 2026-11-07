@@ -1,9 +1,14 @@
 {
- "at": "2026-11-07T15:14:35+00:00",
+ "at": "2026-11-07T15:42:20+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 66 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 1 hazard alerts",
-  "outlets: 752 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 67 units today",
+  "watch: 3 candidates (0 quakes, 14 trending), 1 hazard alerts",
+  "outlets: 741 headlines from 30 feeds (21 owners), 18 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465",
+  "skip nw-20261107-krakow-attack: gate: faceless: no free photo shows Krakow or the event itself (only 4 photos of places or things near it)",
+  "skip wk-Q6410167: gate: only 2 usable photos of Kimmarie Johnson on Wikimedia Commons (want 4)",
+  "wait wk-Q142077465: gate: the article is under 6 hours old; facts may still move (ready in 5.5 h)",
+  "nothing eligible to publish"
  ]
 }
