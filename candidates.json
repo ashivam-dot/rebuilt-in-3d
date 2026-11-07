@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T15:57:13+00:00",
+ "at": "2026-11-07T16:28:55+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,14 +10,15 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T15:38:00+00:00",
+   "news_at": "2026-11-07T16:23:54+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
     "France Médias Monde",
+    "Deutsche Welle",
+    "NBCUniversal",
     "NDTV",
-    "Independent Digital News",
-    "Deutsche Welle"
+    "Independent Digital News"
    ],
    "fame": 150000,
    "news": 150000,
@@ -27,8 +28,8 @@
     "At least 5 killed, 10 injured in Poland shooting; gunman shot",
     "At least five people killed in shooting in Poland’s Krakow",
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-    "2 Killed, 10 Injured In Shooting Near Main Market Square In Poland's Krakow",
-    "Krakow shooting latest: At least five dead and a dozen injured after gunman opens fire in main square"
+    "Poland: At least 5 killed in shooting in Krakow, police say",
+    "Five people killed, multiple injured in Poland market shooting"
    ],
    "places": [
     "Poland",
@@ -66,14 +67,24 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
-     "title": "Krakow shooting latest: At least five dead and a dozen injured after gunman opens fire in main square",
+     "title": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T15:27:28+00:00"
+     "at": "2026-11-07T16:23:54+00:00"
+    },
+    {
+     "title": "Five killed and at least 10 injured in Krakow shooting",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T16:06:58+00:00"
     },
     {
      "title": "At least five people killed in shooting in Poland’s Krakow",
@@ -86,14 +97,24 @@
      "at": "2026-11-07T15:22:55+00:00"
     },
     {
-     "title": "2 Killed, 10 Injured In Shooting Near Main Market Square In Poland's Krakow",
+     "title": "Five people killed, multiple injured in Poland market shooting",
+     "url": "https://www.nbcnews.com/world/europe/poland-krakow-shooting-rcna608001",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T15:58:06+00:00"
+    },
+    {
+     "title": "5 Killed, 10 Injured In Shooting In Poland's Krakow. Gunman Shot At By Police",
      "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
      "outlet": "NDTV",
      "outlet_hi": "एनडीटीवी",
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-07T15:27:15+00:00"
+     "at": "2026-11-07T16:04:38+00:00"
     },
     {
      "title": "At least 5 killed, 10 injured in Poland shooting; gunman shot",
@@ -110,9 +131,10 @@
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
+    "outlet:NBCUniversal",
     "outlet:NDTV",
-    "outlet:Independent Digital News",
-    "outlet:Deutsche Welle"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -215,7 +237,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T15:57:13.188483+00:00",
+   "news_at": "2026-11-07T16:28:55.476758+00:00",
    "headlines": [
     "Kraków shooting latest updates: five killed and more than a dozen injured, police say"
    ],
@@ -237,12 +259,37 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T15:39:55+00:00"
+     "at": "2026-11-07T16:23:10+00:00"
     }
    ],
    "id": "wk-Q142077465",
    "kind": "incident",
    "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06166339,
+    19.937217
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-07T16:28:55.476758+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w45",
+   "kind": "incident",
+   "category": "protest",
    "date": "2026-11-07",
    "coords": null,
    "has_coords": true
@@ -487,7 +534,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-07T15:57:13.188483+00:00",
+   "news_at": "2026-11-07T16:28:55.476758+00:00",
    "headlines": [
     "Kraków shooting latest updates: five killed and more than a dozen injured, police say"
    ],
@@ -509,14 +556,17 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T15:39:55+00:00"
+     "at": "2026-11-07T16:23:10+00:00"
     }
    ],
    "id": "wk-Q142077465",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "coords": null,
+   "coords": [
+    50.06166339,
+    19.937217
+   ],
    "has_coords": true
   }
  ],
@@ -536,14 +586,15 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T15:38:00+00:00",
+   "news_at": "2026-11-07T16:23:54+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
     "France Médias Monde",
+    "Deutsche Welle",
+    "NBCUniversal",
     "NDTV",
-    "Independent Digital News",
-    "Deutsche Welle"
+    "Independent Digital News"
    ],
    "fame": 150000,
    "news": 150000,
@@ -553,8 +604,8 @@
     "At least 5 killed, 10 injured in Poland shooting; gunman shot",
     "At least five people killed in shooting in Poland’s Krakow",
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-    "2 Killed, 10 Injured In Shooting Near Main Market Square In Poland's Krakow",
-    "Krakow shooting latest: At least five dead and a dozen injured after gunman opens fire in main square"
+    "Poland: At least 5 killed in shooting in Krakow, police say",
+    "Five people killed, multiple injured in Poland market shooting"
    ],
    "places": [
     "Poland",
@@ -592,14 +643,24 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
-     "title": "Krakow shooting latest: At least five dead and a dozen injured after gunman opens fire in main square",
+     "title": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T15:27:28+00:00"
+     "at": "2026-11-07T16:23:54+00:00"
+    },
+    {
+     "title": "Five killed and at least 10 injured in Krakow shooting",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T16:06:58+00:00"
     },
     {
      "title": "At least five people killed in shooting in Poland’s Krakow",
@@ -612,14 +673,24 @@
      "at": "2026-11-07T15:22:55+00:00"
     },
     {
-     "title": "2 Killed, 10 Injured In Shooting Near Main Market Square In Poland's Krakow",
+     "title": "Five people killed, multiple injured in Poland market shooting",
+     "url": "https://www.nbcnews.com/world/europe/poland-krakow-shooting-rcna608001",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T15:58:06+00:00"
+    },
+    {
+     "title": "5 Killed, 10 Injured In Shooting In Poland's Krakow. Gunman Shot At By Police",
      "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
      "outlet": "NDTV",
      "outlet_hi": "एनडीटीवी",
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-07T15:27:15+00:00"
+     "at": "2026-11-07T16:04:38+00:00"
     },
     {
      "title": "At least 5 killed, 10 injured in Poland shooting; gunman shot",
@@ -636,13 +707,15 @@
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
     "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
+    "outlet:NBCUniversal",
     "outlet:NDTV",
-    "outlet:Independent Digital News",
-    "outlet:Deutsche Welle"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 746 headlines from 30 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack"
+ "outlet_note": "outlets: 746 headlines from 30 feeds (21 owners), 19 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+ "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
