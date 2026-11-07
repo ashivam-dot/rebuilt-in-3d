@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T03:26:24+00:00",
+ "at": "2026-11-07T03:56:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -32,25 +32,29 @@
    "kind": "incident",
    "category": "protest",
    "date": "2026-11-06",
-   "news_at": "2026-11-06T21:04:40+00:00",
+   "news_at": "2026-11-07T03:26:18+00:00",
    "owners": [
     "Euronews",
     "Deutsche Welle",
     "Disney (ABC News)",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "NDTV"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Netherlands: Protesters storm Amsterdam data centre construction site",
     "Data center protesters break into Microsoft site in Amsterdam",
     "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters break into Microsoft data centre site in Amsterdam"
+    "Protesters break into Microsoft data centre site in Amsterdam",
+    "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam"
    ],
    "places": [
-    "Microsoft"
+    "Microsoft",
+    "data",
+    "Occupy"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -101,13 +105,24 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-06T17:43:05+00:00"
+    },
+    {
+     "title": "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam",
+     "url": "https://www.ndtv.com/world-news/protesters-occupy-microsofts-planned-data-centre-in-amsterdam-12295503#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-07T03:26:18+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -158,70 +173,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-05"
-  },
-  {
-   "qid": "Q285102",
-   "title": "Jay Rockefeller",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-11-06T18:58:34+00:00",
-   "headlines": [
-    "Ex-US Senator Jay Rockefeller, Last Member Of His Political Dynasty, Dies At 89",
-    "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
-    "Jay Rockefeller, former West Virginia governor and US senator, dies at 89"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ex-US Senator Jay Rockefeller, Last Member Of His Political Dynasty, Dies At 89",
-    "google-news:Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
-    "google-news:Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-    "outlet:NDTV",
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "NDTV",
-    "Independent Digital News",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Ex-US Senator Jay Rockefeller, Last Member Of His Political Dynasty, Dies At 89",
-     "url": "https://www.ndtv.com/world-news/ex-us-senator-jay-rockefeller-last-member-of-his-political-dynasty-dies-at-89-12294780#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-06T18:58:34+00:00"
-    },
-    {
-     "title": "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
-     "url": "https://www.independent.co.uk/news/world/americas/jay-rockefeller-dead-west-virginia-governor-b3080744.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T18:17:10+00:00"
-    },
-    {
-     "title": "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-     "url": "https://abcnews.com/Politics/wireStory/jay-rockefeller-former-west-virginia-governor-us-senator-137911360",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-06T15:30:19+00:00"
-    }
-   ],
-   "id": "wk-Q285102",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
   },
   {
    "qid": "Q116992476",
@@ -299,6 +250,56 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q285102",
+   "title": "Jay Rockefeller",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-06T18:17:10+00:00",
+   "headlines": [
+    "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+    "Jay Rockefeller, former West Virginia governor and US senator, dies at 89"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+    "google-news:Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Jay Rockefeller last of political dynasty and West Virginia champion dies at 89",
+     "url": "https://www.independent.co.uk/news/world/americas/jay-rockefeller-dead-west-virginia-governor-b3080744.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-06T18:17:10+00:00"
+    },
+    {
+     "title": "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
+     "url": "https://abcnews.com/Politics/wireStory/jay-rockefeller-former-west-virginia-governor-us-senator-137911360",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-06T15:30:19+00:00"
+    }
+   ],
+   "id": "wk-Q285102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
   },
   {
    "qid": "Q141966885",
@@ -484,12 +485,33 @@
    "lon": "80.2"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q116992476",
+   "title": "Jesús de Miguel",
+   "fame": 72137,
+   "views": 72137,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-05"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q116992476",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  }
+ ],
  "outlets": {
   "headlines": 787,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 32,
   "corroborated": 2
  },
  "emerging": [
@@ -501,25 +523,29 @@
    "kind": "incident",
    "category": "protest",
    "date": "2026-11-06",
-   "news_at": "2026-11-06T21:04:40+00:00",
+   "news_at": "2026-11-07T03:26:18+00:00",
    "owners": [
     "Euronews",
     "Deutsche Welle",
     "Disney (ABC News)",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "NDTV"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Netherlands: Protesters storm Amsterdam data centre construction site",
     "Data center protesters break into Microsoft site in Amsterdam",
     "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters break into Microsoft data centre site in Amsterdam"
+    "Protesters break into Microsoft data centre site in Amsterdam",
+    "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam"
    ],
    "places": [
-    "Microsoft"
+    "Microsoft",
+    "data",
+    "Occupy"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -570,17 +596,28 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-06T17:43:05+00:00"
+    },
+    {
+     "title": "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam",
+     "url": "https://www.ndtv.com/world-news/protesters-occupy-microsofts-planned-data-centre-in-amsterdam-12295503#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-07T03:26:18+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 36 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
 }
