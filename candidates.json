@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T04:27:47+00:00",
+ "at": "2026-11-07T04:57:14+00:00",
  "quakes": [],
  "trending": [
   {
@@ -432,56 +432,12 @@
    "lon": "80.2"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q5962128",
-   "title": "Michael Locke (stuntman)",
-   "fame": 92092,
-   "views": 92092,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5962128",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
-  {
-   "qid": "Q77206",
-   "title": "Janosch",
-   "fame": 10546,
-   "views": 10546,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q77206",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-03"
-  }
- ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 134 people)"
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 784,
+  "headlines": 780,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 25,
   "corroborated": 2
  },
  "emerging": [
@@ -599,5 +555,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
 }
