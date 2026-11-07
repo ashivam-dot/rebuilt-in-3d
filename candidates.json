@@ -1,30 +1,7 @@
 {
- "at": "2026-11-07T06:26:56+00:00",
+ "at": "2026-11-07T06:57:05+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q4250213",
-   "title": "Sebastián Lelio",
-   "fame": 140917,
-   "views": 15917,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-06T19:23:00+00:00",
-   "headlines": [
-    "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06",
-    "google-news:Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4250213",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
   {
    "id": "nw-20261106-amsterdam-protest",
    "qid": null,
@@ -38,8 +15,8 @@
     "Euronews",
     "Deutsche Welle",
     "Disney (ABC News)",
-    "Al Jazeera Media Network",
-    "NDTV"
+    "NDTV",
+    "Al Jazeera Media Network"
    ],
    "fame": 125000,
    "news": 125000,
@@ -49,8 +26,8 @@
     "Netherlands: Protesters storm Amsterdam data centre construction site",
     "Data center protesters break into Microsoft site in Amsterdam",
     "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters break into Microsoft data centre site in Amsterdam",
-    "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam"
+    "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam",
+    "Protesters storm site of Microsoft’s planned Amsterdam data centre"
    ],
    "places": [
     "Microsoft",
@@ -88,16 +65,6 @@
      "at": "2026-11-07T04:08:02+00:00"
     },
     {
-     "title": "Protesters break into Microsoft data centre site in Amsterdam",
-     "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T21:04:40+00:00"
-    },
-    {
      "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
      "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
      "outlet": "Euronews",
@@ -132,8 +99,8 @@
     "outlet:Euronews",
     "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -359,6 +326,26 @@
    "has_coords": true
   },
   {
+   "qid": "Q4250213",
+   "title": "Sebastián Lelio",
+   "fame": 15917,
+   "views": 15917,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-06"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4250213",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
    "qid": "Q77206",
    "title": "Janosch",
    "fame": 10546,
@@ -434,10 +421,10 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 777,
+  "headlines": 775,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
+  "matched": 21,
   "corroborated": 2
  },
  "emerging": [
@@ -454,8 +441,8 @@
     "Euronews",
     "Deutsche Welle",
     "Disney (ABC News)",
-    "Al Jazeera Media Network",
-    "NDTV"
+    "NDTV",
+    "Al Jazeera Media Network"
    ],
    "fame": 125000,
    "news": 125000,
@@ -465,8 +452,8 @@
     "Netherlands: Protesters storm Amsterdam data centre construction site",
     "Data center protesters break into Microsoft site in Amsterdam",
     "Protesters break into Microsoft data center in Amsterdam as Europe backlash spreads",
-    "Protesters break into Microsoft data centre site in Amsterdam",
-    "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam"
+    "Protesters Occupy Microsoft's Planned Data Centre In Amsterdam",
+    "Protesters storm site of Microsoft’s planned Amsterdam data centre"
    ],
    "places": [
     "Microsoft",
@@ -504,16 +491,6 @@
      "at": "2026-11-07T04:08:02+00:00"
     },
     {
-     "title": "Protesters break into Microsoft data centre site in Amsterdam",
-     "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-06T21:04:40+00:00"
-    },
-    {
      "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
      "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
      "outlet": "Euronews",
@@ -548,12 +525,12 @@
     "outlet:Euronews",
     "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 777 headlines from 30 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
+ "outlet_note": "outlets: 775 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
 }
