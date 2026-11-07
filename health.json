@@ -1,9 +1,10 @@
 {
- "at": "2026-11-07T12:12:31+00:00",
+ "at": "2026-11-07T12:42:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
-  "watch: 0 candidates (0 quakes, 11 trending), 1 hazard alerts",
-  "outlets: 753 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+  "learn: 64 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.2}, 'kind:death': {'n': 27, 'lift': 1.264, 'typical_views_24h': 369, 'n_retention': 23, 'typical_view_pct': 54.0}, 'kind:incident': {'n': 29, 'lift': 0.932, 'typical_views_24h': 170, 'n_retention': 27, 'typical_view_pct': 58.2}, 'category:death': {'n': 26, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
+  "watch: 0 candidates (0 quakes, 13 trending), 1 hazard alerts",
+  "outlets: 753 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261106-amsterdam-protest"
  ]
 }
