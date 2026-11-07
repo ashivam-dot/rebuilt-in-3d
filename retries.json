@@ -921,9 +921,9 @@
   "kind": "incident"
  },
  "wk-Q77206": {
-  "count": 3,
+  "count": 4,
   "reason": "gate: only 3 usable photos of Janosch on Wikimedia Commons (want 4)",
-  "at": "2026-11-05T03:55:15+00:00",
+  "at": "2026-11-07T04:33:41+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1047,5 +1047,13 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q5962128": {
+  "count": 1,
+  "reason": "gate: only 1 usable photos of Michael Locke on Wikimedia Commons (want 4)",
+  "at": "2026-11-07T04:33:38+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
