@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T14:10:49+00:00",
+ "at": "2026-11-07T14:44:19+00:00",
  "quakes": [],
  "trending": [
   {
@@ -232,44 +232,6 @@
    "date": "2026-11-03"
   },
   {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-07T12:36:57+00:00",
-   "headlines": [
-    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T12:36:57+00:00"
-    }
-   ],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q4250213",
    "title": "Sebastián Lelio",
    "fame": 15917,
@@ -364,13 +326,16 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.6 h ago, 137 people)"
+ ],
  "outlets": {
-  "headlines": 747,
+  "headlines": 745,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 16,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 747 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 16 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
