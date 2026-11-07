@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T19:27:45+00:00",
+ "at": "2026-11-07T19:59:33+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,13 +10,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T18:37:36+00:00",
+   "news_at": "2026-11-07T19:53:24+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
     "France Médias Monde",
     "Deutsche Welle",
     "NBCUniversal",
+    "ABC (Australia)",
     "Independent Digital News",
     "NPR"
    ],
@@ -33,7 +34,8 @@
    ],
    "places": [
     "Polish",
-    "Poland"
+    "Poland",
+    "Witnesses"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -56,6 +58,16 @@
      "at": "2026-11-07T18:37:36+00:00"
     },
     {
+     "title": "At least six killed in shooting in Krakow's market square",
+     "url": "https://www.abc.net.au/news/2026-11-08/deadly-shooting-in-krakow-market-poland/107360360",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T16:35:40+00:00"
+    },
+    {
      "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
      "url": "https://www.dw.com/en/at-least-6-killed-in-shooting-in-polish-city-of-krakow-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
@@ -74,6 +86,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T15:26:49+00:00"
+    },
+    {
+     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as six people killed",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:53:24+00:00"
     },
     {
      "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
@@ -104,26 +126,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T15:22:55+00:00"
-    },
-    {
-     "title": "Six people killed, at least a dozen injured in shooting at main market square of Krakow, Poland",
-     "url": "https://www.nbcnews.com/world/europe/poland-krakow-shooting-rcna608001",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T15:58:06+00:00"
-    },
-    {
-     "title": "At least 6 killed, 15 injured in Poland shooting; gunman shot",
-     "url": "https://timesofindia.indiatimes.com/world/europe/at-least-6-killed-15-wounded-in-poland-shooting-gunman-shot/articleshow/135640186.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-07T15:18:35+00:00"
     }
    ],
    "via": [
@@ -132,34 +134,12 @@
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
+    "outlet:ABC (Australia)",
     "outlet:Independent Digital News",
     "outlet:NPR"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q4250213",
-   "title": "Sebastián Lelio",
-   "fame": 140917,
-   "views": 15917,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-06T19:23:00+00:00",
-   "headlines": [
-    "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06",
-    "google-news:Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4250213",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
   },
   {
    "qid": "Q922227",
@@ -168,13 +148,13 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-07T16:28:15+00:00",
+   "news_at": "2026-11-07T17:11:52+00:00",
    "headlines": [
-    "Richard Lloyd, Television’s Virtuoso Guitarist, Dead at 75"
+    "Richard Lloyd, Television Guitarist, Dies at 75"
    ],
    "region": "world",
    "via": [
-    "google-news:Richard Lloyd, Television’s Virtuoso Guitarist, Dead at 75"
+    "google-news:Richard Lloyd, Television Guitarist, Dies at 75"
    ],
    "owners": [],
    "reports": [],
@@ -190,24 +170,34 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T19:27:45.773903+00:00",
+   "news_at": "2026-11-07T19:59:33.264124+00:00",
    "headlines": [
-    "Video shows people fleeing as gunman opens fire in Kraków, Poland",
-    "Kraków shooting latest updates: six killed and more than a dozen injured, police say"
+    "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-07",
-    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
     "google-news:Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-    "outlet:Euronews",
-    "outlet:Guardian Media Group"
+    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews"
    ],
    "owners": [
-    "Euronews",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "Euronews"
    ],
    "reports": [
+    {
+     "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+     "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:36:28+00:00"
+    },
     {
      "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
      "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
@@ -217,16 +207,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T19:15:23+00:00"
-    },
-    {
-     "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-     "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:02:28+00:00"
     },
     {
      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
@@ -256,7 +236,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T19:27:45.773903+00:00",
+   "news_at": "2026-11-07T19:59:33.264124+00:00",
    "headlines": [
     "Clashes in Paris after new French protests",
     "Live: French student unions say 250,000 people took part in Saturday’s protests"
@@ -382,9 +362,9 @@
   {
    "qid": "Q172753",
    "title": "Alan Jones (racing driver)",
-   "fame": 38064,
+   "fame": 37064,
    "views": 12064,
-   "traffic": 1000,
+   "traffic": 0,
    "news": 25000,
    "news_at": "2026-11-07T01:05:10+00:00",
    "headlines": [
@@ -393,7 +373,6 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-06",
-    "google-trends-GB:alan jones",
     "google-news:Triumph, tragedy and Alan Jones's drive to survive F1's deadliest era",
     "outlet:ABC (Australia)"
    ],
@@ -557,6 +536,26 @@
    "date": "2026-11-03"
   },
   {
+   "qid": "Q4250213",
+   "title": "Sebastián Lelio",
+   "fame": 15917,
+   "views": 15917,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-06"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4250213",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
    "qid": "Q77206",
    "title": "Janosch",
    "fame": 10546,
@@ -632,30 +631,60 @@
  ],
  "candidates": [
   {
+   "qid": "Q5962128",
+   "title": "Michael Locke (stuntman)",
+   "fame": 92092,
+   "views": 92092,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-06"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5962128",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
    "fame": 100000,
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-07T19:27:45.773903+00:00",
+   "news_at": "2026-11-07T19:59:33.264124+00:00",
    "headlines": [
-    "Video shows people fleeing as gunman opens fire in Kraków, Poland",
-    "Kraków shooting latest updates: six killed and more than a dozen injured, police say"
+    "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-07",
-    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
     "google-news:Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-    "outlet:Euronews",
-    "outlet:Guardian Media Group"
+    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews"
    ],
    "owners": [
-    "Euronews",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "Euronews"
    ],
    "reports": [
+    {
+     "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+     "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:36:28+00:00"
+    },
     {
      "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
      "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
@@ -665,16 +694,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T19:15:23+00:00"
-    },
-    {
-     "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-     "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:02:28+00:00"
     },
     {
      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
@@ -702,7 +721,7 @@
   "headlines": 740,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
+  "matched": 28,
   "corroborated": 3
  },
  "emerging": [
@@ -714,13 +733,14 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T18:37:36+00:00",
+   "news_at": "2026-11-07T19:53:24+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
     "France Médias Monde",
     "Deutsche Welle",
     "NBCUniversal",
+    "ABC (Australia)",
     "Independent Digital News",
     "NPR"
    ],
@@ -737,7 +757,8 @@
    ],
    "places": [
     "Polish",
-    "Poland"
+    "Poland",
+    "Witnesses"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -760,6 +781,16 @@
      "at": "2026-11-07T18:37:36+00:00"
     },
     {
+     "title": "At least six killed in shooting in Krakow's market square",
+     "url": "https://www.abc.net.au/news/2026-11-08/deadly-shooting-in-krakow-market-poland/107360360",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T16:35:40+00:00"
+    },
+    {
      "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
      "url": "https://www.dw.com/en/at-least-6-killed-in-shooting-in-polish-city-of-krakow-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
@@ -778,6 +809,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T15:26:49+00:00"
+    },
+    {
+     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as six people killed",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:53:24+00:00"
     },
     {
      "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
@@ -808,26 +849,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T15:22:55+00:00"
-    },
-    {
-     "title": "Six people killed, at least a dozen injured in shooting at main market square of Krakow, Poland",
-     "url": "https://www.nbcnews.com/world/europe/poland-krakow-shooting-rcna608001",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T15:58:06+00:00"
-    },
-    {
-     "title": "At least 6 killed, 15 injured in Poland shooting; gunman shot",
-     "url": "https://timesofindia.indiatimes.com/world/europe/at-least-6-killed-15-wounded-in-poland-shooting-gunman-shot/articleshow/135640186.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-07T15:18:35+00:00"
     }
    ],
    "via": [
@@ -836,6 +857,7 @@
     "outlet:France Médias Monde",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
+    "outlet:ABC (Australia)",
     "outlet:Independent Digital News",
     "outlet:NPR"
    ],
@@ -843,6 +865,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 740 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 740 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
