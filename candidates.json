@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T02:59:30+00:00",
+ "at": "2026-11-08T03:27:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -146,7 +146,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T01:21:38+00:00",
+   "news_at": "2026-11-08T02:35:12+00:00",
    "owners": [
     "NBCUniversal",
     "SCMP Group",
@@ -260,7 +260,7 @@
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-08T01:21:38+00:00"
+     "at": "2026-11-08T02:35:12+00:00"
     }
    ],
    "via": [
@@ -523,6 +523,30 @@
    "has_coords": true
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-07T00:27:00+00:00",
+   "headlines": [
+    "Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q922227",
    "title": "Richard Lloyd (guitarist)",
    "fame": 25000,
@@ -677,11 +701,8 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 124 people)"
- ],
  "outlets": {
-  "headlines": 695,
+  "headlines": 684,
   "feeds": 29,
   "owners": 20,
   "matched": 36,
@@ -832,7 +853,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T01:21:38+00:00",
+   "news_at": "2026-11-08T02:35:12+00:00",
    "owners": [
     "NBCUniversal",
     "SCMP Group",
@@ -946,7 +967,7 @@
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-08T01:21:38+00:00"
+     "at": "2026-11-08T02:35:12+00:00"
     }
    ],
    "via": [
@@ -962,6 +983,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 695 headlines from 29 feeds (20 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 684 headlines from 29 feeds (20 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
