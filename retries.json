@@ -1057,9 +1057,9 @@
   "kind": "death"
  },
  "nw-20261107-krakow-attack": {
-  "count": 2,
-  "reason": "gate: faceless: no free photo shows Krakow or the event itself (only 8 photos of places or things near it)",
-  "at": "2026-11-07T19:02:15+00:00",
+  "count": 3,
+  "reason": "gate: faceless: no free photo shows Krakow or the event itself (only 4 photos of places or things near it)",
+  "at": "2026-11-08T07:04:01+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
@@ -1084,6 +1084,14 @@
   "count": 2,
   "reason": "gate: faceless: no free photo shows 2026 Kraków shooting or the event itself (only 9 photos of places or things near it)",
   "at": "2026-11-08T01:01:21+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261107-yemen-strike": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Yemen or the event itself (only 0 photos of places or things near it)",
+  "at": "2026-11-08T07:04:08+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

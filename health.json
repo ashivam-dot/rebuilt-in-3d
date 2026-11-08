@@ -1,11 +1,14 @@
 {
- "at": "2026-11-08T06:28:52+00:00",
+ "at": "2026-11-08T07:00:36+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 98 units today",
-  "watch: 1 candidates (0 quakes, 20 trending), 0 hazard alerts",
-  "outlets: 671 headlines from 30 feeds (21 owners), 23 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 99 units today",
+  "watch: 2 candidates (0 quakes, 19 trending), 0 hazard alerts",
+  "outlets: 669 headlines from 30 feeds (21 owners), 24 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "hold nw-20261107-yemen-strike: outside the world window"
+  "ad-suitability x0.85 (attack, not breaking): nw-20261107-krakow-attack",
+  "skip nw-20261107-krakow-attack: gate: faceless: no free photo shows Krakow or the event itself (only 4 photos of places or things near it)",
+  "skip nw-20261107-yemen-strike: gate: faceless: no free photo shows Yemen or the event itself (only 0 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
