@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T16:29:09+00:00",
+ "at": "2026-11-08T17:01:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -62,16 +62,6 @@
      "at": "2026-11-08T11:50:15+00:00"
     },
     {
-     "title": "Briton among six dead after gunman opens fire in Kraków market square",
-     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T09:30:22+00:00"
-    },
-    {
      "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
      "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
      "outlet": "Euronews",
@@ -102,7 +92,6 @@
    "date": "2026-11-07",
    "news_at": "2026-11-08T14:55:18+00:00",
    "owners": [
-    "SCMP Group",
     "Deutsche Welle",
     "Euronews",
     "NBCUniversal",
@@ -218,13 +207,123 @@
     }
    ],
    "via": [
-    "outlet:SCMP Group",
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:NBCUniversal",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261108-egypt-rail",
+   "qid": null,
+   "title": "Egypt train crash leaves several dead, many injured",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T16:49:00+00:00",
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "SCMP Group",
+    "BBC",
+    "Al Jazeera Media Network",
+    "Deutsche Welle"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
+    "Train collision in Egypt kills 4, injures 88",
+    "Footage shows derailed carriages after fatal train crash in Egypt",
+    "Four killed, 88 injured in train collision in Egypt",
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Egypt train crash leaves several dead, many injured",
+     "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-many-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:49:00+00:00"
+    },
+    {
+     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
+     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:05:57+00:00"
+    },
+    {
+     "title": "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+     "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T16:37:20+00:00"
+    },
+    {
+     "title": "Four killed, 88 injured in train collision in Egypt",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T16:31:54+00:00"
+    },
+    {
+     "title": "Train collision in Egypt kills 4, injures 88",
+     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T14:56:42+00:00"
+    },
+    {
+     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T14:29:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -367,79 +466,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "id": "nw-20261108-egypt-rail",
-   "qid": null,
-   "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-   "name": "Egypt",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T16:05:57+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "SCMP Group",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-    "Train collision in Egypt kills 4, injures 88",
-    "Footage shows derailed carriages after fatal train crash in Egypt"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T16:05:57+00:00"
-    },
-    {
-     "title": "Train collision in Egypt kills 4, injures 88",
-     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T14:56:42+00:00"
-    },
-    {
-     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T14:29:03+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:SCMP Group",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q285102",
@@ -632,27 +658,31 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261108-egypt-rail",
+   "id": "nw-20261108-senegal-maritime",
    "qid": null,
-   "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-   "name": "Egypt",
+   "title": "At least 21 killed after migrant boat sinks off Senegal",
+   "name": "Senegal",
    "kind": "incident",
-   "category": "rail",
+   "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T16:05:57+00:00",
+   "news_at": "2026-11-08T15:37:28+00:00",
    "owners": [
+    "Euronews",
     "Bennett, Coleman & Co.",
-    "SCMP Group",
-    "BBC"
+    "Al Jazeera Media Network",
+    "Deutsche Welle",
+    "Disney (ABC News)"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-    "Train collision in Egypt kills 4, injures 88",
-    "Footage shows derailed carriages after fatal train crash in Egypt"
+    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+    "At least 21 dead as small boat sinks off Senegal",
+    "At least 21 killed after migrant boat sinks off Senegal",
+    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says"
    ],
    "places": [],
    "attackers": [],
@@ -666,50 +696,72 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "At least 21 killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T16:05:57+00:00"
+     "at": "2026-11-08T13:48:00+00:00"
     },
     {
-     "title": "Train collision in Egypt kills 4, injures 88",
-     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
+     "title": "At least 21 dead as small boat sinks off Senegal",
+     "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-08T14:56:42+00:00"
+     "at": "2026-11-08T13:32:17+00:00"
     },
     {
-     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
+     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T10:01:49+00:00"
+    },
+    {
+     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T15:37:28+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
      "outlet": "Times of India",
      "outlet_hi": "टाइम्स ऑफ़ इंडिया",
      "owner": "Bennett, Coleman & Co.",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-08T14:29:03+00:00"
+     "at": "2026-11-08T12:46:51+00:00"
     }
    ],
    "via": [
+    "outlet:Euronews",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:SCMP Group",
-    "outlet:BBC"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
   }
  ],
  "outlets": {
-  "headlines": 664,
+  "headlines": 671,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 35,
   "corroborated": 4
  },
  "emerging": [
@@ -723,7 +775,6 @@
    "date": "2026-11-07",
    "news_at": "2026-11-08T14:55:18+00:00",
    "owners": [
-    "SCMP Group",
     "Deutsche Welle",
     "Euronews",
     "NBCUniversal",
@@ -839,13 +890,123 @@
     }
    ],
    "via": [
-    "outlet:SCMP Group",
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:NBCUniversal",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261108-egypt-rail",
+   "qid": null,
+   "title": "Egypt train crash leaves several dead, many injured",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T16:49:00+00:00",
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "SCMP Group",
+    "BBC",
+    "Al Jazeera Media Network",
+    "Deutsche Welle"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
+    "Train collision in Egypt kills 4, injures 88",
+    "Footage shows derailed carriages after fatal train crash in Egypt",
+    "Four killed, 88 injured in train collision in Egypt",
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Egypt train crash leaves several dead, many injured",
+     "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-many-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:49:00+00:00"
+    },
+    {
+     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
+     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:05:57+00:00"
+    },
+    {
+     "title": "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+     "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T16:37:20+00:00"
+    },
+    {
+     "title": "Four killed, 88 injured in train collision in Egypt",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T16:31:54+00:00"
+    },
+    {
+     "title": "Train collision in Egypt kills 4, injures 88",
+     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T14:56:42+00:00"
+    },
+    {
+     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T14:29:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -948,81 +1109,8 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261108-egypt-rail",
-   "qid": null,
-   "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-   "name": "Egypt",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T16:05:57+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "SCMP Group",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-    "Train collision in Egypt kills 4, injures 88",
-    "Footage shows derailed carriages after fatal train crash in Egypt"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T16:05:57+00:00"
-    },
-    {
-     "title": "Train collision in Egypt kills 4, injures 88",
-     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T14:56:42+00:00"
-    },
-    {
-     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T14:29:03+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:SCMP Group",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 664 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-senegal-maritime, nw-20261108-egypt-rail",
+ "outlet_note": "outlets: 671 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
