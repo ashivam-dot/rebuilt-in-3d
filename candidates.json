@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T13:45:04+00:00",
+ "at": "2026-11-08T14:14:05+00:00",
  "quakes": [],
  "trending": [
   {
@@ -215,15 +215,16 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T09:43:00+00:00",
+   "news_at": "2026-11-08T13:59:43+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
     "NBCUniversal",
-    "France Médias Monde"
+    "France Médias Monde",
+    "Paramount (CBS)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -287,6 +288,16 @@
      "at": "2026-11-07T16:33:05+00:00"
     },
     {
+     "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
+     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T13:59:43+00:00"
+    },
+    {
      "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
      "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
      "outlet": "NBC News",
@@ -301,7 +312,94 @@
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261108-senegal-maritime",
+   "qid": null,
+   "title": "At least 21 killed after migrant boat sinks off Senegal",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T13:48:00+00:00",
+   "owners": [
+    "Euronews",
+    "Bennett, Coleman & Co.",
+    "Al Jazeera Media Network",
+    "Deutsche Welle"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+    "At least 21 dead as small boat sinks off Senegal",
+    "At least 21 killed after migrant boat sinks off Senegal"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 21 killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T13:48:00+00:00"
+    },
+    {
+     "title": "At least 21 dead as small boat sinks off Senegal",
+     "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T13:32:17+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T10:01:49+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T12:46:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -345,79 +443,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "id": "nw-20261108-senegal-maritime",
-   "qid": null,
-   "title": "At least 21 dead as small boat sinks off Senegal",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T13:32:17+00:00",
-   "owners": [
-    "Euronews",
-    "Bennett, Coleman & Co.",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "At least 21 dead as small boat sinks off Senegal"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "At least 21 dead as small boat sinks off Senegal",
-     "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T13:32:17+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T10:01:49+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T12:46:51+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q285102",
@@ -605,92 +630,356 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q1355646",
+   "title": "John Nicks",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:john nicks"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1355646",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
   }
  ],
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261108-senegal-maritime",
-   "qid": null,
-   "title": "At least 21 dead as small boat sinks off Senegal",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T13:32:17+00:00",
-   "owners": [
-    "Euronews",
-    "Bennett, Coleman & Co.",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
+   "qid": "Q2064558",
+   "title": "Vezhdi Rashidov",
+   "fame": 3592,
+   "views": 3592,
    "traffic": 0,
-   "headlines": [
-    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "At least 21 dead as small boat sinks off Senegal"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "At least 21 dead as small boat sinks off Senegal",
-     "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T13:32:17+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T10:01:49+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T12:46:51+00:00"
-    }
-   ],
    "via": [
-    "outlet:Euronews",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Al Jazeera Media Network"
+    "quiet day"
    ],
-   "emerging": true,
-   "article": null
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2064558",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
+   "qid": "Q6003298",
+   "title": "María Alicia Delgado",
+   "fame": 7770,
+   "views": 7770,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6003298",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
+   "qid": "Q1713901",
+   "title": "Yuri Kayurov",
+   "fame": 1690,
+   "views": 1690,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1713901",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
+   "qid": "Q1150359",
+   "title": "Gianpietro Marchetti",
+   "fame": 2130,
+   "views": 2130,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1150359",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
+  },
+  {
+   "qid": "Q601273",
+   "title": "Antonio Carattoni",
+   "fame": 1971,
+   "views": 1971,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q601273",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
+  },
+  {
+   "qid": "Q2266133",
+   "title": "Toni Brogno",
+   "fame": 4929,
+   "views": 4929,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2266133",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  },
+  {
+   "qid": "Q2316839",
+   "title": "Gianluca Pierobon",
+   "fame": 1903,
+   "views": 1903,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2316839",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
+  },
+  {
+   "qid": "Q1768595",
+   "title": "Moysés Blás",
+   "fame": 1146,
+   "views": 1146,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1768595",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
+   "qid": "Q5749540",
+   "title": "Carlos Albert (footballer)",
+   "fame": 3691,
+   "views": 3691,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5749540",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  },
+  {
+   "qid": "Q15134166",
+   "title": "Vadim Crîcimari",
+   "fame": 1985,
+   "views": 1985,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q15134166",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
+   "qid": "Q1589854",
+   "title": "Mikhail Vasiliev",
+   "fame": 1196,
+   "views": 1196,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1589854",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
+  },
+  {
+   "qid": "Q15178137",
+   "title": "Ali-Asghar Fani",
+   "fame": 1151,
+   "views": 1151,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q15178137",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
+  },
+  {
+   "qid": "Q4067871",
+   "title": "Edward Anyamkyegh",
+   "fame": 1868,
+   "views": 1868,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4067871",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  },
+  {
+   "qid": "Q3805618",
+   "title": "Jack Mapanje",
+   "fame": 1100,
+   "views": 1100,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3805618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
+   "qid": "Q897871",
+   "title": "Lonnie Thompson",
+   "fame": 1680,
+   "views": 1680,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q897871",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
+  },
+  {
+   "qid": "Q1355646",
+   "title": "John Nicks",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:john nicks"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1355646",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-03"
   }
  ],
- "trend_errors": [
-  "gdacs: HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7fb463106a5"
- ],
  "outlets": {
-  "headlines": 654,
+  "headlines": 656,
   "feeds": 29,
   "owners": 21,
-  "matched": 25,
+  "matched": 30,
   "corroborated": 4
  },
  "emerging": [
@@ -827,15 +1116,16 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T09:43:00+00:00",
+   "news_at": "2026-11-08T13:59:43+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
     "NBCUniversal",
-    "France Médias Monde"
+    "France Médias Monde",
+    "Paramount (CBS)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -899,6 +1189,16 @@
      "at": "2026-11-07T16:33:05+00:00"
     },
     {
+     "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
+     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T13:59:43+00:00"
+    },
+    {
      "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
      "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
      "outlet": "NBC News",
@@ -913,7 +1213,8 @@
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -921,25 +1222,27 @@
   {
    "id": "nw-20261108-senegal-maritime",
    "qid": null,
-   "title": "At least 21 dead as small boat sinks off Senegal",
+   "title": "At least 21 killed after migrant boat sinks off Senegal",
    "name": "Senegal",
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T13:32:17+00:00",
+   "news_at": "2026-11-08T13:48:00+00:00",
    "owners": [
     "Euronews",
     "Bennett, Coleman & Co.",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "Deutsche Welle"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
     "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "At least 21 dead as small boat sinks off Senegal"
+    "At least 21 dead as small boat sinks off Senegal",
+    "At least 21 killed after migrant boat sinks off Senegal"
    ],
    "places": [],
    "attackers": [],
@@ -952,6 +1255,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "At least 21 killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T13:48:00+00:00"
+    },
     {
      "title": "At least 21 dead as small boat sinks off Senegal",
      "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
@@ -986,13 +1299,14 @@
    "via": [
     "outlet:Euronews",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 654 headlines from 29 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 656 headlines from 29 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
- "hazards_error": "HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7fb45b9af3e0>, 'Co"
+ "quiet_note": "quiet day (no Short yet today): 15 tribute candidates: María Alicia Delgado, Toni Brogno, Carlos Albert (footballer), Vezhdi Rashidov"
 }
