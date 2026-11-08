@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T08:28:52+00:00",
+ "at": "2026-11-08T09:00:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,7 +10,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T06:05:34+00:00",
+   "news_at": "2026-11-08T00:50:28+00:00",
    "owners": [
     "France Médias Monde",
     "NPR",
@@ -65,16 +65,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T15:26:49+00:00"
-    },
-    {
-     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T06:05:34+00:00"
     },
     {
      "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
@@ -148,13 +138,13 @@
    "news": 50000,
    "news_at": "2026-11-08T06:06:46+00:00",
    "headlines": [
-    "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+    "Briton among six dead after gunman opens fire in Kraków market square",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-07",
-    "google-news:Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+    "google-news:Briton among six dead after gunman opens fire in Kraków market square",
     "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
     "outlet:Guardian Media Group",
     "outlet:Euronews"
@@ -165,7 +155,7 @@
    ],
    "reports": [
     {
-     "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+     "title": "Briton among six dead after gunman opens fire in Kraków market square",
      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
@@ -724,33 +714,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q312472",
-   "title": "Tinto Brass",
-   "fame": 9307,
-   "views": 9307,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q312472",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  }
- ],
+ "candidates": [],
  "outlets": {
   "headlines": 662,
   "feeds": 30,
   "owners": 21,
-  "matched": 22,
+  "matched": 20,
   "corroborated": 4
  },
  "emerging": [
@@ -762,7 +731,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T06:05:34+00:00",
+   "news_at": "2026-11-08T00:50:28+00:00",
    "owners": [
     "France Médias Monde",
     "NPR",
@@ -817,16 +786,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T15:26:49+00:00"
-    },
-    {
-     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T06:05:34+00:00"
     },
     {
      "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
@@ -1057,6 +1016,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 662 headlines from 30 feeds (21 owners), 22 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
+ "outlet_note": "outlets: 662 headlines from 30 feeds (21 owners), 20 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
