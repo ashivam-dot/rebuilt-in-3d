@@ -1,32 +1,7 @@
 {
- "at": "2026-11-08T22:29:38+00:00",
+ "at": "2026-11-08T22:59:53+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-08T22:29:38.267507+00:00",
-   "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
@@ -594,6 +569,28 @@
    "has_coords": true
   },
   {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-08T22:59:53.840108+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q116992476",
    "title": "Jesús de Miguel",
    "fame": 33819,
@@ -744,18 +741,15 @@
   {
    "qid": "Q142086610",
    "title": "2026 El Ayyat train collision",
-   "fame": 175000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-08T22:29:38.267507+00:00",
-   "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "region": "india",
+   "news": 0,
+   "news_at": "2026-11-08T22:59:53.840108+00:00",
+   "headlines": [],
+   "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
+    "wikipedia-current-events-2026-11-08"
    ],
    "owners": [],
    "reports": [],
@@ -765,187 +759,13 @@
    "date": "2026-11-08",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "id": "nw-20261108-amsterdam-protest",
-   "qid": null,
-   "title": "Netherlands: Sea of red fills Amsterdam streets in Gaza protest",
-   "name": "Amsterdam",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T22:18:56+00:00",
-   "owners": [
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Tens of thousands of Dutch protesters take to Amsterdam streets to support Palestinians",
-    "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
-    "Netherlands: Sea of red fills Amsterdam streets in Gaza protest"
-   ],
-   "places": [
-    "Dutch",
-    "Red",
-    "Line’"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Netherlands: Sea of red fills Amsterdam streets in Gaza protest",
-     "url": "https://www.euronews.com/video/2026/11/08/netherlands-sea-of-red-fills-amsterdam-streets-in-gaza-protest",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T22:18:56+00:00"
-    },
-    {
-     "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
-     "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T17:44:51+00:00"
-    },
-    {
-     "title": "Tens of thousands of Dutch protesters take to Amsterdam streets to support Palestinians",
-     "url": "https://www.scmp.com/news/world/europe/article/3373715/tens-thousands-dutch-protesters-take-amsterdam-streets-support-palestinians",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T16:35:44+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261107-poland-attack",
-   "qid": null,
-   "title": "Poland in shock after 6 killed in Krakow far-right shooting",
-   "name": "Poland",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T14:55:18+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "France Médias Monde",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Poland: Gunman kills 6 in Krakow main square, police say",
-    "Poland begins two days of mourning over Krakow shooting",
-    "Mourning in Poland after mass shooting",
-    "Poland in shock after 6 killed in Krakow far-right shooting",
-    "Poland mourns Krakow shooting victims as terrorism probe launched"
-   ],
-   "places": [
-    "Krakow"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
-     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:21:18+00:00"
-    },
-    {
-     "title": "Mourning in Poland after mass shooting",
-     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:18:48+00:00"
-    },
-    {
-     "title": "Poland begins two days of mourning over Krakow shooting",
-     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T09:43:00+00:00"
-    },
-    {
-     "title": "Poland: Gunman kills 6 in Krakow main square, police say",
-     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T21:34:00+00:00"
-    },
-    {
-     "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
-     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T14:55:18+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
  "outlets": {
-  "headlines": 672,
+  "headlines": 667,
   "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 31,
   "corroborated": 5
  },
  "emerging": [
@@ -1344,6 +1164,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 672 headlines from 29 feeds (21 owners), 30 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-poland-attack",
+ "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 31 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-poland-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
