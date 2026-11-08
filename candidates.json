@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T19:00:42+00:00",
+ "at": "2026-11-08T19:32:07+00:00",
  "quakes": [],
  "trending": [
   {
@@ -220,26 +220,27 @@
   {
    "id": "nw-20261108-egypt-rail",
    "qid": null,
-   "title": "Egypt train crash leaves several dead, over 100 injured",
+   "title": "More than seven dead and 110 injured in train collision in Egypt",
    "name": "Egypt",
    "kind": "incident",
    "category": "rail",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T16:49:00+00:00",
+   "news_at": "2026-11-08T19:20:50+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "SCMP Group",
     "BBC",
     "Al Jazeera Media Network",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "ABC (Australia)"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-    "Train collision in Egypt kills 4, injures 88",
+    "Train collision in Egypt kills 7, injures 112",
     "Footage shows derailed carriages after fatal train crash in Egypt",
     "Seven killed, 112 injured in train collision in Egypt",
     "Train crash kills seven, injures dozens near Egypt’s Cairo city"
@@ -257,6 +258,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "More than seven dead and 110 injured in train collision in Egypt",
+     "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T19:20:50+00:00"
+    },
     {
      "title": "Egypt train crash leaves several dead, over 100 injured",
      "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
@@ -298,7 +309,7 @@
      "at": "2026-11-08T16:31:54+00:00"
     },
     {
-     "title": "Train collision in Egypt kills 4, injures 88",
+     "title": "Train collision in Egypt kills 7, injures 112",
      "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
@@ -323,7 +334,8 @@
     "outlet:SCMP Group",
     "outlet:BBC",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": "2026 El Ayyat train collision"
@@ -331,29 +343,27 @@
   {
    "id": "nw-20261108-senegal-maritime",
    "qid": null,
-   "title": "At least 21 killed after migrant boat sinks off Senegal",
+   "title": "Dozens killed after migrant boat sinks off Senegal",
    "name": "Senegal",
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T15:37:28+00:00",
+   "news_at": "2026-11-08T19:12:00+00:00",
    "owners": [
     "Euronews",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "Deutsche Welle",
-    "Disney (ABC News)"
+    "Deutsche Welle"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
     "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "At least 21 dead as small boat sinks off Senegal",
-    "At least 21 killed after migrant boat sinks off Senegal",
-    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says"
+    "At least 34 dead as small boat sinks off Senegal",
+    "Dozens killed after migrant boat sinks off Senegal"
    ],
    "places": [],
    "attackers": [],
@@ -367,17 +377,17 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "At least 21 killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "title": "Dozens killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/dozens-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T13:48:00+00:00"
+     "at": "2026-11-08T19:12:00+00:00"
     },
     {
-     "title": "At least 21 dead as small boat sinks off Senegal",
+     "title": "At least 34 dead as small boat sinks off Senegal",
      "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -397,16 +407,6 @@
      "at": "2026-11-08T10:01:49+00:00"
     },
     {
-     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
-     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T15:37:28+00:00"
-    },
-    {
      "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
      "outlet": "Times of India",
@@ -421,8 +421,7 @@
     "outlet:Euronews",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
@@ -474,14 +473,14 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-08T19:00:42.557848+00:00",
+   "news_at": "2026-11-08T19:32:07.584710+00:00",
    "headlines": [
-    "64 Injured After 2 Trains Collide In Egypt's Giza Province"
+    "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-08",
-    "google-news:64 Injured After 2 Trains Collide In Egypt's Giza Province",
+    "google-news:7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
     "outlet:NDTV"
    ],
    "owners": [
@@ -489,14 +488,14 @@
    ],
    "reports": [
     {
-     "title": "64 Injured After 2 Trains Collide In Egypt's Giza Province",
+     "title": "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
      "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
      "outlet": "NDTV",
      "outlet_hi": "एनडीटीवी",
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-08T14:21:40+00:00"
+     "at": "2026-11-08T18:58:02+00:00"
     }
    ],
    "id": "wk-Q142086610",
@@ -697,20 +696,143 @@
  "hazards": [],
  "candidates": [
   {
+   "id": "nw-20261108-egypt-rail",
+   "qid": null,
+   "title": "More than seven dead and 110 injured in train collision in Egypt",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T19:20:50+00:00",
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "SCMP Group",
+    "BBC",
+    "Al Jazeera Media Network",
+    "Deutsche Welle",
+    "ABC (Australia)"
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
+    "Train collision in Egypt kills 7, injures 112",
+    "Footage shows derailed carriages after fatal train crash in Egypt",
+    "Seven killed, 112 injured in train collision in Egypt",
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "More than seven dead and 110 injured in train collision in Egypt",
+     "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T19:20:50+00:00"
+    },
+    {
+     "title": "Egypt train crash leaves several dead, over 100 injured",
+     "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:49:00+00:00"
+    },
+    {
+     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
+     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:05:57+00:00"
+    },
+    {
+     "title": "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+     "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T16:37:20+00:00"
+    },
+    {
+     "title": "Seven killed, 112 injured in train collision in Egypt",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T16:31:54+00:00"
+    },
+    {
+     "title": "Train collision in Egypt kills 7, injures 112",
+     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T14:56:42+00:00"
+    },
+    {
+     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T14:29:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": "2026 El Ayyat train collision"
+  },
+  {
    "qid": "Q142086610",
    "title": "2026 El Ayyat train collision",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-08T19:00:42.557848+00:00",
+   "news_at": "2026-11-08T19:32:07.584710+00:00",
    "headlines": [
-    "64 Injured After 2 Trains Collide In Egypt's Giza Province"
+    "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-08",
-    "google-news:64 Injured After 2 Trains Collide In Egypt's Giza Province",
+    "google-news:7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
     "outlet:NDTV"
    ],
    "owners": [
@@ -718,14 +840,14 @@
    ],
    "reports": [
     {
-     "title": "64 Injured After 2 Trains Collide In Egypt's Giza Province",
+     "title": "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
      "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
      "outlet": "NDTV",
      "outlet_hi": "एनडीटीवी",
      "owner": "NDTV",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-08T14:21:40+00:00"
+     "at": "2026-11-08T18:58:02+00:00"
     }
    ],
    "id": "wk-Q142086610",
@@ -737,10 +859,10 @@
   }
  ],
  "outlets": {
-  "headlines": 665,
+  "headlines": 670,
   "feeds": 29,
   "owners": 21,
-  "matched": 45,
+  "matched": 39,
   "corroborated": 4
  },
  "emerging": [
@@ -882,26 +1004,27 @@
   {
    "id": "nw-20261108-egypt-rail",
    "qid": null,
-   "title": "Egypt train crash leaves several dead, over 100 injured",
+   "title": "More than seven dead and 110 injured in train collision in Egypt",
    "name": "Egypt",
    "kind": "incident",
    "category": "rail",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T16:49:00+00:00",
+   "news_at": "2026-11-08T19:20:50+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "SCMP Group",
     "BBC",
     "Al Jazeera Media Network",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "ABC (Australia)"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-    "Train collision in Egypt kills 4, injures 88",
+    "Train collision in Egypt kills 7, injures 112",
     "Footage shows derailed carriages after fatal train crash in Egypt",
     "Seven killed, 112 injured in train collision in Egypt",
     "Train crash kills seven, injures dozens near Egypt’s Cairo city"
@@ -919,6 +1042,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "More than seven dead and 110 injured in train collision in Egypt",
+     "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T19:20:50+00:00"
+    },
     {
      "title": "Egypt train crash leaves several dead, over 100 injured",
      "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
@@ -960,7 +1093,7 @@
      "at": "2026-11-08T16:31:54+00:00"
     },
     {
-     "title": "Train collision in Egypt kills 4, injures 88",
+     "title": "Train collision in Egypt kills 7, injures 112",
      "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
      "outlet": "South China Morning Post",
      "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
@@ -985,7 +1118,8 @@
     "outlet:SCMP Group",
     "outlet:BBC",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": "2026 El Ayyat train collision"
@@ -993,29 +1127,27 @@
   {
    "id": "nw-20261108-senegal-maritime",
    "qid": null,
-   "title": "At least 21 killed after migrant boat sinks off Senegal",
+   "title": "Dozens killed after migrant boat sinks off Senegal",
    "name": "Senegal",
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T15:37:28+00:00",
+   "news_at": "2026-11-08T19:12:00+00:00",
    "owners": [
     "Euronews",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "Deutsche Welle",
-    "Disney (ABC News)"
+    "Deutsche Welle"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
     "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "At least 21 dead as small boat sinks off Senegal",
-    "At least 21 killed after migrant boat sinks off Senegal",
-    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says"
+    "At least 34 dead as small boat sinks off Senegal",
+    "Dozens killed after migrant boat sinks off Senegal"
    ],
    "places": [],
    "attackers": [],
@@ -1029,17 +1161,17 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "At least 21 killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "title": "Dozens killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/dozens-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T13:48:00+00:00"
+     "at": "2026-11-08T19:12:00+00:00"
     },
     {
-     "title": "At least 21 dead as small boat sinks off Senegal",
+     "title": "At least 34 dead as small boat sinks off Senegal",
      "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -1059,16 +1191,6 @@
      "at": "2026-11-08T10:01:49+00:00"
     },
     {
-     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
-     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T15:37:28+00:00"
-    },
-    {
      "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
      "outlet": "Times of India",
@@ -1083,13 +1205,12 @@
     "outlet:Euronews",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle",
-    "outlet:Disney (ABC News)"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 665 headlines from 29 feeds (21 owners), 45 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 670 headlines from 29 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
