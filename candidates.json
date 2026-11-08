@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T00:30:42+00:00",
+ "at": "2026-11-08T00:57:18+00:00",
  "quakes": [],
  "trending": [
   {
@@ -41,7 +41,7 @@
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "Briton among six killed in 'far-right' shooting in Krakow",
+   "title": "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -49,11 +49,11 @@
    "news_at": "2026-11-08T00:25:36+00:00",
    "owners": [
     "France Médias Monde",
-    "NBCUniversal",
     "Independent Digital News",
     "NPR",
+    "NBCUniversal",
     "Paramount (CBS)",
-    "BBC"
+    "Euronews"
    ],
    "fame": 150000,
    "news": 150000,
@@ -61,15 +61,14 @@
    "traffic": 0,
    "headlines": [
     "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-    "Three found dead at home of gunman who killed six in Krakow, Polish PM says",
     "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
     "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as Briton among six killed"
+    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+    "Mass shooting in Polish market leaves at least 6 dead, 15 injured"
    ],
    "places": [
     "Polish",
-    "Briton",
-    "Witnesses"
+    "Footage"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -81,16 +80,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Briton among six killed in 'far-right' shooting in Krakow",
-     "url": "https://www.bbc.co.uk/news/articles/c6n9r01d2709o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T23:41:00+00:00"
-    },
     {
      "title": "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
      "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
@@ -122,14 +111,14 @@
      "at": "2026-11-08T00:25:36+00:00"
     },
     {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as Briton among six killed",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
+     "at": "2026-11-07T22:10:08+00:00"
     },
     {
      "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
@@ -164,11 +153,114 @@
    ],
    "via": [
     "outlet:France Médias Monde",
-    "outlet:NBCUniversal",
     "outlet:Independent Digital News",
     "outlet:NPR",
+    "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261107-poland-attack",
+   "qid": null,
+   "title": "Poland: Gunman kills 6 in Krakow main square",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T00:03:49+00:00",
+   "owners": [
+    "SCMP Group",
+    "Deutsche Welle",
+    "Disney (ABC News)",
+    "NBCUniversal",
+    "NDTV"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
+    "Poland: Gunman kills 6 in Krakow main square",
+    "6 dead, 15 injured in market square shooting in Poland: Police",
+    "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+    "6 Killed, 15 Injured In Poland Shooting, Gunman Used 'Military Weapons'"
+   ],
+   "places": [
+    "Krakow",
+    "injured",
+    "Used"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Poland: Gunman kills 6 in Krakow main square",
+     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T21:34:00+00:00"
+    },
+    {
+     "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
+     "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T16:33:05+00:00"
+    },
+    {
+     "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+     "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T00:03:49+00:00"
+    },
+    {
+     "title": "6 dead, 15 injured in market square shooting in Poland: Police",
+     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T00:00:34+00:00"
+    },
+    {
+     "title": "6 Killed, 15 Injured In Poland Shooting, Gunman Used 'Military Weapons'",
+     "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-07T17:32:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)",
+    "outlet:NBCUniversal",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -356,82 +448,6 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261107-krakow-attack",
-   "qid": null,
-   "title": "Poland: Gunman kills 6 in Krakow main square",
-   "name": "Krakow",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-07T22:10:08+00:00",
-   "owners": [
-    "SCMP Group",
-    "Deutsche Welle",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
-    "Poland: Gunman kills 6 in Krakow main square",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow"
-   ],
-   "places": [
-    "Poland",
-    "Footage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Poland: Gunman kills 6 in Krakow main square",
-     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T21:34:00+00:00"
-    },
-    {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
-     "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T16:33:05+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Deutsche Welle",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q172753",
    "title": "Alan Jones (racing driver)",
    "fame": 37064,
@@ -511,6 +527,30 @@
     26.63288889,
     -80.11311111
    ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-07T00:27:00+00:00",
+   "headlines": [
+    "Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -631,47 +671,38 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "outlets": {
-  "headlines": 705,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 33,
-  "corroborated": 3
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261107-krakow-attack",
+   "id": "nw-20261107-poland-attack",
    "qid": null,
-   "title": "Briton among six killed in 'far-right' shooting in Krakow",
-   "name": "Krakow",
+   "title": "Poland: Gunman kills 6 in Krakow main square",
+   "name": "Poland",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T00:25:36+00:00",
+   "news_at": "2026-11-08T00:03:49+00:00",
    "owners": [
-    "France Médias Monde",
+    "SCMP Group",
+    "Deutsche Welle",
+    "Disney (ABC News)",
     "NBCUniversal",
-    "Independent Digital News",
-    "NPR",
-    "Paramount (CBS)",
-    "BBC"
+    "NDTV"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-    "Three found dead at home of gunman who killed six in Krakow, Polish PM says",
-    "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
-    "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as Briton among six killed"
+    "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
+    "Poland: Gunman kills 6 in Krakow main square",
+    "6 dead, 15 injured in market square shooting in Poland: Police",
+    "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+    "6 Killed, 15 Injured In Poland Shooting, Gunman Used 'Military Weapons'"
    ],
    "places": [
-    "Polish",
-    "Briton",
-    "Witnesses"
+    "Krakow",
+    "injured",
+    "Used"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -684,15 +715,207 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Briton among six killed in 'far-right' shooting in Krakow",
-     "url": "https://www.bbc.co.uk/news/articles/c6n9r01d2709o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Poland: Gunman kills 6 in Krakow main square",
+     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-07T23:41:00+00:00"
+     "at": "2026-11-07T21:34:00+00:00"
     },
+    {
+     "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
+     "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T16:33:05+00:00"
+    },
+    {
+     "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+     "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T00:03:49+00:00"
+    },
+    {
+     "title": "6 dead, 15 injured in market square shooting in Poland: Police",
+     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T00:00:34+00:00"
+    },
+    {
+     "title": "6 Killed, 15 Injured In Poland Shooting, Gunman Used 'Military Weapons'",
+     "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-07T17:32:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)",
+    "outlet:NBCUniversal",
+    "outlet:NDTV"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-08T00:00:00+00:00",
+   "headlines": [
+    "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07",
+    "google-news:Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+     "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T22:32:41+00:00"
+    },
+    {
+     "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T21:19:01+00:00"
+    },
+    {
+     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
+     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:15:23+00:00"
+    }
+   ],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-07T00:27:00+00:00",
+   "headlines": [
+    "Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  }
+ ],
+ "outlets": {
+  "headlines": 712,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 38,
+  "corroborated": 3
+ },
+ "emerging": [
+  {
+   "id": "nw-20261107-krakow-attack",
+   "qid": null,
+   "title": "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
+   "name": "Krakow",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T00:25:36+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Independent Digital News",
+    "NPR",
+    "NBCUniversal",
+    "Paramount (CBS)",
+    "Euronews"
+   ],
+   "fame": 150000,
+   "news": 150000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+    "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
+    "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
+    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+    "Mass shooting in Polish market leaves at least 6 dead, 15 injured"
+   ],
+   "places": [
+    "Polish",
+    "Footage"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
     {
      "title": "Gunman opens fire in Polish city of Krakow, killing 6 people and injuring 15",
      "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
@@ -724,14 +947,14 @@
      "at": "2026-11-08T00:25:36+00:00"
     },
     {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as Briton among six killed",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
+     "at": "2026-11-07T22:10:08+00:00"
     },
     {
      "title": "‘Horrific mass shooting’ in Krakow after gunman kills six in Polish hotspot",
@@ -766,41 +989,46 @@
    ],
    "via": [
     "outlet:France Médias Monde",
-    "outlet:NBCUniversal",
     "outlet:Independent Digital News",
     "outlet:NPR",
+    "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261107-krakow-attack",
+   "id": "nw-20261107-poland-attack",
    "qid": null,
    "title": "Poland: Gunman kills 6 in Krakow main square",
-   "name": "Krakow",
+   "name": "Poland",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T22:10:08+00:00",
+   "news_at": "2026-11-08T00:03:49+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
-    "Euronews"
+    "Disney (ABC News)",
+    "NBCUniversal",
+    "NDTV"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow"
+    "6 dead, 15 injured in market square shooting in Poland: Police",
+    "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+    "6 Killed, 15 Injured In Poland Shooting, Gunman Used 'Military Weapons'"
    ],
    "places": [
-    "Poland",
-    "Footage"
+    "Krakow",
+    "injured",
+    "Used"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -823,16 +1051,6 @@
      "at": "2026-11-07T21:34:00+00:00"
     },
     {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
      "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
      "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
      "outlet": "South China Morning Post",
@@ -841,17 +1059,49 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T16:33:05+00:00"
+    },
+    {
+     "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+     "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T00:03:49+00:00"
+    },
+    {
+     "title": "6 dead, 15 injured in market square shooting in Poland: Police",
+     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T00:00:34+00:00"
+    },
+    {
+     "title": "6 Killed, 15 Injured In Poland Shooting, Gunman Used 'Military Weapons'",
+     "url": "https://www.ndtv.com/world-news/2-killed-10-injured-in-shooting-near-main-market-square-in-polands-krakow-12297774#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-07T17:32:40+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
-    "outlet:Euronews"
+    "outlet:Disney (ABC News)",
+    "outlet:NBCUniversal",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 705 headlines from 29 feeds (20 owners), 33 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 712 headlines from 29 feeds (20 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
