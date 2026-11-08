@@ -1,32 +1,7 @@
 {
- "at": "2026-11-08T07:00:37+00:00",
+ "at": "2026-11-08T07:30:36+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141615137",
-   "title": "2026 French student protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-08T00:00:00+00:00",
-   "headlines": [
-    "French student unions say 250,000 people took part in Saturday’s protests"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-07",
-    "google-news:French student unions say 250,000 people took part in Saturday’s protests"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141615137-2026w45",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
@@ -471,6 +446,28 @@
    "date": "2026-11-06"
   },
   {
+   "qid": "Q141615137",
+   "title": "2026 French student protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-08T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w45",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q172753",
    "title": "Alan Jones (racing driver)",
    "fame": 37064,
@@ -550,30 +547,6 @@
     26.63288889,
     -80.11311111
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-07T00:27:00+00:00",
-   "headlines": [
-    "Haiti PM says gang leader Mathias Saintil is dead"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Haiti PM says gang leader Mathias Saintil is dead"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -766,227 +739,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261107-krakow-attack",
-   "qid": null,
-   "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-   "name": "Krakow",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T06:05:34+00:00",
-   "owners": [
-    "France Médias Monde",
-    "NPR",
-    "Independent Digital News",
-    "NBCUniversal",
-    "Paramount (CBS)",
-    "Euronews",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 150000,
-   "news": 150000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-    "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-    "Mass shooting in Polish market leaves at least 6 dead, 15 injured"
-   ],
-   "places": [
-    "Polish",
-    "Witnesses",
-    "Footage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-     "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T18:37:36+00:00"
-    },
-    {
-     "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-     "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T15:26:49+00:00"
-    },
-    {
-     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T06:05:34+00:00"
-    },
-    {
-     "title": "Horrific mass shooting in Krakow as gunman kills six in Polish tourist spot",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T01:05:35+00:00"
-    },
-    {
-     "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T00:50:28+00:00"
-    },
-    {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
-    },
-    {
-     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T21:24:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:NPR",
-    "outlet:Independent Digital News",
-    "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)",
-    "outlet:Euronews",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261107-yemen-strike",
-   "qid": null,
-   "title": "Houthis say at least 33 killed in Saudi air strike",
-   "name": "Yemen",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T05:05:35+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-    "Houthis say at least 33 killed in Saudi air strike",
-    "Saudi airstrikes on homes near Yemen’s capital kill 33 people"
-   ],
-   "places": [],
-   "attackers": [
-    "Houthi",
-    "Houthis",
-    "Saudi"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Houthis say at least 33 killed in Saudi air strike",
-     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T04:03:12+00:00"
-    },
-    {
-     "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
-     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-airstrikes-sanaa-yemen-deaths-houthis-b3081138.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T05:05:35+00:00"
-    },
-    {
-     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T12:36:57+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 669,
+  "headlines": 671,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
+  "matched": 21,
   "corroborated": 4
  },
  "emerging": [
@@ -1308,6 +1066,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 669 headlines from 30 feeds (21 owners), 24 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
+ "outlet_note": "outlets: 671 headlines from 30 feeds (21 owners), 21 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
