@@ -1,16 +1,15 @@
 {
- "at": "2026-11-08T15:46:19+00:00",
+ "at": "2026-11-08T16:02:03+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 16 units today",
-  "watch: 14 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 664 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-senegal-maritime, nw-20261107-krakow-attack",
-  "quiet day (no Short yet today): 14 tribute candidates: Toni Brogno, Carlos Albert (footballer), John Nicks, Gianpietro Marchetti",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "skip wk-Q1150359: gate: no draft passed the fact checks: line 2 (He reached a turning point in 1972 while meeting with a squa): unsupported: The source does not mention a 'turning point' in 1972, nor does it mention him 'meeting with a squad in Piedmont'. | second look: The source sentences do not mention a 'turning point,' a 'meeting with a squad,' or the location 'Piedmont.' These details are not present in the provided text.; line 3 (He played for Ju",
-  "skip wk-Q601273: gate: the article has no infobox to confirm the death",
-  "skip wk-Q2266133: gate: only 1 usable photos of Toni Brogno on Wikimedia Commons (want 4)",
-  "skip wk-Q2316839: gate: no photo on Wikimedia Commons shows Gianluca Pierobon's face (a tribute needs one)",
-  "nothing eligible to publish"
- ]
+  "published wk-Q1150359 (uploaded earlier): https://www.youtube.com/shorts/moTbSDJOQjk"
+ ],
+ "published": {
+  "video_id": "moTbSDJOQjk",
+  "url": "https://www.youtube.com/shorts/moTbSDJOQjk",
+  "title": "Gianpietro Marchetti, Juventus Defender, Dies at 78",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-08T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
