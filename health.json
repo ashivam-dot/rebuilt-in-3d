@@ -1,10 +1,13 @@
 {
- "at": "2026-11-08T13:17:17+00:00",
+ "at": "2026-11-08T13:45:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
-  "watch: 0 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 664 headlines from 29 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
+  "watch: 1 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 654 headlines from 29 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
+  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
+  "trend radar errors: [\"gdacs: HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with url: /xml/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gdacs.org', port=443) at 0x7fb463106a5\"]",
+  "skip nw-20261108-senegal-maritime: gate: faceless: no free photo shows Senegal or the event itself (only 0 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
