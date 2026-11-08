@@ -17,27 +17,31 @@ CHANNELS = {
     "Universe Receipts": ("UCal2hAu7VaZimTwaAgeBEyg", 36, None),
     "Atlas in Numbers": ("UC6e6OB3iw3yp8JnnBYxLItA", 36, None),
     "Orbitwire": ("UCfqAy1IxE2Cwu9pmZGMambA", 72, None),
-    "Kyun Hua": ("UCS-lEPHkz_dftfUjjeTuxOA", 36, None),
+    "Pal Pal News": ("UCS-lEPHkz_dftfUjjeTuxOA", 36, None),
     "Pangaea Nights": ("UCtVG78IUTqvP9rH-LLies0A", 48, "2026-10-13T00:00:00+00:00"),
     "Mool Katha": ("UCdqxVnoHDWXgA2ZVJWkSu8w", 36, None),
     "Kahaani Chaos": ("UCX-96TVtOBCEkDMloHuYAHw", 20, "2026-10-15T00:00:00+00:00"),
 }
 # (repo, workflow file, hours since its last scheduled run before alerting[, watch from]); GitHub's cron can run an
-# hour or more late.
+# hour or more late, and without a keeper it drops most runs of a frequent cron: Atlas's 2-hourly publisher, the
+# doctor's 15-minute watch and Mool's control jobs start only every 4-9 h (Nov 2026), so their limits sit above that.
+# Pangaea's workflows are off while its pre-uploaded 6-16 Nov batch publishes itself.
 WORKFLOWS = [
     ("hindi-news-desk", "run.yml", 3), ("hindi-news-desk", "health.yml", 9),
     ("rebuilt-in-3d", "run.yml", 3),
-    ("pangaea-nights", "episode.yml", 30, "2026-10-11T12:00:00+00:00"), ("pangaea-nights", "health.yml", 9),
-    ("history-last-hours-control", "atlas-publish.yml", 5),
-    ("channel-doctor", "watch.yml", 2),
-    ("mool-katha-control", "lite.yml", 15), ("mool-katha-control", "control-monitor.yml", 6),
-    ("mool-katha-control", "control-alerts.yml", 4),
+    ("pangaea-nights", "episode.yml", 30, "2026-11-16T12:00:00+00:00"),
+    ("pangaea-nights", "health.yml", 9, "2026-11-16T12:00:00+00:00"),
+    ("history-last-hours-control", "atlas-publish.yml", 12),
+    ("channel-doctor", "watch.yml", 9),
+    ("mool-katha-control", "lite.yml", 15), ("mool-katha-control", "control-monitor.yml", 12),
+    ("mool-katha-control", "control-alerts.yml", 9),
     ("kahaani-chaos", "run.yml", 15, "2026-10-15T00:00:00+00:00"), ("kahaani-chaos", "health.yml", 9),
 ]
 FAIL_STREAK = 3
 # Paused by the owner on 2026-10-20 (channel -> repo): silence and stopped workflows are expected, not problems.
-# Pangaea Nights publishes again since 2026-10-22 (three Shorts a day from 2026-10-25); Mool Katha since 2026-10-27.
-PAUSED = {"Kyun Hua": "hindi-news-desk", "Pangaea Nights": "pangaea-nights", "Kahaani Chaos": "kahaani-chaos"}
+# Pangaea Nights publishes again since 2026-10-22 (three Shorts a day from 2026-10-25); Mool Katha since 2026-10-27;
+# Kyun Hua, now Pal Pal News (hindi-news-desk), since 2026-10-29.
+PAUSED = {"Kahaani Chaos": "kahaani-chaos"}
 
 
 def _get(url: str, token: str | None = None) -> bytes:
@@ -98,11 +102,11 @@ def workflow_problems(now: datetime, token: str | None) -> tuple[list[str], list
             notes.append(f"{repo}/{wf}: unreadable ({type(exc).__name__})")
             unreadable += 1
             continue
+        if since and now < datetime.fromisoformat(since[0]):
+            notes.append(f"{repo}/{wf}: watched from {since[0][:10]} ({state})")
+            continue
         if state != "active":
             problems.append(f"{repo}/{wf}: workflow is {state}; its schedule no longer runs")
-            continue
-        if since and now < datetime.fromisoformat(since[0]):
-            notes.append(f"{repo}/{wf}: watched from {since[0][:10]}")
             continue
         if not runs:
             problems.append(f"{repo}/{wf}: no scheduled run on record")
