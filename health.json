@@ -1,10 +1,11 @@
 {
- "at": "2026-11-08T02:30:46+00:00",
+ "at": "2026-11-08T02:59:29+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 90 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 91 units today",
   "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 698 headlines from 29 feeds (20 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
+  "outlets: 695 headlines from 29 feeds (20 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 124 people)']"
  ]
 }

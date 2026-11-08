@@ -1,43 +1,7 @@
 {
- "at": "2026-11-08T02:30:47+00:00",
+ "at": "2026-11-08T02:59:30+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q922227",
-   "title": "Richard Lloyd (guitarist)",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-07T20:06:25+00:00",
-   "headlines": [
-    "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
-     "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T20:06:25+00:00"
-    }
-   ],
-   "id": "wk-Q922227",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
-  },
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
@@ -559,6 +523,42 @@
    "has_coords": true
   },
   {
+   "qid": "Q922227",
+   "title": "Richard Lloyd (guitarist)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-07T20:06:25+00:00",
+   "headlines": [
+    "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
+     "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T20:06:25+00:00"
+    }
+   ],
+   "id": "wk-Q922227",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-07"
+  },
+  {
    "qid": "Q2893079",
    "title": "Simon Winchester",
    "fame": 25000,
@@ -677,11 +677,14 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 124 people)"
+ ],
  "outlets": {
-  "headlines": 698,
+  "headlines": 695,
   "feeds": 29,
   "owners": 20,
-  "matched": 38,
+  "matched": 36,
   "corroborated": 3
  },
  "emerging": [
@@ -959,6 +962,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 698 headlines from 29 feeds (20 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 695 headlines from 29 feeds (20 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
