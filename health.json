@@ -1,13 +1,11 @@
 {
- "at": "2026-11-08T21:30:36+00:00",
+ "at": "2026-11-08T22:01:53+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 80 units today",
-  "watch: 2 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 665 headlines from 29 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-egypt-rail, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 81 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 669 headlines from 29 feeds (21 owners), 31 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-krakow-attack",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "wait wk-Q142086610: gate: the article is under 6 hours old; facts may still move (ready in 1.5 h)",
-  "skip wk-Q5962128: gate: only 1 usable photos of Michael Locke on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
+  "hold wk-Q142086610: outside the india window"
  ]
 }

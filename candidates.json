@@ -1,17 +1,16 @@
 {
- "at": "2026-11-08T21:30:37+00:00",
+ "at": "2026-11-08T22:01:54+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 375000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 325000,
+   "news": 200000,
    "news_at": "2026-11-08T21:11:40+00:00",
    "headlines": [
-    "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
     "Parents, sister of far-right Kraków shooter found dead in family home",
     "Two police officers hailed as heroes for confronting Kraków gunman",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
@@ -19,9 +18,9 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-07",
-    "google-news:Kraków shooting that killed 6 was motivated by far-right views, authorities say",
     "google-news:Parents, sister of far-right Kraków shooter found dead in family home",
     "google-news:Two police officers hailed as heroes for confronting Kraków gunman",
+    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
     "outlet:Euronews"
@@ -86,20 +85,18 @@
   {
    "qid": "Q142086610",
    "title": "2026 El Ayyat train collision",
-   "fame": 300000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-08T21:30:37.168568+00:00",
+   "news": 125000,
+   "news_at": "2026-11-08T22:01:54.648783+00:00",
    "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city",
-    "Collision between 2 trains in Egypt kills 7 and injures at least 125"
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
     "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city",
-    "google-news:Collision between 2 trains in Egypt kills 7 and injures at least 125"
+    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
    ],
    "owners": [],
    "reports": [],
@@ -232,6 +229,105 @@
    "article": null
   },
   {
+   "id": "nw-20261108-senegal-maritime",
+   "qid": null,
+   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T20:40:33+00:00",
+   "owners": [
+    "Euronews",
+    "Bennett, Coleman & Co.",
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+    "Many killed after migrant boat sinks off Senegal",
+    "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+     "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T20:40:33+00:00"
+    },
+    {
+     "title": "Many killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T19:12:00+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T10:01:49+00:00"
+    },
+    {
+     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T15:37:28+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T12:46:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
    "title": "Poland in shock after 6 killed in Krakow far-right shooting",
@@ -346,92 +442,6 @@
     "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261108-senegal-maritime",
-   "qid": null,
-   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T20:40:33+00:00",
-   "owners": [
-    "Euronews",
-    "Bennett, Coleman & Co.",
-    "Deutsche Welle",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "Many killed after migrant boat sinks off Senegal",
-    "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-     "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T20:40:33+00:00"
-    },
-    {
-     "title": "Many killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:12:00+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T10:01:49+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T12:46:51+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -669,20 +679,18 @@
   {
    "qid": "Q142086610",
    "title": "2026 El Ayyat train collision",
-   "fame": 300000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-08T21:30:37.168568+00:00",
+   "news": 125000,
+   "news_at": "2026-11-08T22:01:54.648783+00:00",
    "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city",
-    "Collision between 2 trains in Egypt kills 7 and injures at least 125"
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
    ],
-   "region": "world",
+   "region": "india",
    "via": [
     "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city",
-    "google-news:Collision between 2 trains in Egypt kills 7 and injures at least 125"
+    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
    ],
    "owners": [],
    "reports": [],
@@ -692,33 +700,13 @@
    "date": "2026-11-08",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q5962128",
-   "title": "Michael Locke (stuntman)",
-   "fame": 92092,
-   "views": 92092,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-06"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5962128",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
   }
  ],
  "outlets": {
-  "headlines": 665,
+  "headlines": 669,
   "feeds": 29,
   "owners": 21,
-  "matched": 34,
+  "matched": 31,
   "corroborated": 4
  },
  "emerging": [
@@ -844,6 +832,105 @@
    "article": null
   },
   {
+   "id": "nw-20261108-senegal-maritime",
+   "qid": null,
+   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T20:40:33+00:00",
+   "owners": [
+    "Euronews",
+    "Bennett, Coleman & Co.",
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+    "Many killed after migrant boat sinks off Senegal",
+    "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+     "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T20:40:33+00:00"
+    },
+    {
+     "title": "Many killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T19:12:00+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T10:01:49+00:00"
+    },
+    {
+     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T15:37:28+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T12:46:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
    "title": "Poland in shock after 6 killed in Krakow far-right shooting",
@@ -961,94 +1048,8 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261108-senegal-maritime",
-   "qid": null,
-   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T20:40:33+00:00",
-   "owners": [
-    "Euronews",
-    "Bennett, Coleman & Co.",
-    "Deutsche Welle",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-    "Many killed after migrant boat sinks off Senegal",
-    "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-     "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T20:40:33+00:00"
-    },
-    {
-     "title": "Many killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:12:00+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T10:01:49+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T12:46:51+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Deutsche Welle",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 665 headlines from 29 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-egypt-rail, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 669 headlines from 29 feeds (21 owners), 31 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
