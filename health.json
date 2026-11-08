@@ -1,12 +1,11 @@
 {
- "at": "2026-11-08T22:59:52+00:00",
+ "at": "2026-11-08T23:32:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 83 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 84 units today",
   "watch: 1 candidates (0 quakes, 17 trending), 0 hazard alerts",
-  "outlets: 667 headlines from 29 feeds (21 owners), 31 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-poland-attack",
+  "outlets: 662 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-poland-attack",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "wait wk-Q142086610: gate: the article is under 6 hours old; facts may still move (ready in 0.0 h)",
-  "nothing eligible to publish"
+  "hold wk-Q142086610: outside the india window"
  ]
 }
