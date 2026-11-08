@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T04:00:23+00:00",
+ "at": "2026-11-08T04:31:58+00:00",
  "quakes": [],
  "trending": [
   {
@@ -548,6 +548,42 @@
    "has_coords": true
   },
   {
+   "qid": "Q3433331",
+   "title": "Ritsuko Nakayama",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-08T04:00:20+00:00",
+   "headlines": [
+    "Japanese bowling pioneer Ritsuko Nakayama, first woman to bowl professional perfect game, dies at 84"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Japanese bowling pioneer Ritsuko Nakayama, first woman to bowl professional perfect game, dies at 84",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Japanese bowling pioneer Ritsuko Nakayama, first woman to bowl professional perfect game, dies at 84",
+     "url": "https://www.foxnews.com/outkick-sports/japanese-bowling-pioneer-ritsuko-nakayama-first-woman-bowl-professional-perfect-game-dies-84",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T04:00:20+00:00"
+    }
+   ],
+   "id": "wk-Q3433331",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-07"
+  },
+  {
    "qid": "Q922227",
    "title": "Richard Lloyd (guitarist)",
    "fame": 25000,
@@ -701,12 +737,49 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q3433331",
+   "title": "Ritsuko Nakayama",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-08T04:00:20+00:00",
+   "headlines": [
+    "Japanese bowling pioneer Ritsuko Nakayama, first woman to bowl professional perfect game, dies at 84"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Japanese bowling pioneer Ritsuko Nakayama, first woman to bowl professional perfect game, dies at 84",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Japanese bowling pioneer Ritsuko Nakayama, first woman to bowl professional perfect game, dies at 84",
+     "url": "https://www.foxnews.com/outkick-sports/japanese-bowling-pioneer-ritsuko-nakayama-first-woman-bowl-professional-perfect-game-dies-84",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T04:00:20+00:00"
+    }
+   ],
+   "id": "wk-Q3433331",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-07"
+  }
+ ],
  "outlets": {
-  "headlines": 681,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 36,
+  "headlines": 682,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 35,
   "corroborated": 4
  },
  "emerging": [
@@ -1026,6 +1099,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 681 headlines from 29 feeds (20 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 682 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }

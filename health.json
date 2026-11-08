@@ -1,10 +1,13 @@
 {
- "at": "2026-11-08T04:00:21+00:00",
+ "at": "2026-11-08T04:31:55+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 93 units today",
-  "watch: 0 candidates (0 quakes, 17 trending), 0 hazard alerts",
-  "outlets: 681 headlines from 29 feeds (20 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-krakow-attack",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
+  "learn: 66 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 29, 'lift': 1.232, 'typical_views_24h': 346, 'n_retention': 26, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.941, 'typical_views_24h': 170, 'n_retention': 27, 'typical_view_pct': 58.1}, 'category:death': {'n': 28, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 94 units today",
+  "watch: 1 candidates (0 quakes, 18 trending), 0 hazard alerts",
+  "outlets: 682 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-krakow-attack",
+  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
+  "skip wk-Q3433331: gate: no photo on Wikimedia Commons shows Ritsuko Nakayama's face (a tribute needs one)",
+  "nothing eligible to publish"
  ]
 }
