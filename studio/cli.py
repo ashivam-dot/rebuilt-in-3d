@@ -126,6 +126,34 @@ def publish(story_id: str, publish_at: str | None = None, extra: dict | None = N
     return result
 
 
+def finish_uploads(health: dict) -> dict | None:
+    """Publish a Short that a cut-short run uploaded but never published, from the spec kept with its upload, before
+    any new story is written. The result of the first one published, else None."""
+    from .spec import Short
+
+    at = datetime.now(timezone.utc)
+    done = {r["id"] for r in ledger.published()}
+    for story_id, row in sorted(ledger.uploads().items()):
+        try:
+            fresh = (at - datetime.fromisoformat(row["at"])).total_seconds() < ledger.STALE_UPLOAD_HOURS * 3600
+        except (KeyError, TypeError, ValueError):
+            continue
+        if not row.get("short") or story_id in done or not fresh:
+            continue
+        try:
+            short = Short.load_dict(row["short"])
+            short.save(WORK / story_id / "short.json")
+            slot, arm = plan.evening_slot({"id": story_id, "kind": short.kind}, at, ledger.published())
+            result = publish(story_id, publish_at=slot.isoformat() if slot else None,
+                             extra={"slot_test": arm} if arm else None)
+        except Exception as exc:  # one stuck upload must never stop the run's new stories
+            health["steps"].append(f"finish upload {story_id}: {type(exc).__name__}: {exc}"[:300])
+            continue
+        health["steps"].append(f"published {story_id} (uploaded earlier): {result['url']}")
+        return result
+    return None
+
+
 def run(dry: bool = False) -> dict:
     """One scheduled pass: watch, pick the best eligible story, make it, gate it, publish it."""
     health = {"at": ledger.now(), "ok": True, "steps": []}
@@ -147,6 +175,9 @@ def run(dry: bool = False) -> dict:
             except Exception as exc:
                 health["steps"].append(f"retract: {type(exc).__name__}: {exc}"[:300])
             health["steps"] += ledger.stale_uploads()
+            if finished := finish_uploads(health):
+                health["published"] = finished
+                return health
             try:  # About, playlists, old tags: off unless CHANNEL_JOBS names them (studio/channel.py)
                 from . import channel
 

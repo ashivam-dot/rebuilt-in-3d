@@ -6,6 +6,7 @@ import os
 import re
 import time
 import unicodedata
+from dataclasses import asdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -319,7 +320,7 @@ def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None
             _, response = request.next_chunk(num_retries=3)
         video_id = response["id"]
         # Recorded at once: a run cut short while YouTube processes it finishes this upload next time (find).
-        ledger.record_upload(short.id, video_id)
+        ledger.record_upload(short.id, video_id, short=asdict(short))
     deadline = time.monotonic() + max_wait
     while True:
         video = api.videos().list(part="snippet,status,processingDetails", id=video_id).execute()["items"][0]
@@ -338,8 +339,13 @@ def publish(short: Short, mp4: Path, max_wait: int = 900, publish_at: str | None
         api.videos().update(part="status", body={"id": video_id, "status": {
             "privacyStatus": "private", "publishAt": publish_at, "selfDeclaredMadeForKids": False,
             "containsSyntheticMedia": True, "embeddable": True, "publicStatsViewable": True}}).execute()
-        final = api.videos().list(part="status,snippet", id=video_id).execute()["items"][0]
-        if not final["status"].get("publishAt"):
+        # Like privacy below, videos.list can miss a fresh publishAt for a while (run 42488550978).
+        for wait in (0, 5, 10, 20, 30):
+            time.sleep(wait)
+            final = api.videos().list(part="status,snippet", id=video_id).execute()["items"][0]
+            if final["status"].get("publishAt"):
+                break
+        else:
             raise RuntimeError(f"video {video_id} was not scheduled")
         return {"video_id": video_id, "url": f"https://www.youtube.com/shorts/{video_id}",
                 "title": final["snippet"]["title"], "privacy": "scheduled", "publish_at": final["status"]["publishAt"],

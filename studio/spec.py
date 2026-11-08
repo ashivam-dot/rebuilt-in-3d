@@ -52,7 +52,11 @@ class Short:
 
     @classmethod
     def load(cls, path: Path) -> "Short":
-        raw = json.loads(path.read_text(encoding="utf-8"))
+        return cls.load_dict(json.loads(path.read_text(encoding="utf-8")))
+
+    @classmethod
+    def load_dict(cls, raw: dict) -> "Short":
+        raw = dict(raw)
         raw["beats"] = [Beat(**b) for b in raw["beats"]]
         raw["facts"] = [Fact(**f) for f in raw["facts"]]
         return cls(**raw)

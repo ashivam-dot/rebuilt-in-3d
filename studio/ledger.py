@@ -83,9 +83,11 @@ def uploads() -> dict:
     return load("uploads", {})
 
 
-def record_upload(story_id: str, video_id: str) -> None:
+def record_upload(story_id: str, video_id: str, short: dict | None = None) -> None:
+    """short: the uploaded Short's spec, so a run cut short after the upload finishes publishing this video
+    (cli.finish_uploads) instead of writing the story again: a second draft can fail where the first passed."""
     pending = uploads()
-    pending[story_id] = {"video_id": video_id, "at": now()}
+    pending[story_id] = {"video_id": video_id, "at": now(), **({"short": short} if short else {})}
     save("uploads", pending)
 
 

@@ -694,4 +694,13 @@ def stories(items: list[dict], now: datetime, known: list[str] | None = None,
                     "label_hi": None, "reports": [compact(i) for i in sorted(c["items"], key=_rank)][:8],
                     "via": [f"outlet:{o}" for o in who], "emerging": True,
                     "article": next((i["matched"] for i in c["items"] if i.get("matched") in young), None)})
-    return sorted(out, key=lambda c: -c["fame"])
+    return one_per_id(out)
+
+
+def one_per_id(stories_: list[dict]) -> list[dict]:
+    """By fame; two clusters can name the same story ("Krakow attack" twice, 2026-11-08): the better reported one
+    is kept."""
+    best: dict[str, dict] = {}
+    for c in sorted(stories_, key=lambda c: (-c["fame"], -len(c["reports"]))):
+        best.setdefault(c["id"], c)
+    return list(best.values())
