@@ -1,7 +1,88 @@
 {
- "at": "2026-11-08T12:00:19+00:00",
+ "at": "2026-11-08T12:30:19+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 250000,
+   "views": 0,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-11-08T12:03:34+00:00",
+   "headlines": [
+    "Poland stunned as suspect with far-right views kills 6 in Kraków mass shooting",
+    "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+    "Polish prosecutors open terrorism investigation into Kraków shooting",
+    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07",
+    "google-news:Poland stunned as suspect with far-right views kills 6 in Kraków mass shooting",
+    "google-news:Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+    "google-news:Polish prosecutors open terrorism investigation into Kraków shooting",
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-killed-6-motivated-far-right-views-rcna608080",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T12:03:34+00:00"
+    },
+    {
+     "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+     "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T11:50:15+00:00"
+    },
+    {
+     "title": "Briton among six dead after gunman opens fire in Kraków market square",
+     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T09:30:22+00:00"
+    },
+    {
+     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
+     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:15:23+00:00"
+    }
+   ],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
+  },
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
@@ -10,7 +91,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T22:10:08+00:00",
+   "news_at": "2026-11-08T12:31:20+00:00",
    "owners": [
     "France Médias Monde",
     "NPR",
@@ -66,6 +147,16 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
+     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T12:31:20+00:00"
+    },
+    {
      "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
      "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
      "outlet": "Euronews",
@@ -118,30 +209,6 @@
    "article": null
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-07T00:27:00+00:00",
-   "headlines": [
-    "Haiti PM says gang leader Mathias Saintil is dead"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Haiti PM says gang leader Mathias Saintil is dead"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q141695384",
    "title": "2026 Houthi attacks on Saudi airports",
    "fame": 125000,
@@ -164,72 +231,6 @@
    "date": "2026-10-10",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 100000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-08T11:50:15+00:00",
-   "headlines": [
-    "Polish prosecutors open terrorism investigation into Kraków shooting",
-    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-07",
-    "google-news:Polish prosecutors open terrorism investigation into Kraków shooting",
-    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
-    "outlet:Guardian Media Group",
-    "outlet:Euronews"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "Euronews"
-   ],
-   "reports": [
-    {
-     "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
-     "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T11:50:15+00:00"
-    },
-    {
-     "title": "Briton among six dead after gunman opens fire in Kraków market square",
-     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T09:30:22+00:00"
-    },
-    {
-     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
-     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:15:23+00:00"
-    }
-   ],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
   },
   {
    "id": "nw-20261107-krakow-attack",
@@ -650,10 +651,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 664,
+  "headlines": 668,
   "feeds": 29,
   "owners": 21,
-  "matched": 25,
+  "matched": 28,
   "corroborated": 3
  },
  "emerging": [
@@ -665,7 +666,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-07T22:10:08+00:00",
+   "news_at": "2026-11-08T12:31:20+00:00",
    "owners": [
     "France Médias Monde",
     "NPR",
@@ -719,6 +720,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T15:26:49+00:00"
+    },
+    {
+     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T12:31:20+00:00"
     },
     {
      "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
@@ -872,6 +883,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 664 headlines from 29 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 668 headlines from 29 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
