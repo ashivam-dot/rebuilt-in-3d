@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T11:29:05+00:00",
+ "at": "2026-11-08T12:00:19+00:00",
  "quakes": [],
  "trending": [
   {
@@ -118,6 +118,120 @@
    "article": null
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-07T00:27:00+00:00",
+   "headlines": [
+    "Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Haiti PM says gang leader Mathias Saintil is dead"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q141695384",
+   "title": "2026 Houthi attacks on Saudi airports",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-07T20:00:28+00:00",
+   "headlines": [
+    "At least 27 people killed in strike near Yemen's capital, Houthi official says"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:At least 27 people killed in strike near Yemen's capital, Houthi official says"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141695384",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-10",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-08T11:50:15+00:00",
+   "headlines": [
+    "Polish prosecutors open terrorism investigation into Kraków shooting",
+    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07",
+    "google-news:Polish prosecutors open terrorism investigation into Kraków shooting",
+    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+     "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T11:50:15+00:00"
+    },
+    {
+     "title": "Briton among six dead after gunman opens fire in Kraków market square",
+     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T09:30:22+00:00"
+    },
+    {
+     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
+     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:15:23+00:00"
+    }
+   ],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
+  },
+  {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
    "title": "Poland begins two days of mourning over Krakow shooting",
@@ -130,19 +244,18 @@
     "SCMP Group",
     "Deutsche Welle",
     "NBCUniversal",
-    "Disney (ABC News)",
     "France Médias Monde"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square, police say",
     "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-    "6 dead, 15 injured in market square shooting in Poland: Police",
-    "Poland launches terrorism probe into mass shooting in Krakow"
+    "Poland launches terrorism probe into mass shooting in Krakow",
+    "Poland begins two days of mourning over Krakow shooting"
    ],
    "places": [],
    "attackers": [
@@ -198,16 +311,6 @@
      "at": "2026-11-07T16:33:05+00:00"
     },
     {
-     "title": "6 dead, 15 injured in market square shooting in Poland: Police",
-     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T00:58:11+00:00"
-    },
-    {
      "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
      "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
      "outlet": "NBC News",
@@ -222,67 +325,10 @@
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 100000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-08T09:30:22+00:00",
-   "headlines": [
-    "Briton among six dead after gunman opens fire in Kraków market square",
-    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-07",
-    "google-news:Briton among six dead after gunman opens fire in Kraków market square",
-    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
-    "outlet:Guardian Media Group",
-    "outlet:Euronews"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "Euronews"
-   ],
-   "reports": [
-    {
-     "title": "Briton among six dead after gunman opens fire in Kraków market square",
-     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T09:30:22+00:00"
-    },
-    {
-     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
-     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:15:23+00:00"
-    }
-   ],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q5962128",
@@ -323,83 +369,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "id": "nw-20261107-yemen-strike",
-   "qid": null,
-   "title": "Houthis say at least 33 killed in Saudi air strike",
-   "name": "Yemen",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T05:05:35+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-    "Houthis say at least 33 killed in Saudi air strike",
-    "Saudi airstrikes on homes near Yemen’s capital kill 33 people"
-   ],
-   "places": [],
-   "attackers": [
-    "Houthi",
-    "Houthis",
-    "Saudi"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Houthis say at least 33 killed in Saudi air strike",
-     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T04:03:12+00:00"
-    },
-    {
-     "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
-     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-airstrikes-sanaa-yemen-deaths-houthis-b3081138.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T05:05:35+00:00"
-    },
-    {
-     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T12:36:57+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q285102",
@@ -681,11 +650,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 662,
+  "headlines": 664,
   "feeds": 29,
   "owners": 21,
-  "matched": 22,
-  "corroborated": 4
+  "matched": 25,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -816,19 +785,18 @@
     "SCMP Group",
     "Deutsche Welle",
     "NBCUniversal",
-    "Disney (ABC News)",
     "France Médias Monde"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square, police say",
     "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-    "6 dead, 15 injured in market square shooting in Poland: Police",
-    "Poland launches terrorism probe into mass shooting in Krakow"
+    "Poland launches terrorism probe into mass shooting in Krakow",
+    "Poland begins two days of mourning over Krakow shooting"
    ],
    "places": [],
    "attackers": [
@@ -884,16 +852,6 @@
      "at": "2026-11-07T16:33:05+00:00"
     },
     {
-     "title": "6 dead, 15 injured in market square shooting in Poland: Police",
-     "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T00:58:11+00:00"
-    },
-    {
      "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
      "url": "https://www.nbcnews.com/nightly-news/video/6-killed-15-injured-in-shooting-at-main-market-square-of-krakow-poland-273079365572",
      "outlet": "NBC News",
@@ -908,90 +866,12 @@
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
     "outlet:NBCUniversal",
-    "outlet:Disney (ABC News)",
     "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261107-yemen-strike",
-   "qid": null,
-   "title": "Houthis say at least 33 killed in Saudi air strike",
-   "name": "Yemen",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T05:05:35+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-    "Houthis say at least 33 killed in Saudi air strike",
-    "Saudi airstrikes on homes near Yemen’s capital kill 33 people"
-   ],
-   "places": [],
-   "attackers": [
-    "Houthi",
-    "Houthis",
-    "Saudi"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Houthis say at least 33 killed in Saudi air strike",
-     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T04:03:12+00:00"
-    },
-    {
-     "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
-     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-airstrikes-sanaa-yemen-deaths-houthis-b3081138.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T05:05:35+00:00"
-    },
-    {
-     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
-     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T12:36:57+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 662 headlines from 29 feeds (21 owners), 22 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261107-yemen-strike",
+ "outlet_note": "outlets: 664 headlines from 29 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
