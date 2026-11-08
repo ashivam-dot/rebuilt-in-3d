@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T18:00:49+00:00",
+ "at": "2026-11-08T18:31:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 200000,
-   "news_at": "2026-11-08T14:49:16+00:00",
+   "news_at": "2026-11-08T17:21:08+00:00",
    "headlines": [
     "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
     "Two police officers hailed as heroes for confronting Kraków gunman",
@@ -241,7 +241,7 @@
     "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
     "Train collision in Egypt kills 4, injures 88",
     "Footage shows derailed carriages after fatal train crash in Egypt",
-    "Four killed, 88 injured in train collision in Egypt",
+    "Seven killed, 112 injured in train collision in Egypt",
     "Train crash kills seven, injures dozens near Egypt’s Cairo city"
    ],
    "places": [
@@ -288,7 +288,7 @@
      "at": "2026-11-08T16:37:20+00:00"
     },
     {
-     "title": "Four killed, 88 injured in train collision in Egypt",
+     "title": "Seven killed, 112 injured in train collision in Egypt",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -326,7 +326,7 @@
     "outlet:Deutsche Welle"
    ],
    "emerging": true,
-   "article": null
+   "article": "2026 El Ayyat train collision"
   },
   {
    "id": "nw-20261108-senegal-maritime",
@@ -466,6 +466,45 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-08T18:31:36.400252+00:00",
+   "headlines": [
+    "64 Injured After 2 Trains Collide In Egypt's Giza Province"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08",
+    "google-news:64 Injured After 2 Trains Collide In Egypt's Giza Province",
+    "outlet:NDTV"
+   ],
+   "owners": [
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "64 Injured After 2 Trains Collide In Egypt's Giza Province",
+     "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T14:21:40+00:00"
+    }
+   ],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q285102",
@@ -656,12 +695,52 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-08T18:31:36.400252+00:00",
+   "headlines": [
+    "64 Injured After 2 Trains Collide In Egypt's Giza Province"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08",
+    "google-news:64 Injured After 2 Trains Collide In Egypt's Giza Province",
+    "outlet:NDTV"
+   ],
+   "owners": [
+    "NDTV"
+   ],
+   "reports": [
+    {
+     "title": "64 Injured After 2 Trains Collide In Egypt's Giza Province",
+     "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-08T14:21:40+00:00"
+    }
+   ],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
+  }
+ ],
  "outlets": {
-  "headlines": 667,
+  "headlines": 665,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
+  "matched": 41,
   "corroborated": 4
  },
  "emerging": [
@@ -824,7 +903,7 @@
     "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
     "Train collision in Egypt kills 4, injures 88",
     "Footage shows derailed carriages after fatal train crash in Egypt",
-    "Four killed, 88 injured in train collision in Egypt",
+    "Seven killed, 112 injured in train collision in Egypt",
     "Train crash kills seven, injures dozens near Egypt’s Cairo city"
    ],
    "places": [
@@ -871,7 +950,7 @@
      "at": "2026-11-08T16:37:20+00:00"
     },
     {
-     "title": "Four killed, 88 injured in train collision in Egypt",
+     "title": "Seven killed, 112 injured in train collision in Egypt",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -909,7 +988,7 @@
     "outlet:Deutsche Welle"
    ],
    "emerging": true,
-   "article": null
+   "article": "2026 El Ayyat train collision"
   },
   {
    "id": "nw-20261108-senegal-maritime",
@@ -1011,6 +1090,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 665 headlines from 29 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
