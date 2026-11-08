@@ -1,85 +1,46 @@
 {
- "at": "2026-11-08T19:32:07+00:00",
+ "at": "2026-11-08T20:00:40+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 250000,
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-08T17:21:08+00:00",
+   "news": 275000,
+   "news_at": "2026-11-08T20:00:40.273268+00:00",
    "headlines": [
-    "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
-    "Two police officers hailed as heroes for confronting Kraków gunman",
-    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+    "Collision between 2 trains in Egypt kills 7 and injures 112 others"
    ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-07",
-    "google-news:Kraków shooting that killed 6 was motivated by far-right views, authorities say",
-    "google-news:Two police officers hailed as heroes for confronting Kraków gunman",
-    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Euronews"
+    "wikipedia-current-events-2026-11-08",
+    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city",
+    "google-news:Collision between 2 trains in Egypt kills 7 and injures 112 others",
+    "outlet:Al Jazeera Media Network"
    ],
    "owners": [
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Euronews"
+    "Al Jazeera Media Network"
    ],
    "reports": [
     {
-     "title": "Two police officers hailed as heroes for confronting Kraków gunman",
-     "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+     "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-08T14:49:16+00:00"
-    },
-    {
-     "title": "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
-     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-killed-6-motivated-far-right-views-rcna608080",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T12:03:34+00:00"
-    },
-    {
-     "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
-     "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T11:50:15+00:00"
-    },
-    {
-     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
-     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:15:23+00:00"
+     "at": "2026-11-08T16:37:20+00:00"
     }
    ],
-   "id": "wk-Q142077465",
+   "id": "wk-Q142086610",
    "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -218,24 +179,103 @@
    "article": null
   },
   {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-11-08T14:49:16+00:00",
+   "headlines": [
+    "Two police officers hailed as heroes for confronting Kraków gunman",
+    "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+    "Video shows people fleeing as gunman opens fire in Kraków, Poland"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-07",
+    "google-news:Two police officers hailed as heroes for confronting Kraków gunman",
+    "google-news:Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+    "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Two police officers hailed as heroes for confronting Kraków gunman",
+     "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T14:49:16+00:00"
+    },
+    {
+     "title": "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-killed-6-motivated-far-right-views-rcna608080",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T12:03:34+00:00"
+    },
+    {
+     "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+     "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T11:50:15+00:00"
+    },
+    {
+     "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
+     "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:15:23+00:00"
+    }
+   ],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
+  },
+  {
    "id": "nw-20261108-egypt-rail",
    "qid": null,
-   "title": "More than seven dead and 110 injured in train collision in Egypt",
+   "title": "Egypt train crash leaves several dead, over 100 injured",
    "name": "Egypt",
    "kind": "incident",
    "category": "rail",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T19:20:50+00:00",
+   "news_at": "2026-11-08T16:49:00+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "SCMP Group",
     "BBC",
     "Al Jazeera Media Network",
-    "Deutsche Welle",
-    "ABC (Australia)"
+    "Deutsche Welle"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -258,16 +298,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "More than seven dead and 110 injured in train collision in Egypt",
-     "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:20:50+00:00"
-    },
     {
      "title": "Egypt train crash leaves several dead, over 100 injured",
      "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
@@ -334,8 +364,7 @@
     "outlet:SCMP Group",
     "outlet:BBC",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": "2026 El Ayyat train collision"
@@ -465,45 +494,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-08T19:32:07.584710+00:00",
-   "headlines": [
-    "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
-    "outlet:NDTV"
-   ],
-   "owners": [
-    "NDTV"
-   ],
-   "reports": [
-    {
-     "title": "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
-     "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T18:58:02+00:00"
-    }
-   ],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q285102",
@@ -696,76 +686,28 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261108-egypt-rail",
-   "qid": null,
-   "title": "More than seven dead and 110 injured in train collision in Egypt",
-   "name": "Egypt",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "news_at": "2026-11-08T19:20:50+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "SCMP Group",
-    "BBC",
-    "Al Jazeera Media Network",
-    "Deutsche Welle",
-    "ABC (Australia)"
-   ],
-   "fame": 150000,
-   "news": 150000,
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-11-08T20:00:40.273268+00:00",
    "headlines": [
-    "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-    "Train collision in Egypt kills 7, injures 112",
-    "Footage shows derailed carriages after fatal train crash in Egypt",
-    "Seven killed, 112 injured in train collision in Egypt",
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "places": [
-    "Cairo"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+    "Collision between 2 trains in Egypt kills 7 and injures 112 others"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
+   "via": [
+    "wikipedia-current-events-2026-11-08",
+    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city",
+    "google-news:Collision between 2 trains in Egypt kills 7 and injures 112 others",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
    "reports": [
-    {
-     "title": "More than seven dead and 110 injured in train collision in Egypt",
-     "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:20:50+00:00"
-    },
-    {
-     "title": "Egypt train crash leaves several dead, over 100 injured",
-     "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T16:49:00+00:00"
-    },
-    {
-     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T16:05:57+00:00"
-    },
     {
      "title": "Train crash kills seven, injures dozens near Egypt’s Cairo city",
      "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss",
@@ -775,79 +717,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-08T16:37:20+00:00"
-    },
-    {
-     "title": "Seven killed, 112 injured in train collision in Egypt",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T16:31:54+00:00"
-    },
-    {
-     "title": "Train collision in Egypt kills 7, injures 112",
-     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T14:56:42+00:00"
-    },
-    {
-     "title": "Egypt train collision: 4 dead, many injured as train derails after hitting another train",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-collision-over-60-injured-as-passenger-train-derails-after-hitting-another-train-in-giza/articleshow/135660889.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T14:29:03+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)"
-   ],
-   "emerging": true,
-   "article": "2026 El Ayyat train collision"
-  },
-  {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-08T19:32:07.584710+00:00",
-   "headlines": [
-    "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
-    "outlet:NDTV"
-   ],
-   "owners": [
-    "NDTV"
-   ],
-   "reports": [
-    {
-     "title": "7 Killed, Over 100 Injured After 2 Trains Collide In Egypt's Giza Province",
-     "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T18:58:02+00:00"
     }
    ],
    "id": "wk-Q142086610",
@@ -856,13 +725,33 @@
    "date": "2026-11-08",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q5962128",
+   "title": "Michael Locke (stuntman)",
+   "fame": 92092,
+   "views": 92092,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-06"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5962128",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
   }
  ],
  "outlets": {
-  "headlines": 670,
+  "headlines": 674,
   "feeds": 29,
   "owners": 21,
-  "matched": 39,
+  "matched": 35,
   "corroborated": 4
  },
  "emerging": [
@@ -1004,22 +893,21 @@
   {
    "id": "nw-20261108-egypt-rail",
    "qid": null,
-   "title": "More than seven dead and 110 injured in train collision in Egypt",
+   "title": "Egypt train crash leaves several dead, over 100 injured",
    "name": "Egypt",
    "kind": "incident",
    "category": "rail",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T19:20:50+00:00",
+   "news_at": "2026-11-08T16:49:00+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "SCMP Group",
     "BBC",
     "Al Jazeera Media Network",
-    "Deutsche Welle",
-    "ABC (Australia)"
+    "Deutsche Welle"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -1042,16 +930,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "More than seven dead and 110 injured in train collision in Egypt",
-     "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:20:50+00:00"
-    },
     {
      "title": "Egypt train crash leaves several dead, over 100 injured",
      "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
@@ -1118,8 +996,7 @@
     "outlet:SCMP Group",
     "outlet:BBC",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": "2026 El Ayyat train collision"
@@ -1211,6 +1088,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 670 headlines from 29 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 674 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }

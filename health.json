@@ -1,13 +1,12 @@
 {
- "at": "2026-11-08T19:32:06+00:00",
+ "at": "2026-11-08T20:00:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 25 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 26 units today",
   "watch: 2 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 670 headlines from 29 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
+  "outlets: 674 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "skip nw-20261108-egypt-rail: gate: faceless: no free photo shows Egypt or the event itself (only 0 photos of places or things near it)",
-  "wait wk-Q142086610: gate: the article is under 6 hours old; facts may still move (ready in 3.5 h)",
-  "nothing eligible to publish"
+  "hold wk-Q142086610: a scheduled Short goes out in 0.4 h",
+  "hold wk-Q5962128: a scheduled Short goes out in 0.4 h"
  ]
 }
