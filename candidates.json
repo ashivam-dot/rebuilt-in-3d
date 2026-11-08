@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T05:56:02+00:00",
+ "at": "2026-11-08T06:28:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,15 +10,15 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T01:05:35+00:00",
+   "news_at": "2026-11-08T06:05:34+00:00",
    "owners": [
     "France Médias Monde",
     "NPR",
     "NBCUniversal",
     "Paramount (CBS)",
     "Euronews",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "Independent Digital News"
    ],
    "fame": 150000,
    "news": 150000,
@@ -66,6 +66,16 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
+     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T06:05:34+00:00"
+    },
+    {
      "title": "Horrific mass shooting in Krakow as gunman kills six in Polish tourist spot",
      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
      "outlet": "The Independent",
@@ -84,16 +94,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-08T00:50:28+00:00"
-    },
-    {
-     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T00:25:36+00:00"
     },
     {
      "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
@@ -132,8 +132,8 @@
     "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
     "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -248,15 +248,15 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-08T00:00:00+00:00",
+   "news_at": "2026-11-08T06:06:46+00:00",
    "headlines": [
-    "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+    "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-07",
-    "google-news:Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+    "google-news:Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
     "google-news:Video shows people fleeing as gunman opens fire in Kraków, Poland",
     "outlet:Guardian Media Group",
     "outlet:Euronews"
@@ -267,6 +267,16 @@
    ],
    "reports": [
     {
+     "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T06:06:46+00:00"
+    },
+    {
      "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
      "outlet": "The Guardian",
@@ -275,16 +285,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T22:32:41+00:00"
-    },
-    {
-     "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-     "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T21:19:01+00:00"
     },
     {
      "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
@@ -427,7 +427,7 @@
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "Briton among six killed in 'far-right' shooting in Krakow",
+   "title": "Briton among six killed in 'far-right' Krakow shooting as three more bodies found at suspect's home",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -445,7 +445,7 @@
    "headlines": [
     "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as Briton among six killed",
     "Gunmen kills six in Krakow, three more bodies found at his house",
-    "Briton among six killed in 'far-right' shooting in Krakow"
+    "Briton among six killed in 'far-right' Krakow shooting as three more bodies found at suspect's home"
    ],
    "places": [
     "Briton",
@@ -462,7 +462,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Briton among six killed in 'far-right' shooting in Krakow",
+     "title": "Briton among six killed in 'far-right' Krakow shooting as three more bodies found at suspect's home",
      "url": "https://www.bbc.co.uk/news/articles/c6n9r01d2709o?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
@@ -918,10 +918,10 @@
   }
  ],
  "outlets": {
-  "headlines": 668,
+  "headlines": 671,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 23,
   "corroborated": 5
  },
  "emerging": [
@@ -933,15 +933,15 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T01:05:35+00:00",
+   "news_at": "2026-11-08T06:05:34+00:00",
    "owners": [
     "France Médias Monde",
     "NPR",
     "NBCUniversal",
     "Paramount (CBS)",
     "Euronews",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "Independent Digital News"
    ],
    "fame": 150000,
    "news": 150000,
@@ -989,6 +989,16 @@
      "at": "2026-11-07T15:26:49+00:00"
     },
     {
+     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T06:05:34+00:00"
+    },
+    {
      "title": "Horrific mass shooting in Krakow as gunman kills six in Polish tourist spot",
      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
      "outlet": "The Independent",
@@ -1007,16 +1017,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-08T00:50:28+00:00"
-    },
-    {
-     "title": "Krakow shooting latest: British national among six people killed by gunman in ‘act of terror’",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T00:25:36+00:00"
     },
     {
      "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
@@ -1055,8 +1055,8 @@
     "outlet:NBCUniversal",
     "outlet:Paramount (CBS)",
     "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -1244,7 +1244,7 @@
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "Briton among six killed in 'far-right' shooting in Krakow",
+   "title": "Briton among six killed in 'far-right' Krakow shooting as three more bodies found at suspect's home",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -1262,7 +1262,7 @@
    "headlines": [
     "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting as Briton among six killed",
     "Gunmen kills six in Krakow, three more bodies found at his house",
-    "Briton among six killed in 'far-right' shooting in Krakow"
+    "Briton among six killed in 'far-right' Krakow shooting as three more bodies found at suspect's home"
    ],
    "places": [
     "Briton",
@@ -1279,7 +1279,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Briton among six killed in 'far-right' shooting in Krakow",
+     "title": "Briton among six killed in 'far-right' Krakow shooting as three more bodies found at suspect's home",
      "url": "https://www.bbc.co.uk/news/articles/c6n9r01d2709o?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
@@ -1318,6 +1318,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 668 headlines from 30 feeds (21 owners), 28 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
+ "outlet_note": "outlets: 671 headlines from 30 feeds (21 owners), 23 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
