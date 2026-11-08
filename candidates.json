@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T14:59:02+00:00",
+ "at": "2026-11-08T15:46:20+00:00",
  "quakes": [],
  "trending": [
   {
@@ -104,6 +104,7 @@
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
+    "Euronews",
     "NBCUniversal",
     "France Médias Monde",
     "Disney (ABC News)",
@@ -116,11 +117,13 @@
    "headlines": [
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square, police say",
+    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
     "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-    "Poland launches terrorism probe into mass shooting in Krakow",
-    "Poland begins two days of mourning over Krakow shooting"
+    "Poland launches terrorism probe into mass shooting in Krakow"
    ],
-   "places": [],
+   "places": [
+    "Footage"
+   ],
    "attackers": [
     "Poland"
    ],
@@ -142,16 +145,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-08T14:21:18+00:00"
-    },
-    {
-     "title": "Mourning in Poland after mass shooting",
-     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:18:48+00:00"
     },
     {
      "title": "Poland begins two days of mourning over Krakow shooting",
@@ -182,6 +175,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T21:34:00+00:00"
+    },
+    {
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T22:10:08+00:00"
     },
     {
      "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
@@ -217,123 +220,11 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
+    "outlet:Euronews",
     "outlet:NBCUniversal",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261107-krakow-attack",
-   "qid": null,
-   "title": "Gunman kills six in Krakow, three more bodies found at his house",
-   "name": "Krakow",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T12:31:20+00:00",
-   "owners": [
-    "NPR",
-    "Independent Digital News",
-    "NBCUniversal",
-    "Euronews",
-    "France Médias Monde"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Gunman kills six in Krakow, three more bodies found at his house"
-   ],
-   "places": [
-    "Polish",
-    "Witnesses",
-    "Footage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunman kills six in Krakow, three more bodies found at his house",
-     "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T22:47:06+00:00"
-    },
-    {
-     "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-     "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T18:37:36+00:00"
-    },
-    {
-     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T12:31:20+00:00"
-    },
-    {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
-    },
-    {
-     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T19:41:29+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NPR",
-    "outlet:Independent Digital News",
-    "outlet:NBCUniversal",
-    "outlet:Euronews",
-    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -346,22 +237,24 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T13:48:00+00:00",
+   "news_at": "2026-11-08T15:37:28+00:00",
    "owners": [
     "Euronews",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Disney (ABC News)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
     "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
     "At least 21 dead as small boat sinks off Senegal",
-    "At least 21 killed after migrant boat sinks off Senegal"
+    "At least 21 killed after migrant boat sinks off Senegal",
+    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says"
    ],
    "places": [],
    "attackers": [],
@@ -405,6 +298,16 @@
      "at": "2026-11-08T10:01:49+00:00"
     },
     {
+     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T15:37:28+00:00"
+    },
+    {
      "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
      "outlet": "Times of India",
@@ -419,7 +322,108 @@
     "outlet:Euronews",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261107-krakow-attack",
+   "qid": null,
+   "title": "Gunman kills six in Krakow, three more bodies found at his house",
+   "name": "Krakow",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T12:31:20+00:00",
+   "owners": [
+    "Independent Digital News",
+    "NBCUniversal",
+    "Paramount (CBS)",
+    "France Médias Monde"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+    "Gunman kills six in Krakow, three more bodies found at his house",
+    "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor"
+   ],
+   "places": [
+    "Polish",
+    "Witnesses"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Gunman kills six in Krakow, three more bodies found at his house",
+     "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T22:47:06+00:00"
+    },
+    {
+     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T12:31:20+00:00"
+    },
+    {
+     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:31:56+00:00"
+    },
+    {
+     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T21:24:00+00:00"
+    },
+    {
+     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T19:41:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal",
+    "outlet:Paramount (CBS)",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -655,26 +659,6 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q1713901",
-   "title": "Yuri Kayurov",
-   "fame": 1690,
-   "views": 1690,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1713901",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
-  {
    "qid": "Q1150359",
    "title": "Gianpietro Marchetti",
    "fame": 2130,
@@ -793,6 +777,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
+  },
+  {
+   "qid": "Q4476167",
+   "title": "Patricia Walsh",
+   "fame": 1438,
+   "views": 1438,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4476167",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-05"
   },
   {
    "qid": "Q15134166",
@@ -936,10 +940,10 @@
   }
  ],
  "outlets": {
-  "headlines": 660,
+  "headlines": 664,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 36,
   "corroborated": 4
  },
  "emerging": [
@@ -955,6 +959,7 @@
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
+    "Euronews",
     "NBCUniversal",
     "France Médias Monde",
     "Disney (ABC News)",
@@ -967,11 +972,13 @@
    "headlines": [
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square, police say",
+    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
     "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-    "Poland launches terrorism probe into mass shooting in Krakow",
-    "Poland begins two days of mourning over Krakow shooting"
+    "Poland launches terrorism probe into mass shooting in Krakow"
    ],
-   "places": [],
+   "places": [
+    "Footage"
+   ],
    "attackers": [
     "Poland"
    ],
@@ -993,16 +1000,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-08T14:21:18+00:00"
-    },
-    {
-     "title": "Mourning in Poland after mass shooting",
-     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:18:48+00:00"
     },
     {
      "title": "Poland begins two days of mourning over Krakow shooting",
@@ -1033,6 +1030,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-07T21:34:00+00:00"
+    },
+    {
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T22:10:08+00:00"
     },
     {
      "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
@@ -1068,123 +1075,11 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
+    "outlet:Euronews",
     "outlet:NBCUniversal",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261107-krakow-attack",
-   "qid": null,
-   "title": "Gunman kills six in Krakow, three more bodies found at his house",
-   "name": "Krakow",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-08T12:31:20+00:00",
-   "owners": [
-    "NPR",
-    "Independent Digital News",
-    "NBCUniversal",
-    "Euronews",
-    "France Médias Monde"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Gunman kills six in Krakow, three more bodies found at his house"
-   ],
-   "places": [
-    "Polish",
-    "Witnesses",
-    "Footage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunman kills six in Krakow, three more bodies found at his house",
-     "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T22:47:06+00:00"
-    },
-    {
-     "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-     "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T18:37:36+00:00"
-    },
-    {
-     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-08T12:31:20+00:00"
-    },
-    {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
-    },
-    {
-     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T19:41:29+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NPR",
-    "outlet:Independent Digital News",
-    "outlet:NBCUniversal",
-    "outlet:Euronews",
-    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -1197,22 +1092,24 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T13:48:00+00:00",
+   "news_at": "2026-11-08T15:37:28+00:00",
    "owners": [
     "Euronews",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Disney (ABC News)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
     "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
     "At least 21 dead as small boat sinks off Senegal",
-    "At least 21 killed after migrant boat sinks off Senegal"
+    "At least 21 killed after migrant boat sinks off Senegal",
+    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says"
    ],
    "places": [],
    "attackers": [],
@@ -1256,6 +1153,16 @@
      "at": "2026-11-08T10:01:49+00:00"
     },
     {
+     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T15:37:28+00:00"
+    },
+    {
      "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
      "outlet": "Times of India",
@@ -1270,13 +1177,114 @@
     "outlet:Euronews",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261107-krakow-attack",
+   "qid": null,
+   "title": "Gunman kills six in Krakow, three more bodies found at his house",
+   "name": "Krakow",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T12:31:20+00:00",
+   "owners": [
+    "Independent Digital News",
+    "NBCUniversal",
+    "Paramount (CBS)",
+    "France Médias Monde"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+    "Gunman kills six in Krakow, three more bodies found at his house",
+    "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor"
+   ],
+   "places": [
+    "Polish",
+    "Witnesses"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Gunman kills six in Krakow, three more bodies found at his house",
+     "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T22:47:06+00:00"
+    },
+    {
+     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T12:31:20+00:00"
+    },
+    {
+     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:31:56+00:00"
+    },
+    {
+     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T21:24:00+00:00"
+    },
+    {
+     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T19:41:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal",
+    "outlet:Paramount (CBS)",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 660 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 664 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-senegal-maritime, nw-20261107-krakow-attack",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
  "quiet_note": "quiet day (no Short yet today): 14 tribute candidates: Toni Brogno, Carlos Albert (footballer), John Nicks, Gianpietro Marchetti"
 }
