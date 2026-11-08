@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T17:33:00+00:00",
+ "at": "2026-11-08T18:00:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -555,44 +555,6 @@
    "has_coords": true
   },
   {
-   "qid": null,
-   "title": "2026 Giza train collision",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-08T14:21:40+00:00",
-   "headlines": [
-    "64 Injured After 2 Trains Collide In Egypt's Giza Province"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:64 Injured After 2 Trains Collide In Egypt's Giza Province",
-    "outlet:NDTV"
-   ],
-   "owners": [
-    "NDTV"
-   ],
-   "reports": [
-    {
-     "title": "64 Injured After 2 Trains Collide In Egypt's Giza Province",
-     "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T14:21:40+00:00"
-    }
-   ],
-   "id": "wp-2026_Giza_train_collision",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q4250213",
    "title": "Sebastián Lelio",
    "fame": 15917,
@@ -694,51 +656,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": null,
-   "title": "2026 Giza train collision",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-08T14:21:40+00:00",
-   "headlines": [
-    "64 Injured After 2 Trains Collide In Egypt's Giza Province"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:64 Injured After 2 Trains Collide In Egypt's Giza Province",
-    "outlet:NDTV"
-   ],
-   "owners": [
-    "NDTV"
-   ],
-   "reports": [
-    {
-     "title": "64 Injured After 2 Trains Collide In Egypt's Giza Province",
-     "url": "https://www.ndtv.com/world-news/64-injured-after-2-trains-collide-in-egypts-giza-province-12300616#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T14:21:40+00:00"
-    }
-   ],
-   "id": "wp-2026_Giza_train_collision",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 673,
+  "headlines": 667,
   "feeds": 29,
   "owners": 21,
-  "matched": 34,
+  "matched": 33,
   "corroborated": 4
  },
  "emerging": [
@@ -1088,6 +1011,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 673 headlines from 29 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261108-egypt-rail, nw-20261108-senegal-maritime",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
