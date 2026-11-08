@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T09:30:31+00:00",
+ "at": "2026-11-08T09:59:07+00:00",
  "quakes": [],
  "trending": [
   {
@@ -136,7 +136,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-08T09:09:35+00:00",
+   "news_at": "2026-11-08T09:30:22+00:00",
    "headlines": [
     "Briton among six dead after gunman opens fire in Kraków market square",
     "Video shows people fleeing as gunman opens fire in Kraków, Poland"
@@ -162,7 +162,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-08T09:09:35+00:00"
+     "at": "2026-11-08T09:30:22+00:00"
     },
     {
      "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
@@ -198,12 +198,12 @@
   {
    "id": "nw-20261107-poland-attack",
    "qid": null,
-   "title": "Poland: Gunman kills 6 in Krakow main square",
+   "title": "Poland begins two days of mourning over Krakow shooting",
    "name": "Poland",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T00:58:11+00:00",
+   "news_at": "2026-11-08T09:43:00+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
@@ -218,7 +218,8 @@
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square",
     "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-    "6 dead, 15 injured in market square shooting in Poland: Police"
+    "6 dead, 15 injured in market square shooting in Poland: Police",
+    "Poland begins two days of mourning over Krakow shooting"
    ],
    "places": [
     "Krakow"
@@ -233,6 +234,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Poland begins two days of mourning over Krakow shooting",
+     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T09:43:00+00:00"
+    },
     {
      "title": "Poland: Gunman kills 6 in Krakow main square",
      "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-all-1573-rdf",
@@ -716,10 +727,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 663,
+  "headlines": 664,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
+  "matched": 24,
   "corroborated": 4
  },
  "emerging": [
@@ -853,12 +864,12 @@
   {
    "id": "nw-20261107-poland-attack",
    "qid": null,
-   "title": "Poland: Gunman kills 6 in Krakow main square",
+   "title": "Poland begins two days of mourning over Krakow shooting",
    "name": "Poland",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-08T00:58:11+00:00",
+   "news_at": "2026-11-08T09:43:00+00:00",
    "owners": [
     "SCMP Group",
     "Deutsche Welle",
@@ -873,7 +884,8 @@
     "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
     "Poland: Gunman kills 6 in Krakow main square",
     "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-    "6 dead, 15 injured in market square shooting in Poland: Police"
+    "6 dead, 15 injured in market square shooting in Poland: Police",
+    "Poland begins two days of mourning over Krakow shooting"
    ],
    "places": [
     "Krakow"
@@ -888,6 +900,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Poland begins two days of mourning over Krakow shooting",
+     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T09:43:00+00:00"
+    },
     {
      "title": "Poland: Gunman kills 6 in Krakow main square",
      "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-all-1573-rdf",
@@ -1016,6 +1038,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 663 headlines from 30 feeds (21 owners), 20 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
+ "outlet_note": "outlets: 664 headlines from 30 feeds (21 owners), 24 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
