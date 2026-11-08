@@ -1,17 +1,16 @@
 {
- "at": "2026-11-08T14:14:03+00:00",
- "ok": false,
+ "at": "2026-11-08T14:59:01+00:00",
+ "ok": true,
  "steps": [
-  "learn: 67 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 30, 'lift': 1.217, 'typical_views_24h': 333, 'n_retention': 26, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.944, 'typical_views_24h': 170, 'n_retention': 28, 'typical_view_pct': 57.9}, 'category:death': {'n': 29, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
-  "watch: 16 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 656 headlines from 29 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
-  "quiet day (no Short yet today): 15 tribute candidates: María Alicia Delgado, Toni Brogno, Carlos Albert (footballer), Vezhdi Rashidov",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 15 units today",
+  "watch: 14 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 660 headlines from 30 feeds (21 owners), 30 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-krakow-attack, nw-20261108-senegal-maritime",
+  "quiet day (no Short yet today): 14 tribute candidates: Toni Brogno, Carlos Albert (footballer), John Nicks, Gianpietro Marchetti",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
-  "skip wk-Q2064558: gate: only 2 usable photos of Vezhdi Rashidov on Wikimedia Commons (want 4)",
-  "skip wk-Q6003298: gate: no photo on Wikimedia Commons shows Maria Alicia Delgado's face (a tribute needs one)",
-  "skip wk-Q1713901: gate: no draft passed the fact checks: beat 2, 3, 4 name(s) nothing its photo shows (only 25% of the script shows what it says; want 70%): in each, name who or what a photo shows (Yuri Kayurov, Maly Theatre), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo"
- ],
- "error": "RuntimeError: video moTbSDJOQjk was not scheduled",
- "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 233, in run\n    result = publish(short.id, publish_at=slot.isoformat() if slot else None,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/cli.py\", line 113, in publish\n    result = youtube.publish(short, work / \"short.mp4\", publish_at=publish_at)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/rebuilt-in-3d/rebuilt-in-3d/studio/youtube.py\", line 343, in publish\n    raise RuntimeError(f\"video {video_id} was not scheduled\")\nRuntimeError: video moTbSDJOQjk was not scheduled\n"
+  "skip wk-Q1713901: gate: no draft passed the fact checks: beat 2, 3, 4 name(s) nothing its photo shows (only 23% of the script shows what it says; want 70%): in each, name who or what a photo shows (Yuri Kayurov, Maly Theatre), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
+  "skip wk-Q1150359: gate: no draft passed the fact checks: line 2 (During the summer of 1972, he was among the squad members in): unsupported: The source does not mention his location in Piedmont during the summer of 1972. | second look: The source sentences do not mention 'Piedmont' or specify that he was part of a 'squad' in that location. While the sources confirm he was a footballer and played during the 1971–72 season, the specific geographical locat",
+  "later wk-Q601273: this run already wrote 2 scripts",
+  "later wk-Q2266133: this run already wrote 2 scripts",
+  "nothing eligible to publish"
+ ]
 }
