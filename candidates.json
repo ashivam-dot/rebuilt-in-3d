@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T04:58:34+00:00",
+ "at": "2026-11-08T05:29:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -137,30 +137,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q141695384",
-   "title": "2026 Houthi attacks on Saudi airports",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-07T17:55:58+00:00",
-   "headlines": [
-    "Houthis claim attacks on Aramco, Riyadh airport in wave of strikes on Saudi Arabia"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Houthis claim attacks on Aramco, Riyadh airport in wave of strikes on Saudi Arabia"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141695384",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-10",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261107-poland-attack",
@@ -370,6 +346,83 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "id": "nw-20261107-yemen-strike",
+   "qid": null,
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "name": "Yemen",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T05:05:35+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
+    "Houthis say at least 33 killed in Saudi air strike",
+    "Saudi airstrikes on homes near Yemen’s capital kill 33 people"
+   ],
+   "places": [],
+   "attackers": [
+    "Houthi",
+    "Houthis",
+    "Saudi"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Houthis say at least 33 killed in Saudi air strike",
+     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T04:03:12+00:00"
+    },
+    {
+     "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
+     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-airstrikes-sanaa-yemen-deaths-houthis-b3081138.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T05:05:35+00:00"
+    },
+    {
+     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
+     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T12:36:57+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261107-krakow-attack",
@@ -785,13 +838,94 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261107-yemen-strike",
+   "qid": null,
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "name": "Yemen",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T05:05:35+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
+    "Houthis say at least 33 killed in Saudi air strike",
+    "Saudi airstrikes on homes near Yemen’s capital kill 33 people"
+   ],
+   "places": [],
+   "attackers": [
+    "Houthi",
+    "Houthis",
+    "Saudi"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Houthis say at least 33 killed in Saudi air strike",
+     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T04:03:12+00:00"
+    },
+    {
+     "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
+     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-airstrikes-sanaa-yemen-deaths-houthis-b3081138.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T05:05:35+00:00"
+    },
+    {
+     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
+     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T12:36:57+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 124 people)"
+ ],
  "outlets": {
-  "headlines": 674,
+  "headlines": 672,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 4
+  "matched": 30,
+  "corroborated": 5
  },
  "emerging": [
   {
@@ -1034,6 +1168,83 @@
    "article": null
   },
   {
+   "id": "nw-20261107-yemen-strike",
+   "qid": null,
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "name": "Yemen",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T05:05:35+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
+    "Houthis say at least 33 killed in Saudi air strike",
+    "Saudi airstrikes on homes near Yemen’s capital kill 33 people"
+   ],
+   "places": [],
+   "attackers": [
+    "Houthi",
+    "Houthis",
+    "Saudi"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Houthis say at least 33 killed in Saudi air strike",
+     "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T04:03:12+00:00"
+    },
+    {
+     "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
+     "url": "https://www.independent.co.uk/news/world/middle-east/saudi-airstrikes-sanaa-yemen-deaths-houthis-b3081138.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T05:05:35+00:00"
+    },
+    {
+     "title": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
+     "url": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T12:36:57+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
    "title": "Briton among six killed in 'far-right' shooting in Krakow",
@@ -1110,6 +1321,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 674 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-krakow-attack",
+ "outlet_note": "outlets: 672 headlines from 30 feeds (21 owners), 30 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261107-krakow-attack, nw-20261107-poland-attack, nw-20261107-yemen-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45"
 }
