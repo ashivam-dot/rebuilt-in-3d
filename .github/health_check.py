@@ -12,9 +12,12 @@ if age > 4:
 elif not health.get("ok"):
     problem = f"Last run failed: {health.get('error')}"
 print(problem or f"healthy: last run {age:.1f} h ago")
+found = subprocess.run(["gh", "issue", "list", "--state", "open", "--label", "alert", "--search", "Studio is silent",
+                        "--json", "number", "--jq", ".[0].number"], capture_output=True, text=True).stdout.strip()
+if not problem and found:
+    subprocess.run(["gh", "issue", "close", found, "--comment", f"Healthy again: last run {age:.1f} h ago."],
+                   check=True)
 if problem:
-    found = subprocess.run(["gh", "issue", "list", "--state", "open", "--label", "alert", "--search", "Studio is silent",
-                            "--json", "number", "--jq", ".[0].number"], capture_output=True, text=True).stdout.strip()
     if found:
         subprocess.run(["gh", "issue", "comment", found, "--body", problem], check=True)
     else:
