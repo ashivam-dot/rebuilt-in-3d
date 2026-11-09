@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T05:01:57+00:00",
+ "at": "2026-11-09T05:32:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -38,18 +38,16 @@
    "news_at": "2026-11-08T20:40:33+00:00",
    "owners": [
     "Euronews",
-    "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "Deutsche Welle",
     "France Médias Monde"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
     "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
     "Many killed after migrant boat sinks off Senegal",
     "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
@@ -104,21 +102,10 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-08T15:37:28+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T12:46:51+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde"
@@ -635,15 +622,7 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "outlets": {
-  "headlines": 640,
-  "feeds": 28,
-  "owners": 20,
-  "matched": 27,
-  "corroborated": 4
- },
- "emerging": [
+ "candidates": [
   {
    "id": "nw-20261108-senegal-maritime",
    "qid": null,
@@ -655,18 +634,16 @@
    "news_at": "2026-11-08T20:40:33+00:00",
    "owners": [
     "Euronews",
-    "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "Deutsche Welle",
     "France Médias Monde"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
     "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
     "Many killed after migrant boat sinks off Senegal",
     "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
@@ -721,21 +698,105 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-08T15:37:28+00:00"
-    },
-    {
-     "title": "At least 21 dead after migrant boat sinks off Senegal's northwestern coast",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/at-least-21-dead-after-migrant-boat-sinks-off-senegals-northwestern-coast/articleshow/135659201.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-08T12:46:51+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:Bennett, Coleman & Co.",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlets": {
+  "headlines": 643,
+  "feeds": 28,
+  "owners": 20,
+  "matched": 25,
+  "corroborated": 4
+ },
+ "emerging": [
+  {
+   "id": "nw-20261108-senegal-maritime",
+   "qid": null,
+   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-08",
+   "news_at": "2026-11-08T20:40:33+00:00",
+   "owners": [
+    "Euronews",
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "France Médias Monde"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+    "Many killed after migrant boat sinks off Senegal",
+    "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+     "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T20:40:33+00:00"
+    },
+    {
+     "title": "Many killed after migrant boat sinks off Senegal",
+     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T19:12:00+00:00"
+    },
+    {
+     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T10:01:49+00:00"
+    },
+    {
+     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
+     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T15:37:28+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde"
@@ -1046,5 +1107,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 640 headlines from 28 feeds (20 owners), 27 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
+ "outlet_note": "outlets: 643 headlines from 28 feeds (20 owners), 25 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
 }
