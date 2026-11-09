@@ -30,8 +30,8 @@ def test_world_stories_go_out_whenever_london_or_new_york_is_awake():
     assert plan.in_window(INDIA, utc(10, 14, 3, 30)) and not plan.in_window(INDIA, utc(10, 14, 17, 30))
 
 
-def test_twelve_a_day_forty_minutes_apart_and_wars_never_break():
-    assert plan.MAX_PER_DAY == 12 and plan.MIN_GAP.total_seconds() == 40 * 60
+def test_three_a_day_two_hours_apart_and_wars_never_break():
+    assert plan.MAX_PER_DAY == 3 and plan.MIN_GAP.total_seconds() == plan.BREAKING_GAP.total_seconds() == 2 * 3600
     strike = {"kind": "incident", "category": "strike", "fame": 50_000, "news_at": NOW.isoformat(),
               "owners": ["BBC", "United Nations", "NBCUniversal", "Fox Corporation", "Los Angeles Times"]}
     assert not plan.is_breaking(strike, NOW)

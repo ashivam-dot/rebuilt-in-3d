@@ -4,20 +4,20 @@ from studio import ledger, news, plan, trends, writer
 
 
 def test_publish_cadence(tmp_path, monkeypatch):
+    # Owner, 2026-11-09: at most 3 a day, 2 h apart, breaking news included (YouTube's mass-production rule).
     monkeypatch.setattr(ledger, "STATE", tmp_path)
     at = datetime(2026, 10, 9, 12, tzinfo=timezone.utc)
     assert plan.can_publish(at) is None
     ledger.record_publish({"id": "eq-a", "published_at": "2026-10-09T11:40:00+00:00", "loss": False})
     assert "h ago" in plan.can_publish(at)
     assert "h ago" in plan.can_publish(at, breaking=True)
-    assert plan.can_publish(datetime(2026, 10, 9, 12, 15, tzinfo=timezone.utc), breaking=True) is None
-    assert "h ago" in plan.can_publish(datetime(2026, 10, 9, 12, 19, tzinfo=timezone.utc))
-    assert plan.can_publish(datetime(2026, 10, 9, 12, 20, tzinfo=timezone.utc)) is None  # 40 minutes apart
-    for i, hour in enumerate(("00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10")):
+    assert "h ago" in plan.can_publish(datetime(2026, 10, 9, 13, 39, tzinfo=timezone.utc), breaking=True)
+    assert plan.can_publish(datetime(2026, 10, 9, 13, 40, tzinfo=timezone.utc)) is None  # 2 h apart
+    for i, hour in enumerate(("01", "05")):
         ledger.record_publish({"id": f"wk-{i}", "published_at": f"2026-10-09T{hour}:00:00+00:00", "loss": False})
     late = datetime(2026, 10, 9, 20, tzinfo=timezone.utc)
     assert "today" in plan.can_publish(late)
-    assert plan.can_publish(late, breaking=True) is None
+    assert "today" in plan.can_publish(late, breaking=True)
     assert plan.can_publish(datetime(2026, 10, 10, 1, tzinfo=timezone.utc)) is None
 
 
@@ -25,9 +25,9 @@ def test_a_scheduled_short_only_blocks_the_hours_around_it(tmp_path, monkeypatch
     monkeypatch.setattr(ledger, "STATE", tmp_path)
     ledger.record_publish({"id": "wk-s", "published_at": "2026-10-10T03:45:00+00:00", "loss": False})
     assert plan.can_publish(datetime(2026, 10, 9, 22, tzinfo=timezone.utc)) is None
-    assert "scheduled" in plan.can_publish(datetime(2026, 10, 10, 3, 10, tzinfo=timezone.utc))
-    assert plan.can_publish(datetime(2026, 10, 10, 3, 0, tzinfo=timezone.utc)) is None
-    assert "h ago" in plan.can_publish(datetime(2026, 10, 10, 4, 15, tzinfo=timezone.utc))
+    assert "scheduled" in plan.can_publish(datetime(2026, 10, 10, 2, 0, tzinfo=timezone.utc))
+    assert plan.can_publish(datetime(2026, 10, 10, 1, 45, tzinfo=timezone.utc)) is None
+    assert "h ago" in plan.can_publish(datetime(2026, 10, 10, 5, 30, tzinfo=timezone.utc))
 
 
 def test_ledger_skip_marks_done(tmp_path, monkeypatch):

@@ -24,9 +24,11 @@ from zoneinfo import ZoneInfo
 from . import gdacs, ledger, news, outlets, trends, usgs
 from .stories import km_between
 
-MAX_PER_DAY = 12
-MIN_GAP = timedelta(minutes=40)
-BREAKING_GAP = timedelta(minutes=30)
+# Owner, 2026-11-09, after YouTube removed Chaukanna News (AI news Shorts at about 18 a day) under its spam policy's
+# "automated or synthetic mass-production" rule: at most 3 a day, at least 2 h apart, breaking news included.
+MAX_PER_DAY = 3
+MIN_GAP = timedelta(hours=2)
+BREAKING_GAP = timedelta(hours=2)
 BREAKING_FAME = 400_000
 # Or this many independent outlets on one incident, BREAKING_STRONG of them official, public or international: a big
 # story hours before Wikipedia's page views show it.
@@ -60,7 +62,7 @@ def can_publish(at: datetime | None = None, breaking: bool = False) -> str | Non
     at = at or datetime.now(timezone.utc)
     rows = ledger.published()
     today = [r for r in rows if r["published_at"][:10] == at.date().isoformat()]
-    if len(today) >= MAX_PER_DAY + breaking:
+    if len(today) >= MAX_PER_DAY:
         return f"already {len(today)} Shorts today"
     gap = BREAKING_GAP if breaking else MIN_GAP
     times = [datetime.fromisoformat(r["published_at"]) for r in rows]
