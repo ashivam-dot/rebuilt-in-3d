@@ -1,16 +1,17 @@
 {
- "at": "2026-11-09T15:49:45+00:00",
+ "at": "2026-11-09T16:19:26+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 244105,
+   "fame": 269105,
    "views": 144105,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-09T15:49:45.808439+00:00",
+   "news": 75000,
+   "news_at": "2026-11-09T16:19:26.547373+00:00",
    "headlines": [
+    "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
     "Poland: Kraków mourns six victims as shooting site reopens",
     "Parents, sister of far-right Kraków shooter found dead in family home"
    ],
@@ -18,16 +19,29 @@
    "via": [
     "wikipedia-top-2026-11-08",
     "wikipedia-current-events-2026-11-09",
+    "google-news:Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
     "google-news:Poland: Kraków mourns six victims as shooting site reopens",
     "google-news:Parents, sister of far-right Kraków shooter found dead in family home",
+    "outlet:Guardian Media Group",
     "outlet:Euronews",
     "outlet:NBCUniversal"
    ],
    "owners": [
+    "Guardian Media Group",
     "Euronews",
     "NBCUniversal"
    ],
    "reports": [
+    {
+     "title": "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
+     "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T15:52:26+00:00"
+    },
     {
      "title": "Poland: Kraków mourns six victims as shooting site reopens",
      "url": "https://www.euronews.com/video/2026/11/08/poland-krakow-mourns-six-victims-as-shooting-site-reopens",
@@ -190,20 +204,18 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-09T15:28:00+00:00",
+   "news_at": "2026-11-09T15:50:50+00:00",
    "owners": [
-    "Deutsche Welle",
     "Disney (ABC News)",
     "BBC",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "Many killed after migrant boat sinks off Senegal",
     "Death toll rises to 39 after migrant boat capsizes off Senegal",
     "At least 39 die after Europe-bound migrant boat sinks off Senegal",
     "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal"
@@ -232,16 +244,6 @@
      "at": "2026-11-09T14:44:47+00:00"
     },
     {
-     "title": "Many killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:12:00+00:00"
-    },
-    {
      "title": "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal",
      "url": "https://www.independent.co.uk/news/world/africa/senegal-saint-louis-migrant-boat-b3081827.html",
      "outlet": "The Independent",
@@ -249,7 +251,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T15:28:00+00:00"
+     "at": "2026-11-09T15:50:50+00:00"
     },
     {
      "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
@@ -273,7 +275,6 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Independent Digital News"
@@ -346,15 +347,16 @@
   {
    "qid": "Q922227",
    "title": "Richard Lloyd (guitarist)",
-   "fame": 30472,
+   "fame": 30672,
    "views": 30472,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-08"
+    "wikipedia-top-2026-11-08",
+    "google-trends-GB:guitarist"
    ],
    "owners": [],
    "reports": [],
@@ -472,24 +474,26 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q6410167",
-   "title": "Kimmarie Johnson",
-   "fame": 12389,
-   "views": 12389,
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 50000,
+   "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": null,
+   "news_at": "2026-11-09T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-08"
+    "wikipedia-current-events-2026-11-08"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q6410167",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q601273",
@@ -633,10 +637,10 @@
   }
  ],
  "outlets": {
-  "headlines": 725,
+  "headlines": 728,
   "feeds": 29,
   "owners": 21,
-  "matched": 26,
+  "matched": 27,
   "corroborated": 3
  },
  "emerging": [
@@ -771,20 +775,18 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-09T15:28:00+00:00",
+   "news_at": "2026-11-09T15:50:50+00:00",
    "owners": [
-    "Deutsche Welle",
     "Disney (ABC News)",
     "BBC",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "Many killed after migrant boat sinks off Senegal",
     "Death toll rises to 39 after migrant boat capsizes off Senegal",
     "At least 39 die after Europe-bound migrant boat sinks off Senegal",
     "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal"
@@ -813,16 +815,6 @@
      "at": "2026-11-09T14:44:47+00:00"
     },
     {
-     "title": "Many killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T19:12:00+00:00"
-    },
-    {
      "title": "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal",
      "url": "https://www.independent.co.uk/news/world/africa/senegal-saint-louis-migrant-boat-b3081827.html",
      "outlet": "The Independent",
@@ -830,7 +822,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T15:28:00+00:00"
+     "at": "2026-11-09T15:50:50+00:00"
     },
     {
      "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
@@ -854,7 +846,6 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Independent Digital News"
@@ -863,6 +854,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 725 headlines from 29 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
+ "outlet_note": "outlets: 728 headlines from 29 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
  "quiet_note": "quiet day (no Short yet today): 7 tribute candidates: Vadim Crîcimari, Antonio Carattoni, Patricia Walsh, Mikhail Vasiliev"
 }
