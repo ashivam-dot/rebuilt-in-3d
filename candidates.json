@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T20:45:03+00:00",
+ "at": "2026-11-09T21:19:30+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 144105,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-09T20:45:03.326902+00:00",
+   "news_at": "2026-11-09T21:19:30.993491+00:00",
    "headlines": [
     "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
     "Poland: Kraków mourns six victims as shooting site reopens",
@@ -76,7 +76,7 @@
   {
    "id": "nw-20261108-krakow-attack",
    "qid": null,
-   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+   "title": "Krakow shooting suspect has died in hospital, police say",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -87,7 +87,6 @@
     "Independent Digital News",
     "Deutsche Welle",
     "Fox Corporation",
-    "Disney (ABC News)",
     "Paramount (CBS)",
     "Al Jazeera Media Network",
     "NBCUniversal"
@@ -101,7 +100,7 @@
     "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
     "Krakow mass shooting suspect has died in hospital, police in Poland say",
     "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Krakow shooting suspect has died in hospital, police say"
    ],
    "places": [
     "Poland"
@@ -116,6 +115,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Krakow shooting suspect has died in hospital, police say",
+     "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T11:56:25+00:00"
+    },
     {
      "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
      "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
@@ -167,16 +176,6 @@
      "at": "2026-11-09T16:23:46+00:00"
     },
     {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T09:38:12+00:00"
-    },
-    {
      "title": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
      "url": "https://www.foxnews.com/world/poland-krakow-square-shooting-gunman-dies",
      "outlet": "Fox News",
@@ -202,13 +201,34 @@
     "outlet:Independent Digital News",
     "outlet:Deutsche Welle",
     "outlet:Fox Corporation",
-    "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)",
     "outlet:Al Jazeera Media Network",
     "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q7828852",
+   "title": "Toukie Smith",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-09T15:48:12+00:00",
+   "headlines": [
+    "Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7828852",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   },
   {
    "id": "nw-20261108-senegal-maritime",
@@ -444,6 +464,29 @@
    "date": "2026-11-06"
   },
   {
+   "qid": "Q4250213",
+   "title": "Sebastián Lelio",
+   "fame": 10477,
+   "views": 9577,
+   "traffic": 900,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-08",
+    "google-trends-US:sebastian lelio",
+    "google-trends-GB:sebastián lelio",
+    "google-trends-GB:sebastian lelio"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4250213",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
    "qid": "Q5962128",
    "title": "Michael Locke (stuntman)",
    "fame": 9419,
@@ -465,19 +508,62 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q7828852",
+   "title": "Toukie Smith",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-09T15:48:12+00:00",
+   "headlines": [
+    "Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7828852",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
+   "qid": "Q1713901",
+   "title": "Yuri Kayurov",
+   "fame": 2107,
+   "views": 2107,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1713901",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  }
+ ],
  "outlets": {
   "headlines": 745,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 36,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261108-krakow-attack",
    "qid": null,
-   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+   "title": "Krakow shooting suspect has died in hospital, police say",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
@@ -488,7 +574,6 @@
     "Independent Digital News",
     "Deutsche Welle",
     "Fox Corporation",
-    "Disney (ABC News)",
     "Paramount (CBS)",
     "Al Jazeera Media Network",
     "NBCUniversal"
@@ -502,7 +587,7 @@
     "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
     "Krakow mass shooting suspect has died in hospital, police in Poland say",
     "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Krakow shooting suspect has died in hospital, police say"
    ],
    "places": [
     "Poland"
@@ -517,6 +602,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Krakow shooting suspect has died in hospital, police say",
+     "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T11:56:25+00:00"
+    },
     {
      "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
      "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
@@ -568,16 +663,6 @@
      "at": "2026-11-09T16:23:46+00:00"
     },
     {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T09:38:12+00:00"
-    },
-    {
      "title": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
      "url": "https://www.foxnews.com/world/poland-krakow-square-shooting-gunman-dies",
      "outlet": "Fox News",
@@ -603,7 +688,6 @@
     "outlet:Independent Digital News",
     "outlet:Deutsche Welle",
     "outlet:Fox Corporation",
-    "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)",
     "outlet:Al Jazeera Media Network",
     "outlet:NBCUniversal"
@@ -698,6 +782,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
- "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
+ "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
+ "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: Yuri Kayurov"
 }
