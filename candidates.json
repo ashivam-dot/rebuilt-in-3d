@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T16:50:08+00:00",
+ "at": "2026-11-09T17:19:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 144105,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-09T16:50:08.883569+00:00",
+   "news_at": "2026-11-09T17:19:48.531218+00:00",
    "headlines": [
     "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
     "Poland: Kraków mourns six victims as shooting site reopens",
@@ -295,6 +295,81 @@
    "article": null
   },
   {
+   "id": "nw-20261109-iran-revolutionary-guards-cyberattack",
+   "qid": null,
+   "title": "France blames Iran for supermarket fridge cyberattacks",
+   "name": "Iran Revolutionary Guards",
+   "kind": "incident",
+   "category": "cyberattack",
+   "date": "2026-11-09",
+   "news_at": "2026-11-09T17:02:58+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Guardian Media Group",
+    "ABC (Australia)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+    "France blames Iran’s Revolutionary Guards for cyber-attacks on supermarket fridges",
+    "France blames Iran for supermarket fridge cyberattacks"
+   ],
+   "places": [
+    "Guards"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France blames Iran for supermarket fridge cyberattacks",
+     "url": "https://www.abc.net.au/news/2026-11-10/irgc-iran-fridges-france/107366730",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:52:12+00:00"
+    },
+    {
+     "title": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+     "url": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:44:44+00:00"
+    },
+    {
+     "title": "France blames Iran’s Revolutionary Guards for cyber-attacks on supermarket fridges",
+     "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T17:02:58+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Guardian Media Group",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q142086610",
    "title": "2026 El Ayyat train collision",
    "fame": 50000,
@@ -359,16 +434,15 @@
   {
    "qid": "Q922227",
    "title": "Richard Lloyd (guitarist)",
-   "fame": 30672,
+   "fame": 30472,
    "views": 30472,
-   "traffic": 200,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-08",
-    "google-trends-GB:guitarist"
+    "wikipedia-top-2026-11-08"
    ],
    "owners": [],
    "reports": [],
@@ -486,30 +560,85 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q1713901",
-   "title": "Yuri Kayurov",
-   "fame": 2107,
-   "views": 2107,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
+   "id": "nw-20261109-iran-revolutionary-guards-cyberattack",
+   "qid": null,
+   "title": "France blames Iran for supermarket fridge cyberattacks",
+   "name": "Iran Revolutionary Guards",
+   "kind": "incident",
+   "category": "cyberattack",
+   "date": "2026-11-09",
+   "news_at": "2026-11-09T17:02:58+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Guardian Media Group",
+    "ABC (Australia)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1713901",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+    "France blames Iran’s Revolutionary Guards for cyber-attacks on supermarket fridges",
+    "France blames Iran for supermarket fridge cyberattacks"
+   ],
+   "places": [
+    "Guards"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France blames Iran for supermarket fridge cyberattacks",
+     "url": "https://www.abc.net.au/news/2026-11-10/irgc-iran-fridges-france/107366730",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:52:12+00:00"
+    },
+    {
+     "title": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+     "url": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:44:44+00:00"
+    },
+    {
+     "title": "France blames Iran’s Revolutionary Guards for cyber-attacks on supermarket fridges",
+     "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T17:02:58+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Guardian Media Group",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
-   "qid": "Q601273",
-   "title": "Antonio Carattoni",
-   "fame": 1971,
-   "views": 1971,
+   "qid": "Q4482111",
+   "title": "Lidiya Fedoseyeva-Shukshina",
+   "fame": 5042,
+   "views": 5042,
    "traffic": 0,
    "news": 0,
    "news_at": null,
@@ -520,10 +649,10 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q601273",
+   "id": "wk-Q4482111",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-05"
+   "date": "2026-11-07"
   },
   {
    "qid": "Q1768595",
@@ -646,15 +775,12 @@
    "date": "2026-11-04"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 128 people)"
- ],
  "outlets": {
-  "headlines": 739,
+  "headlines": 745,
   "feeds": 29,
   "owners": 21,
   "matched": 29,
-  "corroborated": 3
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -877,8 +1003,83 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261109-iran-revolutionary-guards-cyberattack",
+   "qid": null,
+   "title": "France blames Iran for supermarket fridge cyberattacks",
+   "name": "Iran Revolutionary Guards",
+   "kind": "incident",
+   "category": "cyberattack",
+   "date": "2026-11-09",
+   "news_at": "2026-11-09T17:02:58+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Guardian Media Group",
+    "ABC (Australia)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+    "France blames Iran’s Revolutionary Guards for cyber-attacks on supermarket fridges",
+    "France blames Iran for supermarket fridge cyberattacks"
+   ],
+   "places": [
+    "Guards"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "France blames Iran for supermarket fridge cyberattacks",
+     "url": "https://www.abc.net.au/news/2026-11-10/irgc-iran-fridges-france/107366730",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:52:12+00:00"
+    },
+    {
+     "title": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+     "url": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:44:44+00:00"
+    },
+    {
+     "title": "France blames Iran’s Revolutionary Guards for cyber-attacks on supermarket fridges",
+     "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T17:02:58+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Guardian Media Group",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 739 headlines from 29 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
- "quiet_note": "quiet day (no Short yet today): 8 tribute candidates: Yuri Kayurov, Vadim Crîcimari, Antonio Carattoni, Patricia Walsh"
+ "outlet_note": "outlets: 745 headlines from 29 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-krakow-attack, nw-20261108-senegal-maritime, nw-20261109-iran-revolutionary-guards-cyberattack",
+ "quiet_note": "quiet day (no Short yet today): 7 tribute candidates: Lidiya Fedoseyeva-Shukshina, Vadim Crîcimari, Patricia Walsh, Mikhail Vasiliev"
 }
