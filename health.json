@@ -1,12 +1,12 @@
 {
- "at": "2026-11-09T11:46:31+00:00",
+ "at": "2026-11-09T12:19:33+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
-  "watch: 1 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 690 headlines from 29 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-poland-attack, nw-20261108-krakow-attack, nw-20261108-egypt-rail",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261108-krakow-attack",
-  "skip nw-20261108-krakow-attack: gate: faceless: no free photo shows Krakow or the event itself (only 2 photos of places or things near it)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
+  "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 698 headlines from 29 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.6 h ago, 124 people)\"]",
+  "skip nw-20261109-poland-attack: gate: faceless: no free photo shows Poland or the event itself (only 2 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
