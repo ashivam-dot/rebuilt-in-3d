@@ -1105,17 +1105,17 @@
   "kind": "incident"
  },
  "wk-Q2064558": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: only 2 usable photos of Vezhdi Rashidov on Wikimedia Commons (want 4)",
-  "at": "2026-11-08T14:20:06+00:00",
+  "at": "2026-11-09T14:22:39+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
  },
  "wk-Q1713901": {
-  "count": 2,
-  "reason": "gate: no draft passed the fact checks: beat 2, 3, 4 name(s) nothing its photo shows (only 23% of the script shows what it says; want 70%): in each, name who or what a photo shows (Yuri Kayurov, Maly Theatre), or say what an EVENT photo itself shows (the words of its description: the march, the smoke",
-  "at": "2026-11-08T15:14:57+00:00",
+  "count": 3,
+  "reason": "gate: no draft passed the fact checks: beat 2, 3, 4 name(s) nothing its photo shows (only 26% of the script shows what it says; want 70%): in each, name who or what a photo shows (Yuri Kayurov, Maly Theatre), or say what an EVENT photo itself shows (the words of its description: the march, the smoke",
+  "at": "2026-11-09T14:28:14+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1129,9 +1129,9 @@
   "kind": "death"
  },
  "wk-Q601273": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: the article has no infobox to confirm the death",
-  "at": "2026-11-08T15:56:29+00:00",
+  "at": "2026-11-09T14:28:14+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1175,5 +1175,13 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q4482111": {
+  "count": 1,
+  "reason": "gate: only 3 usable photos of Lidiya Fedoseyeva-Shukshina on Wikimedia Commons (want 4)",
+  "at": "2026-11-09T14:22:14+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
