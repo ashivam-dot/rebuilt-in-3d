@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T03:32:31+00:00",
+ "at": "2026-11-09T04:02:45+00:00",
  "quakes": [],
  "trending": [
   {
@@ -635,12 +635,38 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-09T00:00:00+00:00",
+   "headlines": [
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-current-events-2026-11-08",
+    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
+  }
+ ],
  "outlets": {
-  "headlines": 643,
+  "headlines": 639,
   "feeds": 28,
   "owners": 20,
-  "matched": 32,
+  "matched": 35,
   "corroborated": 4
  },
  "emerging": [
@@ -1046,5 +1072,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 643 headlines from 28 feeds (20 owners), 32 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
+ "outlet_note": "outlets: 639 headlines from 28 feeds (20 owners), 35 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
 }
