@@ -1,32 +1,7 @@
 {
- "at": "2026-11-09T00:31:23+00:00",
+ "at": "2026-11-09T01:00:49+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-09T00:00:00+00:00",
-   "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "id": "nw-20261108-senegal-maritime",
    "qid": null,
@@ -253,6 +228,125 @@
    "date": "2026-11-04"
   },
   {
+   "id": "nw-20261107-krakow-attack",
+   "qid": null,
+   "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+   "name": "Krakow",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T22:05:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Independent Digital News",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+   ],
+   "places": [
+    "Polish",
+    "Poland",
+    "Witnesses"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+     "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T22:05:12+00:00"
+    },
+    {
+     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T17:48:17+00:00"
+    },
+    {
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T22:10:08+00:00"
+    },
+    {
+     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:31:56+00:00"
+    },
+    {
+     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T14:14:27+00:00"
+    },
+    {
+     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T21:24:00+00:00"
+    },
+    {
+     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T19:41:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261107-poland-attack",
    "qid": null,
    "title": "Poland in shock after 6 killed in Krakow far-right shooting",
@@ -447,6 +541,28 @@
    "date": "2026-11-06"
   },
   {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-09T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q116992476",
    "title": "Jesús de Miguel",
    "fame": 33819,
@@ -597,18 +713,15 @@
   {
    "qid": "Q142086610",
    "title": "2026 El Ayyat train collision",
-   "fame": 175000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
+   "news": 0,
    "news_at": "2026-11-09T00:00:00+00:00",
-   "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
-   ],
-   "region": "india",
+   "headlines": [],
+   "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
+    "wikipedia-current-events-2026-11-08"
    ],
    "owners": [],
    "reports": [],
@@ -621,11 +734,11 @@
   }
  ],
  "outlets": {
-  "headlines": 649,
+  "headlines": 648,
   "feeds": 28,
   "owners": 20,
-  "matched": 34,
-  "corroborated": 4
+  "matched": 35,
+  "corroborated": 5
  },
  "emerging": [
   {
@@ -814,6 +927,125 @@
    "article": null
   },
   {
+   "id": "nw-20261107-krakow-attack",
+   "qid": null,
+   "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+   "name": "Krakow",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-08T22:05:12+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Independent Digital News",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+   ],
+   "places": [
+    "Polish",
+    "Poland",
+    "Witnesses"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+     "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T22:05:12+00:00"
+    },
+    {
+     "title": "Krakow shooting that left six dead is ‘a terrorist offence’, says Polish prosecutor",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-08T17:48:17+00:00"
+    },
+    {
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T22:10:08+00:00"
+    },
+    {
+     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T19:31:56+00:00"
+    },
+    {
+     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T14:14:27+00:00"
+    },
+    {
+     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T21:24:00+00:00"
+    },
+    {
+     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-07T19:41:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261107-poland-attack",
    "qid": null,
    "title": "Poland in shock after 6 killed in Krakow far-right shooting",
@@ -988,5 +1220,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 649 headlines from 28 feeds (20 owners), 34 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-poland-attack"
+ "outlet_note": "outlets: 648 headlines from 28 feeds (20 owners), 35 matched to articles, 5 candidates with 2+ owners, 5 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
 }
