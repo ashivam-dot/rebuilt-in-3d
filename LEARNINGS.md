@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-09T06:33:15+00:00. Scored Shorts (views at 24 h): 67. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-09T09:43:26+00:00. Scored Shorts (views at 24 h): 67. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
 Baseline: a typical Short has 200 views at 24 h.
 Retention: a typical Short is watched 56.2% through; a group's retention is blended into its lift at 0.5.
@@ -14,11 +14,11 @@ Retention: a typical Short is watched 56.2% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q1150359 | 2026-11-08T20:30 | death | death | 321 |  |
-| wk-Q2893079 | 2026-11-07T13:37 | death | death | 122 | 104 |
-| wk-Q4250213 | 2026-11-07T01:35 | death | death | 981 | 888 |
-| wk-Q285102 | 2026-11-06T20:30 | death | death | 33 | 23 |
-| wk-Q142065275 | 2026-11-06T05:07 | incident | attack | 913 | 776 |
+| wk-Q1150359 | 2026-11-08T20:30 | death | death | 364 |  |
+| wk-Q2893079 | 2026-11-07T13:37 | death | death | 142 | 104 |
+| wk-Q4250213 | 2026-11-07T01:35 | death | death | 989 | 888 |
+| wk-Q285102 | 2026-11-06T20:30 | death | death | 34 | 23 |
+| wk-Q142065275 | 2026-11-06T05:07 | incident | attack | 914 | 776 |
 | wk-Q6662427 | 2026-11-06T03:52 | death | death | 242 | 189 |
 | wk-Q141615137-2026w45 | 2026-11-05T13:48 | incident | protest | 96 | 72 |
 | wk-Q172753 | 2026-11-05T03:09 | death | death | 1039 | 815 |
@@ -33,12 +33,12 @@ Retention: a typical Short is watched 56.2% through; a group's retention is blen
 | wk-Q922837 | 2026-10-29T09:29 | death | death | 466 | 294 |
 | wk-Q468843 | 2026-10-28T18:21 | death | death | 573 | 445 |
 | wk-Q455700 | 2026-10-28T12:45 | death | death | 555 | 363 |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1385 | 939 |
-| wk-Q376176 | 2026-10-26T20:55 | death | death | 4504 | 1424 |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1389 | 939 |
+| wk-Q376176 | 2026-10-26T20:55 | death | death | 4505 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 117 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 27 | 24 |
 | wk-Q983618 | 2026-10-24T22:07 | death | death | 1540 | 1182 |
-| wk-Q320093 | 2026-10-22T22:48 | death | death | 1781 | 1600 |
+| wk-Q320093 | 2026-10-22T22:48 | death | death | 1782 | 1600 |
 | eq-us6000u43g | 2026-10-22T18:13 | quake |  | 27 | 28 |
 | nw-20261021-macron-protest | 2026-10-22T14:17 | incident | protest | 14 | 14 |
 | nw-20261021-kyiv-strike | 2026-10-22T03:38 | incident | strike | 1168 | 1173 |

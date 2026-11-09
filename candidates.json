@@ -1,32 +1,7 @@
 {
- "at": "2026-11-09T09:32:59+00:00",
+ "at": "2026-11-09T09:43:28+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-09T00:00:00+00:00",
-   "headlines": [
-    "Egypt train collision kills 7, injures 125: Health Ministry"
-   ],
-   "region": "india",
-   "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:Egypt train collision kills 7, injures 125: Health Ministry"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
@@ -34,7 +9,7 @@
    "views": 0,
    "traffic": 3000,
    "news": 75000,
-   "news_at": "2026-11-09T09:32:59.013606+00:00",
+   "news_at": "2026-11-09T09:43:28.630633+00:00",
    "headlines": [
     "Poland’s justice minister says investigation into Kraków shooting will aim to establish if the 24-year-old acted alone – Europe live",
     "Poland: Kraków mourns six victims as shooting site reopens",
@@ -66,7 +41,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T09:27:45+00:00"
+     "at": "2026-11-09T09:39:52+00:00"
     },
     {
      "title": "Kraków shooting suspect who killed six has died, say police in Poland",
@@ -230,8 +205,8 @@
    "date": "2026-11-07",
    "news_at": "2026-11-09T09:22:13+00:00",
    "owners": [
-    "Deutsche Welle",
     "France Médias Monde",
+    "Deutsche Welle",
     "Fox Corporation",
     "Disney (ABC News)"
    ],
@@ -332,8 +307,8 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
     "outlet:Fox Corporation",
     "outlet:Disney (ABC News)"
    ],
@@ -547,6 +522,28 @@
    "date": "2026-11-06"
   },
   {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-09T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q116992476",
    "title": "Jesús de Miguel",
    "fame": 33819,
@@ -695,10 +692,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 657,
+  "headlines": 656,
   "feeds": 28,
   "owners": 20,
-  "matched": 26,
+  "matched": 27,
   "corroborated": 5
  },
  "emerging": [
@@ -813,8 +810,8 @@
    "date": "2026-11-07",
    "news_at": "2026-11-09T09:22:13+00:00",
    "owners": [
-    "Deutsche Welle",
     "France Médias Monde",
+    "Deutsche Welle",
     "Fox Corporation",
     "Disney (ABC News)"
    ],
@@ -915,8 +912,8 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
     "outlet:France Médias Monde",
+    "outlet:Deutsche Welle",
     "outlet:Fox Corporation",
     "outlet:Disney (ABC News)"
    ],
@@ -1070,5 +1067,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 657 headlines from 28 feeds (20 owners), 26 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261107-poland-attack, nw-20261108-egypt-rail"
+ "outlet_note": "outlets: 656 headlines from 28 feeds (20 owners), 27 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261107-poland-attack, nw-20261108-egypt-rail"
 }
