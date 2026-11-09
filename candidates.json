@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T08:03:24+00:00",
+ "at": "2026-11-09T08:32:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 325000,
-   "news_at": "2026-11-09T08:03:24.956574+00:00",
+   "news_at": "2026-11-09T08:32:43.464318+00:00",
    "headlines": [
     "Gunman who killed at least 6 in Kraków mass shooting has died in hospital",
     "Kraków shooting suspect who killed six has died, say police in Poland",
@@ -84,29 +84,136 @@
    "has_coords": true
   },
   {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 175000,
+   "id": "nw-20261107-poland-attack",
+   "qid": null,
+   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "news_at": "2026-11-09T07:25:00+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "Disney (ABC News)",
+    "France Médias Monde",
+    "Al Jazeera Media Network",
+    "Paramount (CBS)"
+   ],
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-09T00:00:00+00:00",
    "headlines": [
-    "Train crash kills seven, injures dozens near Egypt’s Cairo city"
+    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+    "Poland begins two days of mourning over Krakow shooting",
+    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+    "Mourning in Poland after mass shooting",
+    "Poland in shock after 6 killed in Krakow far-right shooting"
    ],
-   "region": "india",
+   "places": [
+    "Krakow",
+    "Footage"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T06:53:00+00:00"
+    },
+    {
+     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
+     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T14:21:18+00:00"
+    },
+    {
+     "title": "Mourning in Poland after mass shooting",
+     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T14:18:48+00:00"
+    },
+    {
+     "title": "Poland begins two days of mourning over Krakow shooting",
+     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T09:43:00+00:00"
+    },
+    {
+     "title": "Poland mass shooting assailant dies in hospital, police say",
+     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T07:03:24+00:00"
+    },
+    {
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-07T22:10:08+00:00"
+    },
+    {
+     "title": "Gunman who carried out Poland mass shooting has died, police say",
+     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-09T07:25:00+00:00"
+    },
+    {
+     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-08T14:14:27+00:00"
+    }
+   ],
    "via": [
-    "wikipedia-current-events-2026-11-08",
-    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city"
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Paramount (CBS)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261108-senegal-maritime",
@@ -281,92 +388,6 @@
    "article": null
   },
   {
-   "id": "nw-20261109-poland-attack",
-   "qid": null,
-   "title": "Poland mass shooting assailant dies in hospital, police say",
-   "name": "Poland",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-09",
-   "news_at": "2026-11-09T07:25:49+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "NBCUniversal",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Poland mass shooting assailant dies in hospital, police say",
-    "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-    "Gunman who carried out Poland mass shooting has died, police say",
-    "Suspect in deadly Poland shooting dies in hospital, police say"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Poland mass shooting assailant dies in hospital, police say",
-     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T07:03:24+00:00"
-    },
-    {
-     "title": "Suspect in deadly Poland shooting dies in hospital, police say",
-     "url": "https://abcnews.com/International/suspect-deadly-poland-shooting-dies-hospital-police/story?id=137966778",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T07:25:49+00:00"
-    },
-    {
-     "title": "Gunman who carried out Poland mass shooting has died, police say",
-     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T07:25:00+00:00"
-    },
-    {
-     "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-gunman-poland-attack-dies-hospital-rcna608248",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T07:21:24+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q5962128",
    "title": "Michael Locke (stuntman)",
    "fame": 92092,
@@ -407,16 +428,16 @@
    "date": "2026-11-04"
   },
   {
-   "id": "nw-20261107-poland-attack",
+   "id": "nw-20261109-poland-attack",
    "qid": null,
-   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+   "title": "Poland braces for tense week after deadly shooting deepens political divisions",
    "name": "Poland",
    "kind": "incident",
    "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-09T06:53:00+00:00",
+   "date": "2026-11-09",
+   "news_at": "2026-11-09T07:43:11+00:00",
    "owners": [
-    "Deutsche Welle",
+    "NBCUniversal",
     "Disney (ABC News)",
     "France Médias Monde"
    ],
@@ -425,16 +446,11 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Poland: Gunman kills 6 in Krakow main square, police say",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Poland begins two days of mourning over Krakow shooting",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-    "Mourning in Poland after mass shooting"
+    "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
+    "Suspect in deadly Poland shooting dies in hospital, police say",
+    "Poland braces for tense week after deadly shooting deepens political divisions"
    ],
-   "places": [
-    "Krakow",
-    "Footage"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -446,78 +462,38 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
-     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-09T06:53:00+00:00"
-    },
-    {
-     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
-     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
+     "title": "Poland braces for tense week after deadly shooting deepens political divisions",
+     "url": "https://www.france24.com/en/europe/20261109-poland-braces-for-tense-week-after-deadly-shooting-deepens-political-divisions",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
      "owner": "France Médias Monde",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T14:21:18+00:00"
+     "at": "2026-11-09T07:43:11+00:00"
     },
     {
-     "title": "Mourning in Poland after mass shooting",
-     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:18:48+00:00"
-    },
-    {
-     "title": "Poland begins two days of mourning over Krakow shooting",
-     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T09:43:00+00:00"
-    },
-    {
-     "title": "Poland: Gunman kills 6 in Krakow main square, police say",
-     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T21:34:00+00:00"
-    },
-    {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
+     "title": "Suspect in deadly Poland shooting dies in hospital, police say",
+     "url": "https://abcnews.com/International/suspect-deadly-poland-shooting-dies-hospital-police/story?id=137966778",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-08T14:14:27+00:00"
+     "at": "2026-11-09T07:25:49+00:00"
+    },
+    {
+     "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
+     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-gunman-poland-attack-dies-hospital-rcna608248",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-09T07:21:24+00:00"
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
+    "outlet:NBCUniversal",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde"
    ],
@@ -543,6 +519,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-06"
+  },
+  {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-09T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q116992476",
@@ -691,33 +689,46 @@
   }
  ],
  "hazards": [],
- "candidates": [
+ "candidates": [],
+ "outlets": {
+  "headlines": 654,
+  "feeds": 28,
+  "owners": 20,
+  "matched": 27,
+  "corroborated": 5
+ },
+ "emerging": [
   {
-   "id": "nw-20261109-poland-attack",
+   "id": "nw-20261107-poland-attack",
    "qid": null,
-   "title": "Poland mass shooting assailant dies in hospital, police say",
+   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
    "name": "Poland",
    "kind": "incident",
    "category": "attack",
-   "date": "2026-11-09",
-   "news_at": "2026-11-09T07:25:49+00:00",
+   "date": "2026-11-07",
+   "news_at": "2026-11-09T07:25:00+00:00",
    "owners": [
+    "Deutsche Welle",
+    "Disney (ABC News)",
+    "France Médias Monde",
     "Al Jazeera Media Network",
-    "NBCUniversal",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
+    "Paramount (CBS)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Poland mass shooting assailant dies in hospital, police say",
-    "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-    "Gunman who carried out Poland mass shooting has died, police say",
-    "Suspect in deadly Poland shooting dies in hospital, police say"
+    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+    "Poland begins two days of mourning over Krakow shooting",
+    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+    "Mourning in Poland after mass shooting",
+    "Poland in shock after 6 killed in Krakow far-right shooting"
    ],
-   "places": [],
+   "places": [
+    "Krakow",
+    "Footage"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -729,6 +740,46 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T06:53:00+00:00"
+    },
+    {
+     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
+     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T14:21:18+00:00"
+    },
+    {
+     "title": "Mourning in Poland after mass shooting",
+     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T14:18:48+00:00"
+    },
+    {
+     "title": "Poland begins two days of mourning over Krakow shooting",
+     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T09:43:00+00:00"
+    },
+    {
      "title": "Poland mass shooting assailant dies in hospital, police say",
      "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -739,14 +790,14 @@
      "at": "2026-11-09T07:03:24+00:00"
     },
     {
-     "title": "Suspect in deadly Poland shooting dies in hospital, police say",
-     "url": "https://abcnews.com/International/suspect-deadly-poland-shooting-dies-hospital-police/story?id=137966778",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
+     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-09T07:25:49+00:00"
+     "at": "2026-11-07T22:10:08+00:00"
     },
     {
      "title": "Gunman who carried out Poland mass shooting has died, police say",
@@ -759,34 +810,26 @@
      "at": "2026-11-09T07:25:00+00:00"
     },
     {
-     "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-gunman-poland-attack-dies-hospital-rcna608248",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
+     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-09T07:21:24+00:00"
+     "at": "2026-11-08T14:14:27+00:00"
     }
    ],
    "via": [
+    "outlet:Deutsche Welle",
+    "outlet:Disney (ABC News)",
+    "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
-  }
- ],
- "outlets": {
-  "headlines": 653,
-  "feeds": 28,
-  "owners": 20,
-  "matched": 27,
-  "corroborated": 5
- },
- "emerging": [
+  },
   {
    "id": "nw-20261108-senegal-maritime",
    "qid": null,
@@ -962,27 +1005,25 @@
   {
    "id": "nw-20261109-poland-attack",
    "qid": null,
-   "title": "Poland mass shooting assailant dies in hospital, police say",
+   "title": "Poland braces for tense week after deadly shooting deepens political divisions",
    "name": "Poland",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-09",
-   "news_at": "2026-11-09T07:25:49+00:00",
+   "news_at": "2026-11-09T07:43:11+00:00",
    "owners": [
-    "Al Jazeera Media Network",
     "NBCUniversal",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Poland mass shooting assailant dies in hospital, police say",
     "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-    "Gunman who carried out Poland mass shooting has died, police say",
-    "Suspect in deadly Poland shooting dies in hospital, police say"
+    "Suspect in deadly Poland shooting dies in hospital, police say",
+    "Poland braces for tense week after deadly shooting deepens political divisions"
    ],
    "places": [],
    "attackers": [],
@@ -996,14 +1037,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Poland mass shooting assailant dies in hospital, police say",
-     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Poland braces for tense week after deadly shooting deepens political divisions",
+     "url": "https://www.france24.com/en/europe/20261109-poland-braces-for-tense-week-after-deadly-shooting-deepens-political-divisions",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-09T07:03:24+00:00"
+     "at": "2026-11-09T07:43:11+00:00"
     },
     {
      "title": "Suspect in deadly Poland shooting dies in hospital, police say",
@@ -1014,16 +1055,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-09T07:25:49+00:00"
-    },
-    {
-     "title": "Gunman who carried out Poland mass shooting has died, police say",
-     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T07:25:00+00:00"
     },
     {
      "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
@@ -1037,126 +1068,7 @@
     }
    ],
    "via": [
-    "outlet:Al Jazeera Media Network",
     "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261107-poland-attack",
-   "qid": null,
-   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
-   "name": "Poland",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-09T06:53:00+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Disney (ABC News)",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Poland: Gunman kills 6 in Krakow main square, police say",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Poland begins two days of mourning over Krakow shooting",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-    "Mourning in Poland after mass shooting"
-   ],
-   "places": [
-    "Krakow",
-    "Footage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
-     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-09T06:53:00+00:00"
-    },
-    {
-     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
-     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:21:18+00:00"
-    },
-    {
-     "title": "Mourning in Poland after mass shooting",
-     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T14:18:48+00:00"
-    },
-    {
-     "title": "Poland begins two days of mourning over Krakow shooting",
-     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T09:43:00+00:00"
-    },
-    {
-     "title": "Poland: Gunman kills 6 in Krakow main square, police say",
-     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-07T21:34:00+00:00"
-    },
-    {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T14:14:27+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde"
    ],
@@ -1164,5 +1076,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 653 headlines from 28 feeds (20 owners), 27 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261109-poland-attack"
+ "outlet_note": "outlets: 654 headlines from 28 feeds (20 owners), 27 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261107-poland-attack, nw-20261108-senegal-maritime, nw-20261108-egypt-rail"
 }
