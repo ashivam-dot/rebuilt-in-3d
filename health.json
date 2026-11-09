@@ -1,11 +1,13 @@
 {
- "at": "2026-11-09T06:33:15+00:00",
+ "at": "2026-11-09T07:00:58+00:00",
  "ok": true,
  "steps": [
-  "learn: 67 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 30, 'lift': 1.215, 'typical_views_24h': 333, 'n_retention': 27, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.946, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.3}, 'category:death': {'n': 29, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 98 units today",
-  "watch: 1 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 649 headlines from 28 feeds (20 owners), 18 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack",
-  "hold nw-20261108-senegal-maritime: outside the world window"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 99 units today",
+  "watch: 2 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 649 headlines from 28 feeds (20 owners), 17 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261107-krakow-attack",
+  "skip nw-20261108-senegal-maritime: gate: faceless: no free photo shows Senegal or the event itself (only 0 photos of places or things near it)",
+  "skip nw-20261107-krakow-attack: gate: faceless: no free photo shows Krakow or the event itself (only 4 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
