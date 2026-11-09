@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T07:00:59+00:00",
+ "at": "2026-11-09T07:33:17+00:00",
  "quakes": [],
  "trending": [
   {
@@ -242,32 +242,32 @@
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-09T06:32:19+00:00",
+   "news_at": "2026-11-09T06:53:00+00:00",
    "owners": [
+    "Deutsche Welle",
     "Disney (ABC News)",
-    "BBC",
-    "Independent Digital News"
+    "France Médias Monde"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
     "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
     "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+    "Poland: Gunman kills 6 in Krakow main square, police say",
     "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Poland begins two days of mourning over Krakow shooting"
    ],
    "places": [
-    "Polish",
     "Poland",
-    "Witnesses"
+    "Polish",
+    "Footage"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -280,24 +280,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-     "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T22:05:12+00:00"
+     "at": "2026-11-09T06:53:00+00:00"
     },
     {
-     "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
+     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
+     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-09T06:32:19+00:00"
+     "at": "2026-11-08T14:21:18+00:00"
+    },
+    {
+     "title": "Poland begins two days of mourning over Krakow shooting",
+     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T09:43:00+00:00"
+    },
+    {
+     "title": "Poland: Gunman kills 6 in Krakow main square, police say",
+     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T21:34:00+00:00"
     },
     {
      "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
@@ -308,16 +328,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
     },
     {
      "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
@@ -351,9 +361,82 @@
     }
    ],
    "via": [
+    "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261108-poland-attack",
+   "qid": null,
+   "title": "Mourning in Poland after mass shooting",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-08",
+   "news_at": "2026-11-09T07:25:00+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Al Jazeera Media Network",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Mourning in Poland after mass shooting",
+    "Poland mass shooting assailant dies in hospital, police say",
+    "Gunman who carried out Poland mass shooting has died, police say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Mourning in Poland after mass shooting",
+     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T14:18:48+00:00"
+    },
+    {
+     "title": "Poland mass shooting assailant dies in hospital, police say",
+     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T07:03:24+00:00"
+    },
+    {
+     "title": "Gunman who carried out Poland mass shooting has died, police say",
+     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-09T07:25:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -420,6 +503,47 @@
    "coords": [
     26.63288889,
     -80.11311111
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-09T06:58:03+00:00",
+   "headlines": [
+    "Kraków shooting suspect who killed six has died, say police in Poland"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Kraków shooting suspect who killed six has died, say police in Poland",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Kraków shooting suspect who killed six has died, say police in Poland",
+     "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T06:58:03+00:00"
+    }
+   ],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
    ],
    "has_coords": true
   },
@@ -527,29 +651,29 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261108-senegal-maritime",
+   "id": "nw-20261108-egypt-rail",
    "qid": null,
-   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-   "name": "Senegal",
+   "title": "Egypt train crash leaves several dead, over 100 injured",
+   "name": "Egypt",
    "kind": "incident",
-   "category": "maritime",
+   "category": "rail",
    "date": "2026-11-08",
-   "news_at": "2026-11-08T20:40:33+00:00",
+   "news_at": "2026-11-08T21:23:19+00:00",
    "owners": [
-    "Euronews",
-    "Disney (ABC News)",
+    "SCMP Group",
+    "BBC",
     "Deutsche Welle",
-    "France Médias Monde"
+    "Bennett, Coleman & Co."
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-    "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
-    "Many killed after migrant boat sinks off Senegal",
-    "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+    "Train collision in Egypt kills 7 and injures dozens",
+    "Footage shows derailed carriages after fatal train crash in Egypt",
+    "Egypt train crash leaves several dead, over 100 injured",
+    "Egypt train crash: How a collision with a stationary train left 7 dead, 125 injured"
    ],
    "places": [],
    "attackers": [],
@@ -563,85 +687,79 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-     "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-08T20:40:33+00:00"
-    },
-    {
-     "title": "Many killed after migrant boat sinks off Senegal",
-     "url": "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+     "title": "Egypt train crash leaves several dead, over 100 injured",
+     "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-over-100-injured/a-79892916?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T19:12:00+00:00"
+     "at": "2026-11-08T16:49:00+00:00"
     },
     {
-     "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-     "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
+     "title": "Footage shows derailed carriages after fatal train crash in Egypt",
+     "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T16:05:57+00:00"
+    },
+    {
+     "title": "Train collision in Egypt kills 7 and injures dozens",
+     "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-08T10:01:49+00:00"
+     "at": "2026-11-08T14:56:42+00:00"
     },
     {
-     "title": "At least 21 dead after boat carrying migrants sinks off Senegal coast, interior ministry says",
-     "url": "https://abcnews.com/International/wireStory/21-dead-after-boat-carrying-migrants-sinks-off-137954425",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
+     "title": "Egypt train crash: How a collision with a stationary train left 7 dead, 125 injured",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/egypt-train-crash-how-a-collision-with-a-stationary-train-left-7-dead-125-injured/articleshow/135665810.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-08T15:37:28+00:00"
+     "at": "2026-11-08T21:23:19+00:00"
     }
    ],
    "via": [
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)",
+    "outlet:SCMP Group",
+    "outlet:BBC",
     "outlet:Deutsche Welle",
-    "outlet:France Médias Monde"
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261107-krakow-attack",
+   "id": "nw-20261108-poland-attack",
    "qid": null,
-   "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-   "name": "Krakow",
+   "title": "Mourning in Poland after mass shooting",
+   "name": "Poland",
    "kind": "incident",
    "category": "attack",
-   "date": "2026-11-07",
-   "news_at": "2026-11-09T06:32:19+00:00",
+   "date": "2026-11-08",
+   "news_at": "2026-11-09T07:25:00+00:00",
    "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Independent Digital News"
+    "France Médias Monde",
+    "Al Jazeera Media Network",
+    "Paramount (CBS)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-    "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-    "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-    "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Mourning in Poland after mass shooting",
+    "Poland mass shooting assailant dies in hospital, police say",
+    "Gunman who carried out Poland mass shooting has died, police say"
    ],
-   "places": [
-    "Polish",
-    "Poland",
-    "Witnesses"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -653,91 +771,51 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-     "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Mourning in Poland after mass shooting",
+     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T22:05:12+00:00"
+     "at": "2026-11-08T14:18:48+00:00"
     },
     {
-     "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
+     "title": "Poland mass shooting assailant dies in hospital, police say",
+     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T06:32:19+00:00"
+     "at": "2026-11-09T07:03:24+00:00"
     },
     {
-     "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-     "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
-    },
-    {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T14:14:27+00:00"
-    },
-    {
-     "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-     "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
+     "title": "Gunman who carried out Poland mass shooting has died, police say",
+     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-07T21:24:00+00:00"
-    },
-    {
-     "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
-     "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-07T19:41:29+00:00"
+     "at": "2026-11-09T07:25:00+00:00"
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
   }
  ],
  "outlets": {
-  "headlines": 649,
+  "headlines": 648,
   "feeds": 28,
   "owners": 20,
-  "matched": 17,
-  "corroborated": 3
+  "matched": 20,
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -915,32 +993,32 @@
   {
    "id": "nw-20261107-krakow-attack",
    "qid": null,
-   "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-07",
-   "news_at": "2026-11-09T06:32:19+00:00",
+   "news_at": "2026-11-09T06:53:00+00:00",
    "owners": [
+    "Deutsche Welle",
     "Disney (ABC News)",
-    "BBC",
-    "Independent Digital News"
+    "France Médias Monde"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
     "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
     "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+    "Poland: Gunman kills 6 in Krakow main square, police say",
     "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Poland begins two days of mourning over Krakow shooting"
    ],
    "places": [
-    "Polish",
     "Poland",
-    "Witnesses"
+    "Polish",
+    "Footage"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -953,24 +1031,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-     "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-08T22:05:12+00:00"
+     "at": "2026-11-09T06:53:00+00:00"
     },
     {
-     "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
+     "title": "Poland in shock after 6 killed in Krakow far-right shooting",
+     "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-09T06:32:19+00:00"
+     "at": "2026-11-08T14:21:18+00:00"
+    },
+    {
+     "title": "Poland begins two days of mourning over Krakow shooting",
+     "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T09:43:00+00:00"
+    },
+    {
+     "title": "Poland: Gunman kills 6 in Krakow main square, police say",
+     "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-07T21:34:00+00:00"
     },
     {
      "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
@@ -981,16 +1079,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-07T22:10:08+00:00"
-    },
-    {
-     "title": "‘We heard about 20 shots’: Witnesses describe terror of Krakow shooting that left six people dead",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-suspect-police-b3081053.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-07T19:31:56+00:00"
     },
     {
      "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
@@ -1024,13 +1112,86 @@
     }
    ],
    "via": [
+    "outlet:Deutsche Welle",
     "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Independent Digital News"
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261108-poland-attack",
+   "qid": null,
+   "title": "Mourning in Poland after mass shooting",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-08",
+   "news_at": "2026-11-09T07:25:00+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Al Jazeera Media Network",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Mourning in Poland after mass shooting",
+    "Poland mass shooting assailant dies in hospital, police say",
+    "Gunman who carried out Poland mass shooting has died, police say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Mourning in Poland after mass shooting",
+     "url": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-08T14:18:48+00:00"
+    },
+    {
+     "title": "Poland mass shooting assailant dies in hospital, police say",
+     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T07:03:24+00:00"
+    },
+    {
+     "title": "Gunman who carried out Poland mass shooting has died, police say",
+     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-09T07:25:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 649 headlines from 28 feeds (20 owners), 17 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
+ "outlet_note": "outlets: 648 headlines from 28 feeds (20 owners), 20 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-senegal-maritime, nw-20261108-egypt-rail, nw-20261107-krakow-attack"
 }

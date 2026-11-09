@@ -1137,9 +1137,9 @@
   "kind": "death"
  },
  "nw-20261108-egypt-rail": {
-  "count": 2,
+  "count": 3,
   "reason": "gate: faceless: no free photo shows Egypt or the event itself (only 0 photos of places or things near it)",
-  "at": "2026-11-08T19:34:53+00:00",
+  "at": "2026-11-09T07:37:55+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
@@ -1148,6 +1148,14 @@
   "count": 2,
   "reason": "gate: only 0 usable photos of 2026 El Ayyat train collision on Wikimedia Commons (want 4)",
   "at": "2026-11-09T04:06:50+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261108-poland-attack": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Poland or the event itself (only 2 photos of places or things near it)",
+  "at": "2026-11-09T07:38:02+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
