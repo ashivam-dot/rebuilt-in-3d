@@ -1,12 +1,10 @@
 {
- "at": "2026-11-09T12:19:33+00:00",
+ "at": "2026-11-09T12:51:54+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
-  "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
-  "outlets: 698 headlines from 29 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-krakow-attack, nw-20261108-senegal-maritime",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.6 h ago, 124 people)\"]",
-  "skip nw-20261109-poland-attack: gate: faceless: no free photo shows Poland or the event itself (only 2 photos of places or things near it)",
-  "nothing eligible to publish"
+  "learn: 67 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 30, 'lift': 1.215, 'typical_views_24h': 333, 'n_retention': 27, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.946, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.3}, 'category:death': {'n': 29, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 11 units today",
+  "watch: 0 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 701 headlines from 29 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-krakow-attack, nw-20261108-senegal-maritime"
  ]
 }

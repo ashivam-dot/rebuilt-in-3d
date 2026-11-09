@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T12:19:34+00:00",
+ "at": "2026-11-09T12:51:56+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 78832,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-09T12:19:34.614804+00:00",
+   "news_at": "2026-11-09T12:51:56.601322+00:00",
    "headlines": [
     "Poland’s justice minister says investigation into Kraków shooting will aim to establish if the 24-year-old acted alone – Europe live",
     "Poland: Kraków mourns six victims as shooting site reopens",
@@ -40,7 +40,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T11:48:07+00:00"
+     "at": "2026-11-09T12:43:10+00:00"
     },
     {
      "title": "Kraków shooting suspect who killed six has died, Polish police say",
@@ -81,6 +81,47 @@
     50.06277778,
     19.93688889
    ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q142086610",
+   "title": "2026 El Ayyat train collision",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-09T11:33:37+00:00",
+   "headlines": [
+    "Train crash kills seven, injures dozens near Egypt’s Cairo city",
+    "Egypt: Seven dead, 125 injured in collision between two trains"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-08",
+    "google-news:Train crash kills seven, injures dozens near Egypt’s Cairo city",
+    "google-news:Egypt: Seven dead, 125 injured in collision between two trains",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Egypt: Seven dead, 125 injured in collision between two trains",
+     "url": "https://www.euronews.com/video/2026/11/09/egypt-seven-dead-125-injured-in-collision-between-two-trains",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T11:33:37+00:00"
+    }
+   ],
+   "id": "wk-Q142086610",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-08",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -311,7 +352,7 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-09T11:51:39+00:00",
+   "news_at": "2026-11-09T12:34:15+00:00",
    "owners": [
     "Deutsche Welle",
     "BBC",
@@ -378,7 +419,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-09T11:51:39+00:00"
+     "at": "2026-11-09T12:34:15+00:00"
     }
    ],
    "via": [
@@ -388,28 +429,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-09T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-08"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q116992476",
@@ -558,141 +577,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261109-poland-attack",
-   "qid": null,
-   "title": "Poland braces for tense week after deadly Krakow shooting deepens political divisions",
-   "name": "Poland",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-09",
-   "news_at": "2026-11-09T10:27:09+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "NBCUniversal",
-    "Fox Corporation",
-    "Disney (ABC News)",
-    "Paramount (CBS)",
-    "France Médias Monde"
-   ],
-   "fame": 150000,
-   "news": 150000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Krakow mass shooting suspect has died in hospital, police in Poland say",
-    "Poland mass shooting assailant dies in hospital, police say",
-    "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-    "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
-   ],
-   "places": [
-    "Krakow"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Poland braces for tense week after deadly Krakow shooting deepens political divisions",
-     "url": "https://www.france24.com/en/europe/20261109-poland-braces-for-tense-week-after-deadly-shooting-deepens-political-divisions",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-09T07:43:11+00:00"
-    },
-    {
-     "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
-     "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-09T06:53:00+00:00"
-    },
-    {
-     "title": "Poland mass shooting assailant dies in hospital, police say",
-     "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T07:03:24+00:00"
-    },
-    {
-     "title": "Man who carried out mass shooting in Poland has died, police say",
-     "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T10:27:09+00:00"
-    },
-    {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T09:38:12+00:00"
-    },
-    {
-     "title": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
-     "url": "https://www.foxnews.com/world/poland-krakow-square-shooting-gunman-dies",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T09:05:26+00:00"
-    },
-    {
-     "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
-     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-gunman-poland-attack-dies-hospital-rcna608248",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T07:21:24+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NBCUniversal",
-    "outlet:Fox Corporation",
-    "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.6 h ago, 124 people)"
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 698,
+  "headlines": 701,
   "feeds": 29,
   "owners": 21,
-  "matched": 29,
+  "matched": 28,
   "corroborated": 4
  },
  "emerging": [
@@ -924,7 +814,7 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-08",
-   "news_at": "2026-11-09T11:51:39+00:00",
+   "news_at": "2026-11-09T12:34:15+00:00",
    "owners": [
     "Deutsche Welle",
     "BBC",
@@ -991,7 +881,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-09T11:51:39+00:00"
+     "at": "2026-11-09T12:34:15+00:00"
     }
    ],
    "via": [
@@ -1003,5 +893,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 698 headlines from 29 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-krakow-attack, nw-20261108-senegal-maritime"
+ "outlet_note": "outlets: 701 headlines from 29 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-krakow-attack, nw-20261108-senegal-maritime"
 }
