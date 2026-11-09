@@ -1,10 +1,13 @@
 {
- "at": "2026-11-09T12:51:54+00:00",
+ "at": "2026-11-09T13:18:13+00:00",
  "ok": true,
  "steps": [
-  "learn: 67 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 30, 'lift': 1.215, 'typical_views_24h': 333, 'n_retention': 27, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.946, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.3}, 'category:death': {'n': 29, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 11 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 0 hazard alerts",
-  "outlets: 701 headlines from 29 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-krakow-attack, nw-20261108-senegal-maritime"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
+  "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 705 headlines from 29 feeds (21 owners), 24 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261109-poland-attack, nw-20261108-senegal-maritime, nw-20261108-krakow-attack",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465",
+  "skip wk-Q142077465: gate: faceless: no free photo shows 2026 Kraków shooting or the event itself (only 9 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
