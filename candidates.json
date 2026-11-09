@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T22:18:45+00:00",
+ "at": "2026-11-09T22:53:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 144105,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-09T22:18:45.609905+00:00",
+   "news_at": "2026-11-09T22:53:43.249501+00:00",
    "headlines": [
     "Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
@@ -219,13 +219,35 @@
    "article": null
   },
   {
+   "qid": "Q7828852",
+   "title": "Toukie Smith",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-09T20:50:50+00:00",
+   "headlines": [
+    "Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7828852",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
    "qid": null,
    "title": "2026 Aliağa factory explosion",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-09T22:18:45.609905+00:00",
+   "news_at": "2026-11-09T22:53:43.249501+00:00",
    "headlines": [
     "Turkey steel factory blast kills at least 17 people"
    ],
@@ -529,7 +551,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-09T22:18:45.609905+00:00",
+   "news_at": "2026-11-09T22:53:43.249501+00:00",
    "headlines": [
     "Turkey steel factory blast kills at least 17 people"
    ],
@@ -560,108 +582,13 @@
    "date": "2026-11-09",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "id": "nw-20261109-senegal-maritime",
-   "qid": null,
-   "title": "At least 39 die after Europe-bound migrant boat sinks off Senegal",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-09",
-   "news_at": "2026-11-09T16:33:55+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "Independent Digital News",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Death toll rises to 39 after migrant boat capsizes off Senegal",
-    "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal",
-    "At least 39 die after Europe-bound migrant boat sinks off Senegal"
-   ],
-   "places": [
-    "Europe-bound"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "At least 39 die after Europe-bound migrant boat sinks off Senegal",
-     "url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-09T16:33:55+00:00"
-    },
-    {
-     "title": "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal",
-     "url": "https://www.independent.co.uk/news/world/africa/senegal-saint-louis-migrant-boat-b3081827.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T16:24:17+00:00"
-    },
-    {
-     "title": "Death toll rises to 39 after migrant boat capsizes off Senegal",
-     "url": "https://abcnews.com/International/wireStory/death-toll-rises-39-after-migrant-boat-capsizes-137968623",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T12:34:15+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q104532918",
-   "title": "Mike Carter (basketball)",
-   "fame": 3948,
-   "views": 3948,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q104532918",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
   }
  ],
  "outlets": {
-  "headlines": 751,
+  "headlines": 756,
   "feeds": 30,
   "owners": 21,
-  "matched": 40,
+  "matched": 35,
   "corroborated": 3
  },
  "emerging": [
@@ -876,6 +803,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 751 headlines from 30 feeds (21 owners), 40 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
- "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: Mike Carter (basketball)"
+ "outlet_note": "outlets: 756 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
+ "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
 }
