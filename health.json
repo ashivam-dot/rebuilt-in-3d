@@ -1,13 +1,13 @@
 {
- "at": "2026-11-09T22:53:36+00:00",
+ "at": "2026-11-09T23:19:48+00:00",
  "ok": true,
  "steps": [
-  "learn: 68 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 31, 'lift': 1.216, 'typical_views_24h': 334, 'n_retention': 28, 'typical_view_pct': 53.1}, 'kind:incident': {'n': 29, 'lift': 0.941, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.3}, 'category:death': {'n': 30, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 30 units today",
-  "watch: 1 candidates (0 quakes, 14 trending), 0 hazard alerts",
-  "outlets: 756 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 31 units today",
+  "watch: 1 candidates (0 quakes, 13 trending), 0 hazard alerts",
+  "outlets: 753 headlines from 30 feeds (21 owners), 39 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
   "quiet day (no Short yet today): 0 tribute candidates",
-  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 5.0 h)",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.4 h ago, 137 people)\"]",
+  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 4.5 h)",
   "nothing eligible to publish"
  ]
 }
