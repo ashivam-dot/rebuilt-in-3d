@@ -1,13 +1,12 @@
 {
- "at": "2026-11-09T23:19:48+00:00",
+ "at": "2026-11-09T23:50:04+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 31 units today",
-  "watch: 1 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 753 headlines from 30 feeds (21 owners), 39 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 32 units today",
+  "watch: 1 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 751 headlines from 30 feeds (21 owners), 42 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
   "quiet day (no Short yet today): 0 tribute candidates",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.4 h ago, 137 people)\"]",
-  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 4.5 h)",
+  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 4.1 h)",
   "nothing eligible to publish"
  ]
 }
