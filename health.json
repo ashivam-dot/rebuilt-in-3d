@@ -1,11 +1,11 @@
 {
- "at": "2026-11-08T23:32:39+00:00",
+ "at": "2026-11-09T00:00:31+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 84 units today",
-  "watch: 1 candidates (0 quakes, 17 trending), 0 hazard alerts",
-  "outlets: 662 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-poland-attack",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w45",
+  "learn: 67 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 30, 'lift': 1.217, 'typical_views_24h': 333, 'n_retention': 26, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.944, 'typical_views_24h': 170, 'n_retention': 28, 'typical_view_pct': 57.8}, 'category:death': {'n': 29, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 85 units today",
+  "watch: 1 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 652 headlines from 28 feeds (20 owners), 31 matched to articles, 4 candidates with 2+ owners, 4 nw- stories (on): nw-20261108-egypt-rail, nw-20261108-senegal-maritime, nw-20261107-poland-attack",
   "hold wk-Q142086610: outside the india window"
  ]
 }
