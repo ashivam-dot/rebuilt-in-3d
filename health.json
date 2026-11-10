@@ -1,15 +1,12 @@
 {
- "at": "2026-11-10T03:03:33+00:00",
+ "at": "2026-11-10T03:29:44+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 38 units today",
-  "watch: 4 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 768 headlines from 29 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261108-krakow-attack",
-  "skip nw-20261108-krakow-attack: gate: faceless: no free photo shows Krakow or the event itself (only 6 photos of places or things near it)",
-  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 0.8 h)",
-  "skip wk-Q6267230: gate: no photo on Wikimedia Commons shows Johnny McEvoy's face (a tribute needs one)",
-  "skip wk-Q3036807: gate: only 3 usable photos of Donnie Dunagan on Wikimedia Commons (want 4)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 39 units today",
+  "watch: 2 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 769 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
+  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 0.4 h)",
+  "skip wk-Q7668200: gate: no photo on Wikimedia Commons shows T. Cullen Davis's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
