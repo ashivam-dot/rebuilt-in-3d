@@ -1,12 +1,10 @@
 {
- "at": "2026-11-10T07:06:19+00:00",
+ "at": "2026-11-10T07:36:55+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 47 units today",
-  "watch: 2 candidates (0 quakes, 14 trending), 0 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
-  "skip wp-2026_Aliağa_factory_explosion: gate: faceless: no free photo shows 2026 Aliağa factory explosion or the event itself (only 8 photos of places or things near it)",
-  "skip wk-Q3036807: gate: only 3 usable photos of Donnie Dunagan on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 48 units today",
+  "watch: 0 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 784 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 129 people)\"]"
  ]
 }

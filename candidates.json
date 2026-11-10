@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T07:06:20+00:00",
+ "at": "2026-11-10T07:36:56+00:00",
  "quakes": [],
  "trending": [
   {
@@ -65,14 +65,13 @@
    "date": "2026-11-08",
    "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
-    "NBCUniversal",
     "Fox Corporation",
     "BBC",
     "Paramount (CBS)",
     "Independent Digital News"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -167,7 +166,6 @@
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
     "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
@@ -500,58 +498,15 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": null,
-   "title": "2026 Aliağa factory explosion",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-10T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Aliağa_factory_explosion",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-09",
-   "coords": [
-    38.75147222,
-    26.95016667
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q3036807",
-   "title": "Donnie Dunagan",
-   "fame": 14920,
-   "views": 14920,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3036807",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  }
+ "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 129 people)"
  ],
  "outlets": {
-  "headlines": 788,
+  "headlines": 784,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 33,
   "corroborated": 2
  },
  "emerging": [
@@ -565,14 +520,13 @@
    "date": "2026-11-08",
    "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
-    "NBCUniversal",
     "Fox Corporation",
     "BBC",
     "Paramount (CBS)",
     "Independent Digital News"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -667,7 +621,6 @@
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
     "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
@@ -752,5 +705,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
+ "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
