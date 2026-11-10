@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T06:35:57+00:00",
+ "at": "2026-11-10T07:06:20+00:00",
  "quakes": [],
  "trending": [
   {
@@ -65,11 +65,11 @@
    "date": "2026-11-08",
    "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
-    "Deutsche Welle",
+    "NBCUniversal",
     "Fox Corporation",
     "BBC",
     "Paramount (CBS)",
-    "NBCUniversal"
+    "Independent Digital News"
    ],
    "fame": 125000,
    "news": 125000,
@@ -77,8 +77,8 @@
    "traffic": 0,
    "headlines": [
     "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-    "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
     "Krakow mass shooting suspect has died in hospital, police in Poland say",
+    "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
     "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
     "Krakow shooting suspect has died in hospital, police say"
    ],
@@ -126,14 +126,14 @@
      "at": "2026-11-08T22:05:12+00:00"
     },
     {
-     "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "title": "Krakow shooting suspect dies in hospital",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-suspect-death-b3081437.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T06:32:19+00:00"
+     "at": "2026-11-09T14:08:34+00:00"
     },
     {
      "title": "Gunman who opened fire in Krakow, Poland, dies in hospital, police say",
@@ -167,11 +167,11 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
+    "outlet:NBCUniversal",
     "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
-    "outlet:NBCUniversal"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -252,55 +252,6 @@
    "article": null
   },
   {
-   "qid": "Q7668200",
-   "title": "T. Cullen Davis",
-   "fame": 59954,
-   "views": 9954,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-09T23:44:18+00:00",
-   "headlines": [
-    "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09",
-    "google-news:T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
-    "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Disney (ABC News)",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
-     "url": "https://abcnews.com/Business/wireStory/cullen-davis-texas-oil-tycoon-acquitted-1970s-murder-137993412",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T23:44:18+00:00"
-    },
-    {
-     "title": "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
-     "url": "https://www.independent.co.uk/news/world/americas/fort-worth-texas-dallas-fbi-christian-b3082068.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T22:48:11+00:00"
-    }
-   ],
-   "id": "wk-Q7668200",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
-  {
    "qid": null,
    "title": "2026 Aliağa factory explosion",
    "fame": 50000,
@@ -324,6 +275,43 @@
     26.95016667
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q7668200",
+   "title": "T. Cullen Davis",
+   "fame": 34954,
+   "views": 9954,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-09T22:48:11+00:00",
+   "headlines": [
+    "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-09",
+    "google-news:T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
+     "url": "https://www.independent.co.uk/news/world/americas/fort-worth-texas-dallas-fbi-christian-b3082068.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T22:48:11+00:00"
+    }
+   ],
+   "id": "wk-Q7668200",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
   },
   {
    "qid": "Q7828852",
@@ -509,30 +497,35 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-07"
-  },
-  {
-   "qid": "Q5209002",
-   "title": "Dai Henwood",
-   "fame": 100,
-   "views": 0,
-   "traffic": 100,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:dai henwood"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5209002",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
   }
  ],
  "hazards": [],
  "candidates": [
+  {
+   "qid": null,
+   "title": "2026 Aliağa factory explosion",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-10T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-09"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Aliağa_factory_explosion",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-09",
+   "coords": [
+    38.75147222,
+    26.95016667
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q3036807",
    "title": "Donnie Dunagan",
@@ -552,34 +545,14 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "qid": "Q5209002",
-   "title": "Dai Henwood",
-   "fame": 100,
-   "views": 0,
-   "traffic": 100,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:dai henwood"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5209002",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
   }
  ],
  "outlets": {
-  "headlines": 787,
+  "headlines": 788,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 3
+  "matched": 35,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -592,11 +565,11 @@
    "date": "2026-11-08",
    "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
-    "Deutsche Welle",
+    "NBCUniversal",
     "Fox Corporation",
     "BBC",
     "Paramount (CBS)",
-    "NBCUniversal"
+    "Independent Digital News"
    ],
    "fame": 125000,
    "news": 125000,
@@ -604,8 +577,8 @@
    "traffic": 0,
    "headlines": [
     "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-    "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
     "Krakow mass shooting suspect has died in hospital, police in Poland say",
+    "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
     "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
     "Krakow shooting suspect has died in hospital, police say"
    ],
@@ -653,14 +626,14 @@
      "at": "2026-11-08T22:05:12+00:00"
     },
     {
-     "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
-     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
+     "title": "Krakow shooting suspect dies in hospital",
+     "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-suspect-death-b3081437.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-09T06:32:19+00:00"
+     "at": "2026-11-09T14:08:34+00:00"
     },
     {
      "title": "Gunman who opened fire in Krakow, Poland, dies in hospital, police say",
@@ -694,11 +667,11 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
+    "outlet:NBCUniversal",
     "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
-    "outlet:NBCUniversal"
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -779,5 +752,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
+ "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
