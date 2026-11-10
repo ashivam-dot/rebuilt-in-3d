@@ -1,12 +1,11 @@
 {
- "at": "2026-11-10T01:22:40+00:00",
+ "at": "2026-11-10T01:51:39+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 35 units today",
-  "watch: 2 candidates (0 quakes, 12 trending), 0 hazard alerts",
-  "outlets: 758 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
-  "skip nw-20261109-senegal-maritime: gate: faceless: no free photo shows Senegal or the event itself (only 2 photos of places or things near it)",
-  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 2.5 h)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 36 units today",
+  "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 758 headlines from 30 feeds (21 owners), 39 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
+  "wait wp-2026_Aliağa_factory_explosion: gate: the article is under 6 hours old; facts may still move (ready in 2.0 h)",
   "nothing eligible to publish"
  ]
 }
