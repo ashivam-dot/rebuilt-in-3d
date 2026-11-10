@@ -1,19 +1,18 @@
 {
- "at": "2026-11-09T23:50:05+00:00",
+ "at": "2026-11-10T00:23:51+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 269105,
+   "fame": 244105,
    "views": 144105,
    "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-11-09T23:50:05.081517+00:00",
+   "news": 50000,
+   "news_at": "2026-11-10T00:00:00+00:00",
    "headlines": [
     "Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
-    "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
-    "Parents, sister of far-right Kraków shooter found dead in family home"
+    "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology"
    ],
    "region": "world",
    "via": [
@@ -21,15 +20,12 @@
     "wikipedia-current-events-2026-11-09",
     "google-news:Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "google-news:Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
-    "google-news:Parents, sister of far-right Kraków shooter found dead in family home",
     "outlet:Euronews",
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal"
+    "outlet:Guardian Media Group"
    ],
    "owners": [
     "Euronews",
-    "Guardian Media Group",
-    "NBCUniversal"
+    "Guardian Media Group"
    ],
    "reports": [
     {
@@ -61,16 +57,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-08T22:06:27+00:00"
-    },
-    {
-     "title": "Parents, sister of far-right Kraków shooter found dead in family home",
-     "url": "https://www.nbcnews.com/world/europe/krakow-shooting-killed-6-motivated-far-right-views-rcna608080",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-08T12:03:34+00:00"
     }
    ],
    "id": "wk-Q142077465",
@@ -86,19 +72,18 @@
   {
    "id": "nw-20261108-krakow-attack",
    "qid": null,
-   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+   "title": "Krakow shooting suspect has died in hospital, police say",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-08",
-   "news_at": "2026-11-09T18:12:46+00:00",
+   "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
     "Independent Digital News",
     "Deutsche Welle",
     "Fox Corporation",
-    "Disney (ABC News)",
+    "BBC",
     "Paramount (CBS)",
-    "Al Jazeera Media Network",
     "NBCUniversal"
    ],
    "fame": 150000,
@@ -110,7 +95,7 @@
     "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
     "Krakow mass shooting suspect has died in hospital, police in Poland say",
     "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Krakow shooting suspect has died in hospital, police say"
    ],
    "places": [
     "Poland"
@@ -125,6 +110,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Krakow shooting suspect has died in hospital, police say",
+     "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T11:56:25+00:00"
+    },
     {
      "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
      "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
@@ -146,16 +141,6 @@
      "at": "2026-11-08T22:05:12+00:00"
     },
     {
-     "title": "Krakow shooting suspect dies as Poland mourns six victims",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T18:12:46+00:00"
-    },
-    {
      "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
      "outlet": "The Independent",
@@ -174,16 +159,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-09T16:23:46+00:00"
-    },
-    {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T09:38:12+00:00"
     },
     {
      "title": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
@@ -210,9 +185,8 @@
     "outlet:Independent Digital News",
     "outlet:Deutsche Welle",
     "outlet:Fox Corporation",
-    "outlet:Disney (ABC News)",
+    "outlet:BBC",
     "outlet:Paramount (CBS)",
-    "outlet:Al Jazeera Media Network",
     "outlet:NBCUniversal"
    ],
    "emerging": true,
@@ -294,35 +268,13 @@
    "article": null
   },
   {
-   "qid": "Q142086610",
-   "title": "2026 El Ayyat train collision",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-09T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-08"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142086610",
-   "kind": "incident",
-   "category": "rail",
-   "date": "2026-11-08",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": null,
    "title": "2026 Aliağa factory explosion",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-09T23:50:05.081517+00:00",
+   "news_at": "2026-11-10T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -505,9 +457,9 @@
   {
    "qid": "Q3181541",
    "title": "John Frieda",
-   "fame": 100,
+   "fame": 200,
    "views": 0,
-   "traffic": 100,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
@@ -532,7 +484,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-09T23:50:05.081517+00:00",
+   "news_at": "2026-11-10T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -549,29 +501,28 @@
   }
  ],
  "outlets": {
-  "headlines": 751,
+  "headlines": 750,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
+  "matched": 46,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261108-krakow-attack",
    "qid": null,
-   "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+   "title": "Krakow shooting suspect has died in hospital, police say",
    "name": "Krakow",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-08",
-   "news_at": "2026-11-09T18:12:46+00:00",
+   "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
     "Independent Digital News",
     "Deutsche Welle",
     "Fox Corporation",
-    "Disney (ABC News)",
+    "BBC",
     "Paramount (CBS)",
-    "Al Jazeera Media Network",
     "NBCUniversal"
    ],
    "fame": 150000,
@@ -583,7 +534,7 @@
     "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
     "Krakow mass shooting suspect has died in hospital, police in Poland say",
     "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
-    "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling"
+    "Krakow shooting suspect has died in hospital, police say"
    ],
    "places": [
     "Poland"
@@ -598,6 +549,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Krakow shooting suspect has died in hospital, police say",
+     "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T11:56:25+00:00"
+    },
     {
      "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
      "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-all-1573-rdf",
@@ -619,16 +580,6 @@
      "at": "2026-11-08T22:05:12+00:00"
     },
     {
-     "title": "Krakow shooting suspect dies as Poland mourns six victims",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T18:12:46+00:00"
-    },
-    {
      "title": "Krakow shooting that left six dead treated as ‘terrorist offence’ as suspected gunman dies of injuries",
      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-gunman-news-b3081022.html",
      "outlet": "The Independent",
@@ -647,16 +598,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-09T16:23:46+00:00"
-    },
-    {
-     "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
-     "url": "https://abcnews.com/International/wireStory/tourists-locals-recount-fatal-krakow-mass-shooting-left-137952616",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-09T09:38:12+00:00"
     },
     {
      "title": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
@@ -683,9 +624,8 @@
     "outlet:Independent Digital News",
     "outlet:Deutsche Welle",
     "outlet:Fox Corporation",
-    "outlet:Disney (ABC News)",
+    "outlet:BBC",
     "outlet:Paramount (CBS)",
-    "outlet:Al Jazeera Media Network",
     "outlet:NBCUniversal"
    ],
    "emerging": true,
@@ -767,6 +707,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 751 headlines from 30 feeds (21 owners), 42 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime",
- "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
+ "outlet_note": "outlets: 750 headlines from 30 feeds (21 owners), 46 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
