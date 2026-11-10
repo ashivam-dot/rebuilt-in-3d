@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T19:43:50+00:00",
+ "at": "2026-11-10T20:09:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -48,15 +48,16 @@
   {
    "qid": "Q7819982",
    "title": "Tommy Walsh (builder)",
-   "fame": 134173,
+   "fame": 134673,
    "views": 134173,
-   "traffic": 0,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-09",
+    "google-trends-GB:roman kemp"
    ],
    "owners": [],
    "reports": [],
@@ -186,6 +187,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q114079679",
+   "title": "Solange Alexandre",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-10T13:23:54+00:00",
+   "headlines": [
+    "French wartime resistance heroine Solange Alexandre dies aged 104"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:French wartime resistance heroine Solange Alexandre dies aged 104",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
+     "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-10T13:23:54+00:00"
+    }
+   ],
+   "id": "wk-Q114079679",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-08"
   },
   {
    "qid": "Q7828852",
@@ -374,14 +411,51 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q114079679",
+   "title": "Solange Alexandre",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-10T13:23:54+00:00",
+   "headlines": [
+    "French wartime resistance heroine Solange Alexandre dies aged 104"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:French wartime resistance heroine Solange Alexandre dies aged 104",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
+     "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-10T13:23:54+00:00"
+    }
+   ],
+   "id": "wk-Q114079679",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-08"
+  }
+ ],
  "outlets": {
-  "headlines": 814,
+  "headlines": 819,
   "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 37,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 814 headlines from 29 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 819 headlines from 29 feeds (21 owners), 37 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
