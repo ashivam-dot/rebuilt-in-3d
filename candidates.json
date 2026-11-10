@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T08:38:14+00:00",
+ "at": "2026-11-10T09:06:13+00:00",
  "quakes": [],
  "trending": [
   {
@@ -85,13 +85,12 @@
    "date": "2026-11-08",
    "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
-    "Fox Corporation",
     "BBC",
     "Paramount (CBS)",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -186,7 +185,6 @@
     }
    ],
    "via": [
-    "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
     "outlet:Independent Digital News"
@@ -293,6 +291,79 @@
     26.95016667
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q7668200",
+   "title": "T. Cullen Davis",
+   "fame": 34954,
+   "views": 9954,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-09T22:48:11+00:00",
+   "headlines": [
+    "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-09",
+    "google-news:T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
+     "url": "https://www.independent.co.uk/news/world/americas/fort-worth-texas-dallas-fbi-christian-b3082068.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T22:48:11+00:00"
+    }
+   ],
+   "id": "wk-Q7668200",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-06"
+  },
+  {
+   "qid": "Q2654764",
+   "title": "Bunker Roy",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-10T05:39:26+00:00",
+   "headlines": [
+    "Social activist Sanjit Bunker Roy dies"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Social activist Sanjit Bunker Roy dies",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Social activist Sanjit Bunker Roy dies",
+     "url": "https://www.thehindu.com/news/national/social-activist-sanjit-bunker-roy-dies/article71685040.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-10T05:39:26+00:00"
+    }
+   ],
+   "id": "wk-Q2654764",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
   },
   {
    "qid": "Q7828852",
@@ -483,31 +554,47 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q7819982",
-   "title": "Tommy Walsh (builder)",
-   "fame": 134173,
-   "views": 134173,
+   "qid": "Q2654764",
+   "title": "Bunker Roy",
+   "fame": 25000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
+   "news": 25000,
+   "news_at": "2026-11-10T05:39:26+00:00",
+   "headlines": [
+    "Social activist Sanjit Bunker Roy dies"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7819982",
+   "region": "india",
+   "via": [
+    "google-news:Social activist Sanjit Bunker Roy dies",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Social activist Sanjit Bunker Roy dies",
+     "url": "https://www.thehindu.com/news/national/social-activist-sanjit-bunker-roy-dies/article71685040.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-10T05:39:26+00:00"
+    }
+   ],
+   "id": "wk-Q2654764",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-09"
+   "date": "2026-11-10"
   }
  ],
  "outlets": {
-  "headlines": 790,
-  "feeds": 30,
+  "headlines": 787,
+  "feeds": 29,
   "owners": 21,
-  "matched": 23,
+  "matched": 21,
   "corroborated": 2
  },
  "emerging": [
@@ -521,13 +608,12 @@
    "date": "2026-11-08",
    "news_at": "2026-11-09T16:23:46+00:00",
    "owners": [
-    "Fox Corporation",
     "BBC",
     "Paramount (CBS)",
     "Independent Digital News"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -622,7 +708,6 @@
     }
    ],
    "via": [
-    "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:Paramount (CBS)",
     "outlet:Independent Digital News"
@@ -706,5 +791,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
+ "outlet_note": "outlets: 787 headlines from 29 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
