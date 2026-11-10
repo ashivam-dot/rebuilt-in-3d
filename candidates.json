@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T20:09:48+00:00",
+ "at": "2026-11-10T20:39:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -46,18 +46,57 @@
    "has_coords": true
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-10T20:22:21+00:00",
+   "headlines": [
+    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
+    "Salvadoran troops target Haitian gang, leaving 20 dead"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
+    "google-news:Salvadoran troops target Haitian gang, leaving 20 dead",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
+     "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-10T20:22:21+00:00"
+    }
+   ],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q7819982",
    "title": "Tommy Walsh (builder)",
-   "fame": 134673,
+   "fame": 134173,
    "views": 134173,
-   "traffic": 500,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09",
-    "google-trends-GB:roman kemp"
+    "wikipedia-top-2026-11-09"
    ],
    "owners": [],
    "reports": [],
@@ -65,30 +104,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-10T13:27:35+00:00",
-   "headlines": [
-    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": null,
@@ -450,12 +465,12 @@
   }
  ],
  "outlets": {
-  "headlines": 819,
+  "headlines": 814,
   "feeds": 29,
   "owners": 21,
-  "matched": 37,
+  "matched": 42,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 819 headlines from 29 feeds (21 owners), 37 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 814 headlines from 29 feeds (21 owners), 42 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
