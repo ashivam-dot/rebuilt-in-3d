@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T14:22:33+00:00",
+ "at": "2026-11-10T14:52:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -64,6 +64,30 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-10T13:27:35+00:00",
+   "headlines": [
+    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": null,
@@ -315,13 +339,16 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 139 people)"
+ ],
  "outlets": {
-  "headlines": 802,
+  "headlines": 805,
   "feeds": 29,
   "owners": 21,
-  "matched": 17,
+  "matched": 19,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 802 headlines from 29 feeds (21 owners), 17 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 805 headlines from 29 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
