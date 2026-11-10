@@ -1,13 +1,13 @@
 {
- "at": "2026-11-10T05:38:28+00:00",
+ "at": "2026-11-10T06:06:07+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 189724,
+   "fame": 189924,
    "views": 114724,
-   "traffic": 0,
+   "traffic": 200,
    "news": 25000,
    "news_at": "2026-11-10T00:00:00+00:00",
    "headlines": [
@@ -16,6 +16,7 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-09",
+    "google-trends-GB:sun news",
     "wikipedia-current-events-2026-11-09",
     "google-news:Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "outlet:Euronews"
@@ -330,16 +331,15 @@
   {
    "qid": "Q7828852",
    "title": "Toukie Smith",
-   "fame": 23806,
+   "fame": 23706,
    "views": 23706,
-   "traffic": 100,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09",
-    "google-trends-GB:toukie smith"
+    "wikipedia-top-2026-11-09"
    ],
    "owners": [],
    "reports": [],
@@ -512,15 +512,76 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-07"
+  },
+  {
+   "qid": "Q5209002",
+   "title": "Dai Henwood",
+   "fame": 100,
+   "views": 0,
+   "traffic": 100,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:dai henwood"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5209002",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q3036807",
+   "title": "Donnie Dunagan",
+   "fame": 14920,
+   "views": 14920,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-09"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3036807",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
+   "qid": "Q5209002",
+   "title": "Dai Henwood",
+   "fame": 100,
+   "views": 0,
+   "traffic": 100,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-GB:dai henwood"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5209002",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  }
+ ],
  "outlets": {
   "headlines": 783,
   "feeds": 29,
   "owners": 21,
-  "matched": 24,
+  "matched": 27,
   "corroborated": 3
  },
  "emerging": [
@@ -723,5 +784,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 783 headlines from 29 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
+ "outlet_note": "outlets: 783 headlines from 29 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
