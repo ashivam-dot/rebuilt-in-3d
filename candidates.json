@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T16:22:59+00:00",
+ "at": "2026-11-10T16:52:26+00:00",
  "quakes": [],
  "trending": [
   {
@@ -66,6 +66,30 @@
    "date": "2026-11-09"
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-10T13:27:35+00:00",
+   "headlines": [
+    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": null,
    "title": "2026 Aliağa factory explosion",
    "fame": 50000,
@@ -91,74 +115,13 @@
    "has_coords": true
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-10T13:27:35+00:00",
-   "headlines": [
-    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q7668200",
-   "title": "T. Cullen Davis",
-   "fame": 34954,
-   "views": 9954,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-09T22:48:11+00:00",
-   "headlines": [
-    "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09",
-    "google-news:T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "T. Cullen Davis, a Texas oil tycoon acquitted in a 1970s murder trial, has died at 93",
-     "url": "https://www.independent.co.uk/news/world/americas/fort-worth-texas-dallas-fbi-christian-b3082068.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-09T22:48:11+00:00"
-    }
-   ],
-   "id": "wk-Q7668200",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
-  {
    "qid": "Q2654764",
    "title": "Bunker Roy",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-10T15:16:16+00:00",
+   "news_at": "2026-11-10T16:20:05+00:00",
    "headlines": [
     "Bunker Roy, founder of Barefoot College, dies at 81"
    ],
@@ -179,7 +142,7 @@
      "owner": "The Hindu Group",
      "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-10T15:16:16+00:00"
+     "at": "2026-11-10T16:20:05+00:00"
     }
    ],
    "id": "wk-Q2654764",
@@ -376,12 +339,12 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 810,
+  "headlines": 814,
   "feeds": 29,
   "owners": 21,
-  "matched": 19,
+  "matched": 15,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 810 headlines from 29 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 814 headlines from 29 feeds (21 owners), 15 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
