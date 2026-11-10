@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T22:10:27+00:00",
+ "at": "2026-11-10T22:39:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -50,25 +50,39 @@
   {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
-   "fame": 150000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-10T20:22:21+00:00",
+   "news": 175000,
+   "news_at": "2026-11-10T22:12:51+00:00",
    "headlines": [
     "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
+    "Dominican president says he backs Bukele and Salvadoran troops in Haiti",
     "Salvadoran troops target Haitian gang, leaving 20 dead"
    ],
    "region": "world",
    "via": [
     "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
+    "google-news:Dominican president says he backs Bukele and Salvadoran troops in Haiti",
     "google-news:Salvadoran troops target Haitian gang, leaving 20 dead",
+    "outlet:Disney (ABC News)",
     "outlet:Al Jazeera Media Network"
    ],
    "owners": [
+    "Disney (ABC News)",
     "Al Jazeera Media Network"
    ],
    "reports": [
+    {
+     "title": "Dominican president says he backs Bukele and Salvadoran troops in Haiti",
+     "url": "https://abcnews.com/International/wireStory/dominican-president-backs-bukele-salvadoran-troops-haiti-138027231",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-10T22:12:51+00:00"
+    },
     {
      "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
      "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
@@ -106,6 +120,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
+  },
+  {
+   "qid": "Q4931878",
+   "title": "Bob Boone",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-10T17:51:06+00:00",
+   "headlines": [
+    "Bob Boone, sturdy catcher who linked generations of All-Stars, dies at 78"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Bob Boone, sturdy catcher who linked generations of All-Stars, dies at 78"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4931878",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
   },
   {
    "qid": null,
@@ -430,49 +466,35 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q114079679",
-   "title": "Solange Alexandre",
-   "fame": 25000,
+   "qid": "Q4931878",
+   "title": "Bob Boone",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-10T13:23:54+00:00",
+   "news": 125000,
+   "news_at": "2026-11-10T17:51:06+00:00",
    "headlines": [
-    "French wartime resistance heroine Solange Alexandre dies aged 104"
+    "Bob Boone, sturdy catcher who linked generations of All-Stars, dies at 78"
    ],
    "region": "world",
    "via": [
-    "google-news:French wartime resistance heroine Solange Alexandre dies aged 104",
-    "outlet:BBC"
+    "google-news:Bob Boone, sturdy catcher who linked generations of All-Stars, dies at 78"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
-     "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-10T13:23:54+00:00"
-    }
-   ],
-   "id": "wk-Q114079679",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4931878",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-08"
+   "date": "2026-11-10"
   }
  ],
  "outlets": {
-  "headlines": 824,
+  "headlines": 825,
   "feeds": 29,
   "owners": 21,
-  "matched": 42,
-  "corroborated": 0
+  "matched": 41,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 824 headlines from 29 feeds (21 owners), 42 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 825 headlines from 29 feeds (21 owners), 41 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
