@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T18:55:21+00:00",
+ "at": "2026-11-10T19:24:16+00:00",
  "quakes": [],
  "trending": [
   {
@@ -188,6 +188,42 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q114079679",
+   "title": "Solange Alexandre",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-10T13:23:54+00:00",
+   "headlines": [
+    "French wartime resistance heroine Solange Alexandre dies aged 104"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:French wartime resistance heroine Solange Alexandre dies aged 104",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
+     "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-10T13:23:54+00:00"
+    }
+   ],
+   "id": "wk-Q114079679",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-08"
+  },
+  {
    "qid": "Q7828852",
    "title": "Toukie Smith",
    "fame": 23706,
@@ -374,14 +410,96 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": null,
+   "title": "2026 Aliağa factory explosion",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-10T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-09"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Aliağa_factory_explosion",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-09",
+   "coords": [
+    38.75147222,
+    26.95016667
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q114079679",
+   "title": "Solange Alexandre",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-10T13:23:54+00:00",
+   "headlines": [
+    "French wartime resistance heroine Solange Alexandre dies aged 104"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:French wartime resistance heroine Solange Alexandre dies aged 104",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
+     "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-10T13:23:54+00:00"
+    }
+   ],
+   "id": "wk-Q114079679",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-08"
+  },
+  {
+   "qid": "Q3036807",
+   "title": "Donnie Dunagan",
+   "fame": 14920,
+   "views": 14920,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-09"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3036807",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  }
+ ],
  "outlets": {
   "headlines": 816,
   "feeds": 29,
   "owners": 21,
-  "matched": 28,
+  "matched": 30,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 816 headlines from 29 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 816 headlines from 29 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
