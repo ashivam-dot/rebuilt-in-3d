@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T04:06:02+00:00",
+ "at": "2026-11-10T04:35:33+00:00",
  "quakes": [],
  "trending": [
   {
@@ -342,29 +342,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q3036807",
-   "title": "Donnie Dunagan",
-   "fame": 39920,
-   "views": 14920,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-09T17:49:00+00:00",
-   "headlines": [
-    "Donnie Dunagan, original voice of Disney’s Bambi and triple Purple Heart marine, dies aged 92"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09",
-    "google-news:Donnie Dunagan, original voice of Disney’s Bambi and triple Purple Heart marine, dies aged 92"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3036807",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  },
-  {
    "qid": "Q141966885",
    "title": "2026 Palm Beach County Learjet 60 crash",
    "fame": 39915,
@@ -487,6 +464,26 @@
    "date": "2026-11-08"
   },
   {
+   "qid": "Q3036807",
+   "title": "Donnie Dunagan",
+   "fame": 14920,
+   "views": 14920,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-09"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3036807",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
    "qid": "Q1487904",
    "title": "Dževad Prekazi",
    "fame": 14913,
@@ -548,38 +545,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": null,
-   "title": "2026 Aliağa factory explosion",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-10T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Aliağa_factory_explosion",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-09",
-   "coords": [
-    38.75147222,
-    26.95016667
-   ],
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 774,
+  "headlines": 781,
   "feeds": 29,
   "owners": 21,
-  "matched": 29,
+  "matched": 26,
   "corroborated": 4
  },
  "emerging": [
@@ -782,5 +753,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 774 headlines from 29 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
+ "outlet_note": "outlets: 781 headlines from 29 feeds (21 owners), 26 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
