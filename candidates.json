@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T14:52:53+00:00",
+ "at": "2026-11-10T15:26:27+00:00",
  "quakes": [],
  "trending": [
   {
@@ -150,6 +150,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-06"
+  },
+  {
+   "qid": "Q2654764",
+   "title": "Bunker Roy",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-10T15:16:16+00:00",
+   "headlines": [
+    "Bunker Roy, founder of Barefoot College, dies at 81"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Bunker Roy, founder of Barefoot College, dies at 81",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Bunker Roy, founder of Barefoot College, dies at 81",
+     "url": "https://www.thehindu.com/news/national/social-activist-sanjit-bunker-roy-dies/article71685040.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-10T15:16:16+00:00"
+    }
+   ],
+   "id": "wk-Q2654764",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
   },
   {
    "qid": "Q7828852",
@@ -339,16 +375,13 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 139 people)"
- ],
  "outlets": {
-  "headlines": 805,
+  "headlines": 807,
   "feeds": 29,
   "owners": 21,
-  "matched": 19,
+  "matched": 28,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 805 headlines from 29 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 807 headlines from 29 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
