@@ -1169,9 +1169,9 @@
   "kind": "incident"
  },
  "nw-20261108-krakow-attack": {
-  "count": 2,
+  "count": 3,
   "reason": "gate: faceless: no free photo shows Krakow or the event itself (only 6 photos of places or things near it)",
-  "at": "2026-11-09T14:52:12+00:00",
+  "at": "2026-11-10T03:07:16+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
@@ -1223,5 +1223,13 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q3036807": {
+  "count": 1,
+  "reason": "gate: only 3 usable photos of Donnie Dunagan on Wikimedia Commons (want 4)",
+  "at": "2026-11-10T03:07:17+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
