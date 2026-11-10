@@ -1,16 +1,17 @@
 {
- "at": "2026-11-10T00:49:28+00:00",
+ "at": "2026-11-10T01:22:41+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 244105,
+   "fame": 369105,
    "views": 144105,
    "traffic": 0,
-   "news": 50000,
+   "news": 175000,
    "news_at": "2026-11-10T00:00:00+00:00",
    "headlines": [
+    "Perpetrator of Kraków terrorist attack dies of injuries in hospital",
     "Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology"
    ],
@@ -18,6 +19,7 @@
    "via": [
     "wikipedia-top-2026-11-08",
     "wikipedia-current-events-2026-11-09",
+    "google-news:Perpetrator of Kraków terrorist attack dies of injuries in hospital",
     "google-news:Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "google-news:Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
     "outlet:Euronews",
@@ -456,30 +458,85 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-06"
-  },
-  {
-   "qid": "Q3181541",
-   "title": "John Frieda",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:lulu john frieda tribute"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3181541",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-03"
   }
  ],
  "hazards": [],
  "candidates": [
+  {
+   "id": "nw-20261109-senegal-maritime",
+   "qid": null,
+   "title": "At least 39 die after Europe-bound migrant boat sinks off Senegal",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-09",
+   "news_at": "2026-11-09T16:33:55+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Independent Digital News",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Death toll rises to 39 after migrant boat capsizes off Senegal",
+    "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal",
+    "At least 39 die after Europe-bound migrant boat sinks off Senegal"
+   ],
+   "places": [
+    "Europe-bound"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 39 die after Europe-bound migrant boat sinks off Senegal",
+     "url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-09T16:33:55+00:00"
+    },
+    {
+     "title": "At least 39 dead and just one survivor after migrant boat capsizes off the coast of Senegal",
+     "url": "https://www.independent.co.uk/news/world/africa/senegal-saint-louis-migrant-boat-b3081827.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-09T16:24:17+00:00"
+    },
+    {
+     "title": "Death toll rises to 39 after migrant boat capsizes off Senegal",
+     "url": "https://abcnews.com/International/wireStory/death-toll-rises-39-after-migrant-boat-capsizes-137968623",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-09T12:34:15+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "qid": null,
    "title": "2026 Aliağa factory explosion",
@@ -507,7 +564,7 @@
   }
  ],
  "outlets": {
-  "headlines": 753,
+  "headlines": 758,
   "feeds": 30,
   "owners": 21,
   "matched": 44,
@@ -713,5 +770,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 753 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
+ "outlet_note": "outlets: 758 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261108-krakow-attack, nw-20261109-senegal-maritime"
 }
