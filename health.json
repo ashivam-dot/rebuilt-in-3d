@@ -1,9 +1,12 @@
 {
- "at": "2026-11-11T12:57:01+00:00",
+ "at": "2026-11-11T13:26:20+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 0 hazard alerts",
-  "outlets: 795 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
+  "watch: 1 candidates (0 quakes, 13 trending), 0 hazard alerts",
+  "outlets: 802 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142077465",
+  "skip wk-Q142077465: gate: faceless: no free photo shows 2026 Kraków shooting or the event itself (only 9 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
