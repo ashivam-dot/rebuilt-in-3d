@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T03:08:34+00:00",
+ "at": "2026-11-11T03:40:15+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,26 +9,34 @@
    "views": 0,
    "traffic": 500,
    "news": 175000,
-   "news_at": "2026-11-11T02:23:21+00:00",
+   "news_at": "2026-11-11T03:05:59+00:00",
    "headlines": [
-    "Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
     "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
-    "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85"
+    "Stacy Keach dead at 85 as ‘Mike Hammer’ star’s wife shares emotional tribute"
    ],
    "region": "world",
    "via": [
     "google-trends-GB:stacy keach",
-    "google-news:Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
     "google-news:Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
-    "google-news:Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
-    "outlet:Guardian Media Group",
-    "outlet:Independent Digital News"
+    "google-news:Stacy Keach dead at 85 as ‘Mike Hammer’ star’s wife shares emotional tribute",
+    "outlet:Fox Corporation",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "Guardian Media Group",
-    "Independent Digital News"
+    "Fox Corporation",
+    "Guardian Media Group"
    ],
    "reports": [
+    {
+     "title": "Stacy Keach dead at 85 as ‘Mike Hammer’ star’s wife shares emotional tribute",
+     "url": "https://www.foxnews.com/entertainment/stacy-keach-dead-85-mike-hammer-stars-wife-shares-emotional-tribute",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T03:05:59+00:00"
+    },
     {
      "title": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/stacy-keach-mike-hammer-actor-death-aged-85",
@@ -38,16 +46,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-11T02:23:21+00:00"
-    },
-    {
-     "title": "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
-     "url": "https://www.independent.co.uk/news/world/europe/john-huston-america-britain-golden-globe-new-york-b3082817.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T01:07:43+00:00"
     }
    ],
    "id": "wk-Q315090",
@@ -56,10 +54,34 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-11T02:01:35+00:00",
+   "headlines": [
+    "Salvadoran troops target Haitian gang, leaving 20 dead"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Salvadoran troops target Haitian gang, leaving 20 dead"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 139724,
-   "views": 114724,
+   "fame": 83545,
+   "views": 58545,
    "traffic": 0,
    "news": 25000,
    "news_at": "2026-11-09T21:34:14+00:00",
@@ -68,7 +90,7 @@
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09",
+    "wikipedia-top-2026-11-10",
     "google-news:Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "outlet:Euronews"
    ],
@@ -98,17 +120,97 @@
    "has_coords": true
   },
   {
-   "qid": "Q7819982",
-   "title": "Tommy Walsh (builder)",
-   "fame": 134173,
-   "views": 134173,
+   "qid": "Q7828852",
+   "title": "Toukie Smith",
+   "fame": 73111,
+   "views": 73111,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7828852",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
+  },
+  {
+   "qid": "Q23762011",
+   "title": "Shaji Kumar",
+   "fame": 48929,
+   "views": 48929,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q23762011",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q5209002",
+   "title": "Dai Henwood",
+   "fame": 46279,
+   "views": 46279,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5209002",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q4931878",
+   "title": "Bob Boone",
+   "fame": 40606,
+   "views": 40606,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4931878",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q7819982",
+   "title": "Tommy Walsh (builder)",
+   "fame": 35104,
+   "views": 35104,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
    ],
    "owners": [],
    "reports": [],
@@ -116,102 +218,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-10T11:45:30+00:00",
-   "headlines": [
-    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q4931878",
-   "title": "Bob Boone",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-10T22:40:35+00:00",
-   "headlines": [
-    "Bob Boone, World Series champion and member of MLB's first three-generation family, dead at 78"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Bob Boone, World Series champion and member of MLB's first three-generation family, dead at 78",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Bob Boone, World Series champion and member of MLB's first three-generation family, dead at 78",
-     "url": "https://www.foxnews.com/outkick-sports/bob-boone-world-series-champion-member-mlbs-first-three-generation-family-dead-78",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-10T22:40:35+00:00"
-    }
-   ],
-   "id": "wk-Q4931878",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q2654764",
-   "title": "Bunker Roy",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-10T16:20:05+00:00",
-   "headlines": [
-    "Bunker Roy, founder of Barefoot College, dies at 81"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Bunker Roy, founder of Barefoot College, dies at 81",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Bunker Roy, founder of Barefoot College, dies at 81",
-     "url": "https://www.thehindu.com/news/national/social-activist-sanjit-bunker-roy-dies/article71685040.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-10T16:20:05+00:00"
-    }
-   ],
-   "id": "wk-Q2654764",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
   },
   {
    "qid": "Q114079679",
@@ -250,117 +256,17 @@
    "date": "2026-11-08"
   },
   {
-   "qid": "Q7828852",
-   "title": "Toukie Smith",
-   "fame": 23706,
-   "views": 23706,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7828852",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  },
-  {
-   "qid": "Q116992476",
-   "title": "Jesús de Miguel",
-   "fame": 22438,
-   "views": 22438,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q116992476",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-03"
-  },
-  {
-   "qid": "Q6267230",
-   "title": "Johnny McEvoy",
-   "fame": 18150,
-   "views": 18150,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6267230",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-08"
-  },
-  {
-   "qid": "Q5224782",
-   "title": "Darren Beckford",
-   "fame": 17483,
-   "views": 17483,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5224782",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-08"
-  },
-  {
-   "qid": "Q3036807",
-   "title": "Donnie Dunagan",
-   "fame": 14920,
-   "views": 14920,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-09"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3036807",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  },
-  {
    "qid": "Q141966885",
    "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 14915,
-   "views": 14915,
+   "fame": 15278,
+   "views": 15278,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-10"
    ],
    "owners": [],
    "reports": [],
@@ -375,37 +281,37 @@
    "has_coords": true
   },
   {
-   "qid": "Q1487904",
-   "title": "Dževad Prekazi",
-   "fame": 14913,
-   "views": 14913,
+   "qid": "Q3036807",
+   "title": "Donnie Dunagan",
+   "fame": 15271,
+   "views": 15271,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-10"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1487904",
+   "id": "wk-Q3036807",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-08"
+   "date": "2026-11-04"
   },
   {
    "qid": "Q4250213",
    "title": "Sebastián Lelio",
-   "fame": 12686,
-   "views": 12686,
+   "fame": 13900,
+   "views": 13900,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-10"
    ],
    "owners": [],
    "reports": [],
@@ -415,37 +321,37 @@
    "date": "2026-11-06"
   },
   {
-   "qid": "Q922227",
-   "title": "Richard Lloyd (guitarist)",
-   "fame": 12034,
-   "views": 12034,
+   "qid": "Q116992476",
+   "title": "Jesús de Miguel",
+   "fame": 13825,
+   "views": 13825,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-10"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q922227",
+   "id": "wk-Q116992476",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-07"
+   "date": "2026-11-03"
   },
   {
    "qid": "Q7668200",
    "title": "T. Cullen Davis",
-   "fame": 9954,
-   "views": 9954,
+   "fame": 12036,
+   "views": 12036,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09"
+    "wikipedia-top-2026-11-10"
    ],
    "owners": [],
    "reports": [],
@@ -453,6 +359,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-06"
+  },
+  {
+   "qid": "Q125817618",
+   "title": "Daryl Lilley",
+   "fame": 8687,
+   "views": 8687,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q125817618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-09"
   }
  ],
  "hazards": [],
@@ -464,26 +390,34 @@
    "views": 0,
    "traffic": 500,
    "news": 175000,
-   "news_at": "2026-11-11T02:23:21+00:00",
+   "news_at": "2026-11-11T03:05:59+00:00",
    "headlines": [
-    "Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
     "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
-    "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85"
+    "Stacy Keach dead at 85 as ‘Mike Hammer’ star’s wife shares emotional tribute"
    ],
    "region": "world",
    "via": [
     "google-trends-GB:stacy keach",
-    "google-news:Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
     "google-news:Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
-    "google-news:Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
-    "outlet:Guardian Media Group",
-    "outlet:Independent Digital News"
+    "google-news:Stacy Keach dead at 85 as ‘Mike Hammer’ star’s wife shares emotional tribute",
+    "outlet:Fox Corporation",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "Guardian Media Group",
-    "Independent Digital News"
+    "Fox Corporation",
+    "Guardian Media Group"
    ],
    "reports": [
+    {
+     "title": "Stacy Keach dead at 85 as ‘Mike Hammer’ star’s wife shares emotional tribute",
+     "url": "https://www.foxnews.com/entertainment/stacy-keach-dead-85-mike-hammer-stars-wife-shares-emotional-tribute",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T03:05:59+00:00"
+    },
     {
      "title": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/stacy-keach-mike-hammer-actor-death-aged-85",
@@ -493,31 +427,81 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-11T02:23:21+00:00"
-    },
-    {
-     "title": "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
-     "url": "https://www.independent.co.uk/news/world/europe/john-huston-america-britain-golden-globe-new-york-b3082817.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T01:07:43+00:00"
     }
    ],
    "id": "wk-Q315090",
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q23762011",
+   "title": "Shaji Kumar",
+   "fame": 48929,
+   "views": 48929,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q23762011",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q5209002",
+   "title": "Dai Henwood",
+   "fame": 46279,
+   "views": 46279,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5209002",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q125817618",
+   "title": "Daryl Lilley",
+   "fame": 8687,
+   "views": 8687,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q125817618",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-09"
   }
  ],
  "outlets": {
-  "headlines": 813,
+  "headlines": 807,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 29,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
