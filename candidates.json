@@ -1,73 +1,72 @@
 {
- "at": "2026-11-11T18:12:00+00:00",
+ "at": "2026-11-11T18:39:29+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 200000,
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 202000,
    "views": 0,
-   "traffic": 0,
+   "traffic": 2000,
    "news": 200000,
-   "news_at": "2026-11-11T18:03:07+00:00",
+   "news_at": "2026-11-11T18:13:10+00:00",
    "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years",
-    "Four million stage general strike in Spain over national housing crisis",
-    "Spain faces nationwide protests over soaring housing costs",
-    "Millions of Spanish workers strike over housing crisis just weeks before snap election"
+    "Alexander Darchiev, Russia's Ambassador To US, Dies 'Suddenly' At 66",
+    "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
+    "Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
    ],
    "region": "world",
    "via": [
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years",
-    "google-news:Four million stage general strike in Spain over national housing crisis",
-    "google-news:Spain faces nationwide protests over soaring housing costs",
-    "outlet:ABC (Australia)",
+    "google-trends-US:russian ambassador to us",
+    "google-news:Alexander Darchiev, Russia's Ambassador To US, Dies 'Suddenly' At 66",
+    "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
+    "google-news:Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
     "outlet:Al Jazeera Media Network",
+    "outlet:NDTV",
     "outlet:Independent Digital News"
    ],
    "owners": [
-    "ABC (Australia)",
     "Al Jazeera Media Network",
+    "NDTV",
     "Independent Digital News"
    ],
    "reports": [
     {
-     "title": "Four million stage general strike in Spain over national housing crisis",
-     "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-11T18:03:07+00:00"
-    },
-    {
-     "title": "Spain faces nationwide protests over soaring housing costs",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-faces-nationwide-protests-over-soaring-housing-costs?traffic_source=rss",
+     "title": "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
+     "url": "https://www.aljazeera.com/news/2026/11/11/russias-ambassador-to-the-us-alexander-darchiev-dies-at-66?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
      "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-11T17:49:03+00:00"
+     "at": "2026-11-11T18:13:10+00:00"
     },
     {
-     "title": "Millions of Spanish workers strike over housing crisis just weeks before snap election",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-housing-crisis-pedro-sanchez-snap-election-b3083334.html",
+     "title": "Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
+     "url": "https://www.ndtv.com/world-news/russias-ambassador-to-us-alexander-darchiev-dies-at-66-12314333#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-11T18:01:32+00:00"
+    },
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-11T16:44:24+00:00"
+     "at": "2026-11-11T17:32:50+00:00"
     }
    ],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-11",
-   "coords": null,
-   "has_coords": false
+   "id": "wk-Q18613657",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
   },
   {
    "qid": "Q142077465",
@@ -142,6 +141,58 @@
    "date": "2026-11-04"
   },
   {
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-11T18:03:07+00:00",
+   "headlines": [
+    "Four million stage general strike in Spain over national housing crisis",
+    "Spain faces nationwide protests over soaring housing costs"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Four million stage general strike in Spain over national housing crisis",
+    "google-news:Spain faces nationwide protests over soaring housing costs",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "ABC (Australia)",
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Four million stage general strike in Spain over national housing crisis",
+     "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-11T18:03:07+00:00"
+    },
+    {
+     "title": "Spain faces nationwide protests over soaring housing costs",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-faces-nationwide-protests-over-soaring-housing-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:49:03+00:00"
+    }
+   ],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-11",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q5209002",
    "title": "Dai Henwood",
    "fame": 46279,
@@ -200,43 +251,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
-  },
-  {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 25200,
-   "views": 0,
-   "traffic": 200,
-   "news": 25000,
-   "news_at": "2026-11-11T17:32:50+00:00",
-   "headlines": [
-    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:alexander darchiev",
-    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T17:32:50+00:00"
-    }
-   ],
-   "id": "wk-Q18613657",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q141966885",
@@ -367,12 +381,12 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 821,
+  "headlines": 818,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 1
+  "matched": 21,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 821 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
