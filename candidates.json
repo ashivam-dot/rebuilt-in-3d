@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T20:11:56+00:00",
+ "at": "2026-11-11T21:55:59+00:00",
  "quakes": [],
  "trending": [
   {
@@ -212,6 +212,42 @@
    "date": "2026-11-09"
   },
   {
+   "qid": "Q1395654",
+   "title": "Irma P. Hall",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-11T19:47:16+00:00",
+   "headlines": [
+    "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
+     "url": "https://www.theguardian.com/film/2026/nov/11/irma-p-hall-actor-dies",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T19:47:16+00:00"
+    }
+   ],
+   "id": "wk-Q1395654",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
    "qid": "Q141966885",
    "title": "2026 Palm Beach County Learjet 60 crash",
    "fame": 15278,
@@ -338,14 +374,51 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1395654",
+   "title": "Irma P. Hall",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-11T19:47:16+00:00",
+   "headlines": [
+    "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
+     "url": "https://www.theguardian.com/film/2026/nov/11/irma-p-hall-actor-dies",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T19:47:16+00:00"
+    }
+   ],
+   "id": "wk-Q1395654",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  }
+ ],
  "outlets": {
-  "headlines": 815,
+  "headlines": 812,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 37,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
