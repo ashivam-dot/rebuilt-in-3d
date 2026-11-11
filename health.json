@@ -1,11 +1,12 @@
 {
- "at": "2026-11-11T06:53:46+00:00",
+ "at": "2026-11-11T07:06:07+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 149 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 150 units today",
   "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 804 headlines from 30 feeds (21 owners), 18 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "hold wk-Q315090: outside the world window",
-  "hold wk-Q125817618: outside the world window"
+  "outlets: 800 headlines from 30 feeds (21 owners), 17 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q315090: gate: no draft passed the fact checks: line 1 (Stacy Keach, the face of Mike Hammer, has died.): its supporting quote is not in the sources | second look: The line contains a factual error regarding the subject's gender. The source sentences identify the subject as 'Walter Stacy Keach Jr.' and 'the son of theatre director Stacy Keach Sr.', whereas the line refers to Keach as 'the face of Mike Hammer' (implying a male role) but the phra",
+  "skip wk-Q125817618: gate: no photo on Wikimedia Commons shows Daryl Lilley's face (a tribute needs one)",
+  "nothing eligible to publish"
  ]
 }
