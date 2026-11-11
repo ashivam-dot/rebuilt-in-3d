@@ -1,37 +1,49 @@
 {
- "at": "2026-11-11T18:39:29+00:00",
+ "at": "2026-11-11T19:09:50+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q18613657",
    "title": "Alexander Darchiev",
-   "fame": 202000,
+   "fame": 225000,
    "views": 0,
-   "traffic": 2000,
-   "news": 200000,
-   "news_at": "2026-11-11T18:13:10+00:00",
+   "traffic": 0,
+   "news": 225000,
+   "news_at": "2026-11-11T19:02:20+00:00",
    "headlines": [
-    "Alexander Darchiev, Russia's Ambassador To US, Dies 'Suddenly' At 66",
+    "Russian ambassador to US Alexander Darchiev dies suddenly at 66, says foreign ministry",
+    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
     "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
     "Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
     "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
    ],
    "region": "world",
    "via": [
-    "google-trends-US:russian ambassador to us",
-    "google-news:Alexander Darchiev, Russia's Ambassador To US, Dies 'Suddenly' At 66",
+    "google-news:Russian ambassador to US Alexander Darchiev dies suddenly at 66, says foreign ministry",
+    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
     "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "google-news:Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
+    "outlet:Fox Corporation",
     "outlet:Al Jazeera Media Network",
     "outlet:NDTV",
     "outlet:Independent Digital News"
    ],
    "owners": [
+    "Fox Corporation",
     "Al Jazeera Media Network",
     "NDTV",
     "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T19:02:20+00:00"
+    },
     {
      "title": "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
      "url": "https://www.aljazeera.com/news/2026/11/11/russias-ambassador-to-the-us-alexander-darchiev-dies-at-66?traffic_source=rss",
@@ -103,13 +115,13 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-11T02:50:53+00:00",
+   "news_at": "2026-11-11T02:01:35+00:00",
    "headlines": [
-    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+    "Salvadoran troops target Haitian gang, leaving 20 dead"
    ],
    "region": "world",
    "via": [
-    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+    "google-news:Salvadoran troops target Haitian gang, leaving 20 dead"
    ],
    "owners": [],
    "reports": [],
@@ -121,49 +133,43 @@
    "has_coords": true
   },
   {
-   "qid": "Q7828852",
-   "title": "Toukie Smith",
-   "fame": 73111,
-   "views": 73111,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7828852",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-04"
-  },
-  {
    "qid": "Q141592947",
    "title": "2026 Spanish housing protests",
-   "fame": 50000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-11T18:03:07+00:00",
+   "news": 75000,
+   "news_at": "2026-11-11T18:51:02+00:00",
    "headlines": [
+    "Millions join Spain’s first general strike in 14 years in protest at housing costs",
     "Four million stage general strike in Spain over national housing crisis",
     "Spain faces nationwide protests over soaring housing costs"
    ],
    "region": "world",
    "via": [
+    "google-news:Millions join Spain’s first general strike in 14 years in protest at housing costs",
     "google-news:Four million stage general strike in Spain over national housing crisis",
     "google-news:Spain faces nationwide protests over soaring housing costs",
+    "outlet:Guardian Media Group",
     "outlet:ABC (Australia)",
     "outlet:Al Jazeera Media Network"
    ],
    "owners": [
+    "Guardian Media Group",
     "ABC (Australia)",
     "Al Jazeera Media Network"
    ],
    "reports": [
+    {
+     "title": "Millions join Spain’s first general strike in 14 years in protest at housing costs",
+     "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T18:51:02+00:00"
+    },
     {
      "title": "Four million stage general strike in Spain over national housing crisis",
      "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
@@ -191,6 +197,26 @@
    "date": "2026-11-11",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q7828852",
+   "title": "Toukie Smith",
+   "fame": 73111,
+   "views": 73111,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7828852",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   },
   {
    "qid": "Q5209002",
@@ -381,12 +407,12 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 818,
+  "headlines": 811,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 24,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 21 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
