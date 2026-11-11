@@ -1,7 +1,60 @@
 {
- "at": "2026-11-11T02:40:00+00:00",
+ "at": "2026-11-11T03:08:34+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q315090",
+   "title": "Stacy Keach",
+   "fame": 175500,
+   "views": 0,
+   "traffic": 500,
+   "news": 175000,
+   "news_at": "2026-11-11T02:23:21+00:00",
+   "headlines": [
+    "Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
+    "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+    "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:stacy keach",
+    "google-news:Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
+    "google-news:Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+    "google-news:Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
+    "outlet:Guardian Media Group",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/stacy-keach-mike-hammer-actor-death-aged-85",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T02:23:21+00:00"
+    },
+    {
+     "title": "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
+     "url": "https://www.independent.co.uk/news/world/europe/john-huston-america-britain-golden-globe-new-york-b3082817.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T01:07:43+00:00"
+    }
+   ],
+   "id": "wk-Q315090",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
@@ -71,7 +124,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-10T10:45:30+00:00",
+   "news_at": "2026-11-10T11:45:30+00:00",
    "headlines": [
     "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
    ],
@@ -403,14 +456,68 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q315090",
+   "title": "Stacy Keach",
+   "fame": 175500,
+   "views": 0,
+   "traffic": 500,
+   "news": 175000,
+   "news_at": "2026-11-11T02:23:21+00:00",
+   "headlines": [
+    "Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
+    "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+    "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:stacy keach",
+    "google-news:Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
+    "google-news:Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+    "google-news:Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
+    "outlet:Guardian Media Group",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/stacy-keach-mike-hammer-actor-death-aged-85",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T02:23:21+00:00"
+    },
+    {
+     "title": "Stacy Keach, star of stage and ‘Mike Hammer’ series, dies at 85",
+     "url": "https://www.independent.co.uk/news/world/europe/john-huston-america-britain-golden-globe-new-york-b3082817.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T01:07:43+00:00"
+    }
+   ],
+   "id": "wk-Q315090",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  }
+ ],
  "outlets": {
-  "headlines": 812,
+  "headlines": 813,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
-  "corroborated": 0
+  "matched": 35,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 38 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
