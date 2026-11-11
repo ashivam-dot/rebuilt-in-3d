@@ -1,23 +1,21 @@
 {
- "at": "2026-11-11T01:10:24+00:00",
+ "at": "2026-11-11T01:38:42+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 264724,
+   "fame": 139724,
    "views": 114724,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-10T11:17:52+00:00",
+   "news": 25000,
+   "news_at": "2026-11-09T21:34:14+00:00",
    "headlines": [
-    "\"Strong traces of right-wing extremism\" in activity of Kraków terrorist, says justice minister",
     "Poland: Tusk and Nawrocki honour six victims of Kraków shooting"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-09",
-    "google-news:\"Strong traces of right-wing extremism\" in activity of Kraków terrorist, says justice minister",
     "google-news:Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
     "outlet:Euronews"
    ],
@@ -47,46 +45,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-10T22:12:51+00:00",
-   "headlines": [
-    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
-    "Dominican president says he backs Bukele and Salvadoran troops in Haiti"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
-    "google-news:Dominican president says he backs Bukele and Salvadoran troops in Haiti",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Dominican president says he backs Bukele and Salvadoran troops in Haiti",
-     "url": "https://abcnews.com/International/wireStory/dominican-president-backs-bukele-salvadoran-troops-haiti-138027231",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-10T22:12:51+00:00"
-    }
-   ],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q7819982",
    "title": "Tommy Walsh (builder)",
    "fame": 134173,
@@ -105,6 +63,30 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-10T13:27:35+00:00",
+   "headlines": [
+    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q4931878",
@@ -257,16 +239,15 @@
   {
    "qid": "Q6267230",
    "title": "Johnny McEvoy",
-   "fame": 18350,
+   "fame": 18150,
    "views": 18150,
-   "traffic": 200,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-09",
-    "google-trends-US:johnny mcevoy"
+    "wikipedia-top-2026-11-09"
    ],
    "owners": [],
    "reports": [],
@@ -424,12 +405,12 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 812,
+  "headlines": 810,
   "feeds": 30,
   "owners": 21,
-  "matched": 46,
+  "matched": 50,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 46 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 50 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
