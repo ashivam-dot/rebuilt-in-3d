@@ -1,30 +1,73 @@
 {
- "at": "2026-11-11T17:43:29+00:00",
+ "at": "2026-11-11T18:12:00+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q315090",
-   "title": "Stacy Keach",
-   "fame": 250000,
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
-   "news_at": "2026-11-11T16:00:00+00:00",
+   "news": 200000,
+   "news_at": "2026-11-11T18:03:07+00:00",
    "headlines": [
-    "Stacy Keach, Actor Who Embodied Hamlet and Mike Hammer, Dies at 85",
-    "Stacy Keach, ‘Mike Hammer’ And ‘Blue Bloods’ Star, Dies At 85"
+    "Spain: Housing crisis prompts first general strike in 14 years",
+    "Four million stage general strike in Spain over national housing crisis",
+    "Spain faces nationwide protests over soaring housing costs",
+    "Millions of Spanish workers strike over housing crisis just weeks before snap election"
    ],
    "region": "world",
    "via": [
-    "google-news:Stacy Keach, Actor Who Embodied Hamlet and Mike Hammer, Dies at 85",
-    "google-news:Stacy Keach, ‘Mike Hammer’ And ‘Blue Bloods’ Star, Dies At 85"
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years",
+    "google-news:Four million stage general strike in Spain over national housing crisis",
+    "google-news:Spain faces nationwide protests over soaring housing costs",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q315090",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
+   "owners": [
+    "ABC (Australia)",
+    "Al Jazeera Media Network",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Four million stage general strike in Spain over national housing crisis",
+     "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-11T18:03:07+00:00"
+    },
+    {
+     "title": "Spain faces nationwide protests over soaring housing costs",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-faces-nationwide-protests-over-soaring-housing-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:49:03+00:00"
+    },
+    {
+     "title": "Millions of Spanish workers strike over housing crisis just weeks before snap election",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-housing-crisis-pedro-sanchez-snap-election-b3083334.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T16:44:24+00:00"
+    }
+   ],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-11",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q142077465",
@@ -53,46 +96,6 @@
     19.93688889
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-11T16:44:24+00:00",
-   "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years",
-    "Millions of Spanish workers strike over housing crisis just weeks before snap election"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years",
-    "google-news:Millions of Spanish workers strike over housing crisis just weeks before snap election",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Millions of Spanish workers strike over housing crisis just weeks before snap election",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-housing-crisis-pedro-sanchez-snap-election-b3083334.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T16:44:24+00:00"
-    }
-   ],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-11",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q141921562",
@@ -201,9 +204,9 @@
   {
    "qid": "Q18613657",
    "title": "Alexander Darchiev",
-   "fame": 26000,
+   "fame": 25200,
    "views": 0,
-   "traffic": 1000,
+   "traffic": 200,
    "news": 25000,
    "news_at": "2026-11-11T17:32:50+00:00",
    "headlines": [
@@ -211,7 +214,7 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-US:russian ambassador to us",
+    "google-trends-GB:alexander darchiev",
     "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
     "outlet:Independent Digital News"
    ],
@@ -362,92 +365,14 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-11T16:44:24+00:00",
-   "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years",
-    "Millions of Spanish workers strike over housing crisis just weeks before snap election"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years",
-    "google-news:Millions of Spanish workers strike over housing crisis just weeks before snap election",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Millions of Spanish workers strike over housing crisis just weeks before snap election",
-     "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-housing-crisis-pedro-sanchez-snap-election-b3083334.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T16:44:24+00:00"
-    }
-   ],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-11",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 26000,
-   "views": 0,
-   "traffic": 1000,
-   "news": 25000,
-   "news_at": "2026-11-11T17:32:50+00:00",
-   "headlines": [
-    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-US:russian ambassador to us",
-    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T17:32:50+00:00"
-    }
-   ],
-   "id": "wk-Q18613657",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 824,
+  "headlines": 821,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
-  "corroborated": 0
+  "matched": 33,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 824 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 821 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
