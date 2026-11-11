@@ -1,19 +1,11 @@
 {
- "at": "2026-11-11T03:40:14+00:00",
+ "at": "2026-11-11T04:24:37+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 92 units today",
-  "watch: 4 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 807 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q315090: gate: no draft passed the fact checks: line 5 (He attended a State Dinner with his wife Małgorzata Tomassi ): unsupported: There is no mention of a State Dinner in any of the sources. | second look: The source sentences do not state that he attended a State Dinner. While the sources confirm he was married to Małgorzata Tomassi, there is no mention of a State Dinner or any other specific event involving 'other guests'.; line 6 (In 1969,",
-  "skip wk-Q23762011: gate: no photo on Wikimedia Commons shows Shaji Kumar's face (a tribute needs one)",
-  "published wk-Q5209002: https://www.youtube.com/shorts/wFFVgLh2biQ"
- ],
- "published": {
-  "video_id": "wFFVgLh2biQ",
-  "url": "https://www.youtube.com/shorts/wFFVgLh2biQ",
-  "title": "Dai Henwood, New Zealand Comedian, Dies at 48",
-  "privacy": "public",
-  "synthetic_declared": true
- }
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 144 units today",
+  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 799 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wk-Q315090: last Short went out 0.2 h ago",
+  "hold wk-Q125817618: last Short went out 0.2 h ago"
+ ]
 }
