@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T17:11:43+00:00",
+ "at": "2026-11-11T17:43:29+00:00",
  "quakes": [],
  "trending": [
   {
@@ -53,6 +53,46 @@
     19.93688889
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-11T16:44:24+00:00",
+   "headlines": [
+    "Spain: Housing crisis prompts first general strike in 14 years",
+    "Millions of Spanish workers strike over housing crisis just weeks before snap election"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years",
+    "google-news:Millions of Spanish workers strike over housing crisis just weeks before snap election",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Millions of Spanish workers strike over housing crisis just weeks before snap election",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-housing-crisis-pedro-sanchez-snap-election-b3083334.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T16:44:24+00:00"
+    }
+   ],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-11",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q141921562",
@@ -157,6 +197,43 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
+  },
+  {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 26000,
+   "views": 0,
+   "traffic": 1000,
+   "news": 25000,
+   "news_at": "2026-11-11T17:32:50+00:00",
+   "headlines": [
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-US:russian ambassador to us",
+    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:32:50+00:00"
+    }
+   ],
+   "id": "wk-Q18613657",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
   },
   {
    "qid": "Q141966885",
@@ -287,33 +364,90 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q4931878",
-   "title": "Bob Boone",
-   "fame": 40606,
-   "views": 40606,
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 150000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 150000,
+   "news_at": "2026-11-11T16:44:24+00:00",
+   "headlines": [
+    "Spain: Housing crisis prompts first general strike in 14 years",
+    "Millions of Spanish workers strike over housing crisis just weeks before snap election"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years",
+    "google-news:Millions of Spanish workers strike over housing crisis just weeks before snap election",
+    "outlet:Independent Digital News"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4931878",
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Millions of Spanish workers strike over housing crisis just weeks before snap election",
+     "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-housing-crisis-pedro-sanchez-snap-election-b3083334.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T16:44:24+00:00"
+    }
+   ],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-11",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 26000,
+   "views": 0,
+   "traffic": 1000,
+   "news": 25000,
+   "news_at": "2026-11-11T17:32:50+00:00",
+   "headlines": [
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-US:russian ambassador to us",
+    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:32:50+00:00"
+    }
+   ],
+   "id": "wk-Q18613657",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-10"
+   "date": "2026-11-11"
   }
  ],
  "outlets": {
-  "headlines": 823,
+  "headlines": 824,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 824 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
