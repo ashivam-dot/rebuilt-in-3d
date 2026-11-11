@@ -1,20 +1,22 @@
 {
- "at": "2026-11-11T13:26:21+00:00",
+ "at": "2026-11-11T17:11:43+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q315090",
    "title": "Stacy Keach",
-   "fame": 125000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-11T00:55:01+00:00",
+   "news": 250000,
+   "news_at": "2026-11-11T16:00:00+00:00",
    "headlines": [
+    "Stacy Keach, Actor Who Embodied Hamlet and Mike Hammer, Dies at 85",
     "Stacy Keach, ‘Mike Hammer’ And ‘Blue Bloods’ Star, Dies At 85"
    ],
    "region": "world",
    "via": [
+    "google-news:Stacy Keach, Actor Who Embodied Hamlet and Mike Hammer, Dies at 85",
     "google-news:Stacy Keach, ‘Mike Hammer’ And ‘Blue Bloods’ Star, Dies At 85"
    ],
    "owners": [],
@@ -23,6 +25,58 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 183545,
+   "views": 58545,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-11T14:13:00+00:00",
+   "headlines": [
+    "British man who died in Kraków shooting named as James Campbell"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-10",
+    "google-news:British man who died in Kraków shooting named as James Campbell"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-11T02:50:53+00:00",
+   "headlines": [
+    "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q7828852",
@@ -43,53 +97,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 58545,
-   "views": 58545,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-11T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q5209002",
@@ -280,10 +287,10 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 58545,
-   "views": 58545,
+   "qid": "Q4931878",
+   "title": "Bob Boone",
+   "fame": 40606,
+   "views": 40606,
    "traffic": 0,
    "news": 0,
    "news_at": null,
@@ -294,24 +301,19 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
+   "id": "wk-Q4931878",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
   }
  ],
  "outlets": {
-  "headlines": 802,
+  "headlines": 823,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 28,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
