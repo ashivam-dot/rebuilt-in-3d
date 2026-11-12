@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T15:26:37+00:00",
+ "at": "2026-11-12T16:13:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,37 +25,47 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 375000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-11-12T15:18:00+00:00",
+   "news": 250000,
+   "news_at": "2026-11-12T15:51:00+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
-    "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
+    "As storm approaches, crews race to search deadly NY building collapse",
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
     "Death toll in New York building collapse rises to 8",
-    "New York: Deadly building collapse in Brooklyn",
-    "New York City building collapse kills two people and injures 17"
+    "New York City building collapse kills two people and injures 17",
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
    ],
    "region": "world",
    "via": [
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
-    "google-news:Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
+    "google-news:As storm approaches, crews race to search deadly NY building collapse",
+    "google-news:Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
     "google-news:Death toll in New York building collapse rises to 8",
+    "outlet:NDTV",
     "outlet:SCMP Group",
-    "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Euronews",
     "outlet:HT Media"
    ],
    "owners": [
+    "NDTV",
     "SCMP Group",
-    "France Médias Monde",
     "Independent Digital News",
     "Euronews",
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+     "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T13:44:53+00:00"
+    },
     {
      "title": "Death toll in New York building collapse rises to 8",
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
@@ -65,16 +75,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T13:43:09+00:00"
-    },
-    {
-     "title": "New York: Deadly building collapse in Brooklyn",
-     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T11:18:05+00:00"
     },
     {
      "title": "New York City building collapse kills two people and injures 17",
@@ -163,19 +163,57 @@
    "has_coords": false
   },
   {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-12T15:57:20+00:00",
+   "headlines": [
+    "Dan Hicks, legendary NBC Sports and golf announcer, dies at age 64",
+    "Sports world reacts to the sudden passing of legendary broadcaster Dan Hicks at the age of 64"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Dan Hicks, legendary NBC Sports and golf announcer, dies at age 64",
+    "google-news:Sports world reacts to the sudden passing of legendary broadcaster Dan Hicks at the age of 64",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Sports world reacts to the sudden passing of legendary broadcaster Dan Hicks at the age of 64",
+     "url": "https://www.foxnews.com/outkick-sports/sports-world-reacts-sudden-passing-legendary-broadcaster-dan-hicks-age-64",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T15:57:20+00:00"
+    }
+   ],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "id": "nw-20261112-york-disaster",
    "qid": null,
-   "title": "New York: Deadly building collapse in Brooklyn",
+   "title": "Death toll in New York building collapse rises to 8",
    "name": "York",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T13:43:09+00:00",
+   "news_at": "2026-11-12T13:44:53+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
-    "France Médias Monde",
-    "SCMP Group"
+    "SCMP Group",
+    "NDTV"
    ],
    "fame": 100000,
    "news": 100000,
@@ -184,13 +222,13 @@
    "headlines": [
     "Eight dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
-    "New York: Deadly building collapse in Brooklyn",
-    "Death toll in New York building collapse rises to 8"
+    "Death toll in New York building collapse rises to 8",
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble"
    ],
    "places": [
     "City",
-    "Deadly",
-    "Brooklyn"
+    "building",
+    "collapse"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -202,16 +240,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "New York: Deadly building collapse in Brooklyn",
-     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T11:18:05+00:00"
-    },
     {
      "title": "Death toll in New York building collapse rises to 8",
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
@@ -241,13 +269,23 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T04:07:38+00:00"
+    },
+    {
+     "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+     "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T13:44:53+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:France Médias Monde",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": "2026 New York City building collapse"
@@ -255,14 +293,14 @@
   {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
-   "title": "Breaking: Five shot in Washington DC, gunman still at large",
+   "title": "One dead and four injured in Washington DC shooting, with suspect contained",
    "name": "Washington DC",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T15:14:58+00:00",
+   "news_at": "2026-11-12T16:04:11+00:00",
    "owners": [
-    "ABC (Australia)",
+    "Fox Corporation",
     "Disney (ABC News)",
     "Guardian Media Group"
    ],
@@ -271,14 +309,13 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Breaking: Five shot in Washington DC, gunman still at large",
-    "4 shot in Washington, DC, as police respond to active shooting: Sources",
-    "Washington DC shooting latest updates: multiple people shot in Logan Circle"
+    "1 killed, 4 injured after shooting near Washington, DC gym, gunman dead: Sources",
+    "1 dead, 4 injured in DC, as police respond to active shooting: Sources",
+    "Washington DC shooting latest updates: one person killed and four injured, police confirm",
+    "One dead and four injured in Washington DC shooting, with suspect contained"
    ],
    "places": [
-    "Five",
-    "Sources",
-    "Logan"
+    "Sources"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -291,38 +328,48 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Breaking: Five shot in Washington DC, gunman still at large",
-     "url": "https://www.abc.net.au/news/2026-11-13/active-shooter-in-washington-dc-near-logan-circle/107380770",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
+     "title": "One dead and four injured in Washington DC shooting, with suspect contained",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-12T14:43:10+00:00"
+     "at": "2026-11-12T16:04:11+00:00"
     },
     {
-     "title": "Washington DC shooting latest updates: multiple people shot in Logan Circle",
+     "title": "Washington DC shooting latest updates: one person killed and four injured, police confirm",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T15:14:58+00:00"
+     "at": "2026-11-12T15:59:21+00:00"
     },
     {
-     "title": "4 shot in Washington, DC, as police respond to active shooting: Sources",
+     "title": "1 dead, 4 injured in DC, as police respond to active shooting: Sources",
      "url": "https://abcnews.com/US/4-shot-washington-dc-police-respond-active-shooting/story?id=138076656",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-12T15:10:31+00:00"
+     "at": "2026-11-12T15:56:52+00:00"
+    },
+    {
+     "title": "1 killed, 4 injured after shooting near Washington, DC gym, gunman dead: Sources",
+     "url": "https://www.foxnews.com/us/shooting-near-dc-fitness-center-leaves-multiple-people-injured-officials-say",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T13:58:06+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
+    "outlet:Fox Corporation",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group"
    ],
@@ -399,27 +446,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 50200,
-   "views": 0,
-   "traffic": 50200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:dan hicks",
-    "google-trends-GB:dan hicks"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q7828852",
@@ -612,37 +638,47 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 375000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 375000,
-   "news_at": "2026-11-12T15:18:00+00:00",
+   "news": 250000,
+   "news_at": "2026-11-12T15:51:00+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
-    "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
+    "As storm approaches, crews race to search deadly NY building collapse",
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
     "Death toll in New York building collapse rises to 8",
-    "New York: Deadly building collapse in Brooklyn",
-    "New York City building collapse kills two people and injures 17"
+    "New York City building collapse kills two people and injures 17",
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
    ],
    "region": "world",
    "via": [
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
-    "google-news:Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
+    "google-news:As storm approaches, crews race to search deadly NY building collapse",
+    "google-news:Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
     "google-news:Death toll in New York building collapse rises to 8",
+    "outlet:NDTV",
     "outlet:SCMP Group",
-    "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Euronews",
     "outlet:HT Media"
    ],
    "owners": [
+    "NDTV",
     "SCMP Group",
-    "France Médias Monde",
     "Independent Digital News",
     "Euronews",
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+     "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T13:44:53+00:00"
+    },
     {
      "title": "Death toll in New York building collapse rises to 8",
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
@@ -652,16 +688,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T13:43:09+00:00"
-    },
-    {
-     "title": "New York: Deadly building collapse in Brooklyn",
-     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T11:18:05+00:00"
     },
     {
      "title": "New York City building collapse kills two people and injures 17",
@@ -723,153 +749,30 @@
     -73.953872
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T11:24:32+00:00",
-   "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-11",
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-12",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "id": "nw-20261112-washington-dc-attack",
-   "qid": null,
-   "title": "Breaking: Five shot in Washington DC, gunman still at large",
-   "name": "Washington DC",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T15:14:58+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "Disney (ABC News)",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Breaking: Five shot in Washington DC, gunman still at large",
-    "4 shot in Washington, DC, as police respond to active shooting: Sources",
-    "Washington DC shooting latest updates: multiple people shot in Logan Circle"
-   ],
-   "places": [
-    "Five",
-    "Sources",
-    "Logan"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Breaking: Five shot in Washington DC, gunman still at large",
-     "url": "https://www.abc.net.au/news/2026-11-13/active-shooter-in-washington-dc-near-logan-circle/107380770",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T14:43:10+00:00"
-    },
-    {
-     "title": "Washington DC shooting latest updates: multiple people shot in Logan Circle",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T15:14:58+00:00"
-    },
-    {
-     "title": "4 shot in Washington, DC, as police respond to active shooting: Sources",
-     "url": "https://abcnews.com/US/4-shot-washington-dc-police-respond-active-shooting/story?id=138076656",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T15:10:31+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Disney (ABC News)",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 50200,
-   "views": 0,
-   "traffic": 50200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:dan hicks",
-    "google-trends-GB:dan hicks"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   }
  ],
  "outlets": {
-  "headlines": 803,
+  "headlines": 805,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 34,
   "corroborated": 4
  },
  "emerging": [
   {
    "id": "nw-20261112-york-disaster",
    "qid": null,
-   "title": "New York: Deadly building collapse in Brooklyn",
+   "title": "Death toll in New York building collapse rises to 8",
    "name": "York",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T13:43:09+00:00",
+   "news_at": "2026-11-12T13:44:53+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
-    "France Médias Monde",
-    "SCMP Group"
+    "SCMP Group",
+    "NDTV"
    ],
    "fame": 100000,
    "news": 100000,
@@ -878,13 +781,13 @@
    "headlines": [
     "Eight dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
-    "New York: Deadly building collapse in Brooklyn",
-    "Death toll in New York building collapse rises to 8"
+    "Death toll in New York building collapse rises to 8",
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble"
    ],
    "places": [
     "City",
-    "Deadly",
-    "Brooklyn"
+    "building",
+    "collapse"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -896,16 +799,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "New York: Deadly building collapse in Brooklyn",
-     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T11:18:05+00:00"
-    },
     {
      "title": "Death toll in New York building collapse rises to 8",
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
@@ -935,13 +828,23 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T04:07:38+00:00"
+    },
+    {
+     "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+     "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T13:44:53+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:France Médias Monde",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": "2026 New York City building collapse"
@@ -949,14 +852,14 @@
   {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
-   "title": "Breaking: Five shot in Washington DC, gunman still at large",
+   "title": "One dead and four injured in Washington DC shooting, with suspect contained",
    "name": "Washington DC",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T15:14:58+00:00",
+   "news_at": "2026-11-12T16:04:11+00:00",
    "owners": [
-    "ABC (Australia)",
+    "Fox Corporation",
     "Disney (ABC News)",
     "Guardian Media Group"
    ],
@@ -965,14 +868,13 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Breaking: Five shot in Washington DC, gunman still at large",
-    "4 shot in Washington, DC, as police respond to active shooting: Sources",
-    "Washington DC shooting latest updates: multiple people shot in Logan Circle"
+    "1 killed, 4 injured after shooting near Washington, DC gym, gunman dead: Sources",
+    "1 dead, 4 injured in DC, as police respond to active shooting: Sources",
+    "Washington DC shooting latest updates: one person killed and four injured, police confirm",
+    "One dead and four injured in Washington DC shooting, with suspect contained"
    ],
    "places": [
-    "Five",
-    "Sources",
-    "Logan"
+    "Sources"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -985,38 +887,48 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Breaking: Five shot in Washington DC, gunman still at large",
-     "url": "https://www.abc.net.au/news/2026-11-13/active-shooter-in-washington-dc-near-logan-circle/107380770",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
+     "title": "One dead and four injured in Washington DC shooting, with suspect contained",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-12T14:43:10+00:00"
+     "at": "2026-11-12T16:04:11+00:00"
     },
     {
-     "title": "Washington DC shooting latest updates: multiple people shot in Logan Circle",
+     "title": "Washington DC shooting latest updates: one person killed and four injured, police confirm",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T15:14:58+00:00"
+     "at": "2026-11-12T15:59:21+00:00"
     },
     {
-     "title": "4 shot in Washington, DC, as police respond to active shooting: Sources",
+     "title": "1 dead, 4 injured in DC, as police respond to active shooting: Sources",
      "url": "https://abcnews.com/US/4-shot-washington-dc-police-respond-active-shooting/story?id=138076656",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-12T15:10:31+00:00"
+     "at": "2026-11-12T15:56:52+00:00"
+    },
+    {
+     "title": "1 killed, 4 injured after shooting near Washington, DC gym, gunman dead: Sources",
+     "url": "https://www.foxnews.com/us/shooting-near-dc-fitness-center-leaves-multiple-people-injured-officials-say",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T13:58:06+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
+    "outlet:Fox Corporation",
     "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group"
    ],
@@ -1024,5 +936,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-washington-dc-attack"
 }

@@ -1,15 +1,11 @@
 {
- "at": "2026-11-12T15:26:36+00:00",
+ "at": "2026-11-12T16:13:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 15 units today",
-  "watch: 4 candidates (0 quakes, 17 trending), 0 hazard alerts",
-  "outlets: 803 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-washington-dc-attack",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261112-washington-dc-attack",
-  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 4.4 h)",
-  "skip wk-Q141592947-2026w46: gate: no draft passed the fact checks: beat 2, 5, 6, 8 name(s) nothing its photo shows (only 49% of the script shows what it says; want 70%): in each, name who or what a photo shows (Sol, Isabel Díaz Ayuso, Pedro Sánchez), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; these names or numbers are not in the sources: 2015, Cercanías",
-  "skip nw-20261112-washington-dc-attack: gate: faceless: no free photo shows Washington DC or the event itself (only 0 photos of places or things near it)",
-  "skip wk-Q5213677: gate: no photo on Wikimedia Commons shows Dan Hicks's face (a tribute needs one)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 16 units today",
+  "watch: 1 candidates (0 quakes, 17 trending), 0 hazard alerts",
+  "outlets: 805 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-washington-dc-attack",
+  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 3.6 h)",
   "nothing eligible to publish"
  ]
 }
