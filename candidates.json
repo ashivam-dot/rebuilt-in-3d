@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T20:58:19+00:00",
+ "at": "2026-11-12T21:27:56+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,20 +29,21 @@
    "views": 0,
    "traffic": 0,
    "news": 275000,
-   "news_at": "2026-11-12T20:53:49+00:00",
+   "news_at": "2026-11-12T20:59:41+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
     "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "2 children among the 8 dead in New York City building collapse, officials say",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
+    "2 children among the 8 dead in New York City building collapse, officials say"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-11",
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "google-news:Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "google-news:New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
     "google-news:Be sea-ing you: humpback whale spotted in New York’s Hudson River",
-    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:NBCUniversal",
@@ -51,6 +52,7 @@
     "outlet:HT Media"
    ],
    "owners": [
+    "Fox Corporation",
     "Guardian Media Group",
     "Independent Digital News",
     "NBCUniversal",
@@ -59,6 +61,16 @@
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
+     "url": "https://www.foxnews.com/outkick-betting/new-york-giants-favored-2-over-commanders-nfc-east-division-lead-hangs-balance",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T20:59:41+00:00"
+    },
     {
      "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
      "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
@@ -128,16 +140,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-11-12T03:13:08+00:00"
-    },
-    {
-     "title": "Arrest made after student from Ghana was shot and killed on way to school in New York City",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/javits-frimpong-arrest-bronx-shooting-ghana-b3083443.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T21:29:20+00:00"
     }
    ],
    "id": "wp-2026_New_York_City_building_collapse",
@@ -151,6 +153,31 @@
    "has_coords": true
   },
   {
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T14:36:33+00:00",
+   "headlines": [
+    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-11",
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-12",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
    "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
@@ -158,7 +185,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T20:35:42+00:00",
+   "news_at": "2026-11-12T21:23:15+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -173,7 +200,8 @@
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
+    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+    "Washington DC shooting: police identify victim and suspect – latest updates"
    ],
    "places": [],
    "attackers": [],
@@ -197,14 +225,24 @@
      "at": "2026-11-12T17:13:14+00:00"
     },
     {
-     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:23:15+00:00"
+    },
+    {
+     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T20:35:42+00:00"
+     "at": "2026-11-12T21:10:43+00:00"
     },
     {
      "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
@@ -303,16 +341,15 @@
   {
    "qid": "Q5220508",
    "title": "Danny Kelly (journalist)",
-   "fame": 65126,
+   "fame": 64926,
    "views": 64926,
-   "traffic": 200,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-11",
-    "google-trends-GB:danny kelly illness"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
@@ -320,28 +357,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-12T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-11"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-12",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q18613657",
@@ -575,20 +590,21 @@
    "views": 0,
    "traffic": 0,
    "news": 275000,
-   "news_at": "2026-11-12T20:53:49+00:00",
+   "news_at": "2026-11-12T20:59:41+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
     "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "2 children among the 8 dead in New York City building collapse, officials say",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
+    "2 children among the 8 dead in New York City building collapse, officials say"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-11",
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "google-news:Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "google-news:New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
     "google-news:Be sea-ing you: humpback whale spotted in New York’s Hudson River",
-    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:NBCUniversal",
@@ -597,6 +613,7 @@
     "outlet:HT Media"
    ],
    "owners": [
+    "Fox Corporation",
     "Guardian Media Group",
     "Independent Digital News",
     "NBCUniversal",
@@ -605,6 +622,16 @@
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
+     "url": "https://www.foxnews.com/outkick-betting/new-york-giants-favored-2-over-commanders-nfc-east-division-lead-hangs-balance",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T20:59:41+00:00"
+    },
     {
      "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
      "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
@@ -674,16 +701,6 @@
      "group": "Indian national",
      "lang": "en",
      "at": "2026-11-12T03:13:08+00:00"
-    },
-    {
-     "title": "Arrest made after student from Ghana was shot and killed on way to school in New York City",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/javits-frimpong-arrest-bronx-shooting-ghana-b3083443.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T21:29:20+00:00"
     }
    ],
    "id": "wp-2026_New_York_City_building_collapse",
@@ -704,7 +721,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T20:35:42+00:00",
+   "news_at": "2026-11-12T21:23:15+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -719,7 +736,8 @@
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
+    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+    "Washington DC shooting: police identify victim and suspect – latest updates"
    ],
    "places": [],
    "attackers": [],
@@ -743,14 +761,24 @@
      "at": "2026-11-12T17:13:14+00:00"
     },
     {
-     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:23:15+00:00"
+    },
+    {
+     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T20:35:42+00:00"
+     "at": "2026-11-12T21:10:43+00:00"
     },
     {
      "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
@@ -784,10 +812,10 @@
   }
  ],
  "outlets": {
-  "headlines": 811,
+  "headlines": 813,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 39,
   "corroborated": 3
  },
  "emerging": [
@@ -799,7 +827,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T20:35:42+00:00",
+   "news_at": "2026-11-12T21:23:15+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -814,7 +842,8 @@
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
+    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+    "Washington DC shooting: police identify victim and suspect – latest updates"
    ],
    "places": [],
    "attackers": [],
@@ -838,14 +867,24 @@
      "at": "2026-11-12T17:13:14+00:00"
     },
     {
-     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:23:15+00:00"
+    },
+    {
+     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T20:35:42+00:00"
+     "at": "2026-11-12T21:10:43+00:00"
     },
     {
      "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
@@ -878,5 +917,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 39 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
 }
