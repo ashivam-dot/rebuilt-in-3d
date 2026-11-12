@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T14:26:19+00:00",
+ "at": "2026-11-12T15:26:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,24 +25,23 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 250200,
+   "fame": 375000,
    "views": 0,
-   "traffic": 200,
-   "news": 250000,
-   "news_at": "2026-11-12T13:43:09+00:00",
+   "traffic": 0,
+   "news": 375000,
+   "news_at": "2026-11-12T15:18:00+00:00",
    "headlines": [
+    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
     "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
     "Death toll in New York building collapse rises to 8",
     "New York: Deadly building collapse in Brooklyn",
-    "New York City building collapse kills two people and injures 17",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+    "New York City building collapse kills two people and injures 17"
    ],
    "region": "world",
    "via": [
-    "google-trends-US:what time does stock market open",
+    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
     "google-news:Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
     "google-news:Death toll in New York building collapse rises to 8",
-    "google-news:New York: Deadly building collapse in Brooklyn",
     "outlet:SCMP Group",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
@@ -145,14 +144,14 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-12T00:00:00+00:00",
+   "news_at": "2026-11-12T11:24:32+00:00",
    "headlines": [
-    "Spanish election: How bad is the housing crisis?"
+    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-11",
-    "google-news:Spanish election: How bad is the housing crisis?"
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
    ],
    "owners": [],
    "reports": [],
@@ -162,6 +161,173 @@
    "date": "2026-11-12",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261112-york-disaster",
+   "qid": null,
+   "title": "New York: Deadly building collapse in Brooklyn",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T13:43:09+00:00",
+   "owners": [
+    "Euronews",
+    "Independent Digital News",
+    "France Médias Monde",
+    "SCMP Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York City building collapse kills two people and injures 17",
+    "New York: Deadly building collapse in Brooklyn",
+    "Death toll in New York building collapse rises to 8"
+   ],
+   "places": [
+    "City",
+    "Deadly",
+    "Brooklyn"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "New York: Deadly building collapse in Brooklyn",
+     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T11:18:05+00:00"
+    },
+    {
+     "title": "Death toll in New York building collapse rises to 8",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:43:09+00:00"
+    },
+    {
+     "title": "New York City building collapse kills two people and injures 17",
+     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T07:25:20+00:00"
+    },
+    {
+     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Independent Digital News",
+    "outlet:France Médias Monde",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": "2026 New York City building collapse"
+  },
+  {
+   "id": "nw-20261112-washington-dc-attack",
+   "qid": null,
+   "title": "Breaking: Five shot in Washington DC, gunman still at large",
+   "name": "Washington DC",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T15:14:58+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Breaking: Five shot in Washington DC, gunman still at large",
+    "4 shot in Washington, DC, as police respond to active shooting: Sources",
+    "Washington DC shooting latest updates: multiple people shot in Logan Circle"
+   ],
+   "places": [
+    "Five",
+    "Sources",
+    "Logan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Breaking: Five shot in Washington DC, gunman still at large",
+     "url": "https://www.abc.net.au/news/2026-11-13/active-shooter-in-washington-dc-near-logan-circle/107380770",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T14:43:10+00:00"
+    },
+    {
+     "title": "Washington DC shooting latest updates: multiple people shot in Logan Circle",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T15:14:58+00:00"
+    },
+    {
+     "title": "4 shot in Washington, DC, as police respond to active shooting: Sources",
+     "url": "https://abcnews.com/US/4-shot-washington-dc-police-respond-active-shooting/story?id=138076656",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T15:10:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q18613657",
@@ -233,6 +399,27 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 50200,
+   "views": 0,
+   "traffic": 50200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:dan hicks",
+    "google-trends-GB:dan hicks"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
   },
   {
    "qid": "Q7828852",
@@ -425,24 +612,23 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 250200,
+   "fame": 375000,
    "views": 0,
-   "traffic": 200,
-   "news": 250000,
-   "news_at": "2026-11-12T13:43:09+00:00",
+   "traffic": 0,
+   "news": 375000,
+   "news_at": "2026-11-12T15:18:00+00:00",
    "headlines": [
+    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
     "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
     "Death toll in New York building collapse rises to 8",
     "New York: Deadly building collapse in Brooklyn",
-    "New York City building collapse kills two people and injures 17",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+    "New York City building collapse kills two people and injures 17"
    ],
    "region": "world",
    "via": [
-    "google-trends-US:what time does stock market open",
+    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
     "google-news:Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
     "google-news:Death toll in New York building collapse rises to 8",
-    "google-news:New York: Deadly building collapse in Brooklyn",
     "outlet:SCMP Group",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
@@ -539,294 +725,304 @@
    "has_coords": true
   },
   {
-   "qid": "Q951199",
-   "title": "Carlos Babington",
-   "fame": 3179,
-   "views": 3179,
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 175000,
+   "views": 0,
    "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T11:24:32+00:00",
+   "headlines": [
+    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-11",
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-12",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261112-washington-dc-attack",
+   "qid": null,
+   "title": "Breaking: Five shot in Washington DC, gunman still at large",
+   "name": "Washington DC",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T15:14:58+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Breaking: Five shot in Washington DC, gunman still at large",
+    "4 shot in Washington, DC, as police respond to active shooting: Sources",
+    "Washington DC shooting latest updates: multiple people shot in Logan Circle"
+   ],
+   "places": [
+    "Five",
+    "Sources",
+    "Logan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Breaking: Five shot in Washington DC, gunman still at large",
+     "url": "https://www.abc.net.au/news/2026-11-13/active-shooter-in-washington-dc-near-logan-circle/107380770",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T14:43:10+00:00"
+    },
+    {
+     "title": "Washington DC shooting latest updates: multiple people shot in Logan Circle",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T15:14:58+00:00"
+    },
+    {
+     "title": "4 shot in Washington, DC, as police respond to active shooting: Sources",
+     "url": "https://abcnews.com/US/4-shot-washington-dc-police-respond-active-shooting/story?id=138076656",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T15:10:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 50200,
+   "views": 0,
+   "traffic": 50200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "quiet day"
+    "google-trends-US:dan hicks",
+    "google-trends-GB:dan hicks"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q951199",
+   "id": "wk-Q5213677",
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
-  },
-  {
-   "qid": "Q533583",
-   "title": "Richard Posner",
-   "fame": 2386,
-   "views": 2386,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q533583",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q2281638",
-   "title": "Sid Morrison",
-   "fame": 2351,
-   "views": 2351,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2281638",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q4795757",
-   "title": "Arpita Singh",
-   "fame": 3083,
-   "views": 3083,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4795757",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-09"
-  },
-  {
-   "qid": "Q1374895",
-   "title": "Frédéric Boilet",
-   "fame": 1852,
-   "views": 1852,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1374895",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q302728",
-   "title": "Lenita Airisto",
-   "fame": 2847,
-   "views": 2847,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q302728",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-09"
-  },
-  {
-   "qid": "Q3505507",
-   "title": "Oldřich Svojanovský",
-   "fame": 1116,
-   "views": 1116,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3505507",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
-   "qid": "Q943838",
-   "title": "Héctor Aguer",
-   "fame": 1330,
-   "views": 1330,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q943838",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q4482111",
-   "title": "Lidiya Fedoseyeva-Shukshina",
-   "fame": 5042,
-   "views": 5042,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4482111",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
-  },
-  {
-   "qid": "Q5524160",
-   "title": "Garry Johnson",
-   "fame": 1655,
-   "views": 1655,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5524160",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-09"
-  },
-  {
-   "qid": "Q2639211",
-   "title": "Alberta Ampomah",
-   "fame": 2302,
-   "views": 2302,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2639211",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
-  },
-  {
-   "qid": "Q3394963",
-   "title": "Peter Jaroš",
-   "fame": 1385,
-   "views": 1385,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3394963",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-08"
-  },
-  {
-   "qid": "Q1484335",
-   "title": "G. William Whitehurst",
-   "fame": 1977,
-   "views": 1977,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1484335",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-07"
-  },
-  {
-   "qid": "Q1237072",
-   "title": "Domenico Berni",
-   "fame": 1066,
-   "views": 1066,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1237072",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-08"
   }
  ],
  "outlets": {
-  "headlines": 804,
+  "headlines": 803,
   "feeds": 30,
   "owners": 21,
   "matched": 35,
-  "corroborated": 2
+  "corroborated": 4
  },
- "emerging": [],
- "outlet_note": "outlets: 804 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 14 tribute candidates: Lidiya Fedoseyeva-Shukshina, Carlos Babington, Arpita Singh, Lenita Airisto"
+ "emerging": [
+  {
+   "id": "nw-20261112-york-disaster",
+   "qid": null,
+   "title": "New York: Deadly building collapse in Brooklyn",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T13:43:09+00:00",
+   "owners": [
+    "Euronews",
+    "Independent Digital News",
+    "France Médias Monde",
+    "SCMP Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York City building collapse kills two people and injures 17",
+    "New York: Deadly building collapse in Brooklyn",
+    "Death toll in New York building collapse rises to 8"
+   ],
+   "places": [
+    "City",
+    "Deadly",
+    "Brooklyn"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "New York: Deadly building collapse in Brooklyn",
+     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T11:18:05+00:00"
+    },
+    {
+     "title": "Death toll in New York building collapse rises to 8",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:43:09+00:00"
+    },
+    {
+     "title": "New York City building collapse kills two people and injures 17",
+     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T07:25:20+00:00"
+    },
+    {
+     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Independent Digital News",
+    "outlet:France Médias Monde",
+    "outlet:SCMP Group"
+   ],
+   "emerging": true,
+   "article": "2026 New York City building collapse"
+  },
+  {
+   "id": "nw-20261112-washington-dc-attack",
+   "qid": null,
+   "title": "Breaking: Five shot in Washington DC, gunman still at large",
+   "name": "Washington DC",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T15:14:58+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Breaking: Five shot in Washington DC, gunman still at large",
+    "4 shot in Washington, DC, as police respond to active shooting: Sources",
+    "Washington DC shooting latest updates: multiple people shot in Logan Circle"
+   ],
+   "places": [
+    "Five",
+    "Sources",
+    "Logan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Breaking: Five shot in Washington DC, gunman still at large",
+     "url": "https://www.abc.net.au/news/2026-11-13/active-shooter-in-washington-dc-near-logan-circle/107380770",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T14:43:10+00:00"
+    },
+    {
+     "title": "Washington DC shooting latest updates: multiple people shot in Logan Circle",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T15:14:58+00:00"
+    },
+    {
+     "title": "4 shot in Washington, DC, as police respond to active shooting: Sources",
+     "url": "https://abcnews.com/US/4-shot-washington-dc-police-respond-active-shooting/story?id=138076656",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T15:10:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-washington-dc-attack"
 }
