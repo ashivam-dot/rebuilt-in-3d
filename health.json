@@ -1,12 +1,10 @@
 {
- "at": "2026-11-12T18:10:57+00:00",
+ "at": "2026-11-12T18:43:21+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 20 units today",
-  "watch: 2 candidates (0 quakes, 19 trending), 0 hazard alerts",
-  "outlets: 809 headlines from 30 feeds (21 owners), 32 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261112-york-city-disaster, nw-20261112-washington-dc-attack, nw-20261112-gaza-nasser-hospital-strike",
-  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 1.7 h)",
-  "skip nw-20261112-york-city-disaster: gate: faceless: no free photo shows York City or the event itself (only 3 photos of places or things near it)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 21 units today",
+  "watch: 1 candidates (0 quakes, 18 trending), 0 hazard alerts",
+  "outlets: 809 headlines from 30 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-city-disaster, nw-20261112-washington-dc-attack",
+  "hold wp-2026_New_York_City_building_collapse: a scheduled Short goes out in 1.7 h"
  ]
 }
