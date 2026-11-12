@@ -1,7 +1,27 @@
 {
- "at": "2026-11-12T02:55:32+00:00",
+ "at": "2026-11-12T03:39:27+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q315090",
+   "title": "Stacy Keach",
+   "fame": 562990,
+   "views": 562990,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q315090",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
   {
    "qid": "Q141592947",
    "title": "2026 Spanish housing protests",
@@ -28,21 +48,212 @@
    "has_coords": false
   },
   {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 175000,
+   "qid": "Q2654764",
+   "title": "Bunker Roy",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
+   "news": 125000,
+   "news_at": "2026-11-10T20:52:00+00:00",
+   "headlines": [
+    "Bunker Roy, whose Barefoot College gave ‘cop outs, drop outs, and wash outs’ a new start, passes away"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Bunker Roy, whose Barefoot College gave ‘cop outs, drop outs, and wash outs’ a new start, passes away"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2654764",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q4772274",
+   "title": "Anthony Clark (actor)",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T01:49:28+00:00",
+   "headlines": [
+    "Anthony Clark, Comedian and ‘Yes, Dear’ Actor, Dies at 62"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Anthony Clark, Comedian and ‘Yes, Dear’ Actor, Dies at 62"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4772274",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "nw-20261111-york-disaster",
+   "qid": null,
+   "title": "New York building collapse kills one person and injures 12",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T02:33:12+00:00",
+   "owners": [
+    "Independent Digital News",
+    "ABC (Australia)",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "New York City building collapse leaves people trapped in rubble",
+    "People trapped in wreckage as New York building collapse kills two",
+    "New York building collapse kills one person and injures 12"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "New York building collapse kills one person and injures 12",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T02:33:12+00:00"
+    },
+    {
+     "title": "People trapped in wreckage as New York building collapse kills two",
+     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T00:50:09+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:ABC (Australia)",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T02:14:59+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors",
+     "url": "https://timesofindia.indiatimes.com/world/us/brooklyn-building-collapse-2-dead-10-injured-as-firefighters-search-for-survivors/articleshow/135751988.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T02:00:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 67930,
+   "views": 17930,
+   "traffic": 0,
+   "news": 50000,
    "news_at": "2026-11-11T19:02:20+00:00",
    "headlines": [
-    "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
     "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
     "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
    ],
    "region": "world",
    "via": [
-    "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
+    "wikipedia-top-2026-11-11",
     "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
     "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
     "outlet:Fox Corporation",
@@ -80,200 +291,37 @@
    "date": "2026-11-11"
   },
   {
-   "qid": "Q4772274",
-   "title": "Anthony Clark (actor)",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T01:14:00+00:00",
-   "headlines": [
-    "Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4772274",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "id": "nw-20261111-york-disaster",
-   "qid": null,
-   "title": "New York building collapse kills one person and injures 12",
-   "name": "York",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-11",
-   "news_at": "2026-11-12T02:33:12+00:00",
-   "owners": [
-    "Independent Digital News",
-    "NBCUniversal",
-    "ABC (Australia)",
-    "BBC"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "New York City building collapse leaves people trapped in rubble",
-    "2 dead, at least 17 hurt in New York City building collapse, authorities say",
-    "People trapped in wreckage as New York building collapse kills two",
-    "New York building collapse kills one person and injures 12"
-   ],
-   "places": [
-    "City"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "New York building collapse kills one person and injures 12",
-     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T02:33:12+00:00"
-    },
-    {
-     "title": "People trapped in wreckage as New York building collapse kills two",
-     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T00:50:09+00:00"
-    },
-    {
-     "title": "New York City building collapse leaves people trapped in rubble",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T22:47:14+00:00"
-    },
-    {
-     "title": "2 dead, at least 17 hurt in New York City building collapse, authorities say",
-     "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T00:04:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:NBCUniversal",
-    "outlet:ABC (Australia)",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261112-brooklyn-disaster",
-   "qid": null,
-   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-   "name": "Brooklyn",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T02:14:59+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Brooklyn building collapse kills at least two people and traps others in wreckage",
-    "At least two people dead in Brooklyn partial building collapse",
-    "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T01:51:00+00:00"
-    },
-    {
-     "title": "At least two people dead in Brooklyn partial building collapse",
-     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T02:14:59+00:00"
-    },
-    {
-     "title": "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors",
-     "url": "https://timesofindia.indiatimes.com/world/us/brooklyn-building-collapse-2-dead-10-injured-as-firefighters-search-for-survivors/articleshow/135751988.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-12T02:00:03+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q7828852",
-   "title": "Toukie Smith",
-   "fame": 73111,
-   "views": 73111,
+   "qid": "Q5220508",
+   "title": "Danny Kelly (journalist)",
+   "fame": 64926,
+   "views": 64926,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5220508",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q7828852",
+   "title": "Toukie Smith",
+   "fame": 36725,
+   "views": 36725,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
@@ -285,15 +333,15 @@
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
-   "fame": 58545,
-   "views": 58545,
+   "fame": 35017,
+   "views": 35017,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
@@ -308,59 +356,57 @@
    "has_coords": true
   },
   {
-   "qid": "Q2654764",
-   "title": "Bunker Roy",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-10T20:52:00+00:00",
-   "headlines": [
-    "Bunker Roy, whose Barefoot College gave ‘cop outs, drop outs, and wash outs’ a new start, passes away"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Bunker Roy, whose Barefoot College gave ‘cop outs, drop outs, and wash outs’ a new start, passes away"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2654764",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q5209002",
-   "title": "Dai Henwood",
-   "fame": 46279,
-   "views": 46279,
+   "qid": "Q1395654",
+   "title": "Irma P. Hall",
+   "fame": 33898,
+   "views": 33898,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q5209002",
+   "id": "wk-Q1395654",
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q3036807",
+   "title": "Donnie Dunagan",
+   "fame": 16512,
+   "views": 16512,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3036807",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-04"
   },
   {
    "qid": "Q4931878",
    "title": "Bob Boone",
-   "fame": 40606,
-   "views": 40606,
+   "fame": 14275,
+   "views": 14275,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
@@ -372,15 +418,15 @@
   {
    "qid": "Q7819982",
    "title": "Tommy Walsh (builder)",
-   "fame": 35104,
-   "views": 35104,
+   "fame": 11091,
+   "views": 11091,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
@@ -390,82 +436,37 @@
    "date": "2026-11-09"
   },
   {
-   "qid": "Q141966885",
-   "title": "2026 Palm Beach County Learjet 60 crash",
-   "fame": 15278,
-   "views": 15278,
+   "qid": "Q5209002",
+   "title": "Dai Henwood",
+   "fame": 9232,
+   "views": 9232,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141966885",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-01",
-   "coords": [
-    26.63288889,
-    -80.11311111
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q3036807",
-   "title": "Donnie Dunagan",
-   "fame": 15271,
-   "views": 15271,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3036807",
+   "id": "wk-Q5209002",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-04"
-  },
-  {
-   "qid": "Q4250213",
-   "title": "Sebastián Lelio",
-   "fame": 13900,
-   "views": 13900,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4250213",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
+   "date": "2026-11-10"
   },
   {
    "qid": "Q116992476",
    "title": "Jesús de Miguel",
-   "fame": 13825,
-   "views": 13825,
+   "fame": 9193,
+   "views": 9193,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-10"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
@@ -473,81 +474,36 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
-  },
-  {
-   "qid": "Q7668200",
-   "title": "T. Cullen Davis",
-   "fame": 12036,
-   "views": 12036,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7668200",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-06"
-  },
-  {
-   "qid": "Q125817618",
-   "title": "Daryl Lilley",
-   "fame": 8687,
-   "views": 8687,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-10"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q125817618",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-09"
   }
  ],
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 175000,
-   "views": 0,
+   "qid": "Q5220508",
+   "title": "Danny Kelly (journalist)",
+   "fame": 64926,
+   "views": 64926,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T00:00:00+00:00",
-   "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-11",
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
+    "wikipedia-top-2026-11-11"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-12",
-   "coords": null,
-   "has_coords": false
+   "id": "wk-Q5220508",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
   }
  ],
  "outlets": {
-  "headlines": 798,
+  "headlines": 794,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 23,
   "corroborated": 3
  },
  "emerging": [
@@ -562,17 +518,15 @@
    "news_at": "2026-11-12T02:33:12+00:00",
    "owners": [
     "Independent Digital News",
-    "NBCUniversal",
     "ABC (Australia)",
     "BBC"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "New York City building collapse leaves people trapped in rubble",
-    "2 dead, at least 17 hurt in New York City building collapse, authorities say",
     "People trapped in wreckage as New York building collapse kills two",
     "New York building collapse kills one person and injures 12"
    ],
@@ -618,21 +572,10 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-11T22:47:14+00:00"
-    },
-    {
-     "title": "2 dead, at least 17 hurt in New York City building collapse, authorities say",
-     "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T00:04:59+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
-    "outlet:NBCUniversal",
     "outlet:ABC (Australia)",
     "outlet:BBC"
    ],
@@ -713,5 +656,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261111-york-disaster, nw-20261112-brooklyn-disaster"
+ "outlet_note": "outlets: 794 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261111-york-disaster, nw-20261112-brooklyn-disaster"
 }
