@@ -1,19 +1,22 @@
 {
- "at": "2026-11-12T04:39:44+00:00",
+ "at": "2026-11-12T05:10:45+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q315090",
    "title": "Stacy Keach",
-   "fame": 562990,
+   "fame": 687990,
    "views": 562990,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-11T22:15:00+00:00",
+   "headlines": [
+    "Stacy Keach obituary: Actor hailed as an American Olivier"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-11"
+    "wikipedia-top-2026-11-11",
+    "google-news:Stacy Keach obituary: Actor hailed as an American Olivier"
    ],
    "owners": [],
    "reports": [],
@@ -21,59 +24,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 192930,
-   "views": 17930,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-11T19:02:20+00:00",
-   "headlines": [
-    "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11",
-    "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Fox Corporation",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-11T19:02:20+00:00"
-    },
-    {
-     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T17:32:50+00:00"
-    }
-   ],
-   "id": "wk-Q18613657",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q141592947",
@@ -99,6 +49,34 @@
    "date": "2026-11-12",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 160017,
+   "views": 35017,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-11T14:13:00+00:00",
+   "headlines": [
+    "British man who died in Kraków shooting named as James Campbell"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11",
+    "google-news:British man who died in Kraków shooting named as James Campbell"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q2654764",
@@ -129,13 +107,13 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-12T02:16:00+00:00",
+   "news_at": "2026-11-12T03:14:19+00:00",
    "headlines": [
-    "Anthony Clark, ‘Yes, Dear’ Star and Comedian, Dies at 62"
+    "Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
    ],
    "region": "world",
    "via": [
-    "google-news:Anthony Clark, ‘Yes, Dear’ Star and Comedian, Dies at 62"
+    "google-news:Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
    ],
    "owners": [],
    "reports": [],
@@ -306,6 +284,57 @@
    "article": null
   },
   {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 67930,
+   "views": 17930,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-11T19:02:20+00:00",
+   "headlines": [
+    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11",
+    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T19:02:20+00:00"
+    },
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:32:50+00:00"
+    }
+   ],
+   "id": "wk-Q18613657",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "qid": "Q5220508",
    "title": "Danny Kelly (journalist)",
    "fame": 64926,
@@ -344,31 +373,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
-  },
-  {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 35017,
-   "views": 35017,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q1395654",
@@ -494,10 +498,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 780,
+  "headlines": 776,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 28,
   "corroborated": 3
  },
  "emerging": [
@@ -663,5 +667,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261111-york-city-disaster"
+ "outlet_note": "outlets: 776 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261111-york-city-disaster"
 }
