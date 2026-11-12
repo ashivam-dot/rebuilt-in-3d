@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T08:11:19+00:00",
+ "at": "2026-11-12T08:40:56+00:00",
  "quakes": [],
  "trending": [
   {
@@ -71,6 +71,92 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T08:38:24+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Al Jazeera Media Network",
+    "Independent Digital News"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Building collapse in Brooklyn kills two, injures more than a dozen",
+    "Pregnant woman rescued from rubble after Brooklyn building collapse kills two"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T08:38:24+00:00"
+    },
+    {
+     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T03:31:08+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261112-york-disaster",
@@ -154,79 +240,6 @@
     "outlet:BBC",
     "outlet:Euronews",
     "outlet:Independent Digital News"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261112-brooklyn-disaster",
-   "qid": null,
-   "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
-   "name": "Brooklyn",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T03:31:08+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Brooklyn building collapse kills at least two people and traps others in wreckage",
-    "At least two people dead in Brooklyn partial building collapse",
-    "Building collapse in Brooklyn kills two, injures more than a dozen"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
-     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T03:31:08+00:00"
-    },
-    {
-     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T01:51:00+00:00"
-    },
-    {
-     "title": "At least two people dead in Brooklyn partial building collapse",
-     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T02:14:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -489,36 +502,101 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q274156",
-   "title": "Marsha M. Linehan",
-   "fame": 25045,
-   "views": 25045,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q274156",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 786,
+  "headlines": 788,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 26,
   "corroborated": 3
  },
  "emerging": [
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T08:38:24+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Al Jazeera Media Network",
+    "Independent Digital News"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Building collapse in Brooklyn kills two, injures more than a dozen",
+    "Pregnant woman rescued from rubble after Brooklyn building collapse kills two"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T08:38:24+00:00"
+    },
+    {
+     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T03:31:08+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261112-york-disaster",
    "qid": null,
@@ -604,80 +682,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261112-brooklyn-disaster",
-   "qid": null,
-   "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
-   "name": "Brooklyn",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T03:31:08+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Brooklyn building collapse kills at least two people and traps others in wreckage",
-    "At least two people dead in Brooklyn partial building collapse",
-    "Building collapse in Brooklyn kills two, injures more than a dozen"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
-     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T03:31:08+00:00"
-    },
-    {
-     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T01:51:00+00:00"
-    },
-    {
-     "title": "At least two people dead in Brooklyn partial building collapse",
-     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T02:14:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 786 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-brooklyn-disaster"
+ "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster"
 }
