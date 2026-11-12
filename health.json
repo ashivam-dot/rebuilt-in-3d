@@ -1,12 +1,20 @@
 {
- "at": "2026-11-12T13:56:27+00:00",
+ "at": "2026-11-12T14:26:18+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
-  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 803 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-eight-disaster",
-  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 5.9 h)",
-  "skip nw-20261112-eight-disaster: gate: faceless: no free photo shows Eight or the event itself (only 5 photos of places or things near it)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
+  "watch: 15 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 804 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "quiet day (no Short yet today): 14 tribute candidates: Lidiya Fedoseyeva-Shukshina, Carlos Babington, Arpita Singh, Lenita Airisto",
+  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 5.4 h)",
+  "published wk-Q951199: https://www.youtube.com/shorts/E7xt7GYm2EU"
+ ],
+ "published": {
+  "video_id": "E7xt7GYm2EU",
+  "url": "https://www.youtube.com/shorts/E7xt7GYm2EU",
+  "title": "Carlos Babington, Huracán Icon, Dies at 77",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-12T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
