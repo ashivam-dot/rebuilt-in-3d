@@ -1289,9 +1289,9 @@
   "kind": "incident"
  },
  "nw-20261112-brooklyn-disaster": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: faceless: no free photo shows Brooklyn or the event itself (only 3 photos of places or things near it)",
-  "at": "2026-11-12T02:44:51+00:00",
+  "at": "2026-11-12T07:15:24+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
@@ -1300,6 +1300,14 @@
   "count": 1,
   "reason": "gate: faceless: no free photo shows York City or the event itself (only 1 photos of places or things near it)",
   "at": "2026-11-12T04:13:52+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261112-york-disaster": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows York or the event itself (only 5 photos of places or things near it)",
+  "at": "2026-11-12T07:15:15+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
