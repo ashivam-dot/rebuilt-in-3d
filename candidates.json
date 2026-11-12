@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T05:10:45+00:00",
+ "at": "2026-11-12T05:40:42+00:00",
  "quakes": [],
  "trending": [
   {
@@ -26,6 +26,59 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 192930,
+   "views": 17930,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-11-11T19:02:20+00:00",
+   "headlines": [
+    "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
+    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11",
+    "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
+    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T19:02:20+00:00"
+    },
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:32:50+00:00"
+    }
+   ],
+   "id": "wk-Q18613657",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "qid": "Q141592947",
    "title": "2026 Spanish housing protests",
    "fame": 175000,
@@ -49,34 +102,6 @@
    "date": "2026-11-12",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 160017,
-   "views": 35017,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-11T14:13:00+00:00",
-   "headlines": [
-    "British man who died in Kraków shooting named as James Campbell"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11",
-    "google-news:British man who died in Kraków shooting named as James Campbell"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q2654764",
@@ -209,14 +234,14 @@
    "article": null
   },
   {
-   "id": "nw-20261111-york-city-disaster",
+   "id": "nw-20261111-york-disaster",
    "qid": null,
-   "title": "Survivor pulled from rubble of deadly building collapse in New York",
-   "name": "York City",
+   "title": "New York building collapse kills at least two, officials say",
+   "name": "York",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-11",
-   "news_at": "2026-11-12T04:07:38+00:00",
+   "news_at": "2026-11-12T05:12:56+00:00",
    "owners": [
     "Independent Digital News",
     "BBC",
@@ -229,7 +254,8 @@
    "headlines": [
     "New York City building collapse leaves people trapped in rubble",
     "Survivor pulled from rubble of deadly building collapse in New York",
-    "At least two dead while others are trapped in the rubble after a building collapse in New York City"
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York building collapse kills at least two, officials say"
    ],
    "places": [
     "City"
@@ -244,6 +270,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "New York building collapse kills at least two, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T05:12:56+00:00"
+    },
     {
      "title": "Survivor pulled from rubble of deadly building collapse in New York",
      "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
@@ -284,57 +320,6 @@
    "article": null
   },
   {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 67930,
-   "views": 17930,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-11T19:02:20+00:00",
-   "headlines": [
-    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11",
-    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Fox Corporation",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-11T19:02:20+00:00"
-    },
-    {
-     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T17:32:50+00:00"
-    }
-   ],
-   "id": "wk-Q18613657",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
    "qid": "Q5220508",
    "title": "Danny Kelly (journalist)",
    "fame": 64926,
@@ -373,6 +358,31 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 35017,
+   "views": 35017,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q1395654",
@@ -496,12 +506,185 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T03:31:08+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Building collapse in Brooklyn kills two, injures more than a dozen",
+    "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T03:31:08+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors",
+     "url": "https://timesofindia.indiatimes.com/world/us/brooklyn-building-collapse-2-dead-10-injured-as-firefighters-search-for-survivors/articleshow/135751988.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T02:00:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261111-york-disaster",
+   "qid": null,
+   "title": "New York building collapse kills at least two, officials say",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T05:12:56+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "New York City building collapse leaves people trapped in rubble",
+    "Survivor pulled from rubble of deadly building collapse in New York",
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York building collapse kills at least two, officials say"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "New York building collapse kills at least two, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T05:12:56+00:00"
+    },
+    {
+     "title": "Survivor pulled from rubble of deadly building collapse in New York",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T02:33:12+00:00"
+    },
+    {
+     "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 776,
+  "headlines": 779,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 23,
   "corroborated": 3
  },
  "emerging": [
@@ -592,14 +775,14 @@
    "article": null
   },
   {
-   "id": "nw-20261111-york-city-disaster",
+   "id": "nw-20261111-york-disaster",
    "qid": null,
-   "title": "Survivor pulled from rubble of deadly building collapse in New York",
-   "name": "York City",
+   "title": "New York building collapse kills at least two, officials say",
+   "name": "York",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-11",
-   "news_at": "2026-11-12T04:07:38+00:00",
+   "news_at": "2026-11-12T05:12:56+00:00",
    "owners": [
     "Independent Digital News",
     "BBC",
@@ -612,7 +795,8 @@
    "headlines": [
     "New York City building collapse leaves people trapped in rubble",
     "Survivor pulled from rubble of deadly building collapse in New York",
-    "At least two dead while others are trapped in the rubble after a building collapse in New York City"
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York building collapse kills at least two, officials say"
    ],
    "places": [
     "City"
@@ -627,6 +811,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "New York building collapse kills at least two, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T05:12:56+00:00"
+    },
     {
      "title": "Survivor pulled from rubble of deadly building collapse in New York",
      "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
@@ -667,5 +861,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 776 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261111-york-city-disaster"
+ "outlet_note": "outlets: 779 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261111-york-disaster"
 }
