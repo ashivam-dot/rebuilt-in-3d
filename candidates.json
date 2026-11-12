@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T22:56:49+00:00",
+ "at": "2026-11-12T23:27:44+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,21 +29,22 @@
    "views": 0,
    "traffic": 10000,
    "news": 275000,
-   "news_at": "2026-11-12T21:27:43+00:00",
+   "news_at": "2026-11-12T22:58:23+00:00",
    "headlines": [
     "Two children among eight killed in 'devastating' New York building collapse, mayor says",
+    "Eight killed, including two children, in New York building collapse",
     "Humpback whale spotted in New York’s Hudson River – video",
     "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
-    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "2 children among the 8 dead in New York City building collapse, officials say"
+    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse"
    ],
    "region": "world",
    "via": [
     "google-trends-GB:1321 flatbush avenue brooklyn ny",
     "wikipedia-current-events-2026-11-11",
     "google-news:Two children among eight killed in 'devastating' New York building collapse, mayor says",
+    "google-news:Eight killed, including two children, in New York building collapse",
     "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "google-news:New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
+    "outlet:France Médias Monde",
     "outlet:Guardian Media Group",
     "outlet:Fox Corporation",
     "outlet:Independent Digital News",
@@ -53,6 +54,7 @@
     "outlet:HT Media"
    ],
    "owners": [
+    "France Médias Monde",
     "Guardian Media Group",
     "Fox Corporation",
     "Independent Digital News",
@@ -62,6 +64,16 @@
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Eight killed, including two children, in New York building collapse",
+     "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T22:58:23+00:00"
+    },
     {
      "title": "Humpback whale spotted in New York’s Hudson River – video",
      "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
@@ -131,16 +143,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T07:25:20+00:00"
-    },
-    {
-     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T04:07:38+00:00"
     }
    ],
    "id": "wk-Q142131356",
@@ -154,26 +156,56 @@
    "has_coords": true
   },
   {
-   "qid": "Q4772274",
-   "title": "Anthony Clark (actor)",
-   "fame": 125000,
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T20:21:40+00:00",
+   "news": 175000,
+   "news_at": "2026-11-12T20:40:14+00:00",
    "headlines": [
-    "Anthony Clark, Comic and ‘Yes, Dear’ Star, Dies at 63"
+    "Dan Hicks, NBC’s voice of golf and Olympic swimming, dies at age of 64 after acute illness",
+    "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+    "Iconic NBC Sports announcer Dan Hicks dies at 64"
    ],
    "region": "world",
    "via": [
-    "google-news:Anthony Clark, Comic and ‘Yes, Dear’ Star, Dies at 63"
+    "google-news:Dan Hicks, NBC’s voice of golf and Olympic swimming, dies at age of 64 after acute illness",
+    "google-news:The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
+    "outlet:Fox Corporation",
+    "outlet:Paramount (CBS)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4772274",
+   "owners": [
+    "Fox Corporation",
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+     "url": "https://www.foxnews.com/outkick-sports/loss-dan-hicks-hits-hard-lindsey-vonn-couple-screws-loose-mullens-radical-playoff-idea",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T20:40:14+00:00"
+    },
+    {
+     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
+     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T18:00:13+00:00"
+    }
+   ],
+   "id": "wk-Q5213677",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-10"
+   "date": "2026-11-11"
   },
   {
    "id": "nw-20261112-washington-dc-attack",
@@ -183,7 +215,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T22:39:44+00:00",
+   "news_at": "2026-11-12T22:54:05+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
@@ -199,7 +231,7 @@
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
     "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – latest updates"
+    "Washington DC shooting: police identify victim and suspect – as it happened"
    ],
    "places": [],
    "attackers": [],
@@ -223,14 +255,14 @@
      "at": "2026-11-12T21:52:58+00:00"
     },
     {
-     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
+     "title": "Washington DC shooting: police identify victim and suspect – as it happened",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T22:39:44+00:00"
+     "at": "2026-11-12T22:54:05+00:00"
     },
     {
      "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
@@ -323,56 +355,6 @@
    "date": "2026-11-12",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-12T20:40:14+00:00",
-   "headlines": [
-    "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-    "Iconic NBC Sports announcer Dan Hicks dies at 64"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
-    "outlet:Fox Corporation",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Fox Corporation",
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-     "url": "https://www.foxnews.com/outkick-sports/loss-dan-hicks-hits-hard-lindsey-vonn-couple-screws-loose-mullens-radical-playoff-idea",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T20:40:14+00:00"
-    },
-    {
-     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
-     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T18:00:13+00:00"
-    }
-   ],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q18613657",
@@ -598,144 +580,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142131356",
-   "title": "2026 New York City building collapse",
-   "fame": 335000,
-   "views": 0,
-   "traffic": 10000,
-   "news": 275000,
-   "news_at": "2026-11-12T21:27:43+00:00",
-   "headlines": [
-    "Two children among eight killed in 'devastating' New York building collapse, mayor says",
-    "Humpback whale spotted in New York’s Hudson River – video",
-    "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
-    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "2 children among the 8 dead in New York City building collapse, officials say"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:1321 flatbush avenue brooklyn ny",
-    "wikipedia-current-events-2026-11-11",
-    "google-news:Two children among eight killed in 'devastating' New York building collapse, mayor says",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "google-news:New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
-    "outlet:Guardian Media Group",
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News",
-    "outlet:NBCUniversal",
-    "outlet:SCMP Group",
-    "outlet:Euronews",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "Fox Corporation",
-    "Independent Digital News",
-    "NBCUniversal",
-    "SCMP Group",
-    "Euronews",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Humpback whale spotted in New York’s Hudson River – video",
-     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:27:43+00:00"
-    },
-    {
-     "title": "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance",
-     "url": "https://www.foxnews.com/outkick-betting/new-york-giants-favored-2-over-commanders-nfc-east-division-lead-hangs-balance",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T20:59:41+00:00"
-    },
-    {
-     "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T20:53:49+00:00"
-    },
-    {
-     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T17:51:42+00:00"
-    },
-    {
-     "title": "2 children among the 8 dead in New York City building collapse, officials say",
-     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T17:47:05+00:00"
-    },
-    {
-     "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T13:43:09+00:00"
-    },
-    {
-     "title": "New York City building collapse kills two people and injures 17",
-     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T07:25:20+00:00"
-    },
-    {
-     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T04:07:38+00:00"
-    }
-   ],
-   "id": "wk-Q142131356",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-11",
-   "coords": [
-    40.639018,
-    -73.953872
-   ],
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 809,
+  "headlines": 807,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 46,
   "corroborated": 3
  },
  "emerging": [
@@ -747,7 +597,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T22:39:44+00:00",
+   "news_at": "2026-11-12T22:54:05+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
@@ -763,7 +613,7 @@
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
     "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – latest updates"
+    "Washington DC shooting: police identify victim and suspect – as it happened"
    ],
    "places": [],
    "attackers": [],
@@ -787,14 +637,14 @@
      "at": "2026-11-12T21:52:58+00:00"
     },
     {
-     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
+     "title": "Washington DC shooting: police identify victim and suspect – as it happened",
      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T22:39:44+00:00"
+     "at": "2026-11-12T22:54:05+00:00"
     },
     {
      "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
@@ -847,5 +697,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 41 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 46 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
 }
