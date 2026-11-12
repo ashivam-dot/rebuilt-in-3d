@@ -1,58 +1,28 @@
 {
- "at": "2026-11-12T02:08:48+00:00",
+ "at": "2026-11-12T02:40:55+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 175000,
+   "qid": "Q4772274",
+   "title": "Anthony Clark (actor)",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-11T19:02:20+00:00",
+   "news": 125000,
+   "news_at": "2026-11-12T01:14:00+00:00",
    "headlines": [
-    "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+    "Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
    ],
    "region": "world",
    "via": [
-    "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News"
+    "google-news:Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
    ],
-   "owners": [
-    "Fox Corporation",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-11T19:02:20+00:00"
-    },
-    {
-     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T17:32:50+00:00"
-    }
-   ],
-   "id": "wk-Q18613657",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4772274",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-11"
+   "date": "2026-11-10"
   },
   {
    "id": "nw-20261111-york-disaster",
@@ -62,7 +32,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-11",
-   "news_at": "2026-11-12T01:34:58+00:00",
+   "news_at": "2026-11-12T02:33:12+00:00",
    "owners": [
     "Independent Digital News",
     "NBCUniversal",
@@ -75,7 +45,7 @@
    "traffic": 0,
    "headlines": [
     "New York City building collapse leaves people trapped in rubble",
-    "2 dead, at least 12 hurt in New York City building collapse, authorities say",
+    "2 dead, at least 17 hurt in New York City building collapse, authorities say",
     "People trapped in wreckage as New York building collapse kills two",
     "New York building collapse kills one person and injures 12"
    ],
@@ -100,7 +70,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-12T01:34:58+00:00"
+     "at": "2026-11-12T02:33:12+00:00"
     },
     {
      "title": "People trapped in wreckage as New York building collapse kills two",
@@ -123,7 +93,7 @@
      "at": "2026-11-11T22:47:14+00:00"
     },
     {
-     "title": "2 dead, at least 12 hurt in New York City building collapse, authorities say",
+     "title": "2 dead, at least 17 hurt in New York City building collapse, authorities say",
      "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -138,6 +108,79 @@
     "outlet:NBCUniversal",
     "outlet:ABC (Australia)",
     "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T02:14:59+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors",
+     "url": "https://timesofindia.indiatimes.com/world/us/brooklyn-building-collapse-2-dead-10-injured-as-firefighters-search-for-survivors/articleshow/135751988.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T02:00:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
@@ -186,6 +229,78 @@
     19.93688889
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q2654764",
+   "title": "Bunker Roy",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-10T20:52:00+00:00",
+   "headlines": [
+    "Bunker Roy, whose Barefoot College gave ‘cop outs, drop outs, and wash outs’ a new start, passes away"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Bunker Roy, whose Barefoot College gave ‘cop outs, drop outs, and wash outs’ a new start, passes away"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2654764",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-11T19:02:20+00:00",
+   "headlines": [
+    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T19:02:20+00:00"
+    },
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:32:50+00:00"
+    }
+   ],
+   "id": "wk-Q18613657",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
   },
   {
    "qid": "Q5209002",
@@ -374,13 +489,109 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q4772274",
+   "title": "Anthony Clark (actor)",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T01:14:00+00:00",
+   "headlines": [
+    "Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4772274",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T02:14:59+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors",
+     "url": "https://timesofindia.indiatimes.com/world/us/brooklyn-building-collapse-2-dead-10-injured-as-firefighters-search-for-survivors/articleshow/135751988.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T02:00:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 803,
+  "headlines": 791,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 2
+  "matched": 25,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -391,7 +602,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-11",
-   "news_at": "2026-11-12T01:34:58+00:00",
+   "news_at": "2026-11-12T02:33:12+00:00",
    "owners": [
     "Independent Digital News",
     "NBCUniversal",
@@ -404,7 +615,7 @@
    "traffic": 0,
    "headlines": [
     "New York City building collapse leaves people trapped in rubble",
-    "2 dead, at least 12 hurt in New York City building collapse, authorities say",
+    "2 dead, at least 17 hurt in New York City building collapse, authorities say",
     "People trapped in wreckage as New York building collapse kills two",
     "New York building collapse kills one person and injures 12"
    ],
@@ -429,7 +640,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-12T01:34:58+00:00"
+     "at": "2026-11-12T02:33:12+00:00"
     },
     {
      "title": "People trapped in wreckage as New York building collapse kills two",
@@ -452,7 +663,7 @@
      "at": "2026-11-11T22:47:14+00:00"
     },
     {
-     "title": "2 dead, at least 12 hurt in New York City building collapse, authorities say",
+     "title": "2 dead, at least 17 hurt in New York City building collapse, authorities say",
      "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -470,7 +681,80 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261112-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T02:14:59+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "NBCUniversal",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Brooklyn building collapse kills at least two people and traps others in wreckage",
+    "At least two people dead in Brooklyn partial building collapse",
+    "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T01:51:00+00:00"
+    },
+    {
+     "title": "At least two people dead in Brooklyn partial building collapse",
+     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T02:14:59+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors",
+     "url": "https://timesofindia.indiatimes.com/world/us/brooklyn-building-collapse-2-dead-10-injured-as-firefighters-search-for-survivors/articleshow/135751988.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T02:00:03+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261111-york-disaster"
+ "outlet_note": "outlets: 791 headlines from 30 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261111-york-disaster, nw-20261112-brooklyn-disaster"
 }
