@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T08:40:56+00:00",
+ "at": "2026-11-12T09:10:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -26,53 +26,6 @@
    "date": "2026-11-10"
   },
   {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T00:00:00+00:00",
-   "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-11",
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-12",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q4772274",
-   "title": "Anthony Clark (actor)",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T03:14:19+00:00",
-   "headlines": [
-    "Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4772274",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
    "id": "nw-20261112-brooklyn-disaster",
    "qid": null,
    "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
@@ -80,7 +33,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T08:38:24+00:00",
+   "news_at": "2026-11-12T09:06:49+00:00",
    "owners": [
     "Guardian Media Group",
     "NBCUniversal",
@@ -116,7 +69,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T08:38:24+00:00"
+     "at": "2026-11-12T09:06:49+00:00"
     },
     {
      "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
@@ -316,6 +269,28 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-12T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-12",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q7828852",
    "title": "Toukie Smith",
    "fame": 36725,
@@ -396,6 +371,28 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q274156",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "qid": "Q4772274",
+   "title": "Anthony Clark (actor)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-12T03:14:19+00:00",
+   "headlines": [
+    "Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4772274",
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
@@ -504,10 +501,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 788,
+  "headlines": 792,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 32,
   "corroborated": 3
  },
  "emerging": [
@@ -519,7 +516,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T08:38:24+00:00",
+   "news_at": "2026-11-12T09:06:49+00:00",
    "owners": [
     "Guardian Media Group",
     "NBCUniversal",
@@ -555,7 +552,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T08:38:24+00:00"
+     "at": "2026-11-12T09:06:49+00:00"
     },
     {
      "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
@@ -684,5 +681,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster"
+ "outlet_note": "outlets: 792 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster"
 }
