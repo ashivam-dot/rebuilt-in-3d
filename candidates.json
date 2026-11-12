@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T10:39:44+00:00",
+ "at": "2026-11-12T10:59:27+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,9 +25,9 @@
   {
    "qid": "Q4772274",
    "title": "Anthony Clark (actor)",
-   "fame": 125000,
+   "fame": 125100,
    "views": 0,
-   "traffic": 0,
+   "traffic": 100,
    "news": 125000,
    "news_at": "2026-11-12T03:14:19+00:00",
    "headlines": [
@@ -35,6 +35,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-GB:anthony clark",
     "google-news:Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
    ],
    "owners": [],
@@ -138,7 +139,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T07:25:20+00:00",
+   "news_at": "2026-11-12T10:40:49+00:00",
    "owners": [
     "BBC",
     "Euronews",
@@ -151,8 +152,8 @@
    "headlines": [
     "Survivor pulled from rubble of deadly building collapse in New York",
     "At least two dead while others are trapped in the rubble after a building collapse in New York City",
-    "New York building collapse kills at least two, officials say",
-    "New York City building collapse kills two people and injures 17"
+    "New York City building collapse kills two people and injures 17",
+    "New York building collapse kills at least two, officials say"
    ],
    "places": [
     "City"
@@ -175,7 +176,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-12T05:12:56+00:00"
+     "at": "2026-11-12T10:40:49+00:00"
     },
     {
      "title": "Survivor pulled from rubble of deadly building collapse in New York",
@@ -498,10 +499,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 781,
+  "headlines": 783,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 22,
   "corroborated": 3
  },
  "emerging": [
@@ -599,7 +600,7 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T07:25:20+00:00",
+   "news_at": "2026-11-12T10:40:49+00:00",
    "owners": [
     "BBC",
     "Euronews",
@@ -612,8 +613,8 @@
    "headlines": [
     "Survivor pulled from rubble of deadly building collapse in New York",
     "At least two dead while others are trapped in the rubble after a building collapse in New York City",
-    "New York building collapse kills at least two, officials say",
-    "New York City building collapse kills two people and injures 17"
+    "New York City building collapse kills two people and injures 17",
+    "New York building collapse kills at least two, officials say"
    ],
    "places": [
     "City"
@@ -636,7 +637,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-12T05:12:56+00:00"
+     "at": "2026-11-12T10:40:49+00:00"
     },
     {
      "title": "Survivor pulled from rubble of deadly building collapse in New York",
@@ -678,5 +679,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 781 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster"
+ "outlet_note": "outlets: 783 headlines from 30 feeds (21 owners), 22 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster"
 }
