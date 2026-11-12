@@ -1,12 +1,13 @@
 {
- "at": "2026-11-12T21:57:18+00:00",
+ "at": "2026-11-12T22:28:42+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
-  "watch: 2 candidates (0 quakes, 17 trending), 0 hazard alerts",
-  "outlets: 810 headlines from 30 feeds (21 owners), 41 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack",
-  "hold wp-2026_New_York_City_building_collapse: last Short went out 1.5 h ago",
-  "hold nw-20261112-washington-dc-attack: last Short went out 1.5 h ago",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261112-washington-dc-attack"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 80 units today",
+  "watch: 2 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 812 headlines from 30 feeds (21 owners), 43 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261112-washington-dc-attack",
+  "skip wp-2026_New_York_City_building_collapse: gate: only 1 usable photos of 2026 New York City building collapse on Wikimedia Commons (want 4)",
+  "skip nw-20261112-washington-dc-attack: gate: faceless: no free photo shows Washington DC or the event itself (only 0 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }

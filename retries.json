@@ -1329,9 +1329,17 @@
   "kind": "incident"
  },
  "nw-20261112-washington-dc-attack": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: faceless: no free photo shows Washington DC or the event itself (only 0 photos of places or things near it)",
-  "at": "2026-11-12T15:53:53+00:00",
+  "at": "2026-11-12T22:31:50+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "wp-2026_New_York_City_building_collapse": {
+  "count": 1,
+  "reason": "gate: only 1 usable photos of 2026 New York City building collapse on Wikimedia Commons (want 4)",
+  "at": "2026-11-12T22:31:45+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T21:57:19+00:00",
+ "at": "2026-11-12T22:28:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -154,52 +154,80 @@
    "has_coords": true
   },
   {
-   "qid": "Q4772274",
-   "title": "Anthony Clark (actor)",
-   "fame": 125000,
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T16:52:35+00:00",
+   "news": 175000,
+   "news_at": "2026-11-12T20:40:14+00:00",
    "headlines": [
-    "'Yes, Dear' star Anthony Clark dead at 62"
+    "Dan Hicks, NBC’s voice of golf and Olympic swimming, dies at age of 64 after acute illness",
+    "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+    "Iconic NBC Sports announcer Dan Hicks dies at 64"
    ],
    "region": "world",
    "via": [
-    "google-news:'Yes, Dear' star Anthony Clark dead at 62"
+    "google-news:Dan Hicks, NBC’s voice of golf and Olympic swimming, dies at age of 64 after acute illness",
+    "google-news:The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
+    "outlet:Fox Corporation",
+    "outlet:Paramount (CBS)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4772274",
+   "owners": [
+    "Fox Corporation",
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+     "url": "https://www.foxnews.com/outkick-sports/loss-dan-hicks-hits-hard-lindsey-vonn-couple-screws-loose-mullens-radical-playoff-idea",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T20:40:14+00:00"
+    },
+    {
+     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
+     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T18:00:13+00:00"
+    }
+   ],
+   "id": "wk-Q5213677",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-10"
+   "date": "2026-11-11"
   },
   {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
-   "title": "Police identify gunman in Washington DC shooting that left one dead and four injured",
+   "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
    "name": "Washington DC",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T21:52:58+00:00",
+   "news_at": "2026-11-12T22:13:36+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group",
-    "BBC"
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
-    "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – latest updates"
+    "Police identify suspect and victim in Washington DC gym shooting that also injured four"
    ],
    "places": [],
    "attackers": [],
@@ -213,26 +241,6 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Police identify gunman in Washington DC shooting that left one dead and four injured",
-     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T21:52:58+00:00"
-    },
-    {
-     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:42:01+00:00"
-    },
-    {
      "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
      "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
      "outlet": "The Guardian",
@@ -240,7 +248,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T21:23:15+00:00"
+     "at": "2026-11-12T22:13:36+00:00"
     },
     {
      "title": "Deadly shooting in Washington DC",
@@ -276,8 +284,7 @@
    "via": [
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -323,56 +330,6 @@
    "date": "2026-11-12",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-12T20:40:14+00:00",
-   "headlines": [
-    "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-    "Iconic NBC Sports announcer Dan Hicks dies at 64"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
-    "outlet:Fox Corporation",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Fox Corporation",
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-     "url": "https://www.foxnews.com/outkick-sports/loss-dan-hicks-hits-hard-lindsey-vonn-couple-screws-loose-mullens-radical-playoff-idea",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T20:40:14+00:00"
-    },
-    {
-     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
-     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T18:00:13+00:00"
-    }
-   ],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q18613657",
@@ -732,28 +689,26 @@
   {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
-   "title": "Police identify gunman in Washington DC shooting that left one dead and four injured",
+   "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
    "name": "Washington DC",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T21:52:58+00:00",
+   "news_at": "2026-11-12T22:13:36+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group",
-    "BBC"
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
-    "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – latest updates"
+    "Police identify suspect and victim in Washington DC gym shooting that also injured four"
    ],
    "places": [],
    "attackers": [],
@@ -767,26 +722,6 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Police identify gunman in Washington DC shooting that left one dead and four injured",
-     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T21:52:58+00:00"
-    },
-    {
-     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:42:01+00:00"
-    },
-    {
      "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
      "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
      "outlet": "The Guardian",
@@ -794,7 +729,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T21:23:15+00:00"
+     "at": "2026-11-12T22:13:36+00:00"
     },
     {
      "title": "Deadly shooting in Washington DC",
@@ -830,46 +765,43 @@
    "via": [
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
  "outlets": {
-  "headlines": 810,
+  "headlines": 812,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 43,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
-   "title": "Police identify gunman in Washington DC shooting that left one dead and four injured",
+   "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
    "name": "Washington DC",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T21:52:58+00:00",
+   "news_at": "2026-11-12T22:13:36+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group",
-    "BBC"
+    "Guardian Media Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
-    "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – latest updates"
+    "Police identify suspect and victim in Washington DC gym shooting that also injured four"
    ],
    "places": [],
    "attackers": [],
@@ -883,26 +815,6 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Police identify gunman in Washington DC shooting that left one dead and four injured",
-     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T21:52:58+00:00"
-    },
-    {
-     "title": "Washington DC shooting: police identify victim and suspect – latest updates",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:42:01+00:00"
-    },
-    {
      "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
      "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
      "outlet": "The Guardian",
@@ -910,7 +822,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T21:23:15+00:00"
+     "at": "2026-11-12T22:13:36+00:00"
     },
     {
      "title": "Deadly shooting in Washington DC",
@@ -946,12 +858,11 @@
    "via": [
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 41 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 43 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
 }
