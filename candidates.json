@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T20:26:58+00:00",
+ "at": "2026-11-12T20:58:19+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,24 +25,25 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 175000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T17:51:42+00:00",
+   "news": 275000,
+   "news_at": "2026-11-12T20:53:49+00:00",
    "headlines": [
+    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "2 children among the 8 dead in New York City building collapse, officials say",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-    "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade"
+    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-11",
+    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "google-news:Be sea-ing you: humpback whale spotted in New York’s Hudson River",
     "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "google-news:2 children among the 8 dead in New York City building collapse, officials say",
-    "google-news:Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+    "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:NBCUniversal",
     "outlet:SCMP Group",
@@ -50,6 +51,7 @@
     "outlet:HT Media"
    ],
    "owners": [
+    "Guardian Media Group",
     "Independent Digital News",
     "NBCUniversal",
     "SCMP Group",
@@ -57,6 +59,16 @@
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T20:53:49+00:00"
+    },
     {
      "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
      "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
@@ -139,31 +151,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T14:36:33+00:00",
-   "headlines": [
-    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-11",
-    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-12",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
    "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
@@ -171,7 +158,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T20:07:24+00:00",
+   "news_at": "2026-11-12T20:35:42+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -186,7 +173,6 @@
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
     "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
    ],
    "places": [],
@@ -218,17 +204,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T20:07:24+00:00"
-    },
-    {
-     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T18:12:56+00:00"
+     "at": "2026-11-12T20:35:42+00:00"
     },
     {
      "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
@@ -261,17 +237,82 @@
    "article": null
   },
   {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-11-12T20:40:14+00:00",
+   "headlines": [
+    "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+    "Iconic NBC Sports announcer Dan Hicks dies at 64",
+    "Dan Hicks, sportscaster and husband of ESPN's Hannah Storm, dies at 64"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
+    "google-news:Dan Hicks, sportscaster and husband of ESPN's Hannah Storm, dies at 64",
+    "outlet:Fox Corporation",
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Fox Corporation",
+    "Paramount (CBS)",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
+     "url": "https://www.foxnews.com/outkick-sports/loss-dan-hicks-hits-hard-lindsey-vonn-couple-screws-loose-mullens-radical-playoff-idea",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T20:40:14+00:00"
+    },
+    {
+     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
+     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T18:00:13+00:00"
+    },
+    {
+     "title": "Dan Hicks, sportscaster and husband of ESPN's Hannah Storm, dies at 64",
+     "url": "https://abcnews.com/GMA/Culture/dan-hicks-sportscaster-husband-espns-hannah-storm-dies/story?id=138081471",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T16:16:32+00:00"
+    }
+   ],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "qid": "Q5220508",
    "title": "Danny Kelly (journalist)",
-   "fame": 64926,
+   "fame": 65126,
    "views": 64926,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-11"
+    "wikipedia-top-2026-11-11",
+    "google-trends-GB:danny kelly illness"
    ],
    "owners": [],
    "reports": [],
@@ -279,6 +320,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-12T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-12",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q18613657",
@@ -508,24 +571,25 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 175000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T17:51:42+00:00",
+   "news": 275000,
+   "news_at": "2026-11-12T20:53:49+00:00",
    "headlines": [
+    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "2 children among the 8 dead in New York City building collapse, officials say",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-    "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade"
+    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-11",
+    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "google-news:Be sea-ing you: humpback whale spotted in New York’s Hudson River",
     "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "google-news:2 children among the 8 dead in New York City building collapse, officials say",
-    "google-news:Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+    "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
     "outlet:NBCUniversal",
     "outlet:SCMP Group",
@@ -533,6 +597,7 @@
     "outlet:HT Media"
    ],
    "owners": [
+    "Guardian Media Group",
     "Independent Digital News",
     "NBCUniversal",
     "SCMP Group",
@@ -540,6 +605,16 @@
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T20:53:49+00:00"
+    },
     {
      "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
      "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
@@ -629,7 +704,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T20:07:24+00:00",
+   "news_at": "2026-11-12T20:35:42+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -644,7 +719,6 @@
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
     "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
    ],
    "places": [],
@@ -676,17 +750,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T20:07:24+00:00"
-    },
-    {
-     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T18:12:56+00:00"
+     "at": "2026-11-12T20:35:42+00:00"
     },
     {
      "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
@@ -720,11 +784,11 @@
   }
  ],
  "outlets": {
-  "headlines": 814,
+  "headlines": 811,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
-  "corroborated": 2
+  "matched": 38,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -735,7 +799,7 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T20:07:24+00:00",
+   "news_at": "2026-11-12T20:35:42+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -750,7 +814,6 @@
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
     "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
     "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
     "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
    ],
    "places": [],
@@ -782,17 +845,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T20:07:24+00:00"
-    },
-    {
-     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T18:12:56+00:00"
+     "at": "2026-11-12T20:35:42+00:00"
     },
     {
      "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
@@ -825,5 +878,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 814 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
 }
