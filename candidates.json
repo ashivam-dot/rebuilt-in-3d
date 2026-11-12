@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T12:24:41+00:00",
+ "at": "2026-11-12T12:55:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -50,34 +50,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q142077465",
-   "title": "2026 Kraków shooting",
-   "fame": 160017,
-   "views": 35017,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-11T14:13:00+00:00",
-   "headlines": [
-    "British man who died in Kraków shooting named as James Campbell"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11",
-    "google-news:British man who died in Kraków shooting named as James Campbell"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142077465",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-07",
-   "coords": [
-    50.06277778,
-    19.93688889
-   ],
-   "has_coords": true
-  },
-  {
    "id": "nw-20261112-york-city-disaster",
    "qid": null,
    "title": "New York City building collapse kills several people",
@@ -87,17 +59,16 @@
    "date": "2026-11-12",
    "news_at": "2026-11-12T12:17:47+00:00",
    "owners": [
-    "BBC",
     "Euronews",
     "Independent Digital News",
-    "France Médias Monde"
+    "France Médias Monde",
+    "BBC"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Survivor pulled from rubble of deadly building collapse in New York",
     "At least two dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
     "New York: Deadly building collapse in Brooklyn",
@@ -105,7 +76,7 @@
    ],
    "places": [
     "City",
-    "deadly",
+    "Deadly",
     "Brooklyn"
    ],
    "attackers": [],
@@ -139,16 +110,6 @@
      "at": "2026-11-12T11:18:05+00:00"
     },
     {
-     "title": "Survivor pulled from rubble of deadly building collapse in New York",
-     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T02:33:12+00:00"
-    },
-    {
      "title": "New York City building collapse kills two people and injures 17",
      "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
      "outlet": "The Independent",
@@ -170,10 +131,10 @@
     }
    ],
    "via": [
-    "outlet:BBC",
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -268,6 +229,31 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q142077465",
+   "title": "2026 Kraków shooting",
+   "fame": 35017,
+   "views": 35017,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-11"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142077465",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-07",
+   "coords": [
+    50.06277778,
+    19.93688889
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q1395654",
@@ -408,137 +394,15 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-03"
-  },
-  {
-   "qid": "Q4772274",
-   "title": "Anthony Clark (actor)",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:anthony clark"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4772274",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261112-york-city-disaster",
-   "qid": null,
-   "title": "New York City building collapse kills several people",
-   "name": "York City",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T12:17:47+00:00",
-   "owners": [
-    "BBC",
-    "Euronews",
-    "Independent Digital News",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Survivor pulled from rubble of deadly building collapse in New York",
-    "At least two dead while others are trapped in the rubble after a building collapse in New York City",
-    "New York City building collapse kills two people and injures 17",
-    "New York: Deadly building collapse in Brooklyn",
-    "New York City building collapse kills several people"
-   ],
-   "places": [
-    "City",
-    "deadly",
-    "Brooklyn"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "New York City building collapse kills several people",
-     "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T12:17:47+00:00"
-    },
-    {
-     "title": "New York: Deadly building collapse in Brooklyn",
-     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T11:18:05+00:00"
-    },
-    {
-     "title": "Survivor pulled from rubble of deadly building collapse in New York",
-     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T02:33:12+00:00"
-    },
-    {
-     "title": "New York City building collapse kills two people and injures 17",
-     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T07:25:20+00:00"
-    },
-    {
-     "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T04:07:38+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 799,
+  "headlines": 800,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 35,
   "corroborated": 2
  },
  "emerging": [
@@ -552,17 +416,16 @@
    "date": "2026-11-12",
    "news_at": "2026-11-12T12:17:47+00:00",
    "owners": [
-    "BBC",
     "Euronews",
     "Independent Digital News",
-    "France Médias Monde"
+    "France Médias Monde",
+    "BBC"
    ],
    "fame": 100000,
    "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Survivor pulled from rubble of deadly building collapse in New York",
     "At least two dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
     "New York: Deadly building collapse in Brooklyn",
@@ -570,7 +433,7 @@
    ],
    "places": [
     "City",
-    "deadly",
+    "Deadly",
     "Brooklyn"
    ],
    "attackers": [],
@@ -604,16 +467,6 @@
      "at": "2026-11-12T11:18:05+00:00"
     },
     {
-     "title": "Survivor pulled from rubble of deadly building collapse in New York",
-     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T02:33:12+00:00"
-    },
-    {
      "title": "New York City building collapse kills two people and injures 17",
      "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
      "outlet": "The Independent",
@@ -635,14 +488,14 @@
     }
    ],
    "via": [
-    "outlet:BBC",
     "outlet:Euronews",
     "outlet:Independent Digital News",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 799 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-york-city-disaster"
+ "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-york-city-disaster"
 }
