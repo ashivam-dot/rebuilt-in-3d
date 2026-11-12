@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T19:27:46+00:00",
+ "at": "2026-11-12T19:58:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,10 +25,10 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 300000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
+   "news": 150000,
    "news_at": "2026-11-12T17:51:42+00:00",
    "headlines": [
     "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
@@ -139,103 +139,29 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261112-york-city-disaster",
-   "qid": null,
-   "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-   "name": "York City",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T17:51:42+00:00",
-   "owners": [
-    "Euronews",
-    "Independent Digital News",
-    "SCMP Group",
-    "NBCUniversal"
-   ],
-   "fame": 100000,
-   "news": 100000,
+   "qid": "Q141592947",
+   "title": "2026 Spanish housing protests",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T14:36:33+00:00",
    "headlines": [
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-    "New York City building collapse kills two people and injures 17",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "2 children among the 8 dead in New York City building collapse, officials say",
-    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse"
-   ],
-   "places": [
-    "City"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T17:51:42+00:00"
-    },
-    {
-     "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T13:43:09+00:00"
-    },
-    {
-     "title": "New York City building collapse kills two people and injures 17",
-     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T07:25:20+00:00"
-    },
-    {
-     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T04:07:38+00:00"
-    },
-    {
-     "title": "2 children among the 8 dead in New York City building collapse, officials say",
-     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T17:47:05+00:00"
-    }
-   ],
    "via": [
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:SCMP Group",
-    "outlet:NBCUniversal"
+    "wikipedia-current-events-2026-11-11",
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest"
    ],
-   "emerging": true,
-   "article": "2026 New York City building collapse"
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141592947-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-12",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261112-washington-dc-attack",
@@ -353,28 +279,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q141592947",
-   "title": "2026 Spanish housing protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-12T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-11"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141592947-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-12",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q18613657",
@@ -499,78 +403,6 @@
    "date": "2026-11-10"
   },
   {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-12T18:00:13+00:00",
-   "headlines": [
-    "Iconic NBC Sports announcer Dan Hicks dies at 64"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
-     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T18:00:13+00:00"
-    }
-   ],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
-   "qid": "Q4772274",
-   "title": "Anthony Clark (actor)",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-12T16:52:35+00:00",
-   "headlines": [
-    "'Yes, Dear' star Anthony Clark dead at 62"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:'Yes, Dear' star Anthony Clark dead at 62",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "'Yes, Dear' star Anthony Clark dead at 62",
-     "url": "https://www.foxnews.com/entertainment/yes-dear-star-anthony-clark-dead-62",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T16:52:35+00:00"
-    }
-   ],
-   "id": "wk-Q4772274",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
    "qid": "Q3036807",
    "title": "Donnie Dunagan",
    "fame": 16512,
@@ -676,10 +508,10 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 300000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 250000,
+   "news": 150000,
    "news_at": "2026-11-12T17:51:42+00:00",
    "headlines": [
     "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
@@ -888,112 +720,13 @@
   }
  ],
  "outlets": {
-  "headlines": 810,
+  "headlines": 815,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
-  "corroborated": 3
+  "matched": 30,
+  "corroborated": 2
  },
  "emerging": [
-  {
-   "id": "nw-20261112-york-city-disaster",
-   "qid": null,
-   "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-   "name": "York City",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T17:51:42+00:00",
-   "owners": [
-    "Euronews",
-    "Independent Digital News",
-    "SCMP Group",
-    "NBCUniversal"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-    "New York City building collapse kills two people and injures 17",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "2 children among the 8 dead in New York City building collapse, officials say",
-    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse"
-   ],
-   "places": [
-    "City"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T17:51:42+00:00"
-    },
-    {
-     "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T13:43:09+00:00"
-    },
-    {
-     "title": "New York City building collapse kills two people and injures 17",
-     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T07:25:20+00:00"
-    },
-    {
-     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T04:07:38+00:00"
-    },
-    {
-     "title": "2 children among the 8 dead in New York City building collapse, officials say",
-     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T17:47:05+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:SCMP Group",
-    "outlet:NBCUniversal"
-   ],
-   "emerging": true,
-   "article": "2026 New York City building collapse"
-  },
   {
    "id": "nw-20261112-washington-dc-attack",
    "qid": null,
@@ -1092,5 +825,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 39 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-city-disaster, nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
 }
