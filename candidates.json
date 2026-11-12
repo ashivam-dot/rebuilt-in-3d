@@ -1,84 +1,7 @@
 {
- "at": "2026-11-11T21:55:59+00:00",
+ "at": "2026-11-12T01:08:09+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q18613657",
-   "title": "Alexander Darchiev",
-   "fame": 225000,
-   "views": 0,
-   "traffic": 0,
-   "news": 225000,
-   "news_at": "2026-11-11T19:02:20+00:00",
-   "headlines": [
-    "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
-    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-    "google-news:Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
-    "outlet:Fox Corporation",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Fox Corporation",
-    "Al Jazeera Media Network",
-    "NDTV",
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
-     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-11T19:02:20+00:00"
-    },
-    {
-     "title": "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-     "url": "https://www.aljazeera.com/news/2026/11/11/russias-ambassador-to-the-us-alexander-darchiev-dies-at-66?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T18:13:10+00:00"
-    },
-    {
-     "title": "Russia's Ambassador To US Alexander Darchiev Dies \"Suddenly\" At 66: Moscow",
-     "url": "https://www.ndtv.com/world-news/russias-ambassador-to-us-alexander-darchiev-dies-at-66-12314333#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-11T18:01:32+00:00"
-    },
-    {
-     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
-     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T17:32:50+00:00"
-    }
-   ],
-   "id": "wk-Q18613657",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
   {
    "qid": "Q142077465",
    "title": "2026 Kraków shooting",
@@ -108,28 +31,165 @@
    "has_coords": true
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 125000,
+   "id": "nw-20261111-york-disaster",
+   "qid": null,
+   "title": "People trapped in wreckage as New York building collapse kills one",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T00:50:09+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "NBCUniversal",
+    "ABC (Australia)"
+   ],
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-11T02:01:35+00:00",
    "headlines": [
-    "Salvadoran troops target Haitian gang, leaving 20 dead"
+    "New York City building collapse leaves people trapped in rubble",
+    "New York building collapse kills one person and injures 12",
+    "1 dead, 12 hurt in New York City building collapse, authorities say",
+    "People trapped in wreckage as New York building collapse kills one"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "google-news:Salvadoran troops target Haitian gang, leaving 20 dead"
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "People trapped in wreckage as New York building collapse kills one",
+     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T00:50:09+00:00"
+    },
+    {
+     "title": "New York building collapse kills one person and injures 12",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-11T22:55:26+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    },
+    {
+     "title": "1 dead, 12 hurt in New York City building collapse, authorities say",
+     "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T00:04:59+00:00"
+    }
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:NBCUniversal",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261111-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+   "name": "Brooklyn",
    "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T00:50:13+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
+    "Brooklyn building collapse kills at least one and traps others in wreckage",
+    "At least 1 killed in Brooklyn apartment building collapse, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T00:06:10+00:00"
+    },
+    {
+     "title": "At least 1 killed in Brooklyn apartment building collapse, officials say",
+     "url": "https://www.cbsnews.com/video/at-least-1-killed-brooklyn-apartment-building-collapse-officials-say/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T00:50:13+00:00"
+    },
+    {
+     "title": "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
+     "url": "https://www.nbcnews.com/video/at-least-1-person-dead-4-injured-after-a-building-collapse-in-brooklyn-273302597757",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T23:20:44+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q7828852",
@@ -150,6 +210,56 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-04"
+  },
+  {
+   "qid": "Q18613657",
+   "title": "Alexander Darchiev",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-11T19:02:20+00:00",
+   "headlines": [
+    "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+    "google-news:Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+     "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T19:02:20+00:00"
+    },
+    {
+     "title": "Russian ambassador to US Alexander Darchiev dies 'suddenly' at 66",
+     "url": "https://www.independent.co.uk/news/world/americas/alexander-darchiev-dead-russia-ambassador-b3083359.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T17:32:50+00:00"
+    }
+   ],
+   "id": "wk-Q18613657",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
   },
   {
    "qid": "Q5209002",
@@ -210,42 +320,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-09"
-  },
-  {
-   "qid": "Q1395654",
-   "title": "Irma P. Hall",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-11T19:47:16+00:00",
-   "headlines": [
-    "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
-     "url": "https://www.theguardian.com/film/2026/nov/11/irma-p-hall-actor-dies",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T19:47:16+00:00"
-    }
-   ],
-   "id": "wk-Q1395654",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
   },
   {
    "qid": "Q141966885",
@@ -376,49 +450,336 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q1395654",
-   "title": "Irma P. Hall",
-   "fame": 25000,
+   "id": "nw-20261111-york-disaster",
+   "qid": null,
+   "title": "People trapped in wreckage as New York building collapse kills one",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T00:50:09+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "NBCUniversal",
+    "ABC (Australia)"
+   ],
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-11T19:47:16+00:00",
    "headlines": [
-    "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91"
+    "New York City building collapse leaves people trapped in rubble",
+    "New York building collapse kills one person and injures 12",
+    "1 dead, 12 hurt in New York City building collapse, authorities say",
+    "People trapped in wreckage as New York building collapse kills one"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "google-news:Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Guardian Media Group"
-   ],
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91",
-     "url": "https://www.theguardian.com/film/2026/nov/11/irma-p-hall-actor-dies",
+     "title": "People trapped in wreckage as New York building collapse kills one",
+     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T00:50:09+00:00"
+    },
+    {
+     "title": "New York building collapse kills one person and injures 12",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-11T22:55:26+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    },
+    {
+     "title": "1 dead, 12 hurt in New York City building collapse, authorities say",
+     "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T00:04:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:NBCUniversal",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261111-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T00:50:13+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
+    "Brooklyn building collapse kills at least one and traps others in wreckage",
+    "At least 1 killed in Brooklyn apartment building collapse, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
      "outlet": "The Guardian",
      "outlet_hi": "द गार्डियन",
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-11T19:47:16+00:00"
+     "at": "2026-11-12T00:06:10+00:00"
+    },
+    {
+     "title": "At least 1 killed in Brooklyn apartment building collapse, officials say",
+     "url": "https://www.cbsnews.com/video/at-least-1-killed-brooklyn-apartment-building-collapse-officials-say/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T00:50:13+00:00"
+    },
+    {
+     "title": "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
+     "url": "https://www.nbcnews.com/video/at-least-1-person-dead-4-injured-after-a-building-collapse-in-brooklyn-273302597757",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T23:20:44+00:00"
     }
    ],
-   "id": "wk-Q1395654",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
  "outlets": {
-  "headlines": 812,
+  "headlines": 790,
   "feeds": 30,
   "owners": 21,
-  "matched": 37,
-  "corroborated": 1
+  "matched": 38,
+  "corroborated": 3
  },
- "emerging": [],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261111-york-disaster",
+   "qid": null,
+   "title": "People trapped in wreckage as New York building collapse kills one",
+   "name": "York",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T00:50:09+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "NBCUniversal",
+    "ABC (Australia)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "New York City building collapse leaves people trapped in rubble",
+    "New York building collapse kills one person and injures 12",
+    "1 dead, 12 hurt in New York City building collapse, authorities say",
+    "People trapped in wreckage as New York building collapse kills one"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "People trapped in wreckage as New York building collapse kills one",
+     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T00:50:09+00:00"
+    },
+    {
+     "title": "New York building collapse kills one person and injures 12",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-11T22:55:26+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    },
+    {
+     "title": "1 dead, 12 hurt in New York City building collapse, authorities say",
+     "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T00:04:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:NBCUniversal",
+    "outlet:ABC (Australia)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261111-brooklyn-disaster",
+   "qid": null,
+   "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+   "name": "Brooklyn",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T00:50:13+00:00",
+   "owners": [
+    "NBCUniversal",
+    "Guardian Media Group",
+    "Paramount (CBS)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
+    "Brooklyn building collapse kills at least one and traps others in wreckage",
+    "At least 1 killed in Brooklyn apartment building collapse, officials say"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T00:06:10+00:00"
+    },
+    {
+     "title": "At least 1 killed in Brooklyn apartment building collapse, officials say",
+     "url": "https://www.cbsnews.com/video/at-least-1-killed-brooklyn-apartment-building-collapse-officials-say/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T00:50:13+00:00"
+    },
+    {
+     "title": "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
+     "url": "https://www.nbcnews.com/video/at-least-1-person-dead-4-injured-after-a-building-collapse-in-brooklyn-273302597757",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-11T23:20:44+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NBCUniversal",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261111-york-disaster, nw-20261111-brooklyn-disaster"
 }
