@@ -1,9 +1,10 @@
 {
- "at": "2026-11-12T12:55:09+00:00",
+ "at": "2026-11-12T13:25:52+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 11 units today",
-  "watch: 0 candidates (0 quakes, 14 trending), 0 hazard alerts",
-  "outlets: 800 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-york-city-disaster"
+  "learn: 70 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 33, 'lift': 1.222, 'typical_views_24h': 345, 'n_retention': 31, 'typical_view_pct': 53.3}, 'kind:incident': {'n': 29, 'lift': 0.929, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 32, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
+  "watch: 0 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 798 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-city-disaster, nw-20261112-brooklyn-disaster"
  ]
 }
