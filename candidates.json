@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T11:56:56+00:00",
+ "at": "2026-11-12T12:24:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,17 +25,19 @@
   {
    "qid": "Q141592947",
    "title": "2026 Spanish housing protests",
-   "fame": 175000,
+   "fame": 300000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T00:00:00+00:00",
+   "news": 250000,
+   "news_at": "2026-11-12T08:22:34+00:00",
    "headlines": [
+    "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest",
     "Spanish election: How bad is the housing crisis?"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-11",
+    "google-news:Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest",
     "google-news:Spanish election: How bad is the housing crisis?"
    ],
    "owners": [],
@@ -76,14 +78,14 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261112-york-disaster",
+   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "New York building collapse kills at least four people",
-   "name": "York",
+   "title": "New York City building collapse kills several people",
+   "name": "York City",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T11:48:14+00:00",
+   "news_at": "2026-11-12T12:17:47+00:00",
    "owners": [
     "BBC",
     "Euronews",
@@ -99,7 +101,7 @@
     "At least two dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
     "New York: Deadly building collapse in Brooklyn",
-    "New York building collapse kills at least four people"
+    "New York City building collapse kills several people"
    ],
    "places": [
     "City",
@@ -117,14 +119,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "New York building collapse kills at least four people",
+     "title": "New York City building collapse kills several people",
      "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-12T11:48:14+00:00"
+     "at": "2026-11-12T12:17:47+00:00"
     },
     {
      "title": "New York: Deadly building collapse in Brooklyn",
@@ -172,79 +174,6 @@
     "outlet:Euronews",
     "outlet:Independent Digital News",
     "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261112-brooklyn-disaster",
-   "qid": null,
-   "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
-   "name": "Brooklyn",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T11:45:24+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Independent Digital News"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Brooklyn building collapse kills at least two people and traps others in wreckage",
-    "At least two people dead in Brooklyn partial building collapse",
-    "Pregnant woman rescued from rubble after Brooklyn building collapse kills two"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T11:45:24+00:00"
-    },
-    {
-     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T01:51:00+00:00"
-    },
-    {
-     "title": "At least two people dead in Brooklyn partial building collapse",
-     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T02:14:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -502,24 +431,16 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "outlets": {
-  "headlines": 802,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 15,
-  "corroborated": 3
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261112-york-disaster",
+   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "New York building collapse kills at least four people",
-   "name": "York",
+   "title": "New York City building collapse kills several people",
+   "name": "York City",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T11:48:14+00:00",
+   "news_at": "2026-11-12T12:17:47+00:00",
    "owners": [
     "BBC",
     "Euronews",
@@ -535,7 +456,7 @@
     "At least two dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
     "New York: Deadly building collapse in Brooklyn",
-    "New York building collapse kills at least four people"
+    "New York City building collapse kills several people"
    ],
    "places": [
     "City",
@@ -553,14 +474,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "New York building collapse kills at least four people",
+     "title": "New York City building collapse kills several people",
      "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-12T11:48:14+00:00"
+     "at": "2026-11-12T12:17:47+00:00"
     },
     {
      "title": "New York: Deadly building collapse in Brooklyn",
@@ -611,31 +532,47 @@
    ],
    "emerging": true,
    "article": null
-  },
+  }
+ ],
+ "outlets": {
+  "headlines": 799,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 25,
+  "corroborated": 2
+ },
+ "emerging": [
   {
-   "id": "nw-20261112-brooklyn-disaster",
+   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
-   "name": "Brooklyn",
+   "title": "New York City building collapse kills several people",
+   "name": "York City",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T11:45:24+00:00",
+   "news_at": "2026-11-12T12:17:47+00:00",
    "owners": [
-    "Guardian Media Group",
-    "NBCUniversal",
-    "Independent Digital News"
+    "BBC",
+    "Euronews",
+    "Independent Digital News",
+    "France Médias Monde"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Brooklyn building collapse kills at least two people and traps others in wreckage",
-    "At least two people dead in Brooklyn partial building collapse",
-    "Pregnant woman rescued from rubble after Brooklyn building collapse kills two"
+    "Survivor pulled from rubble of deadly building collapse in New York",
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York City building collapse kills two people and injures 17",
+    "New York: Deadly building collapse in Brooklyn",
+    "New York City building collapse kills several people"
    ],
-   "places": [],
+   "places": [
+    "City",
+    "deadly",
+    "Brooklyn"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -647,44 +584,65 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills two",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html",
+     "title": "New York City building collapse kills several people",
+     "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T12:17:47+00:00"
+    },
+    {
+     "title": "New York: Deadly building collapse in Brooklyn",
+     "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T11:18:05+00:00"
+    },
+    {
+     "title": "Survivor pulled from rubble of deadly building collapse in New York",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T02:33:12+00:00"
+    },
+    {
+     "title": "New York City building collapse kills two people and injures 17",
+     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T11:45:24+00:00"
+     "at": "2026-11-12T07:25:20+00:00"
     },
     {
-     "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-     "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
+     "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T01:51:00+00:00"
-    },
-    {
-     "title": "At least two people dead in Brooklyn partial building collapse",
-     "url": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T02:14:59+00:00"
+     "at": "2026-11-12T04:07:38+00:00"
     }
    ],
    "via": [
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal",
-    "outlet:Independent Digital News"
+    "outlet:BBC",
+    "outlet:Euronews",
+    "outlet:Independent Digital News",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 15 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-disaster, nw-20261112-brooklyn-disaster"
+ "outlet_note": "outlets: 799 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-york-city-disaster"
 }
