@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T13:25:55+00:00",
+ "at": "2026-11-12T13:56:28+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,7 +29,7 @@
    "views": 0,
    "traffic": 0,
    "news": 250000,
-   "news_at": "2026-11-12T08:22:34+00:00",
+   "news_at": "2026-11-12T11:24:32+00:00",
    "headlines": [
     "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest",
     "Spanish election: How bad is the housing crisis?"
@@ -50,45 +50,49 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "New York: Deadly building collapse in Brooklyn",
-   "name": "York City",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T11:18:05+00:00",
-   "owners": [
-    "Euronews",
-    "Independent Digital News",
-    "Fox Corporation",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
+   "title": "2026 New York City building collapse",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T13:43:09+00:00",
    "headlines": [
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "Death toll in New York building collapse rises to 8",
+    "New York: Deadly building collapse in Brooklyn",
     "New York City building collapse kills two people and injures 17",
-    "NYC building collapse: Eight bodies recovered as first responders search for survivors",
-    "New York: Deadly building collapse in Brooklyn"
-   ],
-   "places": [
-    "Eight",
-    "City",
-    "Deadly"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
+   "via": [
+    "google-news:Death toll in New York building collapse rises to 8",
+    "google-news:New York: Deadly building collapse in Brooklyn",
+    "google-news:New York City building collapse kills two people and injures 17",
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Euronews",
+    "HT Media"
+   ],
    "reports": [
+    {
+     "title": "Death toll in New York building collapse rises to 8",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:43:09+00:00"
+    },
     {
      "title": "New York: Deadly building collapse in Brooklyn",
      "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
@@ -98,6 +102,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-12T11:18:05+00:00"
+    },
+    {
+     "title": "Two dead, several injured after New York building collapses",
+     "url": "https://www.france24.com/en/video/20261112-two-dead-several-injured-after-new-york-building-collapses",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T10:21:43+00:00"
     },
     {
      "title": "New York City building collapse kills two people and injures 17",
@@ -120,53 +134,68 @@
      "at": "2026-11-12T04:07:38+00:00"
     },
     {
-     "title": "NYC building collapse: Eight bodies recovered as first responders search for survivors",
-     "url": "https://www.foxnews.com/us/nyc-building-collapse-third-body-recovered-first-responders-search-survivors",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
+     "title": "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade",
+     "url": "https://www.hindustantimes.com/india-news/indian-american-astronaut-sunita-williams-honoured-as-grand-marshal-of-new-york-veterans-parade-101794452783863.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-12T11:13:31+00:00"
+     "at": "2026-11-12T03:13:08+00:00"
+    },
+    {
+     "title": "Arrest made after student from Ghana was shot and killed on way to school in New York City",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/javits-frimpong-arrest-bronx-shooting-ghana-b3083443.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T21:29:20+00:00"
+    },
+    {
+     "title": "Trump has 1 am meltdown at New York Times over ‘fake news’",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-times-meltdown-b3083235.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T16:46:24+00:00"
     }
    ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261112-brooklyn-disaster",
-   "qid": null,
-   "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills eight",
-   "name": "Brooklyn",
+   "id": "wp-2026_New_York_City_building_collapse",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T13:15:32+00:00",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261112-eight-disaster",
+   "qid": null,
+   "title": "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+   "name": "Eight",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T13:39:59+00:00",
    "owners": [
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Independent Digital News"
+    "Fox Corporation",
+    "Independent Digital News",
+    "Guardian Media Group"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-    "Building Collapse in Brooklyn Leaves at Least 5 Dead",
-    "Brooklyn building collapse kills at least 8 and injures 17 as search continues",
-    "Pregnant woman rescued from rubble after Brooklyn building collapse kills eight"
+    "NYC building collapse: Eight bodies recovered as first responders search for survivors",
+    "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+    "Brooklyn building collapse kills at least 8 and injures 17 as search continues"
    ],
    "places": [
-    "Jensen",
-    "Huang",
-    "Morning"
+    "Brooklyn"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -179,14 +208,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills eight",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html",
+     "title": "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-new-york-death-toll-b3083889.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T13:15:32+00:00"
+     "at": "2026-11-12T13:39:59+00:00"
     },
     {
      "title": "Brooklyn building collapse kills at least 8 and injures 17 as search continues",
@@ -199,30 +228,20 @@
      "at": "2026-11-12T13:08:15+00:00"
     },
     {
-     "title": "Building Collapse in Brooklyn Leaves at Least 5 Dead",
-     "url": "https://www.today.com/video/search-for-survivors-continues-after-brooklyn-building-collapses-273327173561",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
+     "title": "NYC building collapse: Eight bodies recovered as first responders search for survivors",
+     "url": "https://www.foxnews.com/us/nyc-building-collapse-third-body-recovered-first-responders-search-survivors",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-12T12:26:34+00:00"
-    },
-    {
-     "title": "Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-     "url": "https://www.nbcnews.com/news/us-news/nvidia-board-jensen-huang-brooklyn-building-collapse-morning-rundown-rcna608933",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T12:01:27+00:00"
+     "at": "2026-11-12T11:13:31+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Independent Digital News"
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -485,55 +504,51 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "outlets": {
-  "headlines": 798,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 35,
-  "corroborated": 3
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "New York: Deadly building collapse in Brooklyn",
-   "name": "York City",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T11:18:05+00:00",
-   "owners": [
-    "Euronews",
-    "Independent Digital News",
-    "Fox Corporation",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
+   "title": "2026 New York City building collapse",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T13:43:09+00:00",
    "headlines": [
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "Death toll in New York building collapse rises to 8",
+    "New York: Deadly building collapse in Brooklyn",
     "New York City building collapse kills two people and injures 17",
-    "NYC building collapse: Eight bodies recovered as first responders search for survivors",
-    "New York: Deadly building collapse in Brooklyn"
-   ],
-   "places": [
-    "Eight",
-    "City",
-    "Deadly"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
+   "via": [
+    "google-news:Death toll in New York building collapse rises to 8",
+    "google-news:New York: Deadly building collapse in Brooklyn",
+    "google-news:New York City building collapse kills two people and injures 17",
+    "outlet:SCMP Group",
+    "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Euronews",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "SCMP Group",
+    "France Médias Monde",
+    "Independent Digital News",
+    "Euronews",
+    "HT Media"
+   ],
    "reports": [
+    {
+     "title": "Death toll in New York building collapse rises to 8",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:43:09+00:00"
+    },
     {
      "title": "New York: Deadly building collapse in Brooklyn",
      "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
@@ -543,6 +558,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-12T11:18:05+00:00"
+    },
+    {
+     "title": "Two dead, several injured after New York building collapses",
+     "url": "https://www.france24.com/en/video/20261112-two-dead-several-injured-after-new-york-building-collapses",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T10:21:43+00:00"
     },
     {
      "title": "New York City building collapse kills two people and injures 17",
@@ -565,53 +590,68 @@
      "at": "2026-11-12T04:07:38+00:00"
     },
     {
-     "title": "NYC building collapse: Eight bodies recovered as first responders search for survivors",
-     "url": "https://www.foxnews.com/us/nyc-building-collapse-third-body-recovered-first-responders-search-survivors",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
+     "title": "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade",
+     "url": "https://www.hindustantimes.com/india-news/indian-american-astronaut-sunita-williams-honoured-as-grand-marshal-of-new-york-veterans-parade-101794452783863.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
      "lang": "en",
-     "at": "2026-11-12T11:13:31+00:00"
+     "at": "2026-11-12T03:13:08+00:00"
+    },
+    {
+     "title": "Arrest made after student from Ghana was shot and killed on way to school in New York City",
+     "url": "https://www.independent.co.uk/news/world/americas/crime/javits-frimpong-arrest-bronx-shooting-ghana-b3083443.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T21:29:20+00:00"
+    },
+    {
+     "title": "Trump has 1 am meltdown at New York Times over ‘fake news’",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-times-meltdown-b3083235.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T16:46:24+00:00"
     }
    ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261112-brooklyn-disaster",
-   "qid": null,
-   "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills eight",
-   "name": "Brooklyn",
+   "id": "wp-2026_New_York_City_building_collapse",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T13:15:32+00:00",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261112-eight-disaster",
+   "qid": null,
+   "title": "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+   "name": "Eight",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T13:39:59+00:00",
    "owners": [
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Independent Digital News"
+    "Fox Corporation",
+    "Independent Digital News",
+    "Guardian Media Group"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-    "Building Collapse in Brooklyn Leaves at Least 5 Dead",
-    "Brooklyn building collapse kills at least 8 and injures 17 as search continues",
-    "Pregnant woman rescued from rubble after Brooklyn building collapse kills eight"
+    "NYC building collapse: Eight bodies recovered as first responders search for survivors",
+    "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+    "Brooklyn building collapse kills at least 8 and injures 17 as search continues"
    ],
    "places": [
-    "Jensen",
-    "Huang",
-    "Morning"
+    "Brooklyn"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -624,14 +664,14 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills eight",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html",
+     "title": "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-new-york-death-toll-b3083889.html",
      "outlet": "The Independent",
      "outlet_hi": "द इंडिपेंडेंट",
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T13:15:32+00:00"
+     "at": "2026-11-12T13:39:59+00:00"
     },
     {
      "title": "Brooklyn building collapse kills at least 8 and injures 17 as search continues",
@@ -644,34 +684,108 @@
      "at": "2026-11-12T13:08:15+00:00"
     },
     {
-     "title": "Building Collapse in Brooklyn Leaves at Least 5 Dead",
-     "url": "https://www.today.com/video/search-for-survivors-continues-after-brooklyn-building-collapses-273327173561",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
+     "title": "NYC building collapse: Eight bodies recovered as first responders search for survivors",
+     "url": "https://www.foxnews.com/us/nyc-building-collapse-third-body-recovered-first-responders-search-survivors",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-12T12:26:34+00:00"
-    },
-    {
-     "title": "Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-     "url": "https://www.nbcnews.com/news/us-news/nvidia-board-jensen-huang-brooklyn-building-collapse-morning-rundown-rcna608933",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T12:01:27+00:00"
+     "at": "2026-11-12T11:13:31+00:00"
     }
    ],
    "via": [
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Independent Digital News"
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-york-city-disaster, nw-20261112-brooklyn-disaster"
+ "outlets": {
+  "headlines": 803,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 35,
+  "corroborated": 3
+ },
+ "emerging": [
+  {
+   "id": "nw-20261112-eight-disaster",
+   "qid": null,
+   "title": "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+   "name": "Eight",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T13:39:59+00:00",
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "NYC building collapse: Eight bodies recovered as first responders search for survivors",
+    "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+    "Brooklyn building collapse kills at least 8 and injures 17 as search continues"
+   ],
+   "places": [
+    "Brooklyn"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Eight dead in Brooklyn building collapse as pregnant woman’s rescue gives ray of hope for survivors",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-new-york-death-toll-b3083889.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:39:59+00:00"
+    },
+    {
+     "title": "Brooklyn building collapse kills at least 8 and injures 17 as search continues",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/brooklyn-building-collapse-nyc",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:08:15+00:00"
+    },
+    {
+     "title": "NYC building collapse: Eight bodies recovered as first responders search for survivors",
+     "url": "https://www.foxnews.com/us/nyc-building-collapse-third-body-recovered-first-responders-search-survivors",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T11:13:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 803 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-eight-disaster"
 }
