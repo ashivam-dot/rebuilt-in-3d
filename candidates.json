@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T03:39:27+00:00",
+ "at": "2026-11-12T04:11:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -92,101 +92,28 @@
    "date": "2026-11-10"
   },
   {
-   "id": "nw-20261111-york-disaster",
-   "qid": null,
-   "title": "New York building collapse kills one person and injures 12",
-   "name": "York",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-11",
-   "news_at": "2026-11-12T02:33:12+00:00",
-   "owners": [
-    "Independent Digital News",
-    "ABC (Australia)",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "New York City building collapse leaves people trapped in rubble",
-    "People trapped in wreckage as New York building collapse kills two",
-    "New York building collapse kills one person and injures 12"
-   ],
-   "places": [
-    "City"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "New York building collapse kills one person and injures 12",
-     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T02:33:12+00:00"
-    },
-    {
-     "title": "People trapped in wreckage as New York building collapse kills two",
-     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T00:50:09+00:00"
-    },
-    {
-     "title": "New York City building collapse leaves people trapped in rubble",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-11T22:47:14+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:ABC (Australia)",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261112-brooklyn-disaster",
    "qid": null,
-   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
    "name": "Brooklyn",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T02:14:59+00:00",
+   "news_at": "2026-11-12T03:31:08+00:00",
    "owners": [
     "Guardian Media Group",
     "NBCUniversal",
+    "Al Jazeera Media Network",
     "Bennett, Coleman & Co."
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Brooklyn building collapse kills at least two people and traps others in wreckage",
     "At least two people dead in Brooklyn partial building collapse",
+    "Building collapse in Brooklyn kills two, injures more than a dozen",
     "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
    ],
    "places": [],
@@ -200,6 +127,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T03:31:08+00:00"
+    },
     {
      "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
@@ -234,7 +171,83 @@
    "via": [
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
+    "outlet:Al Jazeera Media Network",
     "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261111-york-city-disaster",
+   "qid": null,
+   "title": "Survivor pulled from rubble of deadly building collapse in New York",
+   "name": "York City",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T04:07:38+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "New York City building collapse leaves people trapped in rubble",
+    "Survivor pulled from rubble of deadly building collapse in New York",
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Survivor pulled from rubble of deadly building collapse in New York",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T02:33:12+00:00"
+    },
+    {
+     "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
@@ -479,47 +492,18 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q5220508",
-   "title": "Danny Kelly (journalist)",
-   "fame": 64926,
-   "views": 64926,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5220508",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  }
- ],
- "outlets": {
-  "headlines": 794,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 23,
-  "corroborated": 3
- },
- "emerging": [
-  {
-   "id": "nw-20261111-york-disaster",
+   "id": "nw-20261111-york-city-disaster",
    "qid": null,
-   "title": "New York building collapse kills one person and injures 12",
-   "name": "York",
+   "title": "Survivor pulled from rubble of deadly building collapse in New York",
+   "name": "York City",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-11",
-   "news_at": "2026-11-12T02:33:12+00:00",
+   "news_at": "2026-11-12T04:07:38+00:00",
    "owners": [
     "Independent Digital News",
-    "ABC (Australia)",
-    "BBC"
+    "BBC",
+    "Euronews"
    ],
    "fame": 75000,
    "news": 75000,
@@ -527,8 +511,8 @@
    "traffic": 0,
    "headlines": [
     "New York City building collapse leaves people trapped in rubble",
-    "People trapped in wreckage as New York building collapse kills two",
-    "New York building collapse kills one person and injures 12"
+    "Survivor pulled from rubble of deadly building collapse in New York",
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City"
    ],
    "places": [
     "City"
@@ -544,7 +528,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "New York building collapse kills one person and injures 12",
+     "title": "Survivor pulled from rubble of deadly building collapse in New York",
      "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
      "outlet": "BBC",
      "outlet_hi": "बीबीसी",
@@ -554,14 +538,14 @@
      "at": "2026-11-12T02:33:12+00:00"
     },
     {
-     "title": "People trapped in wreckage as New York building collapse kills two",
-     "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
+     "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-12T00:50:09+00:00"
+     "at": "2026-11-12T04:07:38+00:00"
     },
     {
      "title": "New York City building collapse leaves people trapped in rubble",
@@ -576,33 +560,44 @@
    ],
    "via": [
     "outlet:Independent Digital News",
-    "outlet:ABC (Australia)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
-  },
+  }
+ ],
+ "outlets": {
+  "headlines": 790,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 25,
+  "corroborated": 3
+ },
+ "emerging": [
   {
    "id": "nw-20261112-brooklyn-disaster",
    "qid": null,
-   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
    "name": "Brooklyn",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T02:14:59+00:00",
+   "news_at": "2026-11-12T03:31:08+00:00",
    "owners": [
     "Guardian Media Group",
     "NBCUniversal",
+    "Al Jazeera Media Network",
     "Bennett, Coleman & Co."
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Brooklyn building collapse kills at least two people and traps others in wreckage",
     "At least two people dead in Brooklyn partial building collapse",
+    "Building collapse in Brooklyn kills two, injures more than a dozen",
     "Brooklyn building collapse: 2 dead, 10 injured as firefighters search for survivors"
    ],
    "places": [],
@@ -616,6 +611,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+     "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T03:31:08+00:00"
+    },
     {
      "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
@@ -650,11 +655,87 @@
    "via": [
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal",
+    "outlet:Al Jazeera Media Network",
     "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261111-york-city-disaster",
+   "qid": null,
+   "title": "Survivor pulled from rubble of deadly building collapse in New York",
+   "name": "York City",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "news_at": "2026-11-12T04:07:38+00:00",
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "New York City building collapse leaves people trapped in rubble",
+    "Survivor pulled from rubble of deadly building collapse in New York",
+    "At least two dead while others are trapped in the rubble after a building collapse in New York City"
+   ],
+   "places": [
+    "City"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Survivor pulled from rubble of deadly building collapse in New York",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T02:33:12+00:00"
+    },
+    {
+     "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    },
+    {
+     "title": "New York City building collapse leaves people trapped in rubble",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-11T22:47:14+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 794 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261111-york-disaster, nw-20261112-brooklyn-disaster"
+ "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 25 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261111-york-city-disaster"
 }
