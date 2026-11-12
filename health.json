@@ -1,11 +1,13 @@
 {
- "at": "2026-11-12T17:12:38+00:00",
+ "at": "2026-11-12T17:41:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 18 units today",
-  "watch: 1 candidates (0 quakes, 17 trending), 0 hazard alerts",
-  "outlets: 805 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-york-disaster",
-  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 2.6 h)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 19 units today",
+  "watch: 3 candidates (0 quakes, 19 trending), 0 hazard alerts",
+  "outlets: 808 headlines from 30 feeds (21 owners), 29 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261112-york-disaster, nw-20261112-gaza-nasser-hospital-strike, nw-20261112-washington-dc-attack",
+  "wait wp-2026_New_York_City_building_collapse: gate: the article is under 6 hours old; facts may still move (ready in 2.2 h)",
+  "skip nw-20261112-gaza-nasser-hospital-strike: gate: fewer than 2 independent outlets' articles name Gaza Nasser Hospital",
+  "skip wk-Q4931878: gate: only 2 usable photos of Bob Boone on Wikimedia Commons (want 4)",
   "nothing eligible to publish"
  ]
 }
