@@ -1,9 +1,12 @@
 {
- "at": "2026-11-12T09:42:20+00:00",
+ "at": "2026-11-12T10:12:12+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
-  "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 792 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster"
+  "learn: 70 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 33, 'lift': 1.222, 'typical_views_24h': 345, 'n_retention': 31, 'typical_view_pct': 53.3}, 'kind:incident': {'n': 29, 'lift': 0.929, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 32, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 788 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261112-brooklyn-disaster, nw-20261112-york-disaster",
+  "skip nw-20261112-york-disaster: gate: faceless: no free photo shows York or the event itself (only 5 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
