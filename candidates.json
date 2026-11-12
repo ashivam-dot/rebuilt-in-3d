@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T17:41:50+00:00",
+ "at": "2026-11-12T18:10:58+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,39 +25,60 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 301000,
+   "fame": 325000,
    "views": 0,
-   "traffic": 1000,
-   "news": 250000,
-   "news_at": "2026-11-12T13:44:53+00:00",
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-11-12T17:51:42+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "New York mayor giving update after eight killed in building collapse - watch live",
+    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "2 children among the 8 dead in New York City building collapse, officials say",
     "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "New York City building collapse kills two people and injures 17",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
    ],
    "region": "world",
    "via": [
-    "google-trends-GB:lisa maxwell",
     "wikipedia-current-events-2026-11-11",
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
-    "google-news:Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
-    "google-news:Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+    "google-news:New York mayor giving update after eight killed in building collapse - watch live",
+    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "google-news:2 children among the 8 dead in New York City building collapse, officials say",
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal",
     "outlet:NDTV",
     "outlet:SCMP Group",
-    "outlet:Independent Digital News",
     "outlet:Euronews",
     "outlet:HT Media"
    ],
    "owners": [
+    "Independent Digital News",
+    "NBCUniversal",
     "NDTV",
     "SCMP Group",
-    "Independent Digital News",
     "Euronews",
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:51:42+00:00"
+    },
+    {
+     "title": "2 children among the 8 dead in New York City building collapse, officials say",
+     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T17:47:05+00:00"
+    },
     {
      "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
      "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
@@ -155,29 +176,31 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261112-york-disaster",
+   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-   "name": "York",
+   "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+   "name": "York City",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T13:44:53+00:00",
+   "news_at": "2026-11-12T17:51:42+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
     "SCMP Group",
-    "NDTV"
+    "NDTV",
+    "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Eight dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
     "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble"
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+    "2 children among the 8 dead in New York City building collapse, officials say"
    ],
    "places": [
     "City",
@@ -194,6 +217,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:51:42+00:00"
+    },
     {
      "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
@@ -225,6 +258,16 @@
      "at": "2026-11-12T04:07:38+00:00"
     },
     {
+     "title": "2 children among the 8 dead in New York City building collapse, officials say",
+     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T17:47:05+00:00"
+    },
+    {
      "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
      "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
      "outlet": "NDTV",
@@ -239,10 +282,95 @@
     "outlet:Euronews",
     "outlet:Independent Digital News",
     "outlet:SCMP Group",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": "2026 New York City building collapse"
+  },
+  {
+   "id": "nw-20261112-washington-dc-attack",
+   "qid": null,
+   "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
+   "name": "Washington DC",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T17:59:46+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
+    "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
+    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
+     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T17:13:14+00:00"
+    },
+    {
+     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:59:46+00:00"
+    },
+    {
+     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:42:35+00:00"
+    },
+    {
+     "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
+     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T16:28:39+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261112-gaza-nasser-hospital-strike",
@@ -324,79 +452,6 @@
    "article": null
   },
   {
-   "id": "nw-20261112-washington-dc-attack",
-   "qid": null,
-   "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
-   "name": "Washington DC",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T17:21:09+00:00",
-   "owners": [
-    "Euronews",
-    "BBC",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-    "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
-    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
-     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T17:13:14+00:00"
-    },
-    {
-     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T17:21:09+00:00"
-    },
-    {
-     "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T16:28:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q5220508",
    "title": "Danny Kelly (journalist)",
    "fame": 64926,
@@ -423,7 +478,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-12T17:39:06+00:00",
+   "news_at": "2026-11-12T18:00:13+00:00",
    "headlines": [
     "Iconic NBC Sports announcer Dan Hicks dies at 64",
     "Sports world reacts to the sudden passing of legendary broadcaster Dan Hicks at the age of 64"
@@ -448,7 +503,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-12T17:39:06+00:00"
+     "at": "2026-11-12T18:00:13+00:00"
     },
     {
      "title": "Sports world reacts to the sudden passing of legendary broadcaster Dan Hicks at the age of 64",
@@ -730,39 +785,60 @@
   {
    "qid": null,
    "title": "2026 New York City building collapse",
-   "fame": 301000,
+   "fame": 325000,
    "views": 0,
-   "traffic": 1000,
-   "news": 250000,
-   "news_at": "2026-11-12T13:44:53+00:00",
+   "traffic": 0,
+   "news": 275000,
+   "news_at": "2026-11-12T17:51:42+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+    "New York mayor giving update after eight killed in building collapse - watch live",
+    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "2 children among the 8 dead in New York City building collapse, officials say",
     "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "New York City building collapse kills two people and injures 17",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
    ],
    "region": "world",
    "via": [
-    "google-trends-GB:lisa maxwell",
     "wikipedia-current-events-2026-11-11",
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
-    "google-news:Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
-    "google-news:Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+    "google-news:New York mayor giving update after eight killed in building collapse - watch live",
+    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "google-news:2 children among the 8 dead in New York City building collapse, officials say",
+    "outlet:Independent Digital News",
+    "outlet:NBCUniversal",
     "outlet:NDTV",
     "outlet:SCMP Group",
-    "outlet:Independent Digital News",
     "outlet:Euronews",
     "outlet:HT Media"
    ],
    "owners": [
+    "Independent Digital News",
+    "NBCUniversal",
     "NDTV",
     "SCMP Group",
-    "Independent Digital News",
     "Euronews",
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:51:42+00:00"
+    },
+    {
+     "title": "2 children among the 8 dead in New York City building collapse, officials say",
+     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T17:47:05+00:00"
+    },
     {
      "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
      "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
@@ -835,137 +911,31 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261112-gaza-nasser-hospital-strike",
+   "id": "nw-20261112-york-city-disaster",
    "qid": null,
-   "title": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-   "name": "Gaza Nasser Hospital",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T16:55:10+00:00",
-   "owners": [
-    "NBCUniversal",
-    "Guardian Media Group",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Israel launch deadly airstrike on Gaza’s Nasser Hospital",
-    "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
-    "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike"
-   ],
-   "places": [
-    "Hospital",
-    "Daily"
-   ],
-   "attackers": [
-    "Israel",
-    "Israeli"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T16:55:10+00:00"
-    },
-    {
-     "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
-     "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T12:19:01+00:00"
-    },
-    {
-     "title": "Israel launch deadly airstrike on Gaza’s Nasser Hospital",
-     "url": "https://www.nbcnews.com/video/israel-launch-deadly-airstrike-on-gaza-s-nasser-hospital-273323077895",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T09:16:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NBCUniversal",
-    "outlet:Guardian Media Group",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q4931878",
-   "title": "Bob Boone",
-   "fame": 14275,
-   "views": 14275,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-11"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4931878",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  }
- ],
- "outlets": {
-  "headlines": 808,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 29,
-  "corroborated": 5
- },
- "emerging": [
-  {
-   "id": "nw-20261112-york-disaster",
-   "qid": null,
-   "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-   "name": "York",
+   "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+   "name": "York City",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T13:44:53+00:00",
+   "news_at": "2026-11-12T17:51:42+00:00",
    "owners": [
     "Euronews",
     "Independent Digital News",
     "SCMP Group",
-    "NDTV"
+    "NDTV",
+    "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Eight dead while others are trapped in the rubble after a building collapse in New York City",
     "New York City building collapse kills two people and injures 17",
     "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble"
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+    "2 children among the 8 dead in New York City building collapse, officials say"
    ],
    "places": [
     "City",
@@ -982,6 +952,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:51:42+00:00"
+    },
     {
      "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
@@ -1013,6 +993,16 @@
      "at": "2026-11-12T04:07:38+00:00"
     },
     {
+     "title": "2 children among the 8 dead in New York City building collapse, officials say",
+     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T17:47:05+00:00"
+    },
+    {
      "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
      "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
      "outlet": "NDTV",
@@ -1027,10 +1017,217 @@
     "outlet:Euronews",
     "outlet:Independent Digital News",
     "outlet:SCMP Group",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": "2026 New York City building collapse"
+  }
+ ],
+ "outlets": {
+  "headlines": 809,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 32,
+  "corroborated": 5
+ },
+ "emerging": [
+  {
+   "id": "nw-20261112-york-city-disaster",
+   "qid": null,
+   "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+   "name": "York City",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T17:51:42+00:00",
+   "owners": [
+    "Euronews",
+    "Independent Digital News",
+    "SCMP Group",
+    "NDTV",
+    "NBCUniversal"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+    "New York City building collapse kills two people and injures 17",
+    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+    "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+    "2 children among the 8 dead in New York City building collapse, officials say"
+   ],
+   "places": [
+    "City",
+    "building",
+    "collapse"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:51:42+00:00"
+    },
+    {
+     "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T13:43:09+00:00"
+    },
+    {
+     "title": "New York City building collapse kills two people and injures 17",
+     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T07:25:20+00:00"
+    },
+    {
+     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    },
+    {
+     "title": "2 children among the 8 dead in New York City building collapse, officials say",
+     "url": "https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T17:47:05+00:00"
+    },
+    {
+     "title": "Brooklyn Building Collapse: 8 Dead In New York, Pregnant Woman Rescued From Rubble",
+     "url": "https://www.ndtv.com/world-news/brooklyn-building-collapse-death-count-in-new-york-building-collapse-rises-to-8-12317892#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-12T13:44:53+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Independent Digital News",
+    "outlet:SCMP Group",
+    "outlet:NDTV",
+    "outlet:NBCUniversal"
+   ],
+   "emerging": true,
+   "article": "2026 New York City building collapse"
+  },
+  {
+   "id": "nw-20261112-washington-dc-attack",
+   "qid": null,
+   "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
+   "name": "Washington DC",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-12",
+   "news_at": "2026-11-12T17:59:46+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
+    "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
+    "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
+     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-12T17:13:14+00:00"
+    },
+    {
+     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:59:46+00:00"
+    },
+    {
+     "title": "Suspect in Washington DC gym shooting dead by suicide as four people injured and one dead",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:42:35+00:00"
+    },
+    {
+     "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
+     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T16:28:39+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261112-gaza-nasser-hospital-strike",
@@ -1110,80 +1307,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261112-washington-dc-attack",
-   "qid": null,
-   "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
-   "name": "Washington DC",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-12",
-   "news_at": "2026-11-12T17:21:09+00:00",
-   "owners": [
-    "Euronews",
-    "BBC",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-    "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
-    "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Washington DC shooting leaves one dead and four injured as suspect dies after standoff",
-     "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T17:13:14+00:00"
-    },
-    {
-     "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T17:21:09+00:00"
-    },
-    {
-     "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T16:28:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 29 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261112-york-disaster, nw-20261112-gaza-nasser-hospital-strike, nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 32 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261112-york-city-disaster, nw-20261112-washington-dc-attack, nw-20261112-gaza-nasser-hospital-strike"
 }
