@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T02:14:03+00:00",
+ "at": "2026-11-13T02:43:30+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,24 +25,24 @@
   {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 150500,
+   "fame": 275500,
    "views": 0,
    "traffic": 500,
-   "news": 150000,
+   "news": 275000,
    "news_at": "2026-11-12T22:58:23+00:00",
    "headlines": [
+    "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
     "Eight killed, including two children, in New York building collapse",
     "Humpback whale spotted in New York’s Hudson River – video",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+    "Death toll rises to 8 in New York building collapse as rescuers search for survivors"
    ],
    "region": "world",
    "via": [
     "google-trends-GB:giants vs commanders",
+    "google-news:Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
     "google-news:Eight killed, including two children, in New York building collapse",
     "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "outlet:France Médias Monde",
     "outlet:Guardian Media Group",
     "outlet:Independent Digital News",
@@ -78,16 +78,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T21:27:43+00:00"
-    },
-    {
-     "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T20:53:49+00:00"
     },
     {
      "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
@@ -151,30 +141,50 @@
    "has_coords": true
   },
   {
-   "id": "nw-20261112-washington-dc-attack",
+   "qid": "Q4772274",
+   "title": "Anthony Clark (actor)",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-12T23:57:37+00:00",
+   "headlines": [
+    "Anthony Clark, Comic and ‘Yes, Dear’ Star, Dies at 63"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Anthony Clark, Comic and ‘Yes, Dear’ Star, Dies at 63"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q4772274",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "nw-20261112-washington-attack",
    "qid": null,
    "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-   "name": "Washington DC",
+   "name": "Washington",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
    "news_at": "2026-11-13T00:31:57+00:00",
    "owners": [
     "Euronews",
-    "Al Jazeera Media Network",
     "Guardian Media Group",
     "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-    "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Deadly shooting in Washington DC",
     "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board"
+    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
+    "Washington DC shooting: police identify victim and suspect – as it happened"
    ],
    "places": [],
    "attackers": [],
@@ -208,26 +218,6 @@
      "at": "2026-11-12T22:54:05+00:00"
     },
     {
-     "title": "Deadly shooting in Washington DC",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:18:24+00:00"
-    },
-    {
-     "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/suspect-turns-gun-on-himself-after-deadly-shooting-in-washington-dc?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T18:02:32+00:00"
-    },
-    {
      "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
      "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
      "outlet": "Euronews",
@@ -250,7 +240,6 @@
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:Al Jazeera Media Network",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal"
    ],
@@ -525,167 +514,28 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q142131356",
-   "title": "2026 New York City building collapse",
-   "fame": 150500,
-   "views": 0,
-   "traffic": 500,
-   "news": 150000,
-   "news_at": "2026-11-12T22:58:23+00:00",
-   "headlines": [
-    "Eight killed, including two children, in New York building collapse",
-    "Humpback whale spotted in New York’s Hudson River – video",
-    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:giants vs commanders",
-    "google-news:Eight killed, including two children, in New York building collapse",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "outlet:France Médias Monde",
-    "outlet:Guardian Media Group",
-    "outlet:Independent Digital News",
-    "outlet:SCMP Group",
-    "outlet:Euronews",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "France Médias Monde",
-    "Guardian Media Group",
-    "Independent Digital News",
-    "SCMP Group",
-    "Euronews",
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Eight killed, including two children, in New York building collapse",
-     "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T22:58:23+00:00"
-    },
-    {
-     "title": "Humpback whale spotted in New York’s Hudson River – video",
-     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:27:43+00:00"
-    },
-    {
-     "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T20:53:49+00:00"
-    },
-    {
-     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T17:51:42+00:00"
-    },
-    {
-     "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T13:43:09+00:00"
-    },
-    {
-     "title": "New York City building collapse kills two people and injures 17",
-     "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T07:25:20+00:00"
-    },
-    {
-     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T04:07:38+00:00"
-    },
-    {
-     "title": "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade",
-     "url": "https://www.hindustantimes.com/india-news/indian-american-astronaut-sunita-williams-honoured-as-grand-marshal-of-new-york-veterans-parade-101794452783863.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-12T03:13:08+00:00"
-    }
-   ],
-   "id": "wk-Q142131356",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-11",
-   "coords": [
-    40.639018,
-    -73.953872
-   ],
-   "has_coords": true
-  }
- ],
- "outlets": {
-  "headlines": 812,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 37,
-  "corroborated": 2
- },
- "emerging": [
-  {
-   "id": "nw-20261112-washington-dc-attack",
+   "id": "nw-20261112-washington-attack",
    "qid": null,
    "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-   "name": "Washington DC",
+   "name": "Washington",
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
    "news_at": "2026-11-13T00:31:57+00:00",
    "owners": [
     "Euronews",
-    "Al Jazeera Media Network",
     "Guardian Media Group",
     "NBCUniversal"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-    "Suspect turns gun on himself after deadly shooting in Washington DC",
-    "Deadly shooting in Washington DC",
     "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board"
+    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
+    "Washington DC shooting: police identify victim and suspect – as it happened"
    ],
    "places": [],
    "attackers": [],
@@ -719,24 +569,97 @@
      "at": "2026-11-12T22:54:05+00:00"
     },
     {
-     "title": "Deadly shooting in Washington DC",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
+     "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
+     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T21:18:24+00:00"
+     "at": "2026-11-12T16:28:39+00:00"
     },
     {
-     "title": "Suspect turns gun on himself after deadly shooting in Washington DC",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/suspect-turns-gun-on-himself-after-deadly-shooting-in-washington-dc?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
+     "title": "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
+     "url": "https://www.nbcnews.com/news/us-news/suspect-washington-dc-gym-shooting-was-doctor-legal-feud-condo-board-rcna609089",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-13T00:31:57+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlets": {
+  "headlines": 807,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 32,
+  "corroborated": 2
+ },
+ "emerging": [
+  {
+   "id": "nw-20261112-washington-attack",
+   "qid": null,
+   "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
+   "name": "Washington",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-12",
+   "news_at": "2026-11-13T00:31:57+00:00",
+   "owners": [
+    "Euronews",
+    "Guardian Media Group",
+    "NBCUniversal"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
+    "Police identify suspect and victim in Washington DC gym shooting that also injured four",
+    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
+    "Washington DC shooting: police identify victim and suspect – as it happened"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
+     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-12T18:02:32+00:00"
+     "at": "2026-11-12T23:43:42+00:00"
+    },
+    {
+     "title": "Washington DC shooting: police identify victim and suspect – as it happened",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T22:54:05+00:00"
     },
     {
      "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
@@ -761,7 +684,6 @@
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:Al Jazeera Media Network",
     "outlet:Guardian Media Group",
     "outlet:NBCUniversal"
    ],
@@ -769,5 +691,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-attack"
 }

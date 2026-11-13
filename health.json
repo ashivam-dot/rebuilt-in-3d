@@ -1,11 +1,13 @@
 {
- "at": "2026-11-13T02:14:01+00:00",
+ "at": "2026-11-13T02:43:27+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 88 units today",
-  "watch: 1 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 812 headlines from 30 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack",
-  "skip wk-Q142131356: gate: only 3 usable photos of 2026 New York City building collapse on Wikimedia Commons (want 4)",
+  "learn: 70 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 33, 'lift': 1.22, 'typical_views_24h': 345, 'n_retention': 31, 'typical_view_pct': 52.9}, 'kind:incident': {'n': 29, 'lift': 0.93, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 32, 'lift': 1.",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 89 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 807 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-attack",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261112-washington-attack",
+  "skip nw-20261112-washington-attack: gate: faceless: no free photo shows Washington or the event itself (only 0 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
