@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T06:12:38+00:00",
+ "at": "2026-11-13T06:43:34+00:00",
  "quakes": [],
  "trending": [
   {
@@ -26,59 +26,37 @@
    "date": "2026-11-10"
   },
   {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 157094,
-   "views": 157094,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 150000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
+   "news": 250000,
    "news_at": "2026-11-13T04:43:26+00:00",
    "headlines": [
+    "Loose Women star’s daughter dies in New York aged 27",
     "Washington Commanders keep their season alive with last-gasp win over New York Giants",
     "Eight killed, including two children, in New York building collapse",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "New York hunts for clues in Brooklyn building collapse that killed 8",
-    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+    "New York hunts for clues in Brooklyn building collapse that killed 8"
    ],
    "region": "world",
    "via": [
+    "google-news:Loose Women star’s daughter dies in New York aged 27",
     "google-news:Washington Commanders keep their season alive with last-gasp win over New York Giants",
     "google-news:Eight killed, including two children, in New York building collapse",
-    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "outlet:Guardian Media Group",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:SCMP Group",
-    "outlet:Euronews",
-    "outlet:HT Media"
+    "outlet:Euronews"
    ],
    "owners": [
     "Guardian Media Group",
     "France Médias Monde",
     "Independent Digital News",
     "SCMP Group",
-    "Euronews",
-    "HT Media"
+    "Euronews"
    ],
    "reports": [
     {
@@ -150,16 +128,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T04:07:38+00:00"
-    },
-    {
-     "title": "Indian-American astronaut Sunita Williams honoured as Grand Marshal of New York Veterans Parade",
-     "url": "https://www.hindustantimes.com/india-news/indian-american-astronaut-sunita-williams-honoured-as-grand-marshal-of-new-york-veterans-parade-101794452783863.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-12T03:13:08+00:00"
     }
    ],
    "id": "wk-Q142131356",
@@ -171,6 +139,26 @@
     -73.953872
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 157094,
+   "views": 157094,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-12"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
   },
   {
    "qid": "Q315090",
@@ -217,15 +205,16 @@
   {
    "qid": "Q533583",
    "title": "Richard Posner",
-   "fame": 34663,
+   "fame": 34863,
    "views": 34663,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-12"
+    "wikipedia-top-2026-11-12",
+    "google-trends-GB:judge"
    ],
    "owners": [],
    "reports": [],
@@ -462,15 +451,16 @@
   {
    "qid": "Q533583",
    "title": "Richard Posner",
-   "fame": 34663,
+   "fame": 34863,
    "views": 34663,
-   "traffic": 0,
+   "traffic": 200,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-12"
+    "wikipedia-top-2026-11-12",
+    "google-trends-GB:judge"
    ],
    "owners": [],
    "reports": [],
@@ -481,12 +471,12 @@
   }
  ],
  "outlets": {
-  "headlines": 792,
+  "headlines": 789,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 28,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 792 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 789 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
