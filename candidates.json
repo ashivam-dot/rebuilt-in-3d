@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T12:00:43+00:00",
+ "at": "2026-11-13T12:31:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -26,37 +26,86 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 157094,
+   "views": 157094,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-12"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
+   "qid": "Q315090",
+   "title": "Stacy Keach",
+   "fame": 142036,
+   "views": 142036,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-12"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q315090",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-10"
+  },
+  {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 225000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 225000,
-   "news_at": "2026-11-13T04:43:26+00:00",
+   "news": 100000,
+   "news_at": "2026-11-13T12:00:26+00:00",
    "headlines": [
-    "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "New York City building collapse probe raises questions about neighboring property owner’s violation history",
     "Washington Commanders keep their season alive with last-gasp win over New York Giants",
-    "New York building collapse kills eight, including two children",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "Eight dead while others are trapped in the rubble after a building collapse in New York City"
    ],
    "region": "world",
    "via": [
-    "google-news:Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "google-news:New York City building collapse probe raises questions about neighboring property owner’s violation history",
     "google-news:Washington Commanders keep their season alive with last-gasp win over New York Giants",
-    "google-news:New York building collapse kills eight, including two children",
+    "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
-    "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Euronews"
    ],
    "owners": [
+    "Fox Corporation",
     "Guardian Media Group",
-    "France Médias Monde",
     "Independent Digital News",
     "Euronews"
    ],
    "reports": [
+    {
+     "title": "New York City building collapse probe raises questions about neighboring property owner’s violation history",
+     "url": "https://www.foxnews.com/us/new-york-city-building-collapse-probe-raises-questions-about-neighboring-property-owners-violation-history",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-13T12:00:26+00:00"
+    },
     {
      "title": "Washington Commanders keep their season alive with last-gasp win over New York Giants",
      "url": "https://www.theguardian.com/sport/2026/nov/12/commanders-giants-thursday-night-football-nfl",
@@ -66,16 +115,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-13T04:43:26+00:00"
-    },
-    {
-     "title": "New York building collapse kills eight, including two children",
-     "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-12T22:58:23+00:00"
     },
     {
      "title": "Humpback whale spotted in New York’s Hudson River – video",
@@ -117,46 +156,6 @@
     -73.95383
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 157094,
-   "views": 157094,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
-   "qid": "Q315090",
-   "title": "Stacy Keach",
-   "fame": 142036,
-   "views": 142036,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q315090",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
   },
   {
    "qid": "Q141921562",
@@ -408,13 +407,16 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 154 people)"
+ ],
  "outlets": {
-  "headlines": 788,
+  "headlines": 782,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 35,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 782 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
