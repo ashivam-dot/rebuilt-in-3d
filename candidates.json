@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T04:42:31+00:00",
+ "at": "2026-11-13T05:15:22+00:00",
  "quakes": [],
  "trending": [
   {
@@ -48,40 +48,49 @@
   {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 150100,
+   "fame": 150000,
    "views": 0,
-   "traffic": 100,
+   "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-12T22:58:23+00:00",
+   "news_at": "2026-11-13T04:43:26+00:00",
    "headlines": [
+    "Washington Commanders keep their season alive with last-gasp win over New York Giants",
     "Eight killed, including two children, in New York building collapse",
-    "Humpback whale spotted in New York’s Hudson River – video",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "New York hunts for clues in Brooklyn building collapse that killed 8",
     "Eight dead while others are trapped in the rubble after a building collapse in New York City"
    ],
    "region": "world",
    "via": [
-    "google-trends-GB:new york giants",
+    "google-news:Washington Commanders keep their season alive with last-gasp win over New York Giants",
     "google-news:Eight killed, including two children, in New York building collapse",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
     "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "outlet:France Médias Monde",
     "outlet:Guardian Media Group",
+    "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:SCMP Group",
     "outlet:Euronews",
     "outlet:HT Media"
    ],
    "owners": [
-    "France Médias Monde",
     "Guardian Media Group",
+    "France Médias Monde",
     "Independent Digital News",
     "SCMP Group",
     "Euronews",
     "HT Media"
    ],
    "reports": [
+    {
+     "title": "Washington Commanders keep their season alive with last-gasp win over New York Giants",
+     "url": "https://www.theguardian.com/sport/2026/nov/12/commanders-giants-thursday-night-football-nfl",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T04:43:26+00:00"
+    },
     {
      "title": "Eight killed, including two children, in New York building collapse",
      "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
@@ -472,12 +481,12 @@
   }
  ],
  "outlets": {
-  "headlines": 802,
+  "headlines": 794,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 30,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 794 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
