@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T00:14:59+00:00",
+ "at": "2026-11-13T00:44:09+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,10 +29,10 @@
    "views": 0,
    "traffic": 10000,
    "news": 400000,
-   "news_at": "2026-11-12T23:45:00+00:00",
+   "news_at": "2026-11-13T00:18:00+00:00",
    "headlines": [
-    "New York building collapse: At least 8 people dead as rescuers dig through rubble",
     "Investigation into deadly New York building collapse widens as rescuers complete search for survivors",
+    "Two children among eight killed in 'devastating' New York building collapse, mayor says",
     "Eight killed, including two children, in New York building collapse",
     "Humpback whale spotted in New York’s Hudson River – video",
     "New York Giants favored at -2 over Commanders as NFC East division lead hangs in balance"
@@ -40,8 +40,8 @@
    "region": "world",
    "via": [
     "google-trends-GB:1321 flatbush avenue brooklyn ny",
-    "google-news:New York building collapse: At least 8 people dead as rescuers dig through rubble",
     "google-news:Investigation into deadly New York building collapse widens as rescuers complete search for survivors",
+    "google-news:Two children among eight killed in 'devastating' New York building collapse, mayor says",
     "google-news:Eight killed, including two children, in New York building collapse",
     "outlet:France Médias Monde",
     "outlet:Guardian Media Group",
@@ -160,14 +160,15 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T23:43:42+00:00",
+   "news_at": "2026-11-13T00:31:57+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NBCUniversal"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -175,7 +176,7 @@
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
     "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – as it happened"
+    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board"
    ],
    "places": [],
    "attackers": [],
@@ -237,12 +238,23 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T16:28:39+00:00"
+    },
+    {
+     "title": "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
+     "url": "https://www.nbcnews.com/news/us-news/suspect-washington-dc-gym-shooting-was-doctor-legal-feud-condo-board-rcna609089",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-13T00:31:57+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
@@ -266,56 +278,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-12T20:40:14+00:00",
-   "headlines": [
-    "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-    "Iconic NBC Sports announcer Dan Hicks dies at 64"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
-    "outlet:Fox Corporation",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Fox Corporation",
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "The loss of Dan Hicks hits hard, Lindsey Vonn has a couple screws loose & Mullen's radical playoff idea",
-     "url": "https://www.foxnews.com/outkick-sports/loss-dan-hicks-hits-hard-lindsey-vonn-couple-screws-loose-mullens-radical-playoff-idea",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T20:40:14+00:00"
-    },
-    {
-     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
-     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-12T18:00:13+00:00"
-    }
-   ],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q18613657",
@@ -440,6 +402,42 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-12T18:00:13+00:00",
+   "headlines": [
+    "Iconic NBC Sports announcer Dan Hicks dies at 64"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Iconic NBC Sports announcer Dan Hicks dies at 64",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Iconic NBC Sports announcer Dan Hicks dies at 64",
+     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-12T18:00:13+00:00"
+    }
+   ],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "qid": "Q3036807",
    "title": "Donnie Dunagan",
    "fame": 16512,
@@ -543,11 +541,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 802,
+  "headlines": 805,
   "feeds": 30,
   "owners": 21,
-  "matched": 43,
-  "corroborated": 3
+  "matched": 44,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -558,14 +556,15 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-12",
-   "news_at": "2026-11-12T23:43:42+00:00",
+   "news_at": "2026-11-13T00:31:57+00:00",
    "owners": [
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "NBCUniversal"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -573,7 +572,7 @@
     "Suspect turns gun on himself after deadly shooting in Washington DC",
     "Deadly shooting in Washington DC",
     "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Washington DC shooting: police identify victim and suspect – as it happened"
+    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board"
    ],
    "places": [],
    "attackers": [],
@@ -635,16 +634,27 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-12T16:28:39+00:00"
+    },
+    {
+     "title": "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
+     "url": "https://www.nbcnews.com/news/us-news/suspect-washington-dc-gym-shooting-was-doctor-legal-feud-condo-board-rcna609089",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-13T00:31:57+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:NBCUniversal"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 802 headlines from 30 feeds (21 owners), 43 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
+ "outlet_note": "outlets: 805 headlines from 30 feeds (21 owners), 44 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-dc-attack"
 }
