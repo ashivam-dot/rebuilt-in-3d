@@ -1,11 +1,10 @@
 {
- "at": "2026-11-13T08:29:33+00:00",
+ "at": "2026-11-13T09:00:38+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
-  "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 789 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "skip wk-Q533583: gate: no draft passed the fact checks: beat 2, 6, 7 name(s) nothing its photo shows (only 57% of the script shows what it says; want 70%): in each, name who or what a photo shows (Richard Posner, University of Chicago, American Academy of Arts and Sciences), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
-  "nothing eligible to publish"
+  "learn: 70 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 33, 'lift': 1.22, 'typical_views_24h': 345, 'n_retention': 31, 'typical_view_pct': 52.9}, 'kind:incident': {'n': 29, 'lift': 0.93, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 32, 'lift': 1.",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
+  "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 789 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
  ]
 }
