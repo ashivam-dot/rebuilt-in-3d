@@ -1,12 +1,10 @@
 {
- "at": "2026-11-13T19:15:18+00:00",
+ "at": "2026-11-13T19:45:37+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 23 units today",
-  "watch: 1 candidates (0 quakes, 19 trending), 0 hazard alerts",
-  "outlets: 766 headlines from 29 feeds (20 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-india-assam-accident",
-  "trend radar errors: ['outlet france24: HTTPError: 404 Client Error: Not Found for url: https://www.france24.com/en/rss']",
-  "skip wk-Q2262364: gate: no photo on Wikimedia Commons shows Tony Richards's face (a tribute needs one)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 24 units today",
+  "watch: 0 candidates (0 quakes, 19 trending), 0 hazard alerts",
+  "outlets: 762 headlines from 29 feeds (20 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-india-assam-accident",
+  "trend radar errors: ['outlet france24: HTTPError: HTTP 503']"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T19:15:19+00:00",
+ "at": "2026-11-13T19:45:38+00:00",
  "quakes": [],
  "trending": [
   {
@@ -521,36 +521,15 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q2262364",
-   "title": "Tony Richards (musician)",
-   "fame": 16321,
-   "views": 16321,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-12"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2262364",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  }
- ],
+ "candidates": [],
  "trend_errors": [
-  "outlet france24: HTTPError: 404 Client Error: Not Found for url: https://www.france24.com/en/rss"
+  "outlet france24: HTTPError: HTTP 503"
  ],
  "outlets": {
-  "headlines": 766,
+  "headlines": 762,
   "feeds": 29,
   "owners": 20,
-  "matched": 32,
+  "matched": 31,
   "corroborated": 2
  },
  "emerging": [
@@ -644,5 +623,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 766 headlines from 29 feeds (20 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-india-assam-accident"
+ "outlet_note": "outlets: 762 headlines from 29 feeds (20 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-india-assam-accident"
 }
