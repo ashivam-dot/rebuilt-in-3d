@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T12:31:36+00:00",
+ "at": "2026-11-13T13:02:42+00:00",
  "quakes": [],
  "trending": [
   {
@@ -72,30 +72,40 @@
    "views": 0,
    "traffic": 0,
    "news": 100000,
-   "news_at": "2026-11-13T12:00:26+00:00",
+   "news_at": "2026-11-13T12:30:18+00:00",
    "headlines": [
+    "New York is running out of room for its waste even with Statue of Liberty sized landfill",
     "New York City building collapse probe raises questions about neighboring property owner’s violation history",
-    "Washington Commanders keep their season alive with last-gasp win over New York Giants",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
     "Eight dead while others are trapped in the rubble after a building collapse in New York City"
    ],
    "region": "world",
    "via": [
+    "google-news:New York is running out of room for its waste even with Statue of Liberty sized landfill",
     "google-news:New York City building collapse probe raises questions about neighboring property owner’s violation history",
-    "google-news:Washington Commanders keep their season alive with last-gasp win over New York Giants",
     "google-news:Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
-    "outlet:Fox Corporation",
     "outlet:Guardian Media Group",
+    "outlet:Fox Corporation",
     "outlet:Independent Digital News",
     "outlet:Euronews"
    ],
    "owners": [
-    "Fox Corporation",
     "Guardian Media Group",
+    "Fox Corporation",
     "Independent Digital News",
     "Euronews"
    ],
    "reports": [
+    {
+     "title": "New York is running out of room for its waste even with Statue of Liberty sized landfill",
+     "url": "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T12:30:18+00:00"
+    },
     {
      "title": "New York City building collapse probe raises questions about neighboring property owner’s violation history",
      "url": "https://www.foxnews.com/us/new-york-city-building-collapse-probe-raises-questions-about-neighboring-property-owners-violation-history",
@@ -408,15 +418,15 @@
  "hazards": [],
  "candidates": [],
  "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 154 people)"
+  "wikidata recent deaths: HTTP 504 (used the list from 1.0 h ago, 154 people)"
  ],
  "outlets": {
-  "headlines": 782,
+  "headlines": 784,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 37,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 782 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 784 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

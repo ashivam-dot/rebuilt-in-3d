@@ -1,10 +1,10 @@
 {
- "at": "2026-11-13T12:31:35+00:00",
+ "at": "2026-11-13T13:02:41+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
   "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 782 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 154 people)\"]"
+  "outlets: 784 headlines from 30 feeds (21 owners), 37 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 1.0 h ago, 154 people)']"
  ]
 }
