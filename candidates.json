@@ -1,19 +1,22 @@
 {
- "at": "2026-11-13T14:00:03+00:00",
+ "at": "2026-11-13T14:32:30+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q4772274",
    "title": "Anthony Clark (actor)",
-   "fame": 374893,
+   "fame": 499893,
    "views": 374893,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 125000,
+   "news_at": "2026-11-12T23:45:38+00:00",
+   "headlines": [
+    "Cause of death for Anthony Clark, comedian and ‘Yes, Dear’ star, revealed"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-12"
+    "wikipedia-top-2026-11-12",
+    "google-news:Cause of death for Anthony Clark, comedian and ‘Yes, Dear’ star, revealed"
    ],
    "owners": [],
    "reports": [],
@@ -25,9 +28,9 @@
   {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 225000,
+   "fame": 225200,
    "views": 0,
-   "traffic": 0,
+   "traffic": 200,
    "news": 225000,
    "news_at": "2026-11-13T12:30:18+00:00",
    "headlines": [
@@ -39,6 +42,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-US:what time does the stock market open",
     "google-news:Loose Women star’s daughter dies aged 27 while studying in New York",
     "google-news:New York is running out of room for its waste even with Statue of Liberty sized landfill",
     "google-news:New York City building collapse probe raises questions about neighboring property owner’s violation history",
@@ -431,17 +435,119 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "trend_errors": [
-  "outlet scmp: HTTPError: HTTP 429"
+ "candidates": [
+  {
+   "qid": "Q142131356",
+   "title": "2026 New York City building collapse",
+   "fame": 225200,
+   "views": 0,
+   "traffic": 200,
+   "news": 225000,
+   "news_at": "2026-11-13T12:30:18+00:00",
+   "headlines": [
+    "Loose Women star’s daughter dies aged 27 while studying in New York",
+    "New York is running out of room for its waste even with Statue of Liberty sized landfill",
+    "New York City building collapse probe raises questions about neighboring property owner’s violation history",
+    "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+    "Eight dead while others are trapped in the rubble after a building collapse in New York City"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-US:what time does the stock market open",
+    "google-news:Loose Women star’s daughter dies aged 27 while studying in New York",
+    "google-news:New York is running out of room for its waste even with Statue of Liberty sized landfill",
+    "google-news:New York City building collapse probe raises questions about neighboring property owner’s violation history",
+    "outlet:Guardian Media Group",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Fox Corporation",
+    "Independent Digital News",
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "New York is running out of room for its waste even with Statue of Liberty sized landfill",
+     "url": "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T12:30:18+00:00"
+    },
+    {
+     "title": "New York City building collapse probe raises questions about neighboring property owner’s violation history",
+     "url": "https://www.foxnews.com/us/new-york-city-building-collapse-probe-raises-questions-about-neighboring-property-owners-violation-history",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-13T12:00:26+00:00"
+    },
+    {
+     "title": "Washington Commanders keep their season alive with last-gasp win over New York Giants",
+     "url": "https://www.theguardian.com/sport/2026/nov/12/commanders-giants-thursday-night-football-nfl",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T04:43:26+00:00"
+    },
+    {
+     "title": "Humpback whale spotted in New York’s Hudson River – video",
+     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:27:43+00:00"
+    },
+    {
+     "title": "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
+     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T17:51:42+00:00"
+    },
+    {
+     "title": "Eight dead while others are trapped in the rubble after a building collapse in New York City",
+     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T04:07:38+00:00"
+    }
+   ],
+   "id": "wk-Q142131356",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "coords": [
+    40.63897,
+    -73.95383
+   ],
+   "has_coords": true
+  }
  ],
  "outlets": {
-  "headlines": 736,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 34,
+  "headlines": 787,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 29,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 736 headlines from 29 feeds (20 owners), 34 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }

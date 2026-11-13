@@ -1,10 +1,11 @@
 {
- "at": "2026-11-13T14:00:01+00:00",
+ "at": "2026-11-13T14:32:29+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
-  "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 736 headlines from 29 feeds (20 owners), 34 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['outlet scmp: HTTPError: HTTP 429']"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 787 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q142131356: gate: faceless: no free photo shows 2026 New York City building collapse or the event itself (only 5 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
