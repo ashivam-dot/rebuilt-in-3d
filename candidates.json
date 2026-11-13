@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T02:43:30+00:00",
+ "at": "2026-11-13T03:14:08+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,9 +29,9 @@
    "views": 0,
    "traffic": 500,
    "news": 275000,
-   "news_at": "2026-11-12T22:58:23+00:00",
+   "news_at": "2026-11-13T01:58:00+00:00",
    "headlines": [
-    "Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "Investigation into deadly New York building collapse widens as rescuers complete search for survivors",
     "Eight killed, including two children, in New York building collapse",
     "Humpback whale spotted in New York’s Hudson River – video",
     "Construction worker with pregnant wife identified as one of eight people killed in New York City building collapse",
@@ -40,7 +40,7 @@
    "region": "world",
    "via": [
     "google-trends-GB:giants vs commanders",
-    "google-news:Loose Women & The Bill star Lisa Maxwell’s daughter, 27, dies suddenly while studying in New York",
+    "google-news:Investigation into deadly New York building collapse widens as rescuers complete search for survivors",
     "google-news:Eight killed, including two children, in New York building collapse",
     "google-news:Humpback whale spotted in New York’s Hudson River – video",
     "outlet:France Médias Monde",
@@ -512,97 +512,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261112-washington-attack",
-   "qid": null,
-   "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-   "name": "Washington",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-12",
-   "news_at": "2026-11-13T00:31:57+00:00",
-   "owners": [
-    "Euronews",
-    "Guardian Media Group",
-    "NBCUniversal"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-    "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-    "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
-    "Washington DC shooting: police identify victim and suspect – as it happened"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Police identify suspect and victim in Washington DC gym shooting that also injured four",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T23:43:42+00:00"
-    },
-    {
-     "title": "Washington DC shooting: police identify victim and suspect – as it happened",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T22:54:05+00:00"
-    },
-    {
-     "title": "Gunman kills one and barricades himself in building after gym shooting in Washington, DC",
-     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T16:28:39+00:00"
-    },
-    {
-     "title": "Suspect in Washington, D.C., gym shooting was doctor in legal feud with condo board",
-     "url": "https://www.nbcnews.com/news/us-news/suspect-washington-dc-gym-shooting-was-doctor-legal-feud-condo-board-rcna609089",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-13T00:31:57+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Guardian Media Group",
-    "outlet:NBCUniversal"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
   "headlines": 807,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 34,
   "corroborated": 2
  },
  "emerging": [
@@ -691,5 +606,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-attack"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261112-washington-attack"
 }
