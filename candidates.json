@@ -1,22 +1,19 @@
 {
- "at": "2026-11-13T13:31:58+00:00",
+ "at": "2026-11-13T14:00:03+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q4772274",
    "title": "Anthony Clark (actor)",
-   "fame": 499893,
+   "fame": 374893,
    "views": 374893,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-12T23:45:38+00:00",
-   "headlines": [
-    "Cause of death for Anthony Clark, comedian and ‘Yes, Dear’ star, revealed"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-12",
-    "google-news:Cause of death for Anthony Clark, comedian and ‘Yes, Dear’ star, revealed"
+    "wikipedia-top-2026-11-12"
    ],
    "owners": [],
    "reports": [],
@@ -131,18 +128,35 @@
   {
    "qid": "Q5213677",
    "title": "Dan Hicks (sportscaster)",
-   "fame": 157094,
+   "fame": 182094,
    "views": 157094,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-13T00:37:01+00:00",
+   "headlines": [
+    "Legendary NBC Sportscaster Dan Hicks dies at 64"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-12"
+    "wikipedia-top-2026-11-12",
+    "google-news:Legendary NBC Sportscaster Dan Hicks dies at 64",
+    "outlet:NBCUniversal"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "NBCUniversal"
+   ],
+   "reports": [
+    {
+     "title": "Legendary NBC Sportscaster Dan Hicks dies at 64",
+     "url": "https://www.nbcnews.com/nightly-news/video/legendary-nbc-sportscaster-dan-hicks-dies-at-64-273390661627",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-13T00:37:01+00:00"
+    }
+   ],
    "id": "wk-Q5213677",
    "kind": "death",
    "category": "death",
@@ -418,13 +432,16 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "outlet scmp: HTTPError: HTTP 429"
+ ],
  "outlets": {
-  "headlines": 785,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 39,
+  "headlines": 736,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 34,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 785 headlines from 30 feeds (21 owners), 39 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 736 headlines from 29 feeds (20 owners), 34 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
