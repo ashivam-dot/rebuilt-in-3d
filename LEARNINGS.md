@@ -1,21 +1,21 @@
 # What this channel's own numbers say
 
-Updated 2026-11-13T18:46:08+00:00. Scored Shorts (views at 24 h): 70. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-13T22:13:55+00:00. Scored Shorts (views at 24 h): 71. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
-Baseline: a typical Short has 208 views at 24 h.
-Retention: a typical Short is watched 56.2% through; a group's retention is blended into its lift at 0.5.
+Baseline: a typical Short has 213 views at 24 h.
+Retention: a typical Short is watched 56.1% through; a group's retention is blended into its lift at 0.5.
 - category:cyclone: x1.35 ranking lift (4 Shorts, typical 508 views; 4 with retention, typically 111.9% watched)
-- kind:death: x1.222 ranking lift (33 Shorts, typical 345 views; 32 with retention, typically 53.2% watched)
-- category:death: x1.199 ranking lift (32 Shorts, typical 329 views; 31 with retention, typically 53.6% watched)
-- kind:incident: x0.93 ranking lift (29 Shorts, typical 170 views; 29 with retention, typically 58.2% watched)
-- category:attack: x0.886 ranking lift (4 Shorts, typical 128 views; 4 with retention, typically 56.2% watched)
-- category:protest: x0.767 ranking lift (9 Shorts, typical 97 views; 9 with retention, typically 56.1% watched)
+- kind:death: x1.227 ranking lift (34 Shorts, typical 356 views; 32 with retention, typically 53.2% watched)
+- category:death: x1.206 ranking lift (33 Shorts, typical 340 views; 31 with retention, typically 53.5% watched)
+- kind:incident: x0.921 ranking lift (29 Shorts, typical 170 views; 29 with retention, typically 58.2% watched)
+- category:attack: x0.881 ranking lift (4 Shorts, typical 128 views; 4 with retention, typically 56.2% watched)
+- category:protest: x0.762 ranking lift (9 Shorts, typical 97 views; 9 with retention, typically 56.1% watched)
 - kind:quake: x0.75 ranking lift (8 Shorts, typical 54 views; 7 with retention, typically 62.1% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q7308546 | 2026-11-13T04:26 | death | death | 1125 |  |
-| wk-Q951199 | 2026-11-12T20:30 | death | death | 955 |  |
+| wk-Q7308546 | 2026-11-13T04:26 | death | death | 1129 |  |
+| wk-Q951199 | 2026-11-12T20:30 | death | death | 1003 | 979 |
 | wk-Q5209002 | 2026-11-11T04:13 | death | death | 454 | 388 |
 | wk-Q2654764 | 2026-11-10T09:33 | death | death | 1223 | 851 |
 | wk-Q1150359 | 2026-11-08T20:30 | death | death | 704 | 369 |
@@ -30,7 +30,7 @@ Retention: a typical Short is watched 56.2% through; a group's retention is blen
 | wk-Q1718539 | 2026-11-04T15:14 | death | death | 507 | 436 |
 | nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 391 | 354 |
 | wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 58 | 24 |
-| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2763 | 2177 |
+| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2765 | 2177 |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1103 | 1072 |
 | wk-Q453730 | 2026-10-29T14:30 | death | death | 667 | 535 |
 | wk-Q241115 | 2026-10-29T13:29 | death | death | 1291 | 1191 |
