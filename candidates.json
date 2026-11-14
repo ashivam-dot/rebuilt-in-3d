@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T14:02:42+00:00",
+ "at": "2026-11-14T14:47:06+00:00",
  "quakes": [],
  "trending": [
   {
@@ -51,30 +51,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-13"
-  },
-  {
-   "qid": null,
-   "title": "2026 Logan Circle shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-13T22:25:00+00:00",
-   "headlines": [
-    "'He was a light' | Those who knew Logan Circle shooting victim James 'Jimmy' Stuart vow to never forget him"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:'He was a light' | Those who knew Logan Circle shooting victim James 'Jimmy' Stuart vow to never forget him"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Logan_Circle_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-14",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q5213677",
@@ -135,6 +111,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q5564237",
+   "title": "Giri Babu",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-14T14:38:03+00:00",
+   "headlines": [
+    "Veteran Telugu actor Giri Babu dies at 80"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Veteran Telugu actor Giri Babu dies at 80",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Veteran Telugu actor Giri Babu dies at 80",
+     "url": "https://www.thehindu.com/news/national/telangana/veteran-telugu-actor-giri-babu-dies-at-80/article71702232.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-14T14:38:03+00:00"
+    }
+   ],
+   "id": "wk-Q5564237",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
   },
   {
    "qid": "Q142132416",
@@ -325,278 +337,49 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": null,
-   "title": "2026 Logan Circle shooting",
-   "fame": 125000,
+   "qid": "Q5564237",
+   "title": "Giri Babu",
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-13T22:25:00+00:00",
+   "news": 25000,
+   "news_at": "2026-11-14T14:38:03+00:00",
    "headlines": [
-    "'He was a light' | Those who knew Logan Circle shooting victim James 'Jimmy' Stuart vow to never forget him"
+    "Veteran Telugu actor Giri Babu dies at 80"
    ],
-   "region": "world",
-   "via": [
-    "google-news:'He was a light' | Those who knew Logan Circle shooting victim James 'Jimmy' Stuart vow to never forget him"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Logan_Circle_shooting",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-14",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q2225687",
-   "title": "Masaaki Yamazaki",
-   "fame": 2456,
-   "views": 2456,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2225687",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
-  },
-  {
-   "qid": "Q321457",
-   "title": "Jim McDermott",
-   "fame": 2726,
-   "views": 2726,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q321457",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-12"
-  },
-  {
-   "qid": "Q462685",
-   "title": "Karl Johan Åström",
-   "fame": 1345,
-   "views": 1345,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q462685",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-12"
-  },
-  {
-   "qid": "Q3174139",
-   "title": "Jean Puech",
-   "fame": 1238,
-   "views": 1238,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3174139",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-12"
-  },
-  {
-   "qid": "Q2281638",
-   "title": "Sid Morrison",
-   "fame": 2351,
-   "views": 2351,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2281638",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q4795757",
-   "title": "Arpita Singh",
-   "fame": 3083,
-   "views": 3083,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
    "region": "india",
    "via": [
-    "quiet day"
+    "google-news:Veteran Telugu actor Giri Babu dies at 80",
+    "outlet:The Hindu Group"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4795757",
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Veteran Telugu actor Giri Babu dies at 80",
+     "url": "https://www.thehindu.com/news/national/telangana/veteran-telugu-actor-giri-babu-dies-at-80/article71702232.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-14T14:38:03+00:00"
+    }
+   ],
+   "id": "wk-Q5564237",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-09"
-  },
-  {
-   "qid": "Q1374895",
-   "title": "Frédéric Boilet",
-   "fame": 1852,
-   "views": 1852,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1374895",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q302728",
-   "title": "Lenita Airisto",
-   "fame": 2847,
-   "views": 2847,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q302728",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-09"
-  },
-  {
-   "qid": "Q3505507",
-   "title": "Oldřich Svojanovský",
-   "fame": 1116,
-   "views": 1116,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3505507",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
-   "qid": "Q943838",
-   "title": "Héctor Aguer",
-   "fame": 1330,
-   "views": 1330,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q943838",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q5829555",
-   "title": "Elisa Ramírez",
-   "fame": 1214,
-   "views": 1214,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5829555",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q17386437",
-   "title": "Manilal Nag",
-   "fame": 1281,
-   "views": 1281,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q17386437",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-09"
+   "date": "2026-11-14"
   }
  ],
  "outlets": {
-  "headlines": 724,
+  "headlines": 722,
   "feeds": 30,
   "owners": 21,
-  "matched": 16,
+  "matched": 17,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 724 headlines from 30 feeds (21 owners), 16 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 12 tribute candidates: Arpita Singh, Lenita Airisto, Jim McDermott, Masaaki Yamazaki"
+ "outlet_note": "outlets: 722 headlines from 30 feeds (21 owners), 17 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
