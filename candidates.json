@@ -1,29 +1,7 @@
 {
- "at": "2026-11-14T19:33:32+00:00",
+ "at": "2026-11-14T20:03:56+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q29879031",
-   "title": "C. S. Karnan",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-13T08:03:54+00:00",
-   "headlines": [
-    "Former Madras High Court Judge Justice CS Karnan Passes Away"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Former Madras High Court Judge Justice CS Karnan Passes Away"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q29879031",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
-  },
   {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
@@ -89,6 +67,45 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-14T20:03:56.396265+00:00",
+   "headlines": [
+    "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-14",
+    "google-news:Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "owners": [
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-garment-owners-threaten-to-quit-wage-talks-shut-factories-indefinitely/articleshow/135835836.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-14T15:04:55+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-14",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 53763,
@@ -140,7 +157,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-14T19:33:32.698458+00:00",
+   "news_at": "2026-11-14T20:03:56.396265+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -344,6 +361,45 @@
  "hazards": [],
  "candidates": [
   {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-14T20:03:56.396265+00:00",
+   "headlines": [
+    "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-14",
+    "google-news:Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "owners": [
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-garment-owners-threaten-to-quit-wage-talks-shut-factories-indefinitely/articleshow/135835836.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-14T15:04:55+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-14",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q142149760",
    "title": "2026 New Orleans ship collision",
    "fame": 50000,
@@ -373,10 +429,10 @@
   "headlines": 712,
   "feeds": 30,
   "owners": 21,
-  "matched": 13,
+  "matched": 15,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 712 headlines from 30 feeds (21 owners), 13 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 712 headlines from 30 feeds (21 owners), 15 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
