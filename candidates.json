@@ -1,49 +1,7 @@
 {
- "at": "2026-11-14T23:20:04+00:00",
+ "at": "2026-11-14T23:48:47+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 200000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-14T20:23:06+00:00",
-   "headlines": [
-    "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-13",
-    "google-news:'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-     "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-14T20:23:06+00:00"
-    }
-   ],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
@@ -109,13 +67,55 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-14T20:23:06+00:00",
+   "headlines": [
+    "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-13",
+    "google-news:'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+     "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-14T20:23:06+00:00"
+    }
+   ],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-14T23:20:04.757628+00:00",
+   "news_at": "2026-11-14T23:48:47.046497+00:00",
    "headlines": [
     "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
    ],
@@ -174,7 +174,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-14T23:20:04.757628+00:00",
+   "news_at": "2026-11-14T23:48:47.046497+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -378,13 +378,13 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 700,
+  "headlines": 695,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 26,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 700 headlines from 30 feeds (21 owners), 27 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 695 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
