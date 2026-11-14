@@ -1,7 +1,29 @@
 {
- "at": "2026-11-14T19:03:56+00:00",
+ "at": "2026-11-14T19:33:32+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q29879031",
+   "title": "C. S. Karnan",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-13T08:03:54+00:00",
+   "headlines": [
+    "Former Madras High Court Judge Justice CS Karnan Passes Away"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Former Madras High Court Judge Justice CS Karnan Passes Away"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q29879031",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-13"
+  },
   {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
@@ -109,6 +131,28 @@
     29.93694444,
     -90.06083333
    ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q141615137",
+   "title": "2026 French civil unrest",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-14T19:33:32.698458+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-14",
+   "coords": null,
    "has_coords": true
   },
   {
@@ -298,14 +342,41 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-14T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-13"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  }
+ ],
  "outlets": {
-  "headlines": 707,
+  "headlines": 712,
   "feeds": 30,
   "owners": 21,
-  "matched": 17,
+  "matched": 13,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 707 headlines from 30 feeds (21 owners), 17 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 712 headlines from 30 feeds (21 owners), 13 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
