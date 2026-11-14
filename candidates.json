@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T00:00:44+00:00",
+ "at": "2026-11-14T00:35:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,65 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q142131356",
+   "title": "2026 New York City building collapse",
+   "fame": 175300,
+   "views": 0,
+   "traffic": 300,
+   "news": 175000,
+   "news_at": "2026-11-13T21:39:00+00:00",
+   "headlines": [
+    "Families devastated by Brooklyn building collapse came to NYC for a new life",
+    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "Humpback whale spotted in New York’s Hudson River – video"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:pacers vs knicks",
+    "google-trends-GB:robert de niro",
+    "google-news:Families devastated by Brooklyn building collapse came to NYC for a new life",
+    "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "google-news:Humpback whale spotted in New York’s Hudson River – video",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T20:45:24+00:00"
+    },
+    {
+     "title": "Humpback whale spotted in New York’s Hudson River – video",
+     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:27:43+00:00"
+    }
+   ],
+   "id": "wk-Q142131356",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "coords": [
+    40.63897,
+    -73.95383
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q5213677",
@@ -63,29 +122,27 @@
    "date": "2026-11-10"
   },
   {
-   "id": "nw-20261113-india-assam-accident",
+   "id": "nw-20261113-assam-accident",
    "qid": null,
    "title": "At least 24 killed after bus collides with truck in north-east India",
-   "name": "India Assam",
+   "name": "Assam",
    "kind": "incident",
    "category": "accident",
    "date": "2026-11-13",
-   "news_at": "2026-11-13T16:01:45+00:00",
+   "news_at": "2026-11-13T15:16:50+00:00",
    "owners": [
     "Disney (ABC News)",
     "HT Media",
-    "BBC",
-    "Al Jazeera Media Network"
+    "BBC"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Bus and truck collision in India's Assam state kills at least 24 people",
     "‘Bus was overspeeding, violated restrictions’: Official on Assam accident that killed 25",
-    "At least 24 killed after bus collides with truck in north-east India",
-    "Truck and bus crash in India’s Assam state kills at least 24 people"
+    "At least 24 killed after bus collides with truck in north-east India"
    ],
    "places": [
     "Official"
@@ -112,16 +169,6 @@
      "at": "2026-11-13T15:16:50+00:00"
     },
     {
-     "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
-     "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-13T16:01:45+00:00"
-    },
-    {
      "title": "Bus and truck collision in India's Assam state kills at least 24 people",
      "url": "https://abcnews.com/International/wireStory/bus-truck-collision-indias-assam-state-kills-24-138107488",
      "outlet": "ABC News",
@@ -145,68 +192,32 @@
    "via": [
     "outlet:Disney (ABC News)",
     "outlet:HT Media",
-    "outlet:BBC",
-    "outlet:Al Jazeera Media Network"
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "qid": "Q142131356",
-   "title": "2026 New York City building collapse",
-   "fame": 50300,
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 50000,
    "views": 0,
-   "traffic": 300,
-   "news": 50000,
-   "news_at": "2026-11-13T20:45:24+00:00",
-   "headlines": [
-    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "Humpback whale spotted in New York’s Hudson River – video"
-   ],
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-14T00:00:00+00:00",
+   "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-GB:pacers vs knicks",
-    "google-trends-GB:robert de niro",
-    "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "wikipedia-current-events-2026-11-13"
    ],
-   "owners": [
-    "Independent Digital News",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-13T20:45:24+00:00"
-    },
-    {
-     "title": "Humpback whale spotted in New York’s Hudson River – video",
-     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:27:43+00:00"
-    }
-   ],
-   "id": "wk-Q142131356",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
    "kind": "incident",
    "category": "disaster",
-   "date": "2026-11-11",
-   "coords": [
-    40.63897,
-    -73.95383
-   ],
-   "has_coords": true
+   "date": "2026-11-13",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q533583",
@@ -471,39 +482,29 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "outlets": {
-  "headlines": 761,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 29,
-  "corroborated": 2
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261113-india-assam-accident",
+   "id": "nw-20261113-assam-accident",
    "qid": null,
    "title": "At least 24 killed after bus collides with truck in north-east India",
-   "name": "India Assam",
+   "name": "Assam",
    "kind": "incident",
    "category": "accident",
    "date": "2026-11-13",
-   "news_at": "2026-11-13T16:01:45+00:00",
+   "news_at": "2026-11-13T15:16:50+00:00",
    "owners": [
     "Disney (ABC News)",
     "HT Media",
-    "BBC",
-    "Al Jazeera Media Network"
+    "BBC"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Bus and truck collision in India's Assam state kills at least 24 people",
     "‘Bus was overspeeding, violated restrictions’: Official on Assam accident that killed 25",
-    "At least 24 killed after bus collides with truck in north-east India",
-    "Truck and bus crash in India’s Assam state kills at least 24 people"
+    "At least 24 killed after bus collides with truck in north-east India"
    ],
    "places": [
     "Official"
@@ -530,14 +531,111 @@
      "at": "2026-11-13T15:16:50+00:00"
     },
     {
-     "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
-     "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Bus and truck collision in India's Assam state kills at least 24 people",
+     "url": "https://abcnews.com/International/wireStory/bus-truck-collision-indias-assam-state-kills-24-138107488",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
      "lang": "en",
-     "at": "2026-11-13T16:01:45+00:00"
+     "at": "2026-11-13T13:39:08+00:00"
+    },
+    {
+     "title": "‘Bus was overspeeding, violated restrictions’: Official on Assam accident that killed 25",
+     "url": "https://www.hindustantimes.com/india-news/bus-was-overspeeding-violated-restrictions-near-park-official-on-assam-accident-that-killed-24-101794574954512.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-13T14:01:44+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:HT Media",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-14T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-13"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": null,
+   "has_coords": false
+  }
+ ],
+ "outlets": {
+  "headlines": 758,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 28,
+  "corroborated": 2
+ },
+ "emerging": [
+  {
+   "id": "nw-20261113-assam-accident",
+   "qid": null,
+   "title": "At least 24 killed after bus collides with truck in north-east India",
+   "name": "Assam",
+   "kind": "incident",
+   "category": "accident",
+   "date": "2026-11-13",
+   "news_at": "2026-11-13T15:16:50+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "HT Media",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Bus and truck collision in India's Assam state kills at least 24 people",
+    "‘Bus was overspeeding, violated restrictions’: Official on Assam accident that killed 25",
+    "At least 24 killed after bus collides with truck in north-east India"
+   ],
+   "places": [
+    "Official"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "IN",
+    "world"
+   ],
+   "region": "world",
+   "india_link": true,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 24 killed after bus collides with truck in north-east India",
+     "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-13T15:16:50+00:00"
     },
     {
      "title": "Bus and truck collision in India's Assam state kills at least 24 people",
@@ -563,12 +661,11 @@
    "via": [
     "outlet:Disney (ABC News)",
     "outlet:HT Media",
-    "outlet:BBC",
-    "outlet:Al Jazeera Media Network"
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 761 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-india-assam-accident"
+ "outlet_note": "outlets: 758 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
 }
