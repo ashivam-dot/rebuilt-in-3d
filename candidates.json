@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T12:02:13+00:00",
+ "at": "2026-11-14T12:32:13+00:00",
  "quakes": [],
  "trending": [
   {
@@ -33,36 +33,20 @@
   {
    "qid": "Q29879031",
    "title": "C. S. Karnan",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-13T10:49:45+00:00",
+   "news": 125000,
+   "news_at": "2026-11-13T08:00:33+00:00",
    "headlines": [
-    "C.S. Karnan, controversial former High Court judge, passes away in Chennai",
-    "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71"
+    "C.S. Karnan, controversial former High Court judge, passes away in Chennai"
    ],
    "region": "india",
    "via": [
-    "google-news:C.S. Karnan, controversial former High Court judge, passes away in Chennai",
-    "google-news:Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
-    "outlet:HT Media"
+    "google-news:C.S. Karnan, controversial former High Court judge, passes away in Chennai"
    ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
-     "url": "https://www.hindustantimes.com/india-news/former-madras-hc-judge-cs-karnan-first-sitting-judge-jailed-for-contempt-dies-at-71-101794566985763.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-13T10:49:45+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q29879031",
    "kind": "death",
    "category": "death",
@@ -207,23 +191,37 @@
   {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 25000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-13T20:45:24+00:00",
+   "news": 50000,
+   "news_at": "2026-11-14T12:00:44+00:00",
    "headlines": [
+    "‘Enough is enough’: rising number of deadly ebike battery fires spark fear in New York City",
     "Federal appeals court rules against Trump in battle over trucker licenses in New York"
    ],
    "region": "world",
    "via": [
+    "google-news:‘Enough is enough’: rising number of deadly ebike battery fires spark fear in New York City",
     "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "outlet:Guardian Media Group",
     "outlet:Independent Digital News"
    ],
    "owners": [
+    "Guardian Media Group",
     "Independent Digital News"
    ],
    "reports": [
+    {
+     "title": "‘Enough is enough’: rising number of deadly ebike battery fires spark fear in New York City",
+     "url": "https://www.theguardian.com/us-news/2026/nov/14/new-york-city-ebike-battery-fires-deaths",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-14T12:00:44+00:00"
+    },
     {
      "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
@@ -434,11 +432,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 731,
-  "feeds": 29,
+  "headlines": 724,
+  "feeds": 30,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 1
+  "matched": 27,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -518,5 +516,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 731 headlines from 29 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
+ "outlet_note": "outlets: 724 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
 }
