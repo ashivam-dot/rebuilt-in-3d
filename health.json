@@ -1,11 +1,13 @@
 {
- "at": "2026-11-14T01:00:45+00:00",
+ "at": "2026-11-14T01:30:38+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 35 units today",
+  "learn: 71 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 34, 'lift': 1.227, 'typical_views_24h': 356, 'n_retention': 32, 'typical_view_pct': 53.2}, 'kind:incident': {'n': 29, 'lift': 0.921, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 33, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 36 units today",
   "watch: 1 candidates (0 quakes, 18 trending), 0 hazard alerts",
-  "outlets: 760 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident",
-  "wait wk-Q142149760: gate: the article is under 6 hours old; facts may still move (ready in 2.2 h)",
+  "outlets: 756 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 154 people)']",
+  "wait wk-Q142149760: gate: the article is under 6 hours old; facts may still move (ready in 1.7 h)",
   "nothing eligible to publish"
  ]
 }

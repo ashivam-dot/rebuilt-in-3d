@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T01:00:46+00:00",
+ "at": "2026-11-14T01:30:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,64 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
+  },
+  {
+   "qid": "Q142131356",
+   "title": "2026 New York City building collapse",
+   "fame": 300000,
+   "views": 0,
+   "traffic": 0,
+   "news": 300000,
+   "news_at": "2026-11-13T21:39:00+00:00",
+   "headlines": [
+    "Families devastated by Brooklyn building collapse came to NYC for a new life",
+    "Loose Women star’s daughter dies aged 27 while studying in New York",
+    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "Humpback whale spotted in New York’s Hudson River – video"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Families devastated by Brooklyn building collapse came to NYC for a new life",
+    "google-news:Loose Women star’s daughter dies aged 27 while studying in New York",
+    "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T20:45:24+00:00"
+    },
+    {
+     "title": "Humpback whale spotted in New York’s Hudson River – video",
+     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:27:43+00:00"
+    }
+   ],
+   "id": "wk-Q142131356",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "coords": [
+    40.63897,
+    -73.95383
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q5213677",
@@ -139,62 +197,6 @@
    "article": null
   },
   {
-   "qid": "Q142131356",
-   "title": "2026 New York City building collapse",
-   "fame": 50500,
-   "views": 0,
-   "traffic": 500,
-   "news": 50000,
-   "news_at": "2026-11-13T20:45:24+00:00",
-   "headlines": [
-    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "Humpback whale spotted in New York’s Hudson River – video"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:pacers vs knicks",
-    "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Independent Digital News",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-13T20:45:24+00:00"
-    },
-    {
-     "title": "Humpback whale spotted in New York’s Hudson River – video",
-     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:27:43+00:00"
-    }
-   ],
-   "id": "wk-Q142131356",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-11",
-   "coords": [
-    40.63897,
-    -73.95383
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q142149760",
    "title": "2026 New Orleans ship collision",
    "fame": 50000,
@@ -213,8 +215,11 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-13",
-   "coords": null,
-   "has_coords": false
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q533583",
@@ -499,15 +504,21 @@
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-13",
-   "coords": null,
-   "has_coords": false
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 154 people)"
+ ],
  "outlets": {
-  "headlines": 760,
-  "feeds": 30,
+  "headlines": 756,
+  "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 31,
   "corroborated": 2
  },
  "emerging": [
@@ -588,5 +599,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 760 headlines from 30 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
+ "outlet_note": "outlets: 756 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
 }
