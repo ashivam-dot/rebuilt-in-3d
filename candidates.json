@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T14:47:06+00:00",
+ "at": "2026-11-14T15:18:52+00:00",
  "quakes": [],
  "trending": [
   {
@@ -51,6 +51,30 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-13"
+  },
+  {
+   "qid": null,
+   "title": "2026 Logan Circle shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-14T14:45:49+00:00",
+   "headlines": [
+    "Woman seriously injured in Logan Circle shooting was walking dog, friend says"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Woman seriously injured in Logan Circle shooting was walking dog, friend says"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Logan_Circle_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-14",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q5213677",
@@ -111,42 +135,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q5564237",
-   "title": "Giri Babu",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-14T14:38:03+00:00",
-   "headlines": [
-    "Veteran Telugu actor Giri Babu dies at 80"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Veteran Telugu actor Giri Babu dies at 80",
-    "outlet:The Hindu Group"
-   ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Veteran Telugu actor Giri Babu dies at 80",
-     "url": "https://www.thehindu.com/news/national/telangana/veteran-telugu-actor-giri-babu-dies-at-80/article71702232.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-14T14:38:03+00:00"
-    }
-   ],
-   "id": "wk-Q5564237",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-14"
   },
   {
    "qid": "Q142132416",
@@ -337,49 +325,37 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q5564237",
-   "title": "Giri Babu",
-   "fame": 25000,
+   "qid": null,
+   "title": "2026 Logan Circle shooting",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-14T14:38:03+00:00",
+   "news": 125000,
+   "news_at": "2026-11-14T14:45:49+00:00",
    "headlines": [
-    "Veteran Telugu actor Giri Babu dies at 80"
+    "Woman seriously injured in Logan Circle shooting was walking dog, friend says"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
-    "google-news:Veteran Telugu actor Giri Babu dies at 80",
-    "outlet:The Hindu Group"
+    "google-news:Woman seriously injured in Logan Circle shooting was walking dog, friend says"
    ],
-   "owners": [
-    "The Hindu Group"
-   ],
-   "reports": [
-    {
-     "title": "Veteran Telugu actor Giri Babu dies at 80",
-     "url": "https://www.thehindu.com/news/national/telangana/veteran-telugu-actor-giri-babu-dies-at-80/article71702232.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-14T14:38:03+00:00"
-    }
-   ],
-   "id": "wk-Q5564237",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-14"
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Logan_Circle_shooting",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-14",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 722,
+  "headlines": 720,
   "feeds": 30,
   "owners": 21,
-  "matched": 17,
+  "matched": 19,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 722 headlines from 30 feeds (21 owners), 17 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 720 headlines from 30 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
