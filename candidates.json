@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T20:42:20+00:00",
+ "at": "2026-11-14T21:19:18+00:00",
  "quakes": [],
  "trending": [
   {
@@ -29,16 +29,15 @@
   {
    "qid": "Q5213677",
    "title": "Dan Hicks (sportscaster)",
-   "fame": 109505,
+   "fame": 107505,
    "views": 107505,
-   "traffic": 2000,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-13",
-    "google-trends-US:dan hicks illness"
+    "wikipedia-top-2026-11-13"
    ],
    "owners": [],
    "reports": [],
@@ -116,7 +115,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-14T20:42:20.319391+00:00",
+   "news_at": "2026-11-14T21:19:18.677107+00:00",
    "headlines": [
     "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
    ],
@@ -175,7 +174,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-14T20:42:20.319391+00:00",
+   "news_at": "2026-11-14T21:19:18.677107+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -374,6 +373,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
+  },
+  {
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets kidnapping",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:haití - estados unidos"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141808612",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-18",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "hazards": [],
@@ -385,7 +406,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-14T20:42:20.319391+00:00",
+   "news_at": "2026-11-14T21:19:18.677107+00:00",
    "headlines": [
     "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
    ],
@@ -458,16 +479,38 @@
     -90.06083333
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets kidnapping",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:haití - estados unidos"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141808612",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-18",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 711,
+  "headlines": 710,
   "feeds": 30,
   "owners": 21,
-  "matched": 18,
+  "matched": 19,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 711 headlines from 30 feeds (21 owners), 18 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 710 headlines from 30 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
