@@ -1,9 +1,22 @@
 {
- "at": "2026-11-14T13:32:58+00:00",
+ "at": "2026-11-14T14:02:40+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
-  "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 725 headlines from 30 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
- ]
+  "learn: 72 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 35, 'lift': 1.233, 'typical_views_24h': 368, 'n_retention': 33, 'typical_view_pct': 52.9}, 'kind:incident': {'n': 29, 'lift': 0.913, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 34, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
+  "watch: 13 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 724 headlines from 30 feeds (21 owners), 16 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "quiet day (no Short yet today): 12 tribute candidates: Arpita Singh, Lenita Airisto, Jim McDermott, Masaaki Yamazaki",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Logan_Circle_shooting",
+  "wait wp-2026_Logan_Circle_shooting: gate: the article is under 6 hours old; facts may still move (ready in 5.7 h)",
+  "published wk-Q2225687: https://www.youtube.com/shorts/0a0dIZ5gsEs"
+ ],
+ "published": {
+  "video_id": "0a0dIZ5gsEs",
+  "url": "https://www.youtube.com/shorts/0a0dIZ5gsEs",
+  "title": "Masaaki Yamazaki, House of Councillors President, Dies at 84",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-14T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
