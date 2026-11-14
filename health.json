@@ -1,14 +1,12 @@
 {
- "at": "2026-11-14T03:17:28+00:00",
+ "at": "2026-11-14T03:46:45+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 40 units today",
-  "watch: 4 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 742 headlines from 28 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident",
-  "skip wk-Q142149760: gate: only 1 usable photos of 2026 New Orleans ship collision on Wikimedia Commons (want 4)",
-  "skip wk-Q142132416: gate: no photo on Wikimedia Commons shows Michael John Roberts's face (a tribute needs one)",
-  "skip wk-Q582473: gate: no photo on Wikimedia Commons shows Brian Tracy's face (a tribute needs one)",
-  "skip wk-Q489938: gate: no photo on Wikimedia Commons shows Hwang Jang-lee's face (a tribute needs one)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 41 units today",
+  "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 739 headlines from 28 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident",
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 154 people)\"]",
+  "skip nw-20261113-assam-accident: gate: faceless: no free photo shows Assam or the event itself (only 4 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
