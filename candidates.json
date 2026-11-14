@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T02:19:52+00:00",
+ "at": "2026-11-14T02:46:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -23,17 +23,75 @@
    "date": "2026-11-10"
   },
   {
+   "qid": "Q142131356",
+   "title": "2026 New York City building collapse",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-11-13T20:45:24+00:00",
+   "headlines": [
+    "Loose Women star’s daughter dies aged 27 while studying in New York",
+    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "Humpback whale spotted in New York’s Hudson River – video"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Loose Women star’s daughter dies aged 27 while studying in New York",
+    "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
+    "google-news:Humpback whale spotted in New York’s Hudson River – video",
+    "outlet:Independent Digital News",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-13T20:45:24+00:00"
+    },
+    {
+     "title": "Humpback whale spotted in New York’s Hudson River – video",
+     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-12T21:27:43+00:00"
+    }
+   ],
+   "id": "wk-Q142131356",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-11",
+   "coords": [
+    40.63897,
+    -73.95383
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q5213677",
    "title": "Dan Hicks (sportscaster)",
-   "fame": 157094,
+   "fame": 159094,
    "views": 157094,
-   "traffic": 0,
+   "traffic": 2000,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-12"
+    "wikipedia-top-2026-11-12",
+    "google-trends-US:jack nicklaus"
    ],
    "owners": [],
    "reports": [],
@@ -41,6 +99,44 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
+  },
+  {
+   "qid": "Q29879031",
+   "title": "C. S. Karnan",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-13T10:49:45+00:00",
+   "headlines": [
+    "C.S. Karnan, controversial former High Court judge, passes away in Chennai",
+    "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:C.S. Karnan, controversial former High Court judge, passes away in Chennai",
+    "google-news:Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
+     "url": "https://www.hindustantimes.com/india-news/former-madras-hc-judge-cs-karnan-first-sitting-judge-jailed-for-contempt-dies-at-71-101794566985763.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-13T10:49:45+00:00"
+    }
+   ],
+   "id": "wk-Q29879031",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-13"
   },
   {
    "qid": "Q315090",
@@ -181,62 +277,6 @@
    "article": null
   },
   {
-   "qid": "Q142131356",
-   "title": "2026 New York City building collapse",
-   "fame": 50100,
-   "views": 0,
-   "traffic": 100,
-   "news": 50000,
-   "news_at": "2026-11-13T20:45:24+00:00",
-   "headlines": [
-    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "Humpback whale spotted in New York’s Hudson River – video"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-IN:pacers vs knicks",
-    "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
-   ],
-   "owners": [
-    "Independent Digital News",
-    "Guardian Media Group"
-   ],
-   "reports": [
-    {
-     "title": "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-new-york-highway-funds-court-ruling-licenses-b3084815.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-13T20:45:24+00:00"
-    },
-    {
-     "title": "Humpback whale spotted in New York’s Hudson River – video",
-     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:27:43+00:00"
-    }
-   ],
-   "id": "wk-Q142131356",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-11",
-   "coords": [
-    40.63897,
-    -73.95383
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q533583",
    "title": "Richard Posner",
    "fame": 34663,
@@ -295,43 +335,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-10"
-  },
-  {
-   "qid": "Q29879031",
-   "title": "C. S. Karnan",
-   "fame": 25100,
-   "views": 0,
-   "traffic": 100,
-   "news": 25000,
-   "news_at": "2026-11-13T10:49:45+00:00",
-   "headlines": [
-    "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71"
-   ],
-   "region": "india",
-   "via": [
-    "google-trends-IN:c.s. karnan",
-    "google-news:Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
-    "outlet:HT Media"
-   ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
-     "url": "https://www.hindustantimes.com/india-news/former-madras-hc-judge-cs-karnan-first-sitting-judge-jailed-for-contempt-dies-at-71-101794566985763.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-13T10:49:45+00:00"
-    }
-   ],
-   "id": "wk-Q29879031",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
   },
   {
    "qid": "Q142077465",
@@ -545,10 +548,10 @@
   }
  ],
  "outlets": {
-  "headlines": 751,
+  "headlines": 748,
   "feeds": 29,
   "owners": 21,
-  "matched": 26,
+  "matched": 28,
   "corroborated": 2
  },
  "emerging": [
@@ -629,5 +632,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 751 headlines from 29 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
+ "outlet_note": "outlets: 748 headlines from 29 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
 }
