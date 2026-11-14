@@ -1,35 +1,7 @@
 {
- "at": "2026-11-14T09:24:35+00:00",
+ "at": "2026-11-14T10:02:55+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-14T00:00:00+00:00",
-   "headlines": [
-    "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-13",
-    "google-news:'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q29879031",
    "title": "C. S. Karnan",
@@ -219,27 +191,49 @@
    "date": "2026-11-10"
   },
   {
-   "qid": "Q142131356",
-   "title": "2026 New York City building collapse",
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
+   "news": 0,
+   "news_at": "2026-11-14T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-13"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q142131356",
+   "title": "2026 New York City building collapse",
+   "fame": 25100,
+   "views": 0,
+   "traffic": 100,
+   "news": 25000,
    "news_at": "2026-11-13T20:45:24+00:00",
    "headlines": [
-    "Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "Humpback whale spotted in New York’s Hudson River – video"
+    "Federal appeals court rules against Trump in battle over trucker licenses in New York"
    ],
    "region": "world",
    "via": [
+    "google-trends-GB:new york times games",
     "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
-    "google-news:Humpback whale spotted in New York’s Hudson River – video",
-    "outlet:Independent Digital News",
-    "outlet:Guardian Media Group"
+    "outlet:Independent Digital News"
    ],
    "owners": [
-    "Independent Digital News",
-    "Guardian Media Group"
+    "Independent Digital News"
    ],
    "reports": [
     {
@@ -251,16 +245,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-13T20:45:24+00:00"
-    },
-    {
-     "title": "Humpback whale spotted in New York’s Hudson River – video",
-     "url": "https://www.theguardian.com/us-news/video/2026/nov/12/humpback-whale-spotted-in-new-yorks-hudson-river-video",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-12T21:27:43+00:00"
     }
    ],
    "id": "wk-Q142131356",
@@ -462,11 +446,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 724,
+  "headlines": 718,
   "feeds": 29,
   "owners": 21,
-  "matched": 18,
-  "corroborated": 3
+  "matched": 16,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -546,5 +530,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 724 headlines from 29 feeds (21 owners), 18 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
+ "outlet_note": "outlets: 718 headlines from 29 feeds (21 owners), 16 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
 }
