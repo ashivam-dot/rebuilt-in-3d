@@ -1,7 +1,49 @@
 {
- "at": "2026-11-14T21:19:18+00:00",
+ "at": "2026-11-14T21:47:25+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-14T20:23:06+00:00",
+   "headlines": [
+    "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-13",
+    "google-news:'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+     "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-14T20:23:06+00:00"
+    }
+   ],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
@@ -67,55 +109,13 @@
    "date": "2026-11-10"
   },
   {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-14T20:23:06+00:00",
-   "headlines": [
-    "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-13",
-    "google-news:'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-     "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-14T20:23:06+00:00"
-    }
-   ],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-14T21:19:18.677107+00:00",
+   "news_at": "2026-11-14T21:47:25.310382+00:00",
    "headlines": [
     "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
    ],
@@ -174,7 +174,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-14T21:19:18.677107+00:00",
+   "news_at": "2026-11-14T21:47:25.310382+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -373,78 +373,17 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
-  },
-  {
-   "qid": "Q141808612",
-   "title": "2026 Croix-des-Bouquets kidnapping",
-   "fame": 2000,
-   "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:haití - estados unidos"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141808612",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-18",
-   "coords": null,
-   "has_coords": true
   }
  ],
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-14T21:19:18.677107+00:00",
-   "headlines": [
-    "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-14",
-    "google-news:Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "owners": [
-    "Bennett, Coleman & Co."
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
-     "url": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-garment-owners-threaten-to-quit-wage-talks-shut-factories-indefinitely/articleshow/135835836.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-14T15:04:55+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-14",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q142149760",
    "title": "2026 New Orleans ship collision",
-   "fame": 75000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
+   "news": 150000,
    "news_at": "2026-11-14T20:23:06+00:00",
    "headlines": [
     "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
@@ -481,36 +420,53 @@
    "has_coords": true
   },
   {
-   "qid": "Q141808612",
-   "title": "2026 Croix-des-Bouquets kidnapping",
-   "fame": 2000,
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
    "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-14T21:47:25.310382+00:00",
+   "headlines": [
+    "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely"
+   ],
    "region": "world",
    "via": [
-    "google-trends-US:haití - estados unidos"
+    "wikipedia-current-events-2026-11-14",
+    "google-news:Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
+    "outlet:Bennett, Coleman & Co."
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141808612",
+   "owners": [
+    "Bennett, Coleman & Co."
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment owners threaten to quit wage talks, shut factories indefinitely",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-garment-owners-threaten-to-quit-wage-talks-shut-factories-indefinitely/articleshow/135835836.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-14T15:04:55+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w46",
    "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-18",
+   "category": "protest",
+   "date": "2026-11-14",
    "coords": null,
-   "has_coords": true
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 710,
+  "headlines": 708,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 22,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 710 headlines from 30 feeds (21 owners), 19 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 708 headlines from 30 feeds (21 owners), 22 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
