@@ -1,12 +1,14 @@
 {
- "at": "2026-11-14T20:03:55+00:00",
+ "at": "2026-11-14T20:32:51+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 25 units today",
+  "learn: 72 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 35, 'lift': 1.233, 'typical_views_24h': 368, 'n_retention': 33, 'typical_view_pct': 52.9}, 'kind:incident': {'n': 29, 'lift': 0.913, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.2}, 'category:death': {'n': 34, 'lift': ",
+  "channel jobs (setup+untag): playlists 0 made, 1 videos added; untag finished 2026-10-23T11:24:10+00:00; 77 units today",
   "watch: 2 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 712 headlines from 30 feeds (21 owners), 15 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "outlets: 709 headlines from 30 feeds (21 owners), 18 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
   "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46",
-  "hold wk-Q142084937-2026w46: a scheduled Short goes out in 0.4 h",
-  "hold wk-Q142149760: a scheduled Short goes out in 0.4 h"
+  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 165 people)\"]",
+  "hold wk-Q142084937-2026w46: last Short went out 0.1 h ago",
+  "hold wk-Q142149760: last Short went out 0.1 h ago"
  ]
 }
