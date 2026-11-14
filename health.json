@@ -1,11 +1,14 @@
 {
- "at": "2026-11-14T02:46:09+00:00",
+ "at": "2026-11-14T03:17:28+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 39 units today",
-  "watch: 1 candidates (0 quakes, 18 trending), 0 hazard alerts",
-  "outlets: 748 headlines from 29 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident",
-  "wait wk-Q142149760: gate: the article is under 6 hours old; facts may still move (ready in 0.5 h)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 40 units today",
+  "watch: 4 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 742 headlines from 28 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident",
+  "skip wk-Q142149760: gate: only 1 usable photos of 2026 New Orleans ship collision on Wikimedia Commons (want 4)",
+  "skip wk-Q142132416: gate: no photo on Wikimedia Commons shows Michael John Roberts's face (a tribute needs one)",
+  "skip wk-Q582473: gate: no photo on Wikimedia Commons shows Brian Tracy's face (a tribute needs one)",
+  "skip wk-Q489938: gate: no photo on Wikimedia Commons shows Hwang Jang-lee's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
