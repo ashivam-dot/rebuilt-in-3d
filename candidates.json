@@ -1,43 +1,57 @@
 {
- "at": "2026-11-14T10:02:55+00:00",
+ "at": "2026-11-14T10:32:00+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q29879031",
-   "title": "C. S. Karnan",
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
    "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-14T03:51:17+00:00",
+   "news": 125000,
+   "news_at": "2026-11-14T00:00:00+00:00",
    "headlines": [
-    "Former Madras High Court Judge Justice CS Karnan Passes Away",
-    "Justice Karnan’s incident brought judicial misconduct to the forefront",
+    "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-13",
+    "google-news:'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q29879031",
+   "title": "C. S. Karnan",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-13T10:49:45+00:00",
+   "headlines": [
+    "C.S. Karnan, controversial former High Court judge, passes away in Chennai",
     "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71"
    ],
    "region": "india",
    "via": [
-    "google-news:Former Madras High Court Judge Justice CS Karnan Passes Away",
-    "google-news:Justice Karnan’s incident brought judicial misconduct to the forefront",
+    "google-news:C.S. Karnan, controversial former High Court judge, passes away in Chennai",
     "google-news:Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
-    "outlet:The Hindu Group",
     "outlet:HT Media"
    ],
    "owners": [
-    "The Hindu Group",
     "HT Media"
    ],
    "reports": [
-    {
-     "title": "Justice Karnan’s incident brought judicial misconduct to the forefront",
-     "url": "https://www.thehindu.com/news/national/justice-karnans-incident-brought-judicial-misconduct-to-the-forefront/article71697857.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-14T03:51:17+00:00"
-    },
     {
      "title": "Former Madras HC judge CS Karnan, first sitting judge jailed for contempt, dies at 71",
      "url": "https://www.hindustantimes.com/india-news/former-madras-hc-judge-cs-karnan-first-sitting-judge-jailed-for-contempt-dies-at-71-101794566985763.html",
@@ -191,36 +205,11 @@
    "date": "2026-11-10"
   },
   {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-14T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-13"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q142131356",
    "title": "2026 New York City building collapse",
-   "fame": 25100,
+   "fame": 25000,
    "views": 0,
-   "traffic": 100,
+   "traffic": 0,
    "news": 25000,
    "news_at": "2026-11-13T20:45:24+00:00",
    "headlines": [
@@ -228,7 +217,6 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-GB:new york times games",
     "google-news:Federal appeals court rules against Trump in battle over trucker licenses in New York",
     "outlet:Independent Digital News"
    ],
@@ -446,11 +434,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 718,
+  "headlines": 719,
   "feeds": 29,
   "owners": 21,
-  "matched": 16,
-  "corroborated": 2
+  "matched": 13,
+  "corroborated": 1
  },
  "emerging": [
   {
@@ -530,5 +518,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 718 headlines from 29 feeds (21 owners), 16 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
+ "outlet_note": "outlets: 719 headlines from 29 feeds (21 owners), 13 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261113-assam-accident"
 }
