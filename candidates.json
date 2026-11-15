@@ -1,45 +1,61 @@
 {
- "at": "2026-11-15T09:19:24+00:00",
+ "at": "2026-11-15T09:49:15+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q5564237",
-   "title": "Giri Babu",
-   "fame": 182926,
-   "views": 32926,
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 175000,
+   "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-15T07:45:19+00:00",
+   "news": 175000,
+   "news_at": "2026-11-15T08:53:39+00:00",
    "headlines": [
-    "Veteran Telugu Actor Giri Babu Passes Away at 80",
-    "Veteran Telugu actor Giri Babu dies at 80"
+    "Jordan sentences three men to death by hanging after deadly church attack",
+    "Three sentenced to death over Jordan church attack"
    ],
-   "region": "india",
+   "region": "world",
    "via": [
-    "wikipedia-top-2026-11-14",
-    "google-news:Veteran Telugu Actor Giri Babu Passes Away at 80",
-    "google-news:Veteran Telugu actor Giri Babu dies at 80",
-    "outlet:The Hindu Group"
+    "google-news:Jordan sentences three men to death by hanging after deadly church attack",
+    "google-news:Three sentenced to death over Jordan church attack",
+    "outlet:France Médias Monde",
+    "outlet:Al Jazeera Media Network"
    ],
    "owners": [
-    "The Hindu Group"
+    "France Médias Monde",
+    "Al Jazeera Media Network"
    ],
    "reports": [
     {
-     "title": "Veteran Telugu actor Giri Babu dies at 80",
-     "url": "https://www.thehindu.com/news/national/telangana/veteran-telugu-actor-giri-babu-dies-at-80/article71702232.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
+     "title": "Three sentenced to death over Jordan church attack",
+     "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-15T07:45:19+00:00"
+     "at": "2026-11-15T08:53:39+00:00"
+    },
+    {
+     "title": "Jordan sentences three men to death by hanging after deadly church attack",
+     "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-15T08:15:04+00:00"
     }
    ],
-   "id": "wk-Q5564237",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-14"
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q142149760",
@@ -68,6 +84,43 @@
     -90.06083333
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q5564237",
+   "title": "Giri Babu",
+   "fame": 57926,
+   "views": 32926,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T09:22:57+00:00",
+   "headlines": [
+    "Veteran Telugu actor Giri Babu dies at 80"
+   ],
+   "region": "india",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:Veteran Telugu actor Giri Babu dies at 80",
+    "outlet:The Hindu Group"
+   ],
+   "owners": [
+    "The Hindu Group"
+   ],
+   "reports": [
+    {
+     "title": "Veteran Telugu actor Giri Babu dies at 80",
+     "url": "https://www.thehindu.com/news/national/telangana/veteran-telugu-actor-giri-babu-dies-at-80/article71702232.ece",
+     "outlet": "The Hindu",
+     "outlet_hi": "द हिंदू",
+     "owner": "The Hindu Group",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-15T09:22:57+00:00"
+    }
+   ],
+   "id": "wk-Q5564237",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
   },
   {
    "qid": "Q142084937",
@@ -279,13 +332,13 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 637,
+  "headlines": 638,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 0
+  "matched": 26,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 637 headlines from 30 feeds (21 owners), 24 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 638 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
