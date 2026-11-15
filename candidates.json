@@ -1,7 +1,34 @@
 {
- "at": "2026-11-15T15:45:35+00:00",
+ "at": "2026-11-15T16:05:30+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-15T11:06:32+00:00",
+   "headlines": [
+    "Three men sentenced to death in Jordan over church mass shooting"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Three men sentenced to death in Jordan over church mass shooting"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -9,7 +36,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T15:45:35.456400+00:00",
+   "news_at": "2026-11-15T16:05:30.664367+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -279,33 +306,6 @@
    "date": "2026-11-12"
   },
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T11:06:32+00:00",
-   "headlines": [
-    "Three men sentenced to death in Jordan over church mass shooting"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Three men sentenced to death in Jordan over church mass shooting"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -389,10 +389,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 651,
+  "headlines": 654,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 20,
   "corroborated": 1
  },
  "emerging": [
@@ -484,6 +484,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 651 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 654 headlines from 30 feeds (21 owners), 20 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
