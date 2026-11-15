@@ -1,34 +1,7 @@
 {
- "at": "2026-11-15T14:21:03+00:00",
+ "at": "2026-11-15T15:36:39+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-15T11:08:08+00:00",
-   "headlines": [
-    "Jordan sentences three men to death by hanging after deadly church attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -36,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T14:21:03.191721+00:00",
+   "news_at": "2026-11-15T15:36:39.228432+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -55,12 +28,12 @@
   {
    "id": "nw-20261115-bahrain-strike",
    "qid": null,
-   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+   "title": "Iran claims drone attack on US military base in Bahrain",
    "name": "Bahrain",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-15",
-   "news_at": "2026-11-15T13:55:32+00:00",
+   "news_at": "2026-11-15T15:29:22+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "BBC",
@@ -73,7 +46,8 @@
    "headlines": [
     "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
     "Iran targets US military base in Bahrain with drone attack",
-    "Bahrain says air defences destroyed several Iranian drones attacking US base"
+    "Bahrain says air defences destroyed several Iranian drones attacking US base",
+    "Iran claims drone attack on US military base in Bahrain"
    ],
    "places": [],
    "attackers": [
@@ -89,6 +63,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Iran claims drone attack on US military base in Bahrain",
+     "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T15:29:22+00:00"
+    },
     {
      "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
      "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
@@ -129,6 +113,50 @@
    "article": null
   },
   {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 73921,
+   "views": 23921,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-15T14:33:59+00:00",
+   "headlines": [
+    "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+    "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+    "google-news:New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+     "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T14:33:59+00:00"
+    }
+   ],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q141615137",
    "title": "2026 French civil unrest",
    "fame": 50000,
@@ -148,34 +176,6 @@
    "category": "protest",
    "date": "2026-11-15",
    "coords": null,
-   "has_coords": true
-  },
-  {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 48921,
-   "views": 23921,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-14T22:27:06+00:00",
-   "headlines": [
-    "New Orleans port sues tanker owners over cruise ship collision for $1m"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14",
-    "google-news:New Orleans port sues tanker owners over cruise ship collision for $1m"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
    "has_coords": true
   },
   {
@@ -281,6 +281,33 @@
    "date": "2026-11-12"
   },
   {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T11:06:32+00:00",
+   "headlines": [
+    "Three men sentenced to death in Jordan over church mass shooting"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Three men sentenced to death in Jordan over church mass shooting"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -362,404 +389,24 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-15T14:21:03.191721+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-14",
-    "wikipedia-current-events-2026-11-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-15",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "id": "nw-20261115-bahrain-strike",
-   "qid": null,
-   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-   "name": "Bahrain",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-15",
-   "news_at": "2026-11-15T13:55:32+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "BBC",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
-    "Iran targets US military base in Bahrain with drone attack",
-    "Bahrain says air defences destroyed several Iranian drones attacking US base"
-   ],
-   "places": [],
-   "attackers": [
-    "Iran",
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-     "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T13:55:32+00:00"
-    },
-    {
-     "title": "Iran targets US military base in Bahrain with drone attack",
-     "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T13:42:58+00:00"
-    },
-    {
-     "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-15T12:15:51+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:BBC",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q4931878",
-   "title": "Bob Boone",
-   "fame": 40606,
-   "views": 40606,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q4931878",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q1785677",
-   "title": "Guðjón Þórðarson",
-   "fame": 5275,
-   "views": 5275,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1785677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
-  },
-  {
-   "qid": "Q321457",
-   "title": "Jim McDermott",
-   "fame": 4937,
-   "views": 4937,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q321457",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-12"
-  },
-  {
-   "qid": "Q3882095",
-   "title": "Omar Walcott",
-   "fame": 1705,
-   "views": 1705,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3882095",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-14"
-  },
-  {
-   "qid": "Q897037",
-   "title": "László Sáry",
-   "fame": 1495,
-   "views": 1495,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q897037",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
-  },
-  {
-   "qid": "Q527048",
-   "title": "Peter Moran (bishop)",
-   "fame": 1207,
-   "views": 1207,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q527048",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
-  },
-  {
-   "qid": "Q7878219",
-   "title": "Ujjal Biswas",
-   "fame": 2339,
-   "views": 2339,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "india",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7878219",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
-   "qid": "Q462685",
-   "title": "Karl Johan Åström",
-   "fame": 1411,
-   "views": 1411,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q462685",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-12"
-  },
-  {
-   "qid": "Q3174139",
-   "title": "Jean Puech",
-   "fame": 1238,
-   "views": 1238,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3174139",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-12"
-  },
-  {
-   "qid": "Q2281638",
-   "title": "Sid Morrison",
-   "fame": 2351,
-   "views": 2351,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2281638",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q1374895",
-   "title": "Frédéric Boilet",
-   "fame": 1852,
-   "views": 1852,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1374895",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q3505507",
-   "title": "Oldřich Svojanovský",
-   "fame": 1116,
-   "views": 1116,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3505507",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  },
-  {
-   "qid": "Q943838",
-   "title": "Héctor Aguer",
-   "fame": 1330,
-   "views": 1330,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q943838",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  },
-  {
-   "qid": "Q5829555",
-   "title": "Elisa Ramírez",
-   "fame": 1214,
-   "views": 1214,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5829555",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-10"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 637,
+  "headlines": 652,
   "feeds": 30,
   "owners": 21,
-  "matched": 16,
+  "matched": 21,
   "corroborated": 1
  },
  "emerging": [
   {
    "id": "nw-20261115-bahrain-strike",
    "qid": null,
-   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+   "title": "Iran claims drone attack on US military base in Bahrain",
    "name": "Bahrain",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-15",
-   "news_at": "2026-11-15T13:55:32+00:00",
+   "news_at": "2026-11-15T15:29:22+00:00",
    "owners": [
     "Al Jazeera Media Network",
     "BBC",
@@ -772,7 +419,8 @@
    "headlines": [
     "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
     "Iran targets US military base in Bahrain with drone attack",
-    "Bahrain says air defences destroyed several Iranian drones attacking US base"
+    "Bahrain says air defences destroyed several Iranian drones attacking US base",
+    "Iran claims drone attack on US military base in Bahrain"
    ],
    "places": [],
    "attackers": [
@@ -788,6 +436,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Iran claims drone attack on US military base in Bahrain",
+     "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T15:29:22+00:00"
+    },
     {
      "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
      "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
@@ -828,7 +486,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 637 headlines from 30 feeds (21 owners), 16 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
- "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46",
- "quiet_note": "quiet day (no Short yet today): 14 tribute candidates: Bob Boone, Guðjón Þórðarson, Jim McDermott, Sid Morrison"
+ "outlet_note": "outlets: 652 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
