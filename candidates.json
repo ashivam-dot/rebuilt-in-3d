@@ -1,35 +1,7 @@
 {
- "at": "2026-11-15T17:05:27+00:00",
+ "at": "2026-11-15T17:35:30+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 148921,
-   "views": 23921,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-15T14:33:59+00:00",
-   "headlines": [
-    "New Orleans port sues tanker owners over cruise ship collision for $1m"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14",
-    "google-news:New Orleans port sues tanker owners over cruise ship collision for $1m"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -37,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-15T17:05:27.645278+00:00",
+   "news_at": "2026-11-15T17:35:30.944594+00:00",
    "headlines": [
     "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
@@ -309,6 +281,31 @@
    "date": "2026-11-12"
   },
   {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 23921,
+   "views": 23921,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -390,12 +387,100 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261115-bahrain-strike",
+   "qid": null,
+   "title": "Iran claims drone attack on US military base in Bahrain",
+   "name": "Bahrain",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-15",
+   "news_at": "2026-11-15T15:29:22+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "BBC",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
+    "Iran targets US military base in Bahrain with drone attack",
+    "Bahrain says air defences destroyed several Iranian drones attacking US base",
+    "Iran claims drone attack on US military base in Bahrain"
+   ],
+   "places": [],
+   "attackers": [
+    "Iran",
+    "Iranian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Iran claims drone attack on US military base in Bahrain",
+     "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T15:29:22+00:00"
+    },
+    {
+     "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+     "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T13:55:32+00:00"
+    },
+    {
+     "title": "Iran targets US military base in Bahrain with drone attack",
+     "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T13:42:58+00:00"
+    },
+    {
+     "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-15T12:15:51+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 658,
+  "headlines": 659,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
+  "matched": 25,
   "corroborated": 1
  },
  "emerging": [
@@ -487,6 +572,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 658 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 659 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
