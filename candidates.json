@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T13:20:56+00:00",
+ "at": "2026-11-15T13:51:06+00:00",
  "quakes": [],
  "trending": [
   {
@@ -80,7 +80,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T13:20:56.600961+00:00",
+   "news_at": "2026-11-15T13:51:06.267059+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -134,6 +134,27 @@
    "date": "2026-11-14"
   },
   {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 50928,
+   "views": 40928,
+   "traffic": 10000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-trends-US:craig melvin dan hicks tribute"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "qid": "Q141615137",
    "title": "2026 French civil unrest",
    "fame": 50000,
@@ -154,26 +175,6 @@
    "date": "2026-11-15",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 40928,
-   "views": 40928,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q4772274",
@@ -321,13 +322,13 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 643,
+  "headlines": 639,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 22,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 643 headlines from 30 feeds (21 owners), 21 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 639 headlines from 30 feeds (21 owners), 22 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
