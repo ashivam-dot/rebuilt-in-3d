@@ -1,15 +1,15 @@
 {
- "at": "2026-11-15T18:05:42+00:00",
+ "at": "2026-11-15T18:36:28+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 125000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T18:05:42.481475+00:00",
+   "news": 150000,
+   "news_at": "2026-11-15T18:36:28.174341+00:00",
    "headlines": [
     "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
@@ -43,33 +43,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-15T11:06:32+00:00",
-   "headlines": [
-    "Three men sentenced to death in Jordan over church mass shooting"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Three men sentenced to death in Jordan over church mass shooting"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
    "id": "nw-20261115-bahrain-strike",
    "qid": null,
    "title": "Iran claims drone attack on US military base in Bahrain",
@@ -77,7 +50,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-15",
-   "news_at": "2026-11-15T17:36:09+00:00",
+   "news_at": "2026-11-15T18:03:56+00:00",
    "owners": [
     "BBC",
     "France Médias Monde",
@@ -145,7 +118,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-15T17:36:09+00:00"
+     "at": "2026-11-15T18:03:56+00:00"
     }
    ],
    "via": [
@@ -281,6 +254,33 @@
    "date": "2026-11-12"
   },
   {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T11:06:32+00:00",
+   "headlines": [
+    "Three men sentenced to death in Jordan over church mass shooting"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Three men sentenced to death in Jordan over church mass shooting"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q142149760",
    "title": "2026 New Orleans ship collision",
    "fame": 23921,
@@ -389,10 +389,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 663,
+  "headlines": 666,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 29,
   "corroborated": 1
  },
  "emerging": [
@@ -404,7 +404,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-15",
-   "news_at": "2026-11-15T17:36:09+00:00",
+   "news_at": "2026-11-15T18:03:56+00:00",
    "owners": [
     "BBC",
     "France Médias Monde",
@@ -472,7 +472,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-15T17:36:09+00:00"
+     "at": "2026-11-15T18:03:56+00:00"
     }
    ],
    "via": [
@@ -484,6 +484,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 663 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 666 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
