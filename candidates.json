@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T12:20:33+00:00",
+ "at": "2026-11-15T12:51:03+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T12:20:33.648653+00:00",
+   "news_at": "2026-11-15T12:51:03.490430+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -315,21 +315,14 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
  "outlets": {
-  "headlines": 637,
+  "headlines": 642,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
+  "matched": 28,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 637 headlines from 30 feeds (21 owners), 24 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 642 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
