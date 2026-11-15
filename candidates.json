@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T04:03:48+00:00",
+ "at": "2026-11-15T04:34:19+00:00",
  "quakes": [],
  "trending": [
   {
@@ -265,14 +265,17 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "outlet scmp: HTTPError: HTTP 429"
+ ],
  "outlets": {
-  "headlines": 668,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 23,
+  "headlines": 610,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 24,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 668 headlines from 30 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 610 headlines from 29 feeds (20 owners), 24 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
