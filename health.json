@@ -1,10 +1,23 @@
 {
- "at": "2026-11-15T13:51:05+00:00",
+ "at": "2026-11-15T14:21:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
-  "watch: 0 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 639 headlines from 30 feeds (21 owners), 22 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
+  "watch: 16 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 637 headlines from 30 feeds (21 owners), 16 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+  "quiet day (no Short yet today): 14 tribute candidates: Bob Boone, Guðjón Þórðarson, Jim McDermott, Sid Morrison",
+  "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46",
+  "skip wk-Q142084937-2026w46: gate: only 1 usable photos of 2026 Bangladesh garment workers protests on Wikimedia Commons (want 4)",
+  "skip nw-20261115-bahrain-strike: gate: faceless: no free photo shows Bahrain or the event itself (only 0 photos of places or things near it)",
+  "skip wk-Q4931878: gate: only 2 usable photos of Bob Boone on Wikimedia Commons (want 4)",
+  "skip wk-Q1785677: gate: no photo on Wikimedia Commons shows Guðjón Þórðarson's face (a tribute needs one)",
+  "published wk-Q321457: https://www.youtube.com/shorts/83-9nAdmpKU"
+ ],
+ "published": {
+  "video_id": "83-9nAdmpKU",
+  "url": "https://www.youtube.com/shorts/83-9nAdmpKU",
+  "title": "Jim McDermott, Washington Representative and Physician, Dies at 89",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
