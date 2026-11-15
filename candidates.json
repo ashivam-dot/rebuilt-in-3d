@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T03:05:38+00:00",
+ "at": "2026-11-15T03:34:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,6 +25,34 @@
    "category": "conflict",
    "date": "2026-10-21",
    "coords": null,
+   "has_coords": true
+  },
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 148921,
+   "views": 23921,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-14T22:27:06+00:00",
+   "headlines": [
+    "New Orleans port sues tanker owners over cruise ship collision for $1m"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:New Orleans port sues tanker owners over cruise ship collision for $1m"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
    "has_coords": true
   },
   {
@@ -152,31 +180,6 @@
    "date": "2026-11-12"
   },
   {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 23921,
-   "views": 23921,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -260,13 +263,13 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 682,
+  "headlines": 672,
   "feeds": 30,
   "owners": 21,
   "matched": 26,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 682 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 672 headlines from 30 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
