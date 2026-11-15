@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T09:49:15+00:00",
+ "at": "2026-11-15T10:19:30+00:00",
  "quakes": [],
  "trending": [
   {
@@ -331,14 +331,17 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 429 (used the list from 0.5 h ago, 148 people)"
+ ],
  "outlets": {
-  "headlines": 638,
+  "headlines": 640,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
+  "matched": 29,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 638 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 640 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
