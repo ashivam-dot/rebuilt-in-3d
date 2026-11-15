@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T15:36:39+00:00",
+ "at": "2026-11-15T15:45:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T15:36:39.228432+00:00",
+   "news_at": "2026-11-15T15:45:35.456400+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -113,21 +113,41 @@
    "article": null
   },
   {
+   "qid": "Q141615137",
+   "title": "2026 French civil unrest",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-15T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141615137-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-15",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q142149760",
    "title": "2026 New Orleans ship collision",
-   "fame": 73921,
+   "fame": 48921,
    "views": 23921,
    "traffic": 0,
-   "news": 50000,
+   "news": 25000,
    "news_at": "2026-11-15T14:33:59+00:00",
    "headlines": [
-    "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
     "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-14",
-    "google-news:New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
     "google-news:New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
     "outlet:BBC"
    ],
@@ -154,28 +174,6 @@
     29.93694444,
     -90.06083333
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141615137",
-   "title": "2026 French civil unrest",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-15T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141615137-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-15",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -391,10 +389,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 652,
+  "headlines": 651,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 19,
   "corroborated": 1
  },
  "emerging": [
@@ -486,6 +484,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 652 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 651 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
