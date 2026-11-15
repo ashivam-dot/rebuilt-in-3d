@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T16:05:30+00:00",
+ "at": "2026-11-15T16:34:05+00:00",
  "quakes": [],
  "trending": [
   {
@@ -36,7 +36,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T16:05:30.664367+00:00",
+   "news_at": "2026-11-15T16:34:05.388446+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -162,48 +162,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 48921,
-   "views": 23921,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T14:33:59+00:00",
-   "headlines": [
-    "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14",
-    "google-news:New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-     "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T14:33:59+00:00"
-    }
-   ],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q5213677",
    "title": "Dan Hicks (sportscaster)",
    "fame": 40928,
@@ -306,6 +264,31 @@
    "date": "2026-11-12"
   },
   {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 23921,
+   "views": 23921,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -389,10 +372,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 654,
+  "headlines": 652,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
+  "matched": 19,
   "corroborated": 1
  },
  "emerging": [
@@ -484,6 +467,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 654 headlines from 30 feeds (21 owners), 20 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 652 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
