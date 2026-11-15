@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T21:37:11+00:00",
+ "at": "2026-11-15T22:07:43+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-15T21:37:11.127049+00:00",
+   "news_at": "2026-11-15T22:07:43.814645+00:00",
    "headlines": [
     "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
@@ -189,8 +189,8 @@
    "category": "attack",
    "date": "2026-10-23",
    "coords": [
-    31.289434,
-    35.79955
+    31.289444444444445,
+    35.79944444444445
    ],
    "has_coords": true
   },
@@ -423,15 +423,33 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 156 people)"
+ "candidates": [
+  {
+   "qid": "Q7329244",
+   "title": "Richard Sterban",
+   "fame": 12752,
+   "views": 12752,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7329244",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
+  }
  ],
  "outlets": {
-  "headlines": 650,
-  "feeds": 30,
+  "headlines": 651,
+  "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 34,
   "corroborated": 1
  },
  "emerging": [
@@ -523,6 +541,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 650 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 651 headlines from 29 feeds (21 owners), 34 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
