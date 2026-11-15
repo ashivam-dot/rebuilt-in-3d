@@ -1,7 +1,75 @@
 {
- "at": "2026-11-15T16:34:05+00:00",
+ "at": "2026-11-15T17:05:27+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 148921,
+   "views": 23921,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-15T14:33:59+00:00",
+   "headlines": [
+    "New Orleans port sues tanker owners over cruise ship collision for $1m"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:New Orleans port sues tanker owners over cruise ship collision for $1m"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T17:05:27.645278+00:00",
+   "headlines": [
+    "Clothing factories shut in Bangladesh as workers strike over pay"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-14",
+    "wikipedia-current-events-2026-11-15",
+    "google-news:Clothing factories shut in Bangladesh as workers strike over pay",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+     "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T16:15:20+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w46",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-15",
+   "coords": null,
+   "has_coords": false
+  },
   {
    "qid": "Q141820731",
    "title": "2026 Karak church shooting",
@@ -28,29 +96,6 @@
     35.79955
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-15T16:34:05.388446+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-14",
-    "wikipedia-current-events-2026-11-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w46",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-15",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261115-bahrain-strike",
@@ -264,31 +309,6 @@
    "date": "2026-11-12"
   },
   {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 23921,
-   "views": 23921,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -372,10 +392,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 652,
+  "headlines": 658,
   "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 23,
   "corroborated": 1
  },
  "emerging": [
@@ -467,6 +487,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 652 headlines from 30 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 658 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
