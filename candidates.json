@@ -1,7 +1,78 @@
 {
- "at": "2026-11-15T12:51:03+00:00",
+ "at": "2026-11-15T13:20:56+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-15T12:13:48+00:00",
+   "headlines": [
+    "Three men sentenced to death in Jordan over church mass shooting",
+    "Jordan sentences 3 men to death over deadly church attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Three men sentenced to death in Jordan over church mass shooting",
+    "google-news:Jordan sentences 3 men to death over deadly church attack",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Jordan sentences 3 men to death over deadly church attack",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-15T12:13:48+00:00"
+    }
+   ],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 148921,
+   "views": 23921,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-14T22:27:06+00:00",
+   "headlines": [
+    "New Orleans port sues tanker owners over cruise ship collision for $1m"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:New Orleans port sues tanker owners over cruise ship collision for $1m"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -9,7 +80,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-15T12:51:03.490430+00:00",
+   "news_at": "2026-11-15T13:20:56.600961+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -167,72 +238,6 @@
    "date": "2026-11-12"
   },
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T12:13:48+00:00",
-   "headlines": [
-    "Jordan sentences 3 men to death over deadly church attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan sentences 3 men to death over deadly church attack",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Jordan sentences 3 men to death over deadly church attack",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-15T12:13:48+00:00"
-    }
-   ],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q142149760",
-   "title": "2026 New Orleans ship collision",
-   "fame": 23921,
-   "views": 23921,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-14"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142149760",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-13",
-   "coords": [
-    29.93694444,
-    -90.06083333
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 23760,
@@ -316,13 +321,13 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 642,
+  "headlines": 643,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 21,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 642 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 643 headlines from 30 feeds (21 owners), 21 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
