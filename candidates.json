@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T18:36:28+00:00",
+ "at": "2026-11-15T19:07:46+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-15T18:36:28.174341+00:00",
+   "news_at": "2026-11-15T19:07:46.953592+00:00",
    "headlines": [
     "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
@@ -170,6 +170,43 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
+  },
+  {
+   "qid": "Q7329244",
+   "title": "Richard Sterban",
+   "fame": 37752,
+   "views": 12752,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T14:26:44+00:00",
+   "headlines": [
+    "Richard Sterban of The Oak Ridge Boys dead at 83"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:Richard Sterban of The Oak Ridge Boys dead at 83",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Richard Sterban of The Oak Ridge Boys dead at 83",
+     "url": "https://www.foxnews.com/entertainment/richard-sterban-oak-ridge-boys-dead-83",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-15T14:26:44+00:00"
+    }
+   ],
+   "id": "wk-Q7329244",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
   },
   {
    "qid": "Q5564237",
@@ -387,12 +424,50 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q7329244",
+   "title": "Richard Sterban",
+   "fame": 37752,
+   "views": 12752,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T14:26:44+00:00",
+   "headlines": [
+    "Richard Sterban of The Oak Ridge Boys dead at 83"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-14",
+    "google-news:Richard Sterban of The Oak Ridge Boys dead at 83",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Richard Sterban of The Oak Ridge Boys dead at 83",
+     "url": "https://www.foxnews.com/entertainment/richard-sterban-oak-ridge-boys-dead-83",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-15T14:26:44+00:00"
+    }
+   ],
+   "id": "wk-Q7329244",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
+  }
+ ],
  "outlets": {
-  "headlines": 666,
+  "headlines": 664,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 30,
   "corroborated": 1
  },
  "emerging": [
@@ -484,6 +559,6 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 666 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
+ "outlet_note": "outlets: 664 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike",
  "retell_note": "no retell (last Short under 50% of the baseline): wk-Q141615137-2026w46"
 }
