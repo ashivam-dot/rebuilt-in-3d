@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T22:26:14+00:00",
+ "at": "2026-11-16T22:56:55+00:00",
  "quakes": [],
  "trending": [
   {
@@ -51,7 +51,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T22:26:14.304763+00:00",
+   "news_at": "2026-11-16T22:56:55.335261+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -105,6 +105,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T21:25:04+00:00",
+   "headlines": [
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -243,21 +270,14 @@
   }
  ],
  "candidates": [],
- "trend_errors": [
-  "google news IN: HTTP 429",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
  "outlets": {
-  "headlines": 760,
+  "headlines": 758,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 28,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 760 headlines from 30 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "outlet_note": "outlets: 758 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
  "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
 }
