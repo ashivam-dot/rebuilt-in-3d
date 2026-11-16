@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T19:25:31+00:00",
+ "at": "2026-11-16T19:54:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -69,35 +69,18 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-16T01:05:44+00:00",
-   "headlines": [
-    "Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
+   "news": 0,
+   "news_at": "2026-11-16T00:00:00+00:00",
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-15",
-    "google-news:Clothing factories shut in Bangladesh as workers strike over pay",
-    "outlet:BBC"
+    "wikipedia-current-events-2026-11-15"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Clothing factories shut in Bangladesh as workers strike over pay",
-     "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-16T01:05:44+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q142084937-2026w47",
    "kind": "incident",
    "category": "protest",
@@ -112,7 +95,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T19:25:31.274274+00:00",
+   "news_at": "2026-11-16T19:54:37.566564+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -293,10 +276,10 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q3174139",
-   "title": "Jean Puech",
-   "fame": 1238,
-   "views": 1238,
+   "qid": "Q897037",
+   "title": "László Sáry",
+   "fame": 1495,
+   "views": 1495,
    "traffic": 0,
    "news": 0,
    "news_at": null,
@@ -307,20 +290,23 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q3174139",
+   "id": "wk-Q897037",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-12"
+   "date": "2026-11-13"
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 165 people)"
+ ],
  "outlets": {
-  "headlines": 748,
+  "headlines": 745,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 748 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: Jean Puech"
+ "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: László Sáry"
 }
