@@ -1,11 +1,12 @@
 {
- "at": "2026-11-16T09:23:14+00:00",
+ "at": "2026-11-16T09:53:10+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
   "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
-  "outlets: 673 headlines from 29 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wk-Q142179721: gate: the article is under 6 hours old; facts may still move (ready in 2.9 h)",
+  "outlets: 651 headlines from 28 feeds (20 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['outlet france24: HTTPError: 404 Client Error: Not Found for url: https://www.france24.com/en/rss']",
+  "wait wk-Q142179721: gate: the article is under 6 hours old; facts may still move (ready in 2.4 h)",
   "nothing eligible to publish"
  ]
 }

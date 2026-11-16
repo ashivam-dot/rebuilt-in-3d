@@ -1,23 +1,21 @@
 {
- "at": "2026-11-16T09:23:15+00:00",
+ "at": "2026-11-16T09:53:11+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q1621643",
    "title": "Miguel Ángel Félix Gallardo",
-   "fame": 260184,
+   "fame": 135184,
    "views": 10184,
    "traffic": 0,
-   "news": 250000,
+   "news": 125000,
    "news_at": "2026-11-16T03:21:56+00:00",
    "headlines": [
-    "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
     "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-15",
-    "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
     "google-news:Mexican drug lord Miguel Ángel Félix Gallardo dies age 80"
    ],
    "owners": [],
@@ -93,7 +91,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T09:23:15.194186+00:00",
+   "news_at": "2026-11-16T09:53:11.189195+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -155,13 +153,13 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-15T14:23:05+00:00",
+   "news_at": "2026-11-15T21:25:04+00:00",
    "headlines": [
-    "Jordan sentences three men to death by hanging after deadly church attack"
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
    ],
    "region": "world",
    "via": [
-    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
    ],
    "owners": [],
    "reports": [],
@@ -287,7 +285,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T09:23:15.194186+00:00",
+   "news_at": "2026-11-16T09:53:11.189195+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -303,13 +301,16 @@
    "has_coords": false
   }
  ],
+ "trend_errors": [
+  "outlet france24: HTTPError: 404 Client Error: Not Found for url: https://www.france24.com/en/rss"
+ ],
  "outlets": {
-  "headlines": 673,
-  "feeds": 29,
-  "owners": 21,
-  "matched": 32,
+  "headlines": 651,
+  "feeds": 28,
+  "owners": 20,
+  "matched": 35,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 673 headlines from 29 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 651 headlines from 28 feeds (20 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
