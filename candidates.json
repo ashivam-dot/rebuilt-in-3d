@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T03:24:03+00:00",
+ "at": "2026-11-16T03:52:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-16T00:00:00+00:00",
+   "news_at": "2026-11-16T01:05:44+00:00",
    "headlines": [
     "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
@@ -65,6 +65,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-15T14:23:05+00:00",
+   "headlines": [
+    "Jordan sentences three men to death by hanging after deadly church attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q7329244",
@@ -125,33 +152,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T14:23:05+00:00",
-   "headlines": [
-    "Jordan sentences three men to death by hanging after deadly church attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -237,40 +237,14 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-16T00:00:00+00:00",
-   "headlines": [
-    "Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-15",
-    "google-news:Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 626,
+  "headlines": 632,
   "feeds": 29,
   "owners": 21,
-  "matched": 26,
+  "matched": 23,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 626 headlines from 29 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 632 headlines from 29 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
