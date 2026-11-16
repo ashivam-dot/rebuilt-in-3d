@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T10:25:49+00:00",
+ "at": "2026-11-16T10:54:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -118,7 +118,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T10:25:49.298110+00:00",
+   "news_at": "2026-11-16T10:54:35.807130+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -274,30 +274,30 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  }
- ],
- "hazards": [],
- "candidates": [
+  },
   {
-   "qid": "Q7329244",
-   "title": "Richard Sterban",
-   "fame": 96199,
-   "views": 96199,
-   "traffic": 0,
+   "qid": "Q553872",
+   "title": "Tim Holden",
+   "fame": 100,
+   "views": 0,
+   "traffic": 100,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-15"
+    "google-trends-US:tim holden"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q7329244",
+   "id": "wk-Q553872",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-14"
-  },
+   "date": "2026-11-15"
+  }
+ ],
+ "hazards": [],
+ "candidates": [
   {
    "qid": "Q142179721",
    "title": "2026 Patong fire",
@@ -305,7 +305,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T10:25:49.298110+00:00",
+   "news_at": "2026-11-16T10:54:35.807130+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -319,15 +319,35 @@
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q553872",
+   "title": "Tim Holden",
+   "fame": 100,
+   "views": 0,
+   "traffic": 100,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:tim holden"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q553872",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
   }
  ],
  "outlets": {
-  "headlines": 678,
+  "headlines": 681,
   "feeds": 29,
   "owners": 21,
-  "matched": 46,
+  "matched": 45,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 678 headlines from 29 feeds (21 owners), 46 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 681 headlines from 29 feeds (21 owners), 45 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
