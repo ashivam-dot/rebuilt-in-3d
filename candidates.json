@@ -1,39 +1,25 @@
 {
- "at": "2026-11-16T02:52:13+00:00",
+ "at": "2026-11-16T03:24:03+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 200000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-16T01:05:44+00:00",
+   "news": 125000,
+   "news_at": "2026-11-16T00:00:00+00:00",
    "headlines": [
     "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-15",
-    "google-news:Clothing factories shut in Bangladesh as workers strike over pay",
-    "outlet:BBC"
+    "google-news:Clothing factories shut in Bangladesh as workers strike over pay"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Clothing factories shut in Bangladesh as workers strike over pay",
-     "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-16T01:05:44+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q142084937-2026w47",
    "kind": "incident",
    "category": "protest",
@@ -48,13 +34,15 @@
    "views": 10184,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-15T23:52:10+00:00",
+   "news_at": "2026-11-16T03:21:56+00:00",
    "headlines": [
+    "Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
     "Mexican drug lord Miguel Angel Felix Gallardo dies age 80"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-15",
+    "google-news:Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
     "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
     "outlet:BBC"
    ],
@@ -70,7 +58,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-15T23:52:10+00:00"
+     "at": "2026-11-16T03:21:56+00:00"
     }
    ],
    "id": "wk-Q1621643",
@@ -145,13 +133,13 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-15T21:25:04+00:00",
+   "news_at": "2026-11-15T14:23:05+00:00",
    "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+    "Jordan sentences three men to death by hanging after deadly church attack"
    ],
    "region": "world",
    "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
    ],
    "owners": [],
    "reports": [],
@@ -251,50 +239,38 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q1621643",
-   "title": "Miguel Ángel Félix Gallardo",
-   "fame": 160184,
-   "views": 10184,
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 175000,
+   "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-15T23:52:10+00:00",
+   "news": 125000,
+   "news_at": "2026-11-16T00:00:00+00:00",
    "headlines": [
-    "Mexican drug lord Miguel Angel Felix Gallardo dies age 80"
+    "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-15",
-    "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-    "outlet:BBC"
+    "wikipedia-current-events-2026-11-15",
+    "google-news:Clothing factories shut in Bangladesh as workers strike over pay"
    ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-     "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T23:52:10+00:00"
-    }
-   ],
-   "id": "wk-Q1621643",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
   }
  ],
  "outlets": {
-  "headlines": 630,
+  "headlines": 626,
   "feeds": 29,
   "owners": 21,
-  "matched": 23,
+  "matched": 26,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 630 headlines from 29 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 626 headlines from 29 feeds (21 owners), 26 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
