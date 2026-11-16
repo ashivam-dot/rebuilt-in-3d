@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T09:53:11+00:00",
+ "at": "2026-11-16T10:25:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -24,6 +24,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-15T21:25:04+00:00",
+   "headlines": [
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q7329244",
@@ -91,7 +118,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T09:53:11.189195+00:00",
+   "news_at": "2026-11-16T10:25:49.298110+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -145,33 +172,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T21:25:04+00:00",
-   "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -279,13 +279,33 @@
  "hazards": [],
  "candidates": [
   {
+   "qid": "Q7329244",
+   "title": "Richard Sterban",
+   "fame": 96199,
+   "views": 96199,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7329244",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
+  },
+  {
    "qid": "Q142179721",
    "title": "2026 Patong fire",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T09:53:11.189195+00:00",
+   "news_at": "2026-11-16T10:25:49.298110+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -301,16 +321,13 @@
    "has_coords": false
   }
  ],
- "trend_errors": [
-  "outlet france24: HTTPError: 404 Client Error: Not Found for url: https://www.france24.com/en/rss"
- ],
  "outlets": {
-  "headlines": 651,
-  "feeds": 28,
-  "owners": 20,
-  "matched": 35,
+  "headlines": 678,
+  "feeds": 29,
+  "owners": 21,
+  "matched": 46,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 651 headlines from 28 feeds (20 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 678 headlines from 29 feeds (21 owners), 46 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
