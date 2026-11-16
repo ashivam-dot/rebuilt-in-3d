@@ -1,55 +1,44 @@
 {
- "at": "2026-11-16T05:24:37+00:00",
+ "at": "2026-11-16T05:54:11+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-16T01:05:44+00:00",
-   "headlines": [
-    "Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-15",
-    "google-news:Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-16",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q1621643",
    "title": "Miguel Ángel Félix Gallardo",
-   "fame": 160184,
+   "fame": 185184,
    "views": 10184,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-16T03:21:56+00:00",
+   "news": 175000,
+   "news_at": "2026-11-16T05:39:00+00:00",
    "headlines": [
     "Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
+    "Mexican drug lord Felix Gallardo dies at 80",
     "Mexican drug lord Miguel Angel Felix Gallardo dies age 80"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-15",
     "google-news:Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
+    "google-news:Mexican drug lord Felix Gallardo dies at 80",
     "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
+    "outlet:Deutsche Welle",
     "outlet:BBC"
    ],
    "owners": [
+    "Deutsche Welle",
     "BBC"
    ],
    "reports": [
+    {
+     "title": "Mexican drug lord Felix Gallardo dies at 80",
+     "url": "https://www.dw.com/en/mexican-drug-lord-felix-gallardo-dies-at-80/a-79954351?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T05:39:00+00:00"
+    },
     {
      "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
      "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
@@ -85,6 +74,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-16T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q5213677",
@@ -259,12 +270,12 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 646,
+  "headlines": 650,
   "feeds": 29,
   "owners": 21,
   "matched": 23,
-  "corroborated": 0
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 646 headlines from 29 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 650 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
