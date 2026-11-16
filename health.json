@@ -1,10 +1,11 @@
 {
- "at": "2026-11-16T20:27:37+00:00",
+ "at": "2026-11-16T20:55:50+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 26 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 1 hazard alerts",
-  "outlets: 751 headlines from 30 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "quiet day (no Short yet today): 0 tribute candidates"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 27 units today",
+  "watch: 0 candidates (0 quakes, 0 trending), 1 hazard alerts",
+  "outlets: 750 headlines from 30 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "quiet day (no Short yet today): 0 tribute candidates",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503', 'wikidata: Extra data: line 188 column 2 (char 4584)']"
  ]
 }
