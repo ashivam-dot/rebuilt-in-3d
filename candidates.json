@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T12:23:17+00:00",
+ "at": "2026-11-16T12:55:17+00:00",
  "quakes": [],
  "trending": [
   {
@@ -24,6 +24,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-15T21:25:04+00:00",
+   "headlines": [
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q7329244",
@@ -91,7 +118,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T12:23:17.316363+00:00",
+   "news_at": "2026-11-16T12:55:17.488827+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -145,33 +172,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T21:25:04+00:00",
-   "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -277,37 +277,14 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142179721",
-   "title": "2026 Patong fire",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-16T12:23:17.316363+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-16"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142179721",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-16",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 693,
+  "headlines": 701,
   "feeds": 29,
   "owners": 21,
   "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 693 headlines from 29 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 701 headlines from 29 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
