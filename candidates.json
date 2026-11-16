@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T19:54:37+00:00",
+ "at": "2026-11-16T20:27:38+00:00",
  "quakes": [],
  "trending": [
   {
@@ -95,7 +95,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T19:54:37.566564+00:00",
+   "news_at": "2026-11-16T20:27:38.272236+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -273,40 +273,28 @@
    "date": "2026-11-15"
   }
  ],
- "hazards": [],
- "candidates": [
+ "hazards": [
   {
-   "qid": "Q897037",
-   "title": "László Sáry",
-   "fame": 1495,
-   "views": 1495,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q897037",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-13"
+   "id": "gdacs-TC-1001351",
+   "kind": "TC",
+   "level": "Orange",
+   "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (20.826 million in Tropical Storm).",
+   "country": "India",
+   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+   "published": "2026-11-16T20:06:39+00:00",
+   "lat": "11.3",
+   "lon": "86.7"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 165 people)"
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 745,
+  "headlines": 751,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
+  "matched": 32,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: László Sáry"
+ "outlet_note": "outlets: 751 headlines from 30 feeds (21 owners), 32 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
 }
