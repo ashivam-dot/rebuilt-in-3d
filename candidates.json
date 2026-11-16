@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T01:23:34+00:00",
+ "at": "2026-11-16T01:52:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -40,6 +40,42 @@
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q1621643",
+   "title": "Miguel Ángel Félix Gallardo",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-15T23:52:10+00:00",
+   "headlines": [
+    "Mexican drug lord Miguel Angel Felix Gallardo dies age 80"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
+     "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-15T23:52:10+00:00"
+    }
+   ],
+   "id": "wk-Q1621643",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
   },
   {
    "qid": "Q141820731",
@@ -258,42 +294,6 @@
    "date": "2026-11-12"
   },
   {
-   "qid": "Q1621643",
-   "title": "Miguel Ángel Félix Gallardo",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-15T23:52:10+00:00",
-   "headlines": [
-    "Mexican drug lord Miguel Angel Felix Gallardo dies age 80"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-     "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T23:52:10+00:00"
-    }
-   ],
-   "id": "wk-Q1621643",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
-  },
-  {
    "qid": "Q142149760",
    "title": "2026 New Orleans ship collision",
    "fame": 23921,
@@ -422,10 +422,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 625,
+  "headlines": 628,
   "feeds": 29,
   "owners": 21,
-  "matched": 40,
+  "matched": 36,
   "corroborated": 1
  },
  "emerging": [
@@ -517,5 +517,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 625 headlines from 29 feeds (21 owners), 40 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike"
+ "outlet_note": "outlets: 628 headlines from 29 feeds (21 owners), 36 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike"
 }
