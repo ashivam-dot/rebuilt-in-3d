@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T17:57:52+00:00",
+ "at": "2026-11-16T18:25:40+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,13 +9,13 @@
    "views": 0,
    "traffic": 0,
    "news": 125000,
-   "news_at": "2026-11-15T21:25:04+00:00",
+   "news_at": "2026-11-15T14:23:05+00:00",
    "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+    "Jordan sentences three men to death by hanging after deadly church attack"
    ],
    "region": "world",
    "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
    ],
    "owners": [],
    "reports": [],
@@ -112,7 +112,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T17:57:52.021357+00:00",
+   "news_at": "2026-11-16T18:25:40.942582+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -308,15 +308,56 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q12405662",
+   "title": "Dvora Hacohen",
+   "fame": 1760,
+   "views": 1760,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q12405662",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-13"
+  },
+  {
+   "qid": "Q527048",
+   "title": "Peter Moran (bishop)",
+   "fame": 1207,
+   "views": 1207,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q527048",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-13"
+  }
+ ],
  "outlets": {
-  "headlines": 744,
+  "headlines": 747,
   "feeds": 30,
   "owners": 21,
   "matched": 41,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 744 headlines from 30 feeds (21 owners), 41 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
+ "outlet_note": "outlets: 747 headlines from 30 feeds (21 owners), 41 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 2 tribute candidates: Dvora Hacohen, Peter Moran (bishop)"
 }
