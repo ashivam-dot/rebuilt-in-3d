@@ -1,34 +1,7 @@
 {
- "at": "2026-11-16T16:25:13+00:00",
+ "at": "2026-11-16T16:54:35+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-15T21:25:04+00:00",
-   "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q7329244",
    "title": "Richard Sterban",
@@ -112,7 +85,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T16:25:13.077977+00:00",
+   "news_at": "2026-11-16T16:54:35.522933+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -291,36 +264,22 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q3505507",
-   "title": "Oldřich Svojanovský",
-   "fame": 1116,
-   "views": 1116,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3505507",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
-  }
+ "candidates": [],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 730,
+  "headlines": 732,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 40,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 730 headlines from 30 feeds (21 owners), 41 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: Oldřich Svojanovský"
+ "outlet_note": "outlets: 732 headlines from 30 feeds (21 owners), 40 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
 }
