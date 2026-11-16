@@ -186,7 +186,7 @@ def build_incident(cand: dict) -> Short:
     title = plain_title(article)
     _check_age(article)
     ent = wiki.entities([qid])[qid]
-    _, ib, _ = wiki.infobox(article)
+    _, ib, raw = wiki.infobox(article)
     when = _event_date(ent) or infobox_date(ib, raw)
     if not when:
         raise ValueError("gate: Wikidata has no date for this event")
