@@ -1,10 +1,11 @@
 {
- "at": "2026-11-16T02:22:22+00:00",
+ "at": "2026-11-16T02:52:12+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 89 units today",
-  "watch: 0 candidates (0 quakes, 14 trending), 0 hazard alerts",
-  "outlets: 628 headlines from 29 feeds (21 owners), 27 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 145 people)\"]"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 90 units today",
+  "watch: 1 candidates (0 quakes, 10 trending), 0 hazard alerts",
+  "outlets: 630 headlines from 29 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q1621643: gate: only 1 usable photos of Miguel Ángel Félix Gallardo on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
