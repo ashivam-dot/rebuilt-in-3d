@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T01:52:51+00:00",
+ "at": "2026-11-16T02:22:23+00:00",
  "quakes": [],
  "trending": [
   {
@@ -78,131 +78,18 @@
    "date": "2026-11-15"
   },
   {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-15T21:25:04+00:00",
-   "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261115-bahrain-strike",
-   "qid": null,
-   "title": "Iran claims drone attack on US military base in Bahrain",
-   "name": "Bahrain",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-15",
-   "news_at": "2026-11-15T18:03:56+00:00",
-   "owners": [
-    "BBC",
-    "France Médias Monde",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iran targets US military base in Bahrain with drone attack",
-    "Bahrain says air defences destroyed several Iranian drones attacking US base",
-    "Iran claims drone attack on US military base in Bahrain",
-    "Iran launches drone attacks against US military base in Bahrain"
-   ],
-   "places": [],
-   "attackers": [
-    "Iran",
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iran claims drone attack on US military base in Bahrain",
-     "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T15:29:22+00:00"
-    },
-    {
-     "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-     "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T13:55:32+00:00"
-    },
-    {
-     "title": "Iran targets US military base in Bahrain with drone attack",
-     "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T13:42:58+00:00"
-    },
-    {
-     "title": "Iran launches drone attacks against US military base in Bahrain",
-     "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-15T18:03:56+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:France Médias Monde",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q5213677",
    "title": "Dan Hicks (sportscaster)",
-   "fame": 40928,
+   "fame": 50928,
    "views": 40928,
-   "traffic": 0,
+   "traffic": 10000,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-14"
+    "wikipedia-top-2026-11-14",
+    "google-trends-US:dan hicks wife"
    ],
    "owners": [],
    "reports": [],
@@ -292,6 +179,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-12"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T21:25:04+00:00",
+   "headlines": [
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q142149760",
@@ -421,101 +335,16 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 145 people)"
+ ],
  "outlets": {
   "headlines": 628,
   "feeds": 29,
   "owners": 21,
-  "matched": 36,
-  "corroborated": 1
+  "matched": 27,
+  "corroborated": 0
  },
- "emerging": [
-  {
-   "id": "nw-20261115-bahrain-strike",
-   "qid": null,
-   "title": "Iran claims drone attack on US military base in Bahrain",
-   "name": "Bahrain",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-15",
-   "news_at": "2026-11-15T18:03:56+00:00",
-   "owners": [
-    "BBC",
-    "France Médias Monde",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iran targets US military base in Bahrain with drone attack",
-    "Bahrain says air defences destroyed several Iranian drones attacking US base",
-    "Iran claims drone attack on US military base in Bahrain",
-    "Iran launches drone attacks against US military base in Bahrain"
-   ],
-   "places": [],
-   "attackers": [
-    "Iran",
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iran claims drone attack on US military base in Bahrain",
-     "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T15:29:22+00:00"
-    },
-    {
-     "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-     "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T13:55:32+00:00"
-    },
-    {
-     "title": "Iran targets US military base in Bahrain with drone attack",
-     "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-15T13:42:58+00:00"
-    },
-    {
-     "title": "Iran launches drone attacks against US military base in Bahrain",
-     "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-15T18:03:56+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:France Médias Monde",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 628 headlines from 29 feeds (21 owners), 36 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261115-bahrain-strike"
+ "emerging": [],
+ "outlet_note": "outlets: 628 headlines from 29 feeds (21 owners), 27 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
