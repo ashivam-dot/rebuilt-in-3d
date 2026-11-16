@@ -1,12 +1,12 @@
 {
- "at": "2026-11-16T10:54:34+00:00",
+ "at": "2026-11-16T11:27:10+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
-  "watch: 2 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 681 headlines from 29 feeds (21 owners), 45 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wk-Q142179721: gate: the article is under 6 hours old; facts may still move (ready in 1.4 h)",
-  "skip wk-Q553872: gate: only 3 usable photos of Tim Holden on Wikimedia Commons (want 4)",
+  "learn: 73 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 36, 'lift': 1.221, 'typical_views_24h': 356, 'n_retention': 35, 'typical_view_pct': 52.8}, 'kind:incident': {'n': 29, 'lift': 0.917, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.1}, 'category:death': {'n': 35, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 7 units today",
+  "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 687 headlines from 29 feeds (21 owners), 42 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "wait wk-Q142179721: gate: the article is under 6 hours old; facts may still move (ready in 0.9 h)",
   "nothing eligible to publish"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T10:54:35+00:00",
+ "at": "2026-11-16T11:27:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -24,33 +24,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
-  },
-  {
-   "qid": "Q141820731",
-   "title": "2026 Karak church shooting",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-15T21:25:04+00:00",
-   "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141820731",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-10-23",
-   "coords": [
-    31.289434,
-    35.79955
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q7329244",
@@ -118,7 +91,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T10:54:35.807130+00:00",
+   "news_at": "2026-11-16T11:27:12.538300+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -172,6 +145,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T21:25:04+00:00",
+   "headlines": [
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -274,26 +274,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": "Q553872",
-   "title": "Tim Holden",
-   "fame": 100,
-   "views": 0,
-   "traffic": 100,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:tim holden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q553872",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
   }
  ],
  "hazards": [],
@@ -305,7 +285,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T10:54:35.807130+00:00",
+   "news_at": "2026-11-16T11:27:12.538300+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -319,35 +299,15 @@
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q553872",
-   "title": "Tim Holden",
-   "fame": 100,
-   "views": 0,
-   "traffic": 100,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:tim holden"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q553872",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
   }
  ],
  "outlets": {
-  "headlines": 681,
+  "headlines": 687,
   "feeds": 29,
   "owners": 21,
-  "matched": 45,
+  "matched": 42,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 681 headlines from 29 feeds (21 owners), 45 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 687 headlines from 29 feeds (21 owners), 42 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
