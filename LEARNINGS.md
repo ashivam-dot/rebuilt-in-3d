@@ -1,23 +1,23 @@
 # What this channel's own numbers say
 
-Updated 2026-11-16T14:57:07+00:00. Scored Shorts (views at 24 h): 73. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-16T17:57:50+00:00. Scored Shorts (views at 24 h): 74. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
-Baseline: a typical Short has 216 views at 24 h.
+Baseline: a typical Short has 221 views at 24 h.
 Retention: a typical Short is watched 55.8% through; a group's retention is blended into its lift at 0.5.
 - category:cyclone: x1.35 ranking lift (4 Shorts, typical 508 views; 4 with retention, typically 111.9% watched)
-- kind:death: x1.221 ranking lift (36 Shorts, typical 356 views; 35 with retention, typically 52.8% watched)
-- category:death: x1.2 ranking lift (35 Shorts, typical 341 views; 34 with retention, typically 53.1% watched)
-- kind:incident: x0.917 ranking lift (29 Shorts, typical 170 views; 29 with retention, typically 58.1% watched)
-- category:attack: x0.879 ranking lift (4 Shorts, typical 128 views; 4 with retention, typically 56.0% watched)
-- category:protest: x0.76 ranking lift (9 Shorts, typical 97 views; 9 with retention, typically 56.1% watched)
+- kind:death: x1.226 ranking lift (37 Shorts, typical 366 views; 35 with retention, typically 52.8% watched)
+- category:death: x1.206 ranking lift (36 Shorts, typical 352 views; 34 with retention, typically 53.1% watched)
+- kind:incident: x0.909 ranking lift (29 Shorts, typical 170 views; 29 with retention, typically 58.1% watched)
+- category:attack: x0.875 ranking lift (4 Shorts, typical 128 views; 4 with retention, typically 56.0% watched)
+- category:protest: x0.754 ranking lift (9 Shorts, typical 97 views; 9 with retention, typically 56.1% watched)
 - kind:quake: x0.75 ranking lift (8 Shorts, typical 54 views; 7 with retention, typically 62.1% watched)
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q321457 | 2026-11-15T15:23 | death | death | 1051 |  |
-| wk-Q2225687 | 2026-11-14T20:30 | death | death | 348 | 108 |
-| wk-Q7308546 | 2026-11-13T04:26 | death | death | 1201 | 1143 |
-| wk-Q951199 | 2026-11-12T20:30 | death | death | 1125 | 979 |
+| wk-Q321457 | 2026-11-15T15:23 | death | death | 1057 | 1052 |
+| wk-Q2225687 | 2026-11-14T20:30 | death | death | 438 | 108 |
+| wk-Q7308546 | 2026-11-13T04:26 | death | death | 1203 | 1143 |
+| wk-Q951199 | 2026-11-12T20:30 | death | death | 1128 | 979 |
 | wk-Q5209002 | 2026-11-11T04:13 | death | death | 467 | 388 |
 | wk-Q2654764 | 2026-11-10T09:33 | death | death | 1255 | 851 |
 | wk-Q1150359 | 2026-11-08T20:30 | death | death | 705 | 369 |
@@ -43,4 +43,4 @@ Retention: a typical Short is watched 55.8% through; a group's retention is blen
 | wk-Q376176 | 2026-10-26T20:55 | death | death | 4507 | 1424 |
 | wk-Q141615137-2026w44 | 2026-10-26T19:07 | incident | protest | 118 | 65 |
 | wk-Q5386105 | 2026-10-26T08:15 | death | death | 29 | 24 |
-| wk-Q983618 | 2026-10-24T22:07 | death | death | 1546 | 1182 |
+| wk-Q983618 | 2026-10-24T22:07 | death | death | 1547 | 1182 |
