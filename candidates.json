@@ -1,93 +1,13 @@
 {
- "at": "2026-11-16T07:15:33+00:00",
+ "at": "2026-11-16T07:52:51+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q142179721",
-   "title": "2026 Patong fire",
-   "fame": 225000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-16T07:15:33.742995+00:00",
-   "headlines": [
-    "Fire in Phuket shophouse kills 11 injures 16, police say",
-    "Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
-    "Shophouse fire kills at least 11 in Phuket"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-16",
-    "google-news:Fire in Phuket shophouse kills 11 injures 16, police say",
-    "google-news:Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
-    "google-news:Shophouse fire kills at least 11 in Phuket",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/video-massive-blaze-rips-through-resort-in-thailands-phuket-11-killed/articleshow/135872878.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-16T04:35:20+00:00"
-    },
-    {
-     "title": "Shophouse fire kills at least 11 in Phuket",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-16T03:51:43+00:00"
-    }
-   ],
-   "id": "wk-Q142179721",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-16",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-16T01:05:44+00:00",
-   "headlines": [
-    "Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-15",
-    "google-news:Clothing factories shut in Bangladesh as workers strike over pay"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-16",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q1621643",
    "title": "Miguel Ángel Félix Gallardo",
-   "fame": 160184,
+   "fame": 160284,
    "views": 10184,
-   "traffic": 0,
+   "traffic": 100,
    "news": 150000,
    "news_at": "2026-11-16T05:39:00+00:00",
    "headlines": [
@@ -97,6 +17,7 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-15",
+    "google-trends-GB:miguel ángel félix gallardo",
     "google-news:Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
     "google-news:Mexican drug lord Felix Gallardo dies at 80",
     "outlet:Deutsche Welle"
@@ -140,6 +61,50 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-16T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142179721",
+   "title": "2026 Patong fire",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-16T07:52:51.872258+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-16"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142179721",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q5213677",
@@ -188,13 +153,13 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-15T12:23:04+00:00",
+   "news_at": "2026-11-15T14:23:05+00:00",
    "headlines": [
-    "Jordan sentences three men to death over deadly church attack"
+    "Jordan sentences three men to death by hanging after deadly church attack"
    ],
    "region": "world",
    "via": [
-    "google-news:Jordan sentences three men to death over deadly church attack"
+    "google-news:Jordan sentences three men to death by hanging after deadly church attack"
    ],
    "owners": [],
    "reports": [],
@@ -316,51 +281,18 @@
   {
    "qid": "Q142179721",
    "title": "2026 Patong fire",
-   "fame": 225000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-16T07:15:33.742995+00:00",
-   "headlines": [
-    "Fire in Phuket shophouse kills 11 injures 16, police say",
-    "Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
-    "Shophouse fire kills at least 11 in Phuket"
-   ],
+   "news": 0,
+   "news_at": "2026-11-16T07:52:51.872258+00:00",
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-16",
-    "google-news:Fire in Phuket shophouse kills 11 injures 16, police say",
-    "google-news:Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
-    "google-news:Shophouse fire kills at least 11 in Phuket",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Al Jazeera Media Network"
+    "wikipedia-current-events-2026-11-16"
    ],
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/video-massive-blaze-rips-through-resort-in-thailands-phuket-11-killed/articleshow/135872878.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-16T04:35:20+00:00"
-    },
-    {
-     "title": "Shophouse fire kills at least 11 in Phuket",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-16T03:51:43+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q142179721",
    "kind": "incident",
    "category": "disaster",
@@ -370,12 +302,12 @@
   }
  ],
  "outlets": {
-  "headlines": 665,
+  "headlines": 661,
   "feeds": 29,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 1
+  "matched": 30,
+  "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 665 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 661 headlines from 29 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
