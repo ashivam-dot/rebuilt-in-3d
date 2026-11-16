@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T14:57:09+00:00",
+ "at": "2026-11-16T15:26:07+00:00",
  "quakes": [],
  "trending": [
   {
@@ -135,7 +135,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T14:57:09.449863+00:00",
+   "news_at": "2026-11-16T15:26:07.540331+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -296,33 +296,71 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q1621643",
-   "title": "Miguel Ángel Félix Gallardo",
-   "fame": 135184,
-   "views": 10184,
+   "qid": "Q142179721",
+   "title": "2026 Patong fire",
+   "fame": 50000,
+   "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-16T03:21:56+00:00",
+   "news": 0,
+   "news_at": "2026-11-16T15:26:07.540331+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-16"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142179721",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-16T01:05:44+00:00",
    "headlines": [
-    "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80"
+    "Clothing factories shut in Bangladesh as workers strike over pay"
    ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-15",
-    "google-news:Mexican drug lord Miguel Ángel Félix Gallardo dies age 80"
+    "wikipedia-current-events-2026-11-15",
+    "google-news:Clothing factories shut in Bangladesh as workers strike over pay",
+    "outlet:BBC"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1621643",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+     "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T01:05:44+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
   },
   {
-   "qid": "Q63707157",
-   "title": "Carlo Favre",
-   "fame": 1182,
-   "views": 1182,
+   "qid": "Q17058802",
+   "title": "Zahidi Zainul Abidin",
+   "fame": 4365,
+   "views": 4365,
    "traffic": 0,
    "news": 0,
    "news_at": null,
@@ -333,36 +371,16 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q63707157",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-14"
-  },
-  {
-   "qid": "Q897037",
-   "title": "László Sáry",
-   "fame": 1495,
-   "views": 1495,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q897037",
+   "id": "wk-Q17058802",
    "kind": "death",
    "category": "death",
    "date": "2026-11-13"
   },
   {
-   "qid": "Q527048",
-   "title": "Peter Moran (bishop)",
-   "fame": 1207,
-   "views": 1207,
+   "qid": "Q7123641",
+   "title": "Paddy Turner",
+   "fame": 1656,
+   "views": 1656,
    "traffic": 0,
    "news": 0,
    "news_at": null,
@@ -373,7 +391,27 @@
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q527048",
+   "id": "wk-Q7123641",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-14"
+  },
+  {
+   "qid": "Q12405662",
+   "title": "Dvora Hacohen",
+   "fame": 1760,
+   "views": 1760,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q12405662",
    "kind": "death",
    "category": "death",
    "date": "2026-11-13"
@@ -460,13 +498,13 @@
   }
  ],
  "outlets": {
-  "headlines": 715,
+  "headlines": 720,
   "feeds": 29,
   "owners": 21,
-  "matched": 23,
+  "matched": 24,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 715 headlines from 29 feeds (21 owners), 23 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 7 tribute candidates: Ujjal Biswas, László Sáry, Karl Johan Åström, Jean Puech"
+ "outlet_note": "outlets: 720 headlines from 29 feeds (21 owners), 24 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 7 tribute candidates: Zahidi Zainul Abidin, Ujjal Biswas, Dvora Hacohen, Paddy Turner"
 }
