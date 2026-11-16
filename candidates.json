@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T18:55:12+00:00",
+ "at": "2026-11-16T19:25:31+00:00",
  "quakes": [],
  "trending": [
   {
@@ -112,7 +112,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T18:55:12.439864+00:00",
+   "news_at": "2026-11-16T19:25:31.274274+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -166,43 +166,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": "Q1621643",
-   "title": "Miguel Ángel Félix Gallardo",
-   "fame": 35184,
-   "views": 10184,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-16T17:14:36+00:00",
-   "headlines": [
-    "Mexican drug kingpin Félix Gallardo, founder of Guadalajara cartel, dies at 80"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-15",
-    "google-news:Mexican drug kingpin Félix Gallardo, founder of Guadalajara cartel, dies at 80",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Mexican drug kingpin Félix Gallardo, founder of Guadalajara cartel, dies at 80",
-     "url": "https://abcnews.com/International/wireStory/mexican-drug-kingpin-flix-gallardo-founder-guadalajara-cartel-138183861",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-16T17:14:36+00:00"
-    }
-   ],
-   "id": "wk-Q1621643",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
   },
   {
    "qid": "Q141921562",
@@ -305,18 +268,59 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
+  },
+  {
+   "qid": "Q1621643",
+   "title": "Miguel Ángel Félix Gallardo",
+   "fame": 10184,
+   "views": 10184,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-15"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1621643",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q3174139",
+   "title": "Jean Puech",
+   "fame": 1238,
+   "views": 1238,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3174139",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-12"
+  }
+ ],
  "outlets": {
-  "headlines": 745,
+  "headlines": 748,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 30,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 745 headlines from 30 feeds (21 owners), 38 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
+ "outlet_note": "outlets: 748 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: Jean Puech"
 }
