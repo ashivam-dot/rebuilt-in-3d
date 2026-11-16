@@ -1,15 +1,15 @@
 {
- "at": "2026-11-16T06:52:40+00:00",
+ "at": "2026-11-16T07:15:33+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": null,
-   "title": "2026 Phuket fire",
+   "qid": "Q142179721",
+   "title": "2026 Patong fire",
    "fame": 225000,
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-16T06:52:40.515227+00:00",
+   "news_at": "2026-11-16T07:15:33.742995+00:00",
    "headlines": [
     "Fire in Phuket shophouse kills 11 injures 16, police say",
     "Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
@@ -50,9 +50,34 @@
      "at": "2026-11-16T03:51:43+00:00"
     }
    ],
-   "id": "wp-2026_Phuket_fire",
+   "id": "wk-Q142179721",
    "kind": "incident",
    "category": "disaster",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-16T01:05:44+00:00",
+   "headlines": [
+    "Clothing factories shut in Bangladesh as workers strike over pay"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-15",
+    "google-news:Clothing factories shut in Bangladesh as workers strike over pay"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
@@ -117,28 +142,6 @@
    "date": "2026-11-14"
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-16T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-16",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q5213677",
    "title": "Dan Hicks (sportscaster)",
    "fame": 43605,
@@ -185,13 +188,13 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-15T21:25:04+00:00",
+   "news_at": "2026-11-15T12:23:04+00:00",
    "headlines": [
-    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+    "Jordan sentences three men to death over deadly church attack"
    ],
    "region": "world",
    "via": [
-    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+    "google-news:Jordan sentences three men to death over deadly church attack"
    ],
    "owners": [],
    "reports": [],
@@ -311,13 +314,13 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": null,
-   "title": "2026 Phuket fire",
+   "qid": "Q142179721",
+   "title": "2026 Patong fire",
    "fame": 225000,
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-16T06:52:40.515227+00:00",
+   "news_at": "2026-11-16T07:15:33.742995+00:00",
    "headlines": [
     "Fire in Phuket shophouse kills 11 injures 16, police say",
     "Video: Massive blaze rips through resort in Thailand's Phuket; 11 killed",
@@ -358,7 +361,7 @@
      "at": "2026-11-16T03:51:43+00:00"
     }
    ],
-   "id": "wp-2026_Phuket_fire",
+   "id": "wk-Q142179721",
    "kind": "incident",
    "category": "disaster",
    "date": "2026-11-16",
@@ -367,12 +370,12 @@
   }
  ],
  "outlets": {
-  "headlines": 663,
+  "headlines": 665,
   "feeds": 29,
   "owners": 21,
-  "matched": 25,
+  "matched": 23,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 663 headlines from 29 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 665 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
