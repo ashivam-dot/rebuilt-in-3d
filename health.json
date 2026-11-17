@@ -1,12 +1,12 @@
 {
- "at": "2026-11-17T16:29:23+00:00",
+ "at": "2026-11-17T16:58:12+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 68 units today",
-  "watch: 2 candidates (0 quakes, 10 trending), 1 hazard alerts",
-  "outlets: 811 headlines from 30 feeds (21 owners), 37 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['google news world: HTTP 429']",
-  "hold wk-Q142084937-2026w47: last Short went out 1.9 h ago",
-  "hold wk-Q1621643: last Short went out 1.9 h ago"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 69 units today",
+  "watch: 2 candidates (0 quakes, 9 trending), 1 hazard alerts",
+  "outlets: 812 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "skip wk-Q142084937-2026w47: gate: only 1 usable photos of 2026 Bangladesh garment workers protests on Wikimedia Commons (want 4)",
+  "skip wk-Q1621643: gate: only 2 usable photos of Miguel Ángel Félix Gallardo on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
