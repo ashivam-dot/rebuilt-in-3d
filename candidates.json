@@ -1,22 +1,24 @@
 {
- "at": "2026-11-17T17:27:50+00:00",
+ "at": "2026-11-17T17:57:29+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 125000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-17T17:27:50.810475+00:00",
+   "news": 150000,
+   "news_at": "2026-11-17T17:57:29.524510+00:00",
    "headlines": [
+    "Bangladesh police clash with garment workers amid protests over wages",
     "Bangladesh garment workers clash with police in fresh wage protest"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-16",
     "wikipedia-current-events-2026-11-17",
+    "google-news:Bangladesh police clash with garment workers amid protests over wages",
     "google-news:Bangladesh garment workers clash with police in fresh wage protest",
     "outlet:SCMP Group"
    ],
@@ -147,6 +149,42 @@
    "date": "2026-11-14"
   },
   {
+   "qid": "Q732057",
+   "title": "Peter Storey",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-17T17:33:41+00:00",
+   "headlines": [
+    "Arsenal Double winner Storey dies aged 81"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Arsenal Double winner Storey dies aged 81",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Arsenal Double winner Storey dies aged 81",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T17:33:41+00:00"
+    }
+   ],
+   "id": "wk-Q732057",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
+  },
+  {
    "qid": "Q315090",
    "title": "Stacy Keach",
    "fame": 10903,
@@ -220,14 +258,51 @@
    "lon": "87.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q732057",
+   "title": "Peter Storey",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-17T17:33:41+00:00",
+   "headlines": [
+    "Arsenal Double winner Storey dies aged 81"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Arsenal Double winner Storey dies aged 81",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Arsenal Double winner Storey dies aged 81",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T17:33:41+00:00"
+    }
+   ],
+   "id": "wk-Q732057",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
+  }
+ ],
  "outlets": {
-  "headlines": 820,
+  "headlines": 824,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 29 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 824 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
