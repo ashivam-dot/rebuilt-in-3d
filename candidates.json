@@ -1,24 +1,22 @@
 {
- "at": "2026-11-17T18:35:28+00:00",
+ "at": "2026-11-17T18:59:30+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 250000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-17T18:35:28.866750+00:00",
+   "news": 25000,
+   "news_at": "2026-11-17T18:59:30.741630+00:00",
    "headlines": [
-    "Bangladesh police clash with garment workers amid protests over wages",
     "Bangladesh garment workers clash with police in fresh wage protest"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-16",
     "wikipedia-current-events-2026-11-17",
-    "google-news:Bangladesh police clash with garment workers amid protests over wages",
     "google-news:Bangladesh garment workers clash with police in fresh wage protest",
     "outlet:SCMP Group"
    ],
@@ -85,45 +83,6 @@
    "date": "2026-11-11"
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 52248,
-   "views": 27248,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-17T17:32:41+00:00",
-   "headlines": [
-    "Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-16",
-    "google-news:Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs",
-     "url": "https://abcnews.com/International/wireStory/thousands-demonstrate-haitis-capital-praise-bukele-salvadoran-troops-138217031",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-17T17:32:41+00:00"
-    }
-   ],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q142179721",
    "title": "2026 Patong fire",
    "fame": 50000,
@@ -144,6 +103,28 @@
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 27248,
+   "views": 27248,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-16"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q7329244",
@@ -277,12 +258,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 820,
+  "headlines": 819,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 30,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 33 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
