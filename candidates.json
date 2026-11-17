@@ -1,7 +1,30 @@
 {
- "at": "2026-11-16T23:25:49+00:00",
+ "at": "2026-11-16T23:55:41+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q1621643",
+   "title": "Miguel Ángel Félix Gallardo",
+   "fame": 135184,
+   "views": 10184,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-16T12:56:00+00:00",
+   "headlines": [
+    "Miguel Ángel Félix Gallardo, Mexican drug kingpin, dies at 80"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-15",
+    "google-news:Miguel Ángel Félix Gallardo, Mexican drug kingpin, dies at 80"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1621643",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
+  },
   {
    "qid": "Q7329244",
    "title": "Richard Sterban",
@@ -40,6 +63,82 @@
    "date": "2026-11-14"
   },
   {
+   "id": "nw-20261116-crimea-strike",
+   "qid": null,
+   "title": "Ukraine hits key Crimea bridge with drones",
+   "name": "Crimea",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-16",
+   "news_at": "2026-11-16T23:13:06+00:00",
+   "owners": [
+    "SCMP Group",
+    "BBC",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine strikes bridge linking Russia to Crimea in 1,336-drone barrage",
+    "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+    "Ukraine hits key Crimea bridge with drones"
+   ],
+   "places": [],
+   "attackers": [
+    "Ukraine",
+    "Ukrainian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Ukraine hits key Crimea bridge with drones",
+     "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T23:13:06+00:00"
+    },
+    {
+     "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+     "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T14:58:12+00:00"
+    },
+    {
+     "title": "Ukraine strikes bridge linking Russia to Crimea in 1,336-drone barrage",
+     "url": "https://www.scmp.com/week-asia/politics/article/3374595/ukraine-strikes-bridge-linking-russia-crimea-1336-drone-barrage",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-16T09:15:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 50000,
@@ -68,7 +167,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-16T23:25:49.576843+00:00",
+   "news_at": "2026-11-16T23:55:41.917691+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -122,6 +221,33 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
+  },
+  {
+   "qid": "Q141820731",
+   "title": "2026 Karak church shooting",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-15T21:25:04+00:00",
+   "headlines": [
+    "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Jordan Sentences 3 to Death Over Greek Orthodox Church Attack"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141820731",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-10-23",
+   "coords": [
+    31.289434,
+    35.79955
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -224,26 +350,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": "Q1621643",
-   "title": "Miguel Ángel Félix Gallardo",
-   "fame": 10184,
-   "views": 10184,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-15"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1621643",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
   }
  ],
  "hazards": [
@@ -259,18 +365,168 @@
    "lon": "86.7"
   }
  ],
- "candidates": [],
- "trend_errors": [
-  "google news world: HTTP 429"
+ "candidates": [
+  {
+   "id": "nw-20261116-crimea-strike",
+   "qid": null,
+   "title": "Ukraine hits key Crimea bridge with drones",
+   "name": "Crimea",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-16",
+   "news_at": "2026-11-16T23:13:06+00:00",
+   "owners": [
+    "SCMP Group",
+    "BBC",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine strikes bridge linking Russia to Crimea in 1,336-drone barrage",
+    "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+    "Ukraine hits key Crimea bridge with drones"
+   ],
+   "places": [],
+   "attackers": [
+    "Ukraine",
+    "Ukrainian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Ukraine hits key Crimea bridge with drones",
+     "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T23:13:06+00:00"
+    },
+    {
+     "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+     "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T14:58:12+00:00"
+    },
+    {
+     "title": "Ukraine strikes bridge linking Russia to Crimea in 1,336-drone barrage",
+     "url": "https://www.scmp.com/week-asia/politics/article/3374595/ukraine-strikes-bridge-linking-russia-crimea-1336-drone-barrage",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-16T09:15:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  }
  ],
  "outlets": {
-  "headlines": 760,
+  "headlines": 761,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 0
+  "matched": 31,
+  "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 760 headlines from 30 feeds (21 owners), 33 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 0 tribute candidates"
+ "emerging": [
+  {
+   "id": "nw-20261116-crimea-strike",
+   "qid": null,
+   "title": "Ukraine hits key Crimea bridge with drones",
+   "name": "Crimea",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-16",
+   "news_at": "2026-11-16T23:13:06+00:00",
+   "owners": [
+    "SCMP Group",
+    "BBC",
+    "France Médias Monde"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine strikes bridge linking Russia to Crimea in 1,336-drone barrage",
+    "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+    "Ukraine hits key Crimea bridge with drones"
+   ],
+   "places": [],
+   "attackers": [
+    "Ukraine",
+    "Ukrainian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Ukraine hits key Crimea bridge with drones",
+     "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T23:13:06+00:00"
+    },
+    {
+     "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+     "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-16T14:58:12+00:00"
+    },
+    {
+     "title": "Ukraine strikes bridge linking Russia to Crimea in 1,336-drone barrage",
+     "url": "https://www.scmp.com/week-asia/politics/article/3374595/ukraine-strikes-bridge-linking-russia-crimea-1336-drone-barrage",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-16T09:15:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:BBC",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 761 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261116-crimea-strike"
 }
