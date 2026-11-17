@@ -336,10 +336,12 @@
   "rules": "anchored-2026-10"
  },
  "wk-Q141808612": {
-  "count": 2,
-  "reason": "gate: faceless: no free photo shows 2026 Croix-des-Bouquets gang ambush or the event itself (only 4 photos of places or things near it)",
-  "at": "2026-10-23T19:53:45+00:00",
-  "rules": "anchored-2026-10"
+  "count": 3,
+  "reason": "gate: only 2 usable photos of 2026 Croix-des-Bouquets kidnapping on Wikimedia Commons (want 4)",
+  "at": "2026-11-17T23:40:41+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  },
  "wk-Q983618": {
   "count": 4,
@@ -1497,9 +1499,17 @@
   "kind": "incident"
  },
  "nw-20261117-siberia-aviation": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: faceless: no free photo shows Siberia or the event itself (only 2 photos of places or things near it)",
-  "at": "2026-11-17T20:03:26+00:00",
+  "at": "2026-11-17T23:40:18+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261117-qeshm-island-strike": {
+  "count": 1,
+  "reason": "gate: faceless: no free photo shows Qeshm Island or the event itself (only 0 photos of places or things near it)",
+  "at": "2026-11-17T23:40:22+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"

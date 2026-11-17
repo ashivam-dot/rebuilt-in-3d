@@ -1,7 +1,72 @@
 {
- "at": "2026-11-17T23:05:27+00:00",
+ "at": "2026-11-17T23:37:00+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-11-17T21:24:35+00:00",
+   "headlines": [
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "Ukraine damages Russia’s Crimean bridge in major strike"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
+    "outlet:BBC",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "BBC",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    },
+    {
+     "title": "How the attack on Crimean Bridge unfolded",
+     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T15:38:10+00:00"
+    },
+    {
+     "title": "Ukraine damages Russia’s Crimean bridge in major strike",
+     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T13:21:42+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -9,7 +74,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-17T23:05:27.711715+00:00",
+   "news_at": "2026-11-17T23:37:00.314879+00:00",
    "headlines": [
     "Bangladesh garment workers clash with police in fresh wage protest"
    ],
@@ -295,71 +360,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-17T21:24:35+00:00",
-   "headlines": [
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukraine damages Russia’s Crimean bridge in major strike"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
-    "outlet:BBC",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "BBC",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    },
-    {
-     "title": "How the attack on Crimean Bridge unfolded",
-     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T15:38:10+00:00"
-    },
-    {
-     "title": "Ukraine damages Russia’s Crimean bridge in major strike",
-     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T13:21:42+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q141921562",
    "title": "Salvadoran military intervention in Haiti",
    "fame": 27248,
@@ -496,6 +496,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
+  },
+  {
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets kidnapping",
+   "fame": 2000,
+   "views": 0,
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:estados unidos - haití"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141808612",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-18",
+   "coords": null,
+   "has_coords": true
   }
  ],
  "hazards": [
@@ -623,6 +645,71 @@
    "article": null
   },
   {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-11-17T21:24:35+00:00",
+   "headlines": [
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "Ukraine damages Russia’s Crimean bridge in major strike"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
+    "outlet:BBC",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "BBC",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    },
+    {
+     "title": "How the attack on Crimean Bridge unfolded",
+     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T15:38:10+00:00"
+    },
+    {
+     "title": "Ukraine damages Russia’s Crimean bridge in major strike",
+     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T13:21:42+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
+  {
    "id": "nw-20261117-qeshm-island-strike",
    "qid": null,
    "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
@@ -703,73 +790,30 @@
    "article": null
   },
   {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 50000,
+   "qid": "Q141808612",
+   "title": "2026 Croix-des-Bouquets kidnapping",
+   "fame": 2000,
    "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-17T21:24:35+00:00",
-   "headlines": [
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukraine damages Russia’s Crimean bridge in major strike"
-   ],
+   "traffic": 2000,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
-    "outlet:BBC",
-    "outlet:SCMP Group"
+    "google-trends-US:estados unidos - haití"
    ],
-   "owners": [
-    "BBC",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    },
-    {
-     "title": "How the attack on Crimean Bridge unfolded",
-     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T15:38:10+00:00"
-    },
-    {
-     "title": "Ukraine damages Russia’s Crimean bridge in major strike",
-     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T13:21:42+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141808612",
    "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
+   "category": "conflict",
+   "date": "2026-10-18",
+   "coords": null,
    "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 827,
+  "headlines": 822,
   "feeds": 30,
   "owners": 21,
   "matched": 35,
@@ -967,5 +1011,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 827 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261117-siberia-aviation, nw-20261117-qeshm-island-strike"
+ "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261117-siberia-aviation, nw-20261117-qeshm-island-strike"
 }
