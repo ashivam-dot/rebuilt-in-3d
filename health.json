@@ -1,13 +1,17 @@
 {
- "at": "2026-11-17T20:28:38+00:00",
+ "at": "2026-11-17T21:00:43+00:00",
  "ok": true,
  "steps": [
-  "learn: 74 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 37, 'lift': 1.225, 'typical_views_24h': 366, 'n_retention': 35, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.909, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.1}, 'category:death': {'n': 36, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 77 units today",
-  "watch: 1 candidates (0 quakes, 12 trending), 1 hazard alerts",
-  "outlets: 822 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-siberia-aviation",
-  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 161 people)']",
-  "wait wk-Q142193600: gate: the article is under 6 hours old; facts may still move (ready in 4.9 h)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 78 units today",
+  "watch: 2 candidates (0 quakes, 13 trending), 1 hazard alerts",
+  "outlets: 820 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-siberia-aviation",
+  "published wk-Q3138557: https://www.youtube.com/shorts/1RkMHcqQyvE"
+ ],
+ "published": {
+  "video_id": "1RkMHcqQyvE",
+  "url": "https://www.youtube.com/shorts/1RkMHcqQyvE",
+  "title": "Nabeel Rajab, Human Rights Activist, Dies at 62",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
