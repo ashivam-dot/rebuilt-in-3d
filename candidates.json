@@ -1,34 +1,73 @@
 {
- "at": "2026-11-17T20:00:37+00:00",
+ "at": "2026-11-17T20:28:41+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q142193600",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 200000,
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-17T16:56:38+00:00",
+   "news": 150000,
+   "news_at": "2026-11-17T20:28:41.102183+00:00",
    "headlines": [
-    "How the attack on Putin's prized Crimean Bridge unfolded",
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukraine damages Russia’s Crimean bridge in major strike",
-    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project"
+    "Bangladesh police clash with garment workers amid protests over wages",
+    "Bangladesh garment workers clash with police in fresh wage protest"
    ],
    "region": "world",
    "via": [
-    "google-news:How the attack on Putin's prized Crimean Bridge unfolded",
+    "wikipedia-current-events-2026-11-16",
+    "wikipedia-current-events-2026-11-17",
+    "google-news:Bangladesh police clash with garment workers amid protests over wages",
+    "google-news:Bangladesh garment workers clash with police in fresh wage protest",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment workers clash with police in fresh wage protest",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3374768/bangladesh-garment-workers-clash-police-fresh-wage-protest",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:15:09+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-17",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142193600",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-11-17T18:19:34+00:00",
+   "headlines": [
+    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "Ukraine damages Russia’s Crimean bridge in major strike"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
     "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
     "outlet:BBC",
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News"
+    "outlet:SCMP Group"
    ],
    "owners": [
     "BBC",
-    "SCMP Group",
-    "Independent Digital News"
+    "SCMP Group"
    ],
    "reports": [
     {
@@ -60,16 +99,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-17T13:21:42+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T09:58:31+00:00"
     }
    ],
    "id": "wk-Q142193600",
@@ -80,54 +109,14 @@
    "has_coords": true
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-17T20:00:37.721510+00:00",
-   "headlines": [
-    "Bangladesh garment workers clash with police in fresh wage protest"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-16",
-    "wikipedia-current-events-2026-11-17",
-    "google-news:Bangladesh garment workers clash with police in fresh wage protest",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh garment workers clash with police in fresh wage protest",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3374768/bangladesh-garment-workers-clash-police-fresh-wage-protest",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T11:15:09+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-17",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "id": "nw-20261117-siberia-aviation",
    "qid": null,
-   "title": "17 dead as Russian military aircraft crashes in Siberia",
+   "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
    "name": "Siberia",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-17",
-   "news_at": "2026-11-17T19:12:44+00:00",
+   "news_at": "2026-11-17T20:21:46+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Independent Digital News",
@@ -140,7 +129,8 @@
    "headlines": [
     "Russia military transport plane crashes in Siberia, all 17 on board killed",
     "17 dead as Russian military aircraft crashes in Siberia",
-    "19 Killed As Russian Military Transport Plane Crashes In Siberia"
+    "19 Killed As Russian Military Transport Plane Crashes In Siberia",
+    "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board"
    ],
    "places": [
     "military",
@@ -156,6 +146,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T20:21:46+00:00"
+    },
     {
      "title": "17 dead as Russian military aircraft crashes in Siberia",
      "url": "https://www.independent.co.uk/news/world/europe/russia-plane-crash-siberia-kemerovo-b3086529.html",
@@ -413,30 +413,27 @@
   {
    "qid": "Q142193600",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 200000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-17T16:56:38+00:00",
+   "news": 175000,
+   "news_at": "2026-11-17T18:19:34+00:00",
    "headlines": [
-    "How the attack on Putin's prized Crimean Bridge unfolded",
+    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukraine damages Russia’s Crimean bridge in major strike",
-    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project"
+    "Ukraine damages Russia’s Crimean bridge in major strike"
    ],
    "region": "world",
    "via": [
-    "google-news:How the attack on Putin's prized Crimean Bridge unfolded",
+    "google-news:Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
     "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
     "outlet:BBC",
-    "outlet:SCMP Group",
-    "outlet:Independent Digital News"
+    "outlet:SCMP Group"
    ],
    "owners": [
     "BBC",
-    "SCMP Group",
-    "Independent Digital News"
+    "SCMP Group"
    ],
    "reports": [
     {
@@ -468,16 +465,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-17T13:21:42+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T09:58:31+00:00"
     }
    ],
    "id": "wk-Q142193600",
@@ -486,101 +473,28 @@
    "date": "2026-11-17",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "id": "nw-20261117-siberia-aviation",
-   "qid": null,
-   "title": "17 dead as Russian military aircraft crashes in Siberia",
-   "name": "Siberia",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-17",
-   "news_at": "2026-11-17T19:12:44+00:00",
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Independent Digital News",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Russia military transport plane crashes in Siberia, all 17 on board killed",
-    "17 dead as Russian military aircraft crashes in Siberia",
-    "19 Killed As Russian Military Transport Plane Crashes In Siberia"
-   ],
-   "places": [
-    "military",
-    "transport"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "17 dead as Russian military aircraft crashes in Siberia",
-     "url": "https://www.independent.co.uk/news/world/europe/russia-plane-crash-siberia-kemerovo-b3086529.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T15:44:09+00:00"
-    },
-    {
-     "title": "19 Killed As Russian Military Transport Plane Crashes In Siberia",
-     "url": "https://www.ndtv.com/world-news/13-killed-as-russian-military-transport-plane-crashes-in-siberia-report-12341047#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-17T19:12:44+00:00"
-    },
-    {
-     "title": "Russia military transport plane crashes in Siberia, all 17 on board killed",
-     "url": "https://timesofindia.indiatimes.com/world/europe/russia-military-transport-plane-crashes-in-siberia-all-17-on-board-killed/articleshow/135931511.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-17T15:36:38+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Independent Digital News",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 161 people)"
+ ],
  "outlets": {
-  "headlines": 818,
+  "headlines": 822,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 38,
   "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261117-siberia-aviation",
    "qid": null,
-   "title": "17 dead as Russian military aircraft crashes in Siberia",
+   "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
    "name": "Siberia",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-17",
-   "news_at": "2026-11-17T19:12:44+00:00",
+   "news_at": "2026-11-17T20:21:46+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Independent Digital News",
@@ -593,7 +507,8 @@
    "headlines": [
     "Russia military transport plane crashes in Siberia, all 17 on board killed",
     "17 dead as Russian military aircraft crashes in Siberia",
-    "19 Killed As Russian Military Transport Plane Crashes In Siberia"
+    "19 Killed As Russian Military Transport Plane Crashes In Siberia",
+    "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board"
    ],
    "places": [
     "military",
@@ -609,6 +524,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T20:21:46+00:00"
+    },
     {
      "title": "17 dead as Russian military aircraft crashes in Siberia",
      "url": "https://www.independent.co.uk/news/world/europe/russia-plane-crash-siberia-kemerovo-b3086529.html",
@@ -649,5 +574,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-siberia-aviation"
+ "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-siberia-aviation"
 }
