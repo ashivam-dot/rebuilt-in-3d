@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T03:09:56+00:00",
+ "at": "2026-11-17T03:42:59+00:00",
  "quakes": [],
  "trending": [
   {
@@ -221,36 +221,35 @@
  ],
  "candidates": [
   {
-   "qid": "Q553872",
-   "title": "Tim Holden",
-   "fame": 8471,
-   "views": 8471,
+   "qid": "Q142179721",
+   "title": "2026 Patong fire",
+   "fame": 50000,
+   "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": null,
+   "news_at": "2026-11-17T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-16"
+    "wikipedia-current-events-2026-11-16"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q553872",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
+   "id": "wk-Q142179721",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-16",
+   "coords": null,
+   "has_coords": false
   }
  ],
- "trend_errors": [
-  "google news IN-nation: HTTP 429"
- ],
  "outlets": {
-  "headlines": 767,
+  "headlines": 770,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 767 headlines from 30 feeds (21 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 770 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
