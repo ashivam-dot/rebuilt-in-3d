@@ -1,71 +1,7 @@
 {
- "at": "2026-11-17T21:00:44+00:00",
+ "at": "2026-11-17T21:45:47+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142193600",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-17T18:41:28+00:00",
-   "headlines": [
-    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukraine damages Russia’s Crimean bridge in major strike"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
-    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
-    "outlet:BBC",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "BBC",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T16:56:38+00:00"
-    },
-    {
-     "title": "How the attack on Crimean Bridge unfolded",
-     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T15:38:10+00:00"
-    },
-    {
-     "title": "Ukraine damages Russia’s Crimean bridge in major strike",
-     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T13:21:42+00:00"
-    }
-   ],
-   "id": "wk-Q142193600",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-17",
-   "coords": null,
-   "has_coords": true
-  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -73,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-17T21:00:44.841171+00:00",
+   "news_at": "2026-11-17T21:45:47.676469+00:00",
    "headlines": [
     "Bangladesh garment workers clash with police in fresh wage protest"
    ],
@@ -105,28 +41,6 @@
    "date": "2026-11-17",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q3138557",
-   "title": "Nabeel Rajab",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-17T11:09:00+00:00",
-   "headlines": [
-    "Nabeel Rajab, prominent Bahraini human rights activist, dies at 62"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Nabeel Rajab, prominent Bahraini human rights activist, dies at 62"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3138557",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
   },
   {
    "id": "nw-20261117-siberia-aviation",
@@ -216,6 +130,86 @@
    "article": null
   },
   {
+   "id": "nw-20261117-qeshm-island-strike",
+   "qid": null,
+   "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+   "name": "Qeshm Island",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-17",
+   "news_at": "2026-11-17T20:32:27+00:00",
+   "owners": [
+    "SCMP Group",
+    "Bennett, Coleman & Co.",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "US strikes Iran’s Qeshm Island after drones target Bahrain",
+    "In fresh Iran strikes, US targets missile site on Qeshm Island",
+    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island"
+   ],
+   "places": [
+    "Island",
+    "Bahrain",
+    "IRGC"
+   ],
+   "attackers": [
+    "Iran",
+    "US"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:48:51+00:00"
+    },
+    {
+     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-17T20:32:27+00:00"
+    },
+    {
+     "title": "In fresh Iran strikes, US targets missile site on Qeshm Island",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-strikes-on-iran-targets-missile-launch-site-on-qeshm-island/articleshow/135939742.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-17T20:10:35+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q1621643",
    "title": "Miguel Ángel Félix Gallardo",
    "fame": 70590,
@@ -276,6 +270,71 @@
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-17T21:24:35+00:00",
+   "headlines": [
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "Ukraine damages Russia’s Crimean bridge in major strike"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
+    "outlet:BBC",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "BBC",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    },
+    {
+     "title": "How the attack on Crimean Bridge unfolded",
+     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T15:38:10+00:00"
+    },
+    {
+     "title": "Ukraine damages Russia’s Crimean bridge in major strike",
+     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T13:21:42+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -431,43 +490,99 @@
  ],
  "candidates": [
   {
-   "qid": "Q3138557",
-   "title": "Nabeel Rajab",
-   "fame": 125000,
+   "id": "nw-20261117-qeshm-island-strike",
+   "qid": null,
+   "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+   "name": "Qeshm Island",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-17",
+   "news_at": "2026-11-17T20:32:27+00:00",
+   "owners": [
+    "SCMP Group",
+    "Bennett, Coleman & Co.",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-17T11:09:00+00:00",
    "headlines": [
-    "Nabeel Rajab, prominent Bahraini human rights activist, dies at 62"
+    "US strikes Iran’s Qeshm Island after drones target Bahrain",
+    "In fresh Iran strikes, US targets missile site on Qeshm Island",
+    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island"
+   ],
+   "places": [
+    "Island",
+    "Bahrain",
+    "IRGC"
+   ],
+   "attackers": [
+    "Iran",
+    "US"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "google-news:Nabeel Rajab, prominent Bahraini human rights activist, dies at 62"
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:48:51+00:00"
+    },
+    {
+     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-17T20:32:27+00:00"
+    },
+    {
+     "title": "In fresh Iran strikes, US targets missile site on Qeshm Island",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-strikes-on-iran-targets-missile-launch-site-on-qeshm-island/articleshow/135939742.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-17T20:10:35+00:00"
+    }
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3138557",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
-   "qid": "Q142193600",
+   "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 175000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-17T18:41:28+00:00",
+   "news": 50000,
+   "news_at": "2026-11-17T21:24:35+00:00",
    "headlines": [
-    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
     "Ukraine damages Russia’s Crimean bridge in major strike"
    ],
    "region": "world",
    "via": [
-    "google-news:Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
     "google-news:Ukraine damages Russia’s Crimean bridge in major strike",
     "outlet:BBC",
@@ -486,7 +601,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-17T16:56:38+00:00"
+     "at": "2026-11-17T21:24:35+00:00"
     },
     {
      "title": "How the attack on Crimean Bridge unfolded",
@@ -509,20 +624,23 @@
      "at": "2026-11-17T13:21:42+00:00"
     }
    ],
-   "id": "wk-Q142193600",
+   "id": "wk-Q142193498",
    "kind": "incident",
    "category": "explosion",
-   "date": "2026-11-17",
-   "coords": null,
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
    "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 820,
+  "headlines": 823,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
-  "corroborated": 2
+  "matched": 35,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -611,7 +729,87 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261117-qeshm-island-strike",
+   "qid": null,
+   "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+   "name": "Qeshm Island",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-17",
+   "news_at": "2026-11-17T20:32:27+00:00",
+   "owners": [
+    "SCMP Group",
+    "Bennett, Coleman & Co.",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "US strikes Iran’s Qeshm Island after drones target Bahrain",
+    "In fresh Iran strikes, US targets missile site on Qeshm Island",
+    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island"
+   ],
+   "places": [
+    "Island",
+    "Bahrain",
+    "IRGC"
+   ],
+   "attackers": [
+    "Iran",
+    "US"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:48:51+00:00"
+    },
+    {
+     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-17T20:32:27+00:00"
+    },
+    {
+     "title": "In fresh Iran strikes, US targets missile site on Qeshm Island",
+     "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-strikes-on-iran-targets-missile-launch-site-on-qeshm-island/articleshow/135939742.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-17T20:10:35+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-siberia-aviation"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261117-siberia-aviation, nw-20261117-qeshm-island-strike"
 }
