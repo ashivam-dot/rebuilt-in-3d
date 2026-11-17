@@ -1,10 +1,12 @@
 {
- "at": "2026-11-17T02:40:57+00:00",
+ "at": "2026-11-17T03:09:55+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 39 units today",
-  "watch: 0 candidates (0 quakes, 10 trending), 1 hazard alerts",
-  "outlets: 763 headlines from 30 feeds (21 owners), 39 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['google news world: HTTP 429']"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 40 units today",
+  "watch: 1 candidates (0 quakes, 9 trending), 1 hazard alerts",
+  "outlets: 767 headlines from 30 feeds (21 owners), 35 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['google news IN-nation: HTTP 429']",
+  "skip wk-Q553872: gate: only 3 usable photos of Tim Holden on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
