@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T21:45:47+00:00",
+ "at": "2026-11-17T22:14:14+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-17T21:45:47.676469+00:00",
+   "news_at": "2026-11-17T22:14:14.660658+00:00",
    "headlines": [
     "Bangladesh garment workers clash with police in fresh wage protest"
    ],
@@ -45,26 +45,28 @@
   {
    "id": "nw-20261117-siberia-aviation",
    "qid": null,
-   "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+   "title": "Moment Russian military plane crashes in Siberia, killing 19",
    "name": "Siberia",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-17",
-   "news_at": "2026-11-17T20:21:46+00:00",
+   "news_at": "2026-11-17T21:25:43+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Independent Digital News",
-    "NDTV"
+    "NDTV",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Russia military transport plane crashes in Siberia, all 17 on board killed",
     "19 dead as Russian military aircraft crashes in Siberia",
     "19 Killed As Russian Military Transport Plane Crashes In Siberia",
-    "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board"
+    "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+    "Moment Russian military plane crashes in Siberia, killing 19"
    ],
    "places": [
     "military",
@@ -80,6 +82,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Moment Russian military plane crashes in Siberia, killing 19",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T21:25:43+00:00"
+    },
     {
      "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
@@ -124,7 +136,8 @@
    "via": [
     "outlet:Bennett, Coleman & Co.",
     "outlet:Independent Digital News",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -636,36 +649,38 @@
   }
  ],
  "outlets": {
-  "headlines": 823,
+  "headlines": 826,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 40,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261117-siberia-aviation",
    "qid": null,
-   "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+   "title": "Moment Russian military plane crashes in Siberia, killing 19",
    "name": "Siberia",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-17",
-   "news_at": "2026-11-17T20:21:46+00:00",
+   "news_at": "2026-11-17T21:25:43+00:00",
    "owners": [
     "Bennett, Coleman & Co.",
     "Independent Digital News",
-    "NDTV"
+    "NDTV",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Russia military transport plane crashes in Siberia, all 17 on board killed",
     "19 dead as Russian military aircraft crashes in Siberia",
     "19 Killed As Russian Military Transport Plane Crashes In Siberia",
-    "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board"
+    "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+    "Moment Russian military plane crashes in Siberia, killing 19"
    ],
    "places": [
     "military",
@@ -681,6 +696,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Moment Russian military plane crashes in Siberia, killing 19",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T21:25:43+00:00"
+    },
     {
      "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
@@ -725,7 +750,8 @@
    "via": [
     "outlet:Bennett, Coleman & Co.",
     "outlet:Independent Digital News",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -811,5 +837,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261117-siberia-aviation, nw-20261117-qeshm-island-strike"
+ "outlet_note": "outlets: 826 headlines from 30 feeds (21 owners), 40 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261117-siberia-aviation, nw-20261117-qeshm-island-strike"
 }
