@@ -1,7 +1,29 @@
 {
- "at": "2026-11-17T12:41:32+00:00",
+ "at": "2026-11-17T13:15:12+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q7298201",
+   "title": "Ray Tintori",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-17T03:27:00+00:00",
+   "headlines": [
+    "Ray Tintori, filmmaker and boyfriend of ‘SNL’ alum Heidi Gardner, has died at 43"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ray Tintori, filmmaker and boyfriend of ‘SNL’ alum Heidi Gardner, has died at 43"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7298201",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
+  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -54,86 +76,6 @@
    "date": "2026-11-17",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "id": "nw-20261117-crimea-strike",
-   "qid": null,
-   "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-   "name": "Crimea",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-17",
-   "news_at": "2026-11-17T12:41:39+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "France Médias Monde",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-    "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-    "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia"
-   ],
-   "places": [
-    "Kyiv",
-    "Kerch",
-    "bridge"
-   ],
-   "attackers": [
-    "Ukraine",
-    "Ukrainian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-     "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T12:17:34+00:00"
-    },
-    {
-     "title": "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia",
-     "url": "https://www.euronews.com/2026/11/17/moment-ukrainian-drones-strike-the-kerch-bridge-linking-crimea-to-russia",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T12:41:39+00:00"
-    },
-    {
-     "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-     "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T08:12:06+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:France Médias Monde",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q1621643",
@@ -313,95 +255,37 @@
    "lon": "87.3"
   }
  ],
- "candidates": [],
- "outlets": {
-  "headlines": 787,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 43,
-  "corroborated": 2
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261117-crimea-strike",
-   "qid": null,
-   "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-   "name": "Crimea",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-17",
-   "news_at": "2026-11-17T12:41:39+00:00",
-   "owners": [
-    "Al Jazeera Media Network",
-    "France Médias Monde",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
+   "qid": "Q7298201",
+   "title": "Ray Tintori",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-17T03:27:00+00:00",
    "headlines": [
-    "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-    "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-    "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia"
-   ],
-   "places": [
-    "Kyiv",
-    "Kerch",
-    "bridge"
-   ],
-   "attackers": [
-    "Ukraine",
-    "Ukrainian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Ray Tintori, filmmaker and boyfriend of ‘SNL’ alum Heidi Gardner, has died at 43"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-     "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T12:17:34+00:00"
-    },
-    {
-     "title": "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia",
-     "url": "https://www.euronews.com/2026/11/17/moment-ukrainian-drones-strike-the-kerch-bridge-linking-crimea-to-russia",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T12:41:39+00:00"
-    },
-    {
-     "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-     "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T08:12:06+00:00"
-    }
-   ],
    "via": [
-    "outlet:Al Jazeera Media Network",
-    "outlet:France Médias Monde",
-    "outlet:Euronews"
+    "google-news:Ray Tintori, filmmaker and boyfriend of ‘SNL’ alum Heidi Gardner, has died at 43"
    ],
-   "emerging": true,
-   "article": null
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7298201",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
   }
  ],
- "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 43 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-crimea-strike"
+ "outlets": {
+  "headlines": 791,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 46,
+  "corroborated": 1
+ },
+ "emerging": [],
+ "outlet_note": "outlets: 791 headlines from 30 feeds (21 owners), 46 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
