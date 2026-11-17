@@ -1,43 +1,92 @@
 {
- "at": "2026-11-17T11:12:53+00:00",
+ "at": "2026-11-17T11:41:25+00:00",
  "quakes": [],
  "trending": [
   {
-   "id": "nw-20261116-crimea-strike",
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-17T11:15:09+00:00",
+   "headlines": [
+    "Bangladesh garment workers clash with police in fresh wage protest",
+    "Bangladesh police clash with garment workers amid protests over wages"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-16",
+    "google-news:Bangladesh garment workers clash with police in fresh wage protest",
+    "google-news:Bangladesh police clash with garment workers amid protests over wages",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "SCMP Group",
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment workers clash with police in fresh wage protest",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3374768/bangladesh-garment-workers-clash-police-fresh-wage-protest",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:15:09+00:00"
+    },
+    {
+     "title": "Bangladesh police clash with garment workers amid protests over wages",
+     "url": "https://www.aljazeera.com/news/2026/11/17/bangladesh-garment-workers-clash-with-police-in-fresh-protests-over-wages?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:06:12+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-17",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261116-putin-strike",
    "qid": null,
-   "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
-   "name": "Crimea",
+   "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
+   "name": "Putin",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-16",
    "news_at": "2026-11-17T09:58:31+00:00",
    "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "NPR",
-    "Independent Digital News"
+    "Fox Corporation",
+    "Independent Digital News",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Ukraine hits key Crimea bridge with drones",
-    "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-    "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
+    "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
     "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies"
    ],
    "places": [
+    "Kremlin",
     "Crimean",
-    "bridge",
-    "Putin"
+    "bridge"
    ],
    "attackers": [
     "Kyiv",
     "Russian",
-    "Ukraine",
-    "Ukrainian"
+    "Ukraine"
    ],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -49,16 +98,6 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
-     "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T09:50:45+00:00"
-    },
-    {
      "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
      "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
      "outlet": "France 24",
@@ -67,16 +106,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-17T00:58:33+00:00"
-    },
-    {
-     "title": "Ukraine hits key Crimea bridge with drones",
-     "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-16T23:13:06+00:00"
     },
     {
      "title": "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
@@ -89,21 +118,20 @@
      "at": "2026-11-17T09:58:31+00:00"
     },
     {
-     "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-     "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
+     "url": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
      "lang": "en",
-     "at": "2026-11-17T08:12:06+00:00"
+     "at": "2026-11-16T18:15:50+00:00"
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NPR",
-    "outlet:Independent Digital News"
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -147,28 +175,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-17T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-16"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-17",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q142179721",
@@ -310,49 +316,45 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 782,
+  "headlines": 778,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
-  "corroborated": 1
+  "matched": 37,
+  "corroborated": 2
  },
  "emerging": [
   {
-   "id": "nw-20261116-crimea-strike",
+   "id": "nw-20261116-putin-strike",
    "qid": null,
-   "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
-   "name": "Crimea",
+   "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
+   "name": "Putin",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-16",
    "news_at": "2026-11-17T09:58:31+00:00",
    "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "NPR",
-    "Independent Digital News"
+    "Fox Corporation",
+    "Independent Digital News",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Ukraine hits key Crimea bridge with drones",
-    "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-    "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
+    "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
     "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
     "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies"
    ],
    "places": [
+    "Kremlin",
     "Crimean",
-    "bridge",
-    "Putin"
+    "bridge"
    ],
    "attackers": [
     "Kyiv",
     "Russian",
-    "Ukraine",
-    "Ukrainian"
+    "Ukraine"
    ],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -364,16 +366,6 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
-     "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T09:50:45+00:00"
-    },
-    {
      "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
      "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
      "outlet": "France 24",
@@ -382,16 +374,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-17T00:58:33+00:00"
-    },
-    {
-     "title": "Ukraine hits key Crimea bridge with drones",
-     "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-16T23:13:06+00:00"
     },
     {
      "title": "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
@@ -404,25 +386,24 @@
      "at": "2026-11-17T09:58:31+00:00"
     },
     {
-     "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-     "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
+     "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
+     "url": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
      "lang": "en",
-     "at": "2026-11-17T08:12:06+00:00"
+     "at": "2026-11-16T18:15:50+00:00"
     }
    ],
    "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NPR",
-    "outlet:Independent Digital News"
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 782 headlines from 30 feeds (21 owners), 42 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261116-crimea-strike"
+ "outlet_note": "outlets: 778 headlines from 30 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261116-putin-strike"
 }
