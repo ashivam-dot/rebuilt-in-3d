@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T17:57:29+00:00",
+ "at": "2026-11-17T18:27:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-17T17:57:29.524510+00:00",
+   "news_at": "2026-11-17T18:27:39.243830+00:00",
    "headlines": [
     "Bangladesh police clash with garment workers amid protests over wages",
     "Bangladesh garment workers clash with police in fresh wage protest"
@@ -85,6 +85,45 @@
    "date": "2026-11-11"
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 52248,
+   "views": 27248,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-17T17:32:41+00:00",
+   "headlines": [
+    "Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-16",
+    "google-news:Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs",
+     "url": "https://abcnews.com/International/wireStory/thousands-demonstrate-haitis-capital-praise-bukele-salvadoran-troops-138217031",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-17T17:32:41+00:00"
+    }
+   ],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q142179721",
    "title": "2026 Patong fire",
    "fame": 50000,
@@ -105,28 +144,6 @@
    "date": "2026-11-16",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 27248,
-   "views": 27248,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-16"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q7329244",
@@ -258,51 +275,14 @@
    "lon": "87.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q732057",
-   "title": "Peter Storey",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-17T17:33:41+00:00",
-   "headlines": [
-    "Arsenal Double winner Storey dies aged 81"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Arsenal Double winner Storey dies aged 81",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Arsenal Double winner Storey dies aged 81",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T17:33:41+00:00"
-    }
-   ],
-   "id": "wk-Q732057",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 824,
+  "headlines": 818,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
+  "matched": 33,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 824 headlines from 30 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 33 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
