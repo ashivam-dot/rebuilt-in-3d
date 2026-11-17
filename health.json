@@ -1,11 +1,12 @@
 {
- "at": "2026-11-17T19:28:49+00:00",
+ "at": "2026-11-17T20:00:36+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 75 units today",
-  "watch: 1 candidates (0 quakes, 11 trending), 1 hazard alerts",
-  "outlets: 814 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "wait wp-2026_Crimean_Bridge_explosions: gate: the article is under 6 hours old; facts may still move (ready in 6.0 h)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 76 units today",
+  "watch: 2 candidates (0 quakes, 12 trending), 1 hazard alerts",
+  "outlets: 818 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-siberia-aviation",
+  "wait wk-Q142193600: gate: the article is under 6 hours old; facts may still move (ready in 5.4 h)",
+  "skip nw-20261117-siberia-aviation: gate: faceless: no free photo shows Siberia or the event itself (only 2 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
