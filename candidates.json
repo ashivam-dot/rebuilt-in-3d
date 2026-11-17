@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T08:42:16+00:00",
+ "at": "2026-11-17T09:06:28+00:00",
  "quakes": [],
  "trending": [
   {
@@ -99,15 +99,16 @@
   {
    "qid": "Q1621643",
    "title": "Miguel Ángel Félix Gallardo",
-   "fame": 70590,
+   "fame": 71090,
    "views": 70590,
-   "traffic": 0,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
-   "region": "world",
+   "region": "india",
    "via": [
-    "wikipedia-top-2026-11-16"
+    "wikipedia-top-2026-11-16",
+    "google-trends-IN:miguel ángel félix gallardo"
    ],
    "owners": [],
    "reports": [],
@@ -313,107 +314,12 @@
    "lon": "87.3"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261116-putin-strike",
-   "qid": null,
-   "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-   "name": "Putin",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-16",
-   "news_at": "2026-11-17T08:12:06+00:00",
-   "owners": [
-    "Fox Corporation",
-    "Independent Digital News",
-    "Al Jazeera Media Network",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
-    "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
-    "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-    "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies"
-   ],
-   "places": [
-    "Kremlin",
-    "Crimean",
-    "bridge"
-   ],
-   "attackers": [
-    "Kyiv",
-    "Russian",
-    "Ukraine"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-     "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T00:58:33+00:00"
-    },
-    {
-     "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-     "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T08:12:06+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Crimean Bridge collapses after Kyiv’s ‘flamingo’ missile strike on Putin’s £3bn project",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T08:08:29+00:00"
-    },
-    {
-     "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
-     "url": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-16T18:15:50+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Fox Corporation",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 771,
+  "headlines": 772,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
+  "matched": 31,
   "corroborated": 1
  },
  "emerging": [
@@ -512,5 +418,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261116-putin-strike"
+ "outlet_note": "outlets: 772 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261116-putin-strike"
 }
