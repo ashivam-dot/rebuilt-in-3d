@@ -1,60 +1,7 @@
 {
- "at": "2026-11-18T10:28:34+00:00",
+ "at": "2026-11-18T10:45:55+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-18T02:30:00+00:00",
-   "headlines": [
-    "How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
-    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    },
-    {
-     "title": "How the attack on Crimean Bridge unfolded",
-     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T15:38:10+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q7298201",
    "title": "Ray Tintori",
@@ -99,7 +46,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-18T10:28:34.976202+00:00",
+   "news_at": "2026-11-18T10:45:55.292007+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -190,6 +137,71 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-17"
+  },
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-18T10:19:08+00:00",
+   "headlines": [
+    "Putin’s pet project hit: Why Ukraine’s Crimean Bridge strike is a blow to Moscow",
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Putin’s pet project hit: Why Ukraine’s Crimean Bridge strike is a blow to Moscow",
+    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Putin’s pet project hit: Why Ukraine’s Crimean Bridge strike is a blow to Moscow",
+     "url": "https://timesofindia.indiatimes.com/defence/international/putins-pet-project-hit-why-ukraines-crimean-bridge-strike-is-a-blow-to-moscow/articleshow/135959246.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-18T10:19:08+00:00"
+    },
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    },
+    {
+     "title": "How the attack on Crimean Bridge unfolded",
+     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T15:38:10+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q5213677",
@@ -329,12 +341,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 790,
+  "headlines": 794,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
-  "corroborated": 0
+  "matched": 40,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 790 headlines from 30 feeds (21 owners), 42 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 794 headlines from 30 feeds (21 owners), 40 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
