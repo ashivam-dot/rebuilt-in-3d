@@ -1,15 +1,16 @@
 {
- "at": "2026-11-18T16:16:48+00:00",
+ "at": "2026-11-18T17:05:14+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
-  "watch: 10 candidates (0 quakes, 13 trending), 1 hazard alerts",
-  "outlets: 828 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
-  "quiet day (no Short yet today): 10 tribute candidates: Bill Watts, Teuea Toatu, Danny Rubinstein, Dvora Hacohen",
-  "skip wk-Q1134918: gate: no draft passed the fact checks: these names or numbers are not in the sources: Roop",
-  "skip wk-Q5220790: gate: only 3 usable photos of Danny Rubinstein on Wikimedia Commons (want 4)",
-  "skip wk-Q4370878: gate: no photo on Wikimedia Commons shows Mikhail Poltoranin's face (a tribute needs one)",
-  "skip wk-Q35382382: gate: Wikidata lacks an exact birth or death date",
+  "learn: 75 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.1}, 'kind:death': {'n': 38, 'lift': 1.227, 'typical_views_24h': 376, 'n_retention': 37, 'typical_view_pct': 52.1}, 'kind:incident': {'n': 29, 'lift': 0.904, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.1}, 'category:death': {'n': 37, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
+  "watch: 8 candidates (0 quakes, 12 trending), 1 hazard alerts",
+  "outlets: 833 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "quiet day (no Short yet today): 8 tribute candidates: Bill Watts, Agron Memedi, Dvora Hacohen, László Sáry",
+  "skip wk-Q1134918: gate: no draft passed the fact checks: line 4 (He spoke during a television interview following an attack b): unsupported: There is no mention of a television interview following an attack by three other men in the source. | second look: The source sentences do not mention a television interview, nor do they mention an attack by three other men. The source sentences discuss his career history, family, and wrestling rules, but none of t",
+  "skip wk-Q3277446: gate: no photo on Wikimedia Commons shows Nicolas Tiangaye's face (a tribute needs one)",
+  "skip wk-Q4694261: gate: no photo on Wikimedia Commons shows Agron Memedi's face (a tribute needs one)",
+  "skip wk-Q602077: gate: no photo on Wikimedia Commons shows Antonio Franco's face (a tribute needs one)",
   "nothing eligible to publish"
  ]
 }
