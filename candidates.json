@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T12:41:39+00:00",
+ "at": "2026-11-18T13:26:46+00:00",
  "quakes": [],
  "trending": [
   {
@@ -72,11 +72,11 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 125000,
+   "fame": 150000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-18T12:41:39.938726+00:00",
+   "news": 50000,
+   "news_at": "2026-11-18T13:26:46.618028+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
    ],
@@ -85,12 +85,24 @@
     "wikipedia-current-events-2026-11-17",
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
+    "outlet:Euronews",
     "outlet:Disney (ABC News)"
    ],
    "owners": [
+    "Euronews",
     "Disney (ABC News)"
    ],
    "reports": [
+    {
+     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+     "url": "https://www.euronews.com/2026/11/18/police-in-bangladesh-clash-with-garment-workers-demanding-higher-minimum-wages",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-18T12:45:21+00:00"
+    },
     {
      "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
      "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
@@ -359,13 +371,16 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.8 h ago, 154 people)"
+ ],
  "outlets": {
-  "headlines": 810,
+  "headlines": 814,
   "feeds": 29,
   "owners": 21,
-  "matched": 38,
-  "corroborated": 1
+  "matched": 31,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 810 headlines from 29 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 814 headlines from 29 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
