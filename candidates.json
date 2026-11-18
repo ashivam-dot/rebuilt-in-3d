@@ -1,7 +1,60 @@
 {
- "at": "2026-11-18T07:29:57+00:00",
+ "at": "2026-11-18T08:24:10+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-18T02:30:00+00:00",
+   "headlines": [
+    "How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    },
+    {
+     "title": "How the attack on Crimean Bridge unfolded",
+     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T15:38:10+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q7298201",
    "title": "Ray Tintori",
@@ -46,7 +99,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-18T07:29:57.905974+00:00",
+   "news_at": "2026-11-18T08:24:10.610136+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -137,71 +190,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-17"
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-17T21:24:35+00:00",
-   "headlines": [
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukrainian drones and missiles destroy section of Russia’s Crimean bridge"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "google-news:Ukrainian drones and missiles destroy section of Russia’s Crimean bridge",
-    "outlet:BBC",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "BBC",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    },
-    {
-     "title": "How the attack on Crimean Bridge unfolded",
-     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T15:38:10+00:00"
-    },
-    {
-     "title": "Ukrainian drones and missiles destroy section of Russia’s Crimean bridge",
-     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T13:21:42+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q5213677",
@@ -324,28 +312,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-14"
-  },
-  {
-   "qid": null,
-   "title": "November 2026 Florida floods",
-   "fame": 2000,
-   "views": 0,
-   "traffic": 2000,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:flash flooding florida"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-November_2026_Florida_floods",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-04",
-   "coords": null,
-   "has_coords": false
   }
  ],
  "hazards": [
@@ -353,22 +319,22 @@
    "id": "gdacs-TC-1001351",
    "kind": "TC",
    "level": "Orange",
-   "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (15.432 million in Tropical Storm).",
+   "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (14.328 million in Tropical Storm).",
    "country": "India",
    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
    "published": "2026-11-16T20:06:39+00:00",
-   "lat": "13",
+   "lat": "13.1",
    "lon": "86.9"
   }
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 794,
+  "headlines": 787,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
-  "corroborated": 1
+  "matched": 18,
+  "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 794 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 787 headlines from 30 feeds (21 owners), 18 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
