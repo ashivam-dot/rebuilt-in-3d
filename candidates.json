@@ -1,15 +1,95 @@
 {
- "at": "2026-11-18T03:00:37+00:00",
+ "at": "2026-11-18T03:28:32+00:00",
  "quakes": [],
  "trending": [
   {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-11-18T02:30:00+00:00",
+   "headlines": [
+    "How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+    "Ukraine strikes Putin's prized Crimean Bridge ahead of meeting with US-China",
+    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "Ukrainian drones and missiles destroy section of Russia’s Crimean bridge"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+    "google-news:Ukraine strikes Putin's prized Crimean Bridge ahead of meeting with US-China",
+    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:BBC",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "BBC",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Ukraine strikes Putin's prized Crimean Bridge ahead of meeting with US-China",
+     "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-strikes-putins-prized-crimean-bridge-destroys-central-road-section-ahead-of-us-china-meet/articleshow/135944199.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-18T00:41:21+00:00"
+    },
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    },
+    {
+     "title": "How the attack on Crimean Bridge unfolded",
+     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T15:38:10+00:00"
+    },
+    {
+     "title": "Ukrainian drones and missiles destroy section of Russia’s Crimean bridge",
+     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T13:21:42+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q7298201",
    "title": "Ray Tintori",
-   "fame": 248033,
+   "fame": 123033,
    "views": 98033,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-17T23:22:37+00:00",
+   "news": 25000,
+   "news_at": "2026-11-17T19:22:31+00:00",
    "headlines": [
     "Ray Tintori, filmmaker and boyfriend of ‘SNL’ alum Heidi Gardner, dies at 43"
    ],
@@ -114,85 +194,6 @@
    "date": "2026-11-18",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-11-18T00:41:21+00:00",
-   "headlines": [
-    "Ukraine strikes Putin's prized Crimean Bridge ahead of meeting with US-China",
-    "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "Ukrainian drones and missiles destroy section of Russia’s Crimean bridge"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ukraine strikes Putin's prized Crimean Bridge ahead of meeting with US-China",
-    "google-news:Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-    "google-news:Ukrainian drones and missiles destroy section of Russia’s Crimean bridge",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:BBC",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "BBC",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Ukraine strikes Putin's prized Crimean Bridge ahead of meeting with US-China",
-     "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-strikes-putins-prized-crimean-bridge-destroys-central-road-section-ahead-of-us-china-meet/articleshow/135944199.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-18T00:41:21+00:00"
-    },
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    },
-    {
-     "title": "How the attack on Crimean Bridge unfolded",
-     "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T15:38:10+00:00"
-    },
-    {
-     "title": "Ukrainian drones and missiles destroy section of Russia’s Crimean bridge",
-     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T13:21:42+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "id": "nw-20261117-qeshm-island-strike",
@@ -483,133 +484,15 @@
    "lon": "86.9"
   }
  ],
- "candidates": [
-  {
-   "id": "nw-20261117-qeshm-island-strike",
-   "qid": null,
-   "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
-   "name": "Qeshm Island",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-17",
-   "news_at": "2026-11-17T20:32:27+00:00",
-   "owners": [
-    "SCMP Group",
-    "Bennett, Coleman & Co.",
-    "Fox Corporation"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "US strikes Iran’s Qeshm Island after drones target Bahrain",
-    "In fresh Iran strikes, US targets missile site on Qeshm Island",
-    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island"
-   ],
-   "places": [
-    "Island",
-    "Bahrain",
-    "IRGC"
-   ],
-   "attackers": [
-    "Iran",
-    "US"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T11:48:51+00:00"
-    },
-    {
-     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
-     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-17T20:32:27+00:00"
-    },
-    {
-     "title": "In fresh Iran strikes, US targets missile site on Qeshm Island",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-strikes-on-iran-targets-missile-launch-site-on-qeshm-island/articleshow/135939742.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-17T20:10:35+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Fox Corporation"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "qid": "Q3181229",
-   "title": "John Christ",
-   "fame": 69141,
-   "views": 69141,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-17"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3181229",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
-  },
-  {
-   "qid": "Q2344792",
-   "title": "Hossein Wahid Khorasani",
-   "fame": 13310,
-   "views": 13310,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-17"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q2344792",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
-  }
+ "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 144 people)"
  ],
  "outlets": {
-  "headlines": 819,
+  "headlines": 809,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 42,
   "corroborated": 2
  },
  "emerging": [
@@ -694,5 +577,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-qeshm-island-strike"
+ "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 42 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-qeshm-island-strike"
 }
