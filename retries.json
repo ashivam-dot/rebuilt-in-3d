@@ -1531,9 +1531,9 @@
   "kind": "incident"
  },
  "wk-Q1134918": {
-  "count": 2,
-  "reason": "gate: no draft passed the fact checks: line 2 (The Cowboy gimmick defined his wrestling career and his iden): partly: The source states he garnered fame under the gimmick, but does not state that it defined his 'identity in the ring'. | second look: The source sentences state that he garnered fame u",
-  "at": "2026-11-18T15:59:07+00:00",
+  "count": 3,
+  "reason": "gate: no draft passed the fact checks: these names or numbers are not in the sources: Roop",
+  "at": "2026-11-18T16:33:46+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1542,6 +1542,14 @@
   "count": 1,
   "reason": "gate: only 2 usable photos of Yutaka Enatsu on Wikimedia Commons (want 4)",
   "at": "2026-11-18T14:48:53+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
+ },
+ "wk-Q5220790": {
+  "count": 1,
+  "reason": "gate: only 3 usable photos of Danny Rubinstein on Wikimedia Commons (want 4)",
+  "at": "2026-11-18T16:33:50+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
