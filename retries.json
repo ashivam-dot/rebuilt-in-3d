@@ -1427,9 +1427,9 @@
   "kind": "incident"
  },
  "wk-Q553872": {
-  "count": 3,
+  "count": 4,
   "reason": "gate: only 3 usable photos of Tim Holden on Wikimedia Commons (want 4)",
-  "at": "2026-11-17T03:13:04+00:00",
+  "at": "2026-11-18T14:48:51+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1529,5 +1529,21 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q1134918": {
+  "count": 1,
+  "reason": "gate: no draft passed the fact checks: line 4 (Watts spoke angrily in a television interview following a ph): unsupported: There is no mention of a television interview following a physical attack by other wrestlers in the source. | second look: The source sentences do not mention a 'physical attack",
+  "at": "2026-11-18T14:48:48+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
+ },
+ "wk-Q1042095": {
+  "count": 1,
+  "reason": "gate: only 2 usable photos of Yutaka Enatsu on Wikimedia Commons (want 4)",
+  "at": "2026-11-18T14:48:53+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
