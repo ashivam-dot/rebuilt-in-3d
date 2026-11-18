@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T05:20:05+00:00",
+ "at": "2026-11-18T06:06:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -107,122 +107,6 @@
    "date": "2026-11-16"
   },
   {
-   "qid": "Q123054388",
-   "title": "Lee Reeves (boxer)",
-   "fame": 81310,
-   "views": 56310,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-17T23:55:17+00:00",
-   "headlines": [
-    "Irish boxer Lee Reeves dies at 31 after three months in a coma following Dublin fight"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-17",
-    "google-news:Irish boxer Lee Reeves dies at 31 after three months in a coma following Dublin fight",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Irish boxer Lee Reeves dies at 31 after three months in a coma following Dublin fight",
-     "url": "https://www.foxnews.com/outkick-sports/irish-boxer-lee-reeves-dies-31-three-months-coma-following-dublin-fight",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-17T23:55:17+00:00"
-    }
-   ],
-   "id": "wk-Q123054388",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-16"
-  },
-  {
-   "id": "nw-20261117-qeshm-strike",
-   "qid": null,
-   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-   "name": "Qeshm",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-17",
-   "news_at": "2026-11-17T23:38:38+00:00",
-   "owners": [
-    "SCMP Group",
-    "Fox Corporation",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "US strikes Iran’s Qeshm Island after drones target Bahrain",
-    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
-    "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain"
-   ],
-   "places": [
-    "Island",
-    "Bahrain",
-    "IRGC"
-   ],
-   "attackers": [
-    "US"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-     "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T23:38:38+00:00"
-    },
-    {
-     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T11:48:51+00:00"
-    },
-    {
-     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
-     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-17T20:32:27+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Fox Corporation",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q3181229",
    "title": "John Christ",
    "fame": 69141,
@@ -241,6 +125,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
+  },
+  {
+   "qid": "Q123054388",
+   "title": "Lee Reeves (boxer)",
+   "fame": 56310,
+   "views": 56310,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-17"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q123054388",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
   },
   {
    "qid": "Q142084937",
@@ -506,92 +410,12 @@
   }
  ],
  "outlets": {
-  "headlines": 796,
+  "headlines": 795,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
-  "corroborated": 2
+  "matched": 35,
+  "corroborated": 1
  },
- "emerging": [
-  {
-   "id": "nw-20261117-qeshm-strike",
-   "qid": null,
-   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-   "name": "Qeshm",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-17",
-   "news_at": "2026-11-17T23:38:38+00:00",
-   "owners": [
-    "SCMP Group",
-    "Fox Corporation",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "US strikes Iran’s Qeshm Island after drones target Bahrain",
-    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
-    "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain"
-   ],
-   "places": [
-    "Island",
-    "Bahrain",
-    "IRGC"
-   ],
-   "attackers": [
-    "US"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-     "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T23:38:38+00:00"
-    },
-    {
-     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T11:48:51+00:00"
-    },
-    {
-     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
-     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-17T20:32:27+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Fox Corporation",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 796 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-qeshm-strike"
+ "emerging": [],
+ "outlet_note": "outlets: 795 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
