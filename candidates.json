@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T03:58:06+00:00",
+ "at": "2026-11-18T04:45:05+00:00",
  "quakes": [],
  "trending": [
   {
@@ -157,57 +157,18 @@
    "date": "2026-11-16"
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-18T00:00:00+00:00",
-   "headlines": [
-    "Bangladesh garment workers clash with police in fresh wage protest"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-17",
-    "google-news:Bangladesh garment workers clash with police in fresh wage protest",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh garment workers clash with police in fresh wage protest",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3374768/bangladesh-garment-workers-clash-police-fresh-wage-protest",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-17T11:15:09+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "id": "nw-20261117-qeshm-island-strike",
+   "id": "nw-20261117-qeshm-strike",
    "qid": null,
-   "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
-   "name": "Qeshm Island",
+   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+   "name": "Qeshm",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-17",
-   "news_at": "2026-11-17T20:32:27+00:00",
+   "news_at": "2026-11-17T23:38:38+00:00",
    "owners": [
     "SCMP Group",
-    "Bennett, Coleman & Co.",
-    "Fox Corporation"
+    "Fox Corporation",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
@@ -215,8 +176,8 @@
    "traffic": 0,
    "headlines": [
     "US strikes Iran’s Qeshm Island after drones target Bahrain",
-    "In fresh Iran strikes, US targets missile site on Qeshm Island",
-    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island"
+    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+    "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain"
    ],
    "places": [
     "Island",
@@ -224,7 +185,6 @@
     "IRGC"
    ],
    "attackers": [
-    "Iran",
     "US"
    ],
    "hindi_headlines": [],
@@ -236,6 +196,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+     "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T23:38:38+00:00"
+    },
     {
      "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
      "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
@@ -255,22 +225,12 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-17T20:32:27+00:00"
-    },
-    {
-     "title": "In fresh Iran strikes, US targets missile site on Qeshm Island",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-strikes-on-iran-targets-missile-launch-site-on-qeshm-island/articleshow/135939742.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-17T20:10:35+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Fox Corporation"
+    "outlet:Fox Corporation",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -294,6 +254,28 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-15"
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-18T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-17"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q3138557",
@@ -484,28 +466,20 @@
    "lon": "86.9"
   }
  ],
- "candidates": [],
- "outlets": {
-  "headlines": 806,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 45,
-  "corroborated": 2
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261117-qeshm-island-strike",
+   "id": "nw-20261117-qeshm-strike",
    "qid": null,
-   "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
-   "name": "Qeshm Island",
+   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+   "name": "Qeshm",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-17",
-   "news_at": "2026-11-17T20:32:27+00:00",
+   "news_at": "2026-11-17T23:38:38+00:00",
    "owners": [
     "SCMP Group",
-    "Bennett, Coleman & Co.",
-    "Fox Corporation"
+    "Fox Corporation",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
@@ -513,8 +487,8 @@
    "traffic": 0,
    "headlines": [
     "US strikes Iran’s Qeshm Island after drones target Bahrain",
-    "In fresh Iran strikes, US targets missile site on Qeshm Island",
-    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island"
+    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+    "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain"
    ],
    "places": [
     "Island",
@@ -522,7 +496,6 @@
     "IRGC"
    ],
    "attackers": [
-    "Iran",
     "US"
    ],
    "hindi_headlines": [],
@@ -534,6 +507,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+     "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T23:38:38+00:00"
+    },
     {
      "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
      "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
@@ -553,26 +536,104 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-17T20:32:27+00:00"
-    },
-    {
-     "title": "In fresh Iran strikes, US targets missile site on Qeshm Island",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-strikes-on-iran-targets-missile-launch-site-on-qeshm-island/articleshow/135939742.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-17T20:10:35+00:00"
     }
    ],
    "via": [
     "outlet:SCMP Group",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Fox Corporation"
+    "outlet:Fox Corporation",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 45 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-qeshm-island-strike"
+ "outlets": {
+  "headlines": 801,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 44,
+  "corroborated": 2
+ },
+ "emerging": [
+  {
+   "id": "nw-20261117-qeshm-strike",
+   "qid": null,
+   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+   "name": "Qeshm",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-17",
+   "news_at": "2026-11-17T23:38:38+00:00",
+   "owners": [
+    "SCMP Group",
+    "Fox Corporation",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "US strikes Iran’s Qeshm Island after drones target Bahrain",
+    "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+    "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain"
+   ],
+   "places": [
+    "Island",
+    "Bahrain",
+    "IRGC"
+   ],
+   "attackers": [
+    "US"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+     "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T23:38:38+00:00"
+    },
+    {
+     "title": "US strikes Iran’s Qeshm Island after drones target Bahrain",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-17T11:48:51+00:00"
+    },
+    {
+     "title": "US carries out self-defense strike on IRGC missile launch site on Qeshm Island",
+     "url": "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-17T20:32:27+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Fox Corporation",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 44 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261117-qeshm-strike"
 }
