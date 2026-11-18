@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T11:43:50+00:00",
+ "at": "2026-11-18T12:41:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -70,6 +70,46 @@
    "has_coords": true
   },
   {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-18T12:41:39.938726+00:00",
+   "headlines": [
+    "Police in Bangladesh clash with garment workers demanding higher minimum wages"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-17",
+    "wikipedia-current-events-2026-11-18",
+    "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-18T12:10:19+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q7298201",
    "title": "Ray Tintori",
    "fame": 123033,
@@ -105,29 +145,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-18T11:43:50.034724+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-17",
-    "wikipedia-current-events-2026-11-18"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q3181229",
@@ -170,12 +187,32 @@
    "date": "2026-11-16"
   },
   {
+   "qid": "Q5213677",
+   "title": "Dan Hicks (sportscaster)",
+   "fame": 26878,
+   "views": 26878,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-17"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5213677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-11"
+  },
+  {
    "qid": "Q3138557",
    "title": "Nabeel Rajab",
-   "fame": 50000,
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
+   "news": 25000,
    "news_at": "2026-11-18T00:45:40+00:00",
    "headlines": [
     "Nabeel Rajab, prominent Bahraini human rights activist, dies at 62"
@@ -204,26 +241,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-17"
-  },
-  {
-   "qid": "Q5213677",
-   "title": "Dan Hicks (sportscaster)",
-   "fame": 26878,
-   "views": 26878,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-17"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5213677",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-11"
   },
   {
    "qid": "Q141921562",
@@ -343,12 +360,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 800,
+  "headlines": 810,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
+  "matched": 38,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 800 headlines from 29 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 810 headlines from 29 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
