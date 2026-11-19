@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T07:02:19+00:00",
+ "at": "2026-11-19T07:31:41+00:00",
  "quakes": [],
  "trending": [
   {
@@ -45,34 +45,43 @@
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 134873,
+   "fame": 134673,
    "views": 9673,
-   "traffic": 200,
+   "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-19T06:02:41+00:00",
+   "news_at": "2026-11-19T07:32:06+00:00",
    "headlines": [
+    "Crimean Bridge attacked again, Russia says",
     "Ukraine-Russia war latest: Crimean Bridge struck again as Kyiv says it carried out attacks without Musk’s Starlink",
-    "Crimean Bridge attacked again, Russian official says",
     "Crimean Bridge has been attacked again, Russian official says"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-18",
-    "google-trends-GB:kerch bridge",
     "wikipedia-current-events-2026-11-18",
+    "google-news:Crimean Bridge attacked again, Russia says",
     "google-news:Ukraine-Russia war latest: Crimean Bridge struck again as Kyiv says it carried out attacks without Musk’s Starlink",
-    "google-news:Crimean Bridge attacked again, Russian official says",
     "google-news:Crimean Bridge has been attacked again, Russian official says",
-    "outlet:Independent Digital News",
     "outlet:BBC",
+    "outlet:Independent Digital News",
     "outlet:Deutsche Welle"
    ],
    "owners": [
-    "Independent Digital News",
     "BBC",
+    "Independent Digital News",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "Crimean Bridge attacked again, Russia says",
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T07:32:06+00:00"
+    },
     {
      "title": "Ukraine-Russia war latest: Crimean Bridge struck again as Kyiv says it carried out attacks without Musk’s Starlink",
      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html",
@@ -82,16 +91,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-19T06:02:41+00:00"
-    },
-    {
-     "title": "Crimean Bridge attacked again, Russian official says",
-     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T04:37:17+00:00"
     },
     {
      "title": "Crimean Bridge has been attacked again, Russian official says",
@@ -229,6 +228,42 @@
    "date": "2026-11-16"
   },
   {
+   "qid": "Q7489916",
+   "title": "Sharman Stone",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T06:34:02+00:00",
+   "headlines": [
+    "Ex-federal minister Sharman Stone dies 'on her own terms' after long illness"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ex-federal minister Sharman Stone dies 'on her own terms' after long illness",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Ex-federal minister Sharman Stone dies 'on her own terms' after long illness",
+     "url": "https://www.abc.net.au/news/2026-11-19/federal-politics-former-liberal-mp-sharman-stone-dies-vad/107404320",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T06:34:02+00:00"
+    }
+   ],
+   "id": "wk-Q7489916",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
+  },
+  {
    "qid": "Q1134918",
    "title": "Bill Watts",
    "fame": 24612,
@@ -364,33 +399,89 @@
  ],
  "candidates": [
   {
-   "qid": "Q6662726",
-   "title": "Lloyd Scott",
-   "fame": 9317,
-   "views": 9317,
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 150000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 150000,
+   "news_at": "2026-11-18T21:21:00+00:00",
+   "headlines": [
+    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight",
+    "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight",
+    "google-news:HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
+    "outlet:HT Media"
+   ],
+   "owners": [
+    "HT Media"
+   ],
+   "reports": [
+    {
+     "title": "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
+     "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-november-18-lateef-bhat-killed-in-kulgam-encounter-xis-rare-welcome-for-trump-in-shezhen-cyclone-akvan-landfall-101794997723484.html",
+     "outlet": "Hindustan Times",
+     "outlet_hi": "हिंदुस्तान टाइम्स",
+     "owner": "HT Media",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-18T12:02:21+00:00"
+    }
+   ],
+   "id": "wp-2026_Kulgam_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q7489916",
+   "title": "Sharman Stone",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T06:34:02+00:00",
+   "headlines": [
+    "Ex-federal minister Sharman Stone dies 'on her own terms' after long illness"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-18"
+    "google-news:Ex-federal minister Sharman Stone dies 'on her own terms' after long illness",
+    "outlet:ABC (Australia)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6662726",
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Ex-federal minister Sharman Stone dies 'on her own terms' after long illness",
+     "url": "https://www.abc.net.au/news/2026-11-19/federal-politics-former-liberal-mp-sharman-stone-dies-vad/107404320",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T06:34:02+00:00"
+    }
+   ],
+   "id": "wk-Q7489916",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-16"
+   "date": "2026-11-18"
   }
  ],
  "outlets": {
-  "headlines": 823,
+  "headlines": 826,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
+  "matched": 38,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 826 headlines from 30 feeds (21 owners), 38 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
