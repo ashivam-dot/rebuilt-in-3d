@@ -1,16 +1,17 @@
 {
- "at": "2026-11-19T11:51:23+00:00",
+ "at": "2026-11-19T12:53:07+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 134673,
+   "fame": 259673,
    "views": 9673,
    "traffic": 0,
-   "news": 75000,
+   "news": 200000,
    "news_at": "2026-11-19T11:27:31+00:00",
    "headlines": [
+    "Traffic Suspended Over Crimean Bridge After Attack, Moscow-Installed Official Says",
     "Crimean bridge attacked for 3rd time in a week, officials say",
     "Crimean Bridge attacked again, Russia says",
     "Crimean Bridge has been attacked again, Russian official says"
@@ -19,9 +20,9 @@
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
+    "google-news:Traffic Suspended Over Crimean Bridge After Attack, Moscow-Installed Official Says",
     "google-news:Crimean bridge attacked for 3rd time in a week, officials say",
     "google-news:Crimean Bridge attacked again, Russia says",
-    "google-news:Crimean Bridge has been attacked again, Russian official says",
     "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Deutsche Welle"
@@ -94,12 +95,36 @@
    "has_coords": true
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
+   "news": 125000,
+   "news_at": "2026-11-18T21:21:00+00:00",
+   "headlines": [
+    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Kulgam_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
    "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
@@ -108,12 +133,10 @@
    "via": [
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)"
+    "outlet:Euronews"
    ],
    "owners": [
-    "Euronews",
-    "Disney (ABC News)"
+    "Euronews"
    ],
    "reports": [
     {
@@ -125,16 +148,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-18T12:45:21+00:00"
-    },
-    {
-     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
-     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-18T12:42:20+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w47",
@@ -342,26 +355,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
-  },
-  {
-   "qid": "Q1130103",
-   "title": "Corrado Augias",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:corrado augias"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1130103",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-19"
   }
  ],
  "hazards": [
@@ -397,38 +390,15 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
-  },
-  {
-   "qid": "Q1130103",
-   "title": "Corrado Augias",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:corrado augias"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1130103",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-19"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.5 h ago, 151 people)"
- ],
  "outlets": {
-  "headlines": 824,
+  "headlines": 819,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
-  "corroborated": 2
+  "matched": 49,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 824 headlines from 30 feeds (21 owners), 42 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 49 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
