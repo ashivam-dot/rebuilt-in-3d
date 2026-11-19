@@ -1,18 +1,17 @@
 {
- "at": "2026-11-19T16:18:06+00:00",
+ "at": "2026-11-19T16:47:39+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 359673,
+   "fame": 234673,
    "views": 9673,
    "traffic": 0,
-   "news": 300000,
+   "news": 175000,
    "news_at": "2026-11-19T13:07:35+00:00",
    "headlines": [
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "Crucial Crimea bridge attacked for third time in a week",
     "Crimean Bridge has been attacked again, Russian official says"
    ],
    "region": "world",
@@ -20,7 +19,6 @@
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "google-news:Crucial Crimea bridge attacked for third time in a week",
     "google-news:Crimean Bridge has been attacked again, Russian official says",
     "outlet:BBC",
     "outlet:Deutsche Welle"
@@ -82,12 +80,36 @@
    "has_coords": true
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
+   "news": 125000,
+   "news_at": "2026-11-19T04:06:23+00:00",
+   "headlines": [
+    "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Kulgam_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
    "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
@@ -96,12 +118,10 @@
    "via": [
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)"
+    "outlet:Euronews"
    ],
    "owners": [
-    "Euronews",
-    "Disney (ABC News)"
+    "Euronews"
    ],
    "reports": [
     {
@@ -113,16 +133,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-18T12:45:21+00:00"
-    },
-    {
-     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
-     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-18T12:42:20+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w47",
@@ -310,13 +320,16 @@
   }
  ],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 145 people)"
+ ],
  "outlets": {
-  "headlines": 836,
+  "headlines": 838,
   "feeds": 29,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 2
+  "matched": 19,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 836 headlines from 29 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 838 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
