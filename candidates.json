@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T13:49:01+00:00",
+ "at": "2026-11-19T14:20:21+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 9673,
    "traffic": 0,
    "news": 200000,
-   "news_at": "2026-11-19T13:07:35+00:00",
+   "news_at": "2026-11-19T13:58:23+00:00",
    "headlines": [
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "Crimean bridge attacked for 3rd time in a week, officials say",
@@ -22,16 +22,26 @@
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "google-news:Crimean bridge attacked for 3rd time in a week, officials say",
     "google-news:Crimean Bridge has been attacked again, Russian official says",
-    "outlet:BBC",
     "outlet:Disney (ABC News)",
+    "outlet:BBC",
     "outlet:Deutsche Welle"
    ],
    "owners": [
-    "BBC",
     "Disney (ABC News)",
+    "BBC",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "Crimean bridge attacked for 3rd time in a week, officials say",
+     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T13:58:23+00:00"
+    },
     {
      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
@@ -41,16 +51,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-19T13:07:35+00:00"
-    },
-    {
-     "title": "Crimean bridge attacked for 3rd time in a week, officials say",
-     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T11:27:31+00:00"
     },
     {
      "title": "Crimean Bridge has been attacked again, Russian official says",
@@ -174,6 +174,78 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
+  },
+  {
+   "qid": "Q1806102",
+   "title": "Larry Poindexter",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T14:05:59+00:00",
+   "headlines": [
+    "Actor Larry Poindexter dies at 66 days after being hit by car"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Actor Larry Poindexter dies at 66 days after being hit by car",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Actor Larry Poindexter dies at 66 days after being hit by car",
+     "url": "https://www.foxnews.com/entertainment/actor-larry-poindexter-dies-66-days-being-hit-car",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:05:59+00:00"
+    }
+   ],
+   "id": "wk-Q1806102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
+  },
+  {
+   "qid": "Q7489916",
+   "title": "Sharman Stone",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T06:34:02+00:00",
+   "headlines": [
+    "Ex-federal minister Sharman Stone dies after long illness"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ex-federal minister Sharman Stone dies after long illness",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Ex-federal minister Sharman Stone dies after long illness",
+     "url": "https://www.abc.net.au/news/2026-11-19/federal-politics-former-liberal-mp-sharman-stone-dies-vad/107404320",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T06:34:02+00:00"
+    }
+   ],
+   "id": "wk-Q7489916",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
   },
   {
    "qid": "Q1134918",
@@ -309,14 +381,51 @@
    "lon": "85.3"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1806102",
+   "title": "Larry Poindexter",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T14:05:59+00:00",
+   "headlines": [
+    "Actor Larry Poindexter dies at 66 days after being hit by car"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Actor Larry Poindexter dies at 66 days after being hit by car",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Actor Larry Poindexter dies at 66 days after being hit by car",
+     "url": "https://www.foxnews.com/entertainment/actor-larry-poindexter-dies-66-days-being-hit-car",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:05:59+00:00"
+    }
+   ],
+   "id": "wk-Q1806102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
+  }
+ ],
  "outlets": {
-  "headlines": 819,
+  "headlines": 823,
   "feeds": 30,
   "owners": 21,
   "matched": 40,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 40 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 40 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
