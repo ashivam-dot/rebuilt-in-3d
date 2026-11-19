@@ -1,41 +1,31 @@
 {
- "at": "2026-11-18T20:01:00+00:00",
+ "at": "2026-11-19T00:18:31+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "2026 Kulgam attack",
-   "fame": 175000,
+   "fame": 275000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-18T17:06:57+00:00",
+   "news": 275000,
+   "news_at": "2026-11-18T12:02:21+00:00",
    "headlines": [
+    "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
     "LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more"
    ],
    "region": "india",
    "via": [
+    "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
     "google-news:LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "google-news:HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
-    "outlet:The Hindu Group",
     "outlet:HT Media"
    ],
    "owners": [
-    "The Hindu Group",
     "HT Media"
    ],
    "reports": [
-    {
-     "title": "LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
-     "url": "https://www.thehindu.com/news/national/fresh-encounter-in-kulgam-lateef-bhat-november-18-2026/article71714380.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-18T17:06:57+00:00"
-    },
     {
      "title": "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
      "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-november-18-lateef-bhat-killed-in-kulgam-encounter-xis-rare-welcome-for-trump-in-shezhen-cyclone-akvan-landfall-101794997723484.html",
@@ -95,19 +85,83 @@
    "has_coords": false
   },
   {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 175000,
+   "views": 0,
+   "traffic": 0,
+   "news": 175000,
+   "news_at": "2026-11-18T21:18:54+00:00",
+   "headlines": [
+    "What the Crimean bridge attack means for Russia",
+    "New video shows explosions moments before part of Crimea Bridge collapses"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:What the Crimean bridge attack means for Russia",
+    "google-news:New video shows explosions moments before part of Crimea Bridge collapses",
+    "outlet:Deutsche Welle",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "Deutsche Welle",
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "What the Crimean bridge attack means for Russia",
+     "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-18T20:30:00+00:00"
+    },
+    {
+     "title": "New video shows explosions moments before part of Crimea Bridge collapses",
+     "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-18T17:09:43+00:00"
+    },
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
+  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 150000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-18T20:01:00.955050+00:00",
+   "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
    ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-17",
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
     "outlet:Euronews",
@@ -142,7 +196,7 @@
    "id": "wk-Q142084937-2026w47",
    "kind": "incident",
    "category": "protest",
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "coords": null,
    "has_coords": false
   },
@@ -173,7 +227,7 @@
    "views": 21891,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-18T20:01:00.955050+00:00",
+   "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -248,57 +302,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-11"
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-18T17:09:43+00:00",
-   "headlines": [
-    "New video shows explosions moments before part of Crimea Bridge collapses"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:New video shows explosions moments before part of Crimea Bridge collapses",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "New video shows explosions moments before part of Crimea Bridge collapses",
-     "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-18T17:09:43+00:00"
-    },
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q3138557",
@@ -434,37 +437,27 @@
   {
    "qid": null,
    "title": "2026 Kulgam attack",
-   "fame": 175000,
+   "fame": 275000,
    "views": 0,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-18T17:06:57+00:00",
+   "news": 275000,
+   "news_at": "2026-11-18T12:02:21+00:00",
    "headlines": [
+    "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
     "LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more"
    ],
    "region": "india",
    "via": [
+    "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
     "google-news:LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "google-news:HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
-    "outlet:The Hindu Group",
     "outlet:HT Media"
    ],
    "owners": [
-    "The Hindu Group",
     "HT Media"
    ],
    "reports": [
-    {
-     "title": "LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
-     "url": "https://www.thehindu.com/news/national/fresh-encounter-in-kulgam-lateef-bhat-november-18-2026/article71714380.ece",
-     "outlet": "The Hindu",
-     "outlet_hi": "द हिंदू",
-     "owner": "The Hindu Group",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-18T17:06:57+00:00"
-    },
     {
      "title": "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
      "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-november-18-lateef-bhat-killed-in-kulgam-encounter-xis-rare-welcome-for-trump-in-shezhen-cyclone-akvan-landfall-101794997723484.html",
@@ -522,39 +515,15 @@
    "date": "2026-11-18",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q5220790",
-   "title": "Danny Rubinstein",
-   "fame": 1795,
-   "views": 1795,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5220790",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-16"
   }
  ],
- "trend_errors": [
-  "google news IN-nation: HTTP 429"
- ],
  "outlets": {
-  "headlines": 843,
+  "headlines": 823,
   "feeds": 30,
   "owners": 21,
-  "matched": 40,
+  "matched": 42,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 843 headlines from 30 feeds (21 owners), 40 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 1 tribute candidates: Danny Rubinstein"
+ "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 42 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
