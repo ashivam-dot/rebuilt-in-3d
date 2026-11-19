@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T15:57:56+00:00",
+ "at": "2026-11-19T16:18:06+00:00",
  "quakes": [],
  "trending": [
   {
@@ -82,76 +82,12 @@
    "has_coords": true
   },
   {
-   "qid": null,
-   "title": "2026 Kulgam attack",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-19T04:06:23+00:00",
-   "headlines": [
-    "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Kulgam_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 96546,
-   "views": 21546,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T15:06:06+00:00",
-   "headlines": [
-    "Haiti: Salvador’s Bukele publishes video of attack on gang leader’s house"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-18",
-    "wikipedia-current-events-2026-11-18",
-    "google-news:Haiti: Salvador’s Bukele publishes video of attack on gang leader’s house",
-    "outlet:France Médias Monde"
-   ],
-   "owners": [
-    "France Médias Monde"
-   ],
-   "reports": [
-    {
-     "title": "Haiti: Salvador’s Bukele publishes video of attack on gang leader’s house",
-     "url": "https://www.france24.com/en/video/20261119-haiti-salvador-s-bukele-publishes-video-of-attack-on-gang-leader-s-house",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:06:06+00:00"
-    }
-   ],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
+   "news": 50000,
    "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
@@ -160,10 +96,12 @@
    "via": [
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)"
    ],
    "owners": [
-    "Euronews"
+    "Euronews",
+    "Disney (ABC News)"
    ],
    "reports": [
     {
@@ -175,6 +113,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-18T12:45:21+00:00"
+    },
+    {
+     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-18T12:42:20+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w47",
@@ -183,6 +131,29 @@
    "date": "2026-11-19",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 71546,
+   "views": 21546,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-19T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-18",
+    "wikipedia-current-events-2026-11-18"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "qid": "Q7298201",
@@ -203,78 +174,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
-  },
-  {
-   "qid": "Q1806102",
-   "title": "Larry Poindexter",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T14:05:59+00:00",
-   "headlines": [
-    "Actor Larry Poindexter dies at 66 days after being hit by car"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Actor Larry Poindexter dies at 66 days after being hit by car",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Actor Larry Poindexter dies at 66 days after being hit by car",
-     "url": "https://www.foxnews.com/entertainment/actor-larry-poindexter-dies-66-days-being-hit-car",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:05:59+00:00"
-    }
-   ],
-   "id": "wk-Q1806102",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-18"
-  },
-  {
-   "qid": "Q7489916",
-   "title": "Sharman Stone",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T06:34:02+00:00",
-   "headlines": [
-    "Ex-federal minister Sharman Stone dies after long illness"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ex-federal minister Sharman Stone dies after long illness",
-    "outlet:ABC (Australia)"
-   ],
-   "owners": [
-    "ABC (Australia)"
-   ],
-   "reports": [
-    {
-     "title": "Ex-federal minister Sharman Stone dies after long illness",
-     "url": "https://www.abc.net.au/news/2026-11-19/federal-politics-former-liberal-mp-sharman-stone-dies-vad/107404320",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T06:34:02+00:00"
-    }
-   ],
-   "id": "wk-Q7489916",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-18"
   },
   {
    "qid": "Q1134918",
@@ -412,12 +311,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 833,
+  "headlines": 836,
   "feeds": 29,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 1
+  "matched": 23,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 833 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 836 headlines from 29 feeds (21 owners), 23 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
