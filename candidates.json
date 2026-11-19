@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T19:13:10+00:00",
+ "at": "2026-11-19T19:35:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 9673,
    "traffic": 0,
    "news": 325000,
-   "news_at": "2026-11-19T17:29:01+00:00",
+   "news_at": "2026-11-19T19:25:45+00:00",
    "headlines": [
     "Ukraine strikes Putin’s prized Crimean bridge for third time in a week",
     "Crucial Crimea bridge attacked for third time in a week",
@@ -42,7 +42,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-19T17:29:01+00:00"
+     "at": "2026-11-19T19:25:45+00:00"
     },
     {
      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
@@ -76,36 +76,12 @@
    "has_coords": true
   },
   {
-   "qid": null,
-   "title": "2026 Kulgam attack",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-18T21:21:00+00:00",
-   "headlines": [
-    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Kulgam_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
+   "news": 25000,
    "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
@@ -114,12 +90,10 @@
    "via": [
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)"
+    "outlet:Euronews"
    ],
    "owners": [
-    "Euronews",
-    "Disney (ABC News)"
+    "Euronews"
    ],
    "reports": [
     {
@@ -131,16 +105,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-18T12:45:21+00:00"
-    },
-    {
-     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
-     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-18T12:42:20+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w47",
@@ -192,6 +156,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
+  },
+  {
+   "qid": "Q1806102",
+   "title": "Larry Poindexter",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T19:19:42+00:00",
+   "headlines": [
+    "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car while crossing street"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car while crossing street",
+    "outlet:NBCUniversal"
+   ],
+   "owners": [
+    "NBCUniversal"
+   ],
+   "reports": [
+    {
+     "title": "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car while crossing street",
+     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/larry-poindexter-days-lives-swt-actor-dies-hit-car-crossing-street-rcna610214",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T19:19:42+00:00"
+    }
+   ],
+   "id": "wk-Q1806102",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
   },
   {
    "qid": "Q1134918",
@@ -329,12 +329,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 836,
+  "headlines": 835,
   "feeds": 30,
   "owners": 21,
-  "matched": 26,
-  "corroborated": 2
+  "matched": 27,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 835 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
