@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T15:00:49+00:00",
+ "at": "2026-11-19T15:33:54+00:00",
  "quakes": [],
  "trending": [
   {
@@ -104,6 +104,46 @@
    "has_coords": false
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 96546,
+   "views": 21546,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T15:06:06+00:00",
+   "headlines": [
+    "Haiti: Salvador’s Bukele publishes video of attack on gang leader’s house"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-18",
+    "wikipedia-current-events-2026-11-18",
+    "google-news:Haiti: Salvador’s Bukele publishes video of attack on gang leader’s house",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Haiti: Salvador’s Bukele publishes video of attack on gang leader’s house",
+     "url": "https://www.france24.com/en/video/20261119-haiti-salvador-s-bukele-publishes-video-of-attack-on-gang-leader-s-house",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T15:06:06+00:00"
+    }
+   ],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 75000,
@@ -141,29 +181,6 @@
    "date": "2026-11-19",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 71546,
-   "views": 21546,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-19T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-18",
-    "wikipedia-current-events-2026-11-18"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
   },
   {
    "qid": "Q7298201",
@@ -393,12 +410,12 @@
  ],
  "candidates": [],
  "outlets": {
-  "headlines": 827,
+  "headlines": 829,
   "feeds": 29,
   "owners": 21,
-  "matched": 32,
+  "matched": 23,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 827 headlines from 29 feeds (21 owners), 32 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 829 headlines from 29 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
