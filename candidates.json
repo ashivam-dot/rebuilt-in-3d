@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T17:37:34+00:00",
+ "at": "2026-11-19T17:44:57+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,16 +11,17 @@
    "news": 325000,
    "news_at": "2026-11-19T17:29:01+00:00",
    "headlines": [
-    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "Ukraine strikes Putin’s prized Crimean Bridge for third time in a week",
     "Crucial Crimea bridge attacked for third time in a week",
     "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "Crimean Bridge has been attacked again, Russian official says"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
-    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "google-news:Ukraine strikes Putin’s prized Crimean Bridge for third time in a week",
     "google-news:Crucial Crimea bridge attacked for third time in a week",
     "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
     "outlet:Independent Digital News",
@@ -72,16 +73,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-18T20:30:00+00:00"
-    },
-    {
-     "title": "New video shows explosions moments before part of Crimea Bridge collapses",
-     "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-18T17:09:43+00:00"
     }
    ],
    "id": "wk-Q142193498",
@@ -95,36 +86,12 @@
    "has_coords": true
   },
   {
-   "qid": null,
-   "title": "2026 Kulgam attack",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-19T04:06:23+00:00",
-   "headlines": [
-    "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Kulgam_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
+   "fame": 100000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
+   "news": 50000,
    "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
@@ -133,10 +100,12 @@
    "via": [
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)"
    ],
    "owners": [
-    "Euronews"
+    "Euronews",
+    "Disney (ABC News)"
    ],
    "reports": [
     {
@@ -148,6 +117,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-18T12:45:21+00:00"
+    },
+    {
+     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-18T12:42:20+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w47",
@@ -370,54 +349,14 @@
    "lon": "85.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T00:00:00+00:00",
-   "headlines": [
-    "Police in Bangladesh clash with garment workers demanding higher minimum wages"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-18",
-    "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews"
-   ],
-   "owners": [
-    "Euronews"
-   ],
-   "reports": [
-    {
-     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
-     "url": "https://www.euronews.com/2026/11/18/police-in-bangladesh-clash-with-garment-workers-demanding-higher-minimum-wages",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-18T12:45:21+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-19",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 837,
-  "feeds": 29,
+  "headlines": 836,
+  "feeds": 30,
   "owners": 21,
-  "matched": 31,
-  "corroborated": 1
+  "matched": 34,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 837 headlines from 29 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
