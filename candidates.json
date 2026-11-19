@@ -1,38 +1,47 @@
 {
- "at": "2026-11-19T12:53:07+00:00",
+ "at": "2026-11-19T13:25:59+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 259673,
+   "fame": 134673,
    "views": 9673,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-19T11:27:31+00:00",
+   "news": 75000,
+   "news_at": "2026-11-19T13:07:35+00:00",
    "headlines": [
-    "Traffic Suspended Over Crimean Bridge After Attack, Moscow-Installed Official Says",
+    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "Crimean bridge attacked for 3rd time in a week, officials say",
-    "Crimean Bridge attacked again, Russia says",
     "Crimean Bridge has been attacked again, Russian official says"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
-    "google-news:Traffic Suspended Over Crimean Bridge After Attack, Moscow-Installed Official Says",
+    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "google-news:Crimean bridge attacked for 3rd time in a week, officials say",
-    "google-news:Crimean Bridge attacked again, Russia says",
-    "outlet:Disney (ABC News)",
+    "google-news:Crimean Bridge has been attacked again, Russian official says",
     "outlet:BBC",
+    "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle"
    ],
    "owners": [
-    "Disney (ABC News)",
     "BBC",
+    "Disney (ABC News)",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T13:07:35+00:00"
+    },
     {
      "title": "Crimean bridge attacked for 3rd time in a week, officials say",
      "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432",
@@ -42,16 +51,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-19T11:27:31+00:00"
-    },
-    {
-     "title": "Crimean Bridge attacked again, Russia says",
-     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T07:32:06+00:00"
     },
     {
      "title": "Crimean Bridge has been attacked again, Russian official says",
@@ -93,30 +92,6 @@
     36.505798
    ],
    "has_coords": true
-  },
-  {
-   "qid": null,
-   "title": "2026 Kulgam attack",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-18T21:21:00+00:00",
-   "headlines": [
-    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Kulgam_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q142084937",
@@ -370,35 +345,14 @@
    "lon": "85.4"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q6662726",
-   "title": "Lloyd Scott",
-   "fame": 9317,
-   "views": 9317,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-18"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6662726",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-16"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 819,
+  "headlines": 820,
   "feeds": 30,
   "owners": 21,
-  "matched": 49,
+  "matched": 43,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 49 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 43 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
