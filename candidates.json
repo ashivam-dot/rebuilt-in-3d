@@ -1,24 +1,97 @@
 {
- "at": "2026-11-19T00:18:31+00:00",
+ "at": "2026-11-19T01:13:45+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": null,
-   "title": "2026 Kulgam attack",
-   "fame": 275000,
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
+   "news": 175000,
+   "news_at": "2026-11-19T01:05:03+00:00",
+   "headlines": [
+    "What the Crimean bridge attack means for Russia",
+    "Crimean Bridge attacked again, Russian official says"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:What the Crimean bridge attack means for Russia",
+    "google-news:Crimean Bridge attacked again, Russian official says",
+    "outlet:BBC",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "BBC",
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Crimean Bridge attacked again, Russian official says",
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T01:05:03+00:00"
+    },
+    {
+     "title": "What the Crimean bridge attack means for Russia",
+     "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-18T20:30:00+00:00"
+    },
+    {
+     "title": "New video shows explosions moments before part of Crimea Bridge collapses",
+     "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-18T17:09:43+00:00"
+    },
+    {
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-17T21:24:35+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
    "news_at": "2026-11-18T12:02:21+00:00",
    "headlines": [
     "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
-    "LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more"
    ],
    "region": "india",
    "via": [
     "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
-    "google-news:LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "google-news:HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
     "outlet:HT Media"
    ],
@@ -83,71 +156,6 @@
    "date": "2026-11-18",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-18T21:18:54+00:00",
-   "headlines": [
-    "What the Crimean bridge attack means for Russia",
-    "New video shows explosions moments before part of Crimea Bridge collapses"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:What the Crimean bridge attack means for Russia",
-    "google-news:New video shows explosions moments before part of Crimea Bridge collapses",
-    "outlet:Deutsche Welle",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "Deutsche Welle",
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "What the Crimean bridge attack means for Russia",
-     "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-18T20:30:00+00:00"
-    },
-    {
-     "title": "New video shows explosions moments before part of Crimea Bridge collapses",
-     "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-18T17:09:43+00:00"
-    },
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-17T21:24:35+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q142084937",
@@ -437,20 +445,18 @@
   {
    "qid": null,
    "title": "2026 Kulgam attack",
-   "fame": 275000,
+   "fame": 150000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
+   "news": 150000,
    "news_at": "2026-11-18T12:02:21+00:00",
    "headlines": [
     "Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
-    "LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more"
    ],
    "region": "india",
    "via": [
     "google-news:Lateef Bhatt dead: How forces tracked down LeT commander who built youth recruitment network in Kulgam",
-    "google-news:LeT’s ‘last local recruit’ Lateef Bhat killed outside a Kulgam mosque",
     "google-news:HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
     "outlet:HT Media"
    ],
@@ -518,12 +524,12 @@
   }
  ],
  "outlets": {
-  "headlines": 823,
+  "headlines": 816,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
+  "matched": 49,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 42 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 49 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
