@@ -1,17 +1,19 @@
 {
- "at": "2026-11-19T16:47:39+00:00",
+ "at": "2026-11-19T17:37:34+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 234673,
+   "fame": 384673,
    "views": 9673,
    "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-19T13:07:35+00:00",
+   "news": 325000,
+   "news_at": "2026-11-19T17:29:01+00:00",
    "headlines": [
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "Crucial Crimea bridge attacked for third time in a week",
+    "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
     "Crimean Bridge has been attacked again, Russian official says"
    ],
    "region": "world",
@@ -19,15 +21,28 @@
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "google-news:Crimean Bridge has been attacked again, Russian official says",
+    "google-news:Crucial Crimea bridge attacked for third time in a week",
+    "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "outlet:Independent Digital News",
     "outlet:BBC",
     "outlet:Deutsche Welle"
    ],
    "owners": [
+    "Independent Digital News",
     "BBC",
     "Deutsche Welle"
    ],
    "reports": [
+    {
+     "title": "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T17:29:01+00:00"
+    },
     {
      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
@@ -186,6 +201,42 @@
    "date": "2026-11-16"
   },
   {
+   "qid": "Q7489916",
+   "title": "Sharman Stone",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T06:34:02+00:00",
+   "headlines": [
+    "Ex-federal minister Sharman Stone dies after long illness"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Ex-federal minister Sharman Stone dies after long illness",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Ex-federal minister Sharman Stone dies after long illness",
+     "url": "https://www.abc.net.au/news/2026-11-19/federal-politics-former-liberal-mp-sharman-stone-dies-vad/107404320",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T06:34:02+00:00"
+    }
+   ],
+   "id": "wk-Q7489916",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
+  },
+  {
    "qid": "Q1134918",
    "title": "Bill Watts",
    "fame": 24612,
@@ -319,17 +370,54 @@
    "lon": "85.3"
   }
  ],
- "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 145 people)"
+ "candidates": [
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T00:00:00+00:00",
+   "headlines": [
+    "Police in Bangladesh clash with garment workers demanding higher minimum wages"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-18",
+    "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
+    "outlet:Euronews"
+   ],
+   "owners": [
+    "Euronews"
+   ],
+   "reports": [
+    {
+     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+     "url": "https://www.euronews.com/2026/11/18/police-in-bangladesh-clash-with-garment-workers-demanding-higher-minimum-wages",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-18T12:45:21+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-19",
+   "coords": null,
+   "has_coords": false
+  }
  ],
  "outlets": {
-  "headlines": 838,
+  "headlines": 837,
   "feeds": 29,
   "owners": 21,
-  "matched": 19,
+  "matched": 31,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 838 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 837 headlines from 29 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
