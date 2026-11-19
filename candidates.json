@@ -1,79 +1,7 @@
 {
- "at": "2026-11-19T20:46:12+00:00",
+ "at": "2026-11-19T21:03:55+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 259673,
-   "views": 9673,
-   "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-19T19:25:45+00:00",
-   "headlines": [
-    "Crucial Crimea bridge attacked for third time in a week",
-    "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
-    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "Crimean Bridge has been attacked again, Russian official says"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-18",
-    "wikipedia-current-events-2026-11-18",
-    "google-news:Crucial Crimea bridge attacked for third time in a week",
-    "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
-    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "outlet:Independent Digital News",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "Independent Digital News",
-    "BBC",
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T19:25:45+00:00"
-    },
-    {
-     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T13:07:35+00:00"
-    },
-    {
-     "title": "Crimean Bridge has been attacked again, Russian official says",
-     "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T03:43:00+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
-  },
   {
    "qid": null,
    "title": "2026 Kulgam attack",
@@ -97,6 +25,63 @@
    "date": "2026-11-18",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 109673,
+   "views": 9673,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-19T19:25:45+00:00",
+   "headlines": [
+    "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-18",
+    "wikipedia-current-events-2026-11-18",
+    "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "outlet:Independent Digital News",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T19:25:45+00:00"
+    },
+    {
+     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T13:07:35+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q142084937",
@@ -414,32 +399,27 @@
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 259673,
+   "fame": 109673,
    "views": 9673,
    "traffic": 0,
-   "news": 200000,
+   "news": 50000,
    "news_at": "2026-11-19T19:25:45+00:00",
    "headlines": [
-    "Crucial Crimea bridge attacked for third time in a week",
     "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
-    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "Crimean Bridge has been attacked again, Russian official says"
+    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
-    "google-news:Crucial Crimea bridge attacked for third time in a week",
     "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "outlet:Independent Digital News",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
+    "outlet:BBC"
    ],
    "owners": [
     "Independent Digital News",
-    "BBC",
-    "Deutsche Welle"
+    "BBC"
    ],
    "reports": [
     {
@@ -461,16 +441,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-19T13:07:35+00:00"
-    },
-    {
-     "title": "Crimean Bridge has been attacked again, Russian official says",
-     "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T03:43:00+00:00"
     }
    ],
    "id": "wk-Q142193498",
@@ -484,13 +454,16 @@
    "has_coords": true
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.3 h ago, 157 people)"
+ ],
  "outlets": {
-  "headlines": 836,
+  "headlines": 838,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 29,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 838 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
