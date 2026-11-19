@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-19T11:51:21+00:00. Scored Shorts (views at 24 h): 76. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-19T15:00:47+00:00. Scored Shorts (views at 24 h): 76. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
 Baseline: a typical Short has 229 views at 24 h.
 Retention: a typical Short is watched 55.3% through; a group's retention is blended into its lift at 0.5.
@@ -14,15 +14,15 @@ Retention: a typical Short is watched 55.3% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q7489916 | 2026-11-19T08:00 | death | death | 214 |  |
-| wk-Q3138557 | 2026-11-17T21:27 | death | death | 811 | 753 |
-| wk-Q2266089 | 2026-11-17T14:37 | death | death | 1097 | 1006 |
+| wk-Q7489916 | 2026-11-19T08:00 | death | death | 369 |  |
+| wk-Q3138557 | 2026-11-17T21:27 | death | death | 951 | 753 |
+| wk-Q2266089 | 2026-11-17T14:37 | death | death | 1099 | 1006 |
 | wk-Q321457 | 2026-11-15T15:23 | death | death | 1091 | 1052 |
-| wk-Q2225687 | 2026-11-14T20:30 | death | death | 539 | 108 |
+| wk-Q2225687 | 2026-11-14T20:30 | death | death | 542 | 108 |
 | wk-Q7308546 | 2026-11-13T04:26 | death | death | 1216 | 1143 |
-| wk-Q951199 | 2026-11-12T20:30 | death | death | 1129 | 979 |
+| wk-Q951199 | 2026-11-12T20:30 | death | death | 1135 | 979 |
 | wk-Q5209002 | 2026-11-11T04:13 | death | death | 472 | 388 |
-| wk-Q2654764 | 2026-11-10T09:33 | death | death | 1271 | 851 |
+| wk-Q2654764 | 2026-11-10T09:33 | death | death | 1274 | 851 |
 | wk-Q1150359 | 2026-11-08T20:30 | death | death | 708 | 369 |
 | wk-Q2893079 | 2026-11-07T13:37 | death | death | 189 | 104 |
 | wk-Q4250213 | 2026-11-07T01:35 | death | death | 1014 | 888 |
@@ -42,5 +42,5 @@ Retention: a typical Short is watched 55.3% through; a group's retention is blen
 | wk-Q922837 | 2026-10-29T09:29 | death | death | 466 | 294 |
 | wk-Q468843 | 2026-10-28T18:21 | death | death | 573 | 445 |
 | wk-Q455700 | 2026-10-28T12:45 | death | death | 558 | 363 |
-| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1440 | 939 |
+| wk-Q2339941 | 2026-10-27T13:16 | death | death | 1441 | 939 |
 | wk-Q376176 | 2026-10-26T20:55 | death | death | 4508 | 1424 |

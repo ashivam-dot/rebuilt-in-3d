@@ -1,18 +1,17 @@
 {
- "at": "2026-11-19T14:20:21+00:00",
+ "at": "2026-11-19T15:00:49+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 259673,
+   "fame": 234673,
    "views": 9673,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-19T13:58:23+00:00",
+   "news": 175000,
+   "news_at": "2026-11-19T13:07:35+00:00",
    "headlines": [
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "Crimean bridge attacked for 3rd time in a week, officials say",
     "Crimean Bridge has been attacked again, Russian official says"
    ],
    "region": "world",
@@ -20,28 +19,15 @@
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "google-news:Crimean bridge attacked for 3rd time in a week, officials say",
     "google-news:Crimean Bridge has been attacked again, Russian official says",
-    "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Deutsche Welle"
    ],
    "owners": [
-    "Disney (ABC News)",
     "BBC",
     "Deutsche Welle"
    ],
    "reports": [
-    {
-     "title": "Crimean bridge attacked for 3rd time in a week, officials say",
-     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T13:58:23+00:00"
-    },
     {
      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
@@ -92,6 +78,30 @@
     36.505798
    ],
    "has_coords": true
+  },
+  {
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-18T05:16:48+00:00",
+   "headlines": [
+    "LeT commander Latief Bhat, last 'active militant' in South Kashmir, killed in Kulgam encounter"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:LeT commander Latief Bhat, last 'active militant' in South Kashmir, killed in Kulgam encounter"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Kulgam_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
   },
   {
    "qid": "Q142084937",
@@ -381,51 +391,14 @@
    "lon": "85.3"
   }
  ],
- "candidates": [
-  {
-   "qid": "Q1806102",
-   "title": "Larry Poindexter",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T14:05:59+00:00",
-   "headlines": [
-    "Actor Larry Poindexter dies at 66 days after being hit by car"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Actor Larry Poindexter dies at 66 days after being hit by car",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Actor Larry Poindexter dies at 66 days after being hit by car",
-     "url": "https://www.foxnews.com/entertainment/actor-larry-poindexter-dies-66-days-being-hit-car",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:05:59+00:00"
-    }
-   ],
-   "id": "wk-Q1806102",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-18"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 823,
-  "feeds": 30,
+  "headlines": 827,
+  "feeds": 29,
   "owners": 21,
-  "matched": 40,
+  "matched": 32,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 823 headlines from 30 feeds (21 owners), 40 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 827 headlines from 29 feeds (21 owners), 32 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
