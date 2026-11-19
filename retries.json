@@ -1555,11 +1555,19 @@
   "kind": "death"
  },
  "wk-Q6662726": {
-  "count": 1,
-  "reason": "gate: no draft passed the fact checks: these names or numbers are not in the sources: British",
-  "at": "2026-11-19T03:28:39+00:00",
+  "count": 2,
+  "reason": "gate: no draft passed the fact checks: beat 3, 5 name(s) nothing its photo shows (only 61% of the script shows what it says; want 70%): in each, name who or what a photo shows (Lloyd Scott, Blackpool F.C., Member of the Order of the British Empire), or say what an EVENT photo itself shows (the words",
+  "at": "2026-11-19T04:21:33+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "wp-2026_Kulgam_attack": {
+  "count": 1,
+  "reason": "gate: only 1 usable photos of 2026 Kulgam attack on Wikimedia Commons (want 4)",
+  "at": "2026-11-19T04:12:36+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }
