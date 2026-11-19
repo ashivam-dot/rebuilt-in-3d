@@ -1,17 +1,16 @@
 {
- "at": "2026-11-19T19:35:39+00:00",
+ "at": "2026-11-19T20:03:58+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 384673,
+   "fame": 259673,
    "views": 9673,
    "traffic": 0,
-   "news": 325000,
+   "news": 200000,
    "news_at": "2026-11-19T19:25:45+00:00",
    "headlines": [
-    "Ukraine strikes Putin’s prized Crimean bridge for third time in a week",
     "Crucial Crimea bridge attacked for third time in a week",
     "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
@@ -21,9 +20,9 @@
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
-    "google-news:Ukraine strikes Putin’s prized Crimean bridge for third time in a week",
     "google-news:Crucial Crimea bridge attacked for third time in a week",
     "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "outlet:Independent Digital News",
     "outlet:BBC",
     "outlet:Deutsche Welle"
@@ -76,12 +75,36 @@
    "has_coords": true
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
+   "news": 125000,
+   "news_at": "2026-11-18T21:21:00+00:00",
+   "headlines": [
+    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Kulgam_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
    "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
     "Police in Bangladesh clash with garment workers demanding higher minimum wages"
@@ -90,10 +113,12 @@
    "via": [
     "wikipedia-current-events-2026-11-18",
     "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)"
    ],
    "owners": [
-    "Euronews"
+    "Euronews",
+    "Disney (ABC News)"
    ],
    "reports": [
     {
@@ -105,6 +130,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-18T12:45:21+00:00"
+    },
+    {
+     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-18T12:42:20+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w47",
@@ -156,6 +191,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
+  },
+  {
+   "qid": "Q7489916",
+   "title": "Sharman Stone",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-19T19:44:24+00:00",
+   "headlines": [
+    "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
+     "url": "https://www.theguardian.com/australia-news/2026/nov/20/howard-era-minister-sharman-stone-dies-via-voluntary-assisted-dying-aged-75",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T19:44:24+00:00"
+    }
+   ],
+   "id": "wk-Q7489916",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
   },
   {
    "qid": "Q1806102",
@@ -314,27 +385,112 @@
    "date": "2026-11-16"
   }
  ],
- "hazards": [
+ "hazards": [],
+ "candidates": [
   {
-   "id": "gdacs-TC-1001351",
-   "kind": "TC",
-   "level": "Orange",
-   "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (11.754 million in Tropical Storm).",
-   "country": "India",
-   "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
-   "published": "2026-11-16T20:06:39+00:00",
-   "lat": "16",
-   "lon": "85.3"
+   "qid": null,
+   "title": "2026 Kulgam attack",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-18T21:21:00+00:00",
+   "headlines": [
+    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
+   ],
+   "region": "india",
+   "via": [
+    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Kulgam_attack",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-18",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 259673,
+   "views": 9673,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-11-19T19:25:45+00:00",
+   "headlines": [
+    "Crucial Crimea bridge attacked for third time in a week",
+    "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "Crimean Bridge has been attacked again, Russian official says"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-18",
+    "wikipedia-current-events-2026-11-18",
+    "google-news:Crucial Crimea bridge attacked for third time in a week",
+    "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "outlet:Independent Digital News",
+    "outlet:BBC",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "Independent Digital News",
+    "BBC",
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T19:25:45+00:00"
+    },
+    {
+     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T13:07:35+00:00"
+    },
+    {
+     "title": "Crimean Bridge has been attacked again, Russian official says",
+     "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T03:43:00+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
   }
  ],
- "candidates": [],
  "outlets": {
-  "headlines": 835,
+  "headlines": 832,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
-  "corroborated": 1
+  "matched": 33,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 835 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 832 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }

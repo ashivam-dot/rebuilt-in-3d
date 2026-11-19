@@ -1,9 +1,12 @@
 {
- "at": "2026-11-19T19:35:38+00:00",
+ "at": "2026-11-19T20:03:57+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 70 units today",
-  "watch: 0 candidates (0 quakes, 11 trending), 1 hazard alerts",
-  "outlets: 835 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 71 units today",
+  "watch: 2 candidates (0 quakes, 13 trending), 0 hazard alerts",
+  "outlets: 832 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "hold wp-2026_Kulgam_attack: a scheduled Short goes out in 0.3 h",
+  "hold wk-Q142193498: a scheduled Short goes out in 0.3 h",
+  "ad-suitability x0.85 (attack, not breaking): wp-2026_Kulgam_attack"
  ]
 }
