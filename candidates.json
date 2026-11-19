@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T18:21:01+00:00",
+ "at": "2026-11-19T18:41:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,7 +11,7 @@
    "news": 200000,
    "news_at": "2026-11-19T17:29:01+00:00",
    "headlines": [
-    "Ukraine strikes Putin’s prized Crimean bridge for third time in a week",
+    "Crucial Crimea bridge attacked for third time in a week",
     "Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "Crimean Bridge has been attacked again, Russian official says"
@@ -20,7 +20,7 @@
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
-    "google-news:Ukraine strikes Putin’s prized Crimean bridge for third time in a week",
+    "google-news:Crucial Crimea bridge attacked for third time in a week",
     "google-news:Ukraine-Russia war latest: Putin threatens ‘painful response’ after Kyiv strikes Crimean bridge for third time",
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "outlet:Independent Digital News",
@@ -73,30 +73,6 @@
     36.505798
    ],
    "has_coords": true
-  },
-  {
-   "qid": null,
-   "title": "2026 Kulgam attack",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-18T21:21:00+00:00",
-   "headlines": [
-    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
-   ],
-   "region": "india",
-   "via": [
-    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Kulgam_attack",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-18",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q142084937",
@@ -191,42 +167,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-16"
-  },
-  {
-   "qid": "Q7489916",
-   "title": "Sharman Stone",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T06:34:02+00:00",
-   "headlines": [
-    "Ex-federal minister Sharman Stone dies after long illness"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Ex-federal minister Sharman Stone dies after long illness",
-    "outlet:ABC (Australia)"
-   ],
-   "owners": [
-    "ABC (Australia)"
-   ],
-   "reports": [
-    {
-     "title": "Ex-federal minister Sharman Stone dies after long illness",
-     "url": "https://www.abc.net.au/news/2026-11-19/federal-politics-former-liberal-mp-sharman-stone-dies-vad/107404320",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T06:34:02+00:00"
-    }
-   ],
-   "id": "wk-Q7489916",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-18"
   },
   {
    "qid": "Q1134918",
@@ -363,16 +303,13 @@
   }
  ],
  "candidates": [],
- "trend_errors": [
-  "outlet scmp: HTTPError: HTTP 429"
- ],
  "outlets": {
-  "headlines": 787,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 37,
+  "headlines": 837,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 32,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 787 headlines from 29 feeds (20 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 837 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
