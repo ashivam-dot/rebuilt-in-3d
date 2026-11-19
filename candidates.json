@@ -1,17 +1,16 @@
 {
- "at": "2026-11-19T08:48:35+00:00",
+ "at": "2026-11-19T09:57:51+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 259673,
+   "fame": 134673,
    "views": 9673,
    "traffic": 0,
-   "news": 200000,
+   "news": 75000,
    "news_at": "2026-11-19T07:42:22+00:00",
    "headlines": [
-    "Ukraine war live: Crimean Bridge struck again without Musk’s Starlink access",
     "Crimean bridge attacked for 3rd time in a week, officials say",
     "Crimean Bridge attacked again, Russia says",
     "Crimean Bridge has been attacked again, Russian official says"
@@ -20,9 +19,9 @@
    "via": [
     "wikipedia-top-2026-11-18",
     "wikipedia-current-events-2026-11-18",
-    "google-news:Ukraine war live: Crimean Bridge struck again without Musk’s Starlink access",
     "google-news:Crimean bridge attacked for 3rd time in a week, officials say",
     "google-news:Crimean Bridge attacked again, Russia says",
+    "google-news:Crimean Bridge has been attacked again, Russian official says",
     "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Deutsche Welle"
@@ -97,36 +96,20 @@
   {
    "qid": null,
    "title": "2026 Kulgam attack",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
+   "news": 125000,
    "news_at": "2026-11-18T21:21:00+00:00",
    "headlines": [
-    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight",
-    "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more"
+    "Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
    ],
    "region": "india",
    "via": [
-    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight",
-    "google-news:HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
-    "outlet:HT Media"
+    "google-news:Video call, and a ‘no’ to surrender: Kashmir’s last listed local terrorist killed in Kulgam gunfight"
    ],
-   "owners": [
-    "HT Media"
-   ],
-   "reports": [
-    {
-     "title": "HT Evening News Brief November 18: Lateef Bhat killed in Kulgam encounter, Xi's ‘rare’ welcome for Trump in Shezhen, and more",
-     "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-november-18-lateef-bhat-killed-in-kulgam-encounter-xis-rare-welcome-for-trump-in-shezhen-cyclone-akvan-landfall-101794997723484.html",
-     "outlet": "Hindustan Times",
-     "outlet_hi": "हिंदुस्तान टाइम्स",
-     "owner": "HT Media",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-18T12:02:21+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wp-2026_Kulgam_attack",
    "kind": "incident",
    "category": "attack",
@@ -385,8 +368,8 @@
    "date": "2026-11-16"
   },
   {
-   "qid": "Q1806102",
-   "title": "Larry Poindexter",
+   "qid": "Q6239743",
+   "title": "John Hood (university administrator)",
    "fame": 100,
    "views": 0,
    "traffic": 100,
@@ -395,11 +378,11 @@
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-GB:larry poindexter"
+    "google-trends-GB:john hood"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1806102",
+   "id": "wk-Q6239743",
    "kind": "death",
    "category": "death",
    "date": "2026-11-18"
@@ -420,8 +403,28 @@
  ],
  "candidates": [
   {
-   "qid": "Q1806102",
-   "title": "Larry Poindexter",
+   "qid": "Q6662726",
+   "title": "Lloyd Scott",
+   "fame": 9317,
+   "views": 9317,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-18"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6662726",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
+  },
+  {
+   "qid": "Q6239743",
+   "title": "John Hood (university administrator)",
    "fame": 100,
    "views": 0,
    "traffic": 100,
@@ -430,26 +433,23 @@
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-GB:larry poindexter"
+    "google-trends-GB:john hood"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q1806102",
+   "id": "wk-Q6239743",
    "kind": "death",
    "category": "death",
    "date": "2026-11-18"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 1.3 h ago, 150 people)"
- ],
  "outlets": {
-  "headlines": 816,
-  "feeds": 30,
+  "headlines": 811,
+  "feeds": 29,
   "owners": 21,
-  "matched": 37,
+  "matched": 43,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 811 headlines from 29 feeds (21 owners), 43 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
