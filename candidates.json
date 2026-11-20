@@ -1,7 +1,52 @@
 {
- "at": "2026-11-20T09:06:41+00:00",
+ "at": "2026-11-20T09:35:28+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 159716,
+   "views": 9616,
+   "traffic": 100,
+   "news": 150000,
+   "news_at": "2026-11-20T08:17:16+00:00",
+   "headlines": [
+    "Ukraine strains Russian logistics with Crimean bridge strikes",
+    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-19",
+    "google-trends-US:bridge",
+    "google-news:Ukraine strains Russian logistics with Crimean bridge strikes",
+    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T13:07:35+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q1806102",
    "title": "Larry Poindexter",
@@ -40,79 +85,6 @@
    "date": "2026-11-18"
   },
   {
-   "id": "nw-20261119-senegal-maritime",
-   "qid": null,
-   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:52:26+00:00"
-    },
-    {
-     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T20:21:25+00:00"
-    },
-    {
-     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:03:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261120-kyiv-strike",
    "qid": null,
    "title": "Three Kyiv bridges hit during major Russian missile attack",
@@ -120,10 +92,10 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-20",
-   "news_at": "2026-11-20T09:01:06+00:00",
+   "news_at": "2026-11-20T09:31:24+00:00",
    "owners": [
-    "Independent Digital News",
     "Disney (ABC News)",
+    "Independent Digital News",
     "BBC"
    ],
    "fame": 75000,
@@ -131,8 +103,8 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
     "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
+    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
     "Three Kyiv bridges hit during major Russian missile attack"
    ],
    "places": [
@@ -159,7 +131,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-20T09:01:06+00:00"
+     "at": "2026-11-20T09:31:24+00:00"
     },
     {
      "title": "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
@@ -169,7 +141,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-20T08:46:40+00:00"
+     "at": "2026-11-20T08:58:28+00:00"
     },
     {
      "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
@@ -183,8 +155,8 @@
     }
    ],
    "via": [
-    "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News",
     "outlet:BBC"
    ],
    "emerging": true,
@@ -211,48 +183,6 @@
    "date": "2026-11-20",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 34616,
-   "views": 9616,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T13:07:35+00:00",
-   "headlines": [
-    "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-19",
-    "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T13:07:35+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -378,167 +308,15 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261120-kyiv-strike",
-   "qid": null,
-   "title": "Three Kyiv bridges hit during major Russian missile attack",
-   "name": "Kyiv",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-20",
-   "news_at": "2026-11-20T09:01:06+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
-    "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
-    "Three Kyiv bridges hit during major Russian missile attack"
-   ],
-   "places": [
-    "Crimea"
-   ],
-   "attackers": [
-    "Putin",
-    "Russian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Three Kyiv bridges hit during major Russian missile attack",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T09:01:06+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-20T08:46:40+00:00"
-    },
-    {
-     "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
-     "url": "https://abcnews.com/International/wireStory/russian-attacks-kyiv-kill-3-cripple-bridges-cut-138313948",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-20T08:51:45+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 812,
+  "headlines": 815,
   "feeds": 30,
   "owners": 21,
   "matched": 28,
-  "corroborated": 2
+  "corroborated": 1
  },
  "emerging": [
-  {
-   "id": "nw-20261119-senegal-maritime",
-   "qid": null,
-   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:52:26+00:00"
-    },
-    {
-     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T20:21:25+00:00"
-    },
-    {
-     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:03:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261120-kyiv-strike",
    "qid": null,
@@ -547,10 +325,10 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-20",
-   "news_at": "2026-11-20T09:01:06+00:00",
+   "news_at": "2026-11-20T09:31:24+00:00",
    "owners": [
-    "Independent Digital News",
     "Disney (ABC News)",
+    "Independent Digital News",
     "BBC"
    ],
    "fame": 75000,
@@ -558,8 +336,8 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
     "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
+    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
     "Three Kyiv bridges hit during major Russian missile attack"
    ],
    "places": [
@@ -586,7 +364,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-20T09:01:06+00:00"
+     "at": "2026-11-20T09:31:24+00:00"
     },
     {
      "title": "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
@@ -596,7 +374,7 @@
      "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-20T08:46:40+00:00"
+     "at": "2026-11-20T08:58:28+00:00"
     },
     {
      "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
@@ -610,13 +388,13 @@
     }
    ],
    "via": [
-    "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
+    "outlet:Independent Digital News",
     "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261119-senegal-maritime, nw-20261120-kyiv-strike"
+ "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-kyiv-strike"
 }
