@@ -1,14 +1,14 @@
 {
- "at": "2026-11-20T13:36:53+00:00",
+ "at": "2026-11-20T14:08:50+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 160116,
+   "fame": 284616,
    "views": 9616,
-   "traffic": 500,
-   "news": 150000,
+   "traffic": 0,
+   "news": 275000,
    "news_at": "2026-11-20T13:01:16+00:00",
    "headlines": [
     "Ukraine strains Russian logistics with Crimean bridge strikes",
@@ -17,7 +17,6 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-19",
-    "google-trends-GB:crimean bridge",
     "google-news:Ukraine strains Russian logistics with Crimean bridge strikes",
     "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
     "outlet:BBC"
@@ -76,79 +75,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-18"
-  },
-  {
-   "id": "nw-20261119-senegal-maritime",
-   "qid": null,
-   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:52:26+00:00"
-    },
-    {
-     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T20:21:25+00:00"
-    },
-    {
-     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:03:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q142084937",
@@ -296,88 +222,256 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1621643",
+   "title": "Miguel Ángel Félix Gallardo",
+   "fame": 70590,
+   "views": 70590,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1621643",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
+  },
+  {
+   "qid": "Q3018028",
+   "title": "David Habib",
+   "fame": 3310,
+   "views": 3310,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3018028",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-19"
+  },
+  {
+   "qid": "Q6239743",
+   "title": "John Hood (university administrator)",
+   "fame": 2950,
+   "views": 2950,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6239743",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-18"
+  },
+  {
+   "qid": "Q303883",
+   "title": "David Evennett",
+   "fame": 7095,
+   "views": 7095,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q303883",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
+  },
+  {
+   "qid": "Q946565",
+   "title": "Epifanio González",
+   "fame": 1559,
+   "views": 1559,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q946565",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-19"
+  },
+  {
+   "qid": "Q1042095",
+   "title": "Yutaka Enatsu",
+   "fame": 2974,
+   "views": 2974,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1042095",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
+  },
+  {
+   "qid": "Q7306707",
+   "title": "Reed Waller",
+   "fame": 1986,
+   "views": 1986,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7306707",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
+  },
+  {
+   "qid": "Q5220790",
+   "title": "Danny Rubinstein",
+   "fame": 1795,
+   "views": 1795,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5220790",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
+  },
+  {
+   "qid": "Q106168",
+   "title": "Herrmann Zschoche",
+   "fame": 1012,
+   "views": 1012,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q106168",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
+  },
+  {
+   "qid": "Q3195092",
+   "title": "Ken St. Andre",
+   "fame": 2466,
+   "views": 2466,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3195092",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
+  },
+  {
+   "qid": "Q17284905",
+   "title": "Silvio Demanuele",
+   "fame": 1175,
+   "views": 1175,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q17284905",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
+  },
+  {
+   "qid": "Q3026154",
+   "title": "Diana Johnstone",
+   "fame": 1043,
+   "views": 1043,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q3026154",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-15"
+  }
+ ],
  "outlets": {
-  "headlines": 819,
+  "headlines": 820,
   "feeds": 29,
   "owners": 21,
   "matched": 24,
-  "corroborated": 1
+  "corroborated": 0
  },
- "emerging": [
-  {
-   "id": "nw-20261119-senegal-maritime",
-   "qid": null,
-   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:52:26+00:00"
-    },
-    {
-     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T20:21:25+00:00"
-    },
-    {
-     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:03:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 819 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261119-senegal-maritime"
+ "emerging": [],
+ "outlet_note": "outlets: 820 headlines from 29 feeds (21 owners), 24 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
+ "quiet_note": "quiet day (no Short yet today): 12 tribute candidates: Miguel Ángel Félix Gallardo, David Evennett, David Habib, Yutaka Enatsu"
 }
