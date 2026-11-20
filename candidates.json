@@ -1,51 +1,7 @@
 {
- "at": "2026-11-20T17:36:48+00:00",
+ "at": "2026-11-20T18:09:04+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 159616,
-   "views": 9616,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-20T13:01:16+00:00",
-   "headlines": [
-    "Ukraine struck the Crimean Bridge with missiles made by a Dutch company. Two days later, a Russian drone crashed near the Dutch Embassy in Kyiv.",
-    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-19",
-    "google-news:Ukraine struck the Crimean Bridge with missiles made by a Dutch company. Two days later, a Russian drone crashed near the Dutch Embassy in Kyiv.",
-    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T13:01:16+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q1806102",
    "title": "Larry Poindexter",
@@ -159,6 +115,79 @@
    "article": null
   },
   {
+   "id": "nw-20261120-mass-protest",
+   "qid": null,
+   "title": "Cost of living protests sweep across Europe",
+   "name": "Mass",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-20",
+   "news_at": "2026-11-20T17:32:32+00:00",
+   "owners": [
+    "France Médias Monde",
+    "BBC",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+    "Cost of living protests sweep across Europe",
+    "Protests held across Europe over wages, services, high living costs"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cost of living protests sweep across Europe",
+     "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T16:45:34+00:00"
+    },
+    {
+     "title": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+     "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T15:41:34+00:00"
+    },
+    {
+     "title": "Protests held across Europe over wages, services, high living costs",
+     "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T17:32:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 50000,
@@ -181,25 +210,45 @@
    "has_coords": false
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 16649,
-   "views": 16649,
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 34616,
+   "views": 9616,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-20T13:01:16+00:00",
+   "headlines": [
+    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-19"
+    "wikipedia-top-2026-11-19",
+    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+    "outlet:BBC"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T13:01:16+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
    "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
    "has_coords": true
   },
   {
@@ -304,13 +353,87 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261120-mass-protest",
+   "qid": null,
+   "title": "Cost of living protests sweep across Europe",
+   "name": "Mass",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-20",
+   "news_at": "2026-11-20T17:32:32+00:00",
+   "owners": [
+    "France Médias Monde",
+    "BBC",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+    "Cost of living protests sweep across Europe",
+    "Protests held across Europe over wages, services, high living costs"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cost of living protests sweep across Europe",
+     "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T16:45:34+00:00"
+    },
+    {
+     "title": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+     "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T15:41:34+00:00"
+    },
+    {
+     "title": "Protests held across Europe over wages, services, high living costs",
+     "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T17:32:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
   "headlines": 827,
   "feeds": 30,
   "owners": 21,
   "matched": 31,
-  "corroborated": 1
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -387,7 +510,80 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261120-mass-protest",
+   "qid": null,
+   "title": "Cost of living protests sweep across Europe",
+   "name": "Mass",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-20",
+   "news_at": "2026-11-20T17:32:32+00:00",
+   "owners": [
+    "France Médias Monde",
+    "BBC",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+    "Cost of living protests sweep across Europe",
+    "Protests held across Europe over wages, services, high living costs"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Cost of living protests sweep across Europe",
+     "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T16:45:34+00:00"
+    },
+    {
+     "title": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+     "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T15:41:34+00:00"
+    },
+    {
+     "title": "Protests held across Europe over wages, services, high living costs",
+     "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T17:32:32+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 827 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-poland-strike"
+ "outlet_note": "outlets: 827 headlines from 30 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261120-poland-strike, nw-20261120-mass-protest"
 }
