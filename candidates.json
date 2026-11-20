@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T06:26:51+00:00",
+ "at": "2026-11-20T06:50:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -49,15 +49,17 @@
    "date": "2026-11-19",
    "news_at": "2026-11-20T00:10:04+00:00",
    "owners": [
+    "Disney (ABC News)",
     "BBC",
     "Euronews",
     "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
     "Dozens missing after boat carrying migrants sinks off Senegal's coast",
     "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
     "Four bodies recovered after Senegal boat capsizes amid migration surge"
@@ -102,85 +104,23 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-19T20:21:25+00:00"
+    },
+    {
+     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:03:39+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261119-georgia-explosion",
-   "qid": null,
-   "title": "Six killed in suspected gas explosion at Georgia apartment building",
-   "name": "Georgia",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-19",
-   "news_at": "2026-11-20T01:43:11+00:00",
-   "owners": [
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "6 dead in Georgia as gas blast collapses part of residential block",
-    "Six killed in suspected gas explosion at Georgia apartment building",
-    "6 dead, including child, after suspected gas explosion levels building in Georgia"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Six killed in suspected gas explosion at Georgia apartment building",
-     "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T23:09:48+00:00"
-    },
-    {
-     "title": "6 dead in Georgia as gas blast collapses part of residential block",
-     "url": "https://www.scmp.com/news/world/europe/article/3375125/3-dead-3-trapped-georgia-building-collapses-after-gas-blast",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T15:52:57+00:00"
-    },
-    {
-     "title": "6 dead, including child, after suspected gas explosion levels building in Georgia",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/6-dead-including-child-after-suspected-gas-explosion-levels-building-in-georgia/articleshow/136009645.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-20T01:43:11+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
@@ -373,87 +313,13 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261119-georgia-explosion",
-   "qid": null,
-   "title": "Six killed in suspected gas explosion at Georgia apartment building",
-   "name": "Georgia",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-19",
-   "news_at": "2026-11-20T01:43:11+00:00",
-   "owners": [
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "6 dead in Georgia as gas blast collapses part of residential block",
-    "Six killed in suspected gas explosion at Georgia apartment building",
-    "6 dead, including child, after suspected gas explosion levels building in Georgia"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Six killed in suspected gas explosion at Georgia apartment building",
-     "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T23:09:48+00:00"
-    },
-    {
-     "title": "6 dead in Georgia as gas blast collapses part of residential block",
-     "url": "https://www.scmp.com/news/world/europe/article/3375125/3-dead-3-trapped-georgia-building-collapses-after-gas-blast",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T15:52:57+00:00"
-    },
-    {
-     "title": "6 dead, including child, after suspected gas explosion levels building in Georgia",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/6-dead-including-child-after-suspected-gas-explosion-levels-building-in-georgia/articleshow/136009645.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-20T01:43:11+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 812,
+  "headlines": 810,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 2
+  "matched": 27,
+  "corroborated": 1
  },
  "emerging": [
   {
@@ -466,15 +332,17 @@
    "date": "2026-11-19",
    "news_at": "2026-11-20T00:10:04+00:00",
    "owners": [
+    "Disney (ABC News)",
     "BBC",
     "Euronews",
     "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
+    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
     "Dozens missing after boat carrying migrants sinks off Senegal's coast",
     "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
     "Four bodies recovered after Senegal boat capsizes amid migration surge"
@@ -519,89 +387,27 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-19T20:21:25+00:00"
+    },
+    {
+     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:03:39+00:00"
     }
    ],
    "via": [
+    "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261119-georgia-explosion",
-   "qid": null,
-   "title": "Six killed in suspected gas explosion at Georgia apartment building",
-   "name": "Georgia",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-19",
-   "news_at": "2026-11-20T01:43:11+00:00",
-   "owners": [
-    "SCMP Group",
-    "Al Jazeera Media Network",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "6 dead in Georgia as gas blast collapses part of residential block",
-    "Six killed in suspected gas explosion at Georgia apartment building",
-    "6 dead, including child, after suspected gas explosion levels building in Georgia"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Six killed in suspected gas explosion at Georgia apartment building",
-     "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T23:09:48+00:00"
-    },
-    {
-     "title": "6 dead in Georgia as gas blast collapses part of residential block",
-     "url": "https://www.scmp.com/news/world/europe/article/3375125/3-dead-3-trapped-georgia-building-collapses-after-gas-blast",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T15:52:57+00:00"
-    },
-    {
-     "title": "6 dead, including child, after suspected gas explosion levels building in Georgia",
-     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/6-dead-including-child-after-suspected-gas-explosion-levels-building-in-georgia/articleshow/136009645.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-20T01:43:11+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Bennett, Coleman & Co."
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 812 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261119-senegal-maritime, nw-20261119-georgia-explosion"
+ "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 27 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261119-senegal-maritime"
 }
