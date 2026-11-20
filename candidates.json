@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T00:20:12+00:00",
+ "at": "2026-11-20T01:04:27+00:00",
  "quakes": [],
  "trending": [
   {
@@ -34,20 +34,22 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
+   "news_at": "2026-11-20T00:10:04+00:00",
    "owners": [
     "Disney (ABC News)",
     "BBC",
-    "Euronews"
+    "Euronews",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
     "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
+    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
+    "Four bodies recovered after Senegal boat capsizes amid migration surge"
    ],
    "places": [],
    "attackers": [],
@@ -69,6 +71,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-19T15:52:26+00:00"
+    },
+    {
+     "title": "Four bodies recovered after Senegal boat capsizes amid migration surge",
+     "url": "https://www.aljazeera.com/news/2026/11/20/four-bodies-recovered-after-senegal-boat-capsizes-amid-migration-surge?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T00:10:04+00:00"
     },
     {
      "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
@@ -94,7 +106,8 @@
    "via": [
     "outlet:Disney (ABC News)",
     "outlet:BBC",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -404,10 +417,10 @@
   }
  ],
  "outlets": {
-  "headlines": 839,
+  "headlines": 834,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 38,
   "corroborated": 1
  },
  "emerging": [
@@ -419,20 +432,22 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
+   "news_at": "2026-11-20T00:10:04+00:00",
    "owners": [
     "Disney (ABC News)",
     "BBC",
-    "Euronews"
+    "Euronews",
+    "Al Jazeera Media Network"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
     "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
+    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
+    "Four bodies recovered after Senegal boat capsizes amid migration surge"
    ],
    "places": [],
    "attackers": [],
@@ -454,6 +469,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-19T15:52:26+00:00"
+    },
+    {
+     "title": "Four bodies recovered after Senegal boat capsizes amid migration surge",
+     "url": "https://www.aljazeera.com/news/2026/11/20/four-bodies-recovered-after-senegal-boat-capsizes-amid-migration-surge?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T00:10:04+00:00"
     },
     {
      "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
@@ -479,11 +504,12 @@
    "via": [
     "outlet:Disney (ABC News)",
     "outlet:BBC",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 839 headlines from 30 feeds (21 owners), 41 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261119-senegal-maritime"
+ "outlet_note": "outlets: 834 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261119-senegal-maritime"
 }
