@@ -308,7 +308,7 @@ def watch() -> dict:
     flopped = [c["id"] for c in found["trending"] if retell_flopped(c, rows, perf)]
     if flopped:
         found["retell_note"] = f"no retell (last Short under {RETELL_SHARE:.0%} of the baseline): {', '.join(flopped)}"
-    stories = [c for c in found["trending"] if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
+    stories = [c for c in found["trending"] + found.get("emerging", []) if c.get("category") != "earthquake" and not ledger.is_done(c["id"])
                and ledger.due(c["id"]) and c["id"] not in flopped
                and not cooling(c, at, rows) and not ledger.is_done(trends.article_id(c["title"]))
                and not told_before(c, rows, at, moved)]
