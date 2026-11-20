@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T23:49:15+00:00",
+ "at": "2026-11-20T00:04:24+00:00",
  "quakes": [],
  "trending": [
   {
@@ -27,60 +27,82 @@
    "has_coords": false
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 100000,
+   "id": "nw-20261119-senegal-maritime",
+   "qid": null,
+   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-19",
+   "news_at": "2026-11-19T20:21:25+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-19T00:00:00+00:00",
    "headlines": [
-    "Police in Bangladesh clash with garment workers demanding higher minimum wages"
+    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-18",
-    "google-news:Police in Bangladesh clash with garment workers demanding higher minimum wages",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Euronews",
-    "Disney (ABC News)"
-   ],
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
-     "url": "https://www.euronews.com/2026/11/18/police-in-bangladesh-clash-with-garment-workers-demanding-higher-minimum-wages",
+     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T15:52:26+00:00"
+    },
+    {
+     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
+     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-18T12:45:21+00:00"
+     "at": "2026-11-19T20:21:25+00:00"
     },
     {
-     "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
-     "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349",
+     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
      "outlet": "ABC News",
      "outlet_hi": "एबीसी न्यूज़",
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-18T12:42:20+00:00"
+     "at": "2026-11-19T14:03:39+00:00"
     }
    ],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-19",
-   "coords": null,
-   "has_coords": false
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q142193498",
    "title": "2026 Crimean Bridge explosions",
-   "fame": 84673,
+   "fame": 34673,
    "views": 9673,
    "traffic": 0,
    "news": 25000,
@@ -91,7 +113,6 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-18",
-    "wikipedia-current-events-2026-11-18",
     "google-news:Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
     "outlet:BBC"
    ],
@@ -118,29 +139,6 @@
     45.308617,
     36.505798
    ],
-   "has_coords": true
-  },
-  {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 71546,
-   "views": 21546,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-19T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-18",
-    "wikipedia-current-events-2026-11-18"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
    "has_coords": true
   },
   {
@@ -276,6 +274,28 @@
    "date": "2026-11-15"
   },
   {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 21546,
+   "views": 21546,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-18"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
+  },
+  {
    "qid": "Q123054388",
    "title": "Lee Reeves (boxer)",
    "fame": 17744,
@@ -384,12 +404,86 @@
   }
  ],
  "outlets": {
-  "headlines": 842,
+  "headlines": 839,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
+  "matched": 41,
   "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 842 headlines from 30 feeds (21 owners), 39 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261119-senegal-maritime",
+   "qid": null,
+   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-19",
+   "news_at": "2026-11-19T20:21:25+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T15:52:26+00:00"
+    },
+    {
+     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
+     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T20:21:25+00:00"
+    },
+    {
+     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:03:39+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 839 headlines from 30 feeds (21 owners), 41 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261119-senegal-maritime"
 }
