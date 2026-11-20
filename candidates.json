@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T13:06:46+00:00",
+ "at": "2026-11-20T13:36:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -60,39 +60,95 @@
   {
    "qid": "Q1806102",
    "title": "Larry Poindexter",
-   "fame": 149373,
+   "fame": 124373,
    "views": 124373,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T19:19:42+00:00",
-   "headlines": [
-    "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-19",
-    "google-news:Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car",
-    "outlet:NBCUniversal"
+    "wikipedia-top-2026-11-19"
    ],
-   "owners": [
-    "NBCUniversal"
-   ],
-   "reports": [
-    {
-     "title": "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car",
-     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/larry-poindexter-days-lives-swt-actor-dies-hit-car-crossing-street-rcna610214",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T19:19:42+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q1806102",
    "kind": "death",
    "category": "death",
    "date": "2026-11-18"
+  },
+  {
+   "id": "nw-20261119-senegal-maritime",
+   "qid": null,
+   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-19",
+   "news_at": "2026-11-19T20:21:25+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T15:52:26+00:00"
+    },
+    {
+     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
+     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T20:21:25+00:00"
+    },
+    {
+     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:03:39+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q142084937",
@@ -242,12 +298,86 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 818,
+  "headlines": 819,
   "feeds": 29,
   "owners": 21,
-  "matched": 31,
-  "corroborated": 0
+  "matched": 24,
+  "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 818 headlines from 29 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261119-senegal-maritime",
+   "qid": null,
+   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+   "name": "Senegal",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-19",
+   "news_at": "2026-11-19T20:21:25+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-19T15:52:26+00:00"
+    },
+    {
+     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
+     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-19T20:21:25+00:00"
+    },
+    {
+     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
+     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T14:03:39+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 819 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261119-senegal-maritime"
 }
