@@ -1,9 +1,12 @@
 {
- "at": "2026-11-20T08:38:17+00:00",
+ "at": "2026-11-20T09:06:41+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
-  "watch: 0 candidates (0 quakes, 9 trending), 0 hazard alerts",
-  "outlets: 809 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
+  "watch: 1 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 812 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261119-senegal-maritime, nw-20261120-kyiv-strike",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261120-kyiv-strike",
+  "skip nw-20261120-kyiv-strike: gate: faceless: no free photo shows Kyiv or the event itself (only 6 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
