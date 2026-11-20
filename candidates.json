@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T15:08:07+00:00",
+ "at": "2026-11-20T15:58:32+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,81 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-18"
+  },
+  {
+   "id": "nw-20261120-poland-strike",
+   "qid": null,
+   "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-20",
+   "news_at": "2026-11-20T15:49:03+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Paramount (CBS)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Russia pummels Ukraine with massive strikes, missile hits Poland",
+    "Russia missiles pummel Ukraine and hit NATO soil in Poland",
+    "Ukraine-Russia war latest: Russian cruise missile strikes Poland as Nato scrambles jets"
+   ],
+   "places": [
+    "NATO"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+     "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T14:36:48+00:00"
+    },
+    {
+     "title": "Ukraine-Russia war latest: Russian cruise missile strikes Poland as Nato scrambles jets",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T15:49:03+00:00"
+    },
+    {
+     "title": "Russia missiles pummel Ukraine and hit NATO soil in Poland",
+     "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-20T15:39:50+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q142084937",
@@ -217,222 +292,209 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-19"
+  },
+  {
+   "qid": "Q7175059",
+   "title": "Peter June Simon",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:pj simon"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7175059",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-20"
   }
  ],
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q303883",
-   "title": "David Evennett",
-   "fame": 7095,
-   "views": 7095,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
+   "id": "nw-20261120-poland-strike",
+   "qid": null,
+   "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-20",
+   "news_at": "2026-11-20T15:49:03+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Paramount (CBS)",
+    "Independent Digital News"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q303883",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-16"
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Russia pummels Ukraine with massive strikes, missile hits Poland",
+    "Russia missiles pummel Ukraine and hit NATO soil in Poland",
+    "Ukraine-Russia war latest: Russian cruise missile strikes Poland as Nato scrambles jets"
+   ],
+   "places": [
+    "NATO"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+     "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T14:36:48+00:00"
+    },
+    {
+     "title": "Ukraine-Russia war latest: Russian cruise missile strikes Poland as Nato scrambles jets",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T15:49:03+00:00"
+    },
+    {
+     "title": "Russia missiles pummel Ukraine and hit NATO soil in Poland",
+     "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-20T15:39:50+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
-   "qid": "Q946565",
-   "title": "Epifanio González",
-   "fame": 1559,
-   "views": 1559,
-   "traffic": 0,
+   "qid": "Q7175059",
+   "title": "Peter June Simon",
+   "fame": 500,
+   "views": 0,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "quiet day"
+    "google-trends-US:pj simon"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q946565",
+   "id": "wk-Q7175059",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-19"
-  },
-  {
-   "qid": "Q553872",
-   "title": "Tim Holden",
-   "fame": 8471,
-   "views": 8471,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q553872",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
-  },
-  {
-   "qid": "Q1042095",
-   "title": "Yutaka Enatsu",
-   "fame": 2974,
-   "views": 2974,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1042095",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
-  },
-  {
-   "qid": "Q7306707",
-   "title": "Reed Waller",
-   "fame": 1986,
-   "views": 1986,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7306707",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
-  },
-  {
-   "qid": "Q5220790",
-   "title": "Danny Rubinstein",
-   "fame": 1795,
-   "views": 1795,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q5220790",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-16"
-  },
-  {
-   "qid": "Q106168",
-   "title": "Herrmann Zschoche",
-   "fame": 1012,
-   "views": 1012,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q106168",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-17"
-  },
-  {
-   "qid": "Q3195092",
-   "title": "Ken St. Andre",
-   "fame": 2466,
-   "views": 2466,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3195092",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
-  },
-  {
-   "qid": "Q17284905",
-   "title": "Silvio Demanuele",
-   "fame": 1175,
-   "views": 1175,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q17284905",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-16"
-  },
-  {
-   "qid": "Q3026154",
-   "title": "Diana Johnstone",
-   "fame": 1043,
-   "views": 1043,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q3026154",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-15"
+   "date": "2026-11-20"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 429 (used the list from 1.0 h ago, 149 people)"
- ],
  "outlets": {
-  "headlines": 826,
+  "headlines": 834,
   "feeds": 29,
   "owners": 21,
   "matched": 21,
-  "corroborated": 0
+  "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 826 headlines from 29 feeds (21 owners), 21 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 10 tribute candidates: Tim Holden, David Evennett, Yutaka Enatsu, Ken St. Andre"
+ "emerging": [
+  {
+   "id": "nw-20261120-poland-strike",
+   "qid": null,
+   "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+   "name": "Poland",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-20",
+   "news_at": "2026-11-20T15:49:03+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Paramount (CBS)",
+    "Independent Digital News"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Russia pummels Ukraine with massive strikes, missile hits Poland",
+    "Russia missiles pummel Ukraine and hit NATO soil in Poland",
+    "Ukraine-Russia war latest: Russian cruise missile strikes Poland as Nato scrambles jets"
+   ],
+   "places": [
+    "NATO"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+     "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T14:36:48+00:00"
+    },
+    {
+     "title": "Ukraine-Russia war latest: Russian cruise missile strikes Poland as Nato scrambles jets",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T15:49:03+00:00"
+    },
+    {
+     "title": "Russia missiles pummel Ukraine and hit NATO soil in Poland",
+     "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-20T15:39:50+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
+    "outlet:Independent Digital News"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 834 headlines from 29 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-poland-strike"
 }
