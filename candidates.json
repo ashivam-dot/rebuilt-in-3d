@@ -1,7 +1,51 @@
 {
- "at": "2026-11-20T16:06:50+00:00",
+ "at": "2026-11-20T16:39:31+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 159616,
+   "views": 9616,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-20T13:01:16+00:00",
+   "headlines": [
+    "Ukraine struck the Crimean Bridge with missiles made by a Dutch company. Two days later, a Russian drone crashed near the Dutch Embassy in Kyiv.",
+    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-19",
+    "google-news:Ukraine struck the Crimean Bridge with missiles made by a Dutch company. Two days later, a Russian drone crashed near the Dutch Embassy in Kyiv.",
+    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T13:01:16+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q1806102",
    "title": "Larry Poindexter",
@@ -118,58 +162,6 @@
    "date": "2026-11-20",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 34616,
-   "views": 9616,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-20T13:01:16+00:00",
-   "headlines": [
-    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-19",
-    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T13:01:16+00:00"
-    },
-    {
-     "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T13:07:35+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q141921562",
@@ -296,15 +288,15 @@
   {
    "qid": "Q7175059",
    "title": "Peter June Simon",
-   "fame": 500,
+   "fame": 100,
    "views": 0,
-   "traffic": 500,
+   "traffic": 100,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "google-trends-US:pj simon"
+    "google-trends-GB:pj simon"
    ],
    "owners": [],
    "reports": [],
@@ -317,10 +309,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 838,
-  "feeds": 29,
+  "headlines": 816,
+  "feeds": 30,
   "owners": 21,
-  "matched": 19,
+  "matched": 21,
   "corroborated": 1
  },
  "emerging": [
@@ -400,5 +392,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 838 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-poland-strike"
+ "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-poland-strike"
 }
