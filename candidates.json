@@ -1,43 +1,110 @@
 {
- "at": "2026-11-20T20:38:26+00:00",
+ "at": "2026-11-20T22:40:25+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q1806102",
-   "title": "Larry Poindexter",
-   "fame": 149373,
-   "views": 124373,
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge explosions",
+   "fame": 159616,
+   "views": 9616,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-19T19:19:42+00:00",
+   "news": 150000,
+   "news_at": "2026-11-20T13:01:16+00:00",
    "headlines": [
-    "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car"
+    "Ukraine strains Russian logistics with Crimean bridge strikes",
+    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-19",
-    "google-news:Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car",
-    "outlet:NBCUniversal"
+    "google-news:Ukraine strains Russian logistics with Crimean bridge strikes",
+    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+    "outlet:BBC"
    ],
    "owners": [
-    "NBCUniversal"
+    "BBC"
    ],
    "reports": [
     {
-     "title": "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car",
-     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/larry-poindexter-days-lives-swt-actor-dies-hit-car-crossing-street-rcna610214",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-19T19:19:42+00:00"
+     "at": "2026-11-20T13:01:16+00:00"
     }
    ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
+  },
+  {
+   "qid": "Q1806102",
+   "title": "Larry Poindexter",
+   "fame": 124373,
+   "views": 124373,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-19"
+   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q1806102",
    "kind": "death",
    "category": "death",
    "date": "2026-11-18"
+  },
+  {
+   "qid": "Q141921562",
+   "title": "Salvadoran military intervention in Haiti",
+   "fame": 91649,
+   "views": 16649,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-20T22:40:25.412983+00:00",
+   "headlines": [
+    "Two Salvadoran soldiers killed in Haiti while handling explosives"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-19",
+    "wikipedia-current-events-2026-11-20",
+    "google-news:Two Salvadoran soldiers killed in Haiti while handling explosives",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+     "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-20T20:59:04+00:00"
+    }
+   ],
+   "id": "wk-Q141921562",
+   "kind": "incident",
+   "category": "conflict",
+   "date": "2026-10-21",
+   "coords": null,
+   "has_coords": true
   },
   {
    "id": "nw-20261120-mass-protest",
@@ -113,29 +180,6 @@
    "article": null
   },
   {
-   "qid": "Q141921562",
-   "title": "Salvadoran military intervention in Haiti",
-   "fame": 66649,
-   "views": 16649,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-20T20:38:26.354019+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-19",
-    "wikipedia-current-events-2026-11-20"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q141921562",
-   "kind": "incident",
-   "category": "conflict",
-   "date": "2026-10-21",
-   "coords": null,
-   "has_coords": true
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 50000,
@@ -164,7 +208,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-20T20:38:26.354019+00:00",
+   "news_at": "2026-11-20T22:40:25.412983+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -178,48 +222,6 @@
    "date": "2026-11-20",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge explosions",
-   "fame": 34616,
-   "views": 9616,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-20T13:01:16+00:00",
-   "headlines": [
-    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-19",
-    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T13:01:16+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
   },
   {
    "qid": "Q5213677",
@@ -331,7 +333,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-20T20:38:26.354019+00:00",
+   "news_at": "2026-11-20T22:40:25.412983+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -348,10 +350,10 @@
   }
  ],
  "outlets": {
-  "headlines": 809,
+  "headlines": 808,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 24,
   "corroborated": 1
  },
  "emerging": [
@@ -429,5 +431,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 33 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-mass-protest"
+ "outlet_note": "outlets: 808 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-mass-protest"
 }
