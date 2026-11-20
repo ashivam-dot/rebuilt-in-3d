@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T10:06:01+00:00",
+ "at": "2026-11-20T10:37:06+00:00",
  "quakes": [],
  "trending": [
   {
@@ -87,33 +87,28 @@
   {
    "id": "nw-20261120-kyiv-strike",
    "qid": null,
-   "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+   "title": "Three Kyiv bridges hit during major Russian missile attack",
    "name": "Kyiv",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-20",
-   "news_at": "2026-11-20T09:58:00+00:00",
+   "news_at": "2026-11-20T10:20:08+00:00",
    "owners": [
     "Disney (ABC News)",
-    "Independent Digital News",
-    "BBC",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "BBC"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
-    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
-    "Three Kyiv bridges hit during major Russian missile attack",
-    "Ukraine updates: Kyiv targeted by missile strikes, bridges hit"
+    "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+    "Three Kyiv bridges hit during major Russian missile attack"
    ],
-   "places": [
-    "Crimea"
-   ],
+   "places": [],
    "attackers": [
-    "Putin",
     "Russian"
    ],
    "hindi_headlines": [],
@@ -126,6 +121,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Three Kyiv bridges hit during major Russian missile attack",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T10:20:08+00:00"
+    },
+    {
      "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
      "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
@@ -134,26 +139,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-20T09:58:00+00:00"
-    },
-    {
-     "title": "Three Kyiv bridges hit during major Russian missile attack",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T09:31:24+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-20T08:58:28+00:00"
     },
     {
      "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
@@ -168,9 +153,8 @@
    ],
    "via": [
     "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -282,15 +266,16 @@
   {
    "qid": "Q3181229",
    "title": "John Christ",
-   "fame": 10177,
+   "fame": 10277,
    "views": 10177,
-   "traffic": 0,
+   "traffic": 100,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-19"
+    "wikipedia-top-2026-11-19",
+    "google-trends-US:heavy metal"
    ],
    "owners": [],
    "reports": [],
@@ -323,43 +308,38 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 817,
+  "headlines": 815,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 31,
   "corroborated": 1
  },
  "emerging": [
   {
    "id": "nw-20261120-kyiv-strike",
    "qid": null,
-   "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+   "title": "Three Kyiv bridges hit during major Russian missile attack",
    "name": "Kyiv",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-20",
-   "news_at": "2026-11-20T09:58:00+00:00",
+   "news_at": "2026-11-20T10:20:08+00:00",
    "owners": [
     "Disney (ABC News)",
-    "Independent Digital News",
-    "BBC",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "BBC"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
-    "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
-    "Three Kyiv bridges hit during major Russian missile attack",
-    "Ukraine updates: Kyiv targeted by missile strikes, bridges hit"
+    "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+    "Three Kyiv bridges hit during major Russian missile attack"
    ],
-   "places": [
-    "Crimea"
-   ],
+   "places": [],
    "attackers": [
-    "Putin",
     "Russian"
    ],
    "hindi_headlines": [],
@@ -372,6 +352,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Three Kyiv bridges hit during major Russian missile attack",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T10:20:08+00:00"
+    },
+    {
      "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
      "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
@@ -380,26 +370,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-20T09:58:00+00:00"
-    },
-    {
-     "title": "Three Kyiv bridges hit during major Russian missile attack",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T09:31:24+00:00"
-    },
-    {
-     "title": "Ukraine-Russia war latest: Putin launches missiles at three Kyiv bridges after vowing revenge for Crimea attack",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-20T08:58:28+00:00"
     },
     {
      "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
@@ -414,13 +384,12 @@
    ],
    "via": [
     "outlet:Disney (ABC News)",
-    "outlet:Independent Digital News",
-    "outlet:BBC",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 817 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-kyiv-strike"
+ "outlet_note": "outlets: 815 headlines from 30 feeds (21 owners), 31 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-kyiv-strike"
 }
