@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T11:08:31+00:00",
+ "at": "2026-11-20T11:36:48+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 9616,
    "traffic": 0,
    "news": 150000,
-   "news_at": "2026-11-20T09:29:58+00:00",
+   "news_at": "2026-11-20T10:18:53+00:00",
    "headlines": [
     "Ukraine strains Russian logistics with Crimean bridge strikes",
     "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge"
@@ -84,79 +84,6 @@
    "date": "2026-11-18"
   },
   {
-   "id": "nw-20261119-senegal-maritime",
-   "qid": null,
-   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:52:26+00:00"
-    },
-    {
-     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T20:21:25+00:00"
-    },
-    {
-     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:03:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261120-kyiv-strike",
    "qid": null,
    "title": "Three Kyiv bridges hit during major Russian missile attack",
@@ -164,7 +91,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-20",
-   "news_at": "2026-11-20T10:20:08+00:00",
+   "news_at": "2026-11-20T11:12:57+00:00",
    "owners": [
     "Disney (ABC News)",
     "Deutsche Welle",
@@ -200,7 +127,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-20T10:20:08+00:00"
+     "at": "2026-11-20T11:12:57+00:00"
     },
     {
      "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
@@ -379,86 +306,13 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 820,
+  "headlines": 819,
   "feeds": 30,
   "owners": 21,
   "matched": 26,
-  "corroborated": 2
+  "corroborated": 1
  },
  "emerging": [
-  {
-   "id": "nw-20261119-senegal-maritime",
-   "qid": null,
-   "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "name": "Senegal",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-19",
-   "news_at": "2026-11-19T20:21:25+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "BBC",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-19T15:52:26+00:00"
-    },
-    {
-     "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-     "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-19T20:21:25+00:00"
-    },
-    {
-     "title": "Migrant boat capsizes off Senegal's coast, leaving 1 person dead and several missing",
-     "url": "https://abcnews.com/International/wireStory/migrant-boat-capsizes-off-senegals-coast-leaving-1-138286309",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-19T14:03:39+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:BBC",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261120-kyiv-strike",
    "qid": null,
@@ -467,7 +321,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-20",
-   "news_at": "2026-11-20T10:20:08+00:00",
+   "news_at": "2026-11-20T11:12:57+00:00",
    "owners": [
     "Disney (ABC News)",
     "Deutsche Welle",
@@ -503,7 +357,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-20T10:20:08+00:00"
+     "at": "2026-11-20T11:12:57+00:00"
     },
     {
      "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
@@ -535,5 +389,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261119-senegal-maritime, nw-20261120-kyiv-strike"
+ "outlet_note": "outlets: 819 headlines from 30 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-kyiv-strike"
 }
