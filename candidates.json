@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T16:39:31+00:00",
+ "at": "2026-11-20T17:08:50+00:00",
  "quakes": [],
  "trending": [
   {
@@ -49,18 +49,35 @@
   {
    "qid": "Q1806102",
    "title": "Larry Poindexter",
-   "fame": 124373,
+   "fame": 149373,
    "views": 124373,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-19T19:19:42+00:00",
+   "headlines": [
+    "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-19"
+    "wikipedia-top-2026-11-19",
+    "google-news:Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car",
+    "outlet:NBCUniversal"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "NBCUniversal"
+   ],
+   "reports": [
+    {
+     "title": "Larry Poindexter, ‘Days of Our Lives’ and ‘S.W.A.T.’ actor, dies after being hit by car",
+     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/larry-poindexter-days-lives-swt-actor-dies-hit-car-crossing-street-rcna610214",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-19T19:19:42+00:00"
+    }
+   ],
    "id": "wk-Q1806102",
    "kind": "death",
    "category": "death",
@@ -284,35 +301,15 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-19"
-  },
-  {
-   "qid": "Q7175059",
-   "title": "Peter June Simon",
-   "fame": 100,
-   "views": 0,
-   "traffic": 100,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:pj simon"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7175059",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-20"
   }
  ],
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 816,
+  "headlines": 820,
   "feeds": 30,
   "owners": 21,
-  "matched": 21,
+  "matched": 24,
   "corroborated": 1
  },
  "emerging": [
@@ -392,5 +389,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-poland-strike"
+ "outlet_note": "outlets: 820 headlines from 30 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261120-poland-strike"
 }
