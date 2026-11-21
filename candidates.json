@@ -1,51 +1,7 @@
 {
- "at": "2026-11-21T00:28:26+00:00",
+ "at": "2026-11-21T00:58:45+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142193498",
-   "title": "2026 Crimean Bridge attacks",
-   "fame": 159616,
-   "views": 9616,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-20T13:01:16+00:00",
-   "headlines": [
-    "Ukraine strains Russian logistics with Crimean bridge strikes",
-    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-19",
-    "google-news:Ukraine strains Russian logistics with Crimean bridge strikes",
-    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-20T13:01:16+00:00"
-    }
-   ],
-   "id": "wk-Q142193498",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-16",
-   "coords": [
-    45.308617,
-    36.505798
-   ],
-   "has_coords": true
-  },
   {
    "qid": "Q1806102",
    "title": "Larry Poindexter",
@@ -87,6 +43,48 @@
    "date": "2026-11-20",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q142193498",
+   "title": "2026 Crimean Bridge attacks",
+   "fame": 34616,
+   "views": 9616,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-20T13:01:16+00:00",
+   "headlines": [
+    "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-19",
+    "google-news:Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-20T13:01:16+00:00"
+    }
+   ],
+   "id": "wk-Q142193498",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-16",
+   "coords": [
+    45.308617,
+    36.505798
+   ],
+   "has_coords": true
   },
   {
    "qid": "Q5213677",
@@ -215,12 +213,12 @@
   }
  ],
  "outlets": {
-  "headlines": 800,
+  "headlines": 791,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 33,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 800 headlines from 30 feeds (21 owners), 30 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 791 headlines from 30 feeds (21 owners), 33 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
