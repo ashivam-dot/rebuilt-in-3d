@@ -1,11 +1,21 @@
 {
- "at": "2026-11-21T13:44:27+00:00",
+ "at": "2026-11-21T14:15:04+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 12 units today",
-  "watch: 1 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 737 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike",
-  "skip wk-Q142149760: gate: faceless: no free photo shows 2026 New Orleans ship collision or the event itself (only 7 photos of places or things near it)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
+  "watch: 9 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 731 headlines from 29 feeds (21 owners), 16 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike",
+  "quiet day (no Short yet today): 9 tribute candidates: Bobby Ray Inman, George M. Whitesides, Jonathan Yardley, David Habib",
+  "skip wk-Q15462185: gate: only 2 usable photos of Jonathan Yardley on Wikimedia Commons (want 4)",
+  "skip wk-Q711612: gate: no photo on Wikimedia Commons shows Bobby Ray Inman's face (a tribute needs one)",
+  "published wk-Q701501: https://www.youtube.com/shorts/H4R4rVW-nGs"
+ ],
+ "published": {
+  "video_id": "H4R4rVW-nGs",
+  "url": "https://www.youtube.com/shorts/H4R4rVW-nGs",
+  "title": "George M. Whitesides, Most Influential Living Chemist, Dies at 87",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-21T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
