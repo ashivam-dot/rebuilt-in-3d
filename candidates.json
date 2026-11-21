@@ -1,29 +1,7 @@
 {
- "at": "2026-11-21T13:12:58+00:00",
+ "at": "2026-11-21T13:44:28+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q142232361",
-   "title": "E.J. Carroll (actor)",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-21T08:58:00+00:00",
-   "headlines": [
-    "EJ Carroll death: Star of Boardwalk Empire, GTA V, and Law & Order dies ‘suddenly’ aged 66"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:EJ Carroll death: Star of Boardwalk Empire, GTA V, and Law & Order dies ‘suddenly’ aged 66"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142232361",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-19"
-  },
   {
    "id": "nw-20261121-finland-strike",
    "qid": null,
@@ -150,7 +128,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-21T13:12:58.143886+00:00",
+   "news_at": "2026-11-21T13:44:28.363967+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -166,32 +144,12 @@
    "has_coords": false
   },
   {
-   "qid": "Q7175059",
-   "title": "PJ Simon",
-   "fame": 45237,
-   "views": 45237,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-20"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7175059",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-20"
-  },
-  {
    "qid": "Q540935",
    "title": "Phumzile Mlambo-Ngcuka",
-   "fame": 25000,
+   "fame": 50000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
+   "news": 50000,
    "news_at": "2026-11-21T03:43:29+00:00",
    "headlines": [
     "Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71"
@@ -217,6 +175,26 @@
     }
    ],
    "id": "wk-Q540935",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-20"
+  },
+  {
+   "qid": "Q7175059",
+   "title": "PJ Simon",
+   "fame": 45237,
+   "views": 45237,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-20"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7175059",
    "kind": "death",
    "category": "death",
    "date": "2026-11-20"
@@ -340,173 +318,66 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-17"
+  },
+  {
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 200,
+   "views": 0,
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "google-trends-US:new orleans harbor police rescue"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
+   ],
+   "has_coords": true
   }
  ],
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261121-finland-strike",
-   "qid": null,
-   "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-   "name": "Finland",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-21",
-   "news_at": "2026-11-21T12:59:35+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
+   "qid": "Q142149760",
+   "title": "2026 New Orleans ship collision",
+   "fame": 200,
    "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-    "Russia says Kaliningrad-bound ship struck by drones in Gulf of Finland",
-    "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters"
-   ],
-   "places": [
-    "Gulf",
-    "Kaliningrad-bound",
-    "cargo"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
+   "traffic": 200,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-     "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-21T12:35:54+00:00"
-    },
-    {
-     "title": "Russia says Kaliningrad-bound ship struck by drones in Gulf of Finland",
-     "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-21T12:45:24+00:00"
-    },
-    {
-     "title": "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters",
-     "url": "https://www.ndtv.com/world-news/russian-cargo-vessel-hit-by-drones-finland-says-it-is-on-fire-in-its-waters-12359001#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-21T12:59:35+00:00"
-    }
-   ],
    "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "google-trends-US:new orleans harbor police rescue"
    ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261121-finland-strike",
-   "qid": null,
-   "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-   "name": "Finland",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142149760",
    "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-21",
-   "news_at": "2026-11-21T12:59:35+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "NDTV"
+   "category": "disaster",
+   "date": "2026-11-13",
+   "coords": [
+    29.93694444,
+    -90.06083333
    ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-    "Russia says Kaliningrad-bound ship struck by drones in Gulf of Finland",
-    "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters"
-   ],
-   "places": [
-    "Gulf",
-    "Kaliningrad-bound",
-    "cargo"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-     "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-21T12:35:54+00:00"
-    },
-    {
-     "title": "Russia says Kaliningrad-bound ship struck by drones in Gulf of Finland",
-     "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-21T12:45:24+00:00"
-    },
-    {
-     "title": "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters",
-     "url": "https://www.ndtv.com/world-news/russian-cargo-vessel-hit-by-drones-finland-says-it-is-on-fire-in-its-waters-12359001#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-21T12:59:35+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
+   "has_coords": true
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 140 people)"
- ],
  "outlets": {
-  "headlines": 733,
+  "headlines": 737,
   "feeds": 29,
   "owners": 21,
-  "matched": 21,
+  "matched": 19,
   "corroborated": 1
  },
  "emerging": [
@@ -588,5 +459,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 733 headlines from 29 feeds (21 owners), 21 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike"
+ "outlet_note": "outlets: 737 headlines from 29 feeds (21 owners), 19 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike"
 }
