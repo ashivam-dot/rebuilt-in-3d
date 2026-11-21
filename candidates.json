@@ -1,13 +1,13 @@
 {
- "at": "2026-11-21T22:45:43+00:00",
+ "at": "2026-11-21T23:16:05+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": null,
    "title": "2026 Bayelsa boat disaster",
-   "fame": 75000,
+   "fame": 75200,
    "views": 0,
-   "traffic": 0,
+   "traffic": 200,
    "news": 25000,
    "news_at": "2026-11-21T21:23:44+00:00",
    "headlines": [
@@ -15,6 +15,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-GB:capsizing",
     "wikipedia-current-events-2026-11-20",
     "google-news:24 dead after boat carrying mourners to funeral capsizes in Nigeria",
     "outlet:Independent Digital News"
@@ -68,7 +69,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-21T22:45:43.454849+00:00",
+   "news_at": "2026-11-21T23:16:05.173368+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -261,54 +262,14 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": null,
-   "title": "2026 Bayelsa boat disaster",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-21T21:23:44+00:00",
-   "headlines": [
-    "24 dead after boat carrying mourners to funeral capsizes in Nigeria"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-20",
-    "google-news:24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-21T21:23:44+00:00"
-    }
-   ],
-   "id": "wp-2026_Bayelsa_boat_disaster",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-20",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 731,
+  "headlines": 718,
   "feeds": 29,
   "owners": 21,
   "matched": 31,
   "corroborated": 0
  },
  "emerging": [],
- "outlet_note": "outlets: 731 headlines from 29 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 718 headlines from 29 feeds (21 owners), 31 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
