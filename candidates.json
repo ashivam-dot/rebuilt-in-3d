@@ -1,5 +1,5 @@
 {
- "at": "2026-11-21T17:29:59+00:00",
+ "at": "2026-11-21T17:58:34+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,20 +10,22 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-21",
-   "news_at": "2026-11-21T12:59:35+00:00",
+   "news_at": "2026-11-21T17:20:01+00:00",
    "owners": [
     "France Médias Monde",
     "Al Jazeera Media Network",
-    "NDTV"
+    "NDTV",
+    "Bennett, Coleman & Co."
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
     "Russian crew evacuating ship hit by drones off coast of Finland",
-    "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters"
+    "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters",
+    "Russian cargo vessel linked to defence ministry comes under drone attack near Finland"
    ],
    "places": [
     "Gulf",
@@ -61,6 +63,16 @@
      "at": "2026-11-21T12:45:24+00:00"
     },
     {
+     "title": "Russian cargo vessel linked to defence ministry comes under drone attack near Finland",
+     "url": "https://timesofindia.indiatimes.com/world/europe/russian-cargo-vessel-linked-to-defence-ministry-comes-under-drone-attack-near-finland/articleshow/136060025.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-21T17:20:01+00:00"
+    },
+    {
      "title": "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters",
      "url": "https://www.ndtv.com/world-news/russian-cargo-vessel-hit-by-drones-finland-says-it-is-on-fire-in-its-waters-12359001#publisher=newsstand",
      "outlet": "NDTV",
@@ -74,7 +86,8 @@
    "via": [
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
@@ -128,7 +141,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-21T17:29:59.502402+00:00",
+   "news_at": "2026-11-21T17:58:34.750955+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -358,11 +371,14 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 144 people)"
+ ],
  "outlets": {
-  "headlines": 741,
+  "headlines": 742,
   "feeds": 29,
   "owners": 21,
-  "matched": 24,
+  "matched": 26,
   "corroborated": 1
  },
  "emerging": [
@@ -374,20 +390,22 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-21",
-   "news_at": "2026-11-21T12:59:35+00:00",
+   "news_at": "2026-11-21T17:20:01+00:00",
    "owners": [
     "France Médias Monde",
     "Al Jazeera Media Network",
-    "NDTV"
+    "NDTV",
+    "Bennett, Coleman & Co."
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
     "Russian crew evacuating ship hit by drones off coast of Finland",
-    "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters"
+    "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters",
+    "Russian cargo vessel linked to defence ministry comes under drone attack near Finland"
    ],
    "places": [
     "Gulf",
@@ -425,6 +443,16 @@
      "at": "2026-11-21T12:45:24+00:00"
     },
     {
+     "title": "Russian cargo vessel linked to defence ministry comes under drone attack near Finland",
+     "url": "https://timesofindia.indiatimes.com/world/europe/russian-cargo-vessel-linked-to-defence-ministry-comes-under-drone-attack-near-finland/articleshow/136060025.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-21T17:20:01+00:00"
+    },
+    {
      "title": "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters",
      "url": "https://www.ndtv.com/world-news/russian-cargo-vessel-hit-by-drones-finland-says-it-is-on-fire-in-its-waters-12359001#publisher=newsstand",
      "outlet": "NDTV",
@@ -438,11 +466,12 @@
    "via": [
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 741 headlines from 29 feeds (21 owners), 24 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike"
+ "outlet_note": "outlets: 742 headlines from 29 feeds (21 owners), 26 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike"
 }
