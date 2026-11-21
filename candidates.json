@@ -1,5 +1,5 @@
 {
- "at": "2026-11-21T16:26:51+00:00",
+ "at": "2026-11-21T17:00:15+00:00",
  "quakes": [],
  "trending": [
   {
@@ -22,7 +22,7 @@
    "traffic": 0,
    "headlines": [
     "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-    "Rescue efforts under way as drones hit Russian ship off Finland coast",
+    "Russian crew evacuating ship hit by drones off coast of Finland",
     "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters"
    ],
    "places": [
@@ -51,7 +51,7 @@
      "at": "2026-11-21T12:35:54+00:00"
     },
     {
-     "title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+     "title": "Russian crew evacuating ship hit by drones off coast of Finland",
      "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -128,7 +128,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-21T16:26:51.461246+00:00",
+   "news_at": "2026-11-21T17:00:15.396506+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -198,6 +198,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-20"
+  },
+  {
+   "qid": "Q1343677",
+   "title": "Jon Henricks",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-21T10:00:34+00:00",
+   "headlines": [
+    "World record-breaking Australian swimmer Jon Henricks dies aged 91"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:World record-breaking Australian swimmer Jon Henricks dies aged 91",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "World record-breaking Australian swimmer Jon Henricks dies aged 91",
+     "url": "https://www.abc.net.au/news/2026-11-21/australian-swimming-star-jon-henricks-dies/107413060",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T10:00:34+00:00"
+    }
+   ],
+   "id": "wk-Q1343677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
   },
   {
    "qid": "Q1621643",
@@ -321,15 +357,49 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 142 people)"
+ "candidates": [
+  {
+   "qid": "Q1343677",
+   "title": "Jon Henricks",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-21T10:00:34+00:00",
+   "headlines": [
+    "World record-breaking Australian swimmer Jon Henricks dies aged 91"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:World record-breaking Australian swimmer Jon Henricks dies aged 91",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "World record-breaking Australian swimmer Jon Henricks dies aged 91",
+     "url": "https://www.abc.net.au/news/2026-11-21/australian-swimming-star-jon-henricks-dies/107413060",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T10:00:34+00:00"
+    }
+   ],
+   "id": "wk-Q1343677",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  }
  ],
  "outlets": {
-  "headlines": 745,
+  "headlines": 739,
   "feeds": 29,
   "owners": 21,
-  "matched": 18,
+  "matched": 22,
   "corroborated": 1
  },
  "emerging": [
@@ -353,7 +423,7 @@
    "traffic": 0,
    "headlines": [
     "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-    "Rescue efforts under way as drones hit Russian ship off Finland coast",
+    "Russian crew evacuating ship hit by drones off coast of Finland",
     "Russian Cargo Vessel Hit By Drones, Finland Says It Is On Fire In Its Waters"
    ],
    "places": [
@@ -382,7 +452,7 @@
      "at": "2026-11-21T12:35:54+00:00"
     },
     {
-     "title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+     "title": "Russian crew evacuating ship hit by drones off coast of Finland",
      "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -411,5 +481,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 745 headlines from 29 feeds (21 owners), 18 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike"
+ "outlet_note": "outlets: 739 headlines from 29 feeds (21 owners), 22 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-finland-strike"
 }
