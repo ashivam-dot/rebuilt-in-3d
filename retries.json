@@ -1627,11 +1627,19 @@
   "kind": "incident"
  },
  "wp-2026_Bayelsa_boat_disaster": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: only 1 usable photos of 2026 Bayelsa boat disaster on Wikimedia Commons (want 4)",
-  "at": "2026-11-21T01:32:20+00:00",
+  "at": "2026-11-21T07:01:40+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q540935": {
+  "count": 1,
+  "reason": "gate: Wikipedia's infobox does not confirm the death yet",
+  "at": "2026-11-21T07:01:33+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
