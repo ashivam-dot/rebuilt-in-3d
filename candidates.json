@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T13:00:21+00:00",
+ "at": "2026-11-22T13:31:08+00:00",
  "quakes": [],
  "trending": [
   {
@@ -46,7 +46,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T13:00:21.152732+00:00",
+   "news_at": "2026-11-22T13:31:08.138091+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -456,11 +456,14 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 139 people)"
+ ],
  "outlets": {
-  "headlines": 652,
+  "headlines": 646,
   "feeds": 29,
   "owners": 21,
-  "matched": 21,
+  "matched": 20,
   "corroborated": 4
  },
  "emerging": [
@@ -689,5 +692,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 652 headlines from 29 feeds (21 owners), 21 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime, nw-20261122-three-disaster"
+ "outlet_note": "outlets: 646 headlines from 29 feeds (21 owners), 20 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime, nw-20261122-three-disaster"
 }
