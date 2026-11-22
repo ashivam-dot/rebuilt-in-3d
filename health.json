@@ -1,12 +1,10 @@
 {
- "at": "2026-11-22T02:28:47+00:00",
+ "at": "2026-11-22T03:00:02+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 89 units today",
-  "watch: 2 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 697 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime",
-  "skip nw-20261121-nigeria-maritime: gate: faceless: no free photo shows Nigeria or the event itself (only 1 photos of places or things near it)",
-  "skip nw-20261121-nigeria-maritime: gate: faceless: no free photo shows Nigeria or the event itself (only 1 photos of places or things near it)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 90 units today",
+  "watch: 0 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 640 headlines from 29 feeds (20 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime",
+  "trend radar errors: ['outlet scmp: HTTPError: HTTP 429']"
  ]
 }
