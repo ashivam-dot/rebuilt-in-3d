@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T06:00:46+00:00",
+ "at": "2026-11-22T06:32:04+00:00",
  "quakes": [],
  "trending": [
   {
@@ -152,56 +152,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q5496002",
-   "title": "Fred Nile",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-22T00:26:35+00:00",
-   "headlines": [
-    "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
-    "Veteran former NSW MP Fred Nile dead at 92"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
-    "google-news:Veteran former NSW MP Fred Nile dead at 92",
-    "outlet:Guardian Media Group",
-    "outlet:ABC (Australia)"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "ABC (Australia)"
-   ],
-   "reports": [
-    {
-     "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
-     "url": "https://www.theguardian.com/australia-news/2026/nov/22/fred-nile-former-nsw-politician-and-figurehead-of-the-rightwing-christian-democratic-party-dies-aged-92",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T00:26:35+00:00"
-    },
-    {
-     "title": "Veteran former NSW MP Fred Nile dead at 92",
-     "url": "https://www.abc.net.au/news/2026-11-22/mp-fred-nile-dead-at-92/107413968",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-21T23:56:08+00:00"
-    }
-   ],
-   "id": "wk-Q5496002",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-21"
-  },
-  {
    "qid": "Q20090363",
    "title": "Paolo Bulgari",
    "fame": 42396,
@@ -234,6 +184,42 @@
     }
    ],
    "id": "wk-Q20090363",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  },
+  {
+   "qid": "Q5496002",
+   "title": "Fred Nile",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-22T00:26:35+00:00",
+   "headlines": [
+    "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
+     "url": "https://www.theguardian.com/australia-news/2026/nov/22/fred-nile-former-nsw-politician-and-figurehead-of-the-rightwing-christian-democratic-party-dies-aged-92",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T00:26:35+00:00"
+    }
+   ],
+   "id": "wk-Q5496002",
    "kind": "death",
    "category": "death",
    "date": "2026-11-21"
@@ -343,11 +329,11 @@
   }
  ],
  "outlets": {
-  "headlines": 673,
+  "headlines": 671,
   "feeds": 30,
   "owners": 21,
-  "matched": 24,
-  "corroborated": 2
+  "matched": 22,
+  "corroborated": 1
  },
  "emerging": [
   {
@@ -441,5 +427,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 673 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
+ "outlet_note": "outlets: 671 headlines from 30 feeds (21 owners), 22 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
 }
