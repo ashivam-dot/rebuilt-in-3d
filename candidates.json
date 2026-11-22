@@ -1,7 +1,110 @@
 {
- "at": "2026-11-22T16:46:15+00:00",
+ "at": "2026-11-22T17:16:42+00:00",
  "quakes": [],
  "trending": [
+  {
+   "id": "nw-20261122-libya-strike",
+   "qid": null,
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-22",
+   "news_at": "2026-11-22T17:16:47+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "Guardian Media Group",
+    "Euronews",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "A suspected drone strike hits a Russian vessel in Libya",
+    "Libya: Suspected drone attack hits Russian ship in Benghazi",
+    "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
+   ],
+   "places": [
+    "Benghazi",
+    "suspected",
+    "Libyan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T17:16:47+00:00"
+    },
+    {
+     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T17:11:34+00:00"
+    },
+    {
+     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T16:55:49+00:00"
+    },
+    {
+     "title": "A suspected drone strike hits a Russian vessel in Libya",
+     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T15:36:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -9,7 +112,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T16:46:15.590308+00:00",
+   "news_at": "2026-11-22T17:16:42.166622+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -359,15 +462,325 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261122-libya-strike",
+   "qid": null,
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-22",
+   "news_at": "2026-11-22T17:16:47+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "Guardian Media Group",
+    "Euronews",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "A suspected drone strike hits a Russian vessel in Libya",
+    "Libya: Suspected drone attack hits Russian ship in Benghazi",
+    "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
+   ],
+   "places": [
+    "Benghazi",
+    "suspected",
+    "Libyan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T17:16:47+00:00"
+    },
+    {
+     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T17:11:34+00:00"
+    },
+    {
+     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T16:55:49+00:00"
+    },
+    {
+     "title": "A suspected drone strike hits a Russian vessel in Libya",
+     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T15:36:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261122-libya-strike",
+   "qid": null,
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-22",
+   "news_at": "2026-11-22T17:16:47+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "Guardian Media Group",
+    "Euronews",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "A suspected drone strike hits a Russian vessel in Libya",
+    "Libya: Suspected drone attack hits Russian ship in Benghazi",
+    "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
+   ],
+   "places": [
+    "Benghazi",
+    "suspected",
+    "Libyan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T17:16:47+00:00"
+    },
+    {
+     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T17:11:34+00:00"
+    },
+    {
+     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T16:55:49+00:00"
+    },
+    {
+     "title": "A suspected drone strike hits a Russian vessel in Libya",
+     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T15:36:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 653,
+  "headlines": 661,
   "feeds": 29,
   "owners": 21,
-  "matched": 19,
-  "corroborated": 3
+  "matched": 23,
+  "corroborated": 4
  },
  "emerging": [
+  {
+   "id": "nw-20261122-libya-strike",
+   "qid": null,
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-22",
+   "news_at": "2026-11-22T17:16:47+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "Guardian Media Group",
+    "Euronews",
+    "BBC"
+   ],
+   "fame": 125000,
+   "news": 125000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "A suspected drone strike hits a Russian vessel in Libya",
+    "Libya: Suspected drone attack hits Russian ship in Benghazi",
+    "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
+   ],
+   "places": [
+    "Benghazi",
+    "suspected",
+    "Libyan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T17:16:47+00:00"
+    },
+    {
+     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T17:11:34+00:00"
+    },
+    {
+     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T16:55:49+00:00"
+    },
+    {
+     "title": "A suspected drone strike hits a Russian vessel in Libya",
+     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T15:36:31+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:Guardian Media Group",
+    "outlet:Euronews",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261121-nigeria-maritime",
    "qid": null,
@@ -530,5 +943,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 653 headlines from 29 feeds (21 owners), 19 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 661 headlines from 29 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
 }

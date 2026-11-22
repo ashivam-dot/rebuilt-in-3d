@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-22T14:02:27+00:00. Scored Shorts (views at 24 h): 79. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-22T17:16:40+00:00. Scored Shorts (views at 24 h): 79. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
 Baseline: a typical Short has 237 views at 24 h.
 Retention: a typical Short is watched 55.4% through; a group's retention is blended into its lift at 0.5.
@@ -14,8 +14,8 @@ Retention: a typical Short is watched 55.4% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q701501 | 2026-11-21T20:30 | death | death | 953 |  |
-| wk-Q303883 | 2026-11-20T20:30 | death | death | 934 | 510 |
+| wk-Q701501 | 2026-11-21T20:30 | death | death | 955 |  |
+| wk-Q303883 | 2026-11-20T20:30 | death | death | 949 | 510 |
 | wk-Q1130103 | 2026-11-19T20:30 | death | death | 619 | 397 |
 | wk-Q7489916 | 2026-11-19T08:00 | death | death | 952 | 925 |
 | wk-Q3138557 | 2026-11-17T21:27 | death | death | 1047 | 753 |
@@ -25,13 +25,13 @@ Retention: a typical Short is watched 55.4% through; a group's retention is blen
 | wk-Q7308546 | 2026-11-13T04:26 | death | death | 1222 | 1143 |
 | wk-Q951199 | 2026-11-12T20:30 | death | death | 1137 | 979 |
 | wk-Q5209002 | 2026-11-11T04:13 | death | death | 490 | 388 |
-| wk-Q2654764 | 2026-11-10T09:33 | death | death | 1284 | 851 |
+| wk-Q2654764 | 2026-11-10T09:33 | death | death | 1286 | 851 |
 | wk-Q1150359 | 2026-11-08T20:30 | death | death | 710 | 369 |
 | wk-Q2893079 | 2026-11-07T13:37 | death | death | 193 | 104 |
 | wk-Q4250213 | 2026-11-07T01:35 | death | death | 1015 | 888 |
 | wk-Q285102 | 2026-11-06T20:30 | death | death | 42 | 23 |
 | wk-Q142065275 | 2026-11-06T05:07 | incident | attack | 923 | 776 |
-| wk-Q6662427 | 2026-11-06T03:52 | death | death | 318 | 189 |
+| wk-Q6662427 | 2026-11-06T03:52 | death | death | 319 | 189 |
 | wk-Q141615137-2026w45 | 2026-11-05T13:48 | incident | protest | 97 | 72 |
 | wk-Q172753 | 2026-11-05T03:09 | death | death | 1043 | 815 |
 | wk-Q1633044 | 2026-11-04T21:46 | death | death | 203 | 180 |
