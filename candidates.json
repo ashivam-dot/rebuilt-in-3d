@@ -1,44 +1,7 @@
 {
- "at": "2026-11-22T03:30:53+00:00",
+ "at": "2026-11-22T03:59:58+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q540935",
-   "title": "Phumzile Mlambo-Ngcuka",
-   "fame": 177232,
-   "views": 27232,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-21T14:06:38+00:00",
-   "headlines": [
-    "Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-21",
-    "google-news:Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71",
-     "url": "https://abcnews.com/International/wireStory/phumzile-mlambo-ngcuka-former-south-africa-deputy-president-138337313",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-21T03:43:29+00:00"
-    }
-   ],
-   "id": "wk-Q540935",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-20"
-  },
   {
    "id": "nw-20261121-nigeria-maritime",
    "qid": null,
@@ -47,22 +10,28 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-21",
-   "news_at": "2026-11-21T23:52:00+00:00",
+   "news_at": "2026-11-22T03:33:18+00:00",
    "owners": [
     "Independent Digital News",
     "Disney (ABC News)",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "NDTV"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
     "At least 24 dead in Nigeria when boat going to funeral capsizes",
-    "Nigeria: At least 24 dead after boat capsizes"
+    "Nigeria: At least 24 dead after boat capsizes",
+    "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria"
    ],
-   "places": [],
+   "places": [
+    "boat",
+    "carrying",
+    "People"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -102,15 +71,63 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-21T23:06:21+00:00"
+    },
+    {
+     "title": "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria",
+     "url": "https://www.ndtv.com/world-news/24-killed-as-boat-carrying-people-to-a-funeral-capsizes-in-nigeria-12360787#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-22T03:33:18+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q540935",
+   "title": "Phumzile Mlambo-Ngcuka",
+   "fame": 52232,
+   "views": 27232,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-21T03:43:29+00:00",
+   "headlines": [
+    "Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-21",
+    "google-news:Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71",
+     "url": "https://abcnews.com/International/wireStory/phumzile-mlambo-ngcuka-former-south-africa-deputy-president-138337313",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-21T03:43:29+00:00"
+    }
+   ],
+   "id": "wk-Q540935",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-20"
   },
   {
    "qid": "Q142084937",
@@ -303,33 +320,20 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q1526043",
-   "title": "Giovanni De Gennaro (police officer)",
-   "fame": 9762,
-   "views": 9762,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-21"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1526043",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-21"
-  }
+ "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 135 people)",
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 683,
+  "headlines": 675,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 28,
   "corroborated": 2
  },
  "emerging": [
@@ -341,22 +345,28 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-21",
-   "news_at": "2026-11-21T23:52:00+00:00",
+   "news_at": "2026-11-22T03:33:18+00:00",
    "owners": [
     "Independent Digital News",
     "Disney (ABC News)",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "NDTV"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
     "At least 24 dead in Nigeria when boat going to funeral capsizes",
-    "Nigeria: At least 24 dead after boat capsizes"
+    "Nigeria: At least 24 dead after boat capsizes",
+    "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria"
    ],
-   "places": [],
+   "places": [
+    "boat",
+    "carrying",
+    "People"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -396,16 +406,27 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-21T23:06:21+00:00"
+    },
+    {
+     "title": "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria",
+     "url": "https://www.ndtv.com/world-news/24-killed-as-boat-carrying-people-to-a-funeral-capsizes-in-nigeria-12360787#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-22T03:33:18+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle"
+    "outlet:Deutsche Welle",
+    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 683 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
+ "outlet_note": "outlets: 675 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
 }

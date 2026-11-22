@@ -1,11 +1,10 @@
 {
- "at": "2026-11-22T03:30:53+00:00",
+ "at": "2026-11-22T03:59:57+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 91 units today",
-  "watch: 1 candidates (0 quakes, 9 trending), 0 hazard alerts",
-  "outlets: 683 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime",
-  "skip wk-Q1526043: gate: no draft passed the fact checks: beat 3, 5 name(s) nothing its photo shows (only 62% of the script shows what it says; want 70%): in each, name who or what a photo shows (Giovanni De Gennaro, Knight Grand Cross of the Order of Merit of the Italian Republic), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 92 units today",
+  "watch: 0 candidates (0 quakes, 9 trending), 0 hazard alerts",
+  "outlets: 675 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 135 people)', 'google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']"
  ]
 }
