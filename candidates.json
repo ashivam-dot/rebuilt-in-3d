@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T18:17:10+00:00",
+ "at": "2026-11-22T18:50:11+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,14 +10,15 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T18:11:30+00:00",
+   "news_at": "2026-11-22T18:20:27+00:00",
    "owners": [
     "Disney (ABC News)",
     "Deutsche Welle",
     "Guardian Media Group",
     "Euronews",
     "Al Jazeera Media Network",
-    "BBC"
+    "BBC",
+    "Paramount (CBS)"
    ],
    "fame": 150000,
    "news": 150000,
@@ -35,7 +36,9 @@
     "suspected",
     "Libyan"
    ],
-   "attackers": [],
+   "attackers": [
+    "Ukrainian"
+   ],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
@@ -106,6 +109,16 @@
      "at": "2026-11-22T16:55:49+00:00"
     },
     {
+     "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+     "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T18:20:27+00:00"
+    },
+    {
      "title": "A suspected drone strike hits a Russian vessel in Libya",
      "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
      "outlet": "ABC News",
@@ -122,7 +135,8 @@
     "outlet:Guardian Media Group",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -134,7 +148,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T18:17:10.345028+00:00",
+   "news_at": "2026-11-22T18:50:11.968661+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -480,10 +494,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 663,
+  "headlines": 666,
   "feeds": 29,
   "owners": 21,
-  "matched": 32,
+  "matched": 29,
   "corroborated": 4
  },
  "emerging": [
@@ -495,14 +509,15 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T18:11:30+00:00",
+   "news_at": "2026-11-22T18:20:27+00:00",
    "owners": [
     "Disney (ABC News)",
     "Deutsche Welle",
     "Guardian Media Group",
     "Euronews",
     "Al Jazeera Media Network",
-    "BBC"
+    "BBC",
+    "Paramount (CBS)"
    ],
    "fame": 150000,
    "news": 150000,
@@ -520,7 +535,9 @@
     "suspected",
     "Libyan"
    ],
-   "attackers": [],
+   "attackers": [
+    "Ukrainian"
+   ],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
@@ -591,6 +608,16 @@
      "at": "2026-11-22T16:55:49+00:00"
     },
     {
+     "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+     "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T18:20:27+00:00"
+    },
+    {
      "title": "A suspected drone strike hits a Russian vessel in Libya",
      "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
      "outlet": "ABC News",
@@ -607,7 +634,8 @@
     "outlet:Guardian Media Group",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -774,5 +802,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 663 headlines from 29 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 666 headlines from 29 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
 }
