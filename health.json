@@ -1,9 +1,14 @@
 {
- "at": "2026-11-22T10:29:29+00:00",
+ "at": "2026-11-22T11:02:10+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
-  "watch: 0 candidates (0 quakes, 10 trending), 0 hazard alerts",
-  "outlets: 661 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
+  "learn: 79 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.0}, 'kind:death': {'n': 42, 'lift': 1.232, 'typical_views_24h': 394, 'n_retention': 40, 'typical_view_pct': 52.6}, 'kind:incident': {'n': 29, 'lift': 0.882, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.0}, 'category:death': {'n': 41, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 7 units today",
+  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 660 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261121-finland-strike, nw-20261121-finland-strike",
+  "skip nw-20261121-finland-strike: gate: faceless: no free photo shows Finland or the event itself (only 2 photos of places or things near it)",
+  "skip nw-20261121-finland-strike: gate: faceless: no free photo shows Finland or the event itself (only 2 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
