@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T20:20:45+00:00",
+ "at": "2026-11-22T20:52:23+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,15 +10,16 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T19:52:50+00:00",
+   "news_at": "2026-11-22T20:28:09+00:00",
    "owners": [
     "Deutsche Welle",
     "Euronews",
     "Al Jazeera Media Network",
-    "Paramount (CBS)",
     "Guardian Media Group",
     "Disney (ABC News)",
     "France Médias Monde",
+    "Independent Digital News",
+    "Paramount (CBS)",
     "BBC"
    ],
    "fame": 150000,
@@ -30,7 +31,7 @@
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
     "Suspected drone attack causes explosion on Russian ship in Libya",
-    "Russian warship struck by suspected Ukrainian drones at Libya naval base"
+    "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials"
    ],
    "places": [
     "Benghazi",
@@ -57,7 +58,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-22T19:52:50+00:00"
+     "at": "2026-11-22T20:28:09+00:00"
     },
     {
      "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
@@ -78,6 +79,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+     "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T20:20:01+00:00"
     },
     {
      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
@@ -118,26 +129,17 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-22T17:11:34+00:00"
-    },
-    {
-     "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-22T19:38:18+00:00"
     }
    ],
    "via": [
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)",
     "outlet:BBC"
    ],
    "emerging": true,
@@ -150,7 +152,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T20:20:45.394791+00:00",
+   "news_at": "2026-11-22T20:52:23.670531+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -496,10 +498,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 663,
+  "headlines": 660,
   "feeds": 29,
   "owners": 21,
-  "matched": 37,
+  "matched": 35,
   "corroborated": 4
  },
  "emerging": [
@@ -511,15 +513,16 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T19:52:50+00:00",
+   "news_at": "2026-11-22T20:28:09+00:00",
    "owners": [
     "Deutsche Welle",
     "Euronews",
     "Al Jazeera Media Network",
-    "Paramount (CBS)",
     "Guardian Media Group",
     "Disney (ABC News)",
     "France Médias Monde",
+    "Independent Digital News",
+    "Paramount (CBS)",
     "BBC"
    ],
    "fame": 150000,
@@ -531,7 +534,7 @@
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
     "Suspected drone attack causes explosion on Russian ship in Libya",
-    "Russian warship struck by suspected Ukrainian drones at Libya naval base"
+    "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials"
    ],
    "places": [
     "Benghazi",
@@ -558,7 +561,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-22T19:52:50+00:00"
+     "at": "2026-11-22T20:28:09+00:00"
     },
     {
      "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
@@ -579,6 +582,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+     "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T20:20:01+00:00"
     },
     {
      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
@@ -619,26 +632,17 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-22T17:11:34+00:00"
-    },
-    {
-     "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-22T19:38:18+00:00"
     }
    ],
    "via": [
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)",
     "outlet:BBC"
    ],
    "emerging": true,
@@ -806,5 +810,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 663 headlines from 29 feeds (21 owners), 37 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 660 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
 }
