@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T17:16:42+00:00",
+ "at": "2026-11-22T17:46:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -16,10 +16,11 @@
     "Deutsche Welle",
     "Guardian Media Group",
     "Euronews",
+    "Al Jazeera Media Network",
     "BBC"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -27,7 +28,7 @@
     "Libya: Suspected drone attack hits Russian ship in Benghazi",
     "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
+    "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base"
    ],
    "places": [
     "Benghazi",
@@ -65,6 +66,16 @@
      "at": "2026-11-22T16:50:00+00:00"
     },
     {
+     "title": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base",
+     "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T17:12:48+00:00"
+    },
+    {
      "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
      "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
      "outlet": "Euronews",
@@ -100,6 +111,7 @@
     "outlet:Deutsche Welle",
     "outlet:Guardian Media Group",
     "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
     "outlet:BBC"
    ],
    "emerging": true,
@@ -112,7 +124,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T17:16:42.166622+00:00",
+   "news_at": "2026-11-22T17:46:37.508043+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -215,6 +227,71 @@
    "article": null
   },
   {
+   "qid": "Q20090363",
+   "title": "Paolo Bulgari",
+   "fame": 92396,
+   "views": 17396,
+   "traffic": 0,
+   "news": 75000,
+   "news_at": "2026-11-22T17:13:48+00:00",
+   "headlines": [
+    "Bvlgari chairman Paolo Bulgari passes away at 89",
+    "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+    "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-21",
+    "google-news:Bvlgari chairman Paolo Bulgari passes away at 89",
+    "google-news:Italian jeweller and businessman Paolo Bulgari dies aged 89",
+    "google-news:Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:BBC",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "BBC",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Bvlgari chairman Paolo Bulgari passes away at 89",
+     "url": "https://timesofindia.indiatimes.com/world/europe/italian-businessman-and-bvlgari-chairman-paolo-bulgari-dies-at-89/articleshow/136079226.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-22T17:13:48+00:00"
+    },
+    {
+     "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+     "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T07:12:41+00:00"
+    },
+    {
+     "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+     "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T00:57:19+00:00"
+    }
+   ],
+   "id": "wk-Q20090363",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  },
+  {
    "id": "nw-20261122-indonesian-disaster",
    "qid": null,
    "title": "Three killed and dozens missing after fire at Indonesian factory",
@@ -288,57 +365,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q20090363",
-   "title": "Paolo Bulgari",
-   "fame": 67396,
-   "views": 17396,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-22T07:12:41+00:00",
-   "headlines": [
-    "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-    "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-21",
-    "google-news:Italian jeweller and businessman Paolo Bulgari dies aged 89",
-    "google-news:Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
-    "outlet:BBC",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "BBC",
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-     "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T07:12:41+00:00"
-    },
-    {
-     "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
-     "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T00:57:19+00:00"
-    }
-   ],
-   "id": "wk-Q20090363",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-21"
   },
   {
    "qid": "Q540935",
@@ -462,219 +488,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261122-libya-strike",
-   "qid": null,
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "name": "Libya",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-22",
-   "news_at": "2026-11-22T17:16:47+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "Deutsche Welle",
-    "Guardian Media Group",
-    "Euronews",
-    "BBC"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "A suspected drone strike hits a Russian vessel in Libya",
-    "Libya: Suspected drone attack hits Russian ship in Benghazi",
-    "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
-    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
-   ],
-   "places": [
-    "Benghazi",
-    "suspected",
-    "Libyan"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T17:16:47+00:00"
-    },
-    {
-     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T16:50:00+00:00"
-    },
-    {
-     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T17:11:34+00:00"
-    },
-    {
-     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T16:55:49+00:00"
-    },
-    {
-     "title": "A suspected drone strike hits a Russian vessel in Libya",
-     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-22T15:36:31+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle",
-    "outlet:Guardian Media Group",
-    "outlet:Euronews",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261122-libya-strike",
-   "qid": null,
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "name": "Libya",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-22",
-   "news_at": "2026-11-22T17:16:47+00:00",
-   "owners": [
-    "Disney (ABC News)",
-    "Deutsche Welle",
-    "Guardian Media Group",
-    "Euronews",
-    "BBC"
-   ],
-   "fame": 125000,
-   "news": 125000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "A suspected drone strike hits a Russian vessel in Libya",
-    "Libya: Suspected drone attack hits Russian ship in Benghazi",
-    "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
-    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
-   ],
-   "places": [
-    "Benghazi",
-    "suspected",
-    "Libyan"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T17:16:47+00:00"
-    },
-    {
-     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T16:50:00+00:00"
-    },
-    {
-     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T17:11:34+00:00"
-    },
-    {
-     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T16:55:49+00:00"
-    },
-    {
-     "title": "A suspected drone strike hits a Russian vessel in Libya",
-     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-22T15:36:31+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle",
-    "outlet:Guardian Media Group",
-    "outlet:Euronews",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 661,
+  "headlines": 662,
   "feeds": 29,
   "owners": 21,
-  "matched": 23,
+  "matched": 27,
   "corroborated": 4
  },
  "emerging": [
@@ -692,10 +511,11 @@
     "Deutsche Welle",
     "Guardian Media Group",
     "Euronews",
+    "Al Jazeera Media Network",
     "BBC"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -703,7 +523,7 @@
     "Libya: Suspected drone attack hits Russian ship in Benghazi",
     "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-    "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say"
+    "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base"
    ],
    "places": [
     "Benghazi",
@@ -741,6 +561,16 @@
      "at": "2026-11-22T16:50:00+00:00"
     },
     {
+     "title": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base",
+     "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T17:12:48+00:00"
+    },
+    {
      "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
      "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
      "outlet": "Euronews",
@@ -776,6 +606,7 @@
     "outlet:Deutsche Welle",
     "outlet:Guardian Media Group",
     "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
     "outlet:BBC"
    ],
    "emerging": true,
@@ -943,5 +774,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 661 headlines from 29 feeds (21 owners), 23 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 662 headlines from 29 feeds (21 owners), 27 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
 }
