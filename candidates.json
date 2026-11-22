@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T00:22:13+00:00",
+ "at": "2026-11-22T01:00:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -51,7 +51,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-21T14:06:38+00:00",
+   "news_at": "2026-11-21T03:43:29+00:00",
    "headlines": [
     "Phumzile Mlambo-Ngcuka, former South Africa deputy president and UN Women chief, dies at 71"
    ],
@@ -81,6 +81,56 @@
    "date": "2026-11-20"
   },
   {
+   "qid": "Q5496002",
+   "title": "Fred Nile",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-22T00:26:35+00:00",
+   "headlines": [
+    "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
+    "Veteran former NSW MP Fred Nile dead at 92"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
+    "google-news:Veteran former NSW MP Fred Nile dead at 92",
+    "outlet:Guardian Media Group",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
+     "url": "https://www.theguardian.com/australia-news/2026/nov/22/fred-nile-former-nsw-politician-and-figurehead-of-the-rightwing-christian-democratic-party-dies-aged-92",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T00:26:35+00:00"
+    },
+    {
+     "title": "Veteran former NSW MP Fred Nile dead at 92",
+     "url": "https://www.abc.net.au/news/2026-11-22/mp-fred-nile-dead-at-92/107413968",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T23:56:08+00:00"
+    }
+   ],
+   "id": "wk-Q5496002",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  },
+  {
    "qid": "Q7175059",
    "title": "PJ Simon",
    "fame": 45237,
@@ -101,37 +151,37 @@
    "date": "2026-11-20"
   },
   {
-   "qid": "Q5496002",
-   "title": "Fred Nile",
+   "qid": "Q20090363",
+   "title": "Paolo Bulgari",
    "fame": 25000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-21T23:56:08+00:00",
+   "news_at": "2026-11-22T00:57:19+00:00",
    "headlines": [
-    "Breaking: Veteran former NSW MP Fred Nile dead at 92"
+    "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89"
    ],
    "region": "world",
    "via": [
-    "google-news:Breaking: Veteran former NSW MP Fred Nile dead at 92",
-    "outlet:ABC (Australia)"
+    "google-news:Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+    "outlet:SCMP Group"
    ],
    "owners": [
-    "ABC (Australia)"
+    "SCMP Group"
    ],
    "reports": [
     {
-     "title": "Breaking: Veteran former NSW MP Fred Nile dead at 92",
-     "url": "https://www.abc.net.au/news/2026-11-22/mp-fred-nile-dead-at-92/107413968",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
+     "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+     "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
      "lang": "en",
-     "at": "2026-11-21T23:56:08+00:00"
+     "at": "2026-11-22T00:57:19+00:00"
     }
    ],
-   "id": "wk-Q5496002",
+   "id": "wk-Q20090363",
    "kind": "death",
    "category": "death",
    "date": "2026-11-21"
@@ -296,14 +346,51 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q20090363",
+   "title": "Paolo Bulgari",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-22T00:57:19+00:00",
+   "headlines": [
+    "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+     "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T00:57:19+00:00"
+    }
+   ],
+   "id": "wk-Q20090363",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  }
+ ],
  "outlets": {
-  "headlines": 699,
+  "headlines": 689,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
-  "corroborated": 0
+  "matched": 35,
+  "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 699 headlines from 30 feeds (21 owners), 36 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 689 headlines from 30 feeds (21 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
