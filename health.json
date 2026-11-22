@@ -1,10 +1,13 @@
 {
- "at": "2026-11-22T12:01:22+00:00",
+ "at": "2026-11-22T12:29:21+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
-  "watch: 0 candidates (0 quakes, 10 trending), 0 hazard alerts",
-  "outlets: 649 headlines from 29 feeds (21 owners), 21 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 0.5 h ago, 139 people)\"]"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 10 units today",
+  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 649 headlines from 29 feeds (21 owners), 18 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime, nw-20261122-three-disaster",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 1.0 h ago, 139 people)']",
+  "skip nw-20261122-three-disaster: gate: faceless: no free photo shows Three or the event itself (only 2 photos of places or things near it)",
+  "skip nw-20261122-three-disaster: gate: faceless: no free photo shows Three or the event itself (only 2 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
