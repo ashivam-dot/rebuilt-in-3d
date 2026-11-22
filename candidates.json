@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T11:02:12+00:00",
+ "at": "2026-11-22T11:30:55+00:00",
  "quakes": [],
  "trending": [
   {
@@ -38,6 +38,29 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-20"
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-22T11:30:55.843749+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-21",
+    "wikipedia-current-events-2026-11-22"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142084937-2026w47",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-22",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261121-finland-strike",
@@ -240,28 +263,6 @@
    "date": "2026-11-21"
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-22T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-21"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w47",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-22",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q5496002",
    "title": "Fred Nile",
    "fame": 25000,
@@ -415,165 +416,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261121-finland-strike",
-   "qid": null,
-   "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-   "name": "Finland",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-21",
-   "news_at": "2026-11-22T10:39:50+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-    "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
-    "Russian cargo ship still on fire off Finland after drone attack"
-   ],
-   "places": [
-    "Gulf",
-    "War"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-     "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-21T18:02:23+00:00"
-    },
-    {
-     "title": "Russian cargo ship still on fire off Finland after drone attack",
-     "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T10:39:50+00:00"
-    },
-    {
-     "title": "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
-     "url": "https://www.independent.co.uk/news/world/europe/russia-ship-finland-sparta-attack-b3089367.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T09:28:44+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261121-finland-strike",
-   "qid": null,
-   "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-   "name": "Finland",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-21",
-   "news_at": "2026-11-22T10:39:50+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Independent Digital News",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-    "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
-    "Russian cargo ship still on fire off Finland after drone attack"
-   ],
-   "places": [
-    "Gulf",
-    "War"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-     "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-21T18:02:23+00:00"
-    },
-    {
-     "title": "Russian cargo ship still on fire off Finland after drone attack",
-     "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T10:39:50+00:00"
-    },
-    {
-     "title": "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
-     "url": "https://www.independent.co.uk/news/world/europe/russia-ship-finland-sparta-attack-b3089367.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T09:28:44+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Independent Digital News",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 660,
-  "feeds": 30,
+  "headlines": 662,
+  "feeds": 29,
   "owners": 21,
-  "matched": 24,
+  "matched": 21,
   "corroborated": 3
  },
  "emerging": [
@@ -727,5 +575,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 660 headlines from 30 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime"
+ "outlet_note": "outlets: 662 headlines from 29 feeds (21 owners), 21 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261121-finland-strike, nw-20261121-nigeria-maritime"
 }
