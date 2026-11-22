@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T21:20:10+00:00",
+ "at": "2026-11-22T21:52:14+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,17 +10,17 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T20:28:09+00:00",
+   "news_at": "2026-11-22T21:33:44+00:00",
    "owners": [
     "Deutsche Welle",
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group",
     "Disney (ABC News)",
     "France Médias Monde",
     "Independent Digital News",
     "Paramount (CBS)",
-    "BBC"
+    "BBC",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -31,7 +31,7 @@
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
     "Suspected drone attack causes explosion on Russian ship in Libya",
-    "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials"
+    "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say"
    ],
    "places": [
     "Benghazi",
@@ -81,6 +81,16 @@
      "at": "2026-11-22T16:50:00+00:00"
     },
     {
+     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T21:33:44+00:00"
+    },
+    {
      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
      "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
      "outlet": "The Independent",
@@ -89,16 +99,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-22T20:20:01+00:00"
-    },
-    {
-     "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T18:50:56+00:00"
     },
     {
      "title": "Suspected drone attack causes explosion on Russian ship in Libya",
@@ -135,12 +135,12 @@
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -152,7 +152,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T21:20:10.039867+00:00",
+   "news_at": "2026-11-22T21:52:14.401542+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -167,92 +167,6 @@
    "date": "2026-11-22",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "id": "nw-20261121-nigeria-maritime",
-   "qid": null,
-   "title": "Nigeria: At least 24 dead after boat capsizes",
-   "name": "Nigeria",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-21",
-   "news_at": "2026-11-22T15:24:20+00:00",
-   "owners": [
-    "Independent Digital News",
-    "Disney (ABC News)",
-    "Deutsche Welle",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-    "At least 24 dead in Nigeria when boat going to funeral capsizes",
-    "Nigeria: At least 24 dead after boat capsizes",
-    "Dozens drown as boat capsizes in Nigeria en route to funeral"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Nigeria: At least 24 dead after boat capsizes",
-     "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-21T23:52:00+00:00"
-    },
-    {
-     "title": "Dozens drown as boat capsizes in Nigeria en route to funeral",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T15:24:20+00:00"
-    },
-    {
-     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-21T21:23:44+00:00"
-    },
-    {
-     "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
-     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-21T23:06:21+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q20090363",
@@ -318,6 +232,79 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-21"
+  },
+  {
+   "id": "nw-20261121-nigeria-maritime",
+   "qid": null,
+   "title": "Nigeria: At least 24 dead after boat capsizes",
+   "name": "Nigeria",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-21",
+   "news_at": "2026-11-22T15:24:20+00:00",
+   "owners": [
+    "Disney (ABC News)",
+    "Deutsche Welle",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 24 dead in Nigeria when boat going to funeral capsizes",
+    "Nigeria: At least 24 dead after boat capsizes",
+    "Dozens drown as boat capsizes in Nigeria en route to funeral"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nigeria: At least 24 dead after boat capsizes",
+     "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T23:52:00+00:00"
+    },
+    {
+     "title": "Dozens drown as boat capsizes in Nigeria en route to funeral",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T15:24:20+00:00"
+    },
+    {
+     "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
+     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-21T23:06:21+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261122-indonesian-disaster",
@@ -498,10 +485,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 658,
+  "headlines": 655,
   "feeds": 29,
   "owners": 21,
-  "matched": 35,
+  "matched": 34,
   "corroborated": 4
  },
  "emerging": [
@@ -513,17 +500,17 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T20:28:09+00:00",
+   "news_at": "2026-11-22T21:33:44+00:00",
    "owners": [
     "Deutsche Welle",
     "Euronews",
     "Al Jazeera Media Network",
-    "Guardian Media Group",
     "Disney (ABC News)",
     "France Médias Monde",
     "Independent Digital News",
     "Paramount (CBS)",
-    "BBC"
+    "BBC",
+    "Guardian Media Group"
    ],
    "fame": 150000,
    "news": 150000,
@@ -534,7 +521,7 @@
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
     "Suspected drone attack causes explosion on Russian ship in Libya",
-    "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials"
+    "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say"
    ],
    "places": [
     "Benghazi",
@@ -584,6 +571,16 @@
      "at": "2026-11-22T16:50:00+00:00"
     },
     {
+     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T21:33:44+00:00"
+    },
+    {
      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
      "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
      "outlet": "The Independent",
@@ -592,16 +589,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-22T20:20:01+00:00"
-    },
-    {
-     "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T18:50:56+00:00"
     },
     {
      "title": "Suspected drone attack causes explosion on Russian ship in Libya",
@@ -638,12 +625,12 @@
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Al Jazeera Media Network",
-    "outlet:Guardian Media Group",
     "outlet:Disney (ABC News)",
     "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -658,17 +645,15 @@
    "date": "2026-11-21",
    "news_at": "2026-11-22T15:24:20+00:00",
    "owners": [
-    "Independent Digital News",
     "Disney (ABC News)",
     "Deutsche Welle",
     "Al Jazeera Media Network"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
     "At least 24 dead in Nigeria when boat going to funeral capsizes",
     "Nigeria: At least 24 dead after boat capsizes",
     "Dozens drown as boat capsizes in Nigeria en route to funeral"
@@ -705,16 +690,6 @@
      "at": "2026-11-22T15:24:20+00:00"
     },
     {
-     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-21T21:23:44+00:00"
-    },
-    {
      "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
      "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
      "outlet": "ABC News",
@@ -726,7 +701,6 @@
     }
    ],
    "via": [
-    "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
     "outlet:Deutsche Welle",
     "outlet:Al Jazeera Media Network"
@@ -810,5 +784,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 658 headlines from 29 feeds (21 owners), 35 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 655 headlines from 29 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
 }
