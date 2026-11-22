@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T01:59:56+00:00",
+ "at": "2026-11-22T02:28:47+00:00",
  "quakes": [],
  "trending": [
   {
@@ -39,26 +39,77 @@
    "date": "2026-11-20"
   },
   {
-   "qid": "Q142232361",
-   "title": "E.J. Carroll (actor)",
-   "fame": 125000,
+   "id": "nw-20261121-nigeria-maritime",
+   "qid": null,
+   "title": "Nigeria: At least 24 dead after boat capsizes",
+   "name": "Nigeria",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-21",
+   "news_at": "2026-11-21T23:52:00+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-21T19:04:39+00:00",
    "headlines": [
-    "E.J. Carroll, ‘The Deuce’ and ‘Law & Order’ actor, dies at 66 while en route to voiceover job"
+    "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+    "At least 24 dead in Nigeria when boat going to funeral capsizes",
+    "Nigeria: At least 24 dead after boat capsizes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "google-news:E.J. Carroll, ‘The Deuce’ and ‘Law & Order’ actor, dies at 66 while en route to voiceover job"
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nigeria: At least 24 dead after boat capsizes",
+     "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T23:52:00+00:00"
+    },
+    {
+     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-21T21:23:44+00:00"
+    },
+    {
+     "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
+     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-21T21:54:54+00:00"
+    }
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142232361",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-19"
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q1806102",
@@ -209,44 +260,6 @@
    "date": "2026-11-21"
   },
   {
-   "qid": null,
-   "title": "2026 Bayelsa boat disaster",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-21T21:23:44+00:00",
-   "headlines": [
-    "24 dead after boat carrying mourners to funeral capsizes in Nigeria"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
-     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-21T21:23:44+00:00"
-    }
-   ],
-   "id": "wp-2026_Bayelsa_boat_disaster",
-   "kind": "incident",
-   "category": "maritime",
-   "date": "2026-11-20",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q1621643",
    "title": "Miguel Ángel Félix Gallardo",
    "fame": 11803,
@@ -368,14 +381,235 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261121-nigeria-maritime",
+   "qid": null,
+   "title": "Nigeria: At least 24 dead after boat capsizes",
+   "name": "Nigeria",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-21",
+   "news_at": "2026-11-21T23:52:00+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+    "At least 24 dead in Nigeria when boat going to funeral capsizes",
+    "Nigeria: At least 24 dead after boat capsizes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nigeria: At least 24 dead after boat capsizes",
+     "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T23:52:00+00:00"
+    },
+    {
+     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-21T21:23:44+00:00"
+    },
+    {
+     "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
+     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-21T21:54:54+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261121-nigeria-maritime",
+   "qid": null,
+   "title": "Nigeria: At least 24 dead after boat capsizes",
+   "name": "Nigeria",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-21",
+   "news_at": "2026-11-21T23:52:00+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+    "At least 24 dead in Nigeria when boat going to funeral capsizes",
+    "Nigeria: At least 24 dead after boat capsizes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nigeria: At least 24 dead after boat capsizes",
+     "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T23:52:00+00:00"
+    },
+    {
+     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-21T21:23:44+00:00"
+    },
+    {
+     "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
+     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-21T21:54:54+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 700,
+  "headlines": 697,
   "feeds": 30,
   "owners": 21,
-  "matched": 29,
-  "corroborated": 1
+  "matched": 27,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 700 headlines from 30 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261121-nigeria-maritime",
+   "qid": null,
+   "title": "Nigeria: At least 24 dead after boat capsizes",
+   "name": "Nigeria",
+   "kind": "incident",
+   "category": "maritime",
+   "date": "2026-11-21",
+   "news_at": "2026-11-21T23:52:00+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Disney (ABC News)",
+    "Deutsche Welle"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+    "At least 24 dead in Nigeria when boat going to funeral capsizes",
+    "Nigeria: At least 24 dead after boat capsizes"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nigeria: At least 24 dead after boat capsizes",
+     "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-21T23:52:00+00:00"
+    },
+    {
+     "title": "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
+     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-21T21:23:44+00:00"
+    },
+    {
+     "title": "At least 24 dead in Nigeria when boat going to funeral capsizes",
+     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-21T21:54:54+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Disney (ABC News)",
+    "outlet:Deutsche Welle"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 697 headlines from 30 feeds (21 owners), 27 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
 }
