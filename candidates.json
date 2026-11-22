@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T17:46:37+00:00",
+ "at": "2026-11-22T18:17:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -10,7 +10,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T17:16:47+00:00",
+   "news_at": "2026-11-22T18:11:30+00:00",
    "owners": [
     "Disney (ABC News)",
     "Deutsche Welle",
@@ -64,6 +64,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T18:11:30+00:00"
     },
     {
      "title": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base",
@@ -124,7 +134,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-22T17:46:37.508043+00:00",
+   "news_at": "2026-11-22T18:17:10.345028+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -465,35 +475,15 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-19"
-  },
-  {
-   "qid": "Q1526043",
-   "title": "Giovanni De Gennaro (police officer)",
-   "fame": 9762,
-   "views": 9762,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-21"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1526043",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-21"
   }
  ],
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 662,
+  "headlines": 663,
   "feeds": 29,
   "owners": 21,
-  "matched": 27,
+  "matched": 32,
   "corroborated": 4
  },
  "emerging": [
@@ -505,7 +495,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-22T17:16:47+00:00",
+   "news_at": "2026-11-22T18:11:30+00:00",
    "owners": [
     "Disney (ABC News)",
     "Deutsche Welle",
@@ -559,6 +549,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T18:11:30+00:00"
     },
     {
      "title": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base",
@@ -774,5 +774,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 662 headlines from 29 feeds (21 owners), 27 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 663 headlines from 29 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261121-nigeria-maritime, nw-20261122-indonesian-disaster"
 }
