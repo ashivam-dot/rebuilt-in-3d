@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T09:01:21+00:00",
+ "at": "2026-11-22T09:32:18+00:00",
  "quakes": [],
  "trending": [
   {
@@ -47,28 +47,22 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-21",
-   "news_at": "2026-11-22T03:33:18+00:00",
+   "news_at": "2026-11-21T23:52:00+00:00",
    "owners": [
     "Independent Digital News",
     "Disney (ABC News)",
-    "Deutsche Welle",
-    "NDTV"
+    "Deutsche Welle"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
     "At least 24 dead in Nigeria when boat going to funeral capsizes",
-    "Nigeria: At least 24 dead after boat capsizes",
-    "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria"
+    "Nigeria: At least 24 dead after boat capsizes"
    ],
-   "places": [
-    "boat",
-    "carrying",
-    "People"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -108,26 +102,66 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-21T23:06:21+00:00"
-    },
-    {
-     "title": "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria",
-     "url": "https://www.ndtv.com/world-news/24-killed-as-boat-carrying-people-to-a-funeral-capsizes-in-nigeria-12360787#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-22T03:33:18+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle",
-    "outlet:NDTV"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q20090363",
+   "title": "Paolo Bulgari",
+   "fame": 67396,
+   "views": 17396,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-22T07:12:41+00:00",
+   "headlines": [
+    "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+    "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-21",
+    "google-news:Italian jeweller and businessman Paolo Bulgari dies aged 89",
+    "google-news:Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+    "outlet:BBC",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "BBC",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+     "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-22T07:12:41+00:00"
+    },
+    {
+     "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+     "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T00:57:19+00:00"
+    }
+   ],
+   "id": "wk-Q20090363",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
   },
   {
    "qid": "Q142084937",
@@ -150,43 +184,6 @@
    "date": "2026-11-22",
    "coords": null,
    "has_coords": false
-  },
-  {
-   "qid": "Q20090363",
-   "title": "Paolo Bulgari",
-   "fame": 42396,
-   "views": 17396,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-22T00:57:19+00:00",
-   "headlines": [
-    "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-21",
-    "google-news:Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
-     "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T00:57:19+00:00"
-    }
-   ],
-   "id": "wk-Q20090363",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-21"
   },
   {
    "qid": "Q5496002",
@@ -306,13 +303,34 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1526043",
+   "title": "Giovanni De Gennaro (police officer)",
+   "fame": 9762,
+   "views": 9762,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-21"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1526043",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  }
+ ],
  "outlets": {
-  "headlines": 665,
+  "headlines": 664,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 1
+  "matched": 24,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -323,28 +341,22 @@
    "kind": "incident",
    "category": "maritime",
    "date": "2026-11-21",
-   "news_at": "2026-11-22T03:33:18+00:00",
+   "news_at": "2026-11-21T23:52:00+00:00",
    "owners": [
     "Independent Digital News",
     "Disney (ABC News)",
-    "Deutsche Welle",
-    "NDTV"
+    "Deutsche Welle"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "24 dead after boat carrying mourners to funeral capsizes in Nigeria",
     "At least 24 dead in Nigeria when boat going to funeral capsizes",
-    "Nigeria: At least 24 dead after boat capsizes",
-    "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria"
+    "Nigeria: At least 24 dead after boat capsizes"
    ],
-   "places": [
-    "boat",
-    "carrying",
-    "People"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -384,27 +396,16 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-21T23:06:21+00:00"
-    },
-    {
-     "title": "24 Killed As Boat Carrying People To A Funeral Capsizes In Nigeria",
-     "url": "https://www.ndtv.com/world-news/24-killed-as-boat-carrying-people-to-a-funeral-capsizes-in-nigeria-12360787#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-22T03:33:18+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Disney (ABC News)",
-    "outlet:Deutsche Welle",
-    "outlet:NDTV"
+    "outlet:Deutsche Welle"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 665 headlines from 30 feeds (21 owners), 23 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
+ "outlet_note": "outlets: 664 headlines from 30 feeds (21 owners), 24 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261121-nigeria-maritime"
 }
