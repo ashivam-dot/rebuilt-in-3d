@@ -1,14 +1,14 @@
 {
- "at": "2026-11-23T10:42:59+00:00",
+ "at": "2026-11-23T13:56:40+00:00",
  "ok": true,
  "steps": [
   "learn: 80 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.0}, 'kind:death': {'n': 43, 'lift': 1.237, 'typical_views_24h': 402, 'n_retention': 41, 'typical_view_pct': 53.0}, 'kind:incident': {'n': 29, 'lift': 0.874, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 57.9}, 'category:death': {'n': 42, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 1 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
   "watch: 3 candidates (0 quakes, 11 trending), 0 hazard alerts",
-  "outlets: 667 headlines from 29 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike",
-  "ad-suitability x0.85 (attack, not breaking): nw-20261123-libya-strike, nw-20261123-libya-strike",
-  "skip nw-20261123-libya-strike: gate: faceless: no free photo shows Libya or the event itself (only 4 photos of places or things near it)",
-  "skip nw-20261123-libya-strike: gate: faceless: no free photo shows Libya or the event itself (only 4 photos of places or things near it)",
+  "outlets: 709 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-benghazi-strike, nw-20261123-libya-strike",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261122-benghazi-strike, nw-20261122-benghazi-strike",
+  "skip nw-20261122-benghazi-strike: gate: faceless: no free photo shows Benghazi or the event itself (only 1 photos of places or things near it)",
+  "skip nw-20261122-benghazi-strike: gate: faceless: no free photo shows Benghazi or the event itself (only 1 photos of places or things near it)",
   "skip wk-Q5534160: gate: the article has no infobox to confirm the death",
   "nothing eligible to publish"
  ]

@@ -1715,11 +1715,19 @@
   "kind": "incident"
  },
  "wk-Q5534160": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: the article has no infobox to confirm the death",
-  "at": "2026-11-23T10:48:10+00:00",
+  "at": "2026-11-23T14:01:49+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "nw-20261122-benghazi-strike": {
+  "count": 2,
+  "reason": "gate: faceless: no free photo shows Benghazi or the event itself (only 1 photos of places or things near it)",
+  "at": "2026-11-23T14:01:48+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }
