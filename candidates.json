@@ -1,15 +1,15 @@
 {
- "at": "2026-11-23T01:08:00+00:00",
+ "at": "2026-11-23T01:37:15+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q6896637",
    "title": "Molly Meldrum",
-   "fame": 200000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 200000,
-   "news_at": "2026-11-23T01:03:35+00:00",
+   "news": 325000,
+   "news_at": "2026-11-23T01:23:07+00:00",
    "headlines": [
     "Molly Meldrum: Australian music legend dies aged 83",
     "Australian music legend Molly Meldrum dies aged 83",
@@ -21,16 +21,26 @@
     "google-news:Molly Meldrum: Australian music legend dies aged 83",
     "google-news:Australian music legend Molly Meldrum dies aged 83",
     "google-news:Tributes flow for Molly Meldrum: Anthony Albanese, Jason Donovan and others remember music industry great",
-    "outlet:BBC",
     "outlet:Guardian Media Group",
+    "outlet:BBC",
     "outlet:ABC (Australia)"
    ],
    "owners": [
-    "BBC",
     "Guardian Media Group",
+    "BBC",
     "ABC (Australia)"
    ],
    "reports": [
+    {
+     "title": "Tributes flow for Molly Meldrum: Anthony Albanese, Jason Donovan and others remember music industry great",
+     "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T01:23:07+00:00"
+    },
     {
      "title": "Australian music legend Molly Meldrum dies aged 83",
      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
@@ -40,16 +50,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-23T01:03:35+00:00"
-    },
-    {
-     "title": "Tributes flow for Molly Meldrum: Anthony Albanese, Jason Donovan and others remember music industry great",
-     "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T00:48:37+00:00"
     },
     {
      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
@@ -755,10 +755,10 @@
   }
  ],
  "outlets": {
-  "headlines": 632,
+  "headlines": 631,
   "feeds": 29,
   "owners": 21,
-  "matched": 38,
+  "matched": 40,
   "corroborated": 4
  },
  "emerging": [
@@ -1069,5 +1069,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 632 headlines from 29 feeds (21 owners), 38 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261122-sudan-strike, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 631 headlines from 29 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261122-sudan-strike, nw-20261122-indonesian-disaster"
 }
