@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T19:25:59+00:00",
+ "at": "2026-11-23T19:50:26+00:00",
  "quakes": [],
  "trending": [
   {
@@ -87,7 +87,6 @@
    "date": "2026-11-22",
    "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Independent Digital News",
     "Paramount (CBS)",
     "Guardian Media Group",
@@ -205,88 +204,12 @@
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:NPR",
     "outlet:France Médias Monde",
     "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261123-libya-strike",
-   "qid": null,
-   "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-   "name": "Libya",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-23",
-   "news_at": "2026-11-23T11:10:12+00:00",
-   "owners": [
-    "Euronews",
-    "NBCUniversal",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-    "Ukrainian naval drone sinks Russian warship off the coast of Libya",
-    "Ukraine claims drone strikes on Russian ships off Libya: What do we know?"
-   ],
-   "places": [
-    "Zelenskyy"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-     "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T11:10:12+00:00"
-    },
-    {
-     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T05:58:22+00:00"
-    },
-    {
-     "title": "Ukrainian naval drone sinks Russian warship off the coast of Libya",
-     "url": "https://www.nbcnews.com/video/ukrainian-naval-drone-sinks-russian-warship-off-the-coast-of-libya-274001989802",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-23T09:01:50+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:NBCUniversal",
-    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -505,36 +428,13 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-23T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-23",
-   "coords": null,
-   "has_coords": false
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 767,
+  "headlines": 773,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 3
+  "matched": 34,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -547,7 +447,6 @@
    "date": "2026-11-22",
    "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Disney (ABC News)",
     "Independent Digital News",
     "Paramount (CBS)",
     "Guardian Media Group",
@@ -665,7 +564,6 @@
     }
    ],
    "via": [
-    "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
@@ -675,82 +573,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261123-libya-strike",
-   "qid": null,
-   "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-   "name": "Libya",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-23",
-   "news_at": "2026-11-23T11:10:12+00:00",
-   "owners": [
-    "Euronews",
-    "NBCUniversal",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-    "Ukrainian naval drone sinks Russian warship off the coast of Libya",
-    "Ukraine claims drone strikes on Russian ships off Libya: What do we know?"
-   ],
-   "places": [
-    "Zelenskyy"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-     "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T11:10:12+00:00"
-    },
-    {
-     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T05:58:22+00:00"
-    },
-    {
-     "title": "Ukrainian naval drone sinks Russian warship off the coast of Libya",
-     "url": "https://www.nbcnews.com/video/ukrainian-naval-drone-sinks-russian-warship-off-the-coast-of-libya-274001989802",
-     "outlet": "NBC News",
-     "outlet_hi": "एनबीसी न्यूज़",
-     "owner": "NBCUniversal",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-23T09:01:50+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:NBCUniversal",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 767 headlines from 30 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
+ "outlet_note": "outlets: 773 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261122-libya-strike"
 }
