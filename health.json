@@ -1,12 +1,11 @@
 {
- "at": "2026-11-23T20:25:34+00:00",
+ "at": "2026-11-23T20:57:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 15 units today",
-  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
-  "outlets: 772 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail",
-  "skip nw-20261123-amtrak-rail: gate: no draft passed the fact checks: beat 1, 2, 3 name(s) nothing its photo shows (only 24% of the script shows what it says; want 70%): in each, name who or what a photo shows (Ashley Wood, police, January), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; these names or numbers are not in the sources: Blanco (Blanco only in one out",
-  "skip nw-20261123-amtrak-rail: gate: only 3 usable photos of Louisiana (want 4)",
-  "nothing eligible to publish"
+  "learn: 81 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.0}, 'kind:death': {'n': 44, 'lift': 1.239, 'typical_views_24h': 413, 'n_retention': 42, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.868, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.0}, 'category:death': {'n': 43, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 16 units today",
+  "watch: 0 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 773 headlines from 30 feeds (21 owners), 46 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']"
  ]
 }
