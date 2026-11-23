@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-23T02:37:52+00:00. Scored Shorts (views at 24 h): 80. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-23T06:07:51+00:00. Scored Shorts (views at 24 h): 80. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
 Baseline: a typical Short has 241 views at 24 h.
 Retention: a typical Short is watched 55.6% through; a group's retention is blended into its lift at 0.5.
@@ -14,9 +14,9 @@ Retention: a typical Short is watched 55.6% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
-| wk-Q6896637 | 2026-11-23T00:51 | death | death | 390 |  |
-| wk-Q5534376 | 2026-11-22T20:30 | death | death | 1066 |  |
-| wk-Q701501 | 2026-11-21T20:30 | death | death | 972 | 962 |
+| wk-Q6896637 | 2026-11-23T00:51 | death | death | 1053 |  |
+| wk-Q5534376 | 2026-11-22T20:30 | death | death | 1109 |  |
+| wk-Q701501 | 2026-11-21T20:30 | death | death | 1002 | 962 |
 | wk-Q303883 | 2026-11-20T20:30 | death | death | 949 | 510 |
 | wk-Q1130103 | 2026-11-19T20:30 | death | death | 617 | 397 |
 | wk-Q7489916 | 2026-11-19T08:00 | death | death | 951 | 925 |
