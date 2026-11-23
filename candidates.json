@@ -1,32 +1,89 @@
 {
- "at": "2026-11-23T06:07:53+00:00",
+ "at": "2026-11-23T06:37:36+00:00",
  "quakes": [],
  "trending": [
   {
+   "qid": "Q7816304",
+   "title": "Tom Jackson (American football, born 1951)",
+   "fame": 313973,
+   "views": 263973,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-23T02:19:17+00:00",
+   "headlines": [
+    "Tom Jackson, former Broncos star and sports broadcaster, dies at 75",
+    "ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-22",
+    "google-news:Tom Jackson, former Broncos star and sports broadcaster, dies at 75",
+    "google-news:ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75",
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Paramount (CBS)",
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Tom Jackson, former Broncos star and sports broadcaster, dies at 75",
+     "url": "https://www.cbsnews.com/news/tom-jackson-former-broncos-star-sports-broadcaster-dies-75/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T02:19:17+00:00"
+    },
+    {
+     "title": "Hall of Fame sports broadcaster Tom Jackson dies at 75",
+     "url": "https://www.cbsnews.com/video/hall-of-fame-sports-broadcaster-tom-jackson-dies-75/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T02:17:05+00:00"
+    },
+    {
+     "title": "ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75",
+     "url": "https://www.theguardian.com/sport/2026/nov/22/espn-mourns-one-of-the-best-human-beings-ever-after-nfl-analyst-tom-jackson-dies-at-75",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T16:09:22+00:00"
+    }
+   ],
+   "id": "wk-Q7816304",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-20"
+  },
+  {
    "qid": "Q6896637",
    "title": "Molly Meldrum",
-   "fame": 337182,
+   "fame": 312182,
    "views": 37182,
    "traffic": 0,
-   "news": 300000,
+   "news": 275000,
    "news_at": "2026-11-23T01:03:35+00:00",
    "headlines": [
     "Molly Meldrum: Australian music legend dies aged 83",
-    "Australian music legend Molly Meldrum dies aged 83",
-    "State funeral for 'life force' of Australian music Molly Meldrum"
+    "Australian music legend Molly Meldrum dies aged 83"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-22",
     "google-news:Molly Meldrum: Australian music legend dies aged 83",
     "google-news:Australian music legend Molly Meldrum dies aged 83",
-    "google-news:State funeral for 'life force' of Australian music Molly Meldrum",
-    "outlet:BBC",
-    "outlet:ABC (Australia)"
+    "outlet:BBC"
    ],
    "owners": [
-    "BBC",
-    "ABC (Australia)"
+    "BBC"
    ],
    "reports": [
     {
@@ -38,42 +95,12 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-23T01:03:35+00:00"
-    },
-    {
-     "title": "State funeral for 'life force' of Australian music Molly Meldrum",
-     "url": "https://www.abc.net.au/news/2026-11-23/molly-meldrum-dead-tributes-aus-music-champion/107415810",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T00:19:24+00:00"
     }
    ],
    "id": "wk-Q6896637",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
-  },
-  {
-   "qid": "Q7816304",
-   "title": "Tom Jackson (American football, born 1951)",
-   "fame": 263973,
-   "views": 263973,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7816304",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-20"
   },
   {
    "id": "nw-20261122-libya-strike",
@@ -256,169 +283,6 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261122-sudan-strike",
-   "qid": null,
-   "title": "Drone strikes kill four in Khartoum and damage UN building",
-   "name": "Sudan",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-22",
-   "news_at": "2026-11-23T00:46:35+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Deutsche Welle",
-    "ABC (Australia)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Drone strikes hit homes and UN building in Sudan's Khartoum",
-    "Sudan: Drones hit UN building, residential area in Khartoum",
-    "Drone strikes hit homes, United Nations building in Sudan's capital",
-    "Drone strikes kill four in Khartoum and damage UN building"
-   ],
-   "places": [
-    "Khartoum",
-    "United",
-    "Nations"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Drone strikes kill four in Khartoum and damage UN building",
-     "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T00:46:35+00:00"
-    },
-    {
-     "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
-     "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T00:43:36+00:00"
-    },
-    {
-     "title": "Sudan: Drones hit UN building, residential area in Khartoum",
-     "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T19:25:00+00:00"
-    },
-    {
-     "title": "Drone strikes hit homes and UN building in Sudan's Khartoum",
-     "url": "https://www.france24.com/en/africa/20261122-drone-strikes-hit-homes-and-un-building-in-sudan-s-khartoum",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T16:38:14+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261122-indonesian-disaster",
-   "qid": null,
-   "title": "Three killed and dozens missing after fire at Indonesian factory",
-   "name": "Indonesian",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-22",
-   "news_at": "2026-11-22T14:05:20+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "BBC",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Dozens missing as deadly fire hits Indonesian candy factory",
-    "Three killed and dozens missing after fire at Indonesian factory",
-    "Indonesia factory hit by deadly blaze: Three killed and 36 missing"
-   ],
-   "places": [
-    "Three"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Three killed and dozens missing after fire at Indonesian factory",
-     "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T14:05:20+00:00"
-    },
-    {
-     "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
-     "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T12:11:00+00:00"
-    },
-    {
-     "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T06:14:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:BBC",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q20090363",
    "title": "Paolo Bulgari",
    "fame": 50534,
@@ -462,7 +326,7 @@
    "views": 17953,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-23T05:50:10+00:00",
+   "news_at": "2026-11-23T06:13:21+00:00",
    "headlines": [
     "Australian politics live: NSW MP Alex Greenwich drops support for Fred Nile state funeral after blowback from LGBTQ+ community"
    ],
@@ -484,7 +348,7 @@
      "owner": "Guardian Media Group",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-23T05:50:10+00:00"
+     "at": "2026-11-23T06:13:21+00:00"
     }
    ],
    "id": "wk-Q5496002",
@@ -878,11 +742,11 @@
   }
  ],
  "outlets": {
-  "headlines": 640,
+  "headlines": 641,
   "feeds": 29,
   "owners": 21,
-  "matched": 27,
-  "corroborated": 4
+  "matched": 30,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -1025,170 +889,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261122-sudan-strike",
-   "qid": null,
-   "title": "Drone strikes kill four in Khartoum and damage UN building",
-   "name": "Sudan",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-22",
-   "news_at": "2026-11-23T00:46:35+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Deutsche Welle",
-    "ABC (Australia)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Drone strikes hit homes and UN building in Sudan's Khartoum",
-    "Sudan: Drones hit UN building, residential area in Khartoum",
-    "Drone strikes hit homes, United Nations building in Sudan's capital",
-    "Drone strikes kill four in Khartoum and damage UN building"
-   ],
-   "places": [
-    "Khartoum",
-    "United",
-    "Nations"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Drone strikes kill four in Khartoum and damage UN building",
-     "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T00:46:35+00:00"
-    },
-    {
-     "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
-     "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T00:43:36+00:00"
-    },
-    {
-     "title": "Sudan: Drones hit UN building, residential area in Khartoum",
-     "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T19:25:00+00:00"
-    },
-    {
-     "title": "Drone strikes hit homes and UN building in Sudan's Khartoum",
-     "url": "https://www.france24.com/en/africa/20261122-drone-strikes-hit-homes-and-un-building-in-sudan-s-khartoum",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T16:38:14+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261122-indonesian-disaster",
-   "qid": null,
-   "title": "Three killed and dozens missing after fire at Indonesian factory",
-   "name": "Indonesian",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-22",
-   "news_at": "2026-11-22T14:05:20+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "BBC",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Dozens missing as deadly fire hits Indonesian candy factory",
-    "Three killed and dozens missing after fire at Indonesian factory",
-    "Indonesia factory hit by deadly blaze: Three killed and 36 missing"
-   ],
-   "places": [
-    "Three"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Three killed and dozens missing after fire at Indonesian factory",
-     "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T14:05:20+00:00"
-    },
-    {
-     "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
-     "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T12:11:00+00:00"
-    },
-    {
-     "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T06:14:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:BBC",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 640 headlines from 29 feeds (21 owners), 27 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261122-sudan-strike, nw-20261122-indonesian-disaster"
+ "outlet_note": "outlets: 641 headlines from 29 feeds (21 owners), 30 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261122-libya-strike"
 }
