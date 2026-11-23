@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T15:53:39+00:00",
+ "at": "2026-11-23T16:27:44+00:00",
  "quakes": [],
  "trending": [
   {
@@ -80,37 +80,37 @@
   {
    "id": "nw-20261122-libya-strike",
    "qid": null,
-   "title": "Ukrainian drones sink Russian warship at naval base in Libya",
+   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-23T11:42:51+00:00",
+   "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Deutsche Welle",
     "Euronews",
     "Disney (ABC News)",
     "Independent Digital News",
     "Paramount (CBS)",
     "Guardian Media Group",
     "NPR",
-    "France Médias Monde"
+    "France Médias Monde",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Libya: Suspected drone attack hits Russian ship in Benghazi",
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
     "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-    "Russian warship struck by suspected Ukrainian drones at Libya naval base"
+    "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+    "Russian warship sinks in Benghazi after suspected Ukrainian drone attack"
    ],
    "places": [
     "Benghazi",
-    "Suspected",
-    "Libyan"
+    "Libyan",
+    "Zelenskyy"
    ],
    "attackers": [
     "Ukrainian"
@@ -124,6 +124,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-23T15:41:23+00:00"
+    },
     {
      "title": "Ukrainian drones sink Russian warship at naval base in Libya",
      "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
@@ -143,16 +153,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-23T10:16:33+00:00"
-    },
-    {
-     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T16:50:00+00:00"
     },
     {
      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
@@ -206,14 +206,14 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:NPR",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -524,86 +524,49 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q5534160",
-   "title": "Geoff Henke",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-23T03:54:36+00:00",
-   "headlines": [
-    "Geoff Henke, Winter Olympics 'dream maker', dies aged 99"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Geoff Henke, Winter Olympics 'dream maker', dies aged 99",
-    "outlet:ABC (Australia)"
-   ],
-   "owners": [
-    "ABC (Australia)"
-   ],
-   "reports": [
-    {
-     "title": "Geoff Henke, Winter Olympics 'dream maker', dies aged 99",
-     "url": "https://www.abc.net.au/news/2026-11-23/geoff-henke-winter-olympics-dream-maker/107416768",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T03:54:36+00:00"
-    }
-   ],
-   "id": "wk-Q5534160",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-22"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 730,
+  "headlines": 734,
   "feeds": 30,
   "owners": 21,
-  "matched": 32,
+  "matched": 38,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261122-libya-strike",
    "qid": null,
-   "title": "Ukrainian drones sink Russian warship at naval base in Libya",
+   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-23T11:42:51+00:00",
+   "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Deutsche Welle",
     "Euronews",
     "Disney (ABC News)",
     "Independent Digital News",
     "Paramount (CBS)",
     "Guardian Media Group",
     "NPR",
-    "France Médias Monde"
+    "France Médias Monde",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Libya: Suspected drone attack hits Russian ship in Benghazi",
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
     "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-    "Russian warship struck by suspected Ukrainian drones at Libya naval base"
+    "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+    "Russian warship sinks in Benghazi after suspected Ukrainian drone attack"
    ],
    "places": [
     "Benghazi",
-    "Suspected",
-    "Libyan"
+    "Libyan",
+    "Zelenskyy"
    ],
    "attackers": [
     "Ukrainian"
@@ -617,6 +580,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-23T15:41:23+00:00"
+    },
     {
      "title": "Ukrainian drones sink Russian warship at naval base in Libya",
      "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
@@ -636,16 +609,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-23T10:16:33+00:00"
-    },
-    {
-     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-22T16:50:00+00:00"
     },
     {
      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
@@ -699,14 +662,14 @@
     }
    ],
    "via": [
-    "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:NPR",
-    "outlet:France Médias Monde"
+    "outlet:France Médias Monde",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -787,5 +750,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 730 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
+ "outlet_note": "outlets: 734 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
 }
