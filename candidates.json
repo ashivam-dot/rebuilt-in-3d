@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T07:37:27+00:00",
+ "at": "2026-11-23T10:43:01+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,24 +9,34 @@
    "views": 263973,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-23T02:19:17+00:00",
+   "news_at": "2026-11-23T07:38:59+00:00",
    "headlines": [
-    "Tom Jackson, former Broncos star and sports broadcaster, dies at 75",
-    "ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75"
+    "Tom Jackson, Broncos star and ESPN 'Sunday NFL Countdown' analyst, dead at 75",
+    "Tom Jackson, former Broncos star and sports broadcaster, dies at 75"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-22",
+    "google-news:Tom Jackson, Broncos star and ESPN 'Sunday NFL Countdown' analyst, dead at 75",
     "google-news:Tom Jackson, former Broncos star and sports broadcaster, dies at 75",
-    "google-news:ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
    ],
    "owners": [
-    "Paramount (CBS)",
-    "Guardian Media Group"
+    "Disney (ABC News)",
+    "Paramount (CBS)"
    ],
    "reports": [
+    {
+     "title": "Tom Jackson, Broncos star and ESPN 'Sunday NFL Countdown' analyst, dead at 75",
+     "url": "https://abcnews.com/Entertainment/wireStory/tom-jackson-broncos-star-espn-sunday-nfl-countdown-138360147",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T07:38:59+00:00"
+    },
     {
      "title": "Tom Jackson, former Broncos star and sports broadcaster, dies at 75",
      "url": "https://www.cbsnews.com/news/tom-jackson-former-broncos-star-sports-broadcaster-dies-75/",
@@ -46,16 +56,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-23T02:17:05+00:00"
-    },
-    {
-     "title": "ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75",
-     "url": "https://www.theguardian.com/sport/2026/nov/22/espn-mourns-one-of-the-best-human-beings-ever-after-nfl-analyst-tom-jackson-dies-at-75",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T16:09:22+00:00"
     }
    ],
    "id": "wk-Q7816304",
@@ -66,26 +66,41 @@
   {
    "qid": "Q6896637",
    "title": "Molly Meldrum",
-   "fame": 312182,
+   "fame": 212282,
    "views": 37182,
-   "traffic": 0,
-   "news": 275000,
-   "news_at": "2026-11-23T01:03:35+00:00",
+   "traffic": 100,
+   "news": 175000,
+   "news_at": "2026-11-23T08:12:16+00:00",
    "headlines": [
     "Molly Meldrum: Australian music legend dies aged 83",
+    "Australian entertainment icon Molly Meldrum to receive state funeral after death aged 83",
     "Australian music legend Molly Meldrum dies aged 83"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-22",
+    "google-trends-US:molly meldrum",
     "google-news:Molly Meldrum: Australian music legend dies aged 83",
+    "google-news:Australian entertainment icon Molly Meldrum to receive state funeral after death aged 83",
     "google-news:Australian music legend Molly Meldrum dies aged 83",
+    "outlet:Independent Digital News",
     "outlet:BBC"
    ],
    "owners": [
+    "Independent Digital News",
     "BBC"
    ],
    "reports": [
+    {
+     "title": "Australian entertainment icon Molly Meldrum to receive state funeral after death aged 83",
+     "url": "https://www.independent.co.uk/arts-entertainment/music/news/australian-molly-meldrum-dies-victoria-state-funeral-b3089613.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T08:12:16+00:00"
+    },
     {
      "title": "Australian music legend Molly Meldrum dies aged 83",
      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
@@ -105,21 +120,22 @@
   {
    "id": "nw-20261122-libya-strike",
    "qid": null,
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-23T02:59:35+00:00",
+   "news_at": "2026-11-23T10:16:33+00:00",
    "owners": [
     "Deutsche Welle",
     "Euronews",
     "Disney (ABC News)",
-    "France Médias Monde",
     "Independent Digital News",
     "Paramount (CBS)",
     "Guardian Media Group",
-    "BBC"
+    "SCMP Group",
+    "NPR",
+    "France Médias Monde"
    ],
    "fame": 150000,
    "news": 150000,
@@ -129,8 +145,8 @@
     "Libya: Suspected drone attack hits Russian ship in Benghazi",
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-    "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
-    "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say"
+    "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
+    "Russian warship struck by suspected Ukrainian drones at Libya naval base"
    ],
    "places": [
     "Benghazi",
@@ -150,17 +166,17 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+     "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-23T02:59:35+00:00"
+     "at": "2026-11-23T10:16:33+00:00"
     },
     {
-     "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
+     "title": "Russian warship hit by Ukrainian drone at Benghazi naval base, Libyan officials say",
      "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
@@ -178,6 +194,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Zelensky says Ukraine sank Russian warship in sea drone attack at Libya base",
+     "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T22:46:18+00:00"
     },
     {
      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
@@ -218,27 +244,18 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-22T20:21:56+00:00"
-    },
-    {
-     "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-22T19:38:18+00:00"
     }
    ],
    "via": [
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:SCMP Group",
+    "outlet:NPR",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -281,6 +298,83 @@
    "date": "2026-11-23",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261123-libya-strike",
+   "qid": null,
+   "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T10:31:33+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+    "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+    "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya"
+   ],
+   "places": [
+    "Zelenskyy"
+   ],
+   "attackers": [
+    "Ukraine"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T07:37:09+00:00"
+    },
+    {
+     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T05:58:22+00:00"
+    },
+    {
+     "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
+     "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T10:31:33+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q20090363",
@@ -357,6 +451,42 @@
    "date": "2026-11-21"
   },
   {
+   "qid": "Q5534160",
+   "title": "Geoff Henke",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-23T03:54:36+00:00",
+   "headlines": [
+    "Geoff Henke, Winter Olympics 'dream maker', dies aged 99"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Geoff Henke, Winter Olympics 'dream maker', dies aged 99",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Geoff Henke, Winter Olympics 'dream maker', dies aged 99",
+     "url": "https://www.abc.net.au/news/2026-11-23/geoff-henke-winter-olympics-dream-maker/107416768",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-23T03:54:36+00:00"
+    }
+   ],
+   "id": "wk-Q5534160",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  },
+  {
    "qid": "Q7175059",
    "title": "PJ Simon",
    "fame": 17256,
@@ -418,33 +548,225 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261123-libya-strike",
+   "qid": null,
+   "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T10:31:33+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+    "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+    "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya"
+   ],
+   "places": [
+    "Zelenskyy"
+   ],
+   "attackers": [
+    "Ukraine"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T07:37:09+00:00"
+    },
+    {
+     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T05:58:22+00:00"
+    },
+    {
+     "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
+     "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T10:31:33+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261123-libya-strike",
+   "qid": null,
+   "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T10:31:33+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+    "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+    "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya"
+   ],
+   "places": [
+    "Zelenskyy"
+   ],
+   "attackers": [
+    "Ukraine"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T07:37:09+00:00"
+    },
+    {
+     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T05:58:22+00:00"
+    },
+    {
+     "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
+     "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T10:31:33+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "qid": "Q5534160",
+   "title": "Geoff Henke",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-23T03:54:36+00:00",
+   "headlines": [
+    "Geoff Henke, Winter Olympics 'dream maker', dies aged 99"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Geoff Henke, Winter Olympics 'dream maker', dies aged 99",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "Geoff Henke, Winter Olympics 'dream maker', dies aged 99",
+     "url": "https://www.abc.net.au/news/2026-11-23/geoff-henke-winter-olympics-dream-maker/107416768",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-23T03:54:36+00:00"
+    }
+   ],
+   "id": "wk-Q5534160",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  }
+ ],
  "outlets": {
-  "headlines": 649,
+  "headlines": 667,
   "feeds": 29,
   "owners": 21,
   "matched": 25,
-  "corroborated": 2
+  "corroborated": 4
  },
  "emerging": [
   {
    "id": "nw-20261122-libya-strike",
    "qid": null,
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-22",
-   "news_at": "2026-11-23T02:59:35+00:00",
+   "news_at": "2026-11-23T10:16:33+00:00",
    "owners": [
     "Deutsche Welle",
     "Euronews",
     "Disney (ABC News)",
-    "France Médias Monde",
     "Independent Digital News",
     "Paramount (CBS)",
     "Guardian Media Group",
-    "BBC"
+    "SCMP Group",
+    "NPR",
+    "France Médias Monde"
    ],
    "fame": 150000,
    "news": 150000,
@@ -454,8 +776,8 @@
     "Libya: Suspected drone attack hits Russian ship in Benghazi",
     "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
     "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-    "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
-    "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say"
+    "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
+    "Russian warship struck by suspected Ukrainian drones at Libya naval base"
    ],
    "places": [
     "Benghazi",
@@ -475,17 +797,17 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+     "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-23T02:59:35+00:00"
+     "at": "2026-11-23T10:16:33+00:00"
     },
     {
-     "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
+     "title": "Russian warship hit by Ukrainian drone at Benghazi naval base, Libyan officials say",
      "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
@@ -503,6 +825,16 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-22T16:50:00+00:00"
+    },
+    {
+     "title": "Zelensky says Ukraine sank Russian warship in sea drone attack at Libya base",
+     "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-22T22:46:18+00:00"
     },
     {
      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
@@ -543,31 +875,99 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-22T20:21:56+00:00"
-    },
-    {
-     "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-     "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-22T19:38:18+00:00"
     }
    ],
    "via": [
     "outlet:Deutsche Welle",
     "outlet:Euronews",
     "outlet:Disney (ABC News)",
-    "outlet:France Médias Monde",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
-    "outlet:BBC"
+    "outlet:SCMP Group",
+    "outlet:NPR",
+    "outlet:France Médias Monde"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261123-libya-strike",
+   "qid": null,
+   "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+   "name": "Libya",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T10:31:33+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+    "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+    "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya"
+   ],
+   "places": [
+    "Zelenskyy"
+   ],
+   "attackers": [
+    "Ukraine"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T07:37:09+00:00"
+    },
+    {
+     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T05:58:22+00:00"
+    },
+    {
+     "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
+     "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T10:31:33+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 649 headlines from 29 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261122-libya-strike"
+ "outlet_note": "outlets: 667 headlines from 29 feeds (21 owners), 25 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
 }
