@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T19:50:26+00:00",
+ "at": "2026-11-23T20:25:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -78,37 +78,70 @@
    "date": "2026-11-20"
   },
   {
-   "id": "nw-20261122-libya-strike",
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-23T20:03:48+00:00",
+   "headlines": [
+    "Protesting Bangladesh garment workers reject pay offer"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-22",
+    "google-news:Protesting Bangladesh garment workers reject pay offer",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Protesting Bangladesh garment workers reject pay offer",
+     "url": "https://www.aljazeera.com/news/2026/11/23/protesting-bangladesh-garment-workers-reject-pay-offer?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T20:03:48+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w48",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-23",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261123-libya-strike",
    "qid": null,
    "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Independent Digital News",
-    "Paramount (CBS)",
-    "Guardian Media Group",
-    "NPR",
-    "France Médias Monde",
+    "Euronews",
+    "NBCUniversal",
     "BBC"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-    "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-    "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-    "Russian warship struck by suspected Ukrainian drones at Libya naval base",
-    "Russian warship sinks in Benghazi after suspected Ukrainian drone attack"
+    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+    "Ukrainian naval drone sinks Russian warship off the coast of Libya",
+    "Russian warship hit by Ukrainian drones in Libya, Zelensky says"
    ],
    "places": [
-    "Benghazi",
-    "Libyan",
-    "Zelenskyy"
+    "Zelenskyy",
+    "Zelensky"
    ],
    "attackers": [
     "Ukrainian"
@@ -133,83 +166,106 @@
      "at": "2026-11-23T15:41:23+00:00"
     },
     {
-     "title": "Ukrainian drones sink Russian warship at naval base in Libya",
-     "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T10:53:00+00:00"
-    },
-    {
-     "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
-     "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T10:16:33+00:00"
-    },
-    {
-     "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-     "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T11:42:51+00:00"
-    },
-    {
-     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T21:33:44+00:00"
-    },
-    {
-     "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-     "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T20:20:01+00:00"
-    },
-    {
-     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-22T17:11:34+00:00"
+     "at": "2026-11-23T05:58:22+00:00"
     },
     {
-     "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
-     "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
+     "title": "Ukrainian naval drone sinks Russian warship off the coast of Libya",
+     "url": "https://www.nbcnews.com/video/ukrainian-naval-drone-sinks-russian-warship-off-the-coast-of-libya-274001989802",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T09:01:50+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:NBCUniversal",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261123-amtrak-rail",
+   "qid": null,
+   "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+   "name": "Amtrak",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T20:14:53+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+    "Amtrak passenger train derails in Louisiana",
+    "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana"
+   ],
+   "places": [
+    "Louisiana",
+    "US'"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+     "url": "https://www.independent.co.uk/news/world/americas/amtrak-train-derail-18-wheeler-louisiana-b3089677.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T09:33:33+00:00"
+    },
+    {
+     "title": "Amtrak passenger train derails in Louisiana",
+     "url": "https://www.cbsnews.com/video/amtrak-passenger-train-derails-in-louisiana/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-22T20:21:56+00:00"
+     "at": "2026-11-23T15:39:17+00:00"
+    },
+    {
+     "title": "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana",
+     "url": "https://timesofindia.indiatimes.com/world/us/5-injured-as-amtrak-train-collides-with-bulldozer-carrying-truck-and-derails-in-us-louisiana/articleshow/136113656.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T20:14:53+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
-    "outlet:NPR",
-    "outlet:France Médias Monde",
-    "outlet:BBC"
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
@@ -287,28 +343,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-21"
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-23T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-22"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-23",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q5534160",
@@ -428,47 +462,194 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "id": "nw-20261123-amtrak-rail",
+   "qid": null,
+   "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+   "name": "Amtrak",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T20:14:53+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+    "Amtrak passenger train derails in Louisiana",
+    "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana"
+   ],
+   "places": [
+    "Louisiana",
+    "US'"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+     "url": "https://www.independent.co.uk/news/world/americas/amtrak-train-derail-18-wheeler-louisiana-b3089677.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T09:33:33+00:00"
+    },
+    {
+     "title": "Amtrak passenger train derails in Louisiana",
+     "url": "https://www.cbsnews.com/video/amtrak-passenger-train-derails-in-louisiana/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T15:39:17+00:00"
+    },
+    {
+     "title": "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana",
+     "url": "https://timesofindia.indiatimes.com/world/us/5-injured-as-amtrak-train-collides-with-bulldozer-carrying-truck-and-derails-in-us-louisiana/articleshow/136113656.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T20:14:53+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261123-amtrak-rail",
+   "qid": null,
+   "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+   "name": "Amtrak",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T20:14:53+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+    "Amtrak passenger train derails in Louisiana",
+    "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana"
+   ],
+   "places": [
+    "Louisiana",
+    "US'"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+     "url": "https://www.independent.co.uk/news/world/americas/amtrak-train-derail-18-wheeler-louisiana-b3089677.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T09:33:33+00:00"
+    },
+    {
+     "title": "Amtrak passenger train derails in Louisiana",
+     "url": "https://www.cbsnews.com/video/amtrak-passenger-train-derails-in-louisiana/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T15:39:17+00:00"
+    },
+    {
+     "title": "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana",
+     "url": "https://timesofindia.indiatimes.com/world/us/5-injured-as-amtrak-train-collides-with-bulldozer-carrying-truck-and-derails-in-us-louisiana/articleshow/136113656.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T20:14:53+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:Paramount (CBS)",
+    "outlet:Bennett, Coleman & Co."
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
-  "headlines": 773,
+  "headlines": 772,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 2
+  "matched": 35,
+  "corroborated": 3
  },
  "emerging": [
   {
-   "id": "nw-20261122-libya-strike",
+   "id": "nw-20261123-libya-strike",
    "qid": null,
    "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Independent Digital News",
-    "Paramount (CBS)",
-    "Guardian Media Group",
-    "NPR",
-    "France Médias Monde",
+    "Euronews",
+    "NBCUniversal",
     "BBC"
    ],
-   "fame": 150000,
-   "news": 150000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-    "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-    "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-    "Russian warship struck by suspected Ukrainian drones at Libya naval base",
-    "Russian warship sinks in Benghazi after suspected Ukrainian drone attack"
+    "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+    "Ukrainian naval drone sinks Russian warship off the coast of Libya",
+    "Russian warship hit by Ukrainian drones in Libya, Zelensky says"
    ],
    "places": [
-    "Benghazi",
-    "Libyan",
-    "Zelenskyy"
+    "Zelenskyy",
+    "Zelensky"
    ],
    "attackers": [
     "Ukrainian"
@@ -493,87 +674,110 @@
      "at": "2026-11-23T15:41:23+00:00"
     },
     {
-     "title": "Ukrainian drones sink Russian warship at naval base in Libya",
-     "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T10:53:00+00:00"
-    },
-    {
-     "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
-     "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T10:16:33+00:00"
-    },
-    {
-     "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-     "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T11:42:51+00:00"
-    },
-    {
-     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T21:33:44+00:00"
-    },
-    {
-     "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-     "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-22T20:20:01+00:00"
-    },
-    {
-     "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-     "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+     "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+     "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-22T17:11:34+00:00"
+     "at": "2026-11-23T05:58:22+00:00"
     },
     {
-     "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
-     "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
+     "title": "Ukrainian naval drone sinks Russian warship off the coast of Libya",
+     "url": "https://www.nbcnews.com/video/ukrainian-naval-drone-sinks-russian-warship-off-the-coast-of-libya-274001989802",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-23T09:01:50+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:NBCUniversal",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261123-amtrak-rail",
+   "qid": null,
+   "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+   "name": "Amtrak",
+   "kind": "incident",
+   "category": "rail",
+   "date": "2026-11-23",
+   "news_at": "2026-11-23T20:14:53+00:00",
+   "owners": [
+    "Independent Digital News",
+    "Paramount (CBS)",
+    "Bennett, Coleman & Co."
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+    "Amtrak passenger train derails in Louisiana",
+    "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana"
+   ],
+   "places": [
+    "Louisiana",
+    "US'"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Amtrak train derails after crashing into 18-wheeler in Louisiana",
+     "url": "https://www.independent.co.uk/news/world/americas/amtrak-train-derail-18-wheeler-louisiana-b3089677.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T09:33:33+00:00"
+    },
+    {
+     "title": "Amtrak passenger train derails in Louisiana",
+     "url": "https://www.cbsnews.com/video/amtrak-passenger-train-derails-in-louisiana/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-22T20:21:56+00:00"
+     "at": "2026-11-23T15:39:17+00:00"
+    },
+    {
+     "title": "5 injured as Amtrak train collides with bulldozer-carrying truck and derails in US' Louisiana",
+     "url": "https://timesofindia.indiatimes.com/world/us/5-injured-as-amtrak-train-collides-with-bulldozer-carrying-truck-and-derails-in-us-louisiana/articleshow/136113656.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-23T20:14:53+00:00"
     }
    ],
    "via": [
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group",
-    "outlet:NPR",
-    "outlet:France Médias Monde",
-    "outlet:BBC"
+    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 773 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261122-libya-strike"
+ "outlet_note": "outlets: 772 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail"
 }

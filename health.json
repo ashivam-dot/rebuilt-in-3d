@@ -1,9 +1,12 @@
 {
- "at": "2026-11-23T19:50:25+00:00",
+ "at": "2026-11-23T20:25:34+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
-  "watch: 0 candidates (0 quakes, 10 trending), 0 hazard alerts",
-  "outlets: 773 headlines from 30 feeds (21 owners), 34 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261122-libya-strike"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 15 units today",
+  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 772 headlines from 30 feeds (21 owners), 35 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail",
+  "skip nw-20261123-amtrak-rail: gate: no draft passed the fact checks: beat 1, 2, 3 name(s) nothing its photo shows (only 24% of the script shows what it says; want 70%): in each, name who or what a photo shows (Ashley Wood, police, January), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo; these names or numbers are not in the sources: Blanco (Blanco only in one out",
+  "skip nw-20261123-amtrak-rail: gate: only 3 usable photos of Louisiana (want 4)",
+  "nothing eligible to publish"
  ]
 }
