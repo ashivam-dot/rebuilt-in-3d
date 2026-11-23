@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T16:47:04+00:00",
+ "at": "2026-11-23T17:26:40+00:00",
  "quakes": [],
  "trending": [
   {
@@ -73,7 +73,6 @@
    "date": "2026-11-22",
    "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Euronews",
     "Disney (ABC News)",
     "Independent Digital News",
     "Paramount (CBS)",
@@ -192,7 +191,6 @@
     }
    ],
    "via": [
-    "outlet:Euronews",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
@@ -494,11 +492,18 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 736,
+  "headlines": 748,
   "feeds": 30,
   "owners": 21,
-  "matched": 42,
+  "matched": 40,
   "corroborated": 3
  },
  "emerging": [
@@ -512,7 +517,6 @@
    "date": "2026-11-22",
    "news_at": "2026-11-23T15:41:23+00:00",
    "owners": [
-    "Euronews",
     "Disney (ABC News)",
     "Independent Digital News",
     "Paramount (CBS)",
@@ -631,7 +635,6 @@
     }
    ],
    "via": [
-    "outlet:Euronews",
     "outlet:Disney (ABC News)",
     "outlet:Independent Digital News",
     "outlet:Paramount (CBS)",
@@ -719,5 +722,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 736 headlines from 30 feeds (21 owners), 42 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
+ "outlet_note": "outlets: 748 headlines from 30 feeds (21 owners), 40 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
 }
