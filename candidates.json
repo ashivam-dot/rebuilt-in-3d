@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T15:21:09+00:00",
+ "at": "2026-11-23T15:53:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -80,7 +80,7 @@
   {
    "id": "nw-20261122-libya-strike",
    "qid": null,
-   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "title": "Ukrainian drones sink Russian warship at naval base in Libya",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
@@ -94,8 +94,7 @@
     "Paramount (CBS)",
     "Guardian Media Group",
     "NPR",
-    "France Médias Monde",
-    "BBC"
+    "France Médias Monde"
    ],
    "fame": 150000,
    "news": 150000,
@@ -125,16 +124,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T11:40:01+00:00"
-    },
     {
      "title": "Ukrainian drones sink Russian warship at naval base in Libya",
      "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
@@ -204,6 +193,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-22T17:11:34+00:00"
+    },
+    {
+     "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+     "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T20:21:56+00:00"
     }
    ],
    "via": [
@@ -214,11 +213,49 @@
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:NPR",
-    "outlet:France Médias Monde",
-    "outlet:BBC"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-23T02:44:20+00:00",
+   "headlines": [
+    "Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-22",
+    "google-news:Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow",
+     "url": "https://www.scmp.com/news/asia/east-asia/article/3375413/japan-looks-bangladesh-nepal-farm-workers-southeast-asian-arrivals-slow",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-23T02:44:20+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w48",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-23",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261123-libya-strike",
@@ -232,17 +269,15 @@
    "owners": [
     "Euronews",
     "NBCUniversal",
-    "Bennett, Coleman & Co.",
     "Al Jazeera Media Network"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
     "Ukrainian naval drone sinks Russian warship off the coast of Libya",
-    "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
     "Ukraine claims drone strikes on Russian ships off Libya: What do we know?"
    ],
    "places": [
@@ -287,65 +322,15 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-23T09:01:50+00:00"
-    },
-    {
-     "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
-     "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-23T10:31:33+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:NBCUniversal",
-    "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-23T02:44:20+00:00",
-   "headlines": [
-    "Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-22",
-    "google-news:Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow",
-    "outlet:SCMP Group"
-   ],
-   "owners": [
-    "SCMP Group"
-   ],
-   "reports": [
-    {
-     "title": "Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow",
-     "url": "https://www.scmp.com/news/asia/east-asia/article/3375413/japan-looks-bangladesh-nepal-farm-workers-southeast-asian-arrivals-slow",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T02:44:20+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-23",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q6896637",
@@ -578,17 +563,17 @@
   }
  ],
  "outlets": {
-  "headlines": 726,
+  "headlines": 730,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 32,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261122-libya-strike",
    "qid": null,
-   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "title": "Ukrainian drones sink Russian warship at naval base in Libya",
    "name": "Libya",
    "kind": "incident",
    "category": "strike",
@@ -602,8 +587,7 @@
     "Paramount (CBS)",
     "Guardian Media Group",
     "NPR",
-    "France Médias Monde",
-    "BBC"
+    "France Médias Monde"
    ],
    "fame": 150000,
    "news": 150000,
@@ -633,16 +617,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-23T11:40:01+00:00"
-    },
     {
      "title": "Ukrainian drones sink Russian warship at naval base in Libya",
      "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
@@ -712,6 +686,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-22T17:11:34+00:00"
+    },
+    {
+     "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+     "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-22T20:21:56+00:00"
     }
    ],
    "via": [
@@ -722,8 +706,7 @@
     "outlet:Paramount (CBS)",
     "outlet:Guardian Media Group",
     "outlet:NPR",
-    "outlet:France Médias Monde",
-    "outlet:BBC"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -740,17 +723,15 @@
    "owners": [
     "Euronews",
     "NBCUniversal",
-    "Bennett, Coleman & Co.",
     "Al Jazeera Media Network"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
     "Ukrainian naval drone sinks Russian warship off the coast of Libya",
-    "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
     "Ukraine claims drone strikes on Russian ships off Libya: What do we know?"
    ],
    "places": [
@@ -795,27 +776,16 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-23T09:01:50+00:00"
-    },
-    {
-     "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
-     "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-23T10:31:33+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:NBCUniversal",
-    "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 726 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
+ "outlet_note": "outlets: 730 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261122-libya-strike, nw-20261123-libya-strike"
 }
