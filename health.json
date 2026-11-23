@@ -1,9 +1,12 @@
 {
- "at": "2026-11-23T05:06:35+00:00",
+ "at": "2026-11-23T05:35:56+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 144 units today",
-  "watch: 0 candidates (0 quakes, 12 trending), 0 hazard alerts",
-  "outlets: 633 headlines from 29 feeds (21 owners), 32 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261122-sudan-strike, nw-20261122-indonesian-disaster"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 145 units today",
+  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 634 headlines from 29 feeds (21 owners), 32 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261122-libya-strike, nw-20261122-sudan-strike, nw-20261122-indonesian-disaster",
+  "hold nw-20261122-libya-strike: outside the world window",
+  "hold nw-20261122-libya-strike: outside the world window",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261122-libya-strike, nw-20261122-libya-strike"
  ]
 }
