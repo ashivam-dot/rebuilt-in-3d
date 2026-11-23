@@ -1,9 +1,12 @@
 {
- "at": "2026-11-23T22:19:45+00:00",
+ "at": "2026-11-23T22:45:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 19 units today",
-  "watch: 0 candidates (0 quakes, 11 trending), 0 hazard alerts",
-  "outlets: 779 headlines from 30 feeds (21 owners), 48 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 20 units today",
+  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 781 headlines from 30 feeds (21 owners), 48 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail",
+  "skip nw-20261123-libya-strike: gate: faceless: no free photo shows Libya or the event itself (only 4 photos of places or things near it)",
+  "skip nw-20261123-libya-strike: gate: faceless: no free photo shows Libya or the event itself (only 4 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
