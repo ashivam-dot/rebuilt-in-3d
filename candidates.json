@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24T18:17:47+00:00",
+ "at": "2026-11-24T18:52:31+00:00",
  "quakes": [],
  "trending": [
   {
@@ -84,11 +84,11 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-24",
-   "news_at": "2026-11-24T15:35:53+00:00",
+   "news_at": "2026-11-24T18:20:00+00:00",
    "owners": [
     "SCMP Group",
-    "Al Jazeera Media Network",
-    "BBC"
+    "BBC",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
@@ -96,8 +96,8 @@
    "traffic": 0,
    "headlines": [
     "Hamas security chief killed in Israeli air strike on Gaza City",
-    "Israeli air strike kills senior Hamas security official in Gaza",
-    "Israeli air strike kills Hamas internal security chief in Gaza"
+    "Israeli air strike kills Hamas internal security chief in Gaza",
+    "Senior Hamas security official killed in Israeli drone strikes"
    ],
    "places": [],
    "attackers": [
@@ -124,14 +124,14 @@
      "at": "2026-11-24T15:35:53+00:00"
     },
     {
-     "title": "Israeli air strike kills senior Hamas security official in Gaza",
-     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+     "title": "Senior Hamas security official killed in Israeli drone strikes",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
      "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-24T13:55:11+00:00"
+     "at": "2026-11-24T18:20:00+00:00"
     },
     {
      "title": "Hamas security chief killed in Israeli air strike on Gaza City",
@@ -146,8 +146,8 @@
    ],
    "via": [
     "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -216,10 +216,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 856,
+  "headlines": 858,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 28,
   "corroborated": 1
  },
  "emerging": [
@@ -231,11 +231,11 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-24",
-   "news_at": "2026-11-24T15:35:53+00:00",
+   "news_at": "2026-11-24T18:20:00+00:00",
    "owners": [
     "SCMP Group",
-    "Al Jazeera Media Network",
-    "BBC"
+    "BBC",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
@@ -243,8 +243,8 @@
    "traffic": 0,
    "headlines": [
     "Hamas security chief killed in Israeli air strike on Gaza City",
-    "Israeli air strike kills senior Hamas security official in Gaza",
-    "Israeli air strike kills Hamas internal security chief in Gaza"
+    "Israeli air strike kills Hamas internal security chief in Gaza",
+    "Senior Hamas security official killed in Israeli drone strikes"
    ],
    "places": [],
    "attackers": [
@@ -271,14 +271,14 @@
      "at": "2026-11-24T15:35:53+00:00"
     },
     {
-     "title": "Israeli air strike kills senior Hamas security official in Gaza",
-     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+     "title": "Senior Hamas security official killed in Israeli drone strikes",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
      "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-24T13:55:11+00:00"
+     "at": "2026-11-24T18:20:00+00:00"
     },
     {
      "title": "Hamas security chief killed in Israeli air strike on Gaza City",
@@ -293,12 +293,12 @@
    ],
    "via": [
     "outlet:SCMP Group",
-    "outlet:Al Jazeera Media Network",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 856 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261124-city-strike"
+ "outlet_note": "outlets: 858 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261124-city-strike"
 }
