@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24T14:08:35+00:00",
+ "at": "2026-11-24T14:39:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -75,6 +75,82 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
+  },
+  {
+   "id": "nw-20261124-city-strike",
+   "qid": null,
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "name": "City",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-24",
+   "news_at": "2026-11-24T13:55:11+00:00",
+   "owners": [
+    "BBC",
+    "SCMP Group",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Israeli air strike kills Hamas internal security chief in Gaza",
+    "Hamas security chief killed in Israeli air strike on Gaza City",
+    "Israeli air strike kills senior Hamas military official in Gaza"
+   ],
+   "places": [],
+   "attackers": [
+    "Hamas",
+    "Israeli"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T12:12:48+00:00"
+    },
+    {
+     "title": "Israeli air strike kills senior Hamas military official in Gaza",
+     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:55:11+00:00"
+    },
+    {
+     "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:28:18+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q5534160",
@@ -196,84 +272,156 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q7319728",
-   "title": "Reza Amirkhani",
-   "fame": 4429,
-   "views": 4429,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
+   "id": "nw-20261124-city-strike",
+   "qid": null,
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "name": "City",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-24",
+   "news_at": "2026-11-24T13:55:11+00:00",
+   "owners": [
+    "BBC",
+    "SCMP Group",
+    "Al Jazeera Media Network"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7319728",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Israeli air strike kills Hamas internal security chief in Gaza",
+    "Hamas security chief killed in Israeli air strike on Gaza City",
+    "Israeli air strike kills senior Hamas military official in Gaza"
+   ],
+   "places": [],
+   "attackers": [
+    "Hamas",
+    "Israeli"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T12:12:48+00:00"
+    },
+    {
+     "title": "Israeli air strike kills senior Hamas military official in Gaza",
+     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:55:11+00:00"
+    },
+    {
+     "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:28:18+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
-   "qid": "Q452742",
-   "title": "Catherine Clément",
-   "fame": 1819,
-   "views": 1819,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
+   "id": "nw-20261124-city-strike",
+   "qid": null,
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "name": "City",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-24",
+   "news_at": "2026-11-24T13:55:11+00:00",
+   "owners": [
+    "BBC",
+    "SCMP Group",
+    "Al Jazeera Media Network"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q452742",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
-   "qid": "Q887839",
-   "title": "Bob Chaperon",
-   "fame": 3818,
-   "views": 3818,
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
+   "headlines": [
+    "Israeli air strike kills Hamas internal security chief in Gaza",
+    "Hamas security chief killed in Israeli air strike on Gaza City",
+    "Israeli air strike kills senior Hamas military official in Gaza"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q887839",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-21"
-  },
-  {
-   "qid": "Q6850377",
-   "title": "Milad Farahani",
-   "fame": 2388,
-   "views": 2388,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
+   "places": [],
+   "attackers": [
+    "Hamas",
+    "Israeli"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6850377",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-22"
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T12:12:48+00:00"
+    },
+    {
+     "title": "Israeli air strike kills senior Hamas military official in Gaza",
+     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:55:11+00:00"
+    },
+    {
+     "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:28:18+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q2770339",
@@ -517,13 +665,90 @@
   }
  ],
  "outlets": {
-  "headlines": 818,
+  "headlines": 822,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 0
+  "matched": 38,
+  "corroborated": 1
  },
- "emerging": [],
- "outlet_note": "outlets: 818 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
- "quiet_note": "quiet day (no Short yet today): 15 tribute candidates: Reza Amirkhani, Bob Chaperon, Jonathan Yardley, David Habib"
+ "emerging": [
+  {
+   "id": "nw-20261124-city-strike",
+   "qid": null,
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "name": "City",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-24",
+   "news_at": "2026-11-24T13:55:11+00:00",
+   "owners": [
+    "BBC",
+    "SCMP Group",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Israeli air strike kills Hamas internal security chief in Gaza",
+    "Hamas security chief killed in Israeli air strike on Gaza City",
+    "Israeli air strike kills senior Hamas military official in Gaza"
+   ],
+   "places": [],
+   "attackers": [
+    "Hamas",
+    "Israeli"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T12:12:48+00:00"
+    },
+    {
+     "title": "Israeli air strike kills senior Hamas military official in Gaza",
+     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:55:11+00:00"
+    },
+    {
+     "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-24T13:28:18+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:SCMP Group",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 822 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261124-city-strike",
+ "quiet_note": "quiet day (no Short yet today): 11 tribute candidates: Jonathan Yardley, David Habib, Abu Nasar Khan Choudhury, Rajendra Shukla (poet)"
 }

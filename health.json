@@ -1,15 +1,21 @@
 {
- "at": "2026-11-24T14:08:34+00:00",
+ "at": "2026-11-24T14:39:38+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 13 units today",
-  "watch: 16 candidates (0 quakes, 7 trending), 0 hazard alerts",
-  "outlets: 818 headlines from 30 feeds (21 owners), 28 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "quiet day (no Short yet today): 15 tribute candidates: Reza Amirkhani, Bob Chaperon, Jonathan Yardley, David Habib",
-  "skip wk-Q7319728: gate: only 2 usable photos of Reza Amirkhani on Wikimedia Commons (want 4)",
-  "skip wk-Q452742: gate: only 3 usable photos of Catherine Clément on Wikimedia Commons (want 4)",
-  "skip wk-Q887839: gate: no photo on Wikimedia Commons shows Bob Chaperon's face (a tribute needs one)",
-  "skip wk-Q6850377: gate: only 1 usable photos of Milad Farahani on Wikimedia Commons (want 4)",
-  "nothing eligible to publish"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 14 units today",
+  "watch: 14 candidates (0 quakes, 8 trending), 0 hazard alerts",
+  "outlets: 822 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261124-city-strike",
+  "quiet day (no Short yet today): 11 tribute candidates: Jonathan Yardley, David Habib, Abu Nasar Khan Choudhury, Rajendra Shukla (poet)",
+  "skip nw-20261124-city-strike: gate: fewer than 2 independent outlets' articles name City",
+  "skip nw-20261124-city-strike: gate: fewer than 2 independent outlets' articles name City",
+  "published wk-Q2770339: https://www.youtube.com/shorts/p4Gv-xkcmzg"
+ ],
+ "published": {
+  "video_id": "p4Gv-xkcmzg",
+  "url": "https://www.youtube.com/shorts/p4Gv-xkcmzg",
+  "title": "Rajendra Shukla, Gujarati Poet, Dies at 84",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-24T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
