@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T23:43:50+00:00",
+ "at": "2026-11-24T00:19:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -205,45 +205,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-23T20:03:48+00:00",
-   "headlines": [
-    "Protesting Bangladesh garment workers reject pay offer"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-22",
-    "google-news:Protesting Bangladesh garment workers reject pay offer",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "owners": [
-    "Al Jazeera Media Network"
-   ],
-   "reports": [
-    {
-     "title": "Protesting Bangladesh garment workers reject pay offer",
-     "url": "https://www.aljazeera.com/news/2026/11/23/protesting-bangladesh-garment-workers-reject-pay-offer?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-23T20:03:48+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-23",
-   "coords": null,
-   "has_coords": false
   },
   {
    "id": "nw-20261123-amtrak-rail",
@@ -477,11 +438,14 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 429 (used the list from 0.6 h ago, 155 people)"
+ ],
  "outlets": {
-  "headlines": 788,
+  "headlines": 780,
   "feeds": 30,
   "owners": 21,
-  "matched": 55,
+  "matched": 57,
   "corroborated": 4
  },
  "emerging": [
@@ -650,5 +614,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 55 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail"
+ "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 57 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail"
 }

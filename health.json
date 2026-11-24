@@ -1,9 +1,11 @@
 {
- "at": "2026-11-23T23:43:49+00:00",
+ "at": "2026-11-24T00:19:32+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 22 units today",
-  "watch: 0 candidates (0 quakes, 11 trending), 0 hazard alerts",
-  "outlets: 788 headlines from 30 feeds (21 owners), 55 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail"
+  "learn: 81 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.0}, 'kind:death': {'n': 44, 'lift': 1.239, 'typical_views_24h': 413, 'n_retention': 42, 'typical_view_pct': 52.7}, 'kind:incident': {'n': 29, 'lift': 0.868, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.0}, 'category:death': {'n': 43, 'lift': ",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 23 units today",
+  "watch: 0 candidates (0 quakes, 10 trending), 0 hazard alerts",
+  "outlets: 780 headlines from 30 feeds (21 owners), 57 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261123-libya-strike, nw-20261123-amtrak-rail",
+  "trend radar errors: ['wikidata recent deaths: HTTP 429 (used the list from 0.6 h ago, 155 people)']"
  ]
 }
