@@ -175,9 +175,7 @@ def run(dry: bool = False) -> dict:
             except Exception as exc:
                 health["steps"].append(f"retract: {type(exc).__name__}: {exc}"[:300])
             health["steps"] += ledger.stale_uploads()
-            if finished := finish_uploads(health):
-                health["published"] = finished
-                return health
+            finish_uploads(health)
             try:  # About, playlists, old tags: off unless CHANNEL_JOBS names them (studio/channel.py)
                 from . import channel
 
