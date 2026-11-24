@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24T09:07:47+00:00",
+ "at": "2026-11-24T09:35:54+00:00",
  "quakes": [],
  "trending": [
   {
@@ -189,13 +189,20 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 788,
+  "headlines": 792,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
+  "matched": 30,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 788 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 792 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
