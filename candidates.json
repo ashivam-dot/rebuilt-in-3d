@@ -1,45 +1,7 @@
 {
- "at": "2026-11-25T05:52:40+00:00",
+ "at": "2026-11-25T06:25:40+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q6896637",
-   "title": "Molly Meldrum",
-   "fame": 137286,
-   "views": 112186,
-   "traffic": 100,
-   "news": 25000,
-   "news_at": "2026-11-24T00:23:25+00:00",
-   "headlines": [
-    "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-23",
-    "google-trends-GB:molly meldrum",
-    "google-news:King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
-     "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T00:23:25+00:00"
-    }
-   ],
-   "id": "wk-Q6896637",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
   {
    "qid": "Q7816304",
    "title": "Tom Jackson (American football, born 1951)",
@@ -68,24 +30,27 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T02:56:49+00:00",
+   "news_at": "2026-11-25T05:30:21+00:00",
    "owners": [
     "Fox Corporation",
     "NBCUniversal",
     "Guardian Media Group",
-    "Bennett, Coleman & Co."
+    "Bennett, Coleman & Co.",
+    "Disney (ABC News)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
-    "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+    "6 killed when plane crashes off coast of Mississippi",
     "Rescue crews search for six people after plane crash off Mississippi coast",
-    "6 missing after Cessna plane crashes off Mississippi coast in US"
+    "6 missing after Cessna plane crashes off Mississippi coast in US",
+    "6 dead after plane crashes off Mississippi coast: US Coast Guard"
    ],
    "places": [
+    "Coast",
     "Guard",
     "Cessna"
    ],
@@ -110,7 +75,17 @@
      "at": "2026-11-25T02:17:25+00:00"
     },
     {
-     "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+     "title": "6 dead after plane crashes off Mississippi coast: US Coast Guard",
+     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T05:30:21+00:00"
+    },
+    {
+     "title": "6 killed when plane crashes off coast of Mississippi",
      "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -144,10 +119,70 @@
     "outlet:Fox Corporation",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "qid": "Q6896637",
+   "title": "Molly Meldrum",
+   "fame": 112186,
+   "views": 112186,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-23"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6896637",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-25T06:01:56+00:00",
+   "headlines": [
+    "Bangladesh raises minimum wage for garment workers after weeks of protests"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-24",
+    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
+     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T06:01:56+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w48",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-25",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261124-colombia-attack",
@@ -169,7 +204,6 @@
    "traffic": 0,
    "headlines": [
     "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-    "Ten hostages released in standoff with gunmen at Colombia supermarket",
     "Gunmen hold dozens hostage in Colombia supermarket",
     "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
    ],
@@ -215,16 +249,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T00:49:35+00:00"
-    },
-    {
-     "title": "Ten hostages released in standoff with gunmen at Colombia supermarket",
-     "url": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T21:04:46+00:00"
     }
    ],
    "via": [
@@ -234,28 +258,6 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-24"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-25",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q142261451",
@@ -426,10 +428,10 @@
   }
  ],
  "outlets": {
-  "headlines": 834,
+  "headlines": 836,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 27,
   "corroborated": 3
  },
  "emerging": [
@@ -441,24 +443,27 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T02:56:49+00:00",
+   "news_at": "2026-11-25T05:30:21+00:00",
    "owners": [
     "Fox Corporation",
     "NBCUniversal",
     "Guardian Media Group",
-    "Bennett, Coleman & Co."
+    "Bennett, Coleman & Co.",
+    "Disney (ABC News)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
-    "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+    "6 killed when plane crashes off coast of Mississippi",
     "Rescue crews search for six people after plane crash off Mississippi coast",
-    "6 missing after Cessna plane crashes off Mississippi coast in US"
+    "6 missing after Cessna plane crashes off Mississippi coast in US",
+    "6 dead after plane crashes off Mississippi coast: US Coast Guard"
    ],
    "places": [
+    "Coast",
     "Guard",
     "Cessna"
    ],
@@ -483,7 +488,17 @@
      "at": "2026-11-25T02:17:25+00:00"
     },
     {
-     "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+     "title": "6 dead after plane crashes off Mississippi coast: US Coast Guard",
+     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T05:30:21+00:00"
+    },
+    {
+     "title": "6 killed when plane crashes off coast of Mississippi",
      "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -517,7 +532,8 @@
     "outlet:Fox Corporation",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
-    "outlet:Bennett, Coleman & Co."
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -542,7 +558,6 @@
    "traffic": 0,
    "headlines": [
     "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-    "Ten hostages released in standoff with gunmen at Colombia supermarket",
     "Gunmen hold dozens hostage in Colombia supermarket",
     "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
    ],
@@ -588,16 +603,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T00:49:35+00:00"
-    },
-    {
-     "title": "Ten hostages released in standoff with gunmen at Colombia supermarket",
-     "url": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T21:04:46+00:00"
     }
    ],
    "via": [
@@ -609,5 +614,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 834 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261124-colombia-attack"
+ "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261124-colombia-attack"
 }
