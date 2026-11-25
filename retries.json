@@ -1851,11 +1851,19 @@
   "kind": "incident"
  },
  "wk-Q64610": {
-  "count": 2,
-  "reason": "gate: no draft passed the fact checks: beat 4 uses the banned word 'nude': say it plainly without that word",
-  "at": "2026-11-25T23:24:50+00:00",
+  "count": 3,
+  "reason": "gate: no draft passed the fact checks: line 2 (She grew up in East Prussia and attended 13 schools after he): partly: The script implies she attended 13 schools *after* her father was executed, but the source states she attended them 'as a young girl' and her father was executed when she was five; i",
+  "at": "2026-11-25T23:59:00+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "nw-20261125-cairo-disaster": {
+  "count": 2,
+  "reason": "gate: faceless: no free photo shows Cairo or the event itself (only 1 photos of places or things near it)",
+  "at": "2026-11-25T23:46:20+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }

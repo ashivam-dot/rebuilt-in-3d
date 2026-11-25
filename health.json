@@ -1,12 +1,14 @@
 {
- "at": "2026-11-25T23:13:26+00:00",
+ "at": "2026-11-25T23:41:57+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 129 units today",
-  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 860 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-egypt-disaster",
-  "wait wp-2026_Giza_fuel_tanker_explosion: gate: the article is under 6 hours old; facts may still move (ready in 3.7 h)",
-  "skip wk-Q64610: gate: no draft passed the fact checks: beat 4 uses the banned word 'nude': say it plainly without that word",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 130 units today",
+  "watch: 4 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 862 headlines from 30 feeds (21 owners), 40 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-cairo-disaster",
+  "skip nw-20261125-cairo-disaster: gate: faceless: no free photo shows Cairo or the event itself (only 1 photos of places or things near it)",
+  "skip nw-20261125-cairo-disaster: gate: faceless: no free photo shows Cairo or the event itself (only 1 photos of places or things near it)",
+  "wait wp-2026_Giza_fuel_tanker_explosion: gate: the article is under 6 hours old; facts may still move (ready in 3.2 h)",
+  "skip wk-Q64610: gate: no draft passed the fact checks: line 2 (She grew up in East Prussia and attended 13 schools after he): partly: The script implies she attended 13 schools *after* her father was executed, but the source states she attended them 'as a young girl' and her father was executed when she was five; it does not specify the chronological se | second look: The source sentences do not state that she attended the 13 schools *after* her fathe",
   "nothing eligible to publish"
  ]
 }
