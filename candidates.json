@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T21:12:10+00:00",
+ "at": "2026-11-25T21:42:47+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "news_at": "2026-11-25T21:42:47.914763+00:00",
    "headlines": [
     "Bangladesh garment workers win 36% minimum wage rise after protests",
     "Bangladesh raises minimum wage for garment workers after weeks of protests"
@@ -145,6 +145,81 @@
    "article": null
   },
   {
+   "id": "nw-20261125-egypt-disaster",
+   "qid": null,
+   "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T21:25:14+00:00",
+   "owners": [
+    "Independent Digital News",
+    "SCMP Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+    "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+    "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T21:25:14+00:00"
+    },
+    {
+     "title": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T19:41:27+00:00"
+    },
+    {
+     "title": "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+     "url": "https://www.independent.co.uk/news/world/africa/egypt-fire-vehicle-flip-deaths-b3091723.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T18:45:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:SCMP Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q7816304",
    "title": "Tom Jackson (American football, born 1951)",
    "fame": 64851,
@@ -171,7 +246,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "news_at": "2026-11-25T21:42:47.914763+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -193,7 +268,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "news_at": "2026-11-25T21:42:47.914763+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -387,13 +462,163 @@
  "hazards": [],
  "candidates": [
   {
+   "id": "nw-20261125-egypt-disaster",
+   "qid": null,
+   "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T21:25:14+00:00",
+   "owners": [
+    "Independent Digital News",
+    "SCMP Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+    "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+    "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T21:25:14+00:00"
+    },
+    {
+     "title": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T19:41:27+00:00"
+    },
+    {
+     "title": "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+     "url": "https://www.independent.co.uk/news/world/africa/egypt-fire-vehicle-flip-deaths-b3091723.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T18:45:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:SCMP Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261125-egypt-disaster",
+   "qid": null,
+   "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T21:25:14+00:00",
+   "owners": [
+    "Independent Digital News",
+    "SCMP Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+    "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+    "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T21:25:14+00:00"
+    },
+    {
+     "title": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T19:41:27+00:00"
+    },
+    {
+     "title": "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+     "url": "https://www.independent.co.uk/news/world/africa/egypt-fire-vehicle-flip-deaths-b3091723.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T18:45:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:SCMP Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": null,
    "title": "2026 Giza fuel tanker explosion",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "news_at": "2026-11-25T21:42:47.914763+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -415,7 +640,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "news_at": "2026-11-25T21:42:47.914763+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -435,11 +660,11 @@
   }
  ],
  "outlets": {
-  "headlines": 876,
+  "headlines": 873,
   "feeds": 30,
   "owners": 21,
-  "matched": 43,
-  "corroborated": 2
+  "matched": 41,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -529,7 +754,82 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261125-egypt-disaster",
+   "qid": null,
+   "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+   "name": "Egypt",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T21:25:14+00:00",
+   "owners": [
+    "Independent Digital News",
+    "SCMP Group",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+    "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+    "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway"
+   ],
+   "places": [
+    "Cairo"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T21:25:14+00:00"
+    },
+    {
+     "title": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T19:41:27+00:00"
+    },
+    {
+     "title": "At least 30 dead in Egypt blaze after vehicle carrying petrol products flips",
+     "url": "https://www.independent.co.uk/news/world/africa/egypt-fire-vehicle-flip-deaths-b3091723.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T18:45:26+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Independent Digital News",
+    "outlet:SCMP Group",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 876 headlines from 30 feeds (21 owners), 43 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
+ "outlet_note": "outlets: 873 headlines from 30 feeds (21 owners), 41 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-egypt-disaster"
 }
