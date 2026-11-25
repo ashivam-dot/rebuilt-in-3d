@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T19:16:29+00:00",
+ "at": "2026-11-25T19:41:22+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-25T19:16:29.021589+00:00",
+   "news_at": "2026-11-25T19:41:22.420989+00:00",
    "headlines": [
     "Army detonates stockpile of lead azide in Iowa",
     "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
@@ -63,27 +63,23 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-25T19:16:29.021589+00:00",
+   "news": 25000,
+   "news_at": "2026-11-25T19:41:22.420989+00:00",
    "headlines": [
-    "Bangladesh garment workers win 36% minimum wage rise after protests",
-    "Bangladesh raises minimum wage for garment workers after weeks of protests"
+    "Bangladesh garment workers win 36% minimum wage rise after protests"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-24",
     "wikipedia-current-events-2026-11-25",
     "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)"
+    "outlet:SCMP Group"
    ],
    "owners": [
-    "SCMP Group",
-    "Disney (ABC News)"
+    "SCMP Group"
    ],
    "reports": [
     {
@@ -95,16 +91,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T12:11:56+00:00"
-    },
-    {
-     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T08:26:30+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w48",
@@ -122,25 +108,25 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T17:39:52+00:00",
+   "news_at": "2026-11-25T19:26:44+00:00",
    "owners": [
-    "BBC",
     "NBCUniversal",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "BBC"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Two children among six dead after plane crash off Mississippi coast",
     "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
     "6 killed in plane crash off Mississippi coast, officials say",
-    "Small plane crash off Mississippi kills 6, including 2 children"
+    "Small plane crash off Mississippi kills 6, including 2 children",
+    "Two children among six dead after plane crash off Mississippi coast"
    ],
    "places": [
-    "off",
-    "coast",
+    "Off",
+    "Coast",
     "All"
    ],
    "attackers": [],
@@ -161,7 +147,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-25T07:08:22+00:00"
+     "at": "2026-11-25T19:26:44+00:00"
     },
     {
      "title": "Small plane crash off Mississippi kills 6, including 2 children",
@@ -195,9 +181,9 @@
     }
    ],
    "via": [
-    "outlet:BBC",
     "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -318,78 +304,6 @@
    "date": "2026-11-23"
   },
   {
-   "qid": "Q18324601",
-   "title": "Martha Firestone Ford",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T16:15:26+00:00",
-   "headlines": [
-    "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
-     "url": "https://www.independent.co.uk/news/world/americas/martha-firestone-ford-dead-detroit-lions-tire-heiress-b3091610.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T16:15:26+00:00"
-    }
-   ],
-   "id": "wk-Q18324601",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
-  },
-  {
-   "qid": "Q7171945",
-   "title": "Pete Edochie",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T12:24:12+00:00",
-   "headlines": [
-    "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-     "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T12:24:12+00:00"
-    }
-   ],
-   "id": "wk-Q7171945",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
-  },
-  {
    "qid": "Q1089525",
    "title": "A. Samad Said",
    "fame": 14915,
@@ -468,26 +382,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-20"
-  },
-  {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:veruschka"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q64610",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
   }
  ],
  "hazards": [],
@@ -499,7 +393,7 @@
    "views": 0,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-25T19:16:29.021589+00:00",
+   "news_at": "2026-11-25T19:41:22.420989+00:00",
    "headlines": [
     "Army detonates stockpile of lead azide in Iowa",
     "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
@@ -549,34 +443,14 @@
     -91.244722
    ],
    "has_coords": true
-  },
-  {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-US:veruschka"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q64610",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
   }
  ],
  "outlets": {
-  "headlines": 873,
+  "headlines": 872,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
-  "corroborated": 4
+  "matched": 27,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -587,25 +461,25 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T17:39:52+00:00",
+   "news_at": "2026-11-25T19:26:44+00:00",
    "owners": [
-    "BBC",
     "NBCUniversal",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "BBC"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Two children among six dead after plane crash off Mississippi coast",
     "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
     "6 killed in plane crash off Mississippi coast, officials say",
-    "Small plane crash off Mississippi kills 6, including 2 children"
+    "Small plane crash off Mississippi kills 6, including 2 children",
+    "Two children among six dead after plane crash off Mississippi coast"
    ],
    "places": [
-    "off",
-    "coast",
+    "Off",
+    "Coast",
     "All"
    ],
    "attackers": [],
@@ -626,7 +500,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-25T07:08:22+00:00"
+     "at": "2026-11-25T19:26:44+00:00"
     },
     {
      "title": "Small plane crash off Mississippi kills 6, including 2 children",
@@ -660,9 +534,9 @@
     }
    ],
    "via": [
-    "outlet:BBC",
     "outlet:NBCUniversal",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
@@ -743,5 +617,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 873 headlines from 30 feeds (21 owners), 20 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
+ "outlet_note": "outlets: 872 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
 }
