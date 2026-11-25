@@ -1,10 +1,11 @@
 {
- "at": "2026-11-25T19:41:21+00:00",
+ "at": "2026-11-25T20:11:07+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 71 units today",
-  "watch: 1 candidates (0 quakes, 10 trending), 0 hazard alerts",
-  "outlets: 872 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood",
-  "hold wk-Q142278417: a scheduled Short goes out in 0.7 h"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 72 units today",
+  "watch: 1 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 813 headlines from 29 feeds (20 owners), 35 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood",
+  "trend radar errors: [\"outlet thehindu: ReadTimeout: HTTPSConnectionPool(host='www.thehindu.com', port=443): Read timed out. (read timeout=30)\"]",
+  "hold wk-Q142278417: a scheduled Short goes out in 0.3 h"
  ]
 }
