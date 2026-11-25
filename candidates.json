@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T01:51:45+00:00",
+ "at": "2026-11-25T02:26:02+00:00",
  "quakes": [],
  "trending": [
   {
@@ -84,20 +84,22 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-24",
-   "news_at": "2026-11-25T00:49:35+00:00",
+   "news_at": "2026-11-25T01:56:28+00:00",
    "owners": [
     "France Médias Monde",
     "NDTV",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "SCMP Group"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
     "Gunmen Take 25 Hostage At Colombia Supermarket",
-    "Gunmen hold dozens hostage in Colombia supermarket"
+    "Gunmen hold dozens hostage in Colombia supermarket",
+    "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
    ],
    "places": [
     "Cartagena",
@@ -125,6 +127,16 @@
      "at": "2026-11-24T17:35:48+00:00"
     },
     {
+     "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
+     "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T01:56:28+00:00"
+    },
+    {
      "title": "Gunmen hold dozens hostage in Colombia supermarket",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -148,7 +160,8 @@
    "via": [
     "outlet:France Médias Monde",
     "outlet:NDTV",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
    "article": null
@@ -314,11 +327,18 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 843,
+  "headlines": 842,
   "feeds": 30,
   "owners": 21,
-  "matched": 49,
+  "matched": 39,
   "corroborated": 2
  },
  "emerging": [
@@ -330,20 +350,22 @@
    "kind": "incident",
    "category": "attack",
    "date": "2026-11-24",
-   "news_at": "2026-11-25T00:49:35+00:00",
+   "news_at": "2026-11-25T01:56:28+00:00",
    "owners": [
     "France Médias Monde",
     "NDTV",
-    "Al Jazeera Media Network"
+    "Al Jazeera Media Network",
+    "SCMP Group"
    ],
-   "fame": 75000,
-   "news": 75000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
     "Gunmen Take 25 Hostage At Colombia Supermarket",
-    "Gunmen hold dozens hostage in Colombia supermarket"
+    "Gunmen hold dozens hostage in Colombia supermarket",
+    "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
    ],
    "places": [
     "Cartagena",
@@ -371,6 +393,16 @@
      "at": "2026-11-24T17:35:48+00:00"
     },
     {
+     "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
+     "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T01:56:28+00:00"
+    },
+    {
      "title": "Gunmen hold dozens hostage in Colombia supermarket",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
      "outlet": "Al Jazeera",
@@ -394,7 +426,8 @@
    "via": [
     "outlet:France Médias Monde",
     "outlet:NDTV",
-    "outlet:Al Jazeera Media Network"
+    "outlet:Al Jazeera Media Network",
+    "outlet:SCMP Group"
    ],
    "emerging": true,
    "article": null
@@ -476,5 +509,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 843 headlines from 30 feeds (21 owners), 49 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
+ "outlet_note": "outlets: 842 headlines from 30 feeds (21 owners), 39 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
 }
