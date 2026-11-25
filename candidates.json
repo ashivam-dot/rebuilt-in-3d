@@ -1,45 +1,27 @@
 {
- "at": "2026-11-25T06:25:40+00:00",
+ "at": "2026-11-25T06:55:51+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q7816304",
-   "title": "Tom Jackson (American football, born 1951)",
-   "fame": 128174,
-   "views": 128174,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7816304",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-20"
-  },
-  {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
-   "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+   "title": "Six dead after small plane crashes off Mississippi coast",
    "name": "Mississippi",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T05:30:21+00:00",
+   "news_at": "2026-11-25T06:47:45+00:00",
    "owners": [
     "Fox Corporation",
     "NBCUniversal",
     "Guardian Media Group",
     "Bennett, Coleman & Co.",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Paramount (CBS)",
+    "ABC (Australia)"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -65,6 +47,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Six dead after small plane crashes off Mississippi coast",
+     "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T06:47:45+00:00"
+    },
+    {
      "title": "Rescue crews search for six people after plane crash off Mississippi coast",
      "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
      "outlet": "The Guardian",
@@ -73,6 +65,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T02:17:25+00:00"
+    },
+    {
+     "title": "Small plane crash off Mississippi kills 6, including 2 children",
+     "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T06:45:39+00:00"
     },
     {
      "title": "6 dead after plane crashes off Mississippi coast: US Coast Guard",
@@ -120,45 +122,28 @@
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "qid": "Q6896637",
-   "title": "Molly Meldrum",
-   "fame": 112186,
-   "views": 112186,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-23"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q6896637",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 75000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-25T06:01:56+00:00",
+   "news_at": "2026-11-25T06:55:51.478036+00:00",
    "headlines": [
     "Bangladesh raises minimum wage for garment workers after weeks of protests"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-24",
+    "wikipedia-current-events-2026-11-25",
     "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
     "outlet:Disney (ABC News)"
    ],
@@ -174,7 +159,7 @@
      "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T06:01:56+00:00"
+     "at": "2026-11-25T06:47:26+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w48",
@@ -185,79 +170,24 @@
    "has_coords": false
   },
   {
-   "id": "nw-20261124-colombia-attack",
-   "qid": null,
-   "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-   "name": "Colombia",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-24",
-   "news_at": "2026-11-25T01:56:28+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
+   "qid": "Q7816304",
+   "title": "Tom Jackson (American football, born 1951)",
+   "fame": 64851,
+   "views": 64851,
    "traffic": 0,
-   "headlines": [
-    "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-    "Gunmen hold dozens hostage in Colombia supermarket",
-    "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
-   ],
-   "places": [
-    "Cartagena"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T17:35:48+00:00"
-    },
-    {
-     "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
-     "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T01:56:28+00:00"
-    },
-    {
-     "title": "Gunmen hold dozens hostage in Colombia supermarket",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T00:49:35+00:00"
-    }
-   ],
    "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:SCMP Group"
+    "wikipedia-top-2026-11-24"
    ],
-   "emerging": true,
-   "article": null
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7816304",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-20"
   },
   {
    "qid": "Q142261451",
@@ -312,57 +242,97 @@
    "has_coords": false
   },
   {
-   "qid": "Q7175059",
-   "title": "PJ Simon",
-   "fame": 10444,
-   "views": 10444,
+   "qid": "Q6896637",
+   "title": "Molly Meldrum",
+   "fame": 34033,
+   "views": 34033,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-23"
+    "wikipedia-top-2026-11-24"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q7175059",
+   "id": "wk-Q6896637",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-20"
+   "date": "2026-11-23"
   },
   {
-   "qid": "Q20090363",
-   "title": "Paolo Bulgari",
-   "fame": 9151,
-   "views": 9151,
+   "qid": "Q1089525",
+   "title": "A. Samad Said",
+   "fame": 14915,
+   "views": 14915,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-23"
+    "wikipedia-top-2026-11-24"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q20090363",
+   "id": "wk-Q1089525",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-21"
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q1752082",
+   "title": "Lutz van Dijk",
+   "fame": 9864,
+   "views": 9864,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1752082",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
+  },
+  {
+   "qid": "Q6662726",
+   "title": "Lloyd Scott",
+   "fame": 8609,
+   "views": 8609,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6662726",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-16"
   },
   {
    "qid": "Q540935",
    "title": "Phumzile Mlambo-Ngcuka",
-   "fame": 8488,
-   "views": 8488,
+   "fame": 8439,
+   "views": 8439,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-23"
+    "wikipedia-top-2026-11-24"
    ],
    "owners": [],
    "reports": [],
@@ -425,34 +395,76 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q1089525",
+   "title": "A. Samad Said",
+   "fame": 14915,
+   "views": 14915,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1089525",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q1752082",
+   "title": "Lutz van Dijk",
+   "fame": 9864,
+   "views": 9864,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-24"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1752082",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-17"
   }
  ],
  "outlets": {
-  "headlines": 836,
+  "headlines": 834,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
-  "corroborated": 3
+  "matched": 25,
+  "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
-   "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+   "title": "Six dead after small plane crashes off Mississippi coast",
    "name": "Mississippi",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T05:30:21+00:00",
+   "news_at": "2026-11-25T06:47:45+00:00",
    "owners": [
     "Fox Corporation",
     "NBCUniversal",
     "Guardian Media Group",
     "Bennett, Coleman & Co.",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Paramount (CBS)",
+    "ABC (Australia)"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 150000,
+   "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
@@ -478,6 +490,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Six dead after small plane crashes off Mississippi coast",
+     "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T06:47:45+00:00"
+    },
+    {
      "title": "Rescue crews search for six people after plane crash off Mississippi coast",
      "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
      "outlet": "The Guardian",
@@ -486,6 +508,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T02:17:25+00:00"
+    },
+    {
+     "title": "Small plane crash off Mississippi kills 6, including 2 children",
+     "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T06:45:39+00:00"
     },
     {
      "title": "6 dead after plane crashes off Mississippi coast: US Coast Guard",
@@ -533,86 +565,13 @@
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co.",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261124-colombia-attack",
-   "qid": null,
-   "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-   "name": "Colombia",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-24",
-   "news_at": "2026-11-25T01:56:28+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "SCMP Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-    "Gunmen hold dozens hostage in Colombia supermarket",
-    "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
-   ],
-   "places": [
-    "Cartagena"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
-     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T17:35:48+00:00"
-    },
-    {
-     "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
-     "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T01:56:28+00:00"
-    },
-    {
-     "title": "Gunmen hold dozens hostage in Colombia supermarket",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T00:49:35+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:SCMP Group"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)",
+    "outlet:ABC (Australia)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261124-colombia-attack"
+ "outlet_note": "outlets: 834 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
 }
