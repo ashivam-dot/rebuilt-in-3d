@@ -1,6 +1,6 @@
 # What this channel's own numbers say
 
-Updated 2026-11-25T09:24:39+00:00. Scored Shorts (views at 24 h): 82. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
+Updated 2026-11-25T13:03:28+00:00. Scored Shorts (views at 24 h): 82. A lift needs 4 scored Shorts in a group; it is shrunk toward 1 and kept within 0.75-1.35 (0.5-2.0 from 20 Shorts, 0.6-1.7 from 10 Shorts).
 
 Baseline: a typical Short has 251 views at 24 h.
 Retention: a typical Short is watched 55.2% through; a group's retention is blended into its lift at 0.5.
@@ -14,12 +14,13 @@ Retention: a typical Short is watched 55.2% through; a group's retention is blen
 
 | Short | published | kind | category | views now | views at 24 h |
 |---|---|---|---|---|---|
+| wk-Q1089525 | 2026-11-25T09:55 | death | death | 137 |  |
 | wk-Q2770339 | 2026-11-24T20:30 | death | death | 31 |  |
-| wk-Q6896637 | 2026-11-23T00:51 | death | death | 1112 | 1102 |
-| wk-Q5534376 | 2026-11-22T20:30 | death | death | 1423 | 1244 |
+| wk-Q6896637 | 2026-11-23T00:51 | death | death | 1114 | 1102 |
+| wk-Q5534376 | 2026-11-22T20:30 | death | death | 1438 | 1244 |
 | wk-Q701501 | 2026-11-21T20:30 | death | death | 1031 | 962 |
 | wk-Q303883 | 2026-11-20T20:30 | death | death | 949 | 510 |
-| wk-Q1130103 | 2026-11-19T20:30 | death | death | 623 | 397 |
+| wk-Q1130103 | 2026-11-19T20:30 | death | death | 624 | 397 |
 | wk-Q7489916 | 2026-11-19T08:00 | death | death | 952 | 925 |
 | wk-Q3138557 | 2026-11-17T21:27 | death | death | 1064 | 753 |
 | wk-Q2266089 | 2026-11-17T14:37 | death | death | 1236 | 1006 |
@@ -41,6 +42,5 @@ Retention: a typical Short is watched 55.2% through; a group's retention is blen
 | wk-Q1718539 | 2026-11-04T15:14 | death | death | 509 | 436 |
 | nw-20261102-murasu-cyclone | 2026-11-03T11:40 | incident | cyclone | 391 | 354 |
 | wk-Q141790807-2026w45 | 2026-11-02T01:00 | incident | protest | 58 | 24 |
-| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2853 | 2177 |
+| wk-Q2913482 | 2026-11-01T11:27 | death | death | 2855 | 2177 |
 | wk-Q16296 | 2026-10-29T23:32 | death | death | 1103 | 1072 |
-| wk-Q453730 | 2026-10-29T14:30 | death | death | 668 | 535 |

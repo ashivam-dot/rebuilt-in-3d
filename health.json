@@ -1,15 +1,22 @@
 {
- "at": "2026-11-25T12:10:09+00:00",
+ "at": "2026-11-25T13:03:27+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 58 units today",
-  "watch: 4 candidates (0 quakes, 10 trending), 0 hazard alerts",
-  "outlets: 851 headlines from 30 feeds (21 owners), 29 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-trapped-flood",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q142261451",
+  "learn: 82 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.0}, 'kind:death': {'n': 45, 'lift': 1.24, 'typical_views_24h': 422, 'n_retention': 43, 'typical_view_pct': 52.4}, 'kind:incident': {'n': 29, 'lift': 0.862, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 57.9}, 'category:death': {'n': 44, 'lift': 1",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 59 units today",
+  "watch: 4 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 851 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-trapped-flood",
   "skip nw-20261125-trapped-flood: gate: fewer than 2 independent outlets' articles about trapped could be read",
   "skip nw-20261125-trapped-flood: gate: fewer than 2 independent outlets' articles about trapped could be read",
-  "skip wk-Q142261451: gate: only 1 usable photos of Benghazi attacks 2026 on Wikimedia Commons (want 4)",
-  "skip wk-Q1752082: voice: beat 6 came out garbled (77% of words heard)",
-  "nothing eligible to publish"
- ]
+  "skip wk-Q7171945: gate: no photo on Wikimedia Commons shows Pete Edochie's face (a tribute needs one)",
+  "published wk-Q1752082: https://www.youtube.com/shorts/uGZpsYRZ-YE"
+ ],
+ "published": {
+  "video_id": "uGZpsYRZ-YE",
+  "url": "https://www.youtube.com/shorts/uGZpsYRZ-YE",
+  "title": "Lutz Dijk, Human Rights Activist and Author, Dies at 71",
+  "privacy": "scheduled",
+  "publish_at": "2026-11-25T20:30:00Z",
+  "synthetic_declared": true
+ }
 }
