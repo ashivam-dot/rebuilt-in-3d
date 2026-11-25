@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T11:10:33+00:00",
+ "at": "2026-11-25T11:40:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-25T11:10:33.652285+00:00",
+   "news_at": "2026-11-25T11:40:53.691002+00:00",
    "headlines": [
     "Bangladesh raises minimum wage for garment workers after weeks of protests",
     "Bangladesh garment workers win 36% pay rise after weeks of protest"
@@ -55,6 +55,28 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q23833910",
+   "title": "Steven Hack",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-25T07:29:00+00:00",
+   "headlines": [
+    "Seinfeld star Steven Hack dies aged 68 after an ‘unexpected medical emergency’"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Seinfeld star Steven Hack dies aged 68 after an ‘unexpected medical emergency’"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q23833910",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-19"
   },
   {
    "id": "nw-20261125-mississippi-aviation",
@@ -162,25 +184,37 @@
    "views": 0,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-25T10:43:00+00:00",
+   "news_at": "2026-11-25T11:38:52+00:00",
    "headlines": [
-    "2 Libyan naval officers die of wounds from Ukrainian drone attack on Russian warship in Benghazi",
+    "Two Libyans die from Ukrainian attack on Russian ships in Benghazi",
     "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
     "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi"
    ],
    "region": "world",
    "via": [
-    "google-news:2 Libyan naval officers die of wounds from Ukrainian drone attack on Russian warship in Benghazi",
+    "google-news:Two Libyans die from Ukrainian attack on Russian ships in Benghazi",
     "google-news:Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
     "google-news:Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
+    "outlet:ABC (Australia)",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde"
    ],
    "owners": [
+    "ABC (Australia)",
     "Deutsche Welle",
     "France Médias Monde"
    ],
    "reports": [
+    {
+     "title": "Two Libyans die from Ukrainian attack on Russian ships in Benghazi",
+     "url": "https://www.abc.net.au/news/2026-11-25/ukraine-defends-attack-on-russian-ships-in-libya/107427720",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T11:38:52+00:00"
+    },
     {
      "title": "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
      "url": "https://www.dw.com/en/libya-2-dead-after-ukrainian-attack-on-russian-warship-in-benghazi/a-80042348?maca=en-rss-en-all-1573-rdf",
@@ -208,6 +242,83 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "id": "nw-20261125-trapped-flood",
+   "qid": null,
+   "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+   "name": "trapped",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T11:06:14+00:00",
+   "owners": [
+    "NDTV",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+    "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+    "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia"
+   ],
+   "places": [
+    "Illegal",
+    "Gold",
+    "Mine"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T10:59:19+00:00"
+    },
+    {
+     "title": "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia",
+     "url": "https://abcnews.com/International/wireStory/29-miners-believed-trapped-flooding-unauthorized-gold-mine-138433064",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T11:06:14+00:00"
+    },
+    {
+     "title": "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+     "url": "https://www.ndtv.com/world-news/3-dead-23-trapped-after-illegal-gold-mine-floods-in-indonesia-12375291#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-25T10:56:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q7816304",
@@ -369,31 +480,197 @@
  "hazards": [],
  "candidates": [
   {
+   "id": "nw-20261125-trapped-flood",
+   "qid": null,
+   "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+   "name": "trapped",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T11:06:14+00:00",
+   "owners": [
+    "NDTV",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+    "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+    "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia"
+   ],
+   "places": [
+    "Illegal",
+    "Gold",
+    "Mine"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T10:59:19+00:00"
+    },
+    {
+     "title": "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia",
+     "url": "https://abcnews.com/International/wireStory/29-miners-believed-trapped-flooding-unauthorized-gold-mine-138433064",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T11:06:14+00:00"
+    },
+    {
+     "title": "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+     "url": "https://www.ndtv.com/world-news/3-dead-23-trapped-after-illegal-gold-mine-floods-in-indonesia-12375291#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-25T10:56:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261125-trapped-flood",
+   "qid": null,
+   "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+   "name": "trapped",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T11:06:14+00:00",
+   "owners": [
+    "NDTV",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+    "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+    "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia"
+   ],
+   "places": [
+    "Illegal",
+    "Gold",
+    "Mine"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T10:59:19+00:00"
+    },
+    {
+     "title": "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia",
+     "url": "https://abcnews.com/International/wireStory/29-miners-believed-trapped-flooding-unauthorized-gold-mine-138433064",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T11:06:14+00:00"
+    },
+    {
+     "title": "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+     "url": "https://www.ndtv.com/world-news/3-dead-23-trapped-after-illegal-gold-mine-floods-in-indonesia-12375291#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-25T10:56:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q142261451",
    "title": "Benghazi attacks 2026",
    "fame": 75000,
    "views": 0,
    "traffic": 0,
    "news": 75000,
-   "news_at": "2026-11-25T10:43:00+00:00",
+   "news_at": "2026-11-25T11:38:52+00:00",
    "headlines": [
-    "2 Libyan naval officers die of wounds from Ukrainian drone attack on Russian warship in Benghazi",
+    "Two Libyans die from Ukrainian attack on Russian ships in Benghazi",
     "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
     "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi"
    ],
    "region": "world",
    "via": [
-    "google-news:2 Libyan naval officers die of wounds from Ukrainian drone attack on Russian warship in Benghazi",
+    "google-news:Two Libyans die from Ukrainian attack on Russian ships in Benghazi",
     "google-news:Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
     "google-news:Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
+    "outlet:ABC (Australia)",
     "outlet:Deutsche Welle",
     "outlet:France Médias Monde"
    ],
    "owners": [
+    "ABC (Australia)",
     "Deutsche Welle",
     "France Médias Monde"
    ],
    "reports": [
+    {
+     "title": "Two Libyans die from Ukrainian attack on Russian ships in Benghazi",
+     "url": "https://www.abc.net.au/news/2026-11-25/ukraine-defends-attack-on-russian-ships-in-libya/107427720",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T11:38:52+00:00"
+    },
     {
      "title": "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
      "url": "https://www.dw.com/en/libya-2-dead-after-ukrainian-attack-on-russian-warship-in-benghazi/a-80042348?maca=en-rss-en-all-1573-rdf",
@@ -423,6 +700,28 @@
    "has_coords": false
   },
   {
+   "qid": "Q23833910",
+   "title": "Steven Hack",
+   "fame": 125000,
+   "views": 0,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-25T07:29:00+00:00",
+   "headlines": [
+    "Seinfeld star Steven Hack dies aged 68 after an ‘unexpected medical emergency’"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Seinfeld star Steven Hack dies aged 68 after an ‘unexpected medical emergency’"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q23833910",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-19"
+  },
+  {
    "qid": "Q1752082",
    "title": "Lutz van Dijk",
    "fame": 9864,
@@ -443,15 +742,12 @@
    "date": "2026-11-17"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 147 people)"
- ],
  "outlets": {
-  "headlines": 842,
+  "headlines": 847,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
-  "corroborated": 3
+  "matched": 33,
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -552,7 +848,84 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261125-trapped-flood",
+   "qid": null,
+   "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+   "name": "trapped",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T11:06:14+00:00",
+   "owners": [
+    "NDTV",
+    "SCMP Group",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+    "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+    "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia"
+   ],
+   "places": [
+    "Illegal",
+    "Gold",
+    "Mine"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
+     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T10:59:19+00:00"
+    },
+    {
+     "title": "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia",
+     "url": "https://abcnews.com/International/wireStory/29-miners-believed-trapped-flooding-unauthorized-gold-mine-138433064",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T11:06:14+00:00"
+    },
+    {
+     "title": "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
+     "url": "https://www.ndtv.com/world-news/3-dead-23-trapped-after-illegal-gold-mine-floods-in-indonesia-12375291#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-25T10:56:40+00:00"
+    }
+   ],
+   "via": [
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 842 headlines from 30 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
+ "outlet_note": "outlets: 847 headlines from 30 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-trapped-flood"
 }
