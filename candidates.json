@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T20:43:31+00:00",
+ "at": "2026-11-25T21:12:10+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,7 +9,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-25T20:43:31.423012+00:00",
+   "news_at": "2026-11-25T21:12:10.436080+00:00",
    "headlines": [
     "Bangladesh garment workers win 36% minimum wage rise after protests",
     "Bangladesh raises minimum wage for garment workers after weeks of protests"
@@ -145,81 +145,6 @@
    "article": null
   },
   {
-   "id": "nw-20261125-california-flood",
-   "qid": null,
-   "title": "California braces for flooding threat from huge tides, El Nino",
-   "name": "California",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T17:20:26+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Paramount (CBS)",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "California braces for flooding threat from huge tides, El Nino",
-    "Massive waves and high tides swallow beaches, flood roads in Northern California",
-    "Record-breaking California tides cause major flooding of roads and businesses"
-   ],
-   "places": [
-    "Nino"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "California braces for flooding threat from huge tides, El Nino",
-     "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T14:07:37+00:00"
-    },
-    {
-     "title": "Record-breaking California tides cause major flooding of roads and businesses",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T17:20:26+00:00"
-    },
-    {
-     "title": "Massive waves and high tides swallow beaches, flood roads in Northern California",
-     "url": "https://www.cbsnews.com/video/massive-waves-and-high-tides-swallow-beaches-flood-roads-in-northern-california/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:15:45+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q7816304",
    "title": "Tom Jackson (American football, born 1951)",
    "fame": 64851,
@@ -240,13 +165,35 @@
    "date": "2026-11-20"
   },
   {
+   "qid": null,
+   "title": "2026 Giza fuel tanker explosion",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Giza_fuel_tanker_explosion",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-25T20:43:31.423012+00:00",
+   "news_at": "2026-11-25T21:12:10.436080+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -440,13 +387,35 @@
  "hazards": [],
  "candidates": [
   {
+   "qid": null,
+   "title": "2026 Giza fuel tanker explosion",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-25T21:12:10.436080+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wp-2026_Giza_fuel_tanker_explosion",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
    "fame": 50000,
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-25T20:43:31.423012+00:00",
+   "news_at": "2026-11-25T21:12:10.436080+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -466,11 +435,11 @@
   }
  ],
  "outlets": {
-  "headlines": 873,
+  "headlines": 876,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
-  "corroborated": 3
+  "matched": 43,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -560,82 +529,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261125-california-flood",
-   "qid": null,
-   "title": "California braces for flooding threat from huge tides, El Nino",
-   "name": "California",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T17:20:26+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Paramount (CBS)",
-    "Guardian Media Group"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "California braces for flooding threat from huge tides, El Nino",
-    "Massive waves and high tides swallow beaches, flood roads in Northern California",
-    "Record-breaking California tides cause major flooding of roads and businesses"
-   ],
-   "places": [
-    "Nino"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "California braces for flooding threat from huge tides, El Nino",
-     "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T14:07:37+00:00"
-    },
-    {
-     "title": "Record-breaking California tides cause major flooding of roads and businesses",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T17:20:26+00:00"
-    },
-    {
-     "title": "Massive waves and high tides swallow beaches, flood roads in Northern California",
-     "url": "https://www.cbsnews.com/video/massive-waves-and-high-tides-swallow-beaches-flood-roads-in-northern-california/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:15:45+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 873 headlines from 30 feeds (21 owners), 33 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
+ "outlet_note": "outlets: 876 headlines from 30 feeds (21 owners), 43 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
 }
