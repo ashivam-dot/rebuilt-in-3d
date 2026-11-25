@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T01:23:34+00:00",
+ "at": "2026-11-25T01:51:45+00:00",
  "quakes": [],
  "trending": [
   {
@@ -77,85 +77,9 @@
    "date": "2026-11-23"
   },
   {
-   "id": "nw-20261124-city-strike",
-   "qid": null,
-   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-   "name": "City",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-24",
-   "news_at": "2026-11-24T18:20:00+00:00",
-   "owners": [
-    "SCMP Group",
-    "BBC",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Hamas security chief killed in Israeli air strike on Gaza City",
-    "Israeli air strike kills Hamas internal security chief in Gaza",
-    "Senior Hamas security official killed in Israeli drone strikes"
-   ],
-   "places": [],
-   "attackers": [
-    "Hamas",
-    "Israeli"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T15:35:53+00:00"
-    },
-    {
-     "title": "Senior Hamas security official killed in Israeli drone strikes",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T18:20:00+00:00"
-    },
-    {
-     "title": "Hamas security chief killed in Israeli air strike on Gaza City",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T13:28:18+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261124-colombia-attack",
    "qid": null,
-   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+   "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
    "name": "Colombia",
    "kind": "incident",
    "category": "attack",
@@ -171,7 +95,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+    "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
     "Gunmen Take 25 Hostage At Colombia Supermarket",
     "Gunmen hold dozens hostage in Colombia supermarket"
    ],
@@ -191,7 +115,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+     "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
      "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
@@ -389,257 +313,19 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261124-colombia-attack",
-   "qid": null,
-   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
-   "name": "Colombia",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-24",
-   "news_at": "2026-11-25T00:49:35+00:00",
-   "owners": [
-    "France Médias Monde",
-    "NDTV",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
-    "Gunmen Take 25 Hostage At Colombia Supermarket",
-    "Gunmen hold dozens hostage in Colombia supermarket"
-   ],
-   "places": [
-    "Cartagena",
-    "Take",
-    "hostage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
-     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T17:35:48+00:00"
-    },
-    {
-     "title": "Gunmen hold dozens hostage in Colombia supermarket",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T00:49:35+00:00"
-    },
-    {
-     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
-     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-24T22:59:47+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:NDTV",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261124-colombia-attack",
-   "qid": null,
-   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
-   "name": "Colombia",
-   "kind": "incident",
-   "category": "attack",
-   "date": "2026-11-24",
-   "news_at": "2026-11-25T00:49:35+00:00",
-   "owners": [
-    "France Médias Monde",
-    "NDTV",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
-    "Gunmen Take 25 Hostage At Colombia Supermarket",
-    "Gunmen hold dozens hostage in Colombia supermarket"
-   ],
-   "places": [
-    "Cartagena",
-    "Take",
-    "hostage"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
-     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T17:35:48+00:00"
-    },
-    {
-     "title": "Gunmen hold dozens hostage in Colombia supermarket",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T00:49:35+00:00"
-    },
-    {
-     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
-     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-24T22:59:47+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:NDTV",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 844,
+  "headlines": 843,
   "feeds": 30,
   "owners": 21,
-  "matched": 44,
-  "corroborated": 3
+  "matched": 49,
+  "corroborated": 2
  },
  "emerging": [
   {
-   "id": "nw-20261124-city-strike",
-   "qid": null,
-   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-   "name": "City",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-24",
-   "news_at": "2026-11-24T18:20:00+00:00",
-   "owners": [
-    "SCMP Group",
-    "BBC",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Hamas security chief killed in Israeli air strike on Gaza City",
-    "Israeli air strike kills Hamas internal security chief in Gaza",
-    "Senior Hamas security official killed in Israeli drone strikes"
-   ],
-   "places": [],
-   "attackers": [
-    "Hamas",
-    "Israeli"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-24T15:35:53+00:00"
-    },
-    {
-     "title": "Senior Hamas security official killed in Israeli drone strikes",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T18:20:00+00:00"
-    },
-    {
-     "title": "Hamas security chief killed in Israeli air strike on Gaza City",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T13:28:18+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:BBC",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261124-colombia-attack",
    "qid": null,
-   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+   "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
    "name": "Colombia",
    "kind": "incident",
    "category": "attack",
@@ -655,7 +341,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+    "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
     "Gunmen Take 25 Hostage At Colombia Supermarket",
     "Gunmen hold dozens hostage in Colombia supermarket"
    ],
@@ -675,7 +361,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+     "title": "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
      "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
      "outlet": "France 24",
      "outlet_hi": "फ़्रांस 24",
@@ -790,5 +476,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 844 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261124-city-strike, nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
+ "outlet_note": "outlets: 843 headlines from 30 feeds (21 owners), 49 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
 }
