@@ -1827,11 +1827,35 @@
   "kind": "incident"
  },
  "wk-Q142278417": {
-  "count": 1,
+  "count": 2,
   "reason": "gate: only 2 usable photos of Iowa lead azide detonation on Wikimedia Commons (want 4)",
-  "at": "2026-11-25T15:43:46+00:00",
+  "at": "2026-11-25T22:49:06+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q527834": {
+  "count": 1,
+  "reason": "gate: only 2 usable photos of Andy Taylor on Wikimedia Commons (want 4)",
+  "at": "2026-11-25T22:48:45+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
+ },
+ "nw-20261125-egypt-disaster": {
+  "count": 2,
+  "reason": "gate: faceless: no free photo shows Egypt or the event itself (only 0 photos of places or things near it)",
+  "at": "2026-11-25T22:48:55+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "wk-Q64610": {
+  "count": 1,
+  "reason": "gate: no draft passed the fact checks: line 3 (In 1961, she became the girl with the most covers on the wal): partly: The line implies she became the girl with the most covers in the city of New York, whereas the source specifies she was the girl with the most covers on the wall inside the Stewart M",
+  "at": "2026-11-25T23:02:01+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }
