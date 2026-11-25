@@ -1,28 +1,32 @@
 {
- "at": "2026-11-25T17:41:38+00:00",
+ "at": "2026-11-25T18:24:35+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
-   "fame": 200000,
+   "fame": 225000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-25T17:41:38.699818+00:00",
+   "news": 175000,
+   "news_at": "2026-11-25T18:24:35.662176+00:00",
    "headlines": [
-    "Army detonates stockpile of lead azide in Iowa",
-    "Army detonates toxic explosives at Iowa plant despite concerns"
+    "Army detonates cache of lead explosives, with toxic plume possible across Iowa",
+    "Army detonates toxic explosives at Iowa plant despite concerns",
+    "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-25",
-    "google-news:Army detonates stockpile of lead azide in Iowa",
+    "google-news:Army detonates cache of lead explosives, with toxic plume possible across Iowa",
     "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
-    "outlet:Paramount (CBS)"
+    "google-news:Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group"
    ],
    "owners": [
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Guardian Media Group"
    ],
    "reports": [
     {
@@ -33,7 +37,17 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T17:30:14+00:00"
+     "at": "2026-11-25T18:03:57+00:00"
+    },
+    {
+     "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T17:37:04+00:00"
     }
    ],
    "id": "wk-Q142278417",
@@ -49,39 +63,25 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 150000,
+   "fame": 125000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-25T17:41:38.699818+00:00",
+   "news": 25000,
+   "news_at": "2026-11-25T18:24:35.662176+00:00",
    "headlines": [
-    "Bangladesh garment workers protest over new wages",
     "Bangladesh garment workers win 36% minimum wage rise after protests"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-24",
     "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh garment workers protest over new wages",
     "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
-    "outlet:Al Jazeera Media Network",
     "outlet:SCMP Group"
    ],
    "owners": [
-    "Al Jazeera Media Network",
     "SCMP Group"
    ],
    "reports": [
-    {
-     "title": "Bangladesh garment workers protest over new wages",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/bangladesh-garment-workers-protest-over-new-wages?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T12:23:41+00:00"
-    },
     {
      "title": "Bangladesh garment workers win 36% minimum wage rise after protests",
      "url": "https://www.scmp.com/news/asia/south-asia/article/3375787/bangladesh-garment-workers-win-36-minimum-wage-rise-after-protests",
@@ -110,8 +110,8 @@
    "date": "2026-11-25",
    "news_at": "2026-11-25T17:39:52+00:00",
    "owners": [
-    "ABC (Australia)",
     "BBC",
+    "NBCUniversal",
     "Paramount (CBS)"
    ],
    "fame": 75000,
@@ -119,12 +119,16 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Six dead after small plane crashes off Mississippi coast",
     "Two children among six dead after plane crash off Mississippi coast",
+    "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
     "6 killed in plane crash off Mississippi coast, officials say",
     "Small plane crash off Mississippi kills 6, including 2 children"
    ],
-   "places": [],
+   "places": [
+    "off",
+    "coast",
+    "All"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -146,16 +150,6 @@
      "at": "2026-11-25T07:08:22+00:00"
     },
     {
-     "title": "Six dead after small plane crashes off Mississippi coast",
-     "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T06:47:45+00:00"
-    },
-    {
      "title": "Small plane crash off Mississippi kills 6, including 2 children",
      "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
      "outlet": "CBS News",
@@ -174,11 +168,21 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-25T14:34:58+00:00"
+    },
+    {
+     "title": "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
+     "url": "https://www.today.com/video/plane-crashes-off-mississippi-coast-killing-all-6-passengers-274157637638",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T13:10:24+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
     "outlet:BBC",
+    "outlet:NBCUniversal",
     "outlet:Paramount (CBS)"
    ],
    "emerging": true,
@@ -455,10 +459,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 866,
+  "headlines": 870,
   "feeds": 30,
   "owners": 21,
-  "matched": 27,
+  "matched": 23,
   "corroborated": 3
  },
  "emerging": [
@@ -472,8 +476,8 @@
    "date": "2026-11-25",
    "news_at": "2026-11-25T17:39:52+00:00",
    "owners": [
-    "ABC (Australia)",
     "BBC",
+    "NBCUniversal",
     "Paramount (CBS)"
    ],
    "fame": 75000,
@@ -481,12 +485,16 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Six dead after small plane crashes off Mississippi coast",
     "Two children among six dead after plane crash off Mississippi coast",
+    "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
     "6 killed in plane crash off Mississippi coast, officials say",
     "Small plane crash off Mississippi kills 6, including 2 children"
    ],
-   "places": [],
+   "places": [
+    "off",
+    "coast",
+    "All"
+   ],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -508,16 +516,6 @@
      "at": "2026-11-25T07:08:22+00:00"
     },
     {
-     "title": "Six dead after small plane crashes off Mississippi coast",
-     "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T06:47:45+00:00"
-    },
-    {
      "title": "Small plane crash off Mississippi kills 6, including 2 children",
      "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
      "outlet": "CBS News",
@@ -536,11 +534,21 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-25T14:34:58+00:00"
+    },
+    {
+     "title": "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
+     "url": "https://www.today.com/video/plane-crashes-off-mississippi-coast-killing-all-6-passengers-274157637638",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T13:10:24+00:00"
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
     "outlet:BBC",
+    "outlet:NBCUniversal",
     "outlet:Paramount (CBS)"
    ],
    "emerging": true,
@@ -622,5 +630,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 866 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
+ "outlet_note": "outlets: 870 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
 }
