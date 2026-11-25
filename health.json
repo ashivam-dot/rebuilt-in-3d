@@ -1,12 +1,12 @@
 {
- "at": "2026-11-25T14:12:23+00:00",
+ "at": "2026-11-25T14:42:11+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 60 units today",
-  "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
-  "outlets: 854 headlines from 30 feeds (21 owners), 38 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-trapped-flood",
-  "skip nw-20261125-trapped-flood: gate: fewer than 2 independent outlets' articles about trapped could be read",
-  "skip nw-20261125-trapped-flood: gate: fewer than 2 independent outlets' articles about trapped could be read",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 61 units today",
+  "watch: 2 candidates (0 quakes, 12 trending), 0 hazard alerts",
+  "outlets: 852 headlines from 30 feeds (21 owners), 33 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-trapped-flood, nw-20261125-california-flood",
+  "skip nw-20261125-california-flood: gate: faceless: no free photo shows California or the event itself (only 0 photos of places or things near it)",
+  "skip nw-20261125-california-flood: gate: faceless: no free photo shows California or the event itself (only 0 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
