@@ -1795,11 +1795,27 @@
   "kind": "death"
  },
  "wk-Q1752082": {
-  "count": 2,
-  "reason": "gate: no draft passed the fact checks: line 3 (In Hamburg, he became a special education teacher and studie): its supporting quote is not in the sources | second look: The source sentences state that he studied 'pedagogy' in Hamburg, not that he became a special education teacher in Hamburg. While h",
-  "at": "2026-11-25T09:11:30+00:00",
+  "count": 3,
+  "reason": "voice: beat 6 came out garbled (77% of words heard)",
+  "at": "2026-11-25T12:58:19+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
+ },
+ "nw-20261125-trapped-flood": {
+  "count": 2,
+  "reason": "gate: fewer than 2 independent outlets' articles about trapped could be read",
+  "at": "2026-11-25T12:12:52+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "wk-Q142261451": {
+  "count": 1,
+  "reason": "gate: only 1 usable photos of Benghazi attacks 2026 on Wikimedia Commons (want 4)",
+  "at": "2026-11-25T12:12:59+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
  }
 }
