@@ -1,40 +1,94 @@
 {
- "at": "2026-11-25T06:55:51+00:00",
+ "at": "2026-11-25T07:23:56+00:00",
  "quakes": [],
  "trending": [
   {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-25T07:23:56.795835+00:00",
+   "headlines": [
+    "Bangladesh garment workers win 36% pay rise after weeks of protest",
+    "Bangladesh raises minimum wage for garment workers after weeks of protests"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-24",
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Bangladesh garment workers win 36% pay rise after weeks of protest",
+    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
+    "outlet:Al Jazeera Media Network",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Al Jazeera Media Network",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
+     "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T06:58:02+00:00"
+    },
+    {
+     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
+     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T06:47:26+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w48",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-25",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
-   "title": "Six dead after small plane crashes off Mississippi coast",
+   "title": "Two children among six dead after plane crash off Mississippi coast",
    "name": "Mississippi",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T06:47:45+00:00",
+   "news_at": "2026-11-25T07:08:22+00:00",
    "owners": [
-    "Fox Corporation",
     "NBCUniversal",
     "Guardian Media Group",
     "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "Paramount (CBS)",
-    "ABC (Australia)"
+    "ABC (Australia)",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
-    "6 killed when plane crashes off coast of Mississippi",
+    "6 killed when plane crashes off Mississippi",
     "Rescue crews search for six people after plane crash off Mississippi coast",
     "6 missing after Cessna plane crashes off Mississippi coast in US",
-    "6 dead after plane crashes off Mississippi coast: US Coast Guard"
+    "6 dead after plane crashes off Mississippi coast: US Coast Guard",
+    "Small plane crash off Mississippi kills 6, including 2 children"
    ],
    "places": [
-    "Coast",
-    "Guard",
-    "Cessna"
+    "Cessna",
+    "coast",
+    "Guard"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -46,6 +100,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Two children among six dead after plane crash off Mississippi coast",
+     "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T07:08:22+00:00"
+    },
     {
      "title": "Six dead after small plane crashes off Mississippi coast",
      "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
@@ -87,7 +151,7 @@
      "at": "2026-11-25T05:30:21+00:00"
     },
     {
-     "title": "6 killed when plane crashes off coast of Mississippi",
+     "title": "6 killed when plane crashes off Mississippi",
      "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -95,16 +159,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-25T00:57:49+00:00"
-    },
-    {
-     "title": "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
-     "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T00:45:06+00:00"
     },
     {
      "title": "6 missing after Cessna plane crashes off Mississippi coast in US",
@@ -118,56 +172,16 @@
     }
    ],
    "via": [
-    "outlet:Fox Corporation",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)",
-    "outlet:ABC (Australia)"
+    "outlet:ABC (Australia)",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 125000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T06:55:51.478036+00:00",
-   "headlines": [
-    "Bangladesh raises minimum wage for garment workers after weeks of protests"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-24",
-    "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T06:47:26+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-25",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q7816304",
@@ -438,46 +452,46 @@
   }
  ],
  "outlets": {
-  "headlines": 834,
+  "headlines": 833,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
-  "corroborated": 2
+  "matched": 26,
+  "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
-   "title": "Six dead after small plane crashes off Mississippi coast",
+   "title": "Two children among six dead after plane crash off Mississippi coast",
    "name": "Mississippi",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T06:47:45+00:00",
+   "news_at": "2026-11-25T07:08:22+00:00",
    "owners": [
-    "Fox Corporation",
     "NBCUniversal",
     "Guardian Media Group",
     "Bennett, Coleman & Co.",
     "Disney (ABC News)",
     "Paramount (CBS)",
-    "ABC (Australia)"
+    "ABC (Australia)",
+    "BBC"
    ],
    "fame": 150000,
    "news": 150000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
-    "6 killed when plane crashes off coast of Mississippi",
+    "6 killed when plane crashes off Mississippi",
     "Rescue crews search for six people after plane crash off Mississippi coast",
     "6 missing after Cessna plane crashes off Mississippi coast in US",
-    "6 dead after plane crashes off Mississippi coast: US Coast Guard"
+    "6 dead after plane crashes off Mississippi coast: US Coast Guard",
+    "Small plane crash off Mississippi kills 6, including 2 children"
    ],
    "places": [
-    "Coast",
-    "Guard",
-    "Cessna"
+    "Cessna",
+    "coast",
+    "Guard"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -489,6 +503,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Two children among six dead after plane crash off Mississippi coast",
+     "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T07:08:22+00:00"
+    },
     {
      "title": "Six dead after small plane crashes off Mississippi coast",
      "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
@@ -530,7 +554,7 @@
      "at": "2026-11-25T05:30:21+00:00"
     },
     {
-     "title": "6 killed when plane crashes off coast of Mississippi",
+     "title": "6 killed when plane crashes off Mississippi",
      "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
@@ -538,16 +562,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-25T00:57:49+00:00"
-    },
-    {
-     "title": "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
-     "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T00:45:06+00:00"
     },
     {
      "title": "6 missing after Cessna plane crashes off Mississippi coast in US",
@@ -561,17 +575,17 @@
     }
    ],
    "via": [
-    "outlet:Fox Corporation",
     "outlet:NBCUniversal",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Disney (ABC News)",
     "outlet:Paramount (CBS)",
-    "outlet:ABC (Australia)"
+    "outlet:ABC (Australia)",
+    "outlet:BBC"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 834 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
+ "outlet_note": "outlets: 833 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
 }

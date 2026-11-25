@@ -1,13 +1,14 @@
 {
- "at": "2026-11-25T06:55:50+00:00",
+ "at": "2026-11-25T07:23:55+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 97 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 98 units today",
   "watch: 3 candidates (0 quakes, 9 trending), 0 hazard alerts",
-  "outlets: 834 headlines from 30 feeds (21 owners), 25 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation",
-  "hold wk-Q142261451: outside the world window",
-  "hold wk-Q1089525: outside the world window",
-  "hold wk-Q1752082: outside the world window",
-  "ad-suitability x0.85 (attack, not breaking): wk-Q142261451"
+  "outlets: 833 headlines from 30 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation",
+  "ad-suitability x0.85 (attack, not breaking): wk-Q142261451",
+  "wait wk-Q142261451: gate: the article is under 6 hours old; facts may still move (ready in 4.4 h)",
+  "skip wk-Q1089525: gate: no draft passed the fact checks: line 5 (In 2011, he composed the poem Unggun Bersih which became a s): partly: The line attributes the composition of 'Unggun Bersih' to 2011, but the source states he was the co-chairperson of the Bersih 2.0 rally in 2011 and does not specify the year the poem was composed. | second look: The source sentences do not explicitly state that the poem 'Unggun Bersih' was composed in 2011. While the so",
+  "skip wk-Q1752082: voice: beat 1 came out garbled (78% of words heard)",
+  "nothing eligible to publish"
  ]
 }
