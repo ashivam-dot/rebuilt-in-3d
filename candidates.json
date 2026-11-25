@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T03:53:57+00:00",
+ "at": "2026-11-25T04:26:13+00:00",
  "quakes": [],
  "trending": [
   {
@@ -88,23 +88,20 @@
    "owners": [
     "Fox Corporation",
     "NBCUniversal",
-    "Disney (ABC News)",
     "Guardian Media Group",
     "Bennett, Coleman & Co."
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
     "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
-    "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
     "Rescue crews search for six people after plane crash off Mississippi coast",
     "6 missing after Cessna plane crashes off Mississippi coast in US"
    ],
    "places": [
-    "Coast",
     "Guard",
     "Cessna"
    ],
@@ -127,16 +124,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T02:17:25+00:00"
-    },
-    {
-     "title": "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
-     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T01:33:07+00:00"
     },
     {
      "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
@@ -172,7 +159,6 @@
    "via": [
     "outlet:Fox Corporation",
     "outlet:NBCUniversal",
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co."
    ],
@@ -191,24 +177,20 @@
    "owners": [
     "France Médias Monde",
     "Al Jazeera Media Network",
-    "NDTV",
     "SCMP Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
     "Ten hostages released in standoff with gunmen at Colombia supermarket",
-    "Gunmen Take 25 Hostage At Colombia Supermarket",
     "Gunmen hold dozens hostage in Colombia supermarket",
     "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
    ],
    "places": [
-    "Cartagena",
-    "Take",
-    "hostage"
+    "Cartagena"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -259,99 +241,12 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-24T21:04:46+00:00"
-    },
-    {
-     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
-     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-24T22:59:47+00:00"
     }
    ],
    "via": [
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:NDTV",
     "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261124-cia-cyberattack",
-   "qid": null,
-   "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
-   "name": "CIA",
-   "kind": "incident",
-   "category": "cyberattack",
-   "date": "2026-11-24",
-   "news_at": "2026-11-25T00:12:15+00:00",
-   "owners": [
-    "Independent Digital News",
-    "NDTV",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "CIA system breached in latest cyberattack targeting US intelligence agencies",
-    "Unclassified CIA System Breached In Cyberattack: Report",
-    "Unclassified CIA system hit by cyberattack, no classified data compromised: Report"
-   ],
-   "places": [
-    "system",
-    "breached"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
-     "url": "https://www.independent.co.uk/news/world/americas/cia-cyber-attack-dni-breach-fbi-b3090993.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T21:57:29+00:00"
-    },
-    {
-     "title": "Unclassified CIA system hit by cyberattack, no classified data compromised: Report",
-     "url": "https://timesofindia.indiatimes.com/world/us/cia-hit-by-cyberattack-amid-string-of-us-government-system-disruptions/articleshow/136144559.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-25T00:12:15+00:00"
-    },
-    {
-     "title": "Unclassified CIA System Breached In Cyberattack: Report",
-     "url": "https://www.ndtv.com/world-news/unclassified-cia-system-breached-in-cyberattack-report-12372775#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-24T23:08:14+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
@@ -442,11 +337,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 836,
+  "headlines": 830,
   "feeds": 30,
   "owners": 21,
-  "matched": 37,
-  "corroborated": 3
+  "matched": 31,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -461,23 +356,20 @@
    "owners": [
     "Fox Corporation",
     "NBCUniversal",
-    "Disney (ABC News)",
     "Guardian Media Group",
     "Bennett, Coleman & Co."
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
     "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
-    "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
     "Rescue crews search for six people after plane crash off Mississippi coast",
     "6 missing after Cessna plane crashes off Mississippi coast in US"
    ],
    "places": [
-    "Coast",
     "Guard",
     "Cessna"
    ],
@@ -500,16 +392,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T02:17:25+00:00"
-    },
-    {
-     "title": "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
-     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T01:33:07+00:00"
     },
     {
      "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
@@ -545,7 +427,6 @@
    "via": [
     "outlet:Fox Corporation",
     "outlet:NBCUniversal",
-    "outlet:Disney (ABC News)",
     "outlet:Guardian Media Group",
     "outlet:Bennett, Coleman & Co."
    ],
@@ -564,24 +445,20 @@
    "owners": [
     "France Médias Monde",
     "Al Jazeera Media Network",
-    "NDTV",
     "SCMP Group"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Gunmen hold 30 people hostage at supermarket in Colombia's Cartagena",
     "Ten hostages released in standoff with gunmen at Colombia supermarket",
-    "Gunmen Take 25 Hostage At Colombia Supermarket",
     "Gunmen hold dozens hostage in Colombia supermarket",
     "Gunmen hold hostages in Colombia supermarket after failed armoured car raid"
    ],
    "places": [
-    "Cartagena",
-    "Take",
-    "hostage"
+    "Cartagena"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -632,103 +509,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-24T21:04:46+00:00"
-    },
-    {
-     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
-     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-24T22:59:47+00:00"
     }
    ],
    "via": [
     "outlet:France Médias Monde",
     "outlet:Al Jazeera Media Network",
-    "outlet:NDTV",
     "outlet:SCMP Group"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261124-cia-cyberattack",
-   "qid": null,
-   "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
-   "name": "CIA",
-   "kind": "incident",
-   "category": "cyberattack",
-   "date": "2026-11-24",
-   "news_at": "2026-11-25T00:12:15+00:00",
-   "owners": [
-    "Independent Digital News",
-    "NDTV",
-    "Bennett, Coleman & Co."
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "CIA system breached in latest cyberattack targeting US intelligence agencies",
-    "Unclassified CIA System Breached In Cyberattack: Report",
-    "Unclassified CIA system hit by cyberattack, no classified data compromised: Report"
-   ],
-   "places": [
-    "system",
-    "breached"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
-     "url": "https://www.independent.co.uk/news/world/americas/cia-cyber-attack-dni-breach-fbi-b3090993.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-24T21:57:29+00:00"
-    },
-    {
-     "title": "Unclassified CIA system hit by cyberattack, no classified data compromised: Report",
-     "url": "https://timesofindia.indiatimes.com/world/us/cia-hit-by-cyberattack-amid-string-of-us-government-system-disruptions/articleshow/136144559.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-25T00:12:15+00:00"
-    },
-    {
-     "title": "Unclassified CIA System Breached In Cyberattack: Report",
-     "url": "https://www.ndtv.com/world-news/unclassified-cia-system-breached-in-cyberattack-report-12372775#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-24T23:08:14+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Independent Digital News",
-    "outlet:NDTV",
-    "outlet:Bennett, Coleman & Co."
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 836 headlines from 30 feeds (21 owners), 37 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
+ "outlet_note": "outlets: 830 headlines from 30 feeds (21 owners), 31 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261124-colombia-attack"
 }
