@@ -1,7 +1,51 @@
 {
- "at": "2026-11-25T16:11:21+00:00",
+ "at": "2026-11-25T16:40:58+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q142278417",
+   "title": "Iowa lead azide detonation",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-25T16:40:58.514204+00:00",
+   "headlines": [
+    "Army expected to detonate stockpile of lead azide in Iowa",
+    "Army detonates toxic explosives at Iowa plant despite concerns"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Army expected to detonate stockpile of lead azide in Iowa",
+    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
+     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T15:44:00+00:00"
+    }
+   ],
+   "id": "wk-Q142278417",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    40.790556,
+    -91.244722
+   ],
+   "has_coords": true
+  },
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
@@ -9,7 +53,7 @@
    "views": 0,
    "traffic": 0,
    "news": 50000,
-   "news_at": "2026-11-25T16:11:21.941345+00:00",
+   "news_at": "2026-11-25T16:40:58.514204+00:00",
    "headlines": [
     "Bangladesh garment workers protest over new wages",
     "Bangladesh garment workers win 36% minimum wage rise after protests"
@@ -57,72 +101,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q142278417",
-   "title": "Iowa lead azide detonation",
-   "fame": 100000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-25T16:11:21.941345+00:00",
-   "headlines": [
-    "Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
-    "Army detonates toxic explosives at Iowa plant despite concerns"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-25",
-    "google-news:Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
-    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Guardian Media Group",
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T15:52:35+00:00"
-    },
-    {
-     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
-     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T15:44:00+00:00"
-    },
-    {
-     "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T15:36:28+00:00"
-    }
-   ],
-   "id": "wk-Q142278417",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    40.790556,
-    -91.244722
-   ],
-   "has_coords": true
-  },
-  {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
    "title": "Two children among six dead after plane crash off Mississippi coast",
@@ -134,17 +112,15 @@
    "owners": [
     "ABC (Australia)",
     "BBC",
-    "Guardian Media Group",
     "Paramount (CBS)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Six dead after small plane crashes off Mississippi coast",
     "Two children among six dead after plane crash off Mississippi coast",
-    "Plane crash off coast of Mississippi kills six, including two children",
     "6 killed in plane crash off Mississippi coast, officials say",
     "Small plane crash off Mississippi kills 6, including 2 children"
    ],
@@ -180,16 +156,6 @@
      "at": "2026-11-25T06:47:45+00:00"
     },
     {
-     "title": "Plane crash off coast of Mississippi kills six, including two children",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/mississippi-plane-crash-gulf-mexico",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T13:02:24+00:00"
-    },
-    {
      "title": "Small plane crash off Mississippi kills 6, including 2 children",
      "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
      "outlet": "CBS News",
@@ -213,7 +179,6 @@
    "via": [
     "outlet:ABC (Australia)",
     "outlet:BBC",
-    "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)"
    ],
    "emerging": true,
@@ -258,6 +223,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
+  },
+  {
+   "qid": "Q18324601",
+   "title": "Martha Firestone Ford",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-25T16:15:26+00:00",
+   "headlines": [
+    "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
+     "url": "https://www.independent.co.uk/news/world/americas/martha-firestone-ford-dead-detroit-lions-tire-heiress-b3091610.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T16:15:26+00:00"
+    }
+   ],
+   "id": "wk-Q18324601",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
   },
   {
    "qid": "Q7171945",
@@ -379,11 +380,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 860,
+  "headlines": 861,
   "feeds": 30,
   "owners": 21,
-  "matched": 23,
-  "corroborated": 3
+  "matched": 26,
+  "corroborated": 2
  },
  "emerging": [
   {
@@ -398,17 +399,15 @@
    "owners": [
     "ABC (Australia)",
     "BBC",
-    "Guardian Media Group",
     "Paramount (CBS)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Six dead after small plane crashes off Mississippi coast",
     "Two children among six dead after plane crash off Mississippi coast",
-    "Plane crash off coast of Mississippi kills six, including two children",
     "6 killed in plane crash off Mississippi coast, officials say",
     "Small plane crash off Mississippi kills 6, including 2 children"
    ],
@@ -444,16 +443,6 @@
      "at": "2026-11-25T06:47:45+00:00"
     },
     {
-     "title": "Plane crash off coast of Mississippi kills six, including two children",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/mississippi-plane-crash-gulf-mexico",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T13:02:24+00:00"
-    },
-    {
      "title": "Small plane crash off Mississippi kills 6, including 2 children",
      "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
      "outlet": "CBS News",
@@ -477,12 +466,11 @@
    "via": [
     "outlet:ABC (Australia)",
     "outlet:BBC",
-    "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 860 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
+ "outlet_note": "outlets: 861 headlines from 30 feeds (21 owners), 26 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
 }
