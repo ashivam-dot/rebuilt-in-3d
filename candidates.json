@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T00:54:10+00:00",
+ "at": "2026-11-25T01:23:34+00:00",
  "quakes": [],
  "trending": [
   {
@@ -147,6 +147,83 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261124-colombia-attack",
+   "qid": null,
+   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+   "name": "Colombia",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-24",
+   "news_at": "2026-11-25T00:49:35+00:00",
+   "owners": [
+    "France Médias Monde",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+    "Gunmen Take 25 Hostage At Colombia Supermarket",
+    "Gunmen hold dozens hostage in Colombia supermarket"
+   ],
+   "places": [
+    "Cartagena",
+    "Take",
+    "hostage"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T17:35:48+00:00"
+    },
+    {
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T00:49:35+00:00"
+    },
+    {
+     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
+     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-24T22:59:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:NDTV",
     "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
@@ -314,34 +391,173 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
+   "id": "nw-20261124-colombia-attack",
+   "qid": null,
+   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+   "name": "Colombia",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-24",
+   "news_at": "2026-11-25T00:49:35+00:00",
+   "owners": [
+    "France Médias Monde",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-25T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-24"
+   "headlines": [
+    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+    "Gunmen Take 25 Hostage At Colombia Supermarket",
+    "Gunmen hold dozens hostage in Colombia supermarket"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w48",
+   "places": [
+    "Cartagena",
+    "Take",
+    "hostage"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T17:35:48+00:00"
+    },
+    {
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T00:49:35+00:00"
+    },
+    {
+     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
+     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-24T22:59:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261124-colombia-attack",
+   "qid": null,
+   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+   "name": "Colombia",
    "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-25",
-   "coords": null,
-   "has_coords": false
+   "category": "attack",
+   "date": "2026-11-24",
+   "news_at": "2026-11-25T00:49:35+00:00",
+   "owners": [
+    "France Médias Monde",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+    "Gunmen Take 25 Hostage At Colombia Supermarket",
+    "Gunmen hold dozens hostage in Colombia supermarket"
+   ],
+   "places": [
+    "Cartagena",
+    "Take",
+    "hostage"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T17:35:48+00:00"
+    },
+    {
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T00:49:35+00:00"
+    },
+    {
+     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
+     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-24T22:59:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:NDTV",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
+ ],
  "outlets": {
-  "headlines": 847,
+  "headlines": 844,
   "feeds": 30,
   "owners": 21,
-  "matched": 47,
-  "corroborated": 2
+  "matched": 44,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -415,6 +631,83 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:BBC",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261124-colombia-attack",
+   "qid": null,
+   "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+   "name": "Colombia",
+   "kind": "incident",
+   "category": "attack",
+   "date": "2026-11-24",
+   "news_at": "2026-11-25T00:49:35+00:00",
+   "owners": [
+    "France Médias Monde",
+    "NDTV",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+    "Gunmen Take 25 Hostage At Colombia Supermarket",
+    "Gunmen hold dozens hostage in Colombia supermarket"
+   ],
+   "places": [
+    "Cartagena",
+    "Take",
+    "hostage"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Gunmen hold 25 people hostage at supermarket in Colombia's Cartagena",
+     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-24T17:35:48+00:00"
+    },
+    {
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T00:49:35+00:00"
+    },
+    {
+     "title": "Gunmen Take 25 Hostage At Colombia Supermarket",
+     "url": "https://www.ndtv.com/world-news/gunmen-take-25-hostage-at-colombia-supermarket-12372907#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-24T22:59:47+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:NDTV",
     "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
@@ -497,5 +790,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 847 headlines from 30 feeds (21 owners), 47 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-city-strike, nw-20261124-cia-cyberattack"
+ "outlet_note": "outlets: 844 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261124-city-strike, nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
 }

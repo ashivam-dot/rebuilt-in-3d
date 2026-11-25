@@ -1,11 +1,14 @@
 {
- "at": "2026-11-25T00:54:09+00:00",
+ "at": "2026-11-25T01:23:33+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 85 units today",
-  "watch: 1 candidates (0 quakes, 8 trending), 0 hazard alerts",
-  "outlets: 847 headlines from 30 feeds (21 owners), 47 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-city-strike, nw-20261124-cia-cyberattack",
-  "skip wk-Q142084937-2026w48: gate: only 1 usable photos of 2026 Bangladesh garment workers protests on Wikimedia Commons (want 4)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 86 units today",
+  "watch: 2 candidates (0 quakes, 9 trending), 0 hazard alerts",
+  "outlets: 844 headlines from 30 feeds (21 owners), 44 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261124-city-strike, nw-20261124-colombia-attack, nw-20261124-cia-cyberattack",
+  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
+  "ad-suitability x0.85 (attack, not breaking): nw-20261124-colombia-attack, nw-20261124-colombia-attack",
+  "skip nw-20261124-colombia-attack: gate: faceless: no free photo shows Colombia or the event itself (only 0 photos of places or things near it)",
+  "skip nw-20261124-colombia-attack: gate: faceless: no free photo shows Colombia or the event itself (only 0 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
