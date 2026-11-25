@@ -1,75 +1,23 @@
 {
- "at": "2026-11-25T17:12:59+00:00",
+ "at": "2026-11-25T17:41:38+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-25T17:12:59.458064+00:00",
-   "headlines": [
-    "Bangladesh garment workers win 36% minimum wage rise after protests",
-    "Bangladesh raises minimum wage for garment workers after weeks of protests"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-24",
-    "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "SCMP Group",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh garment workers win 36% minimum wage rise after protests",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3375787/bangladesh-garment-workers-win-36-minimum-wage-rise-after-protests",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T12:11:56+00:00"
-    },
-    {
-     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T08:26:30+00:00"
-    }
-   ],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-25",
-   "coords": null,
-   "has_coords": false
-  },
-  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
-   "fame": 75000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T17:12:59.458064+00:00",
+   "news": 150000,
+   "news_at": "2026-11-25T17:41:38.699818+00:00",
    "headlines": [
+    "Army detonates stockpile of lead azide in Iowa",
     "Army detonates toxic explosives at Iowa plant despite concerns"
    ],
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-25",
+    "google-news:Army detonates stockpile of lead azide in Iowa",
     "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
     "outlet:Paramount (CBS)"
    ],
@@ -85,7 +33,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T16:58:24+00:00"
+     "at": "2026-11-25T17:30:14+00:00"
     }
    ],
    "id": "wk-Q142278417",
@@ -99,6 +47,60 @@
    "has_coords": true
   },
   {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-25T17:41:38.699818+00:00",
+   "headlines": [
+    "Bangladesh garment workers protest over new wages",
+    "Bangladesh garment workers win 36% minimum wage rise after protests"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-24",
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Bangladesh garment workers protest over new wages",
+    "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
+    "outlet:Al Jazeera Media Network",
+    "outlet:SCMP Group"
+   ],
+   "owners": [
+    "Al Jazeera Media Network",
+    "SCMP Group"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment workers protest over new wages",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/bangladesh-garment-workers-protest-over-new-wages?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T12:23:41+00:00"
+    },
+    {
+     "title": "Bangladesh garment workers win 36% minimum wage rise after protests",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3375787/bangladesh-garment-workers-win-36-minimum-wage-rise-after-protests",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T12:11:56+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w48",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-25",
+   "coords": null,
+   "has_coords": false
+  },
+  {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
    "title": "Two children among six dead after plane crash off Mississippi coast",
@@ -106,7 +108,7 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T14:41:14+00:00",
+   "news_at": "2026-11-25T17:39:52+00:00",
    "owners": [
     "ABC (Australia)",
     "BBC",
@@ -161,7 +163,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T14:41:14+00:00"
+     "at": "2026-11-25T17:39:52+00:00"
     },
     {
      "title": "6 killed in plane crash off Mississippi coast, officials say",
@@ -178,6 +180,81 @@
     "outlet:ABC (Australia)",
     "outlet:BBC",
     "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261125-california-flood",
+   "qid": null,
+   "title": "California braces for flooding threat from huge tides, El Nino",
+   "name": "California",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T17:20:26+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Paramount (CBS)",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "California braces for flooding threat from huge tides, El Nino",
+    "Massive waves and high tides swallow beaches, flood roads in Northern California",
+    "California beaches close as record-breaking tides and major flooding loom"
+   ],
+   "places": [
+    "Nino"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "California braces for flooding threat from huge tides, El Nino",
+     "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T14:07:37+00:00"
+    },
+    {
+     "title": "California beaches close as record-breaking tides and major flooding loom",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T17:20:26+00:00"
+    },
+    {
+     "title": "Massive waves and high tides swallow beaches, flood roads in Northern California",
+     "url": "https://www.cbsnews.com/video/massive-waves-and-high-tides-swallow-beaches-flood-roads-in-northern-california/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T14:15:45+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group"
    ],
    "emerging": true,
    "article": null
@@ -378,11 +455,11 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 862,
+  "headlines": 866,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 2
+  "matched": 27,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -393,7 +470,7 @@
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-25T14:41:14+00:00",
+   "news_at": "2026-11-25T17:39:52+00:00",
    "owners": [
     "ABC (Australia)",
     "BBC",
@@ -448,7 +525,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T14:41:14+00:00"
+     "at": "2026-11-25T17:39:52+00:00"
     },
     {
      "title": "6 killed in plane crash off Mississippi coast, officials say",
@@ -468,7 +545,82 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261125-california-flood",
+   "qid": null,
+   "title": "California braces for flooding threat from huge tides, El Nino",
+   "name": "California",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T17:20:26+00:00",
+   "owners": [
+    "France Médias Monde",
+    "Paramount (CBS)",
+    "Guardian Media Group"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "California braces for flooding threat from huge tides, El Nino",
+    "Massive waves and high tides swallow beaches, flood roads in Northern California",
+    "California beaches close as record-breaking tides and major flooding loom"
+   ],
+   "places": [
+    "Nino"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "California braces for flooding threat from huge tides, El Nino",
+     "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T14:07:37+00:00"
+    },
+    {
+     "title": "California beaches close as record-breaking tides and major flooding loom",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T17:20:26+00:00"
+    },
+    {
+     "title": "Massive waves and high tides swallow beaches, flood roads in Northern California",
+     "url": "https://www.cbsnews.com/video/massive-waves-and-high-tides-swallow-beaches-flood-roads-in-northern-california/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T14:15:45+00:00"
+    }
+   ],
+   "via": [
+    "outlet:France Médias Monde",
+    "outlet:Paramount (CBS)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 862 headlines from 30 feeds (21 owners), 28 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
+ "outlet_note": "outlets: 866 headlines from 30 feeds (21 owners), 27 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
 }
