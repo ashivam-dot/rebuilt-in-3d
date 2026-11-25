@@ -1,19 +1,18 @@
 {
- "at": "2026-11-25T15:39:18+00:00",
+ "at": "2026-11-25T16:11:21+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 175000,
+   "fame": 150000,
    "views": 0,
    "traffic": 0,
-   "news": 75000,
-   "news_at": "2026-11-25T15:39:18.747681+00:00",
+   "news": 50000,
+   "news_at": "2026-11-25T16:11:21.941345+00:00",
    "headlines": [
     "Bangladesh garment workers protest over new wages",
-    "Bangladesh garment workers win 36% minimum wage rise after protests",
-    "Bangladesh raises minimum wage for garment workers after weeks of protests"
+    "Bangladesh garment workers win 36% minimum wage rise after protests"
    ],
    "region": "world",
    "via": [
@@ -21,15 +20,12 @@
     "wikipedia-current-events-2026-11-25",
     "google-news:Bangladesh garment workers protest over new wages",
     "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
     "outlet:Al Jazeera Media Network",
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)"
+    "outlet:SCMP Group"
    ],
    "owners": [
     "Al Jazeera Media Network",
-    "SCMP Group",
-    "Disney (ABC News)"
+    "SCMP Group"
    ],
    "reports": [
     {
@@ -51,16 +47,6 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T12:11:56+00:00"
-    },
-    {
-     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T08:26:30+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w48",
@@ -69,6 +55,72 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q142278417",
+   "title": "Iowa lead azide detonation",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-25T16:11:21.941345+00:00",
+   "headlines": [
+    "Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
+    "Army detonates toxic explosives at Iowa plant despite concerns"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
+    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Guardian Media Group",
+    "Paramount (CBS)"
+   ],
+   "reports": [
+    {
+     "title": "Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T15:52:35+00:00"
+    },
+    {
+     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
+     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T15:44:00+00:00"
+    },
+    {
+     "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T15:36:28+00:00"
+    }
+   ],
+   "id": "wk-Q142278417",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    40.790556,
+    -91.244722
+   ],
+   "has_coords": true
   },
   {
    "id": "nw-20261125-mississippi-aviation",
@@ -168,123 +220,6 @@
    "article": null
   },
   {
-   "qid": "Q142278417",
-   "title": "Iowa lead azide detonation",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T15:39:18.747681+00:00",
-   "headlines": [
-    "Army detonates toxic explosives at Iowa plant despite concerns"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-25",
-    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
-     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T15:33:55+00:00"
-    }
-   ],
-   "id": "wk-Q142278417",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    40.790556,
-    -91.244722
-   ],
-   "has_coords": true
-  },
-  {
-   "id": "nw-20261125-california-flood",
-   "qid": null,
-   "title": "California braces for flooding threat from huge tides, El Nino",
-   "name": "California",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T14:15:45+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "California beaches close as record-breaking tides and major flooding loom",
-    "Massive waves and high tides swallow beaches, flood roads in Northern California",
-    "California braces for flooding threat from huge tides, El Nino"
-   ],
-   "places": [
-    "Nino"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "California braces for flooding threat from huge tides, El Nino",
-     "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T14:07:37+00:00"
-    },
-    {
-     "title": "California beaches close as record-breaking tides and major flooding loom",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T12:30:25+00:00"
-    },
-    {
-     "title": "Massive waves and high tides swallow beaches, flood roads in Northern California",
-     "url": "https://www.cbsnews.com/video/massive-waves-and-high-tides-swallow-beaches-flood-roads-in-northern-california/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:15:45+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q7816304",
    "title": "Tom Jackson (American football, born 1951)",
    "fame": 64851,
@@ -323,6 +258,42 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
+  },
+  {
+   "qid": "Q7171945",
+   "title": "Pete Edochie",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-25T12:24:12+00:00",
+   "headlines": [
+    "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+     "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T12:24:12+00:00"
+    }
+   ],
+   "id": "wk-Q7171945",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
   },
   {
    "qid": "Q1089525",
@@ -406,55 +377,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142278417",
-   "title": "Iowa lead azide detonation",
-   "fame": 75000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T15:39:18.747681+00:00",
-   "headlines": [
-    "Army detonates toxic explosives at Iowa plant despite concerns"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-25",
-    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
-    "outlet:Paramount (CBS)"
-   ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
-     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T15:33:55+00:00"
-    }
-   ],
-   "id": "wk-Q142278417",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    40.790556,
-    -91.244722
-   ],
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 855,
+  "headlines": 860,
   "feeds": 30,
   "owners": 21,
-  "matched": 20,
+  "matched": 23,
   "corroborated": 3
  },
  "emerging": [
@@ -554,82 +482,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261125-california-flood",
-   "qid": null,
-   "title": "California braces for flooding threat from huge tides, El Nino",
-   "name": "California",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T14:15:45+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "France Médias Monde"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "California beaches close as record-breaking tides and major flooding loom",
-    "Massive waves and high tides swallow beaches, flood roads in Northern California",
-    "California braces for flooding threat from huge tides, El Nino"
-   ],
-   "places": [
-    "Nino"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "California braces for flooding threat from huge tides, El Nino",
-     "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T14:07:37+00:00"
-    },
-    {
-     "title": "California beaches close as record-breaking tides and major flooding loom",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T12:30:25+00:00"
-    },
-    {
-     "title": "Massive waves and high tides swallow beaches, flood roads in Northern California",
-     "url": "https://www.cbsnews.com/video/massive-waves-and-high-tides-swallow-beaches-flood-roads-in-northern-california/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:15:45+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 855 headlines from 30 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
+ "outlet_note": "outlets: 860 headlines from 30 feeds (21 owners), 23 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261125-mississippi-aviation"
 }
