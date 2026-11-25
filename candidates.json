@@ -1,18 +1,19 @@
 {
- "at": "2026-11-25T15:19:49+00:00",
+ "at": "2026-11-25T15:39:18+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 150000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 50000,
-   "news_at": "2026-11-25T15:19:49.539784+00:00",
+   "news": 75000,
+   "news_at": "2026-11-25T15:39:18.747681+00:00",
    "headlines": [
     "Bangladesh garment workers protest over new wages",
-    "Bangladesh garment workers win 36% minimum wage rise after protests"
+    "Bangladesh garment workers win 36% minimum wage rise after protests",
+    "Bangladesh raises minimum wage for garment workers after weeks of protests"
    ],
    "region": "world",
    "via": [
@@ -20,12 +21,15 @@
     "wikipedia-current-events-2026-11-25",
     "google-news:Bangladesh garment workers protest over new wages",
     "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
+    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
     "outlet:Al Jazeera Media Network",
-    "outlet:SCMP Group"
+    "outlet:SCMP Group",
+    "outlet:Disney (ABC News)"
    ],
    "owners": [
     "Al Jazeera Media Network",
-    "SCMP Group"
+    "SCMP Group",
+    "Disney (ABC News)"
    ],
    "reports": [
     {
@@ -47,6 +51,16 @@
      "group": "international",
      "lang": "en",
      "at": "2026-11-25T12:11:56+00:00"
+    },
+    {
+     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
+     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T08:26:30+00:00"
     }
    ],
    "id": "wk-Q142084937-2026w48",
@@ -154,81 +168,46 @@
    "article": null
   },
   {
-   "id": "nw-20261125-trapped-flood",
-   "qid": null,
-   "title": "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
-   "name": "trapped",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T11:06:14+00:00",
-   "owners": [
-    "NDTV",
-    "SCMP Group",
-    "Disney (ABC News)"
-   ],
+   "qid": "Q142278417",
+   "title": "Iowa lead azide detonation",
    "fame": 75000,
-   "news": 75000,
    "views": 0,
    "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-25T15:39:18.747681+00:00",
    "headlines": [
-    "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
-    "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
-    "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia"
-   ],
-   "places": [
-    "Illegal",
-    "Gold",
-    "Mine"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Army detonates toxic explosives at Iowa plant despite concerns"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
+   "via": [
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
+    "outlet:Paramount (CBS)"
+   ],
+   "owners": [
+    "Paramount (CBS)"
+   ],
    "reports": [
     {
-     "title": "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
-     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T10:59:19+00:00"
-    },
-    {
-     "title": "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia",
-     "url": "https://abcnews.com/International/wireStory/29-miners-believed-trapped-flooding-unauthorized-gold-mine-138433064",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
+     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
+     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T11:06:14+00:00"
-    },
-    {
-     "title": "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
-     "url": "https://www.ndtv.com/world-news/3-dead-23-trapped-after-illegal-gold-mine-floods-in-indonesia-12375291#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-25T10:56:40+00:00"
+     "at": "2026-11-25T15:33:55+00:00"
     }
    ],
-   "via": [
-    "outlet:NDTV",
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)"
+   "id": "wk-Q142278417",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    40.790556,
+    -91.244722
    ],
-   "emerging": true,
-   "article": null
+   "has_coords": true
   },
   {
    "id": "nw-20261125-california-flood",
@@ -346,42 +325,6 @@
    "date": "2026-11-23"
   },
   {
-   "qid": "Q7171945",
-   "title": "Pete Edochie",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-25T12:24:12+00:00",
-   "headlines": [
-    "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-     "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T12:24:12+00:00"
-    }
-   ],
-   "id": "wk-Q7171945",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
-  },
-  {
    "qid": "Q1089525",
    "title": "A. Samad Said",
    "fame": 14915,
@@ -465,206 +408,54 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261125-mississippi-aviation",
-   "qid": null,
-   "title": "Two children among six dead after plane crash off Mississippi coast",
-   "name": "Mississippi",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T14:41:14+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "BBC",
-    "Guardian Media Group",
-    "Paramount (CBS)"
-   ],
-   "fame": 100000,
-   "news": 100000,
+   "qid": "Q142278417",
+   "title": "Iowa lead azide detonation",
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-25T15:39:18.747681+00:00",
    "headlines": [
-    "Six dead after small plane crashes off Mississippi coast",
-    "Two children among six dead after plane crash off Mississippi coast",
-    "Plane crash off coast of Mississippi kills six, including two children",
-    "6 killed in plane crash off Mississippi coast, officials say",
-    "Small plane crash off Mississippi kills 6, including 2 children"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Army detonates toxic explosives at Iowa plant despite concerns"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Two children among six dead after plane crash off Mississippi coast",
-     "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T07:08:22+00:00"
-    },
-    {
-     "title": "Six dead after small plane crashes off Mississippi coast",
-     "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T06:47:45+00:00"
-    },
-    {
-     "title": "Plane crash off coast of Mississippi kills six, including two children",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/mississippi-plane-crash-gulf-mexico",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T13:02:24+00:00"
-    },
-    {
-     "title": "Small plane crash off Mississippi kills 6, including 2 children",
-     "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:41:14+00:00"
-    },
-    {
-     "title": "6 killed in plane crash off Mississippi coast, officials say",
-     "url": "https://www.cbsnews.com/video/6-killed-in-plane-crash-off-mississippi-coast-officials-say/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:34:58+00:00"
-    }
-   ],
    "via": [
-    "outlet:ABC (Australia)",
-    "outlet:BBC",
-    "outlet:Guardian Media Group",
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Army detonates toxic explosives at Iowa plant despite concerns",
     "outlet:Paramount (CBS)"
    ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261125-mississippi-aviation",
-   "qid": null,
-   "title": "Two children among six dead after plane crash off Mississippi coast",
-   "name": "Mississippi",
-   "kind": "incident",
-   "category": "aviation",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T14:41:14+00:00",
    "owners": [
-    "ABC (Australia)",
-    "BBC",
-    "Guardian Media Group",
     "Paramount (CBS)"
    ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Six dead after small plane crashes off Mississippi coast",
-    "Two children among six dead after plane crash off Mississippi coast",
-    "Plane crash off coast of Mississippi kills six, including two children",
-    "6 killed in plane crash off Mississippi coast, officials say",
-    "Small plane crash off Mississippi kills 6, including 2 children"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
    "reports": [
     {
-     "title": "Two children among six dead after plane crash off Mississippi coast",
-     "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T07:08:22+00:00"
-    },
-    {
-     "title": "Six dead after small plane crashes off Mississippi coast",
-     "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T06:47:45+00:00"
-    },
-    {
-     "title": "Plane crash off coast of Mississippi kills six, including two children",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/mississippi-plane-crash-gulf-mexico",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T13:02:24+00:00"
-    },
-    {
-     "title": "Small plane crash off Mississippi kills 6, including 2 children",
-     "url": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
+     "title": "Army detonates toxic explosives at Iowa plant despite concerns",
+     "url": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
      "outlet": "CBS News",
      "outlet_hi": "सीबीएस न्यूज़",
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T14:41:14+00:00"
-    },
-    {
-     "title": "6 killed in plane crash off Mississippi coast, officials say",
-     "url": "https://www.cbsnews.com/video/6-killed-in-plane-crash-off-mississippi-coast-officials-say/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T14:34:58+00:00"
+     "at": "2026-11-25T15:33:55+00:00"
     }
    ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:BBC",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)"
+   "id": "wk-Q142278417",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    40.790556,
+    -91.244722
    ],
-   "emerging": true,
-   "article": null
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 850,
+  "headlines": 855,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 4
+  "matched": 20,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -765,83 +556,6 @@
    "article": null
   },
   {
-   "id": "nw-20261125-trapped-flood",
-   "qid": null,
-   "title": "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
-   "name": "trapped",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-25T11:06:14+00:00",
-   "owners": [
-    "NDTV",
-    "SCMP Group",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
-    "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
-    "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia"
-   ],
-   "places": [
-    "Illegal",
-    "Gold",
-    "Mine"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
-     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T10:59:19+00:00"
-    },
-    {
-     "title": "29 miners believed trapped by flooding in an unauthorized gold mine in Indonesia",
-     "url": "https://abcnews.com/International/wireStory/29-miners-believed-trapped-flooding-unauthorized-gold-mine-138433064",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T11:06:14+00:00"
-    },
-    {
-     "title": "3 Dead, 23 Trapped After Illegal Gold Mine Floods In Indonesia",
-     "url": "https://www.ndtv.com/world-news/3-dead-23-trapped-after-illegal-gold-mine-floods-in-indonesia-12375291#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-25T10:56:40+00:00"
-    }
-   ],
-   "via": [
-    "outlet:NDTV",
-    "outlet:SCMP Group",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "id": "nw-20261125-california-flood",
    "qid": null,
    "title": "California braces for flooding threat from huge tides, El Nino",
@@ -917,5 +631,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 850 headlines from 30 feeds (21 owners), 28 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-trapped-flood, nw-20261125-california-flood"
+ "outlet_note": "outlets: 855 headlines from 30 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
 }
