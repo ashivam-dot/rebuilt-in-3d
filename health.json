@@ -1,9 +1,12 @@
 {
- "at": "2026-11-24T23:55:18+00:00",
+ "at": "2026-11-25T00:22:48+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 83 units today",
-  "watch: 0 candidates (0 quakes, 6 trending), 0 hazard alerts",
-  "outlets: 847 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261124-city-strike"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 84 units today",
+  "watch: 2 candidates (0 quakes, 7 trending), 0 hazard alerts",
+  "outlets: 848 headlines from 30 feeds (21 owners), 43 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-city-strike, nw-20261124-cia-cyberattack",
+  "skip nw-20261124-cia-cyberattack: gate: faceless: no free photo shows CIA or the event itself (only 2 photos of places or things near it)",
+  "skip nw-20261124-cia-cyberattack: gate: faceless: no free photo shows CIA or the event itself (only 2 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
