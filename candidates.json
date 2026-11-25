@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T02:26:02+00:00",
+ "at": "2026-11-25T02:48:02+00:00",
  "quakes": [],
  "trending": [
   {
@@ -167,6 +167,95 @@
    "article": null
   },
   {
+   "id": "nw-20261125-mississippi-aviation",
+   "qid": null,
+   "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+   "name": "Mississippi",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T02:17:25+00:00",
+   "owners": [
+    "Fox Corporation",
+    "NBCUniversal",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+    "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+    "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+    "Rescue crews search for six people after plane crash off Mississippi coast"
+   ],
+   "places": [
+    "Coast",
+    "Guard"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+     "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T02:17:25+00:00"
+    },
+    {
+     "title": "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T01:33:07+00:00"
+    },
+    {
+     "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+     "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:57:49+00:00"
+    },
+    {
+     "title": "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+     "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:45:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:NBCUniversal",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261124-cia-cyberattack",
    "qid": null,
    "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
@@ -326,20 +415,192 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
+ "candidates": [
+  {
+   "id": "nw-20261125-mississippi-aviation",
+   "qid": null,
+   "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+   "name": "Mississippi",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T02:17:25+00:00",
+   "owners": [
+    "Fox Corporation",
+    "NBCUniversal",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+    "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+    "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+    "Rescue crews search for six people after plane crash off Mississippi coast"
+   ],
+   "places": [
+    "Coast",
+    "Guard"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+     "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T02:17:25+00:00"
+    },
+    {
+     "title": "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T01:33:07+00:00"
+    },
+    {
+     "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+     "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:57:49+00:00"
+    },
+    {
+     "title": "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+     "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:45:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:NBCUniversal",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261125-mississippi-aviation",
+   "qid": null,
+   "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+   "name": "Mississippi",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T02:17:25+00:00",
+   "owners": [
+    "Fox Corporation",
+    "NBCUniversal",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+    "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+    "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+    "Rescue crews search for six people after plane crash off Mississippi coast"
+   ],
+   "places": [
+    "Coast",
+    "Guard"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+     "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T02:17:25+00:00"
+    },
+    {
+     "title": "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T01:33:07+00:00"
+    },
+    {
+     "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+     "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:57:49+00:00"
+    },
+    {
+     "title": "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+     "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:45:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:NBCUniversal",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  }
  ],
  "outlets": {
-  "headlines": 842,
+  "headlines": 837,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
-  "corroborated": 2
+  "matched": 34,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -433,6 +694,95 @@
    "article": null
   },
   {
+   "id": "nw-20261125-mississippi-aviation",
+   "qid": null,
+   "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+   "name": "Mississippi",
+   "kind": "incident",
+   "category": "aviation",
+   "date": "2026-11-25",
+   "news_at": "2026-11-25T02:17:25+00:00",
+   "owners": [
+    "Fox Corporation",
+    "NBCUniversal",
+    "Disney (ABC News)",
+    "Guardian Media Group"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+    "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+    "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+    "Rescue crews search for six people after plane crash off Mississippi coast"
+   ],
+   "places": [
+    "Coast",
+    "Guard"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+     "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T02:17:25+00:00"
+    },
+    {
+     "title": "Plane carrying 6 people crashes off Mississippi coast, search ongoing: US Coast Guard",
+     "url": "https://abcnews.com/US/plane-carrying-6-people-crashes-off-mississippi-coast/story?id=138427173",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T01:33:07+00:00"
+    },
+    {
+     "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+     "url": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218",
+     "outlet": "NBC News",
+     "outlet_hi": "एनबीसी न्यूज़",
+     "owner": "NBCUniversal",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:57:49+00:00"
+    },
+    {
+     "title": "Coast Guard searching for 2 children, 4 adults after plane crashes off Mississippi coast",
+     "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T00:45:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Fox Corporation",
+    "outlet:NBCUniversal",
+    "outlet:Disney (ABC News)",
+    "outlet:Guardian Media Group"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261124-cia-cyberattack",
    "qid": null,
    "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
@@ -509,5 +859,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 842 headlines from 30 feeds (21 owners), 39 matched to articles, 2 candidates with 2+ owners, 2 nw- stories (on): nw-20261124-colombia-attack, nw-20261124-cia-cyberattack"
+ "outlet_note": "outlets: 837 headlines from 30 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 3 nw- stories (on): nw-20261124-colombia-attack, nw-20261125-mississippi-aviation, nw-20261124-cia-cyberattack"
 }
