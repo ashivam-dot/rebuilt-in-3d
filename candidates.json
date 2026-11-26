@@ -1,18 +1,18 @@
 {
- "at": "2026-11-26T09:43:41+00:00",
+ "at": "2026-11-26T10:13:58+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q527834",
    "title": "Andy Taylor (guitarist)",
-   "fame": 410665,
+   "fame": 535665,
    "views": 135665,
    "traffic": 0,
-   "news": 275000,
-   "news_at": "2026-11-26T06:34:20+00:00",
+   "news": 400000,
+   "news_at": "2026-11-26T09:47:00+00:00",
    "headlines": [
-    "Duran Duran guitarist Andy Taylor dies aged 65",
     "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "Duran Duran guitarist Andy Taylor dies aged 65",
     "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
     "Andy Taylor, guitarist who helped define Duran Duran’s 80s sound, dead at 65",
     "Duran Duran guitarist Andy Taylor dies at 65"
@@ -20,8 +20,8 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-25",
-    "google-news:Duran Duran guitarist Andy Taylor dies aged 65",
     "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "google-news:Duran Duran guitarist Andy Taylor dies aged 65",
     "google-news:Andy Taylor, longtime Duran Duran guitarist, dies at 65",
     "outlet:NPR",
     "outlet:BBC",
@@ -257,18 +257,19 @@
     "France Médias Monde",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "NDTV"
+    "NDTV",
+    "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Huge explosion at oil depot in Bangkok sends fireball into sky",
     "Large explosion, fire at oil depot in Bangkok; nearby residents told to evacuate",
-    "Explosion occurs at oil facility in Thailand’s Bangkok",
+    "Seven injured in explosion at oil facility in Thailand’s Bangkok",
     "Cloud Of Smoke After Blast At Major Bangkok Oil Depot, Residents Told To Evacuate",
-    "Explosion rocks Bangkok oil depot"
+    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital"
    ],
    "places": [
     "Thailand",
@@ -306,7 +307,17 @@
      "at": "2026-11-26T09:30:24+00:00"
     },
     {
-     "title": "Explosion occurs at oil facility in Thailand’s Bangkok",
+     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:25:01+00:00"
+    },
+    {
+     "title": "Seven injured in explosion at oil facility in Thailand’s Bangkok",
      "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -340,7 +351,8 @@
     "outlet:France Médias Monde",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
@@ -438,28 +450,30 @@
   {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
-   "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
+   "title": "Six killed, including children, in plane crash off Mississippi coast",
    "name": "Mississippi",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-26T00:46:16+00:00",
+   "news_at": "2026-11-26T04:48:42+00:00",
    "owners": [
     "NBCUniversal",
-    "Independent Digital News",
-    "Fox Corporation"
+    "Al Jazeera Media Network",
+    "Independent Digital News"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Mississippi plane crash victims were members of a Florida family returning from a fishing trip",
-    "Six Mississippi plane crash victims named after fatal wreck on family trip",
-    "Six Florida family members killed in plane crash on way home from fishing trip identified"
+    "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
+    "Six killed, including children, in plane crash off Mississippi coast",
+    "Six Mississippi plane crash victims named after fatal wreck on family trip"
    ],
    "places": [
-    "Florida"
+    "Off",
+    "Coast",
+    "All"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -472,6 +486,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Six killed, including children, in plane crash off Mississippi coast",
+     "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T04:48:42+00:00"
+    },
+    {
      "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
      "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
      "outlet": "The Independent",
@@ -482,30 +506,20 @@
      "at": "2026-11-25T19:43:18+00:00"
     },
     {
-     "title": "Six Florida family members killed in plane crash on way home from fishing trip identified",
-     "url": "https://www.foxnews.com/us/six-florida-family-members-killed-plane-crash-way-home-fishing-trip-identified",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T00:46:16+00:00"
-    },
-    {
-     "title": "Mississippi plane crash victims were members of a Florida family returning from a fishing trip",
-     "url": "https://www.nbcnews.com/news/us-news/mississippi-plane-crash-victims-members-prominent-florida-family-rcna611318",
+     "title": "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
+     "url": "https://www.today.com/video/plane-crashes-off-mississippi-coast-killing-all-6-passengers-274157637638",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
      "owner": "NBCUniversal",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T17:36:43+00:00"
+     "at": "2026-11-25T13:10:24+00:00"
     }
    ],
    "via": [
     "outlet:NBCUniversal",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -604,6 +618,43 @@
    "date": "2026-11-25"
   },
   {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 34577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-26T10:02:17+00:00",
+   "headlines": [
+    "Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "google-news:Michael Giles, co-founder and drummer of King Crimson, dies aged 84",
+    "outlet:Guardian Media Group"
+   ],
+   "owners": [
+    "Guardian Media Group"
+   ],
+   "reports": [
+    {
+     "title": "Michael Giles, co-founder and drummer of King Crimson, dies aged 84",
+     "url": "https://www.theguardian.com/music/2026/nov/26/michael-giles-co-founder-and-drummer-of-king-crimson-dies-aged-84",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T10:02:17+00:00"
+    }
+   ],
+   "id": "wk-Q449502",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
    "qid": "Q64610",
    "title": "Veruschka",
    "fame": 32422,
@@ -639,26 +690,6 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q6896637",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 9577,
-   "views": 9577,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q449502",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
@@ -726,14 +757,11 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 149 people)"
- ],
  "outlets": {
-  "headlines": 806,
+  "headlines": 809,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
+  "matched": 38,
   "corroborated": 5
  },
  "emerging": [
@@ -750,18 +778,19 @@
     "France Médias Monde",
     "Bennett, Coleman & Co.",
     "Al Jazeera Media Network",
-    "NDTV"
+    "NDTV",
+    "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Huge explosion at oil depot in Bangkok sends fireball into sky",
     "Large explosion, fire at oil depot in Bangkok; nearby residents told to evacuate",
-    "Explosion occurs at oil facility in Thailand’s Bangkok",
+    "Seven injured in explosion at oil facility in Thailand’s Bangkok",
     "Cloud Of Smoke After Blast At Major Bangkok Oil Depot, Residents Told To Evacuate",
-    "Explosion rocks Bangkok oil depot"
+    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital"
    ],
    "places": [
     "Thailand",
@@ -799,7 +828,17 @@
      "at": "2026-11-26T09:30:24+00:00"
     },
     {
-     "title": "Explosion occurs at oil facility in Thailand’s Bangkok",
+     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:25:01+00:00"
+    },
+    {
+     "title": "Seven injured in explosion at oil facility in Thailand’s Bangkok",
      "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -833,7 +872,8 @@
     "outlet:France Médias Monde",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Al Jazeera Media Network",
-    "outlet:NDTV"
+    "outlet:NDTV",
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
@@ -931,28 +971,30 @@
   {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
-   "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
+   "title": "Six killed, including children, in plane crash off Mississippi coast",
    "name": "Mississippi",
    "kind": "incident",
    "category": "aviation",
    "date": "2026-11-25",
-   "news_at": "2026-11-26T00:46:16+00:00",
+   "news_at": "2026-11-26T04:48:42+00:00",
    "owners": [
     "NBCUniversal",
-    "Independent Digital News",
-    "Fox Corporation"
+    "Al Jazeera Media Network",
+    "Independent Digital News"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Mississippi plane crash victims were members of a Florida family returning from a fishing trip",
-    "Six Mississippi plane crash victims named after fatal wreck on family trip",
-    "Six Florida family members killed in plane crash on way home from fishing trip identified"
+    "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
+    "Six killed, including children, in plane crash off Mississippi coast",
+    "Six Mississippi plane crash victims named after fatal wreck on family trip"
    ],
    "places": [
-    "Florida"
+    "Off",
+    "Coast",
+    "All"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -965,6 +1007,16 @@
    "label_hi": null,
    "reports": [
     {
+     "title": "Six killed, including children, in plane crash off Mississippi coast",
+     "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T04:48:42+00:00"
+    },
+    {
      "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
      "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
      "outlet": "The Independent",
@@ -975,30 +1027,20 @@
      "at": "2026-11-25T19:43:18+00:00"
     },
     {
-     "title": "Six Florida family members killed in plane crash on way home from fishing trip identified",
-     "url": "https://www.foxnews.com/us/six-florida-family-members-killed-plane-crash-way-home-fishing-trip-identified",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T00:46:16+00:00"
-    },
-    {
-     "title": "Mississippi plane crash victims were members of a Florida family returning from a fishing trip",
-     "url": "https://www.nbcnews.com/news/us-news/mississippi-plane-crash-victims-members-prominent-florida-family-rcna611318",
+     "title": "Plane Crashes Off Mississippi Coast, Killing All 6 Passengers",
+     "url": "https://www.today.com/video/plane-crashes-off-mississippi-coast-killing-all-6-passengers-274157637638",
      "outlet": "NBC News",
      "outlet_hi": "एनबीसी न्यूज़",
      "owner": "NBCUniversal",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-25T17:36:43+00:00"
+     "at": "2026-11-25T13:10:24+00:00"
     }
    ],
    "via": [
     "outlet:NBCUniversal",
-    "outlet:Independent Digital News",
-    "outlet:Fox Corporation"
+    "outlet:Al Jazeera Media Network",
+    "outlet:Independent Digital News"
    ],
    "emerging": true,
    "article": null
@@ -1077,5 +1119,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood, nw-20261125-mississippi-aviation"
+ "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 38 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood, nw-20261125-mississippi-aviation"
 }
