@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T19:44:32+00:00",
+ "at": "2026-11-26T20:15:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -68,6 +68,29 @@
    "date": "2026-11-23"
   },
   {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 134577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-26T10:04:00+00:00",
+   "headlines": [
+    "Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "google-news:Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
    "fame": 128852,
@@ -114,6 +137,32 @@
    "date": "2026-11-24"
   },
   {
+   "qid": "Q142293991",
+   "title": "2026 Giza fuel tanker explosion",
+   "fame": 100000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-26T20:15:36.350644+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25",
+    "wikipedia-current-events-2026-11-26"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142293991",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    30.10694444,
+    31.20305556
+   ],
+   "has_coords": true
+  },
+  {
    "id": "nw-20261126-kuwait-strike",
    "qid": null,
    "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
@@ -121,7 +170,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-26",
-   "news_at": "2026-11-26T19:31:40+00:00",
+   "news_at": "2026-11-26T20:00:10+00:00",
    "owners": [
     "Deutsche Welle",
     "ABC (Australia)",
@@ -203,7 +252,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-26T19:31:40+00:00"
+     "at": "2026-11-26T20:00:10+00:00"
     }
    ],
    "via": [
@@ -382,31 +431,6 @@
    "has_coords": false
   },
   {
-   "qid": "Q142293991",
-   "title": "2026 Giza fuel tanker explosion",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-26T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142293991",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    30.10694444,
-    31.20305556
-   ],
-   "has_coords": true
-  },
-  {
    "qid": "Q6896637",
    "title": "Molly Meldrum",
    "fame": 15751,
@@ -422,26 +446,6 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q6896637",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 9577,
-   "views": 9577,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q449502",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
@@ -508,38 +512,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142293991",
-   "title": "2026 Giza fuel tanker explosion",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-26T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142293991",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    30.10694444,
-    31.20305556
-   ],
-   "has_coords": true
-  }
- ],
+ "candidates": [],
  "outlets": {
   "headlines": 798,
   "feeds": 30,
   "owners": 21,
-  "matched": 34,
+  "matched": 36,
   "corroborated": 3
  },
  "emerging": [
@@ -551,7 +529,7 @@
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-26",
-   "news_at": "2026-11-26T19:31:40+00:00",
+   "news_at": "2026-11-26T20:00:10+00:00",
    "owners": [
     "Deutsche Welle",
     "ABC (Australia)",
@@ -633,7 +611,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-26T19:31:40+00:00"
+     "at": "2026-11-26T20:00:10+00:00"
     }
    ],
    "via": [
@@ -733,5 +711,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 34 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-kuwait-strike, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 798 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-kuwait-strike, nw-20261126-bangkok-explosion"
 }
