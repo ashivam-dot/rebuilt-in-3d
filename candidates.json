@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T20:45:07+00:00",
+ "at": "2026-11-26T21:15:58+00:00",
  "quakes": [],
  "trending": [
   {
@@ -68,29 +68,6 @@
    "date": "2026-11-23"
   },
   {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 134577,
-   "views": 9577,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-26T10:04:00+00:00",
-   "headlines": [
-    "Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q449502",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
    "fame": 128852,
@@ -143,7 +120,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-26T20:45:07.677074+00:00",
+   "news_at": "2026-11-26T21:15:58.617921+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -161,6 +138,45 @@
     31.20305556
    ],
    "has_coords": true
+  },
+  {
+   "qid": "Q142084937",
+   "title": "2026 Bangladesh garment workers protests",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-26T21:04:39+00:00",
+   "headlines": [
+    "Bangladesh garment workers clash with police over low wages"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Bangladesh garment workers clash with police over low wages",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "owners": [
+    "Al Jazeera Media Network"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh garment workers clash with police over low wages",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/bangladesh-garment-workers-clash-with-police-over-low-wages?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:04:39+00:00"
+    }
+   ],
+   "id": "wk-Q142084937-2026w48",
+   "kind": "incident",
+   "category": "protest",
+   "date": "2026-11-26",
+   "coords": null,
+   "has_coords": false
   },
   {
    "id": "nw-20261126-bangkok-explosion",
@@ -385,26 +401,40 @@
    "date": "2026-11-24"
   },
   {
-   "qid": "Q142084937",
-   "title": "2026 Bangladesh garment workers protests",
-   "fame": 50000,
+   "qid": "Q512148",
+   "title": "Anita DeFrantz",
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-26T00:00:00+00:00",
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-26T21:10:51+00:00",
+   "headlines": [
+    "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-25"
+    "google-news:Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
+    "outlet:Independent Digital News"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142084937-2026w48",
-   "kind": "incident",
-   "category": "protest",
-   "date": "2026-11-26",
-   "coords": null,
-   "has_coords": false
+   "owners": [
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
+     "url": "https://www.independent.co.uk/sport/olympics/anita-defrantz-death-olympics-ioc-b3092450.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:10:51+00:00"
+    }
+   ],
+   "id": "wk-Q512148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
   },
   {
    "qid": "Q6896637",
@@ -422,6 +452,26 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q6896637",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 9577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
@@ -490,167 +540,47 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261126-italian-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italian",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T20:35:23+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
+   "qid": "Q512148",
+   "title": "Anita DeFrantz",
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-26T21:10:51+00:00",
    "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Two Italians killed by ‘drone strike debris’ in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
+    "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74"
    ],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T16:32:31+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T20:35:23+00:00"
-    }
-   ],
    "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)"
+    "google-news:Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
+    "outlet:Independent Digital News"
    ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-italian-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italian",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T20:35:23+00:00",
    "owners": [
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "Paramount (CBS)"
+    "Independent Digital News"
    ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Two Italians killed by ‘drone strike debris’ in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
    "reports": [
     {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
+     "title": "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
+     "url": "https://www.independent.co.uk/sport/olympics/anita-defrantz-death-olympics-ioc-b3092450.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-26T16:32:31+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T20:35:23+00:00"
+     "at": "2026-11-26T21:10:51+00:00"
     }
    ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
+   "id": "wk-Q512148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
   }
  ],
  "outlets": {
-  "headlines": 792,
+  "headlines": 786,
   "feeds": 30,
   "owners": 21,
-  "matched": 36,
+  "matched": 38,
   "corroborated": 3
  },
  "emerging": [
@@ -820,5 +750,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 792 headlines from 30 feeds (21 owners), 36 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-italian-strike"
+ "outlet_note": "outlets: 786 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-italian-strike"
 }
