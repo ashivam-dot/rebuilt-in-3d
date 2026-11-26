@@ -1,12 +1,10 @@
 {
- "at": "2026-11-26T09:15:50+00:00",
+ "at": "2026-11-26T09:43:40+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
-  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 806 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261125-california-flood, nw-20261126-bangkok-explosion, nw-20261125-mississippi-aviation",
-  "skip nw-20261126-bangkok-explosion: gate: faceless: no free photo shows Bangkok or the event itself (only 1 photos of places or things near it)",
-  "skip nw-20261126-bangkok-explosion: gate: faceless: no free photo shows Bangkok or the event itself (only 1 photos of places or things near it)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 4 units today",
+  "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
+  "outlets: 806 headlines from 30 feeds (21 owners), 35 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood, nw-20261125-mississippi-aviation",
+  "trend radar errors: ['wikidata recent deaths: HTTP 504 (used the list from 0.5 h ago, 149 people)']"
  ]
 }
