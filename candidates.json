@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T21:44:55+00:00",
+ "at": "2026-11-26T22:15:52+00:00",
  "quakes": [],
  "trending": [
   {
@@ -120,7 +120,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-26T21:44:55.272946+00:00",
+   "news_at": "2026-11-26T22:15:52.413571+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -344,6 +344,79 @@
    "article": null
   },
   {
+   "id": "nw-20261126-thanksgiving-flood",
+   "qid": null,
+   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+   "name": "Thanksgiving",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T22:00:29+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Euronews",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T21:25:11+00:00"
+    },
+    {
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:57:53+00:00"
+    },
+    {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T22:00:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q7171945",
    "title": "Pete Edochie",
    "fame": 61123,
@@ -366,35 +439,18 @@
   {
    "qid": "Q64610",
    "title": "Veruschka",
-   "fame": 57422,
+   "fame": 32422,
    "views": 32422,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-26T18:00:52+00:00",
-   "headlines": [
-    "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
-    "outlet:Fox Corporation"
+    "wikipedia-top-2026-11-25"
    ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
-     "url": "https://www.foxnews.com/entertainment/veruschka-supermodel-casino-royale-blow-up-dead-87",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T18:00:52+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q64610",
    "kind": "death",
    "category": "death",
@@ -540,33 +596,29 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261126-bangkok-explosion",
+   "id": "nw-20261126-thanksgiving-flood",
    "qid": null,
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "name": "Bangkok",
+   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+   "name": "Thanksgiving",
    "kind": "incident",
-   "category": "explosion",
+   "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-26T18:21:59+00:00",
+   "news_at": "2026-11-26T22:00:29+00:00",
    "owners": [
+    "ABC (Australia)",
     "Euronews",
-    "BBC",
-    "Fox Corporation"
+    "Disney (ABC News)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-    "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-    "Nine injured, three critically, after Bangkok oil refinery explosion",
-    "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality"
+    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
-   "places": [
-    "Thai",
-    "Thailand"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -578,82 +630,68 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-26T16:21:19+00:00"
+     "at": "2026-11-26T21:25:11+00:00"
     },
     {
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-26T11:40:52+00:00"
+     "at": "2026-11-26T21:57:53+00:00"
     },
     {
-     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:25:01+00:00"
-    },
-    {
-     "title": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
-     "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-26T18:21:59+00:00"
+     "at": "2026-11-26T22:00:29+00:00"
     }
    ],
    "via": [
+    "outlet:ABC (Australia)",
     "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Fox Corporation"
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261126-bangkok-explosion",
+   "id": "nw-20261126-thanksgiving-flood",
    "qid": null,
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "name": "Bangkok",
+   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+   "name": "Thanksgiving",
    "kind": "incident",
-   "category": "explosion",
+   "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-26T18:21:59+00:00",
+   "news_at": "2026-11-26T22:00:29+00:00",
    "owners": [
+    "ABC (Australia)",
     "Euronews",
-    "BBC",
-    "Fox Corporation"
+    "Disney (ABC News)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-    "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-    "Nine injured, three critically, after Bangkok oil refinery explosion",
-    "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality"
+    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
-   "places": [
-    "Thai",
-    "Thailand"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -665,61 +703,51 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-26T16:21:19+00:00"
+     "at": "2026-11-26T21:25:11+00:00"
     },
     {
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-26T11:40:52+00:00"
+     "at": "2026-11-26T21:57:53+00:00"
     },
     {
-     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:25:01+00:00"
-    },
-    {
-     "title": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
-     "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-26T18:21:59+00:00"
+     "at": "2026-11-26T22:00:29+00:00"
     }
    ],
    "via": [
+    "outlet:ABC (Australia)",
     "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Fox Corporation"
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
   }
  ],
  "outlets": {
-  "headlines": 780,
+  "headlines": 781,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
-  "corroborated": 3
+  "matched": 32,
+  "corroborated": 4
  },
  "emerging": [
   {
@@ -886,7 +914,80 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261126-thanksgiving-flood",
+   "qid": null,
+   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+   "name": "Thanksgiving",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T22:00:29+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Euronews",
+    "Disney (ABC News)"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T21:25:11+00:00"
+    },
+    {
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:57:53+00:00"
+    },
+    {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T22:00:29+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 780 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-italian-strike"
+ "outlet_note": "outlets: 781 headlines from 30 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-italian-strike, nw-20261126-thanksgiving-flood"
 }
