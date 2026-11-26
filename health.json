@@ -1,11 +1,12 @@
 {
- "at": "2026-11-26T21:15:57+00:00",
+ "at": "2026-11-26T21:44:54+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 78 units today",
-  "watch: 1 candidates (0 quakes, 15 trending), 0 hazard alerts",
-  "outlets: 786 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-italian-strike",
-  "skip wk-Q512148: gate: only 2 usable photos of Anita DeFrantz on Wikimedia Commons (want 4)",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
+  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 780 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-italian-strike",
+  "skip nw-20261126-bangkok-explosion: gate: faceless: no free photo shows Bangkok or the event itself (only 2 photos of places or things near it)",
+  "skip nw-20261126-bangkok-explosion: gate: faceless: no free photo shows Bangkok or the event itself (only 2 photos of places or things near it)",
   "nothing eligible to publish"
  ]
 }
