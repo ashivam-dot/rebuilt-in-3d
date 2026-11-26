@@ -1,17 +1,16 @@
 {
- "at": "2026-11-26T18:14:05+00:00",
+ "at": "2026-11-26T18:44:14+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q527834",
    "title": "Andy Taylor (guitarist)",
-   "fame": 335665,
+   "fame": 210665,
    "views": 135665,
    "traffic": 0,
-   "news": 200000,
+   "news": 75000,
    "news_at": "2026-11-26T12:33:23+00:00",
    "headlines": [
-    "Duran Duran guitarist Andy Taylor has died at the age of 65.",
     "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
     "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "Andy Taylor, longtime Duran Duran guitarist, dies at 65"
@@ -19,9 +18,9 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-25",
-    "google-news:Duran Duran guitarist Andy Taylor has died at the age of 65.",
     "google-news:Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
     "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "google-news:Andy Taylor, longtime Duran Duran guitarist, dies at 65",
     "outlet:BBC",
     "outlet:NPR",
     "outlet:Paramount (CBS)"
@@ -61,22 +60,51 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-26T00:32:00+00:00"
-    },
-    {
-     "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
-     "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T22:16:14+00:00"
     }
    ],
    "id": "wk-Q527834",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
+  },
+  {
+   "qid": "Q64610",
+   "title": "Veruschka",
+   "fame": 182422,
+   "views": 32422,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-26T18:00:52+00:00",
+   "headlines": [
+    "Veruschka: Striking images of one of the world's first supermodels, who has died aged 87",
+    "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "google-news:Veruschka: Striking images of one of the world's first supermodels, who has died aged 87",
+    "google-news:Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
+     "url": "https://www.foxnews.com/entertainment/veruschka-supermodel-casino-royale-blow-up-dead-87",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T18:00:52+00:00"
+    }
+   ],
+   "id": "wk-Q64610",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
   },
   {
    "qid": "Q142278417",
@@ -123,6 +151,93 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
+  },
+  {
+   "id": "nw-20261126-bangkok-explosion",
+   "qid": null,
+   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+   "name": "Bangkok",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T18:21:59+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+    "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+    "Nine injured, three critically, after Bangkok oil refinery explosion",
+    "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality"
+   ],
+   "places": [
+    "Thai",
+    "Thailand"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T16:21:19+00:00"
+    },
+    {
+     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T11:40:52+00:00"
+    },
+    {
+     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:25:01+00:00"
+    },
+    {
+     "title": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
+     "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T18:21:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261126-kuwait-strike",
@@ -234,43 +349,6 @@
    "date": "2026-11-25"
   },
   {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 57422,
-   "views": 32422,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-26T18:00:52+00:00",
-   "headlines": [
-    "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
-     "url": "https://www.foxnews.com/entertainment/veruschka-supermodel-casino-royale-blow-up-dead-87",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T18:00:52+00:00"
-    }
-   ],
-   "id": "wk-Q64610",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
-  },
-  {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
    "fame": 50000,
@@ -311,7 +389,10 @@
    "kind": "incident",
    "category": "explosion",
    "date": "2026-11-25",
-   "coords": null,
+   "coords": [
+    30.10694444,
+    31.20305556
+   ],
    "has_coords": true
   },
   {
@@ -418,13 +499,100 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 801,
+  "headlines": 797,
   "feeds": 30,
   "owners": 21,
-  "matched": 35,
-  "corroborated": 2
+  "matched": 32,
+  "corroborated": 3
  },
  "emerging": [
+  {
+   "id": "nw-20261126-bangkok-explosion",
+   "qid": null,
+   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+   "name": "Bangkok",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T18:21:59+00:00",
+   "owners": [
+    "Euronews",
+    "BBC",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+    "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+    "Nine injured, three critically, after Bangkok oil refinery explosion",
+    "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality"
+   ],
+   "places": [
+    "Thai",
+    "Thailand"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T16:21:19+00:00"
+    },
+    {
+     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T11:40:52+00:00"
+    },
+    {
+     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:25:01+00:00"
+    },
+    {
+     "title": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
+     "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T18:21:59+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:BBC",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261126-kuwait-strike",
    "qid": null,
@@ -515,5 +683,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261126-kuwait-strike"
+ "outlet_note": "outlets: 797 headlines from 30 feeds (21 owners), 32 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261126-kuwait-strike"
 }
