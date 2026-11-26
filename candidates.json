@@ -1,27 +1,27 @@
 {
- "at": "2026-11-26T15:44:58+00:00",
+ "at": "2026-11-26T16:13:33+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q527834",
    "title": "Andy Taylor (guitarist)",
-   "fame": 335665,
+   "fame": 460665,
    "views": 135665,
    "traffic": 0,
-   "news": 200000,
+   "news": 325000,
    "news_at": "2026-11-26T12:33:23+00:00",
    "headlines": [
+    "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "Duran Duran guitarist Andy Taylor has died at the age of 65.",
     "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-    "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "Andy Taylor, longtime Duran Duran guitarist, dies at 65"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-25",
+    "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "google-news:Duran Duran guitarist Andy Taylor has died at the age of 65.",
     "google-news:Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-    "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "outlet:BBC",
     "outlet:NPR",
     "outlet:Paramount (CBS)"
@@ -81,10 +81,10 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 175000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
+   "news": 150000,
    "news_at": "2026-11-26T00:00:00+00:00",
    "headlines": [
     "Bangladesh raises minimum wage for garment workers after weeks of protests"
@@ -92,10 +92,24 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests"
+    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
+    "outlet:Disney (ABC News)"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
+     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T08:26:30+00:00"
+    }
+   ],
    "id": "wk-Q142084937-2026w48",
    "kind": "incident",
    "category": "protest",
@@ -127,6 +141,29 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": true
+  },
+  {
+   "qid": "Q64610",
+   "title": "Veruschka",
+   "fame": 157422,
+   "views": 32422,
+   "traffic": 0,
+   "news": 125000,
+   "news_at": "2026-11-26T10:32:20+00:00",
+   "headlines": [
+    "Veruschka: Striking images of one of the world's first supermodels, who has died aged 87"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "google-news:Veruschka: Striking images of one of the world's first supermodels, who has died aged 87"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q64610",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
   },
   {
    "qid": "Q18324601",
@@ -194,7 +231,7 @@
   {
    "id": "nw-20261125-california-flood",
    "qid": null,
-   "title": "California warns of flooding as King Tides peak over Thanksgiving",
+   "title": "King tides and powerful waves destroy pier and flood homes in California",
    "name": "California",
    "kind": "incident",
    "category": "flood",
@@ -203,24 +240,18 @@
    "owners": [
     "Guardian Media Group",
     "Paramount (CBS)",
-    "BBC",
     "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Record-breaking California tides cause major flooding of roads and businesses",
     "King tides cause monster waves, flooding on California coastline",
-    "California warns of flooding as King Tides peak over Thanksgiving",
     "King tides and powerful waves destroy pier and flood homes in California"
    ],
-   "places": [
-    "King",
-    "tides",
-    "Thanksgiving"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -231,16 +262,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "California warns of flooding as King Tides peak over Thanksgiving",
-     "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T01:22:55+00:00"
-    },
     {
      "title": "King tides and powerful waves destroy pier and flood homes in California",
      "url": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california",
@@ -275,37 +296,40 @@
    "via": [
     "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)",
-    "outlet:BBC",
     "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261125-cairo-disaster",
+   "id": "nw-20261126-kuwait-strike",
    "qid": null,
-   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-   "name": "Cairo",
+   "title": "Two Italians killed in Iranian drone strike on Kuwait",
+   "name": "Kuwait",
    "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T09:30:05+00:00",
+   "category": "strike",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T15:55:15+00:00",
    "owners": [
-    "BBC",
-    "Disney (ABC News)",
-    "Euronews"
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-    "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-    "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway"
+    "Iranian drone attack kills 2 Italians in Kuwait",
+    "Two Italians killed in Iranian drone strike on Kuwait",
+    "Two dead after Iranian drone attack on Kuwait"
    ],
-   "places": [],
-   "attackers": [],
+   "places": [
+    "Italians"
+   ],
+   "attackers": [
+    "Iranian"
+   ],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
@@ -316,40 +340,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Two Italians killed in Iranian drone strike on Kuwait",
+     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-25T22:18:06+00:00"
+     "at": "2026-11-26T15:19:02+00:00"
     },
     {
-     "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-     "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
+     "title": "Iranian drone attack kills 2 Italians in Kuwait",
+     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:11:00+00:00"
+    },
+    {
+     "title": "Two dead after Iranian drone attack on Kuwait",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-26T09:30:05+00:00"
-    },
-    {
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T23:46:17+00:00"
+     "at": "2026-11-26T15:55:15+00:00"
     }
    ],
    "via": [
-    "outlet:BBC",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
@@ -373,26 +397,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-25"
-  },
-  {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 32422,
-   "views": 32422,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q64610",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
   },
   {
    "qid": "Q6896637",
@@ -496,46 +500,36 @@
   }
  ],
  "hazards": [],
- "candidates": [],
- "outlets": {
-  "headlines": 814,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 28,
-  "corroborated": 3
- },
- "emerging": [
+ "candidates": [
   {
-   "id": "nw-20261125-california-flood",
+   "id": "nw-20261126-kuwait-strike",
    "qid": null,
-   "title": "California warns of flooding as King Tides peak over Thanksgiving",
-   "name": "California",
+   "title": "Two Italians killed in Iranian drone strike on Kuwait",
+   "name": "Kuwait",
    "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T07:13:50+00:00",
+   "category": "strike",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T15:55:15+00:00",
    "owners": [
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "BBC",
-    "Euronews"
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Al Jazeera Media Network"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Record-breaking California tides cause major flooding of roads and businesses",
-    "King tides cause monster waves, flooding on California coastline",
-    "California warns of flooding as King Tides peak over Thanksgiving",
-    "King tides and powerful waves destroy pier and flood homes in California"
+    "Iranian drone attack kills 2 Italians in Kuwait",
+    "Two Italians killed in Iranian drone strike on Kuwait",
+    "Two dead after Iranian drone attack on Kuwait"
    ],
    "places": [
-    "King",
-    "tides",
-    "Thanksgiving"
+    "Italians"
    ],
-   "attackers": [],
+   "attackers": [
+    "Iranian"
+   ],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
@@ -546,15 +540,164 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "California warns of flooding as King Tides peak over Thanksgiving",
-     "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Two Italians killed in Iranian drone strike on Kuwait",
+     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-26T01:22:55+00:00"
+     "at": "2026-11-26T15:19:02+00:00"
     },
+    {
+     "title": "Iranian drone attack kills 2 Italians in Kuwait",
+     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:11:00+00:00"
+    },
+    {
+     "title": "Two dead after Iranian drone attack on Kuwait",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T15:55:15+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261126-kuwait-strike",
+   "qid": null,
+   "title": "Two Italians killed in Iranian drone strike on Kuwait",
+   "name": "Kuwait",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T15:55:15+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Al Jazeera Media Network"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Iranian drone attack kills 2 Italians in Kuwait",
+    "Two Italians killed in Iranian drone strike on Kuwait",
+    "Two dead after Iranian drone attack on Kuwait"
+   ],
+   "places": [
+    "Italians"
+   ],
+   "attackers": [
+    "Iranian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Two Italians killed in Iranian drone strike on Kuwait",
+     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:19:02+00:00"
+    },
+    {
+     "title": "Iranian drone attack kills 2 Italians in Kuwait",
+     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:11:00+00:00"
+    },
+    {
+     "title": "Two dead after Iranian drone attack on Kuwait",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T15:55:15+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlets": {
+  "headlines": 807,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 30,
+  "corroborated": 3
+ },
+ "emerging": [
+  {
+   "id": "nw-20261125-california-flood",
+   "qid": null,
+   "title": "King tides and powerful waves destroy pier and flood homes in California",
+   "name": "California",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-26T07:13:50+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Record-breaking California tides cause major flooding of roads and businesses",
+    "King tides cause monster waves, flooding on California coastline",
+    "King tides and powerful waves destroy pier and flood homes in California"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
     {
      "title": "King tides and powerful waves destroy pier and flood homes in California",
      "url": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california",
@@ -589,37 +732,40 @@
    "via": [
     "outlet:Guardian Media Group",
     "outlet:Paramount (CBS)",
-    "outlet:BBC",
     "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
   },
   {
-   "id": "nw-20261125-cairo-disaster",
+   "id": "nw-20261126-kuwait-strike",
    "qid": null,
-   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-   "name": "Cairo",
+   "title": "Two Italians killed in Iranian drone strike on Kuwait",
+   "name": "Kuwait",
    "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T09:30:05+00:00",
+   "category": "strike",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T15:55:15+00:00",
    "owners": [
-    "BBC",
-    "Disney (ABC News)",
-    "Euronews"
+    "Deutsche Welle",
+    "ABC (Australia)",
+    "Al Jazeera Media Network"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-    "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-    "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway"
+    "Iranian drone attack kills 2 Italians in Kuwait",
+    "Two Italians killed in Iranian drone strike on Kuwait",
+    "Two dead after Iranian drone attack on Kuwait"
    ],
-   "places": [],
-   "attackers": [],
+   "places": [
+    "Italians"
+   ],
+   "attackers": [
+    "Iranian"
+   ],
    "hindi_headlines": [],
    "hindi_news": 0,
    "geos": [
@@ -630,44 +776,44 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Two Italians killed in Iranian drone strike on Kuwait",
+     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-25T22:18:06+00:00"
+     "at": "2026-11-26T15:19:02+00:00"
     },
     {
-     "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-     "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
+     "title": "Iranian drone attack kills 2 Italians in Kuwait",
+     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:11:00+00:00"
+    },
+    {
+     "title": "Two dead after Iranian drone attack on Kuwait",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-26T09:30:05+00:00"
-    },
-    {
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T23:46:17+00:00"
+     "at": "2026-11-26T15:55:15+00:00"
     }
    ],
    "via": [
-    "outlet:BBC",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
+    "outlet:Deutsche Welle",
+    "outlet:ABC (Australia)",
+    "outlet:Al Jazeera Media Network"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 814 headlines from 30 feeds (21 owners), 28 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-california-flood, nw-20261125-cairo-disaster"
+ "outlet_note": "outlets: 807 headlines from 30 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-california-flood, nw-20261126-kuwait-strike"
 }
