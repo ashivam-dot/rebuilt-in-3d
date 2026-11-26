@@ -1,27 +1,28 @@
 {
- "at": "2026-11-26T00:11:33+00:00",
+ "at": "2026-11-26T00:43:20+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q527834",
    "title": "Andy Taylor (guitarist)",
-   "fame": 275000,
+   "fame": 400000,
    "views": 0,
    "traffic": 0,
-   "news": 275000,
-   "news_at": "2026-11-25T23:37:18+00:00",
+   "news": 400000,
+   "news_at": "2026-11-26T00:32:00+00:00",
    "headlines": [
     "Andy Taylor, guitarist in Duran Duran, dies aged 65",
+    "Duran Duran guitarist Andy Taylor has died at the age of 65.",
+    "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
     "Duran Duran guitarist Andy Taylor dies aged 65",
-    "Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65",
-    "Duran Duran guitarist Andy Taylor dies at 65",
-    "Duran Duran guitarist Andy Taylor dies at 65; bandmates pay emotional tribute"
+    "Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65"
    ],
    "region": "world",
    "via": [
     "google-news:Andy Taylor, guitarist in Duran Duran, dies aged 65",
-    "google-news:Duran Duran guitarist Andy Taylor dies aged 65",
-    "google-news:Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65",
+    "google-news:Duran Duran guitarist Andy Taylor has died at the age of 65.",
+    "google-news:Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+    "outlet:Paramount (CBS)",
     "outlet:France Médias Monde",
     "outlet:SCMP Group",
     "outlet:Deutsche Welle",
@@ -31,6 +32,7 @@
     "outlet:Guardian Media Group"
    ],
    "owners": [
+    "Paramount (CBS)",
     "France Médias Monde",
     "SCMP Group",
     "Deutsche Welle",
@@ -40,6 +42,16 @@
     "Guardian Media Group"
    ],
    "reports": [
+    {
+     "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+     "url": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T00:32:00+00:00"
+    },
     {
      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
      "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
@@ -109,16 +121,6 @@
      "group": "public broadcaster",
      "lang": "en",
      "at": "2026-11-25T21:50:58+00:00"
-    },
-    {
-     "title": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
-     "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T21:41:34+00:00"
     }
    ],
    "id": "wk-Q527834",
@@ -176,6 +178,45 @@
    "kind": "incident",
    "category": "protest",
    "date": "2026-11-26",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "qid": null,
+   "title": "2026 Giza fuel tanker explosion",
+   "fame": 75000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-26T00:00:00+00:00",
+   "headlines": [
+    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T22:18:06+00:00"
+    }
+   ],
+   "id": "wp-2026_Giza_fuel_tanker_explosion",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
    "coords": null,
    "has_coords": false
   },
@@ -340,7 +381,7 @@
     "outlet:Independent Digital News"
    ],
    "emerging": true,
-   "article": null
+   "article": "2026 Giza fuel tanker explosion"
   },
   {
    "qid": "Q7816304",
@@ -361,28 +402,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-20"
-  },
-  {
-   "qid": null,
-   "title": "2026 Giza fuel tanker explosion",
-   "fame": 50000,
-   "views": 0,
-   "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-26T00:00:00+00:00",
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-current-events-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Giza_fuel_tanker_explosion",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": null,
-   "has_coords": false
   },
   {
    "qid": "Q142278417",
@@ -587,18 +606,35 @@
   {
    "qid": null,
    "title": "2026 Giza fuel tanker explosion",
-   "fame": 50000,
+   "fame": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
+   "news": 25000,
    "news_at": "2026-11-26T00:00:00+00:00",
-   "headlines": [],
+   "headlines": [
+    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-25"
+    "wikipedia-current-events-2026-11-25",
+    "google-news:Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+    "outlet:BBC"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T22:18:06+00:00"
+    }
+   ],
    "id": "wp-2026_Giza_fuel_tanker_explosion",
    "kind": "incident",
    "category": "explosion",
@@ -608,10 +644,10 @@
   }
  ],
  "outlets": {
-  "headlines": 846,
+  "headlines": 844,
   "feeds": 30,
   "owners": 21,
-  "matched": 38,
+  "matched": 44,
   "corroborated": 4
  },
  "emerging": [
@@ -776,8 +812,8 @@
     "outlet:Independent Digital News"
    ],
    "emerging": true,
-   "article": null
+   "article": "2026 Giza fuel tanker explosion"
   }
  ],
- "outlet_note": "outlets: 846 headlines from 30 feeds (21 owners), 38 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-cairo-disaster"
+ "outlet_note": "outlets: 844 headlines from 30 feeds (21 owners), 44 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-cairo-disaster"
 }
