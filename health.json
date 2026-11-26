@@ -1,11 +1,12 @@
 {
- "at": "2026-11-26T17:14:38+00:00",
+ "at": "2026-11-26T17:44:53+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 70 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 71 units today",
   "watch: 2 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 809 headlines from 30 feeds (21 owners), 32 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261126-kuwait-strike",
-  "hold nw-20261126-kuwait-strike: last Short went out 1.8 h ago",
-  "hold nw-20261126-kuwait-strike: last Short went out 1.8 h ago"
+  "outlets: 809 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261126-kuwait-strike",
+  "skip nw-20261126-kuwait-strike: gate: faceless: no free photo shows Kuwait or the event itself (only 5 photos of places or things near it)",
+  "skip nw-20261126-kuwait-strike: gate: faceless: no free photo shows Kuwait or the event itself (only 5 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
