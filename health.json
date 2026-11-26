@@ -1,10 +1,12 @@
 {
- "at": "2026-11-26T08:48:40+00:00",
+ "at": "2026-11-26T09:15:50+00:00",
  "ok": true,
  "steps": [
-  "learn: 83 scored Shorts, lifts {'kind:quake': {'n': 8, 'lift': 0.75, 'typical_views_24h': 54, 'n_retention': 7, 'typical_view_pct': 62.0}, 'kind:death': {'n': 46, 'lift': 1.223, 'typical_views_24h': 402, 'n_retention': 45, 'typical_view_pct': 51.9}, 'kind:incident': {'n': 29, 'lift': 0.873, 'typical_views_24h': 170, 'n_retention': 29, 'typical_view_pct': 58.0}, 'category:death': {'n': 45, 'lift': ",
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 2 units today",
-  "watch: 0 candidates (0 quakes, 14 trending), 0 hazard alerts",
-  "outlets: 802 headlines from 30 feeds (21 owners), 36 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-california-flood, nw-20261125-mississippi-aviation"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 3 units today",
+  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 806 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261125-california-flood, nw-20261126-bangkok-explosion, nw-20261125-mississippi-aviation",
+  "skip nw-20261126-bangkok-explosion: gate: faceless: no free photo shows Bangkok or the event itself (only 1 photos of places or things near it)",
+  "skip nw-20261126-bangkok-explosion: gate: faceless: no free photo shows Bangkok or the event itself (only 1 photos of places or things near it)",
+  "nothing eligible to publish"
  ]
 }
