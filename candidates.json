@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T17:44:54+00:00",
+ "at": "2026-11-26T18:14:05+00:00",
  "quakes": [],
  "trending": [
   {
@@ -79,29 +79,6 @@
    "date": "2026-11-23"
   },
   {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 157422,
-   "views": 32422,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-26T14:48:00+00:00",
-   "headlines": [
-    "Veruschka, one of world’s first supermodels, dead at 87"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Veruschka, one of world’s first supermodels, dead at 87"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q64610",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
-  },
-  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
    "fame": 128852,
@@ -122,8 +99,8 @@
    "category": "explosion",
    "date": "2026-11-25",
    "coords": [
-    40.790556,
-    -91.244722
+    40.80954,
+    -91.26899
    ],
    "has_coords": true
   },
@@ -150,7 +127,7 @@
   {
    "id": "nw-20261126-kuwait-strike",
    "qid": null,
-   "title": "Two Italians killed in Iranian drone strike on Kuwait",
+   "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
    "name": "Kuwait",
    "kind": "incident",
    "category": "strike",
@@ -166,13 +143,14 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Iranian drone attack kills 2 Italians in Kuwait",
-    "Two Italians killed in Iranian drone strike on Kuwait",
+    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+    "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
     "Two dead after Iranian drone attack on Kuwait",
     "Two Italians killed by ‘drone strike debris’ in Kuwait"
    ],
    "places": [
-    "Italians"
+    "Italian",
+    "Meloni"
    ],
    "attackers": [
     "Iranian"
@@ -187,7 +165,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Two Italians killed in Iranian drone strike on Kuwait",
+     "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
      "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -197,8 +175,8 @@
      "at": "2026-11-26T15:19:02+00:00"
     },
     {
-     "title": "Iranian drone attack kills 2 Italians in Kuwait",
-     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
@@ -254,6 +232,43 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-25"
+  },
+  {
+   "qid": "Q64610",
+   "title": "Veruschka",
+   "fame": 57422,
+   "views": 32422,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-26T18:00:52+00:00",
+   "headlines": [
+    "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "google-news:Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Veruschka, supermodel in 'Casino Royale' and 'Blow-Up,' dead at 87",
+     "url": "https://www.foxnews.com/entertainment/veruschka-supermodel-casino-royale-blow-up-dead-87",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T18:00:52+00:00"
+    }
+   ],
+   "id": "wk-Q64610",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
   },
   {
    "qid": "Q142084937",
@@ -401,196 +416,19 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261126-kuwait-strike",
-   "qid": null,
-   "title": "Two Italians killed in Iranian drone strike on Kuwait",
-   "name": "Kuwait",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T16:32:31+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "ABC (Australia)",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone attack kills 2 Italians in Kuwait",
-    "Two Italians killed in Iranian drone strike on Kuwait",
-    "Two dead after Iranian drone attack on Kuwait",
-    "Two Italians killed by ‘drone strike debris’ in Kuwait"
-   ],
-   "places": [
-    "Italians"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Two Italians killed in Iranian drone strike on Kuwait",
-     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:19:02+00:00"
-    },
-    {
-     "title": "Iranian drone attack kills 2 Italians in Kuwait",
-     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T16:32:31+00:00"
-    },
-    {
-     "title": "Two dead after Iranian drone attack on Kuwait",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T15:55:15+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-kuwait-strike",
-   "qid": null,
-   "title": "Two Italians killed in Iranian drone strike on Kuwait",
-   "name": "Kuwait",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T16:32:31+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "ABC (Australia)",
-    "Al Jazeera Media Network"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone attack kills 2 Italians in Kuwait",
-    "Two Italians killed in Iranian drone strike on Kuwait",
-    "Two dead after Iranian drone attack on Kuwait",
-    "Two Italians killed by ‘drone strike debris’ in Kuwait"
-   ],
-   "places": [
-    "Italians"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Two Italians killed in Iranian drone strike on Kuwait",
-     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:19:02+00:00"
-    },
-    {
-     "title": "Iranian drone attack kills 2 Italians in Kuwait",
-     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T16:32:31+00:00"
-    },
-    {
-     "title": "Two dead after Iranian drone attack on Kuwait",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T15:55:15+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:ABC (Australia)",
-    "outlet:Al Jazeera Media Network"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 809,
+  "headlines": 801,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 35,
   "corroborated": 2
  },
  "emerging": [
   {
    "id": "nw-20261126-kuwait-strike",
    "qid": null,
-   "title": "Two Italians killed in Iranian drone strike on Kuwait",
+   "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
    "name": "Kuwait",
    "kind": "incident",
    "category": "strike",
@@ -606,13 +444,14 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Iranian drone attack kills 2 Italians in Kuwait",
-    "Two Italians killed in Iranian drone strike on Kuwait",
+    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+    "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
     "Two dead after Iranian drone attack on Kuwait",
     "Two Italians killed by ‘drone strike debris’ in Kuwait"
    ],
    "places": [
-    "Italians"
+    "Italian",
+    "Meloni"
    ],
    "attackers": [
     "Iranian"
@@ -627,7 +466,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Two Italians killed in Iranian drone strike on Kuwait",
+     "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
      "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -637,8 +476,8 @@
      "at": "2026-11-26T15:19:02+00:00"
     },
     {
-     "title": "Iranian drone attack kills 2 Italians in Kuwait",
-     "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
      "outlet": "DW",
      "outlet_hi": "डीडब्ल्यू",
      "owner": "Deutsche Welle",
@@ -676,5 +515,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 809 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261126-kuwait-strike"
+ "outlet_note": "outlets: 801 headlines from 30 feeds (21 owners), 35 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261126-kuwait-strike"
 }
