@@ -1835,9 +1835,9 @@
   "kind": "incident"
  },
  "wk-Q527834": {
-  "count": 2,
+  "count": 3,
   "reason": "gate: only 2 usable photos of Andy Taylor on Wikimedia Commons (want 4)",
-  "at": "2026-11-26T02:16:34+00:00",
+  "at": "2026-11-26T14:38:49+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1889,5 +1889,21 @@
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q1743936": {
+  "count": 1,
+  "reason": "gate: only 3 usable photos of Kitty Hart-Moxon on Wikimedia Commons (want 4)",
+  "at": "2026-11-26T14:38:51+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
+ },
+ "wk-Q5253680": {
+  "count": 1,
+  "reason": "gate: no draft passed the fact checks: line 4 (She was a distinguished actress who sat in the front row of ): unsupported: The sources do not mention her sitting in the front row of a cultural debate. | second look: The source sentences do not mention her sitting in the front row of a cultural debat",
+  "at": "2026-11-26T14:50:39+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }

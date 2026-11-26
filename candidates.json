@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T13:53:02+00:00",
+ "at": "2026-11-26T14:31:07+00:00",
  "quakes": [],
  "trending": [
   {
@@ -94,10 +94,10 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 175000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
+   "news": 150000,
    "news_at": "2026-11-26T00:00:00+00:00",
    "headlines": [
     "Bangladesh raises minimum wage for garment workers after weeks of protests"
@@ -105,10 +105,24 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests"
+    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
+    "outlet:Disney (ABC News)"
    ],
-   "owners": [],
-   "reports": [],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
+     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T08:26:30+00:00"
+    }
+   ],
    "id": "wk-Q142084937-2026w48",
    "kind": "incident",
    "category": "protest",
@@ -397,79 +411,6 @@
    "article": null
   },
   {
-   "id": "nw-20261125-cairo-disaster",
-   "qid": null,
-   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-   "name": "Cairo",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T09:30:05+00:00",
-   "owners": [
-    "BBC",
-    "Disney (ABC News)",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-    "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-    "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T22:18:06+00:00"
-    },
-    {
-     "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-     "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:30:05+00:00"
-    },
-    {
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T23:46:17+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q7171945",
    "title": "Pete Edochie",
    "fame": 61123,
@@ -552,6 +493,26 @@
    "date": "2026-11-23"
   },
   {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 9577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
    "qid": "Q7816304",
    "title": "Tom Jackson (American football, born 1951)",
    "fame": 8995,
@@ -613,13 +574,543 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q527834",
+   "title": "Andy Taylor (guitarist)",
+   "fame": 485665,
+   "views": 135665,
+   "traffic": 0,
+   "news": 350000,
+   "news_at": "2026-11-26T12:33:23+00:00",
+   "headlines": [
+    "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+    "Duran Duran guitarist Andy Taylor has died at the age of 65.",
+    "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+    "Duran Duran guitarist Andy Taylor dies at 65"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "google-news:Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+    "google-news:Duran Duran guitarist Andy Taylor has died at the age of 65.",
+    "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "outlet:BBC",
+    "outlet:NPR",
+    "outlet:Paramount (CBS)",
+    "outlet:Deutsche Welle"
+   ],
+   "owners": [
+    "BBC",
+    "NPR",
+    "Paramount (CBS)",
+    "Deutsche Welle"
+   ],
+   "reports": [
+    {
+     "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+     "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T12:33:23+00:00"
+    },
+    {
+     "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+     "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit",
+     "outlet": "NPR",
+     "outlet_hi": "एनपीआर",
+     "owner": "NPR",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T06:34:20+00:00"
+    },
+    {
+     "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+     "url": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T00:32:00+00:00"
+    },
+    {
+     "title": "Duran Duran guitarist Andy Taylor dies at 65",
+     "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T22:53:00+00:00"
+    },
+    {
+     "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+     "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T22:16:14+00:00"
+    }
+   ],
+   "id": "wk-Q527834",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q1743936",
+   "title": "Kitty Hart-Moxon",
+   "fame": 5358,
+   "views": 5358,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1743936",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
+  },
+  {
+   "qid": "Q521436",
+   "title": "Libertina Amathila",
+   "fame": 4228,
+   "views": 4228,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q521436",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
+  },
+  {
+   "qid": "Q5253680",
+   "title": "Delfina Guzmán",
+   "fame": 3858,
+   "views": 3858,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5253680",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q743268",
+   "title": "Irinej Bulović",
+   "fame": 3449,
+   "views": 3449,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q743268",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q918873",
+   "title": "Thomas Menamparampil",
+   "fame": 1869,
+   "views": 1869,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "india",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q918873",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
+  },
+  {
+   "qid": "Q7319728",
+   "title": "Reza Amirkhani",
+   "fame": 4429,
+   "views": 4429,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7319728",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q7600035",
+   "title": "Stanley Wells",
+   "fame": 3985,
+   "views": 3985,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7600035",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q169507",
+   "title": "Riad Seif",
+   "fame": 1386,
+   "views": 1386,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q169507",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
+  },
+  {
+   "qid": "Q351674",
+   "title": "Hikmet Çetin",
+   "fame": 1971,
+   "views": 1971,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q351674",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q2910106",
+   "title": "Yitzhak Levy",
+   "fame": 1952,
+   "views": 1952,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2910106",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q2956815",
+   "title": "Jules Croiset",
+   "fame": 2599,
+   "views": 2599,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2956815",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q1529928",
+   "title": "Sergey Lebedev (footballer)",
+   "fame": 1477,
+   "views": 1477,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1529928",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q7099959",
+   "title": "Orazak Ismagulov",
+   "fame": 1454,
+   "views": 1454,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7099959",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q452742",
+   "title": "Catherine Clément",
+   "fame": 1819,
+   "views": 1819,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q452742",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q5511350",
+   "title": "Fábio Konder Comparato",
+   "fame": 1096,
+   "views": 1096,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q5511350",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "qid": "Q6850377",
+   "title": "Milad Farahani",
+   "fame": 2388,
+   "views": 2388,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6850377",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  },
+  {
+   "qid": "Q1488602",
+   "title": "Georges Khodr",
+   "fame": 2128,
+   "views": 2128,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q1488602",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  },
+  {
+   "qid": "Q2868045",
+   "title": "Ton Boot",
+   "fame": 1107,
+   "views": 1107,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2868045",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q435615",
+   "title": "Elizabeth Marshall Thomas",
+   "fame": 1736,
+   "views": 1736,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q435615",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  },
+  {
+   "qid": "Q16214752",
+   "title": "Tamlin Blake",
+   "fame": 1356,
+   "views": 1356,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q16214752",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  },
+  {
+   "qid": "Q2742001",
+   "title": "Ricardo Acuña",
+   "fame": 1587,
+   "views": 1587,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q2742001",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  },
+  {
+   "qid": "Q6809313",
+   "title": "Mehdi Golshani",
+   "fame": 1158,
+   "views": 1158,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q6809313",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-21"
+  }
+ ],
  "outlets": {
-  "headlines": 813,
+  "headlines": 806,
   "feeds": 30,
   "owners": 21,
-  "matched": 39,
-  "corroborated": 4
+  "matched": 31,
+  "corroborated": 3
  },
  "emerging": [
   {
@@ -821,80 +1312,8 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261125-cairo-disaster",
-   "qid": null,
-   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-   "name": "Cairo",
-   "kind": "incident",
-   "category": "disaster",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T09:30:05+00:00",
-   "owners": [
-    "BBC",
-    "Disney (ABC News)",
-    "Euronews"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-    "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-    "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T22:18:06+00:00"
-    },
-    {
-     "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-     "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:30:05+00:00"
-    },
-    {
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T23:46:17+00:00"
-    }
-   ],
-   "via": [
-    "outlet:BBC",
-    "outlet:Disney (ABC News)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 813 headlines from 30 feeds (21 owners), 39 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood, nw-20261125-cairo-disaster"
+ "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 31 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood",
+ "quiet_note": "quiet day (no Short yet today): 22 tribute candidates: Kitty Hart-Moxon, Reza Amirkhani, Libertina Amathila, Stanley Wells"
 }
