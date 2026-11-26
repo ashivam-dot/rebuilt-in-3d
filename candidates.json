@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T14:31:07+00:00",
+ "at": "2026-11-26T14:59:00+00:00",
  "quakes": [],
  "trending": [
   {
@@ -94,10 +94,10 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 200000,
+   "fame": 175000,
    "views": 0,
    "traffic": 0,
-   "news": 150000,
+   "news": 125000,
    "news_at": "2026-11-26T00:00:00+00:00",
    "headlines": [
     "Bangladesh raises minimum wage for garment workers after weeks of protests"
@@ -105,24 +105,10 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
-    "outlet:Disney (ABC News)"
+    "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests"
    ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-     "url": "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-25T08:26:30+00:00"
-    }
-   ],
+   "owners": [],
+   "reports": [],
    "id": "wk-Q142084937-2026w48",
    "kind": "incident",
    "category": "protest",
@@ -131,47 +117,27 @@
    "has_coords": false
   },
   {
-   "qid": "Q142278417",
-   "title": "Iowa lead azide detonation",
-   "fame": 153852,
-   "views": 78852,
+   "qid": "Q64610",
+   "title": "Veruschka",
+   "fame": 157422,
+   "views": 32422,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-26T13:24:06+00:00",
+   "news": 125000,
+   "news_at": "2026-11-26T06:27:20+00:00",
    "headlines": [
-    "No lead detected in Iowa air after Army's detonation, EPA says"
+    "Veruschka, one of world’s first supermodels, dies at 87"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-25",
-    "wikipedia-current-events-2026-11-25",
-    "google-news:No lead detected in Iowa air after Army's detonation, EPA says",
-    "outlet:Paramount (CBS)"
+    "google-news:Veruschka, one of world’s first supermodels, dies at 87"
    ],
-   "owners": [
-    "Paramount (CBS)"
-   ],
-   "reports": [
-    {
-     "title": "No lead detected in Iowa air after Army's detonation, EPA says",
-     "url": "https://www.cbsnews.com/video/no-lead-detected-in-iowa-air-after-armys-detonation-epa-says/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T13:24:06+00:00"
-    }
-   ],
-   "id": "wk-Q142278417",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    40.790556,
-    -91.244722
-   ],
-   "has_coords": true
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q64610",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
   },
   {
    "qid": "Q18324601",
@@ -211,114 +177,30 @@
    "date": "2026-11-24"
   },
   {
-   "id": "nw-20261126-bangkok-explosion",
-   "qid": null,
-   "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
-   "name": "Bangkok",
+   "qid": "Q142278417",
+   "title": "Iowa lead azide detonation",
+   "fame": 128852,
+   "views": 78852,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-26T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25",
+    "wikipedia-current-events-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142278417",
    "kind": "incident",
    "category": "explosion",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T11:40:52+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "Euronews",
-    "BBC"
+   "date": "2026-11-25",
+   "coords": [
+    40.790556,
+    -91.244722
    ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Huge explosion at oil depot in Bangkok sends fireball into sky",
-    "Nine injured in explosion at oil facility in Thailand’s Bangkok",
-    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-    "Explosion rocks Bangkok oil depot",
-    "Seven injured, four critically, after Bangkok oil refinery explosion"
-   ],
-   "places": [
-    "Thailand",
-    "Thai"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T11:21:50+00:00"
-    },
-    {
-     "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
-     "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T08:27:20+00:00"
-    },
-    {
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T11:40:52+00:00"
-    },
-    {
-     "title": "Explosion rocks Bangkok oil depot",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:30:24+00:00"
-    },
-    {
-     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:25:01+00:00"
-    },
-    {
-     "title": "Nine injured in explosion at oil facility in Thailand’s Bangkok",
-     "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T08:49:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Euronews",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
+   "has_coords": true
   },
   {
    "id": "nw-20261125-california-flood",
@@ -411,6 +293,165 @@
    "article": null
   },
   {
+   "id": "nw-20261126-bangkok-explosion",
+   "qid": null,
+   "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
+   "name": "Bangkok",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T11:40:52+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+    "Explosion rocks Bangkok oil depot",
+    "Seven injured, four critically, after Bangkok oil refinery explosion",
+    "Flames and thick smoke billow from Bangkok oil facility after massive explosion"
+   ],
+   "places": [
+    "Thai"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
+     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T11:21:50+00:00"
+    },
+    {
+     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T11:40:52+00:00"
+    },
+    {
+     "title": "Explosion rocks Bangkok oil depot",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:30:24+00:00"
+    },
+    {
+     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:25:01+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261125-cairo-disaster",
+   "qid": null,
+   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "name": "Cairo",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-25",
+   "news_at": "2026-11-26T09:30:05+00:00",
+   "owners": [
+    "BBC",
+    "Disney (ABC News)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+    "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+    "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T22:18:06+00:00"
+    },
+    {
+     "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+     "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:30:05+00:00"
+    },
+    {
+     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T23:46:17+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:Disney (ABC News)",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "qid": "Q7171945",
    "title": "Pete Edochie",
    "fame": 61123,
@@ -451,26 +492,6 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": true
-  },
-  {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 32422,
-   "views": 32422,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q64610",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
   },
   {
    "qid": "Q6896637",
@@ -575,135 +596,6 @@
  ],
  "hazards": [],
  "candidates": [
-  {
-   "qid": "Q527834",
-   "title": "Andy Taylor (guitarist)",
-   "fame": 485665,
-   "views": 135665,
-   "traffic": 0,
-   "news": 350000,
-   "news_at": "2026-11-26T12:33:23+00:00",
-   "headlines": [
-    "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-    "Duran Duran guitarist Andy Taylor has died at the age of 65.",
-    "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-    "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
-    "Duran Duran guitarist Andy Taylor dies at 65"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-    "google-news:Duran Duran guitarist Andy Taylor has died at the age of 65.",
-    "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-    "outlet:BBC",
-    "outlet:NPR",
-    "outlet:Paramount (CBS)",
-    "outlet:Deutsche Welle"
-   ],
-   "owners": [
-    "BBC",
-    "NPR",
-    "Paramount (CBS)",
-    "Deutsche Welle"
-   ],
-   "reports": [
-    {
-     "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-     "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T12:33:23+00:00"
-    },
-    {
-     "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-     "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit",
-     "outlet": "NPR",
-     "outlet_hi": "एनपीआर",
-     "owner": "NPR",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T06:34:20+00:00"
-    },
-    {
-     "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
-     "url": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T00:32:00+00:00"
-    },
-    {
-     "title": "Duran Duran guitarist Andy Taylor dies at 65",
-     "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T22:53:00+00:00"
-    },
-    {
-     "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
-     "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-25T22:16:14+00:00"
-    }
-   ],
-   "id": "wk-Q527834",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
-   "qid": "Q1743936",
-   "title": "Kitty Hart-Moxon",
-   "fame": 5358,
-   "views": 5358,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1743936",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
-  },
-  {
-   "qid": "Q521436",
-   "title": "Libertina Amathila",
-   "fame": 4228,
-   "views": 4228,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "quiet day"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q521436",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
-  },
   {
    "qid": "Q5253680",
    "title": "Delfina Guzmán",
@@ -863,6 +755,26 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
+  },
+  {
+   "qid": "Q18515483",
+   "title": "Marva Nabili",
+   "fame": 1120,
+   "views": 1120,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q18515483",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
   },
   {
    "qid": "Q2956815",
@@ -1045,6 +957,26 @@
    "date": "2026-11-22"
   },
   {
+   "qid": "Q24006650",
+   "title": "Abdul Halim Abdul Samad",
+   "fame": 1556,
+   "views": 1556,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "quiet day"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q24006650",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-22"
+  },
+  {
    "qid": "Q16214752",
    "title": "Tamlin Blake",
    "fame": 1356,
@@ -1106,123 +1038,13 @@
   }
  ],
  "outlets": {
-  "headlines": 806,
+  "headlines": 810,
   "feeds": 30,
   "owners": 21,
-  "matched": 31,
-  "corroborated": 3
+  "matched": 29,
+  "corroborated": 4
  },
  "emerging": [
-  {
-   "id": "nw-20261126-bangkok-explosion",
-   "qid": null,
-   "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
-   "name": "Bangkok",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T11:40:52+00:00",
-   "owners": [
-    "France Médias Monde",
-    "Al Jazeera Media Network",
-    "Euronews",
-    "BBC"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Huge explosion at oil depot in Bangkok sends fireball into sky",
-    "Nine injured in explosion at oil facility in Thailand’s Bangkok",
-    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-    "Explosion rocks Bangkok oil depot",
-    "Seven injured, four critically, after Bangkok oil refinery explosion"
-   ],
-   "places": [
-    "Thailand",
-    "Thai"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T11:21:50+00:00"
-    },
-    {
-     "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
-     "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T08:27:20+00:00"
-    },
-    {
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T11:40:52+00:00"
-    },
-    {
-     "title": "Explosion rocks Bangkok oil depot",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:30:24+00:00"
-    },
-    {
-     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:25:01+00:00"
-    },
-    {
-     "title": "Nine injured in explosion at oil facility in Thailand’s Bangkok",
-     "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T08:49:20+00:00"
-    }
-   ],
-   "via": [
-    "outlet:France Médias Monde",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Euronews",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
   {
    "id": "nw-20261125-california-flood",
    "qid": null,
@@ -1312,8 +1134,167 @@
    ],
    "emerging": true,
    "article": null
+  },
+  {
+   "id": "nw-20261126-bangkok-explosion",
+   "qid": null,
+   "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
+   "name": "Bangkok",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T11:40:52+00:00",
+   "owners": [
+    "Euronews",
+    "Al Jazeera Media Network",
+    "BBC"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+    "Explosion rocks Bangkok oil depot",
+    "Seven injured, four critically, after Bangkok oil refinery explosion",
+    "Flames and thick smoke billow from Bangkok oil facility after massive explosion"
+   ],
+   "places": [
+    "Thai"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
+     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T11:21:50+00:00"
+    },
+    {
+     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T11:40:52+00:00"
+    },
+    {
+     "title": "Explosion rocks Bangkok oil depot",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:30:24+00:00"
+    },
+    {
+     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:25:01+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Euronews",
+    "outlet:Al Jazeera Media Network",
+    "outlet:BBC"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261125-cairo-disaster",
+   "qid": null,
+   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "name": "Cairo",
+   "kind": "incident",
+   "category": "disaster",
+   "date": "2026-11-25",
+   "news_at": "2026-11-26T09:30:05+00:00",
+   "owners": [
+    "BBC",
+    "Disney (ABC News)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+    "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+    "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-25T22:18:06+00:00"
+    },
+    {
+     "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+     "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T09:30:05+00:00"
+    },
+    {
+     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-25T23:46:17+00:00"
+    }
+   ],
+   "via": [
+    "outlet:BBC",
+    "outlet:Disney (ABC News)",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
- "outlet_note": "outlets: 806 headlines from 30 feeds (21 owners), 31 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood",
- "quiet_note": "quiet day (no Short yet today): 22 tribute candidates: Kitty Hart-Moxon, Reza Amirkhani, Libertina Amathila, Stanley Wells"
+ "outlet_note": "outlets: 810 headlines from 30 feeds (21 owners), 29 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261125-california-flood, nw-20261126-bangkok-explosion, nw-20261125-cairo-disaster",
+ "quiet_note": "quiet day (no Short yet today): 22 tribute candidates: Reza Amirkhani, Stanley Wells, Delfina Guzmán, Irinej Bulović"
 }
