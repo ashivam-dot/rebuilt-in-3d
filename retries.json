@@ -1867,11 +1867,19 @@
   "kind": "incident"
  },
  "wk-Q142293991": {
-  "count": 1,
-  "reason": "gate: only 3 usable photos of 2026 Giza fuel tanker explosion on Wikimedia Commons (want 4)",
-  "at": "2026-11-26T03:18:05+00:00",
+  "count": 2,
+  "reason": "gate: faceless: no free photo shows 2026 Giza fuel tanker explosion or the event itself (only 4 photos of places or things near it)",
+  "at": "2026-11-26T07:22:33+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
+ },
+ "wk-Q449502": {
+  "count": 1,
+  "reason": "gate: only 2 usable photos of Michael Giles on Wikimedia Commons (want 4)",
+  "at": "2026-11-26T07:22:34+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "death"
  }
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T06:46:41+00:00",
+ "at": "2026-11-26T07:17:38+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,20 +9,20 @@
    "views": 135665,
    "traffic": 500,
    "news": 400000,
-   "news_at": "2026-11-26T06:34:20+00:00",
+   "news_at": "2026-11-26T06:51:43+00:00",
    "headlines": [
     "Andy Taylor, versatile guitarist for Duran Duran, dies at 65",
-    "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
-    "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "Duran Duran guitarist Andy Taylor dies aged 65",
-    "Andy Taylor, longtime Duran Duran guitarist, dies at 65"
+    "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+    "Andy Taylor, guitarist who helped define Duran Duran’s 80s sound, dead at 65"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-25",
     "google-trends-IN:music",
     "google-news:Andy Taylor, versatile guitarist for Duran Duran, dies at 65",
-    "google-news:Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+    "google-news:Duran Duran guitarist Andy Taylor dies aged 65",
     "google-news:Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
     "outlet:NPR",
     "outlet:BBC",
@@ -131,13 +131,12 @@
   {
    "qid": "Q142084937",
    "title": "2026 Bangladesh garment workers protests",
-   "fame": 375000,
+   "fame": 250000,
    "views": 0,
    "traffic": 0,
-   "news": 325000,
+   "news": 200000,
    "news_at": "2026-11-26T06:23:06+00:00",
    "headlines": [
-    "Bangladesh garment workers win 36% wage rise",
     "Bangladesh raises minimum wage for garment workers after weeks of protests",
     "Bangladesh Garment Workers Demand Wage Hike, Protests Force Factory Shutdowns",
     "Bangladesh garment workers win 36% minimum wage rise after protests"
@@ -145,9 +144,9 @@
    "region": "world",
    "via": [
     "wikipedia-current-events-2026-11-25",
-    "google-news:Bangladesh garment workers win 36% wage rise",
     "google-news:Bangladesh raises minimum wage for garment workers after weeks of protests",
     "google-news:Bangladesh Garment Workers Demand Wage Hike, Protests Force Factory Shutdowns",
+    "google-news:Bangladesh garment workers win 36% minimum wage rise after protests",
     "outlet:NDTV",
     "outlet:SCMP Group",
     "outlet:Disney (ABC News)"
@@ -224,9 +223,9 @@
   {
    "qid": "Q18324601",
    "title": "Martha Firestone Ford",
-   "fame": 137293,
+   "fame": 136793,
    "views": 111793,
-   "traffic": 500,
+   "traffic": 0,
    "news": 25000,
    "news_at": "2026-11-25T16:15:26+00:00",
    "headlines": [
@@ -235,7 +234,6 @@
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-25",
-    "google-trends-US:lion",
     "google-news:Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
     "outlet:Independent Digital News"
    ],
@@ -284,6 +282,96 @@
     -91.244722
    ],
    "has_coords": true
+  },
+  {
+   "id": "nw-20261125-california-flood",
+   "qid": null,
+   "title": "California warns of flooding as King Tides peak over Thanksgiving",
+   "name": "California",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-26T07:13:50+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Record-breaking California tides cause major flooding of roads and businesses",
+    "King tides cause monster waves, flooding on California coastline",
+    "California warns of flooding as King Tides peak over Thanksgiving",
+    "King tides and powerful waves destroy pier and flood homes in California"
+   ],
+   "places": [
+    "King",
+    "tides",
+    "Thanksgiving"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "California warns of flooding as King Tides peak over Thanksgiving",
+     "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T01:22:55+00:00"
+    },
+    {
+     "title": "King tides and powerful waves destroy pier and flood homes in California",
+     "url": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T07:13:50+00:00"
+    },
+    {
+     "title": "Record-breaking California tides cause major flooding of roads and businesses",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T22:56:36+00:00"
+    },
+    {
+     "title": "King tides cause monster waves, flooding on California coastline",
+     "url": "https://www.cbsnews.com/video/king-tides-cause-monster-waves-flooding-california-coastline/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T00:59:01+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "id": "nw-20261125-mississippi-aviation",
@@ -361,83 +449,6 @@
    "article": null
   },
   {
-   "id": "nw-20261125-california-flood",
-   "qid": null,
-   "title": "California warns of flooding as King Tides peak over Thanksgiving",
-   "name": "California",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T01:22:55+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Record-breaking California tides cause major flooding of roads and businesses",
-    "King tides cause monster waves, flooding on California coastline",
-    "California warns of flooding as King Tides peak over Thanksgiving"
-   ],
-   "places": [
-    "King",
-    "tides",
-    "Thanksgiving"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "California warns of flooding as King Tides peak over Thanksgiving",
-     "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T01:22:55+00:00"
-    },
-    {
-     "title": "Record-breaking California tides cause major flooding of roads and businesses",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T22:56:36+00:00"
-    },
-    {
-     "title": "King tides cause monster waves, flooding on California coastline",
-     "url": "https://www.cbsnews.com/video/king-tides-cause-monster-waves-flooding-california-coastline/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T00:59:01+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q7171945",
    "title": "Pete Edochie",
    "fame": 61123,
@@ -493,6 +504,26 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q6896637",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 9577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
@@ -584,16 +615,126 @@
    "date": "2026-11-25",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 9577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
   }
  ],
  "outlets": {
-  "headlines": 811,
+  "headlines": 816,
   "feeds": 30,
   "owners": 21,
-  "matched": 41,
+  "matched": 38,
   "corroborated": 4
  },
  "emerging": [
+  {
+   "id": "nw-20261125-california-flood",
+   "qid": null,
+   "title": "California warns of flooding as King Tides peak over Thanksgiving",
+   "name": "California",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-25",
+   "news_at": "2026-11-26T07:13:50+00:00",
+   "owners": [
+    "Guardian Media Group",
+    "Paramount (CBS)",
+    "BBC",
+    "Euronews"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Record-breaking California tides cause major flooding of roads and businesses",
+    "King tides cause monster waves, flooding on California coastline",
+    "California warns of flooding as King Tides peak over Thanksgiving",
+    "King tides and powerful waves destroy pier and flood homes in California"
+   ],
+   "places": [
+    "King",
+    "tides",
+    "Thanksgiving"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "California warns of flooding as King Tides peak over Thanksgiving",
+     "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T01:22:55+00:00"
+    },
+    {
+     "title": "King tides and powerful waves destroy pier and flood homes in California",
+     "url": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T07:13:50+00:00"
+    },
+    {
+     "title": "Record-breaking California tides cause major flooding of roads and businesses",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+     "outlet": "The Guardian",
+     "outlet_hi": "द गार्डियन",
+     "owner": "Guardian Media Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-25T22:56:36+00:00"
+    },
+    {
+     "title": "King tides cause monster waves, flooding on California coastline",
+     "url": "https://www.cbsnews.com/video/king-tides-cause-monster-waves-flooding-california-coastline/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T00:59:01+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)",
+    "outlet:BBC",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261125-mississippi-aviation",
    "qid": null,
@@ -668,84 +809,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261125-california-flood",
-   "qid": null,
-   "title": "California warns of flooding as King Tides peak over Thanksgiving",
-   "name": "California",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-25",
-   "news_at": "2026-11-26T01:22:55+00:00",
-   "owners": [
-    "Guardian Media Group",
-    "Paramount (CBS)",
-    "BBC"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Record-breaking California tides cause major flooding of roads and businesses",
-    "King tides cause monster waves, flooding on California coastline",
-    "California warns of flooding as King Tides peak over Thanksgiving"
-   ],
-   "places": [
-    "King",
-    "tides",
-    "Thanksgiving"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "California warns of flooding as King Tides peak over Thanksgiving",
-     "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T01:22:55+00:00"
-    },
-    {
-     "title": "Record-breaking California tides cause major flooding of roads and businesses",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-25T22:56:36+00:00"
-    },
-    {
-     "title": "King tides cause monster waves, flooding on California coastline",
-     "url": "https://www.cbsnews.com/video/king-tides-cause-monster-waves-flooding-california-coastline/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T00:59:01+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:BBC"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 811 headlines from 30 feeds (21 owners), 41 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-mississippi-aviation, nw-20261125-california-flood"
+ "outlet_note": "outlets: 816 headlines from 30 feeds (21 owners), 38 matched to articles, 4 candidates with 2+ owners, 2 nw- stories (on): nw-20261125-california-flood, nw-20261125-mississippi-aviation"
 }
