@@ -1,9 +1,13 @@
 {
- "at": "2026-11-26T10:13:57+00:00",
+ "at": "2026-11-26T10:53:23+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 5 units today",
-  "watch: 0 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 809 headlines from 30 feeds (21 owners), 38 matched to articles, 5 candidates with 2+ owners, 4 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood, nw-20261125-mississippi-aviation"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 6 units today",
+  "watch: 2 candidates (0 quakes, 15 trending), 0 hazard alerts",
+  "outlets: 784 headlines from 29 feeds (20 owners), 38 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-bangkok-explosion, nw-20261125-california-flood, nw-20261125-cairo-disaster",
+  "trend radar errors: ['outlet france24: HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/rss']",
+  "skip wk-Q142278417: gate: no draft passed the fact checks: beat 5 name(s) nothing its photo shows (only 61% of the script shows what it says; want 70%): in each, name who or what a photo shows (Derek Lowe), or say what an EVENT photo itself shows (the words of its description: the march, the smoke, the police line) without naming someone who has no photo",
+  "skip wk-Q449502: gate: only 2 usable photos of Michael Giles on Wikimedia Commons (want 4)",
+  "nothing eligible to publish"
  ]
 }
