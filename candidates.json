@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T22:45:01+00:00",
+ "at": "2026-11-26T22:59:36+00:00",
  "quakes": [],
  "trending": [
   {
@@ -120,7 +120,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-26T22:45:01.180759+00:00",
+   "news_at": "2026-11-26T22:59:36.957750+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -471,42 +471,6 @@
    "date": "2026-11-24"
   },
   {
-   "qid": "Q512148",
-   "title": "Anita DeFrantz",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-26T21:10:51+00:00",
-   "headlines": [
-    "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
-     "url": "https://www.independent.co.uk/sport/olympics/anita-defrantz-death-olympics-ioc-b3092450.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:10:51+00:00"
-    }
-   ],
-   "id": "wk-Q512148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
-  },
-  {
    "qid": "Q6896637",
    "title": "Molly Meldrum",
    "fame": 15751,
@@ -522,26 +486,6 @@
    "owners": [],
    "reports": [],
    "id": "wk-Q6896637",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 9577,
-   "views": 9577,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q449502",
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
@@ -608,197 +552,20 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "id": "nw-20261126-italians-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italians",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T22:33:04+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "Paramount (CBS)",
-    "NDTV"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Two Italians killed by ‘drone strike debris’ in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni",
-    "Denies"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T16:32:31+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T20:35:23+00:00"
-    },
-    {
-     "title": "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
-     "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-26T22:33:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-italians-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italians",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T22:33:04+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Al Jazeera Media Network",
-    "Paramount (CBS)",
-    "NDTV"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Two Italians killed by ‘drone strike debris’ in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni",
-    "Denies"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-     "outlet": "Al Jazeera",
-     "outlet_hi": "अल जज़ीरा",
-     "owner": "Al Jazeera Media Network",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T16:32:31+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T20:35:23+00:00"
-    },
-    {
-     "title": "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
-     "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-26T22:33:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Al Jazeera Media Network",
-    "outlet:Paramount (CBS)",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
-  }
+ "candidates": [],
+ "trend_errors": [
+  "outlet scmp: HTTPError: HTTP 429",
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 777,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 32,
+  "headlines": 718,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 30,
   "corroborated": 4
  },
  "emerging": [
@@ -1055,5 +822,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 777 headlines from 30 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-bangkok-explosion, nw-20261126-thanksgiving-flood"
+ "outlet_note": "outlets: 718 headlines from 29 feeds (20 owners), 30 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-bangkok-explosion, nw-20261126-thanksgiving-flood"
 }

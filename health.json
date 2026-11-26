@@ -1,12 +1,10 @@
 {
- "at": "2026-11-26T22:45:00+00:00",
+ "at": "2026-11-26T22:59:36+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 81 units today",
-  "watch: 2 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 777 headlines from 30 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-bangkok-explosion, nw-20261126-thanksgiving-flood",
-  "skip nw-20261126-italians-strike: gate: faceless: no free photo shows Italians or the event itself (only 7 photos of places or things near it)",
-  "skip nw-20261126-italians-strike: gate: faceless: no free photo shows Italians or the event itself (only 7 photos of places or things near it)",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 82 units today",
+  "watch: 0 candidates (0 quakes, 14 trending), 0 hazard alerts",
+  "outlets: 718 headlines from 29 feeds (20 owners), 30 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-bangkok-explosion, nw-20261126-thanksgiving-flood",
+  "trend radar errors: ['outlet scmp: HTTPError: HTTP 429', 'google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']"
  ]
 }
