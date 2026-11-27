@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T02:01:31+00:00",
+ "at": "2026-11-27T02:32:14+00:00",
  "quakes": [],
  "trending": [
   {
@@ -68,6 +68,118 @@
    "date": "2026-11-23"
   },
   {
+   "qid": "Q18324601",
+   "title": "Martha Firestone Ford",
+   "fame": 111793,
+   "views": 111793,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q18324601",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "nw-20261126-italians-strike",
+   "qid": null,
+   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+   "name": "Italians",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-26",
+   "news_at": "2026-11-27T02:29:01+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "NDTV",
+    "SCMP Group",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+    "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
+    "Iran denies launching drone attack that killed Italians in Kuwait",
+    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait"
+   ],
+   "places": [
+    "Kuwait",
+    "Meloni",
+    "Denies"
+   ],
+   "attackers": [
+    "Iranian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:11:00+00:00"
+    },
+    {
+     "title": "Iran denies launching drone attack that killed Italians in Kuwait",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-27T02:28:47+00:00"
+    },
+    {
+     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T02:29:01+00:00"
+    },
+    {
+     "title": "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
+     "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-26T22:33:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261126-thanksgiving-flood",
    "qid": null,
    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
@@ -75,24 +187,22 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T01:49:54+00:00",
+   "news_at": "2026-11-27T02:11:00+00:00",
    "owners": [
-    "ABC (Australia)",
     "Euronews",
-    "Disney (ABC News)",
     "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Disney (ABC News)"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Thanksgiving storm damages buildings, floods streets, causes power outages",
     "Major Thanksgiving storm brings flooding, flight delays across US",
-    "Powerful Thanksgiving Day storm causes flooding, power outages"
+    "Powerful Thanksgiving Day storm causes flooding, power outages",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
    "places": [],
    "attackers": [],
@@ -116,16 +226,6 @@
      "at": "2026-11-27T00:52:11+00:00"
     },
     {
-     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T21:25:11+00:00"
-    },
-    {
      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
      "outlet": "Euronews",
@@ -143,7 +243,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T01:49:54+00:00"
+     "at": "2026-11-27T02:11:00+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -157,34 +257,13 @@
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
     "outlet:Euronews",
-    "outlet:Disney (ABC News)",
     "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "qid": "Q18324601",
-   "title": "Martha Firestone Ford",
-   "fame": 111793,
-   "views": 111793,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q18324601",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
   },
   {
    "qid": "Q142278417",
@@ -294,85 +373,6 @@
     "outlet:Euronews",
     "outlet:BBC",
     "outlet:Fox Corporation"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-italians-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italians",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T22:33:04+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Paramount (CBS)",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni",
-    "Denies"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T20:35:23+00:00"
-    },
-    {
-     "title": "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
-     "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-26T22:33:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Paramount (CBS)",
-    "outlet:NDTV"
    ],
    "emerging": true,
    "article": null
@@ -595,17 +595,106 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "outlet thehindu: HTTPError: 403 Client Error: Forbidden for url: https://www.thehindu.com/news/national/feeder/default.rss"
- ],
  "outlets": {
-  "headlines": 699,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 33,
+  "headlines": 758,
+  "feeds": 30,
+  "owners": 21,
+  "matched": 34,
   "corroborated": 5
  },
  "emerging": [
+  {
+   "id": "nw-20261126-italians-strike",
+   "qid": null,
+   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+   "name": "Italians",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-26",
+   "news_at": "2026-11-27T02:29:01+00:00",
+   "owners": [
+    "Deutsche Welle",
+    "NDTV",
+    "SCMP Group",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+    "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
+    "Iran denies launching drone attack that killed Italians in Kuwait",
+    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait"
+   ],
+   "places": [
+    "Kuwait",
+    "Meloni",
+    "Denies"
+   ],
+   "attackers": [
+    "Iranian"
+   ],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T15:11:00+00:00"
+    },
+    {
+     "title": "Iran denies launching drone attack that killed Italians in Kuwait",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-27T02:28:47+00:00"
+    },
+    {
+     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T02:29:01+00:00"
+    },
+    {
+     "title": "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
+     "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-26T22:33:04+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Deutsche Welle",
+    "outlet:NDTV",
+    "outlet:SCMP Group",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
   {
    "id": "nw-20261126-thanksgiving-flood",
    "qid": null,
@@ -614,24 +703,22 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T01:49:54+00:00",
+   "news_at": "2026-11-27T02:11:00+00:00",
    "owners": [
-    "ABC (Australia)",
     "Euronews",
-    "Disney (ABC News)",
     "BBC",
-    "Paramount (CBS)"
+    "Paramount (CBS)",
+    "Disney (ABC News)"
    ],
-   "fame": 125000,
-   "news": 125000,
+   "fame": 100000,
+   "news": 100000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Thanksgiving storm damages buildings, floods streets, causes power outages",
     "Major Thanksgiving storm brings flooding, flight delays across US",
-    "Powerful Thanksgiving Day storm causes flooding, power outages"
+    "Powerful Thanksgiving Day storm causes flooding, power outages",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
    "places": [],
    "attackers": [],
@@ -655,16 +742,6 @@
      "at": "2026-11-27T00:52:11+00:00"
     },
     {
-     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T21:25:11+00:00"
-    },
-    {
      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
      "outlet": "Euronews",
@@ -682,7 +759,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T01:49:54+00:00"
+     "at": "2026-11-27T02:11:00+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -696,11 +773,10 @@
     }
    ],
    "via": [
-    "outlet:ABC (Australia)",
     "outlet:Euronews",
-    "outlet:Disney (ABC News)",
     "outlet:BBC",
-    "outlet:Paramount (CBS)"
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -791,86 +867,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261126-italians-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italians",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T22:33:04+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "Paramount (CBS)",
-    "NDTV"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni",
-    "Denies"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T20:35:23+00:00"
-    },
-    {
-     "title": "2 Italians Killed In Drone Strike In Kuwait, Iran Denies Responsibility",
-     "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-26T22:33:04+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:Paramount (CBS)",
-    "outlet:NDTV"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 699 headlines from 29 feeds (20 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion, nw-20261126-italians-strike"
+ "outlet_note": "outlets: 758 headlines from 30 feeds (21 owners), 34 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
