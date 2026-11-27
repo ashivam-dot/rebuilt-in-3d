@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T04:59:03+00:00",
+ "at": "2026-11-27T05:30:13+00:00",
  "quakes": [],
  "trending": [
   {
@@ -167,11 +167,11 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T04:37:41+00:00",
+   "news_at": "2026-11-27T05:15:26+00:00",
    "owners": [
     "Euronews",
-    "BBC",
     "Paramount (CBS)",
+    "BBC",
     "Disney (ABC News)"
    ],
    "fame": 100000,
@@ -180,8 +180,8 @@
    "traffic": 0,
    "headlines": [
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Major Thanksgiving storm brings flooding, flight delays across US",
     "Powerful Thanksgiving Day storm causes flooding, power outages",
+    "Major Thanksgiving storm brings flooding, flight delays across US",
     "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
    "places": [],
@@ -203,7 +203,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-27T00:52:11+00:00"
+     "at": "2026-11-27T05:15:26+00:00"
     },
     {
      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
@@ -216,6 +216,16 @@
      "at": "2026-11-26T21:57:53+00:00"
     },
     {
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T05:03:15+00:00"
+    },
+    {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
      "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
      "outlet": "ABC News",
@@ -224,22 +234,12 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-27T04:37:41+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T02:11:00+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:BBC",
     "outlet:Paramount (CBS)",
+    "outlet:BBC",
     "outlet:Disney (ABC News)"
    ],
    "emerging": true,
@@ -473,6 +473,42 @@
    "date": "2026-11-25"
   },
   {
+   "qid": "Q1287886",
+   "title": "Strobe Talbott",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-27T03:10:20+00:00",
+   "headlines": [
+    "Strobe Talbott, former deputy secretary of state and Brookings Institution president, dies at 80"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Strobe Talbott, former deputy secretary of state and Brookings Institution president, dies at 80",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Strobe Talbott, former deputy secretary of state and Brookings Institution president, dies at 80",
+     "url": "https://www.foxnews.com/politics/strobe-talbott-former-deputy-secretary-state-brookings-institution-president-dies-80",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T03:10:20+00:00"
+    }
+   ],
+   "id": "wk-Q1287886",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-26"
+  },
+  {
    "qid": "Q7032653",
    "title": "Nigel Starmer-Smith",
    "fame": 20194,
@@ -554,12 +590,49 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q1287886",
+   "title": "Strobe Talbott",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-27T03:10:20+00:00",
+   "headlines": [
+    "Strobe Talbott, former deputy secretary of state and Brookings Institution president, dies at 80"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Strobe Talbott, former deputy secretary of state and Brookings Institution president, dies at 80",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Strobe Talbott, former deputy secretary of state and Brookings Institution president, dies at 80",
+     "url": "https://www.foxnews.com/politics/strobe-talbott-former-deputy-secretary-state-brookings-institution-president-dies-80",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T03:10:20+00:00"
+    }
+   ],
+   "id": "wk-Q1287886",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-26"
+  }
+ ],
  "outlets": {
-  "headlines": 743,
+  "headlines": 734,
   "feeds": 29,
   "owners": 21,
-  "matched": 37,
+  "matched": 36,
   "corroborated": 5
  },
  "emerging": [
@@ -663,11 +736,11 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T04:37:41+00:00",
+   "news_at": "2026-11-27T05:15:26+00:00",
    "owners": [
     "Euronews",
-    "BBC",
     "Paramount (CBS)",
+    "BBC",
     "Disney (ABC News)"
    ],
    "fame": 100000,
@@ -676,8 +749,8 @@
    "traffic": 0,
    "headlines": [
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Major Thanksgiving storm brings flooding, flight delays across US",
     "Powerful Thanksgiving Day storm causes flooding, power outages",
+    "Major Thanksgiving storm brings flooding, flight delays across US",
     "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
    "places": [],
@@ -699,7 +772,7 @@
      "owner": "BBC",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-27T00:52:11+00:00"
+     "at": "2026-11-27T05:15:26+00:00"
     },
     {
      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
@@ -712,6 +785,16 @@
      "at": "2026-11-26T21:57:53+00:00"
     },
     {
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T05:03:15+00:00"
+    },
+    {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
      "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
      "outlet": "ABC News",
@@ -720,22 +803,12 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-27T04:37:41+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T02:11:00+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:BBC",
     "outlet:Paramount (CBS)",
+    "outlet:BBC",
     "outlet:Disney (ABC News)"
    ],
    "emerging": true,
@@ -829,5 +902,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 743 headlines from 29 feeds (21 owners), 37 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 734 headlines from 29 feeds (21 owners), 36 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
