@@ -1,13 +1,10 @@
 {
- "at": "2026-11-27T03:00:28+00:00",
+ "at": "2026-11-27T03:30:58+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 90 units today",
-  "watch: 2 candidates (0 quakes, 13 trending), 0 hazard alerts",
-  "outlets: 707 headlines from 29 feeds (20 owners), 34 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion, nw-20261126-italians-strike",
-  "trend radar errors: ['outlet scmp: HTTPError: HTTP 429']",
-  "skip wk-Q7032653: gate: no photo on Wikimedia Commons shows Nigel Starmer-Smith's face (a tribute needs one)",
-  "skip wk-Q7313575: gate: Wikidata lacks an exact birth or death date",
-  "nothing eligible to publish"
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 91 units today",
+  "watch: 0 candidates (0 quakes, 13 trending), 0 hazard alerts",
+  "outlets: 755 headlines from 30 feeds (21 owners), 37 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion",
+  "trend radar errors: ['google news world: HTTP 429']"
  ]
 }
