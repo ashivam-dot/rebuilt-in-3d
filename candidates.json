@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T03:30:59+00:00",
+ "at": "2026-11-27T04:02:09+00:00",
  "quakes": [],
  "trending": [
   {
@@ -556,13 +556,17 @@
  "hazards": [],
  "candidates": [],
  "trend_errors": [
-  "google news world: HTTP 429"
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 755,
-  "feeds": 30,
+  "headlines": 743,
+  "feeds": 29,
   "owners": 21,
-  "matched": 37,
+  "matched": 33,
   "corroborated": 5
  },
  "emerging": [
@@ -832,5 +836,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 755 headlines from 30 feeds (21 owners), 37 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 743 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
