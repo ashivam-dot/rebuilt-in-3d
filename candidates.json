@@ -1,20 +1,19 @@
 {
- "at": "2026-11-27T22:31:32+00:00",
+ "at": "2026-11-27T23:26:14+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q527834",
    "title": "Andy Taylor (guitarist)",
-   "fame": 318900,
+   "fame": 318400,
    "views": 318400,
-   "traffic": 500,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26",
-    "google-trends-GB:duran duran members"
+    "wikipedia-top-2026-11-26"
    ],
    "owners": [],
    "reports": [],
@@ -22,6 +21,44 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
+  },
+  {
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-27T22:26:27+00:00",
+   "headlines": [
+    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
   },
   {
    "qid": "Q1287886",
@@ -191,42 +228,6 @@
    "has_coords": true
   },
   {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-27T22:26:27+00:00",
-   "headlines": [
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
    "qid": "Q7032653",
    "title": "Nigel Starmer-Smith",
    "fame": 20194,
@@ -308,51 +309,14 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-27T22:26:27+00:00",
-   "headlines": [
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 755,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 38,
+  "headlines": 753,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 36,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 755 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 753 headlines from 29 feeds (20 owners), 36 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
