@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T17:33:30+00:00",
+ "at": "2026-11-27T18:03:01+00:00",
  "quakes": [],
  "trending": [
   {
@@ -47,7 +47,7 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T16:53:04+00:00",
+   "news_at": "2026-11-27T17:48:36+00:00",
    "owners": [
     "Euronews",
     "France Médias Monde",
@@ -115,7 +115,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T16:53:04+00:00"
+     "at": "2026-11-27T17:48:36+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -216,95 +216,6 @@
    "date": "2026-11-26"
   },
   {
-   "id": "nw-20261127-italians-strike",
-   "qid": null,
-   "title": "Kuwait: Two Italians killed in drone attack",
-   "name": "Italians",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-27",
-   "news_at": "2026-11-27T11:45:48+00:00",
-   "owners": [
-    "SCMP Group",
-    "Paramount (CBS)",
-    "Euronews",
-    "France Médias Monde"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iran denies role in drone attack that killed Italians in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-    "Kuwait: Two Italians killed in drone attack"
-   ],
-   "places": [
-    "Kuwait",
-    "two"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Kuwait: Two Italians killed in drone attack",
-     "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-27T11:45:48+00:00"
-    },
-    {
-     "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-     "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T10:20:33+00:00"
-    },
-    {
-     "title": "Iran denies role in drone attack that killed Italians in Kuwait",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T02:28:47+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T10:07:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:SCMP Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Euronews",
-    "outlet:France Médias Monde"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
    "qid": "Q18324601",
    "title": "Martha Firestone Ford",
    "fame": 89240,
@@ -368,6 +279,81 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
+  },
+  {
+   "id": "nw-20261127-italians-strike",
+   "qid": null,
+   "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+   "name": "Italians",
+   "kind": "incident",
+   "category": "strike",
+   "date": "2026-11-27",
+   "news_at": "2026-11-27T10:20:33+00:00",
+   "owners": [
+    "SCMP Group",
+    "Paramount (CBS)",
+    "Euronews"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Iran denies role in drone attack that killed Italians in Kuwait",
+    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+    "Iran denies responsibility for Kuwait drone strike that killed two Italians"
+   ],
+   "places": [
+    "Kuwait"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+     "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-27T10:20:33+00:00"
+    },
+    {
+     "title": "Iran denies role in drone attack that killed Italians in Kuwait",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+     "outlet": "South China Morning Post",
+     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
+     "owner": "SCMP Group",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-27T02:28:47+00:00"
+    },
+    {
+     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T10:07:00+00:00"
+    }
+   ],
+   "via": [
+    "outlet:SCMP Group",
+    "outlet:Paramount (CBS)",
+    "outlet:Euronews"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q142293991",
@@ -513,9 +499,9 @@
   {
    "qid": "Q17562446",
    "title": "Ingvar Jónsson",
-   "fame": 200,
+   "fame": 500,
    "views": 0,
-   "traffic": 200,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
@@ -532,33 +518,12 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q17562446",
-   "title": "Ingvar Jónsson",
-   "fame": 200,
-   "views": 0,
-   "traffic": 200,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:ingvar jónsson"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q17562446",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 757,
+  "headlines": 751,
   "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 26,
   "corroborated": 3
  },
  "emerging": [
@@ -570,7 +535,7 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T16:53:04+00:00",
+   "news_at": "2026-11-27T17:48:36+00:00",
    "owners": [
     "Euronews",
     "France Médias Monde",
@@ -638,7 +603,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T16:53:04+00:00"
+     "at": "2026-11-27T17:48:36+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -664,31 +629,28 @@
   {
    "id": "nw-20261127-italians-strike",
    "qid": null,
-   "title": "Kuwait: Two Italians killed in drone attack",
+   "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
    "name": "Italians",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-27",
-   "news_at": "2026-11-27T11:45:48+00:00",
+   "news_at": "2026-11-27T10:20:33+00:00",
    "owners": [
     "SCMP Group",
     "Paramount (CBS)",
-    "Euronews",
-    "France Médias Monde"
+    "Euronews"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Iran denies role in drone attack that killed Italians in Kuwait",
     "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-    "Kuwait: Two Italians killed in drone attack"
+    "Iran denies responsibility for Kuwait drone strike that killed two Italians"
    ],
    "places": [
-    "Kuwait",
-    "two"
+    "Kuwait"
    ],
    "attackers": [],
    "hindi_headlines": [],
@@ -700,16 +662,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Kuwait: Two Italians killed in drone attack",
-     "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
-     "outlet": "France 24",
-     "outlet_hi": "फ़्रांस 24",
-     "owner": "France Médias Monde",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-27T11:45:48+00:00"
-    },
     {
      "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
      "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
@@ -744,12 +696,11 @@
    "via": [
     "outlet:SCMP Group",
     "outlet:Paramount (CBS)",
-    "outlet:Euronews",
-    "outlet:France Médias Monde"
+    "outlet:Euronews"
    ],
    "emerging": true,
    "article": null
   }
  ],
- "outlet_note": "outlets: 757 headlines from 29 feeds (21 owners), 30 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261127-italians-strike"
+ "outlet_note": "outlets: 751 headlines from 29 feeds (21 owners), 26 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261127-italians-strike"
 }
