@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T23:32:01+00:00",
+ "at": "2026-11-26T23:59:37+00:00",
  "quakes": [],
  "trending": [
   {
@@ -68,29 +68,6 @@
    "date": "2026-11-23"
   },
   {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 134577,
-   "views": 9577,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-26T10:04:00+00:00",
-   "headlines": [
-    "Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q449502",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  },
-  {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
    "fame": 128852,
@@ -123,7 +100,7 @@
    "views": 0,
    "traffic": 0,
    "news": 25000,
-   "news_at": "2026-11-26T23:32:01.694836+00:00",
+   "news_at": "2026-11-26T23:59:37.696495+00:00",
    "headlines": [
     "Bangladesh garment workers clash with police over low wages"
    ],
@@ -183,7 +160,7 @@
    "views": 0,
    "traffic": 0,
    "news": 0,
-   "news_at": "2026-11-26T23:32:01.694836+00:00",
+   "news_at": "2026-11-26T23:59:37.696495+00:00",
    "headlines": [],
    "region": "world",
    "via": [
@@ -295,6 +272,92 @@
    "article": null
   },
   {
+   "id": "nw-20261126-thanksgiving-flood",
+   "qid": null,
+   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+   "name": "Thanksgiving",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T23:50:00+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Euronews",
+    "Disney (ABC News)",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T21:25:11+00:00"
+    },
+    {
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:57:53+00:00"
+    },
+    {
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T23:50:00+00:00"
+    },
+    {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T23:36:57+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261126-bangkok-explosion",
    "qid": null,
    "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
@@ -377,79 +440,6 @@
     "outlet:Euronews",
     "outlet:BBC",
     "outlet:Fox Corporation"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-thanksgiving-flood",
-   "qid": null,
-   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-   "name": "Thanksgiving",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T23:25:07+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "Euronews",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-    "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Thanksgiving storm damages buildings, floods streets, causes power outages"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T21:25:11+00:00"
-    },
-    {
-     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:57:53+00:00"
-    },
-    {
-     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T23:25:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -551,6 +541,26 @@
    "date": "2026-11-23"
   },
   {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 9577,
+   "views": 9577,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-25"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
    "qid": "Q7816304",
    "title": "Tom Jackson (American football, born 1951)",
    "fame": 8995,
@@ -612,33 +622,9 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 134577,
-   "views": 9577,
-   "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-26T10:04:00+00:00",
-   "headlines": [
-    "Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-25",
-    "google-news:Michael Giles, co-founder and drummer of King Crimson, dies aged 84"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q449502",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-23"
-  }
- ],
+ "candidates": [],
  "outlets": {
-  "headlines": 771,
+  "headlines": 754,
   "feeds": 30,
   "owners": 21,
   "matched": 34,
@@ -738,6 +724,92 @@
    "article": null
   },
   {
+   "id": "nw-20261126-thanksgiving-flood",
+   "qid": null,
+   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+   "name": "Thanksgiving",
+   "kind": "incident",
+   "category": "flood",
+   "date": "2026-11-26",
+   "news_at": "2026-11-26T23:50:00+00:00",
+   "owners": [
+    "ABC (Australia)",
+    "Euronews",
+    "Disney (ABC News)",
+    "Paramount (CBS)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
+   ],
+   "places": [],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
+     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-26T21:25:11+00:00"
+    },
+    {
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+     "outlet": "Euronews",
+     "outlet_hi": "यूरोन्यूज़",
+     "owner": "Euronews",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:57:53+00:00"
+    },
+    {
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T23:50:00+00:00"
+    },
+    {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-26T23:36:57+00:00"
+    }
+   ],
+   "via": [
+    "outlet:ABC (Australia)",
+    "outlet:Euronews",
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
    "id": "nw-20261126-bangkok-explosion",
    "qid": null,
    "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
@@ -823,80 +895,7 @@
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261126-thanksgiving-flood",
-   "qid": null,
-   "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-   "name": "Thanksgiving",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T23:25:07+00:00",
-   "owners": [
-    "ABC (Australia)",
-    "Euronews",
-    "Disney (ABC News)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-    "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Thanksgiving storm damages buildings, floods streets, causes power outages"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-     "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T21:25:11+00:00"
-    },
-    {
-     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:57:53+00:00"
-    },
-    {
-     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T23:25:07+00:00"
-    }
-   ],
-   "via": [
-    "outlet:ABC (Australia)",
-    "outlet:Euronews",
-    "outlet:Disney (ABC News)"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 771 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-bangkok-explosion, nw-20261126-thanksgiving-flood"
+ "outlet_note": "outlets: 754 headlines from 30 feeds (21 owners), 34 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
