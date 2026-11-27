@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T16:33:12+00:00",
+ "at": "2026-11-27T17:02:59+00:00",
  "quakes": [],
  "trending": [
   {
@@ -47,13 +47,13 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T16:18:56+00:00",
+   "news_at": "2026-11-27T16:53:04+00:00",
    "owners": [
     "Euronews",
     "France Médias Monde",
     "Disney (ABC News)",
-    "Paramount (CBS)",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "Paramount (CBS)"
    ],
    "fame": 125000,
    "news": 125000,
@@ -63,8 +63,8 @@
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
     "US: Thanksgiving storms cause flooding and travel chaos",
     "Thanksgiving storm damages buildings, floods streets, causes power outages",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues"
+    "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
    ],
    "places": [],
    "attackers": [],
@@ -115,7 +115,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T14:44:36+00:00"
+     "at": "2026-11-27T16:53:04+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -132,8 +132,8 @@
     "outlet:Euronews",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -496,56 +496,22 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
-  },
-  {
-   "qid": "Q1782725",
-   "title": "Konstantin Lifschitz",
-   "fame": 500,
-   "views": 0,
-   "traffic": 500,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:konstantin lifschitz"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1782725",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q1782725",
-   "title": "Konstantin Lifschitz",
-   "fame": 500,
-   "views": 0,
-   "traffic": 500,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "google-trends-GB:konstantin lifschitz"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q1782725",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  }
+ "candidates": [],
+ "trend_errors": [
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 755,
+  "headlines": 758,
   "feeds": 29,
   "owners": 21,
-  "matched": 20,
+  "matched": 24,
   "corroborated": 3
  },
  "emerging": [
@@ -557,13 +523,13 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T16:18:56+00:00",
+   "news_at": "2026-11-27T16:53:04+00:00",
    "owners": [
     "Euronews",
     "France Médias Monde",
     "Disney (ABC News)",
-    "Paramount (CBS)",
-    "Guardian Media Group"
+    "Guardian Media Group",
+    "Paramount (CBS)"
    ],
    "fame": 125000,
    "news": 125000,
@@ -573,8 +539,8 @@
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
     "US: Thanksgiving storms cause flooding and travel chaos",
     "Thanksgiving storm damages buildings, floods streets, causes power outages",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues"
+    "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
    ],
    "places": [],
    "attackers": [],
@@ -625,7 +591,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T14:44:36+00:00"
+     "at": "2026-11-27T16:53:04+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -642,8 +608,8 @@
     "outlet:Euronews",
     "outlet:France Médias Monde",
     "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:Guardian Media Group"
+    "outlet:Guardian Media Group",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -738,5 +704,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 755 headlines from 29 feeds (21 owners), 20 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261127-italians-strike"
+ "outlet_note": "outlets: 758 headlines from 29 feeds (21 owners), 24 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261127-italians-strike"
 }
