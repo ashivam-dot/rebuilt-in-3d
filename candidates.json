@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T19:33:24+00:00",
+ "at": "2026-11-27T20:01:22+00:00",
  "quakes": [],
  "trending": [
   {
@@ -124,12 +124,12 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T19:23:00+00:00",
+   "news_at": "2026-11-27T19:57:29+00:00",
    "owners": [
     "Euronews",
     "Guardian Media Group",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Paramount (CBS)"
    ],
    "fame": 100000,
    "news": 100000,
@@ -138,8 +138,8 @@
    "headlines": [
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
     "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Millions clean up after massive Thanksgiving storms flood streets, knock out power"
+    "Millions clean up after massive Thanksgiving storms flood streets, knock out power",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
    ],
    "places": [],
    "attackers": [],
@@ -173,6 +173,16 @@
      "at": "2026-11-26T21:57:53+00:00"
     },
     {
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T19:57:29+00:00"
+    },
+    {
      "title": "Millions clean up after massive Thanksgiving storms flood streets, knock out power",
      "url": "https://abcnews.com/US/millions-clean-after-massive-thanksgiving-storms-flood-streets/story?id=138484179",
      "outlet": "ABC News",
@@ -181,23 +191,13 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-27T19:23:00+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T19:15:37+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -485,9 +485,35 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q142293991",
+   "title": "2026 Giza fuel tanker explosion",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 0,
+   "news_at": "2026-11-27T00:00:00+00:00",
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-current-events-2026-11-26"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142293991",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    30.10694444,
+    31.20305556
+   ],
+   "has_coords": true
+  }
+ ],
  "outlets": {
-  "headlines": 753,
+  "headlines": 756,
   "feeds": 29,
   "owners": 21,
   "matched": 17,
@@ -502,12 +528,12 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T19:23:00+00:00",
+   "news_at": "2026-11-27T19:57:29+00:00",
    "owners": [
     "Euronews",
     "Guardian Media Group",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
+    "Disney (ABC News)",
+    "Paramount (CBS)"
    ],
    "fame": 100000,
    "news": 100000,
@@ -516,8 +542,8 @@
    "headlines": [
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
     "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Millions clean up after massive Thanksgiving storms flood streets, knock out power"
+    "Millions clean up after massive Thanksgiving storms flood streets, knock out power",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
    ],
    "places": [],
    "attackers": [],
@@ -551,6 +577,16 @@
      "at": "2026-11-26T21:57:53+00:00"
     },
     {
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T19:57:29+00:00"
+    },
+    {
      "title": "Millions clean up after massive Thanksgiving storms flood streets, knock out power",
      "url": "https://abcnews.com/US/millions-clean-after-massive-thanksgiving-storms-flood-streets/story?id=138484179",
      "outlet": "ABC News",
@@ -559,23 +595,13 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-27T19:23:00+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T19:15:37+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
     "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "outlet:Disney (ABC News)",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -656,5 +682,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 753 headlines from 29 feeds (21 owners), 17 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261127-italians-strike"
+ "outlet_note": "outlets: 756 headlines from 29 feeds (21 owners), 17 matched to articles, 3 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261127-italians-strike"
 }
