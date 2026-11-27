@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T01:33:02+00:00",
+ "at": "2026-11-27T02:01:31+00:00",
  "quakes": [],
  "trending": [
   {
@@ -75,13 +75,13 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T00:52:11+00:00",
+   "news_at": "2026-11-27T01:49:54+00:00",
    "owners": [
     "ABC (Australia)",
     "Euronews",
     "Disney (ABC News)",
-    "Paramount (CBS)",
-    "BBC"
+    "BBC",
+    "Paramount (CBS)"
    ],
    "fame": 125000,
    "news": 125000,
@@ -91,8 +91,8 @@
     "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
     "Thanksgiving storm damages buildings, floods streets, causes power outages",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Major Thanksgiving storm brings flooding, flight delays across US"
+    "Major Thanksgiving storm brings flooding, flight delays across US",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
    ],
    "places": [],
    "attackers": [],
@@ -143,7 +143,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T00:38:13+00:00"
+     "at": "2026-11-27T01:49:54+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -160,8 +160,8 @@
     "outlet:ABC (Australia)",
     "outlet:Euronews",
     "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -423,6 +423,56 @@
    "has_coords": true
   },
   {
+   "qid": "Q512148",
+   "title": "Anita DeFrantz",
+   "fame": 50000,
+   "views": 0,
+   "traffic": 0,
+   "news": 50000,
+   "news_at": "2026-11-27T01:41:36+00:00",
+   "headlines": [
+    "Olympic trailblazer Anita DeFrantz, longtime advocate for women in sports, dies at 74",
+    "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Olympic trailblazer Anita DeFrantz, longtime advocate for women in sports, dies at 74",
+    "google-news:Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
+    "outlet:Fox Corporation",
+    "outlet:Independent Digital News"
+   ],
+   "owners": [
+    "Fox Corporation",
+    "Independent Digital News"
+   ],
+   "reports": [
+    {
+     "title": "Olympic trailblazer Anita DeFrantz, longtime advocate for women in sports, dies at 74",
+     "url": "https://www.foxnews.com/outkick-sports/olympic-trailblazer-anita-defrantz-longtime-advocate-women-sports-dies-74",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T01:41:36+00:00"
+    },
+    {
+     "title": "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
+     "url": "https://www.independent.co.uk/sport/olympics/anita-defrantz-death-olympics-ioc-b3092450.html",
+     "outlet": "The Independent",
+     "outlet_hi": "द इंडिपेंडेंट",
+     "owner": "Independent Digital News",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-26T21:10:51+00:00"
+    }
+   ],
+   "id": "wk-Q512148",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
+  },
+  {
    "qid": "Q64610",
    "title": "Veruschka",
    "fame": 32422,
@@ -441,42 +491,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
-  },
-  {
-   "qid": "Q512148",
-   "title": "Anita DeFrantz",
-   "fame": 25000,
-   "views": 0,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-26T21:10:51+00:00",
-   "headlines": [
-    "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
-    "outlet:Independent Digital News"
-   ],
-   "owners": [
-    "Independent Digital News"
-   ],
-   "reports": [
-    {
-     "title": "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
-     "url": "https://www.independent.co.uk/sport/olympics/anita-defrantz-death-olympics-ioc-b3092450.html",
-     "outlet": "The Independent",
-     "outlet_hi": "द इंडिपेंडेंट",
-     "owner": "Independent Digital News",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:10:51+00:00"
-    }
-   ],
-   "id": "wk-Q512148",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-25"
   },
   {
    "qid": "Q6896637",
@@ -581,12 +595,15 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "outlet thehindu: HTTPError: 403 Client Error: Forbidden for url: https://www.thehindu.com/news/national/feeder/default.rss"
+ ],
  "outlets": {
-  "headlines": 759,
-  "feeds": 30,
-  "owners": 21,
-  "matched": 32,
-  "corroborated": 4
+  "headlines": 699,
+  "feeds": 29,
+  "owners": 20,
+  "matched": 33,
+  "corroborated": 5
  },
  "emerging": [
   {
@@ -597,13 +614,13 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T00:52:11+00:00",
+   "news_at": "2026-11-27T01:49:54+00:00",
    "owners": [
     "ABC (Australia)",
     "Euronews",
     "Disney (ABC News)",
-    "Paramount (CBS)",
-    "BBC"
+    "BBC",
+    "Paramount (CBS)"
    ],
    "fame": 125000,
    "news": 125000,
@@ -613,8 +630,8 @@
     "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
     "Thanksgiving storm damages buildings, floods streets, causes power outages",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Major Thanksgiving storm brings flooding, flight delays across US"
+    "Major Thanksgiving storm brings flooding, flight delays across US",
+    "Powerful Thanksgiving Day storm causes flooding, power outages"
    ],
    "places": [],
    "attackers": [],
@@ -665,7 +682,7 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T00:38:13+00:00"
+     "at": "2026-11-27T01:49:54+00:00"
     },
     {
      "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
@@ -682,8 +699,8 @@
     "outlet:ABC (Australia)",
     "outlet:Euronews",
     "outlet:Disney (ABC News)",
-    "outlet:Paramount (CBS)",
-    "outlet:BBC"
+    "outlet:BBC",
+    "outlet:Paramount (CBS)"
    ],
    "emerging": true,
    "article": null
@@ -855,5 +872,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 759 headlines from 30 feeds (21 owners), 32 matched to articles, 4 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion, nw-20261126-italians-strike"
+ "outlet_note": "outlets: 699 headlines from 29 feeds (20 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion, nw-20261126-italians-strike"
 }
