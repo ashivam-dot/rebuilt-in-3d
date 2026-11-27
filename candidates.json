@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T21:32:57+00:00",
+ "at": "2026-11-27T22:10:35+00:00",
  "quakes": [],
  "trending": [
   {
@@ -103,79 +103,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
-  },
-  {
-   "id": "nw-20261126-thanksgiving-flood",
-   "qid": null,
-   "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-   "name": "Thanksgiving",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-26",
-   "news_at": "2026-11-27T19:57:00+00:00",
-   "owners": [
-    "Euronews",
-    "Guardian Media Group",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-    "Powerful Thanksgiving storm causes flooding, power outages"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-     "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T16:18:56+00:00"
-    },
-    {
-     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:57:53+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T19:57:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
   },
   {
    "qid": "Q142293991",
@@ -286,89 +213,20 @@
  "hazards": [],
  "candidates": [],
  "trend_errors": [
-  "wikidata recent deaths: HTTP 429 (used the list from 1.0 h ago, 137 people)"
+  "wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.6 h ago, 137 people)",
+  "google news IN: HTTP 503",
+  "google news IN-nation: HTTP 503",
+  "google news US: HTTP 503",
+  "google news world: HTTP 503",
+  "google news GB: HTTP 503"
  ],
  "outlets": {
-  "headlines": 760,
-  "feeds": 29,
+  "headlines": 761,
+  "feeds": 30,
   "owners": 21,
-  "matched": 29,
-  "corroborated": 1
+  "matched": 33,
+  "corroborated": 0
  },
- "emerging": [
-  {
-   "id": "nw-20261126-thanksgiving-flood",
-   "qid": null,
-   "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-   "name": "Thanksgiving",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-26",
-   "news_at": "2026-11-27T19:57:00+00:00",
-   "owners": [
-    "Euronews",
-    "Guardian Media Group",
-    "Paramount (CBS)"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-    "Powerful Thanksgiving storm causes flooding, power outages"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
-     "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
-     "outlet": "The Guardian",
-     "outlet_hi": "द गार्डियन",
-     "owner": "Guardian Media Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T16:18:56+00:00"
-    },
-    {
-     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:57:53+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T19:57:00+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:Guardian Media Group",
-    "outlet:Paramount (CBS)"
-   ],
-   "emerging": true,
-   "article": null
-  }
- ],
- "outlet_note": "outlets: 760 headlines from 29 feeds (21 owners), 29 matched to articles, 1 candidates with 2+ owners, 1 nw- stories (on): nw-20261126-thanksgiving-flood"
+ "emerging": [],
+ "outlet_note": "outlets: 761 headlines from 30 feeds (21 owners), 33 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)"
 }
