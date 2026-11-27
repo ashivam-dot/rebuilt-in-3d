@@ -1,10 +1,17 @@
 {
- "at": "2026-11-27T22:10:34+00:00",
+ "at": "2026-11-27T22:31:31+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 79 units today",
-  "watch: 0 candidates (0 quakes, 9 trending), 0 hazard alerts",
-  "outlets: 761 headlines from 30 feeds (21 owners), 33 matched to articles, 0 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: [\"wikidata recent deaths: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=65) (used the list from 1.6 h ago, 137 people)\", 'google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']"
- ]
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 80 units today",
+  "watch: 1 candidates (0 quakes, 11 trending), 0 hazard alerts",
+  "outlets: 755 headlines from 30 feeds (21 owners), 38 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)",
+  "published wk-Q4755286: https://www.youtube.com/shorts/M5CHoD8FTUA"
+ ],
+ "published": {
+  "video_id": "M5CHoD8FTUA",
+  "url": "https://www.youtube.com/shorts/M5CHoD8FTUA",
+  "title": "Andrea Stewart-Cousins, State Senate Leader, Dies at 76",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }
