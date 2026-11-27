@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T04:30:53+00:00",
+ "at": "2026-11-27T04:59:03+00:00",
  "quakes": [],
  "trending": [
   {
@@ -167,7 +167,7 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T02:11:00+00:00",
+   "news_at": "2026-11-27T04:37:41+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -216,6 +216,16 @@
      "at": "2026-11-26T21:57:53+00:00"
     },
     {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T04:37:41+00:00"
+    },
+    {
      "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
      "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
      "outlet": "CBS News",
@@ -224,16 +234,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-27T02:11:00+00:00"
-    },
-    {
-     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T00:13:54+00:00"
     }
    ],
    "via": [
@@ -248,16 +248,15 @@
   {
    "qid": "Q18324601",
    "title": "Martha Firestone Ford",
-   "fame": 89740,
+   "fame": 89240,
    "views": 89240,
-   "traffic": 500,
+   "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26",
-    "google-trends-US:kelly stafford"
+    "wikipedia-top-2026-11-26"
    ],
    "owners": [],
    "reports": [],
@@ -557,10 +556,10 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 742,
+  "headlines": 743,
   "feeds": 29,
   "owners": 21,
-  "matched": 36,
+  "matched": 37,
   "corroborated": 5
  },
  "emerging": [
@@ -664,7 +663,7 @@
    "kind": "incident",
    "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T02:11:00+00:00",
+   "news_at": "2026-11-27T04:37:41+00:00",
    "owners": [
     "Euronews",
     "BBC",
@@ -713,6 +712,16 @@
      "at": "2026-11-26T21:57:53+00:00"
     },
     {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T04:37:41+00:00"
+    },
+    {
      "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
      "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
      "outlet": "CBS News",
@@ -721,16 +730,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-27T02:11:00+00:00"
-    },
-    {
-     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T00:13:54+00:00"
     }
    ],
    "via": [
@@ -830,5 +829,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 742 headlines from 29 feeds (21 owners), 36 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 743 headlines from 29 feeds (21 owners), 37 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
