@@ -1923,9 +1923,9 @@
   "kind": "incident"
  },
  "wk-Q512148": {
-  "count": 2,
+  "count": 3,
   "reason": "gate: only 2 usable photos of Anita DeFrantz on Wikimedia Commons (want 4)",
-  "at": "2026-11-27T00:34:54+00:00",
+  "at": "2026-11-27T13:06:58+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "death"
@@ -1942,6 +1942,14 @@
   "count": 4,
   "reason": "gate: faceless: no free photo shows Italians or the event itself (only 5 photos of places or things near it)",
   "at": "2026-11-27T11:06:00+00:00",
+  "rules": "anchored-2026-10",
+  "draft_rules": "exact-photo-count-2026-10-25",
+  "kind": "incident"
+ },
+ "nw-20261127-italians-strike": {
+  "count": 2,
+  "reason": "gate: faceless: no free photo shows Italians or the event itself (only 5 photos of places or things near it)",
+  "at": "2026-11-27T13:06:56+00:00",
   "rules": "anchored-2026-10",
   "draft_rules": "exact-photo-count-2026-10-25",
   "kind": "incident"
