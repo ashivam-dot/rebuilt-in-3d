@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T11:31:12+00:00",
+ "at": "2026-11-27T12:02:07+00:00",
  "quakes": [],
  "trending": [
   {
@@ -149,31 +149,34 @@
   {
    "id": "nw-20261126-italians-strike",
    "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+   "title": "Kuwait: Two Italians killed in drone attack",
    "name": "Italians",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T10:20:33+00:00",
+   "news_at": "2026-11-27T11:45:48+00:00",
    "owners": [
     "Deutsche Welle",
     "SCMP Group",
     "Paramount (CBS)",
-    "Euronews"
+    "Euronews",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
     "Iran denies role in drone attack that killed Italians in Kuwait",
     "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "Iran denies responsibility for Kuwait drone strike that killed two Italians"
+    "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+    "Kuwait: Two Italians killed in drone attack"
    ],
    "places": [
     "Kuwait",
-    "Meloni"
+    "Meloni",
+    "two"
    ],
    "attackers": [
     "Iranian"
@@ -187,6 +190,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Kuwait: Two Italians killed in drone attack",
+     "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-27T11:45:48+00:00"
+    },
     {
      "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
      "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
@@ -225,100 +238,15 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T10:07:05+00:00"
+     "at": "2026-11-27T10:07:00+00:00"
     }
    ],
    "via": [
     "outlet:Deutsche Welle",
     "outlet:SCMP Group",
     "outlet:Paramount (CBS)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-thanksgiving-flood",
-   "qid": null,
-   "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-   "name": "Thanksgiving",
-   "kind": "incident",
-   "category": "flood",
-   "date": "2026-11-26",
-   "news_at": "2026-11-27T05:36:29+00:00",
-   "owners": [
-    "Euronews",
-    "BBC",
-    "Paramount (CBS)",
-    "Disney (ABC News)"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Major Thanksgiving storm brings flooding, flight delays across US",
-    "Powerful Thanksgiving Day storm causes flooding, power outages",
-    "Thanksgiving storm damages buildings, floods streets, causes power outages"
-   ],
-   "places": [],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-     "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-27T05:15:26+00:00"
-    },
-    {
-     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T21:57:53+00:00"
-    },
-    {
-     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T05:36:29+00:00"
-    },
-    {
-     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T04:37:41+00:00"
-    }
-   ],
-   "via": [
     "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Paramount (CBS)",
-    "outlet:Disney (ABC News)"
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -389,33 +317,29 @@
    "date": "2026-11-24"
   },
   {
-   "id": "nw-20261126-bangkok-explosion",
+   "id": "nw-20261126-thanksgiving-flood",
    "qid": null,
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "name": "Bangkok",
+   "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+   "name": "Thanksgiving",
    "kind": "incident",
-   "category": "explosion",
+   "category": "flood",
    "date": "2026-11-26",
-   "news_at": "2026-11-26T18:21:59+00:00",
+   "news_at": "2026-11-27T05:36:29+00:00",
    "owners": [
     "Euronews",
-    "BBC",
-    "Fox Corporation"
+    "Paramount (CBS)",
+    "Disney (ABC News)"
    ],
    "fame": 75000,
    "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-    "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-    "Nine injured, three critically, after Bangkok oil refinery explosion",
-    "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality"
+    "Thanksgiving storms flood US coasts and disrupt holiday travel",
+    "Powerful Thanksgiving Day storm causes flooding, power outages",
+    "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
-   "places": [
-    "Thai",
-    "Thailand"
-   ],
+   "places": [],
    "attackers": [],
    "hindi_headlines": [],
    "hindi_news": 0,
@@ -427,50 +351,40 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T16:21:19+00:00"
-    },
-    {
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
      "outlet": "Euronews",
      "outlet_hi": "यूरोन्यूज़",
      "owner": "Euronews",
      "group": "international",
      "lang": "en",
-     "at": "2026-11-26T11:40:52+00:00"
+     "at": "2026-11-26T21:57:53+00:00"
     },
     {
-     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:25:01+00:00"
-    },
-    {
-     "title": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
-     "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
+     "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+     "outlet": "CBS News",
+     "outlet_hi": "सीबीएस न्यूज़",
+     "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-26T18:21:59+00:00"
+     "at": "2026-11-27T05:36:29+00:00"
+    },
+    {
+     "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+     "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T04:37:41+00:00"
     }
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Fox Corporation"
+    "outlet:Paramount (CBS)",
+    "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
@@ -632,69 +546,49 @@
   }
  ],
  "hazards": [],
- "candidates": [
-  {
-   "qid": "Q142278417",
-   "title": "Iowa lead azide detonation",
-   "fame": 88544,
-   "views": 88544,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-26"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142278417",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    40.80944444,
-    -91.26888889
-   ],
-   "has_coords": true
-  }
+ "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 500 (used the list from 0.5 h ago, 141 people)"
  ],
  "outlets": {
-  "headlines": 742,
+  "headlines": 750,
   "feeds": 29,
   "owners": 21,
   "matched": 29,
-  "corroborated": 6
+  "corroborated": 5
  },
  "emerging": [
   {
    "id": "nw-20261126-italians-strike",
    "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+   "title": "Kuwait: Two Italians killed in drone attack",
    "name": "Italians",
    "kind": "incident",
    "category": "strike",
    "date": "2026-11-26",
-   "news_at": "2026-11-27T10:20:33+00:00",
+   "news_at": "2026-11-27T11:45:48+00:00",
    "owners": [
     "Deutsche Welle",
     "SCMP Group",
     "Paramount (CBS)",
-    "Euronews"
+    "Euronews",
+    "France Médias Monde"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 125000,
+   "news": 125000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
     "Iran denies role in drone attack that killed Italians in Kuwait",
     "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "Iran denies responsibility for Kuwait drone strike that killed two Italians"
+    "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+    "Kuwait: Two Italians killed in drone attack"
    ],
    "places": [
     "Kuwait",
-    "Meloni"
+    "Meloni",
+    "two"
    ],
    "attackers": [
     "Iranian"
@@ -708,6 +602,16 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
+    {
+     "title": "Kuwait: Two Italians killed in drone attack",
+     "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-27T11:45:48+00:00"
+    },
     {
      "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
      "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
@@ -746,14 +650,15 @@
      "owner": "Paramount (CBS)",
      "group": "national",
      "lang": "en",
-     "at": "2026-11-27T10:07:05+00:00"
+     "at": "2026-11-27T10:07:00+00:00"
     }
    ],
    "via": [
     "outlet:Deutsche Welle",
     "outlet:SCMP Group",
     "outlet:Paramount (CBS)",
-    "outlet:Euronews"
+    "outlet:Euronews",
+    "outlet:France Médias Monde"
    ],
    "emerging": true,
    "article": null
@@ -761,7 +666,7 @@
   {
    "id": "nw-20261126-thanksgiving-flood",
    "qid": null,
-   "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+   "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
    "name": "Thanksgiving",
    "kind": "incident",
    "category": "flood",
@@ -769,17 +674,15 @@
    "news_at": "2026-11-27T05:36:29+00:00",
    "owners": [
     "Euronews",
-    "BBC",
     "Paramount (CBS)",
     "Disney (ABC News)"
    ],
-   "fame": 100000,
-   "news": 100000,
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
    "headlines": [
     "Thanksgiving storms flood US coasts and disrupt holiday travel",
-    "Major Thanksgiving storm brings flooding, flight delays across US",
     "Powerful Thanksgiving Day storm causes flooding, power outages",
     "Thanksgiving storm damages buildings, floods streets, causes power outages"
    ],
@@ -794,16 +697,6 @@
    "india_link": false,
    "label_hi": null,
    "reports": [
-    {
-     "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-     "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-27T05:15:26+00:00"
-    },
     {
      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
@@ -837,100 +730,12 @@
    ],
    "via": [
     "outlet:Euronews",
-    "outlet:BBC",
     "outlet:Paramount (CBS)",
     "outlet:Disney (ABC News)"
    ],
    "emerging": true,
    "article": null
-  },
-  {
-   "id": "nw-20261126-bangkok-explosion",
-   "qid": null,
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "name": "Bangkok",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-26",
-   "news_at": "2026-11-26T18:21:59+00:00",
-   "owners": [
-    "Euronews",
-    "BBC",
-    "Fox Corporation"
-   ],
-   "fame": 75000,
-   "news": 75000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-    "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-    "Nine injured, three critically, after Bangkok oil refinery explosion",
-    "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality"
-   ],
-   "places": [
-    "Thai",
-    "Thailand"
-   ],
-   "attackers": [],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T16:21:19+00:00"
-    },
-    {
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T11:40:52+00:00"
-    },
-    {
-     "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-     "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-26T09:25:01+00:00"
-    },
-    {
-     "title": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
-     "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-26T18:21:59+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Euronews",
-    "outlet:BBC",
-    "outlet:Fox Corporation"
-   ],
-   "emerging": true,
-   "article": null
   }
  ],
- "outlet_note": "outlets: 742 headlines from 29 feeds (21 owners), 29 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 750 headlines from 29 feeds (21 owners), 29 matched to articles, 5 candidates with 2+ owners, 2 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood"
 }
