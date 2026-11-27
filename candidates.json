@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T11:03:13+00:00",
+ "at": "2026-11-27T11:31:12+00:00",
  "quakes": [],
  "trending": [
   {
@@ -58,9 +58,9 @@
   {
    "qid": "Q1287886",
    "title": "Strobe Talbott",
-   "fame": 250000,
+   "fame": 250500,
    "views": 0,
-   "traffic": 0,
+   "traffic": 500,
    "news": 250000,
    "news_at": "2026-11-27T07:10:08+00:00",
    "headlines": [
@@ -72,6 +72,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-US:strobe talbott",
     "google-news:Strobe Talbott, who helped shape Clinton-era foreign policy, dies at 80",
     "google-news:From Pokhran to partnership: Strobe Talbott’s Indian legacy",
     "google-news:Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
@@ -633,193 +634,36 @@
  "hazards": [],
  "candidates": [
   {
-   "id": "nw-20261126-italians-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italians",
-   "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-27T10:20:33+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "SCMP Group",
-    "Paramount (CBS)",
-    "Euronews"
-   ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
+   "qid": "Q142278417",
+   "title": "Iowa lead azide detonation",
+   "fame": 88544,
+   "views": 88544,
    "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Iran denies role in drone attack that killed Italians in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "Iran denies responsibility for Kuwait drone strike that killed two Italians"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
    "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-     "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T10:20:33+00:00"
-    },
-    {
-     "title": "Iran denies role in drone attack that killed Italians in Kuwait",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T02:28:47+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T10:07:05+00:00"
-    }
-   ],
    "via": [
-    "outlet:Deutsche Welle",
-    "outlet:SCMP Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Euronews"
+    "wikipedia-top-2026-11-26"
    ],
-   "emerging": true,
-   "article": null
-  },
-  {
-   "id": "nw-20261126-italians-strike",
-   "qid": null,
-   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-   "name": "Italians",
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q142278417",
    "kind": "incident",
-   "category": "strike",
-   "date": "2026-11-26",
-   "news_at": "2026-11-27T10:20:33+00:00",
-   "owners": [
-    "Deutsche Welle",
-    "SCMP Group",
-    "Paramount (CBS)",
-    "Euronews"
+   "category": "explosion",
+   "date": "2026-11-25",
+   "coords": [
+    40.80944444,
+    -91.26888889
    ],
-   "fame": 100000,
-   "news": 100000,
-   "views": 0,
-   "traffic": 0,
-   "headlines": [
-    "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-    "Iran denies role in drone attack that killed Italians in Kuwait",
-    "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "Iran denies responsibility for Kuwait drone strike that killed two Italians"
-   ],
-   "places": [
-    "Kuwait",
-    "Meloni"
-   ],
-   "attackers": [
-    "Iranian"
-   ],
-   "hindi_headlines": [],
-   "hindi_news": 0,
-   "geos": [
-    "world"
-   ],
-   "region": "world",
-   "india_link": false,
-   "label_hi": null,
-   "reports": [
-    {
-     "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-     "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf",
-     "outlet": "DW",
-     "outlet_hi": "डीडब्ल्यू",
-     "owner": "Deutsche Welle",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-26T15:11:00+00:00"
-    },
-    {
-     "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-     "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-     "outlet": "Euronews",
-     "outlet_hi": "यूरोन्यूज़",
-     "owner": "Euronews",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T10:20:33+00:00"
-    },
-    {
-     "title": "Iran denies role in drone attack that killed Italians in Kuwait",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
-     "outlet": "South China Morning Post",
-     "outlet_hi": "साउथ चाइना मॉर्निंग पोस्ट",
-     "owner": "SCMP Group",
-     "group": "international",
-     "lang": "en",
-     "at": "2026-11-27T02:28:47+00:00"
-    },
-    {
-     "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-     "outlet": "CBS News",
-     "outlet_hi": "सीबीएस न्यूज़",
-     "owner": "Paramount (CBS)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T10:07:05+00:00"
-    }
-   ],
-   "via": [
-    "outlet:Deutsche Welle",
-    "outlet:SCMP Group",
-    "outlet:Paramount (CBS)",
-    "outlet:Euronews"
-   ],
-   "emerging": true,
-   "article": null
+   "has_coords": true
   }
  ],
  "outlets": {
-  "headlines": 740,
+  "headlines": 742,
   "feeds": 29,
   "owners": 21,
-  "matched": 30,
+  "matched": 29,
   "corroborated": 6
  },
  "emerging": [
@@ -1088,5 +932,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 740 headlines from 29 feeds (21 owners), 30 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 742 headlines from 29 feeds (21 owners), 29 matched to articles, 6 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
