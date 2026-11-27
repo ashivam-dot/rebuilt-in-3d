@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T04:02:09+00:00",
+ "at": "2026-11-27T04:30:53+00:00",
  "quakes": [],
  "trending": [
   {
@@ -248,15 +248,16 @@
   {
    "qid": "Q18324601",
    "title": "Martha Firestone Ford",
-   "fame": 89240,
+   "fame": 89740,
    "views": 89240,
-   "traffic": 0,
+   "traffic": 500,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-26",
+    "google-trends-US:kelly stafford"
    ],
    "owners": [],
    "reports": [],
@@ -555,18 +556,11 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
  "outlets": {
-  "headlines": 743,
+  "headlines": 742,
   "feeds": 29,
   "owners": 21,
-  "matched": 33,
+  "matched": 36,
   "corroborated": 5
  },
  "emerging": [
@@ -836,5 +830,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 743 headlines from 29 feeds (21 owners), 33 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
+ "outlet_note": "outlets: 742 headlines from 29 feeds (21 owners), 36 matched to articles, 5 candidates with 2+ owners, 3 nw- stories (on): nw-20261126-italians-strike, nw-20261126-thanksgiving-flood, nw-20261126-bangkok-explosion"
 }
