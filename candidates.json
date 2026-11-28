@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28T05:33:52+00:00",
+ "at": "2026-11-28T06:04:01+00:00",
  "quakes": [],
  "trending": [
   {
@@ -9,16 +9,16 @@
    "views": 31058,
    "traffic": 0,
    "news": 175000,
-   "news_at": "2026-11-28T03:28:49+00:00",
+   "news_at": "2026-11-28T02:17:09+00:00",
    "headlines": [
-    "Andrea Stewart-Cousins, New York’s First Female Senate Majority Leader, Dies",
+    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
     "Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
     "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
    ],
    "region": "world",
    "via": [
     "wikipedia-top-2026-11-27",
-    "google-news:Andrea Stewart-Cousins, New York’s First Female Senate Majority Leader, Dies",
+    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
     "google-news:Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
     "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
     "outlet:NDTV",
@@ -373,13 +373,16 @@
  ],
  "hazards": [],
  "candidates": [],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 136 people)"
+ ],
  "outlets": {
-  "headlines": 715,
+  "headlines": 717,
   "feeds": 29,
   "owners": 20,
-  "matched": 29,
+  "matched": 25,
   "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 715 headlines from 29 feeds (20 owners), 29 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 717 headlines from 29 feeds (20 owners), 25 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
