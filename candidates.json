@@ -1,27 +1,27 @@
 {
- "at": "2026-11-28T15:35:50+00:00",
+ "at": "2026-11-28T16:06:17+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 350000,
+   "fame": 225000,
    "views": 0,
    "traffic": 0,
-   "news": 350000,
+   "news": 225000,
    "news_at": "2026-11-28T15:07:52+00:00",
    "headlines": [
-    "Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
-    "WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
+    "WWE star Bronson Reed dies at 38 due to 'medical complications' - ABC News",
     "WWE star Bronson Reed dies at 38 due to 'medical complications'",
     "WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
-    "Australian wrestler Bronson Reed dies aged 38, WWE says"
+    "Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "Adelaide-born WWE wrestler Bronson Reed dies at 38"
    ],
    "region": "world",
    "via": [
-    "google-news:Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
-    "google-news:WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
+    "google-news:WWE star Bronson Reed dies at 38 due to 'medical complications' - ABC News",
     "google-news:WWE star Bronson Reed dies at 38 due to 'medical complications'",
+    "google-news:WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
     "outlet:Disney (ABC News)",
     "outlet:Fox Corporation",
     "outlet:BBC",
@@ -76,6 +76,43 @@
     }
    ],
    "id": "wk-Q21642629",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
+  },
+  {
+   "qid": "Q7119473",
+   "title": "P. J. Gallagher (comedian)",
+   "fame": 212769,
+   "views": 62769,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-28T13:34:39+00:00",
+   "headlines": [
+    "Actor and comedian PJ Gallagher dies aged 51"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:Actor and comedian PJ Gallagher dies aged 51",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Actor and comedian PJ Gallagher dies aged 51",
+     "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T13:34:39+00:00"
+    }
+   ],
+   "id": "wk-Q7119473",
    "kind": "death",
    "category": "death",
    "date": "2026-11-27"
@@ -144,41 +181,79 @@
    "has_coords": false
   },
   {
-   "qid": "Q7119473",
-   "title": "P. J. Gallagher (comedian)",
-   "fame": 87769,
-   "views": 62769,
+   "id": "nw-20261128-several-explosion",
+   "qid": null,
+   "title": "Afghanistan: Several killed in blast near middle school",
+   "name": "Several",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T15:25:06+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Deutsche Welle",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
    "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-28T13:34:39+00:00",
    "headlines": [
-    "Actor and comedian PJ Gallagher dies aged 51"
+    "Several students killed in blast beside Afghan school",
+    "Afghanistan: Several killed in blast near middle school",
+    "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital"
+   ],
+   "places": [
+    "Afghan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:Actor and comedian PJ Gallagher dies aged 51",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
+   "india_link": false,
+   "label_hi": null,
    "reports": [
     {
-     "title": "Actor and comedian PJ Gallagher dies aged 51",
-     "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
+     "title": "Afghanistan: Several killed in blast near middle school",
+     "url": "https://www.dw.com/en/afghanistan-several-killed-in-blast-near-middle-school/a-80084227?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
      "group": "public broadcaster",
      "lang": "en",
-     "at": "2026-11-28T13:34:39+00:00"
+     "at": "2026-11-28T10:21:00+00:00"
+    },
+    {
+     "title": "Several students killed in blast beside Afghan school",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T10:05:26+00:00"
+    },
+    {
+     "title": "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital",
+     "url": "https://www.foxnews.com/world/explosion-near-afghan-school-kills-least-10-injures-110-children-rushed-hospital",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T15:25:06+00:00"
     }
    ],
-   "id": "wk-Q7119473",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q527834",
@@ -442,37 +517,239 @@
  "hazards": [],
  "candidates": [
   {
+   "id": "nw-20261128-several-explosion",
    "qid": null,
-   "title": "2026 Black Sea Cyclone",
-   "fame": 125000,
+   "title": "Afghanistan: Several killed in blast near middle school",
+   "name": "Several",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T15:25:06+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Deutsche Welle",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
    "views": 0,
    "traffic": 0,
-   "news": 125000,
-   "news_at": "2026-11-27T21:09:12+00:00",
    "headlines": [
-    "Ukraine submits Black Sea ceasefire offer, awaits Russian response"
+    "Several students killed in blast beside Afghan school",
+    "Afghanistan: Several killed in blast near middle school",
+    "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital"
+   ],
+   "places": [
+    "Afghan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
    ],
    "region": "world",
-   "via": [
-    "google-news:Ukraine submits Black Sea ceasefire offer, awaits Russian response"
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Afghanistan: Several killed in blast near middle school",
+     "url": "https://www.dw.com/en/afghanistan-several-killed-in-blast-near-middle-school/a-80084227?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T10:21:00+00:00"
+    },
+    {
+     "title": "Several students killed in blast beside Afghan school",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T10:05:26+00:00"
+    },
+    {
+     "title": "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital",
+     "url": "https://www.foxnews.com/world/explosion-near-afghan-school-kills-least-10-injures-110-children-rushed-hospital",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T15:25:06+00:00"
+    }
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wp-2026_Black_Sea_Cyclone",
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261128-several-explosion",
+   "qid": null,
+   "title": "Afghanistan: Several killed in blast near middle school",
+   "name": "Several",
    "kind": "incident",
-   "category": "cyclone",
+   "category": "explosion",
    "date": "2026-11-28",
-   "coords": null,
-   "has_coords": false
+   "news_at": "2026-11-28T15:25:06+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Deutsche Welle",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Several students killed in blast beside Afghan school",
+    "Afghanistan: Several killed in blast near middle school",
+    "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital"
+   ],
+   "places": [
+    "Afghan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Afghanistan: Several killed in blast near middle school",
+     "url": "https://www.dw.com/en/afghanistan-several-killed-in-blast-near-middle-school/a-80084227?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T10:21:00+00:00"
+    },
+    {
+     "title": "Several students killed in blast beside Afghan school",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T10:05:26+00:00"
+    },
+    {
+     "title": "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital",
+     "url": "https://www.foxnews.com/world/explosion-near-afghan-school-kills-least-10-injures-110-children-rushed-hospital",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T15:25:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
   }
  ],
  "outlets": {
-  "headlines": 684,
+  "headlines": 686,
   "feeds": 30,
   "owners": 21,
-  "matched": 28,
-  "corroborated": 1
+  "matched": 29,
+  "corroborated": 2
  },
- "emerging": [],
- "outlet_note": "outlets: 684 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261128-several-explosion",
+   "qid": null,
+   "title": "Afghanistan: Several killed in blast near middle school",
+   "name": "Several",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T15:25:06+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Deutsche Welle",
+    "Fox Corporation"
+   ],
+   "fame": 75000,
+   "news": 75000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "Several students killed in blast beside Afghan school",
+    "Afghanistan: Several killed in blast near middle school",
+    "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital"
+   ],
+   "places": [
+    "Afghan"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "Afghanistan: Several killed in blast near middle school",
+     "url": "https://www.dw.com/en/afghanistan-several-killed-in-blast-near-middle-school/a-80084227?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DW",
+     "outlet_hi": "डीडब्ल्यू",
+     "owner": "Deutsche Welle",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T10:21:00+00:00"
+    },
+    {
+     "title": "Several students killed in blast beside Afghan school",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T10:05:26+00:00"
+    },
+    {
+     "title": "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital",
+     "url": "https://www.foxnews.com/world/explosion-near-afghan-school-kills-least-10-injures-110-children-rushed-hospital",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T15:25:06+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Deutsche Welle",
+    "outlet:Fox Corporation"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 686 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 1 nw- stories (on): nw-20261128-several-explosion"
 }
