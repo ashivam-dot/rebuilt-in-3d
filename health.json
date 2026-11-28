@@ -1,12 +1,11 @@
 {
- "at": "2026-11-28T11:34:30+00:00",
+ "at": "2026-11-28T12:03:42+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 8 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 9 units today",
   "watch: 1 candidates (0 quakes, 16 trending), 0 hazard alerts",
-  "outlets: 689 headlines from 30 feeds (21 owners), 42 matched to articles, 4 candidates with 2+ owners, 1 nw- stories (on): nw-20261128-students-explosion",
-  "trend radar errors: ['google news IN: HTTP 503', 'google news IN-nation: HTTP 503', 'google news US: HTTP 503', 'google news world: HTTP 503', 'google news GB: HTTP 503']",
-  "wait wp-2026_Black_Sea_Cyclone: gate: the article is under 6 hours old; facts may still move (ready in 3.9 h)",
+  "outlets: 685 headlines from 30 feeds (21 owners), 49 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261128-students-explosion",
+  "wait wp-2026_Black_Sea_Cyclone: gate: the article is under 6 hours old; facts may still move (ready in 3.4 h)",
   "nothing eligible to publish"
  ]
 }
