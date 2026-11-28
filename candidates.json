@@ -1,60 +1,7 @@
 {
- "at": "2026-11-28T06:04:01+00:00",
+ "at": "2026-11-28T06:35:18+00:00",
  "quakes": [],
  "trending": [
-  {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 206058,
-   "views": 31058,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-28T02:17:09+00:00",
-   "headlines": [
-    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
-    "Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
-    "google-news:Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:NDTV",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "NDTV",
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
-     "url": "https://www.ndtv.com/world-news/andrea-stewart-cousins-new-yorks-first-female-senate-leader-dies-at-76-12387325#publisher=newsstand",
-     "outlet": "NDTV",
-     "outlet_hi": "एनडीटीवी",
-     "owner": "NDTV",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-28T02:17:09+00:00"
-    },
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
@@ -116,6 +63,45 @@
     }
    ],
    "id": "wk-Q21642629",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
+  },
+  {
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 181058,
+   "views": 31058,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-28T01:28:02+00:00",
+   "headlines": [
+    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
    "kind": "death",
    "category": "death",
    "date": "2026-11-27"
@@ -373,16 +359,13 @@
  ],
  "hazards": [],
  "candidates": [],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 136 people)"
- ],
  "outlets": {
-  "headlines": 717,
+  "headlines": 720,
   "feeds": 29,
   "owners": 20,
-  "matched": 25,
-  "corroborated": 3
+  "matched": 27,
+  "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 717 headlines from 29 feeds (20 owners), 25 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 720 headlines from 29 feeds (20 owners), 27 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
