@@ -1,26 +1,59 @@
 {
- "at": "2026-11-28T02:48:24+00:00",
+ "at": "2026-11-28T03:18:09+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q527834",
-   "title": "Andy Taylor (guitarist)",
-   "fame": 318400,
-   "views": 318400,
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 206058,
+   "views": 31058,
    "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
+   "news": 175000,
+   "news_at": "2026-11-28T02:17:09+00:00",
+   "headlines": [
+    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27",
+    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "google-news:Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:NDTV",
+    "outlet:Disney (ABC News)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q527834",
+   "owners": [
+    "NDTV",
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "Andrea Stewart-Cousins, New York's First Female Senate Leader, Dies At 76",
+     "url": "https://www.ndtv.com/world-news/andrea-stewart-cousins-new-yorks-first-female-senate-leader-dies-at-76-12387325#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T02:17:09+00:00"
+    },
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
    "kind": "death",
    "category": "death",
-   "date": "2026-11-23"
+   "date": "2026-11-27"
   },
   {
    "qid": "Q21642629",
@@ -32,14 +65,14 @@
    "news_at": "2026-11-28T02:05:33+00:00",
    "headlines": [
     "WWE's Bronson Reed Dies at Age 38 'Due to Medical Complications' Following Crown Jewel",
-    "Adelaide-born WWE wrestler Bronson Reed dies aged 38",
+    "Adelaide-born WWE wrestler Bronson Reed dies at 38",
     "WWE announces death of star Bronson Reed at 38",
     "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
    ],
    "region": "world",
    "via": [
     "google-news:WWE's Bronson Reed Dies at Age 38 'Due to Medical Complications' Following Crown Jewel",
-    "google-news:Adelaide-born WWE wrestler Bronson Reed dies aged 38",
+    "google-news:Adelaide-born WWE wrestler Bronson Reed dies at 38",
     "google-news:WWE announces death of star Bronson Reed at 38",
     "outlet:ABC (Australia)",
     "outlet:Bennett, Coleman & Co.",
@@ -52,7 +85,7 @@
    ],
    "reports": [
     {
-     "title": "Adelaide-born WWE wrestler Bronson Reed dies aged 38",
+     "title": "Adelaide-born WWE wrestler Bronson Reed dies at 38",
      "url": "https://www.abc.net.au/news/2026-11-28/wwe-wrestler-bronson-reed-dies-aged-38/107438016",
      "outlet": "ABC News (Australia)",
      "outlet_hi": "एबीसी न्यूज़",
@@ -88,48 +121,10 @@
    "date": "2026-11-27"
   },
   {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-27T23:04:49+00:00",
-   "headlines": [
-    "Andrea Stewart-Cousins, New York’s First Female Senate Majority Leader, Dies",
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Andrea Stewart-Cousins, New York’s First Female Senate Majority Leader, Dies",
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
    "qid": "Q1287886",
    "title": "Strobe Talbott",
-   "fame": 100000,
-   "views": 0,
+   "fame": 111896,
+   "views": 11896,
    "traffic": 0,
    "news": 100000,
    "news_at": "2026-11-27T14:19:45+00:00",
@@ -141,6 +136,7 @@
    ],
    "region": "world",
    "via": [
+    "wikipedia-top-2026-11-27",
     "google-news:Strobe Talbott: Clinton’s deputy secretary of state dies aged 80",
     "google-news:Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
     "google-news:Strobe Talbott, one of the architects of the turnaround in India-US ties, dies at 80",
@@ -203,21 +199,41 @@
    "date": "2026-11-26"
   },
   {
-   "qid": "Q18324601",
-   "title": "Martha Firestone Ford",
-   "fame": 89240,
-   "views": 89240,
+   "qid": "Q527834",
+   "title": "Andy Taylor (guitarist)",
+   "fame": 69281,
+   "views": 69281,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q18324601",
+   "id": "wk-Q527834",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  },
+  {
+   "qid": "Q64610",
+   "title": "Veruschka",
+   "fame": 33308,
+   "views": 33308,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q64610",
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
@@ -225,15 +241,15 @@
   {
    "qid": "Q142278417",
    "title": "Iowa lead azide detonation",
-   "fame": 88544,
-   "views": 88544,
+   "fame": 28677,
+   "views": 28677,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
@@ -248,37 +264,57 @@
    "has_coords": true
   },
   {
-   "qid": "Q64610",
-   "title": "Veruschka",
-   "fame": 81230,
-   "views": 81230,
+   "qid": "Q18324601",
+   "title": "Martha Firestone Ford",
+   "fame": 26913,
+   "views": 26913,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
-   "id": "wk-Q64610",
+   "id": "wk-Q18324601",
    "kind": "death",
    "category": "death",
    "date": "2026-11-24"
   },
   {
-   "qid": "Q7032653",
-   "title": "Nigel Starmer-Smith",
-   "fame": 20194,
-   "views": 20194,
+   "qid": "Q17562446",
+   "title": "Ingvar Jónsson",
+   "fame": 18598,
+   "views": 18598,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q17562446",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-25"
+  },
+  {
+   "qid": "Q7032653",
+   "title": "Nigel Starmer-Smith",
+   "fame": 16499,
+   "views": 16499,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
@@ -288,17 +324,37 @@
    "date": "2026-11-26"
   },
   {
-   "qid": "Q449502",
-   "title": "Michael Giles",
-   "fame": 19595,
-   "views": 19595,
+   "qid": "Q7816304",
+   "title": "Tom Jackson (American football, born 1951)",
+   "fame": 13315,
+   "views": 13315,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q7816304",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-20"
+  },
+  {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 7636,
+   "views": 7636,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
@@ -310,15 +366,15 @@
   {
    "qid": "Q7171945",
    "title": "Pete Edochie",
-   "fame": 16156,
-   "views": 16156,
+   "fame": 7442,
+   "views": 7442,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
@@ -326,26 +382,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-25"
-  },
-  {
-   "qid": "Q7313575",
-   "title": "Renu Setna",
-   "fame": 8144,
-   "views": 8144,
-   "traffic": 0,
-   "news": 0,
-   "news_at": null,
-   "headlines": [],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-26"
-   ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q7313575",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-24"
   }
  ],
  "hazards": [],
@@ -353,15 +389,15 @@
   {
    "qid": "Q449502",
    "title": "Michael Giles",
-   "fame": 19595,
-   "views": 19595,
+   "fame": 7636,
+   "views": 7636,
    "traffic": 0,
    "news": 0,
    "news_at": null,
    "headlines": [],
    "region": "world",
    "via": [
-    "wikipedia-top-2026-11-26"
+    "wikipedia-top-2026-11-27"
    ],
    "owners": [],
    "reports": [],
@@ -371,16 +407,13 @@
    "date": "2026-11-23"
   }
  ],
- "trend_errors": [
-  "wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 135 people)"
- ],
  "outlets": {
-  "headlines": 735,
+  "headlines": 732,
   "feeds": 29,
   "owners": 20,
-  "matched": 34,
-  "corroborated": 2
+  "matched": 37,
+  "corroborated": 3
  },
  "emerging": [],
- "outlet_note": "outlets: 735 headlines from 29 feeds (20 owners), 34 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 732 headlines from 29 feeds (20 owners), 37 matched to articles, 3 candidates with 2+ owners, 0 nw- stories (on)"
 }
