@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28T02:18:39+00:00",
+ "at": "2026-11-28T02:48:24+00:00",
  "quakes": [],
  "trending": [
   {
@@ -90,9 +90,9 @@
   {
    "qid": "Q4755286",
    "title": "Andrea Stewart-Cousins",
-   "fame": 150500,
+   "fame": 150000,
    "views": 0,
-   "traffic": 500,
+   "traffic": 0,
    "news": 150000,
    "news_at": "2026-11-27T23:04:49+00:00",
    "headlines": [
@@ -101,7 +101,6 @@
    ],
    "region": "world",
    "via": [
-    "google-trends-US:hillary clinton",
     "google-news:Andrea Stewart-Cousins, New York’s First Female Senate Majority Leader, Dies",
     "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
     "outlet:Disney (ABC News)"
@@ -372,13 +371,16 @@
    "date": "2026-11-23"
   }
  ],
+ "trend_errors": [
+  "wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 135 people)"
+ ],
  "outlets": {
-  "headlines": 739,
+  "headlines": 735,
   "feeds": 29,
   "owners": 20,
-  "matched": 37,
+  "matched": 34,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 739 headlines from 29 feeds (20 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 735 headlines from 29 feeds (20 owners), 34 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
