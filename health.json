@@ -1,12 +1,18 @@
 {
- "at": "2026-11-28T01:02:19+00:00",
+ "at": "2026-11-28T01:32:50+00:00",
  "ok": true,
  "steps": [
-  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 135 units today",
+  "channel jobs (setup+untag): untag finished 2026-10-23T11:24:10+00:00; 136 units today",
   "watch: 2 candidates (0 quakes, 11 trending), 0 hazard alerts",
-  "outlets: 745 headlines from 29 feeds (20 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
-  "trend radar errors: ['wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 135 people)']",
-  "hold wk-Q21642629: last Short went out 1.9 h ago",
-  "hold wk-Q449502: last Short went out 1.9 h ago"
- ]
+  "outlets: 681 headlines from 28 feeds (19 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)",
+  "trend radar errors: ['outlet thehindu: HTTPError: 403 Client Error: Forbidden for url: https://www.thehindu.com/news/national/feeder/default.rss']",
+  "published wk-Q21642629: https://www.youtube.com/shorts/LuFvjML-f1U"
+ ],
+ "published": {
+  "video_id": "LuFvjML-f1U",
+  "url": "https://www.youtube.com/shorts/LuFvjML-f1U",
+  "title": "Bronson Reed, NXT Champion, Dies at 38",
+  "privacy": "public",
+  "synthetic_declared": true
+ }
 }

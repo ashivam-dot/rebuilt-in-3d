@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28T01:02:20+00:00",
+ "at": "2026-11-28T01:32:51+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,6 +21,57 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
+  },
+  {
+   "qid": "Q21642629",
+   "title": "Bronson Reed",
+   "fame": 195000,
+   "views": 0,
+   "traffic": 20000,
+   "news": 175000,
+   "news_at": "2026-11-28T00:55:00+00:00",
+   "headlines": [
+    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+    "WWE announces death of star Bronson Reed at 38"
+   ],
+   "region": "world",
+   "via": [
+    "google-trends-GB:bronson reed",
+    "google-news:Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+    "google-news:WWE announces death of star Bronson Reed at 38",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "Bennett, Coleman & Co.",
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "WWE announces death of star Bronson Reed at 38",
+     "url": "https://timesofindia.indiatimes.com/sports/wwe/wwe-announces-death-of-star-bronson-reed-at-38/articleshow/136236079.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T00:55:00+00:00"
+    },
+    {
+     "title": "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+     "url": "https://www.foxnews.com/outkick-sports/jermaine-haley-wwe-star-known-bronson-reed-dead-38",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T00:20:01+00:00"
+    }
+   ],
+   "id": "wk-Q21642629",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
   },
   {
    "qid": "Q4755286",
@@ -203,58 +254,6 @@
    "date": "2026-11-24"
   },
   {
-   "qid": "Q21642629",
-   "title": "Bronson Reed",
-   "fame": 71000,
-   "views": 0,
-   "traffic": 21000,
-   "news": 50000,
-   "news_at": "2026-11-28T00:55:00+00:00",
-   "headlines": [
-    "WWE announces death of star Bronson Reed at 38",
-    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-IN:bronson reed",
-    "google-trends-GB:bronson reed",
-    "google-news:WWE announces death of star Bronson Reed at 38",
-    "google-news:Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "WWE announces death of star Bronson Reed at 38",
-     "url": "https://timesofindia.indiatimes.com/sports/wwe/wwe-announces-death-of-star-bronson-reed-at-38/articleshow/136236079.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-28T00:55:00+00:00"
-    },
-    {
-     "title": "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-     "url": "https://www.foxnews.com/outkick-sports/jermaine-haley-wwe-star-known-bronson-reed-dead-38",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-28T00:20:01+00:00"
-    }
-   ],
-   "id": "wk-Q21642629",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
    "qid": "Q7032653",
    "title": "Nigel Starmer-Smith",
    "fame": 20194,
@@ -340,21 +339,20 @@
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 71000,
+   "fame": 195000,
    "views": 0,
-   "traffic": 21000,
-   "news": 50000,
+   "traffic": 20000,
+   "news": 175000,
    "news_at": "2026-11-28T00:55:00+00:00",
    "headlines": [
-    "WWE announces death of star Bronson Reed at 38",
-    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
+    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+    "WWE announces death of star Bronson Reed at 38"
    ],
    "region": "world",
    "via": [
-    "google-trends-IN:bronson reed",
     "google-trends-GB:bronson reed",
-    "google-news:WWE announces death of star Bronson Reed at 38",
     "google-news:Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+    "google-news:WWE announces death of star Bronson Reed at 38",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Fox Corporation"
    ],
@@ -411,15 +409,15 @@
   }
  ],
  "trend_errors": [
-  "wikidata recent deaths: HTTP 502 (used the list from 0.5 h ago, 135 people)"
+  "outlet thehindu: HTTPError: 403 Client Error: Forbidden for url: https://www.thehindu.com/news/national/feeder/default.rss"
  ],
  "outlets": {
-  "headlines": 745,
-  "feeds": 29,
-  "owners": 20,
-  "matched": 31,
+  "headlines": 681,
+  "feeds": 28,
+  "owners": 19,
+  "matched": 37,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 745 headlines from 29 feeds (20 owners), 31 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 681 headlines from 28 feeds (19 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
