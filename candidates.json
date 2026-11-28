@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28T01:32:51+00:00",
+ "at": "2026-11-28T02:18:39+00:00",
  "quakes": [],
  "trending": [
   {
@@ -25,28 +25,42 @@
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 195000,
+   "fame": 200000,
    "views": 0,
-   "traffic": 20000,
-   "news": 175000,
-   "news_at": "2026-11-28T00:55:00+00:00",
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-11-28T02:05:33+00:00",
    "headlines": [
-    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-    "WWE announces death of star Bronson Reed at 38"
+    "WWE's Bronson Reed Dies at Age 38 'Due to Medical Complications' Following Crown Jewel",
+    "Adelaide-born WWE wrestler Bronson Reed dies aged 38",
+    "WWE announces death of star Bronson Reed at 38",
+    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
    ],
    "region": "world",
    "via": [
-    "google-trends-GB:bronson reed",
-    "google-news:Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+    "google-news:WWE's Bronson Reed Dies at Age 38 'Due to Medical Complications' Following Crown Jewel",
+    "google-news:Adelaide-born WWE wrestler Bronson Reed dies aged 38",
     "google-news:WWE announces death of star Bronson Reed at 38",
+    "outlet:ABC (Australia)",
     "outlet:Bennett, Coleman & Co.",
     "outlet:Fox Corporation"
    ],
    "owners": [
+    "ABC (Australia)",
     "Bennett, Coleman & Co.",
     "Fox Corporation"
    ],
    "reports": [
+    {
+     "title": "Adelaide-born WWE wrestler Bronson Reed dies aged 38",
+     "url": "https://www.abc.net.au/news/2026-11-28/wwe-wrestler-bronson-reed-dies-aged-38/107438016",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T02:05:33+00:00"
+    },
     {
      "title": "WWE announces death of star Bronson Reed at 38",
      "url": "https://timesofindia.indiatimes.com/sports/wwe/wwe-announces-death-of-star-bronson-reed-at-38/articleshow/136236079.cms",
@@ -76,9 +90,9 @@
   {
    "qid": "Q4755286",
    "title": "Andrea Stewart-Cousins",
-   "fame": 150000,
+   "fame": 150500,
    "views": 0,
-   "traffic": 0,
+   "traffic": 500,
    "news": 150000,
    "news_at": "2026-11-27T23:04:49+00:00",
    "headlines": [
@@ -87,6 +101,7 @@
    ],
    "region": "world",
    "via": [
+    "google-trends-US:hillary clinton",
     "google-news:Andrea Stewart-Cousins, New York’s First Female Senate Majority Leader, Dies",
     "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
     "outlet:Disney (ABC News)"
@@ -337,57 +352,6 @@
  "hazards": [],
  "candidates": [
   {
-   "qid": "Q21642629",
-   "title": "Bronson Reed",
-   "fame": 195000,
-   "views": 0,
-   "traffic": 20000,
-   "news": 175000,
-   "news_at": "2026-11-28T00:55:00+00:00",
-   "headlines": [
-    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-    "WWE announces death of star Bronson Reed at 38"
-   ],
-   "region": "world",
-   "via": [
-    "google-trends-GB:bronson reed",
-    "google-news:Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-    "google-news:WWE announces death of star Bronson Reed at 38",
-    "outlet:Bennett, Coleman & Co.",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "Bennett, Coleman & Co.",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "WWE announces death of star Bronson Reed at 38",
-     "url": "https://timesofindia.indiatimes.com/sports/wwe/wwe-announces-death-of-star-bronson-reed-at-38/articleshow/136236079.cms",
-     "outlet": "Times of India",
-     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
-     "owner": "Bennett, Coleman & Co.",
-     "group": "Indian national",
-     "lang": "en",
-     "at": "2026-11-28T00:55:00+00:00"
-    },
-    {
-     "title": "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-     "url": "https://www.foxnews.com/outkick-sports/jermaine-haley-wwe-star-known-bronson-reed-dead-38",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-28T00:20:01+00:00"
-    }
-   ],
-   "id": "wk-Q21642629",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
    "qid": "Q449502",
    "title": "Michael Giles",
    "fame": 19595,
@@ -408,16 +372,13 @@
    "date": "2026-11-23"
   }
  ],
- "trend_errors": [
-  "outlet thehindu: HTTPError: 403 Client Error: Forbidden for url: https://www.thehindu.com/news/national/feeder/default.rss"
- ],
  "outlets": {
-  "headlines": 681,
-  "feeds": 28,
-  "owners": 19,
+  "headlines": 739,
+  "feeds": 29,
+  "owners": 20,
   "matched": 37,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 681 headlines from 28 feeds (19 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 739 headlines from 29 feeds (20 owners), 37 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
