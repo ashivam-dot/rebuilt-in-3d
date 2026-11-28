@@ -40,8 +40,8 @@ WORKFLOWS = [
 FAIL_STREAK = 3
 # Paused by the owner on 2026-10-20 (channel -> repo): silence and stopped workflows are expected, not problems.
 # Pangaea Nights publishes again since 2026-10-22 (three Shorts a day from 2026-10-25); Mool Katha since 2026-10-27;
-# Kyun Hua, now Pal Pal News (hindi-news-desk), since 2026-10-29.
-PAUSED = {"Kahaani Chaos": "kahaani-chaos"}
+# Kyun Hua, now Pal Pal News (hindi-news-desk), since 2026-10-29. Atlas in Numbers stopped by the owner 2026-11-28.
+PAUSED = {"Kahaani Chaos": "kahaani-chaos", "Atlas in Numbers": "history-last-hours-control"}
 
 
 def _get(url: str, token: str | None = None) -> bytes:
