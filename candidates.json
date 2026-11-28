@@ -1,27 +1,27 @@
 {
- "at": "2026-11-28T14:35:08+00:00",
+ "at": "2026-11-28T15:05:21+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 350000,
+   "fame": 225000,
    "views": 0,
    "traffic": 0,
-   "news": 350000,
+   "news": 225000,
    "news_at": "2026-11-28T12:54:26+00:00",
    "headlines": [
     "Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
-    "WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
     "WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
     "WWE star Bronson Reed dies at 38 due to 'medical complications'",
-    "Australian wrestler Bronson Reed dies aged 38, WWE says"
+    "Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "Adelaide-born WWE wrestler Bronson Reed dies at 38"
    ],
    "region": "world",
    "via": [
     "google-news:Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
-    "google-news:WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
     "google-news:WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
+    "google-news:WWE star Bronson Reed dies at 38 due to 'medical complications'",
     "outlet:Fox Corporation",
     "outlet:Disney (ABC News)",
     "outlet:BBC",
@@ -118,6 +118,45 @@
    "date": "2026-11-27"
   },
   {
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 181058,
+   "views": 31058,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-28T04:59:00+00:00",
+   "headlines": [
+    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
+  },
+  {
    "qid": null,
    "title": "2026 Black Sea Cyclone",
    "fame": 125000,
@@ -160,43 +199,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
-  },
-  {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 56058,
-   "views": 31058,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-27T22:26:27+00:00",
-   "headlines": [
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
   },
   {
    "qid": "Q1287886",
@@ -468,9 +470,9 @@
   "headlines": 685,
   "feeds": 30,
   "owners": 21,
-  "matched": 25,
+  "matched": 30,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 25 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
