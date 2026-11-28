@@ -1,27 +1,26 @@
 {
- "at": "2026-11-28T09:05:14+00:00",
+ "at": "2026-11-28T09:35:30+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 325000,
+   "fame": 200000,
    "views": 0,
    "traffic": 0,
-   "news": 325000,
+   "news": 200000,
    "news_at": "2026-11-28T07:31:14+00:00",
    "headlines": [
-    "WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
-    "WWE star Bronson Reed dies at 38 due to ‘medical complications’",
+    "'At a loss for words': Wrestling world mourns Bronson Reed's shocking death at 38",
     "Australian wrestler Bronson Reed dies aged 38, WWE says",
     "Adelaide-born WWE wrestler Bronson Reed dies at 38",
     "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
    ],
    "region": "world",
    "via": [
-    "google-news:WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
-    "google-news:WWE star Bronson Reed dies at 38 due to ‘medical complications’",
+    "google-news:'At a loss for words': Wrestling world mourns Bronson Reed's shocking death at 38",
     "google-news:Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "google-news:Adelaide-born WWE wrestler Bronson Reed dies at 38",
     "outlet:BBC",
     "outlet:ABC (Australia)",
     "outlet:Fox Corporation"
@@ -106,6 +105,136 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-27"
+  },
+  {
+   "qid": null,
+   "title": "2026 Black Sea Cyclone",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-27T21:17:40+00:00",
+   "headlines": [
+    "Kyiv offers Black Sea ceasefire to protect grain exports",
+    "Ukraine submits Black Sea ceasefire offer, awaits Russian response"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Kyiv offers Black Sea ceasefire to protect grain exports",
+    "google-news:Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+     "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-27T21:09:12+00:00"
+    }
+   ],
+   "id": "wp-2026_Black_Sea_Cyclone",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-11-28",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261128-afghanistan-kunar-explosion",
+   "qid": null,
+   "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+   "name": "Afghanistan Kunar",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T08:55:08+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least six students killed in blast beside school in Afghanistan’s Kunar",
+    "Several students killed in explosion at school in Afghanistan's Kunar province",
+    "Several Students Feared Dead In Blast At School In Afghanistan",
+    "An explosion at a middle school in eastern Afghanistan kills or wounds several students"
+   ],
+   "places": [
+    "students",
+    "Feared",
+    "Dead"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T07:42:09+00:00"
+    },
+    {
+     "title": "An explosion at a middle school in eastern Afghanistan kills or wounds several students",
+     "url": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T08:55:08+00:00"
+    },
+    {
+     "title": "Several Students Feared Dead In Blast At School In Afghanistan",
+     "url": "https://www.ndtv.com/world-news/several-students-feared-dead-in-blast-at-school-in-afghanistan-12388416#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T08:37:59+00:00"
+    },
+    {
+     "title": "Several students killed in explosion at school in Afghanistan's Kunar province",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/several-students-killed-in-explosion-at-school-in-afghanistans-kunar-province/articleshow/136241941.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T07:57:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
   },
   {
    "qid": "Q1287886",
@@ -258,6 +387,42 @@
    "date": "2026-11-24"
   },
   {
+   "qid": "Q142232361",
+   "title": "E. J. Carroll (actor)",
+   "fame": 25000,
+   "views": 0,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-28T09:28:39+00:00",
+   "headlines": [
+    "For 123 days, Ben Carroll walked in the shadow of his predecessors"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:For 123 days, Ben Carroll walked in the shadow of his predecessors",
+    "outlet:ABC (Australia)"
+   ],
+   "owners": [
+    "ABC (Australia)"
+   ],
+   "reports": [
+    {
+     "title": "For 123 days, Ben Carroll walked in the shadow of his predecessors",
+     "url": "https://www.abc.net.au/news/2026-11-28/ben-carroll-loses-vic-election-niddrie-seat-result/107416690",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T09:28:39+00:00"
+    }
+   ],
+   "id": "wk-Q142232361",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-19"
+  },
+  {
    "qid": "Q17562446",
    "title": "Ingvar Jónsson",
    "fame": 18598,
@@ -359,14 +524,326 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": null,
+   "title": "2026 Black Sea Cyclone",
+   "fame": 150000,
+   "views": 0,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-27T21:17:40+00:00",
+   "headlines": [
+    "Kyiv offers Black Sea ceasefire to protect grain exports",
+    "Ukraine submits Black Sea ceasefire offer, awaits Russian response"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:Kyiv offers Black Sea ceasefire to protect grain exports",
+    "google-news:Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+    "outlet:France Médias Monde"
+   ],
+   "owners": [
+    "France Médias Monde"
+   ],
+   "reports": [
+    {
+     "title": "Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+     "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response",
+     "outlet": "France 24",
+     "outlet_hi": "फ़्रांस 24",
+     "owner": "France Médias Monde",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-27T21:09:12+00:00"
+    }
+   ],
+   "id": "wp-2026_Black_Sea_Cyclone",
+   "kind": "incident",
+   "category": "cyclone",
+   "date": "2026-11-28",
+   "coords": null,
+   "has_coords": false
+  },
+  {
+   "id": "nw-20261128-afghanistan-kunar-explosion",
+   "qid": null,
+   "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+   "name": "Afghanistan Kunar",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T08:55:08+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least six students killed in blast beside school in Afghanistan’s Kunar",
+    "Several students killed in explosion at school in Afghanistan's Kunar province",
+    "Several Students Feared Dead In Blast At School In Afghanistan",
+    "An explosion at a middle school in eastern Afghanistan kills or wounds several students"
+   ],
+   "places": [
+    "students",
+    "Feared",
+    "Dead"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T07:42:09+00:00"
+    },
+    {
+     "title": "An explosion at a middle school in eastern Afghanistan kills or wounds several students",
+     "url": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T08:55:08+00:00"
+    },
+    {
+     "title": "Several Students Feared Dead In Blast At School In Afghanistan",
+     "url": "https://www.ndtv.com/world-news/several-students-feared-dead-in-blast-at-school-in-afghanistan-12388416#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T08:37:59+00:00"
+    },
+    {
+     "title": "Several students killed in explosion at school in Afghanistan's Kunar province",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/several-students-killed-in-explosion-at-school-in-afghanistans-kunar-province/articleshow/136241941.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T07:57:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  },
+  {
+   "id": "nw-20261128-afghanistan-kunar-explosion",
+   "qid": null,
+   "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+   "name": "Afghanistan Kunar",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T08:55:08+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least six students killed in blast beside school in Afghanistan’s Kunar",
+    "Several students killed in explosion at school in Afghanistan's Kunar province",
+    "Several Students Feared Dead In Blast At School In Afghanistan",
+    "An explosion at a middle school in eastern Afghanistan kills or wounds several students"
+   ],
+   "places": [
+    "students",
+    "Feared",
+    "Dead"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T07:42:09+00:00"
+    },
+    {
+     "title": "An explosion at a middle school in eastern Afghanistan kills or wounds several students",
+     "url": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T08:55:08+00:00"
+    },
+    {
+     "title": "Several Students Feared Dead In Blast At School In Afghanistan",
+     "url": "https://www.ndtv.com/world-news/several-students-feared-dead-in-blast-at-school-in-afghanistan-12388416#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T08:37:59+00:00"
+    },
+    {
+     "title": "Several students killed in explosion at school in Afghanistan's Kunar province",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/several-students-killed-in-explosion-at-school-in-afghanistans-kunar-province/articleshow/136241941.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T07:57:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
  "outlets": {
   "headlines": 696,
   "feeds": 29,
   "owners": 20,
-  "matched": 26,
-  "corroborated": 2
+  "matched": 29,
+  "corroborated": 3
  },
- "emerging": [],
- "outlet_note": "outlets: 696 headlines from 29 feeds (20 owners), 26 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "emerging": [
+  {
+   "id": "nw-20261128-afghanistan-kunar-explosion",
+   "qid": null,
+   "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+   "name": "Afghanistan Kunar",
+   "kind": "incident",
+   "category": "explosion",
+   "date": "2026-11-28",
+   "news_at": "2026-11-28T08:55:08+00:00",
+   "owners": [
+    "Al Jazeera Media Network",
+    "Bennett, Coleman & Co.",
+    "NDTV",
+    "Disney (ABC News)"
+   ],
+   "fame": 100000,
+   "news": 100000,
+   "views": 0,
+   "traffic": 0,
+   "headlines": [
+    "At least six students killed in blast beside school in Afghanistan’s Kunar",
+    "Several students killed in explosion at school in Afghanistan's Kunar province",
+    "Several Students Feared Dead In Blast At School In Afghanistan",
+    "An explosion at a middle school in eastern Afghanistan kills or wounds several students"
+   ],
+   "places": [
+    "students",
+    "Feared",
+    "Dead"
+   ],
+   "attackers": [],
+   "hindi_headlines": [],
+   "hindi_news": 0,
+   "geos": [
+    "world"
+   ],
+   "region": "world",
+   "india_link": false,
+   "label_hi": null,
+   "reports": [
+    {
+     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+     "outlet": "Al Jazeera",
+     "outlet_hi": "अल जज़ीरा",
+     "owner": "Al Jazeera Media Network",
+     "group": "international",
+     "lang": "en",
+     "at": "2026-11-28T07:42:09+00:00"
+    },
+    {
+     "title": "An explosion at a middle school in eastern Afghanistan kills or wounds several students",
+     "url": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T08:55:08+00:00"
+    },
+    {
+     "title": "Several Students Feared Dead In Blast At School In Afghanistan",
+     "url": "https://www.ndtv.com/world-news/several-students-feared-dead-in-blast-at-school-in-afghanistan-12388416#publisher=newsstand",
+     "outlet": "NDTV",
+     "outlet_hi": "एनडीटीवी",
+     "owner": "NDTV",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T08:37:59+00:00"
+    },
+    {
+     "title": "Several students killed in explosion at school in Afghanistan's Kunar province",
+     "url": "https://timesofindia.indiatimes.com/world/south-asia/several-students-killed-in-explosion-at-school-in-afghanistans-kunar-province/articleshow/136241941.cms",
+     "outlet": "Times of India",
+     "outlet_hi": "टाइम्स ऑफ़ इंडिया",
+     "owner": "Bennett, Coleman & Co.",
+     "group": "Indian national",
+     "lang": "en",
+     "at": "2026-11-28T07:57:10+00:00"
+    }
+   ],
+   "via": [
+    "outlet:Al Jazeera Media Network",
+    "outlet:Bennett, Coleman & Co.",
+    "outlet:NDTV",
+    "outlet:Disney (ABC News)"
+   ],
+   "emerging": true,
+   "article": null
+  }
+ ],
+ "outlet_note": "outlets: 696 headlines from 29 feeds (20 owners), 29 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261128-afghanistan-kunar-explosion"
 }
