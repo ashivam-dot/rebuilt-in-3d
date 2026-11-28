@@ -1,7 +1,72 @@
 {
- "at": "2026-11-28T07:32:15+00:00",
+ "at": "2026-11-28T08:05:16+00:00",
  "quakes": [],
  "trending": [
+  {
+   "qid": "Q21642629",
+   "title": "Bronson Reed",
+   "fame": 200000,
+   "views": 0,
+   "traffic": 0,
+   "news": 200000,
+   "news_at": "2026-11-28T07:31:14+00:00",
+   "headlines": [
+    "WWE star Bronson Reed dies at 38 due to ‘medical complications’",
+    "Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "Adelaide-born WWE wrestler Bronson Reed dies at 38",
+    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
+   ],
+   "region": "world",
+   "via": [
+    "google-news:WWE star Bronson Reed dies at 38 due to ‘medical complications’",
+    "google-news:Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "google-news:Adelaide-born WWE wrestler Bronson Reed dies at 38",
+    "outlet:BBC",
+    "outlet:ABC (Australia)",
+    "outlet:Fox Corporation"
+   ],
+   "owners": [
+    "BBC",
+    "ABC (Australia)",
+    "Fox Corporation"
+   ],
+   "reports": [
+    {
+     "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
+     "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T07:31:14+00:00"
+    },
+    {
+     "title": "Adelaide-born WWE wrestler Bronson Reed dies at 38",
+     "url": "https://www.abc.net.au/news/2026-11-28/wwe-wrestler-bronson-reed-dies-aged-38/107438016",
+     "outlet": "ABC News (Australia)",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "ABC (Australia)",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T02:05:33+00:00"
+    },
+    {
+     "title": "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
+     "url": "https://www.foxnews.com/outkick-sports/jermaine-haley-wwe-star-known-bronson-reed-dead-38",
+     "outlet": "Fox News",
+     "outlet_hi": "फ़ॉक्स न्यूज़",
+     "owner": "Fox Corporation",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T00:20:01+00:00"
+    }
+   ],
+   "id": "wk-Q21642629",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
+  },
   {
    "qid": "Q4755286",
    "title": "Andrea Stewart-Cousins",
@@ -37,58 +102,6 @@
     }
    ],
    "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
-   "qid": "Q21642629",
-   "title": "Bronson Reed",
-   "fame": 175000,
-   "views": 0,
-   "traffic": 0,
-   "news": 175000,
-   "news_at": "2026-11-28T02:05:33+00:00",
-   "headlines": [
-    "WWE star Bronson Reed dies at 38 due to ‘medical complications’",
-    "Adelaide-born WWE wrestler Bronson Reed dies at 38",
-    "Jermaine Haley, WWE star known as Bronson Reed, dead at 38"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:WWE star Bronson Reed dies at 38 due to ‘medical complications’",
-    "google-news:Adelaide-born WWE wrestler Bronson Reed dies at 38",
-    "google-news:Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-    "outlet:ABC (Australia)",
-    "outlet:Fox Corporation"
-   ],
-   "owners": [
-    "ABC (Australia)",
-    "Fox Corporation"
-   ],
-   "reports": [
-    {
-     "title": "Adelaide-born WWE wrestler Bronson Reed dies at 38",
-     "url": "https://www.abc.net.au/news/2026-11-28/wwe-wrestler-bronson-reed-dies-aged-38/107438016",
-     "outlet": "ABC News (Australia)",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "ABC (Australia)",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-28T02:05:33+00:00"
-    },
-    {
-     "title": "Jermaine Haley, WWE star known as Bronson Reed, dead at 38",
-     "url": "https://www.foxnews.com/outkick-sports/jermaine-haley-wwe-star-known-bronson-reed-dead-38",
-     "outlet": "Fox News",
-     "outlet_hi": "फ़ॉक्स न्यूज़",
-     "owner": "Fox Corporation",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-28T00:20:01+00:00"
-    }
-   ],
-   "id": "wk-Q21642629",
    "kind": "death",
    "category": "death",
    "date": "2026-11-27"
@@ -347,12 +360,12 @@
  "hazards": [],
  "candidates": [],
  "outlets": {
-  "headlines": 709,
+  "headlines": 705,
   "feeds": 29,
   "owners": 20,
-  "matched": 24,
+  "matched": 23,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 709 headlines from 29 feeds (20 owners), 24 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 705 headlines from 29 feeds (20 owners), 23 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
