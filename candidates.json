@@ -1,62 +1,26 @@
 {
- "at": "2026-11-28T12:34:42+00:00",
+ "at": "2026-11-28T13:03:46+00:00",
  "quakes": [],
  "trending": [
   {
-   "qid": "Q7119473",
-   "title": "P. J. Gallagher (comedian)",
-   "fame": 87769,
-   "views": 62769,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-28T10:17:01+00:00",
-   "headlines": [
-    "Actor and comedian PJ Gallagher dies aged 51"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:Actor and comedian PJ Gallagher dies aged 51",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Actor and comedian PJ Gallagher dies aged 51",
-     "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-28T10:17:01+00:00"
-    }
-   ],
-   "id": "wk-Q7119473",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 75000,
+   "fame": 325000,
    "views": 0,
    "traffic": 0,
-   "news": 75000,
+   "news": 325000,
    "news_at": "2026-11-28T08:58:16+00:00",
    "headlines": [
-    "WWE star Bronson Reed dies at 38 due to 'medical complications'",
+    "WWE Star Bronson Reed Dies at 38",
     "Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "WWE star Bronson Reed dies at 38 due to 'medical complications'",
     "Adelaide-born WWE wrestler Bronson Reed dies at 38"
    ],
    "region": "world",
    "via": [
-    "google-news:WWE star Bronson Reed dies at 38 due to 'medical complications'",
+    "google-news:WWE Star Bronson Reed Dies at 38",
     "google-news:Australian wrestler Bronson Reed dies aged 38, WWE says",
-    "google-news:Adelaide-born WWE wrestler Bronson Reed dies at 38",
+    "google-news:WWE star Bronson Reed dies at 38 due to 'medical complications'",
     "outlet:Disney (ABC News)",
     "outlet:BBC",
     "outlet:ABC (Australia)"
@@ -104,9 +68,85 @@
    "date": "2026-11-27"
   },
   {
+   "qid": "Q7119473",
+   "title": "P. J. Gallagher (comedian)",
+   "fame": 212769,
+   "views": 62769,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-28T10:17:01+00:00",
+   "headlines": [
+    "Actor and comedian PJ Gallagher dies aged 51"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:Actor and comedian PJ Gallagher dies aged 51",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Actor and comedian PJ Gallagher dies aged 51",
+     "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T10:17:01+00:00"
+    }
+   ],
+   "id": "wk-Q7119473",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
+  },
+  {
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 181058,
+   "views": 31058,
+   "traffic": 0,
+   "news": 150000,
+   "news_at": "2026-11-28T01:28:02+00:00",
+   "headlines": [
+    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
+  },
+  {
    "id": "nw-20261128-students-explosion",
    "qid": null,
-   "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+   "title": "At least 10 students killed in blast beside school in Afghanistan’s Kunar",
    "name": "students",
    "kind": "incident",
    "category": "explosion",
@@ -122,7 +162,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "At least six students killed in blast beside school in Afghanistan’s Kunar",
+    "At least 10 students killed in blast beside school in Afghanistan’s Kunar",
     "7 students killed in Afghanistan school blast; at least 99 hurt",
     "Several Students Feared Dead In Blast At School In Afghanistan"
    ],
@@ -142,7 +182,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "title": "At least 10 students killed in blast beside school in Afghanistan’s Kunar",
      "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -250,43 +290,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-26"
-  },
-  {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 56058,
-   "views": 31058,
-   "traffic": 0,
-   "news": 25000,
-   "news_at": "2026-11-27T22:26:27+00:00",
-   "headlines": [
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
   },
   {
    "qid": "Q64610",
@@ -569,25 +572,18 @@
    "has_coords": false
   }
  ],
- "trend_errors": [
-  "google news IN: HTTP 503",
-  "google news IN-nation: HTTP 503",
-  "google news US: HTTP 503",
-  "google news world: HTTP 503",
-  "google news GB: HTTP 503"
- ],
  "outlets": {
   "headlines": 688,
   "feeds": 30,
   "owners": 21,
-  "matched": 46,
+  "matched": 38,
   "corroborated": 3
  },
  "emerging": [
   {
    "id": "nw-20261128-students-explosion",
    "qid": null,
-   "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+   "title": "At least 10 students killed in blast beside school in Afghanistan’s Kunar",
    "name": "students",
    "kind": "incident",
    "category": "explosion",
@@ -603,7 +599,7 @@
    "views": 0,
    "traffic": 0,
    "headlines": [
-    "At least six students killed in blast beside school in Afghanistan’s Kunar",
+    "At least 10 students killed in blast beside school in Afghanistan’s Kunar",
     "7 students killed in Afghanistan school blast; at least 99 hurt",
     "Several Students Feared Dead In Blast At School In Afghanistan"
    ],
@@ -623,7 +619,7 @@
    "label_hi": null,
    "reports": [
     {
-     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "title": "At least 10 students killed in blast beside school in Afghanistan’s Kunar",
      "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
      "outlet": "Al Jazeera",
      "outlet_hi": "अल जज़ीरा",
@@ -662,5 +658,5 @@
    "article": null
   }
  ],
- "outlet_note": "outlets: 688 headlines from 30 feeds (21 owners), 46 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261128-students-explosion"
+ "outlet_note": "outlets: 688 headlines from 30 feeds (21 owners), 38 matched to articles, 3 candidates with 2+ owners, 1 nw- stories (on): nw-20261128-students-explosion"
 }
