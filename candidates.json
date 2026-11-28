@@ -1,39 +1,49 @@
 {
- "at": "2026-11-28T15:05:21+00:00",
+ "at": "2026-11-28T15:35:50+00:00",
  "quakes": [],
  "trending": [
   {
    "qid": "Q21642629",
    "title": "Bronson Reed",
-   "fame": 225000,
+   "fame": 350000,
    "views": 0,
    "traffic": 0,
-   "news": 225000,
-   "news_at": "2026-11-28T12:54:26+00:00",
+   "news": 350000,
+   "news_at": "2026-11-28T15:07:52+00:00",
    "headlines": [
     "Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
-    "WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
+    "WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
     "WWE star Bronson Reed dies at 38 due to 'medical complications'",
-    "Australian wrestler Bronson Reed dies aged 38, WWE says",
-    "Adelaide-born WWE wrestler Bronson Reed dies at 38"
+    "WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
+    "Australian wrestler Bronson Reed dies aged 38, WWE says"
    ],
    "region": "world",
    "via": [
     "google-news:Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
-    "google-news:WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
+    "google-news:WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
     "google-news:WWE star Bronson Reed dies at 38 due to 'medical complications'",
-    "outlet:Fox Corporation",
     "outlet:Disney (ABC News)",
+    "outlet:Fox Corporation",
     "outlet:BBC",
     "outlet:ABC (Australia)"
    ],
    "owners": [
-    "Fox Corporation",
     "Disney (ABC News)",
+    "Fox Corporation",
     "BBC",
     "ABC (Australia)"
    ],
    "reports": [
+    {
+     "title": "WWE star Bronson Reed dies at 38 due to 'medical complications'",
+     "url": "https://abcnews.com/US/wwe-star-bronson-reed-dies-38-due-medical/story?id=138490946",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-28T15:07:52+00:00"
+    },
     {
      "title": "WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
      "url": "https://www.foxnews.com/outkick-sports/wwe-enters-survivor-series-wargames-heavy-hearts-following-death-bronson-reed-38",
@@ -43,16 +53,6 @@
      "group": "national",
      "lang": "en",
      "at": "2026-11-28T12:54:26+00:00"
-    },
-    {
-     "title": "WWE star Bronson Reed dies at 38 due to 'medical complications'",
-     "url": "https://abcnews.com/US/wwe-star-bronson-reed-dies-38-due-medical/story?id=138490946",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-28T08:58:16+00:00"
     },
     {
      "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
@@ -76,43 +76,6 @@
     }
    ],
    "id": "wk-Q21642629",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
-   "qid": "Q7119473",
-   "title": "P. J. Gallagher (comedian)",
-   "fame": 212769,
-   "views": 62769,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-28T13:34:39+00:00",
-   "headlines": [
-    "Actor and comedian PJ Gallagher dies aged 51"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:Actor and comedian PJ Gallagher dies aged 51",
-    "outlet:BBC"
-   ],
-   "owners": [
-    "BBC"
-   ],
-   "reports": [
-    {
-     "title": "Actor and comedian PJ Gallagher dies aged 51",
-     "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
-     "outlet": "BBC",
-     "outlet_hi": "बीबीसी",
-     "owner": "BBC",
-     "group": "public broadcaster",
-     "lang": "en",
-     "at": "2026-11-28T13:34:39+00:00"
-    }
-   ],
-   "id": "wk-Q7119473",
    "kind": "death",
    "category": "death",
    "date": "2026-11-27"
@@ -179,6 +142,43 @@
    "date": "2026-11-28",
    "coords": null,
    "has_coords": false
+  },
+  {
+   "qid": "Q7119473",
+   "title": "P. J. Gallagher (comedian)",
+   "fame": 87769,
+   "views": 62769,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-28T13:34:39+00:00",
+   "headlines": [
+    "Actor and comedian PJ Gallagher dies aged 51"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:Actor and comedian PJ Gallagher dies aged 51",
+    "outlet:BBC"
+   ],
+   "owners": [
+    "BBC"
+   ],
+   "reports": [
+    {
+     "title": "Actor and comedian PJ Gallagher dies aged 51",
+     "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
+     "outlet": "BBC",
+     "outlet_hi": "बीबीसी",
+     "owner": "BBC",
+     "group": "public broadcaster",
+     "lang": "en",
+     "at": "2026-11-28T13:34:39+00:00"
+    }
+   ],
+   "id": "wk-Q7119473",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
   },
   {
    "qid": "Q527834",
@@ -467,12 +467,12 @@
   }
  ],
  "outlets": {
-  "headlines": 685,
+  "headlines": 684,
   "feeds": 30,
   "owners": 21,
-  "matched": 30,
+  "matched": 28,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 685 headlines from 30 feeds (21 owners), 30 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 684 headlines from 30 feeds (21 owners), 28 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
