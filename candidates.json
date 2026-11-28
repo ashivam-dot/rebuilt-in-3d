@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T23:26:14+00:00",
+ "at": "2026-11-28T00:02:49+00:00",
  "quakes": [],
  "trending": [
   {
@@ -21,44 +21,6 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-23"
-  },
-  {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 150000,
-   "views": 0,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-27T22:26:27+00:00",
-   "headlines": [
-    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
   },
   {
    "qid": "Q1287886",
@@ -203,29 +165,40 @@
    "date": "2026-11-24"
   },
   {
-   "qid": "Q142293991",
-   "title": "2026 Giza fuel tanker explosion",
-   "fame": 50000,
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 25000,
    "views": 0,
    "traffic": 0,
-   "news": 0,
-   "news_at": "2026-11-27T00:00:00+00:00",
-   "headlines": [],
+   "news": 25000,
+   "news_at": "2026-11-27T22:26:27+00:00",
+   "headlines": [
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
    "region": "world",
    "via": [
-    "wikipedia-current-events-2026-11-26"
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:Disney (ABC News)"
    ],
-   "owners": [],
-   "reports": [],
-   "id": "wk-Q142293991",
-   "kind": "incident",
-   "category": "explosion",
-   "date": "2026-11-25",
-   "coords": [
-    30.10694444,
-    31.20305556
+   "owners": [
+    "Disney (ABC News)"
    ],
-   "has_coords": true
+   "reports": [
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
   },
   {
    "qid": "Q7032653",
@@ -309,14 +282,35 @@
   }
  ],
  "hazards": [],
- "candidates": [],
+ "candidates": [
+  {
+   "qid": "Q449502",
+   "title": "Michael Giles",
+   "fame": 19595,
+   "views": 19595,
+   "traffic": 0,
+   "news": 0,
+   "news_at": null,
+   "headlines": [],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-26"
+   ],
+   "owners": [],
+   "reports": [],
+   "id": "wk-Q449502",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-23"
+  }
+ ],
  "outlets": {
-  "headlines": 753,
+  "headlines": 741,
   "feeds": 29,
   "owners": 20,
-  "matched": 36,
+  "matched": 35,
   "corroborated": 1
  },
  "emerging": [],
- "outlet_note": "outlets: 753 headlines from 29 feeds (20 owners), 36 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 741 headlines from 29 feeds (20 owners), 35 matched to articles, 1 candidates with 2+ owners, 0 nw- stories (on)"
 }
