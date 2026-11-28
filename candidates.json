@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28T14:03:45+00:00",
+ "at": "2026-11-28T14:11:09+00:00",
  "quakes": [],
  "trending": [
   {
@@ -11,7 +11,7 @@
    "news": 350000,
    "news_at": "2026-11-28T12:54:26+00:00",
    "headlines": [
-    "WWE Star Bronson Reed Dies at 38",
+    "Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
     "WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
     "WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
     "WWE star Bronson Reed dies at 38 due to 'medical complications'",
@@ -19,7 +19,7 @@
    ],
    "region": "world",
    "via": [
-    "google-news:WWE Star Bronson Reed Dies at 38",
+    "google-news:Watch Kevin Owens honor Bronson Reed with in-ring tribute, speech at WWE Athens",
     "google-news:WWE star Jermaine Haley, known in ring as Bronson Reed, dies at 38",
     "google-news:WWE enters Survivor Series: WarGames with heavy hearts following the death of Bronson Reed at 38",
     "outlet:Fox Corporation",
@@ -113,45 +113,6 @@
     }
    ],
    "id": "wk-Q7119473",
-   "kind": "death",
-   "category": "death",
-   "date": "2026-11-27"
-  },
-  {
-   "qid": "Q4755286",
-   "title": "Andrea Stewart-Cousins",
-   "fame": 181058,
-   "views": 31058,
-   "traffic": 0,
-   "news": 150000,
-   "news_at": "2026-11-28T01:28:02+00:00",
-   "headlines": [
-    "Andrea Stewart-Cousins, NY Senate leader, dies at 76",
-    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
-   ],
-   "region": "world",
-   "via": [
-    "wikipedia-top-2026-11-27",
-    "google-news:Andrea Stewart-Cousins, NY Senate leader, dies at 76",
-    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-    "outlet:Disney (ABC News)"
-   ],
-   "owners": [
-    "Disney (ABC News)"
-   ],
-   "reports": [
-    {
-     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
-     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
-     "outlet": "ABC News",
-     "outlet_hi": "एबीसी न्यूज़",
-     "owner": "Disney (ABC News)",
-     "group": "national",
-     "lang": "en",
-     "at": "2026-11-27T22:26:27+00:00"
-    }
-   ],
-   "id": "wk-Q4755286",
    "kind": "death",
    "category": "death",
    "date": "2026-11-27"
@@ -264,6 +225,43 @@
    "kind": "death",
    "category": "death",
    "date": "2026-11-26"
+  },
+  {
+   "qid": "Q4755286",
+   "title": "Andrea Stewart-Cousins",
+   "fame": 56058,
+   "views": 31058,
+   "traffic": 0,
+   "news": 25000,
+   "news_at": "2026-11-27T22:26:27+00:00",
+   "headlines": [
+    "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76"
+   ],
+   "region": "world",
+   "via": [
+    "wikipedia-top-2026-11-27",
+    "google-news:NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+    "outlet:Disney (ABC News)"
+   ],
+   "owners": [
+    "Disney (ABC News)"
+   ],
+   "reports": [
+    {
+     "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+     "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+     "outlet": "ABC News",
+     "outlet_hi": "एबीसी न्यूज़",
+     "owner": "Disney (ABC News)",
+     "group": "national",
+     "lang": "en",
+     "at": "2026-11-27T22:26:27+00:00"
+    }
+   ],
+   "id": "wk-Q4755286",
+   "kind": "death",
+   "category": "death",
+   "date": "2026-11-27"
   },
   {
    "qid": "Q64610",
@@ -512,9 +510,9 @@
   "headlines": 688,
   "feeds": 30,
   "owners": 21,
-  "matched": 33,
+  "matched": 29,
   "corroborated": 2
  },
  "emerging": [],
- "outlet_note": "outlets: 688 headlines from 30 feeds (21 owners), 33 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
+ "outlet_note": "outlets: 688 headlines from 30 feeds (21 owners), 29 matched to articles, 2 candidates with 2+ owners, 0 nw- stories (on)"
 }
